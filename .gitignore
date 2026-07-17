@@ -15,8 +15,9 @@ minio-data
 postgres-data
 redis-data
 .local-pg
-.local-storage
+.local-storage*
 .tmp
+supabase/.temp
 test-results
 playwright-report
 blob-report

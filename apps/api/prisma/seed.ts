@@ -101,6 +101,10 @@ const permissionCodes = [
 ];
 
 async function seed() {
+  if (process.env.NODE_ENV === "production" && process.env.ALLOW_PRODUCTION_SEED !== "true") {
+    throw new Error("Production seeding requires ALLOW_PRODUCTION_SEED=true");
+  }
+
   await prisma.country.upsert({
     where: { code: "KZ" },
     update: {},
@@ -626,4 +630,12 @@ async function seed() {
   console.info(JSON.stringify({ demoBuyerOrganizationId: demoBuyer.id, demoBuyerAddressId: buyerAddress.id, demoOfferIds: [demoOffer.id, secondOffer.id, ...dentistryOffers.map(({ id }) => id)], suppliers: paymentSuppliers.length, cities: cities.size, paymentProvider: "MOCK", trustSnapshots: paymentSuppliers.length }, null, 2));
 }
 
-seed().finally(() => prisma.$disconnect());
+seed()
+  .then(async () => {
+    await prisma.$disconnect();
+  })
+  .catch(async (error) => {
+    console.error(error);
+    await prisma.$disconnect();
+    process.exit(1);
+  });
