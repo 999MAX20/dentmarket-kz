@@ -9,7 +9,7 @@ import { BackgroundQueueService } from "../../platform/jobs/background-queue.ser
 
 @Injectable()
 export class NotificationsService implements OnModuleInit {
-  private running = false;
+  private activeTick: Promise<void> | null = null;
   constructor(private readonly prisma: PrismaService, private readonly registry: NotificationAdapterRegistry, private readonly backgroundQueue: BackgroundQueueService) {}
 
   onModuleInit() { this.backgroundQueue.register("notifications.tick", async () => this.tick()); }
@@ -79,13 +79,15 @@ export class NotificationsService implements OnModuleInit {
   }
 
   async tick() {
-    if (this.running) return;
-    this.running = true;
-    try {
+    if (this.activeTick) return this.activeTick;
+    this.activeTick = (async () => {
       await this.projectOutboxEvents();
       await this.processPending();
+    })();
+    try {
+      await this.activeTick;
     } finally {
-      this.running = false;
+      this.activeTick = null;
     }
   }
 
