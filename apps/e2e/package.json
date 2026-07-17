@@ -1,0 +1,15 @@
+{
+  "name": "@marketplace/e2e",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "e2e": "playwright test",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.3"
+  }
+}

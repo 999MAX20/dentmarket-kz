@@ -1,0 +1,41 @@
+.stack { display: grid; gap: 18px; }
+.loading { min-height: 240px; display: grid; place-items: center; }
+.error { padding: 12px 14px; border: 1px solid #e6b7b2; border-radius: 12px; color: #8c2f28; background: #fff5f3; }
+.ratingHero { display: grid; grid-template-columns: minmax(280px, .8fr) minmax(0, 1.7fr); overflow: hidden; border: 1px solid var(--colorNeutralStroke2); border-radius: 14px; background: var(--colorNeutralBackground1); }
+.score { min-height: 220px; display: grid; align-content: center; gap: 7px; padding: 26px; color: var(--colorNeutralForegroundOnBrand); background: var(--colorBrandBackground); }
+.score span { font-size: 12px; font-weight: 650; }
+.score strong { font-size: clamp(30px, 4vw, 52px); line-height: 1; letter-spacing: -.05em; }
+.score small { max-width: 34ch; color: color-mix(in srgb, var(--colorNeutralForegroundOnBrand) 78%, transparent); line-height: 1.45; }
+.factors { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; padding: 26px; }
+.factors > div { display: grid; align-content: start; gap: 9px; }
+.factors span { color: var(--colorNeutralForeground3); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.factors strong { display: flex; justify-content: space-between; gap: 10px; font-size: 13px; }
+.factors strong small { color: var(--colorBrandForeground1); }
+.factors p { margin: 0; color: var(--colorNeutralForeground2); font-size: 12px; line-height: 1.5; }
+.indicators { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.indicators > div { min-height: 112px; display: grid; align-content: center; gap: 5px; padding: 13px; border-radius: 12px; background: var(--colorNeutralBackground2); }
+.indicators span { min-height: 30px; color: var(--colorNeutralForeground2); font-size: 10px; line-height: 1.4; }
+.indicators strong { font-size: 21px; letter-spacing: -.03em; }
+.indicators small { color: var(--colorNeutralForeground3); font-size: 9px; }
+.columns { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: start; }
+.rows { display: grid; gap: 8px; }
+.row { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 13px 14px; border-radius: 12px; background: var(--colorNeutralBackground2); }
+.row > div { display: grid; gap: 4px; }
+.row > div:last-child { justify-items: end; }
+.row strong { font-size: 12px; }
+.row small { color: var(--colorNeutralForeground3); font-size: 10px; }
+.incident { display: grid; gap: 10px; padding: 14px; border: 1px solid var(--colorNeutralStroke2); border-radius: 12px; }
+.incident header { display: flex; justify-content: space-between; gap: 10px; }
+.incident p { margin: 0; color: var(--colorNeutralForeground2); font-size: 11px; line-height: 1.5; }
+.incident dl { display: grid; gap: 8px; margin: 0; }
+.incident dl div { display: grid; gap: 2px; }
+.incident dt { color: var(--colorNeutralForeground3); font-size: 9px; text-transform: uppercase; letter-spacing: .06em; }
+.incident dd { margin: 0; font-size: 11px; }
+.reviews { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px; }
+.reviews article { display: grid; align-content: start; gap: 10px; padding: 15px; border: 1px solid var(--colorNeutralStroke2); border-radius: 12px; }
+.reviews header { display: flex; justify-content: space-between; gap: 10px; }
+.reviews p { margin: 0; color: var(--colorNeutralForeground2); font-size: 12px; line-height: 1.5; }
+.reviews > article > small { color: var(--colorNeutralForeground3); }
+.reviews blockquote { display: grid; gap: 5px; margin: 3px 0 0; padding: 10px; border-radius: 9px; color: var(--colorNeutralForeground2); background: var(--colorNeutralBackground2); font-size: 11px; }
+@media (max-width: 1100px) { .indicators { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 800px) { .ratingHero, .columns, .factors { grid-template-columns: 1fr; } .indicators { grid-template-columns: repeat(2, 1fr); } .row { align-items: flex-start; flex-direction: column; } .row > div:last-child { justify-items: start; } }

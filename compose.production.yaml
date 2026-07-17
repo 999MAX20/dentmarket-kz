@@ -1,0 +1,79 @@
+name: dental-marketplace-production
+
+x-runtime: &runtime
+  restart: unless-stopped
+  init: true
+  read_only: true
+  tmpfs: [/tmp]
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  networks: [marketplace]
+  logging:
+    driver: json-file
+    options: { max-size: "20m", max-file: "5" }
+
+services:
+  api:
+    <<: *runtime
+    image: ${REGISTRY:?Set REGISTRY}/marketplace-api:${APP_RELEASE:?Set APP_RELEASE}
+    command: ["/bin/sh", "-c", "pnpm --filter @marketplace/api exec prisma migrate deploy && exec pnpm --filter @marketplace/api start"]
+    env_file: ["${ENV_FILE:-.env.production}"]
+    expose: ["4000"]
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:4000/api/health/ready"]
+      interval: 15s
+      timeout: 5s
+      retries: 20
+      start_period: 30s
+    stop_grace_period: 45s
+    deploy:
+      resources:
+        limits: { cpus: "2.0", memory: 2G }
+
+  admin-web:
+    <<: *runtime
+    image: ${REGISTRY}/marketplace-admin-web:${APP_RELEASE}
+    expose: ["3000"]
+    depends_on: { api: { condition: service_healthy } }
+    deploy: { resources: { limits: { cpus: "1.0", memory: 1G } } }
+  buyer-web:
+    <<: *runtime
+    image: ${REGISTRY}/marketplace-buyer-web:${APP_RELEASE}
+    expose: ["3001"]
+    depends_on: { api: { condition: service_healthy } }
+    deploy: { resources: { limits: { cpus: "1.0", memory: 1G } } }
+  supplier-web:
+    <<: *runtime
+    image: ${REGISTRY}/marketplace-supplier-web:${APP_RELEASE}
+    expose: ["3002"]
+    depends_on: { api: { condition: service_healthy } }
+    deploy: { resources: { limits: { cpus: "1.0", memory: 1G } } }
+  landing-web:
+    <<: *runtime
+    image: ${REGISTRY}/marketplace-landing-web:${APP_RELEASE}
+    expose: ["3003"]
+    deploy: { resources: { limits: { cpus: "0.5", memory: 512M } } }
+
+  caddy:
+    <<: *runtime
+    image: caddy:2.10-alpine
+    environment:
+      LANDING_DOMAIN: ${LANDING_DOMAIN:?Set LANDING_DOMAIN}
+      ADMIN_DOMAIN: ${ADMIN_DOMAIN:?Set ADMIN_DOMAIN}
+      BUYER_DOMAIN: ${BUYER_DOMAIN:?Set BUYER_DOMAIN}
+      SUPPLIER_DOMAIN: ${SUPPLIER_DOMAIN:?Set SUPPLIER_DOMAIN}
+      API_DOMAIN: ${API_DOMAIN:?Set API_DOMAIN}
+    ports: ["80:80", "443:443", "443:443/udp"]
+    volumes:
+      - ./infra/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      api: { condition: service_healthy }
+      admin-web: { condition: service_started }
+      buyer-web: { condition: service_started }
+      supplier-web: { condition: service_started }
+      landing-web: { condition: service_started }
+
+networks: { marketplace: {} }
+volumes: { caddy-data: {}, caddy-config: {} }

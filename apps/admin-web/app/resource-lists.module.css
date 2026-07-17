@@ -1,0 +1,150 @@
+.section {
+  margin-top: 32px;
+}
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+.sectionHeader h2 {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: -0.025em;
+}
+.sectionHeader p {
+  margin: 6px 0 0;
+  color: #596273;
+  font-size: 14px;
+}
+.refreshButton {
+  min-height: 36px;
+  padding: 0 14px;
+  border: 1px solid #c9ced6;
+  border-radius: 7px;
+  color: #243047;
+  background: #fff;
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+.refreshButton:hover {
+  background: #f7f8fa;
+}
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.panel {
+  min-height: 280px;
+  padding: 22px;
+  border: 1px solid #e0e3e8;
+  border-radius: 10px;
+  background: #fff;
+}
+.panelHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.panelHeader h3 {
+  margin: 0;
+  font-size: 17px;
+}
+.panelHeader span {
+  color: #596273;
+  font-size: 13px;
+}
+.rows {
+  display: grid;
+}
+.row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 20px;
+  padding: 14px 0;
+  border-bottom: 1px solid #e7e9ed;
+}
+.row:last-child {
+  border-bottom: 0;
+}
+.row > div {
+  display: grid;
+  gap: 4px;
+}
+.row strong {
+  font-size: 14px;
+}
+.row span {
+  color: #596273;
+  font-size: 12px;
+}
+.rowMeta {
+  text-align: right;
+  align-content: start;
+}
+.empty,
+.error {
+  min-height: 190px;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 7px;
+  padding: 24px;
+  border-radius: 8px;
+  text-align: center;
+}
+.empty {
+  background: #f7f8fa;
+  color: #465166;
+}
+.error {
+  background: #fff1ef;
+  color: #7a271a;
+}
+.empty span,
+.error span {
+  max-width: 38ch;
+  font-size: 13px;
+  line-height: 1.45;
+}
+.skeletons {
+  display: grid;
+  gap: 12px;
+}
+.skeletons i {
+  display: block;
+  height: 56px;
+  border-radius: 7px;
+  background: #eef0f3;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .skeletons i {
+    animation: pulse 1.5s ease-in-out infinite alternate;
+  }
+}
+@keyframes pulse {
+  to {
+    opacity: 0.55;
+  }
+}
+@media (max-width: 900px) {
+  .columns {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 560px) {
+  .sectionHeader {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .row {
+    grid-template-columns: 1fr;
+  }
+  .rowMeta {
+    text-align: left;
+  }
+}

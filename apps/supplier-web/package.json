@@ -1,0 +1,27 @@
+{
+  "name": "@marketplace/supplier-web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build --webpack",
+    "dev": "next dev --webpack --port 3002",
+    "start": "next start --port 3002",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@fluentui/react-components": "^9.74.4",
+    "@fluentui/react-icons": "^2.0.311",
+    "@marketplace/api-client": "workspace:*",
+    "@marketplace/ui": "workspace:*",
+    "next": "^16.2.10",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "vitest": "^3.2.4"
+  }
+}

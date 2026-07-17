@@ -1,0 +1,34 @@
+.switcher { min-width: 210px; }
+.healthGrid { display: grid; grid-template-columns: repeat(3, 1fr); }
+.healthItem { min-height: 112px; display: grid; align-content: center; gap: 7px; padding: 18px; border-right: 1px solid var(--colorNeutralStroke2); }
+.healthItem:last-child { border-right: 0; }
+.healthItem strong { font-size: 15px; }
+.healthItem p { margin: 0; color: var(--colorNeutralForeground3); font-size: 11px; line-height: 1.45; }
+.editCell { display: flex; align-items: center; gap: 6px; min-width: 210px; }
+.editCell input { min-width: 90px; }
+.timeline { display: grid; }
+.event { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 7px 12px; padding: 14px 18px 14px 35px; border-bottom: 1px solid var(--colorNeutralStroke3); }
+.event:last-child { border-bottom: 0; }
+.event::before { content: ""; position: absolute; left: 18px; top: 20px; width: 7px; height: 7px; border-radius: 50%; background: var(--colorBrandBackground); }
+.event > span:first-child { grid-column: 1 / -1; color: var(--colorNeutralForeground3); font-size: 10px; }
+.event strong { font-size: 12px; }
+.event p { margin: 4px 0 0; color: var(--colorNeutralForeground3); font-size: 11px; }
+.integrationList, .credentialList, .documentList { display: grid; }
+.integration, .credential, .document { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 20px; padding: 16px 18px; border-bottom: 1px solid var(--colorNeutralStroke3); }
+.integration:last-child, .credential:last-child, .document:last-child { border-bottom: 0; }
+.integration strong, .credential strong, .document strong { display: block; margin-bottom: 4px; font-size: 13px; }
+.integration p, .credential p, .document p { margin: 0; color: var(--colorNeutralForeground3); font-size: 11px; line-height: 1.45; }
+.formRow { display: grid; grid-template-columns: 1fr 1fr auto; gap: 8px; align-items: end; padding: 16px 18px; border-bottom: 1px solid var(--colorNeutralStroke2); }
+.toast { position: fixed; right: 22px; bottom: 22px; z-index: 50; max-width: 390px; padding: 13px 16px; border: 1px solid var(--colorNeutralStroke2); border-radius: 12px; background: var(--colorNeutralBackground1); box-shadow: var(--shadow16); font-size: 12px; }
+
+@media (max-width: 900px) { .healthGrid { grid-template-columns: 1fr; } .healthItem { border-right: 0; border-bottom: 1px solid var(--colorNeutralStroke2); } .event { grid-template-columns: minmax(0, 1fr) auto; } }
+@media (max-width: 650px) { .switcher { min-width: 0; max-width: 180px; } .integration, .credential, .document { grid-template-columns: 1fr; } .formRow { grid-template-columns: 1fr; } }
+.fileInput {
+  min-height: 32px;
+  width: 100%;
+  padding: 5px 8px;
+  border: 1px solid var(--colorNeutralStroke1);
+  border-radius: 4px;
+  background: var(--colorNeutralBackground1);
+  color: var(--colorNeutralForeground1);
+}

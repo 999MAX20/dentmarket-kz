@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master, "codex/**"]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_DB: marketplace
+          POSTGRES_USER: marketplace
+          POSTGRES_PASSWORD: marketplace
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U marketplace -d marketplace"
+          --health-interval 5s --health-timeout 3s --health-retries 10
+      redis:
+        image: redis:7-alpine
+        ports: ["6379:6379"]
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s --health-timeout 3s --health-retries 10
+    env:
+      DATABASE_URL: postgresql://marketplace:marketplace@localhost:5432/marketplace?schema=public
+      REDIS_URL: redis://localhost:6379
+      API_PORT: 4012
+      API_URL: http://127.0.0.1:4012/api
+      AUTH_MODE: development
+      INTEGRATION_ENCRYPTION_KEY: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      APP_SECURITY_ENCRYPTION_KEY: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      SIGNATURE_CALLBACK_SECRET: ci-signature-callback-secret-at-least-32-chars
+      OBJECT_STORAGE_DRIVER: local
+      LOCAL_STORAGE_PATH: .local-storage-ci
+      AV_SCAN_MODE: disabled
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.9.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm db:generate
+      - run: pnpm --filter @marketplace/api exec prisma migrate deploy
+      - run: pnpm db:seed
+      - run: pnpm --filter @marketplace/api exec prisma validate
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: RUN_TESTCONTAINERS=1 pnpm --filter @marketplace/api test -- postgres-concurrency.testcontainers.spec.ts
+      - run: pnpm build
+      - run: pnpm verify:production-config
+      - run: pnpm audit --prod --audit-level high
+      - run: docker compose config --quiet
+      - name: End-to-end API verification
+        run: |
+          pnpm --filter @marketplace/api start > /tmp/marketplace-api.log 2>&1 &
+          API_PID=$!
+          trap 'kill $API_PID || true; cat /tmp/marketplace-api.log' EXIT
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4012/api/health > /dev/null; then break; fi
+            sleep 1
+          done
+          curl --fail http://127.0.0.1:4012/api/health
+          pnpm verify:search-commerce
+          pnpm verify:document-compliance
+          pnpm verify:security
+          pnpm verify:onboarding-agreement
+          pnpm verify:trust-geo
+          pnpm verify:web
+      - name: Upload failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ci-diagnostics
+          path: |
+            /tmp/marketplace-api.log
+            test-results/
+            playwright-report/
+          if-no-files-found: ignore
+          retention-days: 14

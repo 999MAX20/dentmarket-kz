@@ -1,0 +1,26 @@
+.panel { margin-top: 24px; padding: 24px; background: #fff; border: 1px solid #e0e3e8; border-radius: 12px; }
+.header { display: flex; justify-content: space-between; gap: 24px; align-items: flex-start; }
+.header h2 { margin: 5px 0 6px; font-size: 22px; letter-spacing: -.02em; }
+.header p { margin: 0; max-width: 760px; color: #596273; line-height: 1.5; }
+.eyebrow { display: flex; align-items: center; gap: 7px; color: #244d80; text-transform: uppercase; letter-spacing: .08em; font-size: 11px; font-weight: 700; }
+.summary { display: flex; flex-wrap: wrap; gap: 9px; margin: 20px 0; }
+.summary span { padding: 8px 11px; background: #f3f6fa; border-radius: 7px; color: #596273; font-size: 12px; }
+.summary strong { color: #17202d; font-size: 15px; }
+.grid { display: grid; gap: 12px; }
+.card { border: 1px solid #e4e7eb; border-radius: 10px; padding: 17px; }
+.cardTop { display: flex; justify-content: space-between; gap: 16px; }
+.cardTop > div:first-child { display: flex; align-items: baseline; gap: 9px; }
+.cardTop code { font-size: 10px; color: #687386; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
+.badges span { border-radius: 999px; padding: 5px 8px; background: #edf1f5; color: #4b5666; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+.badges span[data-tone="READY"], .badges span[data-tone="LIVE_VERIFIED"] { background: #e2f5ea; color: #17663c; }
+.badges span[data-tone="CONNECTOR_NEEDED"], .badges span[data-tone="PARTIAL"] { background: #fff0d6; color: #84550b; }
+.badges span[data-tone="BLOCKED"] { background: #fde5e3; color: #9b2c24; }
+.meta, .directions { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 12px; }
+.meta span, .directions span { font-size: 11px; color: #5e6877; border: 1px solid #e6e8eb; border-radius: 5px; padding: 4px 7px; }
+.directions span { background: #f7f9fb; color: #244d80; }
+.card ul { margin: 13px 0 0; padding-left: 18px; color: #596273; font-size: 12px; line-height: 1.55; }
+.footer { display: flex; justify-content: space-between; gap: 16px; margin-top: 14px; padding-top: 12px; border-top: 1px solid #edf0f2; color: #7b8491; font-size: 10px; }
+.error { margin-top: 16px; padding: 12px; color: #9b2c24; background: #fff1f0; border-radius: 7px; }
+.loading { margin-top: 20px; color: #687386; }
+@media (max-width: 700px) { .panel { padding: 17px; } .header, .cardTop, .footer { flex-direction: column; } .badges { justify-content: flex-start; } }

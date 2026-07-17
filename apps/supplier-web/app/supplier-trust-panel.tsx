@@ -1,0 +1,42 @@
+"use client";
+
+import { Button, Spinner } from "@fluentui/react-components";
+import { MarketplaceApiClient, type ApiContext } from "@marketplace/api-client";
+import { EmptyState, ErrorState, PageHeader, Section, StatusTag, errorMessage, formatDate } from "@marketplace/ui";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import styles from "./supplier-trust-panel.module.css";
+
+const OPERATOR_ID = "00000000-0000-4000-8000-000000000002";
+const OPERATOR_ORG_ID = "00000000-0000-4000-8000-000000000001";
+type Indicator = { code: string; label: string; value: number; sampleSize: number };
+type Rating = { id?: string; status: string; score: string | null; confidence?: string; eventCount?: number; reviewCount?: number; computedAt?: string; version?: number; indicators: Indicator[]; factors: { strongest?: Array<{ label: string; value: number }>; weakest?: Array<{ label: string; value: number }> }; recommendations: Array<{ code: string; action: string }>; appeals?: Array<{ id: string; status: string; reason: string; createdAt: string }> };
+type Review = { id: string; overallRating: number; dimensions: Record<string, number>; comment: string | null; status: string; officialResponse: string | null; createdAt: string; anomalyFlags: string[] };
+type Incident = { id: string; impactedOrganizationId: string | null; type: string; severity: string; status: string; explanation: string; remediation: string; restorationCondition: string; actionType: string; actionExpiresAt: string | null; appeals: Array<{ id: string; status: string }> };
+type Warehouse = { id: string; name: string; addressLine: string | null; geoStatus: string; geoMethod: string | null; geoVerifiedAt: string | null; city?: { nameRu?: string } | null };
+
+const label: Record<string, string> = { MATCHING_ERROR: "Ошибочный matching", STALE_PRICE: "Устаревшая цена", UNRELIABLE_STOCK: "Недостоверный остаток", PACKAGING_ERROR: "Ошибка упаковки", INCOMPLETE_DOCUMENTS: "Неполные документы", DELIVERY_FAILURE: "Срыв доставки", SUSPICIOUS_PROMOTION: "Проверка акции", FAKE_REVIEW: "Проверка отзыва", UNVERIFIED_LOCATION: "Локация не подтверждена", PAYMENT_DETAILS_CHANGE: "Изменение реквизитов" };
+
+export function SupplierTrustPanel({ supplierId, apiContext }: { supplierId: string; apiContext?: ApiContext }) {
+  const api = useMemo(() => new MarketplaceApiClient(process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:4012/api", apiContext ?? { actorId: OPERATOR_ID, organizationId: OPERATOR_ORG_ID }), [apiContext]);
+  const [rating, setRating] = useState<Rating | null>(null);
+  const [reviews, setReviews] = useState<Review[]>([]);
+  const [incidents, setIncidents] = useState<Incident[]>([]);
+  const [warehouses, setWarehouses] = useState<Warehouse[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const load = useCallback(async () => { setLoading(true); setError(null); try { const [nextRating, nextReviews, nextIncidents, nextWarehouses] = await Promise.all([api.get<Rating>(`/trust/ratings/suppliers/${supplierId}`), api.get<Review[]>(`/trust/suppliers/${supplierId}/reviews`), api.get<Incident[]>("/trust/incidents"), api.get<Warehouse[]>(`/suppliers/${supplierId}/warehouses`)]); setRating(nextRating); setReviews(nextReviews); setIncidents(nextIncidents.filter(({ impactedOrganizationId }) => impactedOrganizationId === supplierId)); setWarehouses(nextWarehouses); } catch (cause) { setError(errorMessage(cause)); } finally { setLoading(false); } }, [api, supplierId]);
+  useEffect(() => { void load(); }, [load]);
+  const recompute = async () => { setBusy(true); setError(null); try { setRating(await api.post<Rating>(`/trust/ratings/suppliers/${supplierId}/recompute`, {})); } catch (cause) { setError(errorMessage(cause)); } finally { setBusy(false); } };
+  if (loading) return <div className={styles.loading}><Spinner label="Собираем подтверждённые показатели" /></div>;
+  if (error && !rating) return <ErrorState description={error} action={<Button onClick={() => void load()}>Повторить</Button>} />;
+  const score = rating?.status === "CALCULATED" && rating.score != null ? Number(rating.score) : null;
+  return <div className={styles.stack}>
+    <PageHeader eyebrow="Доверие и география" title="Рейтинг отражает исполнение, а не рекламный бюджет" description="Показатели строятся по подтверждённым заказам, стареют со временем и могут быть оспорены с сохранением аудита." actions={<Button appearance="secondary" disabled={busy} onClick={() => void recompute()}>{busy ? "Пересчитываем" : "Обновить рейтинг"}</Button>} />
+    {error ? <div className={styles.error}>{error}</div> : null}
+    <div className={styles.ratingHero}><div className={styles.score}><span>Надёжность поставщика</span><strong>{score == null ? "Недостаточно данных" : score.toFixed(1)}</strong><small>{score == null ? "Новый поставщик не получает низкую оценку" : `из 100, ${rating?.eventCount ?? 0} подтверждённых событий`}</small></div><div className={styles.factors}><div><span>Сильные стороны</span>{rating?.factors?.strongest?.slice(0, 3).map((item) => <strong key={item.label}>{item.label} <small>{item.value.toFixed(1)}</small></strong>) ?? <small>Данные накапливаются</small>}</div><div><span>Следующий фокус</span>{rating?.recommendations?.slice(0, 2).map((item) => <p key={item.code}>{item.action}</p>) ?? null}</div></div></div>
+    <Section title="Объективные признаки" description="Внутренняя формула защищена от механической накрутки. Поставщику доступны причины и направления улучшения.">{rating?.indicators?.length ? <div className={styles.indicators}>{rating.indicators.map((item) => <div key={item.code}><span>{item.label}</span><strong>{item.value.toFixed(1)}</strong><small>{item.sampleSize ? `${item.sampleSize} событий` : "Нужны данные"}</small></div>)}</div> : <EmptyState title="Показатели накапливаются" description="После первых подтверждённых исполнений появятся объяснимые признаки." />}</Section>
+    <div className={styles.columns}><Section title="Подтверждённые точки" description="Только проверенный склад получает локальный приоритет.">{warehouses.length ? <div className={styles.rows}>{warehouses.map((warehouse) => <div className={styles.row} key={warehouse.id}><div><strong>{warehouse.name}</strong><small>{warehouse.city?.nameRu ?? "Город не указан"}, {warehouse.addressLine ?? "адрес не указан"}</small></div><div><StatusTag tone={warehouse.geoStatus === "VERIFIED" ? "success" : "warning"}>{warehouse.geoStatus === "VERIFIED" ? "Подтверждён" : "Требует проверки"}</StatusTag>{warehouse.geoVerifiedAt ? <small>{formatDate(warehouse.geoVerifiedAt)}</small> : null}</div></div>)}</div> : <EmptyState title="Склады не добавлены" description="Добавьте склад и отправьте адрес на проверку." />}</Section><Section title="Мягкие ограничения" description="Каждое ограничение имеет причину, срок и путь восстановления.">{incidents.length ? <div className={styles.rows}>{incidents.map((incident) => <article className={styles.incident} key={incident.id}><header><strong>{label[incident.type] ?? incident.type}</strong><StatusTag tone={incident.severity === "CRITICAL" ? "danger" : incident.status === "RESOLVED" ? "success" : "warning"}>{incident.status}</StatusTag></header><p>{incident.explanation}</p><dl><div><dt>Что сделать</dt><dd>{incident.remediation}</dd></div><div><dt>Восстановление</dt><dd>{incident.restorationCondition}</dd></div></dl></article>)}</div> : <EmptyState title="Ограничений нет" description="Открытых продуктовых инцидентов по поставщику нет." />}</Section></div>
+    <Section title="Отзывы после реальных заказов" description="Одна организация оставляет одну оценку исполнения. Поставщик может ответить и открыть апелляцию.">{reviews.length ? <div className={styles.reviews}>{reviews.map((review) => <article key={review.id}><header><strong>{review.overallRating} из 5</strong><StatusTag tone={review.status === "PUBLISHED" ? "success" : review.status === "HIDDEN" ? "danger" : "warning"}>{review.status}</StatusTag></header><p>{review.comment || "Оценка без комментария"}</p><small>{formatDate(review.createdAt)}</small>{review.officialResponse ? <blockquote><strong>Ответ поставщика</strong>{review.officialResponse}</blockquote> : null}</article>)}</div> : <EmptyState title="Отзывов пока нет" description="Отзывы появятся только после завершённых, отменённых или оспоренных заказов." />}</Section>
+  </div>;
+}

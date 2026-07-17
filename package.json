@@ -1,0 +1,33 @@
+{
+  "name": "dental-procurement-platform",
+  "private": true,
+  "packageManager": "pnpm@11.9.0",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "typecheck": "turbo typecheck",
+    "format": "prettier --write .",
+    "db:generate": "pnpm --filter @marketplace/api prisma:generate",
+    "db:migrate": "pnpm --filter @marketplace/api prisma:migrate",
+    "db:seed": "pnpm --filter @marketplace/api prisma:seed",
+    "verify:document-compliance": "node scripts/verify-document-compliance.mjs",
+    "verify:search-commerce": "node scripts/verify-search-commerce.mjs",
+    "verify:trust-geo": "node scripts/verify-trust-geo.mjs",
+    "verify:onboarding-agreement": "node scripts/verify-onboarding-agreement.mjs",
+    "verify:security": "node scripts/verify-security.mjs",
+    "verify:production-config": "node scripts/verify-production-config.mjs",
+    "verify:release": "pnpm typecheck && pnpm test && pnpm build && pnpm verify:production-config",
+    "verify:web": "pnpm --filter @marketplace/e2e e2e",
+    "test:containers": "RUN_TESTCONTAINERS=1 pnpm --filter @marketplace/api test -- postgres-concurrency.testcontainers.spec.ts"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.19.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^24.0.0",
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.8",
+    "typescript": "^5.9.3"
+  }
+}
