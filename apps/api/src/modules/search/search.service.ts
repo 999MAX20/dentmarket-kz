@@ -2,7 +2,7 @@ import { BadRequestException, ForbiddenException, Injectable, NotFoundException 
 import type { CompareOffersInput, SearchCatalogInput } from "@marketplace/schemas";
 import { Prisma } from "@prisma/client";
 import { PrismaService } from "../../platform/prisma/prisma.service";
-import { normalizeCatalogText } from "../imports/matching";
+import { expandDentalSearchQuery } from "./dental-search-lexicon";
 import { resolvePriceRules } from "../pricing/price-resolver";
 import type { SupplierActorContext } from "../suppliers/supplier-access.service";
 
@@ -21,7 +21,9 @@ export class SearchService {
 
   async search(input: SearchCatalogInput, context: SupplierActorContext) {
     await this.assertBuyer(input.buyerOrganizationId, context);
-    const q = normalizeCatalogText(input.q);
+    const searchIntent = expandDentalSearchQuery(input.q);
+    const q = searchIntent.normalizedQuery;
+    const expandedQuery = searchIntent.expandedQuery;
     let attributeFilters: Record<string, unknown> = {};
     if (input.attributeFilters) {
       try {
@@ -31,7 +33,7 @@ export class SearchService {
       } catch { throw new BadRequestException("attributeFilters must be a JSON object"); }
     }
     const where: Prisma.Sql[] = [Prisma.sql`p.status = 'ACTIVE'`, Prisma.sql`EXISTS (SELECT 1 FROM "MarketplaceAgreement" ma WHERE ma.status IN ('ACTIVE', 'NON_RENEWING') AND ma."startsAt" <= NOW() AND ma."endsAt" > NOW() AND ma."supplierOrganizationId" = ANY(d."supplierIds"))`];
-    if (q) where.push(Prisma.sql`(d."searchVector" @@ websearch_to_tsquery('simple', ${q}) OR d."normalizedText" % ${q})`);
+    if (q) where.push(Prisma.sql`(d."searchVector" @@ websearch_to_tsquery('simple', ${expandedQuery}) OR d."normalizedText" % ${q})`);
     if (input.categoryId) where.push(Prisma.sql`CAST(${input.categoryId} AS uuid) = ANY(d."categoryIds")`);
     if (input.industryId) where.push(Prisma.sql`CAST(${input.industryId} AS uuid) = ANY(d."industryIds")`);
     if (input.brandId) where.push(Prisma.sql`p."brandId" = CAST(${input.brandId} AS uuid)`);
@@ -45,7 +47,7 @@ export class SearchService {
     if (input.maxNormalizedPriceMinor !== undefined) where.push(Prisma.sql`d."minNormalizedPriceMinor" <= ${input.maxNormalizedPriceMinor}`);
     if (Object.keys(attributeFilters).length > 0) where.push(Prisma.sql`(d.facets -> 'attributes') @> CAST(${JSON.stringify(attributeFilters)} AS jsonb)`);
     const condition = Prisma.join(where, " AND ");
-    const rank = q ? Prisma.sql`GREATEST(ts_rank(d."searchVector", websearch_to_tsquery('simple', ${q})), similarity(d."normalizedText", ${q}))` : Prisma.sql`0::real`;
+    const rank = q ? Prisma.sql`GREATEST(ts_rank(d."searchVector", websearch_to_tsquery('simple', ${expandedQuery})), similarity(d."normalizedText", ${q}))` : Prisma.sql`0::real`;
     const sort = ({
       RELEVANCE: Prisma.sql`rank DESC, d."isAvailable" DESC, d."updatedAt" DESC`,
       PRICE_ASC: Prisma.sql`d."minNormalizedPriceMinor" ASC NULLS LAST, d."isAvailable" DESC`,
@@ -60,7 +62,7 @@ export class SearchService {
     const products = await this.loadProducts(rows.map(({ productId }) => productId));
     const rankById = new Map(rows.map((row, index) => [row.productId, { rank: Number(row.rank), index }]));
     const items = products.map((product) => this.toSearchItem(product, input, rankById.get(product.id)?.rank ?? 0)).filter((item) => item.offers.length > 0).sort((left, right) => (rankById.get(left.id)?.index ?? 0) - (rankById.get(right.id)?.index ?? 0));
-    return { query: input.q, total: Number(countRows[0]?.count ?? 0), offset: input.offset, limit: input.limit, items, facets: this.aggregateFacets(items) };
+    return { query: input.q, interpretedQuery: searchIntent.matchedAliases.length ? searchIntent.matchedAliases : undefined, total: Number(countRows[0]?.count ?? 0), offset: input.offset, limit: input.limit, items, facets: this.aggregateFacets(items) };
   }
 
   async compare(input: CompareOffersInput, context: SupplierActorContext) {

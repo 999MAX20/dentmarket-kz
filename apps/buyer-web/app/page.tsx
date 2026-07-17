@@ -51,6 +51,7 @@ const BUYER_USER_ID = "00000000-0000-4000-8000-000000000500";
 type SessionHandoff = SessionHandoffEnvelope;
 const SESSION_KEY = "dentmarket:buyer-session";
 const LOGIN_URL = process.env.NEXT_PUBLIC_LOGIN_URL ?? "/login";
+const dentalSearchSuggestions = ["светник", "текучка", "коффер", "эндошка", "гутта", "карпулы"];
 
 function readSessionHandoff(): SessionHandoff | null {
   if (typeof window === "undefined") return null;
@@ -89,6 +90,7 @@ type SearchProduct = {
 };
 type SearchResult = {
   total: number;
+  interpretedQuery?: string[];
   items: SearchProduct[];
   facets: {
     categories: Array<{ id: string; name: string; count: number }>;
@@ -365,18 +367,19 @@ export default function BuyerWorkspace() {
     return () => window.clearTimeout(timer);
   }, [toast]);
 
-  const submitSearch = async () => {
+  const submitSearchFor = async (nextQuery: string) => {
     setBusy("search");
     setError(null);
     setComparison(null);
     try {
-      await loadSearch();
+      await loadSearch(nextQuery, sort);
     } catch (cause) {
       setError(errorMessage(cause));
     } finally {
       setBusy(null);
     }
   };
+  const submitSearch = async () => submitSearchFor(query);
 
   const compare = async (productId: string) => {
     setBusy(`compare:${productId}`);
@@ -519,9 +522,13 @@ export default function BuyerWorkspace() {
             Найти
           </Button>
         </form>
+        <div className={styles.searchHelp} aria-label="Быстрые стоматологические запросы">
+          <span>Можно искать по-своему:</span>
+          {dentalSearchSuggestions.map((suggestion) => <button key={suggestion} type="button" onClick={() => { setQuery(suggestion); void submitSearchFor(suggestion); }}>{suggestion}</button>)}
+        </div>
         <div className={styles.resultsMeta}>
           <span>{search?.total ?? 0} товаров по запросу</span>
-          <span>Medstom KZ · цены требуют подтверждения поставщиком</span>
+          <span>{search?.interpretedQuery?.length ? `Поняли как: ${search.interpretedQuery.join(", ")}` : "Сленг, бренд, артикул и официальное название"}</span>
         </div>
         {!search?.items.length ? (
           <EmptyState
