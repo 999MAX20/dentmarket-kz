@@ -29,6 +29,17 @@ describe("IntegrationCryptoService", () => {
     expect(() => service.decrypt(parts.join(":"))).toThrow();
   });
 
+  it("encrypts arbitrary configuration and rejects tampering", () => {
+    process.env.INTEGRATION_ENCRYPTION_KEY = Buffer.alloc(32, 8).toString("base64");
+    const service = new IntegrationCryptoService();
+    const value = { apiKey: "secret", nested: { enabled: true }, list: [1, 2] };
+    const encrypted = service.encryptJson(value);
+    expect(service.decryptJson(encrypted)).toEqual(value);
+    const parts = encrypted.split(":");
+    parts[3] = `${parts[3]}x`;
+    expect(() => service.decryptJson(parts.join(":"))).toThrow();
+  });
+
   it("uses constant-time comparison for high-entropy agent tokens", () => {
     const service = new IntegrationCryptoService();
     const token = service.token();

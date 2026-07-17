@@ -19,7 +19,7 @@ export class IntegrationAdapterRegistry {
     const context: IntegrationAdapterContext = {
       connectionId: connection.id,
       credentials: connection.encryptedCredentials ? this.crypto.decrypt(connection.encryptedCredentials) : {},
-      configuration: asRecord(connection.configuration),
+      configuration: { ...asRecord(connection.configuration), ...(connection.encryptedConfiguration ? asRecord(this.crypto.decryptJson(connection.encryptedConfiguration)) : {}) },
     };
     return { adapter, context };
   }

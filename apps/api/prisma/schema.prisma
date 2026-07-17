@@ -1592,6 +1592,7 @@ model SupplierDataSource {
   name                   String
   type                   SupplierDataSourceType
   configuration          Json?
+  encryptedConfiguration String?                @db.Text
   status                 RecordStatus            @default(ACTIVE)
   supplier               SupplierProfile         @relation(fields: [supplierOrganizationId], references: [organizationId], onDelete: Cascade)
   importBatches          ImportBatch[]
@@ -2964,6 +2965,7 @@ model IntegrationConnection {
   encryptedCredentials   String?                          @db.Text
   credentialKeyVersion   Int                              @default(1)
   configuration          Json?
+  encryptedConfiguration String?                          @db.Text
   capabilities           Json?
   externalAccountId      String?
   webhookEndpointId      String?                          @unique

@@ -33,6 +33,23 @@ const connectionSelect = Prisma.validator<Prisma.IntegrationConnectionSelect>()(
   _count: { select: { jobs: true, webhookEvents: true, reconciliationEntries: true, externalReservations: true } },
 });
 
+const SENSITIVE_CONFIGURATION_KEY = /(^|_|-)(token|secret|password|passwd|api[-_]?key|access[-_]?key|private[-_]?key|client[-_]?secret|authorization|credential)(_|-|$)/i;
+
+function protectConfiguration(value: unknown): { publicValue: unknown; sensitiveValue: Record<string, unknown> } {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return { publicValue: value, sensitiveValue: {} };
+  const publicValue: Record<string, unknown> = {};
+  const sensitiveValue: Record<string, unknown> = {};
+  for (const [key, item] of Object.entries(value)) {
+    if (SENSITIVE_CONFIGURATION_KEY.test(key)) sensitiveValue[key] = item;
+    else if (item && typeof item === "object" && !Array.isArray(item)) {
+      const nested = protectConfiguration(item);
+      publicValue[key] = nested.publicValue;
+      if (Object.keys(nested.sensitiveValue).length > 0) sensitiveValue[key] = nested.sensitiveValue;
+    } else publicValue[key] = item;
+  }
+  return { publicValue, sensitiveValue };
+}
+
 @Injectable()
 export class IntegrationsService {
   constructor(
@@ -97,6 +114,7 @@ export class IntegrationsService {
     const webhookEndpointId = input.enableWebhook ? `wh_${this.crypto.token(24)}` : undefined;
     const webhookSigningSecret = input.enableWebhook ? this.crypto.token() : undefined;
     const encryptedCredentials = input.credentials && Object.keys(input.credentials).length > 0 ? this.crypto.encrypt(input.credentials) : undefined;
+    const protectedConfiguration = protectConfiguration(input.configuration);
 
     const created = await this.prisma.$transaction(async (tx) => {
       const source = await tx.supplierDataSource.create({
@@ -115,7 +133,8 @@ export class IntegrationsService {
           mode: input.mode,
           displayName: input.displayName,
           encryptedCredentials,
-          configuration: input.configuration == null ? undefined : input.configuration as Prisma.InputJsonValue,
+          configuration: protectedConfiguration.publicValue == null ? undefined : protectedConfiguration.publicValue as Prisma.InputJsonValue,
+          encryptedConfiguration: Object.keys(protectedConfiguration.sensitiveValue).length > 0 ? this.crypto.encryptJson(protectedConfiguration.sensitiveValue) : undefined,
           webhookEndpointId,
           encryptedWebhookSecret: webhookSigningSecret ? this.crypto.encrypt({ secret: webhookSigningSecret }) : undefined,
         },
@@ -157,6 +176,7 @@ export class IntegrationsService {
   async update(supplierOrganizationId: string, connectionId: string, input: UpdateIntegrationConnectionInput, context: SupplierActorContext) {
     await this.requireConnection(supplierOrganizationId, connectionId, context);
     const encryptedCredentials = input.credentials ? this.crypto.encrypt(input.credentials) : undefined;
+    const protectedConfiguration = protectConfiguration(input.configuration);
     const updated = await this.prisma.$transaction(async (tx) => {
       const result = await tx.integrationConnection.updateMany({
         where: { id: connectionId, supplierOrganizationId, version: input.version },
@@ -164,7 +184,8 @@ export class IntegrationsService {
           displayName: input.displayName,
           status: input.status,
           encryptedCredentials: input.status === "REVOKED" ? null : encryptedCredentials,
-          configuration: input.configuration === null ? Prisma.DbNull : input.configuration == null ? undefined : input.configuration as Prisma.InputJsonValue,
+          configuration: input.configuration === null ? Prisma.DbNull : input.configuration == null ? undefined : protectedConfiguration.publicValue as Prisma.InputJsonValue,
+          encryptedConfiguration: input.configuration === null ? null : Object.keys(protectedConfiguration.sensitiveValue).length > 0 ? this.crypto.encryptJson(protectedConfiguration.sensitiveValue) : undefined,
           version: { increment: 1 },
         },
       });
