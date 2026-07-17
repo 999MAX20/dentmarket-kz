@@ -40,6 +40,7 @@ import { MarketplaceAgreementsModule } from "./modules/agreements/marketplace-ag
 import { TrustCommerceModule } from "./modules/trust-commerce/trust-commerce.module";
 import { OnboardingModule } from "./modules/onboarding/onboarding.module";
 import { BuyerSupplierAgreementsModule } from "./modules/buyer-supplier-agreements/buyer-supplier-agreements.module";
+import { OperationsModule } from "./modules/operations/operations.module";
 
 const config = environment();
 
@@ -48,7 +49,7 @@ const config = environment();
     { name: "ip", ttl: config.RATE_LIMIT_TTL_MS, limit: config.RATE_LIMIT_REQUESTS, getTracker: (request) => `ip:${request.ip}` },
     { name: "user", ttl: config.RATE_LIMIT_TTL_MS, limit: config.RATE_LIMIT_REQUESTS * 2, getTracker: (request) => `user:${request.headers["x-user-id"] ?? `anonymous:${request.ip}`}` },
     { name: "tenant", ttl: config.RATE_LIMIT_TTL_MS, limit: config.RATE_LIMIT_REQUESTS * 5, getTracker: (request) => `tenant:${request.headers["x-organization-id"] ?? `anonymous:${request.ip}`}` },
-  ]), BackgroundJobsModule, SecurityModule, PrismaModule, StorageModule, AccessControlModule, InvitationsModule, MfaModule, OnboardingModule, AuthSessionsModule, OrganizationsModule, CatalogModule, ApprovalsModule, AuditModule, SuppliersModule, ImportsModule, OffersModule, InventoryModule, ModerationModule, PricingModule, IntegrationsModule, ComplianceModule, CommerceModule, PaymentsModule, LogisticsModule, DocumentsModule, MarketplaceAgreementsModule, BuyerSupplierAgreementsModule, NotificationsModule, SearchModule, PromotionsModule, SupportModule, OwnersModule, BillingModule, AiModule, TrustCommerceModule],
+  ]), BackgroundJobsModule, SecurityModule, PrismaModule, StorageModule, AccessControlModule, InvitationsModule, MfaModule, OnboardingModule, AuthSessionsModule, OrganizationsModule, CatalogModule, ApprovalsModule, AuditModule, SuppliersModule, ImportsModule, OffersModule, InventoryModule, ModerationModule, PricingModule, IntegrationsModule, ComplianceModule, CommerceModule, PaymentsModule, LogisticsModule, DocumentsModule, MarketplaceAgreementsModule, BuyerSupplierAgreementsModule, NotificationsModule, SearchModule, PromotionsModule, SupportModule, OwnersModule, BillingModule, AiModule, TrustCommerceModule, OperationsModule],
   controllers: [HealthController],
   providers: [{ provide: APP_GUARD, useClass: ThrottlerGuard }, { provide: APP_FILTER, useClass: SentryGlobalFilter }],
 })

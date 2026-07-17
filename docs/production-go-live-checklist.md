@@ -11,6 +11,8 @@
 - Agreement gate: publication, marketplace visibility, confirmation, checkout, capture and order export
 - Supplier onboarding readiness and import diagnostics
 - Search/index/catalog quality report
+- Operator work queue: `/api/operations/work-queue` aggregates commercial blockers before go-live.
+- `pnpm verify:security-storage` checks encrypted storage columns, key format/rotation and plaintext-sensitive configuration.
 
 ## Requires real credentials or external confirmation
 

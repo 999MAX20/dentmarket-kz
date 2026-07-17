@@ -69,7 +69,7 @@ export class ImportsService implements OnModuleInit {
 
   async onboardingReadiness(supplierOrganizationId: string, context: SupplierActorContext) {
     await this.access.assertCanManage(supplierOrganizationId, context);
-    const [organization, profile, credentials, warehouses, sources, batches, items, memories, offers, prices, inventory, agreement] = await Promise.all([
+    const [organization, profile, credentials, warehouses, sources, batches, items, memories, complianceReady, complianceIssues, offers, prices, inventory, agreement] = await Promise.all([
       this.prisma.organization.findUnique({ where: { id: supplierOrganizationId }, select: { id: true, displayName: true, bin: true } }),
       this.prisma.supplierProfile.findUnique({ where: { organizationId: supplierOrganizationId }, select: { organizationId: true } }),
       this.prisma.organizationCredential.count({ where: { organizationId: supplierOrganizationId, status: "VERIFIED", OR: [{ validTo: null }, { validTo: { gt: new Date() } }] } }),
@@ -78,6 +78,8 @@ export class ImportsService implements OnModuleInit {
       this.prisma.importBatch.count({ where: { supplierOrganizationId, status: { in: ["COMPLETED", "COMPLETED_WITH_ERRORS"] } } }),
       this.prisma.supplierExternalItem.count({ where: { supplierOrganizationId, matchedVariantId: { not: null } } }),
       this.prisma.supplierMappingMemory.count({ where: { supplierOrganizationId, status: "ACTIVE" } }),
+      this.prisma.supplierExternalItem.count({ where: { supplierOrganizationId, complianceStatus: "READY" } }),
+      this.prisma.supplierExternalItem.count({ where: { supplierOrganizationId, complianceStatus: { not: "READY" } } }),
       this.prisma.supplierOffer.count({ where: { supplierOrganizationId, status: "ACTIVE" } }),
       this.prisma.offerPrice.count({ where: { offer: { supplierOrganizationId }, status: "ACTIVE", OR: [{ validTo: null }, { validTo: { gt: new Date() } }] } }),
       this.prisma.inventoryBalance.count({ where: { supplierOrganizationId, freshnessStatus: "FRESH", quantityAvailable: { gt: 0 } } }),
@@ -91,12 +93,13 @@ export class ImportsService implements OnModuleInit {
       { id: "source", label: "Источник каталога", complete: sources > 0, action: "Подключить CSV, PDF, API или ERP" },
       { id: "import", label: "Импорт", complete: batches > 0, action: "Завершить первый импорт" },
       { id: "matching", label: "Сопоставление", complete: items > 0 && memories > 0, action: "Подтвердить matching и сохранить memory" },
+      { id: "compliance", label: "Compliance карточек", complete: items > 0 && complianceReady === items && complianceIssues === 0, action: "Устранить regulatory/compliance блокеры по строкам" },
       { id: "agreement", label: "Договор ЭЦП", complete: agreement > 0, action: "Подписать договор с оператором" },
       { id: "offer", label: "Offer и цена", complete: offers > 0 && prices > 0, action: "Подтвердить offer и цену" },
       { id: "inventory", label: "Остаток", complete: inventory > 0, action: "Передать свежий остаток" },
     ];
     const completedSteps = steps.filter((step) => step.complete).length;
-    return { supplierOrganizationId, organization, completedSteps, totalSteps: steps.length, progressPercent: Math.round((completedSteps / steps.length) * 100), readyForCommercialActivation: steps.every((step) => step.complete), steps, counts: { credentials, warehouses, sources, batches, matchedItems: items, mappingMemories: memories, activeOffers: offers, activePrices: prices, freshInventory: inventory, activeAgreements: agreement } };
+    return { supplierOrganizationId, organization, completedSteps, totalSteps: steps.length, progressPercent: Math.round((completedSteps / steps.length) * 100), readyForCommercialActivation: steps.every((step) => step.complete), steps, counts: { credentials, warehouses, sources, batches, matchedItems: items, mappingMemories: memories, complianceReady, complianceIssues, activeOffers: offers, activePrices: prices, freshInventory: inventory, activeAgreements: agreement } };
   }
 
   async batch(supplierOrganizationId: string, batchId: string, context: SupplierActorContext) {
