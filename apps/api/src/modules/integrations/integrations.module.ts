@@ -4,6 +4,7 @@ import { InventoryModule } from "../inventory/inventory.module";
 import { IntegrationAdapterRegistry } from "./adapters/adapter-registry.service";
 import { MockIntegrationAdapter } from "./adapters/mock.adapter";
 import { MoySkladIntegrationAdapter } from "./adapters/moysklad.adapter";
+import { CustomApiIntegrationAdapter } from "./adapters/custom-api.adapter";
 import { ConnectorAgentController } from "./connector-agent.controller";
 import { ConnectorAgentService } from "./connector-agent.service";
 import { ExternalReservationsService } from "./external-reservations.service";
@@ -27,6 +28,7 @@ import { MarketplaceAgreementsModule } from "../agreements/marketplace-agreement
     IntegrationCryptoService,
     MockIntegrationAdapter,
     MoySkladIntegrationAdapter,
+    CustomApiIntegrationAdapter,
     IntegrationAdapterRegistry,
     IntegrationJobsService,
     IntegrationsService,

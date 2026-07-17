@@ -65,7 +65,7 @@ export class IntegrationJobsService {
         SELECT job."id"
         FROM "IntegrationSyncJob" job
         INNER JOIN "IntegrationConnection" connection ON connection."id" = job."connectionId"
-        WHERE connection."provider" IN ('MOYSKLAD'::"IntegrationProvider", 'MOCK'::"IntegrationProvider")
+        WHERE connection."provider" IN ('MOYSKLAD'::"IntegrationProvider", 'CUSTOM_API'::"IntegrationProvider", 'MOCK'::"IntegrationProvider")
           AND connection."status" IN ('PENDING'::"IntegrationConnectionStatus", 'ACTIVE'::"IntegrationConnectionStatus", 'ERROR'::"IntegrationConnectionStatus")
           AND job."status" IN ('PENDING'::"IntegrationJobStatus", 'FAILED'::"IntegrationJobStatus")
           AND job."availableAt" <= NOW()

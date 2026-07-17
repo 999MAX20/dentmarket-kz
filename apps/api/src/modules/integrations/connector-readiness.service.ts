@@ -45,7 +45,7 @@ const defaults = [
     directions: directions({ CATALOG: "READ", PRICE: "READ", STOCK: "READ", ORDER: "WRITE", RESERVATION: "READ_WRITE", SHIPMENT: "READ_WRITE", DOCUMENT: "READ_WRITE" }), supportsRead: true, supportsWrite: true,
     credentialsRequired: true, externalConnectorRequired: true, supportedVersions: ["Contract per tenant"],
     limitations: ["Требуется mapping и smoke-тест для каждого tenant", "Нет реального внешнего endpoint в тестовом контуре"],
-    evidence: ["Connection, binding, mapping, job and reconciliation foundation реализованы"], runbookPath: "docs/runbooks/custom-api.md", owner: "Integration Operations",
+    evidence: ["Generic HTTPS adapter, normalization, retries, idempotency and connection registry реализованы"], runbookPath: "docs/runbooks/external-adapters.md", owner: "Integration Operations",
   },
 ] as const;
 

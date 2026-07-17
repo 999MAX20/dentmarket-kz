@@ -59,6 +59,7 @@ const environmentSchema = z.object({
   S3_SECRET_ACCESS_KEY: z.string().min(16).optional(),
   S3_SERVER_SIDE_ENCRYPTION: z.enum(["AES256", "aws:kms"]).optional(),
   SIGNATURE_GATEWAY_URL: z.string().url().optional(),
+  SIGNATURE_GATEWAY_TOKEN: z.string().min(16).optional(),
   PAYMENT_PROVIDER_MODE: z.enum(["mock", "external"]).default("mock"),
   PAYMENT_GATEWAY_URL: z.string().url().optional(),
   PAYMENT_GATEWAY_TOKEN: z.string().min(16).optional(),

@@ -53,7 +53,7 @@ export class PermanentIntegrationError extends Error {
 }
 
 export interface IntegrationAdapter {
-  readonly provider: "MOYSKLAD" | "MOCK";
+  readonly provider: "MOYSKLAD" | "CUSTOM_API" | "MOCK";
   testConnection(context: IntegrationAdapterContext): Promise<AdapterResult>;
   discover(context: IntegrationAdapterContext): Promise<AdapterResult>;
   pullCatalog(context: IntegrationAdapterContext, cursor?: Record<string, unknown>): Promise<CatalogPage>;

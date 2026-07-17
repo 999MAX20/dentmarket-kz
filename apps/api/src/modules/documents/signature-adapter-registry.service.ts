@@ -10,7 +10,7 @@ export class SignatureAdapterRegistry {
     const url = process.env.SIGNATURE_GATEWAY_URL;
     if (!url && process.env.NODE_ENV !== "production") return this.mock;
     if (!url) throw new ServiceUnavailableException(`Signature method ${method} is configured but SIGNATURE_GATEWAY_URL is missing`);
-    return new ConfiguredSignatureAdapter(url);
+    return new ConfiguredSignatureAdapter(url, process.env.SIGNATURE_GATEWAY_TOKEN);
   }
 
   capabilities() {

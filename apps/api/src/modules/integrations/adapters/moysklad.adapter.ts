@@ -6,7 +6,6 @@ type MoySkladResponse = Record<string, unknown> & { rows?: unknown[]; meta?: Rec
 @Injectable()
 export class MoySkladIntegrationAdapter implements IntegrationAdapter {
   readonly provider = "MOYSKLAD" as const;
-  private readonly baseUrl = "https://api.moysklad.ru/api/remap/1.2";
   private readonly fetchImpl = globalThis.fetch;
 
   private async request(context: IntegrationAdapterContext, path: string, init: RequestInit = {}) {
@@ -15,7 +14,8 @@ export class MoySkladIntegrationAdapter implements IntegrationAdapter {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), Number(context.configuration.timeoutMs ?? 10_000));
     try {
-      const response = await this.fetchImpl(`${this.baseUrl}${path}`, {
+      const baseUrl = typeof context.configuration.baseUrl === "string" && /^https:\/\//i.test(context.configuration.baseUrl) ? context.configuration.baseUrl.replace(/\/$/, "") : "https://api.moysklad.ru/api/remap/1.2";
+      const response = await this.fetchImpl(`${baseUrl}${path}`, {
         ...init,
         signal: controller.signal,
         headers: { Accept: "application/json;charset=utf-8", "Content-Type": "application/json", Authorization: `Bearer ${accessToken}`, ...init.headers },
@@ -188,7 +188,8 @@ export class MoySkladIntegrationAdapter implements IntegrationAdapter {
   private async postExternalPayload(context: IntegrationAdapterContext, path: string, payload: Record<string, unknown>): Promise<AdapterResult> {
     const externalPayload = asRecord(payload.externalPayload);
     if (Object.keys(externalPayload).length === 0) throw new PermanentIntegrationError("MySklad externalPayload mapping is not configured");
-    const { body } = await this.request(context, path, { method: "POST", body: JSON.stringify(externalPayload) });
+    const idempotencyKey = typeof payload.idempotencyKey === "string" ? payload.idempotencyKey : undefined;
+    const { body } = await this.request(context, path, { method: "POST", body: JSON.stringify(externalPayload), headers: idempotencyKey ? { "Idempotency-Key": idempotencyKey } : undefined });
     return { externalId: typeof body.id === "string" ? body.id : undefined, data: body };
   }
 }
