@@ -18,7 +18,7 @@ const ownerPermissions: Record<"BUYER" | "SUPPLIER", string[]> = {
   SUPPLIER: [
     "organization.view", "organization.members.manage", "organization.roles.manage", "supplier.profile.manage",
     "supplier.warehouse.manage", "catalog.product.view", "catalog.product.create", "catalog.offer.edit",
-    "catalog.offer.publish", "inventory.view", "inventory.adjust", "inventory.freshness.manage", "order.confirm",
+    "catalog.offer.publish", "pricing.manage", "matching.manage", "inventory.view", "inventory.adjust", "inventory.freshness.manage", "order.confirm",
     "document.view", "document.manage", "document.sign", "compliance.view", "compliance.credential.manage",
     "import.manage", "integration.view", "integration.manage", "integration.reconcile", "delivery.view", "delivery.manage", "shipment.manage",
     "payment.view", "payment.merchant.manage",
@@ -122,7 +122,7 @@ export class OnboardingService {
       await tx.auditLog.create({ data: { actorId: user.id, organizationId: organization.id, action: "onboarding.registration.completed", entityType: "OrganizationMembership", entityId: membership.id, after: { registrationId: registration.id, capability: registration.capability, consentVersion: registration.consentVersion } } });
       await tx.outboxEvent.create({ data: { aggregateType: "Organization", aggregateId: organization.id, eventType: "OrganizationSelfRegistered", payload: { organizationId: organization.id, ownerUserId: user.id, capability: registration.capability } } });
       return { registration: { ...this.presentation(registration), status: "CLAIMED", organizationId: organization.id }, actorId: user.id, displayName: user.displayName, organizationDisplayName: organization.displayName, organizationId: organization.id, capability: registration.capability };
-    });
+    }, { maxWait: 15_000, timeout: 45_000 });
   }
 
   async completeDevelopment(registrationToken: string) {

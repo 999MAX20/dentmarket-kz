@@ -44,6 +44,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import styles from "./page.module.css";
 import { BuyerServicesPanel } from "./buyer-services-panel";
 import { SmartCommercePanel } from "./smart-commerce-panel";
+import medstomCatalog from "./data/medstom-catalog.json";
 
 const BUYER_ID = "00000000-0000-4000-8000-000000000030";
 const BUYER_USER_ID = "00000000-0000-4000-8000-000000000500";
@@ -71,6 +72,10 @@ type SearchOffer = {
   available: boolean;
   confirmationMode: string;
   deliveryMethods: string[];
+  supplierSku?: string | null;
+  verifiedDocuments?: boolean;
+  officialDistributor?: boolean;
+  supplierWarranty?: boolean;
 };
 type SearchProduct = {
   id: string;
@@ -90,13 +95,48 @@ type SearchResult = {
     suppliers: Array<{ id: string; name: string; count: number }>;
   };
 };
-const publicCatalogFallback: SearchProduct[] = [
+const demoCatalogFallback: SearchProduct[] = [
   { id: "00000000-0000-4000-8000-000000000100", name: "Перчатки нитриловые SafeTouch Ultra", brand: "SafeTouch", manufacturer: "SafeMed Industries", categories: [{ id: "00000000-0000-4000-8000-000000000901", name: "Перчатки" }], minNormalizedPriceMinor: "4750", isAvailable: true, offers: [{ id: "00000000-0000-4000-8000-000000000180", supplier: { id: "00000000-0000-4000-8000-000000000060", name: "MedConsum" }, priceMinor: "475000", currency: "KZT", normalizedPriceMinor: "4750", packaging: { name: "Упаковка 100 штук", quantityInBaseUnit: "100", unit: "шт" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["CARRIER"] }, { id: "00000000-0000-4000-8000-000000000150", supplier: { id: "00000000-0000-4000-8000-000000000020", name: "Demo Dental Supply" }, priceMinor: "490000", currency: "KZT", normalizedPriceMinor: "4900", packaging: { name: "Упаковка 100 штук", quantityInBaseUnit: "100", unit: "шт" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["SUPPLIER_CITY"] }] },
   { id: "00000000-0000-4000-8000-000000000110", name: "Нагрудники стоматологические CleanDent 2-слойные", brand: "CleanDent", manufacturer: "CleanDent Europe", categories: [{ id: "00000000-0000-4000-8000-000000000902", name: "Нагрудники" }], minNormalizedPriceMinor: "2360", isAvailable: true, offers: [{ id: "00000000-0000-4000-8000-000000000200", supplier: { id: "00000000-0000-4000-8000-000000000070", name: "TechDent Systems" }, priceMinor: "1180000", currency: "KZT", normalizedPriceMinor: "2360", packaging: { name: "Упаковка 500 штук", quantityInBaseUnit: "500", unit: "шт" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["SUPPLIER_CITY"] }] },
   { id: "00000000-0000-4000-8000-000000000120", name: "Бахилы MediStep усиленные", brand: "MediStep", manufacturer: "MediStep Asia", categories: [{ id: "00000000-0000-4000-8000-000000000903", name: "Бахилы" }], minNormalizedPriceMinor: "7000", isAvailable: true, offers: [{ id: "00000000-0000-4000-8000-000000000170", supplier: { id: "00000000-0000-4000-8000-000000000060", name: "MedConsum" }, priceMinor: "350000", currency: "KZT", normalizedPriceMinor: "7000", packaging: { name: "Упаковка 50 пар", quantityInBaseUnit: "50", unit: "пар" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["CARRIER"] }] },
   { id: "00000000-0000-4000-8000-000000000130", name: "Стоматологическая установка DentTech X5", brand: "DentTech", manufacturer: "DentTech GmbH", categories: [{ id: "00000000-0000-4000-8000-000000000904", name: "Оборудование" }], minNormalizedPriceMinor: "85000000", isAvailable: true, offers: [{ id: "00000000-0000-4000-8000-000000000190", supplier: { id: "00000000-0000-4000-8000-000000000070", name: "TechDent Systems" }, priceMinor: "85000000", currency: "KZT", normalizedPriceMinor: "85000000", packaging: { name: "Комплект", quantityInBaseUnit: "1", unit: "шт" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["SPECIAL"] }] },
 ];
-const fallbackSearch = (query: string): SearchResult => { const normalized = query.trim().toLocaleLowerCase("ru"); const items = normalized ? publicCatalogFallback.filter((product) => [product.name, product.brand, product.manufacturer, product.categories[0]?.name].filter(Boolean).join(" ").toLocaleLowerCase("ru").includes(normalized)) : publicCatalogFallback; return { total: items.length, items, facets: { categories: [], suppliers: [] } }; };
+const medstomCatalogFallback: SearchProduct[] = medstomCatalog.products.map((product) => ({
+  id: `medstom-product-${product.externalId}`,
+  name: product.name,
+  brand: product.brand || null,
+  manufacturer: null,
+  categories: [{ id: `medstom-category-${product.categoryExternalId}`, name: product.category }],
+  minNormalizedPriceMinor: product.priceMinor || null,
+  isAvailable: false,
+  offers: [{
+    id: `medstom-offer-${product.externalId}`,
+    supplier: { id: "medstom-kz", name: "Medstom KZ" },
+    priceMinor: product.priceMinor || null,
+    currency: product.currency,
+    normalizedPriceMinor: product.priceMinor || null,
+    packaging: { name: product.unit || "шт", quantityInBaseUnit: "1", unit: product.unit || "шт" },
+    available: false,
+    confirmationMode: "MANUAL",
+    deliveryMethods: ["NATIONWIDE"],
+    supplierSku: product.supplierSku || null,
+    verifiedDocuments: false,
+    officialDistributor: false,
+    supplierWarranty: false,
+  }],
+}));
+const publicCatalogFallback = [...medstomCatalogFallback, ...demoCatalogFallback];
+const fallbackSearch = (query: string, sort: string): SearchResult => {
+  const normalized = query.trim().toLocaleLowerCase("ru");
+  const filtered = normalized ? publicCatalogFallback.filter((product) => [product.name, product.brand, product.manufacturer, product.categories[0]?.name, product.offers[0]?.supplier.name].filter(Boolean).join(" ").toLocaleLowerCase("ru").includes(normalized)) : [...publicCatalogFallback];
+  filtered.sort((left, right) => {
+    if (sort === "PRICE_ASC") return Number(left.minNormalizedPriceMinor || Number.MAX_SAFE_INTEGER) - Number(right.minNormalizedPriceMinor || Number.MAX_SAFE_INTEGER);
+    if (sort === "PRICE_DESC") return Number(right.minNormalizedPriceMinor || -1) - Number(left.minNormalizedPriceMinor || -1);
+    if (sort === "NAME_ASC") return left.name.localeCompare(right.name, "ru");
+    return left.name.localeCompare(right.name, "ru");
+  });
+  return { total: filtered.length, items: filtered.slice(0, 60), facets: { categories: [], suppliers: [] } };
+};
 type CompareOffer = {
   offerId: string;
   supplier: { organizationId: string; name: string };
@@ -243,7 +283,7 @@ export default function BuyerWorkspace() {
   const api = useMemo(() => new MarketplaceApiClient(process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api", apiContext), [apiContext]);
   useEffect(() => { const next = readSessionHandoff(); if (next) { setHandoff(next); window.sessionStorage.setItem(SESSION_KEY, JSON.stringify(next)); window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}`); } setHandoffChecked(true); }, []);
   const [active, setActive] = useState("catalog");
-  const [query, setQuery] = useState("перчатки");
+  const [query, setQuery] = useState("");
   const [sort, setSort] = useState("RELEVANCE");
   const [search, setSearch] = useState<SearchResult | null>(null);
   const [comparison, setComparison] = useState<Comparison | null>(null);
@@ -272,7 +312,7 @@ export default function BuyerWorkspace() {
         limit: "24",
       });
       try { setSearch(await api.get<SearchResult>(`${handoff ? "/marketplace" : "/catalog"}/search?${params}`)); }
-      catch (cause) { if (handoff) throw cause; setSearch(fallbackSearch(nextQuery)); }
+      catch (cause) { if (handoff) throw cause; setSearch(fallbackSearch(nextQuery, nextSort)); }
     },
     [api, buyerId, handoff, query, sort],
   );
@@ -344,7 +384,7 @@ export default function BuyerWorkspace() {
     try {
       if (!handoff) {
         const product = search?.items.find(({ id }) => id === productId);
-        if (product) { setComparison({ product: { id: product.id, name: product.name, brand: product.brand, manufacturer: product.manufacturer }, offers: product.offers.filter((offer) => offer.priceMinor && offer.normalizedPriceMinor).map((offer) => ({ offerId: offer.id, supplier: { organizationId: offer.supplier.id, name: offer.supplier.name }, supplierSku: null, price: { amountMinor: offer.priceMinor!, currency: offer.currency ?? "KZT", normalizedPriceMinor: offer.normalizedPriceMinor!, normalizedUnit: offer.packaging.unit ?? "ед." }, packaging: { name: offer.packaging.name ?? "Упаковка", quantityInBaseUnit: offer.packaging.quantityInBaseUnit, unit: offer.packaging.unit }, availability: [{ warehouse: "Проверенный склад", quantityAvailable: "в наличии", updatedAt: new Date().toISOString() }], delivery: offer.deliveryMethods.map((method) => ({ method, minLeadTimeHours: null, maxLeadTimeHours: null })), markers: { verifiedDocuments: true, complianceRisk: "LOW", officialDistributor: false, supplierWarranty: true, requiresConfirmation: offer.confirmationMode === "MANUAL" } })), comparisonAttributes: [] }); return; }
+        if (product) { setComparison({ product: { id: product.id, name: product.name, brand: product.brand, manufacturer: product.manufacturer }, offers: product.offers.filter((offer) => offer.priceMinor && offer.normalizedPriceMinor).map((offer) => ({ offerId: offer.id, supplier: { organizationId: offer.supplier.id, name: offer.supplier.name }, supplierSku: offer.supplierSku ?? null, price: { amountMinor: offer.priceMinor!, currency: offer.currency ?? "KZT", normalizedPriceMinor: offer.normalizedPriceMinor!, normalizedUnit: offer.packaging.unit ?? "ед." }, packaging: { name: offer.packaging.name ?? "Упаковка", quantityInBaseUnit: offer.packaging.quantityInBaseUnit, unit: offer.packaging.unit }, availability: [{ warehouse: offer.available ? "Подтверждённый склад" : "Остаток не подтверждён", quantityAvailable: offer.available ? "в наличии" : "требует подтверждения", updatedAt: new Date().toISOString() }], delivery: offer.deliveryMethods.map((method) => ({ method, minLeadTimeHours: null, maxLeadTimeHours: null })), markers: { verifiedDocuments: offer.verifiedDocuments ?? true, complianceRisk: (offer.verifiedDocuments ?? true) ? "LOW" : "REVIEW_REQUIRED", officialDistributor: offer.officialDistributor ?? false, supplierWarranty: offer.supplierWarranty ?? true, requiresConfirmation: offer.confirmationMode === "MANUAL" || !offer.available } })), comparisonAttributes: [] }); return; }
       }
       setComparison(
         await api.get<Comparison>(
@@ -481,7 +521,7 @@ export default function BuyerWorkspace() {
         </form>
         <div className={styles.resultsMeta}>
           <span>{search?.total ?? 0} товаров по запросу</span>
-          <span>Только с актуальным остатком</span>
+          <span>Medstom KZ · цены требуют подтверждения поставщиком</span>
         </div>
         {!search?.items.length ? (
           <EmptyState
@@ -509,7 +549,7 @@ export default function BuyerWorkspace() {
                     <p>
                       {[product.brand, product.manufacturer]
                         .filter(Boolean)
-                        .join(" · ") || "Проверенная карточка каталога"}
+                        .join(" · ") || (best?.verifiedDocuments === false ? "Внешний каталог · поставщик не верифицирован" : "Проверенная карточка каталога")}
                     </p>
                   </div>
                   <div className={styles.offerSummary}>
@@ -533,7 +573,7 @@ export default function BuyerWorkspace() {
                         ? "Загрузка"
                         : "Сравнить"}
                     </Button>
-                    {best ? (
+                    {best && best.available && (best.verifiedDocuments ?? true) ? (
                       <Button
                         appearance="primary"
                         icon={<Cart24Regular />}
@@ -542,7 +582,7 @@ export default function BuyerWorkspace() {
                       >
                         В корзину
                       </Button>
-                    ) : null}
+                    ) : best ? <Button appearance="secondary" disabled>После верификации</Button> : null}
                   </div>
                 </article>
               );
@@ -621,9 +661,9 @@ export default function BuyerWorkspace() {
                     appearance="primary"
                     icon={<Cart24Regular />}
                     onClick={() => void addToCart(offer.offerId)}
-                    disabled={busy === `cart:${offer.offerId}`}
+                    disabled={busy === `cart:${offer.offerId}` || offer.markers.requiresConfirmation || !offer.markers.verifiedDocuments}
                   >
-                    Добавить
+                    {offer.markers.requiresConfirmation || !offer.markers.verifiedDocuments ? "После верификации" : "Добавить"}
                   </Button>
                 </article>
               ))}

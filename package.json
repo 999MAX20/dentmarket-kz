@@ -12,6 +12,8 @@
     "db:generate": "pnpm --filter @marketplace/api prisma:generate",
     "db:migrate": "pnpm --filter @marketplace/api prisma:migrate",
     "db:seed": "pnpm --filter @marketplace/api prisma:seed",
+    "catalog:import:medstom": "node scripts/import-medstom-catalog.mjs",
+    "verify:supplier-cycle:medstom": "node scripts/verify-medstom-supplier-cycle.mjs",
     "verify:document-compliance": "node scripts/verify-document-compliance.mjs",
     "verify:search-commerce": "node scripts/verify-search-commerce.mjs",
     "verify:trust-geo": "node scripts/verify-trust-geo.mjs",

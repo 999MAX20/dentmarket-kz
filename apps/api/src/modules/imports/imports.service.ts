@@ -82,7 +82,7 @@ export class ImportsService implements OnModuleInit {
       await tx.auditLog.create({ data: { ...context, action: "import.batch.created", entityType: "ImportBatch", entityId: batch.id, after: batch } });
       await tx.outboxEvent.create({ data: { aggregateType: "ImportBatch", aggregateId: batch.id, eventType: "ImportBatchCreated", payload: { supplierOrganizationId, batchId: batch.id, totalRows: rows.length } } });
       return batch;
-    });
+    }, { maxWait: 15_000, timeout: 60_000 });
   }
 
   async enqueueBatch(supplierOrganizationId: string, batchId: string, context: SupplierActorContext) {
@@ -101,36 +101,52 @@ export class ImportsService implements OnModuleInit {
     if (!mappingResult.success) throw new BadRequestException("Import batch column mapping is invalid");
     const variants = await this.prisma.productVariant.findMany({ include: { product: true } });
 
-    return this.prisma.$transaction(async (tx) => {
-      await tx.importBatch.update({ where: { id: batch.id }, data: { status: "PROCESSING", startedAt: new Date() } });
-      let processedRows = 0;
-      let errorRows = 0;
-      for (const row of batch.rows) {
+    await this.prisma.importBatch.update({ where: { id: batch.id }, data: { status: "PROCESSING", startedAt: new Date(), completedAt: null } });
+    let processedRows = 0;
+    let errorRows = 0;
+    let cursor = 0;
+    const processRow = async (row: (typeof batch.rows)[number]) => {
         const normalized = normalizeRow(row.rawData as RawRow, mappingResult.data);
         if (!normalized.externalId || !normalized.name) {
           errorRows += 1;
-          await tx.importRow.update({ where: { id: row.id }, data: { status: "REJECTED", errorCode: "REQUIRED_VALUE_MISSING", errorMessage: "External ID and name are required", normalizedData: normalized as Prisma.InputJsonValue } });
-          continue;
+          await this.prisma.importRow.update({ where: { id: row.id }, data: { status: "REJECTED", errorCode: "REQUIRED_VALUE_MISSING", errorMessage: "External ID and name are required", normalizedData: normalized as Prisma.InputJsonValue } });
+          return;
         }
-        const item = await tx.supplierExternalItem.upsert({
-          where: { sourceId_externalId: { sourceId: batch.sourceId, externalId: normalized.externalId } },
-          update: { importRowId: row.id, supplierSku: normalized.supplierSku, name: normalized.name, normalizedName: normalizeCatalogText(normalized.name), brandText: normalized.brand, manufacturerText: normalized.manufacturer, gtin: normalized.gtin, unitText: normalized.unit, rawData: row.rawData as Prisma.InputJsonValue },
-          create: { supplierOrganizationId, sourceId: batch.sourceId, importRowId: row.id, externalId: normalized.externalId, supplierSku: normalized.supplierSku, name: normalized.name, normalizedName: normalizeCatalogText(normalized.name), brandText: normalized.brand, manufacturerText: normalized.manufacturer, gtin: normalized.gtin, unitText: normalized.unit, rawData: row.rawData as Prisma.InputJsonValue },
-        });
-        const candidates = rankVariants(item, variants);
-        await tx.supplierItemMatchCandidate.deleteMany({ where: { externalItemId: item.id, status: "PROPOSED" } });
-        if (candidates.length > 0) {
-          await tx.supplierItemMatchCandidate.createMany({ data: candidates.map(({ variant, score, reasons }) => ({ externalItemId: item.id, productVariantId: variant.id, score, reasons })) });
-        } else {
-          await tx.productCandidate.upsert({
-            where: { externalItemId: item.id },
-            update: { proposedName: item.name, proposedSku: item.supplierSku, proposedGtin: item.gtin, proposedBrand: item.brandText },
-            create: { supplierOrganizationId, externalItemId: item.id, proposedName: item.name, proposedSku: item.supplierSku, proposedGtin: item.gtin, proposedBrand: item.brandText },
-          });
+        try {
+          await this.prisma.$transaction(async (tx) => {
+            const item = await tx.supplierExternalItem.upsert({
+              where: { sourceId_externalId: { sourceId: batch.sourceId, externalId: normalized.externalId } },
+              update: { importRowId: row.id, supplierSku: normalized.supplierSku, name: normalized.name, normalizedName: normalizeCatalogText(normalized.name), brandText: normalized.brand, manufacturerText: normalized.manufacturer, gtin: normalized.gtin, unitText: normalized.unit, rawData: row.rawData as Prisma.InputJsonValue },
+              create: { supplierOrganizationId, sourceId: batch.sourceId, importRowId: row.id, externalId: normalized.externalId, supplierSku: normalized.supplierSku, name: normalized.name, normalizedName: normalizeCatalogText(normalized.name), brandText: normalized.brand, manufacturerText: normalized.manufacturer, gtin: normalized.gtin, unitText: normalized.unit, rawData: row.rawData as Prisma.InputJsonValue },
+            });
+            const candidates = rankVariants(item, variants);
+            await tx.supplierItemMatchCandidate.deleteMany({ where: { externalItemId: item.id, status: "PROPOSED" } });
+            if (candidates.length > 0) {
+              await tx.supplierItemMatchCandidate.createMany({ data: candidates.map(({ variant, score, reasons }) => ({ externalItemId: item.id, productVariantId: variant.id, score, reasons })) });
+            } else {
+              await tx.productCandidate.upsert({
+                where: { externalItemId: item.id },
+                update: { proposedName: item.name, proposedSku: item.supplierSku, proposedGtin: item.gtin, proposedBrand: item.brandText },
+                create: { supplierOrganizationId, externalItemId: item.id, proposedName: item.name, proposedSku: item.supplierSku, proposedGtin: item.gtin, proposedBrand: item.brandText },
+              });
+            }
+            await tx.importRow.update({ where: { id: row.id }, data: { status: "MATCH_PENDING", normalizedData: normalized as Prisma.InputJsonValue, errorCode: null, errorMessage: null } });
+          }, { maxWait: 15_000, timeout: 45_000 });
+          processedRows += 1;
+        } catch (error) {
+          errorRows += 1;
+          const message = error instanceof Error ? error.message.slice(0, 500) : "Unknown row processing error";
+          await this.prisma.importRow.update({ where: { id: row.id }, data: { status: "REJECTED", errorCode: "PROCESSING_ERROR", errorMessage: message, normalizedData: normalized as Prisma.InputJsonValue } });
         }
-        await tx.importRow.update({ where: { id: row.id }, data: { status: "MATCH_PENDING", normalizedData: normalized as Prisma.InputJsonValue, errorCode: null, errorMessage: null } });
-        processedRows += 1;
+    };
+    const workers = Array.from({ length: Math.min(8, batch.rows.length) }, async () => {
+      while (cursor < batch.rows.length) {
+        const row = batch.rows[cursor++];
+        if (row) await processRow(row);
       }
+    });
+    await Promise.all(workers);
+    return this.prisma.$transaction(async (tx) => {
       const completed = await tx.importBatch.update({
         where: { id: batch.id },
         data: { status: errorRows > 0 ? "COMPLETED_WITH_ERRORS" : "COMPLETED", processedRows, errorRows, completedAt: new Date() },
@@ -138,7 +154,7 @@ export class ImportsService implements OnModuleInit {
       await tx.auditLog.create({ data: { ...context, action: "import.batch.processed", entityType: "ImportBatch", entityId: batch.id, after: completed } });
       await tx.outboxEvent.create({ data: { aggregateType: "ImportBatch", aggregateId: batch.id, eventType: "ImportBatchProcessed", payload: { supplierOrganizationId, batchId: batch.id, processedRows, errorRows } } });
       return completed;
-    });
+    }, { maxWait: 15_000, timeout: 45_000 });
   }
 
   async externalItems(supplierOrganizationId: string, context: SupplierActorContext) {
@@ -167,6 +183,7 @@ export class ImportsService implements OnModuleInit {
         create: { externalItemId, productVariantId: input.productVariantId, score: 1, reasons: ["manual_confirmation"], status: "CONFIRMED" },
       });
       const matched = await tx.supplierExternalItem.update({ where: { id: externalItemId }, data: { matchedVariantId: input.productVariantId } });
+      await tx.productCandidate.updateMany({ where: { externalItemId, status: "PENDING" }, data: { status: "REJECTED", rejectionReason: "Matched to an existing product variant", decidedById: context.actorId, decidedAt: new Date() } });
       if (item.importRowId) await tx.importRow.update({ where: { id: item.importRowId }, data: { status: "MATCHED" } });
       await tx.auditLog.create({ data: { ...context, action: "matching.item.confirmed", entityType: "SupplierExternalItem", entityId: externalItemId, before: item, after: matched } });
       await tx.outboxEvent.create({ data: { aggregateType: "SupplierExternalItem", aggregateId: externalItemId, eventType: "SupplierItemMatched", payload: { supplierOrganizationId, externalItemId, productVariantId: input.productVariantId } } });
