@@ -10,7 +10,6 @@ on:
 permissions:
   actions: read
   contents: read
-  security-events: write
 
 jobs:
   codeql:
@@ -21,6 +20,22 @@ jobs:
         with:
           languages: javascript-typescript
       - uses: github/codeql-action/analyze@v3
+        with:
+          upload: false
+          output: sarif-results
+      - name: Fail on CodeQL errors
+        run: |
+          test -n "$(find sarif-results -name '*.sarif' -print -quit)"
+          if jq -e '[.runs[].results[]? | select(.level == "error")] | length > 0' sarif-results/*.sarif >/dev/null; then
+            echo "CodeQL found error-level security results" >&2
+            exit 1
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: codeql-sarif
+          path: sarif-results
+          retention-days: 30
 
   dependencies:
     runs-on: ubuntu-latest
