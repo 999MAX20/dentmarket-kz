@@ -47,7 +47,7 @@ export class SearchService {
     if (input.maxNormalizedPriceMinor !== undefined) where.push(Prisma.sql`d."minNormalizedPriceMinor" <= ${input.maxNormalizedPriceMinor}`);
     if (Object.keys(attributeFilters).length > 0) where.push(Prisma.sql`(d.facets -> 'attributes') @> CAST(${JSON.stringify(attributeFilters)} AS jsonb)`);
     const condition = Prisma.join(where, " AND ");
-    const rank = q ? Prisma.sql`GREATEST(ts_rank(d."searchVector", websearch_to_tsquery('simple', ${expandedQuery})), similarity(d."normalizedText", ${q}))` : Prisma.sql`0::real`;
+    const rank = q ? Prisma.sql`GREATEST(ts_rank(d."searchVector", websearch_to_tsquery('simple', ${expandedQuery})), similarity(d."normalizedText", ${q})) + CASE WHEN d."normalizedText" = ${q} THEN 1.0 WHEN d."normalizedText" ILIKE ${`%${q}%`} THEN 0.2 ELSE 0 END` : Prisma.sql`0::real`;
     const sort = ({
       RELEVANCE: Prisma.sql`rank DESC, d."isAvailable" DESC, d."updatedAt" DESC`,
       PRICE_ASC: Prisma.sql`d."minNormalizedPriceMinor" ASC NULLS LAST, d."isAvailable" DESC`,

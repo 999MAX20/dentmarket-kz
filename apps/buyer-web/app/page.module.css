@@ -3,6 +3,7 @@
 .searchHelp button { padding: 4px 9px; border: 1px solid var(--colorNeutralStroke2); border-radius: 999px; background: var(--colorNeutralBackground1); color: var(--colorBrandForeground1); cursor: pointer; font: inherit; }
 .searchHelp button:hover { background: var(--colorBrandBackground2); border-color: var(--colorBrandStroke1); }
 .searchHelp button:active { transform: translateY(1px); }
+.searchEmptyActions { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
 .resultsMeta { display: flex; justify-content: space-between; gap: 14px; padding: 11px 16px; border-bottom: 1px solid var(--colorNeutralStroke3); color: var(--colorNeutralForeground3); font-size: 11px; }
 .productList { display: grid; }
 .product { display: grid; grid-template-columns: minmax(220px, 1.1fr) minmax(250px, 1fr) auto; gap: 22px; align-items: center; padding: 20px; border-bottom: 1px solid var(--colorNeutralStroke3); }

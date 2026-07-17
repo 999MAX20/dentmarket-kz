@@ -2,6 +2,25 @@ import { normalizeCatalogText } from "../imports/matching";
 
 type DentalSearchEntry = { aliases: string[]; terms: string[] };
 
+const RU_LAYOUT = "йцукенгшщзхъфывапролджэячсмитьбю";
+const EN_LAYOUT = "qwertyuiop[]asdfghjkl;'zxcvbnm,.";
+const TYPO_ALIASES: Record<string, string> = {
+  "коффердамм": "коффердам",
+  "кофердам": "коффердам",
+  "рабердам": "раббердам",
+  "гуттаперч": "гуттаперча",
+  "композитт": "композит",
+  "апекслокаторр": "апекслокатор",
+  "эндомоторр": "эндомотор",
+  "карпуллы": "карпулы",
+  "матриццы": "матрицы",
+};
+
+function swapKeyboardLayout(value: string, from: string, to: string) {
+  const index = new Map([...from].map((character, position) => [character, to[position] ?? character]));
+  return [...value].map((character) => index.get(character) ?? character).join("");
+}
+
 // Поисковые термины, которыми клиники реально называют товар в заявках и чатах.
 // Официальные названия остаются в индексе; этот слой только расширяет запрос.
 const LEXICON: DentalSearchEntry[] = [
@@ -34,10 +53,12 @@ const LEXICON: DentalSearchEntry[] = [
 ];
 
 export function expandDentalSearchQuery(value: string) {
-  const normalized = normalizeCatalogText(value);
+  const normalized = normalizeCatalogText(value).split(" ").map((token) => TYPO_ALIASES[token] ?? token).join(" ");
   if (!normalized) return { normalizedQuery: "", expandedQuery: "", matchedAliases: [] as string[] };
   const terms = new Set<string>([normalized]);
   const matchedAliases = new Set<string>();
+  const layoutVariants = normalized.split(" ").length === 1 ? [swapKeyboardLayout(normalized, RU_LAYOUT, EN_LAYOUT), swapKeyboardLayout(normalized, EN_LAYOUT, RU_LAYOUT)] : [];
+  layoutVariants.filter((variant) => variant !== normalized).forEach((variant) => terms.add(variant));
   for (const entry of LEXICON) {
     if (!entry.aliases.some((alias) => normalized.includes(normalizeCatalogText(alias)))) continue;
     entry.aliases.forEach((alias) => matchedAliases.add(alias));

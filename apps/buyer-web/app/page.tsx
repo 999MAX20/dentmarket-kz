@@ -534,7 +534,8 @@ export default function BuyerWorkspace() {
           <EmptyState
             icon={<Search24Regular />}
             title="Ничего не найдено"
-            description="Измените запрос или попробуйте более общее название категории."
+            description="Попробуйте профессиональный термин, сленг врача или начните с одной ключевой характеристики."
+            action={<div className={styles.searchEmptyActions}>{dentalSearchSuggestions.slice(0, 4).map((suggestion) => <Button key={suggestion} size="small" appearance="secondary" onClick={() => { setQuery(suggestion); void submitSearchFor(suggestion); }}>{suggestion}</Button>)}</div>}
           />
         ) : (
           <div className={styles.productList}>

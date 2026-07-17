@@ -15,4 +15,13 @@ describe("dental search lexicon", () => {
     expect(result.expandedQuery).toBe("3m filtek z250");
     expect(result.matchedAliases).toEqual([]);
   });
+
+  it("repairs common typos and keyboard layout", () => {
+    const typo = expandDentalSearchQuery("коффердамм");
+    expect(typo.normalizedQuery).toBe("коффердам");
+    expect(typo.expandedQuery).toContain("раббердам");
+
+    const layout = expandDentalSearchQuery("rjvvth");
+    expect(layout.expandedQuery).toContain("коммер");
+  });
 });
