@@ -22,6 +22,7 @@
     "verify:trust-geo": "node scripts/verify-trust-geo.mjs",
     "verify:onboarding-agreement": "node scripts/verify-onboarding-agreement.mjs",
     "verify:security": "node scripts/verify-security.mjs",
+    "verify:security-storage": "pnpm --filter @marketplace/api exec node ../../scripts/verify-security-storage.mjs",
     "verify:production-config": "node scripts/verify-production-config.mjs",
     "verify:production-connectors": "node scripts/verify-production-connectors.mjs",
     "verify:release": "pnpm typecheck && pnpm test && pnpm build && pnpm verify:production-config",

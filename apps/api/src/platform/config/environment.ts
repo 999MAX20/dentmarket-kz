@@ -7,6 +7,10 @@ const booleanFromString = z.preprocess((value) => {
   return value;
 }, z.boolean());
 
+const encryptionKeySchema = z.string().refine((value) => {
+  try { return Buffer.from(value, "base64").length === 32; } catch { return false; }
+}, "must be a base64-encoded 32-byte key");
+
 const environmentSchema = z.object({
   NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
   DEPLOYMENT_PROFILE: z.enum(["go_live", "pilot"]).default("go_live"),
@@ -45,9 +49,9 @@ const environmentSchema = z.object({
   CLAMAV_PORT: z.coerce.number().int().min(1).max(65_535).default(3310),
   OTEL_EXPORTER_OTLP_ENDPOINT: z.string().url().optional(),
   SENTRY_DSN: z.string().url().optional(),
-  INTEGRATION_ENCRYPTION_KEY: z.string().min(32).optional(),
-  INTEGRATION_ENCRYPTION_KEY_PREVIOUS: z.string().min(32).optional(),
-  APP_SECURITY_ENCRYPTION_KEY: z.string().min(32).optional(),
+  INTEGRATION_ENCRYPTION_KEY: encryptionKeySchema.optional(),
+  INTEGRATION_ENCRYPTION_KEY_PREVIOUS: encryptionKeySchema.optional(),
+  APP_SECURITY_ENCRYPTION_KEY: encryptionKeySchema.optional(),
   OBJECT_STORAGE_DRIVER: z.enum(["local", "s3"]).default("local"),
   S3_ENDPOINT: z.string().url().optional(),
   S3_BUCKET: z.string().min(1).optional(),

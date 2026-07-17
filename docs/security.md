@@ -43,3 +43,4 @@ Google и Apple OIDC проверяются по issuer, audience, сроку и
 - секреты из secret manager, не из image или Git;
 - регулярная ротация webhook/provider keys и проверка restore.
 - `SIGNATURE_CALLBACK_SECRET` и независимые webhook secrets из secret manager; tolerance не увеличивать без incident decision.
+- `pnpm verify:security-storage` проверяет формат и различие ключей, наличие encrypted columns и отсутствие plaintext-sensitive keys в конфигурациях; при наличии `SECURITY_AUDIT_DATABASE_URL` или `DATABASE_URL` выполняет live-аудит БД без вывода значений.
