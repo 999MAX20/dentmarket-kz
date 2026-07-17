@@ -5,6 +5,7 @@ import { PermissionsGuard } from "../access-control/permissions.guard";
 import { RequirePermissions } from "../access-control/require-permissions.decorator";
 import { SearchProjectionService } from "./search-projection.service";
 import { SearchService } from "./search.service";
+import { environment } from "../../platform/config/environment";
 
 @ApiTags("marketplace-search")
 @UseGuards(PermissionsGuard)
@@ -30,4 +31,23 @@ export class SearchController {
   @Post("search/rebuild")
   @RequirePermissions("catalog.product.moderate")
   rebuild() { return this.projection.rebuildAll(); }
+}
+
+@ApiTags("public-catalog")
+@Controller("catalog")
+export class PublicCatalogController {
+  constructor(private readonly searchService: SearchService) {}
+  private input(query: Record<string, unknown>) { const organizationId = environment().PUBLIC_CATALOG_ORGANIZATION_ID; return { query: { ...query, buyerOrganizationId: organizationId }, context: { actorId: "public-catalog", organizationId } }; }
+
+  @Get("search")
+  search(@Query() query: Record<string, unknown>) {
+    const input = this.input(query); const parsed = searchCatalogSchema.safeParse(input.query); if (!parsed.success) throw new BadRequestException(parsed.error.flatten());
+    return this.searchService.search(parsed.data, input.context);
+  }
+
+  @Get("products/:productId/compare")
+  compare(@Param("productId") productId: string, @Query() query: Record<string, unknown>) {
+    const input = this.input({ ...query, productId }); const parsed = compareOffersSchema.safeParse(input.query); if (!parsed.success) throw new BadRequestException(parsed.error.flatten());
+    return this.searchService.compare(parsed.data, input.context);
+  }
 }

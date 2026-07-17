@@ -1,5 +1,5 @@
 import { BadRequestException, Body, Controller, Delete, Get, Headers, Param, Post, Req, Res, UnauthorizedException } from "@nestjs/common";
-import { refreshSessionSchema, revokeSessionSchema, socialExchangeSchema, switchSessionOrganizationSchema, unlinkExternalIdentitySchema } from "@marketplace/schemas";
+import { demoSessionSchema, refreshSessionSchema, revokeSessionSchema, socialExchangeSchema, switchSessionOrganizationSchema, unlinkExternalIdentitySchema } from "@marketplace/schemas";
 import { ApiTags } from "@nestjs/swagger";
 import type { Request, Response } from "express";
 import { randomBytes, timingSafeEqual } from "node:crypto";
@@ -27,6 +27,16 @@ export class AuthSessionsController {
   async exchange(@Body() body: unknown, @Req() request: Request, @Res({ passthrough: true }) response: Response) {
     const parsed = socialExchangeSchema.safeParse(body); if (!parsed.success) throw new BadRequestException(parsed.error.flatten());
     const result = await this.sessions.exchange(parsed.data, this.metadata(request));
+    const csrfToken = randomBytes(32).toString("base64url");
+    this.setCookies(response, result.refreshToken, csrfToken, result.refreshTokenExpiresAt);
+    return { ...result, refreshToken: undefined, csrfToken };
+  }
+
+  @Post("demo")
+  async demo(@Body() body: unknown, @Req() request: Request, @Res({ passthrough: true }) response: Response) {
+    if (!environment().PUBLIC_DEMO_MODE) throw new UnauthorizedException("Демонстрационный вход отключён");
+    const parsed = demoSessionSchema.safeParse(body); if (!parsed.success) throw new BadRequestException(parsed.error.flatten());
+    const result = await this.sessions.demo(parsed.data.capability, this.metadata(request));
     const csrfToken = randomBytes(32).toString("base64url");
     this.setCookies(response, result.refreshToken, csrfToken, result.refreshTokenExpiresAt);
     return { ...result, refreshToken: undefined, csrfToken };

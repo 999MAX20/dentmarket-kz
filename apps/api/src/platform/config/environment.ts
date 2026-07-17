@@ -9,6 +9,7 @@ const booleanFromString = z.preprocess((value) => {
 
 const environmentSchema = z.object({
   NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
+  DEPLOYMENT_PROFILE: z.enum(["go_live", "pilot"]).default("go_live"),
   DATABASE_URL: z.string().min(1),
   API_HOST: z.string().default("0.0.0.0"),
   API_PORT: z.coerce.number().int().min(1).max(65_535).default(4000),
@@ -20,6 +21,8 @@ const environmentSchema = z.object({
   JWT_AUDIENCE: z.string().min(1).optional(),
   JWT_REQUIRE_MFA: booleanFromString.default(false),
   SOCIAL_AUTH_ENABLED: booleanFromString.default(false),
+  PUBLIC_DEMO_MODE: booleanFromString.default(false),
+  PUBLIC_CATALOG_ORGANIZATION_ID: z.string().uuid().default("00000000-0000-4000-8000-000000000030"),
   GOOGLE_CLIENT_IDS: z.string().default(""),
   APPLE_CLIENT_IDS: z.string().default(""),
   AUTH_ACCESS_TOKEN_TTL_SECONDS: z.coerce.number().int().min(300).max(86_400).default(900),
@@ -68,7 +71,7 @@ const environmentSchema = z.object({
   if (value.NODE_ENV === "production" && process.env.SIGNATURE_GATEWAY_URL && !value.SIGNATURE_CALLBACK_SECRET) context.addIssue({ code: "custom", path: ["SIGNATURE_CALLBACK_SECRET"], message: "Signed signature callbacks are required when the EDS gateway is configured" });
   if (value.NODE_ENV === "production" && value.AV_SCAN_MODE === "disabled") context.addIssue({ code: "custom", path: ["AV_SCAN_MODE"], message: "File scanning must be enabled in production" });
   if (value.BACKGROUND_QUEUE_ENABLED && value.NODE_ENV === "production" && !value.REDIS_URL) context.addIssue({ code: "custom", path: ["REDIS_URL"], message: "Redis is required for production background queues" });
-  if (value.NODE_ENV === "production") {
+  if (value.NODE_ENV === "production" && value.DEPLOYMENT_PROFILE === "go_live") {
     const corsOrigins = value.CORS_ORIGINS.split(",").map((origin) => origin.trim()).filter(Boolean);
     if (!value.TRUST_PROXY) context.addIssue({ code: "custom", path: ["TRUST_PROXY"], message: "Trusted reverse proxy mode is required in production" });
     if (corsOrigins.length === 0 || corsOrigins.some((origin) => !origin.startsWith("https://") || /localhost|127\.0\.0\.1|0\.0\.0\.0/.test(origin))) context.addIssue({ code: "custom", path: ["CORS_ORIGINS"], message: "Production CORS origins must be explicit HTTPS public origins" });

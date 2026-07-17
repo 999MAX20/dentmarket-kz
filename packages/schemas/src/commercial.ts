@@ -11,6 +11,10 @@ export const socialExchangeSchema = z.object({
   registrationToken: z.string().min(32).max(512).optional(),
 });
 
+export const demoSessionSchema = z.object({
+  capability: z.enum(["BUYER", "SUPPLIER"]),
+});
+
 export const createRegistrationIntentSchema = z.object({
   email: z.email().transform((value) => value.toLowerCase()),
   ownerDisplayName: z.string().trim().min(2).max(160),

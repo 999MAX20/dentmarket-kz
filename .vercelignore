@@ -1,0 +1,15 @@
+.git
+.turbo
+**/.next
+apps/*/.next
+apps/*/.turbo
+**/node_modules
+node_modules
+coverage
+playwright-report
+test-results
+.local-storage
+.local-pg
+.tmp
+*.log
+*.tsbuildinfo

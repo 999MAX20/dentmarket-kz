@@ -16,6 +16,7 @@ import {
   ClipboardTaskListLtr24Regular,
   Document24Regular,
   Bot24Regular,
+  BuildingShop24Regular,
   Grid24Regular,
   List24Regular,
   PersonSupport24Regular,
@@ -48,6 +49,7 @@ const BUYER_ID = "00000000-0000-4000-8000-000000000030";
 const BUYER_USER_ID = "00000000-0000-4000-8000-000000000500";
 type SessionHandoff = { actorId?: string; displayName?: string; organizationDisplayName?: string; organizationId?: string; accessToken?: string; capability?: string };
 const SESSION_KEY = "dentmarket:buyer-session";
+const LOGIN_URL = process.env.NEXT_PUBLIC_LOGIN_URL ?? "/login";
 
 function readSessionHandoff(): SessionHandoff | null {
   if (typeof window === "undefined") return null;
@@ -88,6 +90,13 @@ type SearchResult = {
     suppliers: Array<{ id: string; name: string; count: number }>;
   };
 };
+const publicCatalogFallback: SearchProduct[] = [
+  { id: "00000000-0000-4000-8000-000000000100", name: "Перчатки нитриловые SafeTouch Ultra", brand: "SafeTouch", manufacturer: "SafeMed Industries", categories: [{ id: "00000000-0000-4000-8000-000000000901", name: "Перчатки" }], minNormalizedPriceMinor: "4750", isAvailable: true, offers: [{ id: "00000000-0000-4000-8000-000000000180", supplier: { id: "00000000-0000-4000-8000-000000000060", name: "MedConsum" }, priceMinor: "475000", currency: "KZT", normalizedPriceMinor: "4750", packaging: { name: "Упаковка 100 штук", quantityInBaseUnit: "100", unit: "шт" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["CARRIER"] }, { id: "00000000-0000-4000-8000-000000000150", supplier: { id: "00000000-0000-4000-8000-000000000020", name: "Demo Dental Supply" }, priceMinor: "490000", currency: "KZT", normalizedPriceMinor: "4900", packaging: { name: "Упаковка 100 штук", quantityInBaseUnit: "100", unit: "шт" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["SUPPLIER_CITY"] }] },
+  { id: "00000000-0000-4000-8000-000000000110", name: "Нагрудники стоматологические CleanDent 2-слойные", brand: "CleanDent", manufacturer: "CleanDent Europe", categories: [{ id: "00000000-0000-4000-8000-000000000902", name: "Нагрудники" }], minNormalizedPriceMinor: "2360", isAvailable: true, offers: [{ id: "00000000-0000-4000-8000-000000000200", supplier: { id: "00000000-0000-4000-8000-000000000070", name: "TechDent Systems" }, priceMinor: "1180000", currency: "KZT", normalizedPriceMinor: "2360", packaging: { name: "Упаковка 500 штук", quantityInBaseUnit: "500", unit: "шт" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["SUPPLIER_CITY"] }] },
+  { id: "00000000-0000-4000-8000-000000000120", name: "Бахилы MediStep усиленные", brand: "MediStep", manufacturer: "MediStep Asia", categories: [{ id: "00000000-0000-4000-8000-000000000903", name: "Бахилы" }], minNormalizedPriceMinor: "7000", isAvailable: true, offers: [{ id: "00000000-0000-4000-8000-000000000170", supplier: { id: "00000000-0000-4000-8000-000000000060", name: "MedConsum" }, priceMinor: "350000", currency: "KZT", normalizedPriceMinor: "7000", packaging: { name: "Упаковка 50 пар", quantityInBaseUnit: "50", unit: "пар" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["CARRIER"] }] },
+  { id: "00000000-0000-4000-8000-000000000130", name: "Стоматологическая установка DentTech X5", brand: "DentTech", manufacturer: "DentTech GmbH", categories: [{ id: "00000000-0000-4000-8000-000000000904", name: "Оборудование" }], minNormalizedPriceMinor: "85000000", isAvailable: true, offers: [{ id: "00000000-0000-4000-8000-000000000190", supplier: { id: "00000000-0000-4000-8000-000000000070", name: "TechDent Systems" }, priceMinor: "85000000", currency: "KZT", normalizedPriceMinor: "85000000", packaging: { name: "Комплект", quantityInBaseUnit: "1", unit: "шт" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["SPECIAL"] }] },
+];
+const fallbackSearch = (query: string): SearchResult => { const normalized = query.trim().toLocaleLowerCase("ru"); const items = normalized ? publicCatalogFallback.filter((product) => [product.name, product.brand, product.manufacturer, product.categories[0]?.name].filter(Boolean).join(" ").toLocaleLowerCase("ru").includes(normalized)) : publicCatalogFallback; return { total: items.length, items, facets: { categories: [], suppliers: [] } }; };
 type CompareOffer = {
   offerId: string;
   supplier: { organizationId: string; name: string };
@@ -195,6 +204,7 @@ const navigation: NavigationItem[] = [
   { id: "assistant", label: "AI-помощник", icon: <Bot24Regular /> },
   { id: "support", label: "Поддержка", icon: <PersonSupport24Regular /> },
   { id: "notifications", label: "Уведомления", icon: <Alert24Regular /> },
+  { id: "about", label: "О платформе", icon: <BuildingShop24Regular /> },
 ];
 
 const statusTone = (
@@ -229,8 +239,8 @@ export default function BuyerWorkspace() {
   const [handoff, setHandoff] = useState<SessionHandoff | null>(null);
   const [handoffChecked, setHandoffChecked] = useState(false);
   const buyerId = handoff?.organizationId ?? BUYER_ID;
-  const apiContext = useMemo<ApiContext>(() => handoff?.accessToken ? { accessToken: handoff.accessToken } : handoff?.actorId && handoff.organizationId ? { actorId: handoff.actorId, organizationId: handoff.organizationId } : { actorId: BUYER_USER_ID, organizationId: BUYER_ID }, [handoff]);
-  const api = useMemo(() => new MarketplaceApiClient(process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:4012/api", apiContext), [apiContext]);
+  const apiContext = useMemo<ApiContext>(() => handoff?.accessToken ? { accessToken: handoff.accessToken } : handoff?.actorId && handoff.organizationId ? { actorId: handoff.actorId, organizationId: handoff.organizationId } : {}, [handoff]);
+  const api = useMemo(() => new MarketplaceApiClient(process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api", apiContext), [apiContext]);
   useEffect(() => { const next = readSessionHandoff(); if (next) { setHandoff(next); window.sessionStorage.setItem(SESSION_KEY, JSON.stringify(next)); window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}`); } setHandoffChecked(true); }, []);
   const [active, setActive] = useState("catalog");
   const [query, setQuery] = useState("перчатки");
@@ -261,9 +271,10 @@ export default function BuyerWorkspace() {
         inStock: "true",
         limit: "24",
       });
-      setSearch(await api.get<SearchResult>(`/marketplace/search?${params}`));
+      try { setSearch(await api.get<SearchResult>(`${handoff ? "/marketplace" : "/catalog"}/search?${params}`)); }
+      catch (cause) { if (handoff) throw cause; setSearch(fallbackSearch(nextQuery)); }
     },
-    [api, buyerId, query, sort],
+    [api, buyerId, handoff, query, sort],
   );
 
   const refresh = useCallback(async () => {
@@ -271,6 +282,11 @@ export default function BuyerWorkspace() {
     setLoading(true);
     setError(null);
     try {
+      if (!handoff) {
+        await loadSearch(query, sort);
+        setCarts([]); setOrders([]); setDocuments([]); setNotifications([]);
+        return;
+      }
       const [
         searchResult,
         cartResult,
@@ -300,7 +316,7 @@ export default function BuyerWorkspace() {
     } finally {
       setLoading(false);
     }
-  }, [api, buyerId, handoffChecked, query, sort]);
+  }, [api, buyerId, handoff, handoffChecked, loadSearch, query, sort]);
 
   useEffect(() => { if (handoffChecked) void refresh(); }, [handoffChecked, refresh]);
   useEffect(() => {
@@ -326,9 +342,13 @@ export default function BuyerWorkspace() {
     setBusy(`compare:${productId}`);
     setError(null);
     try {
+      if (!handoff) {
+        const product = search?.items.find(({ id }) => id === productId);
+        if (product) { setComparison({ product: { id: product.id, name: product.name, brand: product.brand, manufacturer: product.manufacturer }, offers: product.offers.filter((offer) => offer.priceMinor && offer.normalizedPriceMinor).map((offer) => ({ offerId: offer.id, supplier: { organizationId: offer.supplier.id, name: offer.supplier.name }, supplierSku: null, price: { amountMinor: offer.priceMinor!, currency: offer.currency ?? "KZT", normalizedPriceMinor: offer.normalizedPriceMinor!, normalizedUnit: offer.packaging.unit ?? "ед." }, packaging: { name: offer.packaging.name ?? "Упаковка", quantityInBaseUnit: offer.packaging.quantityInBaseUnit, unit: offer.packaging.unit }, availability: [{ warehouse: "Проверенный склад", quantityAvailable: "в наличии", updatedAt: new Date().toISOString() }], delivery: offer.deliveryMethods.map((method) => ({ method, minLeadTimeHours: null, maxLeadTimeHours: null })), markers: { verifiedDocuments: true, complianceRisk: "LOW", officialDistributor: false, supplierWarranty: true, requiresConfirmation: offer.confirmationMode === "MANUAL" } })), comparisonAttributes: [] }); return; }
+      }
       setComparison(
         await api.get<Comparison>(
-          `/marketplace/products/${productId}/compare?buyerOrganizationId=${buyerId}&quantity=1`,
+          `${handoff ? "/marketplace" : "/catalog"}/products/${productId}/compare?buyerOrganizationId=${buyerId}&quantity=1`,
         ),
       );
     } catch (cause) {
@@ -339,6 +359,7 @@ export default function BuyerWorkspace() {
   };
 
   const addToCart = async (offerId: string) => {
+    if (!handoff) { window.location.assign(LOGIN_URL); return; }
     setBusy(`cart:${offerId}`);
     setError(null);
     try {
@@ -931,18 +952,18 @@ export default function BuyerWorkspace() {
       productName="DentMarket"
       productMark="DM"
       workspaceLabel="Кабинет клиники"
-      userName={handoff?.displayName ?? "Demo Dental Clinic"}
-      userMeta={`${handoff ? "География не настроена" : "Павлодар"} · Покупатель`}
+      userName={handoff?.displayName ?? "Гость"}
+      userMeta={handoff ? "Клиника · Покупатель" : "Каталог доступен без регистрации"}
       navigation={nav}
       activeNavigation={active}
-      onNavigate={setActive}
+      onNavigate={(item) => { if (item === "about") window.location.assign("/about"); else if (!handoff && item !== "catalog") window.location.assign(LOGIN_URL); else setActive(item); }}
       actions={
         <Button
-          appearance="subtle"
-          icon={<ArrowSync24Regular />}
-          onClick={() => void refresh()}
-          aria-label="Обновить данные"
-        />
+          appearance={handoff ? "subtle" : "primary"}
+          icon={handoff ? <ArrowSync24Regular /> : undefined}
+          onClick={() => handoff ? void refresh() : window.location.assign(LOGIN_URL)}
+          aria-label={handoff ? "Обновить данные" : "Войти"}
+        >{handoff ? null : "Войти"}</Button>
       }
     >
       {loading ? (

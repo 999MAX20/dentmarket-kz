@@ -43,6 +43,24 @@ export class AuthSessionsService {
     return this.prisma.organizationMembership.findMany({ where: { userId, status: "ACTIVE", organization: { status: "ACTIVE" } }, select: { organizationId: true, isPrimary: true }, orderBy: { acceptedAt: "asc" } });
   }
 
+  private async createSession(userId: string, organizationIds: string[], activeOrganizationId: string | null, authMethods: string[], metadata: RequestMetadata) {
+    const refreshToken = randomBytes(48).toString("base64url");
+    const config = environment();
+    const session = await this.prisma.authSession.create({ data: { userId, familyId: randomUUID(), refreshTokenHash: hash(refreshToken), organizationIds, activeOrganizationId, authMethods, ipAddress: metadata.ipAddress, userAgent: metadata.userAgent, lastUsedAt: new Date(), expiresAt: new Date(Date.now() + config.AUTH_REFRESH_TOKEN_TTL_DAYS * 86_400_000) } });
+    return { ...this.sessionPayload(session, refreshToken), refreshToken };
+  }
+
+  async demo(capability: "BUYER" | "SUPPLIER", metadata: RequestMetadata) {
+    const email = capability === "BUYER" ? "buyer@marketplace.local" : "supplier@marketplace.local";
+    const user = await this.prisma.user.findUnique({ where: { email }, include: { memberships: { where: { status: "ACTIVE", organization: { status: "ACTIVE", capabilities: { some: { capability } } } }, include: { organization: true }, orderBy: { acceptedAt: "asc" } } } });
+    const membership = user?.memberships[0];
+    if (!user || !membership) throw new NotFoundException("Демонстрационный аккаунт не подготовлен");
+    const organizationIds = user.memberships.map(({ organizationId }) => organizationId);
+    const session = await this.createSession(user.id, organizationIds, membership.organizationId, ["demo"], metadata);
+    await this.prisma.user.update({ where: { id: user.id }, data: { lastLoginAt: new Date() } });
+    return { user: { id: user.id, email: user.email, displayName: user.displayName }, capability, organizationId: membership.organizationId, organizationDisplayName: membership.organization.displayName, ...session };
+  }
+
   private sessionPayload(session: { id: string; userId: string; organizationIds: string[]; activeOrganizationId: string | null; authMethods: string[]; expiresAt: Date }, refreshToken: string) {
     const config = environment();
     return {
