@@ -69,7 +69,7 @@ export class ImportsService implements OnModuleInit {
 
   async onboardingReadiness(supplierOrganizationId: string, context: SupplierActorContext) {
     await this.access.assertCanManage(supplierOrganizationId, context);
-    const [organization, profile, credentials, warehouses, sources, batches, items, memories, complianceReady, complianceIssues, offers, prices, inventory, agreement] = await Promise.all([
+    const [organization, profile, credentials, warehouses, sources, batches, items, memories, complianceReady, complianceIssues, offers, prices, inventory, agreement, testOrders] = await Promise.all([
       this.prisma.organization.findUnique({ where: { id: supplierOrganizationId }, select: { id: true, displayName: true, bin: true } }),
       this.prisma.supplierProfile.findUnique({ where: { organizationId: supplierOrganizationId }, select: { organizationId: true } }),
       this.prisma.organizationCredential.count({ where: { organizationId: supplierOrganizationId, status: "VERIFIED", OR: [{ validTo: null }, { validTo: { gt: new Date() } }] } }),
@@ -84,6 +84,7 @@ export class ImportsService implements OnModuleInit {
       this.prisma.offerPrice.count({ where: { offer: { supplierOrganizationId }, status: "ACTIVE", OR: [{ validTo: null }, { validTo: { gt: new Date() } }] } }),
       this.prisma.inventoryBalance.count({ where: { supplierOrganizationId, freshnessStatus: "FRESH", quantityAvailable: { gt: 0 } } }),
       this.prisma.marketplaceAgreement.count({ where: { supplierOrganizationId, status: { in: ["ACTIVE", "NON_RENEWING"] }, startsAt: { lte: new Date() }, endsAt: { gt: new Date() } } }),
+      this.prisma.supplierOrder.count({ where: { supplierOrganizationId, status: { notIn: ["DRAFT", "CANCELLED", "REJECTED"] } } }),
     ]);
     const steps = [
       { id: "organization", label: "Организация", complete: Boolean(organization?.id && organization.bin), action: "Заполнить BIN и юридические данные" },
@@ -97,9 +98,10 @@ export class ImportsService implements OnModuleInit {
       { id: "agreement", label: "Договор ЭЦП", complete: agreement > 0, action: "Подписать договор с оператором" },
       { id: "offer", label: "Offer и цена", complete: offers > 0 && prices > 0, action: "Подтвердить offer и цену" },
       { id: "inventory", label: "Остаток", complete: inventory > 0, action: "Передать свежий остаток" },
+      { id: "test_order", label: "Контрольный заказ", complete: testOrders > 0, action: "Пройти reserve → confirm → payment/test order → release" },
     ];
     const completedSteps = steps.filter((step) => step.complete).length;
-    return { supplierOrganizationId, organization, completedSteps, totalSteps: steps.length, progressPercent: Math.round((completedSteps / steps.length) * 100), readyForCommercialActivation: steps.every((step) => step.complete), steps, counts: { credentials, warehouses, sources, batches, matchedItems: items, mappingMemories: memories, complianceReady, complianceIssues, activeOffers: offers, activePrices: prices, freshInventory: inventory, activeAgreements: agreement } };
+    return { supplierOrganizationId, organization, completedSteps, totalSteps: steps.length, progressPercent: Math.round((completedSteps / steps.length) * 100), readyForCommercialActivation: steps.every((step) => step.complete), steps, counts: { credentials, warehouses, sources, batches, matchedItems: items, mappingMemories: memories, complianceReady, complianceIssues, activeOffers: offers, activePrices: prices, freshInventory: inventory, activeAgreements: agreement, testOrders } };
   }
 
   async batch(supplierOrganizationId: string, batchId: string, context: SupplierActorContext) {
