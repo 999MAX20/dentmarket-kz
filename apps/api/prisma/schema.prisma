@@ -90,6 +90,7 @@ enum SupplierDataSourceType {
   MANUAL
   CSV
   EXCEL
+  PDF
   API
   ERP
 }
@@ -97,6 +98,7 @@ enum SupplierDataSourceType {
 enum ImportBatchStatus {
   UPLOADED
   MAPPED
+  REVIEW_REQUIRED
   PROCESSING
   COMPLETED
   COMPLETED_WITH_ERRORS
@@ -541,6 +543,7 @@ enum OrganizationCredentialType {
   BUSINESS_LICENSE
   MEDICAL_LICENSE
   WHOLESALE_LICENSE
+  MEDICAL_DEVICE_SALE_NOTIFICATION
   REGISTRATION_CERTIFICATE
   DISTRIBUTOR_AUTHORIZATION
   QUALITY_CERTIFICATE
@@ -915,21 +918,31 @@ enum AgreementRenewalMode {
   MANUAL_ANNUAL
 }
 
+enum BuyerSupplierAgreementStatus {
+  DRAFT
+  AWAITING_SIGNATURE
+  ACTIVE
+  NON_RENEWING
+  EXPIRED
+  TERMINATED
+}
+
 model User {
-  id                   String                   @id @default(uuid()) @db.Uuid
-  email                String                   @unique
-  displayName          String
-  status               RecordStatus             @default(ACTIVE)
-  emailVerifiedAt      DateTime?
-  lastLoginAt          DateTime?
-  locale               String                   @default("ru-KZ")
-  memberships          OrganizationMembership[]
-  mfaFactor            UserMfaFactor?
-  externalIdentities   ExternalIdentity[]
-  authSessions         AuthSession[]
-  claimedRegistrations RegistrationIntent[]     @relation("RegistrationClaimedBy")
-  createdAt            DateTime                 @default(now())
-  updatedAt            DateTime                 @updatedAt
+  id                       String                    @id @default(uuid()) @db.Uuid
+  email                    String                    @unique
+  displayName              String
+  status                   RecordStatus              @default(ACTIVE)
+  emailVerifiedAt          DateTime?
+  lastLoginAt              DateTime?
+  locale                   String                    @default("ru-KZ")
+  memberships              OrganizationMembership[]
+  mfaFactor                UserMfaFactor?
+  externalIdentities       ExternalIdentity[]
+  authSessions             AuthSession[]
+  claimedRegistrations     RegistrationIntent[]      @relation("RegistrationClaimedBy")
+  createdAt                DateTime                  @default(now())
+  updatedAt                DateTime                  @updatedAt
+  platformOfferAcceptances PlatformOfferAcceptance[]
 }
 
 model UserMfaFactor {
@@ -950,37 +963,40 @@ model UserMfaFactor {
 }
 
 model Organization {
-  id                  String                   @id @default(uuid()) @db.Uuid
-  legalName           String
-  displayName         String
-  bin                 String                   @unique @db.VarChar(12)
-  status              RecordStatus             @default(ACTIVE)
-  version             Int                      @default(1)
-  capabilities        OrganizationCapability[]
-  memberships         OrganizationMembership[]
-  invitations         MembershipInvitation[]
-  roles               Role[]
-  approvalPolicies    ApprovalPolicy[]
-  addresses           Address[]
-  supplierProfile     SupplierProfile?
-  buyerContractPrices ContractPrice[]          @relation("ContractPriceBuyer")
-  carts               Cart[]                   @relation("CartBuyer")
-  checkouts           Checkout[]               @relation("CheckoutBuyer")
-  buyerOrders         SupplierOrder[]          @relation("SupplierOrderBuyer")
-  supplierOrders      SupplierOrder[]          @relation("SupplierOrderSupplier")
-  paymentIntents      PaymentIntent[]          @relation("PaymentIntentBuyer")
-  paymentAllocations  PaymentAllocation[]      @relation("PaymentAllocationRecipient")
-  paymentMerchants    PaymentMerchantAccount[] @relation("PaymentMerchantOrganization")
-  ownedDocuments      Document[]               @relation("DocumentOwner")
-  signedDocuments     DocumentSignature[]      @relation("DocumentSignerOrganization")
-  credentials         OrganizationCredential[]
-  sellerChecks        ComplianceCheck[]        @relation("ComplianceSeller")
-  buyerChecks         ComplianceCheck[]        @relation("ComplianceBuyer")
-  notifications       Notification[]
-  notificationPrefs   NotificationPreference[]
-  registrationIntents RegistrationIntent[]
-  createdAt           DateTime                 @default(now())
-  updatedAt           DateTime                 @updatedAt
+  id                                String                    @id @default(uuid()) @db.Uuid
+  legalName                         String
+  displayName                       String
+  bin                               String                    @unique @db.VarChar(12)
+  status                            RecordStatus              @default(ACTIVE)
+  version                           Int                       @default(1)
+  capabilities                      OrganizationCapability[]
+  memberships                       OrganizationMembership[]
+  invitations                       MembershipInvitation[]
+  roles                             Role[]
+  approvalPolicies                  ApprovalPolicy[]
+  addresses                         Address[]
+  supplierProfile                   SupplierProfile?
+  buyerContractPrices               ContractPrice[]           @relation("ContractPriceBuyer")
+  carts                             Cart[]                    @relation("CartBuyer")
+  checkouts                         Checkout[]                @relation("CheckoutBuyer")
+  buyerOrders                       SupplierOrder[]           @relation("SupplierOrderBuyer")
+  supplierOrders                    SupplierOrder[]           @relation("SupplierOrderSupplier")
+  paymentIntents                    PaymentIntent[]           @relation("PaymentIntentBuyer")
+  paymentAllocations                PaymentAllocation[]       @relation("PaymentAllocationRecipient")
+  paymentMerchants                  PaymentMerchantAccount[]  @relation("PaymentMerchantOrganization")
+  ownedDocuments                    Document[]                @relation("DocumentOwner")
+  signedDocuments                   DocumentSignature[]       @relation("DocumentSignerOrganization")
+  credentials                       OrganizationCredential[]
+  sellerChecks                      ComplianceCheck[]         @relation("ComplianceSeller")
+  buyerChecks                       ComplianceCheck[]         @relation("ComplianceBuyer")
+  notifications                     Notification[]
+  notificationPrefs                 NotificationPreference[]
+  registrationIntents               RegistrationIntent[]
+  platformOfferAcceptances          PlatformOfferAcceptance[]
+  supplierBuyerAgreementsAsBuyer    BuyerSupplierAgreement[]  @relation("BuyerSupplierAgreementBuyer")
+  supplierBuyerAgreementsAsSupplier BuyerSupplierAgreement[]  @relation("BuyerSupplierAgreementSupplier")
+  createdAt                         DateTime                  @default(now())
+  updatedAt                         DateTime                  @updatedAt
 
   @@index([displayName])
 }
@@ -1005,14 +1021,42 @@ model RegistrationIntent {
   claimedAt               DateTime?
   claimedByUserId         String?                    @db.Uuid
   organizationId          String?                    @db.Uuid
+  acceptanceIpAddress     String?
+  acceptanceUserAgent     String?
+  acceptanceMethod        String                     @default("REGISTRATION_FORM")
+  offerDocumentHash       String                     @default("")
+  evidenceSnapshot        Json?
   claimedBy               User?                      @relation("RegistrationClaimedBy", fields: [claimedByUserId], references: [id], onDelete: SetNull)
   organization            Organization?              @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+  platformOfferAcceptance PlatformOfferAcceptance?
   createdAt               DateTime                   @default(now())
   updatedAt               DateTime                   @updatedAt
 
   @@index([email, status, expiresAt])
   @@index([bin, status])
   @@index([capability, status, createdAt])
+}
+
+model PlatformOfferAcceptance {
+  id                   String             @id @default(uuid()) @db.Uuid
+  organizationId       String             @unique @db.Uuid
+  registrationIntentId String             @unique @db.Uuid
+  userId               String             @db.Uuid
+  termsVersion         String
+  acceptedAt           DateTime
+  ipAddress            String?
+  userAgent            String?
+  acceptanceMethod     String
+  documentHash         String
+  evidenceSnapshot     Json
+  organization         Organization       @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  registrationIntent   RegistrationIntent @relation(fields: [registrationIntentId], references: [id], onDelete: Restrict)
+  user                 User               @relation(fields: [userId], references: [id], onDelete: Restrict)
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime           @updatedAt
+
+  @@index([userId, acceptedAt])
+  @@index([termsVersion, acceptedAt])
 }
 
 model OrganizationCapability {
@@ -1352,6 +1396,7 @@ model ProductVariant {
   saleUnit              UnitOfMeasure?               @relation(fields: [saleUnitId], references: [id])
   attributeValues       VariantAttributeValue[]
   supplierItems         SupplierExternalItem[]
+  mappingMemories       SupplierMappingMemory[]
   matchCandidates       SupplierItemMatchCandidate[]
   supplierOffers        SupplierOffer[]
   inventoryBalances     InventoryBalance[]
@@ -1489,6 +1534,7 @@ model SupplierProfile {
   dataSources            SupplierDataSource[]
   importBatches          ImportBatch[]
   externalItems          SupplierExternalItem[]
+  mappingMemories        SupplierMappingMemory[]
   offers                 SupplierOffer[]
   inventoryBalances      InventoryBalance[]
   inventoryLots          InventoryLot[]
@@ -1541,19 +1587,20 @@ model Warehouse {
 }
 
 model SupplierDataSource {
-  id                     String                 @id @default(uuid()) @db.Uuid
-  supplierOrganizationId String                 @db.Uuid
+  id                     String                  @id @default(uuid()) @db.Uuid
+  supplierOrganizationId String                  @db.Uuid
   name                   String
   type                   SupplierDataSourceType
   configuration          Json?
-  status                 RecordStatus           @default(ACTIVE)
-  supplier               SupplierProfile        @relation(fields: [supplierOrganizationId], references: [organizationId], onDelete: Cascade)
+  status                 RecordStatus            @default(ACTIVE)
+  supplier               SupplierProfile         @relation(fields: [supplierOrganizationId], references: [organizationId], onDelete: Cascade)
   importBatches          ImportBatch[]
   externalItems          SupplierExternalItem[]
+  mappingMemories        SupplierMappingMemory[]
   offers                 SupplierOffer[]
   integrationConnection  IntegrationConnection?
-  createdAt              DateTime               @default(now())
-  updatedAt              DateTime               @updatedAt
+  createdAt              DateTime                @default(now())
+  updatedAt              DateTime                @updatedAt
 
   @@index([supplierOrganizationId, status])
 }
@@ -1567,6 +1614,7 @@ model ImportBatch {
   checksum               String?
   status                 ImportBatchStatus      @default(UPLOADED)
   columnMapping          Json?
+  extractionMetadata     Json?
   totalRows              Int                    @default(0)
   processedRows          Int                    @default(0)
   errorRows              Int                    @default(0)
@@ -1614,6 +1662,8 @@ model SupplierExternalItem {
   gtin                   String?
   unitText               String?
   rawData                Json
+  complianceStatus       String                       @default("REVIEW_REQUIRED")
+  complianceReasons      Json?
   matchedVariantId       String?                      @db.Uuid
   supplier               SupplierProfile              @relation(fields: [supplierOrganizationId], references: [organizationId], onDelete: Cascade)
   source                 SupplierDataSource           @relation(fields: [sourceId], references: [id], onDelete: Restrict)
@@ -1627,6 +1677,32 @@ model SupplierExternalItem {
   @@unique([sourceId, externalId])
   @@index([supplierOrganizationId, normalizedName])
   @@index([matchedVariantId])
+}
+
+model SupplierMappingMemory {
+  id                     String                  @id @default(uuid()) @db.Uuid
+  supplierOrganizationId String                  @db.Uuid
+  sourceId               String?                 @db.Uuid
+  externalKey            String
+  externalId             String?
+  supplierSku            String?
+  productVariantId       String                  @db.Uuid
+  version                Int                     @default(1)
+  status                 String                  @default("ACTIVE")
+  confidence             Decimal                 @db.Decimal(5, 4)
+  reasons                Json
+  createdById            String?                 @db.Uuid
+  supersedesId           String?                 @db.Uuid
+  supplier               SupplierProfile         @relation(fields: [supplierOrganizationId], references: [organizationId], onDelete: Cascade)
+  source                 SupplierDataSource?     @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+  productVariant         ProductVariant          @relation(fields: [productVariantId], references: [id], onDelete: Restrict)
+  supersedes             SupplierMappingMemory?  @relation("MappingMemorySupersedes", fields: [supersedesId], references: [id], onDelete: SetNull)
+  revisions              SupplierMappingMemory[] @relation("MappingMemorySupersedes")
+  createdAt              DateTime                @default(now())
+  updatedAt              DateTime                @updatedAt
+
+  @@unique([supplierOrganizationId, externalKey, version])
+  @@index([supplierOrganizationId, externalKey, status, version])
 }
 
 model SupplierItemMatchCandidate {
@@ -2034,31 +2110,35 @@ model Checkout {
 }
 
 model SupplierOrder {
-  id                     String              @id @default(uuid()) @db.Uuid
-  checkoutId             String              @db.Uuid
-  supplierOrganizationId String              @db.Uuid
-  buyerOrganizationId    String              @db.Uuid
-  orderNumber            String              @unique
-  status                 SupplierOrderStatus @default(AWAITING_CONFIRMATION)
-  paymentStatus          OrderPaymentStatus  @default(UNPAID)
-  subtotalAmountMinor    Decimal             @db.Decimal(20, 0)
-  currency               String              @db.Char(3)
-  version                Int                 @default(1)
-  checkout               Checkout            @relation(fields: [checkoutId], references: [id], onDelete: Restrict)
-  supplier               Organization        @relation("SupplierOrderSupplier", fields: [supplierOrganizationId], references: [id], onDelete: Restrict)
-  buyer                  Organization        @relation("SupplierOrderBuyer", fields: [buyerOrganizationId], references: [id], onDelete: Restrict)
-  items                  SupplierOrderItem[]
-  paymentAllocation      PaymentAllocation?
-  refunds                Refund[]
-  shipments              Shipment[]
-  documents              Document[]
-  complianceChecks       ComplianceCheck[]
-  createdAt              DateTime            @default(now())
-  updatedAt              DateTime            @updatedAt
+  id                       String                  @id @default(uuid()) @db.Uuid
+  checkoutId               String                  @db.Uuid
+  supplierOrganizationId   String                  @db.Uuid
+  buyerOrganizationId      String                  @db.Uuid
+  orderNumber              String                  @unique
+  status                   SupplierOrderStatus     @default(AWAITING_CONFIRMATION)
+  paymentStatus            OrderPaymentStatus      @default(UNPAID)
+  subtotalAmountMinor      Decimal                 @db.Decimal(20, 0)
+  currency                 String                  @db.Char(3)
+  buyerSupplierAgreementId String?                 @db.Uuid
+  transactionMode          String                  @default("ONE_TIME")
+  version                  Int                     @default(1)
+  checkout                 Checkout                @relation(fields: [checkoutId], references: [id], onDelete: Restrict)
+  supplier                 Organization            @relation("SupplierOrderSupplier", fields: [supplierOrganizationId], references: [id], onDelete: Restrict)
+  buyer                    Organization            @relation("SupplierOrderBuyer", fields: [buyerOrganizationId], references: [id], onDelete: Restrict)
+  buyerSupplierAgreement   BuyerSupplierAgreement? @relation(fields: [buyerSupplierAgreementId], references: [id], onDelete: SetNull)
+  items                    SupplierOrderItem[]
+  paymentAllocation        PaymentAllocation?
+  refunds                  Refund[]
+  shipments                Shipment[]
+  documents                Document[]
+  complianceChecks         ComplianceCheck[]
+  createdAt                DateTime                @default(now())
+  updatedAt                DateTime                @updatedAt
 
   @@unique([checkoutId, supplierOrganizationId])
   @@index([supplierOrganizationId, status, createdAt])
   @@index([buyerOrganizationId, createdAt])
+  @@index([buyerSupplierAgreementId, transactionMode])
 }
 
 model SupplierOrderItem {
@@ -2614,20 +2694,20 @@ model DocumentTemplate {
 }
 
 model Document {
-  id                     String                @id @default(uuid()) @db.Uuid
-  ownerOrganizationId    String                @db.Uuid
-  templateId             String?               @db.Uuid
-  checkoutId             String?               @db.Uuid
-  supplierOrderId        String?               @db.Uuid
-  shipmentId             String?               @db.Uuid
-  previousVersionId      String?               @db.Uuid
+  id                     String                  @id @default(uuid()) @db.Uuid
+  ownerOrganizationId    String                  @db.Uuid
+  templateId             String?                 @db.Uuid
+  checkoutId             String?                 @db.Uuid
+  supplierOrderId        String?                 @db.Uuid
+  shipmentId             String?                 @db.Uuid
+  previousVersionId      String?                 @db.Uuid
   kind                   DocumentKind
   format                 DocumentFormat
   source                 DocumentSource
-  status                 DocumentStatus        @default(DRAFT)
+  status                 DocumentStatus          @default(DRAFT)
   title                  String
   documentNumber         String
-  version                Int                   @default(1)
+  version                Int                     @default(1)
   storageKey             String?
   fileName               String?
   contentType            String?
@@ -2635,30 +2715,60 @@ model Document {
   checksumSha256         String?
   templateSnapshot       Json?
   dataSnapshot           Json?
-  requiredSignatureCount Int                   @default(0)
+  requiredSignatureCount Int                     @default(0)
   generatedAt            DateTime?
   immutableAt            DateTime?
   expiresAt              DateTime?
   externalId             String?
   failureReason          String?
   metadata               Json?
-  owner                  Organization          @relation("DocumentOwner", fields: [ownerOrganizationId], references: [id], onDelete: Restrict)
-  template               DocumentTemplate?     @relation(fields: [templateId], references: [id], onDelete: SetNull)
-  checkout               Checkout?             @relation(fields: [checkoutId], references: [id], onDelete: SetNull)
-  supplierOrder          SupplierOrder?        @relation(fields: [supplierOrderId], references: [id], onDelete: SetNull)
-  shipment               Shipment?             @relation(fields: [shipmentId], references: [id], onDelete: SetNull)
-  previousVersion        Document?             @relation("DocumentVersionChain", fields: [previousVersionId], references: [id], onDelete: SetNull)
-  nextVersions           Document[]            @relation("DocumentVersionChain")
+  owner                  Organization            @relation("DocumentOwner", fields: [ownerOrganizationId], references: [id], onDelete: Restrict)
+  template               DocumentTemplate?       @relation(fields: [templateId], references: [id], onDelete: SetNull)
+  checkout               Checkout?               @relation(fields: [checkoutId], references: [id], onDelete: SetNull)
+  supplierOrder          SupplierOrder?          @relation(fields: [supplierOrderId], references: [id], onDelete: SetNull)
+  shipment               Shipment?               @relation(fields: [shipmentId], references: [id], onDelete: SetNull)
+  previousVersion        Document?               @relation("DocumentVersionChain", fields: [previousVersionId], references: [id], onDelete: SetNull)
+  nextVersions           Document[]              @relation("DocumentVersionChain")
   signatures             DocumentSignature[]
   marketplaceAgreement   MarketplaceAgreement?
-  createdAt              DateTime              @default(now())
-  updatedAt              DateTime              @updatedAt
+  buyerSupplierAgreement BuyerSupplierAgreement?
+  createdAt              DateTime                @default(now())
+  updatedAt              DateTime                @updatedAt
 
   @@unique([ownerOrganizationId, documentNumber, version])
   @@index([supplierOrderId, kind, status])
   @@index([checkoutId, status])
   @@index([shipmentId, status])
   @@index([ownerOrganizationId, status, expiresAt])
+}
+
+model BuyerSupplierAgreement {
+  id                     String                       @id @default(uuid()) @db.Uuid
+  agreementNumber        String                       @unique
+  supplierOrganizationId String                       @db.Uuid
+  buyerOrganizationId    String                       @db.Uuid
+  documentId             String                       @unique @db.Uuid
+  templateVersion        Int
+  status                 BuyerSupplierAgreementStatus @default(AWAITING_SIGNATURE)
+  renewalMode            AgreementRenewalMode         @default(AUTO_ANNUAL)
+  startsAt               DateTime?
+  endsAt                 DateTime?
+  autoRenew              Boolean                      @default(true)
+  renewalCount           Int                          @default(0)
+  lastRenewedAt          DateTime?
+  terminatedAt           DateTime?
+  terminationReason      String?
+  metadata               Json?
+  supplier               Organization                 @relation("BuyerSupplierAgreementSupplier", fields: [supplierOrganizationId], references: [id], onDelete: Restrict)
+  buyer                  Organization                 @relation("BuyerSupplierAgreementBuyer", fields: [buyerOrganizationId], references: [id], onDelete: Restrict)
+  document               Document                     @relation(fields: [documentId], references: [id], onDelete: Restrict)
+  supplierOrders         SupplierOrder[]
+  createdAt              DateTime                     @default(now())
+  updatedAt              DateTime                     @updatedAt
+
+  @@unique([supplierOrganizationId, buyerOrganizationId, status])
+  @@index([supplierOrganizationId, buyerOrganizationId, status, endsAt])
+  @@index([buyerOrganizationId, status, endsAt])
 }
 
 model DocumentSignature {

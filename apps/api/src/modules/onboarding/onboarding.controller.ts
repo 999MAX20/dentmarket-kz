@@ -15,10 +15,10 @@ export class OnboardingController {
 
   @Post("registrations")
   @Throttle({ ip: { limit: 8, ttl: 60_000 }, user: { limit: 8, ttl: 60_000 }, tenant: { limit: 8, ttl: 60_000 } })
-  create(@Body() body: unknown) {
+  create(@Body() body: unknown, @Req() request: Request) {
     const parsed = createRegistrationIntentSchema.safeParse(body);
     if (!parsed.success) throw new BadRequestException(parsed.error.flatten());
-    return this.onboarding.createIntent(parsed.data);
+    return this.onboarding.createIntent(parsed.data, { ipAddress: request.ip ?? request.socket.remoteAddress ?? null, userAgent: request.get("user-agent") ?? null });
   }
 
   @Post("registrations/complete-development")

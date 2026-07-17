@@ -6,10 +6,11 @@ import type { SupplierActorContext } from "../suppliers/supplier-access.service"
 import { PaymentAdapterRegistry } from "./adapters/payment-adapter-registry.service";
 import { providerCapabilities } from "./adapters/payment-adapter";
 import { calculateRefundAllocation } from "./payment-rules";
+import { MarketplaceAgreementsService } from "../agreements/marketplace-agreements.service";
 
 @Injectable()
 export class PaymentSettlementService {
-  constructor(private readonly prisma: PrismaService, private readonly registry: PaymentAdapterRegistry) {}
+  constructor(private readonly prisma: PrismaService, private readonly registry: PaymentAdapterRegistry, private readonly agreements: MarketplaceAgreementsService) {}
 
   private async isOperator(organizationId: string) {
     return Boolean(await this.prisma.organizationCapability.findUnique({ where: { organizationId_capability: { organizationId, capability: "MARKETPLACE_OPERATOR" } } }));
@@ -67,6 +68,7 @@ export class PaymentSettlementService {
     const requestedIds = input.allocationIds ? new Set(input.allocationIds) : null;
     const selected = intent.allocations.filter((allocation) => (!requestedIds || requestedIds.has(allocation.id)) && ["PENDING", "AUTHORIZED"].includes(allocation.status));
     if (selected.length === 0 || (requestedIds && selected.length !== requestedIds.size)) throw new BadRequestException("Capture allocations are missing or already processed");
+    await Promise.all([...new Set(selected.map(({ supplierOrder }) => supplierOrder.supplierOrganizationId))].map((supplierOrganizationId) => this.agreements.assertActive(supplierOrganizationId)));
     const capabilities = providerCapabilities(intent.provider.capabilities);
     if (selected.length !== intent.allocations.filter(({ status }) => ["PENDING", "AUTHORIZED"].includes(status)).length && capabilities.supports_partial_capture !== true) throw new ConflictException("Payment provider does not support partial capture");
     this.requireMerchantAccounts(selected);

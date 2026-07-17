@@ -7,10 +7,11 @@ import { DataFreshnessService } from "../inventory/data-freshness.service";
 import { IntegrationAdapterRegistry } from "./adapters/adapter-registry.service";
 import { asRecord, type ExternalInventoryItem, type ExternalPriceItem, type IntegrationAdapter, type IntegrationAdapterContext, PermanentIntegrationError } from "./adapters/integration-adapter";
 import { IntegrationJobsService } from "./integration-jobs.service";
+import { MarketplaceAgreementsService } from "../agreements/marketplace-agreements.service";
 
 @Injectable()
 export class IntegrationExecutionService {
-  constructor(private readonly prisma: PrismaService, private readonly registry: IntegrationAdapterRegistry, private readonly jobs: IntegrationJobsService, private readonly freshness: DataFreshnessService) {}
+  constructor(private readonly prisma: PrismaService, private readonly registry: IntegrationAdapterRegistry, private readonly jobs: IntegrationJobsService, private readonly freshness: DataFreshnessService, private readonly agreements: MarketplaceAgreementsService) {}
 
   async execute(job: IntegrationSyncJob) {
     const connection = await this.prisma.integrationConnection.findUnique({ where: { id: job.connectionId } });
@@ -39,6 +40,12 @@ export class IntegrationExecutionService {
       case "INVENTORY_SYNC":
         return this.pullInventory(job, connection.sourceId, connection.supplierOrganizationId, context, adapter, cursor);
       case "ORDER_EXPORT": {
+        const supplierOrderId = typeof payload.supplierOrderId === "string" ? payload.supplierOrderId : undefined;
+        if (supplierOrderId) {
+          const order = await this.prisma.supplierOrder.findUnique({ where: { id: supplierOrderId }, select: { supplierOrganizationId: true } });
+          if (!order) throw new NotFoundException("Supplier order not found for export");
+          await this.agreements.assertActive(order.supplierOrganizationId);
+        }
         const orderPayload = await this.orderPayload(payload);
         const result = await adapter.exportOrder(context, orderPayload);
         return { externalOrderId: result.externalId, ...result.data };

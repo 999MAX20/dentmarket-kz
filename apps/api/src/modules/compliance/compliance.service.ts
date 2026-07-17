@@ -125,6 +125,19 @@ export class ComplianceService {
     return check;
   }
 
+  async assertOfferPublishable(supplierOrganizationId: string, offerId: string, context: SupplierActorContext) {
+    const balance = await this.prisma.inventoryBalance.findFirst({
+      where: { supplierOrganizationId, offerId, freshnessStatus: "FRESH", quantityAvailable: { gt: 0 } },
+      include: { lots: { where: { status: "ACTIVE", quantityAvailable: { gt: 0 } }, orderBy: { expirationDate: { sort: "asc", nulls: "last" } }, take: 1 } },
+      orderBy: { quantityAvailable: "desc" },
+    });
+    if (!balance) throw new BadRequestException("Compliance check requires fresh available inventory");
+    const check = await this.evaluateInternal({ sellerOrganizationId: supplierOrganizationId, offerId, warehouseId: balance.warehouseId, inventoryLotId: balance.lots[0]?.id ?? null }, context);
+    if (check.status === "BLOCKED") throw new ForbiddenException("Compliance rules prohibit publication of this offer");
+    if (check.status === "REVIEW_REQUIRED") throw new ConflictException("Offer requires compliance review before publication");
+    return check;
+  }
+
   private async evaluateInternal(input: ComplianceEvaluationInput, context: SupplierActorContext) {
     const at = input.at ? new Date(input.at) : new Date();
     const seller = await this.prisma.organization.findUnique({ where: { id: input.sellerOrganizationId }, include: { capabilities: true, supplierProfile: true, credentials: true } });

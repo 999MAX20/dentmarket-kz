@@ -34,7 +34,7 @@ type VerifiedRegistrationUser = { id: string; email: string; displayName: string
 export class OnboardingService {
   constructor(private readonly prisma: PrismaService) {}
 
-  async createIntent(input: CreateRegistrationIntentInput) {
+  async createIntent(input: CreateRegistrationIntentInput, evidence: { ipAddress?: string | null; userAgent?: string | null } = {}) {
     const now = new Date();
     const replay = await this.prisma.registrationIntent.findUnique({ where: { idempotencyKey: input.idempotencyKey } });
     if (replay) {
@@ -62,6 +62,11 @@ export class OnboardingService {
         consentVersion: input.consentVersion,
         termsAcceptedAt: now,
         privacyAcceptedAt: now,
+        acceptanceIpAddress: evidence.ipAddress ?? null,
+        acceptanceUserAgent: evidence.userAgent ?? null,
+        acceptanceMethod: "REGISTRATION_FORM",
+        offerDocumentHash: createHash("sha256").update(`DentMarket platform offer:${input.consentVersion}`).digest("hex"),
+        evidenceSnapshot: { source: input.source, ipAddress: evidence.ipAddress ?? null, userAgent: evidence.userAgent ?? null, capturedAt: now.toISOString() },
         marketingConsent: input.marketingConsent,
         source: input.source,
         expiresAt: new Date(now.getTime() + 24 * 60 * 60 * 1000),
@@ -117,6 +122,18 @@ export class OnboardingService {
         roles: { create: { roleId: role.id } },
       } });
       await tx.registrationIntent.update({ where: { id: registration.id }, data: { organizationId: organization.id } });
+      await tx.platformOfferAcceptance.create({ data: {
+        organizationId: organization.id,
+        registrationIntentId: registration.id,
+        userId: user.id,
+        termsVersion: registration.consentVersion,
+        acceptedAt: registration.termsAcceptedAt,
+        ipAddress: registration.acceptanceIpAddress,
+        userAgent: registration.acceptanceUserAgent,
+        acceptanceMethod: registration.acceptanceMethod,
+        documentHash: registration.offerDocumentHash,
+        evidenceSnapshot: (registration.evidenceSnapshot ?? { source: registration.source }) as Prisma.InputJsonValue,
+      } });
       const pilot = await tx.billingPlan.findUnique({ where: { code: "pilot" } });
       if (pilot) await tx.organizationSubscription.create({ data: { organizationId: organization.id, planId: pilot.id, status: "TRIAL", trialEndsAt: new Date(now.getTime() + pilot.trialDays * 86_400_000), currentPeriodStart: now, currentPeriodEnd: new Date(now.getTime() + Math.max(1, pilot.trialDays) * 86_400_000), metadata: { source: "self_registration", billingEnforced: false } } });
       await tx.auditLog.create({ data: { actorId: user.id, organizationId: organization.id, action: "onboarding.registration.completed", entityType: "OrganizationMembership", entityId: membership.id, after: { registrationId: registration.id, capability: registration.capability, consentVersion: registration.consentVersion } } });
@@ -137,13 +154,12 @@ export class OnboardingService {
     if (membership?.status !== "ACTIVE") throw new NotFoundException("Supplier onboarding was not found");
     const organization = await this.prisma.organization.findFirst({ where: { id: organizationId, status: "ACTIVE", capabilities: { some: { capability: "SUPPLIER" } } }, select: { id: true, legalName: true, displayName: true, bin: true } });
     if (!organization) throw new NotFoundException("Supplier onboarding was not found");
-    const [profile, credentials, warehouses, sources, offers, agreement] = await Promise.all([
+    const [profile, credentials, warehouses, sources, offers] = await Promise.all([
       this.prisma.supplierProfile.findUnique({ where: { organizationId } }),
       this.prisma.organizationCredential.count({ where: { organizationId, status: "VERIFIED" } }),
       this.prisma.warehouse.count({ where: { supplierOrganizationId: organizationId, status: "ACTIVE" } }),
       this.prisma.supplierDataSource.count({ where: { supplierOrganizationId: organizationId, status: "ACTIVE" } }),
       this.prisma.supplierOffer.count({ where: { supplierOrganizationId: organizationId } }),
-      this.prisma.marketplaceAgreement.findFirst({ where: { supplierOrganizationId: organizationId, status: { in: ["AWAITING_SIGNATURE", "ACTIVE", "NON_RENEWING"] } }, orderBy: { createdAt: "desc" }, select: { id: true, status: true, endsAt: true } }),
     ]);
     const profileComplete = Boolean(profile && profile.regulatoryDetails && Object.keys(profile.regulatoryDetails as object).some((key) => key !== "onboarding"));
     const steps = [
@@ -153,10 +169,9 @@ export class OnboardingService {
       { id: "warehouse", label: "Склад и география", complete: warehouses > 0, action: "Добавить склад" },
       { id: "source", label: "Источник данных", complete: sources > 0, action: "Выбрать 1С, МойСклад, Excel или ручной ввод" },
       { id: "catalog", label: "Первое предложение", complete: offers > 0, action: "Добавить ассортимент" },
-      { id: "agreement", label: "Договор с двумя ЭЦП", complete: agreement?.status === "ACTIVE" || agreement?.status === "NON_RENEWING", action: agreement?.status === "AWAITING_SIGNATURE" ? "Завершить подписание" : "Оформить договор" },
     ];
     const completed = steps.filter(({ complete }) => complete).length;
-    return { organization, status: completed === steps.length ? "READY" : agreement?.status === "AWAITING_SIGNATURE" ? "AGREEMENT_PENDING" : "IN_PROGRESS", completedSteps: completed, totalSteps: steps.length, progressPercent: Math.round(completed / steps.length * 100), nextStep: steps.find(({ complete }) => !complete) ?? null, steps, agreement };
+    return { organization, status: completed === steps.length ? "READY" : "IN_PROGRESS", completedSteps: completed, totalSteps: steps.length, progressPercent: Math.round(completed / steps.length * 100), nextStep: steps.find(({ complete }) => !complete) ?? null, steps, platformOfferAccepted: true };
   }
 
   private presentation(registration: { id: string; email: string; capability: OrganizationCapabilityType; status: string; expiresAt: Date; organizationId: string | null; createdAt: Date }) {

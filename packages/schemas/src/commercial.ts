@@ -34,6 +34,19 @@ export const completeDevelopmentRegistrationSchema = z.object({
   registrationToken: z.string().min(32).max(512),
 });
 
+export const createBuyerSupplierAgreementSchema = z.object({
+  supplierOrganizationId: z.uuid(),
+  buyerOrganizationId: z.uuid(),
+  renewalMode: z.enum(["AUTO_ANNUAL", "MANUAL_ANNUAL"]).default("AUTO_ANNUAL"),
+});
+
+export const signBuyerSupplierAgreementSchema = z.object({
+  signerName: z.string().trim().min(2).max(240),
+  expiresInMinutes: z.number().int().min(5).max(24 * 60).default(60),
+});
+
+export const buyerSupplierAgreementDecisionSchema = z.object({ reason: z.string().trim().min(3).max(500) });
+
 export const refreshSessionSchema = z.object({
   refreshToken: z.string().min(32).max(512).optional(),
   csrfToken: z.string().min(24).max(256).optional(),
@@ -215,6 +228,8 @@ export const signatureGatewayCallbackSchema = z.object({
 
 export type SocialExchangeInput = z.infer<typeof socialExchangeSchema>;
 export type CreateRegistrationIntentInput = z.infer<typeof createRegistrationIntentSchema>;
+export type CreateBuyerSupplierAgreementInput = z.infer<typeof createBuyerSupplierAgreementSchema>;
+export type SignBuyerSupplierAgreementInput = z.infer<typeof signBuyerSupplierAgreementSchema>;
 export type CreatePromotionInput = z.infer<typeof createPromotionSchema>;
 export type EvaluatePromotionInput = z.infer<typeof evaluatePromotionSchema>;
 export type RedeemPromotionInput = z.infer<typeof redeemPromotionSchema>;

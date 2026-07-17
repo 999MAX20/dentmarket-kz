@@ -18,7 +18,7 @@ export async function createMarketplaceApp(options: { serverless?: boolean } = {
   app.use(helmet({ contentSecurityPolicy: { directives: { defaultSrc: ["'self'"], baseUri: ["'self'"], objectSrc: ["'none'"], frameAncestors: ["'none'"], formAction: ["'self'"], imgSrc: ["'self'", "data:"], scriptSrc: ["'self'", "'unsafe-inline'"], styleSrc: ["'self'", "'unsafe-inline'"], connectSrc: cspConnect } }, crossOriginEmbedderPolicy: false, hsts: config.NODE_ENV === "production" ? { maxAge: 31_536_000, includeSubDomains: true, preload: true } : false }));
   app.use(identityContextMiddleware());
   app.use(httpLoggerMiddleware());
-  app.useBodyParser("json", { limit: "12mb" });
+  app.useBodyParser("json", { limit: "32mb" });
   app.useBodyParser("urlencoded", { limit: "1mb", extended: true });
   app.setGlobalPrefix("api");
   const allowedOrigins = new Set(config.CORS_ORIGINS.split(",").map((value) => value.trim()).filter(Boolean));

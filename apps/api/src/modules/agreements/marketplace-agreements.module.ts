@@ -4,6 +4,7 @@ import { MarketplaceAgreementsController } from "./marketplace-agreements.contro
 import { MarketplaceAgreementsService } from "./marketplace-agreements.service";
 import { SignatureCallbacksController } from "./signature-callbacks.controller";
 import { SignatureCallbacksService } from "./signature-callbacks.service";
+import { BuyerSupplierAgreementsModule } from "../buyer-supplier-agreements/buyer-supplier-agreements.module";
 
-@Module({ imports: [DocumentsModule], controllers: [MarketplaceAgreementsController, SignatureCallbacksController], providers: [MarketplaceAgreementsService, SignatureCallbacksService], exports: [MarketplaceAgreementsService] })
+@Module({ imports: [DocumentsModule, BuyerSupplierAgreementsModule], controllers: [MarketplaceAgreementsController, SignatureCallbacksController], providers: [MarketplaceAgreementsService, SignatureCallbacksService], exports: [MarketplaceAgreementsService] })
 export class MarketplaceAgreementsModule {}

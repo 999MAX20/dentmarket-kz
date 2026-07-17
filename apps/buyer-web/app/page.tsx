@@ -24,7 +24,7 @@ import {
   Search24Regular,
   ShoppingBag24Regular,
 } from "@fluentui/react-icons";
-import { MarketplaceApiClient, type ApiContext } from "@marketplace/api-client";
+import { MarketplaceApiClient, parseSessionHandoff, type ApiContext, type SessionHandoffEnvelope } from "@marketplace/api-client";
 import {
   AppShell,
   EmptyState,
@@ -48,14 +48,14 @@ import medstomCatalog from "./data/medstom-catalog.json";
 
 const BUYER_ID = "00000000-0000-4000-8000-000000000030";
 const BUYER_USER_ID = "00000000-0000-4000-8000-000000000500";
-type SessionHandoff = { actorId?: string; displayName?: string; organizationDisplayName?: string; organizationId?: string; accessToken?: string; capability?: string };
+type SessionHandoff = SessionHandoffEnvelope;
 const SESSION_KEY = "dentmarket:buyer-session";
 const LOGIN_URL = process.env.NEXT_PUBLIC_LOGIN_URL ?? "/login";
 
 function readSessionHandoff(): SessionHandoff | null {
   if (typeof window === "undefined") return null;
-  try { const serialized = window.location.hash.startsWith("#session=") ? decodeURIComponent(window.location.hash.slice("#session=".length)) : window.sessionStorage.getItem(SESSION_KEY); if (!serialized) return null; const value = JSON.parse(serialized) as SessionHandoff; return value.capability === "BUYER" && value.organizationId && (value.accessToken || value.actorId) ? value : null; }
-  catch { return null; }
+  const serialized = window.location.hash.startsWith("#session=") ? decodeURIComponent(window.location.hash.slice("#session=".length)) : window.sessionStorage.getItem(SESSION_KEY);
+  return parseSessionHandoff(serialized, "BUYER");
 }
 
 type SearchOffer = {
@@ -281,7 +281,7 @@ export default function BuyerWorkspace() {
   const buyerId = handoff?.organizationId ?? BUYER_ID;
   const apiContext = useMemo<ApiContext>(() => handoff?.accessToken ? { accessToken: handoff.accessToken } : handoff?.actorId && handoff.organizationId ? { actorId: handoff.actorId, organizationId: handoff.organizationId } : {}, [handoff]);
   const api = useMemo(() => new MarketplaceApiClient(process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api", apiContext), [apiContext]);
-  useEffect(() => { const next = readSessionHandoff(); if (next) { setHandoff(next); window.sessionStorage.setItem(SESSION_KEY, JSON.stringify(next)); window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}`); } setHandoffChecked(true); }, []);
+  useEffect(() => { void (async () => { const next = readSessionHandoff(); if (!next) { setHandoffChecked(true); return; } let resolved = next; if (next.handoffCode && !next.accessToken) { const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api"}/auth/handoff/exchange`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ handoffCode: next.handoffCode }) }); if (!response.ok) { setHandoffChecked(true); return; } const session = await response.json() as { accessToken?: string; user?: { id: string; displayName: string }; organizationId?: string; capability?: string }; resolved = { ...next, ...session, actorId: session.user?.id }; } setHandoff(resolved); window.sessionStorage.setItem(SESSION_KEY, JSON.stringify(resolved)); window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}`); setHandoffChecked(true); })(); }, []);
   const [active, setActive] = useState("catalog");
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState("RELEVANCE");

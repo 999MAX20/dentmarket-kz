@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 type Capability = "BUYER" | "SUPPLIER";
 type Session = {
   accessToken: string;
+  sessionId?: string;
   activeOrganizationId?: string | null;
   organizationId?: string;
   organizationDisplayName?: string;
@@ -53,7 +54,10 @@ export default function LoginPage() {
       resolvedCapability = organization.capabilities?.some(({ capability: item }) => item === "SUPPLIER") ? "SUPPLIER" : organization.capabilities?.some(({ capability: item }) => item === "BUYER") ? "BUYER" : undefined;
     }
     if (!resolvedCapability) throw new Error("Для аккаунта не найден кабинет клиники или поставщика");
-    const handoff = encodeURIComponent(JSON.stringify({ actorId: session.user.id, displayName: session.user.displayName, organizationDisplayName, organizationId, accessToken: session.accessToken, capability: resolvedCapability }));
+    const handoffResponse = await fetch(`${apiUrl}/auth/handoff`, { method: "POST", headers: { "content-type": "application/json", authorization: `Bearer ${session.accessToken}`, "x-user-id": session.user.id, "x-organization-id": organizationId, ...(session.sessionId ? { "x-session-id": session.sessionId } : {}) }, body: JSON.stringify({ capability: resolvedCapability }), credentials: "include" });
+    const handoffPayload = await handoffResponse.json() as { handoffCode?: string; organizationDisplayName?: string; message?: string };
+    if (!handoffResponse.ok || !handoffPayload.handoffCode) throw new Error(handoffPayload.message ?? "Не удалось создать защищённую сессию перехода");
+    const handoff = encodeURIComponent(JSON.stringify({ displayName: session.user.displayName, organizationDisplayName: handoffPayload.organizationDisplayName ?? organizationDisplayName, organizationId, handoffCode: handoffPayload.handoffCode, capability: resolvedCapability }));
     window.location.assign(`${resolvedCapability === "SUPPLIER" ? supplierAppUrl : buyerAppUrl}/#session=${handoff}`);
   };
 

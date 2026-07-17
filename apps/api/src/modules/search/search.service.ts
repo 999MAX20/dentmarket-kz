@@ -30,7 +30,7 @@ export class SearchService {
         attributeFilters = parsed as Record<string, unknown>;
       } catch { throw new BadRequestException("attributeFilters must be a JSON object"); }
     }
-    const where: Prisma.Sql[] = [Prisma.sql`p.status = 'ACTIVE'`];
+    const where: Prisma.Sql[] = [Prisma.sql`p.status = 'ACTIVE'`, Prisma.sql`EXISTS (SELECT 1 FROM "MarketplaceAgreement" ma WHERE ma.status IN ('ACTIVE', 'NON_RENEWING') AND ma."startsAt" <= NOW() AND ma."endsAt" > NOW() AND ma."supplierOrganizationId" = ANY(d."supplierIds"))`];
     if (q) where.push(Prisma.sql`(d."searchVector" @@ websearch_to_tsquery('simple', ${q}) OR d."normalizedText" % ${q})`);
     if (input.categoryId) where.push(Prisma.sql`CAST(${input.categoryId} AS uuid) = ANY(d."categoryIds")`);
     if (input.industryId) where.push(Prisma.sql`CAST(${input.industryId} AS uuid) = ANY(d."industryIds")`);

@@ -18,9 +18,10 @@ import { IntegrationsController } from "./integrations.controller";
 import { IntegrationsService } from "./integrations.service";
 import { ConnectorReadinessController } from "./connector-readiness.controller";
 import { ConnectorReadinessService } from "./connector-readiness.service";
+import { MarketplaceAgreementsModule } from "../agreements/marketplace-agreements.module";
 
 @Module({
-  imports: [SuppliersModule, InventoryModule],
+  imports: [SuppliersModule, InventoryModule, MarketplaceAgreementsModule],
   controllers: [IntegrationsController, ConnectorAgentController, IntegrationWebhooksController, ConnectorReadinessController],
   providers: [
     IntegrationCryptoService,

@@ -22,7 +22,7 @@ import {
   Warning24Regular,
   Star24Regular,
 } from "@fluentui/react-icons";
-import { MarketplaceApiClient, type ApiContext } from "@marketplace/api-client";
+import { MarketplaceApiClient, parseSessionHandoff, type ApiContext, type SessionHandoffEnvelope } from "@marketplace/api-client";
 import {
   AppShell,
   EmptyState,
@@ -40,7 +40,6 @@ import {
 } from "@marketplace/ui";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import styles from "./page.module.css";
-import { MarketplaceAgreementPanel } from "./marketplace-agreement-panel";
 import { PromotionsPanel } from "./promotions-panel";
 import { SupplierTrustPanel } from "./supplier-trust-panel";
 import { OnboardingProgress } from "./onboarding-progress";
@@ -48,7 +47,7 @@ import { ConnectorOnboarding } from "./connector-onboarding";
 
 const OPERATOR_ID = "00000000-0000-4000-8000-000000000002";
 const OPERATOR_ORG_ID = "00000000-0000-4000-8000-000000000001";
-type SessionHandoff = { actorId?: string; displayName?: string; organizationDisplayName?: string; organizationId?: string; accessToken?: string; capability?: string };
+type SessionHandoff = SessionHandoffEnvelope;
 const SESSION_KEY = "dentmarket:supplier-session";
 
 function readSessionHandoff(): SessionHandoff | null {
@@ -56,8 +55,7 @@ function readSessionHandoff(): SessionHandoff | null {
   try {
     const serialized = window.location.hash.startsWith("#session=") ? decodeURIComponent(window.location.hash.slice("#session=".length)) : window.sessionStorage.getItem(SESSION_KEY);
     if (!serialized) return null;
-    const parsed = JSON.parse(serialized) as SessionHandoff;
-    return parsed.capability === "SUPPLIER" && parsed.organizationId && (parsed.accessToken || parsed.actorId) ? parsed : null;
+    return parseSessionHandoff(serialized, "SUPPLIER");
   } catch { return null; }
 }
 const suppliers = [
@@ -227,6 +225,29 @@ type DataOverride = {
   createdAt: string;
   validUntil: string | null;
 };
+type SupplierDataSource = { id: string; name: string; type: string; status: string };
+type ImportBatch = {
+  id: string;
+  fileName: string;
+  fileType: string;
+  status: string;
+  totalRows: number;
+  processedRows: number;
+  errorRows: number;
+  extractionMetadata?: { method?: string; warnings?: string[]; textCharacters?: number } | null;
+  createdAt: string;
+  source: { name: string };
+  _count?: { rows: number };
+};
+type ExternalCatalogItem = {
+  id: string;
+  name: string;
+  supplierSku: string | null;
+  matchedVariantId: string | null;
+  matchedVariant?: { product: { canonicalName: string } } | null;
+  productCandidate?: { id: string; status: string } | null;
+  matchCandidates: Array<{ score: string; reasons: string[]; status: string; productVariant: { id: string; product: { canonicalName: string; brand?: { name: string } | null; manufacturer?: { name: string } | null } } }>;
+};
 
 const navigation: NavigationItem[] = [
   { id: "dashboard", label: "Обзор", icon: <DataTrending24Regular /> },
@@ -237,7 +258,6 @@ const navigation: NavigationItem[] = [
   { id: "compliance", label: "Комплаенс", icon: <ShieldCheckmark24Regular /> },
   { id: "promotions", label: "Акции", icon: <Money24Regular /> },
   { id: "trust", label: "Доверие и география", icon: <Star24Regular /> },
-  { id: "agreement", label: "Договор с платформой", icon: <Document24Regular /> },
   { id: "documents", label: "Документы", icon: <Document24Regular /> },
 ];
 
@@ -304,6 +324,10 @@ export default function SupplierWorkspace() {
   );
   const [policies, setPolicies] = useState<FreshnessPolicy[]>([]);
   const [overrides, setOverrides] = useState<DataOverride[]>([]);
+  const [dataSources, setDataSources] = useState<SupplierDataSource[]>([]);
+  const [importBatches, setImportBatches] = useState<ImportBatch[]>([]);
+  const [externalItems, setExternalItems] = useState<ExternalCatalogItem[]>([]);
+  const [priceListFile, setPriceListFile] = useState<File | null>(null);
   const [priceDrafts, setPriceDrafts] = useState<Record<string, string>>({});
   const [quantityDrafts, setQuantityDrafts] = useState<Record<string, string>>(
     {},
@@ -319,9 +343,7 @@ export default function SupplierWorkspace() {
   const [toast, setToast] = useState<string | null>(null);
 
   useEffect(() => {
-    const next = readSessionHandoff();
-    if (next?.organizationId) { setHandoff(next); setSupplierId(next.organizationId); window.sessionStorage.setItem(SESSION_KEY, JSON.stringify(next)); window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}`); }
-    setHandoffChecked(true);
+    void (async () => { const next = readSessionHandoff(); if (!next?.organizationId) { setHandoffChecked(true); return; } let resolved = next; if (next.handoffCode && !next.accessToken) { const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:4012/api"}/auth/handoff/exchange`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ handoffCode: next.handoffCode }) }); if (!response.ok) { setHandoffChecked(true); return; } const session = await response.json() as { accessToken?: string; user?: { id: string; displayName: string }; organizationId?: string; capability?: string }; resolved = { ...next, ...session, actorId: session.user?.id }; } setHandoff(resolved); setSupplierId(resolved.organizationId!); window.sessionStorage.setItem(SESSION_KEY, JSON.stringify(resolved)); window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}`); setHandoffChecked(true); })();
   }, []);
 
   const availableSuppliers = useMemo(() => handoff?.organizationId ? [{ id: handoff.organizationId, name: handoff.organizationDisplayName || "Новая организация", city: "География не настроена" }] : suppliers, [handoff]);
@@ -349,6 +371,9 @@ export default function SupplierWorkspace() {
         merchantData,
         policyData,
         overrideData,
+        sourceData,
+        importBatchData,
+        externalItemData,
       ] = await Promise.all([
         api.get<Offer[]>(`/suppliers/${supplierId}/offers`),
         api.get<Balance[]>(`/suppliers/${supplierId}/inventory/balances`),
@@ -368,6 +393,9 @@ export default function SupplierWorkspace() {
           `/suppliers/${supplierId}/inventory/freshness/policies`,
         ),
         api.get<DataOverride[]>(`/suppliers/${supplierId}/inventory/overrides`),
+        api.get<SupplierDataSource[]>(`/suppliers/${supplierId}/data-sources`),
+        api.get<ImportBatch[]>(`/suppliers/${supplierId}/import-batches`),
+        api.get<ExternalCatalogItem[]>(`/suppliers/${supplierId}/external-items`),
       ]);
       setOffers(offerData);
       setBalances(balanceData);
@@ -379,6 +407,9 @@ export default function SupplierWorkspace() {
       setMerchantAccounts(merchantData);
       setPolicies(policyData);
       setOverrides(overrideData);
+      setDataSources(sourceData);
+      setImportBatches(importBatchData);
+      setExternalItems(externalItemData);
       setPriceDrafts(
         Object.fromEntries(
           offerData.map((offer) => [
@@ -518,6 +549,61 @@ export default function SupplierWorkspace() {
         result.fileName ?? `${document.title}.${document.format.toLowerCase()}`;
       anchor.click();
       URL.revokeObjectURL(url);
+    } catch (cause) {
+      setError(errorMessage(cause));
+    } finally {
+      setBusy(null);
+    }
+  };
+
+  const uploadPriceList = async () => {
+    if (!priceListFile) return setError("Выберите PDF-прайс или каталог");
+    if (!priceListFile.name.toLowerCase().endsWith(".pdf")) return setError("На этом экране принимаются PDF-файлы");
+    if (priceListFile.size > 20_000_000) return setError("PDF должен быть не больше 20 МБ");
+    setBusy("pdf-import");
+    setError(null);
+    try {
+      let source = dataSources.find((item) => item.type === "PDF");
+      if (!source) source = await api.post<SupplierDataSource>(`/suppliers/${supplierId}/data-sources`, { name: "PDF-прайсы поставщика", type: "PDF", configuration: { extractionMode: "text-table-with-review", createdFrom: "supplier-web" } });
+      const contentBase64 = await new Promise<string>((resolve, reject) => { const reader = new FileReader(); reader.onload = () => resolve(String(reader.result).split(",")[1] ?? ""); reader.onerror = () => reject(new Error("Не удалось прочитать PDF")); reader.readAsDataURL(priceListFile); });
+      const batch = await api.post<ImportBatch>(`/suppliers/${supplierId}/import-batches`, {
+        sourceId: source.id,
+        fileName: priceListFile.name,
+        fileType: "PDF",
+        contentBase64,
+        columnMapping: { externalId: "externalId", name: "name", supplierSku: "supplierSku", unit: "unit", priceMinor: "priceMinor", currency: "currency" },
+      });
+      setPriceListFile(null);
+      await refresh();
+      setToast(batch.status === "REVIEW_REQUIRED" ? "PDF сохранён: требуется OCR или ручной разбор" : `Извлечено ${batch.totalRows} строк — проверьте и запустите обработку`);
+    } catch (cause) {
+      setError(errorMessage(cause));
+    } finally {
+      setBusy(null);
+    }
+  };
+
+  const processImportBatch = async (batch: ImportBatch) => {
+    setBusy(`import:${batch.id}`);
+    setError(null);
+    try {
+      await api.post(`/suppliers/${supplierId}/import-batches/${batch.id}/process`, {});
+      await refresh();
+      setToast("Прайс нормализован и отправлен в очередь сопоставления");
+    } catch (cause) {
+      setError(errorMessage(cause));
+    } finally {
+      setBusy(null);
+    }
+  };
+
+  const confirmCatalogMatch = async (item: ExternalCatalogItem, productVariantId: string) => {
+    setBusy(`match:${item.id}`);
+    setError(null);
+    try {
+      await api.post(`/suppliers/${supplierId}/external-items/${item.id}/match`, { productVariantId });
+      await refresh();
+      setToast("Позиция привязана к существующей карточке — дубль не создан");
     } catch (cause) {
       setError(errorMessage(cause));
     } finally {
@@ -1011,6 +1097,26 @@ export default function SupplierWorkspace() {
         description="1С, API, webhook и управляемые задания синхронизации с журналом ошибок и сверкой."
       />
       {handoff ? <ConnectorOnboarding supplierId={supplierId} apiContext={apiContext} /> : null}
+      <Section title="Загрузить прайс или каталог PDF" description="Платформа сохранит оригинал, извлечёт машиночитаемые строки и не опубликует цены без подтверждённой валюты.">
+        <div className={styles.pdfUpload}>
+          <Field label="PDF поставщика" hint="До 20 МБ. Текстовые таблицы распознаются автоматически; сканы уходят на ручную проверку.">
+            <input className={styles.fileInput} type="file" accept="application/pdf,.pdf" onChange={(event) => setPriceListFile(event.target.files?.[0] ?? null)} />
+          </Field>
+          <Button appearance="primary" icon={<CloudArrowUp24Regular />} disabled={!priceListFile || busy === "pdf-import"} onClick={() => void uploadPriceList()}>
+            {busy === "pdf-import" ? "Извлекаем…" : "Загрузить и распознать"}
+          </Button>
+        </div>
+        {importBatches.length ? <div className={styles.importList}>{importBatches.slice(0, 10).map((batch) => <article className={styles.importItem} key={batch.id}>
+          <div><strong>{batch.fileName}</strong><p>{batch.source.name} · {batch.totalRows} строк · {formatDate(batch.createdAt, true)}</p>{batch.extractionMetadata?.warnings?.map((warning) => <p className={styles.importWarning} key={warning}>{warning}</p>)}</div>
+          <div className={styles.importActions}><StatusTag tone={statusTone(batch.status)}>{formatStatus(batch.status)}</StatusTag>{batch.status === "MAPPED" && batch.totalRows > 0 ? <Button appearance="secondary" disabled={busy === `import:${batch.id}`} onClick={() => void processImportBatch(batch)}>Проверено, обработать</Button> : null}</div>
+        </article>)}</div> : <EmptyState icon={<CloudArrowUp24Regular />} title="PDF ещё не загружались" description="Добавьте реальный прайс поставщика — он появится здесь с результатом извлечения." />}
+      </Section>
+      <Section title="Проверка дублей каталога" description="Новая карточка не создаётся автоматически. Сначала платформа ищет точное или похожее совпадение в общем каталоге.">
+        {externalItems.length ? <div className={styles.importList}>{externalItems.slice(0, 30).map((item) => { const candidate = item.matchCandidates.find((entry) => entry.status === "PROPOSED") ?? item.matchCandidates[0]; return <article className={styles.importItem} key={item.id}>
+          <div><strong>{item.name}</strong><p>{item.supplierSku || "Без артикула"} · {item.matchedVariant ? `привязано к «${item.matchedVariant.product.canonicalName}»` : candidate ? `найдено совпадение «${candidate.productVariant.product.canonicalName}» (${Math.round(Number(candidate.score) * 100)}%)` : item.productCandidate ? "новая карточка ожидает модерации" : "совпадений нет"}</p></div>
+          <div className={styles.importActions}>{item.matchedVariant ? <StatusTag tone="success">Привязано</StatusTag> : candidate ? <Button appearance="secondary" disabled={busy === `match:${item.id}`} onClick={() => void confirmCatalogMatch(item, candidate.productVariant.id)}>Использовать карточку</Button> : <StatusTag tone="warning">Модерация</StatusTag>}</div>
+        </article>; })}</div> : <EmptyState icon={<Box24Regular />} title="Позиций для проверки пока нет" description="После обработки прайса здесь появятся существующие карточки, возможные совпадения и новые кандидаты." />}
+      </Section>
       <Section>
         {!integrations.length ? (
           <EmptyState
@@ -1048,8 +1154,8 @@ export default function SupplierWorkspace() {
         <div className={styles.healthGrid}>
           <div className={styles.healthItem}>
             <CloudArrowUp24Regular />
-            <strong>Импорт CSV и Excel</strong>
-            <p>Предпросмотр, маппинг, валидация и идемпотентная обработка.</p>
+            <strong>Импорт PDF, CSV и Excel</strong>
+            <p>Безопасная загрузка, извлечение таблиц, проверка валюты, маппинг и идемпотентная обработка.</p>
           </div>
           <div className={styles.healthItem}>
             <PlugConnected24Regular />
@@ -1089,6 +1195,7 @@ export default function SupplierWorkspace() {
                 Регистрационное удостоверение
               </option>
               <option value="WHOLESALE_LICENSE">Оптовая лицензия</option>
+              <option value="MEDICAL_DEVICE_SALE_NOTIFICATION">Уведомление о реализации медицинских изделий</option>
               <option value="DISTRIBUTOR_AUTHORIZATION">
                 Авторизация дистрибьютора
               </option>
@@ -1316,9 +1423,7 @@ export default function SupplierWorkspace() {
                   ? <PromotionsPanel supplierId={supplierId} apiContext={apiContext} />
                 : active === "trust"
                   ? <SupplierTrustPanel supplierId={supplierId} apiContext={apiContext} />
-                : active === "agreement"
-                  ? <MarketplaceAgreementPanel supplierId={supplierId} supplierName={supplier.name} apiContext={apiContext} />
-                  : renderDocuments();
+                : renderDocuments();
   const nav = navigation.map((item) =>
     item.id === "orders" &&
     supplierOrders.filter((order) => order.status === "AWAITING_CONFIRMATION")
@@ -1377,7 +1482,7 @@ export default function SupplierWorkspace() {
       ) : (
         <>
           {error ? <div className={styles.toast}>{error}</div> : null}
-          {handoff ? <OnboardingProgress apiContext={apiContext} supplierId={supplierId} onNavigate={setActive} onOpenAgreement={() => setActive("agreement")} /> : null}
+          {handoff ? <OnboardingProgress apiContext={apiContext} supplierId={supplierId} onNavigate={setActive} /> : null}
           {content}
         </>
       )}

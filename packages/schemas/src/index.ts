@@ -218,7 +218,7 @@ export const createWarehouseSchema = z.object({
 
 export const createSupplierDataSourceSchema = z.object({
   name: z.string().trim().min(2).max(160),
-  type: z.enum(["MANUAL", "CSV", "EXCEL", "API", "ERP"]),
+  type: z.enum(["MANUAL", "CSV", "EXCEL", "PDF", "API", "ERP"]),
   configuration: z.record(z.string(), z.unknown()).nullable().optional(),
 });
 
@@ -242,10 +242,10 @@ const rawImportRowSchema = z.record(z.string(), z.union([z.string(), z.number(),
 export const createImportBatchSchema = z.object({
   sourceId: z.uuid(),
   fileName: z.string().trim().min(1).max(240),
-  fileType: z.enum(["MANUAL", "CSV", "EXCEL"]),
+  fileType: z.enum(["MANUAL", "CSV", "EXCEL", "PDF"]),
   columnMapping: supplierColumnMappingSchema,
   rows: z.array(rawImportRowSchema).min(1).max(5_000).optional(),
-  contentBase64: z.string().min(4).max(14_000_000).optional(),
+  contentBase64: z.string().min(4).max(28_000_000).optional(),
 }).refine((value) => value.rows !== undefined || value.contentBase64 !== undefined, {
   message: "Rows or file content must be provided",
 });
@@ -774,7 +774,7 @@ export const documentQuerySchema = z.object({
   limit: z.coerce.number().int().min(1).max(200).default(50),
 });
 
-export const organizationCredentialTypeSchema = z.enum(["BUSINESS_LICENSE", "MEDICAL_LICENSE", "WHOLESALE_LICENSE", "REGISTRATION_CERTIFICATE", "DISTRIBUTOR_AUTHORIZATION", "QUALITY_CERTIFICATE", "OTHER"]);
+export const organizationCredentialTypeSchema = z.enum(["BUSINESS_LICENSE", "MEDICAL_LICENSE", "WHOLESALE_LICENSE", "MEDICAL_DEVICE_SALE_NOTIFICATION", "REGISTRATION_CERTIFICATE", "DISTRIBUTOR_AUTHORIZATION", "QUALITY_CERTIFICATE", "OTHER"]);
 export const createOrganizationCredentialSchema = z.object({
   type: organizationCredentialTypeSchema,
   number: z.string().trim().min(1).max(160),

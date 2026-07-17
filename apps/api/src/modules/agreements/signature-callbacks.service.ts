@@ -7,6 +7,7 @@ import { environment } from "../../platform/config/environment";
 import { PrismaService } from "../../platform/prisma/prisma.service";
 import { DocumentsService } from "../documents/documents.service";
 import { MarketplaceAgreementsService } from "./marketplace-agreements.service";
+import { BuyerSupplierAgreementsService } from "../buyer-supplier-agreements/buyer-supplier-agreements.service";
 
 type CallbackInput = z.infer<typeof signatureGatewayCallbackSchema>;
 
@@ -25,7 +26,7 @@ export function verifySignatureCallbackEnvelope(input: { rawBody: Buffer; eventI
 
 @Injectable()
 export class SignatureCallbacksService {
-  constructor(private readonly prisma: PrismaService, private readonly documents: DocumentsService, private readonly agreements: MarketplaceAgreementsService) {}
+  constructor(private readonly prisma: PrismaService, private readonly documents: DocumentsService, private readonly agreements: MarketplaceAgreementsService, private readonly buyerSupplierAgreements: BuyerSupplierAgreementsService) {}
 
   private verify(rawBody: Buffer, eventId: string, timestamp: string, signature: string) {
     const config = environment();
@@ -44,7 +45,7 @@ export class SignatureCallbacksService {
       }
       throw error;
     }
-    const signature = await this.prisma.documentSignature.findUnique({ where: { id: input.signatureId }, include: { document: { include: { marketplaceAgreement: true } }, signerOrganization: true } });
+    const signature = await this.prisma.documentSignature.findUnique({ where: { id: input.signatureId }, include: { document: { include: { marketplaceAgreement: true, buyerSupplierAgreement: true } }, signerOrganization: true } });
     if (!signature || signature.method !== "EDS") throw new NotFoundException("EDS signature session not found");
     if (signature.externalSessionId !== input.externalSessionId) throw new UnauthorizedException("Signature callback session does not match");
     if (signature.document.checksumSha256?.toLowerCase() !== input.signedDocumentChecksum.toLowerCase()) throw new UnauthorizedException("Signed document checksum does not match the immutable document");
@@ -56,6 +57,7 @@ export class SignatureCallbacksService {
     const context = { actorId: signature.signerUserId ?? signature.signerOrganizationId!, organizationId: signature.signerOrganizationId! };
     const result = await this.documents.completeSignature(signature.id, { status: input.status, externalSignatureId: input.externalSignatureId, signatureHash: input.signatureHash, rejectionReason: input.rejectionReason, evidence: { ...input.evidence, gatewayEventId: headers.eventId, certificate: input.certificate, payloadHash: verified.payloadHash } }, context, true);
     if (signature.document.marketplaceAgreement) await this.agreements.reconcile(signature.document.marketplaceAgreement.id);
+    if (signature.document.buyerSupplierAgreement) await this.buyerSupplierAgreements.reconcile(signature.document.buyerSupplierAgreement.id);
     await this.prisma.securityEvent.create({ data: { severity: "INFO", type: "signature.callback.verified", actorId: context.actorId, organizationId: context.organizationId, sessionId: signature.id, fingerprint: headers.eventId, metadata: { documentId: signature.documentId, status: input.status, certificateSerial: input.certificate.serialNumber } } });
     return { accepted: true, signature: result.signature, document: result.document };
   }

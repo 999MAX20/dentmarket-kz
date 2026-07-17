@@ -8,6 +8,7 @@ import { PaymentSettlementService } from "./payment-settlement.service";
 import { PaymentWebhooksController } from "./payment-webhooks.controller";
 import { PaymentWebhooksService } from "./payment-webhooks.service";
 import { HttpPaymentAdapter } from "./adapters/http-payment.adapter";
+import { MarketplaceAgreementsModule } from "../agreements/marketplace-agreements.module";
 
-@Module({ controllers: [PaymentsController, PaymentWebhooksController], providers: [MockPaymentAdapter, HttpPaymentAdapter, PaymentAdapterRegistry, PaymentMerchantService, PaymentSettlementService, PaymentWebhooksService, PaymentsService], exports: [PaymentsService, PaymentSettlementService] })
+@Module({ imports: [MarketplaceAgreementsModule], controllers: [PaymentsController, PaymentWebhooksController], providers: [MockPaymentAdapter, HttpPaymentAdapter, PaymentAdapterRegistry, PaymentMerchantService, PaymentSettlementService, PaymentWebhooksService, PaymentsService], exports: [PaymentsService, PaymentSettlementService] })
 export class PaymentsModule {}

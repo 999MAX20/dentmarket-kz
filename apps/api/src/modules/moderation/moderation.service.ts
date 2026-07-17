@@ -4,6 +4,7 @@ import { randomUUID } from "node:crypto";
 import { Prisma } from "@prisma/client";
 import { PrismaService } from "../../platform/prisma/prisma.service";
 import type { SupplierActorContext } from "../suppliers/supplier-access.service";
+import { normalizeCatalogText, rankVariants } from "../imports/matching";
 
 @Injectable()
 export class ModerationService {
@@ -56,6 +57,9 @@ export class ModerationService {
   async approve(candidateId: string, input: ApproveProductCandidateInput, context: SupplierActorContext) {
     const candidate = await this.requireCandidate(candidateId, context);
     if (candidate.status !== "PENDING") throw new ConflictException("Product candidate has already been decided");
+    const existingVariants = await this.prisma.productVariant.findMany({ where: { status: { in: ["ACTIVE", "UNDER_REVIEW"] } }, include: { product: { include: { brand: true, manufacturer: true } } } });
+    const duplicate = rankVariants({ name: input.canonicalName, normalizedName: normalizeCatalogText(input.canonicalName), supplierSku: candidate.proposedSku, gtin: candidate.proposedGtin, brandText: candidate.proposedBrand }, existingVariants)[0];
+    if (duplicate && duplicate.score >= 0.8) throw new ConflictException(`Possible duplicate catalog card: ${duplicate.variant.product.canonicalName}. Link the supplier offer to the existing variant instead.`);
     const [industryCount, categoryCount] = await Promise.all([
       this.prisma.industry.count({ where: { id: { in: input.industryIds }, status: "ACTIVE" } }),
       this.prisma.category.count({ where: { id: { in: input.categoryIds }, status: "ACTIVE" } }),

@@ -32,6 +32,24 @@ function normalizeRow(row: RawRow, mapping: SupplierColumnMappingInput) {
   };
 }
 
+function mappingKey(row: ReturnType<typeof normalizeRow>) {
+  if (row.supplierSku) return `SKU:${normalizeCatalogText(row.supplierSku)}`;
+  if (row.gtin) return `GTIN:${normalizeCatalogText(row.gtin)}`;
+  return `NAME:${normalizeCatalogText(row.name)}`;
+}
+
+function lineComplianceStatus(row: ReturnType<typeof normalizeRow>, regulated = false) {
+  const reasons: string[] = [];
+  if (row.currency && row.currency !== "KZT") reasons.push("UNSUPPORTED_CURRENCY");
+  if (row.expirationDate && !Number.isNaN(Date.parse(row.expirationDate)) && new Date(row.expirationDate) <= new Date()) reasons.push("EXPIRED_LOT");
+  if (!row.priceMinor || !row.currency) reasons.push("PRICE_OR_CURRENCY_REQUIRED");
+  if (regulated && !row.lotNumber) reasons.push("LOT_REQUIRED");
+  if (reasons.includes("EXPIRED_LOT")) return { status: "EXPIRED", reasons };
+  if (reasons.includes("UNSUPPORTED_CURRENCY")) return { status: "BLOCKED", reasons };
+  if (reasons.length > 0) return { status: regulated ? "DOCUMENT_REQUIRED" : "REVIEW_REQUIRED", reasons };
+  return { status: "READY", reasons: [] };
+}
+
 @Injectable()
 export class ImportsService implements OnModuleInit {
   constructor(private readonly prisma: PrismaService, private readonly access: SupplierAccessService, private readonly fileParser: ImportFileParser, private readonly backgroundQueue: BackgroundQueueService, private readonly uploads: FileUploadPolicyService) {}
@@ -49,6 +67,13 @@ export class ImportsService implements OnModuleInit {
     return this.prisma.importBatch.findMany({ where: { supplierOrganizationId }, include: { source: true, _count: { select: { rows: true } } }, orderBy: { createdAt: "desc" }, take: 50 });
   }
 
+  async batch(supplierOrganizationId: string, batchId: string, context: SupplierActorContext) {
+    await this.access.assertCanManage(supplierOrganizationId, context);
+    const batch = await this.prisma.importBatch.findFirst({ where: { id: batchId, supplierOrganizationId }, include: { source: true, rows: { orderBy: { rowNumber: "asc" }, take: 200 } } });
+    if (!batch) throw new NotFoundException("Import batch not found");
+    return batch;
+  }
+
   async createBatch(supplierOrganizationId: string, input: CreateImportBatchInput, context: SupplierActorContext) {
     await this.access.assertCanManage(supplierOrganizationId, context);
     await this.access.requireProfile(supplierOrganizationId);
@@ -57,11 +82,13 @@ export class ImportsService implements OnModuleInit {
     let uploadAssetId: string | null = null;
     if (input.contentBase64) {
       const body = this.uploads.decodeBase64(input.contentBase64, 20_000_000);
-      const asset = await this.uploads.quarantine({ organizationId: supplierOrganizationId, actorId: context.actorId, purpose: "supplier-import", fileName: input.fileName, body, allowedKinds: [input.fileType === "EXCEL" ? "XLSX" : "CSV"], maxBytes: 20_000_000 });
+      const allowedKind = input.fileType === "EXCEL" ? "XLSX" : input.fileType === "PDF" ? "PDF" : "CSV";
+      const asset = await this.uploads.quarantine({ organizationId: supplierOrganizationId, actorId: context.actorId, purpose: "supplier-import", fileName: input.fileName, body, allowedKinds: [allowedKind], maxBytes: 20_000_000 });
       uploadAssetId = asset.id;
     }
-    const rows = await this.fileParser.parse(input);
-    if (rows.length === 0) throw new BadRequestException("Import does not contain data rows");
+    const parsedFile = await this.fileParser.parseWithDiagnostics(input);
+    const rows = parsedFile.rows;
+    if (rows.length === 0 && input.fileType !== "PDF") throw new BadRequestException("Import does not contain data rows");
     const checksum = createHash("sha256").update(JSON.stringify(rows)).digest("hex");
     return this.prisma.$transaction(async (tx) => {
       const batch = await tx.importBatch.create({
@@ -71,8 +98,9 @@ export class ImportsService implements OnModuleInit {
           fileName: input.fileName,
           fileType: input.fileType,
           checksum,
-          status: "MAPPED",
+          status: parsedFile.requiresReview ? "REVIEW_REQUIRED" : "MAPPED",
           columnMapping: input.columnMapping as Prisma.InputJsonValue,
+          extractionMetadata: parsedFile.metadata as Prisma.InputJsonValue,
           totalRows: rows.length,
           rows: { create: rows.map((rawData, index) => ({ rowNumber: index + 2, rawData: rawData as Prisma.InputJsonValue })) },
         },
@@ -97,9 +125,15 @@ export class ImportsService implements OnModuleInit {
     await this.access.assertCanManage(supplierOrganizationId, context);
     const batch = await this.prisma.importBatch.findFirst({ where: { id: batchId, supplierOrganizationId }, include: { rows: { orderBy: { rowNumber: "asc" } } } });
     if (!batch) throw new NotFoundException("Import batch not found");
+    if (batch.status === "REVIEW_REQUIRED") throw new BadRequestException("Import requires OCR or manual mapping before processing");
     const mappingResult = supplierColumnMappingSchema.safeParse(batch.columnMapping);
     if (!mappingResult.success) throw new BadRequestException("Import batch column mapping is invalid");
-    const variants = await this.prisma.productVariant.findMany({ include: { product: true } });
+    const variants = await this.prisma.productVariant.findMany({ include: { product: { include: { brand: true, manufacturer: true } } } });
+    const defaultWarehouse = await this.prisma.warehouse.findFirst({ where: { supplierOrganizationId, status: "ACTIVE" }, orderBy: { createdAt: "asc" } });
+    const memories = await this.prisma.supplierMappingMemory.findMany({ where: { supplierOrganizationId, status: "ACTIVE" }, orderBy: { version: "desc" } });
+    const memoryByKey = new Map<string, typeof memories[number]>();
+    for (const memory of memories) if (!memoryByKey.has(memory.externalKey)) memoryByKey.set(memory.externalKey, memory);
+    const variantById = new Map(variants.map((variant) => [variant.id, variant]));
 
     await this.prisma.importBatch.update({ where: { id: batch.id }, data: { status: "PROCESSING", startedAt: new Date(), completedAt: null } });
     let processedRows = 0;
@@ -119,18 +153,67 @@ export class ImportsService implements OnModuleInit {
               update: { importRowId: row.id, supplierSku: normalized.supplierSku, name: normalized.name, normalizedName: normalizeCatalogText(normalized.name), brandText: normalized.brand, manufacturerText: normalized.manufacturer, gtin: normalized.gtin, unitText: normalized.unit, rawData: row.rawData as Prisma.InputJsonValue },
               create: { supplierOrganizationId, sourceId: batch.sourceId, importRowId: row.id, externalId: normalized.externalId, supplierSku: normalized.supplierSku, name: normalized.name, normalizedName: normalizeCatalogText(normalized.name), brandText: normalized.brand, manufacturerText: normalized.manufacturer, gtin: normalized.gtin, unitText: normalized.unit, rawData: row.rawData as Prisma.InputJsonValue },
             });
-            const candidates = rankVariants(item, variants);
+            const memory = memoryByKey.get(mappingKey(normalized));
+            const rememberedVariant = memory ? variantById.get(memory.productVariantId) : undefined;
+            const candidates = rememberedVariant && memory ? [{ variant: rememberedVariant, score: Number(memory.confidence), reasons: ["mapping_memory", ...(Array.isArray(memory.reasons) ? memory.reasons.map(String) : [])] }] : rankVariants(item, variants);
             await tx.supplierItemMatchCandidate.deleteMany({ where: { externalItemId: item.id, status: "PROPOSED" } });
-            if (candidates.length > 0) {
+            const best = candidates[0];
+            const lineCompliance = lineComplianceStatus(normalized, Boolean(best?.variant.product.regulatoryClass));
+            await tx.supplierExternalItem.update({ where: { id: item.id }, data: { complianceStatus: lineCompliance.status, complianceReasons: lineCompliance.reasons } });
+            const exactMatch = Boolean(best && (best.reasons.includes("exact_gtin") || (best.reasons.includes("exact_name") && best.score >= 0.85) || (best.reasons.includes("exact_sku") && best.score >= 0.8)));
+            if (exactMatch && best) {
+              await tx.supplierItemMatchCandidate.updateMany({ where: { externalItemId: item.id, status: "CONFIRMED" }, data: { status: "REJECTED" } });
+              await tx.supplierItemMatchCandidate.upsert({
+                where: { externalItemId_productVariantId: { externalItemId: item.id, productVariantId: best.variant.id } },
+                update: { score: best.score, reasons: best.reasons, status: "CONFIRMED" },
+                create: { externalItemId: item.id, productVariantId: best.variant.id, score: best.score, reasons: best.reasons, status: "CONFIRMED" },
+              });
+              await tx.supplierExternalItem.update({ where: { id: item.id }, data: { matchedVariantId: best.variant.id } });
+              const key = mappingKey(normalized);
+              const currentMemory = await tx.supplierMappingMemory.findFirst({ where: { supplierOrganizationId, externalKey: key, status: "ACTIVE" }, orderBy: { version: "desc" } });
+              if (!currentMemory || currentMemory.productVariantId !== best.variant.id) {
+                if (currentMemory) await tx.supplierMappingMemory.update({ where: { id: currentMemory.id }, data: { status: "REVOKED" } });
+                await tx.supplierMappingMemory.create({ data: { supplierOrganizationId, sourceId: batch.sourceId, externalKey: key, externalId: normalized.externalId, supplierSku: normalized.supplierSku, productVariantId: best.variant.id, version: (currentMemory?.version ?? 0) + 1, confidence: best.score, reasons: best.reasons } });
+              }
+              const existingOffer = await tx.supplierOffer.findFirst({ where: { supplierOrganizationId, productVariantId: best.variant.id, saleUnitId: best.variant.saleUnitId ?? null } });
+              const offer = existingOffer ?? await tx.supplierOffer.create({ data: {
+                supplierOrganizationId,
+                productVariantId: best.variant.id,
+                saleUnitId: best.variant.saleUnitId,
+                sourceId: batch.sourceId,
+                supplierSku: normalized.supplierSku,
+                baseUnitsPerSaleUnit: 1,
+                minimumOrderQuantity: 1,
+                orderIncrement: 1,
+                confirmationMode: "MANUAL",
+                sourceType: "IMPORT",
+                externalId: normalized.externalId,
+                status: "DRAFT",
+                publication: { create: {} },
+              } });
+              if (existingOffer) await tx.supplierOffer.update({ where: { id: existingOffer.id }, data: { sourceId: batch.sourceId, supplierSku: normalized.supplierSku, externalId: normalized.externalId, status: existingOffer.status === "BLOCKED" ? "BLOCKED" : "DRAFT", version: { increment: 1 } } });
+              const amountMinor = Number(normalized.priceMinor);
+              if (Number.isFinite(amountMinor) && amountMinor >= 0 && /^[A-Z]{3}$/.test(normalized.currency ?? "")) {
+                await tx.offerPrice.updateMany({ where: { offerId: offer.id, status: "ACTIVE" }, data: { status: "INACTIVE", validTo: new Date() } });
+                await tx.offerPrice.create({ data: { offerId: offer.id, amountMinor: Math.trunc(amountMinor), currency: normalized.currency!, includesVat: true, source: "IMPORT", freshnessExpiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000) } });
+                await tx.offerPriceHistory.create({ data: { offerId: offer.id, amountMinor: Math.trunc(amountMinor), currency: normalized.currency!, includesVat: true, source: "IMPORT", reason: "Auto-created from exact supplier import match" } });
+              }
+              const quantity = Number(normalized.quantityOnHand);
+              if (defaultWarehouse && Number.isFinite(quantity) && quantity >= 0) {
+                await tx.inventoryBalance.upsert({ where: { supplierOrganizationId_warehouseId_productVariantId: { supplierOrganizationId, warehouseId: defaultWarehouse.id, productVariantId: best.variant.id } }, update: { offerId: offer.id, quantityOnHand: quantity, quantityReserved: 0, safetyStock: 0, quantityAvailable: quantity, availabilityStatus: quantity > 0 ? "IN_STOCK" : "OUT_OF_STOCK", freshnessStatus: "FRESH", source: "IMPORT", externalUpdatedAt: new Date(), lastSuccessfulSyncAt: new Date(), freshnessExpiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000), version: { increment: 1 } }, create: { supplierOrganizationId, warehouseId: defaultWarehouse.id, productVariantId: best.variant.id, offerId: offer.id, quantityOnHand: quantity, quantityReserved: 0, safetyStock: 0, quantityAvailable: quantity, availabilityStatus: quantity > 0 ? "IN_STOCK" : "OUT_OF_STOCK", freshnessStatus: "FRESH", source: "IMPORT", externalUpdatedAt: new Date(), lastSuccessfulSyncAt: new Date(), freshnessExpiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000) } });
+              }
+              await tx.importRow.update({ where: { id: row.id }, data: { status: "MATCHED", normalizedData: normalized as Prisma.InputJsonValue, errorCode: null, errorMessage: null } });
+            } else if (candidates.length > 0) {
               await tx.supplierItemMatchCandidate.createMany({ data: candidates.map(({ variant, score, reasons }) => ({ externalItemId: item.id, productVariantId: variant.id, score, reasons })) });
+              await tx.importRow.update({ where: { id: row.id }, data: { status: "MATCH_PENDING", normalizedData: normalized as Prisma.InputJsonValue, errorCode: null, errorMessage: null } });
             } else {
               await tx.productCandidate.upsert({
                 where: { externalItemId: item.id },
                 update: { proposedName: item.name, proposedSku: item.supplierSku, proposedGtin: item.gtin, proposedBrand: item.brandText },
                 create: { supplierOrganizationId, externalItemId: item.id, proposedName: item.name, proposedSku: item.supplierSku, proposedGtin: item.gtin, proposedBrand: item.brandText },
               });
+              await tx.importRow.update({ where: { id: row.id }, data: { status: "MATCH_PENDING", normalizedData: normalized as Prisma.InputJsonValue, errorCode: null, errorMessage: null } });
             }
-            await tx.importRow.update({ where: { id: row.id }, data: { status: "MATCH_PENDING", normalizedData: normalized as Prisma.InputJsonValue, errorCode: null, errorMessage: null } });
           }, { maxWait: 15_000, timeout: 45_000 });
           processedRows += 1;
         } catch (error) {
@@ -161,7 +244,7 @@ export class ImportsService implements OnModuleInit {
     await this.access.assertCanManage(supplierOrganizationId, context);
     return this.prisma.supplierExternalItem.findMany({
       where: { supplierOrganizationId },
-      include: { importRow: true, matchedVariant: { include: { product: true } }, matchCandidates: { include: { productVariant: { include: { product: true } } }, orderBy: { score: "desc" } } },
+      include: { importRow: true, productCandidate: true, matchedVariant: { include: { product: true } }, matchCandidates: { include: { productVariant: { include: { product: { include: { brand: true, manufacturer: true } } } } }, orderBy: { score: "desc" } } },
       orderBy: { updatedAt: "desc" },
       take: 100,
     });
@@ -183,6 +266,12 @@ export class ImportsService implements OnModuleInit {
         create: { externalItemId, productVariantId: input.productVariantId, score: 1, reasons: ["manual_confirmation"], status: "CONFIRMED" },
       });
       const matched = await tx.supplierExternalItem.update({ where: { id: externalItemId }, data: { matchedVariantId: input.productVariantId } });
+      const key = item.supplierSku ? `SKU:${normalizeCatalogText(item.supplierSku)}` : item.gtin ? `GTIN:${normalizeCatalogText(item.gtin)}` : `NAME:${item.normalizedName}`;
+      const currentMemory = await tx.supplierMappingMemory.findFirst({ where: { supplierOrganizationId, externalKey: key, status: "ACTIVE" }, orderBy: { version: "desc" } });
+      if (!currentMemory || currentMemory.productVariantId !== input.productVariantId) {
+        if (currentMemory) await tx.supplierMappingMemory.update({ where: { id: currentMemory.id }, data: { status: "REVOKED" } });
+        await tx.supplierMappingMemory.create({ data: { supplierOrganizationId, externalKey: key, externalId: item.externalId, supplierSku: item.supplierSku, productVariantId: input.productVariantId, version: (currentMemory?.version ?? 0) + 1, confidence: 1, reasons: ["manual_confirmation"], createdById: context.actorId } });
+      }
       await tx.productCandidate.updateMany({ where: { externalItemId, status: "PENDING" }, data: { status: "REJECTED", rejectionReason: "Matched to an existing product variant", decidedById: context.actorId, decidedAt: new Date() } });
       if (item.importRowId) await tx.importRow.update({ where: { id: item.importRowId }, data: { status: "MATCHED" } });
       await tx.auditLog.create({ data: { ...context, action: "matching.item.confirmed", entityType: "SupplierExternalItem", entityId: externalItemId, before: item, after: matched } });

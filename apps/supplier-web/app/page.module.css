@@ -32,3 +32,12 @@
   background: var(--colorNeutralBackground1);
   color: var(--colorNeutralForeground1);
 }
+.pdfUpload { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: end; padding: 18px; border-bottom: 1px solid var(--colorNeutralStroke2); }
+.importList { display: grid; }
+.importItem { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px; align-items: center; padding: 14px 18px; border-bottom: 1px solid var(--colorNeutralStroke3); }
+.importItem:last-child { border-bottom: 0; }
+.importItem strong { display: block; font-size: 13px; margin-bottom: 4px; }
+.importItem p { margin: 0; color: var(--colorNeutralForeground3); font-size: 11px; line-height: 1.45; }
+.importItem .importWarning { color: #8a4b08; margin-top: 4px; }
+.importActions { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
+@media (max-width: 650px) { .pdfUpload, .importItem { grid-template-columns: 1fr; } .importActions { justify-content: flex-start; flex-wrap: wrap; } }

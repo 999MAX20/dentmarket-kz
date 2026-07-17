@@ -66,6 +66,13 @@ export function evaluateCompliance(rules: ComplianceRuleInput[], facts: Complian
     reasons.push(`Применено правило ${rule.code} v${rule.version}`);
     for (const type of rule.requiredCredentialTypes) if (!facts.verifiedCredentialTypes.includes(type)) missingCredentials.add(type);
     const requirements = record(rule.conditions.requirements);
+    const credentialGroups = Array.isArray(requirements.requiredCredentialAnyOf) ? requirements.requiredCredentialAnyOf : [];
+    for (const group of credentialGroups) {
+      const alternatives = strings(group);
+      if (alternatives.length > 0 && !alternatives.some((type) => facts.verifiedCredentialTypes.includes(type))) {
+        reasons.push(`Требуется один из разрешительных документов: ${alternatives.join(" или ")}`);
+      }
+    }
     if (requirements.lotRequired === true && !facts.lot) reasons.push("Для товара требуется назначенная партия");
     if (requirements.registrationCertificateRequired === true && !facts.lot?.registrationCertificate) reasons.push("Отсутствует регистрационное удостоверение партии");
     if (requirements.serialNumberRequired === true && !facts.lot?.serialNumber) reasons.push("Отсутствует серийный номер");

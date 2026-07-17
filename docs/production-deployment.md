@@ -25,3 +25,5 @@ Application rollback changes `APP_RELEASE` to the previous immutable tag and run
 ## External go-live blockers
 
 The repository cannot manufacture third-party acceptance. Production remains blocked until real tenant evidence exists for MySklad, a signed 1C agent build and customer database, qualified Kazakhstan EDS, the selected PSP, transactional email/SMS, DNS/TLS, managed PostgreSQL/Redis/S3, monitoring alerts and a timed restore drill. Connector status stays `CONNECTOR_NEEDED` or `PILOT` until evidence is attached; it must never be marked `LIVE_VERIFIED` from mocks.
+
+Run `NODE_ENV=production CHECK_EXTERNAL_CONNECTORS=1 scripts/verify-production-connectors.mjs` after injecting production environment variables. The command never prints secret values and exits non-zero when EDS/PSP/telemetry credentials are missing or their `/health` endpoints are not reachable.

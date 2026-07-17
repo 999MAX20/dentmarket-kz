@@ -3,11 +3,12 @@ import type { AssignOfferPackagingInput, CreateSupplierOfferInput, SetOfferPrice
 import { Prisma } from "@prisma/client";
 import { PrismaService } from "../../platform/prisma/prisma.service";
 import { SupplierAccessService, type SupplierActorContext } from "../suppliers/supplier-access.service";
+import { ComplianceService } from "../compliance/compliance.service";
 import { MarketplaceAgreementsService } from "../agreements/marketplace-agreements.service";
 
 @Injectable()
 export class OffersService {
-  constructor(private readonly prisma: PrismaService, private readonly access: SupplierAccessService, private readonly agreements: MarketplaceAgreementsService) {}
+  constructor(private readonly prisma: PrismaService, private readonly access: SupplierAccessService, private readonly compliance: ComplianceService, private readonly agreements: MarketplaceAgreementsService) {}
 
   async list(supplierOrganizationId: string, context: SupplierActorContext) {
     await this.access.assertCanManage(supplierOrganizationId, context);
@@ -71,7 +72,7 @@ export class OffersService {
   }
 
   private async requireOffer(supplierOrganizationId: string, offerId: string) {
-    const offer = await this.prisma.supplierOffer.findFirst({ where: { id: offerId, supplierOrganizationId }, include: { publication: true } });
+    const offer = await this.prisma.supplierOffer.findFirst({ where: { id: offerId, supplierOrganizationId }, include: { publication: true, productVariant: { include: { product: true } } } });
     if (!offer) throw new NotFoundException("Supplier offer not found");
     return offer;
   }
@@ -119,13 +120,17 @@ export class OffersService {
   async setPublication(supplierOrganizationId: string, offerId: string, input: SetOfferPublicationInput, context: SupplierActorContext) {
     await this.access.assertCanManage(supplierOrganizationId, context);
     const offer = await this.requireOffer(supplierOrganizationId, offerId);
-    if (input.status === "PUBLISHED") {
+    if (input.status === "PUBLISHED" || input.marketplaceVisible) {
       await this.agreements.assertActive(supplierOrganizationId);
+    }
+    if (input.status === "PUBLISHED") {
+      if (offer.productVariant.product.status !== "ACTIVE") throw new BadRequestException("Only confirmed ACTIVE product cards can be published");
       const [activePrice, availableBalance] = await Promise.all([
         this.prisma.offerPrice.count({ where: { offerId, status: "ACTIVE" } }),
         this.prisma.inventoryBalance.count({ where: { offerId, quantityAvailable: { gt: 0 }, freshnessStatus: "FRESH" } }),
       ]);
-      if (offer.status !== "ACTIVE" || activePrice === 0 || availableBalance === 0) throw new BadRequestException("Published offer requires an active price and fresh available inventory");
+      if (activePrice === 0 || availableBalance === 0) throw new BadRequestException("Published offer requires an active price and fresh available inventory");
+      await this.compliance.assertOfferPublishable(supplierOrganizationId, offerId, context);
     }
     return this.prisma.$transaction(async (tx) => {
       const publication = await tx.offerPublication.upsert({

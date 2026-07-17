@@ -42,6 +42,20 @@ export class AuthSessionsController {
     return { ...result, refreshToken: undefined, csrfToken };
   }
 
+  @Post("handoff")
+  createHandoff(@Headers("x-user-id") userId: string, @Headers("x-organization-id") organizationId: string, @Headers("x-session-id") sessionId: string, @Body() body: unknown) {
+    const value = body && typeof body === "object" ? body as { capability?: unknown } : {};
+    if (!userId || !organizationId || !["BUYER", "SUPPLIER"].includes(String(value.capability))) throw new UnauthorizedException("Authenticated organization and capability are required");
+    return this.sessions.createHandoff(userId, organizationId, String(value.capability) as "BUYER" | "SUPPLIER", sessionId || undefined);
+  }
+
+  @Post("handoff/exchange")
+  exchangeHandoff(@Body() body: unknown) {
+    const value = body && typeof body === "object" ? body as { handoffCode?: unknown } : {};
+    if (typeof value.handoffCode !== "string" || value.handoffCode.length < 20) throw new BadRequestException("handoffCode is required");
+    return this.sessions.exchangeHandoff(value.handoffCode);
+  }
+
   @Post("refresh")
   async refresh(@Body() body: unknown, @Req() request: Request, @Res({ passthrough: true }) response: Response) {
     const parsed = refreshSessionSchema.safeParse(body); if (!parsed.success) throw new BadRequestException(parsed.error.flatten());

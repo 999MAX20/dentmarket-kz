@@ -148,6 +148,33 @@ export class AuthSessionsService {
     return this.prisma.authSession.findMany({ where: { userId, status: "ACTIVE", expiresAt: { gt: new Date() } }, select: { id: true, activeOrganizationId: true, authMethods: true, ipAddress: true, userAgent: true, lastUsedAt: true, expiresAt: true, createdAt: true }, orderBy: { lastUsedAt: "desc" } });
   }
 
+  async createHandoff(userId: string, organizationId: string, capability: "BUYER" | "SUPPLIER", sessionId?: string) {
+    const now = new Date();
+    const session = sessionId
+      ? await this.prisma.authSession.findFirst({ where: { id: sessionId, userId, status: "ACTIVE", expiresAt: { gt: now }, organizationIds: { has: organizationId } } })
+      : await this.prisma.authSession.findFirst({ where: { userId, status: "ACTIVE", expiresAt: { gt: now }, organizationIds: { has: organizationId } }, orderBy: { lastUsedAt: "desc" } });
+    if (!session) throw new UnauthorizedException("Authentication session is not available for handoff");
+    const membership = await this.prisma.organizationMembership.findFirst({ where: { userId, organizationId, status: "ACTIVE", organization: { status: "ACTIVE", capabilities: { some: { capability } } } }, include: { organization: true } });
+    if (!membership) throw new UnauthorizedException("Organization capability is not available for handoff");
+    const code = randomBytes(32).toString("base64url");
+    const expiresAt = new Date(Date.now() + 120_000);
+    await this.prisma.idempotencyRecord.create({ data: { scope: "session-handoff", key: hash(code), requestHash: hash(`${userId}:${organizationId}:${capability}`), responseCode: 200, responseBody: { sessionId: session.id, userId, organizationId, capability } as Prisma.InputJsonValue, expiresAt } });
+    return { handoffCode: code, expiresAt, organizationId, organizationDisplayName: membership.organization.displayName, capability };
+  }
+
+  async exchangeHandoff(code: string) {
+    const record = await this.prisma.idempotencyRecord.findUnique({ where: { scope_key: { scope: "session-handoff", key: hash(code) } } });
+    if (!record || record.expiresAt <= new Date() || record.responseCode !== 200) throw new UnauthorizedException("Session handoff is invalid or expired");
+    const consumed = await this.prisma.idempotencyRecord.updateMany({ where: { id: record.id, responseCode: 200, expiresAt: { gt: new Date() } }, data: { responseCode: 410 } });
+    if (consumed.count !== 1) throw new UnauthorizedException("Session handoff has already been used");
+    const payload = record.responseBody && typeof record.responseBody === "object" && !Array.isArray(record.responseBody) ? record.responseBody as { sessionId?: string; userId?: string; organizationId?: string; capability?: "BUYER" | "SUPPLIER" } : {};
+    if (!payload.sessionId || !payload.userId || !payload.organizationId || !payload.capability) throw new UnauthorizedException("Session handoff payload is invalid");
+    const session = await this.prisma.authSession.findFirst({ where: { id: payload.sessionId, userId: payload.userId, status: "ACTIVE", expiresAt: { gt: new Date() }, organizationIds: { has: payload.organizationId } } });
+    if (!session) throw new UnauthorizedException("Authentication session is revoked or expired");
+    const user = await this.prisma.user.findUniqueOrThrow({ where: { id: payload.userId }, select: { id: true, email: true, displayName: true } });
+    return { user, capability: payload.capability, organizationId: payload.organizationId, ...this.sessionPayload(session, ""), refreshToken: undefined };
+  }
+
   async revoke(sessionId: string, userId: string, reason: string) {
     const session = await this.prisma.authSession.findFirst({ where: { id: sessionId, userId } });
     if (!session) throw new NotFoundException("Session not found");

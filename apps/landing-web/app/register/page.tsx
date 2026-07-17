@@ -5,7 +5,7 @@ import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
 
 type Capability = "BUYER" | "SUPPLIER";
 type RegistrationResult = { registrationToken: string | null; registration: { email: string; capability: Capability; expiresAt: string } };
-type Completion = { actorId?: string; displayName?: string; organizationDisplayName?: string; activeOrganizationId?: string; organizationId?: string; capability: Capability; accessToken?: string; csrfToken?: string; user?: { id: string; displayName: string } };
+type Completion = { actorId?: string; displayName?: string; organizationDisplayName?: string; activeOrganizationId?: string; organizationId?: string; capability: Capability; accessToken?: string; csrfToken?: string; sessionId?: string; handoffCode?: string; user?: { id: string; displayName: string } };
 
 declare global {
   interface Window {
@@ -38,7 +38,7 @@ export default function RegisterPage() {
   }, []);
 
   const dashboardUrl = capability === "SUPPLIER" ? supplierAppUrl : buyerAppUrl;
-  const dashboardHref = completion ? `${dashboardUrl}/#session=${encodeURIComponent(JSON.stringify({ actorId: completion.user?.id ?? completion.actorId, displayName: completion.user?.displayName ?? completion.displayName, organizationDisplayName: completion.organizationDisplayName, organizationId: completion.activeOrganizationId ?? completion.organizationId, accessToken: completion.accessToken, capability }))}` : dashboardUrl;
+  const dashboardHref = completion ? `${dashboardUrl}/#session=${encodeURIComponent(JSON.stringify({ actorId: completion.user?.id ?? completion.actorId, displayName: completion.user?.displayName ?? completion.displayName, organizationDisplayName: completion.organizationDisplayName, organizationId: completion.activeOrganizationId ?? completion.organizationId, handoffCode: completion.handoffCode, capability }))}` : dashboardUrl;
   const canSubmit = useMemo(() => form.ownerDisplayName.trim().length >= 2 && form.email.includes("@") && form.legalName.trim().length >= 2 && form.organizationDisplayName.trim().length >= 2 && /^\d{12}$/.test(form.bin) && form.termsAccepted && form.privacyAccepted, [form]);
 
   const message = (cause: unknown) => {
@@ -70,6 +70,13 @@ export default function RegisterPage() {
     setBusy(true); setError(null);
     try {
       const result = await request<Completion>("/auth/social/exchange", { provider, idToken, registrationToken: registration.registrationToken });
+      const organizationId = result.activeOrganizationId ?? result.organizationId;
+      if (result.accessToken && organizationId && result.user?.id) {
+        const handoffResponse = await fetch(`${apiUrl}/auth/handoff`, { method: "POST", headers: { "content-type": "application/json", authorization: `Bearer ${result.accessToken}`, "x-user-id": result.user.id, "x-organization-id": organizationId, ...(result.sessionId ? { "x-session-id": result.sessionId } : {}) }, body: JSON.stringify({ capability: result.capability }), credentials: "include" });
+        const handoffPayload = await handoffResponse.json() as { handoffCode?: string; message?: string };
+        if (!handoffResponse.ok || !handoffPayload.handoffCode) throw new Error(handoffPayload.message ?? "Не удалось создать защищённую сессию перехода");
+        result.handoffCode = handoffPayload.handoffCode;
+      }
       if (result.accessToken) sessionStorage.setItem("dentmarket_access_token", result.accessToken);
       setCompletion(result);
     } catch (cause) { setError(message(cause)); }

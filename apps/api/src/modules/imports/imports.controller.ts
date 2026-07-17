@@ -26,6 +26,12 @@ export class ImportsController {
     return this.imports.createBatch(supplierOrganizationId, parsed.data, this.context(actorId, organizationId));
   }
 
+  @Get("import-batches/:batchId")
+  @RequirePermissions("import.manage")
+  batch(@Param("supplierOrganizationId") supplierOrganizationId: string, @Param("batchId") batchId: string, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {
+    return this.imports.batch(supplierOrganizationId, batchId, this.context(actorId, organizationId));
+  }
+
   @Post("import-batches/:batchId/process")
   @RequirePermissions("import.manage")
   processBatch(@Param("supplierOrganizationId") supplierOrganizationId: string, @Param("batchId") batchId: string, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {

@@ -93,7 +93,7 @@ export class CommerceService {
     await this.assertBuyerAccess(buyerOrganizationId, context);
     const activeSupplierIds = await this.agreements.activeSupplierIds();
     const offers = await this.prisma.supplierOffer.findMany({
-      where: { supplierOrganizationId: { in: activeSupplierIds }, status: "ACTIVE", publication: { is: { status: { in: ["PUBLISHED", "RESTRICTED"] }, marketplaceVisible: true } }, inventoryBalances: { some: { freshnessStatus: "FRESH", quantityAvailable: { gt: 0 } } } },
+      where: { supplierOrganizationId: { in: activeSupplierIds }, supplier: { organization: { status: "ACTIVE", capabilities: { some: { capability: "SUPPLIER" } } } }, status: "ACTIVE", publication: { is: { status: { in: ["PUBLISHED", "RESTRICTED"] }, marketplaceVisible: true } }, inventoryBalances: { some: { freshnessStatus: "FRESH", quantityAvailable: { gt: 0 } } } },
       include: { publication: true, supplier: { include: { organization: true } }, productVariant: { include: { product: true } }, prices: { where: { status: "ACTIVE" }, orderBy: { validFrom: "desc" }, take: 1 }, inventoryBalances: { where: { freshnessStatus: "FRESH", quantityAvailable: { gt: 0 } }, include: { warehouse: true } } },
       orderBy: { updatedAt: "desc" },
     });
@@ -188,7 +188,8 @@ export class CommerceService {
         for (const [supplierOrganizationId, supplierLines] of groups) {
           sequence += 1;
           const subtotal = supplierLines.reduce((sum, line) => sum.plus(line.result.total), new Prisma.Decimal(0));
-          const order = await tx.supplierOrder.create({ data: { checkoutId: checkout.id, supplierOrganizationId, buyerOrganizationId: cart.buyerOrganizationId, orderNumber: `SO-${checkout.id.replaceAll("-", "").slice(0, 12).toUpperCase()}-${String(sequence).padStart(2, "0")}`, subtotalAmountMinor: subtotal, currency: cart.currency } });
+          const framework = await tx.buyerSupplierAgreement.findFirst({ where: { supplierOrganizationId, buyerOrganizationId: cart.buyerOrganizationId, status: { in: ["ACTIVE", "NON_RENEWING"] }, startsAt: { lte: new Date() }, endsAt: { gt: new Date() } }, orderBy: { endsAt: "desc" } });
+          const order = await tx.supplierOrder.create({ data: { checkoutId: checkout.id, supplierOrganizationId, buyerOrganizationId: cart.buyerOrganizationId, buyerSupplierAgreementId: framework?.id ?? null, transactionMode: framework ? "FRAMEWORK_AGREEMENT" : "ONE_TIME", orderNumber: `SO-${checkout.id.replaceAll("-", "").slice(0, 12).toUpperCase()}-${String(sequence).padStart(2, "0")}`, subtotalAmountMinor: subtotal, currency: cart.currency } });
           for (const { item, result } of supplierLines) {
             const orderItem = await tx.supplierOrderItem.create({ data: {
               supplierOrderId: order.id,
@@ -249,7 +250,7 @@ export class CommerceService {
   }
 
   async getCheckout(checkoutId: string, context: SupplierActorContext) {
-    const checkout = await this.prisma.checkout.findUnique({ where: { id: checkoutId }, include: { cart: { include: { items: true } }, supplierOrders: { include: { supplier: true, items: { include: { reservation: { include: { externalReservation: true } }, offer: { include: { productVariant: { include: { product: true } } } } } }, paymentAllocation: true } }, paymentIntent: { include: { provider: true, allocations: { include: { recipient: true } }, attempts: true } } } });
+    const checkout = await this.prisma.checkout.findUnique({ where: { id: checkoutId }, include: { cart: { include: { items: true } }, supplierOrders: { include: { supplier: true, buyerSupplierAgreement: true, items: { include: { reservation: { include: { externalReservation: true } }, offer: { include: { productVariant: { include: { product: true } } } } } }, paymentAllocation: true } }, paymentIntent: { include: { provider: true, allocations: { include: { recipient: true } }, attempts: true } } } });
     if (!checkout) throw new NotFoundException("Checkout not found");
     await this.assertBuyerAccess(checkout.buyerOrganizationId, context);
     return checkout;
@@ -259,7 +260,7 @@ export class CommerceService {
     const operator = await this.isOperator(context.organizationId);
     return this.prisma.supplierOrder.findMany({
       where: { ...(checkoutId ? { checkoutId } : {}), ...(operator ? {} : { OR: [{ supplierOrganizationId: context.organizationId }, { buyerOrganizationId: context.organizationId }] }) },
-      include: { supplier: true, buyer: true, items: { include: { reservation: { include: { externalReservation: true } }, offer: { include: { productVariant: { include: { product: true } } } } } }, paymentAllocation: true },
+      include: { supplier: true, buyer: true, buyerSupplierAgreement: true, items: { include: { reservation: { include: { externalReservation: true } }, offer: { include: { productVariant: { include: { product: true } } } } } }, paymentAllocation: true },
       orderBy: { createdAt: "desc" },
     });
   }
