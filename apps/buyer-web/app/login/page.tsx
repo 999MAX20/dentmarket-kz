@@ -5,7 +5,7 @@ import Link from "next/link";
 import styles from "./page.module.css";
 
 type Capability = "BUYER" | "SUPPLIER";
-type Session = { accessToken: string; activeOrganizationId?: string | null; organizationId?: string; organizationDisplayName?: string; capability: Capability; user: { id: string; displayName: string; email: string } };
+type Session = { accessToken: string; sessionId?: string; activeOrganizationId?: string | null; organizationId?: string; organizationDisplayName?: string; capability: Capability; user: { id: string; displayName: string; email: string } };
 const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
 const supplierAppUrl = process.env.NEXT_PUBLIC_SUPPLIER_APP_URL ?? "https://dentmarket-supplier.vercel.app";
 
@@ -21,7 +21,10 @@ export default function LoginPage() {
       if (!response.ok) throw new Error(session.message ?? "Сервис входа временно недоступен");
       const organizationId = session.activeOrganizationId ?? session.organizationId;
       if (!organizationId) throw new Error("У аккаунта нет активной организации");
-      const handoff = encodeURIComponent(JSON.stringify({ actorId: session.user.id, displayName: session.user.displayName, organizationDisplayName: session.organizationDisplayName, organizationId, accessToken: session.accessToken, capability }));
+      const handoffResponse = await fetch(`${apiUrl}/auth/handoff`, { method: "POST", headers: { "content-type": "application/json", authorization: `Bearer ${session.accessToken}`, "x-user-id": session.user.id, "x-organization-id": organizationId, ...(session.sessionId ? { "x-session-id": session.sessionId } : {}) }, body: JSON.stringify({ capability }) });
+      const handoffPayload = await handoffResponse.json() as { handoffCode?: string; organizationId?: string; organizationDisplayName?: string; message?: string };
+      if (!handoffResponse.ok || !handoffPayload.handoffCode) throw new Error(handoffPayload.message ?? "Не удалось создать безопасный переход в кабинет");
+      const handoff = encodeURIComponent(JSON.stringify({ displayName: session.user.displayName, organizationDisplayName: handoffPayload.organizationDisplayName ?? session.organizationDisplayName, organizationId: handoffPayload.organizationId ?? organizationId, handoffCode: handoffPayload.handoffCode, capability }));
       window.location.assign(`${capability === "SUPPLIER" ? supplierAppUrl : ""}/#session=${handoff}`);
     } catch (cause) { setError(cause instanceof Error ? cause.message : "Вход не выполнен"); }
     finally { setBusy(false); }
