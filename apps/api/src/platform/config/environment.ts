@@ -30,7 +30,7 @@ const environmentSchema = z.object({
   OPENAI_BASE_URL: z.string().url().default("https://api.openai.com/v1"),
   SIGNATURE_CALLBACK_SECRET: z.string().min(32).optional(),
   WEBHOOK_TIMESTAMP_TOLERANCE_SECONDS: z.coerce.number().int().min(30).max(3_600).default(300),
-  CORS_ORIGINS: z.string().default("http://localhost:3000,http://localhost:3001,http://localhost:3002,http://127.0.0.1:3000,http://127.0.0.1:3001,http://127.0.0.1:3002"),
+  CORS_ORIGINS: z.string().default("http://localhost:3000,http://localhost:3001,http://localhost:3002,http://localhost:3003,http://127.0.0.1:3000,http://127.0.0.1:3001,http://127.0.0.1:3002,http://127.0.0.1:3003"),
   TRUST_PROXY: booleanFromString.default(false),
   RATE_LIMIT_TTL_MS: z.coerce.number().int().min(1_000).default(60_000),
   RATE_LIMIT_REQUESTS: z.coerce.number().int().min(1).default(240),
