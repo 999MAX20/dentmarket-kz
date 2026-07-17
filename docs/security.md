@@ -35,6 +35,7 @@ Google и Apple OIDC проверяются по issuer, audience, сроку и
 
 - `AUTH_MODE=jwt`, `JWT_PUBLIC_KEY` или 32+ symbol `JWT_SECRET`;
 - отдельные `INTEGRATION_ENCRYPTION_KEY` и `APP_SECURITY_ENCRYPTION_KEY`;
+- ротация integration key выполняется без простоя: новый ключ задаётся в `INTEGRATION_ENCRYPTION_KEY`, старый временно остаётся в `INTEGRATION_ENCRYPTION_KEY_PREVIOUS`; новые записи шифруются новым ключом, старые расшифровываются обоими;
 - `JWT_REQUIRE_MFA=true` для операторов и финансовых ролей;
 - `AV_SCAN_MODE=required` и доступный ClamAV;
 - TLS termination, `TRUST_PROXY=true` только за доверенным proxy;

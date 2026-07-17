@@ -2,10 +2,12 @@ import { afterEach, describe, expect, it } from "vitest";
 import { IntegrationCryptoService } from "./integration-crypto.service";
 
 const originalKey = process.env.INTEGRATION_ENCRYPTION_KEY;
+const originalPreviousKey = process.env.INTEGRATION_ENCRYPTION_KEY_PREVIOUS;
 const originalNodeEnv = process.env.NODE_ENV;
 
 afterEach(() => {
   if (originalKey === undefined) delete process.env.INTEGRATION_ENCRYPTION_KEY; else process.env.INTEGRATION_ENCRYPTION_KEY = originalKey;
+  if (originalPreviousKey === undefined) delete process.env.INTEGRATION_ENCRYPTION_KEY_PREVIOUS; else process.env.INTEGRATION_ENCRYPTION_KEY_PREVIOUS = originalPreviousKey;
   if (originalNodeEnv === undefined) delete process.env.NODE_ENV; else process.env.NODE_ENV = originalNodeEnv;
 });
 
@@ -45,5 +47,20 @@ describe("IntegrationCryptoService", () => {
     const token = service.token();
     expect(service.tokensMatch(token, service.hashToken(token))).toBe(true);
     expect(service.tokensMatch(`${token}x`, service.hashToken(token))).toBe(false);
+  });
+
+  it("decrypts with the previous key during rotation but always encrypts with the current key", () => {
+    const previous = Buffer.alloc(32, 3).toString("base64");
+    const current = Buffer.alloc(32, 4).toString("base64");
+    process.env.INTEGRATION_ENCRYPTION_KEY = previous;
+    const oldCiphertext = new IntegrationCryptoService().encrypt({ accessToken: "rotating-secret" });
+    process.env.INTEGRATION_ENCRYPTION_KEY = current;
+    process.env.INTEGRATION_ENCRYPTION_KEY_PREVIOUS = previous;
+    const service = new IntegrationCryptoService();
+    expect(service.decrypt(oldCiphertext)).toEqual({ accessToken: "rotating-secret" });
+    const newCiphertext = service.encrypt({ accessToken: "new-secret" });
+    delete process.env.INTEGRATION_ENCRYPTION_KEY_PREVIOUS;
+    expect(() => new IntegrationCryptoService().decrypt(oldCiphertext)).toThrow();
+    expect(new IntegrationCryptoService().decrypt(newCiphertext)).toEqual({ accessToken: "new-secret" });
   });
 });

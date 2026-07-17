@@ -46,6 +46,7 @@ const environmentSchema = z.object({
   OTEL_EXPORTER_OTLP_ENDPOINT: z.string().url().optional(),
   SENTRY_DSN: z.string().url().optional(),
   INTEGRATION_ENCRYPTION_KEY: z.string().min(32).optional(),
+  INTEGRATION_ENCRYPTION_KEY_PREVIOUS: z.string().min(32).optional(),
   APP_SECURITY_ENCRYPTION_KEY: z.string().min(32).optional(),
   OBJECT_STORAGE_DRIVER: z.enum(["local", "s3"]).default("local"),
   S3_ENDPOINT: z.string().url().optional(),
