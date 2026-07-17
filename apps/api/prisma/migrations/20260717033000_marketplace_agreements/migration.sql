@@ -57,4 +57,3 @@ ALTER TABLE "MarketplaceAgreement" ADD CONSTRAINT "MarketplaceAgreement_document
 CREATE UNIQUE INDEX "MarketplaceAgreement_one_live_pair_key"
 ON "MarketplaceAgreement" ("supplierOrganizationId", "operatorOrganizationId")
 WHERE "status" IN ('DRAFT', 'AWAITING_SIGNATURE', 'ACTIVE', 'NON_RENEWING');
-
