@@ -29,6 +29,7 @@ import { AgreementOperations } from "./agreement-operations";
 import { ConnectorReadinessRegistry } from "./connector-readiness-registry";
 import { CatalogQuality } from "./catalog-quality";
 import { clearAdminSession, isLocalAdminDevelopment, readAdminSession } from "./admin-auth";
+import { OperationQueue } from "./operation-queue";
 
 const navigation: Array<{ label: string; icon: ReactNode; active?: boolean }> =
   [
@@ -183,6 +184,7 @@ export default function OperationsOverview() {
           </div>
 
           <LiveMetrics />
+          <OperationQueue />
           <CatalogQuality />
           <AgreementOperations />
           <PlatformAssurance />
