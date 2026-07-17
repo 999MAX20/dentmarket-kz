@@ -5,13 +5,14 @@ import { PermissionsGuard } from "../access-control/permissions.guard";
 import { RequirePermissions } from "../access-control/require-permissions.decorator";
 import { SearchProjectionService } from "./search-projection.service";
 import { SearchService } from "./search.service";
+import { SearchAnalyticsService } from "./search-analytics.service";
 import { environment } from "../../platform/config/environment";
 
 @ApiTags("marketplace-search")
 @UseGuards(PermissionsGuard)
 @Controller("marketplace")
 export class SearchController {
-  constructor(private readonly searchService: SearchService, private readonly projection: SearchProjectionService) {}
+  constructor(private readonly searchService: SearchService, private readonly projection: SearchProjectionService, private readonly analytics: SearchAnalyticsService) {}
   private context(actorId: string, organizationId: string) { return { actorId, organizationId }; }
 
   @Get("search")
@@ -31,6 +32,10 @@ export class SearchController {
   @Post("search/rebuild")
   @RequirePermissions("catalog.product.moderate")
   rebuild() { return this.projection.rebuildAll(); }
+
+  @Get("search/analytics")
+  @RequirePermissions("catalog.product.moderate")
+  analyticsReport(@Query("days") days: string) { return this.analytics.report(Number(days || 30)); }
 }
 
 @ApiTags("public-catalog")

@@ -3,6 +3,7 @@ import type { CompareOffersInput, SearchCatalogInput } from "@marketplace/schema
 import { Prisma } from "@prisma/client";
 import { PrismaService } from "../../platform/prisma/prisma.service";
 import { expandDentalSearchQuery } from "./dental-search-lexicon";
+import { SearchAnalyticsService } from "./search-analytics.service";
 import { resolvePriceRules } from "../pricing/price-resolver";
 import type { SupplierActorContext } from "../suppliers/supplier-access.service";
 
@@ -10,7 +11,7 @@ type SearchRow = { productId: string; rank: number };
 
 @Injectable()
 export class SearchService {
-  constructor(private readonly prisma: PrismaService) {}
+  constructor(private readonly prisma: PrismaService, private readonly analytics: SearchAnalyticsService) {}
 
   private async assertBuyer(buyerOrganizationId: string, context: SupplierActorContext) {
     const operator = Boolean(await this.prisma.organizationCapability.findUnique({ where: { organizationId_capability: { organizationId: context.organizationId, capability: "MARKETPLACE_OPERATOR" } } }));
@@ -42,6 +43,8 @@ export class SearchService {
     if (input.cityId) where.push(Prisma.sql`CAST(${input.cityId} AS uuid) = ANY(d."cityIds")`);
     if (input.warehouseId) where.push(Prisma.sql`CAST(${input.warehouseId} AS uuid) = ANY(d."warehouseIds")`);
     if (input.deliveryMethod) where.push(Prisma.sql`${input.deliveryMethod} = ANY(d."deliveryMethods")`);
+    if (input.unit) where.push(Prisma.sql`d."normalizedText" ILIKE ${`%${this.normalizeFilter(input.unit)}%`}`);
+    if (input.packaging) where.push(Prisma.sql`d."normalizedText" ILIKE ${`%${this.normalizeFilter(input.packaging)}%`}`);
     if (input.inStock !== undefined) where.push(Prisma.sql`d."isAvailable" = ${input.inStock}`);
     if (input.minNormalizedPriceMinor !== undefined) where.push(Prisma.sql`d."maxNormalizedPriceMinor" >= ${input.minNormalizedPriceMinor}`);
     if (input.maxNormalizedPriceMinor !== undefined) where.push(Prisma.sql`d."minNormalizedPriceMinor" <= ${input.maxNormalizedPriceMinor}`);
@@ -62,8 +65,12 @@ export class SearchService {
     const products = await this.loadProducts(rows.map(({ productId }) => productId));
     const rankById = new Map(rows.map((row, index) => [row.productId, { rank: Number(row.rank), index }]));
     const items = products.map((product) => this.toSearchItem(product, input, rankById.get(product.id)?.rank ?? 0)).filter((item) => item.offers.length > 0).sort((left, right) => (rankById.get(left.id)?.index ?? 0) - (rankById.get(right.id)?.index ?? 0));
-    return { query: input.q, interpretedQuery: searchIntent.matchedAliases.length ? searchIntent.matchedAliases : undefined, total: Number(countRows[0]?.count ?? 0), offset: input.offset, limit: input.limit, items, facets: this.aggregateFacets(items) };
+    const total = Number(countRows[0]?.count ?? 0);
+    this.analytics.record(input.q, total, context);
+    return { query: input.q, interpretedQuery: searchIntent.matchedAliases.length ? searchIntent.matchedAliases : undefined, total, offset: input.offset, limit: input.limit, items, facets: this.aggregateFacets(items) };
   }
+
+  private normalizeFilter(value: string) { return value.toLocaleLowerCase("ru").replace(/[^\p{L}\p{N}]+/gu, " ").trim(); }
 
   async compare(input: CompareOffersInput, context: SupplierActorContext) {
     await this.assertBuyer(input.buyerOrganizationId, context);

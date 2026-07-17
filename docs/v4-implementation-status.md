@@ -26,6 +26,10 @@
 - `MarketplaceAgreementsService.assertActive()` подключён к публикации, marketplace visibility, supplier confirmation, checkout offer resolution, payment capture и внешнему order export; expired/non-signed agreements fail closed.
 - 10 363 production canonical-карточки проверены: 0 без `ProductVariant`, 0 без `ProductCategory`, 0 без `ProductIndustry`; 10 363 поисковых документа заполнены. Mapping review для публичных источников сформирован в `data/supplier-mapping-review.csv` (10 168 строк); все импортированные карточки остаются DRAFT до supplier confirmation.
 - Межкабинетный переход переведён на одноразовый handoff-код: access token не передаётся в URL, код живёт 120 секунд, хранится только hash и после обмена помечается использованным.
+- Главный поиск магазина понимает стоматологический сленг и раскладку: словарь расширен более чем 100 профессиональными alias-группами, добавлены исправления типовых опечаток, фильтры фасовки/единицы/доставки и усиление точных совпадений.
+- Добавлена `SearchQueryEvent`-аналитика и операторский endpoint `/api/marketplace/search/analytics`; в админ-контуре появился блок качества каталога, индекса и запросов без результата.
+- Для поставщика добавлен `/api/suppliers/:supplierOrganizationId/onboarding-readiness`: организация, credentials, склад, источник, импорт, matching memory, договор ЭЦП, offer, цена и свежий остаток проверяются одной readiness-цепочкой.
+- Production-каталог переквалифицирован без технической категории `imported-catalog`: карточки получили широкие отраслевые категории (терапия, эндодонтия, хирургия, ортодонтия, имплантология, инструменты, оборудование и др.) с сохранением поисковых categoryIds.
 
 ## Ещё не закрыто v4
 

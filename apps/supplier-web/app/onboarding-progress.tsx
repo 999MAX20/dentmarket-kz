@@ -6,7 +6,7 @@ import { MarketplaceApiClient, type ApiContext } from "@marketplace/api-client";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import styles from "./onboarding-progress.module.css";
 
-type Progress = { status: string; completedSteps: number; totalSteps: number; progressPercent: number; nextStep: { id: string; label: string; action: string } | null; steps: Array<{ id: string; label: string; complete: boolean; action: string }> };
+type Progress = { status: string; readyForCommercialActivation?: boolean; completedSteps: number; totalSteps: number; progressPercent: number; nextStep: { id: string; label: string; action: string } | null; steps: Array<{ id: string; label: string; complete: boolean; action: string }> };
 
 export function OnboardingProgress({ apiContext, supplierId, onNavigate }: { apiContext: ApiContext; supplierId: string; onNavigate: (section: string) => void }) {
   const api = useMemo(() => new MarketplaceApiClient(process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:4012/api", apiContext), [apiContext]);
@@ -15,7 +15,7 @@ export function OnboardingProgress({ apiContext, supplierId, onNavigate }: { api
   const [busy, setBusy] = useState<string | null>(null);
   const [warehouse, setWarehouse] = useState({ code: "MAIN", name: "Основной склад", addressLine: "" });
   const [source, setSource] = useState({ type: "MANUAL", name: "Ручное управление" });
-  const load = useCallback(() => { void api.get<Progress>("/onboarding/supplier/progress").then((value) => { setProgress(value); setError(null); }).catch((cause) => setError(cause instanceof Error ? cause.message : "Не удалось загрузить onboarding")); }, [api]);
+  const load = useCallback(() => { void api.get<Progress>(`/suppliers/${supplierId}/onboarding-readiness`).then((value) => { setProgress({ ...value, status: value.readyForCommercialActivation ? "READY" : "IN_PROGRESS", nextStep: value.steps.find((step) => !step.complete) ?? null }); setError(null); }).catch((cause) => setError(cause instanceof Error ? cause.message : "Не удалось загрузить onboarding")); }, [api, supplierId]);
   const complete = async (step: "profile" | "warehouse" | "data_source") => {
     setBusy(step); setError(null);
     try {

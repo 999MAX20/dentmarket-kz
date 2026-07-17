@@ -27,6 +27,7 @@ import { PlatformAssurance } from "./platform-assurance";
 import { TrustOperations } from "./trust-operations";
 import { AgreementOperations } from "./agreement-operations";
 import { ConnectorReadinessRegistry } from "./connector-readiness-registry";
+import { CatalogQuality } from "./catalog-quality";
 import { clearAdminSession, isLocalAdminDevelopment, readAdminSession } from "./admin-auth";
 
 const navigation: Array<{ label: string; icon: ReactNode; active?: boolean }> =
@@ -182,6 +183,7 @@ export default function OperationsOverview() {
           </div>
 
           <LiveMetrics />
+          <CatalogQuality />
           <AgreementOperations />
           <PlatformAssurance />
           <TrustOperations />

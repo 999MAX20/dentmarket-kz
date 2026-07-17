@@ -3883,6 +3883,21 @@ model AuditLog {
   @@index([organizationId, createdAt])
 }
 
+model SearchQueryEvent {
+  id             String   @id @default(uuid()) @db.Uuid
+  actorId        String?
+  organizationId String?
+  query          String
+  normalizedQuery String
+  matchedAliases String[] @default([])
+  resultCount    Int
+  createdAt      DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([normalizedQuery, createdAt])
+  @@index([resultCount, createdAt])
+}
+
 model OutboxEvent {
   id            String       @id @default(uuid()) @db.Uuid
   aggregateType String

@@ -87,6 +87,13 @@
   margin: 0 auto;
   padding: 36px 32px 64px;
 }
+.qualityTable {
+  display: grid;
+  gap: 8px;
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid #e0e3e8;
+}
 .heading {
   display: flex;
   align-items: flex-end;

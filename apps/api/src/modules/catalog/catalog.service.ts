@@ -96,6 +96,19 @@ export class CatalogService {
     });
   }
 
+  async qualityReport() {
+    const [cards, missingVariants, missingCategories, missingIndustries, indexed, bySource] = await Promise.all([
+      this.prisma.$queryRaw<Array<{ count: bigint }>>`SELECT COUNT(*)::bigint AS count FROM "Product" WHERE "externalMetadata"->>'importedAsCanonicalDraft' = 'true'`,
+      this.prisma.$queryRaw<Array<{ count: bigint }>>`SELECT COUNT(*)::bigint AS count FROM "Product" p WHERE p."externalMetadata"->>'importedAsCanonicalDraft' = 'true' AND NOT EXISTS (SELECT 1 FROM "ProductVariant" v WHERE v."productId" = p.id)`,
+      this.prisma.$queryRaw<Array<{ count: bigint }>>`SELECT COUNT(*)::bigint AS count FROM "Product" p WHERE p."externalMetadata"->>'importedAsCanonicalDraft' = 'true' AND NOT EXISTS (SELECT 1 FROM "ProductCategory" c WHERE c."productId" = p.id)`,
+      this.prisma.$queryRaw<Array<{ count: bigint }>>`SELECT COUNT(*)::bigint AS count FROM "Product" p WHERE p."externalMetadata"->>'importedAsCanonicalDraft' = 'true' AND NOT EXISTS (SELECT 1 FROM "ProductIndustry" i WHERE i."productId" = p.id)`,
+      this.prisma.$queryRaw<Array<{ count: bigint }>>`SELECT COUNT(*)::bigint AS count FROM "Product" p JOIN "ProductSearchDocument" d ON d."productId" = p.id WHERE p."externalMetadata"->>'importedAsCanonicalDraft' = 'true'`,
+      this.prisma.$queryRaw<Array<{ source: string | null; count: bigint }>>`SELECT "externalMetadata"->>'source' AS source, COUNT(*)::bigint AS count FROM "Product" WHERE "externalMetadata"->>'importedAsCanonicalDraft' = 'true' GROUP BY 1 ORDER BY count DESC`,
+    ]);
+    const number = (value: bigint) => Number(value);
+    return { cards: number(cards[0]?.count ?? 0n), indexed: number(indexed[0]?.count ?? 0n), missingVariants: number(missingVariants[0]?.count ?? 0n), missingCategories: number(missingCategories[0]?.count ?? 0n), missingIndustries: number(missingIndustries[0]?.count ?? 0n), bySource: bySource.map((row) => ({ source: row.source ?? "unknown", count: number(row.count) })) };
+  }
+
   createProduct(input: CreateProductInput, context: ActorContext) {
     return this.prisma.$transaction(async (tx) => {
       const product = await tx.product.create({

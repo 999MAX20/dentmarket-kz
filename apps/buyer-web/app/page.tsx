@@ -128,9 +128,13 @@ const medstomCatalogFallback: SearchProduct[] = medstomCatalog.products.map((pro
   }],
 }));
 const publicCatalogFallback = [...medstomCatalogFallback, ...demoCatalogFallback];
-const fallbackSearch = (query: string, sort: string): SearchResult => {
+const fallbackSearch = (query: string, sort: string, filters: { unit?: string; packaging?: string; delivery?: string; stock?: string } = {}): SearchResult => {
   const normalized = query.trim().toLocaleLowerCase("ru");
-  const filtered = normalized ? publicCatalogFallback.filter((product) => [product.name, product.brand, product.manufacturer, product.categories[0]?.name, product.offers[0]?.supplier.name].filter(Boolean).join(" ").toLocaleLowerCase("ru").includes(normalized)) : [...publicCatalogFallback];
+  const filtered = publicCatalogFallback.filter((product) => {
+    const offer = product.offers[0];
+    const text = [product.name, product.brand, product.manufacturer, product.categories[0]?.name, offer?.supplier.name, offer?.packaging.name, offer?.packaging.unit].filter(Boolean).join(" ").toLocaleLowerCase("ru");
+    return (!normalized || text.includes(normalized)) && (!filters.unit || text.includes(filters.unit.toLocaleLowerCase("ru"))) && (!filters.packaging || text.includes(filters.packaging.toLocaleLowerCase("ru"))) && (!filters.delivery || offer?.deliveryMethods.includes(filters.delivery)) && (filters.stock !== "true" || offer?.available === true);
+  });
   filtered.sort((left, right) => {
     if (sort === "PRICE_ASC") return Number(left.minNormalizedPriceMinor || Number.MAX_SAFE_INTEGER) - Number(right.minNormalizedPriceMinor || Number.MAX_SAFE_INTEGER);
     if (sort === "PRICE_DESC") return Number(right.minNormalizedPriceMinor || -1) - Number(left.minNormalizedPriceMinor || -1);
@@ -287,6 +291,10 @@ export default function BuyerWorkspace() {
   const [active, setActive] = useState("catalog");
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState("RELEVANCE");
+  const [unitFilter, setUnitFilter] = useState("");
+  const [packagingFilter, setPackagingFilter] = useState("");
+  const [deliveryFilter, setDeliveryFilter] = useState("");
+  const [stockFilter, setStockFilter] = useState("true");
   const [search, setSearch] = useState<SearchResult | null>(null);
   const [comparison, setComparison] = useState<Comparison | null>(null);
   const [carts, setCarts] = useState<Cart[]>([]);
@@ -304,19 +312,22 @@ export default function BuyerWorkspace() {
   );
   const unread = notifications.filter((item) => !item.readAt).length;
 
+  const buildSearchParams = useCallback((nextQuery = query, nextSort = sort) => {
+    const params = new URLSearchParams({ buyerOrganizationId: buyerId, q: nextQuery, sort: nextSort, limit: "24" });
+    if (stockFilter !== "all") params.set("inStock", stockFilter);
+    if (unitFilter) params.set("unit", unitFilter);
+    if (packagingFilter) params.set("packaging", packagingFilter);
+    if (deliveryFilter) params.set("deliveryMethod", deliveryFilter);
+    return params;
+  }, [buyerId, deliveryFilter, packagingFilter, query, sort, stockFilter, unitFilter]);
+
   const loadSearch = useCallback(
     async (nextQuery = query, nextSort = sort) => {
-      const params = new URLSearchParams({
-        buyerOrganizationId: buyerId,
-        q: nextQuery,
-        sort: nextSort,
-        inStock: "true",
-        limit: "24",
-      });
+      const params = buildSearchParams(nextQuery, nextSort);
       try { setSearch(await api.get<SearchResult>(`${handoff ? "/marketplace" : "/catalog"}/search?${params}`)); }
-      catch (cause) { if (handoff) throw cause; setSearch(fallbackSearch(nextQuery, nextSort)); }
+      catch (cause) { if (handoff) throw cause; setSearch(fallbackSearch(nextQuery, nextSort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: stockFilter })); }
     },
-    [api, buyerId, handoff, query, sort],
+    [api, buildSearchParams, deliveryFilter, handoff, packagingFilter, query, sort, unitFilter],
   );
 
   const refresh = useCallback(async () => {
@@ -337,7 +348,7 @@ export default function BuyerWorkspace() {
         notificationResult,
       ] = await Promise.all([
         api.get<SearchResult>(
-          `/marketplace/search?${new URLSearchParams({ buyerOrganizationId: buyerId, q: query, sort, inStock: "true", limit: "24" })}`,
+          `/marketplace/search?${buildSearchParams()}`,
         ),
         api.get<Cart[]>(`/buyers/${buyerId}/carts`),
         api.get<SupplierOrder[]>(`/buyers/${buyerId}/orders`),
@@ -358,7 +369,7 @@ export default function BuyerWorkspace() {
     } finally {
       setLoading(false);
     }
-  }, [api, buyerId, handoff, handoffChecked, loadSearch, query, sort]);
+  }, [api, buildSearchParams, buyerId, handoff, handoffChecked, loadSearch, query, sort]);
 
   useEffect(() => { if (handoffChecked) void refresh(); }, [handoffChecked, refresh]);
   useEffect(() => {
@@ -522,6 +533,35 @@ export default function BuyerWorkspace() {
             Найти
           </Button>
         </form>
+        <div className={styles.catalogFilters} aria-label="Фильтры каталога">
+          <Field label="Фасовка">
+            <Input value={packagingFilter} onChange={(_, data) => setPackagingFilter(data.value)} placeholder="например, 100 шт" />
+          </Field>
+          <Field label="Единица">
+            <Select value={unitFilter} onChange={(_, data) => setUnitFilter(data.value)}>
+              <option value="">Любая</option>
+              <option value="шт">шт</option>
+              <option value="уп">упаковка</option>
+              <option value="мл">мл</option>
+              <option value="г">г</option>
+              <option value="комплект">комплект</option>
+            </Select>
+          </Field>
+          <Field label="Доставка">
+            <Select value={deliveryFilter} onChange={(_, data) => setDeliveryFilter(data.value)}>
+              <option value="">Любая</option>
+              <option value="CARRIER">Курьер</option>
+              <option value="NATIONWIDE">По Казахстану</option>
+              <option value="PICKUP">Самовывоз</option>
+            </Select>
+          </Field>
+          <Field label="Наличие">
+            <Select value={stockFilter} onChange={(_, data) => setStockFilter(data.value)}>
+              <option value="true">Только в наличии</option>
+              <option value="all">Все предложения</option>
+            </Select>
+          </Field>
+        </div>
         <div className={styles.searchHelp} aria-label="Быстрые стоматологические запросы">
           <span>Можно искать по-своему:</span>
           {dentalSearchSuggestions.map((suggestion) => <button key={suggestion} type="button" onClick={() => { setQuery(suggestion); void submitSearchFor(suggestion); }}>{suggestion}</button>)}

@@ -67,11 +67,52 @@ export class ImportsService implements OnModuleInit {
     return this.prisma.importBatch.findMany({ where: { supplierOrganizationId }, include: { source: true, _count: { select: { rows: true } } }, orderBy: { createdAt: "desc" }, take: 50 });
   }
 
+  async onboardingReadiness(supplierOrganizationId: string, context: SupplierActorContext) {
+    await this.access.assertCanManage(supplierOrganizationId, context);
+    const [organization, profile, credentials, warehouses, sources, batches, items, memories, offers, prices, inventory, agreement] = await Promise.all([
+      this.prisma.organization.findUnique({ where: { id: supplierOrganizationId }, select: { id: true, displayName: true, bin: true } }),
+      this.prisma.supplierProfile.findUnique({ where: { organizationId: supplierOrganizationId }, select: { organizationId: true } }),
+      this.prisma.organizationCredential.count({ where: { organizationId: supplierOrganizationId, status: "VERIFIED", OR: [{ validTo: null }, { validTo: { gt: new Date() } }] } }),
+      this.prisma.warehouse.count({ where: { supplierOrganizationId, status: "ACTIVE" } }),
+      this.prisma.supplierDataSource.count({ where: { supplierOrganizationId, status: "ACTIVE" } }),
+      this.prisma.importBatch.count({ where: { supplierOrganizationId, status: { in: ["COMPLETED", "COMPLETED_WITH_ERRORS"] } } }),
+      this.prisma.supplierExternalItem.count({ where: { supplierOrganizationId, matchedVariantId: { not: null } } }),
+      this.prisma.supplierMappingMemory.count({ where: { supplierOrganizationId, status: "ACTIVE" } }),
+      this.prisma.supplierOffer.count({ where: { supplierOrganizationId, status: "ACTIVE" } }),
+      this.prisma.offerPrice.count({ where: { offer: { supplierOrganizationId }, status: "ACTIVE", OR: [{ validTo: null }, { validTo: { gt: new Date() } }] } }),
+      this.prisma.inventoryBalance.count({ where: { supplierOrganizationId, freshnessStatus: "FRESH", quantityAvailable: { gt: 0 } } }),
+      this.prisma.marketplaceAgreement.count({ where: { supplierOrganizationId, status: { in: ["ACTIVE", "NON_RENEWING"] }, startsAt: { lte: new Date() }, endsAt: { gt: new Date() } } }),
+    ]);
+    const steps = [
+      { id: "organization", label: "Организация", complete: Boolean(organization?.id && organization.bin), action: "Заполнить BIN и юридические данные" },
+      { id: "profile", label: "Профиль поставщика", complete: Boolean(profile), action: "Создать профиль поставщика" },
+      { id: "credentials", label: "Разрешительные документы", complete: credentials > 0, action: "Добавить и подтвердить credentials" },
+      { id: "warehouse", label: "Склад", complete: warehouses > 0, action: "Добавить активный склад" },
+      { id: "source", label: "Источник каталога", complete: sources > 0, action: "Подключить CSV, PDF, API или ERP" },
+      { id: "import", label: "Импорт", complete: batches > 0, action: "Завершить первый импорт" },
+      { id: "matching", label: "Сопоставление", complete: items > 0 && memories > 0, action: "Подтвердить matching и сохранить memory" },
+      { id: "agreement", label: "Договор ЭЦП", complete: agreement > 0, action: "Подписать договор с оператором" },
+      { id: "offer", label: "Offer и цена", complete: offers > 0 && prices > 0, action: "Подтвердить offer и цену" },
+      { id: "inventory", label: "Остаток", complete: inventory > 0, action: "Передать свежий остаток" },
+    ];
+    const completedSteps = steps.filter((step) => step.complete).length;
+    return { supplierOrganizationId, organization, completedSteps, totalSteps: steps.length, progressPercent: Math.round((completedSteps / steps.length) * 100), readyForCommercialActivation: steps.every((step) => step.complete), steps, counts: { credentials, warehouses, sources, batches, matchedItems: items, mappingMemories: memories, activeOffers: offers, activePrices: prices, freshInventory: inventory, activeAgreements: agreement } };
+  }
+
   async batch(supplierOrganizationId: string, batchId: string, context: SupplierActorContext) {
     await this.access.assertCanManage(supplierOrganizationId, context);
     const batch = await this.prisma.importBatch.findFirst({ where: { id: batchId, supplierOrganizationId }, include: { source: true, rows: { orderBy: { rowNumber: "asc" }, take: 200 } } });
     if (!batch) throw new NotFoundException("Import batch not found");
     return batch;
+  }
+
+  async diagnostics(supplierOrganizationId: string, batchId: string, context: SupplierActorContext) {
+    await this.access.assertCanManage(supplierOrganizationId, context);
+    const batch = await this.prisma.importBatch.findFirst({ where: { id: batchId, supplierOrganizationId }, include: { rows: { select: { rowNumber: true, status: true, errorCode: true, errorMessage: true, normalizedData: true } } } });
+    if (!batch) throw new NotFoundException("Import batch not found");
+    const byStatus = batch.rows.reduce<Record<string, number>>((result, row) => { result[row.status] = (result[row.status] ?? 0) + 1; return result; }, {});
+    const conflicts = batch.rows.filter((row) => row.status === "MATCH_PENDING" || row.status === "REJECTED").slice(0, 200).map((row) => ({ rowNumber: row.rowNumber, status: row.status, code: row.errorCode, message: row.errorMessage, data: row.normalizedData }));
+    return { batchId, status: batch.status, totalRows: batch.totalRows, processedRows: batch.processedRows, errorRows: batch.errorRows, byStatus, conflictCount: conflicts.length, conflicts, idempotency: "SupplierExternalItem is upserted by sourceId + externalId; repeated imports do not create duplicate external items." };
   }
 
   async createBatch(supplierOrganizationId: string, input: CreateImportBatchInput, context: SupplierActorContext) {

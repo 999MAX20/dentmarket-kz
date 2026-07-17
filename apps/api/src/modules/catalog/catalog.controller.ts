@@ -79,6 +79,12 @@ export class CatalogController {
     return this.catalog.products();
   }
 
+  @Get("quality")
+  @RequirePermissions("catalog.product.view")
+  quality() {
+    return this.catalog.qualityReport();
+  }
+
   @Post("products")
   @RequirePermissions("catalog.product.create")
   createProduct(@Body() body: unknown, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {

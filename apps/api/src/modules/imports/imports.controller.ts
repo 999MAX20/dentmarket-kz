@@ -18,6 +18,12 @@ export class ImportsController {
     return this.imports.batches(supplierOrganizationId, this.context(actorId, organizationId));
   }
 
+  @Get("onboarding-readiness")
+  @RequirePermissions("import.manage")
+  onboardingReadiness(@Param("supplierOrganizationId") supplierOrganizationId: string, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {
+    return this.imports.onboardingReadiness(supplierOrganizationId, this.context(actorId, organizationId));
+  }
+
   @Post("import-batches")
   @RequirePermissions("import.manage")
   createBatch(@Param("supplierOrganizationId") supplierOrganizationId: string, @Body() body: unknown, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {
@@ -30,6 +36,12 @@ export class ImportsController {
   @RequirePermissions("import.manage")
   batch(@Param("supplierOrganizationId") supplierOrganizationId: string, @Param("batchId") batchId: string, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {
     return this.imports.batch(supplierOrganizationId, batchId, this.context(actorId, organizationId));
+  }
+
+  @Get("import-batches/:batchId/diagnostics")
+  @RequirePermissions("import.manage")
+  diagnostics(@Param("supplierOrganizationId") supplierOrganizationId: string, @Param("batchId") batchId: string, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {
+    return this.imports.diagnostics(supplierOrganizationId, batchId, this.context(actorId, organizationId));
   }
 
   @Post("import-batches/:batchId/process")

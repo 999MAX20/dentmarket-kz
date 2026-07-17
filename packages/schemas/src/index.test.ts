@@ -218,8 +218,8 @@ describe("iteration 1A schemas", () => {
   });
 
   it("parses marketplace search filters without float money assumptions", () => {
-    const result = searchCatalogSchema.parse({ buyerOrganizationId: "00000000-0000-4000-8000-000000000030", q: "перчатки", inStock: "true", maxNormalizedPriceMinor: "6000" });
-    expect(result).toMatchObject({ inStock: true, maxNormalizedPriceMinor: 6000, sort: "RELEVANCE", limit: 24 });
+    const result = searchCatalogSchema.parse({ buyerOrganizationId: "00000000-0000-4000-8000-000000000030", q: "перчатки", inStock: "true", maxNormalizedPriceMinor: "6000", unit: "шт", packaging: "100 шт", deliveryMethod: "CARRIER" });
+    expect(result).toMatchObject({ inStock: true, maxNormalizedPriceMinor: 6000, unit: "шт", packaging: "100 шт", deliveryMethod: "CARRIER", sort: "RELEVANCE", limit: 24 });
   });
 
   it("accepts TOTP and formatted recovery codes only", () => {

@@ -434,6 +434,8 @@ export const searchCatalogSchema = z.object({
   cityId: z.uuid().optional(),
   warehouseId: z.uuid().optional(),
   deliveryMethod: z.enum(["PICKUP", "SUPPLIER_CITY", "SELECTED_CITIES", "NATIONWIDE", "CARRIER", "MARKETPLACE_LOGISTICS", "PRICE_ON_REQUEST", "SPECIAL"]).optional(),
+  unit: z.string().trim().max(24).optional(),
+  packaging: z.string().trim().max(120).optional(),
   inStock: z.enum(["true", "false"]).transform((value) => value === "true").optional(),
   minNormalizedPriceMinor: z.coerce.number().nonnegative().optional(),
   maxNormalizedPriceMinor: z.coerce.number().nonnegative().optional(),
