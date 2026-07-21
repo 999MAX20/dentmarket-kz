@@ -1,5 +1,8 @@
-import pg from '../apps/api/node_modules/pg/lib/index.js';
-const client = new pg.Client({ connectionString: process.env.DATABASE_URL, ssl: { rejectUnauthorized: false } });
+import pg from "../apps/api/node_modules/pg/lib/index.js";
+const client = new pg.Client({
+  connectionString: process.env.DATABASE_URL,
+  ssl: { rejectUnauthorized: false },
+});
 await client.connect();
 try {
   const result = await client.query(`WITH ranked AS (
@@ -14,4 +17,6 @@ try {
       AND NOT EXISTS (SELECT 1 FROM "SupplierMappingMemory" m WHERE m."productVariantId" = r.id)
   ) DELETE FROM "ProductVariant" v USING deletable d WHERE v.id = d.id RETURNING v.id`);
   console.log(JSON.stringify({ deleted: result.rowCount }));
-} finally { await client.end(); }
+} finally {
+  await client.end();
+}
