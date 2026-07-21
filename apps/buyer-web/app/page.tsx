@@ -977,6 +977,20 @@ export default function BuyerWorkspace() {
         title="Закупки для стоматологии — без лишних звонков"
         description="Сравнивайте цены, наличие и условия поставщиков Казахстана в одном каталоге."
       />
+      <div className={styles.catalogProof} aria-label="Преимущества каталога">
+        <span>
+          <strong>10 000+</strong>
+          <small>карточек в каталоге</small>
+        </span>
+        <span>
+          <strong>КЗ</strong>
+          <small>поставщики по Казахстану</small>
+        </span>
+        <span>
+          <strong>24/7</strong>
+          <small>поиск по сленгу и брендам</small>
+        </span>
+      </div>
       <Section>
         <form
           className={styles.searchBar}
@@ -1032,6 +1046,56 @@ export default function BuyerWorkspace() {
             </button>
           ))}
         </div>
+        <details className={styles.advancedFilters}>
+          <summary>
+            Уточнить поиск <span>фасовка, единица, доставка, наличие</span>
+          </summary>
+          <div
+            className={styles.advancedFiltersGrid}
+            aria-label="Дополнительные фильтры каталога"
+          >
+            <Field label="Фасовка">
+              <Input
+                value={packagingFilter}
+                onChange={(_, data) => setPackagingFilter(data.value)}
+                placeholder="например, 100 шт"
+              />
+            </Field>
+            <Field label="Единица">
+              <Select
+                value={unitFilter}
+                onChange={(_, data) => setUnitFilter(data.value)}
+              >
+                <option value="">Любая</option>
+                <option value="шт">шт</option>
+                <option value="уп">упаковка</option>
+                <option value="мл">мл</option>
+                <option value="г">г</option>
+                <option value="комплект">комплект</option>
+              </Select>
+            </Field>
+            <Field label="Доставка">
+              <Select
+                value={deliveryFilter}
+                onChange={(_, data) => setDeliveryFilter(data.value)}
+              >
+                <option value="">Любая</option>
+                <option value="CARRIER">Курьер</option>
+                <option value="NATIONWIDE">По Казахстану</option>
+                <option value="PICKUP">Самовывоз</option>
+              </Select>
+            </Field>
+            <Field label="Наличие">
+              <Select
+                value={stockFilter}
+                onChange={(_, data) => setStockFilter(data.value)}
+              >
+                <option value="true">Только в наличии</option>
+                <option value="all">Все предложения</option>
+              </Select>
+            </Field>
+          </div>
+        </details>
         <div className={styles.resultsMeta}>
           <span>{search?.total ?? 0} товаров по запросу</span>
           <span>
@@ -1075,6 +1139,9 @@ export default function BuyerWorkspace() {
                 )[0];
               return (
                 <article className={styles.product} key={product.id}>
+                  <div className={styles.productVisual} aria-hidden="true">
+                    <ShoppingBag24Regular />
+                  </div>
                   <div className={styles.productIdentity}>
                     <span className={styles.category}>
                       {product.categories[0]?.name ?? "Стоматология"}
@@ -1098,6 +1165,20 @@ export default function BuyerWorkspace() {
                         Пока без отзывов
                       </small>
                     )}
+                    {best ? (
+                      <div className={styles.productSignals}>
+                        <span
+                          className={
+                            best.available
+                              ? styles.signalGood
+                              : styles.signalMuted
+                          }
+                        >
+                          {best.available ? "В наличии" : "Под заказ"}
+                        </span>
+                        <span>{best.supplier.name}</span>
+                      </div>
+                    ) : null}
                   </div>
                   <div className={styles.offerSummary}>
                     <strong>
@@ -1109,6 +1190,15 @@ export default function BuyerWorkspace() {
                       {product.offers.length} предложений ·{" "}
                       {best?.packaging.name ?? "упаковка уточняется"}
                     </span>
+                    {best ? (
+                      <small className={styles.deliveryHint}>
+                        {best.deliveryMethods.includes("NATIONWIDE")
+                          ? "Доставка по Казахстану"
+                          : best.deliveryMethods.includes("CARRIER")
+                            ? "Курьерская доставка"
+                            : "Условия уточняются"}
+                      </small>
+                    ) : null}
                   </div>
                   <div className={styles.productActions}>
                     <Button
