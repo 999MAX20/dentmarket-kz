@@ -37,6 +37,8 @@ export class TrustCommerceController {
   createReview(@Param("orderId") orderId: string, @Body() body: unknown, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) { return this.trust.createReview(orderId, this.parse(createVerifiedReviewSchema, body), this.context(actorId, organizationId)); }
   @Get("trust/suppliers/:supplierOrganizationId/reviews") @RequirePermissions("trust.review.view")
   reviews(@Param("supplierOrganizationId") supplierOrganizationId: string, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) { return this.trust.supplierReviews(supplierOrganizationId, this.context(actorId, organizationId)); }
+  @Get("trust/products/:productId/reviews") @RequirePermissions("trust.review.view")
+  productReviews(@Param("productId") productId: string) { return this.trust.productReviews(productId); }
   @Patch("trust/reviews/:reviewId") @RequirePermissions("trust.review.create")
   updateReview(@Param("reviewId") reviewId: string, @Body() body: unknown, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) { return this.trust.updateReview(reviewId, this.parse(updateVerifiedReviewSchema, body), this.context(actorId, organizationId)); }
   @Post("trust/reviews/:reviewId/response") @RequirePermissions("trust.review.respond")

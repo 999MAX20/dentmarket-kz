@@ -40,7 +40,7 @@ import {
   formatStatus,
   type NavigationItem,
 } from "@marketplace/ui";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { Fragment, useCallback, useEffect, useMemo, useState } from "react";
 import styles from "./page.module.css";
 import { BuyerServicesPanel } from "./buyer-services-panel";
 import { SmartCommercePanel } from "./smart-commerce-panel";
@@ -86,6 +86,7 @@ type SearchProduct = {
   categories: Array<{ id: string; name: string }>;
   minNormalizedPriceMinor: string | null;
   isAvailable: boolean;
+  reviewSummary?: { count: number; averageRating: number | null };
   offers: SearchOffer[];
 };
 type SearchResult = {
@@ -180,6 +181,7 @@ type Comparison = {
     manufacturer: string | null;
   };
   offers: CompareOffer[];
+  reviewSummary?: { count: number; averageRating: number | null };
   comparisonAttributes: Array<{ code: string; name: string; value: unknown }>;
 };
 type CartItem = {
@@ -219,6 +221,8 @@ type SupplierOrder = {
     offer: { productVariant: { product: { canonicalName: string } } };
   }>;
 };
+type SupplierTrust = { status: string; score: string | null; reviewCount?: number; eventCount?: number };
+type ProductReviews = { summary: { count: number; averageRating: number | null }; reviews: Array<{ id: string; overallRating: number; comment: string | null; officialResponse: string | null; createdAt: string }> };
 type DocumentRecord = {
   id: string;
   title: string;
@@ -297,6 +301,8 @@ export default function BuyerWorkspace() {
   const [stockFilter, setStockFilter] = useState("true");
   const [search, setSearch] = useState<SearchResult | null>(null);
   const [comparison, setComparison] = useState<Comparison | null>(null);
+  const [productReviews, setProductReviews] = useState<ProductReviews | null>(null);
+  const [supplierTrust, setSupplierTrust] = useState<Record<string, SupplierTrust>>({});
   const [carts, setCarts] = useState<Cart[]>([]);
   const [orders, setOrders] = useState<SupplierOrder[]>([]);
   const [documents, setDocuments] = useState<DocumentRecord[]>([]);
@@ -305,6 +311,8 @@ export default function BuyerWorkspace() {
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
+  const [reviewDrafts, setReviewDrafts] = useState<Record<string, { rating: number; comment: string }>>({});
+  const [submittedReviews, setSubmittedReviews] = useState<string[]>([]);
 
   const activeCart = carts.find((cart) => cart.status === "ACTIVE") ?? null;
   const buyerOrders = orders.filter(
@@ -382,6 +390,7 @@ export default function BuyerWorkspace() {
     setBusy("search");
     setError(null);
     setComparison(null);
+    setProductReviews(null);
     try {
       await loadSearch(nextQuery, sort);
     } catch (cause) {
@@ -398,13 +407,13 @@ export default function BuyerWorkspace() {
     try {
       if (!handoff) {
         const product = search?.items.find(({ id }) => id === productId);
-        if (product) { setComparison({ product: { id: product.id, name: product.name, brand: product.brand, manufacturer: product.manufacturer }, offers: product.offers.filter((offer) => offer.priceMinor && offer.normalizedPriceMinor).map((offer) => ({ offerId: offer.id, supplier: { organizationId: offer.supplier.id, name: offer.supplier.name }, supplierSku: offer.supplierSku ?? null, price: { amountMinor: offer.priceMinor!, currency: offer.currency ?? "KZT", normalizedPriceMinor: offer.normalizedPriceMinor!, normalizedUnit: offer.packaging.unit ?? "ед." }, packaging: { name: offer.packaging.name ?? "Упаковка", quantityInBaseUnit: offer.packaging.quantityInBaseUnit, unit: offer.packaging.unit }, availability: [{ warehouse: offer.available ? "Подтверждённый склад" : "Остаток не подтверждён", quantityAvailable: offer.available ? "в наличии" : "требует подтверждения", updatedAt: new Date().toISOString() }], delivery: offer.deliveryMethods.map((method) => ({ method, minLeadTimeHours: null, maxLeadTimeHours: null })), markers: { verifiedDocuments: offer.verifiedDocuments ?? true, complianceRisk: (offer.verifiedDocuments ?? true) ? "LOW" : "REVIEW_REQUIRED", officialDistributor: offer.officialDistributor ?? false, supplierWarranty: offer.supplierWarranty ?? true, requiresConfirmation: offer.confirmationMode === "MANUAL" || !offer.available } })), comparisonAttributes: [] }); return; }
+        if (product) { setComparison({ product: { id: product.id, name: product.name, brand: product.brand, manufacturer: product.manufacturer }, reviewSummary: product.reviewSummary, offers: product.offers.filter((offer) => offer.priceMinor && offer.normalizedPriceMinor).map((offer) => ({ offerId: offer.id, supplier: { organizationId: offer.supplier.id, name: offer.supplier.name }, supplierSku: offer.supplierSku ?? null, price: { amountMinor: offer.priceMinor!, currency: offer.currency ?? "KZT", normalizedPriceMinor: offer.normalizedPriceMinor!, normalizedUnit: offer.packaging.unit ?? "ед." }, packaging: { name: offer.packaging.name ?? "Упаковка", quantityInBaseUnit: offer.packaging.quantityInBaseUnit, unit: offer.packaging.unit }, availability: [{ warehouse: offer.available ? "Подтверждённый склад" : "Остаток не подтверждён", quantityAvailable: offer.available ? "в наличии" : "требует подтверждения", updatedAt: new Date().toISOString() }], delivery: offer.deliveryMethods.map((method) => ({ method, minLeadTimeHours: null, maxLeadTimeHours: null })), markers: { verifiedDocuments: offer.verifiedDocuments ?? true, complianceRisk: (offer.verifiedDocuments ?? true) ? "LOW" : "REVIEW_REQUIRED", officialDistributor: offer.officialDistributor ?? false, supplierWarranty: offer.supplierWarranty ?? true, requiresConfirmation: offer.confirmationMode === "MANUAL" || !offer.available } })), comparisonAttributes: [] }); return; }
       }
-      setComparison(
-        await api.get<Comparison>(
-          `${handoff ? "/marketplace" : "/catalog"}/products/${productId}/compare?buyerOrganizationId=${buyerId}&quantity=1`,
-        ),
-      );
+      const nextComparison = await api.get<Comparison>(`${handoff ? "/marketplace" : "/catalog"}/products/${productId}/compare?buyerOrganizationId=${buyerId}&quantity=1`);
+      setComparison(nextComparison);
+      const [reviews, ...ratings] = await Promise.all([api.get<ProductReviews>(`/trust/products/${productId}/reviews`), ...nextComparison.offers.map((offer) => api.get<SupplierTrust>(`/trust/ratings/suppliers/${offer.supplier.organizationId}`))]);
+      setProductReviews(reviews);
+      setSupplierTrust(Object.fromEntries(nextComparison.offers.map((offer, index) => [offer.supplier.organizationId, ratings[index]])));
     } catch (cause) {
       setError(errorMessage(cause));
     } finally {
@@ -453,6 +462,17 @@ export default function BuyerWorkspace() {
     } finally {
       setBusy(null);
     }
+  };
+
+  const reviewDraft = (orderId: string) => reviewDrafts[orderId] ?? { rating: 5, comment: "" };
+  const submitReview = async (orderId: string) => {
+    const draft = reviewDraft(orderId);
+    setBusy(`review:${orderId}`);
+    try {
+      await api.post(`/trust/orders/${orderId}/reviews`, { overallRating: draft.rating, comment: draft.comment.trim() || null, idempotencyKey: `buyer-review:${orderId}` });
+      setSubmittedReviews((items) => [...new Set([...items, orderId])]);
+      setToast("Отзыв отправлен и привязан к подтверждённому заказу");
+    } catch (cause) { setError(errorMessage(cause)); } finally { setBusy(null); }
   };
 
   const markRead = async (id: string) => {
@@ -599,6 +619,7 @@ export default function BuyerWorkspace() {
                         .filter(Boolean)
                         .join(" · ") || (best?.verifiedDocuments === false ? "Внешний каталог · поставщик не верифицирован" : "Проверенная карточка каталога")}
                     </p>
+                    {product.reviewSummary?.count ? <small className={styles.reviewSummary}>{product.reviewSummary.averageRating?.toFixed(1)} ★ · {product.reviewSummary.count} отзывов после заказов</small> : <small className={styles.reviewSummaryMuted}>Пока без отзывов</small>}
                   </div>
                   <div className={styles.offerSummary}>
                     <strong>
@@ -653,6 +674,10 @@ export default function BuyerWorkspace() {
                     .join(" · ")}
                 </p>
               </div>
+              <div className={styles.productReviewSummary}>
+                <strong>{comparison.reviewSummary?.averageRating == null ? "Новый товар" : `${comparison.reviewSummary.averageRating.toFixed(1)} ★`}</strong>
+                <span>{comparison.reviewSummary?.count ?? 0} подтверждённых отзывов</span>
+              </div>
               <Button appearance="subtle" onClick={() => setComparison(null)}>
                 Закрыть
               </Button>
@@ -672,6 +697,7 @@ export default function BuyerWorkspace() {
                     ) : (
                       <StatusTag tone="warning">Проверка</StatusTag>
                     )}
+                    {supplierTrust[offer.supplier.organizationId]?.score != null ? <StatusTag tone="info">Надёжность {Number(supplierTrust[offer.supplier.organizationId].score).toFixed(1)}/100</StatusTag> : null}
                   </header>
                   <div className={styles.offerPrice}>
                     <strong>
@@ -715,6 +741,10 @@ export default function BuyerWorkspace() {
                   </Button>
                 </article>
               ))}
+            </div>
+            <div className={styles.productReviews}>
+              <h4>Отзывы клиник</h4>
+              {!productReviews?.reviews.length ? <p>Подтверждённых отзывов пока нет. Они появляются после реальных заказов.</p> : productReviews.reviews.slice(0, 5).map((review) => <article key={review.id}><strong>{review.overallRating} ★</strong><span>{review.comment || "Оценка без комментария"}</span>{review.officialResponse ? <small>Ответ поставщика: {review.officialResponse}</small> : null}</article>)}
             </div>
           </div>
         </Section>
@@ -885,7 +915,8 @@ export default function BuyerWorkspace() {
               </thead>
               <tbody>
                 {buyerOrders.map((order) => (
-                  <tr key={order.id}>
+                  <Fragment key={order.id}>
+                  <tr>
                     <td>
                       <strong>{order.orderNumber}</strong>
                       <small className="mp-mono">{order.id.slice(0, 8)}</small>
@@ -902,6 +933,8 @@ export default function BuyerWorkspace() {
                     </td>
                     <td>{formatDate(order.createdAt, true)}</td>
                   </tr>
+                  {["DELIVERED", "PARTIALLY_FULFILLED", "RETURN_DISPUTE", "REJECTED", "CANCELLED"].includes(order.status) ? <tr><td colSpan={6}><div className={styles.reviewForm}><strong>{submittedReviews.includes(order.id) ? "Отзыв отправлен" : "Оцените исполнение заказа"}</strong>{submittedReviews.includes(order.id) ? <span>Оценка будет учтена в рейтинге поставщика.</span> : <><Select value={String(reviewDraft(order.id).rating)} onChange={(_, data) => setReviewDrafts((items) => ({ ...items, [order.id]: { ...reviewDraft(order.id), rating: Number(data.value) } }))}><option value="5">5 — отлично</option><option value="4">4 — хорошо</option><option value="3">3 — нормально</option><option value="2">2 — плохо</option><option value="1">1 — очень плохо</option></Select><Input value={reviewDraft(order.id).comment} onChange={(_, data) => setReviewDrafts((items) => ({ ...items, [order.id]: { ...reviewDraft(order.id), comment: data.value } }))} placeholder="Комментарий о поставке, цене или наличии" /><Button appearance="secondary" onClick={() => void submitReview(order.id)} disabled={busy === `review:${order.id}`}>{busy === `review:${order.id}` ? "Отправляем" : "Оставить отзыв"}</Button></>}</div></td></tr> : null}
+                  </Fragment>
                 ))}
               </tbody>
             </table>

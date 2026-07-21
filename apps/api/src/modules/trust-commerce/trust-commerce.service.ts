@@ -138,6 +138,12 @@ export class TrustCommerceService {
     return this.prisma.verifiedReview.findMany({ where: { supplierOrganizationId, ...(operator || ownSupplier ? {} : { status: "PUBLISHED" }) }, include: { revisions: { orderBy: { version: "desc" }, take: operator ? 20 : 0 } }, orderBy: { createdAt: "desc" }, take: 200 });
   }
 
+  async productReviews(productId: string) {
+    const reviews = await this.prisma.$queryRaw<Array<{ id: string; productVariantId: string | null; overallRating: number; dimensions: Prisma.JsonValue; comment: string | null; officialResponse: string | null; createdAt: Date }>>(Prisma.sql`SELECT vr."id", vr."productVariantId", vr."overallRating", vr."dimensions", vr."comment", vr."officialResponse", vr."createdAt" FROM "VerifiedReview" vr INNER JOIN "ProductVariant" pv ON pv."id" = vr."productVariantId" WHERE pv."productId" = ${productId}::uuid AND vr."status" = 'PUBLISHED' ORDER BY vr."createdAt" DESC LIMIT 100`);
+    const average = reviews.length ? reviews.reduce((sum, review) => sum + review.overallRating, 0) / reviews.length : null;
+    return { summary: { count: reviews.length, averageRating: average }, reviews };
+  }
+
   async updateReview(reviewId: string, input: { overallRating: number; dimensions: Record<string, number>; comment?: string | null; version: number; reason?: string }, context: SupplierActorContext) {
     const review = await this.prisma.verifiedReview.findFirst({ where: { id: reviewId, reviewerOrganizationId: context.organizationId } });
     if (!review) throw new NotFoundException("Verified review not found");

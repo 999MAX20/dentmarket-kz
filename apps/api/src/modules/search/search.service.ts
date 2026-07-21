@@ -63,8 +63,9 @@ export class SearchService {
       this.prisma.$queryRaw<Array<{ count: bigint }>>(Prisma.sql`SELECT COUNT(*)::bigint AS count FROM "ProductSearchDocument" d JOIN "Product" p ON p.id = d."productId" WHERE ${condition}`),
     ]);
     const products = await this.loadProducts(rows.map(({ productId }) => productId));
+    const reviewSummary = await this.reviewSummaries(products.flatMap((product) => product.variants.map(({ id }) => id)));
     const rankById = new Map(rows.map((row, index) => [row.productId, { rank: Number(row.rank), index }]));
-    const items = products.map((product) => this.toSearchItem(product, input, rankById.get(product.id)?.rank ?? 0)).filter((item) => item.offers.length > 0).sort((left, right) => (rankById.get(left.id)?.index ?? 0) - (rankById.get(right.id)?.index ?? 0));
+    const items = products.map((product) => this.toSearchItem(product, input, rankById.get(product.id)?.rank ?? 0, reviewSummary)).filter((item) => item.offers.length > 0).sort((left, right) => (rankById.get(left.id)?.index ?? 0) - (rankById.get(right.id)?.index ?? 0));
     const total = Number(countRows[0]?.count ?? 0);
     this.analytics.record(input.q, total, context);
     return { query: input.q, interpretedQuery: searchIntent.matchedAliases.length ? searchIntent.matchedAliases : undefined, total, offset: input.offset, limit: input.limit, items, facets: this.aggregateFacets(items) };
@@ -107,7 +108,23 @@ export class SearchService {
         markers: { verifiedDocuments: latestCompliance?.status === "PASSED", complianceRisk: latestCompliance?.riskLevel ?? null, officialDistributor: regulatory.officialDistributor === true, supplierWarranty: regulatory.supplierWarranty === true, requiresConfirmation: offer.confirmationMode === "MANUAL" || balances.length === 0 },
       };
     })).filter((offer): offer is NonNullable<typeof offer> => Boolean(offer)).sort((left, right) => Number(left.price.normalizedPriceMinor) - Number(right.price.normalizedPriceMinor));
-    return { product: { id: product.id, name: product.canonicalName, brand: product.brand?.name ?? null, manufacturer: product.manufacturer?.name ?? null, baseUnit: product.baseUnit }, offers, comparisonAttributes: this.comparisonAttributes(product) };
+    const reviewSummary = await this.reviewSummaries(product.variants.map(({ id }) => id));
+    const summary = this.productReviewSummary(product.variants.map(({ id }) => id), reviewSummary);
+    return { product: { id: product.id, name: product.canonicalName, brand: product.brand?.name ?? null, manufacturer: product.manufacturer?.name ?? null, baseUnit: product.baseUnit }, reviewSummary: summary, offers, comparisonAttributes: this.comparisonAttributes(product) };
+  }
+
+  private async reviewSummaries(variantIds: string[]) {
+    if (!variantIds.length) return new Map<string, { count: number; averageRating: number | null }>();
+    const rows = await this.prisma.$queryRaw<Array<{ productVariantId: string; overallRating: number }>>(Prisma.sql`SELECT "productVariantId", "overallRating" FROM "VerifiedReview" WHERE "productVariantId" IN (${Prisma.join(variantIds.map((id) => Prisma.sql`${id}::uuid`))}) AND "status" = 'PUBLISHED'`);
+    const grouped = new Map<string, number[]>();
+    for (const row of rows) if (row.productVariantId) grouped.set(row.productVariantId, [...(grouped.get(row.productVariantId) ?? []), row.overallRating]);
+    return new Map([...grouped.entries()].map(([variantId, ratings]) => [variantId, { count: ratings.length, averageRating: ratings.reduce((sum, rating) => sum + rating, 0) / ratings.length }]));
+  }
+
+  private productReviewSummary(variantIds: string[], summaries: Map<string, { count: number; averageRating: number | null }>) {
+    const values = variantIds.map((id) => summaries.get(id)).filter((value): value is { count: number; averageRating: number | null } => Boolean(value));
+    const count = values.reduce((sum, value) => sum + value.count, 0);
+    return { count, averageRating: count ? values.reduce((sum, value) => sum + (value.averageRating ?? 0) * value.count, 0) / count : null };
   }
 
   private loadProducts(productIds: string[], buyerOrganizationId?: string, quantity = 1) {
@@ -140,7 +157,7 @@ export class SearchService {
     } });
   }
 
-  private toSearchItem(product: Awaited<ReturnType<SearchService["loadProducts"]>>[number], input: SearchCatalogInput, rank: number) {
+  private toSearchItem(product: Awaited<ReturnType<SearchService["loadProducts"]>>[number], input: SearchCatalogInput, rank: number, reviewSummaries: Map<string, { count: number; averageRating: number | null }>) {
     const offers = product.variants.flatMap((variant) => variant.supplierOffers.filter((offer) => {
       const allowedBuyers = offer.publication?.allowedBuyerIds;
       if (Array.isArray(allowedBuyers) && allowedBuyers.length > 0 && !allowedBuyers.includes(input.buyerOrganizationId)) return false;
@@ -164,7 +181,7 @@ export class SearchService {
       confirmationMode: offer.confirmationMode,
       deliveryMethods: offer.deliveryOptions.map(({ method }) => method),
     })));
-    return { id: product.id, slug: product.slug, name: product.canonicalName, brand: product.brand?.name ?? null, manufacturer: product.manufacturer?.name ?? null, productType: product.productType, regulatoryClass: product.regulatoryClass, categories: product.categories.map(({ category }) => ({ id: category.id, name: category.nameRu })), minNormalizedPriceMinor: product.searchDocument?.minNormalizedPriceMinor?.toString() ?? null, maxNormalizedPriceMinor: product.searchDocument?.maxNormalizedPriceMinor?.toString() ?? null, isAvailable: product.searchDocument?.isAvailable ?? false, rank, offers };
+    return { id: product.id, slug: product.slug, name: product.canonicalName, brand: product.brand?.name ?? null, manufacturer: product.manufacturer?.name ?? null, productType: product.productType, regulatoryClass: product.regulatoryClass, categories: product.categories.map(({ category }) => ({ id: category.id, name: category.nameRu })), minNormalizedPriceMinor: product.searchDocument?.minNormalizedPriceMinor?.toString() ?? null, maxNormalizedPriceMinor: product.searchDocument?.maxNormalizedPriceMinor?.toString() ?? null, isAvailable: product.searchDocument?.isAvailable ?? false, reviewSummary: this.productReviewSummary(product.variants.map(({ id }) => id), reviewSummaries), rank, offers };
   }
 
   private aggregateFacets(items: Array<ReturnType<SearchService["toSearchItem"]>>) {

@@ -13,6 +13,8 @@
 .productIdentity { display: grid; gap: 6px; }
 .productIdentity h3 { margin: 0; font-size: 15px; line-height: 1.35; }
 .productIdentity p { margin: 0; color: var(--colorNeutralForeground3); font-size: 11px; }
+.reviewSummary, .reviewSummaryMuted { color: var(--colorBrandForeground1); font-size: 11px; font-weight: 600; }
+.reviewSummaryMuted { color: var(--colorNeutralForeground3); font-weight: 400; }
 .category { color: var(--colorBrandForeground1); font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .offerSummary { display: grid; gap: 6px; }
 .offerSummary strong { font-size: 18px; }
@@ -22,11 +24,19 @@
 .compareTitle { display: flex; justify-content: space-between; gap: 20px; margin-bottom: 14px; }
 .compareTitle h3 { margin: 0 0 4px; font-size: 17px; }
 .compareTitle p { margin: 0; color: var(--colorNeutralForeground3); font-size: 11px; }
+.productReviewSummary { display: grid; gap: 3px; min-width: 150px; padding: 10px 12px; border: 1px solid var(--colorNeutralStroke2); border-radius: 10px; background: var(--colorNeutralBackground1); }
+.productReviewSummary strong { color: var(--colorBrandForeground1); font-size: 16px; }
+.productReviewSummary span { color: var(--colorNeutralForeground3); font-size: 10px; }
 .offerGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; }
 .offerCard { display: grid; gap: 12px; padding: 15px; border: 1px solid var(--colorNeutralStroke2); border-radius: 12px; background: var(--colorNeutralBackground2); }
 .offerCard header { display: flex; justify-content: space-between; gap: 8px; }
 .offerCard h4 { margin: 0; font-size: 13px; }
 .offerCard p { margin: 2px 0 0; color: var(--colorNeutralForeground3); font-size: 10px; }
+.productReviews { display: grid; gap: 8px; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--colorNeutralStroke3); }
+.productReviews h4 { margin: 0; font-size: 13px; }
+.productReviews > p { margin: 0; color: var(--colorNeutralForeground3); font-size: 11px; }
+.productReviews article { display: grid; gap: 3px; padding: 9px 11px; border-radius: 9px; background: var(--colorNeutralBackground1); }
+.productReviews article span, .productReviews article small { color: var(--colorNeutralForeground3); font-size: 11px; }
 .offerPrice { display: grid; gap: 2px; }
 .offerPrice strong { font-size: 21px; }
 .offerPrice small { color: var(--colorNeutralForeground3); }
@@ -39,6 +49,9 @@
 .notification, .document { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 20px; align-items: center; padding: 15px 18px; border-bottom: 1px solid var(--colorNeutralStroke3); }
 .notification:last-child, .document:last-child { border-bottom: 0; }
 .notification strong, .document strong { display: block; margin-bottom: 4px; font-size: 13px; }
+.reviewForm { display: grid; grid-template-columns: auto minmax(180px, 1fr) auto; gap: 8px; align-items: center; padding: 10px; background: var(--colorNeutralBackground2); }
+.reviewForm strong, .reviewForm span { font-size: 11px; }
+.reviewForm span { color: var(--colorNeutralForeground3); }
 .notification p, .document p { margin: 0; color: var(--colorNeutralForeground3); font-size: 11px; line-height: 1.45; }
 .toast { position: fixed; right: 22px; bottom: 22px; z-index: 50; max-width: 380px; padding: 13px 16px; border: 1px solid var(--colorNeutralStroke2); border-radius: 12px; background: var(--colorNeutralBackground1); box-shadow: var(--shadow16); font-size: 12px; }
 
@@ -52,4 +65,5 @@
   .searchHelp { align-items: flex-start; }
   .compareTitle, .cartTotal { align-items: start; flex-direction: column; }
   .notification, .document { grid-template-columns: 1fr; }
+  .reviewForm { grid-template-columns: 1fr; }
 }
