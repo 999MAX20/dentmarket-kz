@@ -24,7 +24,12 @@ import {
   Search24Regular,
   ShoppingBag24Regular,
 } from "@fluentui/react-icons";
-import { MarketplaceApiClient, parseSessionHandoff, type ApiContext, type SessionHandoffEnvelope } from "@marketplace/api-client";
+import {
+  MarketplaceApiClient,
+  parseSessionHandoff,
+  type ApiContext,
+  type SessionHandoffEnvelope,
+} from "@marketplace/api-client";
 import {
   AppShell,
   EmptyState,
@@ -51,11 +56,28 @@ const BUYER_USER_ID = "00000000-0000-4000-8000-000000000500";
 type SessionHandoff = SessionHandoffEnvelope;
 const SESSION_KEY = "dentmarket:buyer-session";
 const LOGIN_URL = process.env.NEXT_PUBLIC_LOGIN_URL ?? "/login";
-const dentalSearchSuggestions = ["светник", "текучка", "коффер", "эндошка", "гутта", "карпулы"];
+const dentalSearchSuggestions = [
+  "светник",
+  "текучка",
+  "коффер",
+  "эндошка",
+  "гутта",
+  "карпулы",
+];
+const dentalSearchAliases: Record<string, string[]> = {
+  светник: ["светильник", "лампа"],
+  текучка: ["композит", "текучий"],
+  коффер: ["коффердам", "изоляция"],
+  эндошка: ["эндодонтия", "эндодонтический"],
+  гутта: ["гуттаперча"],
+  карпулы: ["карпула", "анестезия"],
+};
 
 function readSessionHandoff(): SessionHandoff | null {
   if (typeof window === "undefined") return null;
-  const serialized = window.location.hash.startsWith("#session=") ? decodeURIComponent(window.location.hash.slice("#session=".length)) : window.sessionStorage.getItem(SESSION_KEY);
+  const serialized = window.location.hash.startsWith("#session=")
+    ? decodeURIComponent(window.location.hash.slice("#session=".length))
+    : window.sessionStorage.getItem(SESSION_KEY);
   return parseSessionHandoff(serialized, "BUYER");
 }
 
@@ -99,50 +121,245 @@ type SearchResult = {
   };
 };
 const demoCatalogFallback: SearchProduct[] = [
-  { id: "00000000-0000-4000-8000-000000000100", name: "Перчатки нитриловые SafeTouch Ultra", brand: "SafeTouch", manufacturer: "SafeMed Industries", categories: [{ id: "00000000-0000-4000-8000-000000000901", name: "Перчатки" }], minNormalizedPriceMinor: "4750", isAvailable: true, offers: [{ id: "00000000-0000-4000-8000-000000000180", supplier: { id: "00000000-0000-4000-8000-000000000060", name: "MedConsum" }, priceMinor: "475000", currency: "KZT", normalizedPriceMinor: "4750", packaging: { name: "Упаковка 100 штук", quantityInBaseUnit: "100", unit: "шт" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["CARRIER"] }, { id: "00000000-0000-4000-8000-000000000150", supplier: { id: "00000000-0000-4000-8000-000000000020", name: "Demo Dental Supply" }, priceMinor: "490000", currency: "KZT", normalizedPriceMinor: "4900", packaging: { name: "Упаковка 100 штук", quantityInBaseUnit: "100", unit: "шт" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["SUPPLIER_CITY"] }] },
-  { id: "00000000-0000-4000-8000-000000000110", name: "Нагрудники стоматологические CleanDent 2-слойные", brand: "CleanDent", manufacturer: "CleanDent Europe", categories: [{ id: "00000000-0000-4000-8000-000000000902", name: "Нагрудники" }], minNormalizedPriceMinor: "2360", isAvailable: true, offers: [{ id: "00000000-0000-4000-8000-000000000200", supplier: { id: "00000000-0000-4000-8000-000000000070", name: "TechDent Systems" }, priceMinor: "1180000", currency: "KZT", normalizedPriceMinor: "2360", packaging: { name: "Упаковка 500 штук", quantityInBaseUnit: "500", unit: "шт" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["SUPPLIER_CITY"] }] },
-  { id: "00000000-0000-4000-8000-000000000120", name: "Бахилы MediStep усиленные", brand: "MediStep", manufacturer: "MediStep Asia", categories: [{ id: "00000000-0000-4000-8000-000000000903", name: "Бахилы" }], minNormalizedPriceMinor: "7000", isAvailable: true, offers: [{ id: "00000000-0000-4000-8000-000000000170", supplier: { id: "00000000-0000-4000-8000-000000000060", name: "MedConsum" }, priceMinor: "350000", currency: "KZT", normalizedPriceMinor: "7000", packaging: { name: "Упаковка 50 пар", quantityInBaseUnit: "50", unit: "пар" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["CARRIER"] }] },
-  { id: "00000000-0000-4000-8000-000000000130", name: "Стоматологическая установка DentTech X5", brand: "DentTech", manufacturer: "DentTech GmbH", categories: [{ id: "00000000-0000-4000-8000-000000000904", name: "Оборудование" }], minNormalizedPriceMinor: "85000000", isAvailable: true, offers: [{ id: "00000000-0000-4000-8000-000000000190", supplier: { id: "00000000-0000-4000-8000-000000000070", name: "TechDent Systems" }, priceMinor: "85000000", currency: "KZT", normalizedPriceMinor: "85000000", packaging: { name: "Комплект", quantityInBaseUnit: "1", unit: "шт" }, available: true, confirmationMode: "AUTO", deliveryMethods: ["SPECIAL"] }] },
+  {
+    id: "00000000-0000-4000-8000-000000000100",
+    name: "Перчатки нитриловые SafeTouch Ultra",
+    brand: "SafeTouch",
+    manufacturer: "SafeMed Industries",
+    categories: [
+      { id: "00000000-0000-4000-8000-000000000901", name: "Перчатки" },
+    ],
+    minNormalizedPriceMinor: "4750",
+    isAvailable: true,
+    offers: [
+      {
+        id: "00000000-0000-4000-8000-000000000180",
+        supplier: {
+          id: "00000000-0000-4000-8000-000000000060",
+          name: "MedConsum",
+        },
+        priceMinor: "475000",
+        currency: "KZT",
+        normalizedPriceMinor: "4750",
+        packaging: {
+          name: "Упаковка 100 штук",
+          quantityInBaseUnit: "100",
+          unit: "шт",
+        },
+        available: true,
+        confirmationMode: "AUTO",
+        deliveryMethods: ["CARRIER"],
+      },
+      {
+        id: "00000000-0000-4000-8000-000000000150",
+        supplier: {
+          id: "00000000-0000-4000-8000-000000000020",
+          name: "Demo Dental Supply",
+        },
+        priceMinor: "490000",
+        currency: "KZT",
+        normalizedPriceMinor: "4900",
+        packaging: {
+          name: "Упаковка 100 штук",
+          quantityInBaseUnit: "100",
+          unit: "шт",
+        },
+        available: true,
+        confirmationMode: "AUTO",
+        deliveryMethods: ["SUPPLIER_CITY"],
+      },
+    ],
+  },
+  {
+    id: "00000000-0000-4000-8000-000000000110",
+    name: "Нагрудники стоматологические CleanDent 2-слойные",
+    brand: "CleanDent",
+    manufacturer: "CleanDent Europe",
+    categories: [
+      { id: "00000000-0000-4000-8000-000000000902", name: "Нагрудники" },
+    ],
+    minNormalizedPriceMinor: "2360",
+    isAvailable: true,
+    offers: [
+      {
+        id: "00000000-0000-4000-8000-000000000200",
+        supplier: {
+          id: "00000000-0000-4000-8000-000000000070",
+          name: "TechDent Systems",
+        },
+        priceMinor: "1180000",
+        currency: "KZT",
+        normalizedPriceMinor: "2360",
+        packaging: {
+          name: "Упаковка 500 штук",
+          quantityInBaseUnit: "500",
+          unit: "шт",
+        },
+        available: true,
+        confirmationMode: "AUTO",
+        deliveryMethods: ["SUPPLIER_CITY"],
+      },
+    ],
+  },
+  {
+    id: "00000000-0000-4000-8000-000000000120",
+    name: "Бахилы MediStep усиленные",
+    brand: "MediStep",
+    manufacturer: "MediStep Asia",
+    categories: [
+      { id: "00000000-0000-4000-8000-000000000903", name: "Бахилы" },
+    ],
+    minNormalizedPriceMinor: "7000",
+    isAvailable: true,
+    offers: [
+      {
+        id: "00000000-0000-4000-8000-000000000170",
+        supplier: {
+          id: "00000000-0000-4000-8000-000000000060",
+          name: "MedConsum",
+        },
+        priceMinor: "350000",
+        currency: "KZT",
+        normalizedPriceMinor: "7000",
+        packaging: {
+          name: "Упаковка 50 пар",
+          quantityInBaseUnit: "50",
+          unit: "пар",
+        },
+        available: true,
+        confirmationMode: "AUTO",
+        deliveryMethods: ["CARRIER"],
+      },
+    ],
+  },
+  {
+    id: "00000000-0000-4000-8000-000000000130",
+    name: "Стоматологическая установка DentTech X5",
+    brand: "DentTech",
+    manufacturer: "DentTech GmbH",
+    categories: [
+      { id: "00000000-0000-4000-8000-000000000904", name: "Оборудование" },
+    ],
+    minNormalizedPriceMinor: "85000000",
+    isAvailable: true,
+    offers: [
+      {
+        id: "00000000-0000-4000-8000-000000000190",
+        supplier: {
+          id: "00000000-0000-4000-8000-000000000070",
+          name: "TechDent Systems",
+        },
+        priceMinor: "85000000",
+        currency: "KZT",
+        normalizedPriceMinor: "85000000",
+        packaging: { name: "Комплект", quantityInBaseUnit: "1", unit: "шт" },
+        available: true,
+        confirmationMode: "AUTO",
+        deliveryMethods: ["SPECIAL"],
+      },
+    ],
+  },
 ];
-const medstomCatalogFallback: SearchProduct[] = medstomCatalog.products.map((product) => ({
-  id: `medstom-product-${product.externalId}`,
-  name: product.name,
-  brand: product.brand || null,
-  manufacturer: null,
-  categories: [{ id: `medstom-category-${product.categoryExternalId}`, name: product.category }],
-  minNormalizedPriceMinor: product.priceMinor || null,
-  isAvailable: false,
-  offers: [{
-    id: `medstom-offer-${product.externalId}`,
-    supplier: { id: "medstom-kz", name: "Medstom KZ" },
-    priceMinor: product.priceMinor || null,
-    currency: product.currency,
-    normalizedPriceMinor: product.priceMinor || null,
-    packaging: { name: product.unit || "шт", quantityInBaseUnit: "1", unit: product.unit || "шт" },
-    available: false,
-    confirmationMode: "MANUAL",
-    deliveryMethods: ["NATIONWIDE"],
-    supplierSku: product.supplierSku || null,
-    verifiedDocuments: false,
-    officialDistributor: false,
-    supplierWarranty: false,
-  }],
-}));
-const publicCatalogFallback = [...medstomCatalogFallback, ...demoCatalogFallback];
-const fallbackSearch = (query: string, sort: string, filters: { unit?: string; packaging?: string; delivery?: string; stock?: string } = {}): SearchResult => {
+const medstomCatalogFallback: SearchProduct[] = medstomCatalog.products.map(
+  (product) => ({
+    id: `medstom-product-${product.externalId}`,
+    name: product.name,
+    brand: product.brand || null,
+    manufacturer: null,
+    categories: [
+      {
+        id: `medstom-category-${product.categoryExternalId}`,
+        name: product.category,
+      },
+    ],
+    minNormalizedPriceMinor: product.priceMinor || null,
+    isAvailable: false,
+    offers: [
+      {
+        id: `medstom-offer-${product.externalId}`,
+        supplier: { id: "medstom-kz", name: "Medstom KZ" },
+        priceMinor: product.priceMinor || null,
+        currency: product.currency,
+        normalizedPriceMinor: product.priceMinor || null,
+        packaging: {
+          name: product.unit || "шт",
+          quantityInBaseUnit: "1",
+          unit: product.unit || "шт",
+        },
+        available: false,
+        confirmationMode: "MANUAL",
+        deliveryMethods: ["NATIONWIDE"],
+        supplierSku: product.supplierSku || null,
+        verifiedDocuments: false,
+        officialDistributor: false,
+        supplierWarranty: false,
+      },
+    ],
+  }),
+);
+const publicCatalogFallback = [
+  ...medstomCatalogFallback,
+  ...demoCatalogFallback,
+];
+const fallbackSearch = (
+  query: string,
+  sort: string,
+  filters: {
+    unit?: string;
+    packaging?: string;
+    delivery?: string;
+    stock?: string;
+  } = {},
+): SearchResult => {
   const normalized = query.trim().toLocaleLowerCase("ru");
+  const searchTerms = [
+    normalized,
+    ...(dentalSearchAliases[normalized] ?? []),
+  ].filter(Boolean);
   const filtered = publicCatalogFallback.filter((product) => {
     const offer = product.offers[0];
-    const text = [product.name, product.brand, product.manufacturer, product.categories[0]?.name, offer?.supplier.name, offer?.packaging.name, offer?.packaging.unit].filter(Boolean).join(" ").toLocaleLowerCase("ru");
-    return (!normalized || text.includes(normalized)) && (!filters.unit || text.includes(filters.unit.toLocaleLowerCase("ru"))) && (!filters.packaging || text.includes(filters.packaging.toLocaleLowerCase("ru"))) && (!filters.delivery || offer?.deliveryMethods.includes(filters.delivery)) && (filters.stock !== "true" || offer?.available === true);
+    const text = [
+      product.name,
+      product.brand,
+      product.manufacturer,
+      product.categories[0]?.name,
+      offer?.supplier.name,
+      offer?.packaging.name,
+      offer?.packaging.unit,
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLocaleLowerCase("ru");
+    return (
+      (!searchTerms.length ||
+        searchTerms.some((term) => text.includes(term))) &&
+      (!filters.unit || text.includes(filters.unit.toLocaleLowerCase("ru"))) &&
+      (!filters.packaging ||
+        text.includes(filters.packaging.toLocaleLowerCase("ru"))) &&
+      (!filters.delivery ||
+        offer?.deliveryMethods.includes(filters.delivery)) &&
+      (filters.stock !== "true" || offer?.available === true)
+    );
   });
   filtered.sort((left, right) => {
-    if (sort === "PRICE_ASC") return Number(left.minNormalizedPriceMinor || Number.MAX_SAFE_INTEGER) - Number(right.minNormalizedPriceMinor || Number.MAX_SAFE_INTEGER);
-    if (sort === "PRICE_DESC") return Number(right.minNormalizedPriceMinor || -1) - Number(left.minNormalizedPriceMinor || -1);
+    if (sort === "PRICE_ASC")
+      return (
+        Number(left.minNormalizedPriceMinor || Number.MAX_SAFE_INTEGER) -
+        Number(right.minNormalizedPriceMinor || Number.MAX_SAFE_INTEGER)
+      );
+    if (sort === "PRICE_DESC")
+      return (
+        Number(right.minNormalizedPriceMinor || -1) -
+        Number(left.minNormalizedPriceMinor || -1)
+      );
     if (sort === "NAME_ASC") return left.name.localeCompare(right.name, "ru");
     return left.name.localeCompare(right.name, "ru");
   });
-  return { total: filtered.length, items: filtered.slice(0, 60), facets: { categories: [], suppliers: [] } };
+  return {
+    total: filtered.length,
+    items: filtered.slice(0, 60),
+    facets: { categories: [], suppliers: [] },
+  };
 };
 type CompareOffer = {
   offerId: string;
@@ -221,8 +438,22 @@ type SupplierOrder = {
     offer: { productVariant: { product: { canonicalName: string } } };
   }>;
 };
-type SupplierTrust = { status: string; score: string | null; reviewCount?: number; eventCount?: number };
-type ProductReviews = { summary: { count: number; averageRating: number | null }; reviews: Array<{ id: string; overallRating: number; comment: string | null; officialResponse: string | null; createdAt: string }> };
+type SupplierTrust = {
+  status: string;
+  score: string | null;
+  reviewCount?: number;
+  eventCount?: number;
+};
+type ProductReviews = {
+  summary: { count: number; averageRating: number | null };
+  reviews: Array<{
+    id: string;
+    overallRating: number;
+    comment: string | null;
+    officialResponse: string | null;
+    createdAt: string;
+  }>;
+};
 type DocumentRecord = {
   id: string;
   title: string;
@@ -249,7 +480,11 @@ const navigation: NavigationItem[] = [
   { id: "cart", label: "Корзина", icon: <Cart24Regular /> },
   { id: "orders", label: "Заказы", icon: <ClipboardTaskListLtr24Regular /> },
   { id: "documents", label: "Документы", icon: <Document24Regular /> },
-  { id: "smart-commerce", label: "Город и рекомендации", icon: <Location24Regular /> },
+  {
+    id: "smart-commerce",
+    label: "Город и рекомендации",
+    icon: <Location24Regular />,
+  },
   { id: "workspace", label: "Списки и бюджеты", icon: <List24Regular /> },
   { id: "assistant", label: "AI-помощник", icon: <Bot24Regular /> },
   { id: "support", label: "Поддержка", icon: <PersonSupport24Regular /> },
@@ -289,9 +524,63 @@ export default function BuyerWorkspace() {
   const [handoff, setHandoff] = useState<SessionHandoff | null>(null);
   const [handoffChecked, setHandoffChecked] = useState(false);
   const buyerId = handoff?.organizationId ?? BUYER_ID;
-  const apiContext = useMemo<ApiContext>(() => handoff?.accessToken ? { accessToken: handoff.accessToken } : handoff?.actorId && handoff.organizationId ? { actorId: handoff.actorId, organizationId: handoff.organizationId } : {}, [handoff]);
-  const api = useMemo(() => new MarketplaceApiClient(process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api", apiContext), [apiContext]);
-  useEffect(() => { void (async () => { const next = readSessionHandoff(); if (!next) { setHandoffChecked(true); return; } let resolved = next; if (next.handoffCode && !next.accessToken) { const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api"}/auth/handoff/exchange`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ handoffCode: next.handoffCode }) }); if (!response.ok) { setHandoffChecked(true); return; } const session = await response.json() as { accessToken?: string; user?: { id: string; displayName: string }; organizationId?: string; capability?: string }; resolved = { ...next, ...session, actorId: session.user?.id }; } setHandoff(resolved); window.sessionStorage.setItem(SESSION_KEY, JSON.stringify(resolved)); window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}`); setHandoffChecked(true); })(); }, []);
+  const apiContext = useMemo<ApiContext>(
+    () =>
+      handoff?.accessToken
+        ? { accessToken: handoff.accessToken }
+        : handoff?.actorId && handoff.organizationId
+          ? { actorId: handoff.actorId, organizationId: handoff.organizationId }
+          : {},
+    [handoff],
+  );
+  const api = useMemo(
+    () =>
+      new MarketplaceApiClient(
+        process.env.NEXT_PUBLIC_API_URL ??
+          "https://dentmarket-api.vercel.app/api",
+        apiContext,
+      ),
+    [apiContext],
+  );
+  useEffect(() => {
+    void (async () => {
+      const next = readSessionHandoff();
+      if (!next) {
+        setHandoffChecked(true);
+        return;
+      }
+      let resolved = next;
+      if (next.handoffCode && !next.accessToken) {
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api"}/auth/handoff/exchange`,
+          {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({ handoffCode: next.handoffCode }),
+          },
+        );
+        if (!response.ok) {
+          setHandoffChecked(true);
+          return;
+        }
+        const session = (await response.json()) as {
+          accessToken?: string;
+          user?: { id: string; displayName: string };
+          organizationId?: string;
+          capability?: string;
+        };
+        resolved = { ...next, ...session, actorId: session.user?.id };
+      }
+      setHandoff(resolved);
+      window.sessionStorage.setItem(SESSION_KEY, JSON.stringify(resolved));
+      window.history.replaceState(
+        null,
+        "",
+        `${window.location.pathname}${window.location.search}`,
+      );
+      setHandoffChecked(true);
+    })();
+  }, []);
   const [active, setActive] = useState("catalog");
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState("RELEVANCE");
@@ -301,8 +590,12 @@ export default function BuyerWorkspace() {
   const [stockFilter, setStockFilter] = useState("true");
   const [search, setSearch] = useState<SearchResult | null>(null);
   const [comparison, setComparison] = useState<Comparison | null>(null);
-  const [productReviews, setProductReviews] = useState<ProductReviews | null>(null);
-  const [supplierTrust, setSupplierTrust] = useState<Record<string, SupplierTrust>>({});
+  const [productReviews, setProductReviews] = useState<ProductReviews | null>(
+    null,
+  );
+  const [supplierTrust, setSupplierTrust] = useState<
+    Record<string, SupplierTrust>
+  >({});
   const [carts, setCarts] = useState<Cart[]>([]);
   const [orders, setOrders] = useState<SupplierOrder[]>([]);
   const [documents, setDocuments] = useState<DocumentRecord[]>([]);
@@ -311,7 +604,9 @@ export default function BuyerWorkspace() {
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
-  const [reviewDrafts, setReviewDrafts] = useState<Record<string, { rating: number; comment: string }>>({});
+  const [reviewDrafts, setReviewDrafts] = useState<
+    Record<string, { rating: number; comment: string }>
+  >({});
   const [submittedReviews, setSubmittedReviews] = useState<string[]>([]);
 
   const activeCart = carts.find((cart) => cart.status === "ACTIVE") ?? null;
@@ -320,22 +615,62 @@ export default function BuyerWorkspace() {
   );
   const unread = notifications.filter((item) => !item.readAt).length;
 
-  const buildSearchParams = useCallback((nextQuery = query, nextSort = sort) => {
-    const params = new URLSearchParams({ buyerOrganizationId: buyerId, q: nextQuery, sort: nextSort, limit: "24" });
-    if (stockFilter !== "all") params.set("inStock", stockFilter);
-    if (unitFilter) params.set("unit", unitFilter);
-    if (packagingFilter) params.set("packaging", packagingFilter);
-    if (deliveryFilter) params.set("deliveryMethod", deliveryFilter);
-    return params;
-  }, [buyerId, deliveryFilter, packagingFilter, query, sort, stockFilter, unitFilter]);
+  const buildSearchParams = useCallback(
+    (nextQuery = query, nextSort = sort) => {
+      const params = new URLSearchParams({
+        buyerOrganizationId: buyerId,
+        q: nextQuery,
+        sort: nextSort,
+        limit: "24",
+      });
+      if (stockFilter !== "all") params.set("inStock", stockFilter);
+      if (unitFilter) params.set("unit", unitFilter);
+      if (packagingFilter) params.set("packaging", packagingFilter);
+      if (deliveryFilter) params.set("deliveryMethod", deliveryFilter);
+      return params;
+    },
+    [
+      buyerId,
+      deliveryFilter,
+      packagingFilter,
+      query,
+      sort,
+      stockFilter,
+      unitFilter,
+    ],
+  );
 
   const loadSearch = useCallback(
     async (nextQuery = query, nextSort = sort) => {
       const params = buildSearchParams(nextQuery, nextSort);
-      try { setSearch(await api.get<SearchResult>(`${handoff ? "/marketplace" : "/catalog"}/search?${params}`)); }
-      catch (cause) { if (handoff) throw cause; setSearch(fallbackSearch(nextQuery, nextSort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: stockFilter })); }
+      try {
+        setSearch(
+          await api.get<SearchResult>(
+            `${handoff ? "/marketplace" : "/catalog"}/search?${params}`,
+          ),
+        );
+      } catch (cause) {
+        if (handoff) throw cause;
+        setSearch(
+          fallbackSearch(nextQuery, nextSort, {
+            unit: unitFilter,
+            packaging: packagingFilter,
+            delivery: deliveryFilter,
+            stock: stockFilter,
+          }),
+        );
+      }
     },
-    [api, buildSearchParams, deliveryFilter, handoff, packagingFilter, query, sort, unitFilter],
+    [
+      api,
+      buildSearchParams,
+      deliveryFilter,
+      handoff,
+      packagingFilter,
+      query,
+      sort,
+      unitFilter,
+    ],
   );
 
   const refresh = useCallback(async () => {
@@ -345,7 +680,10 @@ export default function BuyerWorkspace() {
     try {
       if (!handoff) {
         await loadSearch(query, sort);
-        setCarts([]); setOrders([]); setDocuments([]); setNotifications([]);
+        setCarts([]);
+        setOrders([]);
+        setDocuments([]);
+        setNotifications([]);
         return;
       }
       const [
@@ -355,9 +693,7 @@ export default function BuyerWorkspace() {
         documentResult,
         notificationResult,
       ] = await Promise.all([
-        api.get<SearchResult>(
-          `/marketplace/search?${buildSearchParams()}`,
-        ),
+        api.get<SearchResult>(`/marketplace/search?${buildSearchParams()}`),
         api.get<Cart[]>(`/buyers/${buyerId}/carts`),
         api.get<SupplierOrder[]>(`/buyers/${buyerId}/orders`),
         api.get<DocumentRecord[]>(
@@ -377,10 +713,21 @@ export default function BuyerWorkspace() {
     } finally {
       setLoading(false);
     }
-  }, [api, buildSearchParams, buyerId, handoff, handoffChecked, loadSearch, query, sort]);
+  }, [
+    api,
+    buildSearchParams,
+    buyerId,
+    handoff,
+    handoffChecked,
+    loadSearch,
+    query,
+    sort,
+  ]);
 
   const logout = useCallback(async () => {
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
+    const apiUrl =
+      process.env.NEXT_PUBLIC_API_URL ??
+      "https://dentmarket-api.vercel.app/api";
     if (handoff?.sessionId && handoff.actorId && handoff.accessToken) {
       try {
         await fetch(`${apiUrl}/auth/sessions/${handoff.sessionId}/revoke`, {
@@ -402,7 +749,9 @@ export default function BuyerWorkspace() {
     window.location.assign("/");
   }, [handoff]);
 
-  useEffect(() => { if (handoffChecked) void refresh(); }, [handoffChecked, refresh]);
+  useEffect(() => {
+    if (handoffChecked) void refresh();
+  }, [handoffChecked, refresh]);
   useEffect(() => {
     if (!toast) return;
     const timer = window.setTimeout(() => setToast(null), 3500);
@@ -430,13 +779,89 @@ export default function BuyerWorkspace() {
     try {
       if (!handoff) {
         const product = search?.items.find(({ id }) => id === productId);
-        if (product) { setComparison({ product: { id: product.id, name: product.name, brand: product.brand, manufacturer: product.manufacturer }, reviewSummary: product.reviewSummary, offers: product.offers.filter((offer) => offer.priceMinor && offer.normalizedPriceMinor).map((offer) => ({ offerId: offer.id, supplier: { organizationId: offer.supplier.id, name: offer.supplier.name }, supplierSku: offer.supplierSku ?? null, price: { amountMinor: offer.priceMinor!, currency: offer.currency ?? "KZT", normalizedPriceMinor: offer.normalizedPriceMinor!, normalizedUnit: offer.packaging.unit ?? "ед." }, packaging: { name: offer.packaging.name ?? "Упаковка", quantityInBaseUnit: offer.packaging.quantityInBaseUnit, unit: offer.packaging.unit }, availability: [{ warehouse: offer.available ? "Подтверждённый склад" : "Остаток не подтверждён", quantityAvailable: offer.available ? "в наличии" : "требует подтверждения", updatedAt: new Date().toISOString() }], delivery: offer.deliveryMethods.map((method) => ({ method, minLeadTimeHours: null, maxLeadTimeHours: null })), markers: { verifiedDocuments: offer.verifiedDocuments ?? true, complianceRisk: (offer.verifiedDocuments ?? true) ? "LOW" : "REVIEW_REQUIRED", officialDistributor: offer.officialDistributor ?? false, supplierWarranty: offer.supplierWarranty ?? true, requiresConfirmation: offer.confirmationMode === "MANUAL" || !offer.available } })), comparisonAttributes: [] }); return; }
+        if (product) {
+          setComparison({
+            product: {
+              id: product.id,
+              name: product.name,
+              brand: product.brand,
+              manufacturer: product.manufacturer,
+            },
+            reviewSummary: product.reviewSummary,
+            offers: product.offers
+              .filter((offer) => offer.priceMinor && offer.normalizedPriceMinor)
+              .map((offer) => ({
+                offerId: offer.id,
+                supplier: {
+                  organizationId: offer.supplier.id,
+                  name: offer.supplier.name,
+                },
+                supplierSku: offer.supplierSku ?? null,
+                price: {
+                  amountMinor: offer.priceMinor!,
+                  currency: offer.currency ?? "KZT",
+                  normalizedPriceMinor: offer.normalizedPriceMinor!,
+                  normalizedUnit: offer.packaging.unit ?? "ед.",
+                },
+                packaging: {
+                  name: offer.packaging.name ?? "Упаковка",
+                  quantityInBaseUnit: offer.packaging.quantityInBaseUnit,
+                  unit: offer.packaging.unit,
+                },
+                availability: [
+                  {
+                    warehouse: offer.available
+                      ? "Подтверждённый склад"
+                      : "Остаток не подтверждён",
+                    quantityAvailable: offer.available
+                      ? "в наличии"
+                      : "требует подтверждения",
+                    updatedAt: new Date().toISOString(),
+                  },
+                ],
+                delivery: offer.deliveryMethods.map((method) => ({
+                  method,
+                  minLeadTimeHours: null,
+                  maxLeadTimeHours: null,
+                })),
+                markers: {
+                  verifiedDocuments: offer.verifiedDocuments ?? true,
+                  complianceRisk:
+                    (offer.verifiedDocuments ?? true)
+                      ? "LOW"
+                      : "REVIEW_REQUIRED",
+                  officialDistributor: offer.officialDistributor ?? false,
+                  supplierWarranty: offer.supplierWarranty ?? true,
+                  requiresConfirmation:
+                    offer.confirmationMode === "MANUAL" || !offer.available,
+                },
+              })),
+            comparisonAttributes: [],
+          });
+          return;
+        }
       }
-      const nextComparison = await api.get<Comparison>(`${handoff ? "/marketplace" : "/catalog"}/products/${productId}/compare?buyerOrganizationId=${buyerId}&quantity=1`);
+      const nextComparison = await api.get<Comparison>(
+        `${handoff ? "/marketplace" : "/catalog"}/products/${productId}/compare?buyerOrganizationId=${buyerId}&quantity=1`,
+      );
       setComparison(nextComparison);
-      const [reviews, ...ratings] = await Promise.all([api.get<ProductReviews>(`/trust/products/${productId}/reviews`), ...nextComparison.offers.map((offer) => api.get<SupplierTrust>(`/trust/ratings/suppliers/${offer.supplier.organizationId}`))]);
+      const [reviews, ...ratings] = await Promise.all([
+        api.get<ProductReviews>(`/trust/products/${productId}/reviews`),
+        ...nextComparison.offers.map((offer) =>
+          api.get<SupplierTrust>(
+            `/trust/ratings/suppliers/${offer.supplier.organizationId}`,
+          ),
+        ),
+      ]);
       setProductReviews(reviews);
-      setSupplierTrust(Object.fromEntries(nextComparison.offers.map((offer, index) => [offer.supplier.organizationId, ratings[index]])));
+      setSupplierTrust(
+        Object.fromEntries(
+          nextComparison.offers.map((offer, index) => [
+            offer.supplier.organizationId,
+            ratings[index],
+          ]),
+        ),
+      );
     } catch (cause) {
       setError(errorMessage(cause));
     } finally {
@@ -445,7 +870,10 @@ export default function BuyerWorkspace() {
   };
 
   const addToCart = async (offerId: string) => {
-    if (!handoff) { window.location.assign(LOGIN_URL); return; }
+    if (!handoff) {
+      window.location.assign(LOGIN_URL);
+      return;
+    }
     setBusy(`cart:${offerId}`);
     setError(null);
     try {
@@ -487,15 +915,24 @@ export default function BuyerWorkspace() {
     }
   };
 
-  const reviewDraft = (orderId: string) => reviewDrafts[orderId] ?? { rating: 5, comment: "" };
+  const reviewDraft = (orderId: string) =>
+    reviewDrafts[orderId] ?? { rating: 5, comment: "" };
   const submitReview = async (orderId: string) => {
     const draft = reviewDraft(orderId);
     setBusy(`review:${orderId}`);
     try {
-      await api.post(`/trust/orders/${orderId}/reviews`, { overallRating: draft.rating, comment: draft.comment.trim() || null, idempotencyKey: `buyer-review:${orderId}` });
+      await api.post(`/trust/orders/${orderId}/reviews`, {
+        overallRating: draft.rating,
+        comment: draft.comment.trim() || null,
+        idempotencyKey: `buyer-review:${orderId}`,
+      });
       setSubmittedReviews((items) => [...new Set([...items, orderId])]);
       setToast("Отзыв отправлен и привязан к подтверждённому заказу");
-    } catch (cause) { setError(errorMessage(cause)); } finally { setBusy(null); }
+    } catch (cause) {
+      setError(errorMessage(cause));
+    } finally {
+      setBusy(null);
+    }
   };
 
   const markRead = async (id: string) => {
@@ -537,8 +974,8 @@ export default function BuyerWorkspace() {
     <div className="mp-stack">
       <PageHeader
         eyebrow="B2B закупки"
-        title="Найдите нужное для клиники"
-        description="Сравнивайте актуальные цены, упаковки, наличие, доставку и регуляторные признаки поставщиков."
+        title="Закупки для стоматологии — без лишних звонков"
+        description="Сравнивайте цены, наличие и условия поставщиков Казахстана в одном каталоге."
       />
       <Section>
         <form
@@ -550,10 +987,11 @@ export default function BuyerWorkspace() {
         >
           <Field label="Поиск по каталогу">
             <Input
+              className={styles.searchInput}
               value={query}
               onChange={(_, data) => setQuery(data.value)}
               contentBefore={<Search24Regular />}
-              placeholder="Название, бренд, артикул"
+              placeholder="Например: текучий композит, гутта, перчатки"
             />
           </Field>
           <Field label="Сортировка">
@@ -576,49 +1014,54 @@ export default function BuyerWorkspace() {
             Найти
           </Button>
         </form>
-        <div className={styles.catalogFilters} aria-label="Фильтры каталога">
-          <Field label="Фасовка">
-            <Input value={packagingFilter} onChange={(_, data) => setPackagingFilter(data.value)} placeholder="например, 100 шт" />
-          </Field>
-          <Field label="Единица">
-            <Select value={unitFilter} onChange={(_, data) => setUnitFilter(data.value)}>
-              <option value="">Любая</option>
-              <option value="шт">шт</option>
-              <option value="уп">упаковка</option>
-              <option value="мл">мл</option>
-              <option value="г">г</option>
-              <option value="комплект">комплект</option>
-            </Select>
-          </Field>
-          <Field label="Доставка">
-            <Select value={deliveryFilter} onChange={(_, data) => setDeliveryFilter(data.value)}>
-              <option value="">Любая</option>
-              <option value="CARRIER">Курьер</option>
-              <option value="NATIONWIDE">По Казахстану</option>
-              <option value="PICKUP">Самовывоз</option>
-            </Select>
-          </Field>
-          <Field label="Наличие">
-            <Select value={stockFilter} onChange={(_, data) => setStockFilter(data.value)}>
-              <option value="true">Только в наличии</option>
-              <option value="all">Все предложения</option>
-            </Select>
-          </Field>
-        </div>
-        <div className={styles.searchHelp} aria-label="Быстрые стоматологические запросы">
+        <div
+          className={styles.searchHelp}
+          aria-label="Быстрые стоматологические запросы"
+        >
           <span>Можно искать по-своему:</span>
-          {dentalSearchSuggestions.map((suggestion) => <button key={suggestion} type="button" onClick={() => { setQuery(suggestion); void submitSearchFor(suggestion); }}>{suggestion}</button>)}
+          {dentalSearchSuggestions.map((suggestion) => (
+            <button
+              key={suggestion}
+              type="button"
+              onClick={() => {
+                setQuery(suggestion);
+                void submitSearchFor(suggestion);
+              }}
+            >
+              {suggestion}
+            </button>
+          ))}
         </div>
         <div className={styles.resultsMeta}>
           <span>{search?.total ?? 0} товаров по запросу</span>
-          <span>{search?.interpretedQuery?.length ? `Поняли как: ${search.interpretedQuery.join(", ")}` : "Сленг, бренд, артикул и официальное название"}</span>
+          <span>
+            {search?.interpretedQuery?.length
+              ? `Поняли как: ${search.interpretedQuery.join(", ")}`
+              : "Сленг, бренд, артикул и официальное название"}
+          </span>
         </div>
         {!search?.items.length ? (
           <EmptyState
             icon={<Search24Regular />}
             title="Ничего не найдено"
             description="Попробуйте профессиональный термин, сленг врача или начните с одной ключевой характеристики."
-            action={<div className={styles.searchEmptyActions}>{dentalSearchSuggestions.slice(0, 4).map((suggestion) => <Button key={suggestion} size="small" appearance="secondary" onClick={() => { setQuery(suggestion); void submitSearchFor(suggestion); }}>{suggestion}</Button>)}</div>}
+            action={
+              <div className={styles.searchEmptyActions}>
+                {dentalSearchSuggestions.slice(0, 4).map((suggestion) => (
+                  <Button
+                    key={suggestion}
+                    size="small"
+                    appearance="secondary"
+                    onClick={() => {
+                      setQuery(suggestion);
+                      void submitSearchFor(suggestion);
+                    }}
+                  >
+                    {suggestion}
+                  </Button>
+                ))}
+              </div>
+            }
           />
         ) : (
           <div className={styles.productList}>
@@ -640,9 +1083,21 @@ export default function BuyerWorkspace() {
                     <p>
                       {[product.brand, product.manufacturer]
                         .filter(Boolean)
-                        .join(" · ") || (best?.verifiedDocuments === false ? "Внешний каталог · поставщик не верифицирован" : "Проверенная карточка каталога")}
+                        .join(" · ") ||
+                        (best?.verifiedDocuments === false
+                          ? "Внешний каталог · поставщик не верифицирован"
+                          : "Проверенная карточка каталога")}
                     </p>
-                    {product.reviewSummary?.count ? <small className={styles.reviewSummary}>{product.reviewSummary.averageRating?.toFixed(1)} ★ · {product.reviewSummary.count} отзывов после заказов</small> : <small className={styles.reviewSummaryMuted}>Пока без отзывов</small>}
+                    {product.reviewSummary?.count ? (
+                      <small className={styles.reviewSummary}>
+                        {product.reviewSummary.averageRating?.toFixed(1)} ★ ·{" "}
+                        {product.reviewSummary.count} отзывов после заказов
+                      </small>
+                    ) : (
+                      <small className={styles.reviewSummaryMuted}>
+                        Пока без отзывов
+                      </small>
+                    )}
                   </div>
                   <div className={styles.offerSummary}>
                     <strong>
@@ -665,7 +1120,9 @@ export default function BuyerWorkspace() {
                         ? "Загрузка"
                         : "Сравнить"}
                     </Button>
-                    {best && best.available && (best.verifiedDocuments ?? true) ? (
+                    {best &&
+                    best.available &&
+                    (best.verifiedDocuments ?? true) ? (
                       <Button
                         appearance="primary"
                         icon={<Cart24Regular />}
@@ -674,7 +1131,11 @@ export default function BuyerWorkspace() {
                       >
                         В корзину
                       </Button>
-                    ) : best ? <Button appearance="secondary" disabled>После верификации</Button> : null}
+                    ) : best ? (
+                      <Button appearance="secondary" disabled>
+                        После верификации
+                      </Button>
+                    ) : null}
                   </div>
                 </article>
               );
@@ -698,8 +1159,14 @@ export default function BuyerWorkspace() {
                 </p>
               </div>
               <div className={styles.productReviewSummary}>
-                <strong>{comparison.reviewSummary?.averageRating == null ? "Новый товар" : `${comparison.reviewSummary.averageRating.toFixed(1)} ★`}</strong>
-                <span>{comparison.reviewSummary?.count ?? 0} подтверждённых отзывов</span>
+                <strong>
+                  {comparison.reviewSummary?.averageRating == null
+                    ? "Новый товар"
+                    : `${comparison.reviewSummary.averageRating.toFixed(1)} ★`}
+                </strong>
+                <span>
+                  {comparison.reviewSummary?.count ?? 0} подтверждённых отзывов
+                </span>
               </div>
               <Button appearance="subtle" onClick={() => setComparison(null)}>
                 Закрыть
@@ -720,7 +1187,16 @@ export default function BuyerWorkspace() {
                     ) : (
                       <StatusTag tone="warning">Проверка</StatusTag>
                     )}
-                    {supplierTrust[offer.supplier.organizationId]?.score != null ? <StatusTag tone="info">Надёжность {Number(supplierTrust[offer.supplier.organizationId].score).toFixed(1)}/100</StatusTag> : null}
+                    {supplierTrust[offer.supplier.organizationId]?.score !=
+                    null ? (
+                      <StatusTag tone="info">
+                        Надёжность{" "}
+                        {Number(
+                          supplierTrust[offer.supplier.organizationId].score,
+                        ).toFixed(1)}
+                        /100
+                      </StatusTag>
+                    ) : null}
                   </header>
                   <div className={styles.offerPrice}>
                     <strong>
@@ -758,16 +1234,38 @@ export default function BuyerWorkspace() {
                     appearance="primary"
                     icon={<Cart24Regular />}
                     onClick={() => void addToCart(offer.offerId)}
-                    disabled={busy === `cart:${offer.offerId}` || offer.markers.requiresConfirmation || !offer.markers.verifiedDocuments}
+                    disabled={
+                      busy === `cart:${offer.offerId}` ||
+                      offer.markers.requiresConfirmation ||
+                      !offer.markers.verifiedDocuments
+                    }
                   >
-                    {offer.markers.requiresConfirmation || !offer.markers.verifiedDocuments ? "После верификации" : "Добавить"}
+                    {offer.markers.requiresConfirmation ||
+                    !offer.markers.verifiedDocuments
+                      ? "После верификации"
+                      : "Добавить"}
                   </Button>
                 </article>
               ))}
             </div>
             <div className={styles.productReviews}>
               <h4>Отзывы клиник</h4>
-              {!productReviews?.reviews.length ? <p>Подтверждённых отзывов пока нет. Они появляются после реальных заказов.</p> : productReviews.reviews.slice(0, 5).map((review) => <article key={review.id}><strong>{review.overallRating} ★</strong><span>{review.comment || "Оценка без комментария"}</span>{review.officialResponse ? <small>Ответ поставщика: {review.officialResponse}</small> : null}</article>)}
+              {!productReviews?.reviews.length ? (
+                <p>
+                  Подтверждённых отзывов пока нет. Они появляются после реальных
+                  заказов.
+                </p>
+              ) : (
+                productReviews.reviews.slice(0, 5).map((review) => (
+                  <article key={review.id}>
+                    <strong>{review.overallRating} ★</strong>
+                    <span>{review.comment || "Оценка без комментария"}</span>
+                    {review.officialResponse ? (
+                      <small>Ответ поставщика: {review.officialResponse}</small>
+                    ) : null}
+                  </article>
+                ))
+              )}
             </div>
           </div>
         </Section>
@@ -939,24 +1437,92 @@ export default function BuyerWorkspace() {
               <tbody>
                 {buyerOrders.map((order) => (
                   <Fragment key={order.id}>
-                  <tr>
-                    <td>
-                      <strong>{order.orderNumber}</strong>
-                      <small className="mp-mono">{order.id.slice(0, 8)}</small>
-                    </td>
-                    <td>{order.supplier.displayName}</td>
-                    <td>{order.items.length}</td>
-                    <td>
-                      {formatMoney(order.subtotalAmountMinor, order.currency)}
-                    </td>
-                    <td>
-                      <StatusTag tone={statusTone(order.status)}>
-                        {formatStatus(order.status)}
-                      </StatusTag>
-                    </td>
-                    <td>{formatDate(order.createdAt, true)}</td>
-                  </tr>
-                  {["DELIVERED", "PARTIALLY_FULFILLED", "RETURN_DISPUTE", "REJECTED", "CANCELLED"].includes(order.status) ? <tr><td colSpan={6}><div className={styles.reviewForm}><strong>{submittedReviews.includes(order.id) ? "Отзыв отправлен" : "Оцените исполнение заказа"}</strong>{submittedReviews.includes(order.id) ? <span>Оценка будет учтена в рейтинге поставщика.</span> : <><Select value={String(reviewDraft(order.id).rating)} onChange={(_, data) => setReviewDrafts((items) => ({ ...items, [order.id]: { ...reviewDraft(order.id), rating: Number(data.value) } }))}><option value="5">5 — отлично</option><option value="4">4 — хорошо</option><option value="3">3 — нормально</option><option value="2">2 — плохо</option><option value="1">1 — очень плохо</option></Select><Input value={reviewDraft(order.id).comment} onChange={(_, data) => setReviewDrafts((items) => ({ ...items, [order.id]: { ...reviewDraft(order.id), comment: data.value } }))} placeholder="Комментарий о поставке, цене или наличии" /><Button appearance="secondary" onClick={() => void submitReview(order.id)} disabled={busy === `review:${order.id}`}>{busy === `review:${order.id}` ? "Отправляем" : "Оставить отзыв"}</Button></>}</div></td></tr> : null}
+                    <tr>
+                      <td>
+                        <strong>{order.orderNumber}</strong>
+                        <small className="mp-mono">
+                          {order.id.slice(0, 8)}
+                        </small>
+                      </td>
+                      <td>{order.supplier.displayName}</td>
+                      <td>{order.items.length}</td>
+                      <td>
+                        {formatMoney(order.subtotalAmountMinor, order.currency)}
+                      </td>
+                      <td>
+                        <StatusTag tone={statusTone(order.status)}>
+                          {formatStatus(order.status)}
+                        </StatusTag>
+                      </td>
+                      <td>{formatDate(order.createdAt, true)}</td>
+                    </tr>
+                    {[
+                      "DELIVERED",
+                      "PARTIALLY_FULFILLED",
+                      "RETURN_DISPUTE",
+                      "REJECTED",
+                      "CANCELLED",
+                    ].includes(order.status) ? (
+                      <tr>
+                        <td colSpan={6}>
+                          <div className={styles.reviewForm}>
+                            <strong>
+                              {submittedReviews.includes(order.id)
+                                ? "Отзыв отправлен"
+                                : "Оцените исполнение заказа"}
+                            </strong>
+                            {submittedReviews.includes(order.id) ? (
+                              <span>
+                                Оценка будет учтена в рейтинге поставщика.
+                              </span>
+                            ) : (
+                              <>
+                                <Select
+                                  value={String(reviewDraft(order.id).rating)}
+                                  onChange={(_, data) =>
+                                    setReviewDrafts((items) => ({
+                                      ...items,
+                                      [order.id]: {
+                                        ...reviewDraft(order.id),
+                                        rating: Number(data.value),
+                                      },
+                                    }))
+                                  }
+                                >
+                                  <option value="5">5 — отлично</option>
+                                  <option value="4">4 — хорошо</option>
+                                  <option value="3">3 — нормально</option>
+                                  <option value="2">2 — плохо</option>
+                                  <option value="1">1 — очень плохо</option>
+                                </Select>
+                                <Input
+                                  value={reviewDraft(order.id).comment}
+                                  onChange={(_, data) =>
+                                    setReviewDrafts((items) => ({
+                                      ...items,
+                                      [order.id]: {
+                                        ...reviewDraft(order.id),
+                                        comment: data.value,
+                                      },
+                                    }))
+                                  }
+                                  placeholder="Комментарий о поставке, цене или наличии"
+                                />
+                                <Button
+                                  appearance="secondary"
+                                  onClick={() => void submitReview(order.id)}
+                                  disabled={busy === `review:${order.id}`}
+                                >
+                                  {busy === `review:${order.id}`
+                                    ? "Отправляем"
+                                    : "Оставить отзыв"}
+                                </Button>
+                              </>
+                            )}
+                          </div>
+                        </td>
+                      </tr>
+                    ) : null}
                   </Fragment>
                 ))}
               </tbody>
@@ -1070,19 +1636,27 @@ export default function BuyerWorkspace() {
   );
 
   const content =
-    active === "catalog"
-      ? renderCatalog()
-      : active === "cart"
-        ? renderCart()
-        : active === "orders"
-          ? renderOrders()
-          : active === "documents"
-            ? renderDocuments()
-            : active === "workspace" || active === "assistant" || active === "support"
-              ? <BuyerServicesPanel mode={active} buyerId={buyerId} apiContext={apiContext} />
-              : active === "smart-commerce"
-                ? <SmartCommercePanel buyerId={buyerId} apiContext={apiContext} />
-              : renderNotifications();
+    active === "catalog" ? (
+      renderCatalog()
+    ) : active === "cart" ? (
+      renderCart()
+    ) : active === "orders" ? (
+      renderOrders()
+    ) : active === "documents" ? (
+      renderDocuments()
+    ) : active === "workspace" ||
+      active === "assistant" ||
+      active === "support" ? (
+      <BuyerServicesPanel
+        mode={active}
+        buyerId={buyerId}
+        apiContext={apiContext}
+      />
+    ) : active === "smart-commerce" ? (
+      <SmartCommercePanel buyerId={buyerId} apiContext={apiContext} />
+    ) : (
+      renderNotifications()
+    );
   const nav = navigation.map((item) =>
     item.id === "cart" && activeCart?.items.length
       ? { ...item, badge: String(activeCart.items.length) }
@@ -1091,24 +1665,79 @@ export default function BuyerWorkspace() {
         : item,
   );
 
+  if (!handoff && active === "catalog") {
+    return (
+      <div className={styles.publicStore}>
+        <header className={styles.publicHeader}>
+          <a
+            className={styles.publicBrand}
+            href="/"
+            aria-label="DentMarket — магазин"
+          >
+            <span className={styles.publicBrandMark}>DM</span>
+            <span>
+              <strong>DentMarket</strong>
+              <small>Маркетплейс для стоматологий</small>
+            </span>
+          </a>
+          <nav className={styles.publicNav} aria-label="Разделы магазина">
+            <a className={styles.publicNavActive} href="#catalog">
+              Каталог
+            </a>
+            <a href="/about">Поставщикам</a>
+            <a href="/about">О платформе</a>
+          </nav>
+          <Button
+            appearance="primary"
+            onClick={() => window.location.assign(LOGIN_URL)}
+          >
+            Войти
+          </Button>
+        </header>
+        <main className={styles.publicMain} id="catalog">
+          {loading ? (
+            <LoadingState label="Загружаем каталог" />
+          ) : (
+            renderCatalog()
+          )}
+        </main>
+        <footer className={styles.publicFooter}>
+          <span>© DentMarket KZ</span>
+          <span>Закупки для клиник и поставщиков</span>
+        </footer>
+      </div>
+    );
+  }
+
   return (
     <AppShell
       productName="DentMarket"
       productMark="DM"
       workspaceLabel="Кабинет клиники"
       userName={handoff?.displayName ?? "Гость"}
-      userMeta={handoff ? "Клиника · Покупатель" : "Каталог доступен без регистрации"}
+      userMeta={
+        handoff ? "Клиника · Покупатель" : "Каталог доступен без регистрации"
+      }
       navigation={nav}
       activeNavigation={active}
       onLogout={handoff ? () => void logout() : undefined}
-      onNavigate={(item) => { if (item === "about") window.location.assign("/about"); else if (!handoff && item !== "catalog") window.location.assign(LOGIN_URL); else setActive(item); }}
+      onNavigate={(item) => {
+        if (item === "about") window.location.assign("/about");
+        else if (!handoff && item !== "catalog")
+          window.location.assign(LOGIN_URL);
+        else setActive(item);
+      }}
       actions={
         <Button
           appearance={handoff ? "subtle" : "primary"}
           icon={handoff ? <ArrowSync24Regular /> : undefined}
-          onClick={() => handoff ? void refresh() : window.location.assign(LOGIN_URL)}
+          onClick={() =>
+            handoff ? void refresh() : window.location.assign(LOGIN_URL)
+          }
           aria-label={handoff ? "Обновить данные" : "Войти"}
-        >{handoff ? null : "Войти"}</Button>
+        >
+          {handoff ? null : "Войти"}
+        </Button>
       }
     >
       {loading ? (
