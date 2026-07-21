@@ -13,6 +13,7 @@ import {
 import {
   Dismiss24Regular,
   Navigation24Regular,
+  SignOut24Regular,
   WeatherMoon24Regular,
   WeatherSunny24Regular,
 } from "@fluentui/react-icons";
@@ -82,6 +83,7 @@ type AppShellProps = {
   navigation: NavigationItem[];
   activeNavigation: string;
   onNavigate: (id: string) => void;
+  onLogout?: () => void;
   actions?: ReactNode;
   children: ReactNode;
 };
@@ -95,6 +97,7 @@ export function AppShell({
   navigation,
   activeNavigation,
   onNavigate,
+  onLogout,
   actions,
   children,
 }: AppShellProps) {
@@ -151,6 +154,15 @@ export function AppShell({
             <strong>{userName}</strong>
             <small>{userMeta}</small>
           </span>
+          {onLogout ? (
+            <Button
+              appearance="subtle"
+              icon={<SignOut24Regular />}
+              aria-label="Выйти"
+              title="Выйти"
+              onClick={onLogout}
+            />
+          ) : null}
         </div>
       </aside>
 

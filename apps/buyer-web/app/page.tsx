@@ -379,6 +379,29 @@ export default function BuyerWorkspace() {
     }
   }, [api, buildSearchParams, buyerId, handoff, handoffChecked, loadSearch, query, sort]);
 
+  const logout = useCallback(async () => {
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
+    if (handoff?.sessionId && handoff.actorId && handoff.accessToken) {
+      try {
+        await fetch(`${apiUrl}/auth/sessions/${handoff.sessionId}/revoke`, {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+            authorization: `Bearer ${handoff.accessToken}`,
+            "x-user-id": handoff.actorId,
+          },
+          body: JSON.stringify({ reason: "user_logout" }),
+        });
+      } catch {
+        // Local cleanup still guarantees that the current browser loses access.
+      }
+    }
+    window.sessionStorage.removeItem(SESSION_KEY);
+    setHandoff(null);
+    setActive("catalog");
+    window.location.assign("/");
+  }, [handoff]);
+
   useEffect(() => { if (handoffChecked) void refresh(); }, [handoffChecked, refresh]);
   useEffect(() => {
     if (!toast) return;
@@ -1077,6 +1100,7 @@ export default function BuyerWorkspace() {
       userMeta={handoff ? "Клиника · Покупатель" : "Каталог доступен без регистрации"}
       navigation={nav}
       activeNavigation={active}
+      onLogout={handoff ? () => void logout() : undefined}
       onNavigate={(item) => { if (item === "about") window.location.assign("/about"); else if (!handoff && item !== "catalog") window.location.assign(LOGIN_URL); else setActive(item); }}
       actions={
         <Button

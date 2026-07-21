@@ -24,6 +24,7 @@ button, input, select, textarea { font: inherit; }
 .mp-navigation button svg { width: 20px; height: 20px; }
 .mp-navigation button small { min-width: 20px; padding: 2px 6px; border-radius: 999px; background: var(--colorNeutralBackground4); color: var(--colorNeutralForeground2); font-size: 10px; text-align: center; }
 .mp-sidebar-footer { margin-top: auto; display: flex; align-items: center; gap: 9px; padding: 14px 8px 2px; border-top: 1px solid var(--colorNeutralStroke2); }
+.mp-sidebar-footer > .fui-Button { margin-left: auto; flex: 0 0 auto; }
 .mp-workspace { min-width: 0; }
 .mp-topbar { position: sticky; top: 0; z-index: 10; height: 64px; display: flex; align-items: center; padding: 0 28px; border-bottom: 1px solid var(--colorNeutralStroke2); background: color-mix(in srgb, var(--colorNeutralBackground2) 92%, transparent); backdrop-filter: blur(14px); }
 .mp-topbar-context { color: var(--colorNeutralForeground2); font-size: 13px; font-weight: 600; }
