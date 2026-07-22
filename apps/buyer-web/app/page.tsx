@@ -55,7 +55,15 @@ import {
   formatStatus,
   type NavigationItem,
 } from "@marketplace/ui";
-import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  Fragment,
+  use,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import styles from "./page.module.css";
 import { BuyerServicesPanel } from "./buyer-services-panel";
 import { SmartCommercePanel } from "./smart-commerce-panel";
@@ -131,7 +139,20 @@ type SearchOffer = {
     endsAt: string | null;
   } | null;
 };
-type SearchMedia = { id: string; sourceUrl: string | null; securePath?: string | null; normalizedStorageKey: string | null; altText: string | null; width: number | null; height: number | null; metadata?: { exactProductPhoto?: boolean; rightsStatus?: string; sourceImageUrl?: string | null } | null };
+type SearchMedia = {
+  id: string;
+  sourceUrl: string | null;
+  securePath?: string | null;
+  normalizedStorageKey: string | null;
+  altText: string | null;
+  width: number | null;
+  height: number | null;
+  metadata?: {
+    exactProductPhoto?: boolean;
+    rightsStatus?: string;
+    sourceImageUrl?: string | null;
+  } | null;
+};
 type SearchProduct = {
   id: string;
   name: string;
@@ -161,20 +182,36 @@ type SearchResult = {
     suppliers: Array<{ id: string; name: string; count: number }>;
   };
 };
-const publicMediaEntries = publicCatalogMedia.entries as Record<string, SearchMedia>;
-const rejectedProductAsset = (value: string | null | undefined) => /(logo|favicon|icon|sprite|avatar|cart|basket|loading|pixel|captcha|phone[-_]?ico|placeholder|no[-_]?image|default[-_]?image|\/(?:themes?|templates?|assets\/icons?|images?\/icons?)\/)/i.test(value ?? "");
+const publicMediaEntries = publicCatalogMedia.entries as Record<
+  string,
+  SearchMedia
+>;
+const rejectedProductAsset = (value: string | null | undefined) =>
+  /(logo|favicon|icon|sprite|avatar|cart|basket|loading|pixel|captcha|phone[-_]?ico|placeholder|no[-_]?image|default[-_]?image|\/(?:themes?|templates?|assets\/icons?|images?\/icons?)\/)/i.test(
+    value ?? "",
+  );
 const mediaSource = (media: SearchMedia | undefined) => {
   if (!media || media.metadata?.exactProductPhoto !== true) return null;
-  if (rejectedProductAsset(media.metadata.sourceImageUrl ?? media.sourceUrl ?? media.securePath)) return null;
+  if (
+    rejectedProductAsset(
+      media.metadata.sourceImageUrl ?? media.sourceUrl ?? media.securePath,
+    )
+  )
+    return null;
   if (media.securePath?.startsWith("/catalog/")) return media.securePath;
   if (media.securePath) {
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
+    const apiUrl =
+      process.env.NEXT_PUBLIC_API_URL ??
+      "https://dentmarket-api.vercel.app/api";
     return `${apiUrl}${media.securePath}`;
   }
   return media.sourceUrl;
 };
 const bestPromotionPercent = (product: SearchProduct) =>
-  product.offers.reduce((best, offer) => Math.max(best, offer.promotion?.percentage ?? 0), 0);
+  product.offers.reduce(
+    (best, offer) => Math.max(best, offer.promotion?.percentage ?? 0),
+    0,
+  );
 const priceDifferencePercent = (product: SearchProduct) => {
   const prices = product.offers
     .map((offer) => Number(offer.priceMinor ?? 0))
@@ -323,8 +360,8 @@ const demoCatalogFallback: SearchProduct[] = [
     ],
   },
 ];
-const generatedCatalogFallback: SearchProduct[] = publicCatalogData.products.map(
-  (product) => ({
+const generatedCatalogFallback: SearchProduct[] =
+  publicCatalogData.products.map((product) => ({
     ...product,
     media: publicMediaEntries[product.sourceUrl ?? ""]
       ? [publicMediaEntries[product.sourceUrl ?? ""]]
@@ -335,8 +372,7 @@ const generatedCatalogFallback: SearchProduct[] = publicCatalogData.products.map
     categories: [
       { id: `public-category-${product.category}`, name: product.category },
     ],
-  }),
-);
+  }));
 const publicCatalogFallback = [
   ...generatedCatalogFallback,
   ...demoCatalogFallback,
@@ -410,18 +446,27 @@ async function fetchPublicCatalogSearch(
 ): Promise<SearchResult | null> {
   if (typeof window !== "undefined") {
     try {
-      const saved = JSON.parse(window.localStorage.getItem("dentmarket:city") ?? "null") as { id?: string } | null;
+      const saved = JSON.parse(
+        window.localStorage.getItem("dentmarket:city") ?? "null",
+      ) as { id?: string } | null;
       if (saved?.id) params.set("cityId", saved.id);
-    } catch { /* legacy plain-text city selection */ }
+    } catch {
+      /* legacy plain-text city selection */
+    }
   }
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
-  const response = await fetch(`${apiUrl}/catalog/search?${params.toString()}`, {
-    cache: "no-store",
-    signal: AbortSignal.timeout(3500),
-  });
+  const apiUrl =
+    process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
+  const response = await fetch(
+    `${apiUrl}/catalog/search?${params.toString()}`,
+    {
+      cache: "no-store",
+      signal: AbortSignal.timeout(3500),
+    },
+  );
   if (!response.ok) return null;
   const result = (await response.json()) as Partial<SearchResult>;
-  if (!Array.isArray(result.items) || typeof result.total !== "number") return null;
+  if (!Array.isArray(result.items) || typeof result.total !== "number")
+    return null;
   return result as SearchResult;
 }
 type CompareOffer = {
@@ -575,7 +620,16 @@ const statusTone = (
   return "info";
 };
 
-export default function BuyerWorkspace() {
+type BuyerWorkspaceProps = {
+  searchParams: Promise<{ q?: string; offset?: string }>;
+};
+
+export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
+  const routeParams = use(searchParams);
+  const initialQuery = routeParams.q?.trim() ?? "";
+  const parsedOffset = Number(routeParams.offset ?? "0");
+  const initialOffset = Number.isFinite(parsedOffset) && parsedOffset > 0 ? parsedOffset : 0;
+  const initialCatalogLimit = initialOffset ? initialOffset + 60 : 60;
   const [handoff, setHandoff] = useState<SessionHandoff | null>(null);
   const [handoffChecked, setHandoffChecked] = useState(false);
   const buyerId = handoff?.organizationId ?? BUYER_ID;
@@ -637,7 +691,7 @@ export default function BuyerWorkspace() {
     })();
   }, []);
   const [active, setActive] = useState("catalog");
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(initialQuery);
   const [sort, setSort] = useState("RELEVANCE");
   const [unitFilter, setUnitFilter] = useState("");
   const [packagingFilter, setPackagingFilter] = useState("");
@@ -651,12 +705,14 @@ export default function BuyerWorkspace() {
   const [officialOnly, setOfficialOnly] = useState(false);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [search, setSearch] = useState<SearchResult | null>(() =>
-    fallbackSearch("", "RELEVANCE", { stock: "all" }),
+    fallbackSearch(initialQuery, "RELEVANCE", { stock: "all" }, initialCatalogLimit),
   );
   const searchInputRef = useRef<HTMLInputElement>(null);
   const catalogUrlAppliedRef = useRef(false);
   const [comparison, setComparison] = useState<Comparison | null>(null);
-  const [selectedProduct, setSelectedProduct] = useState<SearchProduct | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<SearchProduct | null>(
+    null,
+  );
   const [productReviews, setProductReviews] = useState<ProductReviews | null>(
     null,
   );
@@ -703,14 +759,22 @@ export default function BuyerWorkspace() {
   const unread = notifications.filter((item) => !item.readAt).length;
   const catalogBrands = useMemo(
     () =>
-      [...new Set((search?.items ?? []).map((item) => item.brand).filter(Boolean))]
-        .sort((left, right) => left!.localeCompare(right!, "ru")) as string[],
+      [
+        ...new Set(
+          (search?.items ?? []).map((item) => item.brand).filter(Boolean),
+        ),
+      ].sort((left, right) => left!.localeCompare(right!, "ru")) as string[],
     [search],
   );
   const catalogCategories = useMemo(
     () =>
-      [...new Set((search?.items ?? []).flatMap((item) => item.categories.map(({ name }) => name)))]
-        .sort((left, right) => left.localeCompare(right, "ru")),
+      [
+        ...new Set(
+          (search?.items ?? []).flatMap((item) =>
+            item.categories.map(({ name }) => name),
+          ),
+        ),
+      ].sort((left, right) => left.localeCompare(right, "ru")),
     [search],
   );
   const visibleProducts = useMemo(() => {
@@ -727,16 +791,34 @@ export default function BuyerWorkspace() {
         return true;
       });
       if (brandFilter && product.brand !== brandFilter) return false;
-      if (categoryFilter && !product.categories.some(({ name }) => name === categoryFilter)) return false;
+      if (
+        categoryFilter &&
+        !product.categories.some(({ name }) => name === categoryFilter)
+      )
+        return false;
       return offers.length > 0;
     });
-  }, [brandFilter, categoryFilter, maxPriceFilter, minPriceFilter, officialOnly, search, stockFilter, verifiedOnly]);
+  }, [
+    brandFilter,
+    categoryFilter,
+    maxPriceFilter,
+    minPriceFilter,
+    officialOnly,
+    search,
+    stockFilter,
+    verifiedOnly,
+  ]);
   const promotedProducts = useMemo(
     () =>
       (search?.items ?? [])
-        .filter((product) => mediaSource(product.media?.[0]) && product.offers.some((offer) => offer.priceMinor))
+        .filter(
+          (product) =>
+            mediaSource(product.media?.[0]) &&
+            product.offers.some((offer) => offer.priceMinor),
+        )
         .sort((left, right) => {
-          const promotionDifference = bestPromotionPercent(right) - bestPromotionPercent(left);
+          const promotionDifference =
+            bestPromotionPercent(right) - bestPromotionPercent(left);
           if (promotionDifference) return promotionDifference;
           const sellerDifference = right.offers.length - left.offers.length;
           if (sellerDifference) return sellerDifference;
@@ -809,7 +891,11 @@ export default function BuyerWorkspace() {
         if (packagingFilter) publicParams.set("packaging", packagingFilter);
         if (deliveryFilter) publicParams.set("deliveryMethod", deliveryFilter);
         try {
-          const live = await fetchPublicCatalogSearch(nextQuery, nextSort, publicParams);
+          const live = await fetchPublicCatalogSearch(
+            nextQuery,
+            nextSort,
+            publicParams,
+          );
           if (live) {
             setSearch(live);
             return;
@@ -817,7 +903,14 @@ export default function BuyerWorkspace() {
         } catch {
           // The local catalog is the deliberate fail-safe for an unavailable API.
         }
-        setSearch(fallbackSearch(nextQuery, nextSort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: stockFilter }));
+        setSearch(
+          fallbackSearch(nextQuery, nextSort, {
+            unit: unitFilter,
+            packaging: packagingFilter,
+            delivery: deliveryFilter,
+            stock: stockFilter,
+          }),
+        );
         return;
       }
       const params = buildSearchParams(nextQuery, nextSort);
@@ -828,8 +921,18 @@ export default function BuyerWorkspace() {
           ),
         );
       } catch (cause) {
-        setSearch(fallbackSearch(nextQuery, nextSort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }));
-        if (handoff) setToast("API временно недоступен — показываем полный резервный каталог");
+        setSearch(
+          fallbackSearch(nextQuery, nextSort, {
+            unit: unitFilter,
+            packaging: packagingFilter,
+            delivery: deliveryFilter,
+            stock: "all",
+          }),
+        );
+        if (handoff)
+          setToast(
+            "API временно недоступен — показываем полный резервный каталог",
+          );
       }
     },
     [
@@ -856,12 +959,12 @@ export default function BuyerWorkspace() {
             packaging: packagingFilter,
             delivery: deliveryFilter,
             stock: "all",
-          }),
+          }, initialOffset ? initialCatalogLimit : undefined),
         );
         // Do not block the public catalog on a remote API cold start. If it
         // responds, loadSearch replaces the fallback with live data.
         setLoading(false);
-        void loadSearch(query, sort);
+        if (!initialOffset) void loadSearch(query, sort);
         setCarts([]);
         setOrders([]);
         setDocuments([]);
@@ -891,7 +994,15 @@ export default function BuyerWorkspace() {
       setDocuments(documentResult);
       setNotifications(notificationResult);
     } catch (cause) {
-      if (handoff) setSearch(fallbackSearch(query, sort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }));
+      if (handoff)
+        setSearch(
+          fallbackSearch(query, sort, {
+            unit: unitFilter,
+            packaging: packagingFilter,
+            delivery: deliveryFilter,
+            stock: "all",
+          }),
+        );
       setError(errorMessage(cause));
     } finally {
       setLoading(false);
@@ -908,18 +1019,34 @@ export default function BuyerWorkspace() {
     query,
     sort,
     unitFilter,
+    initialCatalogLimit,
+    initialOffset,
   ]);
 
   useEffect(() => {
-    if (!handoffChecked || handoff || catalogUrlAppliedRef.current || typeof window === "undefined") return;
+    if (
+      !handoffChecked ||
+      handoff ||
+      catalogUrlAppliedRef.current ||
+      typeof window === "undefined"
+    )
+      return;
     catalogUrlAppliedRef.current = true;
     const params = new URLSearchParams(window.location.search);
     const urlQuery = params.get("q")?.trim() ?? "";
     const parsedOffset = Number(params.get("offset") ?? "0");
-    const offset = Number.isFinite(parsedOffset) && parsedOffset > 0 ? parsedOffset : 0;
+    const offset =
+      Number.isFinite(parsedOffset) && parsedOffset > 0 ? parsedOffset : 0;
     if (!urlQuery && !offset) return;
     setQuery(urlQuery);
-    setSearch(fallbackSearch(urlQuery, sort, { stock: "all" }, Math.max(60, offset + 60)));
+    setSearch(
+      fallbackSearch(
+        urlQuery,
+        sort,
+        { stock: "all" },
+        Math.max(60, offset + 60),
+      ),
+    );
     if (!offset) void loadSearch(urlQuery, sort);
   }, [handoff, handoffChecked, loadSearch, sort]);
 
@@ -928,16 +1055,44 @@ export default function BuyerWorkspace() {
     setBusy("load-more");
     try {
       if (!handoff) {
-        setSearch(fallbackSearch(query, sort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }, currentCount + 60));
+        setSearch(
+          fallbackSearch(
+            query,
+            sort,
+            {
+              unit: unitFilter,
+              packaging: packagingFilter,
+              delivery: deliveryFilter,
+              stock: "all",
+            },
+            currentCount + 60,
+          ),
+        );
         return;
       }
       const params = buildSearchParams(query, sort);
       params.set("offset", String(currentCount));
       params.set("limit", "60");
       const next = await api.get<SearchResult>(`/marketplace/search?${params}`);
-      setSearch((previous) => previous ? { ...next, items: [...previous.items, ...next.items] } : next);
+      setSearch((previous) =>
+        previous
+          ? { ...next, items: [...previous.items, ...next.items] }
+          : next,
+      );
     } catch {
-      setSearch(fallbackSearch(query, sort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }, currentCount + 60));
+      setSearch(
+        fallbackSearch(
+          query,
+          sort,
+          {
+            unit: unitFilter,
+            packaging: packagingFilter,
+            delivery: deliveryFilter,
+            stock: "all",
+          },
+          currentCount + 60,
+        ),
+      );
       setToast("Показываем следующую порцию резервного каталога");
     } finally {
       setBusy(null);
@@ -945,9 +1100,12 @@ export default function BuyerWorkspace() {
   };
 
   useEffect(() => {
-    const onCityChanged = () => { void loadSearch(query, sort); };
+    const onCityChanged = () => {
+      void loadSearch(query, sort);
+    };
     window.addEventListener("dentmarket:city-changed", onCityChanged);
-    return () => window.removeEventListener("dentmarket:city-changed", onCityChanged);
+    return () =>
+      window.removeEventListener("dentmarket:city-changed", onCityChanged);
   }, [loadSearch, query, sort]);
 
   const logout = useCallback(async () => {
@@ -1225,14 +1383,41 @@ export default function BuyerWorkspace() {
     <div className="mp-stack">
       {isPublic ? (
         <>
-          <nav className={styles.categoryRail} aria-label="Популярные категории">
+          <nav
+            className={styles.categoryRail}
+            aria-label="Популярные категории"
+          >
             {[
-              { label: "Расходные материалы", query: "расходные материалы", icon: <ClipboardTaskListLtr24Regular /> },
-              { label: "Инструменты", query: "инструменты", icon: <List24Regular /> },
-              { label: "Оборудование", query: "оборудование", icon: <Grid24Regular /> },
-              { label: "Эндодонтия", query: "эндодонтия", icon: <Box24Regular /> },
-              { label: "Имплантология", query: "импланты", icon: <Cart24Regular /> },
-              { label: "Стерилизация", query: "стерилизация", icon: <Tag24Regular /> },
+              {
+                label: "Расходные материалы",
+                query: "расходные материалы",
+                icon: <ClipboardTaskListLtr24Regular />,
+              },
+              {
+                label: "Инструменты",
+                query: "инструменты",
+                icon: <List24Regular />,
+              },
+              {
+                label: "Оборудование",
+                query: "оборудование",
+                icon: <Grid24Regular />,
+              },
+              {
+                label: "Эндодонтия",
+                query: "эндодонтия",
+                icon: <Box24Regular />,
+              },
+              {
+                label: "Имплантология",
+                query: "импланты",
+                icon: <Cart24Regular />,
+              },
+              {
+                label: "Стерилизация",
+                query: "стерилизация",
+                icon: <Tag24Regular />,
+              },
             ].map((item) => (
               <a
                 key={item.label}
@@ -1249,31 +1434,78 @@ export default function BuyerWorkspace() {
             ))}
           </nav>
           {promotedProducts.length ? (
-            <section className={styles.dealsSection} aria-labelledby="deals-title">
+            <section
+              className={styles.dealsSection}
+              aria-labelledby="deals-title"
+            >
               <div className={styles.dealsHeading}>
                 <div>
                   <h2 id="deals-title">Акции и выгодные предложения</h2>
                   <p>Скидка относится к предложению конкретного продавца.</p>
                 </div>
-                <a href="/?q=" onClick={(event) => { event.preventDefault(); void submitSearchFor(""); }}>Смотреть все</a>
+                <a
+                  href="/?q="
+                  onClick={(event) => {
+                    event.preventDefault();
+                    void submitSearchFor("");
+                  }}
+                >
+                  Смотреть все
+                </a>
               </div>
               <div className={styles.dealGrid}>
                 {promotedProducts.map((product) => {
-                  const best = rankSearchOffers(product.offers).find((offer) => offer.priceMinor);
+                  const best = rankSearchOffers(product.offers).find(
+                    (offer) => offer.priceMinor,
+                  );
                   const promotion = bestPromotionPercent(product);
                   const priceDifference = priceDifferencePercent(product);
                   const image = mediaSource(product.media?.[0]);
                   return (
-                    <article className={styles.dealCard} key={`deal:${product.id}`}>
-                      <button type="button" onClick={() => void openProduct(product)} aria-label={`Открыть ${product.name}`}>
-                        {image ? <img src={image} alt={product.media?.[0]?.altText ?? product.name} /> : null}
+                    <article
+                      className={styles.dealCard}
+                      key={`deal:${product.id}`}
+                    >
+                      <button
+                        type="button"
+                        onClick={() => void openProduct(product)}
+                        aria-label={`Открыть ${product.name}`}
+                      >
+                        {image ? (
+                          <img
+                            src={image}
+                            alt={product.media?.[0]?.altText ?? product.name}
+                          />
+                        ) : null}
                       </button>
                       <div>
-                        <span className={styles.dealLabel}>{promotion ? "Акция продавца" : "Выгодная цена"}</span>
+                        <span className={styles.dealLabel}>
+                          {promotion ? "Акция продавца" : "Выгодная цена"}
+                        </span>
                         <h3>{product.name}</h3>
-                        <strong>{best ? `от ${formatMoney(best.priceMinor, best.currency ?? "KZT")}` : "Цена по запросу"}</strong>
-                        <small>{product.offers.length} {ruCount(product.offers.length, "продавец", "продавца", "продавцов")}</small>
-                        {promotion ? <p>У одного продавца скидка {promotion}%</p> : priceDifference ? <p>У одного продавца цена ниже на {priceDifference}%</p> : <p>Сравните цены и условия доставки</p>}
+                        <strong>
+                          {best
+                            ? `от ${formatMoney(best.priceMinor, best.currency ?? "KZT")}`
+                            : "Цена по запросу"}
+                        </strong>
+                        <small>
+                          {product.offers.length}{" "}
+                          {ruCount(
+                            product.offers.length,
+                            "продавец",
+                            "продавца",
+                            "продавцов",
+                          )}
+                        </small>
+                        {promotion ? (
+                          <p>У одного продавца скидка {promotion}%</p>
+                        ) : priceDifference ? (
+                          <p>
+                            У одного продавца цена ниже на {priceDifference}%
+                          </p>
+                        ) : (
+                          <p>Сравните цены и условия доставки</p>
+                        )}
                       </div>
                     </article>
                   );
@@ -1289,104 +1521,141 @@ export default function BuyerWorkspace() {
             title="Закупки для стоматологии без лишних звонков"
             description="Сравнивайте цены, наличие и условия поставщиков Казахстана в одном каталоге."
           />
-          <div className={styles.catalogProof} aria-label="Преимущества каталога">
-            <span><strong>3 400+</strong><small>товаров в каталоге</small></span>
-            <span><strong>КЗ</strong><small>поставщики по Казахстану</small></span>
-            <span><strong>24/7</strong><small>поиск по сленгу и брендам</small></span>
+          <div
+            className={styles.catalogProof}
+            aria-label="Преимущества каталога"
+          >
+            <span>
+              <strong>3 400+</strong>
+              <small>товаров в каталоге</small>
+            </span>
+            <span>
+              <strong>КЗ</strong>
+              <small>поставщики по Казахстану</small>
+            </span>
+            <span>
+              <strong>24/7</strong>
+              <small>поиск по сленгу и брендам</small>
+            </span>
           </div>
         </>
       )}
       <Section>
         {!isPublic ? (
           <>
-        <form
-          id="catalog-search"
-          className={styles.searchBar}
-          onSubmit={(event) => {
-            event.preventDefault();
-            // Read the native input at submit time so autofill and keyboard
-            // events are handled even before React commits the state update.
-            void submitSearchFor(searchInputRef.current?.value ?? query);
-          }}
-        >
-          <Field label="Поиск по каталогу">
-            <input
-              ref={searchInputRef}
-              className={styles.searchInput}
-              aria-label="Поиск по каталогу"
-              value={query}
-              onChange={(event) => setQuery(event.currentTarget.value)}
-              onInput={(event) => {
-                const value = event.currentTarget.value;
-                setQuery(value);
-                if (!handoff) {
-                  setSearch(
-                    fallbackSearch(value, sort, {
-                      unit: unitFilter,
-                      packaging: packagingFilter,
-                      delivery: deliveryFilter,
-                      stock: "all",
-                    }),
-                  );
-                }
-              }}
-              placeholder="Например: текучий композит, гутта, перчатки"
-            />
-          </Field>
-          <Field label="Сортировка">
-            <Select value={sort} onChange={(_, data) => setSort(data.value)}>
-              <option value="RELEVANCE">По релевантности</option>
-              <option value="PRICE_ASC">Сначала дешевле</option>
-              <option value="PRICE_DESC">Сначала дороже</option>
-              <option value="NAME_ASC">По названию</option>
-              <option value="UPDATED_DESC">По обновлению</option>
-            </Select>
-          </Field>
-          <Button
-            type="button"
-            appearance="primary"
-            onClick={() =>
-              void submitSearchFor(searchInputRef.current?.value ?? query)
-            }
-            icon={
-              busy === "search" ? <Spinner size="tiny" /> : <Search24Regular />
-            }
-            disabled={busy === "search"}
-          >
-            Найти
-          </Button>
-        </form>
-        <div
-          className={styles.searchHelp}
-          aria-label="Быстрые стоматологические запросы"
-        >
-          <span>Можно искать по-своему:</span>
-          {dentalSearchSuggestions.map((suggestion) => (
-            <button
-              key={suggestion}
-              type="button"
-              onClick={() => {
-                setQuery(suggestion);
-                void submitSearchFor(suggestion);
+            <form
+              id="catalog-search"
+              className={styles.searchBar}
+              onSubmit={(event) => {
+                event.preventDefault();
+                // Read the native input at submit time so autofill and keyboard
+                // events are handled even before React commits the state update.
+                void submitSearchFor(searchInputRef.current?.value ?? query);
               }}
             >
-              {suggestion}
-            </button>
-          ))}
-        </div>
+              <Field label="Поиск по каталогу">
+                <input
+                  ref={searchInputRef}
+                  className={styles.searchInput}
+                  aria-label="Поиск по каталогу"
+                  value={query}
+                  onChange={(event) => setQuery(event.currentTarget.value)}
+                  onInput={(event) => {
+                    const value = event.currentTarget.value;
+                    setQuery(value);
+                    if (!handoff) {
+                      setSearch(
+                        fallbackSearch(value, sort, {
+                          unit: unitFilter,
+                          packaging: packagingFilter,
+                          delivery: deliveryFilter,
+                          stock: "all",
+                        }),
+                      );
+                    }
+                  }}
+                  placeholder="Например: текучий композит, гутта, перчатки"
+                />
+              </Field>
+              <Field label="Сортировка">
+                <Select
+                  value={sort}
+                  onChange={(_, data) => setSort(data.value)}
+                >
+                  <option value="RELEVANCE">По релевантности</option>
+                  <option value="PRICE_ASC">Сначала дешевле</option>
+                  <option value="PRICE_DESC">Сначала дороже</option>
+                  <option value="NAME_ASC">По названию</option>
+                  <option value="UPDATED_DESC">По обновлению</option>
+                </Select>
+              </Field>
+              <Button
+                type="button"
+                appearance="primary"
+                onClick={() =>
+                  void submitSearchFor(searchInputRef.current?.value ?? query)
+                }
+                icon={
+                  busy === "search" ? (
+                    <Spinner size="tiny" />
+                  ) : (
+                    <Search24Regular />
+                  )
+                }
+                disabled={busy === "search"}
+              >
+                Найти
+              </Button>
+            </form>
+            <div
+              className={styles.searchHelp}
+              aria-label="Быстрые стоматологические запросы"
+            >
+              <span>Можно искать по-своему:</span>
+              {dentalSearchSuggestions.map((suggestion) => (
+                <button
+                  key={suggestion}
+                  type="button"
+                  onClick={() => {
+                    setQuery(suggestion);
+                    void submitSearchFor(suggestion);
+                  }}
+                >
+                  {suggestion}
+                </button>
+              ))}
+            </div>
           </>
         ) : (
           <>
             <div className={styles.catalogToolbar}>
               <div>
                 <h1 id="catalog-title">Каталог для стоматологий</h1>
-                <p>{search?.total ?? visibleProducts.length} {ruCount(search?.total ?? visibleProducts.length, "товар", "товара", "товаров")}</p>
+                <p>
+                  {search?.total ?? visibleProducts.length}{" "}
+                  {ruCount(
+                    search?.total ?? visibleProducts.length,
+                    "товар",
+                    "товара",
+                    "товаров",
+                  )}
+                </p>
               </div>
               <div className={styles.catalogToolbarActions}>
-                <Button appearance="secondary" icon={<Filter24Regular />} onClick={() => setFiltersOpen(true)}>
+                <Button
+                  appearance="secondary"
+                  icon={<Filter24Regular />}
+                  onClick={() => setFiltersOpen(true)}
+                >
                   Фильтры{activeFilterCount ? ` · ${activeFilterCount}` : ""}
                 </Button>
-                <Select aria-label="Сортировка каталога" value={sort} onChange={(_, data) => void submitSearchFor(query, data.value)}>
+                <Select
+                  aria-label="Сортировка каталога"
+                  value={sort}
+                  onChange={(_, data) =>
+                    void submitSearchFor(query, data.value)
+                  }
+                >
                   <option value="RELEVANCE">По популярности</option>
                   <option value="PRICE_ASC">Сначала дешевле</option>
                   <option value="PRICE_DESC">Сначала дороже</option>
@@ -1396,21 +1665,97 @@ export default function BuyerWorkspace() {
               </div>
             </div>
             {activeFilterCount ? (
-              <div className={styles.activeFilters} aria-label="Выбранные фильтры">
+              <div
+                className={styles.activeFilters}
+                aria-label="Выбранные фильтры"
+              >
                 {[
-                  categoryFilter ? { key: "category", label: categoryFilter, clear: () => setCategoryFilter("") } : null,
-                  brandFilter ? { key: "brand", label: brandFilter, clear: () => setBrandFilter("") } : null,
-                  minPriceFilter ? { key: "min", label: `от ${minPriceFilter} ₸`, clear: () => setMinPriceFilter("") } : null,
-                  maxPriceFilter ? { key: "max", label: `до ${maxPriceFilter} ₸`, clear: () => setMaxPriceFilter("") } : null,
-                  deliveryFilter ? { key: "delivery", label: "Доставка выбрана", clear: () => setDeliveryFilter("") } : null,
-                  packagingFilter ? { key: "packaging", label: packagingFilter, clear: () => setPackagingFilter("") } : null,
-                  unitFilter ? { key: "unit", label: unitFilter, clear: () => setUnitFilter("") } : null,
-                  stockFilter === "true" ? { key: "stock", label: "В наличии", clear: () => setStockFilter("all") } : null,
-                  verifiedOnly ? { key: "verified", label: "Документы проверены", clear: () => setVerifiedOnly(false) } : null,
-                  officialOnly ? { key: "official", label: "Официальный продавец", clear: () => setOfficialOnly(false) } : null,
-                ].filter((item): item is { key: string; label: string; clear: () => void } => Boolean(item)).map((item) => (
-                  <button key={item.key} type="button" onClick={item.clear}>{item.label}<Dismiss24Regular aria-hidden="true" /></button>
-                ))}
+                  categoryFilter
+                    ? {
+                        key: "category",
+                        label: categoryFilter,
+                        clear: () => setCategoryFilter(""),
+                      }
+                    : null,
+                  brandFilter
+                    ? {
+                        key: "brand",
+                        label: brandFilter,
+                        clear: () => setBrandFilter(""),
+                      }
+                    : null,
+                  minPriceFilter
+                    ? {
+                        key: "min",
+                        label: `от ${minPriceFilter} ₸`,
+                        clear: () => setMinPriceFilter(""),
+                      }
+                    : null,
+                  maxPriceFilter
+                    ? {
+                        key: "max",
+                        label: `до ${maxPriceFilter} ₸`,
+                        clear: () => setMaxPriceFilter(""),
+                      }
+                    : null,
+                  deliveryFilter
+                    ? {
+                        key: "delivery",
+                        label: "Доставка выбрана",
+                        clear: () => setDeliveryFilter(""),
+                      }
+                    : null,
+                  packagingFilter
+                    ? {
+                        key: "packaging",
+                        label: packagingFilter,
+                        clear: () => setPackagingFilter(""),
+                      }
+                    : null,
+                  unitFilter
+                    ? {
+                        key: "unit",
+                        label: unitFilter,
+                        clear: () => setUnitFilter(""),
+                      }
+                    : null,
+                  stockFilter === "true"
+                    ? {
+                        key: "stock",
+                        label: "В наличии",
+                        clear: () => setStockFilter("all"),
+                      }
+                    : null,
+                  verifiedOnly
+                    ? {
+                        key: "verified",
+                        label: "Документы проверены",
+                        clear: () => setVerifiedOnly(false),
+                      }
+                    : null,
+                  officialOnly
+                    ? {
+                        key: "official",
+                        label: "Официальный продавец",
+                        clear: () => setOfficialOnly(false),
+                      }
+                    : null,
+                ]
+                  .filter(
+                    (
+                      item,
+                    ): item is {
+                      key: string;
+                      label: string;
+                      clear: () => void;
+                    } => Boolean(item),
+                  )
+                  .map((item) => (
+                    <button key={item.key} type="button" onClick={item.clear}>
+                      {item.label}
+                      <Dismiss24Regular aria-hidden="true" />
+                    </button>
+                  ))}
                 <button
                   className={styles.clearFilters}
                   type="button"
@@ -1433,101 +1778,152 @@ export default function BuyerWorkspace() {
             ) : null}
           </>
         )}
-        {!isPublic ? <details className={styles.advancedFilters}>
-          <summary>
-            Уточнить поиск <span>бренд, категория, цена, документы и доставка</span>
-          </summary>
-          <div
-            className={styles.advancedFiltersGrid}
-            aria-label="Дополнительные фильтры каталога"
-          >
-            <Field label="Фасовка">
-              <Input
-                value={packagingFilter}
-                onChange={(_, data) => setPackagingFilter(data.value)}
-                placeholder="например, 100 шт"
-              />
-            </Field>
-            <Field label="Единица">
-              <Select
-                value={unitFilter}
-                onChange={(_, data) => setUnitFilter(data.value)}
-              >
-                <option value="">Любая</option>
-                <option value="шт">шт</option>
-                <option value="уп">упаковка</option>
-                <option value="мл">мл</option>
-                <option value="г">г</option>
-                <option value="комплект">комплект</option>
-              </Select>
-            </Field>
-            <Field label="Доставка">
-              <Select
-                value={deliveryFilter}
-                onChange={(_, data) => setDeliveryFilter(data.value)}
-              >
-                <option value="">Любая</option>
-                <option value="CARRIER">Курьер</option>
-                <option value="NATIONWIDE">По Казахстану</option>
-                <option value="PICKUP">Самовывоз</option>
-              </Select>
-            </Field>
-            <Field label="Наличие">
-              <Select
-                value={stockFilter}
-                onChange={(_, data) => setStockFilter(data.value)}
-              >
-                <option value="true">Только в наличии</option>
-                <option value="all">Все предложения</option>
-              </Select>
-            </Field>
-            <Field label="Бренд">
-              <Select value={brandFilter} onChange={(_, data) => setBrandFilter(data.value)}>
-                <option value="">Все бренды</option>
-                {catalogBrands.map((brand) => <option key={brand} value={brand}>{brand}</option>)}
-              </Select>
-            </Field>
-            <Field label="Категория">
-              <Select value={categoryFilter} onChange={(_, data) => setCategoryFilter(data.value)}>
-                <option value="">Все категории</option>
-                {catalogCategories.map((category) => <option key={category} value={category}>{category}</option>)}
-              </Select>
-            </Field>
-            <Field label="Цена от, ₸">
-              <Input type="number" min="0" value={minPriceFilter} onChange={(_, data) => setMinPriceFilter(data.value)} placeholder="0" />
-            </Field>
-            <Field label="Цена до, ₸">
-              <Input type="number" min="0" value={maxPriceFilter} onChange={(_, data) => setMaxPriceFilter(data.value)} placeholder="без лимита" />
-            </Field>
-            <Checkbox checked={verifiedOnly} onChange={(_, data) => setVerifiedOnly(Boolean(data.checked))} label="Только с проверенными документами" />
-            <Checkbox checked={officialOnly} onChange={(_, data) => setOfficialOnly(Boolean(data.checked))} label="Только официальные дистрибьюторы" />
-            <Button
-              appearance="subtle"
-              onClick={() => {
-                setBrandFilter("");
-                setCategoryFilter("");
-                setMinPriceFilter("");
-                setMaxPriceFilter("");
-                setVerifiedOnly(false);
-                setOfficialOnly(false);
-                setUnitFilter("");
-                setPackagingFilter("");
-                setDeliveryFilter("");
-                setStockFilter("true");
-              }}
+        {!isPublic ? (
+          <details className={styles.advancedFilters}>
+            <summary>
+              Уточнить поиск{" "}
+              <span>бренд, категория, цена, документы и доставка</span>
+            </summary>
+            <div
+              className={styles.advancedFiltersGrid}
+              aria-label="Дополнительные фильтры каталога"
             >
-              Сбросить фильтры
-            </Button>
+              <Field label="Фасовка">
+                <Input
+                  value={packagingFilter}
+                  onChange={(_, data) => setPackagingFilter(data.value)}
+                  placeholder="например, 100 шт"
+                />
+              </Field>
+              <Field label="Единица">
+                <Select
+                  value={unitFilter}
+                  onChange={(_, data) => setUnitFilter(data.value)}
+                >
+                  <option value="">Любая</option>
+                  <option value="шт">шт</option>
+                  <option value="уп">упаковка</option>
+                  <option value="мл">мл</option>
+                  <option value="г">г</option>
+                  <option value="комплект">комплект</option>
+                </Select>
+              </Field>
+              <Field label="Доставка">
+                <Select
+                  value={deliveryFilter}
+                  onChange={(_, data) => setDeliveryFilter(data.value)}
+                >
+                  <option value="">Любая</option>
+                  <option value="CARRIER">Курьер</option>
+                  <option value="NATIONWIDE">По Казахстану</option>
+                  <option value="PICKUP">Самовывоз</option>
+                </Select>
+              </Field>
+              <Field label="Наличие">
+                <Select
+                  value={stockFilter}
+                  onChange={(_, data) => setStockFilter(data.value)}
+                >
+                  <option value="true">Только в наличии</option>
+                  <option value="all">Все предложения</option>
+                </Select>
+              </Field>
+              <Field label="Бренд">
+                <Select
+                  value={brandFilter}
+                  onChange={(_, data) => setBrandFilter(data.value)}
+                >
+                  <option value="">Все бренды</option>
+                  {catalogBrands.map((brand) => (
+                    <option key={brand} value={brand}>
+                      {brand}
+                    </option>
+                  ))}
+                </Select>
+              </Field>
+              <Field label="Категория">
+                <Select
+                  value={categoryFilter}
+                  onChange={(_, data) => setCategoryFilter(data.value)}
+                >
+                  <option value="">Все категории</option>
+                  {catalogCategories.map((category) => (
+                    <option key={category} value={category}>
+                      {category}
+                    </option>
+                  ))}
+                </Select>
+              </Field>
+              <Field label="Цена от, ₸">
+                <Input
+                  type="number"
+                  min="0"
+                  value={minPriceFilter}
+                  onChange={(_, data) => setMinPriceFilter(data.value)}
+                  placeholder="0"
+                />
+              </Field>
+              <Field label="Цена до, ₸">
+                <Input
+                  type="number"
+                  min="0"
+                  value={maxPriceFilter}
+                  onChange={(_, data) => setMaxPriceFilter(data.value)}
+                  placeholder="без лимита"
+                />
+              </Field>
+              <Checkbox
+                checked={verifiedOnly}
+                onChange={(_, data) => setVerifiedOnly(Boolean(data.checked))}
+                label="Только с проверенными документами"
+              />
+              <Checkbox
+                checked={officialOnly}
+                onChange={(_, data) => setOfficialOnly(Boolean(data.checked))}
+                label="Только официальные дистрибьюторы"
+              />
+              <Button
+                appearance="subtle"
+                onClick={() => {
+                  setBrandFilter("");
+                  setCategoryFilter("");
+                  setMinPriceFilter("");
+                  setMaxPriceFilter("");
+                  setVerifiedOnly(false);
+                  setOfficialOnly(false);
+                  setUnitFilter("");
+                  setPackagingFilter("");
+                  setDeliveryFilter("");
+                  setStockFilter("true");
+                }}
+              >
+                Сбросить фильтры
+              </Button>
+            </div>
+          </details>
+        ) : null}
+        {!isPublic ? (
+          <div className={styles.resultsMeta}>
+            <span>
+              {visibleProducts.length}
+              {search && search.total > visibleProducts.length
+                ? ` из ${search.total}`
+                : ""}{" "}
+              {ruCount(
+                search?.total ?? visibleProducts.length,
+                "товар",
+                "товара",
+                "товаров",
+              )}{" "}
+              по запросу
+            </span>
+            <span>
+              {search?.interpretedQuery?.length
+                ? `Поняли как: ${search.interpretedQuery.join(", ")}`
+                : "Ищите по названию, бренду или артикулу"}
+            </span>
           </div>
-        </details> : null}
-        {!isPublic ? <div className={styles.resultsMeta}>
-          <span>{visibleProducts.length}{search && search.total > visibleProducts.length ? ` из ${search.total}` : ""} {ruCount(search?.total ?? visibleProducts.length, "товар", "товара", "товаров")} по запросу</span>
-          <span>
-            {search?.interpretedQuery?.length
-              ? `Поняли как: ${search.interpretedQuery.join(", ")}`
-              : "Ищите по названию, бренду или артикулу"}
-          </span>
-        </div> : null}
+        ) : null}
         {loading && isPublic ? (
           <LoadingState label="Загружаем предложения" />
         ) : !visibleProducts.length ? (
@@ -1581,62 +1977,125 @@ export default function BuyerWorkspace() {
                     aria-label={`Открыть карточку ${product.name}`}
                   >
                     <div className={styles.productVisual}>
-                    {productImage ? (
-                      <img
-                        src={productImage}
-                        alt={product.media?.[0]?.altText ?? product.name}
-                        loading="lazy"
-                        draggable={false}
-                        onContextMenu={(event) => event.preventDefault()}
-                      />
-                    ) : (
-                      <span className={styles.photoPending}>Фото<br />добавляем</span>
-                    )}
+                      {productImage ? (
+                        <img
+                          src={productImage}
+                          alt={product.media?.[0]?.altText ?? product.name}
+                          loading="lazy"
+                          draggable={false}
+                          onContextMenu={(event) => event.preventDefault()}
+                        />
+                      ) : (
+                        <span className={styles.photoPending}>
+                          Фото
+                          <br />
+                          добавляем
+                        </span>
+                      )}
                     </div>
                     <div className={styles.productIdentity}>
-                    <span className={styles.category}>
-                      {isPublic ? product.brand ?? product.categories[0]?.name ?? "DentMarket" : product.categories[0]?.name ?? "Стоматология"}
-                    </span>
-                    <h3>{product.name}</h3>
-                    {!isPublic ? <p>
-                      {[product.brand, product.manufacturer]
-                        .filter(Boolean)
-                        .join(" · ") ||
-                        (product.sourceUrl
-                          ? "Карточка DentMarket"
-                          : best?.verifiedDocuments === false
-                            ? "Внешний каталог · поставщик не верифицирован"
-                            : "Проверенная карточка каталога")}
-                    </p> : null}
-                    {product.reviewSummary?.count ? (
-                      <small className={styles.reviewSummary}>
-                        <Star16Filled aria-hidden="true" />{product.reviewSummary.averageRating?.toFixed(1)} ·{" "}
-                        {product.reviewSummary.count} {ruCount(product.reviewSummary.count, "отзыв", "отзыва", "отзывов")}
-                      </small>
-                    ) : (
-                      <small className={styles.reviewSummaryMuted}>
-                        Пока без отзывов
-                      </small>
-                    )}
+                      <span className={styles.category}>
+                        {isPublic
+                          ? (product.brand ??
+                            product.categories[0]?.name ??
+                            "DentMarket")
+                          : (product.categories[0]?.name ?? "Стоматология")}
+                      </span>
+                      <h3>{product.name}</h3>
+                      {!isPublic ? (
+                        <p>
+                          {[
+                            ...new Set(
+                              [product.brand, product.manufacturer].filter(
+                                Boolean,
+                              ),
+                            ),
+                          ].join(" · ") ||
+                            (product.sourceUrl
+                              ? "Карточка DentMarket"
+                              : best?.verifiedDocuments === false
+                                ? "Внешний каталог · поставщик не верифицирован"
+                                : "Проверенная карточка каталога")}
+                        </p>
+                      ) : null}
+                      {product.reviewSummary?.count ? (
+                        <small className={styles.reviewSummary}>
+                          <Star16Filled aria-hidden="true" />
+                          {product.reviewSummary.averageRating?.toFixed(
+                            1,
+                          )} · {product.reviewSummary.count}{" "}
+                          {ruCount(
+                            product.reviewSummary.count,
+                            "отзыв",
+                            "отзыва",
+                            "отзывов",
+                          )}
+                        </small>
+                      ) : (
+                        <small className={styles.reviewSummaryMuted}>
+                          Пока без отзывов
+                        </small>
+                      )}
                     </div>
                     <div className={styles.offerSummary}>
-                    <strong>
-                      {best
-                        ? `от ${formatMoney(best.priceMinor, best.currency ?? "KZT")}`
-                        : "Цена по запросу"}
-                    </strong>
-                    {normalizedPrice ? <span>от {formatMoney(normalizedPrice, best?.currency ?? "KZT")} за {best?.packaging.unit ?? "ед."}</span> : null}
-                    {isPublic ? <span>
-                      {product.offers.length} {ruCount(product.offers.length, "продавец", "продавца", "продавцов")}
-                    </span> : <span>
-                      {product.offers.length} {ruCount(product.offers.length, "предложение", "предложения", "предложений")} · {eligibleOffers.length} {ruCount(eligibleOffers.length, "готово", "готовы", "готовы")} к заказу
-                    </span>}
-                    {best ? (
-                      <small className={styles.deliveryHint}>
-                        {deliveryLabel(best.deliveryMethods)}
-                      </small>
-                    ) : null}
-                    {isPublic && promotion ? <small className={styles.dealLine}>У одного продавца скидка {promotion}%</small> : isPublic && priceDifference ? <small className={styles.dealLine}>Цена у продавцов отличается на {priceDifference}%</small> : null}
+                      <strong>
+                        {best
+                          ? `от ${formatMoney(best.priceMinor, best.currency ?? "KZT")}`
+                          : "Цена по запросу"}
+                      </strong>
+                      {normalizedPrice ? (
+                        <span>
+                          от{" "}
+                          {formatMoney(
+                            normalizedPrice,
+                            best?.currency ?? "KZT",
+                          )}{" "}
+                          за {best?.packaging.unit ?? "ед."}
+                        </span>
+                      ) : null}
+                      {isPublic ? (
+                        <span>
+                          {product.offers.length}{" "}
+                          {ruCount(
+                            product.offers.length,
+                            "продавец",
+                            "продавца",
+                            "продавцов",
+                          )}
+                        </span>
+                      ) : (
+                        <span>
+                          {product.offers.length}{" "}
+                          {ruCount(
+                            product.offers.length,
+                            "предложение",
+                            "предложения",
+                            "предложений",
+                          )}{" "}
+                          · {eligibleOffers.length}{" "}
+                          {ruCount(
+                            eligibleOffers.length,
+                            "готово",
+                            "готовы",
+                            "готовы",
+                          )}{" "}
+                          к заказу
+                        </span>
+                      )}
+                      {best ? (
+                        <small className={styles.deliveryHint}>
+                          {deliveryLabel(best.deliveryMethods)}
+                        </small>
+                      ) : null}
+                      {isPublic && promotion ? (
+                        <small className={styles.dealLine}>
+                          У одного продавца скидка {promotion}%
+                        </small>
+                      ) : isPublic && priceDifference ? (
+                        <small className={styles.dealLine}>
+                          Цена у продавцов отличается на {priceDifference}%
+                        </small>
+                      ) : null}
                     </div>
                   </a>
                   <div className={styles.productActions}>
@@ -1666,37 +2125,102 @@ export default function BuyerWorkspace() {
             })}
           </div>
         )}
-        {search && search.total > search.items.length ? <div className={styles.loadMore}><a className={styles.loadMoreLink} href={`/?q=${encodeURIComponent(query)}&offset=${search.items.length}`} onClick={(event) => { event.preventDefault(); void loadMoreProducts(); }}>{busy === "load-more" ? "Загружаем…" : "Показать ещё 60 товаров"}</a><small>Показано {search.items.length} из {search.total}</small></div> : null}
+        {search && search.total > search.items.length ? (
+          <div className={styles.loadMore}>
+            <a
+              className={styles.loadMoreLink}
+              href={`/?q=${encodeURIComponent(query)}&offset=${search.items.length}`}
+              onClick={(event) => {
+                event.preventDefault();
+                void loadMoreProducts();
+              }}
+            >
+              {busy === "load-more" ? "Загружаем…" : "Показать ещё 60 товаров"}
+            </a>
+            <small>
+              Показано {search.items.length} из {search.total}
+            </small>
+          </div>
+        ) : null}
       </Section>
       {isPublic && filtersOpen ? (
-        <div className={styles.filterBackdrop} role="presentation" onClick={() => setFiltersOpen(false)}>
-          <aside className={styles.filterDrawer} role="dialog" aria-modal="true" aria-labelledby="filter-title" onClick={(event) => event.stopPropagation()}>
+        <div
+          className={styles.filterBackdrop}
+          role="presentation"
+          onClick={() => setFiltersOpen(false)}
+        >
+          <aside
+            className={styles.filterDrawer}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="filter-title"
+            onClick={(event) => event.stopPropagation()}
+          >
             <header>
               <div>
                 <h2 id="filter-title">Фильтры</h2>
                 <p>Показываем условия для выбранного города.</p>
               </div>
-              <button type="button" onClick={() => setFiltersOpen(false)} aria-label="Закрыть фильтры"><Dismiss24Regular /></button>
+              <button
+                type="button"
+                onClick={() => setFiltersOpen(false)}
+                aria-label="Закрыть фильтры"
+              >
+                <Dismiss24Regular />
+              </button>
             </header>
             <div className={styles.filterDrawerBody}>
               <Field label="Категория">
-                <Select value={categoryFilter} onChange={(_, data) => setCategoryFilter(data.value)}>
+                <Select
+                  value={categoryFilter}
+                  onChange={(_, data) => setCategoryFilter(data.value)}
+                >
                   <option value="">Все категории</option>
-                  {catalogCategories.map((category) => <option key={category} value={category}>{category}</option>)}
+                  {catalogCategories.map((category) => (
+                    <option key={category} value={category}>
+                      {category}
+                    </option>
+                  ))}
                 </Select>
               </Field>
               <Field label="Бренд">
-                <Select value={brandFilter} onChange={(_, data) => setBrandFilter(data.value)}>
+                <Select
+                  value={brandFilter}
+                  onChange={(_, data) => setBrandFilter(data.value)}
+                >
                   <option value="">Все бренды</option>
-                  {catalogBrands.map((brand) => <option key={brand} value={brand}>{brand}</option>)}
+                  {catalogBrands.map((brand) => (
+                    <option key={brand} value={brand}>
+                      {brand}
+                    </option>
+                  ))}
                 </Select>
               </Field>
               <div className={styles.filterPriceRange}>
-                <Field label="Цена от, ₸"><Input type="number" min="0" value={minPriceFilter} onChange={(_, data) => setMinPriceFilter(data.value)} placeholder="0" /></Field>
-                <Field label="Цена до, ₸"><Input type="number" min="0" value={maxPriceFilter} onChange={(_, data) => setMaxPriceFilter(data.value)} placeholder="без лимита" /></Field>
+                <Field label="Цена от, ₸">
+                  <Input
+                    type="number"
+                    min="0"
+                    value={minPriceFilter}
+                    onChange={(_, data) => setMinPriceFilter(data.value)}
+                    placeholder="0"
+                  />
+                </Field>
+                <Field label="Цена до, ₸">
+                  <Input
+                    type="number"
+                    min="0"
+                    value={maxPriceFilter}
+                    onChange={(_, data) => setMaxPriceFilter(data.value)}
+                    placeholder="без лимита"
+                  />
+                </Field>
               </div>
               <Field label="Доставка">
-                <Select value={deliveryFilter} onChange={(_, data) => setDeliveryFilter(data.value)}>
+                <Select
+                  value={deliveryFilter}
+                  onChange={(_, data) => setDeliveryFilter(data.value)}
+                >
                   <option value="">Любая</option>
                   <option value="CARRIER">Курьер</option>
                   <option value="NATIONWIDE">По Казахстану</option>
@@ -1704,10 +2228,17 @@ export default function BuyerWorkspace() {
                 </Select>
               </Field>
               <Field label="Фасовка">
-                <Input value={packagingFilter} onChange={(_, data) => setPackagingFilter(data.value)} placeholder="например, 100 шт" />
+                <Input
+                  value={packagingFilter}
+                  onChange={(_, data) => setPackagingFilter(data.value)}
+                  placeholder="например, 100 шт"
+                />
               </Field>
               <Field label="Единица">
-                <Select value={unitFilter} onChange={(_, data) => setUnitFilter(data.value)}>
+                <Select
+                  value={unitFilter}
+                  onChange={(_, data) => setUnitFilter(data.value)}
+                >
                   <option value="">Любая</option>
                   <option value="шт">шт</option>
                   <option value="уп">упаковка</option>
@@ -1717,9 +2248,23 @@ export default function BuyerWorkspace() {
                 </Select>
               </Field>
               <div className={styles.filterChecks}>
-                <Checkbox checked={stockFilter === "true"} onChange={(_, data) => setStockFilter(data.checked ? "true" : "all")} label="Только в наличии" />
-                <Checkbox checked={verifiedOnly} onChange={(_, data) => setVerifiedOnly(Boolean(data.checked))} label="Документы проверены" />
-                <Checkbox checked={officialOnly} onChange={(_, data) => setOfficialOnly(Boolean(data.checked))} label="Официальный дистрибьютор" />
+                <Checkbox
+                  checked={stockFilter === "true"}
+                  onChange={(_, data) =>
+                    setStockFilter(data.checked ? "true" : "all")
+                  }
+                  label="Только в наличии"
+                />
+                <Checkbox
+                  checked={verifiedOnly}
+                  onChange={(_, data) => setVerifiedOnly(Boolean(data.checked))}
+                  label="Документы проверены"
+                />
+                <Checkbox
+                  checked={officialOnly}
+                  onChange={(_, data) => setOfficialOnly(Boolean(data.checked))}
+                  label="Официальный дистрибьютор"
+                />
               </div>
             </div>
             <footer>
@@ -1754,30 +2299,79 @@ export default function BuyerWorkspace() {
         </div>
       ) : null}
       {selectedProduct ? (
-        <div className={styles.productModalBackdrop} role="presentation" onClick={closeProduct}>
-          <section className={styles.productModal} role="dialog" aria-modal="true" aria-labelledby="product-detail-title" onClick={(event) => event.stopPropagation()}>
+        <div
+          className={styles.productModalBackdrop}
+          role="presentation"
+          onClick={closeProduct}
+        >
+          <section
+            className={styles.productModal}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="product-detail-title"
+            onClick={(event) => event.stopPropagation()}
+          >
             <header className={styles.productModalHeader}>
               <div>
-                <span className={styles.category}>{selectedProduct.categories[0]?.name ?? "Стоматология"}</span>
+                <span className={styles.category}>
+                  {selectedProduct.categories[0]?.name ?? "Стоматология"}
+                </span>
                 <h2 id="product-detail-title">{selectedProduct.name}</h2>
-                <p>{[selectedProduct.brand, selectedProduct.manufacturer].filter(Boolean).join(" · ")}</p>
+                <p>
+                  {[
+                    ...new Set(
+                      [
+                        selectedProduct.brand,
+                        selectedProduct.manufacturer,
+                      ].filter(Boolean),
+                    ),
+                  ].join(" · ")}
+                </p>
               </div>
-              <Button appearance="subtle" onClick={closeProduct} aria-label="Закрыть карточку">Закрыть</Button>
+              <Button
+                appearance="subtle"
+                onClick={closeProduct}
+                aria-label="Закрыть карточку"
+              >
+                Закрыть
+              </Button>
             </header>
             <div className={styles.productModalBody}>
-              <div className={styles.productModalVisual} onContextMenu={(event) => event.preventDefault()}>
-                {mediaSource(selectedProduct.media?.[0]) ? <img
-                  src={mediaSource(selectedProduct.media?.[0])!}
-                  alt={selectedProduct.media?.[0]?.altText ?? selectedProduct.name}
-                  draggable={false}
-                /> : <div className={styles.productModalPhotoPending}>Ищем точное фото товара</div>}
-                <small>{mediaSource(selectedProduct.media?.[0]) ? "Фото товара" : "Покажем фото только после проверки модели"}</small>
+              <div
+                className={styles.productModalVisual}
+                onContextMenu={(event) => event.preventDefault()}
+              >
+                {mediaSource(selectedProduct.media?.[0]) ? (
+                  <img
+                    src={mediaSource(selectedProduct.media?.[0])!}
+                    alt={
+                      selectedProduct.media?.[0]?.altText ??
+                      selectedProduct.name
+                    }
+                    draggable={false}
+                  />
+                ) : (
+                  <div className={styles.productModalPhotoPending}>
+                    Ищем точное фото товара
+                  </div>
+                )}
+                <small>
+                  {mediaSource(selectedProduct.media?.[0])
+                    ? "Фото товара"
+                    : "Покажем фото только после проверки модели"}
+                </small>
               </div>
               <div className={styles.productInfo}>
                 <div className={styles.productModalCopy}>
                   <h3>О товаре</h3>
-                  <p>{selectedProduct.description || "Проверяем состав и характеристики товара."}</p>
-                  <small>Описание проверено DentMarket. Цену, наличие и доставку указывает продавец.</small>
+                  <p>
+                    {selectedProduct.description ||
+                      "Проверяем состав и характеристики товара."}
+                  </p>
+                  <small>
+                    Описание проверено DentMarket. Цену, наличие и доставку
+                    указывает продавец.
+                  </small>
                   {selectedProduct.attributes?.length ? (
                     <dl className={styles.productAttributes}>
                       {selectedProduct.attributes.map(([label, value]) => (
@@ -1789,25 +2383,80 @@ export default function BuyerWorkspace() {
                     </dl>
                   ) : null}
                   {selectedProduct.sourceUrl ? (
-                    <a className={styles.productSourceLink} href={selectedProduct.sourceUrl} target="_blank" rel="noreferrer">
+                    <a
+                      className={styles.productSourceLink}
+                      href={selectedProduct.sourceUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Открыть подтверждение ↗
                     </a>
                   ) : null}
                 </div>
-                <aside className={styles.productFacts} aria-label="Сводка по товару">
-                  <span><strong>{selectedProduct.offers.length}</strong><small>{ruCount(selectedProduct.offers.length, "предложение", "предложения", "предложений")}</small></span>
-                  <span><strong>{selectedProduct.reviewSummary?.averageRating?.toFixed(1) ?? "Нет оценок"}</strong><small>{selectedProduct.reviewSummary?.count ?? 0} {ruCount(selectedProduct.reviewSummary?.count ?? 0, "отзыв", "отзыва", "отзывов")} клиник</small></span>
-                  <span><strong>{selectedProduct.offers.filter((offer) => offer.available && (offer.verifiedDocuments ?? true)).length}</strong><small>готовы к заказу</small></span>
+                <aside
+                  className={styles.productFacts}
+                  aria-label="Сводка по товару"
+                >
+                  <span>
+                    <strong>{selectedProduct.offers.length}</strong>
+                    <small>
+                      {ruCount(
+                        selectedProduct.offers.length,
+                        "предложение",
+                        "предложения",
+                        "предложений",
+                      )}
+                    </small>
+                  </span>
+                  <span>
+                    <strong>
+                      {selectedProduct.reviewSummary?.averageRating?.toFixed(
+                        1,
+                      ) ?? "Нет оценок"}
+                    </strong>
+                    <small>
+                      {selectedProduct.reviewSummary?.count ?? 0}{" "}
+                      {ruCount(
+                        selectedProduct.reviewSummary?.count ?? 0,
+                        "отзыв",
+                        "отзыва",
+                        "отзывов",
+                      )}{" "}
+                      клиник
+                    </small>
+                  </span>
+                  <span>
+                    <strong>
+                      {
+                        selectedProduct.offers.filter(
+                          (offer) =>
+                            offer.available &&
+                            (offer.verifiedDocuments ?? true),
+                        ).length
+                      }
+                    </strong>
+                    <small>готовы к заказу</small>
+                  </span>
                 </aside>
               </div>
-              <section className={styles.sellerSection} aria-labelledby="seller-list-title">
+              <section
+                className={styles.sellerSection}
+                aria-labelledby="seller-list-title"
+              >
                 <div className={styles.sellerSectionHeader}>
                   <div>
-                    <span className={styles.category}>Предложения поставщиков</span>
+                    <span className={styles.category}>
+                      Предложения поставщиков
+                    </span>
                     <h3 id="seller-list-title">Выберите продавца</h3>
-                    <p>Порядок учитывает наличие, проверку документов, доставку и итоговую цену.</p>
+                    <p>
+                      Порядок учитывает наличие, проверку документов, доставку и
+                      итоговую цену.
+                    </p>
                   </div>
-                  <span className={styles.rankingNote}>Цена указана за фасовку</span>
+                  <span className={styles.rankingNote}>
+                    Цена указана за фасовку
+                  </span>
                 </div>
                 {busy === `compare:${selectedProduct.id}` && !comparison ? (
                   <LoadingState label="Собираем предложения поставщиков" />
@@ -1820,49 +2469,125 @@ export default function BuyerWorkspace() {
                 ) : (
                   <div className={styles.sellerList}>
                     <div className={styles.sellerListHead} aria-hidden="true">
-                      <span>Поставщик</span><span>Цена</span><span>Доставка и наличие</span><span>Надёжность</span><span />
+                      <span>Поставщик</span>
+                      <span>Цена</span>
+                      <span>Доставка и наличие</span>
+                      <span>Надёжность</span>
+                      <span />
                     </div>
                     {rankedComparisonOffers.map((offer, index) => {
                       const available = isCompareOfferAvailable(offer);
-                      const trustScore = supplierTrust[offer.supplier.organizationId]?.score;
-                      const recommended = index === 0 && available && offer.markers.verifiedDocuments;
-                      const deliveryMethods = offer.delivery.map(({ method }) => method);
-                      const leadTime = offer.delivery.find(({ maxLeadTimeHours }) => maxLeadTimeHours != null)?.maxLeadTimeHours;
+                      const trustScore =
+                        supplierTrust[offer.supplier.organizationId]?.score;
+                      const recommended =
+                        index === 0 &&
+                        available &&
+                        offer.markers.verifiedDocuments;
+                      const deliveryMethods = offer.delivery.map(
+                        ({ method }) => method,
+                      );
+                      const leadTime = offer.delivery.find(
+                        ({ maxLeadTimeHours }) => maxLeadTimeHours != null,
+                      )?.maxLeadTimeHours;
                       return (
-                        <article className={recommended ? styles.sellerRowRecommended : styles.sellerRow} key={offer.offerId}>
+                        <article
+                          className={
+                            recommended
+                              ? styles.sellerRowRecommended
+                              : styles.sellerRow
+                          }
+                          key={offer.offerId}
+                        >
                           <div className={styles.sellerIdentity}>
                             <div className={styles.sellerNameLine}>
                               <strong>{offer.supplier.name}</strong>
-                              {recommended ? <span className={styles.recommendedBadge}>Рекомендуем</span> : null}
+                              {recommended ? (
+                                <span className={styles.recommendedBadge}>
+                                  Рекомендуем
+                                </span>
+                              ) : null}
                             </div>
-                            {offer.supplierSku ? <small>Артикул {offer.supplierSku}</small> : null}
+                            {offer.supplierSku ? (
+                              <small>Артикул {offer.supplierSku}</small>
+                            ) : null}
                             <div className={styles.sellerMarkers}>
-                              {offer.markers.verifiedDocuments ? <StatusTag tone="success">Документы проверены</StatusTag> : <StatusTag tone="warning">Документы на проверке</StatusTag>}
-                              {offer.markers.officialDistributor ? <StatusTag tone="info">Официальный дистрибьютор</StatusTag> : null}
-                              {offer.markers.supplierWarranty ? <StatusTag tone="neutral">Гарантия</StatusTag> : null}
+                              {offer.markers.verifiedDocuments ? (
+                                <StatusTag tone="success">
+                                  Документы проверены
+                                </StatusTag>
+                              ) : (
+                                <StatusTag tone="warning">
+                                  Документы на проверке
+                                </StatusTag>
+                              )}
+                              {offer.markers.officialDistributor ? (
+                                <StatusTag tone="info">
+                                  Официальный дистрибьютор
+                                </StatusTag>
+                              ) : null}
+                              {offer.markers.supplierWarranty ? (
+                                <StatusTag tone="neutral">Гарантия</StatusTag>
+                              ) : null}
                             </div>
                           </div>
                           <div className={styles.sellerPrice}>
-                            <strong>{formatMoney(offer.price.amountMinor, offer.price.currency)}</strong>
-                            <small>{formatMoney(offer.price.normalizedPriceMinor, offer.price.currency)} за {offer.price.normalizedUnit}</small>
+                            <strong>
+                              {formatMoney(
+                                offer.price.amountMinor,
+                                offer.price.currency,
+                              )}
+                            </strong>
+                            <small>
+                              {formatMoney(
+                                offer.price.normalizedPriceMinor,
+                                offer.price.currency,
+                              )}{" "}
+                              за {offer.price.normalizedUnit}
+                            </small>
                             <small>{offer.packaging.name}</small>
                           </div>
                           <div className={styles.sellerDelivery}>
-                            <strong className={available ? styles.availableText : styles.pendingText}>{available ? "В наличии" : "Требует подтверждения"}</strong>
+                            <strong
+                              className={
+                                available
+                                  ? styles.availableText
+                                  : styles.pendingText
+                              }
+                            >
+                              {available
+                                ? "В наличии"
+                                : "Требует подтверждения"}
+                            </strong>
                             <span>{deliveryLabel(deliveryMethods)}</span>
-                            {leadTime != null ? <small>до {Math.ceil(leadTime / 24)} дн.</small> : null}
+                            {leadTime != null ? (
+                              <small>до {Math.ceil(leadTime / 24)} дн.</small>
+                            ) : null}
                           </div>
                           <div className={styles.sellerTrust}>
-                            <strong>{trustScore != null ? `${Number(trustScore).toFixed(0)}/100` : "Нет истории"}</strong>
-                            <small>{offer.markers.verifiedDocuments ? "Документы актуальны" : "Документы проверяются"}</small>
+                            <strong>
+                              {trustScore != null
+                                ? `${Number(trustScore).toFixed(0)}/100`
+                                : "Нет истории"}
+                            </strong>
+                            <small>
+                              {offer.markers.verifiedDocuments
+                                ? "Документы актуальны"
+                                : "Документы проверяются"}
+                            </small>
                           </div>
                           <Button
                             appearance={recommended ? "primary" : "secondary"}
                             icon={<Cart24Regular />}
                             onClick={() => void addToCart(offer.offerId)}
-                            disabled={busy === `cart:${offer.offerId}` || !available || !offer.markers.verifiedDocuments}
+                            disabled={
+                              busy === `cart:${offer.offerId}` ||
+                              !available ||
+                              !offer.markers.verifiedDocuments
+                            }
                           >
-                            {!available || !offer.markers.verifiedDocuments ? "Недоступно" : "В корзину"}
+                            {!available || !offer.markers.verifiedDocuments
+                              ? "Недоступно"
+                              : "В корзину"}
                           </Button>
                         </article>
                       );
@@ -1873,13 +2598,20 @@ export default function BuyerWorkspace() {
               <section className={styles.productReviews}>
                 <h4>Отзывы клиник</h4>
                 {!productReviews?.reviews.length ? (
-                  <p>Подтверждённых отзывов пока нет. Они появляются после реальных заказов.</p>
+                  <p>
+                    Подтверждённых отзывов пока нет. Они появляются после
+                    реальных заказов.
+                  </p>
                 ) : (
                   productReviews.reviews.slice(0, 5).map((review) => (
                     <article key={review.id}>
                       <strong>{review.overallRating} ★</strong>
                       <span>{review.comment || "Оценка без комментария"}</span>
-                      {review.officialResponse ? <small>Ответ поставщика: {review.officialResponse}</small> : null}
+                      {review.officialResponse ? (
+                        <small>
+                          Ответ поставщика: {review.officialResponse}
+                        </small>
+                      ) : null}
                     </article>
                   ))
                 )}
@@ -2292,12 +3024,14 @@ export default function BuyerWorkspace() {
           searching={busy === "search"}
           onQueryChange={(value) => {
             setQuery(value);
-            setSearch(fallbackSearch(value, sort, {
-              unit: unitFilter,
-              packaging: packagingFilter,
-              delivery: deliveryFilter,
-              stock: "all",
-            }));
+            setSearch(
+              fallbackSearch(value, sort, {
+                unit: unitFilter,
+                packaging: packagingFilter,
+                delivery: deliveryFilter,
+                stock: "all",
+              }),
+            );
           }}
           onSearch={() => void submitSearchFor(query)}
         />
@@ -2334,8 +3068,7 @@ export default function BuyerWorkspace() {
       }
       onLogout={handoff ? () => void logout() : undefined}
       onNavigate={(item) => {
-        if (!handoff && item !== "catalog")
-          window.location.assign(LOGIN_URL);
+        if (!handoff && item !== "catalog") window.location.assign(LOGIN_URL);
         else setActive(item);
       }}
       actions={
@@ -2343,14 +3076,33 @@ export default function BuyerWorkspace() {
           <>
             <Menu>
               <MenuTrigger disableButtonEnhancement>
-                <Button appearance="subtle" icon={<MoreHorizontal24Regular />}>Сервисы</Button>
+                <Button appearance="subtle" icon={<MoreHorizontal24Regular />}>
+                  Сервисы
+                </Button>
               </MenuTrigger>
               <MenuPopover>
                 <MenuList>
-                  <MenuItem icon={<Location24Regular />} onClick={() => setActive("smart-commerce")}>Рекомендации по городу</MenuItem>
-                  <MenuItem icon={<Bot24Regular />} onClick={() => setActive("assistant")}>AI-помощник</MenuItem>
-                  <MenuItem icon={<PersonSupport24Regular />} onClick={() => setActive("support")}>Поддержка</MenuItem>
-                  <MenuItem onClick={() => window.location.assign("/about")}>О DentMarket</MenuItem>
+                  <MenuItem
+                    icon={<Location24Regular />}
+                    onClick={() => setActive("smart-commerce")}
+                  >
+                    Рекомендации по городу
+                  </MenuItem>
+                  <MenuItem
+                    icon={<Bot24Regular />}
+                    onClick={() => setActive("assistant")}
+                  >
+                    AI-помощник
+                  </MenuItem>
+                  <MenuItem
+                    icon={<PersonSupport24Regular />}
+                    onClick={() => setActive("support")}
+                  >
+                    Поддержка
+                  </MenuItem>
+                  <MenuItem onClick={() => window.location.assign("/about")}>
+                    О DentMarket
+                  </MenuItem>
                 </MenuList>
               </MenuPopover>
             </Menu>
@@ -2362,7 +3114,12 @@ export default function BuyerWorkspace() {
             />
           </>
         ) : (
-          <Button appearance="primary" onClick={() => window.location.assign(LOGIN_URL)}>Войти</Button>
+          <Button
+            appearance="primary"
+            onClick={() => window.location.assign(LOGIN_URL)}
+          >
+            Войти
+          </Button>
         )
       }
     >
