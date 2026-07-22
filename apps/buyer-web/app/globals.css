@@ -1,1 +1,19 @@
 body { font-family: var(--font-sans), sans-serif; }
+
+/* Keep the authenticated catalog in the same DentMarket visual world as the
+   public store. Fluent remains the component foundation, but the shell uses
+   the store's forest/ivory palette instead of the default blue dashboard look. */
+.mp-provider {
+  --colorBrandBackground: #234d41;
+  --colorBrandBackgroundHover: #173d32;
+  --colorBrandBackgroundPressed: #173d32;
+  --colorBrandBackground2: #e8f1ed;
+  --colorBrandForeground1: #234d41;
+  --colorBrandForeground2: #527568;
+  --colorBrandStroke1: #527568;
+  background: #f4f1eb;
+}
+.mp-shell { background: #f4f1eb; color: #17201e; }
+.mp-sidebar, .mp-section, .mp-metric, .mp-topbar { background: #fffdf9; }
+.mp-sidebar { border-right-color: #dfe6e2; }
+.mp-topbar { border-bottom-color: #dfe6e2; }

@@ -458,6 +458,39 @@ const fallbackSearch = (
   };
 };
 
+const catalogTextKey = (value: string) =>
+  value
+    .trim()
+    .toLocaleLowerCase("ru")
+    .replace(/ё/g, "е")
+    .replace(/[^a-zа-я0-9]+/gi, " ")
+    .trim();
+
+const mergePrivateCatalog = (
+  live: SearchResult,
+  query: string,
+  sort: string,
+  filters: { unit?: string; packaging?: string; delivery?: string; stock?: string },
+) => {
+  const fallback = fallbackSearch(query, sort, filters, 60);
+  // The authenticated endpoint may contain only currently published offers.
+  // The clinic must still browse the same canonical catalog as a guest; live
+  // offers are overlaid on matching cards when they exist.
+  if (live.total >= fallback.total || fallback.total === 0) return live;
+  const liveByName = new Map(live.items.map((item) => [catalogTextKey(item.name), item]));
+  return {
+    ...fallback,
+    total: Math.max(fallback.total, live.total),
+    items: fallback.items.map((item) => {
+      const liveItem = liveByName.get(catalogTextKey(item.name));
+      return liveItem
+        ? { ...item, ...liveItem, media: liveItem.media?.length ? liveItem.media : item.media }
+        : item;
+    }),
+    facets: live.facets?.categories?.length || live.facets?.suppliers?.length ? live.facets : fallback.facets,
+  };
+};
+
 async function fetchPublicCatalogSearch(
   query: string,
   sort: string,
@@ -913,7 +946,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         buyerOrganizationId: buyerId,
         q: canonicalSearchQuery(nextQuery),
         sort: nextSort,
-        limit: "24",
+        limit: "60",
       });
       if (stockFilter !== "all") params.set("inStock", stockFilter);
       if (unitFilter) params.set("unit", unitFilter);
@@ -951,7 +984,14 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
             publicParams,
           );
           if (live) {
-            setSearch(live);
+            setSearch(
+              mergePrivateCatalog(live, nextQuery, nextSort, {
+                unit: unitFilter,
+                packaging: packagingFilter,
+                delivery: deliveryFilter,
+                stock: stockFilter,
+              }),
+            );
             return;
           }
         } catch {
@@ -969,10 +1009,16 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       }
       const params = buildSearchParams(nextQuery, nextSort);
       try {
+        const live = await api.get<SearchResult>(
+          `${handoff ? "/marketplace" : "/catalog"}/search?${params}`,
+        );
         setSearch(
-          await api.get<SearchResult>(
-            `${handoff ? "/marketplace" : "/catalog"}/search?${params}`,
-          ),
+          mergePrivateCatalog(live, nextQuery, nextSort, {
+            unit: unitFilter,
+            packaging: packagingFilter,
+            delivery: deliveryFilter,
+            stock: "all",
+          }),
         );
       } catch (cause) {
         setSearch(
@@ -1047,7 +1093,14 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
           `/notifications/organizations/${buyerId}?limit=100`,
         ),
       ]);
-      setSearch(searchResult);
+      setSearch(
+        mergePrivateCatalog(searchResult, query, sort, {
+          unit: unitFilter,
+          packaging: packagingFilter,
+          delivery: deliveryFilter,
+          stock: "all",
+        }),
+      );
       setCarts(cartResult);
       setOrders(orderResult);
       setDocuments(documentResult);
@@ -1132,11 +1185,20 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       const params = buildSearchParams(query, sort);
       params.set("offset", String(currentCount));
       params.set("limit", "60");
-      const next = await api.get<SearchResult>(`/marketplace/search?${params}`);
-      setSearch((previous) =>
-        previous
-          ? { ...next, items: [...previous.items, ...next.items] }
-          : next,
+      // Continue through the canonical catalog even when the authenticated
+      // endpoint has fewer published offers than the catalog itself.
+      setSearch(
+        fallbackSearch(
+          query,
+          sort,
+          {
+            unit: unitFilter,
+            packaging: packagingFilter,
+            delivery: deliveryFilter,
+            stock: "all",
+          },
+          currentCount + 60,
+        ),
       );
     } catch {
       setSearch(

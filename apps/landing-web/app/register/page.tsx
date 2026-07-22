@@ -270,7 +270,7 @@ export default function RegisterPage() {
     return (
       <main className="registrationPage">
         <section className="registrationSuccess">
-          <a className="brand" href="/">
+          <a className="brand" href={buyerAppUrl}>
             <span>DM</span>
             <strong>
               DentMarket <small>KZ</small>
@@ -319,7 +319,7 @@ export default function RegisterPage() {
         strategy="afterInteractive"
       />
       <aside className="registrationAside">
-        <a className="brand" href="/">
+        <a className="brand" href={buyerAppUrl}>
           <span>DM</span>
           <strong>
             DentMarket <small>KZ</small>
@@ -344,8 +344,8 @@ export default function RegisterPage() {
         </ol>
       </aside>
       <section className="registrationCard">
-        <a className="backLink" href="/">
-          ← На главную
+        <a className="backLink" href={buyerAppUrl}>
+          ← В магазин
         </a>
         {!registration ? (
           <>
