@@ -1,5 +1,6 @@
 generator client {
   provider = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-3.0.x"]
 }
 
 datasource db {
@@ -1355,6 +1356,8 @@ model CategoryAttributeRule {
 model Product {
   id                 String                  @id @default(uuid()) @db.Uuid
   canonicalName      String
+  description        String?
+  descriptionSources Json?
   slug               String                  @unique
   brandId            String?                 @db.Uuid
   manufacturerId     String?                 @db.Uuid
@@ -1373,6 +1376,7 @@ model Product {
   categories         ProductCategory[]
   industries         ProductIndustry[]
   attributeValues    ProductAttributeValue[]
+  media              ProductMedia[]
   searchDocument     ProductSearchDocument?
   approvedCandidates ProductCandidate[]
   createdAt          DateTime                @default(now())
@@ -1380,6 +1384,30 @@ model Product {
 
   @@index([canonicalName])
   @@index([gtin])
+}
+
+model ProductMedia {
+  id                   String   @id @default(uuid()) @db.Uuid
+  productId            String   @db.Uuid
+  sourceUrl            String?
+  originalStorageKey   String?
+  normalizedStorageKey String?
+  originalName         String?
+  mimeType             String?
+  checksumSha256       String?
+  width                Int?
+  height               Int?
+  background           String   @default("#F7F8FA")
+  status               String   @default("PENDING")
+  altText              String?
+  sortOrder            Int      @default(0)
+  metadata             Json?
+  product              Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+
+  @@index([productId, status, sortOrder])
+  @@index([checksumSha256])
 }
 
 model ProductVariant {
@@ -1592,7 +1620,7 @@ model SupplierDataSource {
   name                   String
   type                   SupplierDataSourceType
   configuration          Json?
-  encryptedConfiguration String?                @db.Text
+  encryptedConfiguration String?                 @db.Text
   status                 RecordStatus            @default(ACTIVE)
   supplier               SupplierProfile         @relation(fields: [supplierOrganizationId], references: [organizationId], onDelete: Cascade)
   importBatches          ImportBatch[]
@@ -3886,14 +3914,14 @@ model AuditLog {
 }
 
 model SearchQueryEvent {
-  id             String   @id @default(uuid()) @db.Uuid
-  actorId        String?
-  organizationId String?
-  query          String
+  id              String   @id @default(uuid()) @db.Uuid
+  actorId         String?
+  organizationId  String?
+  query           String
   normalizedQuery String
-  matchedAliases String[] @default([])
-  resultCount    Int
-  createdAt      DateTime @default(now())
+  matchedAliases  String[] @default([])
+  resultCount     Int
+  createdAt       DateTime @default(now())
 
   @@index([createdAt])
   @@index([normalizedQuery, createdAt])

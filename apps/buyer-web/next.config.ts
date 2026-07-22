@@ -7,9 +7,21 @@ const nextConfig: NextConfig = {
   allowedDevOrigins: ["127.0.0.1"],
   reactStrictMode: true,
   async headers() {
-    return [{ source: "/(.*)", headers: securityHeaders() }];
+    return [
+      { source: "/catalog/products/:path*", headers: productImageHeaders() },
+      { source: "/(.*)", headers: securityHeaders() },
+    ];
   },
 };
+
+function productImageHeaders() {
+  return [
+    { key: "Content-Disposition", value: "inline" },
+    { key: "X-Content-Type-Options", value: "nosniff" },
+    { key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" },
+    { key: "Cross-Origin-Resource-Policy", value: "same-origin" },
+  ];
+}
 
 function securityHeaders() {
   const apiOrigin = (() => {

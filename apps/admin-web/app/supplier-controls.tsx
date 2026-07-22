@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useCallback, useEffect, useState } from "react";
+import { formatAdminStatus } from "./admin-labels";
 import styles from "./supplier-controls.module.css";
 import { adminAuthHeaders } from "./admin-auth";
 
@@ -421,7 +422,7 @@ export function SupplierControls() {
             <header>
               <b>01</b>
               <div>
-                <h3>Product candidates</h3>
+                <h3>Новые карточки товаров</h3>
                 <p>{pending.length} ожидают решения</p>
               </div>
             </header>
@@ -490,7 +491,7 @@ export function SupplierControls() {
                   <div>
                     <strong>{candidate.proposedName}</strong>
                     <small>
-                      {candidate.externalItem.externalId} · {candidate.status}
+                      {candidate.externalItem.externalId}. {formatAdminStatus(candidate.status)}
                     </small>
                   </div>
                   {candidate.status === "PENDING" ? (
@@ -513,7 +514,7 @@ export function SupplierControls() {
             <header>
               <b>02</b>
               <div>
-                <h3>Pricing resolver</h3>
+                <h3>Расчёт цены</h3>
                 <p>Contract → tier → base</p>
               </div>
             </header>
@@ -601,7 +602,7 @@ export function SupplierControls() {
               <button>Рассчитать</button>
               {decision && (
                 <output>
-                  {decision.source}: {decision.amountMinor ?? "—"}{" "}
+                  {decision.source}: {decision.amountMinor ?? "Нет данных"}{" "}
                   {decision.currency ?? ""}
                 </output>
               )}
@@ -624,7 +625,7 @@ export function SupplierControls() {
             <header>
               <b>03</b>
               <div>
-                <h3>Inventory freshness</h3>
+                <h3>Актуальность остатков</h3>
                 <p>Автопауза устаревших публикаций</p>
               </div>
             </header>
@@ -651,7 +652,7 @@ export function SupplierControls() {
                     <small>Доступно {balance.quantityAvailable}</small>
                   </div>
                   <em data-status={balance.freshnessStatus}>
-                    {balance.freshnessStatus}
+                    {formatAdminStatus(balance.freshnessStatus)}
                   </em>
                 </div>
               ))}
@@ -662,7 +663,7 @@ export function SupplierControls() {
             <header>
               <b>04</b>
               <div>
-                <h3>Lot recalls</h3>
+                <h3>Отзыв партий</h3>
                 <p>Блокировка партии и impacted reservations</p>
               </div>
             </header>
@@ -678,7 +679,7 @@ export function SupplierControls() {
                     )
                     .map((lot) => (
                       <option key={lot.id} value={lot.id}>
-                        {lot.lotNumber} · {lot.status} · {lot.quantityAvailable}
+                        {lot.lotNumber}. {formatAdminStatus(lot.status)}. {lot.quantityAvailable}
                       </option>
                     ))}
                 </select>
@@ -711,10 +712,10 @@ export function SupplierControls() {
                 <div className={styles.record} key={recall.id}>
                   <div>
                     <strong>
-                      {recall.inventoryLot.lotNumber} · {recall.severity}
+                      {recall.inventoryLot.lotNumber}. {formatAdminStatus(recall.severity)}
                     </strong>
                     <small>
-                      {recall.reason} · {recall.status}
+                      {recall.reason}. {formatAdminStatus(recall.status)}
                     </small>
                   </div>
                   {recall.status === "ACTIVE" ? (

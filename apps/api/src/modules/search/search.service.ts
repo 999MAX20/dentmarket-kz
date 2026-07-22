@@ -6,12 +6,13 @@ import { expandDentalSearchQuery } from "./dental-search-lexicon";
 import { SearchAnalyticsService } from "./search-analytics.service";
 import { resolvePriceRules } from "../pricing/price-resolver";
 import type { SupplierActorContext } from "../suppliers/supplier-access.service";
+import { MediaAccessService } from "../../platform/storage/media-access.service";
 
 type SearchRow = { productId: string; rank: number };
 
 @Injectable()
 export class SearchService {
-  constructor(private readonly prisma: PrismaService, private readonly analytics: SearchAnalyticsService) {}
+  constructor(private readonly prisma: PrismaService, private readonly analytics: SearchAnalyticsService, private readonly mediaAccess: MediaAccessService) {}
 
   private async assertBuyer(buyerOrganizationId: string, context: SupplierActorContext) {
     const operator = Boolean(await this.prisma.organizationCapability.findUnique({ where: { organizationId_capability: { organizationId: context.organizationId, capability: "MARKETPLACE_OPERATOR" } } }));
@@ -134,6 +135,7 @@ export class SearchService {
       manufacturer: true,
       baseUnit: true,
       categories: { include: { category: true } },
+      media: { where: { status: "READY" }, orderBy: { sortOrder: "asc" } },
       industries: { include: { industry: true } },
       attributeValues: { include: { attribute: true } },
       searchDocument: true,
@@ -181,7 +183,7 @@ export class SearchService {
       confirmationMode: offer.confirmationMode,
       deliveryMethods: offer.deliveryOptions.map(({ method }) => method),
     })));
-    return { id: product.id, slug: product.slug, name: product.canonicalName, brand: product.brand?.name ?? null, manufacturer: product.manufacturer?.name ?? null, productType: product.productType, regulatoryClass: product.regulatoryClass, categories: product.categories.map(({ category }) => ({ id: category.id, name: category.nameRu })), minNormalizedPriceMinor: product.searchDocument?.minNormalizedPriceMinor?.toString() ?? null, maxNormalizedPriceMinor: product.searchDocument?.maxNormalizedPriceMinor?.toString() ?? null, isAvailable: product.searchDocument?.isAvailable ?? false, reviewSummary: this.productReviewSummary(product.variants.map(({ id }) => id), reviewSummaries), rank, offers };
+    return { id: product.id, slug: product.slug, name: product.canonicalName, description: product.description, descriptionSources: product.descriptionSources, brand: product.brand?.name ?? null, manufacturer: product.manufacturer?.name ?? null, productType: product.productType, regulatoryClass: product.regulatoryClass, media: product.media.map((media) => ({ id: media.id, sourceUrl: media.sourceUrl, securePath: media.normalizedStorageKey ? `/catalog/media/${media.id}?ticket=${this.mediaAccess.issue(media.id).token}` : null, normalizedStorageKey: media.normalizedStorageKey, altText: media.altText, width: media.width, height: media.height, metadata: media.metadata })), categories: product.categories.map(({ category }) => ({ id: category.id, name: category.nameRu })), minNormalizedPriceMinor: product.searchDocument?.minNormalizedPriceMinor?.toString() ?? null, maxNormalizedPriceMinor: product.searchDocument?.maxNormalizedPriceMinor?.toString() ?? null, isAvailable: product.searchDocument?.isAvailable ?? false, reviewSummary: this.productReviewSummary(product.variants.map(({ id }) => id), reviewSummaries), rank, offers };
   }
 
   private aggregateFacets(items: Array<ReturnType<SearchService["toSearchItem"]>>) {

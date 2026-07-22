@@ -230,7 +230,7 @@ export function CommerceSkeleton() {
       setMessage("");
     } catch (error) {
       setMessage(
-        error instanceof Error ? error.message : "Торговый контур недоступен.",
+        error instanceof Error ? error.message : "Не удалось загрузить данные заказов.",
       );
     } finally {
       setLoading(false);
@@ -292,7 +292,7 @@ export function CommerceSkeleton() {
           method: "POST",
           body: JSON.stringify({ offerId, quantity }),
         }),
-      "Цена зафиксирована в snapshot корзины.",
+      "Цена зафиксирована в корзине.",
     );
   }
 
@@ -359,7 +359,7 @@ export function CommerceSkeleton() {
           method: "POST",
           body: JSON.stringify({ idempotencyKey: `capture-ui-${payment.id}` }),
         }),
-      "Mock capture завершён, ledger записан без изменения истории.",
+      "Тестовый платёж подтверждён, операция добавлена в журнал без изменения истории.",
     );
   }
 
@@ -388,7 +388,7 @@ export function CommerceSkeleton() {
             idempotencyKey: `authorize-ui-${payment.id}`,
           }),
         }),
-      "Сумма авторизована у provider adapter.",
+      "Платёжный провайдер подтвердил сумму.",
     );
   }
 
@@ -410,7 +410,7 @@ export function CommerceSkeleton() {
             idempotencyKey: `refund-ui-${allocationId}-${Date.now()}`,
           }),
         }),
-      "Возврат проведён компенсирующими ledger entries.",
+      "Возврат проведён отдельными записями в журнале операций.",
     );
   }
 
@@ -442,9 +442,9 @@ export function CommerceSkeleton() {
     >
       <div className={styles.heading}>
         <div>
-          <h2>Заказ от корзины до ledger</h2>
+          <h2>Заказ, платёж и расчёты</h2>
           <p>
-            Один проверяемый путь: pricing snapshot, split по поставщикам,
+            Один проверяемый путь: фиксация цены, разделение по поставщикам,
             резерв, подтверждение и capture.
           </p>
         </div>
@@ -523,7 +523,7 @@ export function CommerceSkeleton() {
               <header className={styles.blockHeader}>
                 <div>
                   <h3>Офферы и корзина</h3>
-                  <p>Количество повторно проверяется при checkout.</p>
+                  <p>Количество повторно проверяется при оформлении заказа.</p>
                 </div>
                 {!activeCart && (
                   <Button
@@ -594,7 +594,7 @@ export function CommerceSkeleton() {
               <div className={styles.cartBlock}>
                 <div className={styles.cartTitle}>
                   <div>
-                    <h3>Pricing snapshot</h3>
+                    <h3>Зафиксированная цена</h3>
                     <p>
                       {activeCart
                         ? `Корзина ${activeCart.id.slice(0, 8)}`
@@ -627,7 +627,7 @@ export function CommerceSkeleton() {
                   </div>
                 ) : (
                   <div className={styles.empty}>
-                    Добавьте офферы двух поставщиков, чтобы увидеть split.
+                    Добавьте предложения двух поставщиков, чтобы увидеть разделение заказа.
                   </div>
                 )}
                 {activeCart && (
@@ -655,7 +655,7 @@ export function CommerceSkeleton() {
               <div className={styles.orderBlock}>
                 <header className={styles.blockHeader}>
                   <div>
-                    <h3>Supplier orders</h3>
+                    <h3>Заказы поставщикам</h3>
                     <p>
                       {checkout
                         ? `${money(checkout.totalAmountMinor, checkout.currency)} до подтверждения`
@@ -722,7 +722,7 @@ export function CommerceSkeleton() {
               <div className={styles.paymentBlock}>
                 <header className={styles.blockHeader}>
                   <div>
-                    <h3>Payment allocations</h3>
+                    <h3>Распределение платежа</h3>
                     <p>Комиссия платформы 2%, остаток к выплате поставщику.</p>
                   </div>
                   <Money20Regular />
@@ -841,7 +841,7 @@ export function CommerceSkeleton() {
 
               <div className={styles.ledgerBlock}>
                 <header>
-                  <h3>Payouts и сверка</h3>
+                  <h3>Выплаты и сверка</h3>
                   <span>
                     {reconciliation[0]
                       ? statusLabel(reconciliation[0].status)
@@ -884,7 +884,7 @@ export function CommerceSkeleton() {
 
               <div className={styles.ledgerBlock}>
                 <header>
-                  <h3>Ledger</h3>
+                  <h3>Журнал операций</h3>
                   <span>{ledger.length} последних записей</span>
                 </header>
                 {ledger.length === 0 ? (

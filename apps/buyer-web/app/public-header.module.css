@@ -1,0 +1,141 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 0 clamp(20px, 5vw, 72px);
+  border-bottom: 1px solid rgb(23 32 30 / 13%);
+  background: rgb(255 253 249 / 94%);
+  backdrop-filter: blur(18px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  margin-right: 6px;
+  color: #17201e;
+  text-decoration: none;
+}
+
+.mark {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  background: #234d41;
+  color: #fffdf9;
+  font-size: 13px;
+  font-weight: 850;
+  letter-spacing: -.05em;
+}
+
+.brandCopy {
+  display: grid;
+  gap: 2px;
+}
+
+.brandCopy strong {
+  font-size: 15px;
+  letter-spacing: -.025em;
+}
+
+.brandCopy small {
+  color: #65706c;
+  font-size: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-right: auto;
+}
+
+.nav a {
+  padding: 8px 0;
+  color: #65706c;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav .active {
+  color: #234d41;
+}
+
+.nav .active {
+  font-weight: 750;
+}
+
+.login {
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border-radius: 6px;
+  background: #17201e;
+  color: #fffdf9;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform 160ms ease, background-color 160ms ease;
+}
+
+.login:hover {
+  background: #234d41;
+  transform: translateY(-1px);
+}
+
+.login:active {
+  transform: translateY(1px);
+}
+
+.brand:focus-visible,
+.nav a:focus-visible,
+.login:focus-visible {
+  outline: 3px solid #9fc5b7;
+  outline-offset: 3px;
+}
+
+@media (max-width: 760px) {
+  .header {
+    min-height: 68px;
+    gap: 16px;
+    padding: 0 16px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .brand {
+    margin-right: auto;
+  }
+
+  .brandCopy small {
+    display: none;
+  }
+
+  .login {
+    min-height: 40px;
+    padding-inline: 18px;
+  }
+}
+
+@media (max-width: 420px) {
+  .brandCopy strong {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .login {
+    transition: none;
+  }
+}

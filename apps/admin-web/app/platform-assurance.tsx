@@ -153,13 +153,13 @@ export function PlatformAssurance() {
   return (
     <section
       className={styles.section}
-      aria-label="Контроль промышленного контура"
+      aria-label="Готовность платформы"
     >
       <div className={styles.header}>
         <div>
-          <h2>Контроль промышленного контура</h2>
+          <h2>Готовность платформы</h2>
           <p>
-            Поиск, документы, комплаенс, уведомления и платежи из действующего
+            Поиск, документы, проверки, уведомления и платежи из действующего
             API.
           </p>
         </div>
@@ -235,7 +235,7 @@ export function PlatformAssurance() {
           </span>
           <div>
             <strong>Уведомления</strong>
-            <p>In-app, email, SMS и webhook с повторными попытками.</p>
+            <p>Уведомления в кабинете, по email и SMS с повторной отправкой при ошибке.</p>
           </div>
         </div>
         <div className={styles.system}>
@@ -245,8 +245,8 @@ export function PlatformAssurance() {
           <div>
             <strong>Платежи</strong>
             <p>
-              {summary.paymentProviders} провайдеров, split allocations, ledger
-              и payouts.
+              {summary.paymentProviders} платёжных провайдеров, распределение средств,
+              журнал операций и выплаты.
             </p>
           </div>
         </div>

@@ -88,6 +88,8 @@ button, input, select, textarea { font: inherit; }
   .mp-backdrop { position: fixed; inset: 0; z-index: 15; display: block; border: 0; background: rgba(0, 0, 0, .44); }
   .mp-menu-button, .mp-mobile-close { display: inline-flex !important; }
   .mp-topbar { height: 58px; padding: 0 12px; }
+  .mp-topbar-context { display: none; }
+  .mp-topbar-actions { min-width: 0; }
   .mp-content { padding: 26px 15px 48px; }
   .mp-page-header { display: grid; align-items: start; gap: 18px; }
   .mp-page-header h1 { font-size: 30px; }

@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useCallback, useEffect, useState } from "react";
+import { formatAdminStatus } from "./admin-labels";
 import styles from "./supplier-operations.module.css";
 import { adminAuthHeaders } from "./admin-auth";
 
@@ -244,7 +245,7 @@ export function SupplierOperations() {
         { method: "POST" },
       );
       await load();
-      setMessage("CSV сохранён как raw rows и обработан matching pipeline.");
+      setMessage("CSV сохранён, строки обработаны и сопоставлены с каталогом.");
     } catch (error) {
       setMessage(
         error instanceof Error ? error.message : "Импорт не выполнен.",
@@ -354,7 +355,7 @@ export function SupplierOperations() {
       });
       form.reset();
       await load();
-      setMessage("Партия добавлена в FEFO-контур.");
+      setMessage("Партия добавлена. Товары с ближайшим сроком годности будут отгружаться первыми.");
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "Партия не создана.");
     }
@@ -377,7 +378,7 @@ export function SupplierOperations() {
         },
       );
       await load();
-      setMessage("Резерв создан атомарно; повтор того же ключа безопасен.");
+      setMessage("Резерв создан. Повторный запрос не изменит количество дважды.");
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "Резерв не создан.");
     }
@@ -392,7 +393,7 @@ export function SupplierOperations() {
       <div className={styles.heading}>
         <div>
           <span className={styles.eyebrow}>ITERATION 1B / SUPPLIER DATA</span>
-          <h2>Прайс → matching → offer → inventory</h2>
+          <h2>От прайса до доступного остатка</h2>
           <p>
             Сквозной путь сохраняет исходную строку и разделяет коммерческие
             состояния.
@@ -494,7 +495,7 @@ export function SupplierOperations() {
             <header>
               <span>02</span>
               <div>
-                <h3>Импорт и matching</h3>
+                <h3>Импорт и сопоставление товаров</h3>
                 <p>CSV/Excel parser, raw rows и объяснимые кандидаты.</p>
               </div>
             </header>
@@ -526,7 +527,7 @@ export function SupplierOperations() {
                   <div>
                     <strong>{batch.fileName}</strong>
                     <small>
-                      {batch.status} · {batch.processedRows}/{batch.totalRows} ·
+                      {formatAdminStatus(batch.status)}. {batch.processedRows}/{batch.totalRows}.
                       ошибок {batch.errorRows}
                     </small>
                   </div>
@@ -571,8 +572,8 @@ export function SupplierOperations() {
             <header>
               <span>03</span>
               <div>
-                <h3>Offer, цена, публикация</h3>
-                <p>Цена версионируется отдельно от видимости и наличия.</p>
+                <h3>Предложение, цена и публикация</h3>
+                <p>История цены хранится отдельно от статуса публикации и наличия.</p>
               </div>
             </header>
             <form className={styles.form} onSubmit={createOffer}>
@@ -670,13 +671,13 @@ export function SupplierOperations() {
                       {offer.productVariant.product.canonicalName}
                     </strong>
                     <small>
-                      {offer.status} · {offer.publication?.status ?? "DRAFT"} ·
+                      {formatAdminStatus(offer.status)}. {formatAdminStatus(offer.publication?.status ?? "DRAFT")}.
                       v{offer.version}
                     </small>
                   </div>
                   <b>
                     {offer.prices.find(({ status }) => status === "ACTIVE")
-                      ?.amountMinor ?? "—"}{" "}
+                      ?.amountMinor ?? "Нет данных"}{" "}
                     KZT¢
                   </b>
                 </div>
@@ -688,8 +689,8 @@ export function SupplierOperations() {
             <header>
               <span>04</span>
               <div>
-                <h3>Партии и атомарный резерв</h3>
-                <p>FEFO, freshness и доступность по складу.</p>
+                <h3>Партии и резервы</h3>
+                <p>Сроки годности, актуальность данных и доступность по складам.</p>
               </div>
             </header>
             <form className={styles.form} onSubmit={createLot}>
@@ -760,7 +761,7 @@ export function SupplierOperations() {
                       {balance.productVariant.product.canonicalName}
                     </strong>
                     <small>
-                      {balance.warehouse.name} · {balance.freshnessStatus} ·
+                      {balance.warehouse.name}. {formatAdminStatus(balance.freshnessStatus)}.
                       lots {balance.lots.length}
                     </small>
                   </div>

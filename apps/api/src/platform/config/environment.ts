@@ -52,7 +52,10 @@ const environmentSchema = z.object({
   INTEGRATION_ENCRYPTION_KEY: encryptionKeySchema.optional(),
   INTEGRATION_ENCRYPTION_KEY_PREVIOUS: encryptionKeySchema.optional(),
   APP_SECURITY_ENCRYPTION_KEY: encryptionKeySchema.optional(),
-  OBJECT_STORAGE_DRIVER: z.enum(["local", "s3"]).default("local"),
+  MEDIA_SIGNING_SECRET: z.string().min(32).optional(),
+  OBJECT_STORAGE_DRIVER: z.enum(["local", "s3", "supabase"]).default("local"),
+  SUPABASE_URL: z.string().url().optional(),
+  SUPABASE_SERVICE_ROLE_KEY: z.string().min(20).optional(),
   S3_ENDPOINT: z.string().url().optional(),
   S3_BUCKET: z.string().min(1).optional(),
   S3_ACCESS_KEY_ID: z.string().min(1).optional(),
@@ -84,6 +87,7 @@ const environmentSchema = z.object({
     if (!value.JWT_ISSUER || !value.JWT_AUDIENCE) context.addIssue({ code: "custom", path: ["JWT_ISSUER"], message: "JWT issuer and audience are required in production" });
     if (!value.JWT_REQUIRE_MFA) context.addIssue({ code: "custom", path: ["JWT_REQUIRE_MFA"], message: "MFA must be required in production" });
     if (!value.INTEGRATION_ENCRYPTION_KEY || !value.APP_SECURITY_ENCRYPTION_KEY) context.addIssue({ code: "custom", path: ["APP_SECURITY_ENCRYPTION_KEY"], message: "Independent application and integration encryption keys are required" });
+    if (!value.MEDIA_SIGNING_SECRET) context.addIssue({ code: "custom", path: ["MEDIA_SIGNING_SECRET"], message: "Media signing secret is required in production" });
     if (value.OBJECT_STORAGE_DRIVER !== "s3" || !value.S3_BUCKET || !value.S3_ACCESS_KEY_ID || !value.S3_SECRET_ACCESS_KEY || !value.S3_SERVER_SIDE_ENCRYPTION) context.addIssue({ code: "custom", path: ["OBJECT_STORAGE_DRIVER"], message: "Encrypted S3-compatible object storage is required in production" });
     if (!value.SIGNATURE_GATEWAY_URL || !value.SIGNATURE_CALLBACK_SECRET) context.addIssue({ code: "custom", path: ["SIGNATURE_GATEWAY_URL"], message: "External EDS gateway and signed callbacks are required in production" });
     if (value.PAYMENT_PROVIDER_MODE !== "external" || !value.PAYMENT_GATEWAY_URL || !value.PAYMENT_GATEWAY_TOKEN) context.addIssue({ code: "custom", path: ["PAYMENT_GATEWAY_URL"], message: "External payment gateway is required in production" });

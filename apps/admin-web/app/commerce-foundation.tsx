@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useCallback, useEffect, useState } from "react";
+import { formatAdminStatus } from "./admin-labels";
 import styles from "./commerce-foundation.module.css";
 import { adminAuthHeaders } from "./admin-auth";
 
@@ -304,7 +305,7 @@ export function CommerceFoundation() {
     <section
       id="control-plane"
       className={styles.section}
-      aria-label="Товарный и контрольный контур"
+      aria-label="Товары, согласование и аудит"
     >
       <div className={styles.heading}>
         <div>
@@ -463,7 +464,7 @@ export function CommerceFoundation() {
                     <div>
                       <strong>{product.canonicalName}</strong>
                       <span>
-                        Версия {product.version} · {product.status}
+                        Версия {product.version}. {formatAdminStatus(product.status)}
                       </span>
                     </div>
                     <b>{product.variants.length} SKU</b>
@@ -584,7 +585,7 @@ export function CommerceFoundation() {
                     <div>
                       <strong>{policy.name}</strong>
                       <span>
-                        {policy.status} · версия {policy.version}
+                        {formatAdminStatus(policy.status)}. Версия {policy.version}
                       </span>
                     </div>
                     <b>P{policy.priority}</b>

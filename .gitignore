@@ -1,5 +1,7 @@
 node_modules
+node_modules.broken-*
 .next
+**/.next*
 dist
 coverage
 .turbo
@@ -17,6 +19,7 @@ redis-data
 .local-pg
 .local-storage*
 .tmp
+tmp/
 supabase/.temp
 test-results
 playwright-report

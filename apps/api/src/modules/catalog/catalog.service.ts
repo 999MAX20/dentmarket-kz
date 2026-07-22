@@ -90,7 +90,7 @@ export class CatalogService {
 
   products() {
     return this.prisma.product.findMany({
-      include: { brand: true, manufacturer: true, attributeValues: { include: { attribute: true } }, variants: { include: { attributeValues: { include: { attribute: true } } } }, categories: { include: { category: true } }, industries: true },
+      include: { brand: true, manufacturer: true, media: { where: { status: "READY" }, orderBy: { sortOrder: "asc" } }, attributeValues: { include: { attribute: true } }, variants: { include: { attributeValues: { include: { attribute: true } } } }, categories: { include: { category: true } }, industries: true },
       orderBy: { createdAt: "desc" },
       take: 100,
     });

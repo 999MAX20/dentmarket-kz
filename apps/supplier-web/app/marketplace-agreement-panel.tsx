@@ -100,7 +100,7 @@ export function MarketplaceAgreementPanel({ supplierId, supplierName = "Пост
         <StatusTag tone={active ? "success" : "warning"}>{formatStatus(agreement.status)}</StatusTag>
       </div>
       <div className={styles.columns}>
-        <Section title="Подписи ЭЦП" description="Каждая сторона подписывает неизменяемый checksum документа.">
+        <Section title="Подписи ЭЦП" description="Обе стороны подписывают одну и ту же версию документа.">
           <div className={styles.signatures}>
             <SignatureRow label="Поставщик" signed={agreement.signing.supplierSigned} />
             <SignatureRow label="Оператор DentMarket KZ" signed={agreement.signing.operatorSigned} />

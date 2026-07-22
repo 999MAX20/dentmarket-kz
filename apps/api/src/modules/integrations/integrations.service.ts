@@ -5,7 +5,7 @@ import { PrismaService } from "../../platform/prisma/prisma.service";
 import { SupplierAccessService, type SupplierActorContext } from "../suppliers/supplier-access.service";
 import { IntegrationCryptoService } from "./integration-crypto.service";
 
-const connectionSelect = Prisma.validator<Prisma.IntegrationConnectionSelect>()({
+const connectionSelect = {
   id: true,
   supplierOrganizationId: true,
   sourceId: true,
@@ -31,7 +31,7 @@ const connectionSelect = Prisma.validator<Prisma.IntegrationConnectionSelect>()(
   mappings: { orderBy: [{ entityType: "asc" }, { externalId: "asc" }], take: 500 },
   agent: { select: { id: true, agentId: true, status: true, version: true, minimumSupportedVersion: true, capabilities: true, lastHeartbeatAt: true, lastIpAddress: true, lastError: true, createdAt: true, updatedAt: true } },
   _count: { select: { jobs: true, webhookEvents: true, reconciliationEntries: true, externalReservations: true } },
-});
+} satisfies Prisma.IntegrationConnectionSelect;
 
 const SENSITIVE_CONFIGURATION_KEY = /(^|_|-)(token|secret|password|passwd|api[-_]?key|access[-_]?key|private[-_]?key|client[-_]?secret|authorization|credential)(_|-|$)/i;
 

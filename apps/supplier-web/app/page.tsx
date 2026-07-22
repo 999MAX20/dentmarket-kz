@@ -4,6 +4,11 @@ import {
   Button,
   Field,
   Input,
+  Menu,
+  MenuItem,
+  MenuList,
+  MenuPopover,
+  MenuTrigger,
   Select,
   Spinner,
 } from "@fluentui/react-components";
@@ -17,6 +22,7 @@ import {
   DataTrending24Regular,
   Document24Regular,
   Money24Regular,
+  MoreHorizontal24Regular,
   PlugConnected24Regular,
   ShieldCheckmark24Regular,
   Warning24Regular,
@@ -251,13 +257,10 @@ type ExternalCatalogItem = {
 
 const navigation: NavigationItem[] = [
   { id: "dashboard", label: "Обзор", icon: <DataTrending24Regular /> },
+  { id: "orders", label: "Заказы", icon: <ClipboardTaskListLtr24Regular /> },
   { id: "offers", label: "Предложения", icon: <BuildingShop24Regular /> },
   { id: "inventory", label: "Остатки", icon: <Box24Regular /> },
-  { id: "orders", label: "Заказы", icon: <ClipboardTaskListLtr24Regular /> },
   { id: "integrations", label: "Интеграции", icon: <PlugConnected24Regular /> },
-  { id: "compliance", label: "Комплаенс", icon: <ShieldCheckmark24Regular /> },
-  { id: "promotions", label: "Акции", icon: <Money24Regular /> },
-  { id: "trust", label: "Доверие и география", icon: <Star24Regular /> },
   { id: "documents", label: "Документы", icon: <Document24Regular /> },
 ];
 
@@ -303,6 +306,24 @@ const statusTone = (
   )
     return "warning";
   return "info";
+};
+
+const integrationProviderLabel: Record<string, string> = {
+  ONE_C: "1С",
+  MOYSKLAD: "МойСклад",
+  MOCK: "Тестовое подключение",
+};
+const integrationModeLabel: Record<string, string> = {
+  AGENT: "локальный модуль",
+  API: "прямое подключение",
+  HYBRID: "комбинированный режим",
+};
+const credentialTypeLabel: Record<string, string> = {
+  REGISTRATION_CERTIFICATE: "Регистрационное удостоверение",
+  WHOLESALE_LICENSE: "Лицензия на оптовую торговлю",
+  QUALITY_CERTIFICATE: "Сертификат качества",
+  DISTRIBUTOR_AUTHORIZATION: "Разрешение дистрибьютора",
+  MEDICAL_DEVICE_SALE_NOTIFICATION: "Уведомление о реализации медизделий",
 };
 
 export default function SupplierWorkspace() {
@@ -575,7 +596,7 @@ export default function SupplierWorkspace() {
       });
       setPriceListFile(null);
       await refresh();
-      setToast(batch.status === "REVIEW_REQUIRED" ? "PDF сохранён: требуется OCR или ручной разбор" : `Извлечено ${batch.totalRows} строк — проверьте и запустите обработку`);
+      setToast(batch.status === "REVIEW_REQUIRED" ? "PDF сохранён: требуется распознавание или ручная проверка" : `Извлечено ${batch.totalRows} строк. Проверьте и запустите обработку`);
     } catch (cause) {
       setError(errorMessage(cause));
     } finally {
@@ -603,7 +624,7 @@ export default function SupplierWorkspace() {
     try {
       await api.post(`/suppliers/${supplierId}/external-items/${item.id}/match`, { productVariantId });
       await refresh();
-      setToast("Позиция привязана к существующей карточке — дубль не создан");
+      setToast("Позиция привязана к существующей карточке. Дубль не создан");
     } catch (cause) {
       setError(errorMessage(cause));
     } finally {
@@ -623,13 +644,40 @@ export default function SupplierWorkspace() {
       (sum, order) => sum + Number(order.subtotalAmountMinor),
       0,
     );
+    const pendingOrders = supplierOrders.filter(
+      (order) => order.status === "AWAITING_CONFIRMATION",
+    ).length;
+    const staleBalances = balances.filter(
+      (balance) => balance.freshnessStatus !== "FRESH",
+    ).length;
+    const hiddenOffers = offers.filter(
+      (offer) => !offer.publication?.marketplaceVisible,
+    ).length;
     return (
       <div className="mp-stack">
         <PageHeader
-          eyebrow="Операционный центр"
           title={`Добрый день, ${supplier.name}`}
-          description="Контролируйте каталог, остатки, заказы, интеграции и регуляторные риски из одного кабинета."
+          description="Сначала обработайте заказы и данные, которые влияют на продажи."
         />
+        <Section title="Требует внимания" description="Приоритетные действия на сегодня">
+          <div className={styles.attentionGrid}>
+            <button type="button" onClick={() => setActive("orders")}>
+              <StatusTag tone={pendingOrders ? "warning" : "success"}>Заказы</StatusTag>
+              <strong>{pendingOrders ? `${pendingOrders} ждут подтверждения` : "Все заказы обработаны"}</strong>
+              <span>Подтвердите доступное количество и срок поставки.</span>
+            </button>
+            <button type="button" onClick={() => setActive("inventory")}>
+              <StatusTag tone={staleBalances ? "warning" : "success"}>Остатки</StatusTag>
+              <strong>{staleBalances ? `${staleBalances} позиций устарели` : "Остатки актуальны"}</strong>
+              <span>Обновите данные, чтобы предложения оставались видимыми.</span>
+            </button>
+            <button type="button" onClick={() => setActive("offers")}>
+              <StatusTag tone={hiddenOffers ? "warning" : "success"}>Каталог</StatusTag>
+              <strong>{hiddenOffers ? `${hiddenOffers} предложений скрыто` : "Каталог опубликован"}</strong>
+              <span>Проверьте цену, публикацию и обязательные документы.</span>
+            </button>
+          </div>
+        </Section>
         <div className="mp-metrics">
           <Metric
             label="Опубликовано"
@@ -658,8 +706,8 @@ export default function SupplierWorkspace() {
         </div>
         <div className="mp-grid-2">
           <Section
-            title="Состояние контура"
-            description="Данные, которые требуют внимания"
+            title="Состояние данных"
+            description="Проверки, которые влияют на публикацию и продажи"
           >
             <div className={styles.healthGrid}>
               <div className={styles.healthItem}>
@@ -765,7 +813,7 @@ export default function SupplierWorkspace() {
       <PageHeader
         eyebrow="Каталог поставщика"
         title="Предложения и цены"
-        description="Каждое изменение цены сохраняется с источником, сроком актуальности и записью аудита."
+        description="Для каждой цены сохраняются источник, срок действия и история изменений."
       />
       <Section>
         {!offers.length ? (
@@ -873,7 +921,7 @@ export default function SupplierWorkspace() {
       <PageHeader
         eyebrow="Складской учёт"
         title="Остатки и партии"
-        description="Доступность рассчитывается с учётом резервов, страхового запаса и срока актуальности источника."
+        description="Доступное количество учитывает резервы, страховой запас и время последнего обновления."
         actions={
           <Button
             icon={<ArrowSync24Regular />}
@@ -1094,10 +1142,10 @@ export default function SupplierWorkspace() {
       <PageHeader
         eyebrow="Обмен данными"
         title="Интеграции"
-        description="1С, API, webhook и управляемые задания синхронизации с журналом ошибок и сверкой."
+        description="Загружайте прайсы файлами или подключите 1С и другую учётную систему."
       />
       {handoff ? <ConnectorOnboarding supplierId={supplierId} apiContext={apiContext} /> : null}
-      <Section title="Загрузить прайс или каталог PDF" description="Платформа сохранит оригинал, извлечёт машиночитаемые строки и не опубликует цены без подтверждённой валюты.">
+      <Section title="Загрузить прайс или каталог" description="Мы сохраним исходный файл, распознаем строки и попросим подтвердить валюту перед публикацией.">
         <div className={styles.pdfUpload}>
           <Field label="PDF поставщика" hint="До 20 МБ. Текстовые таблицы распознаются автоматически; сканы уходят на ручную проверку.">
             <input className={styles.fileInput} type="file" accept="application/pdf,.pdf" onChange={(event) => setPriceListFile(event.target.files?.[0] ?? null)} />
@@ -1109,7 +1157,7 @@ export default function SupplierWorkspace() {
         {importBatches.length ? <div className={styles.importList}>{importBatches.slice(0, 10).map((batch) => <article className={styles.importItem} key={batch.id}>
           <div><strong>{batch.fileName}</strong><p>{batch.source.name} · {batch.totalRows} строк · {formatDate(batch.createdAt, true)}</p>{batch.extractionMetadata?.warnings?.map((warning) => <p className={styles.importWarning} key={warning}>{warning}</p>)}</div>
           <div className={styles.importActions}><StatusTag tone={statusTone(batch.status)}>{formatStatus(batch.status)}</StatusTag>{batch.status === "MAPPED" && batch.totalRows > 0 ? <Button appearance="secondary" disabled={busy === `import:${batch.id}`} onClick={() => void processImportBatch(batch)}>Проверено, обработать</Button> : null}</div>
-        </article>)}</div> : <EmptyState icon={<CloudArrowUp24Regular />} title="PDF ещё не загружались" description="Добавьте реальный прайс поставщика — он появится здесь с результатом извлечения." />}
+        </article>)}</div> : <EmptyState icon={<CloudArrowUp24Regular />} title="Файлы ещё не загружены" description="Добавьте прайс поставщика. После обработки здесь появятся найденные строки." />}
       </Section>
       <Section title="Проверка дублей каталога" description="Новая карточка не создаётся автоматически. Сначала платформа ищет точное или похожее совпадение в общем каталоге.">
         {externalItems.length ? <div className={styles.importList}>{externalItems.slice(0, 30).map((item) => { const candidate = item.matchCandidates.find((entry) => entry.status === "PROPOSED") ?? item.matchCandidates[0]; return <article className={styles.importItem} key={item.id}>
@@ -1122,7 +1170,7 @@ export default function SupplierWorkspace() {
           <EmptyState
             icon={<PlugConnected24Regular />}
             title="Интеграций пока нет"
-            description="Подключение создаётся через API или операторский кабинет. Ручной режим остаётся доступен."
+            description="Обратитесь к оператору для подключения учётной системы или продолжайте работать вручную."
           />
         ) : (
           <div className={styles.integrationList}>
@@ -1131,8 +1179,8 @@ export default function SupplierWorkspace() {
                 <div>
                   <strong>{integration.displayName}</strong>
                   <p>
-                    {integration.provider} · {integration.mode} ·{" "}
-                    {integration.bindings.length} привязок ·{" "}
+                    {integrationProviderLabel[integration.provider] ?? integration.provider}. {integrationModeLabel[integration.mode] ?? integration.mode}.{" "}
+                    {integration.bindings.length} привязок, {" "}
                     {integration._count.jobs} заданий
                   </p>
                   <p>
@@ -1150,17 +1198,17 @@ export default function SupplierWorkspace() {
           </div>
         )}
       </Section>
-      <Section title="Поддерживаемые контуры">
+      <Section title="Способы загрузки данных">
         <div className={styles.healthGrid}>
           <div className={styles.healthItem}>
             <CloudArrowUp24Regular />
             <strong>Импорт PDF, CSV и Excel</strong>
-            <p>Безопасная загрузка, извлечение таблиц, проверка валюты, маппинг и идемпотентная обработка.</p>
+            <p>Загрузка таблиц, распознавание строк и проверка валюты перед публикацией.</p>
           </div>
           <div className={styles.healthItem}>
             <PlugConnected24Regular />
-            <strong>API и webhook</strong>
-            <p>Подписанные события, повторные доставки и сверка расхождений.</p>
+            <strong>Прямое подключение</strong>
+            <p>Автоматическое обновление данных и повторная отправка при ошибке.</p>
           </div>
           <div className={styles.healthItem}>
             <DataTrending24Regular />
@@ -1179,11 +1227,11 @@ export default function SupplierWorkspace() {
       <PageHeader
         eyebrow="Регуляторика"
         title="Комплаенс и документы организации"
-        description="Лицензии и регистрационные документы проходят версионируемую автоматическую проверку."
+        description="Загрузите лицензии и регистрационные документы. Мы проверим их срок действия и сохраним историю изменений."
       />
       <Section
         title="Добавить документ"
-        description="После отправки документ получит статус PENDING"
+        description="После отправки документ появится со статусом «Ожидает проверки»"
       >
         <div className={styles.formRow}>
           <Field label="Тип">
@@ -1234,10 +1282,10 @@ export default function SupplierWorkspace() {
               <article className={styles.credential} key={credential.id}>
                 <div>
                   <strong>
-                    {credential.type} · {credential.number}
+                    {credentialTypeLabel[credential.type] ?? "Документ"}. {credential.number}
                   </strong>
                   <p>
-                    {credential.issuer ?? "Издатель не указан"} · действует до{" "}
+                    {credential.issuer ?? "Издатель не указан"}. Действует до{" "}
                     {formatDate(credential.validTo)}
                   </p>
                   {credential.rejectionReason ? (
@@ -1316,7 +1364,7 @@ export default function SupplierWorkspace() {
       <PageHeader
         eyebrow="Документооборот"
         title="Документы"
-        description="Неизменяемые версии PDF и DOCX, электронные подписи и архивирование."
+        description="Счета, спецификации и накладные с электронными подписями и историей версий."
       />
       <Section>
         {!documents.length ? (
@@ -1448,6 +1496,15 @@ export default function SupplierWorkspace() {
       userMeta={`${supplier.city} · Поставщик`}
       navigation={nav}
       activeNavigation={active}
+      contextLabel={
+        active === "compliance"
+          ? "Комплаенс"
+          : active === "promotions"
+            ? "Акции"
+            : active === "trust"
+              ? "Доверие и география"
+              : undefined
+      }
       onNavigate={setActive}
       actions={
         <>
@@ -1463,7 +1520,20 @@ export default function SupplierWorkspace() {
               </option>
             ))}
           </Select>
+          <Menu>
+            <MenuTrigger disableButtonEnhancement>
+              <Button appearance="subtle" icon={<MoreHorizontal24Regular />}>Ещё</Button>
+            </MenuTrigger>
+            <MenuPopover>
+              <MenuList>
+                <MenuItem icon={<ShieldCheckmark24Regular />} onClick={() => setActive("compliance")}>Комплаенс</MenuItem>
+                <MenuItem icon={<Money24Regular />} onClick={() => setActive("promotions")}>Акции</MenuItem>
+                <MenuItem icon={<Star24Regular />} onClick={() => setActive("trust")}>Доверие и география</MenuItem>
+              </MenuList>
+            </MenuPopover>
+          </Menu>
           <Button
+            className={styles.refreshButton}
             appearance="subtle"
             icon={<ArrowSync24Regular />}
             onClick={() => void refresh()}

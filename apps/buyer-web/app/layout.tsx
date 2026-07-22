@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["cyrillic", "latin"], variable: "--font-sans" })
 
 export const metadata: Metadata = {
   title: "DentMarket для клиник",
-  description: "Закупки стоматологической клиники в одном контуре",
+  description: "Каталог и закупки для стоматологических клиник",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

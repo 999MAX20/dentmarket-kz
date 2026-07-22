@@ -9,6 +9,7 @@ import {
   Play20Regular,
 } from "@fluentui/react-icons";
 import { FormEvent, useCallback, useEffect, useMemo, useState } from "react";
+import { formatAdminStatus } from "./admin-labels";
 import styles from "./integration-operations.module.css";
 import { adminAuthHeaders } from "./admin-auth";
 
@@ -110,13 +111,23 @@ const jobTypes = [
 
 function providerLabel(provider: string) {
   return provider === "ONE_C"
-    ? "1С Agent"
+    ? "1С"
     : provider === "MOYSKLAD"
       ? "МойСклад"
       : provider === "MOCK"
-        ? "Mock"
+        ? "Тестовое подключение"
         : provider;
 }
+const jobTypeLabels: Record<string, string> = {
+  TEST_CONNECTION: "Проверка подключения",
+  DISCOVER: "Поиск доступных данных",
+  CATALOG_SYNC: "Обновление каталога",
+  INCREMENTAL_SYNC: "Обновление изменений",
+  PRICE_SYNC: "Обновление цен",
+  INVENTORY_SYNC: "Обновление остатков",
+  RECONCILIATION: "Сверка данных",
+};
+const triggerLabels: Record<string, string> = { MANUAL: "Вручную", SCHEDULE: "По расписанию", WEBHOOK: "По уведомлению" };
 function dateTime(value?: string | null) {
   return value
     ? new Intl.DateTimeFormat("ru-KZ", {
@@ -446,7 +457,7 @@ export function IntegrationOperations() {
         <div>
           <h2>Интеграции и внешние резервы</h2>
           <p>
-            МойСклад, 1С Agent, очереди синхронизации, webhooks и сверка
+            МойСклад, 1С, очереди обновления данных и сверка
             расхождений.
           </p>
         </div>
@@ -551,7 +562,7 @@ export function IntegrationOperations() {
                     onChange={(event) => setProvider(event.target.value)}
                   >
                     <option value="MOCK">Mock для проверки</option>
-                    <option value="MOYSKLAD">МойСклад API</option>
+                    <option value="MOYSKLAD">МойСклад</option>
                     <option value="ONE_C">1С Connector Agent</option>
                   </select>
                 </label>
@@ -576,7 +587,7 @@ export function IntegrationOperations() {
                   </label>
                 )}
                 <label className={`${styles.check} ${styles.full}`}>
-                  <input name="enableWebhook" type="checkbox" /> Создать webhook
+                  <input name="enableWebhook" type="checkbox" /> Принимать автоматические уведомления
                   endpoint
                 </label>
                 <Button
@@ -621,7 +632,7 @@ export function IntegrationOperations() {
                         </small>
                       </span>
                       <em data-status={connection.status}>
-                        {connection.status}
+                        {formatAdminStatus(connection.status)}
                       </em>
                     </button>
                   ))
@@ -688,7 +699,7 @@ export function IntegrationOperations() {
                         <small>{selected.agent.agentId}</small>
                       </span>
                       <span>
-                        <b>{selected.agent.status}</b>
+                        <b>{formatAdminStatus(selected.agent.status)}</b>
                         <small>
                           Heartbeat: {dateTime(selected.agent.lastHeartbeatAt)}
                         </small>
@@ -773,7 +784,7 @@ export function IntegrationOperations() {
                       </Button>
                     </form>
                     <form onSubmit={(event) => void upsertMapping(event)}>
-                      <h4>Сопоставить внешний ID</h4>
+                      <h4>Сопоставить внешний идентификатор</h4>
                       <label>
                         Сущность
                         <select
@@ -853,7 +864,7 @@ export function IntegrationOperations() {
                   </section>
                   <section className={styles.bindings}>
                     <header>
-                      <h4>Маппинги</h4>
+                      <h4>Сопоставления</h4>
                       <span>{selected.mappings.length}</span>
                     </header>
                     {selected.mappings.length === 0 ? (
@@ -889,13 +900,13 @@ export function IntegrationOperations() {
                           {jobs.slice(0, 8).map((job) => (
                             <div key={job.id}>
                               <span>
-                                <b>{job.type}</b>
+                                <b>{jobTypeLabels[job.type] ?? "Обновление данных"}</b>
                                 <small>
-                                  {job.trigger} / попытка {job.attempt} из{" "}
+                                  {triggerLabels[job.trigger] ?? "Автоматически"}, попытка {job.attempt} из{" "}
                                   {job.maxAttempts}
                                 </small>
                               </span>
-                              <em data-status={job.status}>{job.status}</em>
+                              <em data-status={job.status}>{formatAdminStatus(job.status)}</em>
                             </div>
                           ))}
                         </div>
@@ -918,7 +929,7 @@ export function IntegrationOperations() {
                                 <b>{entry.kind}</b>
                                 <small>{dateTime(entry.detectedAt)}</small>
                               </span>
-                              <em data-status={entry.status}>{entry.status}</em>
+                              <em data-status={entry.status}>{formatAdminStatus(entry.status)}</em>
                             </div>
                           ))}
                         </div>

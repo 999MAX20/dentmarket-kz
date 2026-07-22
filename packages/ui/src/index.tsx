@@ -82,6 +82,7 @@ type AppShellProps = {
   userMeta: string;
   navigation: NavigationItem[];
   activeNavigation: string;
+  contextLabel?: string;
   onNavigate: (id: string) => void;
   onLogout?: () => void;
   actions?: ReactNode;
@@ -96,6 +97,7 @@ export function AppShell({
   userMeta,
   navigation,
   activeNavigation,
+  contextLabel,
   onNavigate,
   onLogout,
   actions,
@@ -185,7 +187,7 @@ export function AppShell({
             onClick={() => setMobileOpen(true)}
           />
           <span className="mp-topbar-context">
-            {navigation.find((item) => item.id === activeNavigation)?.label}
+            {contextLabel ?? navigation.find((item) => item.id === activeNavigation)?.label}
           </span>
           <div className="mp-topbar-actions">
             {actions}
@@ -399,11 +401,15 @@ export function formatDate(
 
 const statusLabels: Record<string, string> = {
   ACTIVE: "Активно",
+  AUTHORIZED: "Авторизовано",
   ARCHIVED: "В архиве",
   AWAITING_CONFIRMATION: "Ждёт подтверждения",
   AWAITING_SIGNATURE: "Ждёт подписи",
   BLOCKED: "Заблокировано",
   CANCELLED: "Отменено",
+  CALCULATED: "Рассчитано",
+  CAPTURED: "Оплачено",
+  CLOSED: "Закрыто",
   COMPLETED: "Завершено",
   CONFIRMED: "Подтверждено",
   DEAD: "Исчерпаны попытки",
@@ -415,6 +421,12 @@ const statusLabels: Record<string, string> = {
   GENERATED: "Сформировано",
   HIDDEN: "Скрыто",
   IN_PROGRESS: "В работе",
+  MAPPED: "Сопоставлено",
+  MATCHED: "Сопоставлено",
+  OPEN: "Открыто",
+  PARTIAL: "Частично готово",
+  PARTIALLY_FULFILLED: "Частично исполнено",
+  PARTIALLY_REFUNDED: "Частичный возврат",
   PAUSED: "Приостановлено",
   PARTIALLY_CONFIRMED: "Частично подтверждено",
   PARTIALLY_SIGNED: "Частично подписано",
@@ -423,6 +435,8 @@ const statusLabels: Record<string, string> = {
   PROCESSING: "Обрабатывается",
   PUBLISHED: "Опубликовано",
   READY: "Готово",
+  RECALLED: "Отозвано",
+  RECONCILIATION: "На сверке",
   REJECTED: "Отклонено",
   RESTRICTED: "С ограничениями",
   REVIEW_REQUIRED: "Нужна проверка",
@@ -430,6 +444,7 @@ const statusLabels: Record<string, string> = {
   SENT: "Отправлено",
   SIGNED: "Подписано",
   STALE: "Устарело",
+  RUNNING: "Выполняется",
   SUPERSEDED: "Заменено версией",
   UNDER_REVIEW: "На проверке",
   UNKNOWN: "Неизвестно",

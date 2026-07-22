@@ -4,6 +4,11 @@ import {
   Button,
   Field,
   Input,
+  Menu,
+  MenuItem,
+  MenuList,
+  MenuPopover,
+  MenuTrigger,
   Select,
   Spinner,
 } from "@fluentui/react-components";
@@ -16,9 +21,9 @@ import {
   ClipboardTaskListLtr24Regular,
   Document24Regular,
   Bot24Regular,
-  BuildingShop24Regular,
   Grid24Regular,
   List24Regular,
+  MoreHorizontal24Regular,
   PersonSupport24Regular,
   Location24Regular,
   Search24Regular,
@@ -45,17 +50,20 @@ import {
   formatStatus,
   type NavigationItem,
 } from "@marketplace/ui";
-import { Fragment, useCallback, useEffect, useMemo, useState } from "react";
+import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import styles from "./page.module.css";
 import { BuyerServicesPanel } from "./buyer-services-panel";
 import { SmartCommercePanel } from "./smart-commerce-panel";
-import medstomCatalog from "./data/medstom-catalog.json";
+import publicCatalogData from "./data/public-catalog-fallback.json";
+import publicCatalogMedia from "./data/public-catalog-media.json";
+import { PublicHeader } from "./public-header";
+import { loginUrl } from "./public-links";
 
 const BUYER_ID = "00000000-0000-4000-8000-000000000030";
 const BUYER_USER_ID = "00000000-0000-4000-8000-000000000500";
 type SessionHandoff = SessionHandoffEnvelope;
 const SESSION_KEY = "dentmarket:buyer-session";
-const LOGIN_URL = process.env.NEXT_PUBLIC_LOGIN_URL ?? "/login";
+const LOGIN_URL = loginUrl;
 const dentalSearchSuggestions = [
   "светник",
   "текучка",
@@ -100,16 +108,24 @@ type SearchOffer = {
   officialDistributor?: boolean;
   supplierWarranty?: boolean;
 };
+type SearchMedia = { id: string; sourceUrl: string | null; securePath?: string | null; normalizedStorageKey: string | null; altText: string | null; width: number | null; height: number | null; metadata?: { exactProductPhoto?: boolean; rightsStatus?: string } | null };
 type SearchProduct = {
   id: string;
   name: string;
+  description?: string | null;
+  descriptionSources?: unknown;
   brand: string | null;
   manufacturer: string | null;
+  media?: SearchMedia[];
   categories: Array<{ id: string; name: string }>;
   minNormalizedPriceMinor: string | null;
   isAvailable: boolean;
   reviewSummary?: { count: number; averageRating: number | null };
   offers: SearchOffer[];
+  sourceUrl?: string | null;
+  sourceUpdatedAt?: string | null;
+  attributes?: Array<string[]>;
+  photoStatus?: string;
 };
 type SearchResult = {
   total: number;
@@ -119,6 +135,28 @@ type SearchResult = {
     categories: Array<{ id: string; name: string; count: number }>;
     suppliers: Array<{ id: string; name: string; count: number }>;
   };
+};
+const publicMediaEntries = publicCatalogMedia.entries as Record<string, SearchMedia>;
+const categoryIllustration = (name: string | undefined) => {
+  const value = (name ?? "").toLocaleLowerCase("ru");
+  if (/энд|канал|гуттапер|силер|апекслок|файл|ирригац|обтурац/.test(value)) return "/catalog/illustrations/endodontics-category.png";
+  if (/имплант|абатмент|мембран|костн|трансфер/.test(value)) return "/catalog/illustrations/implantology-category.png";
+  if (/брекет|ортодонт|элайнер|капп|дуг|лигатур|ретейнер/.test(value)) return "/catalog/illustrations/orthopedics-category.png";
+  if (/коронк|винир|циркон|керамик|оттиск|альгинат|силикон/.test(value)) return "/catalog/illustrations/orthopedics-category.png";
+  if (/бор|фрез|зеркал|зонд|пинцет|экскаватор|скейлер|наконечник/.test(value)) return "/catalog/illustrations/instruments-category.png";
+  if (/установ|автоклав|компрессор|сканер|рентген|визиограф|фрезер|печь/.test(value)) return "/catalog/illustrations/equipment-category.png";
+  if (/полиров|отбел|air.?flow|профилакт|чистк|аппликатор|щетк/.test(value)) return "/catalog/illustrations/prevention-category.png";
+  if (/хирург|элеватор|щипц|скальпел|шовн|гемостат|кюрет|распатор/.test(value)) return "/catalog/illustrations/sterile-supplies-category.png";
+  return "/catalog/illustrations/consumables-category.png";
+};
+const mediaSource = (media: SearchMedia | undefined) => {
+  if (!media) return null;
+  if (media.securePath?.startsWith("/catalog/")) return media.securePath;
+  if (media.securePath) {
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
+    return `${apiUrl}${media.securePath}`;
+  }
+  return media.sourceUrl;
 };
 const demoCatalogFallback: SearchProduct[] = [
   {
@@ -260,45 +298,22 @@ const demoCatalogFallback: SearchProduct[] = [
     ],
   },
 ];
-const medstomCatalogFallback: SearchProduct[] = medstomCatalog.products.map(
+const generatedCatalogFallback: SearchProduct[] = publicCatalogData.products.map(
   (product) => ({
-    id: `medstom-product-${product.externalId}`,
-    name: product.name,
-    brand: product.brand || null,
-    manufacturer: null,
+    ...product,
+    media: publicMediaEntries[product.sourceUrl ?? ""]
+      ? [publicMediaEntries[product.sourceUrl ?? ""]]
+      : undefined,
+    photoStatus: publicMediaEntries[product.sourceUrl ?? ""]
+      ? "exact"
+      : product.photoStatus,
     categories: [
-      {
-        id: `medstom-category-${product.categoryExternalId}`,
-        name: product.category,
-      },
-    ],
-    minNormalizedPriceMinor: product.priceMinor || null,
-    isAvailable: false,
-    offers: [
-      {
-        id: `medstom-offer-${product.externalId}`,
-        supplier: { id: "medstom-kz", name: "Medstom KZ" },
-        priceMinor: product.priceMinor || null,
-        currency: product.currency,
-        normalizedPriceMinor: product.priceMinor || null,
-        packaging: {
-          name: product.unit || "шт",
-          quantityInBaseUnit: "1",
-          unit: product.unit || "шт",
-        },
-        available: false,
-        confirmationMode: "MANUAL",
-        deliveryMethods: ["NATIONWIDE"],
-        supplierSku: product.supplierSku || null,
-        verifiedDocuments: false,
-        officialDistributor: false,
-        supplierWarranty: false,
-      },
+      { id: `public-category-${product.category}`, name: product.category },
     ],
   }),
 );
 const publicCatalogFallback = [
-  ...medstomCatalogFallback,
+  ...generatedCatalogFallback,
   ...demoCatalogFallback,
 ];
 const fallbackSearch = (
@@ -480,16 +495,8 @@ const navigation: NavigationItem[] = [
   { id: "cart", label: "Корзина", icon: <Cart24Regular /> },
   { id: "orders", label: "Заказы", icon: <ClipboardTaskListLtr24Regular /> },
   { id: "documents", label: "Документы", icon: <Document24Regular /> },
-  {
-    id: "smart-commerce",
-    label: "Город и рекомендации",
-    icon: <Location24Regular />,
-  },
   { id: "workspace", label: "Списки и бюджеты", icon: <List24Regular /> },
-  { id: "assistant", label: "AI-помощник", icon: <Bot24Regular /> },
-  { id: "support", label: "Поддержка", icon: <PersonSupport24Regular /> },
   { id: "notifications", label: "Уведомления", icon: <Alert24Regular /> },
-  { id: "about", label: "О платформе", icon: <BuildingShop24Regular /> },
 ];
 
 const statusTone = (
@@ -588,8 +595,12 @@ export default function BuyerWorkspace() {
   const [packagingFilter, setPackagingFilter] = useState("");
   const [deliveryFilter, setDeliveryFilter] = useState("");
   const [stockFilter, setStockFilter] = useState("true");
-  const [search, setSearch] = useState<SearchResult | null>(null);
+  const [search, setSearch] = useState<SearchResult | null>(() =>
+    fallbackSearch("", "RELEVANCE", { stock: "all" }),
+  );
+  const searchInputRef = useRef<HTMLInputElement>(null);
   const [comparison, setComparison] = useState<Comparison | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<SearchProduct | null>(null);
   const [productReviews, setProductReviews] = useState<ProductReviews | null>(
     null,
   );
@@ -600,7 +611,7 @@ export default function BuyerWorkspace() {
   const [orders, setOrders] = useState<SupplierOrder[]>([]);
   const [documents, setDocuments] = useState<DocumentRecord[]>([]);
   const [notifications, setNotifications] = useState<NotificationRecord[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
@@ -608,6 +619,26 @@ export default function BuyerWorkspace() {
     Record<string, { rating: number; comment: string }>
   >({});
   const [submittedReviews, setSubmittedReviews] = useState<string[]>([]);
+
+  useEffect(() => {
+    if (!handoffChecked || handoff) return;
+    setSearch(
+      fallbackSearch(query, sort, {
+        unit: unitFilter,
+        packaging: packagingFilter,
+        delivery: deliveryFilter,
+        stock: "all",
+      }),
+    );
+  }, [
+    deliveryFilter,
+    handoff,
+    handoffChecked,
+    packagingFilter,
+    query,
+    sort,
+    unitFilter,
+  ]);
 
   const activeCart = carts.find((cart) => cart.status === "ACTIVE") ?? null;
   const buyerOrders = orders.filter(
@@ -642,6 +673,19 @@ export default function BuyerWorkspace() {
 
   const loadSearch = useCallback(
     async (nextQuery = query, nextSort = sort) => {
+      if (!handoff) {
+        setSearch(
+          fallbackSearch(nextQuery, nextSort, {
+            unit: unitFilter,
+            packaging: packagingFilter,
+            delivery: deliveryFilter,
+            // Public browsing must remain useful while the commerce API is
+            // unavailable; prices and stock are supplied by offers later.
+            stock: "all",
+          }),
+        );
+        return;
+      }
       const params = buildSearchParams(nextQuery, nextSort);
       try {
         setSearch(
@@ -650,15 +694,7 @@ export default function BuyerWorkspace() {
           ),
         );
       } catch (cause) {
-        if (handoff) throw cause;
-        setSearch(
-          fallbackSearch(nextQuery, nextSort, {
-            unit: unitFilter,
-            packaging: packagingFilter,
-            delivery: deliveryFilter,
-            stock: stockFilter,
-          }),
-        );
+        throw cause;
       }
     },
     [
@@ -679,7 +715,18 @@ export default function BuyerWorkspace() {
     setError(null);
     try {
       if (!handoff) {
-        await loadSearch(query, sort);
+        setSearch(
+          fallbackSearch(query, sort, {
+            unit: unitFilter,
+            packaging: packagingFilter,
+            delivery: deliveryFilter,
+            stock: "all",
+          }),
+        );
+        // Do not block the public catalog on a remote API cold start. If it
+        // responds, loadSearch replaces the fallback with live data.
+        setLoading(false);
+        void loadSearch(query, sort);
         setCarts([]);
         setOrders([]);
         setDocuments([]);
@@ -720,8 +767,11 @@ export default function BuyerWorkspace() {
     handoff,
     handoffChecked,
     loadSearch,
+    deliveryFilter,
+    packagingFilter,
     query,
     sort,
+    unitFilter,
   ]);
 
   const logout = useCallback(async () => {
@@ -751,7 +801,10 @@ export default function BuyerWorkspace() {
 
   useEffect(() => {
     if (handoffChecked) void refresh();
-  }, [handoffChecked, refresh]);
+    // Refresh is the initial page bootstrap. Search and filter changes use
+    // loadSearch directly and must not re-run the bootstrap with stale state.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [handoffChecked]);
   useEffect(() => {
     if (!toast) return;
     const timer = window.setTimeout(() => setToast(null), 3500);
@@ -759,11 +812,23 @@ export default function BuyerWorkspace() {
   }, [toast]);
 
   const submitSearchFor = async (nextQuery: string) => {
+    setQuery(nextQuery);
     setBusy("search");
     setError(null);
     setComparison(null);
     setProductReviews(null);
     try {
+      if (!handoff) {
+        setSearch(
+          fallbackSearch(nextQuery, sort, {
+            unit: unitFilter,
+            packaging: packagingFilter,
+            delivery: deliveryFilter,
+            stock: "all",
+          }),
+        );
+        return;
+      }
       await loadSearch(nextQuery, sort);
     } catch (cause) {
       setError(errorMessage(cause));
@@ -970,41 +1035,95 @@ export default function BuyerWorkspace() {
     }
   };
 
-  const renderCatalog = () => (
+  const renderCatalog = (isPublic = false) => (
     <div className="mp-stack">
-      <PageHeader
-        eyebrow="B2B закупки"
-        title="Закупки для стоматологии — без лишних звонков"
-        description="Сравнивайте цены, наличие и условия поставщиков Казахстана в одном каталоге."
-      />
-      <div className={styles.catalogProof} aria-label="Преимущества каталога">
-        <span>
-          <strong>10 000+</strong>
-          <small>карточек в каталоге</small>
-        </span>
-        <span>
-          <strong>КЗ</strong>
-          <small>поставщики по Казахстану</small>
-        </span>
-        <span>
-          <strong>24/7</strong>
-          <small>поиск по сленгу и брендам</small>
-        </span>
-      </div>
+      {isPublic ? (
+        <section className={styles.publicHero} aria-labelledby="catalog-title">
+          <div className={styles.publicHeroCopy}>
+            <p className={styles.publicEyebrow}>Закупки для клиник</p>
+            <h1 id="catalog-title">Материалы для клиники. <em>Сравните и закажите.</em></h1>
+            <p className={styles.publicLead}>Цены, остатки и условия поставщиков Казахстана в одном каталоге.</p>
+            <div className={styles.heroActions}>
+              <a className={styles.heroPrimary} href="#catalog-search">Открыть каталог</a>
+              <a className={styles.heroSecondary} href="/about">Как работает</a>
+            </div>
+          </div>
+          <div className={styles.publicHeroAside} aria-label="Популярные категории">
+            <div className={styles.categoryMosaic}>
+              {[
+                ["Эндодонтия", "/catalog/illustrations/endodontics-category.png"],
+                ["Инструменты", "/catalog/illustrations/instruments-category.png"],
+                ["Расходники", "/catalog/illustrations/consumables-category.png"],
+              ].map(([label, image], index) => (
+                <button
+                  className={index === 0 ? styles.categoryFeature : styles.categoryTile}
+                  key={label}
+                  type="button"
+                  onClick={() => {
+                    setQuery(label.toLocaleLowerCase("ru"));
+                    void submitSearchFor(label.toLocaleLowerCase("ru"));
+                  }}
+                >
+                  <img src={image} alt="" />
+                  <span>{label}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : (
+        <>
+          <PageHeader
+            eyebrow="B2B закупки"
+            title="Закупки для стоматологии без лишних звонков"
+            description="Сравнивайте цены, наличие и условия поставщиков Казахстана в одном каталоге."
+          />
+          <div className={styles.catalogProof} aria-label="Преимущества каталога">
+            <span><strong>3 400+</strong><small>canonical-карточек в каталоге</small></span>
+            <span><strong>КЗ</strong><small>поставщики по Казахстану</small></span>
+            <span><strong>24/7</strong><small>поиск по сленгу и брендам</small></span>
+          </div>
+        </>
+      )}
+      {isPublic ? (
+        <div className={styles.publicProof} aria-label="Возможности каталога">
+          <span><strong>3 400+</strong><small>карточек в публичном каталоге</small></span>
+          <span><strong>КЗ</strong><small>поставщики по стране</small></span>
+          <span><strong>1 заказ</strong><small>цены, остатки, документы</small></span>
+        </div>
+      ) : null}
       <Section>
         <form
+          id={isPublic ? "catalog-search" : undefined}
           className={styles.searchBar}
           onSubmit={(event) => {
             event.preventDefault();
-            void submitSearch();
+            // Read the native input at submit time so autofill and keyboard
+            // events are handled even before React commits the state update.
+            void submitSearchFor(searchInputRef.current?.value ?? query);
           }}
         >
           <Field label="Поиск по каталогу">
-            <Input
+            <input
+              ref={searchInputRef}
               className={styles.searchInput}
+              aria-label="Поиск по каталогу"
               value={query}
-              onChange={(_, data) => setQuery(data.value)}
-              contentBefore={<Search24Regular />}
+              onChange={(event) => setQuery(event.currentTarget.value)}
+              onInput={(event) => {
+                const value = event.currentTarget.value;
+                setQuery(value);
+                if (!handoff) {
+                  setSearch(
+                    fallbackSearch(value, sort, {
+                      unit: unitFilter,
+                      packaging: packagingFilter,
+                      delivery: deliveryFilter,
+                      stock: "all",
+                    }),
+                  );
+                }
+              }}
               placeholder="Например: текучий композит, гутта, перчатки"
             />
           </Field>
@@ -1018,8 +1137,11 @@ export default function BuyerWorkspace() {
             </Select>
           </Field>
           <Button
-            type="submit"
+            type="button"
             appearance="primary"
+            onClick={() =>
+              void submitSearchFor(searchInputRef.current?.value ?? query)
+            }
             icon={
               busy === "search" ? <Spinner size="tiny" /> : <Search24Regular />
             }
@@ -1104,7 +1226,9 @@ export default function BuyerWorkspace() {
               : "Сленг, бренд, артикул и официальное название"}
           </span>
         </div>
-        {!search?.items.length ? (
+        {loading && isPublic ? (
+          <LoadingState label="Загружаем предложения" />
+        ) : !search?.items.length ? (
           <EmptyState
             icon={<Search24Regular />}
             title="Ничего не найдено"
@@ -1138,9 +1262,34 @@ export default function BuyerWorkspace() {
                     Number(b.normalizedPriceMinor),
                 )[0];
               return (
-                <article className={styles.product} key={product.id}>
-                  <div className={styles.productVisual} aria-hidden="true">
-                    <ShoppingBag24Regular />
+                <article
+                  className={styles.product}
+                  key={product.id}
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => setSelectedProduct(product)}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      event.preventDefault();
+                      setSelectedProduct(product);
+                    }
+                  }}
+                >
+                  <div className={styles.productVisual}>
+                    {mediaSource(product.media?.[0]) || categoryIllustration(product.categories[0]?.name) ? (
+                      <img
+                        src={mediaSource(product.media?.[0]) ?? categoryIllustration(product.categories[0]?.name)}
+                        alt={product.media?.[0]?.altText ?? `${product.categories[0]?.name ?? "Стоматология"}, иллюстрация категории`}
+                        loading="lazy"
+                        draggable={false}
+                        onContextMenu={(event) => event.preventDefault()}
+                      />
+                    ) : (
+                      <ShoppingBag24Regular aria-hidden="true" />
+                    )}
+                    <small className={styles.photoStatus}>
+                      {product.photoStatus === "exact" ? "Фото товара" : "Визуал категории"}
+                    </small>
                   </div>
                   <div className={styles.productIdentity}>
                     <span className={styles.category}>
@@ -1151,9 +1300,11 @@ export default function BuyerWorkspace() {
                       {[product.brand, product.manufacturer]
                         .filter(Boolean)
                         .join(" · ") ||
-                        (best?.verifiedDocuments === false
-                          ? "Внешний каталог · поставщик не верифицирован"
-                          : "Проверенная карточка каталога")}
+                        (product.sourceUrl
+                          ? "Открытая выгрузка · источник указан"
+                          : best?.verifiedDocuments === false
+                            ? "Внешний каталог · поставщик не верифицирован"
+                            : "Проверенная карточка каталога")}
                     </p>
                     {product.reviewSummary?.count ? (
                       <small className={styles.reviewSummary}>
@@ -1202,8 +1353,20 @@ export default function BuyerWorkspace() {
                   </div>
                   <div className={styles.productActions}>
                     <Button
+                      appearance="subtle"
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        setSelectedProduct(product);
+                      }}
+                    >
+                      Открыть карточку
+                    </Button>
+                    <Button
                       appearance="secondary"
-                      onClick={() => void compare(product.id)}
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        void compare(product.id);
+                      }}
                       disabled={busy === `compare:${product.id}`}
                     >
                       {busy === `compare:${product.id}`
@@ -1216,7 +1379,10 @@ export default function BuyerWorkspace() {
                       <Button
                         appearance="primary"
                         icon={<Cart24Regular />}
-                        onClick={() => void addToCart(best.id)}
+                        onClick={(event) => {
+                          event.stopPropagation();
+                          void addToCart(best.id);
+                        }}
                         disabled={busy === `cart:${best.id}`}
                       >
                         В корзину
@@ -1233,6 +1399,50 @@ export default function BuyerWorkspace() {
           </div>
         )}
       </Section>
+      {selectedProduct ? (
+        <div className={styles.productModalBackdrop} role="presentation" onClick={() => setSelectedProduct(null)}>
+          <section className={styles.productModal} role="dialog" aria-modal="true" aria-labelledby="product-detail-title" onClick={(event) => event.stopPropagation()}>
+            <header className={styles.productModalHeader}>
+              <div>
+                <span className={styles.category}>{selectedProduct.categories[0]?.name ?? "Стоматология"}</span>
+                <h2 id="product-detail-title">{selectedProduct.name}</h2>
+                <p>{[selectedProduct.brand, selectedProduct.manufacturer].filter(Boolean).join(" · ")}</p>
+              </div>
+              <Button appearance="subtle" onClick={() => setSelectedProduct(null)} aria-label="Закрыть карточку">Закрыть</Button>
+            </header>
+            <div className={styles.productModalBody}>
+              <div className={styles.productModalVisual} onContextMenu={(event) => event.preventDefault()}>
+                <img
+                  src={mediaSource(selectedProduct.media?.[0]) ?? categoryIllustration(selectedProduct.categories[0]?.name)}
+                  alt={selectedProduct.media?.[0]?.altText ?? selectedProduct.name}
+                  draggable={false}
+                />
+                <small>{selectedProduct.media?.[0]?.metadata?.exactProductPhoto ? "Фото со страницы поставщика" : "Категорийная иллюстрация, фото поставщика пока не найдено"}</small>
+              </div>
+              <div className={styles.productModalCopy}>
+                <h3>Описание</h3>
+                <p>{selectedProduct.description || "Описание будет дополнено после следующей выгрузки поставщика."}</p>
+                {selectedProduct.attributes?.length ? (
+                  <dl className={styles.productAttributes}>
+                    {selectedProduct.attributes.map(([label, value]) => (
+                      <div key={`${label}-${value}`}>
+                        <dt>{label}</dt>
+                        <dd>{value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                ) : null}
+                {selectedProduct.sourceUrl ? (
+                  <a className={styles.productSourceLink} href={selectedProduct.sourceUrl} target="_blank" rel="noreferrer">
+                    Открыть исходную карточку поставщика ↗
+                  </a>
+                ) : null}
+                <div className={styles.productSourceNotice}>Изображение защищено от обычного сохранения интерфейсом. Для коммерческого использования проверяется источник и статус прав.</div>
+              </div>
+            </div>
+          </section>
+        </div>
+      ) : null}
       {comparison ? (
         <Section
           title="Сравнение предложений"
@@ -1465,7 +1675,7 @@ export default function BuyerWorkspace() {
       <PageHeader
         eyebrow="Исполнение"
         title="Заказы"
-        description="Один checkout автоматически разделяется на отдельные заказы поставщикам."
+        description="После оформления корзина автоматически разделится на заказы поставщикам."
       />
       <div className="mp-metrics">
         <Metric
@@ -1579,11 +1789,11 @@ export default function BuyerWorkspace() {
                                     }))
                                   }
                                 >
-                                  <option value="5">5 — отлично</option>
-                                  <option value="4">4 — хорошо</option>
-                                  <option value="3">3 — нормально</option>
-                                  <option value="2">2 — плохо</option>
-                                  <option value="1">1 — очень плохо</option>
+                                  <option value="5">5, отлично</option>
+                                  <option value="4">4, хорошо</option>
+                                  <option value="3">3, нормально</option>
+                                  <option value="2">2, плохо</option>
+                                  <option value="1">1, очень плохо</option>
                                 </Select>
                                 <Input
                                   value={reviewDraft(order.id).comment}
@@ -1626,9 +1836,9 @@ export default function BuyerWorkspace() {
   const renderDocuments = () => (
     <div className="mp-stack">
       <PageHeader
-        eyebrow="Юридический контур"
+        eyebrow="Документы заказа"
         title="Документы"
-        description="Счета, спецификации, накладные и подписанные версии хранятся с контрольной суммой."
+        description="Счета, спецификации, накладные и подписанные версии хранятся вместе с заказом."
       />
       <Section>
         {!documents.length ? (
@@ -1758,38 +1968,9 @@ export default function BuyerWorkspace() {
   if (!handoff && active === "catalog") {
     return (
       <div className={styles.publicStore}>
-        <header className={styles.publicHeader}>
-          <a
-            className={styles.publicBrand}
-            href="/"
-            aria-label="DentMarket — магазин"
-          >
-            <span className={styles.publicBrandMark}>DM</span>
-            <span>
-              <strong>DentMarket</strong>
-              <small>Маркетплейс для стоматологий</small>
-            </span>
-          </a>
-          <nav className={styles.publicNav} aria-label="Разделы магазина">
-            <a className={styles.publicNavActive} href="#catalog">
-              Каталог
-            </a>
-            <a href="/about">Поставщикам</a>
-            <a href="/about">О платформе</a>
-          </nav>
-          <Button
-            appearance="primary"
-            onClick={() => window.location.assign(LOGIN_URL)}
-          >
-            Войти
-          </Button>
-        </header>
+        <PublicHeader active="catalog" />
         <main className={styles.publicMain} id="catalog">
-          {loading ? (
-            <LoadingState label="Загружаем каталог" />
-          ) : (
-            renderCatalog()
-          )}
+          {renderCatalog(true)}
         </main>
         <footer className={styles.publicFooter}>
           <span>© DentMarket KZ</span>
@@ -1810,24 +1991,47 @@ export default function BuyerWorkspace() {
       }
       navigation={nav}
       activeNavigation={active}
+      contextLabel={
+        active === "smart-commerce"
+          ? "Рекомендации по городу"
+          : active === "assistant"
+            ? "AI-помощник"
+            : active === "support"
+              ? "Поддержка"
+              : undefined
+      }
       onLogout={handoff ? () => void logout() : undefined}
       onNavigate={(item) => {
-        if (item === "about") window.location.assign("/about");
-        else if (!handoff && item !== "catalog")
+        if (!handoff && item !== "catalog")
           window.location.assign(LOGIN_URL);
         else setActive(item);
       }}
       actions={
-        <Button
-          appearance={handoff ? "subtle" : "primary"}
-          icon={handoff ? <ArrowSync24Regular /> : undefined}
-          onClick={() =>
-            handoff ? void refresh() : window.location.assign(LOGIN_URL)
-          }
-          aria-label={handoff ? "Обновить данные" : "Войти"}
-        >
-          {handoff ? null : "Войти"}
-        </Button>
+        handoff ? (
+          <>
+            <Menu>
+              <MenuTrigger disableButtonEnhancement>
+                <Button appearance="subtle" icon={<MoreHorizontal24Regular />}>Сервисы</Button>
+              </MenuTrigger>
+              <MenuPopover>
+                <MenuList>
+                  <MenuItem icon={<Location24Regular />} onClick={() => setActive("smart-commerce")}>Рекомендации по городу</MenuItem>
+                  <MenuItem icon={<Bot24Regular />} onClick={() => setActive("assistant")}>AI-помощник</MenuItem>
+                  <MenuItem icon={<PersonSupport24Regular />} onClick={() => setActive("support")}>Поддержка</MenuItem>
+                  <MenuItem onClick={() => window.location.assign("/about")}>О платформе</MenuItem>
+                </MenuList>
+              </MenuPopover>
+            </Menu>
+            <Button
+              appearance="subtle"
+              icon={<ArrowSync24Regular />}
+              onClick={() => void refresh()}
+              aria-label="Обновить данные"
+            />
+          </>
+        ) : (
+          <Button appearance="primary" onClick={() => window.location.assign(LOGIN_URL)}>Войти</Button>
+        )
       }
     >
       {loading ? (

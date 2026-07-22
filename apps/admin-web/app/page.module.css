@@ -31,14 +31,20 @@
   gap: 4px;
 }
 .navItem {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 12px;
   padding: 10px 12px;
+  border: 0;
   border-radius: 8px;
+  background: transparent;
   color: #dbe4f2;
   text-decoration: none;
   font-size: 14px;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
 }
 .navItem:hover {
   background: #223654;
@@ -69,6 +75,10 @@
 .search {
   width: min(440px, 45vw);
 }
+.mobileSection {
+  display: none;
+  min-width: 220px;
+}
 .search {
   min-height: 36px;
   border: 1px solid #b8bec8;
@@ -86,6 +96,10 @@
   max-width: 1380px;
   margin: 0 auto;
   padding: 36px 32px 64px;
+}
+.sectionStack {
+  display: grid;
+  gap: 24px;
 }
 .qualityTable {
   display: grid;
@@ -203,6 +217,17 @@
   flex-direction: column;
   justify-content: space-between;
   background: #fbfcfd;
+  color: inherit;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.module:hover {
+  border-color: #9aabc0;
+  background: #f4f7fb;
+}
+.module:active {
+  transform: translateY(1px);
 }
 .moduleTop {
   display: flex;
@@ -287,6 +312,12 @@
   .topbar {
     padding: 0 16px;
   }
+  .mobileSection {
+    display: inline-flex;
+  }
+  .search {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 620px) {
@@ -301,7 +332,11 @@
     grid-template-columns: 1fr;
   }
   .search {
-    width: min(70vw, 360px);
+    display: none;
+  }
+  .mobileSection {
+    min-width: 0;
+    width: min(62vw, 260px);
   }
 }
 .authLoading {

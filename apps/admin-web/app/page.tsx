@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Input } from "@fluentui/react-components";
+import { Button, Input, Select } from "@fluentui/react-components";
 import {
   BuildingShop24Regular,
   Cart24Regular,
@@ -14,189 +14,199 @@ import {
 } from "@fluentui/react-icons";
 import { useEffect, useState, type ReactNode } from "react";
 import styles from "./page.module.css";
-import { OrganizationQuickCreate } from "./organization-quick-create";
-import { ResourceLists } from "./resource-lists";
-import { FoundationManagement } from "./foundation-management";
-import { LiveMetrics } from "./live-metrics";
-import { CommerceFoundation } from "./commerce-foundation";
-import { SupplierOperations } from "./supplier-operations";
-import { SupplierControls } from "./supplier-controls";
-import { CommerceSkeleton } from "./commerce-skeleton";
-import { IntegrationOperations } from "./integration-operations";
-import { PlatformAssurance } from "./platform-assurance";
-import { TrustOperations } from "./trust-operations";
 import { AgreementOperations } from "./agreement-operations";
-import { ConnectorReadinessRegistry } from "./connector-readiness-registry";
 import { CatalogQuality } from "./catalog-quality";
-import { clearAdminSession, isLocalAdminDevelopment, readAdminSession } from "./admin-auth";
+import { CommerceFoundation } from "./commerce-foundation";
+import { CommerceSkeleton } from "./commerce-skeleton";
+import { ConnectorReadinessRegistry } from "./connector-readiness-registry";
+import { FoundationManagement } from "./foundation-management";
+import { IntegrationOperations } from "./integration-operations";
+import { LiveMetrics } from "./live-metrics";
 import { OperationQueue } from "./operation-queue";
+import { OrganizationQuickCreate } from "./organization-quick-create";
+import { PlatformAssurance } from "./platform-assurance";
+import { ResourceLists } from "./resource-lists";
+import { SupplierControls } from "./supplier-controls";
+import { SupplierOperations } from "./supplier-operations";
+import { TrustOperations } from "./trust-operations";
+import { clearAdminSession, isLocalAdminDevelopment, readAdminSession } from "./admin-auth";
 
-const navigation: Array<{ label: string; icon: ReactNode; active?: boolean }> =
-  [
-    { label: "Обзор", icon: <DocumentTable24Regular />, active: true },
-    { label: "Организации", icon: <BuildingShop24Regular /> },
-    { label: "Пользователи и права", icon: <PeopleTeam24Regular /> },
-    { label: "Каталог", icon: <Cube24Regular /> },
-    { label: "Импорт", icon: <Database24Regular /> },
-    { label: "Заказы", icon: <Cart24Regular /> },
-    { label: "Контроль доступа", icon: <ShieldLock24Regular /> },
-  ];
+type SectionId =
+  | "overview"
+  | "organizations"
+  | "access"
+  | "catalog"
+  | "imports"
+  | "orders"
+  | "security"
+  | "settings";
 
-const modules = [
-  {
-    title: "Организации",
-    description: "Capabilities, memberships и юридические профили",
-    icon: <BuildingShop24Regular />,
-  },
-  {
-    title: "Доступ",
-    description: "Роли, permissions и политики согласования",
-    icon: <ShieldLock24Regular />,
-  },
-  {
-    title: "Каталог",
-    description: "Категории, товары, варианты и атрибуты",
-    icon: <Cube24Regular />,
-  },
-  {
-    title: "География",
-    description: "Казахстан, регионы, города и адреса",
-    icon: <Database24Regular />,
-  },
+const navigation: Array<{ id: SectionId; label: string; icon: ReactNode }> = [
+  { id: "overview", label: "Обзор", icon: <DocumentTable24Regular /> },
+  { id: "organizations", label: "Организации", icon: <BuildingShop24Regular /> },
+  { id: "access", label: "Пользователи и права", icon: <PeopleTeam24Regular /> },
+  { id: "catalog", label: "Каталог", icon: <Cube24Regular /> },
+  { id: "imports", label: "Импорт и интеграции", icon: <Database24Regular /> },
+  { id: "orders", label: "Заказы и договоры", icon: <Cart24Regular /> },
+  { id: "security", label: "Контроль и доверие", icon: <ShieldLock24Regular /> },
 ];
 
-export default function OperationsOverview() {
+const sectionMeta: Record<SectionId, { title: string; description: string }> = {
+  overview: {
+    title: "Операционный обзор",
+    description: "Состояние платформы и задачи, которые требуют решения оператора.",
+  },
+  organizations: {
+    title: "Организации",
+    description: "Клиники, поставщики, юридические профили и возможности участников.",
+  },
+  access: {
+    title: "Пользователи и права",
+    description: "Роли, разрешения, политики согласования и административный доступ.",
+  },
+  catalog: {
+    title: "Каталог",
+    description: "Качество карточек, категории, варианты товаров и коммерческие данные.",
+  },
+  imports: {
+    title: "Импорт и интеграции",
+    description: "Источники данных, коннекторы, задания синхронизации и готовность обмена.",
+  },
+  orders: {
+    title: "Заказы и договоры",
+    description: "Исполнение заказов поставщиками, договоры и подписи ЭЦП.",
+  },
+  security: {
+    title: "Контроль и доверие",
+    description: "Проверки поставщиков, рейтинг и операционные ограничения.",
+  },
+  settings: {
+    title: "Настройки платформы",
+    description: "Служебные возможности и готовность инфраструктурных модулей.",
+  },
+};
+
+const modules: Array<{ id: SectionId; title: string; description: string; icon: ReactNode }> = [
+  { id: "organizations", title: "Организации", description: "Юридические профили и участники", icon: <BuildingShop24Regular /> },
+  { id: "access", title: "Доступ", description: "Роли и политики согласования", icon: <ShieldLock24Regular /> },
+  { id: "catalog", title: "Каталог", description: "Товары, варианты и атрибуты", icon: <Cube24Regular /> },
+  { id: "imports", title: "Интеграции", description: "Источники данных и коннекторы", icon: <Database24Regular /> },
+];
+
+export default function OperationsWorkspace() {
   const [authorized, setAuthorized] = useState(false);
+  const [active, setActive] = useState<SectionId>("overview");
+
   useEffect(() => {
     if (readAdminSession() || isLocalAdminDevelopment()) setAuthorized(true);
     else window.location.replace("/login");
   }, []);
-  if (!authorized) return <main className={styles.authLoading}>Проверяем защищённую сессию…</main>;
+
+  if (!authorized) {
+    return <main className={styles.authLoading}>Проверяем защищённую сессию...</main>;
+  }
+
+  const meta = sectionMeta[active];
+
+  const overview = (
+    <>
+      <section className={styles.statusPanel} aria-label="Статус платформы">
+        <div>
+          <div className={styles.statusTitle}>Основной торговый сценарий доступен</div>
+          <div className={styles.statusText}>Поиск, корзина, заказы, документы и интеграции связаны одним процессом.</div>
+        </div>
+        <Button className={styles.buttonOutline} appearance="outline" onClick={() => setActive("orders")}>Открыть очередь</Button>
+      </section>
+
+      <div className={styles.grid}>
+        <section className={styles.panel}>
+          <div className={styles.panelHeader}>
+            <h2 className={styles.panelTitle}>Основные области</h2>
+            <span className={styles.muted}>Быстрый переход</span>
+          </div>
+          <div className={styles.moduleGrid}>
+            {modules.map((module) => (
+              <button className={styles.module} key={module.id} type="button" onClick={() => setActive(module.id)}>
+                <span className={styles.moduleTop}><strong>{module.title}</strong>{module.icon}</span>
+                <span className={styles.moduleDescription}>{module.description}</span>
+              </button>
+            ))}
+          </div>
+        </section>
+
+        <section className={styles.panel}>
+          <div className={styles.panelHeader}><h2 className={styles.panelTitle}>Путь заказа</h2></div>
+          <div className={styles.checklist}>
+            {[
+              ["Цена сохранена", "Условия поставщика фиксируются в корзине"],
+              ["Заказ разделён", "Каждый поставщик получает свою часть"],
+              ["Исполнение подтверждено", "Количество и срок проходят проверку"],
+              ["Документы сформированы", "История доступна участникам и оператору"],
+            ].map(([title, description]) => (
+              <div className={styles.checkRow} key={title}>
+                <div className={styles.checkMark}>✓</div>
+                <div className={styles.checkCopy}><strong>{title}</strong><span className={styles.checkMeta}>{description}</span></div>
+              </div>
+            ))}
+          </div>
+        </section>
+      </div>
+
+      <LiveMetrics />
+      <OperationQueue />
+    </>
+  );
+
+  const content: Record<SectionId, ReactNode> = {
+    overview,
+    organizations: <><ResourceLists /><FoundationManagement /></>,
+    access: <><SupplierControls /><PlatformAssurance /></>,
+    catalog: <><CatalogQuality /><CommerceFoundation /></>,
+    imports: <><IntegrationOperations /><ConnectorReadinessRegistry /></>,
+    orders: <><SupplierOperations /><AgreementOperations /></>,
+    security: <TrustOperations />,
+    settings: <CommerceSkeleton />,
+  };
+
   return (
     <div className={styles.shell}>
       <aside className={styles.sidebar}>
         <div className={styles.brand}>
-          <span className={styles.brandName}>Marketplace Operations</span>
-          <span className={styles.brandMeta}>B2B procurement platform</span>
+          <span className={styles.brandName}>DentMarket Operations</span>
+          <span className={styles.brandMeta}>Кабинет оператора</span>
         </div>
         <nav className={styles.nav} aria-label="Основная навигация">
           {navigation.map((item) => (
-            <a
-              key={item.label}
-              href="#"
-              className={`${styles.navItem} ${item.active ? styles.navItemActive : ""}`}
-            >
-              {item.icon}
-              <span>{item.label}</span>
-            </a>
+            <button key={item.id} type="button" className={`${styles.navItem} ${active === item.id ? styles.navItemActive : ""}`} onClick={() => setActive(item.id)}>
+              {item.icon}<span>{item.label}</span>
+            </button>
           ))}
         </nav>
         <div className={styles.sidebarFooter}>
-          <a href="#" className={styles.navItem}>
-            <Settings24Regular />
-            <span>Настройки</span>
-          </a>
+          <button type="button" className={`${styles.navItem} ${active === "settings" ? styles.navItemActive : ""}`} onClick={() => setActive("settings")}>
+            <Settings24Regular /><span>Настройки</span>
+          </button>
         </div>
       </aside>
 
       <main className={styles.main}>
         <header className={styles.topbar}>
-          <Input
-            className={styles.search}
-            contentBefore={<Search24Regular />}
-            placeholder="Поиск по платформе"
-            aria-label="Поиск по платформе"
-          />
-          <Button className={styles.buttonSubtle} appearance="subtle" onClick={() => { clearAdminSession(); window.location.assign("/login"); }}>
-            Выйти
-          </Button>
+          <Select className={styles.mobileSection} value={active} onChange={(_, data) => setActive(data.value as SectionId)} aria-label="Раздел админки">
+            {[...navigation, { id: "settings" as const, label: "Настройки", icon: null }].map((item) => <option value={item.id} key={item.id}>{item.label}</option>)}
+          </Select>
+          <Input className={styles.search} contentBefore={<Search24Regular />} placeholder="Поиск по платформе" aria-label="Поиск по платформе" />
+          <Button className={styles.buttonSubtle} appearance="subtle" onClick={() => { clearAdminSession(); window.location.assign("/login"); }}>Выйти</Button>
         </header>
 
         <div className={styles.content}>
           <div className={styles.heading}>
             <div className={styles.headingCopy}>
-              <h1 className={styles.pageTitle}>Операционный контур</h1>
-              <span className={styles.muted}>
-                Полный контур: foundation, marketplace, платежи, логистика,
-                документы, комплаенс и интеграции.
-              </span>
+              <h1 className={styles.pageTitle}>{meta.title}</h1>
+              <span className={styles.muted}>{meta.description}</span>
             </div>
-            <OrganizationQuickCreate />
+            {active === "organizations" ? <OrganizationQuickCreate /> : null}
           </div>
-
-          <section className={styles.statusPanel} aria-label="Статус окружения">
-            <div>
-              <div className={styles.statusTitle}>
-                B2B marketplace работает end-to-end
-              </div>
-              <div className={styles.statusText}>
-                Поиск, split checkout, резервы, оплата, отгрузки, документы,
-                комплаенс и уведомления связаны одним сценарием.
-              </div>
-            </div>
-            <Button className={styles.buttonOutline} appearance="outline">
-              Открыть документацию
-            </Button>
-          </section>
-
-          <div className={styles.grid}>
-            <section className={styles.panel}>
-              <div className={styles.panelHeader}>
-                <h2 className={styles.panelTitle}>Модули foundation</h2>
-                <span className={styles.muted}>4 области</span>
-              </div>
-              <div className={styles.moduleGrid}>
-                {modules.map((module) => (
-                  <article className={styles.module} key={module.title}>
-                    <div className={styles.moduleTop}>
-                      <strong>{module.title}</strong>
-                      {module.icon}
-                    </div>
-                    <div className={styles.moduleDescription}>
-                      {module.description}
-                    </div>
-                  </article>
-                ))}
-              </div>
-            </section>
-
-            <section className={styles.panel}>
-              <div className={styles.panelHeader}>
-                <h2 className={styles.panelTitle}>Транзакционный путь</h2>
-              </div>
-              <div className={styles.checklist}>
-                {[
-                  ["Cart pricing", "Snapshot цены и условий поставщика"],
-                  ["Checkout split", "Группировка по поставщикам"],
-                  ["Supplier orders", "Подтверждение и state machine"],
-                  ["Mock payments", "Allocations и базовый ledger"],
-                ].map(([title, meta]) => (
-                  <div className={styles.checkRow} key={title}>
-                    <div className={styles.checkMark}>✓</div>
-                    <div className={styles.checkCopy}>
-                      <strong>{title}</strong>
-                      <span className={styles.checkMeta}>{meta}</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </section>
-          </div>
-
-          <LiveMetrics />
-          <OperationQueue />
-          <CatalogQuality />
-          <AgreementOperations />
-          <PlatformAssurance />
-          <TrustOperations />
-          <ResourceLists />
-          <FoundationManagement />
-          <CommerceFoundation />
-          <SupplierOperations />
-          <SupplierControls />
-          <IntegrationOperations />
-          <ConnectorReadinessRegistry />
-          <CommerceSkeleton />
+          <div className={styles.sectionStack}>{content[active]}</div>
         </div>
       </main>
     </div>

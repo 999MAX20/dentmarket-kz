@@ -1,4 +1,11 @@
 .switcher { min-width: 210px; }
+.attentionGrid { display:grid; grid-template-columns:1.2fr 1fr 1fr; }
+.attentionGrid button { min-width:0; min-height:148px; display:flex; flex-direction:column; align-items:flex-start; gap:10px; padding:18px; border:0; border-right:1px solid var(--colorNeutralStroke2); background:var(--colorNeutralBackground1); color:var(--colorNeutralForeground1); text-align:left; cursor:pointer; }
+.attentionGrid button:last-child { border-right:0; }
+.attentionGrid button:hover { background:var(--colorNeutralBackground1Hover); }
+.attentionGrid button:active { transform:translateY(1px); }
+.attentionGrid strong { font-size:14px; line-height:1.35; }
+.attentionGrid span:last-child { color:var(--colorNeutralForeground3); font-size:11px; line-height:1.45; }
 .healthGrid { display: grid; grid-template-columns: repeat(3, 1fr); }
 .healthItem { min-height: 112px; display: grid; align-content: center; gap: 7px; padding: 18px; border-right: 1px solid var(--colorNeutralStroke2); }
 .healthItem:last-child { border-right: 0; }
@@ -21,8 +28,8 @@
 .formRow { display: grid; grid-template-columns: 1fr 1fr auto; gap: 8px; align-items: end; padding: 16px 18px; border-bottom: 1px solid var(--colorNeutralStroke2); }
 .toast { position: fixed; right: 22px; bottom: 22px; z-index: 50; max-width: 390px; padding: 13px 16px; border: 1px solid var(--colorNeutralStroke2); border-radius: 12px; background: var(--colorNeutralBackground1); box-shadow: var(--shadow16); font-size: 12px; }
 
-@media (max-width: 900px) { .healthGrid { grid-template-columns: 1fr; } .healthItem { border-right: 0; border-bottom: 1px solid var(--colorNeutralStroke2); } .event { grid-template-columns: minmax(0, 1fr) auto; } }
-@media (max-width: 650px) { .switcher { min-width: 0; max-width: 180px; } .integration, .credential, .document { grid-template-columns: 1fr; } .formRow { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .attentionGrid,.healthGrid { grid-template-columns: 1fr; } .attentionGrid button,.healthItem { border-right: 0; border-bottom: 1px solid var(--colorNeutralStroke2); } .attentionGrid button:last-child,.healthItem:last-child { border-bottom:0; } .event { grid-template-columns: minmax(0, 1fr) auto; } }
+@media (max-width: 650px) { .switcher { min-width: 0; max-width: 130px; } .refreshButton { display:none !important; } .integration, .credential, .document { grid-template-columns: 1fr; } .formRow { grid-template-columns: 1fr; } }
 .fileInput {
   min-height: 32px;
   width: 100%;

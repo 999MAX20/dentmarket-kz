@@ -173,10 +173,10 @@ export function FoundationManagement() {
   }
 
   return (
-    <section className={styles.section} aria-label="Управление foundation">
+    <section className={styles.section} aria-label="Роли и справочники">
       <div className={styles.heading}>
         <div>
-          <h2>Управление foundation</h2>
+          <h2>Роли и справочники</h2>
           <p>Роли, участники и конфигурация динамических атрибутов.</p>
         </div>
         <button onClick={() => void load()}>Обновить данные</button>

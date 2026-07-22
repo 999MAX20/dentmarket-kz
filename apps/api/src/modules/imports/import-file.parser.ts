@@ -2,7 +2,6 @@ import { BadRequestException, Injectable } from "@nestjs/common";
 import type { CreateImportBatchInput } from "@marketplace/schemas";
 import { parse } from "csv-parse/sync";
 import ExcelJS from "exceljs";
-import { getDocument } from "pdfjs-dist/legacy/build/pdf.mjs";
 
 type RawRow = Record<string, string | number | boolean | null>;
 export type ImportParseResult = { rows: RawRow[]; metadata: Record<string, unknown>; requiresReview: boolean };
@@ -96,6 +95,17 @@ export class ImportFileParser {
 
   private async parsePdf(buffer: Buffer): Promise<ImportParseResult> {
     try {
+      // pdfjs-dist is ESM-only. Keep this import dynamic at runtime so the API's
+      // CommonJS bundle can start even when PDF import is not used by a request.
+      let pdfModule: typeof import("pdfjs-dist/legacy/build/pdf.mjs");
+      try {
+        pdfModule = await new Function("return import('pdfjs-dist/legacy/build/pdf.mjs')")() as typeof import("pdfjs-dist/legacy/build/pdf.mjs");
+      } catch {
+        // Test runners may execute Function in a VM without a dynamic-import
+        // callback. The native import path remains valid in that environment.
+        pdfModule = await import("pdfjs-dist/legacy/build/pdf.mjs");
+      }
+      const { getDocument } = pdfModule;
       const document = await getDocument({ data: new Uint8Array(buffer), useSystemFonts: true }).promise;
       const rows: RawRow[] = [];
       let textCharacters = 0;

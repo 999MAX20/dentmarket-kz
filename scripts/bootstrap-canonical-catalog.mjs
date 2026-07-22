@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import crypto from "node:crypto";
 import { parse } from "../apps/api/node_modules/csv-parse/lib/sync.js";
 import { PrismaClient } from "@prisma/client";
 
@@ -36,6 +37,13 @@ const slug = (source, externalId) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "")
     .slice(0, 70)}`;
+const canonicalKey = (row) =>
+  [row.gtin, row.name, row.brand, row.manufacturer, row.category]
+    .map((value) => String(value || "").replace(/\s+/g, " ").trim().toLocaleLowerCase("ru"))
+    .filter(Boolean)
+    .join("|");
+const canonicalSlug = (row) =>
+  `canonical-${crypto.createHash("sha256").update(canonicalKey(row)).digest("hex").slice(0, 32)}`;
 const code = (value) =>
   String(value || "стоматология")
     .toLowerCase()
@@ -128,13 +136,37 @@ for (const relative of inputFiles) {
     const manufacturer = await safeManufacturer(
       String(row.manufacturer || "").trim(),
     );
-    const canonicalSlug = slug(source, externalId);
+    const productSlug = canonicalSlug(row);
     const existing = await prisma.product.findUnique({
-      where: { slug: canonicalSlug },
-      select: { id: true },
+      where: { slug: productSlug },
+      select: { id: true, externalMetadata: true },
     });
+    const previousMetadata = existing?.externalMetadata && typeof existing.externalMetadata === "object" && !Array.isArray(existing.externalMetadata)
+      ? existing.externalMetadata
+      : {};
+    const sourceRecord = { source, externalId, sourceUrl: row.sourceUrl || null };
+    const previousSourceRecords = Array.isArray(previousMetadata.sourceRecords)
+      ? previousMetadata.sourceRecords
+      : [];
+    const mergedMetadata = {
+      ...previousMetadata,
+      canonicalKey: canonicalKey(row),
+      source,
+      externalId,
+      sourceUrl: row.sourceUrl || null,
+      sourceUpdatedAt: row.sourceUpdatedAt || null,
+      sourceRecords: [...previousSourceRecords.filter((item) => JSON.stringify(item) !== JSON.stringify(sourceRecord)), sourceRecord],
+      imageSources: [
+        ...(Array.isArray(previousMetadata.imageSources) ? previousMetadata.imageSources : []),
+        row.imageUrl,
+        row.image_url,
+        row.image,
+        row.photoUrl,
+      ].filter(Boolean).map((value) => String(value).trim()).filter(Boolean),
+      importedAsCanonicalDraft: true,
+    };
     const product = await prisma.product.upsert({
-      where: { slug: canonicalSlug },
+      where: { slug: productSlug },
       update: {
         canonicalName: name,
         status: "DRAFT",
@@ -142,29 +174,17 @@ for (const relative of inputFiles) {
         brandId: brand?.id ?? null,
         manufacturerId: manufacturer?.id ?? null,
         baseUnitId: saleUnit?.id ?? null,
-        externalMetadata: {
-          source,
-          externalId,
-          sourceUrl: row.sourceUrl || null,
-          sourceUpdatedAt: row.sourceUpdatedAt || null,
-          importedAsCanonicalDraft: true,
-        },
+        externalMetadata: mergedMetadata,
       },
       create: {
         canonicalName: name,
-        slug: canonicalSlug,
+        slug: productSlug,
         status: "DRAFT",
         productType: productType(name),
         brandId: brand?.id ?? null,
         manufacturerId: manufacturer?.id ?? null,
         baseUnitId: saleUnit?.id ?? null,
-        externalMetadata: {
-          source,
-          externalId,
-          sourceUrl: row.sourceUrl || null,
-          sourceUpdatedAt: row.sourceUpdatedAt || null,
-          importedAsCanonicalDraft: true,
-        },
+        externalMetadata: mergedMetadata,
       },
     });
     if (existing) updated += 1;
