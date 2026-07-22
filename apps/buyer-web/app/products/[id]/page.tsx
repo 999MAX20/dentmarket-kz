@@ -7,7 +7,10 @@ import styles from "./page.module.css";
 import ProductOfferActions from "./product-offer-actions";
 import VariantPicker from "./variant-picker";
 import SafeProductImage from "../../components/safe-product-image";
-import { safeCatalogMediaSource } from "../../lib/catalog-media";
+import {
+  safeCatalogMediaSource,
+  type CatalogMediaCandidate,
+} from "../../lib/catalog-media";
 
 type CatalogProduct = (typeof catalog.products)[number];
 type ProductVariant = {
@@ -30,6 +33,8 @@ type ProductOffer = {
   verifiedDocuments?: boolean;
   officialDistributor?: boolean;
 };
+type ProductMedia = CatalogMediaCandidate & { altText?: string };
+const mediaEntries = mediaCatalog.entries as Record<string, ProductMedia>;
 
 function getProduct(id: string): CatalogProduct | undefined {
   const catalogProduct = catalog.products.find((item) => item.id === id);
@@ -104,11 +109,7 @@ export default async function ProductPage({
   const product = getProduct(decodeURIComponent(id));
   if (!product) notFound();
 
-  const media = product.sourceUrl
-    ? mediaCatalog.entries[
-        product.sourceUrl as keyof typeof mediaCatalog.entries
-      ]
-    : undefined;
+  const media = product.sourceUrl ? mediaEntries[product.sourceUrl] : undefined;
   const imageSource = safeCatalogMediaSource(media);
   const variants = ((product.variants ?? []) as ProductVariant[]).map(
     (variant) => ({

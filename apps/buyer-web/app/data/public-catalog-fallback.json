@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T17:21:41.218Z",
+  "generatedAt": "2026-07-22T17:45:57.000Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -14,7 +14,7 @@
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3197,
+  "total": 3222,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -258699,6 +258699,912 @@
       ]
     },
     {
+      "id": "public-d76477b0e25bfe9b5dc3fc92",
+      "name": "Aelite Aesthetic Enamel",
+      "description": "Композит для воспроизведения эмали в эстетических реставрациях. Форма выпуска и оттенок выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Aelite Aesthetic Enamel",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/aelite-aesthetic-enamel-single-syringe/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Aelite Aesthetic Enamel"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.bisco.com/aelite-aesthetic-enamel-single-syringe/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "AELITE AESTHETIC ENAMEL",
+        "Элайт Эстетик Энамель",
+        "Aelite Aesthetic Enamel Syringe A1",
+        "Aelite Aesthetic Enamel Syringe A2",
+        "Aelite Aesthetic Enamel Syringe A3",
+        "Aelite Aesthetic Enamel Syringe A3.5",
+        "Aelite Aesthetic Enamel Syringe B1",
+        "Aelite Aesthetic Enamel Syringe B2",
+        "Aelite Aesthetic Enamel Syringe Bleach",
+        "Aelite Aesthetic Enamel Syringe Incisal Clear",
+        "Aelite Aesthetic Enamel Unit-Dose A1",
+        "Aelite Aesthetic Enamel Unit-Dose A2",
+        "Aelite Aesthetic Enamel Unit-Dose A3",
+        "Aelite Aesthetic Enamel Unit-Dose A3.5",
+        "Aelite Aesthetic Enamel Unit-Dose B1",
+        "Aelite Aesthetic Enamel Unit-Dose B2",
+        "Aelite Aesthetic Enamel Unit-Dose Bleach",
+        "Aelite Aesthetic Enamel Unit-Dose Incisal Clear"
+      ],
+      "variants": [
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-d897ec2ea75844cabcab3e06",
+          "sku": "H-852A1P",
+          "gtin": null,
+          "label": "Шприц · оттенок A1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A1",
+            "Артикул производителя": "H-852A1P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-f14028c056ca2c8771af0095",
+          "sku": "H-852A2P",
+          "gtin": null,
+          "label": "Шприц · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A2",
+            "Артикул производителя": "H-852A2P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-5eb92c02f1d8308f8571cb90",
+          "sku": "H-852A3P",
+          "gtin": null,
+          "label": "Шприц · оттенок A3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A3",
+            "Артикул производителя": "H-852A3P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-e993bdf44ff95c186a2b207f",
+          "sku": "H-852A35P",
+          "gtin": null,
+          "label": "Шприц · оттенок A3.5",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A3.5",
+            "Артикул производителя": "H-852A35P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-f451522738bef4adf600bafe",
+          "sku": "H-852B1P",
+          "gtin": null,
+          "label": "Шприц · оттенок B1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "B1",
+            "Артикул производителя": "H-852B1P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-d981acb001718e575a0874ef",
+          "sku": "H-852B2P",
+          "gtin": null,
+          "label": "Шприц · оттенок B2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "B2",
+            "Артикул производителя": "H-852B2P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-0f33d3520a63fc39e2ee6e12",
+          "sku": "H-852W2P",
+          "gtin": null,
+          "label": "Шприц · оттенок Bleach",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "H-852W2P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-abbc964183a89738af6c89a8",
+          "sku": "H-852CLP",
+          "gtin": null,
+          "label": "Шприц · оттенок Incisal Clear",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "H-852CLP"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-bc39391a52e8bc914f610212",
+          "sku": "H-854A1P",
+          "gtin": null,
+          "label": "Капсулы · оттенок A1",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "A1",
+            "Артикул производителя": "H-854A1P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-b5c9d3e6c074430d0454d353",
+          "sku": "H-854A2P",
+          "gtin": null,
+          "label": "Капсулы · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "A2",
+            "Артикул производителя": "H-854A2P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-0eee1b6e504f5c2c9651ecfb",
+          "sku": "H-854A3P",
+          "gtin": null,
+          "label": "Капсулы · оттенок A3",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "A3",
+            "Артикул производителя": "H-854A3P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-1978e728c7c63bbbd989dc3b",
+          "sku": "H-854A35P",
+          "gtin": null,
+          "label": "Капсулы · оттенок A3.5",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "A3.5",
+            "Артикул производителя": "H-854A35P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-32d01341137f88c6074211e2",
+          "sku": "H-854B1P",
+          "gtin": null,
+          "label": "Капсулы · оттенок B1",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "B1",
+            "Артикул производителя": "H-854B1P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-9a9014d715f159c122bd7874",
+          "sku": "H-854B2P",
+          "gtin": null,
+          "label": "Капсулы · оттенок B2",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "B2",
+            "Артикул производителя": "H-854B2P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-90179a52b17aa68be46126fd",
+          "sku": "H-854W2P",
+          "gtin": null,
+          "label": "Капсулы · оттенок Bleach",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Артикул производителя": "H-854W2P"
+          }
+        },
+        {
+          "id": "public-d76477b0e25bfe9b5dc3fc92-variant-39699a202ba4423ff936043b",
+          "sku": "H-854CLP",
+          "gtin": null,
+          "label": "Капсулы · оттенок Incisal Clear",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Артикул производителя": "H-854CLP"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-12bd045c90f48e7488c984a2",
+      "name": "Aelite All-Purpose Body",
+      "description": "Универсальный композит для формирования основного слоя реставрации. Форма выпуска и оттенок выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Aelite All-Purpose Body",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/aelite-all-purpose-body-single-syringe/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Aelite All-Purpose Body"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.bisco.com/aelite-all-purpose-body-single-syringe/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "AELITE ALL-PURPOSE BODY",
+        "Элайт Ол-Перпос Боди",
+        "Aelite All-Purpose Body Syringe A1",
+        "Aelite All-Purpose Body Syringe A2",
+        "Aelite All-Purpose Body Syringe A3",
+        "Aelite All-Purpose Body Syringe A3.5",
+        "Aelite All-Purpose Body Syringe B1",
+        "Aelite All-Purpose Body Unit-Dose A1",
+        "Aelite All-Purpose Body Unit-Dose A2",
+        "Aelite All-Purpose Body Unit-Dose A3",
+        "Aelite All-Purpose Body Unit-Dose A3.5",
+        "Aelite All-Purpose Body Unit-Dose B1"
+      ],
+      "variants": [
+        {
+          "id": "public-12bd045c90f48e7488c984a2-variant-b0772b2b8d88375d26e46635",
+          "sku": "H-812A1P",
+          "gtin": null,
+          "label": "Шприц · оттенок A1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A1",
+            "Артикул производителя": "H-812A1P"
+          }
+        },
+        {
+          "id": "public-12bd045c90f48e7488c984a2-variant-ba9db292cef0282627f3ccdd",
+          "sku": "H-812A2P",
+          "gtin": null,
+          "label": "Шприц · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A2",
+            "Артикул производителя": "H-812A2P"
+          }
+        },
+        {
+          "id": "public-12bd045c90f48e7488c984a2-variant-e3fb1e8ad6959e7a978d3720",
+          "sku": "H-812A3P",
+          "gtin": null,
+          "label": "Шприц · оттенок A3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A3",
+            "Артикул производителя": "H-812A3P"
+          }
+        },
+        {
+          "id": "public-12bd045c90f48e7488c984a2-variant-86eef6d02265faa947b4a68d",
+          "sku": "H-812A35P",
+          "gtin": null,
+          "label": "Шприц · оттенок A3.5",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A3.5",
+            "Артикул производителя": "H-812A35P"
+          }
+        },
+        {
+          "id": "public-12bd045c90f48e7488c984a2-variant-06b8cd5beb6bb39e64d76ab3",
+          "sku": "H-812B1P",
+          "gtin": null,
+          "label": "Шприц · оттенок B1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "B1",
+            "Артикул производителя": "H-812B1P"
+          }
+        },
+        {
+          "id": "public-12bd045c90f48e7488c984a2-variant-dd287f26835f8a248308cb6c",
+          "sku": "H-814A1P",
+          "gtin": null,
+          "label": "Капсулы · оттенок A1",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "A1",
+            "Артикул производителя": "H-814A1P"
+          }
+        },
+        {
+          "id": "public-12bd045c90f48e7488c984a2-variant-4531d0fe307d15d61b785335",
+          "sku": "H-814A2P",
+          "gtin": null,
+          "label": "Капсулы · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "A2",
+            "Артикул производителя": "H-814A2P"
+          }
+        },
+        {
+          "id": "public-12bd045c90f48e7488c984a2-variant-8aa3e6a9530937e3b09bb054",
+          "sku": "H-814A3P",
+          "gtin": null,
+          "label": "Капсулы · оттенок A3",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "A3",
+            "Артикул производителя": "H-814A3P"
+          }
+        },
+        {
+          "id": "public-12bd045c90f48e7488c984a2-variant-13915badb482552dee277319",
+          "sku": "H-814A35P",
+          "gtin": null,
+          "label": "Капсулы · оттенок A3.5",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "A3.5",
+            "Артикул производителя": "H-814A35P"
+          }
+        },
+        {
+          "id": "public-12bd045c90f48e7488c984a2-variant-e484a560dcac7b3a23089ac1",
+          "sku": "H-814B1P",
+          "gtin": null,
+          "label": "Капсулы · оттенок B1",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "B1",
+            "Артикул производителя": "H-814B1P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-7937cd2e0536532b7f5f75df",
+      "name": "Aelite LS Posterior",
+      "description": "Композит с низкой усадкой для реставраций боковых зубов. Форма выпуска и оттенок выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Aelite LS Posterior",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/aelite-ls-posterior-single-syringe/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Aelite LS Posterior"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.bisco.com/aelite-ls-posterior-single-syringe/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "AELITE LS POSTERIOR",
+        "Элайт ЛС Постериор",
+        "Aelite LS Posterior Syringe A1",
+        "Aelite LS Posterior Syringe A2",
+        "Aelite LS Posterior Syringe A3",
+        "Aelite LS Posterior Syringe A3.5",
+        "Aelite LS Posterior Syringe B1",
+        "Aelite LS Posterior Unit-Dose A1",
+        "Aelite LS Posterior Unit-Dose A2",
+        "Aelite LS Posterior Unit-Dose A3",
+        "Aelite LS Posterior Unit-Dose A3.5",
+        "Aelite LS Posterior Unit-Dose B1"
+      ],
+      "variants": [
+        {
+          "id": "public-7937cd2e0536532b7f5f75df-variant-76c91f6ba582c54388290e39",
+          "sku": "H-721A1P",
+          "gtin": null,
+          "label": "Шприц · оттенок A1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A1",
+            "Артикул производителя": "H-721A1P"
+          }
+        },
+        {
+          "id": "public-7937cd2e0536532b7f5f75df-variant-d15ae1356318aecc49a3e4dc",
+          "sku": "H-721A2P",
+          "gtin": null,
+          "label": "Шприц · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A2",
+            "Артикул производителя": "H-721A2P"
+          }
+        },
+        {
+          "id": "public-7937cd2e0536532b7f5f75df-variant-cf4e94a753f7d2f07e355b2e",
+          "sku": "H-721A3P",
+          "gtin": null,
+          "label": "Шприц · оттенок A3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A3",
+            "Артикул производителя": "H-721A3P"
+          }
+        },
+        {
+          "id": "public-7937cd2e0536532b7f5f75df-variant-3737b2fe9b971e515443801f",
+          "sku": "H-721A35P",
+          "gtin": null,
+          "label": "Шприц · оттенок A3.5",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A3.5",
+            "Артикул производителя": "H-721A35P"
+          }
+        },
+        {
+          "id": "public-7937cd2e0536532b7f5f75df-variant-6062d1c4c0f6d6217e937c66",
+          "sku": "H-721B1P",
+          "gtin": null,
+          "label": "Шприц · оттенок B1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "B1",
+            "Артикул производителя": "H-721B1P"
+          }
+        },
+        {
+          "id": "public-7937cd2e0536532b7f5f75df-variant-27b9633834e912f2814ff4c7",
+          "sku": "H-722A1P",
+          "gtin": null,
+          "label": "Капсулы · оттенок A1",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "A1",
+            "Артикул производителя": "H-722A1P"
+          }
+        },
+        {
+          "id": "public-7937cd2e0536532b7f5f75df-variant-ea299832c7d3986ecb3fbb82",
+          "sku": "H-722A2P",
+          "gtin": null,
+          "label": "Капсулы · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "A2",
+            "Артикул производителя": "H-722A2P"
+          }
+        },
+        {
+          "id": "public-7937cd2e0536532b7f5f75df-variant-5c23017a83a59a0ad064cfb7",
+          "sku": "H-722A3P",
+          "gtin": null,
+          "label": "Капсулы · оттенок A3",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "A3",
+            "Артикул производителя": "H-722A3P"
+          }
+        },
+        {
+          "id": "public-7937cd2e0536532b7f5f75df-variant-4dfd39070c0c9f6cdfabc68d",
+          "sku": "H-722A35P",
+          "gtin": null,
+          "label": "Капсулы · оттенок A3.5",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "A3.5",
+            "Артикул производителя": "H-722A35P"
+          }
+        },
+        {
+          "id": "public-7937cd2e0536532b7f5f75df-variant-d09ac3ba635bbe87d2a24f35",
+          "sku": "H-722B1P",
+          "gtin": null,
+          "label": "Капсулы · оттенок B1",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Оттенок": "B1",
+            "Артикул производителя": "H-722B1P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-351efc371ee65d52e3840654",
+      "name": "Aeliteflo",
+      "description": "Текучий композит для небольших реставраций, герметизации и ремонта. Оттенок выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Aeliteflo",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/aeliteflo/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Aeliteflo"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.bisco.com/aeliteflo/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "AELITEFLO",
+        "Aelite Flo",
+        "Элайт Фло",
+        "Aeliteflo Syringe A1",
+        "Aeliteflo Syringe A2",
+        "Aeliteflo Syringe A2 Opaque",
+        "Aeliteflo Syringe A3",
+        "Aeliteflo Syringe A3.5",
+        "Aeliteflo Syringe A5",
+        "Aeliteflo Syringe B1",
+        "Aeliteflo Syringe C2",
+        "Aeliteflo Syringe C3",
+        "Aeliteflo Syringe D3",
+        "Aeliteflo Syringe Opaque White",
+        "Aeliteflo Syringe Translucent Incisal"
+      ],
+      "variants": [
+        {
+          "id": "public-351efc371ee65d52e3840654-variant-5ecf9d3ce5eac6b597036bec",
+          "sku": "H-671A1F",
+          "gtin": null,
+          "label": "Шприц · оттенок A1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A1",
+            "Артикул производителя": "H-671A1F"
+          }
+        },
+        {
+          "id": "public-351efc371ee65d52e3840654-variant-1c9a62fb9b52c9f3f07368d6",
+          "sku": "H-671A2F",
+          "gtin": null,
+          "label": "Шприц · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A2",
+            "Артикул производителя": "H-671A2F"
+          }
+        },
+        {
+          "id": "public-351efc371ee65d52e3840654-variant-ecf487bcfde8e4a0325985c7",
+          "sku": "H-671A2OF",
+          "gtin": null,
+          "label": "Шприц · оттенок A2 Opaque",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A2",
+            "Артикул производителя": "H-671A2OF"
+          }
+        },
+        {
+          "id": "public-351efc371ee65d52e3840654-variant-35bdf64d715ffc65f4e818d7",
+          "sku": "H-671A3F",
+          "gtin": null,
+          "label": "Шприц · оттенок A3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A3",
+            "Артикул производителя": "H-671A3F"
+          }
+        },
+        {
+          "id": "public-351efc371ee65d52e3840654-variant-64e6bed51291cb7d3f3ed07e",
+          "sku": "H-671A35F",
+          "gtin": null,
+          "label": "Шприц · оттенок A3.5",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A3.5",
+            "Артикул производителя": "H-671A35F"
+          }
+        },
+        {
+          "id": "public-351efc371ee65d52e3840654-variant-9635398b2c70c78b8a34d437",
+          "sku": "H-671A5F",
+          "gtin": null,
+          "label": "Шприц · оттенок A5",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "H-671A5F"
+          }
+        },
+        {
+          "id": "public-351efc371ee65d52e3840654-variant-6802bd13ea4c2198ff45b90f",
+          "sku": "H-672B1F",
+          "gtin": null,
+          "label": "Шприц · оттенок B1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "B1",
+            "Артикул производителя": "H-672B1F"
+          }
+        },
+        {
+          "id": "public-351efc371ee65d52e3840654-variant-e4298df48a849d304a37913b",
+          "sku": "H-673C2F",
+          "gtin": null,
+          "label": "Шприц · оттенок C2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "C2",
+            "Артикул производителя": "H-673C2F"
+          }
+        },
+        {
+          "id": "public-351efc371ee65d52e3840654-variant-c344a975cdf9a1159c92e6c0",
+          "sku": "H-673C3F",
+          "gtin": null,
+          "label": "Шприц · оттенок C3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "C3",
+            "Артикул производителя": "H-673C3F"
+          }
+        },
+        {
+          "id": "public-351efc371ee65d52e3840654-variant-aebcbbbfda24e447559f31df",
+          "sku": "H-674D3F",
+          "gtin": null,
+          "label": "Шприц · оттенок D3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "D3",
+            "Артикул производителя": "H-674D3F"
+          }
+        },
+        {
+          "id": "public-351efc371ee65d52e3840654-variant-4cf205476a7129d83cc310e2",
+          "sku": "H-675OWF",
+          "gtin": null,
+          "label": "Шприц · оттенок Opaque White",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "H-675OWF"
+          }
+        },
+        {
+          "id": "public-351efc371ee65d52e3840654-variant-38e0bac082edc838e9272503",
+          "sku": "H-675TIF",
+          "gtin": null,
+          "label": "Шприц · оттенок Translucent / Incisal",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "H-675TIF"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-8c90fb04b51c5c8e20f459d2",
       "name": "Air flow со скалером PT-A",
       "description": "Air flow со скалером PT-A в категории «Оборудование».",
@@ -258898,6 +259804,285 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-dc2d45a739951380860cc617",
+      "name": "All-Bond 3",
+      "description": "Двухкомпонентная адгезивная система для прямых и непрямых реставраций. Комплектация выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "All-Bond 3",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/all-bond-3-kit-eu/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "All-Bond 3"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://www.bisco.com/all-bond-3-kit-eu/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "ALL-BOND 3",
+        "All Bond 3",
+        "Олл-Бонд 3",
+        "All-Bond 3 Kit with Uni-Etch",
+        "All-Bond 3 Kit with Uni-Etch w/BAC",
+        "All-Bond 3 Part A and B Set"
+      ],
+      "variants": [
+        {
+          "id": "public-dc2d45a739951380860cc617-variant-f62bf4135b7ed7d4acd618da",
+          "sku": "B-36200K-EU",
+          "gtin": null,
+          "label": "Набор с Uni-Etch · без BAC",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Артикул производителя": "B-36200K-EU"
+          }
+        },
+        {
+          "id": "public-dc2d45a739951380860cc617-variant-9886c0296b104eedb0c1149d",
+          "sku": "B-36200K",
+          "gtin": null,
+          "label": "Набор с Uni-Etch w/BAC",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Артикул производителя": "B-36200K"
+          }
+        },
+        {
+          "id": "public-dc2d45a739951380860cc617-variant-10fc51c7dceac04a2a14d4fd",
+          "sku": "B-36010P",
+          "gtin": null,
+          "label": "Комплект флаконов Part A + Part B",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Артикул производителя": "B-36010P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-59c11f29dc2a65b09e064fc4",
+      "name": "All-Bond Universal",
+      "description": "Универсальный светоотверждаемый адгезив для прямых и непрямых реставраций. Фасовка и состав набора указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "All-Bond Universal",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/all-bond-universal-bottle/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "All-Bond Universal"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://www.bisco.com/all-bond-universal-bottle/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "All-Bond Universal",
+        "All Bond Universal",
+        "Олл-Бонд Универсал",
+        "All-Bond Universal Bottle Package",
+        "All-Bond Universal Bottle 4ml",
+        "All-Bond Universal Bottle Asia",
+        "All-Bond Universal Unit-Dose 100",
+        "All-Bond Universal Kit Select HV Etch",
+        "All-Bond Universal Kit Select HV Etch w/BAC"
+      ],
+      "variants": [
+        {
+          "id": "public-59c11f29dc2a65b09e064fc4-variant-6a2eabf3bf9983e21bf0f8c2",
+          "sku": "B-7202P",
+          "gtin": null,
+          "label": "Флакон 6 мл",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Объём": "6 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "B-7202P"
+          }
+        },
+        {
+          "id": "public-59c11f29dc2a65b09e064fc4-variant-d054d09509b978ed2d3f5736",
+          "sku": "B-7204P",
+          "gtin": null,
+          "label": "Флакон 4 мл",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Объём": "4 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "B-7204P"
+          }
+        },
+        {
+          "id": "public-59c11f29dc2a65b09e064fc4-variant-abc69ea60a224e38c232939e",
+          "sku": "B-7202P-AS",
+          "gtin": null,
+          "label": "Флакон 6 мл · азиатская маркировка",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Объём": "6 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "B-7202P-AS"
+          }
+        },
+        {
+          "id": "public-59c11f29dc2a65b09e064fc4-variant-9b26d1932ee1ba3b15809c9a",
+          "sku": "B-73100K",
+          "gtin": null,
+          "label": "Одноразовые дозы · 100 шт. по 0,20 мл",
+          "attributes": {
+            "Форма выпуска": "Одноразовые дозы",
+            "Количество": "100 шт.",
+            "Объём": "0,20 мл",
+            "Артикул производителя": "B-73100K"
+          }
+        },
+        {
+          "id": "public-59c11f29dc2a65b09e064fc4-variant-61682ff3edaa8332f62bd3c1",
+          "sku": "B-7202B0K-EU",
+          "gtin": null,
+          "label": "Набор · Select HV Etch без BAC",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Комплектация": "Набор",
+            "Артикул производителя": "B-7202B0K-EU"
+          }
+        },
+        {
+          "id": "public-59c11f29dc2a65b09e064fc4-variant-aafbc219a63893a305014b0d",
+          "sku": "B-72020K",
+          "gtin": null,
+          "label": "Набор · Select HV Etch w/BAC",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Комплектация": "Набор",
+            "Артикул производителя": "B-72020K"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-b1ad23df8124dc41df8b490d",
@@ -261300,6 +262485,117 @@
       ]
     },
     {
+      "id": "public-7a92e1176535486f788f9072",
+      "name": "Aqua-Prep F",
+      "description": "Средство для повторного увлажнения дентина перед нанесением адгезива. Объём флакона выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Aqua-Prep F",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Праймеры и очистители",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-kz-distributor",
+            "sourceUrl": "https://www.denco.kz/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=30&category_id=15&manufacturer_id=3&option=com_virtuemart&Itemid=17",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Aqua-Prep F"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Праймеры и очистители",
+      "sourceUrl": "https://www.denco.kz/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=30&category_id=15&manufacturer_id=3&option=com_virtuemart&Itemid=17",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Праймеры и очистители"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "AQUA-PREP F",
+        "Aqua Prep F",
+        "Аква-Преп Ф",
+        "Aqua-Prep F Bottle 6 ml",
+        "Aqua-Prep F Bottle 30 ml"
+      ],
+      "variants": [
+        {
+          "id": "public-7a92e1176535486f788f9072-variant-f133b2fdc0a5518070128c32",
+          "sku": "B-2822P",
+          "gtin": null,
+          "label": "Флакон 6 мл",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Объём": "6 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "B-2822P"
+          }
+        },
+        {
+          "id": "public-7a92e1176535486f788f9072-variant-4d588087bdd1f8e292339ced",
+          "sku": "B-2824P",
+          "gtin": null,
+          "label": "Флакон 30 мл",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Объём": "30 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "B-2824P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-8208472563427bf17f35be74",
       "name": "AX-4-10A Муфельная печь",
       "description": "AX-4-10A Муфельная печь в категории «Оборудование».",
@@ -261682,6 +262978,431 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-fb1cbff93905aae29bed9908",
+      "name": "Bis-Silane",
+      "description": "Двухкомпонентный силановый праймер для подготовки керамической поверхности перед фиксацией или ремонтом. Комплектация указана в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Bis-Silane",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Праймеры и очистители",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/porcelain-primer/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Bis-Silane"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Праймеры и очистители",
+      "sourceUrl": "https://www.bisco.com/porcelain-primer/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Праймеры и очистители"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "BIS-SILANE",
+        "Bis Silane",
+        "Бис-Силан",
+        "Bis-Silane Two Component Primer"
+      ],
+      "variants": [
+        {
+          "id": "public-fb1cbff93905aae29bed9908-variant-5e302155aa82fd1f82c07b9c",
+          "sku": "B-3210P",
+          "gtin": null,
+          "label": "Двухкомпонентный набор",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Комплектация": "Двухкомпонентный набор",
+            "Артикул производителя": "B-3210P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-9138d7bbad1163cd25eba164",
+      "name": "BisCem",
+      "description": "Самоадгезивный композитный цемент двойного отверждения для постоянной фиксации. Оттенок выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "BisCem",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стоматологические цементы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/biscem/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "BisCem"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Стоматологические цементы",
+      "sourceUrl": "https://www.bisco.com/biscem/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стоматологические цементы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "BisCem",
+        "Biscem",
+        "БисЦем",
+        "BisCem Translucent",
+        "BisCem Opaque"
+      ],
+      "variants": [
+        {
+          "id": "public-9138d7bbad1163cd25eba164-variant-3cbb72bfa8fb660da2609c0c",
+          "sku": "D-45011P",
+          "gtin": null,
+          "label": "Двойной шприц 8 г · оттенок Translucent",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "8 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "D-45011P"
+          }
+        },
+        {
+          "id": "public-9138d7bbad1163cd25eba164-variant-9ec752945e564479cf5aad10",
+          "sku": "D-45012P",
+          "gtin": null,
+          "label": "Двойной шприц 8 г · оттенок Opaque",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "8 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "D-45012P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-7013557bc11367267cbc0f0f",
+      "name": "Biscover LV",
+      "description": "Светоотверждаемое защитное покрытие для поверхности композитной реставрации. Фасовка указана в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Biscover LV",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-kz-distributor",
+            "sourceUrl": "https://www.denco.kz/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=43&category_id=31&manufacturer_id=3&option=com_virtuemart&Itemid=17",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Biscover LV"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.denco.kz/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=43&category_id=31&manufacturer_id=3&option=com_virtuemart&Itemid=17",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "BISCOVER LV",
+        "Biscover",
+        "Бисковер ЛВ",
+        "Biscover LV Bottle 5 ml"
+      ],
+      "variants": [
+        {
+          "id": "public-7013557bc11367267cbc0f0f-variant-284cce34d9656005bb7512c5",
+          "sku": "G-9335",
+          "gtin": null,
+          "label": "Флакон 5 мл",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Объём": "5 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "G-9335"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-715aead8396f38bbaf07d4c7",
+      "name": "Bisfil 2B",
+      "description": "Композит двойного отверждения для восстановления основы зуба. Форма выпуска и оттенок выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Bisfil 2B",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/bisfil-2b-dual-syringes/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Bisfil 2B"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.bisco.com/bisfil-2b-dual-syringes/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "BISFIL 2B",
+        "Bisfil",
+        "Бисфил 2Б",
+        "Bisfil 2B Dual-Syringe Original",
+        "Bisfil 2B Dual-Syringe A3 A3.5",
+        "Bisfil 2B Syringe Package"
+      ],
+      "variants": [
+        {
+          "id": "public-715aead8396f38bbaf07d4c7-variant-9191d121890ef7faeb21326d",
+          "sku": "A-12710P",
+          "gtin": null,
+          "label": "Двойной шприц · оттенок Original",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "A-12710P"
+          }
+        },
+        {
+          "id": "public-715aead8396f38bbaf07d4c7-variant-7e2f9872675cc2451b2a8e73",
+          "sku": "A-12810P",
+          "gtin": null,
+          "label": "Двойной шприц · оттенок A3 / A3.5",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A3 / A3.5",
+            "Артикул производителя": "A-12810P"
+          }
+        },
+        {
+          "id": "public-715aead8396f38bbaf07d4c7-variant-280788dfb1a0c03cda7e4ccb",
+          "sku": "A-1254P",
+          "gtin": null,
+          "label": "Комплект шприцев",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "A-1254P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-ec559762ed3e661c03c904f3",
@@ -264150,6 +265871,232 @@
       ]
     },
     {
+      "id": "public-caf9b506455e488dcf4db15e",
+      "name": "Choice 2",
+      "description": "Светоотверждаемый цемент для фиксации виниров. Оттенок или набор выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Choice 2",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стоматологические цементы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/choice-2-veneer-cement/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Choice 2"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Стоматологические цементы",
+      "sourceUrl": "https://www.bisco.com/choice-2-veneer-cement/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стоматологические цементы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "CHOICE 2 Kit",
+        "Choice II",
+        "Чойс 2",
+        "Choice 2 Veneer Cement A1",
+        "Choice 2 Veneer Cement A2",
+        "Choice 2 Veneer Cement A3",
+        "Choice 2 Veneer Cement B1",
+        "Choice 2 Veneer Cement Translucent",
+        "Choice 2 Veneer Cement Universal Opaque",
+        "Choice 2 Veneer Cement Milky Opaque",
+        "Choice 2 Veneer Cement Milky Bright",
+        "Choice 2 Starter Kit All-Bond Universal",
+        "Choice 2 Starter Kit All-Bond 3",
+        "Choice 2 Starter Kit All-Bond 3 EU"
+      ],
+      "variants": [
+        {
+          "id": "public-caf9b506455e488dcf4db15e-variant-f80bbab40ff872a585990b72",
+          "sku": "C-411A1P",
+          "gtin": null,
+          "label": "Шприц 4,5 г · оттенок A1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4,5 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A1",
+            "Артикул производителя": "C-411A1P"
+          }
+        },
+        {
+          "id": "public-caf9b506455e488dcf4db15e-variant-95f35afbd1a91304d56f00bc",
+          "sku": "C-411A2P",
+          "gtin": null,
+          "label": "Шприц 4,5 г · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4,5 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A2",
+            "Артикул производителя": "C-411A2P"
+          }
+        },
+        {
+          "id": "public-caf9b506455e488dcf4db15e-variant-a1e1daac9465883454c10013",
+          "sku": "C-411A3P",
+          "gtin": null,
+          "label": "Шприц 4,5 г · оттенок A3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4,5 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A3",
+            "Артикул производителя": "C-411A3P"
+          }
+        },
+        {
+          "id": "public-caf9b506455e488dcf4db15e-variant-fea6569a22d80839c22184c5",
+          "sku": "C-411B1P",
+          "gtin": null,
+          "label": "Шприц 4,5 г · оттенок B1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4,5 г",
+            "Количество": "1 шт.",
+            "Оттенок": "B1",
+            "Артикул производителя": "C-411B1P"
+          }
+        },
+        {
+          "id": "public-caf9b506455e488dcf4db15e-variant-9a3272f34ec5017df07c259d",
+          "sku": "C-411TRP",
+          "gtin": null,
+          "label": "Шприц 4,5 г · оттенок Translucent",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4,5 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "C-411TRP"
+          }
+        },
+        {
+          "id": "public-caf9b506455e488dcf4db15e-variant-0aafa75e98a11e52d2b2ed8e",
+          "sku": "C-411OPP",
+          "gtin": null,
+          "label": "Шприц 4,5 г · оттенок Universal Opaque",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4,5 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "C-411OPP"
+          }
+        },
+        {
+          "id": "public-caf9b506455e488dcf4db15e-variant-adcbfa5b145c015444bb8261",
+          "sku": "C-411MOP",
+          "gtin": null,
+          "label": "Шприц 4,5 г · оттенок Milky Opaque",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4,5 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "C-411MOP"
+          }
+        },
+        {
+          "id": "public-caf9b506455e488dcf4db15e-variant-c26bf9b2562b1be85b5ae78b",
+          "sku": "C-411MBP",
+          "gtin": null,
+          "label": "Шприц 4,5 г · оттенок Milky Bright",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4,5 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "C-411MBP"
+          }
+        },
+        {
+          "id": "public-caf9b506455e488dcf4db15e-variant-f31851b81cef1fd617772156",
+          "sku": "C-39010K",
+          "gtin": null,
+          "label": "Стартовый набор с All-Bond Universal",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Артикул производителя": "C-39010K"
+          }
+        },
+        {
+          "id": "public-caf9b506455e488dcf4db15e-variant-208bb4ec29383c596c54b632",
+          "sku": "C-3900K",
+          "gtin": null,
+          "label": "Стартовый набор с All-Bond 3",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Артикул производителя": "C-3900K"
+          }
+        },
+        {
+          "id": "public-caf9b506455e488dcf4db15e-variant-31147db7cf774aaafb2923a7",
+          "sku": "C-3900K-EU",
+          "gtin": null,
+          "label": "Стартовый набор с All-Bond 3 · международная комплектация",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Артикул производителя": "C-3900K-EU"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-0411c4be75847e6c5f4bad1f",
       "name": "CICADA повышающий угловой наконечник",
       "description": "CICADA повышающий угловой наконечник в категории «Оборудование».",
@@ -265022,6 +266969,114 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-a38345d5f580fe77ef8a0c1e",
+      "name": "Core-Flo DC",
+      "description": "Текучий материал двойного отверждения для восстановления культи. Оттенок выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Core-Flo DC",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Материалы для восстановления",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/core-flo-dc-dual-syringes/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Core-Flo DC"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Материалы для восстановления",
+      "sourceUrl": "https://www.bisco.com/core-flo-dc-dual-syringes/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Материалы для восстановления"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "CORE-FLO",
+        "Core Flo",
+        "Кор-Фло ДС",
+        "Core-Flo DC Natural A1",
+        "Core-Flo DC Opaque White"
+      ],
+      "variants": [
+        {
+          "id": "public-a38345d5f580fe77ef8a0c1e-variant-26da81c70aea9be50f7de027",
+          "sku": "A-23011P",
+          "gtin": null,
+          "label": "Двойной шприц · оттенок Natural / A1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Оттенок": "A1",
+            "Артикул производителя": "A-23011P"
+          }
+        },
+        {
+          "id": "public-a38345d5f580fe77ef8a0c1e-variant-79fd243e2064fbd9452b7110",
+          "sku": "A-23012P",
+          "gtin": null,
+          "label": "Двойной шприц · оттенок Opaque White",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "A-23012P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-3a6156487b1414f08261588d",
@@ -272618,6 +274673,129 @@
       ]
     },
     {
+      "id": "public-549cfd2eb7348c9dc1821243",
+      "name": "Duo-Link Universal",
+      "description": "Композитный цемент двойного отверждения для постоянной фиксации непрямых реставраций. Оттенок выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Duo-Link Universal",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стоматологические цементы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/duolink-universal-resin-luting-cement/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Duo-Link Universal"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Стоматологические цементы",
+      "sourceUrl": "https://www.bisco.com/duolink-universal-resin-luting-cement/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стоматологические цементы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Duo-Link Universal",
+        "Duo Link Universal",
+        "Дуо-Линк Универсал",
+        "DUO-LINK",
+        "Duo-Link Universal Universal Shade",
+        "Duo-Link Universal Milky White Shade",
+        "Duo-Link Universal Adhesive Cementation System"
+      ],
+      "variants": [
+        {
+          "id": "public-549cfd2eb7348c9dc1821243-variant-a0b8aae94c0adf2660eef8ba",
+          "sku": "A-19030P",
+          "gtin": null,
+          "label": "Двойной шприц 8 г · оттенок Universal",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "8 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "A-19030P"
+          }
+        },
+        {
+          "id": "public-549cfd2eb7348c9dc1821243-variant-08be534149c5824612506c2f",
+          "sku": "A-197MWP",
+          "gtin": null,
+          "label": "Двойной шприц 8 г · оттенок Milky White",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "8 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "A-197MWP"
+          }
+        },
+        {
+          "id": "public-549cfd2eb7348c9dc1821243-variant-4faf797c97f30e05d9457b83",
+          "sku": "A-19620K",
+          "gtin": null,
+          "label": "Набор для адгезивной фиксации",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Артикул производителя": "A-19620K"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-8771ec08a487663c19a332b9",
       "name": "Easy Fill обтурационная система",
       "description": "Easy Fill обтурационная система в категории «Эндодонтия».",
@@ -275646,6 +277824,101 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-b290d7c9e6aff39a6f23aeec",
+      "name": "Fortify",
+      "description": "Светоотверждаемый герметик для поверхности композитной реставрации. Фасовка указана в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Fortify",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/fortify-bottle/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Fortify"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.bisco.com/fortify-bottle/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "FORTIFY",
+        "Фортифай",
+        "Fortify Bottle"
+      ],
+      "variants": [
+        {
+          "id": "public-b290d7c9e6aff39a6f23aeec-variant-80062209f5cd5aaee5b9c31d",
+          "sku": "G-9301F",
+          "gtin": null,
+          "label": "Флакон",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Артикул производителя": "G-9301F"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-a859841c96b63cad3e2774ec",
@@ -282407,6 +284680,105 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-294e1733422e1eb495c50269",
+      "name": "Intraoral Repair Kit",
+      "description": "Набор для ремонта керамических и металлокерамических реставраций во рту. Комплектация указана в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Intraoral Repair Kit",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Материалы для восстановления",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/intraoral-repair-kit/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Intraoral Repair Kit"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Материалы для восстановления",
+      "sourceUrl": "https://www.bisco.com/intraoral-repair-kit/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Материалы для восстановления"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Артикул поставщика",
+          "B-22300K"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "INTRAORAL REPAIR KIT",
+        "Интраоральный ремонтный набор",
+        "Intraoral Repair Kit"
+      ],
+      "variants": [
+        {
+          "id": "public-294e1733422e1eb495c50269-variant-29a420c50b7bdd7c2b3350d3",
+          "sku": "B-22300K",
+          "gtin": null,
+          "label": "Набор для внутриротового ремонта",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Артикул производителя": "B-22300K"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-9d4bda2fe1d3c63bc0c2dcb2",
@@ -300809,6 +303181,101 @@
       ]
     },
     {
+      "id": "public-6bed3c3d7b6310fc30f78d2e",
+      "name": "Modeling Resin",
+      "description": "Моделировочная смола для адаптации и формирования композита. Фасовка указана в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Modeling Resin",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/modeling-resin/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Modeling Resin"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.bisco.com/modeling-resin/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "MODELING RESIN",
+        "Моделинг Резин",
+        "Modeling Resin Syringes"
+      ],
+      "variants": [
+        {
+          "id": "public-6bed3c3d7b6310fc30f78d2e-variant-09ba38b4844ff633d6869380",
+          "sku": "G-9316P",
+          "gtin": null,
+          "label": "Шприцы",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "G-9316P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-280b2214b0b9caa0255ffecd",
       "name": "Niti K-файл",
       "description": "Niti K-файл в категории «Эндодонтия».",
@@ -305182,6 +307649,102 @@
       ]
     },
     {
+      "id": "public-02a26e9a2bb64c67d981d807",
+      "name": "One-Step Plus",
+      "description": "Однокомпонентный адгезив с наполнителем для прямых и непрямых реставраций. Фасовка указана в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "One-Step Plus",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/one-step-plus-bottle/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "One-Step Plus"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://www.bisco.com/one-step-plus-bottle/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "ONE-STEP PLUS",
+        "One Step Plus",
+        "Ван-Степ Плюс",
+        "One-Step Plus Bottle"
+      ],
+      "variants": [
+        {
+          "id": "public-02a26e9a2bb64c67d981d807-variant-4ce388be12f0577349123744",
+          "sku": "U-2001P",
+          "gtin": null,
+          "label": "Флакон",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Артикул производителя": "U-2001P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-5aae6962db4181a5469edfed",
       "name": "Opalescence PF",
       "description": "Профессиональный гель для домашнего отбеливания в индивидуальных каппах. Концентрация вкус и количество шприцев выбираются в варианте товара.",
@@ -306372,6 +308935,302 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-dda9e5b8a58bcd690197c58c",
+      "name": "Porcelain Bonding Resin",
+      "description": "Смола для улучшения смачивания и соединения при работе с керамикой. Фасовка указана в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Porcelain Bonding Resin",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/porcelain-bonding-resin/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Porcelain Bonding Resin"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://www.bisco.com/porcelain-bonding-resin/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "PORCELAIN BONDING RESIN",
+        "Порцелайн Бондинг Резин",
+        "Porcelain Bonding Resin Bottle"
+      ],
+      "variants": [
+        {
+          "id": "public-dda9e5b8a58bcd690197c58c-variant-086521cd43796d352dc9e22f",
+          "sku": "B-3110P",
+          "gtin": null,
+          "label": "Флакон",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Артикул производителя": "B-3110P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-0e9bd16164f92275eff26773",
+      "name": "Porcelain Etchant",
+      "description": "Гель для протравливания стеклокерамики и фарфора. Концентрация выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Porcelain Etchant",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Протравочные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/porcelain-etchant-syringe/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Porcelain Etchant"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Протравочные материалы",
+      "sourceUrl": "https://www.bisco.com/porcelain-etchant-syringe/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Протравочные материалы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "PORCELAIN ETCHANT",
+        "Порцелайн Этчант",
+        "Porcelain Etchant 9.5 percent",
+        "Porcelain Etchant 4 percent"
+      ],
+      "variants": [
+        {
+          "id": "public-0e9bd16164f92275eff26773-variant-e61ccf8448c2ab918af04c63",
+          "sku": "E-5707P",
+          "gtin": null,
+          "label": "Шприц · концентрация 9,5%",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "E-5707P"
+          }
+        },
+        {
+          "id": "public-0e9bd16164f92275eff26773-variant-41e852de733b3cd90a07c55e",
+          "sku": "E-5702EP",
+          "gtin": null,
+          "label": "Шприц · концентрация 4%",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "E-5702EP"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-948a050da33e1f06fb10e61c",
+      "name": "Porcelain Primer",
+      "description": "Однокомпонентный силановый праймер для подготовки керамической поверхности перед фиксацией или ремонтом. Фасовка указана в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Porcelain Primer",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Праймеры и очистители",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/porcelain-primer/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Porcelain Primer"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Праймеры и очистители",
+      "sourceUrl": "https://www.bisco.com/porcelain-primer/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Праймеры и очистители"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "PORCELAIN PRIMER",
+        "Порцелайн Праймер",
+        "Porcelain Primer Bottle"
+      ],
+      "variants": [
+        {
+          "id": "public-948a050da33e1f06fb10e61c-variant-ab53da9c5a825ef0a5eb6c39",
+          "sku": "B-2221P",
+          "gtin": null,
+          "label": "Флакон",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Артикул производителя": "B-2221P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-99fe2204c414c9410f23b6ab",
@@ -310304,6 +313163,213 @@
       ]
     },
     {
+      "id": "public-92b9172e1a883170599f13ba",
+      "name": "TheraCal LC",
+      "description": "Светоотверждаемый материал на основе силиката кальция для защиты пульпы и прокладки под реставрацию. Количество шприцев выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "TheraCal LC",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Прокладочные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/theracal-lc/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "TheraCal LC"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Прокладочные материалы",
+      "sourceUrl": "https://www.bisco.com/theracal-lc/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Прокладочные материалы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "TheraCal LC",
+        "Theracal",
+        "ТераКал ЛС",
+        "TheraCal LC Single Syringe Pack",
+        "TheraCal LC 4 Syringe Pack"
+      ],
+      "variants": [
+        {
+          "id": "public-92b9172e1a883170599f13ba-variant-d302b136f401f399414d0d3e",
+          "sku": "H-3301P",
+          "gtin": null,
+          "label": "Один шприц 1 г",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "1 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "H-3301P"
+          }
+        },
+        {
+          "id": "public-92b9172e1a883170599f13ba-variant-c94364e74a83ef77f02e04fb",
+          "sku": "H-33014P",
+          "gtin": null,
+          "label": "Набор · 4 шприца по 1 г",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Масса": "1 г",
+            "Количество": "1 шт.",
+            "Комплектация": "Набор",
+            "Артикул производителя": "H-33014P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-171c49c93216978fb4e8cd4a",
+      "name": "TheraCem",
+      "description": "Самоадгезивный композитный цемент двойного отверждения с выделением кальция. Фасовка указана в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "TheraCem",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стоматологические цементы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/theracem/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "TheraCem"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Стоматологические цементы",
+      "sourceUrl": "https://www.bisco.com/theracem/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стоматологические цементы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "THERACEM",
+        "ТераЦем",
+        "TheraCem Dual-Syringe"
+      ],
+      "variants": [
+        {
+          "id": "public-171c49c93216978fb4e8cd4a-variant-5b3c85b86bfb7ee8af279a12",
+          "sku": "D-46311P",
+          "gtin": null,
+          "label": "Двойной шприц",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "D-46311P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-505848d205a1bc6a69b10fae",
       "name": "Therafil-21-СТОМИР",
       "description": "Therafil-21-СТОМИР в категории «Стоматологические материалы и оборудование».",
@@ -311617,6 +314683,125 @@
           "gtin": null,
           "label": "Стандартная фасовка · шт.",
           "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-06e07877fbdf0d6fb9d51fd7",
+      "name": "Uni-Etch",
+      "description": "Гель фосфорной кислоты для протравливания эмали и дентина. Фасовка выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Uni-Etch",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Протравочные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/uni-etch/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Uni-Etch"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Протравочные материалы",
+      "sourceUrl": "https://www.bisco.com/uni-etch/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Протравочные материалы"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "UNI-ETCH 32%",
+        "Uni Etch",
+        "Уни-Этч",
+        "Uni-Etch 4 Syringe Package",
+        "Uni-Etch Syringe",
+        "Uni-Etch Bulk Bottle"
+      ],
+      "variants": [
+        {
+          "id": "public-06e07877fbdf0d6fb9d51fd7-variant-57d97b4be52a28ecad3aa754",
+          "sku": "E-5502EM",
+          "gtin": null,
+          "label": "Набор · 4 шприца",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Комплектация": "Набор",
+            "Артикул производителя": "E-5502EM"
+          }
+        },
+        {
+          "id": "public-06e07877fbdf0d6fb9d51fd7-variant-c59d2475dcde29493ca3b234",
+          "sku": "E-5632EM",
+          "gtin": null,
+          "label": "Шприц",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Артикул производителя": "E-5632EM"
+          }
+        },
+        {
+          "id": "public-06e07877fbdf0d6fb9d51fd7-variant-3303326e498bbac18118af89",
+          "sku": "E-5637E",
+          "gtin": null,
+          "label": "Большой флакон",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Артикул производителя": "E-5637E"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -318448,6 +321633,117 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-69e7ae3cde252d66c13b126b",
+      "name": "Z-Prime Plus",
+      "description": "Праймер для подготовки циркония, металла и оксида алюминия перед фиксацией. Объём выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Z-Prime Plus",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Праймеры и очистители",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "BISCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "BISCO, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "bisco-official",
+            "sourceUrl": "https://www.bisco.com/z-prime-plus/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Z-Prime Plus"
+          }
+        ]
+      },
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "category": "Праймеры и очистители",
+      "sourceUrl": "https://www.bisco.com/z-prime-plus/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Праймеры и очистители"
+        ],
+        [
+          "Бренд",
+          "BISCO"
+        ],
+        [
+          "Производитель",
+          "BISCO, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Z-PRIME PLUS",
+        "Z Prime Plus",
+        "Зет-Прайм Плюс",
+        "Z-Prime Plus 2ml",
+        "Z-Prime Plus 4ml"
+      ],
+      "variants": [
+        {
+          "id": "public-69e7ae3cde252d66c13b126b-variant-43d42c91746ebab9d2e59f3f",
+          "sku": "B-6002P",
+          "gtin": null,
+          "label": "Флакон 2 мл",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Объём": "2 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "B-6002P"
+          }
+        },
+        {
+          "id": "public-69e7ae3cde252d66c13b126b-variant-10caa4d962c6564407c43c06",
+          "sku": "B-6001P",
+          "gtin": null,
+          "label": "Флакон 4 мл",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Объём": "4 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "B-6001P"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-39965d0c787aff69eb270d0c",

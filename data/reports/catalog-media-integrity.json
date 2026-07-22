@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-07-22T17:21:54.745Z",
+  "generatedAt": "2026-07-22T17:45:57.899Z",
   "intendedGrain": "Одна строка проверки на одну каноническую карточку",
   "catalog": {
-    "cardsBeforeMediaJoin": 3197,
-    "cardsAfterMediaJoin": 3197,
+    "cardsBeforeMediaJoin": 3222,
+    "cardsAfterMediaJoin": 3222,
     "lostCards": 0,
     "duplicateProductIds": []
   },
   "photos": {
-    "usableCards": 1748,
-    "usablePercent": 54.7,
+    "usableCards": 1773,
+    "usablePercent": 55,
     "withoutUsablePhoto": 1449,
     "cardsRetainedWithoutPhoto": 1449,
     "brokenCards": 0,
-    "localExact": 1748,
+    "localExact": 1773,
     "remoteUnchecked": 0,
-    "sharedExactFiles": 143,
+    "sharedExactFiles": 144,
     "suspiciousSharedMedia": 0
   },
   "manifest": {
-    "entries": 1685,
-    "orphanEntries": 80
+    "entries": 1745,
+    "orphanEntries": 116
   },
   "evidence": {
     "brokenCards": [],
@@ -2032,6 +2032,23 @@
         ]
       },
       {
+        "filePath": "apps/buyer-web/public/catalog/products/c05a602e6e8552be2717eacc2c61c178.png",
+        "linkedProducts": [
+          {
+            "productId": "public-fb1cbff93905aae29bed9908",
+            "productName": "Bis-Silane",
+            "sourceUrl": "https://www.bisco.com/porcelain-primer/",
+            "localPath": "apps/buyer-web/public/catalog/products/c05a602e6e8552be2717eacc2c61c178.png"
+          },
+          {
+            "productId": "public-948a050da33e1f06fb10e61c",
+            "productName": "Porcelain Primer",
+            "sourceUrl": "https://www.bisco.com/porcelain-primer/",
+            "localPath": "apps/buyer-web/public/catalog/products/c05a602e6e8552be2717eacc2c61c178.png"
+          }
+        ]
+      },
+      {
         "filePath": "apps/buyer-web/public/catalog/products/35d3d3b8-2b34-48a0-81ab-0735647709b2.webp",
         "linkedProducts": [
           {
@@ -2538,7 +2555,43 @@
       "https://amdgroup.kz/catalog/plombirovochnye_materialy/karizma_smart_4g_a3_5_/",
       "https://amdgroup.kz/catalog/plombirovochnye_materialy/karizma_smart_4g_a2/",
       "https://amdgroup.kz/catalog/plombirovochnye_materialy/karizma_topaz_4g_ob/",
-      "https://amdgroup.kz/catalog/plombirovochnye_materialy/karizma_topaz_4g_od/"
+      "https://amdgroup.kz/catalog/plombirovochnye_materialy/karizma_topaz_4g_od/",
+      "https://www.bisco.com/therabase-ca/",
+      "https://www.bisco.com/all-bond-2-kit-eu/",
+      "https://www.bisco.com/cavity-cleanser/",
+      "https://www.bisco.com/choice-2-try-in-paste/",
+      "https://www.bisco.com/core-flo-dc-lite-dual-syringes/",
+      "https://www.bisco.com/ecement-adhesive-cementation-system-kit-eu/",
+      "https://www.bisco.com/etch-37/",
+      "https://www.bisco.com/light-core-syringe/",
+      "https://www.bisco.com/one-step/",
+      "https://www.bisco.com/quantium-universal-composite-single-syringes/",
+      "https://www.bisco.com/select-hv-etch/",
+      "https://www.bisco.com/select-hv-etch-with-bac/",
+      "https://www.bisco.com/therabase/",
+      "https://www.bisco.com/theracal-pt/",
+      "https://www.bisco.com/theracem-ca/",
+      "https://www.bisco.com/uni-etch-with-bac/",
+      "https://www.bisco.com/universal-primer/",
+      "https://www.bisco.com/zirclean/",
+      "https://www.bisco.com/regular-orange-applicators/",
+      "https://www.bisco.com/endo-white-applicators/",
+      "https://www.bisco.com/dark-blue-brush-applicators/",
+      "https://www.bisco.com/disposable-mixing-wells-single-well/",
+      "https://www.bisco.com/disposable-mixing-wells-double-well/",
+      "https://www.bisco.com/dual-syringe-dispenser/",
+      "https://www.bisco.com/unit-dose-syringe/",
+      "https://www.bisco.com/dual-syringe-static-mixing-tips/",
+      "https://www.bisco.com/dual-syringe-mixing-and-intraoral-tips/",
+      "https://www.bisco.com/dual-syringe-mixing-and-root-canal-tips-30/",
+      "https://www.bisco.com/black-disposable-tips-19-gauge-/",
+      "https://www.bisco.com/porcelain-etchant-plastic-tips/",
+      "https://www.bisco.com/phosphoric-etchant-syringe-tips-2/",
+      "https://www.bisco.com/blue-disposable-syringe-tips-22-gauge/",
+      "https://www.bisco.com/black-disposable-syringe-tps-22-gauge-/",
+      "https://www.bisco.com/auto-mix-cannula-tips/",
+      "https://www.bisco.com/select-hv-etch-empty-syringe-accessory-pack/",
+      "https://www.bisco.com/uni-etch-empty-syringe-accessory-pack/"
     ],
     "missingPhotoProductIds": [
       "public-672f08d61dcfb818fd91a966",

@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-07-22T17:45:57.505Z",
+  "policy": {
+    "referenceKey": "brand + manufacturerRef",
+    "publishRule": "Kazakhstan evidence is tracked independently from the global manufacturer catalog",
+    "unconfirmedReferencesAreDeleted": false,
+    "unconfirmedReferencesCanMatchSupplierUploads": true,
+    "sellerOfferCreatesDuplicateCard": false
+  },
+  "totals": {
+    "references": 269,
+    "kzConfirmedReferences": 98,
+    "confirmationRequiredReferences": 171,
+    "publishedReferences": 176,
+    "ambiguousReferences": 0
+  },
+  "brands": [
+    {
+      "brand": "BISCO",
+      "coverageStatus": "KZ_AUDIT_IN_PROGRESS",
+      "references": 191,
+      "kzConfirmedReferences": 98,
+      "confirmationRequiredReferences": 93,
+      "publishedReferences": 98,
+      "canonicalFamilies": 61,
+      "kzConfirmedFamilies": 25,
+      "publishedFamilies": 25,
+      "expansionFamilies": 61
+    },
+    {
+      "brand": "DentKist",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 3,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 3,
+      "publishedReferences": 3,
+      "canonicalFamilies": 1,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 6,
+      "expansionFamilies": 0
+    },
+    {
+      "brand": "GC",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 0,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 0,
+      "publishedReferences": 0,
+      "canonicalFamilies": 0,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 5,
+      "expansionFamilies": 5
+    },
+    {
+      "brand": "Ivoclar",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 0,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 0,
+      "publishedReferences": 0,
+      "canonicalFamilies": 0,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 8,
+      "expansionFamilies": 5
+    },
+    {
+      "brand": "Kerr",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 0,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 0,
+      "publishedReferences": 0,
+      "canonicalFamilies": 0,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 4,
+      "expansionFamilies": 4
+    },
+    {
+      "brand": "Kulzer",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 22,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 22,
+      "publishedReferences": 22,
+      "canonicalFamilies": 2,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 16,
+      "expansionFamilies": 0
+    },
+    {
+      "brand": "Kuraray Noritake",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 23,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 23,
+      "publishedReferences": 23,
+      "canonicalFamilies": 5,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 5,
+      "expansionFamilies": 5
+    },
+    {
+      "brand": "LaTus",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 9,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 9,
+      "publishedReferences": 9,
+      "canonicalFamilies": 2,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 5,
+      "expansionFamilies": 0
+    },
+    {
+      "brand": "NSK",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 0,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 0,
+      "publishedReferences": 0,
+      "canonicalFamilies": 0,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 9,
+      "expansionFamilies": 9
+    },
+    {
+      "brand": "Planmeca",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 0,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 0,
+      "publishedReferences": 0,
+      "canonicalFamilies": 0,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 7,
+      "expansionFamilies": 6
+    },
+    {
+      "brand": "Solventum",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 0,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 0,
+      "publishedReferences": 0,
+      "canonicalFamilies": 0,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 5,
+      "expansionFamilies": 5
+    },
+    {
+      "brand": "Tokuyama Dental",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 0,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 0,
+      "publishedReferences": 0,
+      "canonicalFamilies": 0,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 10,
+      "expansionFamilies": 4
+    },
+    {
+      "brand": "Ultradent",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 2,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 2,
+      "publishedReferences": 2,
+      "canonicalFamilies": 2,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 5,
+      "expansionFamilies": 5
+    },
+    {
+      "brand": "VOCO",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 9,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 9,
+      "publishedReferences": 9,
+      "canonicalFamilies": 2,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 12,
+      "expansionFamilies": 5
+    },
+    {
+      "brand": "W&H",
+      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "references": 10,
+      "kzConfirmedReferences": 0,
+      "confirmationRequiredReferences": 10,
+      "publishedReferences": 10,
+      "canonicalFamilies": 5,
+      "kzConfirmedFamilies": 0,
+      "publishedFamilies": 5,
+      "expansionFamilies": 5
+    }
+  ]
+}

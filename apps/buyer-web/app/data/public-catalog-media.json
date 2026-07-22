@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T17:21:40.219Z",
-  "total": 1685,
+  "generatedAt": "2026-07-22T17:43:38.012Z",
+  "total": 1745,
   "entries": {
     "https://amdgroup.kz/catalog/konusovidnye/bory_almaznye_247_009f_fg/": {
       "id": "9aa079e6-0a46-43b3-af20-39eb3601a968",
@@ -33480,6 +33480,966 @@
         "rightsStatus": "official_manufacturer_catalog",
         "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-es2-universal",
         "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/m/a/majesty-unuversal-syringe_u.png"
+      }
+    },
+    "https://www.bisco.com/all-bond-universal-bottle/": {
+      "id": "manufacturer-440484e1908a79397f3176d093c8c138",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/462/421/bisco_dental_adhesive_all_bond_universal_0003_ABU_Bottle__08945.1730386163.jpg",
+      "securePath": "/catalog/products/440484e1908a79397f3176d093c8c138.png",
+      "normalizedStorageKey": "catalog/products/440484e1908a79397f3176d093c8c138.png",
+      "mimeType": "image/png",
+      "altText": "All-Bond Universal",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/all-bond-universal-bottle/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/462/421/bisco_dental_adhesive_all_bond_universal_0003_ABU_Bottle__08945.1730386163.jpg"
+      }
+    },
+    "https://www.bisco.com/theracal-lc/": {
+      "id": "manufacturer-be49fe81b43cf9c7888b66fea441fd42",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/448/497/bisco_dental_products_calcium__0002_TheraCalLC_4_Pack_Syringe_with_Box__74386.1754489288.jpg",
+      "securePath": "/catalog/products/be49fe81b43cf9c7888b66fea441fd42.png",
+      "normalizedStorageKey": "catalog/products/be49fe81b43cf9c7888b66fea441fd42.png",
+      "mimeType": "image/png",
+      "altText": "TheraCal LC",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/theracal-lc/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/448/497/bisco_dental_products_calcium__0002_TheraCalLC_4_Pack_Syringe_with_Box__74386.1754489288.jpg"
+      }
+    },
+    "https://www.bisco.com/therabase-ca/": {
+      "id": "manufacturer-350c9424595ec65339d1e4936e0bb028",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/446/488/bisco-dental-products-therabase-CA__47077.1730388040.jpg",
+      "securePath": "/catalog/products/350c9424595ec65339d1e4936e0bb028.png",
+      "normalizedStorageKey": "catalog/products/350c9424595ec65339d1e4936e0bb028.png",
+      "mimeType": "image/png",
+      "altText": "TheraBase Ca",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/therabase-ca/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/446/488/bisco-dental-products-therabase-CA__47077.1730388040.jpg"
+      }
+    },
+    "https://www.bisco.com/duolink-universal-resin-luting-cement/": {
+      "id": "manufacturer-a6c87bf4fcde10cbcbf27ba8e03e6cf4",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/439/504/bisco_dental_products_duo-link_universal_syringe__81682.1730389766.jpg",
+      "securePath": "/catalog/products/a6c87bf4fcde10cbcbf27ba8e03e6cf4.png",
+      "normalizedStorageKey": "catalog/products/a6c87bf4fcde10cbcbf27ba8e03e6cf4.png",
+      "mimeType": "image/png",
+      "altText": "Duo-Link Universal",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/duolink-universal-resin-luting-cement/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/439/504/bisco_dental_products_duo-link_universal_syringe__81682.1730389766.jpg"
+      }
+    },
+    "https://www.bisco.com/biscem/": {
+      "id": "manufacturer-c329b1071ced42934b4369c1067fcadc",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/438/403/bisco_dental_products_biscem__85351.1730390302.jpg",
+      "securePath": "/catalog/products/c329b1071ced42934b4369c1067fcadc.png",
+      "normalizedStorageKey": "catalog/products/c329b1071ced42934b4369c1067fcadc.png",
+      "mimeType": "image/png",
+      "altText": "BisCem",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/biscem/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/438/403/bisco_dental_products_biscem__85351.1730390302.jpg"
+      }
+    },
+    "https://www.bisco.com/aeliteflo/": {
+      "id": "manufacturer-86127a0751056baa716191acec8b3171",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/456/390/bisco_dental_composites_0000_AeliteFlo_Translucent_Cap_Flat__26519.1730386786.jpg",
+      "securePath": "/catalog/products/86127a0751056baa716191acec8b3171.png",
+      "normalizedStorageKey": "catalog/products/86127a0751056baa716191acec8b3171.png",
+      "mimeType": "image/png",
+      "altText": "Aeliteflo",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/aeliteflo/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/456/390/bisco_dental_composites_0000_AeliteFlo_Translucent_Cap_Flat__26519.1730386786.jpg"
+      }
+    },
+    "https://www.bisco.com/aelite-aesthetic-enamel-single-syringe/": {
+      "id": "manufacturer-4523ff65a3f5e2982a97d393b71c42c9",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/450/538/bisco_dental_products_0002_Aelite_Aesthetic_Enamel_D4E_Cap_Flat__74828.1730387032.jpg",
+      "securePath": "/catalog/products/4523ff65a3f5e2982a97d393b71c42c9.png",
+      "normalizedStorageKey": "catalog/products/4523ff65a3f5e2982a97d393b71c42c9.png",
+      "mimeType": "image/png",
+      "altText": "Aelite Aesthetic Enamel",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/aelite-aesthetic-enamel-single-syringe/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/450/538/bisco_dental_products_0002_Aelite_Aesthetic_Enamel_D4E_Cap_Flat__74828.1730387032.jpg"
+      }
+    },
+    "https://www.bisco.com/aelite-all-purpose-body-single-syringe/": {
+      "id": "manufacturer-52df4beff56734071d17043c3a76cb0b",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/452/539/bisco_dental_products_0000_Aelite_All-Purpose_Light_Cap_Flat__72984.1730386969.jpg",
+      "securePath": "/catalog/products/52df4beff56734071d17043c3a76cb0b.png",
+      "normalizedStorageKey": "catalog/products/52df4beff56734071d17043c3a76cb0b.png",
+      "mimeType": "image/png",
+      "altText": "Aelite All-Purpose Body",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/aelite-all-purpose-body-single-syringe/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/452/539/bisco_dental_products_0000_Aelite_All-Purpose_Light_Cap_Flat__72984.1730386969.jpg"
+      }
+    },
+    "https://www.bisco.com/aelite-ls-posterior-single-syringe/": {
+      "id": "manufacturer-286ee1d59ce3c730d3a5db1165d5847d",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/454/540/bisco_dental_products_0000_AeliteLS_Posterior_C4_Cap_Flat_NEW__23912.1730386910.jpg",
+      "securePath": "/catalog/products/286ee1d59ce3c730d3a5db1165d5847d.png",
+      "normalizedStorageKey": "catalog/products/286ee1d59ce3c730d3a5db1165d5847d.png",
+      "mimeType": "image/png",
+      "altText": "Aelite LS Posterior",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/aelite-ls-posterior-single-syringe/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/454/540/bisco_dental_products_0000_AeliteLS_Posterior_C4_Cap_Flat_NEW__23912.1730386910.jpg"
+      }
+    },
+    "https://www.bisco.com/all-bond-2-kit-eu/": {
+      "id": "manufacturer-824f5fc9e05e30745f6844b3fc3614fc",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/472/649/bisco-dental-products-all-bond-2-kit-with-uni-etch-no-bac-new-etchant-labels-pre-bond-3ml-__55331.1746624547.jpg",
+      "securePath": "/catalog/products/824f5fc9e05e30745f6844b3fc3614fc.png",
+      "normalizedStorageKey": "catalog/products/824f5fc9e05e30745f6844b3fc3614fc.png",
+      "mimeType": "image/png",
+      "altText": "All-Bond 2",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/all-bond-2-kit-eu/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/472/649/bisco-dental-products-all-bond-2-kit-with-uni-etch-no-bac-new-etchant-labels-pre-bond-3ml-__55331.1746624547.jpg"
+      }
+    },
+    "https://www.bisco.com/all-bond-3-kit-eu/": {
+      "id": "manufacturer-ce1e110ecff65acac25180575664416f",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/467/641/bisco-dental-products-all-bond-3-kit-with-uni-etch-no-bac-new-etchant-labels__19963.1745420950.jpg",
+      "securePath": "/catalog/products/ce1e110ecff65acac25180575664416f.png",
+      "normalizedStorageKey": "catalog/products/ce1e110ecff65acac25180575664416f.png",
+      "mimeType": "image/png",
+      "altText": "All-Bond 3",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/all-bond-3-kit-eu/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/467/641/bisco-dental-products-all-bond-3-kit-with-uni-etch-no-bac-new-etchant-labels__19963.1745420950.jpg"
+      }
+    },
+    "https://www.bisco.com/bisfil-2b-dual-syringes/": {
+      "id": "manufacturer-5fb4c73ae357aa86ddc2d8a2e95a9ed4",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/457/404/bisco_dental_composites_bisfil_2B__74654.1730386738.jpg",
+      "securePath": "/catalog/products/5fb4c73ae357aa86ddc2d8a2e95a9ed4.png",
+      "normalizedStorageKey": "catalog/products/5fb4c73ae357aa86ddc2d8a2e95a9ed4.png",
+      "mimeType": "image/png",
+      "altText": "Bisfil 2B",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/bisfil-2b-dual-syringes/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/457/404/bisco_dental_composites_bisfil_2B__74654.1730386738.jpg"
+      }
+    },
+    "https://www.bisco.com/cavity-cleanser/": {
+      "id": "manufacturer-a96b66397321d15af156ff335f450f6d",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/490/494/bisco-dental-adhesive-cavity-cleanser-135ml__02719.1733848141.jpg",
+      "securePath": "/catalog/products/a96b66397321d15af156ff335f450f6d.png",
+      "normalizedStorageKey": "catalog/products/a96b66397321d15af156ff335f450f6d.png",
+      "mimeType": "image/png",
+      "altText": "Cavity Cleanser",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/cavity-cleanser/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/490/494/bisco-dental-adhesive-cavity-cleanser-135ml__02719.1733848141.jpg"
+      }
+    },
+    "https://www.bisco.com/choice-2-veneer-cement/": {
+      "id": "manufacturer-b76b675178bad18454f941cddd4730d9",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/433/609/choice_2_dental_veneer_cement_A1_1200x1200__95845.1739911568.jpg",
+      "securePath": "/catalog/products/b76b675178bad18454f941cddd4730d9.png",
+      "normalizedStorageKey": "catalog/products/b76b675178bad18454f941cddd4730d9.png",
+      "mimeType": "image/png",
+      "altText": "Choice 2",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/choice-2-veneer-cement/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/433/609/choice_2_dental_veneer_cement_A1_1200x1200__95845.1739911568.jpg"
+      }
+    },
+    "https://www.bisco.com/choice-2-try-in-paste/": {
+      "id": "manufacturer-10fe48b6ce3a15a168e598ddcc1de675",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/434/612/Choice_2_Try_In_Paste_Dental_Cement_A1_1200x1200__83835.1739912136.jpg",
+      "securePath": "/catalog/products/10fe48b6ce3a15a168e598ddcc1de675.png",
+      "normalizedStorageKey": "catalog/products/10fe48b6ce3a15a168e598ddcc1de675.png",
+      "mimeType": "image/png",
+      "altText": "Choice 2 Try-In Paste",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/choice-2-try-in-paste/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/434/612/Choice_2_Try_In_Paste_Dental_Cement_A1_1200x1200__83835.1739912136.jpg"
+      }
+    },
+    "https://www.bisco.com/core-flo-dc-dual-syringes/": {
+      "id": "manufacturer-dfa9621ea09783f829969e874418dd9b",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/484/413/bisco_dental_products_0000_Core-Flo-A1__31696.1730383990.jpg",
+      "securePath": "/catalog/products/dfa9621ea09783f829969e874418dd9b.png",
+      "normalizedStorageKey": "catalog/products/dfa9621ea09783f829969e874418dd9b.png",
+      "mimeType": "image/png",
+      "altText": "Core-Flo DC",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/core-flo-dc-dual-syringes/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/484/413/bisco_dental_products_0000_Core-Flo-A1__31696.1730383990.jpg"
+      }
+    },
+    "https://www.bisco.com/core-flo-dc-lite-dual-syringes/": {
+      "id": "manufacturer-c7846d6290d227ff6fd0c197ea0a9083",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/485/411/bisco_dental_products_0000_Core-Flo-Lite-A1__59840.1730384022.jpg",
+      "securePath": "/catalog/products/c7846d6290d227ff6fd0c197ea0a9083.png",
+      "normalizedStorageKey": "catalog/products/c7846d6290d227ff6fd0c197ea0a9083.png",
+      "mimeType": "image/png",
+      "altText": "Core-Flo DC Lite",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/core-flo-dc-lite-dual-syringes/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/485/411/bisco_dental_products_0000_Core-Flo-Lite-A1__59840.1730384022.jpg"
+      }
+    },
+    "https://www.bisco.com/ecement-adhesive-cementation-system-kit-eu/": {
+      "id": "manufacturer-c3f609a44ccdf5ef4dc935d326b7b7f6",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/443/644/eCementKit-no-BAC__18178.1745423149.jpg",
+      "securePath": "/catalog/products/c3f609a44ccdf5ef4dc935d326b7b7f6.png",
+      "normalizedStorageKey": "catalog/products/c3f609a44ccdf5ef4dc935d326b7b7f6.png",
+      "mimeType": "image/png",
+      "altText": "eCEMENT",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/ecement-adhesive-cementation-system-kit-eu/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/443/644/eCementKit-no-BAC__18178.1745423149.jpg"
+      }
+    },
+    "https://www.bisco.com/etch-37/": {
+      "id": "manufacturer-d9cfab7db98e0ce42b9e7f7a60575eac",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/482/517/bisco_dental_products_0003_etch_37_group_no_BAC__34020.1730384333.jpg",
+      "securePath": "/catalog/products/d9cfab7db98e0ce42b9e7f7a60575eac.png",
+      "normalizedStorageKey": "catalog/products/d9cfab7db98e0ce42b9e7f7a60575eac.png",
+      "mimeType": "image/png",
+      "altText": "Etch-37",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/etch-37/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/482/517/bisco_dental_products_0003_etch_37_group_no_BAC__34020.1730384333.jpg"
+      }
+    },
+    "https://www.bisco.com/fortify-bottle/": {
+      "id": "manufacturer-38deb6f0cda1a5dc7ed1ec393dd9230c",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/492/537/bisco-dental-products-fortify__03656.1730322196.jpg",
+      "securePath": "/catalog/products/38deb6f0cda1a5dc7ed1ec393dd9230c.png",
+      "normalizedStorageKey": "catalog/products/38deb6f0cda1a5dc7ed1ec393dd9230c.png",
+      "mimeType": "image/png",
+      "altText": "Fortify",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/fortify-bottle/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/492/537/bisco-dental-products-fortify__03656.1730322196.jpg"
+      }
+    },
+    "https://www.bisco.com/intraoral-repair-kit/": {
+      "id": "manufacturer-e1aef0adddbabf17f7ca14d07c0c83d8",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/444/489/bisco-dental-products-intraoral-repair-kit__39393.1730388091.jpg",
+      "securePath": "/catalog/products/e1aef0adddbabf17f7ca14d07c0c83d8.png",
+      "normalizedStorageKey": "catalog/products/e1aef0adddbabf17f7ca14d07c0c83d8.png",
+      "mimeType": "image/png",
+      "altText": "Intraoral Repair Kit",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/intraoral-repair-kit/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/444/489/bisco-dental-products-intraoral-repair-kit__39393.1730388091.jpg"
+      }
+    },
+    "https://www.bisco.com/light-core-syringe/": {
+      "id": "manufacturer-ab6092e0926ba08d2daacb64244d0bf9",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/487/471/bisco_core_build_up_0000_LightCoreBlue__62646.1730322471.jpg",
+      "securePath": "/catalog/products/ab6092e0926ba08d2daacb64244d0bf9.png",
+      "normalizedStorageKey": "catalog/products/ab6092e0926ba08d2daacb64244d0bf9.png",
+      "mimeType": "image/png",
+      "altText": "Light-Core",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/light-core-syringe/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/487/471/bisco_core_build_up_0000_LightCoreBlue__62646.1730322471.jpg"
+      }
+    },
+    "https://www.bisco.com/modeling-resin/": {
+      "id": "manufacturer-3f923cb23352659ecafa0810c02a47ff",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/493/467/bisco-dental-products-modeling-resin__65499.1730322167.jpg",
+      "securePath": "/catalog/products/3f923cb23352659ecafa0810c02a47ff.png",
+      "normalizedStorageKey": "catalog/products/3f923cb23352659ecafa0810c02a47ff.png",
+      "mimeType": "image/png",
+      "altText": "Modeling Resin",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/modeling-resin/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/493/467/bisco-dental-products-modeling-resin__65499.1730322167.jpg"
+      }
+    },
+    "https://www.bisco.com/one-step/": {
+      "id": "manufacturer-c32668e79b8305a6ffed57450cf83a5c",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/461/658/One_Step_1200x1200__97238.1761149410.jpg",
+      "securePath": "/catalog/products/c32668e79b8305a6ffed57450cf83a5c.png",
+      "normalizedStorageKey": "catalog/products/c32668e79b8305a6ffed57450cf83a5c.png",
+      "mimeType": "image/png",
+      "altText": "One-Step",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/one-step/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/461/658/One_Step_1200x1200__97238.1761149410.jpg"
+      }
+    },
+    "https://www.bisco.com/one-step-plus-bottle/": {
+      "id": "manufacturer-06431c0c698308fc40f0abbf4f9b076e",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/513/527/bisco_dental_adhesives_0001_OneStepPlus_ContactShadow__74749.1725375153.1280.1280__54622.1730321301.jpg",
+      "securePath": "/catalog/products/06431c0c698308fc40f0abbf4f9b076e.png",
+      "normalizedStorageKey": "catalog/products/06431c0c698308fc40f0abbf4f9b076e.png",
+      "mimeType": "image/png",
+      "altText": "One-Step Plus",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/one-step-plus-bottle/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/513/527/bisco_dental_adhesives_0001_OneStepPlus_ContactShadow__74749.1725375153.1280.1280__54622.1730321301.jpg"
+      }
+    },
+    "https://www.bisco.com/porcelain-bonding-resin/": {
+      "id": "manufacturer-a0c8398bdbadf97836e8430e28e73f24",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/491/614/bisco-dental-products-porcelain-bonding-resin__40868.1739991436.jpg",
+      "securePath": "/catalog/products/a0c8398bdbadf97836e8430e28e73f24.png",
+      "normalizedStorageKey": "catalog/products/a0c8398bdbadf97836e8430e28e73f24.png",
+      "mimeType": "image/png",
+      "altText": "Porcelain Bonding Resin",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/porcelain-bonding-resin/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/491/614/bisco-dental-products-porcelain-bonding-resin__40868.1739991436.jpg"
+      }
+    },
+    "https://www.bisco.com/porcelain-etchant-syringe/": {
+      "id": "manufacturer-7546687a732bdf0fb2ad042e0e4d25bd",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/483/659/BISCO-porcelain-etchant-9.5__68579.1776199075.jpg",
+      "securePath": "/catalog/products/7546687a732bdf0fb2ad042e0e4d25bd.png",
+      "normalizedStorageKey": "catalog/products/7546687a732bdf0fb2ad042e0e4d25bd.png",
+      "mimeType": "image/png",
+      "altText": "Porcelain Etchant",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/porcelain-etchant-syringe/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/483/659/BISCO-porcelain-etchant-9.5__68579.1776199075.jpg"
+      }
+    },
+    "https://www.bisco.com/porcelain-primer/": {
+      "id": "manufacturer-c05a602e6e8552be2717eacc2c61c178",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/attribute_rule_images/41_source_1724965176.jpg",
+      "securePath": "/catalog/products/c05a602e6e8552be2717eacc2c61c178.png",
+      "normalizedStorageKey": "catalog/products/c05a602e6e8552be2717eacc2c61c178.png",
+      "mimeType": "image/png",
+      "altText": "Porcelain Primer",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/porcelain-primer/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/attribute_rule_images/41_source_1724965176.jpg"
+      }
+    },
+    "https://www.bisco.com/quantium-universal-composite-single-syringes/": {
+      "id": "manufacturer-d17e31ee0d642239f1ef78b4d12bdfa1",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/523/650/BISCO_Dental_Products_Quantium_A1-B__12310.1751990456.jpg",
+      "securePath": "/catalog/products/d17e31ee0d642239f1ef78b4d12bdfa1.png",
+      "normalizedStorageKey": "catalog/products/d17e31ee0d642239f1ef78b4d12bdfa1.png",
+      "mimeType": "image/png",
+      "altText": "Quantium Universal Composite",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/quantium-universal-composite-single-syringes/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/523/650/BISCO_Dental_Products_Quantium_A1-B__12310.1751990456.jpg"
+      }
+    },
+    "https://www.bisco.com/select-hv-etch/": {
+      "id": "manufacturer-e1429bfff17257f78bc87d8eb54cc59b",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/478/621/BISCO_Dental_Products_Etchant_Select_HV_Etch_Bulk_Syringe_no_BAC__00524.1741883991.jpg",
+      "securePath": "/catalog/products/e1429bfff17257f78bc87d8eb54cc59b.png",
+      "normalizedStorageKey": "catalog/products/e1429bfff17257f78bc87d8eb54cc59b.png",
+      "mimeType": "image/png",
+      "altText": "Select HV Etch",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/select-hv-etch/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/478/621/BISCO_Dental_Products_Etchant_Select_HV_Etch_Bulk_Syringe_no_BAC__00524.1741883991.jpg"
+      }
+    },
+    "https://www.bisco.com/select-hv-etch-with-bac/": {
+      "id": "manufacturer-8e740ca403046071117f9ff3a5c6a4e0",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/477/619/BISCO_Dental_Products_Etchant_Select_HV_Etch_BAC__33969.1740431056.jpg",
+      "securePath": "/catalog/products/8e740ca403046071117f9ff3a5c6a4e0.png",
+      "normalizedStorageKey": "catalog/products/8e740ca403046071117f9ff3a5c6a4e0.png",
+      "mimeType": "image/png",
+      "altText": "Select HV Etch w/BAC",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/select-hv-etch-with-bac/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/477/619/BISCO_Dental_Products_Etchant_Select_HV_Etch_BAC__33969.1740431056.jpg"
+      }
+    },
+    "https://www.bisco.com/therabase/": {
+      "id": "manufacturer-d5ddf434e2b6ce0db32215f7df7d6af9",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/445/547/bisco-dental-products-calcium-TheraBase-Syringe__06945.1730388029.jpg",
+      "securePath": "/catalog/products/d5ddf434e2b6ce0db32215f7df7d6af9.png",
+      "normalizedStorageKey": "catalog/products/d5ddf434e2b6ce0db32215f7df7d6af9.png",
+      "mimeType": "image/png",
+      "altText": "TheraBase",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/therabase/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/445/547/bisco-dental-products-calcium-TheraBase-Syringe__06945.1730388029.jpg"
+      }
+    },
+    "https://www.bisco.com/theracal-pt/": {
+      "id": "manufacturer-8eb4b79c115c2299ec0f589bdf8c0f38",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/447/498/bisco-dental-products-calcium-TheraCal-PT-Syringe__43010.1730387314.jpg",
+      "securePath": "/catalog/products/8eb4b79c115c2299ec0f589bdf8c0f38.png",
+      "normalizedStorageKey": "catalog/products/8eb4b79c115c2299ec0f589bdf8c0f38.png",
+      "mimeType": "image/png",
+      "altText": "TheraCal PT",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/theracal-pt/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/447/498/bisco-dental-products-calcium-TheraCal-PT-Syringe__43010.1730387314.jpg"
+      }
+    },
+    "https://www.bisco.com/theracem/": {
+      "id": "manufacturer-68ea90a66bca15a11102f1071acf1b1c",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/436/548/bisco-dental-products-calcium-TheraCem-Syringe__36765.1730390349.jpg",
+      "securePath": "/catalog/products/68ea90a66bca15a11102f1071acf1b1c.png",
+      "normalizedStorageKey": "catalog/products/68ea90a66bca15a11102f1071acf1b1c.png",
+      "mimeType": "image/png",
+      "altText": "TheraCem",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/theracem/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/436/548/bisco-dental-products-calcium-TheraCem-Syringe__36765.1730390349.jpg"
+      }
+    },
+    "https://www.bisco.com/theracem-ca/": {
+      "id": "manufacturer-f74156c5338c080ef2974704bc5336d8",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/437/549/bisco-dental-products-theracem-ca-syringe__07516.1730390338.jpg",
+      "securePath": "/catalog/products/f74156c5338c080ef2974704bc5336d8.png",
+      "normalizedStorageKey": "catalog/products/f74156c5338c080ef2974704bc5336d8.png",
+      "mimeType": "image/png",
+      "altText": "TheraCem Ca",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/theracem-ca/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/437/549/bisco-dental-products-theracem-ca-syringe__07516.1730390338.jpg"
+      }
+    },
+    "https://www.bisco.com/uni-etch/": {
+      "id": "manufacturer-cfef6cd686086102aef96025b8d12923",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/480/632/BISCO_Dental_Products_Etchant_Uni-Etch__60303.1741882812.jpg",
+      "securePath": "/catalog/products/cfef6cd686086102aef96025b8d12923.png",
+      "normalizedStorageKey": "catalog/products/cfef6cd686086102aef96025b8d12923.png",
+      "mimeType": "image/png",
+      "altText": "Uni-Etch",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/uni-etch/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/480/632/BISCO_Dental_Products_Etchant_Uni-Etch__60303.1741882812.jpg"
+      }
+    },
+    "https://www.bisco.com/uni-etch-with-bac/": {
+      "id": "manufacturer-ad7ebb5ffc37b871f0fa07f90881a08d",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/479/623/BISCO_Dental_Products_Etchant_Uni-Etch_BAC__13107.1740432129.jpg",
+      "securePath": "/catalog/products/ad7ebb5ffc37b871f0fa07f90881a08d.png",
+      "normalizedStorageKey": "catalog/products/ad7ebb5ffc37b871f0fa07f90881a08d.png",
+      "mimeType": "image/png",
+      "altText": "Uni-Etch w/BAC",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/uni-etch-with-bac/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/479/623/BISCO_Dental_Products_Etchant_Uni-Etch_BAC__13107.1740432129.jpg"
+      }
+    },
+    "https://www.bisco.com/universal-primer/": {
+      "id": "manufacturer-b03f786d35dabb0753b22f4fd51f2489",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/471/535/bisco-dental-products_0002_Universal_PrimerA-and-B__92687.1730385421.jpg",
+      "securePath": "/catalog/products/b03f786d35dabb0753b22f4fd51f2489.png",
+      "normalizedStorageKey": "catalog/products/b03f786d35dabb0753b22f4fd51f2489.png",
+      "mimeType": "image/png",
+      "altText": "Universal Primer",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/universal-primer/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/471/535/bisco-dental-products_0002_Universal_PrimerA-and-B__92687.1730385421.jpg"
+      }
+    },
+    "https://www.bisco.com/z-prime-plus/": {
+      "id": "manufacturer-cdc56b299ab5ece05c4595ff96cd9788",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/459/430/bisco_dental_primer_0001_Z-Prime_Plus_4ml-BottleBoxLarge__60471.1754492845.jpg",
+      "securePath": "/catalog/products/cdc56b299ab5ece05c4595ff96cd9788.png",
+      "normalizedStorageKey": "catalog/products/cdc56b299ab5ece05c4595ff96cd9788.png",
+      "mimeType": "image/png",
+      "altText": "Z-Prime Plus",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/z-prime-plus/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/459/430/bisco_dental_primer_0001_Z-Prime_Plus_4ml-BottleBoxLarge__60471.1754492845.jpg"
+      }
+    },
+    "https://www.bisco.com/zirclean/": {
+      "id": "manufacturer-999c1b9b0d98261be32e5f4dc85c700c",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/460/543/bisco-dental-cleaner-ZirClean__75472.1730386234.jpg",
+      "securePath": "/catalog/products/999c1b9b0d98261be32e5f4dc85c700c.png",
+      "normalizedStorageKey": "catalog/products/999c1b9b0d98261be32e5f4dc85c700c.png",
+      "mimeType": "image/png",
+      "altText": "ZirClean",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/zirclean/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/460/543/bisco-dental-cleaner-ZirClean__75472.1730386234.jpg"
+      }
+    },
+    "https://www.bisco.com/regular-orange-applicators/": {
+      "id": "manufacturer-eca29edc180eab624e9ee6143e0f2da1",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/494/466/bisco-dental-accessories-orange-brush__98684.1730322100.jpg",
+      "securePath": "/catalog/products/eca29edc180eab624e9ee6143e0f2da1.png",
+      "normalizedStorageKey": "catalog/products/eca29edc180eab624e9ee6143e0f2da1.png",
+      "mimeType": "image/png",
+      "altText": "Regular Orange Applicators",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/regular-orange-applicators/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/494/466/bisco-dental-accessories-orange-brush__98684.1730322100.jpg"
+      }
+    },
+    "https://www.bisco.com/endo-white-applicators/": {
+      "id": "manufacturer-df3966c20316aa80f429123cb9d3e2bb",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/495/465/bisco-dental-accessories-white-brush__90270.1730322040.jpg",
+      "securePath": "/catalog/products/df3966c20316aa80f429123cb9d3e2bb.png",
+      "normalizedStorageKey": "catalog/products/df3966c20316aa80f429123cb9d3e2bb.png",
+      "mimeType": "image/png",
+      "altText": "Endo White Applicators",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/endo-white-applicators/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/495/465/bisco-dental-accessories-white-brush__90270.1730322040.jpg"
+      }
+    },
+    "https://www.bisco.com/dark-blue-brush-applicators/": {
+      "id": "manufacturer-5d729a9e2aa87d81f251b992e4a7cf16",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/496/464/bisco-dental-accessories-blue-brush__69994.1730322005.jpg",
+      "securePath": "/catalog/products/5d729a9e2aa87d81f251b992e4a7cf16.png",
+      "normalizedStorageKey": "catalog/products/5d729a9e2aa87d81f251b992e4a7cf16.png",
+      "mimeType": "image/png",
+      "altText": "Blue Bristle Brush Applicators",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/dark-blue-brush-applicators/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/496/464/bisco-dental-accessories-blue-brush__69994.1730322005.jpg"
+      }
+    },
+    "https://www.bisco.com/disposable-mixing-wells-single-well/": {
+      "id": "manufacturer-84aa8c2717d6ebc9fd59d0e594998a95",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/497/463/bisco-dental-accessories-single-mixng-well__08934.1730321959.jpg",
+      "securePath": "/catalog/products/84aa8c2717d6ebc9fd59d0e594998a95.png",
+      "normalizedStorageKey": "catalog/products/84aa8c2717d6ebc9fd59d0e594998a95.png",
+      "mimeType": "image/png",
+      "altText": "Disposable Mixing Wells — Single",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/disposable-mixing-wells-single-well/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/497/463/bisco-dental-accessories-single-mixng-well__08934.1730321959.jpg"
+      }
+    },
+    "https://www.bisco.com/disposable-mixing-wells-double-well/": {
+      "id": "manufacturer-b23a4021ac2925a35bc31fe320c7cc48",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/498/587/double-mixing-well-bisco-dental-products2__56668.1731620229.jpg",
+      "securePath": "/catalog/products/b23a4021ac2925a35bc31fe320c7cc48.png",
+      "normalizedStorageKey": "catalog/products/b23a4021ac2925a35bc31fe320c7cc48.png",
+      "mimeType": "image/png",
+      "altText": "Disposable Mixing Wells — Double",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/disposable-mixing-wells-double-well/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/498/587/double-mixing-well-bisco-dental-products2__56668.1731620229.jpg"
+      }
+    },
+    "https://www.bisco.com/dual-syringe-dispenser/": {
+      "id": "manufacturer-27831df9fc6663d07f0836ec9c6cd9ce",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/499/563/Dual-Syringe_Dispenser_Front__85064.1730321882.jpg",
+      "securePath": "/catalog/products/27831df9fc6663d07f0836ec9c6cd9ce.png",
+      "normalizedStorageKey": "catalog/products/27831df9fc6663d07f0836ec9c6cd9ce.png",
+      "mimeType": "image/png",
+      "altText": "Dual-Syringe Dispenser",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/dual-syringe-dispenser/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/499/563/Dual-Syringe_Dispenser_Front__85064.1730321882.jpg"
+      }
+    },
+    "https://www.bisco.com/unit-dose-syringe/": {
+      "id": "manufacturer-5323b7b3eba490d5ea14ae674a3418e7",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/500/567/Unit-Dose_Dispenser_Front__00751.1730321858.jpg",
+      "securePath": "/catalog/products/5323b7b3eba490d5ea14ae674a3418e7.png",
+      "normalizedStorageKey": "catalog/products/5323b7b3eba490d5ea14ae674a3418e7.png",
+      "mimeType": "image/png",
+      "altText": "Unit-Dose Syringe",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/unit-dose-syringe/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/500/567/Unit-Dose_Dispenser_Front__00751.1730321858.jpg"
+      }
+    },
+    "https://www.bisco.com/dual-syringe-static-mixing-tips/": {
+      "id": "manufacturer-4a72af2a8c8fe6c58d8ef807c62da503",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/501/387/bisco_dental_accessories_0011_X-81252PContactShadow__72769.1730321802.jpg",
+      "securePath": "/catalog/products/4a72af2a8c8fe6c58d8ef807c62da503.png",
+      "normalizedStorageKey": "catalog/products/4a72af2a8c8fe6c58d8ef807c62da503.png",
+      "mimeType": "image/png",
+      "altText": "Dual-Syringe Static Mixing Tips",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/dual-syringe-static-mixing-tips/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/501/387/bisco_dental_accessories_0011_X-81252PContactShadow__72769.1730321802.jpg"
+      }
+    },
+    "https://www.bisco.com/dual-syringe-mixing-and-intraoral-tips/": {
+      "id": "manufacturer-5fd04758b7db99fb7769f5c66b70d833",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/502/386/bisco_dental_accessories_0009_X-81257P-TipContactShadow__33385.1730321777.jpg",
+      "securePath": "/catalog/products/5fd04758b7db99fb7769f5c66b70d833.png",
+      "normalizedStorageKey": "catalog/products/5fd04758b7db99fb7769f5c66b70d833.png",
+      "mimeType": "image/png",
+      "altText": "Dual-Syringe Mixing & Intraoral Tips",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/dual-syringe-mixing-and-intraoral-tips/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/502/386/bisco_dental_accessories_0009_X-81257P-TipContactShadow__33385.1730321777.jpg"
+      }
+    },
+    "https://www.bisco.com/dual-syringe-mixing-and-root-canal-tips-30/": {
+      "id": "manufacturer-aad5feabfe77b05a2e7190911539b3ec",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/503/385/bisco_dental_accessories_0008_X-81267P-TipContactShadow__29027.1730321746.jpg",
+      "securePath": "/catalog/products/aad5feabfe77b05a2e7190911539b3ec.png",
+      "normalizedStorageKey": "catalog/products/aad5feabfe77b05a2e7190911539b3ec.png",
+      "mimeType": "image/png",
+      "altText": "Dual-Syringe Mixing & Root Canal Tips",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/dual-syringe-mixing-and-root-canal-tips-30/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/503/385/bisco_dental_accessories_0008_X-81267P-TipContactShadow__29027.1730321746.jpg"
+      }
+    },
+    "https://www.bisco.com/black-disposable-tips-19-gauge-/": {
+      "id": "manufacturer-6acd19bd13b1be94ea11070bf634eab7",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/504/381/bisco_dental_accessories_0003_X-80616NContactShadow__55443.1730321637.jpg",
+      "securePath": "/catalog/products/6acd19bd13b1be94ea11070bf634eab7.png",
+      "normalizedStorageKey": "catalog/products/6acd19bd13b1be94ea11070bf634eab7.png",
+      "mimeType": "image/png",
+      "altText": "Aeliteflo Syringe Tips 19G",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/black-disposable-tips-19-gauge-/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/504/381/bisco_dental_accessories_0003_X-80616NContactShadow__55443.1730321637.jpg"
+      }
+    },
+    "https://www.bisco.com/porcelain-etchant-plastic-tips/": {
+      "id": "manufacturer-ea9b9994356461c8350ecbb3cab94807",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/505/383/bisco_dental_accessories_0006_X-80602NContactShadow__66122.1730321614.jpg",
+      "securePath": "/catalog/products/ea9b9994356461c8350ecbb3cab94807.png",
+      "normalizedStorageKey": "catalog/products/ea9b9994356461c8350ecbb3cab94807.png",
+      "mimeType": "image/png",
+      "altText": "Porcelain Etchant Plastic Tips",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/porcelain-etchant-plastic-tips/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/505/383/bisco_dental_accessories_0006_X-80602NContactShadow__66122.1730321614.jpg"
+      }
+    },
+    "https://www.bisco.com/phosphoric-etchant-syringe-tips-2/": {
+      "id": "manufacturer-30f59d443e79c0245d051567f0e572b9",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/506/382/bisco_dental_accessories_0004_X-80611NContactShadow__14276.1730321515.jpg",
+      "securePath": "/catalog/products/30f59d443e79c0245d051567f0e572b9.png",
+      "normalizedStorageKey": "catalog/products/30f59d443e79c0245d051567f0e572b9.png",
+      "mimeType": "image/png",
+      "altText": "Phosphoric Etchant Syringe Tips 25G",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/phosphoric-etchant-syringe-tips-2/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/506/382/bisco_dental_accessories_0004_X-80611NContactShadow__14276.1730321515.jpg"
+      }
+    },
+    "https://www.bisco.com/blue-disposable-syringe-tips-22-gauge/": {
+      "id": "manufacturer-44c64e185e16fa084d784f38f44480e1",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/507/379/bisco_dental_accessories_0000_X-80608NContactShadow__55574.1730321538.jpg",
+      "securePath": "/catalog/products/44c64e185e16fa084d784f38f44480e1.png",
+      "normalizedStorageKey": "catalog/products/44c64e185e16fa084d784f38f44480e1.png",
+      "mimeType": "image/png",
+      "altText": "Blue Disposable Syringe Tips 22G",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/blue-disposable-syringe-tips-22-gauge/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/507/379/bisco_dental_accessories_0000_X-80608NContactShadow__55574.1730321538.jpg"
+      }
+    },
+    "https://www.bisco.com/black-disposable-syringe-tps-22-gauge-/": {
+      "id": "manufacturer-94f90d2101a06d64eb3a3ea207f812e3",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/508/380/bisco_dental_accessories_0002_X-80621NContactShadow__69519.1730321578.jpg",
+      "securePath": "/catalog/products/94f90d2101a06d64eb3a3ea207f812e3.png",
+      "normalizedStorageKey": "catalog/products/94f90d2101a06d64eb3a3ea207f812e3.png",
+      "mimeType": "image/png",
+      "altText": "Black Disposable Syringe Tips 22G",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/black-disposable-syringe-tps-22-gauge-/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/508/380/bisco_dental_accessories_0002_X-80621NContactShadow__69519.1730321578.jpg"
+      }
+    },
+    "https://www.bisco.com/auto-mix-cannula-tips/": {
+      "id": "manufacturer-2a9573dc95b8a3df8832a2d2d3e7ddf7",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/509/384/bisco_dental_accessories_0007_X-81270PContactShadow__59021.1761151070.jpg",
+      "securePath": "/catalog/products/2a9573dc95b8a3df8832a2d2d3e7ddf7.png",
+      "normalizedStorageKey": "catalog/products/2a9573dc95b8a3df8832a2d2d3e7ddf7.png",
+      "mimeType": "image/png",
+      "altText": "Auto-Mix Cannula Tips 20G",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/auto-mix-cannula-tips/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/509/384/bisco_dental_accessories_0007_X-81270PContactShadow__59021.1761151070.jpg"
+      }
+    },
+    "https://www.bisco.com/select-hv-etch-empty-syringe-accessory-pack/": {
+      "id": "manufacturer-de901384e2794469d4336ebc4c2bceb7",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/510/582/bisco_dental_products_Select_HV_Etch_Refill_Syringe__76679.1731687290.jpg",
+      "securePath": "/catalog/products/de901384e2794469d4336ebc4c2bceb7.png",
+      "normalizedStorageKey": "catalog/products/de901384e2794469d4336ebc4c2bceb7.png",
+      "mimeType": "image/png",
+      "altText": "Select HV Etch Empty Syringe Accessory Package",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/select-hv-etch-empty-syringe-accessory-pack/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/510/582/bisco_dental_products_Select_HV_Etch_Refill_Syringe__76679.1731687290.jpg"
+      }
+    },
+    "https://www.bisco.com/uni-etch-empty-syringe-accessory-pack/": {
+      "id": "manufacturer-5b4c60ce90aa84ad974e0a149d5a3687",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/511/583/bisco_dental_products_Uni-Etch_Refill_Syringe__12611.1731687264.jpg",
+      "securePath": "/catalog/products/5b4c60ce90aa84ad974e0a149d5a3687.png",
+      "normalizedStorageKey": "catalog/products/5b4c60ce90aa84ad974e0a149d5a3687.png",
+      "mimeType": "image/png",
+      "altText": "Uni-Etch Empty Syringe Accessory Package",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.bisco.com/uni-etch-empty-syringe-accessory-pack/",
+        "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/images/stencil/original/products/511/583/bisco_dental_products_Uni-Etch_Refill_Syringe__12611.1731687264.jpg"
+      }
+    },
+    "https://www.denco.kz/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=30&category_id=15&manufacturer_id=3&option=com_virtuemart&Itemid=17": {
+      "id": "manufacturer-8861018a9bb6f620f881b398d89bfc2f",
+      "sourceUrl": "https://denco.kz/components/com_virtuemart/shop_image/product/AQUA_PREP_F_4e6de48de136c.jpg",
+      "securePath": "/catalog/products/8861018a9bb6f620f881b398d89bfc2f.png",
+      "normalizedStorageKey": "catalog/products/8861018a9bb6f620f881b398d89bfc2f.png",
+      "mimeType": "image/png",
+      "altText": "Aqua-Prep F",
+      "width": 870,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_exclusive_distributor_catalog",
+        "sourcePageUrl": "https://www.denco.kz/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=30&category_id=15&manufacturer_id=3&option=com_virtuemart&Itemid=17",
+        "sourceImageUrl": "https://denco.kz/components/com_virtuemart/shop_image/product/AQUA_PREP_F_4e6de48de136c.jpg"
+      }
+    },
+    "https://www.denco.kz/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=43&category_id=31&manufacturer_id=3&option=com_virtuemart&Itemid=17": {
+      "id": "manufacturer-42a8e11b4d5d3436496859327cbcf2de",
+      "sourceUrl": "https://denco.kz/components/com_virtuemart/shop_image/product/BISCOVER_LV_4e6e39f6cc365.jpg",
+      "securePath": "/catalog/products/42a8e11b4d5d3436496859327cbcf2de.png",
+      "normalizedStorageKey": "catalog/products/42a8e11b4d5d3436496859327cbcf2de.png",
+      "mimeType": "image/png",
+      "altText": "Biscover LV",
+      "width": 727,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_exclusive_distributor_catalog",
+        "sourcePageUrl": "https://www.denco.kz/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=43&category_id=31&manufacturer_id=3&option=com_virtuemart&Itemid=17",
+        "sourceImageUrl": "https://denco.kz/components/com_virtuemart/shop_image/product/BISCOVER_LV_4e6e39f6cc365.jpg"
       }
     }
   }
