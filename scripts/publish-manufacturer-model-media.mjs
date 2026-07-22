@@ -9,6 +9,7 @@ import { parse } from "../apps/api/node_modules/csv-parse/lib/sync.js";
 const exec = promisify(execFile);
 const root = path.resolve(process.cwd());
 const inputPath = path.join(root, "data/manufacturer-model-media.csv");
+const brandMediaDirectory = path.join(root, "data/catalog-media");
 const manifestPath = path.join(
   root,
   "apps/buyer-web/app/data/public-catalog-media.json",
@@ -21,12 +22,32 @@ const rejectedAsset =
   /(logo|favicon|icon|sprite|avatar|cart|basket|loading|pixel|captcha|placeholder|no[-_]?image|default[-_]?image)/i;
 const onlyMissing = process.argv.includes("--only-missing");
 
-const records = parse(await fs.readFile(inputPath), {
-  columns: true,
-  skip_empty_lines: true,
-  trim: true,
-  relax_column_count: true,
-});
+const brandMediaPaths = await fs
+  .readdir(brandMediaDirectory)
+  .then((entries) =>
+    entries
+      .filter((entry) => entry.endsWith(".csv"))
+      .sort()
+      .map((entry) => path.join(brandMediaDirectory, entry)),
+  )
+  .catch((error) => {
+    if (error.code === "ENOENT") return [];
+    throw error;
+  });
+const records = (
+  await Promise.all(
+    [inputPath, ...brandMediaPaths].map((mediaPath) =>
+      fs.readFile(mediaPath).then((content) =>
+        parse(content, {
+          columns: true,
+          skip_empty_lines: true,
+          trim: true,
+          relax_column_count: true,
+        }),
+      ),
+    ),
+  )
+).flat();
 const manifest = JSON.parse(await fs.readFile(manifestPath, "utf8"));
 const entries = { ...(manifest.entries ?? {}) };
 const temporaryDirectory = await fs.mkdtemp(

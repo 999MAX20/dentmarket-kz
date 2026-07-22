@@ -27,10 +27,11 @@ const output = path.join(
 );
 const aliasesPath = path.join(root, "data/catalog-model-aliases-wave-1.csv");
 const skuLabelsPath = path.join(root, "data/catalog-product-skus-wave-1.csv");
-const variantFamiliesPath = path.join(
+const primaryVariantFamiliesPath = path.join(
   root,
   "data/catalog-variant-families-wave-2.csv",
 );
+const brandVariantFamiliesDirectory = path.join(root, "data/catalog-variants");
 const manufacturerRefAliasesPath = path.join(
   root,
   "data/catalog-manufacturer-ref-aliases.csv",
@@ -72,21 +73,33 @@ const skuLabelRows = await fs
     if (error.code === "ENOENT") return [];
     throw error;
   });
-const variantFamilyRows = await fs
-  .readFile(variantFamiliesPath)
-  .then((content) =>
-    parse(content, {
-      columns: true,
-      skip_empty_lines: true,
-      bom: true,
-      trim: true,
-      relax_column_count: true,
-    }),
+const brandVariantFamiliesPaths = await fs
+  .readdir(brandVariantFamiliesDirectory)
+  .then((entries) =>
+    entries
+      .filter((entry) => entry.endsWith(".csv"))
+      .sort()
+      .map((entry) => path.join(brandVariantFamiliesDirectory, entry)),
   )
   .catch((error) => {
     if (error.code === "ENOENT") return [];
     throw error;
   });
+const variantFamilyRows = (
+  await Promise.all(
+    [primaryVariantFamiliesPath, ...brandVariantFamiliesPaths].map((inputPath) =>
+      fs.readFile(inputPath).then((content) =>
+        parse(content, {
+          columns: true,
+          skip_empty_lines: true,
+          bom: true,
+          trim: true,
+          relax_column_count: true,
+        }),
+      ),
+    ),
+  )
+).flat();
 const manufacturerRefAliasRows = await fs
   .readFile(manufacturerRefAliasesPath)
   .then((content) =>

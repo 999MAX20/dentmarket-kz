@@ -2,9 +2,12 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const variantsPath = path.resolve("data/catalog-variant-families-wave-2.csv");
+const brandVariantsDirectory = path.resolve("data/catalog-variants");
 const skuLabelsPath = path.resolve("data/catalog-product-skus-wave-1.csv");
 const evidencePath = path.resolve("data/catalog-kz-market-evidence.csv");
 const skuEvidencePath = path.resolve("data/catalog-kz-sku-evidence.csv");
+const brandMarketEvidenceDirectory = path.resolve("data/catalog-evidence/market");
+const brandSkuEvidenceDirectory = path.resolve("data/catalog-evidence/skus");
 const expansionPath = path.resolve("data/catalog-expansion-wave-1.csv");
 const catalogPath = path.resolve("apps/buyer-web/app/data/public-catalog-fallback.json");
 const csvOutputPath = path.resolve("data/reports/catalog-kz-sku-coverage.csv");
@@ -54,22 +57,41 @@ function escapeCsv(value) {
   return /[",\n\r]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text;
 }
 
+async function readCsvCollection(primaryPath, additionalDirectory) {
+  const additionalPaths = await fs
+    .readdir(additionalDirectory)
+    .then((entries) =>
+      entries
+        .filter((entry) => entry.endsWith(".csv"))
+        .sort()
+        .map((entry) => path.join(additionalDirectory, entry)),
+    )
+    .catch((error) => {
+      if (error.code === "ENOENT") return [];
+      throw error;
+    });
+  return (
+    await Promise.all(
+      [primaryPath, ...additionalPaths].map((inputPath) =>
+        fs.readFile(inputPath, "utf8").then(parseCsv),
+      ),
+    )
+  ).flat();
+}
+
 function key(brand, productName) {
   return `${brand}|${productName}`.toLocaleLowerCase("ru");
 }
 
-const [variantText, skuLabelText, evidenceText, skuEvidenceText, expansionText, catalog] = await Promise.all([
-  fs.readFile(variantsPath, "utf8"),
+const [variantFamilies, skuLabelText, evidence, skuEvidence, expansionText, catalog] = await Promise.all([
+  readCsvCollection(variantsPath, brandVariantsDirectory),
   fs.readFile(skuLabelsPath, "utf8"),
-  fs.readFile(evidencePath, "utf8"),
-  fs.readFile(skuEvidencePath, "utf8"),
+  readCsvCollection(evidencePath, brandMarketEvidenceDirectory),
+  readCsvCollection(skuEvidencePath, brandSkuEvidenceDirectory),
   fs.readFile(expansionPath, "utf8"),
   fs.readFile(catalogPath, "utf8").then(JSON.parse),
 ]);
-const variantFamilies = parseCsv(variantText);
 const skuLabels = parseCsv(skuLabelText);
-const evidence = parseCsv(evidenceText);
-const skuEvidence = parseCsv(skuEvidenceText);
 const expansion = parseCsv(expansionText);
 const manufacturerByCard = new Map(
   expansion.map((record) => [key(record.brand, record.canonicalProductName), record.manufacturer]),

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T18:09:30.879Z",
-  "total": 1763,
+  "generatedAt": "2026-07-22T19:01:18.033Z",
+  "total": 1827,
   "entries": {
     "https://amdgroup.kz/catalog/konusovidnye/bory_almaznye_247_009f_fg/": {
       "id": "9aa079e6-0a46-43b3-af20-39eb3601a968",
@@ -34728,6 +34728,1030 @@
         "rightsStatus": "official_kz_manufacturer_catalog",
         "sourcePageUrl": "https://www.gc.dental/europe/en-KZ/products/initiallisipress",
         "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/initiallisipress_packshot.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-62": {
+      "id": "manufacturer-f3f30253ae266963a6cf3f1fb14855d9",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/62/fullimage1.png",
+      "securePath": "/catalog/products/f3f30253ae266963a6cf3f1fb14855d9.png",
+      "normalizedStorageKey": "catalog/products/f3f30253ae266963a6cf3f1fb14855d9.png",
+      "mimeType": "image/png",
+      "altText": "Гипс зуботехнический Interrock Premium тип 4",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-62",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/62/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-63": {
+      "id": "manufacturer-71271241fa6461f8416fb1be86fb8fe7",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/63/fullimage1.png",
+      "securePath": "/catalog/products/71271241fa6461f8416fb1be86fb8fe7.png",
+      "normalizedStorageKey": "catalog/products/71271241fa6461f8416fb1be86fb8fe7.png",
+      "mimeType": "image/png",
+      "altText": "Гипс зуботехнический Interrock NEW супертвердый тип 4",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-63",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/63/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-64": {
+      "id": "manufacturer-8cef3d98634e9ce001f2ba4a2c1fb8a9",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/64/fullimage1.png",
+      "securePath": "/catalog/products/8cef3d98634e9ce001f2ba4a2c1fb8a9.png",
+      "normalizedStorageKey": "catalog/products/8cef3d98634e9ce001f2ba4a2c1fb8a9.png",
+      "mimeType": "image/png",
+      "altText": "Гипс твердый Interdur, тип III",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-64",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/64/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-65": {
+      "id": "manufacturer-b178396243232f27feb1e76f42233ee1",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/65/fullimage1.png",
+      "securePath": "/catalog/products/b178396243232f27feb1e76f42233ee1.png",
+      "normalizedStorageKey": "catalog/products/b178396243232f27feb1e76f42233ee1.png",
+      "mimeType": "image/png",
+      "altText": "Гипс зуботехнический Blue stone твердый тип 3",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-65",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/65/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-66": {
+      "id": "manufacturer-c039a51bd137ca8b4b3a29fe3cd3fc23",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/66/fullimage1.png",
+      "securePath": "/catalog/products/c039a51bd137ca8b4b3a29fe3cd3fc23.png",
+      "normalizedStorageKey": "catalog/products/c039a51bd137ca8b4b3a29fe3cd3fc23.png",
+      "mimeType": "image/png",
+      "altText": "Гипс зуботехнический Yellow stone тип 3",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-66",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/66/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-67": {
+      "id": "manufacturer-883478f48d1f70e085c33b312706fc0e",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/67/fullimage1.png",
+      "securePath": "/catalog/products/883478f48d1f70e085c33b312706fc0e.png",
+      "normalizedStorageKey": "catalog/products/883478f48d1f70e085c33b312706fc0e.png",
+      "mimeType": "image/png",
+      "altText": "Гипс зуботехнический Orthoplaster",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-67",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/67/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-68": {
+      "id": "manufacturer-69e574f3e6694921946c193f458a36d3",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/68/fullimage1.png",
+      "securePath": "/catalog/products/69e574f3e6694921946c193f458a36d3.png",
+      "normalizedStorageKey": "catalog/products/69e574f3e6694921946c193f458a36d3.png",
+      "mimeType": "image/png",
+      "altText": "Гипс зуботехнический Artiplaster тип 3",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-68",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/68/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-69": {
+      "id": "manufacturer-60e4d96acc244ce485666e1a90f5f170",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/69/fullimage1.png",
+      "securePath": "/catalog/products/60e4d96acc244ce485666e1a90f5f170.png",
+      "normalizedStorageKey": "catalog/products/60e4d96acc244ce485666e1a90f5f170.png",
+      "mimeType": "image/png",
+      "altText": "Алебастр Interdent",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dental-gypsum/item-69",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/69/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/podgotovka/podgotovka/item-70": {
+      "id": "manufacturer-c675fee340a8375dd72bc8eaa0325044",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/70/fullimage1.png",
+      "securePath": "/catalog/products/c675fee340a8375dd72bc8eaa0325044.png",
+      "normalizedStorageKey": "catalog/products/c675fee340a8375dd72bc8eaa0325044.png",
+      "mimeType": "image/png",
+      "altText": "Кольца ретенционные",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/podgotovka/podgotovka/item-70",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/70/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/podgotovka/podgotovka/item-71": {
+      "id": "manufacturer-adf82d3a1129e741d468c2f0088d07e1",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/71/fullimage1.png",
+      "securePath": "/catalog/products/adf82d3a1129e741d468c2f0088d07e1.png",
+      "normalizedStorageKey": "catalog/products/adf82d3a1129e741d468c2f0088d07e1.png",
+      "mimeType": "image/png",
+      "altText": "Штифты/пины",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/podgotovka/podgotovka/item-71",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/71/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/podgotovka/podgotovka/item-72": {
+      "id": "manufacturer-45125b27ae237e3ad7342ad67ccb351c",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/72/fullimage1.png",
+      "securePath": "/catalog/products/45125b27ae237e3ad7342ad67ccb351c.png",
+      "normalizedStorageKey": "catalog/products/45125b27ae237e3ad7342ad67ccb351c.png",
+      "mimeType": "image/png",
+      "altText": "Штифты для разборных моделей TWIN PINS",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/podgotovka/podgotovka/item-72",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/72/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/modeling/auxiliary-tools-for-modeling/item-73": {
+      "id": "manufacturer-57f037ac57063ab927df859d709de3af",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/73/fullimage1.png",
+      "securePath": "/catalog/products/57f037ac57063ab927df859d709de3af.png",
+      "normalizedStorageKey": "catalog/products/57f037ac57063ab927df859d709de3af.png",
+      "mimeType": "image/png",
+      "altText": "Лак Interfilm для изоляции воск-гипс и воск-металл",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/modeling/auxiliary-tools-for-modeling/item-73",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/73/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/modeling/auxiliary-tools-for-modeling/item-74": {
+      "id": "manufacturer-2292b3c5a68d4a49a876a02c686c8ce2",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/74/fullimage1.png",
+      "securePath": "/catalog/products/2292b3c5a68d4a49a876a02c686c8ce2.png",
+      "normalizedStorageKey": "catalog/products/2292b3c5a68d4a49a876a02c686c8ce2.png",
+      "mimeType": "image/png",
+      "altText": "Лак дистанционный",
+      "width": 1193,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/modeling/auxiliary-tools-for-modeling/item-74",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/74/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/modeling/auxiliary-tools-for-modeling/item-75": {
+      "id": "manufacturer-ea31977dd103bdc709c0b11ece46ce5a",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/75/fullimage1.png",
+      "securePath": "/catalog/products/ea31977dd103bdc709c0b11ece46ce5a.png",
+      "normalizedStorageKey": "catalog/products/ea31977dd103bdc709c0b11ece46ce5a.png",
+      "mimeType": "image/png",
+      "altText": "Растворитель для дистанционного лака",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/modeling/auxiliary-tools-for-modeling/item-75",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/75/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-76": {
+      "id": "manufacturer-554d489d4ffbe9521cae7f7f1e4ad58c",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/76/fullimage1.png",
+      "securePath": "/catalog/products/554d489d4ffbe9521cae7f7f1e4ad58c.png",
+      "normalizedStorageKey": "catalog/products/554d489d4ffbe9521cae7f7f1e4ad58c.png",
+      "mimeType": "image/png",
+      "altText": "Воск корректирующий",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-76",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/76/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-77": {
+      "id": "manufacturer-ad9fd90abd351cbbf262f2bdb8eb838a",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/77/fullimage1.png",
+      "securePath": "/catalog/products/ad9fd90abd351cbbf262f2bdb8eb838a.png",
+      "normalizedStorageKey": "catalog/products/ad9fd90abd351cbbf262f2bdb8eb838a.png",
+      "mimeType": "image/png",
+      "altText": "Воск цервикальный",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-77",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/77/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-78": {
+      "id": "manufacturer-900f26b9f032da5e8043ba1f3d9a8f4a",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/78/fullimage1.png",
+      "securePath": "/catalog/products/900f26b9f032da5e8043ba1f3d9a8f4a.png",
+      "normalizedStorageKey": "catalog/products/900f26b9f032da5e8043ba1f3d9a8f4a.png",
+      "mimeType": "image/png",
+      "altText": "Воски моделировочные",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-78",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/78/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-79": {
+      "id": "manufacturer-0c8596810cc9ab2d1700739927373ed8",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/79/fullimage1.png",
+      "securePath": "/catalog/products/0c8596810cc9ab2d1700739927373ed8.png",
+      "normalizedStorageKey": "catalog/products/0c8596810cc9ab2d1700739927373ed8.png",
+      "mimeType": "image/png",
+      "altText": "Воск универсальный",
+      "width": 1200,
+      "height": 1199,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-79",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/79/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-80": {
+      "id": "manufacturer-7560168fbcf646faafc3da73be1009ad",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/80/fullimage1.png",
+      "securePath": "/catalog/products/7560168fbcf646faafc3da73be1009ad.png",
+      "normalizedStorageKey": "catalog/products/7560168fbcf646faafc3da73be1009ad.png",
+      "mimeType": "image/png",
+      "altText": "Воск выблокировочный \"Block Out\"",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-80",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/80/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-81": {
+      "id": "manufacturer-fd880bd20d27cba2f72159dc6e2be06a",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/81/fullimage1.png",
+      "securePath": "/catalog/products/fd880bd20d27cba2f72159dc6e2be06a.png",
+      "normalizedStorageKey": "catalog/products/fd880bd20d27cba2f72159dc6e2be06a.png",
+      "mimeType": "image/png",
+      "altText": "Воск для базисных протезов, в пластинах",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-81",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/81/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-82": {
+      "id": "manufacturer-21e9be43037b057d13111b6d39f472fe",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/82/fullimage1.png",
+      "securePath": "/catalog/products/21e9be43037b057d13111b6d39f472fe.png",
+      "normalizedStorageKey": "catalog/products/21e9be43037b057d13111b6d39f472fe.png",
+      "mimeType": "image/png",
+      "altText": "Воск моделировочный, в пластинах",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-82",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/82/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-83": {
+      "id": "manufacturer-7063fce88c51c7fd66cd3109860e52b1",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/83/fullimage1.png",
+      "securePath": "/catalog/products/7063fce88c51c7fd66cd3109860e52b1.png",
+      "normalizedStorageKey": "catalog/products/7063fce88c51c7fd66cd3109860e52b1.png",
+      "mimeType": "image/png",
+      "altText": "Воск подкладочный",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-83",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/83/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-84": {
+      "id": "manufacturer-0b909cad859c0a00710e9635ef7a1466",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/84/fullimage1.png",
+      "securePath": "/catalog/products/0b909cad859c0a00710e9635ef7a1466.png",
+      "normalizedStorageKey": "catalog/products/0b909cad859c0a00710e9635ef7a1466.png",
+      "mimeType": "image/png",
+      "altText": "Воск клейкий, в палочках",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-84",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/84/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-85": {
+      "id": "manufacturer-de98ea1bb39a674b7f276197b6507075",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/85/fullimage1.png",
+      "securePath": "/catalog/products/de98ea1bb39a674b7f276197b6507075.png",
+      "normalizedStorageKey": "catalog/products/de98ea1bb39a674b7f276197b6507075.png",
+      "mimeType": "image/png",
+      "altText": "Восковые пластины рифленые",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-85",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/85/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-86": {
+      "id": "manufacturer-417872b5fcb6cc5a5f9de2690ab15c5d",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/86/fullimage1.png",
+      "securePath": "/catalog/products/417872b5fcb6cc5a5f9de2690ab15c5d.png",
+      "normalizedStorageKey": "catalog/products/417872b5fcb6cc5a5f9de2690ab15c5d.png",
+      "mimeType": "image/png",
+      "altText": "Восковые полуфабрикаты",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-86",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/86/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-87": {
+      "id": "manufacturer-ca56da349d62193a9d7c2957c1576106",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/87/fullimage1.png",
+      "securePath": "/catalog/products/ca56da349d62193a9d7c2957c1576106.png",
+      "normalizedStorageKey": "catalog/products/ca56da349d62193a9d7c2957c1576106.png",
+      "mimeType": "image/png",
+      "altText": "Восковые ретенции",
+      "width": 1198,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-87",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/87/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/dublirovanie/item-88": {
+      "id": "manufacturer-5fad19f4a0606c621e0c2ab94dd13640",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/88/fullimage1.png",
+      "securePath": "/catalog/products/5fad19f4a0606c621e0c2ab94dd13640.png",
+      "normalizedStorageKey": "catalog/products/5fad19f4a0606c621e0c2ab94dd13640.png",
+      "mimeType": "image/png",
+      "altText": "Gelodouble масса для дублирования",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/dublirovanie/item-88",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/88/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/dublirovanie/item-89": {
+      "id": "manufacturer-8f2f9c3707a7893c32ecdfc3ab711baa",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/89/fullimage1.png",
+      "securePath": "/catalog/products/8f2f9c3707a7893c32ecdfc3ab711baa.png",
+      "normalizedStorageKey": "catalog/products/8f2f9c3707a7893c32ecdfc3ab711baa.png",
+      "mimeType": "image/png",
+      "altText": "Силикон Interduplicast A+B",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/dublirovanie/item-89",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/89/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/dublirovanie/item-90": {
+      "id": "manufacturer-15a12d8b15e6e0eddfba35307ff043ee",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/90/fullimage1.png",
+      "securePath": "/catalog/products/15a12d8b15e6e0eddfba35307ff043ee.png",
+      "normalizedStorageKey": "catalog/products/15a12d8b15e6e0eddfba35307ff043ee.png",
+      "mimeType": "image/png",
+      "altText": "Спрей Modelhart отвердитель для бюгельного литья",
+      "width": 1198,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/dublirovanie/item-90",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/90/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/pakovka/item-91": {
+      "id": "manufacturer-2d0bbb52f1c1180f83888a40c834325b",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/91/fullimage1.png",
+      "securePath": "/catalog/products/2d0bbb52f1c1180f83888a40c834325b.png",
+      "normalizedStorageKey": "catalog/products/2d0bbb52f1c1180f83888a40c834325b.png",
+      "mimeType": "image/png",
+      "altText": "Паковочная масса Interfine K+B Speed",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/pakovka/item-91",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/91/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/pakovka/item-92": {
+      "id": "manufacturer-d9b3d806b47fbe76421b963389df2fcc",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/92/fullimage1.png",
+      "securePath": "/catalog/products/d9b3d806b47fbe76421b963389df2fcc.png",
+      "normalizedStorageKey": "catalog/products/d9b3d806b47fbe76421b963389df2fcc.png",
+      "mimeType": "image/png",
+      "altText": "Паковочная масса Intervest K+B Speed",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/pakovka/item-92",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/92/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/pakovka/item-93": {
+      "id": "manufacturer-77c8246d0f37066c4aa96fa4b39a4863",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/93/fullimage1.png",
+      "securePath": "/catalog/products/77c8246d0f37066c4aa96fa4b39a4863.png",
+      "normalizedStorageKey": "catalog/products/77c8246d0f37066c4aa96fa4b39a4863.png",
+      "mimeType": "image/png",
+      "altText": "Паковочная масса Modelcast S",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/pakovka/item-93",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/93/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/pakovka/item-94": {
+      "id": "manufacturer-f5ad8cbe624bb01034d05f7e658c255e",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/94/fullimage1.png",
+      "securePath": "/catalog/products/f5ad8cbe624bb01034d05f7e658c255e.png",
+      "normalizedStorageKey": "catalog/products/f5ad8cbe624bb01034d05f7e658c255e.png",
+      "mimeType": "image/png",
+      "altText": "Паковочная масса Modelcast",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/pakovka/item-94",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/94/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/pakovka/item-95": {
+      "id": "manufacturer-f1d5f4a53dbab33d8b64ed9f184f663c",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/95/fullimage1.png",
+      "securePath": "/catalog/products/f1d5f4a53dbab33d8b64ed9f184f663c.png",
+      "normalizedStorageKey": "catalog/products/f1d5f4a53dbab33d8b64ed9f184f663c.png",
+      "mimeType": "image/png",
+      "altText": "Expasol - жидкость для паковочных масс",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/pakovka/item-95",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/95/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/casting-accessories/item-96": {
+      "id": "manufacturer-5583d76a80e624cfc3bdd069be4835f3",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/96/fullimage1.jpg",
+      "securePath": "/catalog/products/5583d76a80e624cfc3bdd069be4835f3.png",
+      "normalizedStorageKey": "catalog/products/5583d76a80e624cfc3bdd069be4835f3.png",
+      "mimeType": "image/png",
+      "altText": "Муфельные кольца",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/casting-accessories/item-96",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/96/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/casting-accessories/item-97": {
+      "id": "manufacturer-42dc743412807c660fe8014188b110ea",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/97/fullimage1.png",
+      "securePath": "/catalog/products/42dc743412807c660fe8014188b110ea.png",
+      "normalizedStorageKey": "catalog/products/42dc743412807c660fe8014188b110ea.png",
+      "mimeType": "image/png",
+      "altText": "Маркер Novy",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/casting-accessories/item-97",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/97/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/alloys/item-100": {
+      "id": "manufacturer-1d3e59fe3a16682e6cec6c6b387bdd37",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/100/fullimage1.png",
+      "securePath": "/catalog/products/1d3e59fe3a16682e6cec6c6b387bdd37.png",
+      "normalizedStorageKey": "catalog/products/1d3e59fe3a16682e6cec6c6b387bdd37.png",
+      "mimeType": "image/png",
+      "altText": "Сплав I-BOND 02 никель-хромовый для металлокерамики",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/alloys/item-100",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/100/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/alloys/item-101": {
+      "id": "manufacturer-64c9720c18cda9e405f1134dbce1b708",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/101/fullimage1.png",
+      "securePath": "/catalog/products/64c9720c18cda9e405f1134dbce1b708.png",
+      "normalizedStorageKey": "catalog/products/64c9720c18cda9e405f1134dbce1b708.png",
+      "mimeType": "image/png",
+      "altText": "Сплав I-BOND NF кобальто-хромовый для металлокерамики",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/alloys/item-101",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/101/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/alloys/item-102": {
+      "id": "manufacturer-30e78ed762e50bcb822e88ec67c2cb25",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/102/fullimage1.png",
+      "securePath": "/catalog/products/30e78ed762e50bcb822e88ec67c2cb25.png",
+      "normalizedStorageKey": "catalog/products/30e78ed762e50bcb822e88ec67c2cb25.png",
+      "mimeType": "image/png",
+      "altText": "Сплав I-MG кобальто-хромовый для бюгелей",
+      "width": 1200,
+      "height": 1111,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/alloys/item-102",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/102/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/casting-accessories/item-103": {
+      "id": "manufacturer-580da3fa577906066a3bb18c877ebf02",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/103/fullimage1.png",
+      "securePath": "/catalog/products/580da3fa577906066a3bb18c877ebf02.png",
+      "normalizedStorageKey": "catalog/products/580da3fa577906066a3bb18c877ebf02.png",
+      "mimeType": "image/png",
+      "altText": "Керамические тигли",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/casting-accessories/item-103",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/103/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/dublirovanie/casting-accessories/item-105": {
+      "id": "manufacturer-cbc35c50761687380cc1ea05adf53997",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/105/fullimage1.png",
+      "securePath": "/catalog/products/cbc35c50761687380cc1ea05adf53997.png",
+      "normalizedStorageKey": "catalog/products/cbc35c50761687380cc1ea05adf53997.png",
+      "mimeType": "image/png",
+      "altText": "Электролит MG жидкость для электрополировки",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/dublirovanie/casting-accessories/item-105",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/105/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/plastic/accessories/item-106": {
+      "id": "manufacturer-558379fe4a31bf71a267458a0f552ea5",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/106/fullimage1.png",
+      "securePath": "/catalog/products/558379fe4a31bf71a267458a0f552ea5.png",
+      "normalizedStorageKey": "catalog/products/558379fe4a31bf71a267458a0f552ea5.png",
+      "mimeType": "image/png",
+      "altText": "Сеточка для укрепления пластмассы",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/plastic/accessories/item-106",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/106/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/plastic/accessories/item-107": {
+      "id": "manufacturer-778d5d04c6256556cb3722c48c992244",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/107/fullimage1.jpg",
+      "securePath": "/catalog/products/778d5d04c6256556cb3722c48c992244.png",
+      "normalizedStorageKey": "catalog/products/778d5d04c6256556cb3722c48c992244.png",
+      "mimeType": "image/png",
+      "altText": "Проволока для кламмеров",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/plastic/accessories/item-107",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/107/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/plastic/plastic/item-108": {
+      "id": "manufacturer-368d512a30393c718da23df6dd5b752d",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/108/fullimage1.png",
+      "securePath": "/catalog/products/368d512a30393c718da23df6dd5b752d.png",
+      "normalizedStorageKey": "catalog/products/368d512a30393c718da23df6dd5b752d.png",
+      "mimeType": "image/png",
+      "altText": "Interacryl Hot - пластмасса",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/plastic/plastic/item-108",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/108/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/plastic/plastic/item-109": {
+      "id": "manufacturer-41844f90c750cf537c39f730e144ce90",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/109/fullimage1.png",
+      "securePath": "/catalog/products/41844f90c750cf537c39f730e144ce90.png",
+      "normalizedStorageKey": "catalog/products/41844f90c750cf537c39f730e144ce90.png",
+      "mimeType": "image/png",
+      "altText": "Interacryl Cast - пластмасса",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/plastic/plastic/item-109",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/109/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/silikon/item-110": {
+      "id": "manufacturer-33c457a9ea653fa2c3524a5ed856c654",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/110/fullimage1.png",
+      "securePath": "/catalog/products/33c457a9ea653fa2c3524a5ed856c654.png",
+      "normalizedStorageKey": "catalog/products/33c457a9ea653fa2c3524a5ed856c654.png",
+      "mimeType": "image/png",
+      "altText": "Силиконовая масса INTERLABOSIL",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/silikon/item-110",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/110/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/plastic/plastic/item-111": {
+      "id": "manufacturer-007ad8584f92a355dff411e69c4bf4ab",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/111/fullimage1.png",
+      "securePath": "/catalog/products/007ad8584f92a355dff411e69c4bf4ab.png",
+      "normalizedStorageKey": "catalog/products/007ad8584f92a355dff411e69c4bf4ab.png",
+      "mimeType": "image/png",
+      "altText": "Восковые пластины для индивидуальных ложек LC Intertray",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/plastic/plastic/item-111",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/111/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/rotary-tools/item-112": {
+      "id": "manufacturer-e85f7cc8e0676eeee2626bb8ca9738a3",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/112/fullimage1.jpg",
+      "securePath": "/catalog/products/e85f7cc8e0676eeee2626bb8ca9738a3.png",
+      "normalizedStorageKey": "catalog/products/e85f7cc8e0676eeee2626bb8ca9738a3.png",
+      "mimeType": "image/png",
+      "altText": "Диски сепарационные, шлифовальные",
+      "width": 1198,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/rotary-tools/item-112",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/112/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/sandblasting/item-113": {
+      "id": "manufacturer-7360905c0f409fe04e82458c1146545b",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/113/fullimage1.png",
+      "securePath": "/catalog/products/7360905c0f409fe04e82458c1146545b.png",
+      "normalizedStorageKey": "catalog/products/7360905c0f409fe04e82458c1146545b.png",
+      "mimeType": "image/png",
+      "altText": "Порошок зуботехнический корундовый Interalox",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/sandblasting/item-113",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/113/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/sandblasting/item-114": {
+      "id": "manufacturer-6f6e420b4500a195850e56aa8141e12e",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/114/fullimage1.png",
+      "securePath": "/catalog/products/6f6e420b4500a195850e56aa8141e12e.png",
+      "normalizedStorageKey": "catalog/products/6f6e420b4500a195850e56aa8141e12e.png",
+      "mimeType": "image/png",
+      "altText": "Стеклянные перлы Interdent",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/sandblasting/item-114",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/114/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/sandblasting/item-115": {
+      "id": "manufacturer-606d4840ef1d8259eab5bccd8fea98fa",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/115/fullimage1.png",
+      "securePath": "/catalog/products/606d4840ef1d8259eab5bccd8fea98fa.png",
+      "normalizedStorageKey": "catalog/products/606d4840ef1d8259eab5bccd8fea98fa.png",
+      "mimeType": "image/png",
+      "altText": "Пемза Interdent",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/sandblasting/item-115",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/115/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-116": {
+      "id": "manufacturer-d49fc254f316f0960a4cdd7345a696a9",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/116/fullimage1.png",
+      "securePath": "/catalog/products/d49fc254f316f0960a4cdd7345a696a9.png",
+      "normalizedStorageKey": "catalog/products/d49fc254f316f0960a4cdd7345a696a9.png",
+      "mimeType": "image/png",
+      "altText": "Паста полировочная для сплавов",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-116",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/116/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-117": {
+      "id": "manufacturer-a5441e7cf0e242ac7bde37a8b0e563f1",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/117/fullimage1.png",
+      "securePath": "/catalog/products/a5441e7cf0e242ac7bde37a8b0e563f1.png",
+      "normalizedStorageKey": "catalog/products/a5441e7cf0e242ac7bde37a8b0e563f1.png",
+      "mimeType": "image/png",
+      "altText": "Универсальная полировочная паста",
+      "width": 1200,
+      "height": 1198,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-117",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/117/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-118": {
+      "id": "manufacturer-7816f9cd66de734d4a0456e82e0d41f2",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/118/fullimage1.png",
+      "securePath": "/catalog/products/7816f9cd66de734d4a0456e82e0d41f2.png",
+      "normalizedStorageKey": "catalog/products/7816f9cd66de734d4a0456e82e0d41f2.png",
+      "mimeType": "image/png",
+      "altText": "Паста полировочная Unilesk для пластмассы",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-118",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/118/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-119": {
+      "id": "manufacturer-f35ba6a503e8b18e4838eb3defcfed06",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/119/fullimage1.png",
+      "securePath": "/catalog/products/f35ba6a503e8b18e4838eb3defcfed06.png",
+      "normalizedStorageKey": "catalog/products/f35ba6a503e8b18e4838eb3defcfed06.png",
+      "mimeType": "image/png",
+      "altText": "Фильцы для полирования",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-119",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/119/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-120": {
+      "id": "manufacturer-f3b1fb21b0bc4c2852624464697404cb",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/120/fullimage1.jpg",
+      "securePath": "/catalog/products/f3b1fb21b0bc4c2852624464697404cb.png",
+      "normalizedStorageKey": "catalog/products/f3b1fb21b0bc4c2852624464697404cb.png",
+      "mimeType": "image/png",
+      "altText": "Полировочные щетки для полировочного мотора",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-120",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/120/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-121": {
+      "id": "manufacturer-752ea829c3ea1e2d373375850a1b8a68",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/121/fullimage1.jpg",
+      "securePath": "/catalog/products/752ea829c3ea1e2d373375850a1b8a68.png",
+      "normalizedStorageKey": "catalog/products/752ea829c3ea1e2d373375850a1b8a68.png",
+      "mimeType": "image/png",
+      "altText": "Полировочные щётки",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-121",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/121/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-122": {
+      "id": "manufacturer-f7e04c4edef0f7ca29e0731cb41a15ca",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/122/fullimage1.png",
+      "securePath": "/catalog/products/f7e04c4edef0f7ca29e0731cb41a15ca.png",
+      "normalizedStorageKey": "catalog/products/f7e04c4edef0f7ca29e0731cb41a15ca.png",
+      "mimeType": "image/png",
+      "altText": "Наждачная лента",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/processing-sandblasting/polish/item-122",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/122/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/accessories-for-working-with-ceramics/item-123": {
+      "id": "manufacturer-f4437d8f08a6433b31e99ee8fb082a22",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/123/fullimage1.jpg",
+      "securePath": "/catalog/products/f4437d8f08a6433b31e99ee8fb082a22.png",
+      "normalizedStorageKey": "catalog/products/f4437d8f08a6433b31e99ee8fb082a22.png",
+      "mimeType": "image/png",
+      "altText": "Кисточки для нанесения керамики",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/accessories-for-working-with-ceramics/item-123",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/123/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/materials-for-clinical-dentistry/item-124": {
+      "id": "manufacturer-6b43d26e153a7ad21af39aadebb69e94",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/124/fullimage1.png",
+      "securePath": "/catalog/products/6b43d26e153a7ad21af39aadebb69e94.png",
+      "normalizedStorageKey": "catalog/products/6b43d26e153a7ad21af39aadebb69e94.png",
+      "mimeType": "image/png",
+      "altText": "Артикуляционная бумага Interdent 80 мкм",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/materials-for-clinical-dentistry/item-124",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/124/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-125": {
+      "id": "manufacturer-369547152a51870e03e5c02d144bd831",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/125/fullimage1.png",
+      "securePath": "/catalog/products/369547152a51870e03e5c02d144bd831.png",
+      "normalizedStorageKey": "catalog/products/369547152a51870e03e5c02d144bd831.png",
+      "mimeType": "image/png",
+      "altText": "Восковая проволока на катушке",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-125",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/125/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/wax/item-126": {
+      "id": "manufacturer-f8355782a8cb8fa0cadfb6edc43cc0e9",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/126/fullimage1.png",
+      "securePath": "/catalog/products/f8355782a8cb8fa0cadfb6edc43cc0e9.png",
+      "normalizedStorageKey": "catalog/products/f8355782a8cb8fa0cadfb6edc43cc0e9.png",
+      "mimeType": "image/png",
+      "altText": "Восковые профили",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/wax/item-126",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/126/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/modeling/auxiliary-tools-for-modeling/item-127": {
+      "id": "manufacturer-750ffdd634b30d99cb1b9c767ae96946",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/127/fullimage1.png",
+      "securePath": "/catalog/products/750ffdd634b30d99cb1b9c767ae96946.png",
+      "normalizedStorageKey": "catalog/products/750ffdd634b30d99cb1b9c767ae96946.png",
+      "mimeType": "image/png",
+      "altText": "Спрей Interwaxit для обезжиривания и снятия напряж.восковой конструкции",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/modeling/auxiliary-tools-for-modeling/item-127",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/127/fullimage1.png"
+      }
+    },
+    "https://nordstom.kz/catalog/dental-materials/modeling/auxiliary-tools-for-modeling/item-128": {
+      "id": "manufacturer-a53228f46f3aa7cd16ee5fe8d21f308e",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/128/fullimage1.png",
+      "securePath": "/catalog/products/a53228f46f3aa7cd16ee5fe8d21f308e.png",
+      "normalizedStorageKey": "catalog/products/a53228f46f3aa7cd16ee5fe8d21f308e.png",
+      "mimeType": "image/png",
+      "altText": "Окклюзионный спрей Interdent",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/dental-materials/modeling/auxiliary-tools-for-modeling/item-128",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/128/fullimage1.png"
       }
     }
   }

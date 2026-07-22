@@ -1,6 +1,6 @@
 # Kazakhstan SKU coverage
 
-Generated: 2026-07-22T18:47:02.308Z
+Generated: 2026-07-22T19:04:17.045Z
 
 | Brand | Audit status | References | Exact KZ refs | KZ review | Published-card refs | Ref families | KZ market families | Exact KZ families | Public cards | Expansion queue |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -13,7 +13,7 @@ Generated: 2026-07-22T18:47:02.308Z
 | GC | KZ_AUDIT_IN_PROGRESS | 159 | 154 | 5 | 159 | 12 | 12 | 11 | 13 | 13 |
 | Hummer-Pak | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | IMD | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 | 0 |
-| Interdent | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 | 0 |
+| Interdent | KZ_AUDIT_IN_PROGRESS | 112 | 69 | 43 | 112 | 21 | 64 | 17 | 64 | 0 |
 | IQ Dent | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 17 | 0 |
 | Ivoclar | KZ_AUDIT_REQUIRED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 | 5 |
 | Kerr | KZ_AUDIT_REQUIRED | 10 | 0 | 10 | 10 | 3 | 0 | 0 | 4 | 4 |
