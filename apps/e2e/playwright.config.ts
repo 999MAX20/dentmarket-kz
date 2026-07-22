@@ -1,6 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
 
 const workspace = "../..";
+const webMode = process.env.E2E_PRODUCTION === "1" ? "start" : "dev";
 
 export default defineConfig({
   testDir: "./tests",
@@ -21,35 +22,35 @@ export default defineConfig({
       cwd: workspace,
       url: "http://127.0.0.1:4012/api/health",
       reuseExistingServer: true,
-      timeout: 60_000,
+      timeout: 180_000,
     },
     {
-      command: "pnpm --filter @marketplace/admin-web start",
+      command: `pnpm --filter @marketplace/admin-web ${webMode}`,
       cwd: workspace,
       url: "http://127.0.0.1:3000",
       reuseExistingServer: true,
-      timeout: 60_000,
+      timeout: 180_000,
     },
     {
-      command: "pnpm --filter @marketplace/buyer-web start",
+      command: `pnpm --filter @marketplace/buyer-web ${webMode}`,
       cwd: workspace,
       url: "http://127.0.0.1:3001",
       reuseExistingServer: true,
-      timeout: 60_000,
+      timeout: 180_000,
     },
     {
-      command: "pnpm --filter @marketplace/supplier-web start",
+      command: `pnpm --filter @marketplace/supplier-web ${webMode}`,
       cwd: workspace,
       url: "http://127.0.0.1:3002",
       reuseExistingServer: true,
-      timeout: 60_000,
+      timeout: 180_000,
     },
     {
-      command: "pnpm --filter @marketplace/landing-web start",
+      command: `pnpm --filter @marketplace/landing-web ${webMode}`,
       cwd: workspace,
       url: "http://127.0.0.1:3003",
       reuseExistingServer: true,
-      timeout: 60_000,
+      timeout: 180_000,
     },
   ],
 });

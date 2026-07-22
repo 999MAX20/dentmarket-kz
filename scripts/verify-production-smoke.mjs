@@ -1,5 +1,5 @@
-const apiBase = (process.env.SMOKE_API_URL ?? process.env.NEXT_PUBLIC_API_URL ?? "").replace(/\/$/, "");
-const webBase = (process.env.SMOKE_WEB_URL ?? "").replace(/\/$/, "");
+const apiBase = (process.env.SMOKE_API_URL ?? process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api").replace(/\/$/, "");
+const webBase = (process.env.SMOKE_WEB_URL ?? "https://dentmarket-shop.vercel.app").replace(/\/$/, "");
 
 if (!apiBase && !webBase) {
   console.error("Set SMOKE_API_URL and/or SMOKE_WEB_URL");
