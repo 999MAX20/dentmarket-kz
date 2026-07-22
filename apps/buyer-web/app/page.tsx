@@ -341,8 +341,6 @@ const publicCatalogFallback = [
   ...generatedCatalogFallback,
   ...demoCatalogFallback,
 ];
-const sparseLiveCatalogLimit = 100;
-const isSparseLiveCatalog = (result: Pick<SearchResult, "total">) => result.total < sparseLiveCatalogLimit;
 const fallbackSearch = (
   query: string,
   sort: string,
@@ -424,7 +422,6 @@ async function fetchPublicCatalogSearch(
   if (!response.ok) return null;
   const result = (await response.json()) as Partial<SearchResult>;
   if (!Array.isArray(result.items) || typeof result.total !== "number") return null;
-  if (isSparseLiveCatalog(result as SearchResult)) return null;
   return result as SearchResult;
 }
 type CompareOffer = {
@@ -887,9 +884,7 @@ export default function BuyerWorkspace() {
           `/notifications/organizations/${buyerId}?limit=100`,
         ),
       ]);
-      setSearch(isSparseLiveCatalog(searchResult)
-        ? fallbackSearch(query, sort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" })
-        : searchResult);
+      setSearch(searchResult);
       setCarts(cartResult);
       setOrders(orderResult);
       setDocuments(documentResult);
@@ -926,11 +921,7 @@ export default function BuyerWorkspace() {
       params.set("offset", String(currentCount));
       params.set("limit", "60");
       const next = await api.get<SearchResult>(`/marketplace/search?${params}`);
-      if (isSparseLiveCatalog(next)) {
-        setSearch(fallbackSearch(query, sort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }, currentCount + 60));
-      } else {
-        setSearch((previous) => previous ? { ...next, items: [...previous.items, ...next.items] } : next);
-      }
+      setSearch((previous) => previous ? { ...next, items: [...previous.items, ...next.items] } : next);
     } catch {
       setSearch(fallbackSearch(query, sort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }, currentCount + 60));
       setToast("Показываем следующую порцию резервного каталога");
