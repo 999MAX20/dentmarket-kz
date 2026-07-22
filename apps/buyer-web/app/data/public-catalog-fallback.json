@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T12:32:09.117Z",
+  "generatedAt": "2026-07-22T12:59:17.329Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -13,7 +13,7 @@
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3310,
+  "total": 3319,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -23,6 +23,449 @@
     }
   ],
   "products": [
+    {
+      "id": "public-0263a5fc005ebdab51e84e2d",
+      "name": "3M Clinpro White Varnish",
+      "description": "Фторсодержащий лак для профессионального применения. Вкус количество доз и фасовка указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "3M Clinpro White Varnish",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Профилактические материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Solventum",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Solventum Corporation",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "solventum-official",
+            "sourceUrl": "https://www.solventum.com/en-il/home/f/b00005791/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "3M Clinpro White Varnish"
+          }
+        ]
+      },
+      "brand": "Solventum",
+      "manufacturer": "Solventum Corporation",
+      "category": "Профилактические материалы",
+      "sourceUrl": "https://www.solventum.com/en-il/home/f/b00005791/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Профилактические материалы"
+        ],
+        [
+          "Бренд",
+          "Solventum"
+        ],
+        [
+          "Производитель",
+          "Solventum Corporation"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Clinpro White Varnish",
+        "Clinpro varnish",
+        "Clinpro 12247BL",
+        "12247BL",
+        "70201420752"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-1e5301ac4ba16c4a4b68a565",
+      "name": "3M Filtek One Bulk Fill Restorative",
+      "description": "Композит для однослойного внесения в боковых реставрациях. Шприцы капсулы и оттенки представлены вариантами одной карточки.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "3M Filtek One Bulk Fill Restorative",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Solventum",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Solventum Corporation",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "solventum-official",
+            "sourceUrl": "https://www.solventum.com/en-us/home/f/b00008028/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "3M Filtek One Bulk Fill Restorative"
+          }
+        ]
+      },
+      "brand": "Solventum",
+      "manufacturer": "Solventum Corporation",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.solventum.com/en-us/home/f/b00008028/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Solventum"
+        ],
+        [
+          "Производитель",
+          "Solventum Corporation"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Filtek One Bulk Fill",
+        "3M Filtek One",
+        "Filtek One 4866",
+        "Filtek One 4867",
+        "4866A1",
+        "4866A2",
+        "4866A3",
+        "4866B1",
+        "4866C2",
+        "4867A1",
+        "4867A2"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-42d6ecbff30d1e7fc6513d15",
+      "name": "3M Filtek Universal Restorative",
+      "description": "Универсальный реставрационный композит. Оттенок и форма выпуска указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "3M Filtek Universal Restorative",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Solventum",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Solventum Corporation",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "solventum-official",
+            "sourceUrl": "https://www.solventum.com/en-us/home/f/b5005092007/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "3M Filtek Universal Restorative"
+          }
+        ]
+      },
+      "brand": "Solventum",
+      "manufacturer": "Solventum Corporation",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.solventum.com/en-us/home/f/b5005092007/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Solventum"
+        ],
+        [
+          "Производитель",
+          "Solventum Corporation"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Filtek Universal Restorative",
+        "Filtek Universal",
+        "3M Filtek Universal",
+        "Filtek Universal 6550-CK",
+        "6550CK"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-cfb3f1f01c30b2a02064602c",
+      "name": "3M RelyX Universal Resin Cement",
+      "description": "Универсальный композитный цемент двойного отверждения. Оттенок и комплектация указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "3M RelyX Universal Resin Cement",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стоматологические цементы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Solventum",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Solventum Corporation",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "solventum-official",
+            "sourceUrl": "https://www.solventum.com/en-us/home/f/b5005223005/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "3M RelyX Universal Resin Cement"
+          }
+        ]
+      },
+      "brand": "Solventum",
+      "manufacturer": "Solventum Corporation",
+      "category": "Стоматологические цементы",
+      "sourceUrl": "https://www.solventum.com/en-us/home/f/b5005223005/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стоматологические цементы"
+        ],
+        [
+          "Бренд",
+          "Solventum"
+        ],
+        [
+          "Производитель",
+          "Solventum Corporation"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "RelyX Universal",
+        "RelyX Universal Resin Cement",
+        "3M RelyX Universal",
+        "56968",
+        "56969",
+        "56970",
+        "56971",
+        "56972",
+        "56973",
+        "56974",
+        "56977",
+        "56978"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-b13fa3fe2c45d69bde6ac8c0",
+      "name": "3M Scotchbond Universal Plus Adhesive",
+      "description": "Универсальный однокомпонентный адгезив. Флаконы наборы и одноразовые дозы представлены вариантами одной карточки.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "3M Scotchbond Universal Plus Adhesive",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Solventum",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Solventum Corporation",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "solventum-official",
+            "sourceUrl": "https://www.solventum.com/en-us/home/f/B5005223013/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "3M Scotchbond Universal Plus Adhesive"
+          }
+        ]
+      },
+      "brand": "Solventum",
+      "manufacturer": "Solventum Corporation",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://www.solventum.com/en-us/home/f/B5005223013/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "Solventum"
+        ],
+        [
+          "Производитель",
+          "Solventum Corporation"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Scotchbond Universal Plus",
+        "Scotchbond Universal Plus Adhesive",
+        "SBU Plus",
+        "41293",
+        "41294",
+        "41295",
+        "41297",
+        "41298",
+        "41299",
+        "41304"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
     {
       "id": "public-5b1d1766bf183e896b71e9fd",
       "name": "Абатмент 11,5 CF NP",
@@ -262164,6 +262607,354 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-3dc7e29453018edebf510d03",
+      "name": "Kerr Harmonize",
+      "description": "Универсальный наногибридный композит для прямых реставраций. Оттенок форма выпуска и фасовка указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Kerr Harmonize",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Kerr",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Kerr Corporation",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "kerr-official",
+            "sourceUrl": "https://www.kerrdental.com/en-uk/harmonize",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Kerr Harmonize"
+          }
+        ]
+      },
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.kerrdental.com/en-uk/harmonize",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Kerr"
+        ],
+        [
+          "Производитель",
+          "Kerr Corporation"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Harmonize",
+        "Harmonize Universal Composite",
+        "Harmonize Intro Kit",
+        "Harmonize 36633",
+        "36633",
+        "36634",
+        "36635"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-8bd1f951fb616a09b22f20cb",
+      "name": "Kerr Maxcem Elite Chroma",
+      "description": "Самоадгезивный композитный цемент двойного отверждения с цветовым индикатором очистки. Оттенок и комплектация указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Kerr Maxcem Elite Chroma",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стоматологические цементы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Kerr",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Kerr Corporation",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "kerr-official",
+            "sourceUrl": "https://www.kerrdental.com/en-fi/dental-restoration-products/maxcem-elite-chroma-permanent-dental-cements-and-liners",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Kerr Maxcem Elite Chroma"
+          }
+        ]
+      },
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "category": "Стоматологические цементы",
+      "sourceUrl": "https://www.kerrdental.com/en-fi/dental-restoration-products/maxcem-elite-chroma-permanent-dental-cements-and-liners",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стоматологические цементы"
+        ],
+        [
+          "Бренд",
+          "Kerr"
+        ],
+        [
+          "Производитель",
+          "Kerr Corporation"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Maxcem Elite Chroma",
+        "Maxcem Chroma",
+        "Maxcem Elite Chroma Standard Kit",
+        "Maxcem Elite Chroma 36371",
+        "36371",
+        "36372",
+        "36373",
+        "36374"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-de91b1aa3e79ce4f3f1babe1",
+      "name": "Kerr OptiBond Universal",
+      "description": "Универсальный однокомпонентный адгезив для разных техник протравливания. Наборы флаконы и одноразовые дозы представлены вариантами одной карточки.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Kerr OptiBond Universal",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Kerr",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Kerr Corporation",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "kerr-official",
+            "sourceUrl": "https://www.kerrdental.com/en-ae/optibond-universal",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Kerr OptiBond Universal"
+          }
+        ]
+      },
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://www.kerrdental.com/en-ae/optibond-universal",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "Kerr"
+        ],
+        [
+          "Производитель",
+          "Kerr Corporation"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "OptiBond Universal",
+        "Optibond Universal",
+        "OptiBond Universal Bottle Kit",
+        "OptiBond Universal 36517",
+        "36517",
+        "36518",
+        "36519"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-49f9644fd07988a774a6fe7b",
+      "name": "Kerr SimpliShade Universal Composite",
+      "description": "Универсальный композит с упрощённой системой оттенков. Оттенок и форма выпуска указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Kerr SimpliShade Universal Composite",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Kerr",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Kerr Corporation",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "kerr-official",
+            "sourceUrl": "https://www.kerrdental.com/en-ca/simplishade",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Kerr SimpliShade Universal Composite"
+          }
+        ]
+      },
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.kerrdental.com/en-ca/simplishade",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Kerr"
+        ],
+        [
+          "Производитель",
+          "Kerr Corporation"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "SimpliShade",
+        "Simplishade",
+        "SimpliShade Universal Composite",
+        "SimpliShade Light",
+        "SimpliShade Medium",
+        "SimpliShade Dark"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-970e9e819b640bd087641966",

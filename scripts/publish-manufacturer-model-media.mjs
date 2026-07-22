@@ -24,6 +24,7 @@ const records = parse(await fs.readFile(inputPath), {
   columns: true,
   skip_empty_lines: true,
   trim: true,
+  relax_column_count: true,
 });
 const manifest = JSON.parse(await fs.readFile(manifestPath, "utf8"));
 const entries = { ...(manifest.entries ?? {}) };
@@ -34,7 +35,7 @@ const temporaryDirectory = await fs.mkdtemp(
 try {
   await fs.mkdir(publicDirectory, { recursive: true });
   for (const [index, record] of records.entries()) {
-    const { sourcePageUrl, sourceImageUrl, productName } = record;
+    const { sourcePageUrl, sourceImageUrl, productName, rightsStatus } = record;
     if (!sourcePageUrl || !sourceImageUrl || !productName)
       throw new Error(`Media row ${index + 2} is incomplete`);
     if (rejectedAsset.test(sourceImageUrl))
@@ -94,7 +95,7 @@ try {
       height,
       metadata: {
         exactProductPhoto: true,
-        rightsStatus: "official_manufacturer_catalog",
+        rightsStatus: rightsStatus || "official_manufacturer_catalog",
         sourcePageUrl,
         sourceImageUrl,
       },

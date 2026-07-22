@@ -60,9 +60,16 @@ export function scoreVariant(
     const similarity = tokenSimilarity(itemName, productName);
     let candidateScore = similarity * 0.65;
     let candidateReason = similarity > 0 ? "name_tokens" : "";
+    const catalogCodeMatch =
+      index > 0 &&
+      /^[a-z0-9]{4,}$/i.test(productName) &&
+      itemName.split(" ").includes(productName);
     if (itemName === productName && itemName) {
       candidateScore = Math.max(candidateScore, 0.85);
       candidateReason = index === 0 ? "exact_name" : "exact_alias";
+    } else if (catalogCodeMatch) {
+      candidateScore = Math.max(candidateScore, 0.92);
+      candidateReason = "catalog_code";
     } else if (
       (itemName.includes(productName) || productName.includes(itemName)) &&
       Math.min(itemName.length, productName.length) >= 8
@@ -135,6 +142,8 @@ export function isConfidentAutomaticMatch(
     best.reasons.some((reason) => ["exact_gtin", "exact_sku"].includes(reason))
   )
     return !runnerUp || best.score - runnerUp.score >= 0.05;
+  if (best.reasons.includes("catalog_code"))
+    return !runnerUp || best.score - runnerUp.score >= 0.12;
   if (
     best.reasons.some((reason) =>
       ["exact_name", "exact_alias"].includes(reason),

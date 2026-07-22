@@ -97,4 +97,52 @@ describe("supplier matching", () => {
     );
     expect(isConfidentAutomaticMatch(candidates)).toBe(false);
   });
+
+  it("matches a Solventum catalog number even when the supplier name is abbreviated", () => {
+    const solventumVariant = {
+      ...variant,
+      product: {
+        canonicalName: "3M RelyX Universal Resin Cement",
+        externalMetadata: {
+          catalogAliases: ["RelyX Universal", "56971", "56972"],
+        },
+        brand: { name: "Solventum" },
+        manufacturer: { name: "Solventum Corporation" },
+      },
+    };
+    const candidates = rankVariants(
+      {
+        name: "56971 RelyX TR refill",
+        normalizedName: "56971 relyx tr refill",
+        brandText: "3M",
+      },
+      [solventumVariant],
+    );
+    expect(candidates[0]?.reasons).toContain("catalog_code");
+    expect(isConfidentAutomaticMatch(candidates)).toBe(true);
+  });
+
+  it("matches a Kerr kit by manufacturer catalog number", () => {
+    const kerrVariant = {
+      ...variant,
+      product: {
+        canonicalName: "Kerr OptiBond Universal",
+        externalMetadata: {
+          catalogAliases: ["OptiBond Universal", "36517", "36518", "36519"],
+        },
+        brand: { name: "Kerr" },
+        manufacturer: { name: "Kerr Corporation" },
+      },
+    };
+    const candidates = rankVariants(
+      {
+        name: "36517 Optibond Universal набор",
+        normalizedName: "36517 optibond universal набор",
+        brandText: "Kerr",
+      },
+      [kerrVariant],
+    );
+    expect(candidates[0]?.reasons).toContain("catalog_code");
+    expect(isConfidentAutomaticMatch(candidates)).toBe(true);
+  });
 });
