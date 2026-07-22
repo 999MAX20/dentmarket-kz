@@ -17,6 +17,10 @@ const environmentSchema = z.object({
   DATABASE_URL: z.string().min(1),
   API_HOST: z.string().default("0.0.0.0"),
   API_PORT: z.coerce.number().int().min(1).max(65_535).default(4000),
+  // Managed container platforms (Render, Railway, Fly.io) inject PORT.
+  // Keep API_PORT as the local/dev fallback so existing compose workflows
+  // remain unchanged.
+  PORT: z.coerce.number().int().min(1).max(65_535).optional(),
   AUTH_MODE: z.enum(["development", "jwt"]).default("development"),
   JWT_SECRET: z.string().min(32).optional(),
   JWT_PUBLIC_KEY: z.string().min(64).optional(),

@@ -1,6 +1,5 @@
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import { parse } from "csv-parse/sync";
 import { describe, expect, it } from "vitest";
 import {
@@ -10,13 +9,17 @@ import {
   type MatchableVariant,
 } from "./matching";
 
-const root = path.resolve(
-  path.dirname(fileURLToPath(import.meta.url)),
-  "../../../../..",
+const fixtureRelativePath = path.join(
+  "data",
+  "test-fixtures",
+  "supplier-price-variants.csv",
 );
+const root = [process.cwd(), path.resolve(process.cwd(), "../..")].find(
+  (candidate) => fs.existsSync(path.join(candidate, fixtureRelativePath)),
+) ?? process.cwd();
 const rows = parse(
   fs.readFileSync(
-    path.join(root, "data/test-fixtures/supplier-price-variants.csv"),
+    path.join(root, fixtureRelativePath),
   ),
   { columns: true, skip_empty_lines: true, trim: true },
 ) as Array<Record<string, string>>;
