@@ -82,6 +82,7 @@ const BUYER_ID = "00000000-0000-4000-8000-000000000030";
 const BUYER_USER_ID = "00000000-0000-4000-8000-000000000500";
 type SessionHandoff = SessionHandoffEnvelope;
 const SESSION_KEY = "dentmarket:buyer-session";
+const SEARCH_HISTORY_KEY = "dentmarket:search-history";
 const LOGIN_URL = loginUrl;
 const dentalSearchSuggestions = [
   "светник",
@@ -95,9 +96,19 @@ const dentalSearchAliases: Record<string, string[]> = {
   светник: ["светильник", "лампа"],
   текучка: ["композит", "текучий"],
   коффер: ["коффердам", "изоляция"],
-  эндошка: ["эндодонтия", "эндодонтический"],
   гутта: ["гуттаперча"],
   карпулы: ["карпула", "анестезия"],
+  "перчаткии": ["перчатки"],
+  "перчатки нитрил": ["перчатки нитриловые"],
+  "компазит": ["композит"],
+  "композитт": ["композит"],
+  "гуттаперчя": ["гуттаперча"],
+  "эндодонтия": ["эндо", "эндодонтический"],
+  эндошка: ["эндодонтия", "эндодонтический", "эндомотор"],
+};
+const canonicalSearchQuery = (query: string) => {
+  const normalized = query.trim().toLocaleLowerCase("ru");
+  return dentalSearchAliases[normalized]?.[0] ?? query.trim();
 };
 const ruCount = (count: number, one: string, few: string, many: string) => {
   const mod10 = count % 10;
@@ -693,6 +704,7 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
   }, []);
   const [active, setActive] = useState("catalog");
   const [query, setQuery] = useState(initialQuery);
+  const [recentSearches, setRecentSearches] = useState<string[]>([]);
   const [sort, setSort] = useState("RELEVANCE");
   const [unitFilter, setUnitFilter] = useState("");
   const [packagingFilter, setPackagingFilter] = useState("");
@@ -737,6 +749,21 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
     Record<string, { rating: number; comment: string }>
   >({});
   const [submittedReviews, setSubmittedReviews] = useState<string[]>([]);
+
+  useEffect(() => {
+    try {
+      const stored = JSON.parse(
+        window.localStorage.getItem(SEARCH_HISTORY_KEY) ?? "[]",
+      );
+      if (Array.isArray(stored)) {
+        setRecentSearches(
+          stored.filter((item): item is string => typeof item === "string").slice(0, 6),
+        );
+      }
+    } catch {
+      // Search history is an optional convenience and must never block catalog use.
+    }
+  }, []);
 
   useEffect(() => {
     if (!handoffChecked || handoff) return;
@@ -872,7 +899,7 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
     (nextQuery = query, nextSort = sort) => {
       const params = new URLSearchParams({
         buyerOrganizationId: buyerId,
-        q: nextQuery,
+        q: canonicalSearchQuery(nextQuery),
         sort: nextSort,
         limit: "24",
       });
@@ -897,7 +924,7 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
     async (nextQuery = query, nextSort = sort) => {
       if (!handoff) {
         const publicParams = new URLSearchParams({
-          q: nextQuery,
+          q: canonicalSearchQuery(nextQuery),
           sort: nextSort,
           limit: "60",
         });
@@ -1167,6 +1194,14 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
 
   const submitSearchFor = async (nextQuery: string, nextSort = sort) => {
     setQuery(nextQuery);
+    const normalizedNextQuery = nextQuery.trim();
+    if (normalizedNextQuery) {
+      setRecentSearches((current) => {
+        const next = [normalizedNextQuery, ...current.filter((item) => item !== normalizedNextQuery)].slice(0, 6);
+        window.localStorage.setItem(SEARCH_HISTORY_KEY, JSON.stringify(next));
+        return next;
+      });
+    }
     setSort(nextSort);
     setBusy("search");
     setError(null);
@@ -3042,6 +3077,7 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
         <PublicHeader
           active="catalog"
           query={query}
+          recentSearches={recentSearches}
           searching={busy === "search"}
           onQueryChange={(value) => {
             setQuery(value);

@@ -13,6 +13,7 @@ type PublicHeaderProps = {
   searching?: boolean;
   onQueryChange?: (value: string) => void;
   onSearch?: (value?: string) => void;
+  recentSearches?: string[];
 };
 
 const searchSuggestions = [
@@ -32,10 +33,10 @@ const searchSuggestions = [
   "абатменты",
 ];
 
-export function PublicHeader({ active, query = "", searching = false, onQueryChange, onSearch }: PublicHeaderProps) {
+export function PublicHeader({ active, query = "", searching = false, onQueryChange, onSearch, recentSearches = [] }: PublicHeaderProps) {
   const normalizedQuery = query.trim().toLocaleLowerCase("ru");
   const suggestions = normalizedQuery.length < 2
-    ? []
+    ? recentSearches.slice(0, 4)
     : searchSuggestions
         .filter((suggestion) => suggestion.includes(normalizedQuery) && suggestion !== normalizedQuery)
         .slice(0, 6);
@@ -87,7 +88,7 @@ export function PublicHeader({ active, query = "", searching = false, onQueryCha
             {searching ? "Ищем" : "Найти"}
           </button>
           <datalist id="dentmarket-search-suggestions">
-            {searchSuggestions.map((suggestion) => <option key={suggestion} value={suggestion} />)}
+            {[...new Set([...searchSuggestions, ...recentSearches])].map((suggestion) => <option key={suggestion} value={suggestion} />)}
           </datalist>
           {suggestions.length ? (
             <div className={styles.suggestions} role="listbox" aria-label="Подсказки поиска">
