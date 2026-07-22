@@ -10,7 +10,7 @@ type QueueItem = Record<string, unknown> & { id?: string; createdAt?: string; up
 type QueueSection = { type: string; priority: string; count: number; items: QueueItem[] };
 type WorkQueue = { generatedAt: string; totalOpenItems: number; sections: QueueSection[] };
 
-const labels: Record<string, string> = { CATALOG_REVIEW: "Карточки на модерации", COMPLIANCE_REVIEW: "Проверка документов", INTEGRATION_RECONCILIATION: "Расхождения интеграций", IMPORT_ATTENTION: "Импорты требуют проверки", AGREEMENT_SIGNATURE: "Договоры ждут подписи", SUPPLIER_CONFIRMATION: "Подтверждение заказов", STALE_INVENTORY: "Устаревшие остатки" };
+const labels: Record<string, string> = { CATALOG_REVIEW: "Карточки на проверке", COMPLIANCE_REVIEW: "Проверка документов", INTEGRATION_RECONCILIATION: "Расхождения в данных", IMPORT_ATTENTION: "Загрузки требуют проверки", AGREEMENT_SIGNATURE: "Договоры ждут подписи", SUPPLIER_CONFIRMATION: "Подтверждение заказов", STALE_INVENTORY: "Устаревшие остатки" };
 const priorityLabels: Record<string, string> = { CRITICAL: "Критический", HIGH: "Высокий", NORMAL: "Обычный", LOW: "Низкий" };
 const itemLabel = (item: QueueItem) => item.proposedName ?? item.orderNumber ?? item.agreementNumber ?? item.fileName ?? (typeof item.externalRef === "string" ? item.externalRef : item.id ?? "Операционная задача");
 const itemDate = (item: QueueItem) => item.createdAt ?? item.updatedAt ?? item.detectedAt ?? item.evaluatedAt;

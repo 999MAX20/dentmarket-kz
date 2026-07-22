@@ -40,7 +40,7 @@ export default function AboutPage() {
         </figure>
       </section>
 
-      <section className={styles.proof} aria-label="Ключевые свойства платформы">
+      <section className={styles.proof} aria-label="Что даёт DentMarket">
         {trustFacts.map(([title, description]) => (
           <article key={title}>
             <strong>{title}</strong>
@@ -83,7 +83,7 @@ export default function AboutPage() {
           <h2>Поставщик управляет данными, а не заявками в чатах</h2>
           <p>Ассортимент, цены, остатки, подтверждение заказа и документы доступны в одном кабинете.</p>
           <ul>
-            <li>Импорт прайса из PDF, CSV, API и 1С</li>
+            <li>Загрузите прайс файлом или из 1С</li>
             <li>Контроль свежести цены и доступного количества</li>
             <li>История исполнения заказа и договор с ЭЦП</li>
           </ul>
@@ -94,13 +94,13 @@ export default function AboutPage() {
       <section className={styles.legal}>
         <p className={styles.eyebrow}>Проверка поставщиков</p>
         <h2>Коммерческий доступ появляется после проверки</h2>
-        <p>Поставщик и оператор подписывают одну версию договора. После двух валидных ЭЦП он действует 12 месяцев и сохраняется в истории платформы.</p>
+        <p>Подпишите договор с DentMarket через ЭЦП. Готовый договор действует 12 месяцев и остаётся в кабинете.</p>
         <a href={registrationUrl("supplier")}>Стать поставщиком</a>
       </section>
 
       <footer className={styles.footer}>
         <Link href="/">DentMarket KZ</Link>
-        <span>Маркетплейс для стоматологий Казахстана</span>
+        <span>Закупки для стоматологий Казахстана</span>
         <span>© 2026</span>
       </footer>
     </main>

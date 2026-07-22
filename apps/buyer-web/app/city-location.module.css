@@ -1,0 +1,14 @@
+.wrap { position: relative; }
+.current { display: inline-flex; align-items: center; gap: 7px; min-height: 34px; padding: 6px 10px; border: 1px solid #e0e7ef; border-radius: 8px; background: #fff; color: #26364b; font: inherit; font-size: 12px; cursor: pointer; }
+.current:hover { border-color: #8eb7e8; background: #f7fbff; }
+.pin { color: #1268d8; font-size: 16px; }
+.chevron { color: #8190a3; }
+.popover { position: absolute; z-index: 30; top: calc(100% + 8px); right: 0; width: min(320px, calc(100vw - 32px)); padding: 16px; border: 1px solid #dce5ef; border-radius: 12px; background: #fff; box-shadow: 0 16px 40px rgb(31 54 82 / 16%); }
+.title { color: #172235; font-size: 16px; font-weight: 750; }
+.copy { margin: 7px 0 13px; color: #748399; font-size: 12px; line-height: 1.45; }
+.actions { display: grid; gap: 8px; }
+.primary, .secondary, .select { width: 100%; min-height: 36px; border-radius: 7px; font: inherit; font-size: 12px; cursor: pointer; }
+.primary { border: 1px solid #1268d8; background: #1268d8; color: white; font-weight: 700; }
+.secondary, .select { border: 1px solid #d5e0eb; background: white; color: #26364b; }
+.select { padding: 0 9px; }
+.close { display: block; margin: 12px auto 0; border: 0; background: transparent; color: #8290a2; font: inherit; font-size: 11px; cursor: pointer; }

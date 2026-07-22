@@ -16,6 +16,8 @@
     "db:seed": "pnpm --filter @marketplace/api prisma:seed",
     "catalog:import:medstom": "node scripts/import-medstom-catalog.mjs",
     "catalog:bootstrap-canonical": "node scripts/bootstrap-canonical-catalog.mjs",
+    "catalog:sync-production": "node scripts/sync-public-catalog-to-production.mjs",
+    "catalog:sync-production:apply": "node scripts/sync-public-catalog-to-production.mjs --apply",
     "verify:supplier-cycle:medstom": "node scripts/verify-medstom-supplier-cycle.mjs",
     "verify:supplier-cycle:pdf": "node scripts/verify-pdf-supplier-cycle.mjs",
     "verify:supplier-cycle:csv": "node scripts/verify-csv-supplier-cycle.mjs",

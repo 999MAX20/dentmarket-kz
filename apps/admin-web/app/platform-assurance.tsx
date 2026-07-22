@@ -57,7 +57,7 @@ export function PlatformAssurance() {
         throw new Error(
           typeof payload === "object" && payload && "message" in payload
             ? String(payload.message)
-            : `API вернул ${response.status}`,
+            : `Не удалось выполнить запрос (${response.status})`,
         );
       return payload as T;
     },
@@ -100,7 +100,7 @@ export function PlatformAssurance() {
     } catch (error) {
       setFailed(true);
       setMessage(
-        error instanceof Error ? error.message : "Контур контроля недоступен",
+        error instanceof Error ? error.message : "Раздел контроля недоступен",
       );
     } finally {
       setLoading(false);
@@ -153,11 +153,11 @@ export function PlatformAssurance() {
   return (
     <section
       className={styles.section}
-      aria-label="Готовность платформы"
+      aria-label="Готовность DentMarket"
     >
       <div className={styles.header}>
         <div>
-          <h2>Готовность платформы</h2>
+          <h2>Готовность DentMarket</h2>
           <p>
             Поиск, документы, проверки, уведомления и платежи из действующего
             API.
@@ -245,7 +245,7 @@ export function PlatformAssurance() {
           <div>
             <strong>Платежи</strong>
             <p>
-              {summary.paymentProviders} платёжных провайдеров, распределение средств,
+              {summary.paymentProviders} сервисов оплаты, распределение средств,
               журнал операций и выплаты.
             </p>
           </div>

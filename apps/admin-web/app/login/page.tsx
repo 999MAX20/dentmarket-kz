@@ -34,7 +34,7 @@ export default function AdminLogin() {
     setBusy(true); setError("");
     try {
       const session = await request<PrimarySession>("/auth/social/exchange", { method: "POST", body: JSON.stringify({ provider, idToken }) });
-      if (!session.activeOrganizationId) throw new Error("У аккаунта нет активной организации оператора.");
+      if (!session.activeOrganizationId) throw new Error("Для этого аккаунта не найден доступ к DentMarket.");
       setPrimary(session);
       const response = await fetch(`${apiUrl}/identity/mfa`, { headers: { authorization: `Bearer ${session.accessToken}` }, cache: "no-store" });
       const status = await response.json() as { enabled?: boolean; message?: string };
@@ -71,7 +71,7 @@ export default function AdminLogin() {
       const elevated = await request<Elevated>(mode === "enroll" ? "/identity/mfa/totp/verify" : "/identity/mfa/challenge", { method: "POST", body: JSON.stringify({ code }) });
       const organizationResponse = await fetch(`${apiUrl}/organizations/${elevated.activeOrganizationId}`, { headers: { authorization: `Bearer ${elevated.accessToken}` } });
       const organization = await organizationResponse.json() as { capabilities?: Array<{ capability: string }>; message?: string };
-      if (!organizationResponse.ok || !organization.capabilities?.some(({ capability }) => capability === "MARKETPLACE_OPERATOR")) throw new Error("Доступ разрешён только участникам организации-оператора.");
+      if (!organizationResponse.ok || !organization.capabilities?.some(({ capability }) => capability === "MARKETPLACE_OPERATOR")) throw new Error("Этот раздел доступен только команде DentMarket.");
       sessionStorage.setItem("dentmarket_admin_session", JSON.stringify({ ...primary, ...elevated }));
       window.location.replace("/");
     } catch (cause) { setError(cause instanceof Error ? cause.message : "MFA не подтверждён"); }
@@ -81,8 +81,8 @@ export default function AdminLogin() {
   return <main className={styles.page}>
     <Script src="https://accounts.google.com/gsi/client?hl=ru" strategy="afterInteractive" onLoad={renderGoogle} />
     <Script src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/ru_RU/appleid.auth.js" strategy="afterInteractive" />
-    <section className={styles.card}><div className={styles.brand}>DM <span>Оператор</span></div><p className={styles.eyebrow}>Защищённый вход</p><h1>{mode === "identity" ? "Вход оператора" : mode === "enroll" ? "Подключите двухфакторную проверку" : "Подтвердите вход"}</h1>
-      {mode === "identity" ? <><p>Используйте корпоративную учётную запись оператора DentMarket.</p><div ref={googleButton} className={styles.google} />{!googleClientId && <div className={styles.unavailable}>Вход через Google пока недоступен</div>}<button className={styles.apple} onClick={() => void apple()} disabled={busy || !appleClientId}> Продолжить с Apple</button></> : <><p>{mode === "enroll" ? "Добавьте ключ в приложение для двухфакторной проверки, сохраните резервные коды и введите текущий код." : "Введите код из приложения для двухфакторной проверки или резервный код."}</p>{enrollment && <div className={styles.secret}><code>{enrollment.secret}</code><small>{enrollment.recoveryCodes.join(", ")}</small></div>}<form onSubmit={verify}><input name="code" placeholder="000000" autoComplete="one-time-code" required /><button disabled={busy}>{busy ? "Проверяем…" : "Продолжить"}</button></form></>}
+    <section className={styles.card}><div className={styles.brand}>DM <span>Команда</span></div><p className={styles.eyebrow}>Вход для команды</p><h1>{mode === "identity" ? "Войти в DentMarket" : mode === "enroll" ? "Подключите двухфакторную проверку" : "Подтвердите вход"}</h1>
+      {mode === "identity" ? <><p>Используйте рабочую учётную запись DentMarket.</p><div ref={googleButton} className={styles.google} />{!googleClientId && <div className={styles.unavailable}>Вход через Google пока недоступен</div>}<button className={styles.apple} onClick={() => void apple()} disabled={busy || !appleClientId}> Продолжить с Apple</button></> : <><p>{mode === "enroll" ? "Добавьте ключ в приложение для двухфакторной проверки, сохраните резервные коды и введите текущий код." : "Введите код из приложения для двухфакторной проверки или резервный код."}</p>{enrollment && <div className={styles.secret}><code>{enrollment.secret}</code><small>{enrollment.recoveryCodes.join(", ")}</small></div>}<form onSubmit={verify}><input name="code" placeholder="000000" autoComplete="one-time-code" required /><button disabled={busy}>{busy ? "Проверяем…" : "Продолжить"}</button></form></>}
       {error && <div className={styles.error} role="alert">{error}</div>}<footer>Защищённый вход с двухфакторной проверкой</footer></section>
   </main>;
 }

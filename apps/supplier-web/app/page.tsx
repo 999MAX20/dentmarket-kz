@@ -261,7 +261,7 @@ const navigation: NavigationItem[] = [
   { id: "orders", label: "Заказы", icon: <ClipboardTaskListLtr24Regular /> },
   { id: "offers", label: "Предложения", icon: <BuildingShop24Regular /> },
   { id: "inventory", label: "Остатки", icon: <Box24Regular /> },
-  { id: "integrations", label: "Интеграции", icon: <PlugConnected24Regular /> },
+  { id: "integrations", label: "Загрузка товаров", icon: <PlugConnected24Regular /> },
   { id: "documents", label: "Документы", icon: <Document24Regular /> },
 ];
 
@@ -315,7 +315,7 @@ const integrationProviderLabel: Record<string, string> = {
   MOCK: "Тестовое подключение",
 };
 const integrationModeLabel: Record<string, string> = {
-  AGENT: "локальный модуль",
+  AGENT: "подключение через компьютер",
   API: "прямое подключение",
   HYBRID: "комбинированный режим",
 };
@@ -738,7 +738,7 @@ export default function SupplierWorkspace() {
                       : "neutral"
                   }
                 >
-                  Интеграции
+                  Подключения
                 </StatusTag>
                 <strong>{integrations.length || "Нет подключений"}</strong>
                 <p>
@@ -746,7 +746,7 @@ export default function SupplierWorkspace() {
                     (sum, item) => sum + item._count.jobs,
                     0,
                   )}{" "}
-                  заданий синхронизации
+                  обновлений товаров
                 </p>
               </div>
               <div className={styles.healthItem}>
@@ -814,14 +814,14 @@ export default function SupplierWorkspace() {
       <PageHeader
         eyebrow="Каталог поставщика"
         title="Предложения и цены"
-        description="Для каждой цены сохраняются источник, срок действия и история изменений."
+        description="У каждой цены видны срок действия и история изменений."
       />
       <Section>
         {!offers.length ? (
           <EmptyState
             icon={<BuildingShop24Regular />}
             title="Нет предложений"
-            description="Создайте предложение или загрузите каталог через интеграцию."
+            description="Добавьте предложение вручную или загрузите прайс."
           />
         ) : (
           <div className="mp-table-wrap">
@@ -945,7 +945,7 @@ export default function SupplierWorkspace() {
           <EmptyState
             icon={<Box24Regular />}
             title="Нет складских остатков"
-            description="Добавьте складскую позицию или синхронизируйте ERP."
+            description="Добавьте товар на склад или обновите остатки из 1С."
           />
         ) : (
           <div className="mp-table-wrap">
@@ -1143,7 +1143,7 @@ export default function SupplierWorkspace() {
     <div className="mp-stack">
       <PageHeader
         eyebrow="Обмен данными"
-        title="Интеграции"
+        title="Загрузка товаров"
         description="Загружайте прайсы файлами или подключите 1С и другую учётную систему."
       />
       {handoff ? <ConnectorOnboarding supplierId={supplierId} apiContext={apiContext} /> : null}
@@ -1161,7 +1161,7 @@ export default function SupplierWorkspace() {
           <div className={styles.importActions}><StatusTag tone={statusTone(batch.status)}>{formatStatus(batch.status)}</StatusTag>{batch.status === "MAPPED" && batch.totalRows > 0 ? <Button appearance="secondary" disabled={busy === `import:${batch.id}`} onClick={() => void processImportBatch(batch)}>Проверено, обработать</Button> : null}</div>
         </article>)}</div> : <EmptyState icon={<CloudArrowUp24Regular />} title="Файлы ещё не загружены" description="Добавьте прайс поставщика. После обработки здесь появятся найденные строки." />}
       </Section>
-      <Section title="Проверка дублей каталога" description="Новая карточка не создаётся автоматически. Сначала платформа ищет точное или похожее совпадение в общем каталоге.">
+      <Section title="Проверка карточки" description="Перед добавлением товара мы проверим, нет ли его уже в каталоге.">
         {externalItems.length ? <div className={styles.importList}>{externalItems.slice(0, 30).map((item) => { const candidate = item.matchCandidates.find((entry) => entry.status === "PROPOSED") ?? item.matchCandidates[0]; return <article className={styles.importItem} key={item.id}>
           <div><strong>{item.name}</strong><p>{item.supplierSku || "Без артикула"} · {item.matchedVariant ? `привязано к «${item.matchedVariant.product.canonicalName}»` : candidate ? `найдено совпадение «${candidate.productVariant.product.canonicalName}» (${Math.round(Number(candidate.score) * 100)}%)` : item.productCandidate ? "новая карточка ожидает модерации" : "совпадений нет"}</p></div>
           <div className={styles.importActions}>{item.matchedVariant ? <StatusTag tone="success">Привязано</StatusTag> : candidate ? <Button appearance="secondary" disabled={busy === `match:${item.id}`} onClick={() => void confirmCatalogMatch(item, candidate.productVariant.id)}>Использовать карточку</Button> : <StatusTag tone="warning">Модерация</StatusTag>}</div>
@@ -1171,8 +1171,8 @@ export default function SupplierWorkspace() {
         {!integrations.length ? (
           <EmptyState
             icon={<PlugConnected24Regular />}
-            title="Интеграций пока нет"
-            description="Обратитесь к оператору для подключения учётной системы или продолжайте работать вручную."
+            title="Подключений пока нет"
+            description="Напишите команде DentMarket, чтобы подключить 1С, или обновляйте товары вручную."
           />
         ) : (
           <div className={styles.integrationList}>
@@ -1189,7 +1189,7 @@ export default function SupplierWorkspace() {
                     {integration.lastSuccessAt
                       ? `Последний успех ${formatDate(integration.lastSuccessAt, true)}`
                       : (integration.lastError ??
-                        "Синхронизация ещё не выполнялась")}
+                        "Товары ещё не обновлялись")}
                   </p>
                 </div>
                 <StatusTag tone={statusTone(integration.status)}>
@@ -1204,7 +1204,7 @@ export default function SupplierWorkspace() {
         <div className={styles.healthGrid}>
           <div className={styles.healthItem}>
             <CloudArrowUp24Regular />
-            <strong>Импорт PDF, CSV и Excel</strong>
+            <strong>Загрузка прайса</strong>
             <p>Загрузка таблиц, распознавание строк и проверка валюты перед публикацией.</p>
           </div>
           <div className={styles.healthItem}>
@@ -1412,14 +1412,14 @@ export default function SupplierWorkspace() {
           <EmptyState
             icon={<Money24Regular />}
             title="Платёжный профиль не подключён"
-            description="Настройка выполняется оператором площадки."
+            description="Для настройки напишите команде DentMarket."
           />
         ) : (
           <div className="mp-table-wrap">
             <table className="mp-table">
               <thead>
                 <tr>
-                  <th>Провайдер</th>
+                  <th>Сервис оплаты</th>
                   <th>Подключение</th>
                   <th>Проверка</th>
                   <th>Выплаты</th>

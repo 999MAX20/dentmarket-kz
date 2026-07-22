@@ -5,7 +5,7 @@ export const landingAppUrl =
   process.env.NEXT_PUBLIC_LANDING_APP_URL ??
   (process.env.NODE_ENV === "development"
     ? localLandingUrl
-    : "https://dentmarket-about.vercel.app");
+    : "https://dentmarket-kz.vercel.app");
 
 export const supplierAppUrl =
   process.env.NEXT_PUBLIC_SUPPLIER_APP_URL ??

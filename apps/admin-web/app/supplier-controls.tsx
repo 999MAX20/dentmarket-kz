@@ -216,7 +216,7 @@ export function SupplierControls() {
       await request(`/moderation/product-candidates/${candidate.id}/reject`, {
         method: "POST",
         body: JSON.stringify({
-          reason: "Отклонено оператором из control plane",
+          reason: "Отклонено командой DentMarket",
         }),
       });
       await load();
@@ -315,11 +315,11 @@ export function SupplierControls() {
       });
       await load();
       setMessage(
-        "Freshness пересчитан; публикации без свежего остатка приостановлены.",
+        "Остатки проверены. Предложения с устаревшими данными приостановлены.",
       );
     } catch (error) {
       setMessage(
-        error instanceof Error ? error.message : "Freshness не пересчитан.",
+        error instanceof Error ? error.message : "Не удалось проверить остатки.",
       );
     }
   }
@@ -335,7 +335,7 @@ export function SupplierControls() {
           reason: data.get("reason"),
           source: data.get("source"),
           severity: data.get("severity"),
-          comment: "Создано в admin control plane",
+          comment: "Создано командой DentMarket",
         }),
       });
       await load();
@@ -383,11 +383,11 @@ export function SupplierControls() {
         <div>
           <span>ITERATION 1B / DECISION PLANE</span>
           <h2>Модерация, цены и контроль партий</h2>
-          <p>Решения оператора сохраняют причины, версии и доменные события.</p>
+          <p>У каждого решения сохраняются причина и история изменений.</p>
         </div>
         <div className={styles.actions}>
           <select
-            aria-label="Поставщик control plane"
+            aria-label="Поставщик"
             value={supplierId}
             onChange={(event) => {
               setOfferId("");
@@ -519,7 +519,7 @@ export function SupplierControls() {
               </div>
             </header>
             <label className={styles.offerSelect}>
-              Offer
+              Предложение
               <select
                 value={offerId}
                 onChange={(event) => setOfferId(event.target.value)}

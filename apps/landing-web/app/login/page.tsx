@@ -1,7 +1,7 @@
 "use client";
 
 import Script from "next/script";
-import { useEffect, useRef, useState } from "react";
+import { type FormEvent, useEffect, useRef, useState } from "react";
 
 type Capability = "BUYER" | "SUPPLIER";
 type Session = {
@@ -22,7 +22,7 @@ declare global {
 }
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
-const buyerAppUrl = process.env.NEXT_PUBLIC_BUYER_APP_URL ?? "https://dentmarket-shop.vercel.app";
+const buyerAppUrl = process.env.NEXT_PUBLIC_BUYER_APP_URL ?? "https://dentmarket-store.vercel.app";
 const supplierAppUrl = process.env.NEXT_PUBLIC_SUPPLIER_APP_URL ?? "https://dentmarket-supplier.vercel.app";
 const googleClientId = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID ?? "";
 const appleClientId = process.env.NEXT_PUBLIC_APPLE_CLIENT_ID ?? "";
@@ -32,6 +32,8 @@ export default function LoginPage() {
   const [capability, setCapability] = useState<Capability>("BUYER");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const googleButton = useRef<HTMLDivElement>(null);
 
   const request = async <T,>(path: string, body: unknown): Promise<T> => {
@@ -56,7 +58,7 @@ export default function LoginPage() {
     if (!resolvedCapability) throw new Error("Для аккаунта не найден кабинет клиники или поставщика");
     const handoffResponse = await fetch(`${apiUrl}/auth/handoff`, { method: "POST", headers: { "content-type": "application/json", authorization: `Bearer ${session.accessToken}`, "x-user-id": session.user.id, "x-organization-id": organizationId, ...(session.sessionId ? { "x-session-id": session.sessionId } : {}) }, body: JSON.stringify({ capability: resolvedCapability }), credentials: "include" });
     const handoffPayload = await handoffResponse.json() as { handoffCode?: string; organizationDisplayName?: string; message?: string };
-    if (!handoffResponse.ok || !handoffPayload.handoffCode) throw new Error(handoffPayload.message ?? "Не удалось создать защищённую сессию перехода");
+    if (!handoffResponse.ok || !handoffPayload.handoffCode) throw new Error(handoffPayload.message ?? "Не удалось открыть кабинет");
     const handoff = encodeURIComponent(JSON.stringify({ displayName: session.user.displayName, organizationDisplayName: handoffPayload.organizationDisplayName ?? organizationDisplayName, organizationId, handoffCode: handoffPayload.handoffCode, capability: resolvedCapability }));
     window.location.assign(`${resolvedCapability === "SUPPLIER" ? supplierAppUrl : buyerAppUrl}/#session=${handoff}`);
   };
@@ -71,8 +73,21 @@ export default function LoginPage() {
   const demo = async () => {
     setBusy(true); setError("");
     try { await routeSession(await request<Session>("/auth/demo", { capability })); }
-    catch (cause) { setError(cause instanceof Error ? cause.message : "Демо-вход не выполнен"); }
+    catch (cause) { setError(cause instanceof Error ? cause.message : "Не удалось открыть кабинет"); }
     finally { setBusy(false); }
+  };
+
+  const emailLogin = async (event: FormEvent) => {
+    event.preventDefault(); setBusy(true); setError("");
+    try { await routeSession(await request<Session>("/auth/login", { email, password })); }
+    catch (cause) { setError(cause instanceof Error ? cause.message : "Вход не выполнен"); }
+    finally { setBusy(false); }
+  };
+
+  const forgotPassword = async () => {
+    if (!email) return setError("Укажите email для восстановления пароля");
+    try { await request("/auth/password/forgot", { email }); setError("Если аккаунт существует, письмо для восстановления отправлено"); }
+    catch (cause) { setError(cause instanceof Error ? cause.message : "Не удалось отправить письмо"); }
   };
 
   const renderGoogle = () => {
@@ -92,7 +107,7 @@ export default function LoginPage() {
   return <main className="loginPage">
     <Script src="https://accounts.google.com/gsi/client?hl=ru" strategy="afterInteractive" onLoad={renderGoogle} />
     <Script src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/ru_RU/appleid.auth.js" strategy="afterInteractive" />
-    <section className="loginIntro"><a className="brand" href="/"><span>DM</span><strong>DentMarket <small>KZ</small></strong></a><div><p className="eyebrow">Вход в DentMarket</p><h1>Продолжите работу в своём кабинете</h1><p>Клиника управляет закупками. Поставщик управляет ассортиментом, заказами и документами.</p></div><a className="backLink" href="/">← На главную</a></section>
-    <section className="loginPanel"><div className="loginCard"><p className="eyebrow">Вход</p><h2>Выберите кабинет</h2><div className="rolePicker"><button type="button" data-selected={capability === "BUYER"} onClick={() => setCapability("BUYER")}><b>Клиника</b><span>Магазин и закупки</span></button><button type="button" data-selected={capability === "SUPPLIER"} onClick={() => setCapability("SUPPLIER")}><b>Поставщик</b><span>Продажи и ассортимент</span></button></div><div className="identityButtons"><div ref={googleButton} className="googleButton" />{!googleClientId ? <div className="identityDisabled">Вход через Google пока недоступен</div> : null}<button type="button" className="appleButton" onClick={() => void apple()} disabled={!appleClientId || !appleRedirectUri || busy}> Продолжить с Apple</button><div className="divider"><span>демонстрационный доступ</span></div><button type="button" className="demoLogin" onClick={() => void demo()} disabled={busy}>{busy ? "Открываем кабинет…" : capability === "BUYER" ? "Открыть демо-магазин" : "Открыть демо поставщика"}</button></div>{error ? <p className="formError" role="alert">{error}</p> : null}<p className="loginSignup">Нет аккаунта? <a href={`/register?role=${capability === "BUYER" ? "buyer" : "supplier"}`}>Зарегистрироваться</a></p></div></section>
+    <section className="loginIntro"><a className="brand" href={buyerAppUrl}><span>DM</span><strong>DentMarket <small>KZ</small></strong></a><div><p className="eyebrow">Вход в DentMarket</p><h1>Продолжите работу в своём кабинете</h1><p>Закупайте для клиники или управляйте продажами и заказами.</p></div><a className="backLink" href={buyerAppUrl}>← Вернуться в магазин</a></section>
+    <section className="loginPanel"><div className="loginCard"><p className="eyebrow">Вход</p><h2>Выберите кабинет</h2><div className="rolePicker"><button type="button" data-selected={capability === "BUYER"} onClick={() => setCapability("BUYER")}><b>Клиника</b><span>Магазин и закупки</span></button><button type="button" data-selected={capability === "SUPPLIER"} onClick={() => setCapability("SUPPLIER")}><b>Поставщик</b><span>Продажи и товары</span></button></div><form className="emailLoginForm" onSubmit={emailLogin}><input type="email" placeholder="Рабочий email" autoComplete="email" value={email} onChange={(event) => setEmail(event.target.value)} required /><input type="password" placeholder="Пароль" autoComplete="current-password" value={password} onChange={(event) => setPassword(event.target.value)} required /><button type="submit" className="primary" disabled={busy}>{busy ? "Входим…" : "Войти по email"}</button><button type="button" className="linkButton" onClick={() => void forgotPassword()}>Забыли пароль?</button></form><div className="divider"><span>или</span></div><div className="identityButtons"><div ref={googleButton} className="googleButton" />{!googleClientId ? <div className="identityDisabled">Вход через Google пока недоступен</div> : null}<button type="button" className="appleButton" onClick={() => void apple()} disabled={!appleClientId || !appleRedirectUri || busy}> Продолжить с Apple</button><div className="divider"><span>посмотреть без регистрации</span></div><button type="button" className="demoLogin" onClick={() => void demo()} disabled={busy}>{busy ? "Открываем кабинет…" : capability === "BUYER" ? "Посмотреть магазин" : "Посмотреть кабинет поставщика"}</button></div>{error ? <p className="formError" role="alert">{error}</p> : null}<p className="loginSignup">Нет аккаунта? <a href={`/register?role=${capability === "BUYER" ? "buyer" : "supplier"}`}>Зарегистрироваться</a></p></div></section>
   </main>;
 }

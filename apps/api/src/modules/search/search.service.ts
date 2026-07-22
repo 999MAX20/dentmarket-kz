@@ -14,6 +14,10 @@ type SearchRow = { productId: string; rank: number };
 export class SearchService {
   constructor(private readonly prisma: PrismaService, private readonly analytics: SearchAnalyticsService, private readonly mediaAccess: MediaAccessService) {}
 
+  async publicCities() {
+    return this.prisma.city.findMany({ select: { id: true, nameRu: true, region: { select: { nameRu: true } } }, orderBy: [{ nameRu: "asc" }] });
+  }
+
   private async assertBuyer(buyerOrganizationId: string, context: SupplierActorContext) {
     const operator = Boolean(await this.prisma.organizationCapability.findUnique({ where: { organizationId_capability: { organizationId: context.organizationId, capability: "MARKETPLACE_OPERATOR" } } }));
     if (buyerOrganizationId !== context.organizationId && !operator) throw new ForbiddenException("Buyer search belongs to another organization");

@@ -108,7 +108,7 @@ export function SupplierOperations() {
           message?: string;
         } | null;
         throw new Error(
-          payload?.message ?? `API вернул статус ${response.status}`,
+          payload?.message ?? `Не удалось выполнить запрос (${response.status})`,
         );
       }
       return response.json() as Promise<T>;
@@ -124,7 +124,7 @@ export function SupplierOperations() {
       const activeSupplierId = supplierId || supplierData[0]?.organizationId;
       if (!activeSupplierId) {
         setMessage(
-          "Создайте supplier profile для организации с capability SUPPLIER.",
+          "Сначала создайте карточку поставщика.",
         );
         return;
       }
@@ -153,7 +153,7 @@ export function SupplierOperations() {
       setMessage(
         error instanceof Error
           ? error.message
-          : "Контур поставщика недоступен.",
+          : "Раздел поставщика недоступен.",
       );
     } finally {
       setLoading(false);
@@ -205,10 +205,10 @@ export function SupplierOperations() {
       });
       form.reset();
       await load();
-      setMessage("Источник данных добавлен.");
+      setMessage("Способ загрузки добавлен.");
     } catch (error) {
       setMessage(
-        error instanceof Error ? error.message : "Не удалось создать источник.",
+        error instanceof Error ? error.message : "Не удалось добавить способ загрузки.",
       );
     }
   }
@@ -245,10 +245,10 @@ export function SupplierOperations() {
         { method: "POST" },
       );
       await load();
-      setMessage("CSV сохранён, строки обработаны и сопоставлены с каталогом.");
+      setMessage("Файл загружен. Товары проверены по каталогу.");
     } catch (error) {
       setMessage(
-        error instanceof Error ? error.message : "Импорт не выполнен.",
+        error instanceof Error ? error.message : "Не удалось загрузить файл.",
       );
     }
   }
@@ -264,11 +264,11 @@ export function SupplierOperations() {
       );
       await load();
       setMessage(
-        `Строка ${item.externalId} сопоставлена с вариантом каталога.`,
+        `Товар ${item.externalId} связан с карточкой каталога.`,
       );
     } catch (error) {
       setMessage(
-        error instanceof Error ? error.message : "Matching не подтверждён.",
+        error instanceof Error ? error.message : "Не удалось подтвердить товар.",
       );
     }
   }
@@ -289,9 +289,9 @@ export function SupplierOperations() {
       });
       form.reset();
       await load();
-      setMessage("Черновик supplier offer создан отдельно от цены и остатка.");
+      setMessage("Черновик предложения создан.");
     } catch (error) {
-      setMessage(error instanceof Error ? error.message : "Offer не создан.");
+      setMessage(error instanceof Error ? error.message : "Предложение не создано.");
     }
   }
 
@@ -329,11 +329,11 @@ export function SupplierOperations() {
       });
       await load();
       setMessage(
-        "Цена записана в историю, остаток обновлён, offer опубликован.",
+        "Цена и остаток обновлены. Предложение опубликовано.",
       );
     } catch (error) {
       setMessage(
-        error instanceof Error ? error.message : "Offer не активирован.",
+        error instanceof Error ? error.message : "Предложение не опубликовано.",
       );
     }
   }
@@ -388,7 +388,7 @@ export function SupplierOperations() {
     <section
       id="supplier-data"
       className={styles.section}
-      aria-label="Контур данных поставщика"
+      aria-label="Товары поставщика"
     >
       <div className={styles.heading}>
         <div>
@@ -414,7 +414,7 @@ export function SupplierOperations() {
               </option>
             ))}
           </select>
-          <button onClick={() => void load()}>Синхронизировать</button>
+          <button onClick={() => void load()}>Обновить</button>
         </div>
       </div>
       {message && (
@@ -429,14 +429,14 @@ export function SupplierOperations() {
           <i />
         </div>
       ) : !activeSupplier ? (
-        <div className={styles.empty}>Нет supplier profile.</div>
+        <div className={styles.empty}>Поставщик не найден.</div>
       ) : (
         <div className={styles.grid}>
           <article className={styles.panel}>
             <header>
               <span>01</span>
               <div>
-                <h3>Поставщик и источники</h3>
+                <h3>Поставщик и загрузка товаров</h3>
                 <p>
                   {activeSupplier.organization.displayName} · БИН{" "}
                   {activeSupplier.organization.bin}
@@ -450,11 +450,11 @@ export function SupplierOperations() {
               </b>
               <b>
                 {activeSupplier.dataSources.length}
-                <small>источников</small>
+                <small>способов загрузки</small>
               </b>
               <b>
                 {activeSupplier._count.importBatches}
-                <small>импортов</small>
+                <small>загрузок</small>
               </b>
             </div>
             <form className={styles.form} onSubmit={createWarehouse}>
@@ -474,7 +474,7 @@ export function SupplierOperations() {
             </form>
             <form className={styles.form} onSubmit={createSource}>
               <label>
-                Источник
+                Название
                 <input name="name" required placeholder="Прайс отдела продаж" />
               </label>
               <label>
@@ -483,11 +483,11 @@ export function SupplierOperations() {
                   <option>CSV</option>
                   <option>EXCEL</option>
                   <option>MANUAL</option>
-                  <option>API</option>
-                  <option>ERP</option>
+                  <option value="API">Прямое подключение</option>
+                  <option value="ERP">1С</option>
                 </select>
               </label>
-              <button className={styles.secondary}>Добавить источник</button>
+              <button className={styles.secondary}>Добавить способ</button>
             </form>
           </article>
 
@@ -495,13 +495,13 @@ export function SupplierOperations() {
             <header>
               <span>02</span>
               <div>
-                <h3>Импорт и сопоставление товаров</h3>
-                <p>CSV/Excel parser, raw rows и объяснимые кандидаты.</p>
+                <h3>Загрузка и проверка товаров</h3>
+                <p>Загрузите файл и свяжите товары с карточками каталога.</p>
               </div>
             </header>
             <form className={styles.form} onSubmit={uploadCsv}>
               <label>
-                Источник
+                Способ загрузки
                 <select name="sourceId" required>
                   <option value="">Выберите</option>
                   {activeSupplier.dataSources.map((source) => (
@@ -547,10 +547,10 @@ export function SupplierOperations() {
                       <small>
                         {item.externalId} ·{" "}
                         {item.matchedVariantId
-                          ? "MATCHED"
+                          ? "Найден в каталоге"
                           : candidate
-                            ? `score ${candidate.score}`
-                            : "без кандидата"}
+                            ? `Похож на ${candidate.productVariant.product.canonicalName}`
+                            : "Совпадений нет"}
                       </small>
                     </div>
                     {!item.matchedVariantId && candidate && (
@@ -573,7 +573,7 @@ export function SupplierOperations() {
               <span>03</span>
               <div>
                 <h3>Предложение, цена и публикация</h3>
-                <p>История цены хранится отдельно от статуса публикации и наличия.</p>
+                <p>Укажите товар, цену и условия продажи.</p>
               </div>
             </header>
             <form className={styles.form} onSubmit={createOffer}>
@@ -591,7 +591,7 @@ export function SupplierOperations() {
                 </select>
               </label>
               <label>
-                Источник
+                Способ загрузки
                 <select name="sourceId">
                   <option value="">Ручной</option>
                   {activeSupplier.dataSources.map((source) => (
@@ -605,11 +605,11 @@ export function SupplierOperations() {
                 SKU поставщика
                 <input name="supplierSku" />
               </label>
-              <button className={styles.primary}>Создать offer</button>
+              <button className={styles.primary}>Создать предложение</button>
             </form>
             <form className={styles.form} onSubmit={activateOffer}>
               <label className={styles.wide}>
-                Offer
+                Предложение
                 <select name="offerId" required>
                   <option value="">Выберите</option>
                   {offers.map((offer) => (

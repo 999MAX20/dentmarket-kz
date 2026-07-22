@@ -143,17 +143,14 @@ type SearchProduct = {
 };
 type SearchResult = {
   total: number;
+  offset?: number;
+  limit?: number;
   interpretedQuery?: string[];
   items: SearchProduct[];
   facets: {
     categories: Array<{ id: string; name: string; count: number }>;
     suppliers: Array<{ id: string; name: string; count: number }>;
   };
-};
-const contentSourceCount = (value: unknown) => {
-  if (!value || typeof value !== "object" || !("sources" in value)) return 0;
-  const sources = (value as { sources?: unknown }).sources;
-  return Array.isArray(sources) ? sources.length : 0;
 };
 const publicMediaEntries = publicCatalogMedia.entries as Record<string, SearchMedia>;
 const rejectedProductAsset = (value: string | null | undefined) => /(logo|favicon|icon|sprite|avatar|cart|basket|loading|pixel|captcha|phone[-_]?ico|placeholder|no[-_]?image|default[-_]?image|\/(?:themes?|templates?|assets\/icons?|images?\/icons?)\/)/i.test(value ?? "");
@@ -334,6 +331,7 @@ const fallbackSearch = (
     delivery?: string;
     stock?: string;
   } = {},
+  displayLimit = 60,
 ): SearchResult => {
   const normalized = query.trim().toLocaleLowerCase("ru");
   const searchTerms = [
@@ -381,7 +379,7 @@ const fallbackSearch = (
   });
   return {
     total: filtered.length,
-    items: filtered.slice(0, 60),
+    items: filtered.slice(0, displayLimit),
     facets: { categories: [], suppliers: [] },
   };
 };
@@ -391,6 +389,12 @@ async function fetchPublicCatalogSearch(
   sort: string,
   params: URLSearchParams,
 ): Promise<SearchResult | null> {
+  if (typeof window !== "undefined") {
+    try {
+      const saved = JSON.parse(window.localStorage.getItem("dentmarket:city") ?? "null") as { id?: string } | null;
+      if (saved?.id) params.set("cityId", saved.id);
+    } catch { /* legacy plain-text city selection */ }
+  }
   const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
   const response = await fetch(`${apiUrl}/catalog/search?${params.toString()}`, {
     cache: "no-store",
@@ -767,7 +771,8 @@ export default function BuyerWorkspace() {
           ),
         );
       } catch (cause) {
-        throw cause;
+        setSearch(fallbackSearch(nextQuery, nextSort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }));
+        if (handoff) setToast("API временно недоступен — показываем полный резервный каталог");
       }
     },
     [
@@ -829,6 +834,7 @@ export default function BuyerWorkspace() {
       setDocuments(documentResult);
       setNotifications(notificationResult);
     } catch (cause) {
+      if (handoff) setSearch(fallbackSearch(query, sort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }));
       setError(errorMessage(cause));
     } finally {
       setLoading(false);
@@ -846,6 +852,33 @@ export default function BuyerWorkspace() {
     sort,
     unitFilter,
   ]);
+
+  const loadMoreProducts = async () => {
+    const currentCount = search?.items.length ?? 0;
+    setBusy("load-more");
+    try {
+      if (!handoff) {
+        setSearch(fallbackSearch(query, sort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }, currentCount + 60));
+        return;
+      }
+      const params = buildSearchParams(query, sort);
+      params.set("offset", String(currentCount));
+      params.set("limit", "60");
+      const next = await api.get<SearchResult>(`/marketplace/search?${params}`);
+      setSearch((previous) => previous ? { ...next, items: [...previous.items, ...next.items] } : next);
+    } catch {
+      setSearch(fallbackSearch(query, sort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }, currentCount + 60));
+      setToast("Показываем следующую порцию резервного каталога");
+    } finally {
+      setBusy(null);
+    }
+  };
+
+  useEffect(() => {
+    const onCityChanged = () => { void loadSearch(query, sort); };
+    window.addEventListener("dentmarket:city-changed", onCityChanged);
+    return () => window.removeEventListener("dentmarket:city-changed", onCityChanged);
+  }, [loadSearch, query, sort]);
 
   const logout = useCallback(async () => {
     const apiUrl =
@@ -1331,11 +1364,11 @@ export default function BuyerWorkspace() {
           </div>
         </details>
         <div className={styles.resultsMeta}>
-          <span>{visibleProducts.length} {ruCount(visibleProducts.length, "товар", "товара", "товаров")} по запросу</span>
+          <span>{visibleProducts.length}{search && search.total > visibleProducts.length ? ` из ${search.total}` : ""} {ruCount(search?.total ?? visibleProducts.length, "товар", "товара", "товаров")} по запросу</span>
           <span>
             {search?.interpretedQuery?.length
               ? `Поняли как: ${search.interpretedQuery.join(", ")}`
-              : "Сленг, бренд, артикул и официальное название"}
+              : "Ищите по названию, бренду или артикулу"}
           </span>
         </div>
         {loading && isPublic ? (
@@ -1344,7 +1377,7 @@ export default function BuyerWorkspace() {
           <EmptyState
             icon={<Search24Regular />}
             title="Ничего не найдено"
-            description="Попробуйте профессиональный термин, сленг врача или начните с одной ключевой характеристики."
+            description="Попробуйте другое название, бренд или артикул."
             action={
               <div className={styles.searchEmptyActions}>
                 {dentalSearchSuggestions.slice(0, 4).map((suggestion) => (
@@ -1413,7 +1446,7 @@ export default function BuyerWorkspace() {
                         .filter(Boolean)
                         .join(" · ") ||
                         (product.sourceUrl
-                          ? "Открытая выгрузка · источник указан"
+                          ? "Карточка DentMarket"
                           : best?.verifiedDocuments === false
                             ? "Внешний каталог · поставщик не верифицирован"
                             : "Проверенная карточка каталога")}
@@ -1466,6 +1499,7 @@ export default function BuyerWorkspace() {
             })}
           </div>
         )}
+        {search && search.total > search.items.length ? <div className={styles.loadMore}><Button appearance="secondary" onClick={() => void loadMoreProducts()} disabled={busy === "load-more"}>{busy === "load-more" ? "Загружаем…" : "Показать ещё 60 товаров"}</Button><small>Показано {search.items.length} из {search.total}</small></div> : null}
       </Section>
       {selectedProduct ? (
         <div className={styles.productModalBackdrop} role="presentation" onClick={closeProduct}>
@@ -1490,8 +1524,8 @@ export default function BuyerWorkspace() {
               <div className={styles.productInfo}>
                 <div className={styles.productModalCopy}>
                   <h3>О товаре</h3>
-                  <p>{selectedProduct.description || "DentMarket уточняет состав и характеристики товара по первичным источникам."}</p>
-                  <small>Карточку ведёт DentMarket{contentSourceCount(selectedProduct.descriptionSources) ? `, использовано источников: ${contentSourceCount(selectedProduct.descriptionSources)}` : ""}. Поставщики управляют ценой, наличием и условиями продажи отдельно.</small>
+                  <p>{selectedProduct.description || "Проверяем состав и характеристики товара."}</p>
+                  <small>Описание проверено DentMarket. Цену, наличие и доставку указывает продавец.</small>
                   {selectedProduct.attributes?.length ? (
                     <dl className={styles.productAttributes}>
                       {selectedProduct.attributes.map(([label, value]) => (
@@ -1504,7 +1538,7 @@ export default function BuyerWorkspace() {
                   ) : null}
                   {selectedProduct.sourceUrl ? (
                     <a className={styles.productSourceLink} href={selectedProduct.sourceUrl} target="_blank" rel="noreferrer">
-                      Проверить источник ↗
+                      Открыть подтверждение ↗
                     </a>
                   ) : null}
                 </div>
@@ -1877,7 +1911,7 @@ export default function BuyerWorkspace() {
           <EmptyState
             icon={<Document24Regular />}
             title="Документов пока нет"
-            description="Документы заказа появятся после формирования оператором или поставщиком."
+            description="Документы появятся здесь после оформления заказа."
           />
         ) : (
           <div className={styles.documentList}>
@@ -2050,7 +2084,7 @@ export default function BuyerWorkspace() {
                   <MenuItem icon={<Location24Regular />} onClick={() => setActive("smart-commerce")}>Рекомендации по городу</MenuItem>
                   <MenuItem icon={<Bot24Regular />} onClick={() => setActive("assistant")}>AI-помощник</MenuItem>
                   <MenuItem icon={<PersonSupport24Regular />} onClick={() => setActive("support")}>Поддержка</MenuItem>
-                  <MenuItem onClick={() => window.location.assign("/about")}>О платформе</MenuItem>
+                  <MenuItem onClick={() => window.location.assign("/about")}>О DentMarket</MenuItem>
                 </MenuList>
               </MenuPopover>
             </Menu>

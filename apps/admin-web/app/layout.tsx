@@ -10,7 +10,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Marketplace Operations",
-  description: "Управление B2B procurement-платформой",
+  description: "Рабочий кабинет команды DentMarket",
 };
 
 export default function RootLayout({

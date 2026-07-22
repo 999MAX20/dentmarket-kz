@@ -309,7 +309,7 @@ export function CommerceFoundation() {
     >
       <div className={styles.heading}>
         <div>
-          <span className={styles.eyebrow}>ITERATION 1A / CONTROL PLANE</span>
+          <span className={styles.eyebrow}>Каталог DentMarket</span>
           <h2>Товары, согласование и аудит</h2>
           <p>
             Рабочие формы поверх реальных API с версионным контролем изменений.
@@ -604,7 +604,7 @@ export function CommerceFoundation() {
               </div>
               <form className={styles.auditFilter} onSubmit={filterAudit}>
                 <label>
-                  Сущность
+                  Раздел
                   <input name="entityType" placeholder="Product" />
                 </label>
                 <label>

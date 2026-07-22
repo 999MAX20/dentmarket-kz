@@ -172,7 +172,7 @@ export function IntegrationOperations() {
         const detail = Array.isArray(payload?.message)
           ? payload.message.join(", ")
           : payload?.message;
-        throw new Error(detail ?? `API вернул статус ${response.status}`);
+        throw new Error(detail ?? `Не удалось выполнить запрос (${response.status})`);
       }
       return response.json() as Promise<T>;
     },
@@ -233,7 +233,7 @@ export function IntegrationOperations() {
       setMessage("");
     } catch (error) {
       setMessage(
-        error instanceof Error ? error.message : "Интеграции недоступны.",
+        error instanceof Error ? error.message : "Подключения недоступны.",
       );
     } finally {
       setLoading(false);
@@ -309,13 +309,13 @@ export function IntegrationOperations() {
       const lines = result.enrollment
         ? [
             `Agent ID: ${result.enrollment.agentId}`,
-            `Enrollment token: ${result.enrollment.enrollmentToken}`,
+            `Ключ подключения: ${result.enrollment.enrollmentToken}`,
             `Действует до: ${dateTime(result.enrollment.expiresAt)}`,
           ]
         : result.webhook
           ? [
-              `Endpoint: ${result.webhook.endpointPath}`,
-              `Signing secret: ${result.webhook.signingSecret}`,
+              `Адрес подключения: ${result.webhook.endpointPath}`,
+              `Ключ подписи: ${result.webhook.signingSecret}`,
             ]
           : [];
       setOneTimeSecret(
@@ -380,7 +380,7 @@ export function IntegrationOperations() {
         },
       );
       form.reset();
-    }, "Маппинг внешней сущности сохранён.");
+    }, "Соответствие сохранено.");
   }
 
   function enqueueJob(event: FormEvent<HTMLFormElement>) {
@@ -429,10 +429,10 @@ export function IntegrationOperations() {
         { method: "POST" },
       );
       setOneTimeSecret({
-        title: "Новый enrollment token",
+        title: "Новый ключ для подключения",
         lines: [
           `Agent ID: ${result.agentId}`,
-          `Enrollment token: ${result.enrollmentToken}`,
+          `Ключ подключения: ${result.enrollmentToken}`,
           `Действует до: ${dateTime(result.expiresAt)}`,
         ],
       });
@@ -451,14 +451,13 @@ export function IntegrationOperations() {
     <section
       id="integration-operations"
       className={styles.section}
-      aria-label="Интеграции поставщика"
+      aria-label="Загрузка товаров поставщика"
     >
       <div className={styles.heading}>
         <div>
-          <h2>Интеграции и внешние резервы</h2>
+          <h2>Подключение учётных систем</h2>
           <p>
-            МойСклад, 1С, очереди обновления данных и сверка
-            расхождений.
+            Подключайте МойСклад или 1С и проверяйте обновление товаров.
           </p>
         </div>
         <div className={styles.toolbar}>
@@ -517,7 +516,7 @@ export function IntegrationOperations() {
       )}
 
       {loading ? (
-        <div className={styles.loading} aria-label="Загрузка интеграций">
+        <div className={styles.loading} aria-label="Загрузка подключений">
           <i />
           <i />
           <i />
@@ -534,7 +533,7 @@ export function IntegrationOperations() {
               <strong>{counts.queued}</strong>
             </div>
             <div>
-              <span>Dead-letter</span>
+              <span>С ошибкой</span>
               <strong>{counts.dead}</strong>
             </div>
             <div>
@@ -551,19 +550,19 @@ export function IntegrationOperations() {
                 <header>
                   <div>
                     <h3>Новое подключение</h3>
-                    <p>Секреты шифруются и не возвращаются повторно.</p>
+                    <p>Данные для входа будут показаны только один раз.</p>
                   </div>
                   <Add20Regular />
                 </header>
                 <label>
-                  Провайдер
+                  Система
                   <select
                     value={provider}
                     onChange={(event) => setProvider(event.target.value)}
                   >
-                    <option value="MOCK">Mock для проверки</option>
+                    <option value="MOCK">Тестовое подключение</option>
                     <option value="MOYSKLAD">МойСклад</option>
-                    <option value="ONE_C">1С Connector Agent</option>
+                    <option value="ONE_C">1С</option>
                   </select>
                 </label>
                 <label>
@@ -577,7 +576,7 @@ export function IntegrationOperations() {
                 </label>
                 {provider === "MOYSKLAD" && (
                   <label className={styles.full}>
-                    Access token
+                    Ключ доступа
                     <input
                       name="accessToken"
                       type="password"
@@ -587,8 +586,7 @@ export function IntegrationOperations() {
                   </label>
                 )}
                 <label className={`${styles.check} ${styles.full}`}>
-                  <input name="enableWebhook" type="checkbox" /> Принимать автоматические уведомления
-                  endpoint
+                  <input name="enableWebhook" type="checkbox" /> Получать обновления автоматически
                 </label>
                 <Button
                   className={styles.full}
@@ -608,7 +606,7 @@ export function IntegrationOperations() {
                 </header>
                 {connections.length === 0 ? (
                   <div className={styles.empty}>
-                    Подключений пока нет. Создайте первый источник данных.
+                    Подключений пока нет. Добавьте учётную систему.
                   </div>
                 ) : (
                   connections.map((connection) => (
@@ -695,13 +693,13 @@ export function IntegrationOperations() {
                   {selected.agent && (
                     <div className={styles.agent}>
                       <span>
-                        <strong>1С Agent</strong>
+                        <strong>1С</strong>
                         <small>{selected.agent.agentId}</small>
                       </span>
                       <span>
                         <b>{formatAdminStatus(selected.agent.status)}</b>
                         <small>
-                          Heartbeat: {dateTime(selected.agent.lastHeartbeatAt)}
+                          Последняя связь: {dateTime(selected.agent.lastHeartbeatAt)}
                         </small>
                       </span>
                       <Button
@@ -710,14 +708,14 @@ export function IntegrationOperations() {
                         onClick={() => void rotateEnrollment()}
                         disabled={working}
                       >
-                        Новый token
+                        Новый ключ
                       </Button>
                     </div>
                   )}
 
                   <div className={styles.controls}>
                     <form onSubmit={(event) => void createBinding(event)}>
-                      <h4>Привязать поток</h4>
+                      <h4>Выбрать данные</h4>
                       <label>
                         Тип данных
                         <select name="dataType">
@@ -740,7 +738,7 @@ export function IntegrationOperations() {
                           ))}
                           {offers.map((offer) => (
                             <option key={offer.id} value={`offer:${offer.id}`}>
-                              Оффер:{" "}
+                              Предложение:{" "}
                               {offer.supplierSku ??
                                 offer.productVariant.product.canonicalName}
                             </option>
@@ -765,7 +763,7 @@ export function IntegrationOperations() {
                       </Button>
                     </form>
                     <form onSubmit={(event) => void enqueueJob(event)}>
-                      <h4>Запустить задание</h4>
+                      <h4>Обновить данные</h4>
                       <label>
                         Операция
                         <select name="jobType">
@@ -780,13 +778,13 @@ export function IntegrationOperations() {
                         icon={<Play20Regular />}
                         disabled={working}
                       >
-                        В очередь
+                        Запустить
                       </Button>
                     </form>
                     <form onSubmit={(event) => void upsertMapping(event)}>
-                      <h4>Сопоставить внешний идентификатор</h4>
+                      <h4>Связать записи</h4>
                       <label>
-                        Сущность
+                        Что связать
                         <select
                           value={mappingType}
                           onChange={(event) =>
@@ -800,7 +798,7 @@ export function IntegrationOperations() {
                         </select>
                       </label>
                       <label>
-                        Внешний ID
+                        Код в учётной системе
                         <input
                           name="externalId"
                           required
@@ -812,7 +810,7 @@ export function IntegrationOperations() {
                         />
                       </label>
                       <label>
-                        Внутренняя сущность
+                        Карточка в DentMarket
                         <select name="internalId" required>
                           {mappingType === "WAREHOUSE"
                             ? warehouses.map((warehouse) => (
@@ -843,20 +841,19 @@ export function IntegrationOperations() {
 
                   <section className={styles.bindings}>
                     <header>
-                      <h4>Потоки данных</h4>
+                      <h4>Какие данные обновлять</h4>
                       <span>{selected.bindings.length}</span>
                     </header>
                     {selected.bindings.length === 0 ? (
                       <div className={styles.empty}>
-                        Нет привязок. Данные не будут импортироваться или
-                        экспортироваться.
+                        Выберите данные, которые нужно обновлять.
                       </div>
                     ) : (
                       <div>
                         {selected.bindings.map((binding) => (
                           <span key={binding.id}>
                             <b>{binding.dataType}</b>
-                            <small>priority {binding.priority}</small>
+                            <small>приоритет {binding.priority}</small>
                           </span>
                         ))}
                       </div>
@@ -864,13 +861,12 @@ export function IntegrationOperations() {
                   </section>
                   <section className={styles.bindings}>
                     <header>
-                      <h4>Сопоставления</h4>
+                      <h4>Связанные записи</h4>
                       <span>{selected.mappings.length}</span>
                     </header>
                     {selected.mappings.length === 0 ? (
                       <div className={styles.empty}>
-                        Нет маппингов. Для нескольких складов и неоднозначных
-                        товаров укажите соответствия.
+                        Связанных записей пока нет. Они нужны, если названия складов или товаров различаются.
                       </div>
                     ) : (
                       <div>
@@ -879,7 +875,7 @@ export function IntegrationOperations() {
                             <b>{mapping.entityType}</b>
                             <small>
                               {mapping.externalId} →{" "}
-                              {mapping.internalId?.slice(0, 8) ?? "metadata"}
+                              {mapping.internalId?.slice(0, 8) ?? "данные"}
                             </small>
                           </span>
                         ))}
@@ -890,7 +886,7 @@ export function IntegrationOperations() {
                   <div className={styles.activityGrid}>
                     <section>
                       <header>
-                        <h4>Очередь заданий</h4>
+                        <h4>Обновления</h4>
                         <span>{jobs.length}</span>
                       </header>
                       {jobs.length === 0 ? (

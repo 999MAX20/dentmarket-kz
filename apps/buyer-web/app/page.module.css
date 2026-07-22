@@ -133,6 +133,17 @@
 .productList {
   display: grid;
 }
+.loadMore {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  padding: 22px;
+  border-top: 1px solid var(--colorNeutralStroke3);
+}
+.loadMore small {
+  color: var(--colorNeutralForeground3);
+  font-size: 11px;
+}
 .product {
   display: grid;
   grid-template-columns: 128px minmax(260px, 1fr) minmax(220px, 0.72fr) minmax(180px, auto);

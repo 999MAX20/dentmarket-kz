@@ -79,18 +79,18 @@ export function MarketplaceAgreementPanel({ supplierId, supplierName = "Пост
     finally { setBusy(false); }
   };
 
-  if (loading) return <div className={styles.loading}><Spinner label="Проверяем договор с платформой" /></div>;
+  if (loading) return <div className={styles.loading}><Spinner label="Проверяем договор" /></div>;
   if (error && !state) return <ErrorState description={error} action={<Button onClick={() => void refresh()}>Повторить</Button>} />;
   const agreement = state?.agreement;
   const active = agreement && ["ACTIVE", "NON_RENEWING"].includes(agreement.status);
 
   return <div className={styles.stack}>
-    <PageHeader eyebrow="Юридический контур" title="Договор с платформой" description="Коммерческие операции доступны только после двух проверенных ЭЦП. Договор действует 12 месяцев и продлевается ежегодно." actions={<Button appearance="secondary" icon={<Document24Regular />} disabled={!agreement || busy} onClick={() => void download()}>Скачать договор</Button>} />
+    <PageHeader eyebrow="Документы" title="Договор с DentMarket" description="Подпишите договор через ЭЦП. Он действует 12 месяцев и продлевается ежегодно." actions={<Button appearance="secondary" icon={<Document24Regular />} disabled={!agreement || busy} onClick={() => void download()}>Скачать договор</Button>} />
     {error ? <div className={styles.error}>{error}</div> : null}
     {!agreement ? <Section>
       <div className={styles.callout}>
         <span className={styles.warning}><Warning24Regular /></span>
-        <div><h2>Нужно оформить договор</h2><p>Активного договора нет. До подписания поставщиком и платформой публикация предложений и подтверждение новых заказов заблокированы.</p>{state?.previousAgreement ? <small>Предыдущий договор {state.previousAgreement.agreementNumber}: {formatStatus(state.previousAgreement.status)}</small> : null}</div>
+        <div><h2>Подпишите договор</h2><p>До подписания нельзя публиковать предложения и подтверждать новые заказы.</p>{state?.previousAgreement ? <small>Предыдущий договор {state.previousAgreement.agreementNumber}: {formatStatus(state.previousAgreement.status)}</small> : null}</div>
         <Button appearance="primary" disabled={busy} onClick={() => void initiate()}>{busy ? "Формируем…" : "Сформировать договор"}</Button>
       </div>
     </Section> : <>
@@ -103,7 +103,7 @@ export function MarketplaceAgreementPanel({ supplierId, supplierName = "Пост
         <Section title="Подписи ЭЦП" description="Обе стороны подписывают одну и ту же версию документа.">
           <div className={styles.signatures}>
             <SignatureRow label="Поставщик" signed={agreement.signing.supplierSigned} />
-            <SignatureRow label="Оператор DentMarket KZ" signed={agreement.signing.operatorSigned} />
+            <SignatureRow label="DentMarket KZ" signed={agreement.signing.operatorSigned} />
           </div>
           {agreement.signing.available && agreement.signing.party === "SUPPLIER" ? <div className={styles.action}><Button appearance="primary" disabled={busy} onClick={() => void sign()}>{busy ? "Открываем шлюз…" : "Подписать договор ЭЦП"}</Button></div> : null}
           {!active && agreement.signing.reason === "awaiting_counterparty" ? <p className={styles.hint}>Эта сторона уже подписала документ. Ожидаем вторую ЭЦП.</p> : null}

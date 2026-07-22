@@ -42,7 +42,7 @@ const fields = [
 
 const fieldLabel = (field: string) => fields.find(([value]) => value === field)?.[1] ?? field;
 const statusLabel: Record<Correction["status"], string> = {
-  PENDING: "На модерации",
+  PENDING: "Проверяем",
   APPROVED: "Принято",
   PARTIALLY_APPROVED: "Принято с редактурой",
   REJECTED: "Отклонено",
@@ -84,13 +84,13 @@ export function ProductCorrectionsPanel({ api, offers, supplierId }: { api: Mark
       setProposedValue("");
       setReason("");
       setEvidenceUrl("");
-      setMessage("Запрос отправлен модератору DentMarket");
+      setMessage("Исправление отправлено на проверку");
       await load();
     } catch (cause) { setMessage(errorMessage(cause)); }
     finally { setBusy(false); }
   };
 
-  return <Section title="Исправления карточек" description="Карточки ведёт DentMarket. Вы можете приложить источник и предложить точную правку.">
+  return <Section title="Исправления карточек" description="Нашли ошибку? Предложите исправление и приложите подтверждение.">
     <div className={styles.layout}>
       <div className={styles.form}>
         <Field label="Товар">
@@ -114,12 +114,12 @@ export function ProductCorrectionsPanel({ api, offers, supplierId }: { api: Mark
         </Field>
         {message ? <div className={styles.message}>{message}</div> : null}
         <Button appearance="primary" disabled={busy || !productId || proposedValue.trim().length < 2 || reason.trim().length < 10} onClick={() => void submit()}>
-          {busy ? <Spinner size="tiny" /> : "Отправить на модерацию"}
+          {busy ? <Spinner size="tiny" /> : "Отправить исправление"}
         </Button>
       </div>
       <div className={styles.history}>
-        <h3>История запросов</h3>
-        {!items.length ? <EmptyState title="Запросов пока нет" description="Отправленные правки и решения модератора появятся здесь." /> : items.slice(0, 12).map((item) => <article className={styles.request} key={item.id}>
+        <h3>Мои исправления</h3>
+        {!items.length ? <EmptyState title="Исправлений пока нет" description="Здесь появятся ваши правки и решения DentMarket." /> : items.slice(0, 12).map((item) => <article className={styles.request} key={item.id}>
           <div className={styles.requestHeader}><strong>{item.product.canonicalName}</strong><StatusTag tone={item.status === "REJECTED" ? "danger" : item.status === "PENDING" ? "warning" : "success"}>{statusLabel[item.status]}</StatusTag></div>
           <small>{fieldLabel(item.field)} · {formatDate(item.createdAt, true)}</small>
           <p>{item.appliedValue ?? item.proposedValue}</p>

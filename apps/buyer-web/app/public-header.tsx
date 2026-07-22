@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { loginUrl } from "./public-links";
+import { CityLocation } from "./city-location";
 import styles from "./public-header.module.css";
 
 type PublicSection = "catalog" | "suppliers" | "about";
@@ -11,7 +12,7 @@ export function PublicHeader({ active }: { active: PublicSection }) {
         <span className={styles.mark}>DM</span>
         <span className={styles.brandCopy}>
           <strong>DentMarket</strong>
-          <small>Маркетплейс для стоматологий</small>
+          <small>Закупки для стоматологий</small>
         </span>
       </Link>
       <nav className={styles.nav} aria-label="Основная навигация">
@@ -22,12 +23,13 @@ export function PublicHeader({ active }: { active: PublicSection }) {
           Поставщикам
         </Link>
         <Link className={active === "about" ? styles.active : undefined} href="/about">
-          О платформе
+          О DentMarket
         </Link>
       </nav>
       <a className={styles.login} href={loginUrl}>
         Войти
       </a>
+      <CityLocation />
     </header>
   );
 }

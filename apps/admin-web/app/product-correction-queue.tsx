@@ -62,11 +62,11 @@ export function ProductCorrectionQueue() {
 
   return <section className={styles.panel} aria-label="Исправления карточек">
     <div className={styles.header}>
-      <div><h2>Правки от поставщиков</h2><p>Публикация остаётся под контролем DentMarket. Принятое значение можно отредактировать перед сохранением.</p></div>
+      <div><h2>Правки от поставщиков</h2><p>Проверьте правку и при необходимости отредактируйте текст перед публикацией.</p></div>
       <Button appearance="secondary" onClick={() => void load()}>Обновить</Button>
     </div>
     {error ? <div className={styles.error}>{error}</div> : null}
-    {!items.length ? <div className={styles.empty}>Новых запросов на исправление нет.</div> : <div className={styles.list}>
+    {!items.length ? <div className={styles.empty}>Новых исправлений нет.</div> : <div className={styles.list}>
       {items.map((item) => <article className={styles.item} key={item.id}>
         <div className={styles.identity}>
           <span>{labels[item.field] ?? item.field}</span>

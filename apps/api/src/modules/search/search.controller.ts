@@ -42,6 +42,8 @@ export class SearchController {
 @Controller("catalog")
 export class PublicCatalogController {
   constructor(private readonly searchService: SearchService) {}
+  @Get("cities")
+  cities() { return this.searchService.publicCities(); }
   private input(query: Record<string, unknown>) { const organizationId = environment().PUBLIC_CATALOG_ORGANIZATION_ID; return { query: { ...query, buyerOrganizationId: organizationId }, context: { actorId: "public-catalog", organizationId } }; }
 
   @Get("search")

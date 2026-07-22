@@ -1,5 +1,5 @@
 import { BadRequestException, Body, Controller, Delete, Get, Headers, Param, Post, Req, Res, UnauthorizedException } from "@nestjs/common";
-import { demoSessionSchema, refreshSessionSchema, revokeSessionSchema, socialExchangeSchema, switchSessionOrganizationSchema, unlinkExternalIdentitySchema } from "@marketplace/schemas";
+import { demoSessionSchema, emailForgotPasswordSchema, emailLoginSchema, emailRegisterSchema, emailResetPasswordSchema, emailTokenSchema, refreshSessionSchema, revokeSessionSchema, socialExchangeSchema, switchSessionOrganizationSchema, unlinkExternalIdentitySchema } from "@marketplace/schemas";
 import { ApiTags } from "@nestjs/swagger";
 import type { Request, Response } from "express";
 import { randomBytes, timingSafeEqual } from "node:crypto";
@@ -31,6 +31,34 @@ export class AuthSessionsController {
     this.setCookies(response, result.refreshToken, csrfToken, result.refreshTokenExpiresAt);
     return { ...result, refreshToken: undefined, csrfToken };
   }
+
+  @Post("register")
+  async register(@Body() body: unknown, @Req() request: Request) {
+    const parsed = emailRegisterSchema.safeParse(body); if (!parsed.success) throw new BadRequestException(parsed.error.flatten());
+    return this.sessions.registerEmail(parsed.data, this.metadata(request));
+  }
+
+  @Post("login")
+  async login(@Body() body: unknown, @Req() request: Request, @Res({ passthrough: true }) response: Response) {
+    const parsed = emailLoginSchema.safeParse(body); if (!parsed.success) throw new BadRequestException(parsed.error.flatten());
+    const result = await this.sessions.loginEmail(parsed.data, this.metadata(request));
+    const csrfToken = randomBytes(32).toString("base64url"); this.setCookies(response, result.refreshToken, csrfToken, result.refreshTokenExpiresAt);
+    return { ...result, refreshToken: undefined, csrfToken };
+  }
+
+  @Post("email/verify")
+  async verifyEmail(@Body() body: unknown, @Req() request: Request, @Res({ passthrough: true }) response: Response) {
+    const parsed = emailTokenSchema.safeParse(body); if (!parsed.success) throw new BadRequestException(parsed.error.flatten());
+    const result = await this.sessions.verifyEmail(parsed.data.token, this.metadata(request));
+    const csrfToken = randomBytes(32).toString("base64url"); this.setCookies(response, result.refreshToken, csrfToken, result.refreshTokenExpiresAt);
+    return { ...result, refreshToken: undefined, csrfToken };
+  }
+
+  @Post("password/forgot")
+  forgotPassword(@Body() body: unknown) { const parsed = emailForgotPasswordSchema.safeParse(body); if (!parsed.success) throw new BadRequestException(parsed.error.flatten()); return this.sessions.forgotPassword(parsed.data.email); }
+
+  @Post("password/reset")
+  resetPassword(@Body() body: unknown) { const parsed = emailResetPasswordSchema.safeParse(body); if (!parsed.success) throw new BadRequestException(parsed.error.flatten()); return this.sessions.resetPassword(parsed.data.token, parsed.data.password); }
 
   @Post("demo")
   async demo(@Body() body: unknown, @Req() request: Request, @Res({ passthrough: true }) response: Response) {

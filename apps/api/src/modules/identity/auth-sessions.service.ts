@@ -1,6 +1,6 @@
 import { BadRequestException, ConflictException, Injectable, NotFoundException, UnauthorizedException } from "@nestjs/common";
 import type { SocialExchangeInput } from "@marketplace/schemas";
-import { createHash, randomBytes, randomUUID, timingSafeEqual } from "node:crypto";
+import { createHash, randomBytes, randomUUID, scryptSync, timingSafeEqual } from "node:crypto";
 import jwt from "jsonwebtoken";
 import { Prisma } from "@prisma/client";
 import { environment } from "../../platform/config/environment";
@@ -13,6 +13,17 @@ const hash = (value: string) => createHash("sha256").update(value).digest("hex")
 const secureEqual = (left: string, right: string) => {
   const a = Buffer.from(left); const b = Buffer.from(right);
   return a.length === b.length && timingSafeEqual(a, b);
+};
+const passwordHash = (password: string) => {
+  const salt = randomBytes(16).toString("hex");
+  return `scrypt$${salt}$${scryptSync(password, salt, 64).toString("hex")}`;
+};
+const passwordMatches = (password: string, encoded: string | null) => {
+  if (!encoded?.startsWith("scrypt$")) return false;
+  const [, salt, expected] = encoded.split("$");
+  if (!salt || !expected) return false;
+  const actual = scryptSync(password, salt, 64).toString("hex");
+  return secureEqual(actual, expected);
 };
 
 @Injectable()
@@ -48,6 +59,89 @@ export class AuthSessionsService {
     const config = environment();
     const session = await this.prisma.authSession.create({ data: { userId, familyId: randomUUID(), refreshTokenHash: hash(refreshToken), organizationIds, activeOrganizationId, authMethods, ipAddress: metadata.ipAddress, userAgent: metadata.userAgent, lastUsedAt: new Date(), expiresAt: new Date(Date.now() + config.AUTH_REFRESH_TOKEN_TTL_DAYS * 86_400_000) } });
     return { ...this.sessionPayload(session, refreshToken), refreshToken };
+  }
+
+  private async email(to: string, subject: string, text: string) {
+    const config = environment();
+    if (!config.EMAIL_PROVIDER_URL || !config.EMAIL_PROVIDER_TOKEN) {
+      if (config.NODE_ENV === "production") throw new UnauthorizedException("Email delivery is not configured");
+      console.info(`[auth-email:${to}] ${subject}\n${text}`);
+      return;
+    }
+    const response = await fetch(config.EMAIL_PROVIDER_URL, { method: "POST", headers: { "content-type": "application/json", authorization: `Bearer ${config.EMAIL_PROVIDER_TOKEN}` }, body: JSON.stringify({ to, subject, text }), signal: AbortSignal.timeout(10_000) });
+    if (!response.ok) throw new UnauthorizedException("Email delivery is temporarily unavailable");
+  }
+
+  private async issueEmailToken(userId: string, type: "EMAIL_VERIFICATION" | "PASSWORD_RESET", metadata?: Record<string, unknown>) {
+    const config = environment();
+    const raw = randomBytes(48).toString("base64url");
+    const expiresAt = new Date(Date.now() + (type === "EMAIL_VERIFICATION" ? config.AUTH_EMAIL_VERIFICATION_TTL_HOURS * 3_600_000 : config.AUTH_PASSWORD_RESET_TTL_MINUTES * 60_000));
+    await this.prisma.emailAuthToken.deleteMany({ where: { userId, type, consumedAt: null } });
+    await this.prisma.emailAuthToken.create({ data: { userId, type, tokenHash: hash(raw), expiresAt, metadata: metadata as Prisma.InputJsonValue | undefined } });
+    return { raw, expiresAt };
+  }
+
+  async registerEmail(input: { email: string; displayName: string; password: string; registrationToken?: string }, metadata: RequestMetadata) {
+    const existing = await this.prisma.user.findUnique({ where: { email: input.email } });
+    if (existing) throw new ConflictException("Аккаунт с таким email уже существует. Войдите или восстановите пароль.");
+    const user = await this.prisma.user.create({ data: { email: input.email, displayName: input.displayName, passwordHash: passwordHash(input.password) } });
+    const token = await this.issueEmailToken(user.id, "EMAIL_VERIFICATION", input.registrationToken ? { registrationToken: input.registrationToken } : undefined);
+    const link = `${environment().AUTH_EMAIL_BASE_URL}/verify-email?token=${encodeURIComponent(token.raw)}`;
+    await this.email(user.email, "Подтвердите email в DentMarket", `Здравствуйте, ${user.displayName}!\n\nПодтвердите email по ссылке:\n${link}\n\nСсылка действует до ${token.expiresAt.toISOString()}.`);
+    await this.prisma.securityEvent.create({ data: { type: "auth.email.registered", severity: "INFO", actorId: user.id, ipAddress: metadata.ipAddress, userAgent: metadata.userAgent } });
+    return { ok: true, verificationRequired: true, email: user.email };
+  }
+
+  async verifyEmail(rawToken: string, metadata: RequestMetadata) {
+    const token = await this.prisma.emailAuthToken.findUnique({ where: { tokenHash: hash(rawToken) }, include: { user: true } });
+    if (!token || token.type !== "EMAIL_VERIFICATION" || token.consumedAt || token.expiresAt <= new Date()) throw new UnauthorizedException("Ссылка подтверждения недействительна или истекла");
+    const registrationToken = token.metadata && typeof token.metadata === "object" && !Array.isArray(token.metadata) && typeof (token.metadata as { registrationToken?: unknown }).registrationToken === "string" ? (token.metadata as { registrationToken: string }).registrationToken : undefined;
+    let onboarding: { organizationId?: string; capability?: string; organizationDisplayName?: string } | null = null;
+    await this.prisma.$transaction(async (tx) => {
+      await tx.emailAuthToken.update({ where: { id: token.id }, data: { consumedAt: new Date() } });
+      await tx.user.update({ where: { id: token.userId }, data: { emailVerifiedAt: new Date(), failedLoginAttempts: 0, lockedUntil: null } });
+    });
+    if (registrationToken) onboarding = await this.onboarding.claim(registrationToken, { id: token.user.id, email: token.user.email, displayName: token.user.displayName });
+    const result = await this.passwordSession(token.user, metadata);
+    return { ...result, ...(onboarding ?? {}), verified: true };
+  }
+
+  private async passwordSession(user: { id: string; email: string; displayName: string }, metadata: RequestMetadata) {
+    const memberships = await this.memberships(user.id);
+    const organizationIds = memberships.map(({ organizationId }) => organizationId);
+    const activeOrganizationId = memberships.find(({ isPrimary }) => isPrimary)?.organizationId ?? organizationIds[0] ?? null;
+    const session = await this.createSession(user.id, organizationIds, activeOrganizationId, ["password"], metadata);
+    await this.prisma.user.update({ where: { id: user.id }, data: { lastLoginAt: new Date() } });
+    return { user: { id: user.id, email: user.email, displayName: user.displayName }, ...session };
+  }
+
+  async loginEmail(input: { email: string; password: string }, metadata: RequestMetadata) {
+    const user = await this.prisma.user.findUnique({ where: { email: input.email } });
+    if (user?.lockedUntil && user.lockedUntil > new Date()) throw new UnauthorizedException("Слишком много попыток. Попробуйте позже");
+    if (!user || !passwordMatches(input.password, user.passwordHash)) {
+      if (user) await this.prisma.user.update({ where: { id: user.id }, data: { failedLoginAttempts: { increment: 1 }, lockedUntil: user.failedLoginAttempts >= 4 ? new Date(Date.now() + 15 * 60_000) : user.lockedUntil } });
+      throw new UnauthorizedException("Email или пароль указаны неверно");
+    }
+    if (!user.emailVerifiedAt) throw new UnauthorizedException("Сначала подтвердите email");
+    await this.prisma.user.update({ where: { id: user.id }, data: { failedLoginAttempts: 0, lockedUntil: null } });
+    return this.passwordSession(user, metadata);
+  }
+
+  async forgotPassword(email: string) {
+    const user = await this.prisma.user.findUnique({ where: { email } });
+    if (user) {
+      const token = await this.issueEmailToken(user.id, "PASSWORD_RESET");
+      const link = `${environment().AUTH_EMAIL_BASE_URL}/reset-password?token=${encodeURIComponent(token.raw)}`;
+      await this.email(user.email, "Восстановление пароля DentMarket", `Сбросить пароль: ${link}\nСсылка действует 30 минут.`);
+    }
+    return { ok: true, message: "Если аккаунт существует, письмо отправлено" };
+  }
+
+  async resetPassword(rawToken: string, password: string) {
+    const token = await this.prisma.emailAuthToken.findUnique({ where: { tokenHash: hash(rawToken) }, include: { user: true } });
+    if (!token || token.type !== "PASSWORD_RESET" || token.consumedAt || token.expiresAt <= new Date()) throw new UnauthorizedException("Ссылка восстановления недействительна или истекла");
+    await this.prisma.$transaction([this.prisma.emailAuthToken.update({ where: { id: token.id }, data: { consumedAt: new Date() } }), this.prisma.user.update({ where: { id: token.userId }, data: { passwordHash: passwordHash(password), failedLoginAttempts: 0, lockedUntil: null } }), this.prisma.authSession.updateMany({ where: { userId: token.userId, status: "ACTIVE" }, data: { status: "REVOKED", revokedAt: new Date(), revokeReason: "password_reset" } })]);
+    return { ok: true };
   }
 
   async demo(capability: "BUYER" | "SUPPLIER", metadata: RequestMetadata) {

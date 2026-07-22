@@ -47,31 +47,31 @@ const navigation: Array<{ id: SectionId; label: string; icon: ReactNode }> = [
   { id: "organizations", label: "Организации", icon: <BuildingShop24Regular /> },
   { id: "access", label: "Пользователи и права", icon: <PeopleTeam24Regular /> },
   { id: "catalog", label: "Каталог", icon: <Cube24Regular /> },
-  { id: "imports", label: "Импорт и интеграции", icon: <Database24Regular /> },
+  { id: "imports", label: "Загрузка товаров", icon: <Database24Regular /> },
   { id: "orders", label: "Заказы и договоры", icon: <Cart24Regular /> },
   { id: "security", label: "Контроль и доверие", icon: <ShieldLock24Regular /> },
 ];
 
 const sectionMeta: Record<SectionId, { title: string; description: string }> = {
   overview: {
-    title: "Операционный обзор",
-    description: "Состояние платформы и задачи, которые требуют решения оператора.",
+    title: "Обзор",
+    description: "Главные показатели и задачи команды DentMarket.",
   },
   organizations: {
     title: "Организации",
-    description: "Клиники, поставщики, юридические профили и возможности участников.",
+    description: "Клиники, поставщики и их реквизиты.",
   },
   access: {
     title: "Пользователи и права",
-    description: "Роли, разрешения, политики согласования и административный доступ.",
+    description: "Кто и что может делать в кабинетах.",
   },
   catalog: {
     title: "Каталог",
-    description: "Качество карточек, категории, варианты товаров и коммерческие данные.",
+    description: "Карточки, категории, цены и предложения продавцов.",
   },
   imports: {
-    title: "Импорт и интеграции",
-    description: "Источники данных, коннекторы, задания синхронизации и готовность обмена.",
+    title: "Загрузка товаров",
+    description: "Как поставщики передают товары, цены и остатки.",
   },
   orders: {
     title: "Заказы и договоры",
@@ -79,19 +79,19 @@ const sectionMeta: Record<SectionId, { title: string; description: string }> = {
   },
   security: {
     title: "Контроль и доверие",
-    description: "Проверки поставщиков, рейтинг и операционные ограничения.",
+    description: "Проверки поставщиков, рейтинг и ограничения.",
   },
   settings: {
-    title: "Настройки платформы",
-    description: "Служебные возможности и готовность инфраструктурных модулей.",
+    title: "Настройки DentMarket",
+    description: "Основные настройки и доступность разделов.",
   },
 };
 
 const modules: Array<{ id: SectionId; title: string; description: string; icon: ReactNode }> = [
   { id: "organizations", title: "Организации", description: "Юридические профили и участники", icon: <BuildingShop24Regular /> },
-  { id: "access", title: "Доступ", description: "Роли и политики согласования", icon: <ShieldLock24Regular /> },
-  { id: "catalog", title: "Каталог", description: "Товары, варианты и атрибуты", icon: <Cube24Regular /> },
-  { id: "imports", title: "Интеграции", description: "Источники данных и коннекторы", icon: <Database24Regular /> },
+  { id: "access", title: "Доступ", description: "Пользователи и права", icon: <ShieldLock24Regular /> },
+  { id: "catalog", title: "Каталог", description: "Карточки и предложения", icon: <Cube24Regular /> },
+  { id: "imports", title: "Загрузка товаров", description: "Файлы и учётные системы", icon: <Database24Regular /> },
 ];
 
 export default function OperationsWorkspace() {
@@ -104,17 +104,17 @@ export default function OperationsWorkspace() {
   }, []);
 
   if (!authorized) {
-    return <main className={styles.authLoading}>Проверяем защищённую сессию...</main>;
+    return <main className={styles.authLoading}>Проверяем вход...</main>;
   }
 
   const meta = sectionMeta[active];
 
   const overview = (
     <>
-      <section className={styles.statusPanel} aria-label="Статус платформы">
+      <section className={styles.statusPanel} aria-label="Состояние DentMarket">
         <div>
-          <div className={styles.statusTitle}>Основной торговый сценарий доступен</div>
-          <div className={styles.statusText}>Поиск, корзина, заказы, документы и интеграции связаны одним процессом.</div>
+          <div className={styles.statusTitle}>Магазин работает</div>
+          <div className={styles.statusText}>Поиск, корзина, заказы и документы доступны.</div>
         </div>
         <Button className={styles.buttonOutline} appearance="outline" onClick={() => setActive("orders")}>Открыть очередь</Button>
       </section>
@@ -142,7 +142,7 @@ export default function OperationsWorkspace() {
               ["Цена сохранена", "Условия поставщика фиксируются в корзине"],
               ["Заказ разделён", "Каждый поставщик получает свою часть"],
               ["Исполнение подтверждено", "Количество и срок проходят проверку"],
-              ["Документы сформированы", "История доступна участникам и оператору"],
+              ["Документы готовы", "Клиника и поставщик видят их в заказе"],
             ].map(([title, description]) => (
               <div className={styles.checkRow} key={title}>
                 <div className={styles.checkMark}>✓</div>
@@ -173,8 +173,8 @@ export default function OperationsWorkspace() {
     <div className={styles.shell}>
       <aside className={styles.sidebar}>
         <div className={styles.brand}>
-          <span className={styles.brandName}>DentMarket Operations</span>
-          <span className={styles.brandMeta}>Кабинет оператора</span>
+          <span className={styles.brandName}>DentMarket</span>
+          <span className={styles.brandMeta}>Для команды</span>
         </div>
         <nav className={styles.nav} aria-label="Основная навигация">
           {navigation.map((item) => (
@@ -195,7 +195,7 @@ export default function OperationsWorkspace() {
           <Select className={styles.mobileSection} value={active} onChange={(_, data) => setActive(data.value as SectionId)} aria-label="Раздел админки">
             {[...navigation, { id: "settings" as const, label: "Настройки", icon: null }].map((item) => <option value={item.id} key={item.id}>{item.label}</option>)}
           </Select>
-          <Input className={styles.search} contentBefore={<Search24Regular />} placeholder="Поиск по платформе" aria-label="Поиск по платформе" />
+          <Input className={styles.search} contentBefore={<Search24Regular />} placeholder="Поиск" aria-label="Поиск" />
           <Button className={styles.buttonSubtle} appearance="subtle" onClick={() => { clearAdminSession(); window.location.assign("/login"); }}>Выйти</Button>
         </header>
 

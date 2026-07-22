@@ -1,0 +1,83 @@
+import fs from "node:fs/promises";
+import path from "node:path";
+import crypto from "node:crypto";
+import { PrismaClient } from "../apps/api/node_modules/@prisma/client/index.js";
+
+const root = path.resolve(process.cwd());
+const apply = process.argv.includes("--apply");
+const catalog = JSON.parse(await fs.readFile(path.join(root, "apps/buyer-web/app/data/public-catalog-fallback.json"), "utf8"));
+const mediaManifest = JSON.parse(await fs.readFile(path.join(root, "apps/buyer-web/app/data/public-catalog-media.json"), "utf8"));
+const prisma = new PrismaClient();
+
+const normalize = (value) => String(value ?? "").replace(/\s+/g, " ").trim();
+const code = (value) => normalize(value).toLocaleLowerCase("ru").replace(/[^a-zа-яё0-9]+/gi, "-").replace(/^-|-$/g, "").slice(0, 48) || "stomatology";
+const canonicalKey = (product) => [product.name, product.brand, product.manufacturer, product.category].map(normalize).filter(Boolean).join("|").toLocaleLowerCase("ru");
+const slugFor = (product) => `canonical-${crypto.createHash("sha256").update(canonicalKey(product)).digest("hex").slice(0, 32)}`;
+const productType = (name) => /установ|рентген|сканер|компрессор|автоклав|печь|фрезер|оборудован/i.test(name) ? "equipment" : "consumable";
+const batch = (items, size = 100) => Array.from({ length: Math.ceil(items.length / size) }, (_, index) => items.slice(index * size, (index + 1) * size));
+
+try {
+  if (!process.env.DATABASE_URL) throw new Error("DATABASE_URL is required");
+  await prisma.$queryRaw`SELECT 1`;
+  const industry = await prisma.industry.findUnique({ where: { code: "dentistry-kz" } });
+  if (!industry) throw new Error("Industry dentistry-kz is missing; run Prisma migrations and seed first");
+  const units = new Map((await prisma.unitOfMeasure.findMany()).flatMap((unit) => [[unit.code, unit], [unit.symbol, unit]]));
+  const fallbackUnit = units.get("piece") ?? units.get("шт") ?? null;
+  const categoryCache = new Map();
+  const getCategory = async (name) => {
+    const categoryCode = code(name);
+    if (categoryCache.has(categoryCode)) return categoryCache.get(categoryCode);
+    const existing = await prisma.category.findUnique({ where: { industryId_code: { industryId: industry.id, code: categoryCode } } });
+    const category = existing ?? (apply ? await prisma.category.create({ data: { industryId: industry.id, code: categoryCode, nameRu: name, nameKk: name, path: categoryCode } }) : { id: `dry-run-${categoryCode}`, code: categoryCode });
+    categoryCache.set(categoryCode, category);
+    return category;
+  };
+
+  const summary = { sourceCards: catalog.products.length, existing: 0, created: 0, variantsEnsured: 0, categoriesEnsured: 0, mediaLinked: 0, searchDocumentsEnsured: 0, mode: apply ? "apply" : "dry-run" };
+  for (const productInput of catalog.products) {
+    const product = {
+      ...productInput,
+      name: normalize(productInput.name),
+      category: normalize(productInput.category) || "Стоматология",
+      slug: slugFor(productInput),
+    };
+    const category = await getCategory(product.category);
+    const media = mediaManifest.entries[product.sourceUrl ?? ""];
+    const description = product.description || [product.name, `Категория: ${product.category}.`, product.brand ? `Бренд: ${product.brand}.` : null, product.manufacturer ? `Производитель: ${product.manufacturer}.` : null].filter(Boolean).join(" ");
+    const metadata = { source: "public-catalog-fallback", sourceId: product.id, sourceUrl: product.sourceUrl ?? null, sourceUpdatedAt: product.sourceUpdatedAt ?? null, photoStatus: product.photoStatus ?? "category_illustration", importedAsCanonicalDraft: true };
+    if (!apply) {
+      const existing = await prisma.product.findUnique({ where: { slug: product.slug }, select: { id: true } });
+      if (existing) summary.existing += 1; else summary.created += 1;
+      summary.categoriesEnsured += category.id.startsWith("dry-run-") ? 1 : 0;
+      summary.mediaLinked += media ? 1 : 0;
+      summary.variantsEnsured += 1;
+      summary.searchDocumentsEnsured += 1;
+      continue;
+    }
+    const existing = await prisma.product.findUnique({ where: { slug: product.slug }, select: { id: true, externalMetadata: true } });
+    const saved = await prisma.product.upsert({
+      where: { slug: product.slug },
+      update: { canonicalName: product.name, description, descriptionSources: { source: "supplier-catalog", sourceUrl: product.sourceUrl ?? null }, productType: productType(product.name), status: "DRAFT", externalMetadata: { ...(existing?.externalMetadata && typeof existing.externalMetadata === "object" ? existing.externalMetadata : {}), ...metadata } },
+      create: { canonicalName: product.name, slug: product.slug, description, descriptionSources: { source: "supplier-catalog", sourceUrl: product.sourceUrl ?? null }, productType: productType(product.name), status: "DRAFT", externalMetadata: metadata },
+    });
+    if (existing) summary.existing += 1; else summary.created += 1;
+    await prisma.productIndustry.upsert({ where: { productId_industryId: { productId: saved.id, industryId: industry.id } }, update: {}, create: { productId: saved.id, industryId: industry.id } });
+    await prisma.productCategory.upsert({ where: { productId_categoryId: { productId: saved.id, categoryId: category.id } }, update: {}, create: { productId: saved.id, categoryId: category.id } });
+    const variant = await prisma.productVariant.findFirst({ where: { productId: saved.id }, orderBy: { createdAt: "asc" } });
+    if (variant) await prisma.productVariant.update({ where: { id: variant.id }, data: { status: "DRAFT", saleUnitId: fallbackUnit?.id ?? null, externalMetadata: { ...(variant.externalMetadata && typeof variant.externalMetadata === "object" ? variant.externalMetadata : {}), sourceId: product.id, sourceUrl: product.sourceUrl ?? null } } });
+    else await prisma.productVariant.create({ data: { productId: saved.id, status: "DRAFT", saleUnitId: fallbackUnit?.id ?? null, externalMetadata: { sourceId: product.id, sourceUrl: product.sourceUrl ?? null } } });
+    summary.variantsEnsured += 1;
+    if (media) {
+      const existingMedia = await prisma.productMedia.findFirst({ where: { productId: saved.id, sourceUrl: media.sourceUrl } });
+      if (existingMedia) await prisma.productMedia.update({ where: { id: existingMedia.id }, data: { altText: media.altText, width: media.width, height: media.height, metadata: { ...media.metadata, publicFallbackPath: media.securePath }, status: existingMedia.normalizedStorageKey ? "READY" : "PENDING" } });
+      else await prisma.productMedia.create({ data: { productId: saved.id, sourceUrl: media.sourceUrl, altText: media.altText, width: media.width, height: media.height, mimeType: "image/webp", status: "PENDING", metadata: { ...media.metadata, publicFallbackPath: media.securePath } } });
+      summary.mediaLinked += 1;
+    }
+    const terms = [product.name, product.brand, product.manufacturer, product.category, ...((product.attributes ?? []).flat())].filter(Boolean).join(" ");
+    await prisma.productSearchDocument.upsert({ where: { productId: saved.id }, update: { searchableText: terms, normalizedText: terms.toLocaleLowerCase("ru"), facets: { source: "public-catalog-fallback", category: product.category }, categoryIds: [category.id], industryIds: [industry.id], isAvailable: false }, create: { productId: saved.id, searchableText: terms, normalizedText: terms.toLocaleLowerCase("ru"), facets: { source: "public-catalog-fallback", category: product.category }, categoryIds: [category.id], industryIds: [industry.id], isAvailable: false } });
+    summary.searchDocumentsEnsured += 1;
+  }
+  console.log(JSON.stringify({ ok: true, ...summary }, null, 2));
+} finally {
+  await prisma.$disconnect();
+}

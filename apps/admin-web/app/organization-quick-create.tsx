@@ -83,7 +83,7 @@ export function OrganizationQuickCreate() {
             <div className={styles.header}>
               <div>
                 <h2 id="organization-dialog-title">Новая организация</h2>
-                <p>Юридический профиль и функции на платформе.</p>
+                <p>Реквизиты и доступные кабинеты.</p>
               </div>
               <button
                 className={styles.closeButton}
@@ -99,7 +99,7 @@ export function OrganizationQuickCreate() {
                 <input name="legalName" required minLength={2} />
               </label>
               <label>
-                Название на платформе
+                Название в DentMarket
                 <input name="displayName" required minLength={2} />
               </label>
               <label>
