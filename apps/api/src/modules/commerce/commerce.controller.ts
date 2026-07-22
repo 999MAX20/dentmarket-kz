@@ -1,4 +1,4 @@
-import { BadRequestException, Body, Controller, Get, Headers, Param, Post, Query, UseGuards } from "@nestjs/common";
+import { BadRequestException, Body, Controller, Delete, Get, Headers, Param, Patch, Post, Query, UseGuards } from "@nestjs/common";
 import { addCartItemSchema, checkoutCartSchema, confirmSupplierOrderSchema, createCartSchema } from "@marketplace/schemas";
 import { ApiTags } from "@nestjs/swagger";
 import { PermissionsGuard } from "../access-control/permissions.guard";
@@ -36,6 +36,20 @@ export class CommerceController {
   addItem(@Param("cartId") cartId: string, @Body() body: unknown, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {
     const parsed = addCartItemSchema.safeParse(body); if (!parsed.success) throw new BadRequestException(parsed.error.flatten());
     return this.commerce.addItem(cartId, parsed.data, this.context(actorId, organizationId));
+  }
+
+  @Patch("carts/:cartId/items/:itemId")
+  @RequirePermissions("order.create")
+  updateItem(@Param("cartId") cartId: string, @Param("itemId") itemId: string, @Body() body: unknown, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {
+    const quantity = Number((body as { quantity?: unknown } | null)?.quantity);
+    if (!Number.isInteger(quantity) || quantity < 1) throw new BadRequestException("Quantity must be a positive integer");
+    return this.commerce.updateItem(cartId, itemId, quantity, this.context(actorId, organizationId));
+  }
+
+  @Delete("carts/:cartId/items/:itemId")
+  @RequirePermissions("order.create")
+  removeItem(@Param("cartId") cartId: string, @Param("itemId") itemId: string, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {
+    return this.commerce.removeItem(cartId, itemId, this.context(actorId, organizationId));
   }
 
   @Post("carts/:cartId/reprice")

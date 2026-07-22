@@ -147,6 +147,27 @@ export class CommerceService {
     });
   }
 
+  async updateItem(cartId: string, itemId: string, quantity: number, context: SupplierActorContext) {
+    const cart = await this.requireCart(cartId, context);
+    if (cart.status !== "ACTIVE") throw new ConflictException("Only an active cart can be changed");
+    const item = cart.items.find((candidate) => candidate.id === itemId);
+    if (!item) throw new NotFoundException("Cart item not found");
+    return this.addItem(cartId, { offerId: item.offerId, quantity }, context);
+  }
+
+  async removeItem(cartId: string, itemId: string, context: SupplierActorContext) {
+    const cart = await this.requireCart(cartId, context);
+    if (cart.status !== "ACTIVE") throw new ConflictException("Only an active cart can be changed");
+    const item = cart.items.find((candidate) => candidate.id === itemId);
+    if (!item) throw new NotFoundException("Cart item not found");
+    await this.prisma.$transaction(async (tx) => {
+      await tx.cartItem.delete({ where: { id: itemId } });
+      await tx.cart.update({ where: { id: cartId }, data: { version: { increment: 1 } } });
+      await tx.auditLog.create({ data: { ...context, action: "cart.item.removed", entityType: "Cart", entityId: cartId, after: { itemId, offerId: item.offerId } } });
+    });
+    return this.requireCart(cartId, context);
+  }
+
   async reprice(cartId: string, context: SupplierActorContext) {
     const cart = await this.requireCart(cartId, context);
     if (cart.status !== "ACTIVE") throw new ConflictException("Only an active cart can be repriced");
