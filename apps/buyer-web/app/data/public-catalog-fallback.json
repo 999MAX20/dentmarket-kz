@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T17:08:37.538Z",
+  "generatedAt": "2026-07-22T17:14:53.756Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -14,7 +14,7 @@
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3187,
+  "total": 3192,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -316909,6 +316909,534 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-c0f0c55daf2174cc5bc420bb",
+      "name": "W&H Assistina One",
+      "description": "Аппарат для автоматического ухода за стоматологическими наконечниками. Тип подключения и комплектация выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "W&H Assistina One",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стерилизация",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "W&H",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "W&H Dentalwerk Bürmoos GmbH",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "wh-official",
+            "sourceUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/reprocessing-devices/assistina-one",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "W&H Assistina One"
+          }
+        ]
+      },
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "category": "Стерилизация",
+      "sourceUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/reprocessing-devices/assistina-one",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стерилизация"
+        ],
+        [
+          "Бренд",
+          "W&H"
+        ],
+        [
+          "Производитель",
+          "W&H Dentalwerk Bürmoos GmbH"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Assistina One",
+        "Assistina 1",
+        "Ассистина Ван",
+        "Assistina One MB301 with Quick ISO",
+        "Assistina One MB301 with Quick RM",
+        "Assistina One MB301 with Quick RM and Quick ISO"
+      ],
+      "variants": [
+        {
+          "id": "public-c0f0c55daf2174cc5bc420bb-variant-d3509e513eccba4635bcd993",
+          "sku": "30398001",
+          "gtin": null,
+          "label": "Quick ISO · комплект с одним адаптером",
+          "attributes": {
+            "Артикул производителя": "30398001"
+          }
+        },
+        {
+          "id": "public-c0f0c55daf2174cc5bc420bb-variant-0fe6788e72e8f6a271d619c3",
+          "sku": "30398002",
+          "gtin": null,
+          "label": "Quick RM · комплект с одним адаптером",
+          "attributes": {
+            "Артикул производителя": "30398002"
+          }
+        },
+        {
+          "id": "public-c0f0c55daf2174cc5bc420bb-variant-62a5d37ed64dbc88677e5b70",
+          "sku": "30398003",
+          "gtin": null,
+          "label": "Quick RM + Quick ISO · комплект с двумя адаптерами",
+          "attributes": {
+            "Артикул производителя": "30398003"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-0824c2d8fc78d057602cb5d9",
+      "name": "W&H Implantmed Plus II",
+      "description": "Хирургический мотор для имплантологии и челюстно-лицевой хирургии. Сканирование и тип педали зависят от выбранной комплектации.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "W&H Implantmed Plus II",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Хирургическое оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "W&H",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "W&H Dentalwerk Bürmoos GmbH",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "wh-official",
+            "sourceUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/implantmed-2",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "W&H Implantmed Plus II"
+          }
+        ]
+      },
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "category": "Хирургическое оборудование",
+      "sourceUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/implantmed-2",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Хирургическое оборудование"
+        ],
+        [
+          "Бренд",
+          "W&H"
+        ],
+        [
+          "Производитель",
+          "W&H Dentalwerk Bürmoos GmbH"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Implantmed Plus II",
+        "Implantmed 2",
+        "Имплантмед Плюс 2",
+        "Implantmed Plus II Scan-Edition",
+        "Implantmed Plus II wireless",
+        "Implantmed Plus II wired"
+      ],
+      "variants": [
+        {
+          "id": "public-0824c2d8fc78d057602cb5d9-variant-6c196d4c704357776210503d",
+          "sku": "SI-2102",
+          "gtin": null,
+          "label": "Scan-Edition · беспроводная педаль",
+          "attributes": {
+            "Артикул производителя": "SI-2102"
+          }
+        },
+        {
+          "id": "public-0824c2d8fc78d057602cb5d9-variant-aa1e1240f8a63ce463d62f05",
+          "sku": "SI-2101",
+          "gtin": null,
+          "label": "Беспроводная педаль",
+          "attributes": {
+            "Артикул производителя": "SI-2101"
+          }
+        },
+        {
+          "id": "public-0824c2d8fc78d057602cb5d9-variant-f1711c8242760ee84a79dc9e",
+          "sku": "SI-2100",
+          "gtin": null,
+          "label": "Проводная педаль",
+          "attributes": {
+            "Артикул производителя": "SI-2100"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-09a8ff9968eb8bd0f4c9d8cd",
+      "name": "W&H Lara XL",
+      "description": "Автоклав с камерой 28 л для стерилизации инструментов. Комплектация и дополнительные функции указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "W&H Lara XL",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стерилизация",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "W&H",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "W&H Dentalwerk Bürmoos GmbH",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "wh-official",
+            "sourceUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lara-xl",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "W&H Lara XL"
+          }
+        ]
+      },
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "category": "Стерилизация",
+      "sourceUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lara-xl",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стерилизация"
+        ],
+        [
+          "Бренд",
+          "W&H"
+        ],
+        [
+          "Производитель",
+          "W&H Dentalwerk Bürmoos GmbH"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Lara XL",
+        "Lara RIS-311",
+        "Лара XL",
+        "Lara XL RIS-311"
+      ],
+      "variants": [
+        {
+          "id": "public-09a8ff9968eb8bd0f4c9d8cd-variant-d1da02cca5f4410dea499a3b",
+          "sku": "19933110",
+          "gtin": null,
+          "label": "Камера 28 л · RIS-311",
+          "attributes": {
+            "Объём": "28 л",
+            "Артикул производителя": "19933110"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-7c5169f3771a27e47f987730",
+      "name": "W&H Lisa Mini",
+      "description": "Компактный автоклав для быстрой стерилизации наконечников и других инструментов. Объём камеры и напряжение выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "W&H Lisa Mini",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стерилизация",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "W&H",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "W&H Dentalwerk Bürmoos GmbH",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "wh-official",
+            "sourceUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lisa-mini",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "W&H Lisa Mini"
+          }
+        ]
+      },
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "category": "Стерилизация",
+      "sourceUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lisa-mini",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стерилизация"
+        ],
+        [
+          "Бренд",
+          "W&H"
+        ],
+        [
+          "Производитель",
+          "W&H Dentalwerk Bürmoos GmbH"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Lisa Mini",
+        "Lisa Mini 3L",
+        "Lisa Mini 5L",
+        "Лиза Мини",
+        "Lisa Mini RIS-303 220 V",
+        "Lisa Mini RIS-305 220 V"
+      ],
+      "variants": [
+        {
+          "id": "public-7c5169f3771a27e47f987730-variant-fe228f6f9061f4ba7bca13b4",
+          "sku": "19944100",
+          "gtin": null,
+          "label": "Камера 3 л · 220 В",
+          "attributes": {
+            "Объём": "3 л",
+            "Артикул производителя": "19944100"
+          }
+        },
+        {
+          "id": "public-7c5169f3771a27e47f987730-variant-ce1fc5cfd6c21c3549434ea2",
+          "sku": "19945100",
+          "gtin": null,
+          "label": "Камера 5 л · 220 В",
+          "attributes": {
+            "Объём": "5 л",
+            "Артикул производителя": "19945100"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-2da6ad7ca19c67fba8e47531",
+      "name": "W&H Piezomed",
+      "description": "Ультразвуковой аппарат для точной работы с костной тканью. Набор инструментов и комплектация указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "W&H Piezomed",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Хирургическое оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "W&H",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "W&H Dentalwerk Bürmoos GmbH",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "wh-official",
+            "sourceUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/piezomed",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "W&H Piezomed"
+          }
+        ]
+      },
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "category": "Хирургическое оборудование",
+      "sourceUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/piezomed",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Хирургическое оборудование"
+        ],
+        [
+          "Бренд",
+          "W&H"
+        ],
+        [
+          "Производитель",
+          "W&H Dentalwerk Bürmoos GmbH"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Piezomed",
+        "Пьезомед",
+        "Пиезомед"
+      ],
+      "variants": [
+        {
+          "id": "public-2da6ad7ca19c67fba8e47531-variant-b31f1edc3fc9123ae9d659a9",
+          "sku": "30078000",
+          "gtin": null,
+          "label": "Основной комплект Piezomed",
+          "attributes": {
+            "Артикул производителя": "30078000"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-65d259ad129a26f8556533ca",

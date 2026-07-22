@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T17:08:19.958Z",
-  "total": 1675,
+  "generatedAt": "2026-07-22T17:14:52.812Z",
+  "total": 1680,
   "entries": {
     "https://amdgroup.kz/catalog/konusovidnye/bory_almaznye_247_009f_fg/": {
       "id": "9aa079e6-0a46-43b3-af20-39eb3601a968",
@@ -33320,6 +33320,86 @@
         "rightsStatus": "official_manufacturer_catalog",
         "sourcePageUrl": "https://www.ultradent.com/products/categories/equipment/curing-lights/valo-x?sku=5973-",
         "sourceImageUrl": "https://images.ctfassets.net/wfptrcrbtkd0/6nKwX7OcM1Z9CzWSRmMTNS/944eb2aaca033189125939e6f4a69d12/ValoX-Black-2x.png?fm=webp"
+      }
+    },
+    "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/reprocessing-devices/assistina-one": {
+      "id": "manufacturer-cbce8deecd44c1e828347e646e9ae22d",
+      "sourceUrl": "https://a.storyblok.com/f/45617/550x461/d616e5093e/wh-assistina-one-product-details-zoom.jpg",
+      "securePath": "/catalog/products/cbce8deecd44c1e828347e646e9ae22d.png",
+      "normalizedStorageKey": "catalog/products/cbce8deecd44c1e828347e646e9ae22d.png",
+      "mimeType": "image/png",
+      "altText": "W&H Assistina One",
+      "width": 1200,
+      "height": 1006,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/reprocessing-devices/assistina-one",
+        "sourceImageUrl": "https://a.storyblok.com/f/45617/550x461/d616e5093e/wh-assistina-one-product-details-zoom.jpg"
+      }
+    },
+    "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lara-xl": {
+      "id": "manufacturer-511352b4690fe4db2d71edb929095056",
+      "sourceUrl": "https://a.storyblok.com/f/45617/550x550/a71d3ef117/lara-xl-product-detail-zoom.jpg",
+      "securePath": "/catalog/products/511352b4690fe4db2d71edb929095056.png",
+      "normalizedStorageKey": "catalog/products/511352b4690fe4db2d71edb929095056.png",
+      "mimeType": "image/png",
+      "altText": "W&H Lara XL",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lara-xl",
+        "sourceImageUrl": "https://a.storyblok.com/f/45617/550x550/a71d3ef117/lara-xl-product-detail-zoom.jpg"
+      }
+    },
+    "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lisa-mini": {
+      "id": "manufacturer-c7911e2dc171b00824d462a141a01431",
+      "sourceUrl": "https://a.storyblok.com/f/45617/550x550/5c88014751/wh-lisa-mini-5l-product-detail-zoom.jpg",
+      "securePath": "/catalog/products/c7911e2dc171b00824d462a141a01431.png",
+      "normalizedStorageKey": "catalog/products/c7911e2dc171b00824d462a141a01431.png",
+      "mimeType": "image/png",
+      "altText": "W&H Lisa Mini",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lisa-mini",
+        "sourceImageUrl": "https://a.storyblok.com/f/45617/550x550/5c88014751/wh-lisa-mini-5l-product-detail-zoom.jpg"
+      }
+    },
+    "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/implantmed-2": {
+      "id": "manufacturer-5aa4116fbb29888efcd402077c032304",
+      "sourceUrl": "https://a.storyblok.com/f/45617/550x461/a48f35f383/implantmed-2-scan-edition-550px.jpg",
+      "securePath": "/catalog/products/5aa4116fbb29888efcd402077c032304.png",
+      "normalizedStorageKey": "catalog/products/5aa4116fbb29888efcd402077c032304.png",
+      "mimeType": "image/png",
+      "altText": "W&H Implantmed Plus II",
+      "width": 1200,
+      "height": 1006,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/implantmed-2",
+        "sourceImageUrl": "https://a.storyblok.com/f/45617/550x461/a48f35f383/implantmed-2-scan-edition-550px.jpg"
+      }
+    },
+    "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/piezomed": {
+      "id": "manufacturer-73d0dd27a2da0075fb126371f090f25d",
+      "sourceUrl": "https://a.storyblok.com/f/45617/c68b229650/piezomed_product-detail-zoom.jpg",
+      "securePath": "/catalog/products/73d0dd27a2da0075fb126371f090f25d.png",
+      "normalizedStorageKey": "catalog/products/73d0dd27a2da0075fb126371f090f25d.png",
+      "mimeType": "image/png",
+      "altText": "W&H Piezomed",
+      "width": 768,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/piezomed",
+        "sourceImageUrl": "https://a.storyblok.com/f/45617/c68b229650/piezomed_product-detail-zoom.jpg"
       }
     }
   }
