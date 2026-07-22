@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-07-22T19:04:16.784Z",
+  "generatedAt": "2026-07-22T19:19:04.140Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
     "amdgroup-crawled-catalog.csv",
     "denti-kz-catalog.csv",
+    "ekom-kz-catalog.csv",
     "interdent-kz-catalog.csv",
     "kazdentservice-catalog.csv",
     "kz-public-sitemaps.csv",
@@ -15,7 +16,7 @@
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3292,
+  "total": 3321,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -12113,6 +12114,94 @@
       ]
     },
     {
+      "id": "public-1fe4adf2211eda7943def01e",
+      "name": "Адсорбционные осушители EKOM",
+      "description": "Осушитель для получения сухого сжатого воздуха.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Адсорбционные осушители EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/adsorption-dryer",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Адсорбционные осушители EKOM"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/adsorption-dryer",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-1fe4adf2211eda7943def01e-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-cc2a103a74f4b888bd41b6a9",
       "name": "Аксиат-спрей",
       "description": "Аксиат-спрей в категории «Гигиена и профилактика».",
@@ -13843,120 +13932,6 @@
           "supplier": {
             "id": "supplier-d052e8e6a0630db4509dd2e9",
             "name": "AMDgroup"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "уп.",
-            "quantityInBaseUnit": "1",
-            "unit": "уп."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-0e2cc9fcd4b7fb9a33a21570",
-      "name": "Анестетик стоматологический",
-      "description": "Анестетик стоматологический бренда Medexim в категории «Анестезия». Поставляется как уп.",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Анестетик стоматологический",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Анестезия",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "Medexim",
-            "confidence": 0.72
-          },
-          {
-            "field": "MANUFACTURER",
-            "value": "Medexim",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "уп.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "nordstom",
-            "sourceUrl": "https://nordstom.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Анестетик стоматологический"
-          }
-        ]
-      },
-      "brand": "Medexim",
-      "manufacturer": "Medexim",
-      "category": "Анестезия",
-      "sourceUrl": "https://nordstom.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Анестезия"
-        ],
-        [
-          "Бренд",
-          "Medexim"
-        ],
-        [
-          "Производитель",
-          "Medexim"
-        ],
-        [
-          "Единица",
-          "уп."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-0e2cc9fcd4b7fb9a33a21570-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · уп.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-0e2cc9fcd4b7fb9a33a21570-offer-0",
-          "variantId": "public-0e2cc9fcd4b7fb9a33a21570-variant-default",
-          "supplier": {
-            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
-            "name": "NORD STOM"
           },
           "priceMinor": null,
           "currency": "KZT",
@@ -17935,6 +17910,1639 @@
       ]
     },
     {
+      "id": "public-055957aee51674dfc08611a5",
+      "name": "Безмасляный стоматологический компрессор EKOM DK50 2V",
+      "description": "Модель с ресивером 25 л для двух стоматологических установок. Исполнение со шкафом и осушителем выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Безмасляный стоматологический компрессор EKOM DK50 2V",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-2v",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Безмасляный стоматологический компрессор EKOM DK50 2V"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-2v",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Безмасляный стоматологический компрессор EKOM DK50 2V · DK502V · базовое исполнение",
+        "Безмасляный стоматологический компрессор EKOM DK50 2V · DK502V/M(MD) · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2V · DK502V/M(ADS) · адсорбционный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2V · DK502VS · со шкафом",
+        "Безмасляный стоматологический компрессор EKOM DK50 2V · DK502VS/M(MD) · со шкафом · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2V · DK502VS/M(ADS) · со шкафом · адсорбционный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2V · DK502V/M(ADM) · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2V · DK502VS/M(ADM) · со шкафом · мембранный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-055957aee51674dfc08611a5-variant-87baeb42e55a591cb6f7199e",
+          "sku": "DK502V",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502V · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DK502V"
+          }
+        },
+        {
+          "id": "public-055957aee51674dfc08611a5-variant-c9b89ac3d7d1e61683f29e8e",
+          "sku": "DK502V/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502V/M(MD) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502V/M(MD)"
+          }
+        },
+        {
+          "id": "public-055957aee51674dfc08611a5-variant-4f2f47c2390f2ef5c579a402",
+          "sku": "DK502V/M(ADS)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502V/M(ADS) · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502V/M(ADS)"
+          }
+        },
+        {
+          "id": "public-055957aee51674dfc08611a5-variant-12e988e66a3425e835c3d9f8",
+          "sku": "DK502VS",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502VS · со шкафом",
+          "attributes": {
+            "Артикул производителя": "DK502VS"
+          }
+        },
+        {
+          "id": "public-055957aee51674dfc08611a5-variant-8b56f8c2627eb454e0411a50",
+          "sku": "DK502VS/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502VS/M(MD) · со шкафом · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502VS/M(MD)"
+          }
+        },
+        {
+          "id": "public-055957aee51674dfc08611a5-variant-180f8df46fed92c7b90509c8",
+          "sku": "DK502VS/M(ADS)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502VS/M(ADS) · со шкафом · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502VS/M(ADS)"
+          }
+        },
+        {
+          "id": "public-055957aee51674dfc08611a5-variant-412ea6503ae9666556c0a53e",
+          "sku": "DK502V/M(ADM)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502V/M(ADM) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502V/M(ADM)"
+          }
+        },
+        {
+          "id": "public-055957aee51674dfc08611a5-variant-b43a77a59ed9fb3b360ce4c5",
+          "sku": "DK502VS/M(ADM)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502VS/M(ADM) · со шкафом · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502VS/M(ADM)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-42030cfaf26d75c8e88df3ae",
+      "name": "Безмасляный стоматологический компрессор EKOM DK50 2V/50",
+      "description": "Модель с ресивером 50 л для двух стоматологических установок. Исполнение со шкафом и осушителем выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Безмасляный стоматологический компрессор EKOM DK50 2V/50",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-2v50",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Безмасляный стоматологический компрессор EKOM DK50 2V/50"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-2v50",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Безмасляный стоматологический компрессор EKOM DK50 2V/50 · DK502V/50 · базовое исполнение",
+        "Безмасляный стоматологический компрессор EKOM DK50 2V/50 · DK502V/50S · со шкафом",
+        "Безмасляный стоматологический компрессор EKOM DK50 2V/50 · DK502V/50/M(MD) · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2V/50 · DK502V/50/M(ADM) · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2V/50 · DK502V/50S/M(MD) · со шкафом · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2V/50 · DK502V/50S/M(ADM) · со шкафом · мембранный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-42030cfaf26d75c8e88df3ae-variant-81bd78388592d1e77fb04d3d",
+          "sku": "DK502V/50",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502V/50 · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DK502V/50"
+          }
+        },
+        {
+          "id": "public-42030cfaf26d75c8e88df3ae-variant-16089495e0efbd08ffb27d0f",
+          "sku": "DK502V/50S",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502V/50S · со шкафом",
+          "attributes": {
+            "Артикул производителя": "DK502V/50S"
+          }
+        },
+        {
+          "id": "public-42030cfaf26d75c8e88df3ae-variant-6deff2ce8e4e2329757bacc2",
+          "sku": "DK502V/50/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502V/50/M(MD) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502V/50/M(MD)"
+          }
+        },
+        {
+          "id": "public-42030cfaf26d75c8e88df3ae-variant-0073c3fafc34bbe9e0699515",
+          "sku": "DK502V/50/M(ADM)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502V/50/M(ADM) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502V/50/M(ADM)"
+          }
+        },
+        {
+          "id": "public-42030cfaf26d75c8e88df3ae-variant-70ccae77799912c5a100a926",
+          "sku": "DK502V/50S/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502V/50S/M(MD) · со шкафом · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502V/50S/M(MD)"
+          }
+        },
+        {
+          "id": "public-42030cfaf26d75c8e88df3ae-variant-2a789aec3d14bde207101614",
+          "sku": "DK502V/50S/M(ADM)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502V/50S/M(ADM) · со шкафом · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502V/50S/M(ADM)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-8bb9852a8548329a6cefb03e",
+      "name": "Безмасляный стоматологический компрессор EKOM DK50 2X2V/110",
+      "description": "Модель с ресивером 110 л для трёх–четырёх стоматологических установок. Исполнение со шкафом и осушителем выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Безмасляный стоматологический компрессор EKOM DK50 2X2V/110",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-2x2v110",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Безмасляный стоматологический компрессор EKOM DK50 2X2V/110"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-2x2v110",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Безмасляный стоматологический компрессор EKOM DK50 2X2V/110 · DK502x2V/110 · базовое исполнение",
+        "Безмасляный стоматологический компрессор EKOM DK50 2X2V/110 · DK502x2V/110S · со шкафом",
+        "Безмасляный стоматологический компрессор EKOM DK50 2X2V/110 · DK502x2V/110/M(MD) · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2X2V/110 · DK502x2V/110/M(ADM) · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2X2V/110 · DK502x2V/110S/M(MD) · со шкафом · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2X2V/110 · DK502x2V/110S/M(ADM) · со шкафом · мембранный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-8bb9852a8548329a6cefb03e-variant-d40e5e47ea3ca797b460d3a6",
+          "sku": "DK502x2V/110",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502x2V/110 · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DK502x2V/110"
+          }
+        },
+        {
+          "id": "public-8bb9852a8548329a6cefb03e-variant-fab3212d1bd6e2029a0183e0",
+          "sku": "DK502x2V/110S",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502x2V/110S · со шкафом",
+          "attributes": {
+            "Артикул производителя": "DK502x2V/110S"
+          }
+        },
+        {
+          "id": "public-8bb9852a8548329a6cefb03e-variant-8846a87ca0b8c1b879f3eff0",
+          "sku": "DK502x2V/110/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502x2V/110/M(MD) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502x2V/110/M(MD)"
+          }
+        },
+        {
+          "id": "public-8bb9852a8548329a6cefb03e-variant-2d2a9dafdda6fc5106040dca",
+          "sku": "DK502x2V/110/M(ADM)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502x2V/110/M(ADM) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502x2V/110/M(ADM)"
+          }
+        },
+        {
+          "id": "public-8bb9852a8548329a6cefb03e-variant-44e19ebd6b591c81b62e8fd3",
+          "sku": "DK502x2V/110S/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502x2V/110S/M(MD) · со шкафом · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502x2V/110S/M(MD)"
+          }
+        },
+        {
+          "id": "public-8bb9852a8548329a6cefb03e-variant-6fe20436ae50ab2f8aa426ef",
+          "sku": "DK502x2V/110S/M(ADM)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502x2V/110S/M(ADM) · со шкафом · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502x2V/110S/M(ADM)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-bfbc9959359b4522f4a5bf33",
+      "name": "Безмасляный стоматологический компрессор EKOM DK50 2X4VR/110",
+      "description": "Компрессорная станция для стоматологической клиники. Исполнение со шкафом и осушителем выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Безмасляный стоматологический компрессор EKOM DK50 2X4VR/110",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-2x4vr110",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Безмасляный стоматологический компрессор EKOM DK50 2X4VR/110"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-2x4vr110",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Безмасляный стоматологический компрессор EKOM DK50 2X4VR/110 · DK502x4VR/110 · базовое исполнение",
+        "Безмасляный стоматологический компрессор EKOM DK50 2X4VR/110 · DK502x4VR/110S · со шкафом",
+        "Безмасляный стоматологический компрессор EKOM DK50 2X4VR/110 · DK502x4VR/110/M(MD) · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2X4VR/110 · DK502x4VR/110/M(ADM) · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2X4VR/110 · DK502x4VR/110S/M(MD) · со шкафом · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 2X4VR/110 · DK502x4VR/110S/M(ADM) · со шкафом · мембранный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-bfbc9959359b4522f4a5bf33-variant-fadf8c53783b650794679f50",
+          "sku": "DK502x4VR/110",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502x4VR/110 · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DK502x4VR/110"
+          }
+        },
+        {
+          "id": "public-bfbc9959359b4522f4a5bf33-variant-3e6b7019c6f92986404bc3c6",
+          "sku": "DK502x4VR/110S",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502x4VR/110S · со шкафом",
+          "attributes": {
+            "Артикул производителя": "DK502x4VR/110S"
+          }
+        },
+        {
+          "id": "public-bfbc9959359b4522f4a5bf33-variant-0a6caafd45b684d55a6ca9a8",
+          "sku": "DK502x4VR/110/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502x4VR/110/M(MD) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502x4VR/110/M(MD)"
+          }
+        },
+        {
+          "id": "public-bfbc9959359b4522f4a5bf33-variant-d7cd47a73644b9d3c0f796d7",
+          "sku": "DK502x4VR/110/M(ADM)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502x4VR/110/M(ADM) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502x4VR/110/M(ADM)"
+          }
+        },
+        {
+          "id": "public-bfbc9959359b4522f4a5bf33-variant-6e158a6c0a01912fa5462337",
+          "sku": "DK502x4VR/110S/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502x4VR/110S/M(MD) · со шкафом · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502x4VR/110S/M(MD)"
+          }
+        },
+        {
+          "id": "public-bfbc9959359b4522f4a5bf33-variant-e1c5c8fc472fc59a9550d164",
+          "sku": "DK502x4VR/110S/M(ADM)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK502x4VR/110S/M(ADM) · со шкафом · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK502x4VR/110S/M(ADM)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-4e09070712ea8f9132804f01",
+      "name": "Безмасляный стоматологический компрессор EKOM DK50 3X4VR/M",
+      "description": "Компрессорная станция с осушением воздуха для стоматологической клиники. Исполнение со шкафом и осушителем выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Безмасляный стоматологический компрессор EKOM DK50 3X4VR/M",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-3x4vrm",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Безмасляный стоматологический компрессор EKOM DK50 3X4VR/M"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-3x4vrm",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Безмасляный стоматологический компрессор EKOM DK50 3X4VR/M · DK503x4VR/M(AD) · адсорбционный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 3X4VR/M · DK503x4VR/M(RD) · рефрижераторный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-4e09070712ea8f9132804f01-variant-a42c12feec6d6307a976e6c7",
+          "sku": "DK503x4VR/M(AD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK503x4VR/M(AD) · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK503x4VR/M(AD)"
+          }
+        },
+        {
+          "id": "public-4e09070712ea8f9132804f01-variant-3d18dbcaa4460776c02cf7c2",
+          "sku": "DK503x4VR/M(RD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK503x4VR/M(RD) · рефрижераторный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK503x4VR/M(RD)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-772cbe54c9964b15ee12eee9",
+      "name": "Безмасляный стоматологический компрессор EKOM DK50 4VR/50",
+      "description": "Модель для одновременной работы трёх–четырёх стоматологических установок. Исполнение со шкафом и осушителем выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Безмасляный стоматологический компрессор EKOM DK50 4VR/50",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-4vr50",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Безмасляный стоматологический компрессор EKOM DK50 4VR/50"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-4vr50",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Безмасляный стоматологический компрессор EKOM DK50 4VR/50 · DK504VR/50 · базовое исполнение",
+        "Безмасляный стоматологический компрессор EKOM DK50 4VR/50 · DK504VR/50S · со шкафом",
+        "Безмасляный стоматологический компрессор EKOM DK50 4VR/50 · DK504VR/50/M(MD) · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 4VR/50 · DK504VR/50/M(ADM) · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 4VR/50 · DK504VR/50S/M(MD) · со шкафом · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 4VR/50 · DK504VR/50S/M(ADM) · со шкафом · мембранный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-772cbe54c9964b15ee12eee9-variant-3968e1aed5c5c827d1cc5aef",
+          "sku": "DK504VR/50",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK504VR/50 · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DK504VR/50"
+          }
+        },
+        {
+          "id": "public-772cbe54c9964b15ee12eee9-variant-1fd1bebb09af5ad486c14768",
+          "sku": "DK504VR/50S",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK504VR/50S · со шкафом",
+          "attributes": {
+            "Артикул производителя": "DK504VR/50S"
+          }
+        },
+        {
+          "id": "public-772cbe54c9964b15ee12eee9-variant-a39730f8cad9322c6db08ed3",
+          "sku": "DK504VR/50/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK504VR/50/M(MD) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK504VR/50/M(MD)"
+          }
+        },
+        {
+          "id": "public-772cbe54c9964b15ee12eee9-variant-0d3b90c0c9b376181461a6fd",
+          "sku": "DK504VR/50/M(ADM)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK504VR/50/M(ADM) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK504VR/50/M(ADM)"
+          }
+        },
+        {
+          "id": "public-772cbe54c9964b15ee12eee9-variant-ac044070a6203767dbac1188",
+          "sku": "DK504VR/50S/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK504VR/50S/M(MD) · со шкафом · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK504VR/50S/M(MD)"
+          }
+        },
+        {
+          "id": "public-772cbe54c9964b15ee12eee9-variant-944c3d8b4dbff950ed9c2553",
+          "sku": "DK504VR/50S/M(ADM)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK504VR/50S/M(ADM) · со шкафом · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK504VR/50S/M(ADM)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-12122d5becbc5dab0eaf1621",
+      "name": "Безмасляный стоматологический компрессор EKOM DK50 4X4VRT/M",
+      "description": "Высокопроизводительная компрессорная станция для стоматологической клиники. Исполнение со шкафом и осушителем выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Безмасляный стоматологический компрессор EKOM DK50 4X4VRT/M",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-4x4vrtm",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Безмасляный стоматологический компрессор EKOM DK50 4X4VRT/M"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-4x4vrtm",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Безмасляный стоматологический компрессор EKOM DK50 4X4VRT/M · DK504x4VRT/M(AD) · адсорбционный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 4X4VRT/M · DK504x4VRT/M(RD) · рефрижераторный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 4X4VRT/M · DK504x4VRTS/M(AD) · со шкафом · адсорбционный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 4X4VRT/M · DK504x4VRTS/M(RD) · со шкафом · рефрижераторный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-12122d5becbc5dab0eaf1621-variant-4ab5daf60bcb7f5477b6a007",
+          "sku": "DK504x4VRT/M(AD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK504x4VRT/M(AD) · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK504x4VRT/M(AD)"
+          }
+        },
+        {
+          "id": "public-12122d5becbc5dab0eaf1621-variant-0ead0d68372d2fe08cf2686a",
+          "sku": "DK504x4VRT/M(RD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK504x4VRT/M(RD) · рефрижераторный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK504x4VRT/M(RD)"
+          }
+        },
+        {
+          "id": "public-12122d5becbc5dab0eaf1621-variant-a06d89d7df132312f24a9066",
+          "sku": "DK504x4VRTS/M(AD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK504x4VRTS/M(AD) · со шкафом · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK504x4VRTS/M(AD)"
+          }
+        },
+        {
+          "id": "public-12122d5becbc5dab0eaf1621-variant-1c20adf516a4cd8d549410e5",
+          "sku": "DK504x4VRTS/M(RD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK504x4VRTS/M(RD) · со шкафом · рефрижераторный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK504x4VRTS/M(RD)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-bab6ab6716e78e0ebc64a8d3",
+      "name": "Безмасляный стоматологический компрессор EKOM DK50 6X4VRT/M",
+      "description": "Высокопроизводительная компрессорная станция для центра с несколькими кабинетами. Исполнение со шкафом и осушителем выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Безмасляный стоматологический компрессор EKOM DK50 6X4VRT/M",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-6x4vrtm",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Безмасляный стоматологический компрессор EKOM DK50 6X4VRT/M"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-6x4vrtm",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Безмасляный стоматологический компрессор EKOM DK50 6X4VRT/M · DK506x4VRT/M(AD) · адсорбционный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 6X4VRT/M · DK506x4VRT/M(RD) · рефрижераторный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 6X4VRT/M · DK506x4VRTS/M(AD) · со шкафом · адсорбционный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 6X4VRT/M · DK506x4VRTS/M(RD) · со шкафом · рефрижераторный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-bab6ab6716e78e0ebc64a8d3-variant-fd40e005c3f0da30802f57ac",
+          "sku": "DK506x4VRT/M(AD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK506x4VRT/M(AD) · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK506x4VRT/M(AD)"
+          }
+        },
+        {
+          "id": "public-bab6ab6716e78e0ebc64a8d3-variant-7138d76523319c806000dd20",
+          "sku": "DK506x4VRT/M(RD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK506x4VRT/M(RD) · рефрижераторный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK506x4VRT/M(RD)"
+          }
+        },
+        {
+          "id": "public-bab6ab6716e78e0ebc64a8d3-variant-f2e3b4f0cd4c4a0cbac3a876",
+          "sku": "DK506x4VRTS/M(AD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK506x4VRTS/M(AD) · со шкафом · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK506x4VRTS/M(AD)"
+          }
+        },
+        {
+          "id": "public-bab6ab6716e78e0ebc64a8d3-variant-7bb166eafe36a1762f9616d4",
+          "sku": "DK506x4VRTS/M(RD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK506x4VRTS/M(RD) · со шкафом · рефрижераторный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK506x4VRTS/M(RD)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-2f536f296efa18d6db2848ab",
+      "name": "Безмасляный стоматологический компрессор EKOM DK50 9X4VRT/M",
+      "description": "Центральная компрессорная станция для крупной стоматологической клиники. Исполнение со шкафом и осушителем выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Безмасляный стоматологический компрессор EKOM DK50 9X4VRT/M",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-9x4vrtm",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Безмасляный стоматологический компрессор EKOM DK50 9X4VRT/M"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-9x4vrtm",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Безмасляный стоматологический компрессор EKOM DK50 9X4VRT/M · DK509x4VRT/M(AD) · адсорбционный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 9X4VRT/M · DK509x4VRT/M(RD) · рефрижераторный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 9X4VRT/M · DK509x4VRTS/M(AD) · со шкафом · адсорбционный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 9X4VRT/M · DK509x4VRTS/M(RD) · со шкафом · рефрижераторный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-2f536f296efa18d6db2848ab-variant-d49f6ce88894dee46e95b460",
+          "sku": "DK509x4VRT/M(AD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK509x4VRT/M(AD) · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK509x4VRT/M(AD)"
+          }
+        },
+        {
+          "id": "public-2f536f296efa18d6db2848ab-variant-ae74b4521a193e74aaf75fad",
+          "sku": "DK509x4VRT/M(RD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK509x4VRT/M(RD) · рефрижераторный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK509x4VRT/M(RD)"
+          }
+        },
+        {
+          "id": "public-2f536f296efa18d6db2848ab-variant-266c91d7d6f4136b0f546395",
+          "sku": "DK509x4VRTS/M(AD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK509x4VRTS/M(AD) · со шкафом · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK509x4VRTS/M(AD)"
+          }
+        },
+        {
+          "id": "public-2f536f296efa18d6db2848ab-variant-798395fb378f892e15811fa1",
+          "sku": "DK509x4VRTS/M(RD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK509x4VRTS/M(RD) · со шкафом · рефрижераторный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK509x4VRTS/M(RD)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-d7d799d0358685701e790d2a",
+      "name": "Безмасляный стоматологический компрессор EKOM DK50 PLUS",
+      "description": "Модель с ресивером 25 л для одной стоматологической установки. Исполнение со шкафом и осушителем выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Безмасляный стоматологический компрессор EKOM DK50 PLUS",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-plus",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Безмасляный стоматологический компрессор EKOM DK50 PLUS"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-plus",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Безмасляный стоматологический компрессор EKOM DK50 PLUS · DK50PLUS · базовое исполнение",
+        "Безмасляный стоматологический компрессор EKOM DK50 PLUS · DK50PLUS/M(MD) · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 PLUS · DK50PLUS/M(ADS) · адсорбционный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 PLUS · DK50PLUSS · со шкафом",
+        "Безмасляный стоматологический компрессор EKOM DK50 PLUS · DK50PLUSS/M(MD) · со шкафом · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50 PLUS · DK50PLUSS/M(ADS) · со шкафом · адсорбционный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-d7d799d0358685701e790d2a-variant-1970796f87c7957705042215",
+          "sku": "DK50PLUS",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50PLUS · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DK50PLUS"
+          }
+        },
+        {
+          "id": "public-d7d799d0358685701e790d2a-variant-15f9b9cdbb8c17be3caecc35",
+          "sku": "DK50PLUS/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50PLUS/M(MD) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK50PLUS/M(MD)"
+          }
+        },
+        {
+          "id": "public-d7d799d0358685701e790d2a-variant-b23f99d0a57dd78ebfa679cc",
+          "sku": "DK50PLUS/M(ADS)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50PLUS/M(ADS) · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK50PLUS/M(ADS)"
+          }
+        },
+        {
+          "id": "public-d7d799d0358685701e790d2a-variant-f8ee286326bc30951d6c453e",
+          "sku": "DK50PLUSS",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50PLUSS · со шкафом",
+          "attributes": {
+            "Артикул производителя": "DK50PLUSS"
+          }
+        },
+        {
+          "id": "public-d7d799d0358685701e790d2a-variant-8110f9bebfa51e77f16399eb",
+          "sku": "DK50PLUSS/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50PLUSS/M(MD) · со шкафом · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK50PLUSS/M(MD)"
+          }
+        },
+        {
+          "id": "public-d7d799d0358685701e790d2a-variant-ffc5713d436bb2613b219ed8",
+          "sku": "DK50PLUSS/M(ADS)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50PLUSS/M(ADS) · со шкафом · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK50PLUSS/M(ADS)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-bb03a2dc9f96a880715e0217",
+      "name": "Безмасляный стоматологический компрессор EKOM DK50 SIMPLE",
+      "description": "Компактная мобильная модель для одной стоматологической установки. Исполнение со шкафом и осушителем выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Безмасляный стоматологический компрессор EKOM DK50 SIMPLE",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-simple",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Безмасляный стоматологический компрессор EKOM DK50 SIMPLE"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-simple",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Безмасляный стоматологический компрессор EKOM DK50 SIMPLE · DK50simple · базовое исполнение"
+      ],
+      "variants": [
+        {
+          "id": "public-bb03a2dc9f96a880715e0217-variant-7182bfbcd4a97f5009d3d8bb",
+          "sku": "DK50simple",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50simple · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DK50simple"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-b3b31dbcda5e5a1a0e824f00",
+      "name": "Безмасляный стоматологический компрессор EKOM DK50-10",
+      "description": "Модель с ресивером 10 л для одной стоматологической установки. Исполнение со шкафом и осушителем выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Безмасляный стоматологический компрессор EKOM DK50-10",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-10",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Безмасляный стоматологический компрессор EKOM DK50-10"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-10",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Безмасляный стоматологический компрессор EKOM DK50-10 · DK50-10Z · без шкафа",
+        "Безмасляный стоматологический компрессор EKOM DK50-10 · DK50-10Z/M(MD) · без шкафа · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50-10 · DK50-10Z/M(ADS) · без шкафа · адсорбционный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50-10 · DK50-10S · со шкафом",
+        "Безмасляный стоматологический компрессор EKOM DK50-10 · DK50-10S/M(MD) · со шкафом · мембранный осушитель",
+        "Безмасляный стоматологический компрессор EKOM DK50-10 · DK50-10S/M(ADS) · со шкафом · адсорбционный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-b3b31dbcda5e5a1a0e824f00-variant-6e3f84f06af04fcb20761c5a",
+          "sku": "DK50-10Z",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50-10Z · без шкафа",
+          "attributes": {
+            "Артикул производителя": "DK50-10Z"
+          }
+        },
+        {
+          "id": "public-b3b31dbcda5e5a1a0e824f00-variant-ff3b650f765d7c7c2b58cd1c",
+          "sku": "DK50-10Z/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50-10Z/M(MD) · без шкафа · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK50-10Z/M(MD)"
+          }
+        },
+        {
+          "id": "public-b3b31dbcda5e5a1a0e824f00-variant-87a833886d81f19be6370021",
+          "sku": "DK50-10Z/M(ADS)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50-10Z/M(ADS) · без шкафа · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK50-10Z/M(ADS)"
+          }
+        },
+        {
+          "id": "public-b3b31dbcda5e5a1a0e824f00-variant-953271200e1013816a593749",
+          "sku": "DK50-10S",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50-10S · со шкафом",
+          "attributes": {
+            "Артикул производителя": "DK50-10S"
+          }
+        },
+        {
+          "id": "public-b3b31dbcda5e5a1a0e824f00-variant-205fbfa5b41fd76a2ee47ddc",
+          "sku": "DK50-10S/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50-10S/M(MD) · со шкафом · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK50-10S/M(MD)"
+          }
+        },
+        {
+          "id": "public-b3b31dbcda5e5a1a0e824f00-variant-864825c16b17e225bfaea8d6",
+          "sku": "DK50-10S/M(ADS)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DK50-10S/M(ADS) · со шкафом · адсорбционный осушитель",
+          "attributes": {
+            "Артикул производителя": "DK50-10S/M(ADS)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-8246f356c02c193913cf84cb",
       "name": "Бейсболка амд гроуп",
       "description": "Бейсболка амд гроуп в категории «Стоматологические материалы и оборудование».",
@@ -18426,6 +20034,94 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-a43a628766da703804087ec1",
+      "name": "Блок конденсации и фильтрации EKOM",
+      "description": "Блок удаления конденсата и фильтрации сжатого воздуха.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Блок конденсации и фильтрации EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/condensing-and-filtration-unit",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Блок конденсации и фильтрации EKOM"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/condensing-and-filtration-unit",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-a43a628766da703804087ec1-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-82ccb6839af2460a913b6050",
@@ -91868,6 +93564,94 @@
       ]
     },
     {
+      "id": "public-c2bd5d5a71b21fe6ec6b17f3",
+      "name": "Вакуумный клапан EKOM",
+      "description": "Клапан управления вакуумом в системе стоматологической аспирации.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Вакуумный клапан EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/vacuum-valve",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Вакуумный клапан EKOM"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/vacuum-valve",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-c2bd5d5a71b21fe6ec6b17f3-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-60b7900f1099af14d9c92cb4",
       "name": "Вакуумный пылеуловитель AX-MX800",
       "description": "Вакуумный пылеуловитель AX-MX800 в категории «Зуботехнические материалы».",
@@ -101229,6 +103013,182 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-79c2efdab903a4366541f487",
+      "name": "Глушители выхлопа EKOM",
+      "description": "Глушители для снижения шума при сбросе воздуха из компрессора.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Глушители выхлопа EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/exhaust-silencers",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Глушители выхлопа EKOM"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/exhaust-silencers",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-79c2efdab903a4366541f487-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-a82567ac2400a52e535ea4d6",
+      "name": "Глушитель с HEPA-фильтром EKOM",
+      "description": "Глушитель с HEPA-фильтром для снижения шума и очистки выходящего воздуха.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Глушитель с HEPA-фильтром EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/silencer-with-hepa-filter",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Глушитель с HEPA-фильтром EKOM"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/silencer-with-hepa-filter",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-a82567ac2400a52e535ea4d6-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-eceb0910449782245faf7cca",
@@ -139172,6 +141132,94 @@
       ]
     },
     {
+      "id": "public-825b93d47e75bd964dfe859d",
+      "name": "Комплект сепаратора амальгамы EKOM",
+      "description": "Комплект для отделения амальгамы в системе стоматологической аспирации.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Комплект сепаратора амальгамы EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/amalgam-separator-kit",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Комплект сепаратора амальгамы EKOM"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/amalgam-separator-kit",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-825b93d47e75bd964dfe859d-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-35a7ffc10663d63775a57652",
       "name": "Комплект стоматологический №2",
       "description": "Комплект стоматологический №2 бренда ZT Dental в категории «Одноразовая продукция». Поставляется как набор.",
@@ -139567,6 +141615,318 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-fa37830cfc1807a940083604",
+      "name": "Компрессор с аспирацией EKOM DUO",
+      "description": "Единый блок DUO: безмасляный компрессор и стоматологическая аспирация. Исполнение выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Компрессор с аспирацией EKOM DUO",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors-with-dental-suction-system/duo",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Компрессор с аспирацией EKOM DUO"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors-with-dental-suction-system/duo",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Компрессор с аспирацией EKOM DUO · DUO · базовое исполнение",
+        "Компрессор с аспирацией EKOM DUO · DUO/M(MD) · мембранный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-fa37830cfc1807a940083604-variant-fdd823e31be438f6ab80b001",
+          "sku": "DUO",
+          "gtin": null,
+          "aliases": [],
+          "label": "DUO · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DUO"
+          }
+        },
+        {
+          "id": "public-fa37830cfc1807a940083604-variant-7b5c28e73d87ffe489daea29",
+          "sku": "DUO/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DUO/M(MD) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DUO/M(MD)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-78e5b270952f395024e57b09",
+      "name": "Компрессор с аспирацией EKOM DUO 2",
+      "description": "Единый блок DUO 2: безмасляный компрессор и стоматологическая аспирация. Исполнение выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Компрессор с аспирацией EKOM DUO 2",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors-with-dental-suction-system/duo-2",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Компрессор с аспирацией EKOM DUO 2"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors-with-dental-suction-system/duo-2",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Компрессор с аспирацией EKOM DUO 2 · DUO2 · базовое исполнение",
+        "Компрессор с аспирацией EKOM DUO 2 · DUO2/M(MD) · мембранный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-78e5b270952f395024e57b09-variant-3997243332787f2fbea81aea",
+          "sku": "DUO2",
+          "gtin": null,
+          "aliases": [],
+          "label": "DUO2 · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DUO2"
+          }
+        },
+        {
+          "id": "public-78e5b270952f395024e57b09-variant-51e6e041cc7051d578355028",
+          "sku": "DUO2/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DUO2/M(MD) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DUO2/M(MD)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-82f40cda1164c271a12fb447",
+      "name": "Компрессор с аспирацией EKOM DUO 2V",
+      "description": "Единый блок DUO 2V: безмасляный компрессор и стоматологическая аспирация. Исполнение выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Компрессор с аспирацией EKOM DUO 2V",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors-with-dental-suction-system/duo-2v",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Компрессор с аспирацией EKOM DUO 2V"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/compressors-with-dental-suction-system/duo-2v",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Компрессор с аспирацией EKOM DUO 2V · DUO2V · базовое исполнение",
+        "Компрессор с аспирацией EKOM DUO 2V · DUO2V/M(MD) · мембранный осушитель"
+      ],
+      "variants": [
+        {
+          "id": "public-82f40cda1164c271a12fb447-variant-8ba25bd1813dd7d8045b0b50",
+          "sku": "DUO2V",
+          "gtin": null,
+          "aliases": [],
+          "label": "DUO2V · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DUO2V"
+          }
+        },
+        {
+          "id": "public-82f40cda1164c271a12fb447-variant-b138fbd57c4d3ca6f6238495",
+          "sku": "DUO2V/M(MD)",
+          "gtin": null,
+          "aliases": [],
+          "label": "DUO2V/M(MD) · мембранный осушитель",
+          "attributes": {
+            "Артикул производителя": "DUO2V/M(MD)"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-98d6735c9f80467887cb45fa",
@@ -158939,6 +161299,94 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-80b5850ea277fba1d3230a87",
+      "name": "Мембранные осушители EKOM",
+      "description": "Мембранный осушитель сжатого воздуха для стоматологических систем.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Мембранные осушители EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/membrane-dryer",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Мембранные осушители EKOM"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/membrane-dryer",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-80b5850ea277fba1d3230a87-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-2ce7e5da213518c3bc3f79cd",
@@ -213703,6 +216151,94 @@
       ]
     },
     {
+      "id": "public-390a67d5f933181c2c31fc5b",
+      "name": "Регуляторы давления EKOM",
+      "description": "Регуляторы для настройки рабочего давления в системе сжатого воздуха.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Регуляторы давления EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/pressure-regulators",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Регуляторы давления EKOM"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/pressure-regulators",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-390a67d5f933181c2c31fc5b-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-3b8268bdef4267cc6ddbe7e4",
       "name": "Резинка для нанесения полировочной пасты",
       "description": "Резинка для нанесения полировочной пасты в категории «Инструменты».",
@@ -221812,6 +224348,406 @@
       ]
     },
     {
+      "id": "public-ca85b095ceae2336c30683e0",
+      "name": "Система автоматического слива конденсата EKOM",
+      "description": "Система автоматического удаления конденсата из ресивера.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Система автоматического слива конденсата EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/automatic-discharge-of-condensate",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Система автоматического слива конденсата EKOM"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/automatic-discharge-of-condensate",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-ca85b095ceae2336c30683e0-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-554983379600a2c00f554625",
+      "name": "Система аспирации EKOM DO 2.1",
+      "description": "Система аспирации DO 2.1 для подключения к стоматологической установке. Исполнение выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Система аспирации EKOM DO 2.1",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/dental-suction-systems/do-21",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Система аспирации EKOM DO 2.1"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/dental-suction-systems/do-21",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Система аспирации EKOM DO 2.1 · DO2.1Z · без шкафа",
+        "Система аспирации EKOM DO 2.1 · DO2.1 · базовое исполнение",
+        "Система аспирации EKOM DO 2.1 · DO2.1-10 · базовое исполнение"
+      ],
+      "variants": [
+        {
+          "id": "public-554983379600a2c00f554625-variant-fe1049b67108d91dc738f3ed",
+          "sku": "DO2.1Z",
+          "gtin": null,
+          "aliases": [],
+          "label": "DO2.1Z · без шкафа",
+          "attributes": {
+            "Артикул производителя": "DO2.1Z"
+          }
+        },
+        {
+          "id": "public-554983379600a2c00f554625-variant-9c163bee0f0edd04cf0617a9",
+          "sku": "DO2.1",
+          "gtin": null,
+          "aliases": [],
+          "label": "DO2.1 · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DO2.1"
+          }
+        },
+        {
+          "id": "public-554983379600a2c00f554625-variant-9e5fe373a9961ac6fe4e7e2c",
+          "sku": "DO2.1-10",
+          "gtin": null,
+          "aliases": [],
+          "label": "DO2.1-10 · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DO2.1-10"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-37de25f3feee1fda026f488d",
+      "name": "Система аспирации EKOM DO 3",
+      "description": "Система аспирации DO 3 для подключения к стоматологической установке. Исполнение выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Система аспирации EKOM DO 3",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/dental-suction-systems/do-3",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Система аспирации EKOM DO 3"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/dental-suction-systems/do-3",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Система аспирации EKOM DO 3 · DO3STANDARD · стандартное исполнение",
+        "Система аспирации EKOM DO 3 · DO3ADVANCED · расширенное исполнение"
+      ],
+      "variants": [
+        {
+          "id": "public-37de25f3feee1fda026f488d-variant-1dde1e0c0738f52c19645555",
+          "sku": "DO3STANDARD",
+          "gtin": null,
+          "aliases": [],
+          "label": "DO3STANDARD · стандартное исполнение",
+          "attributes": {
+            "Артикул производителя": "DO3STANDARD"
+          }
+        },
+        {
+          "id": "public-37de25f3feee1fda026f488d-variant-6500a8387d98a1fb97e87a64",
+          "sku": "DO3ADVANCED",
+          "gtin": null,
+          "aliases": [],
+          "label": "DO3ADVANCED · расширенное исполнение",
+          "attributes": {
+            "Артикул производителя": "DO3ADVANCED"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-35f74c646a1743c8efd10236",
+      "name": "Система аспирации EKOM DO M",
+      "description": "Система аспирации DO M для подключения к стоматологической установке. Исполнение выбирается в карточке.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Система аспирации EKOM DO M",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/dental-suction-systems/do-m",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Система аспирации EKOM DO M"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/dental-suction-systems/do-m",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Система аспирации EKOM DO M · DOM · базовое исполнение"
+      ],
+      "variants": [
+        {
+          "id": "public-35f74c646a1743c8efd10236-variant-7e6e9877fff0dbcc576df15f",
+          "sku": "DOM",
+          "gtin": null,
+          "aliases": [],
+          "label": "DOM · базовое исполнение",
+          "attributes": {
+            "Артикул производителя": "DOM"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-c1a486c604d7ffe033c71852",
       "name": "Система для адгезивной фиксации MONOBOND N REFILL 5G",
       "description": "Система для адгезивной фиксации MONOBOND N REFILL 5G в категории «Терапевтические материалы».",
@@ -222290,6 +225226,94 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-2b2c7fada510cf51b8069eaf",
+      "name": "Система управления компрессорами EKOM 3KOM",
+      "description": "Система удалённого контроля и управления компрессорными станциями EKOM.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Система управления компрессорами EKOM 3KOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/3kom-control-system",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Система управления компрессорами EKOM 3KOM"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/3kom-control-system",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-2b2c7fada510cf51b8069eaf-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-49b40992357eb20820ed1e25",
@@ -241425,6 +244449,94 @@
       ]
     },
     {
+      "id": "public-590133e4881cf236c3698760",
+      "name": "Фильтрующие модули EKOM",
+      "description": "Фильтрующие модули для подготовки сжатого воздуха стоматологической установки.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Фильтрующие модули EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/filtration-units",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Фильтрующие модули EKOM"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/filtration-units",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-590133e4881cf236c3698760-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-bc9c48fbd227fdbb34406ae2",
       "name": "Фильцы для полирования",
       "description": "Фильцы разных форм для полирования зуботехнических конструкций. Форма и размер выбираются в варианте товара.",
@@ -253077,6 +256189,94 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-1c565aa9225a64ba35158ab4",
+      "name": "Шумопоглощающие шкафы EKOM",
+      "description": "Шкафы для снижения шума работающего компрессора.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Шумопоглощающие шкафы EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "EKOM",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "EKOM spol. s r.o.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ekom-official-kz",
+            "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/noise-reduction-cabinets",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Шумопоглощающие шкафы EKOM"
+          }
+        ]
+      },
+      "brand": "EKOM",
+      "manufacturer": "EKOM spol. s r.o.",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/noise-reduction-cabinets",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "EKOM"
+        ],
+        [
+          "Производитель",
+          "EKOM spol. s r.o."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-1c565aa9225a64ba35158ab4-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-f109c08026bebda06285f7cb",

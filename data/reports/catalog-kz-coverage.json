@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T19:04:17.045Z",
+  "generatedAt": "2026-07-22T19:19:04.427Z",
   "policy": {
     "referenceKey": "brand + manufacturerRef",
     "publishRule": "Kazakhstan evidence is tracked independently from the global manufacturer catalog",
@@ -8,10 +8,10 @@
     "sellerOfferCreatesDuplicateCard": false
   },
   "totals": {
-    "references": 917,
-    "kzConfirmedReferences": 299,
-    "confirmationRequiredReferences": 618,
-    "publishedReferences": 824,
+    "references": 988,
+    "kzConfirmedReferences": 300,
+    "confirmationRequiredReferences": 688,
+    "publishedReferences": 895,
     "ambiguousReferences": 0
   },
   "brands": [
@@ -88,6 +88,21 @@
       "kzMarketFamilies": 0,
       "kzSkuConfirmedFamilies": 0,
       "publishedFamilies": 15,
+      "expansionFamilies": 0
+    },
+    {
+      "brand": "EKOM",
+      "coverageStatus": "KZ_AUDIT_IN_PROGRESS",
+      "auditStage": "FAMILY_CONFIRMED_SKU_REVIEW_OPEN",
+      "nextAction": "Confirm every manufacturer reference and package against Kazakhstan evidence",
+      "references": 71,
+      "kzConfirmedReferences": 1,
+      "confirmationRequiredReferences": 70,
+      "publishedReferences": 71,
+      "canonicalFamilies": 18,
+      "kzMarketFamilies": 30,
+      "kzSkuConfirmedFamilies": 1,
+      "publishedFamilies": 30,
       "expansionFamilies": 0
     },
     {
@@ -283,21 +298,6 @@
       "kzMarketFamilies": 0,
       "kzSkuConfirmedFamilies": 0,
       "publishedFamilies": 11,
-      "expansionFamilies": 0
-    },
-    {
-      "brand": "Medexim",
-      "coverageStatus": "NOT_CLASSIFIED",
-      "auditStage": "NOT_STARTED",
-      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
-      "references": 0,
-      "kzConfirmedReferences": 0,
-      "confirmationRequiredReferences": 0,
-      "publishedReferences": 0,
-      "canonicalFamilies": 0,
-      "kzMarketFamilies": 0,
-      "kzSkuConfirmedFamilies": 0,
-      "publishedFamilies": 1,
       "expansionFamilies": 0
     },
     {

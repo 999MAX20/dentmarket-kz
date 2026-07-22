@@ -1,6 +1,6 @@
 # Kazakhstan SKU coverage
 
-Generated: 2026-07-22T19:04:17.045Z
+Generated: 2026-07-22T19:19:04.427Z
 
 | Brand | Audit status | References | Exact KZ refs | KZ review | Published-card refs | Ref families | KZ market families | Exact KZ families | Public cards | Expansion queue |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -9,6 +9,7 @@ Generated: 2026-07-22T19:04:17.045Z
 | COXO | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 44 | 0 |
 | DentKist | KZ_AUDIT_REQUIRED | 3 | 0 | 3 | 3 | 1 | 0 | 0 | 6 | 0 |
 | Dentsply Sirona | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 | 0 |
+| EKOM | KZ_AUDIT_IN_PROGRESS | 71 | 1 | 70 | 71 | 18 | 30 | 1 | 30 | 0 |
 | FOMOS | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 | 0 |
 | GC | KZ_AUDIT_IN_PROGRESS | 159 | 154 | 5 | 159 | 12 | 12 | 11 | 13 | 13 |
 | Hummer-Pak | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
@@ -22,7 +23,6 @@ Generated: 2026-07-22T19:04:17.045Z
 | Kuraray Noritake | KZ_AUDIT_REQUIRED | 23 | 0 | 23 | 23 | 5 | 0 | 0 | 5 | 5 |
 | LaTus | KZ_AUDIT_REQUIRED | 9 | 0 | 9 | 9 | 2 | 0 | 0 | 5 | 0 |
 | LM Dental | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 | 0 |
-| Medexim | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | NIC | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 |
 | NSK | KZ_AUDIT_REQUIRED | 14 | 0 | 14 | 14 | 4 | 0 | 0 | 9 | 9 |
 | One Drop Only | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 | 0 |

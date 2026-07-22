@@ -1,0 +1,350 @@
+{
+  "brand": "Ekom",
+  "manufacturer": "EKOM spol. s r.o.",
+  "market": "KZ",
+  "officialCatalogUrl": "https://www.ekom.sk/en/products/dentistry/compressors",
+  "representativeUrl": "https://www.medexim.sk/en/contacts/corporate-representation/kazakhstan",
+  "localCatalogUrl": "https://nordstom.kz/brand?id=71",
+  "localExactProductUrl": "https://nordstom.kz/catalog/dental-equipment/compressors/item-499",
+  "localExactModel": "DK50-10 S",
+  "lastChecked": "2026-07-22",
+  "totals": {
+    "products": 30,
+    "productsWithExactImage": 30,
+    "productFamiliesWithVariants": 18,
+    "variants": 71,
+    "exactKzProducts": 1,
+    "exactKzVariants": 1
+  },
+  "products": [
+    {
+      "model": "DK50 SIMPLE",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-simple",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/9/e/csm_dk50_simple_titulka_2ad50adcb9.webp",
+      "category": "Стоматологические компрессоры",
+      "summary": null,
+      "variants": [
+        "DK50simple"
+      ]
+    },
+    {
+      "model": "DK50-10",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-10",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/d/9/csm_dk50_10_titulka_2_f51f13238d.webp",
+      "category": "Стоматологические компрессоры",
+      "summary": null,
+      "variants": [
+        "DK50-10Z",
+        "DK50-10Z/M(MD)",
+        "DK50-10Z/M(ADS)",
+        "DK50-10S",
+        "DK50-10S/M(MD)",
+        "DK50-10S/M(ADS)"
+      ]
+    },
+    {
+      "model": "DK50 PLUS",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-plus",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/f/e/csm_dk50_plus_titulka_ceffc4c05a.webp",
+      "category": "Стоматологические компрессоры",
+      "summary": null,
+      "variants": [
+        "DK50PLUS",
+        "DK50PLUS/M(MD)",
+        "DK50PLUS/M(ADS)",
+        "DK50PLUSS",
+        "DK50PLUSS/M(MD)",
+        "DK50PLUSS/M(ADS)"
+      ]
+    },
+    {
+      "model": "DK50 2V",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-2v",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/8/a/csm_dk50_2v_titulka_45806e9cff.webp",
+      "category": "Стоматологические компрессоры",
+      "summary": null,
+      "variants": [
+        "DK502V",
+        "DK502V/M(MD)",
+        "DK502V/M(ADS)",
+        "DK502VS",
+        "DK502VS/M(MD)",
+        "DK502VS/M(ADS)",
+        "DK502V/M(ADM)",
+        "DK502VS/M(ADM)"
+      ]
+    },
+    {
+      "model": "DK50 2V/50",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-2v50",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/7/c/csm_dk50_2v_50_titulka_198fad6c17.webp",
+      "category": "Стоматологические компрессоры",
+      "summary": null,
+      "variants": [
+        "DK502V/50",
+        "DK502V/50S",
+        "DK502V/50/M(MD)",
+        "DK502V/50/M(ADM)",
+        "DK502V/50S/M(MD)",
+        "DK502V/50S/M(ADM)"
+      ]
+    },
+    {
+      "model": "DK50 4VR/50",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-4vr50",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/f/2/csm_dk50_4vr_50_titulka_01_b7dff26c5e.webp",
+      "category": "Стоматологические компрессоры",
+      "summary": null,
+      "variants": [
+        "DK504VR/50",
+        "DK504VR/50S",
+        "DK504VR/50/M(MD)",
+        "DK504VR/50/M(ADM)",
+        "DK504VR/50S/M(MD)",
+        "DK504VR/50S/M(ADM)"
+      ]
+    },
+    {
+      "model": "DK50 2X2V/110",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-2x2v110",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/8/e/csm_dk50_2x2v_110_titulka_01_a0b8637c21.webp",
+      "category": "Стоматологические компрессоры",
+      "summary": null,
+      "variants": [
+        "DK502x2V/110",
+        "DK502x2V/110S",
+        "DK502x2V/110/M(MD)",
+        "DK502x2V/110/M(ADM)",
+        "DK502x2V/110S/M(MD)",
+        "DK502x2V/110S/M(ADM)"
+      ]
+    },
+    {
+      "model": "DK50 2X4VR/110",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-2x4vr110",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/d/c/csm_dk50_2x4vr_md_titulka_54947b0689.webp",
+      "category": "Стоматологические компрессоры",
+      "summary": null,
+      "variants": [
+        "DK502x4VR/110",
+        "DK502x4VR/110S",
+        "DK502x4VR/110/M(MD)",
+        "DK502x4VR/110/M(ADM)",
+        "DK502x4VR/110S/M(MD)",
+        "DK502x4VR/110S/M(ADM)"
+      ]
+    },
+    {
+      "model": "DK50 3X4VR/M",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-3x4vrm",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/e/d/csm_dk50_3x4vr_m_titulka_d631284afb.webp",
+      "category": "Стоматологические компрессоры",
+      "summary": null,
+      "variants": [
+        "DK503x4VR/M(AD)",
+        "DK503x4VR/M(RD)"
+      ]
+    },
+    {
+      "model": "DK50 4X4VRT/M",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-4x4vrtm",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/3/7/csm_dk50_4x4vrt_m_titulka_612964dcee.webp",
+      "category": "Стоматологические компрессоры",
+      "summary": null,
+      "variants": [
+        "DK504x4VRT/M(AD)",
+        "DK504x4VRT/M(RD)",
+        "DK504x4VRTS/M(AD)",
+        "DK504x4VRTS/M(RD)"
+      ]
+    },
+    {
+      "model": "DK50 6X4VRT/M",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-6x4vrtm",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/4/0/csm_dk50_6x4vrt_m_titulka_873c495d0d.webp",
+      "category": "Стоматологические компрессоры",
+      "summary": null,
+      "variants": [
+        "DK506x4VRT/M(AD)",
+        "DK506x4VRT/M(RD)",
+        "DK506x4VRTS/M(AD)",
+        "DK506x4VRTS/M(RD)"
+      ]
+    },
+    {
+      "model": "DK50 9X4VRT/M",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors/dk50-9x4vrtm",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/c/c/csm_dk50_9x4vrt_s_m_titulka_651065937f.webp",
+      "category": "Стоматологические компрессоры",
+      "summary": null,
+      "variants": [
+        "DK509x4VRT/M(AD)",
+        "DK509x4VRT/M(RD)",
+        "DK509x4VRTS/M(AD)",
+        "DK509x4VRTS/M(RD)"
+      ]
+    },
+    {
+      "model": "DUO",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors-with-dental-suction-system/duo",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/1/c/csm_duo_titulka_1b2f17ce15.webp",
+      "category": "Компрессоры с аспирацией",
+      "summary": "Combination of oil-free compressor and dry suction system in a stylish Ekom cabinet is a source of clean compressed air and vacuum (dry suction) for devices and equipment in dental practice.",
+      "variants": [
+        "DUO",
+        "DUO/M(MD)"
+      ]
+    },
+    {
+      "model": "DUO 2V",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors-with-dental-suction-system/duo-2v",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/c/f/csm_duo_2v_titulka_af4d2ee8c9.webp",
+      "category": "Компрессоры с аспирацией",
+      "summary": "Combination of oil-free two-cylinder compressor and dry suction system in a stylish Ekom cabinet is a source of clean compressed air and vacuum (suction)",
+      "variants": [
+        "DUO2V",
+        "DUO2V/M(MD)"
+      ]
+    },
+    {
+      "model": "DUO 2",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/compressors-with-dental-suction-system/duo-2",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/0/6/csm_duo_2_titulka_545892f0bb.webp",
+      "category": "Компрессоры с аспирацией",
+      "summary": "Combination of oil-free two-cylinder compressor and two dental suction system units (dry suction) in a stylish Ekom cabinet.",
+      "variants": [
+        "DUO2",
+        "DUO2/M(MD)"
+      ]
+    },
+    {
+      "model": "DO 3",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/dental-suction-systems/do-3",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/d/5/csm_do3_titulka_02_6a97e263ce.webp",
+      "category": "Системы аспирации",
+      "summary": "Dental extraction system DO3 with integrated air and liquid separation and preparation for connecting an amalgam sedimentation separator.",
+      "variants": [
+        "DO3STANDARD",
+        "DO3ADVANCED"
+      ]
+    },
+    {
+      "model": "DO 2.1",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/dental-suction-systems/do-21",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/d/5/csm_do21_titulka_4652b5975a.webp",
+      "category": "Системы аспирации",
+      "summary": "Dental suction system DO 2.1 is designed for connection to a dental unit equipped with a water-air separator.",
+      "variants": [
+        "DO2.1Z",
+        "DO2.1",
+        "DO2.1-10"
+      ]
+    },
+    {
+      "model": "DO M",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/dental-suction-systems/do-m",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/2/4/csm_aspina_front_1900x1900_da75689b04.webp",
+      "category": "Системы аспирации",
+      "summary": "Mobile, powerful and stand-alone dental suction system DO M (Aspina) can fully replace the dental suction system on the dental unit.",
+      "variants": [
+        "DOM"
+      ]
+    },
+    {
+      "model": "3KOM control system",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/3kom-control-system",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/4/3/csm_3KOM_9ed57e4996.jpg",
+      "category": "Аксессуары для компрессоров",
+      "summary": "For controlling the compressors (DK50 2V/50, DK50 4VR/50, DK50 2x2V/110, DK50 2x4VR/110)",
+      "variants": []
+    },
+    {
+      "model": "Exhaust silencers",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/exhaust-silencers",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/5/d/csm_DS1_DS6_DS7_titulka_bc81c21912.png",
+      "category": "Аксессуары для компрессоров",
+      "summary": "It will reduce the noise of dental suction system by up to 4 dB(A).",
+      "variants": []
+    },
+    {
+      "model": "Pressure regulators",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/pressure-regulators",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/e/f/csm_REG_titulka_72bfce51b8.png",
+      "category": "Аксессуары для компрессоров",
+      "summary": "For regulating the pressure at the outlet of compressor",
+      "variants": []
+    },
+    {
+      "model": "Filtration units",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/filtration-units",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/b/c/csm_FS_titulka_7788c7ca6f.png",
+      "category": "Аксессуары для компрессоров",
+      "summary": "Filter units for flow from 140 to 2500 l/min, with integrated pressure regulator",
+      "variants": []
+    },
+    {
+      "model": "Condensing and filtration unit",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/condensing-and-filtration-unit",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/5/b/csm_KJF_titulka_ea19f0ca23.png",
+      "category": "Аксессуары для компрессоров",
+      "summary": "Unit for moisture reduction and filtration of solid particles up to 5 microns in size",
+      "variants": []
+    },
+    {
+      "model": "Automatic discharge of condensate",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/automatic-discharge-of-condensate",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/6/a/csm_AOK_titulka_ddddaf64f2.png",
+      "category": "Аксессуары для компрессоров",
+      "summary": "Automatic discharge of condensate from the air tank of compressor with an adjustable timer.",
+      "variants": []
+    },
+    {
+      "model": "Noise reduction cabinets",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/noise-reduction-cabinets",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/5/7/csm_box_titulka_20906d19e0.png",
+      "category": "Аксессуары для компрессоров",
+      "summary": "Wide range of noise reduction cabinets for dental compressors. See our portfolio.",
+      "variants": []
+    },
+    {
+      "model": "Adsorption dryer",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/adsorption-dryer",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/d/4/csm_AD2_a9603d0866.png",
+      "category": "Аксессуары для компрессоров",
+      "summary": "Extend the life of the compressor thanks to the adsorption dryer.",
+      "variants": []
+    },
+    {
+      "model": "Membrane dryer",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/membrane-dryer",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/f/4/csm_MD_titulka_1117feb0a1.png",
+      "category": "Аксессуары для компрессоров",
+      "summary": "Permanently active air dryer for compressors, with a filtration level of 0.1 microns.",
+      "variants": []
+    },
+    {
+      "model": "Amalgam separator kit",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/amalgam-separator-kit",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/3/e/csm_amalgam_separator_kit_web_29fc7d3e15.png",
+      "category": "Аксессуары для компрессоров",
+      "summary": null,
+      "variants": []
+    },
+    {
+      "model": "Vacuum valve",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/vacuum-valve",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/7/0/csm_vacuum_valve_web_8ba7f6a5f7.png",
+      "category": "Аксессуары для компрессоров",
+      "summary": null,
+      "variants": []
+    },
+    {
+      "model": "Silencer with HEPA filter",
+      "sourcePageUrl": "https://www.ekom.sk/en/products/dentistry/optional-equipment/silencer-with-hepa-filter",
+      "sourceImageUrl": "https://www.ekom.sk/fileadmin/_processed_/d/b/csm_silencer_hepa_filter_web_copy_785009438a.png",
+      "category": "Аксессуары для компрессоров",
+      "summary": null,
+      "variants": []
+    }
+  ]
+}
