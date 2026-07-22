@@ -1,6 +1,6 @@
 # Kazakhstan SKU coverage
 
-Generated: 2026-07-22T18:30:42.806Z
+Generated: 2026-07-22T18:33:46.530Z
 
 | Brand | Audit status | References | Exact KZ refs | KZ review | Published-card refs | Ref families | KZ market families | Exact KZ families | Public cards | Expansion queue |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -31,7 +31,7 @@ Generated: 2026-07-22T18:30:42.806Z
 | Shofu | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Solventum | KZ_AUDIT_REQUIRED | 25 | 0 | 25 | 25 | 5 | 0 | 0 | 5 | 5 |
 | Tealth | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 | 0 |
-| Tokuyama Dental | KZ_AUDIT_IN_PROGRESS | 48 | 32 | 16 | 48 | 5 | 13 | 5 | 14 | 14 |
+| Tokuyama Dental | KZ_AUDIT_IN_PROGRESS | 100 | 33 | 67 | 100 | 7 | 13 | 6 | 14 | 14 |
 | Tor VM | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | TORNADO | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 | 0 |
 | Ultradent | KZ_AUDIT_REQUIRED | 2 | 0 | 2 | 2 | 2 | 0 | 0 | 5 | 5 |

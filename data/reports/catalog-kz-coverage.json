@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T18:30:42.806Z",
+  "generatedAt": "2026-07-22T18:33:46.530Z",
   "policy": {
     "referenceKey": "brand + manufacturerRef",
     "publishRule": "Kazakhstan evidence is tracked independently from the global manufacturer catalog",
@@ -8,10 +8,10 @@
     "sellerOfferCreatesDuplicateCard": false
   },
   "totals": {
-    "references": 638,
-    "kzConfirmedReferences": 186,
-    "confirmationRequiredReferences": 452,
-    "publishedReferences": 545,
+    "references": 690,
+    "kzConfirmedReferences": 187,
+    "confirmationRequiredReferences": 503,
+    "publishedReferences": 597,
     "ambiguousReferences": 0
   },
   "brands": [
@@ -369,13 +369,13 @@
     {
       "brand": "Tokuyama Dental",
       "coverageStatus": "KZ_AUDIT_IN_PROGRESS",
-      "references": 48,
-      "kzConfirmedReferences": 32,
-      "confirmationRequiredReferences": 16,
-      "publishedReferences": 48,
-      "canonicalFamilies": 5,
+      "references": 100,
+      "kzConfirmedReferences": 33,
+      "confirmationRequiredReferences": 67,
+      "publishedReferences": 100,
+      "canonicalFamilies": 7,
       "kzMarketFamilies": 13,
-      "kzSkuConfirmedFamilies": 5,
+      "kzSkuConfirmedFamilies": 6,
       "publishedFamilies": 14,
       "expansionFamilies": 14
     },

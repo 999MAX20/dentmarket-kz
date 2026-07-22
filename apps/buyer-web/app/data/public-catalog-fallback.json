@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T18:30:42.548Z",
+  "generatedAt": "2026-07-22T18:33:46.263Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -315723,7 +315723,19 @@
         "Estelite Asteria WE",
         "Estelite Asteria YE",
         "Estelite Asteria TE",
-        "Estelite Asteria OcE"
+        "Estelite Asteria OcE",
+        "Tokuyama Estelite Asteria 15 капсул по 0.2 г · оттенок A1B",
+        "Tokuyama Estelite Asteria 15 капсул по 0.2 г · оттенок A2B",
+        "Tokuyama Estelite Asteria 15 капсул по 0.2 г · оттенок A3B",
+        "Tokuyama Estelite Asteria 15 капсул по 0.2 г · оттенок A3.5B",
+        "Tokuyama Estelite Asteria 15 капсул по 0.2 г · оттенок A4B",
+        "Tokuyama Estelite Asteria 15 капсул по 0.2 г · оттенок B3B",
+        "Tokuyama Estelite Asteria 15 капсул по 0.2 г · оттенок BL",
+        "Tokuyama Estelite Asteria 15 капсул по 0.2 г · оттенок NE",
+        "Tokuyama Estelite Asteria 15 капсул по 0.2 г · оттенок WE",
+        "Tokuyama Estelite Asteria 15 капсул по 0.2 г · оттенок YE",
+        "Tokuyama Estelite Asteria 15 капсул по 0.2 г · оттенок TE",
+        "Tokuyama Estelite Asteria 15 капсул по 0.2 г · оттенок OcE"
       ],
       "variants": [
         {
@@ -315906,6 +315918,164 @@
             "Количество": "1 шт.",
             "Артикул производителя": "10952"
           }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-1ceac49dd4774d0fded881e4",
+          "sku": "10365",
+          "gtin": null,
+          "aliases": [],
+          "label": "15 капсул по 0.2 г · оттенок A1B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "15 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "10365"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-86566ae14b5da333a4fc8fb9",
+          "sku": "10366",
+          "gtin": null,
+          "aliases": [],
+          "label": "15 капсул по 0.2 г · оттенок A2B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "15 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "10366"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-0b9d43fe54c76c0e54848c6f",
+          "sku": "10367",
+          "gtin": null,
+          "aliases": [],
+          "label": "15 капсул по 0.2 г · оттенок A3B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "15 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "10367"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-42a730d54adfa5f1965cbfe6",
+          "sku": "10368",
+          "gtin": null,
+          "aliases": [],
+          "label": "15 капсул по 0.2 г · оттенок A3.5B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "15 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "A3",
+            "Артикул производителя": "10368"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-8eeef1856d3f03dceaf315a1",
+          "sku": "10369",
+          "gtin": null,
+          "aliases": [],
+          "label": "15 капсул по 0.2 г · оттенок A4B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "15 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "10369"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-94742d7fd5e28b736288e8d2",
+          "sku": "10370",
+          "gtin": null,
+          "aliases": [],
+          "label": "15 капсул по 0.2 г · оттенок B3B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "15 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "10370"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-9ef9a33e244c6969621328f2",
+          "sku": "10371",
+          "gtin": null,
+          "aliases": [],
+          "label": "15 капсул по 0.2 г · оттенок BL",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "15 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "BL",
+            "Артикул производителя": "10371"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-bc229eb85447ec94b51d3ed3",
+          "sku": "10372",
+          "gtin": null,
+          "aliases": [],
+          "label": "15 капсул по 0.2 г · оттенок NE",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "15 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "10372"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-3fd89b706f6e648d2a4b3e7b",
+          "sku": "10373",
+          "gtin": null,
+          "aliases": [],
+          "label": "15 капсул по 0.2 г · оттенок WE",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "15 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "10373"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-19c03c86c20ca0fbeaaf7a12",
+          "sku": "10374",
+          "gtin": null,
+          "aliases": [],
+          "label": "15 капсул по 0.2 г · оттенок YE",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "15 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "10374"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-842cd85ae6d47247618e0141",
+          "sku": "10375",
+          "gtin": null,
+          "aliases": [],
+          "label": "15 капсул по 0.2 г · оттенок TE",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "15 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "10375"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-ab5c94024e939c88cdfe011a",
+          "sku": "10376",
+          "gtin": null,
+          "aliases": [],
+          "label": "15 капсул по 0.2 г · оттенок OcE",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "15 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "10376"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -315998,7 +316168,12 @@
         "Estelite Bulk Fill Flow U",
         "Estelite Bulk Fill Flow B1",
         "Estelite Bulk Fill Flow A1",
-        "Estelite Bulk Fill Flow A3"
+        "Estelite Bulk Fill Flow A3",
+        "Tokuyama Estelite Bulk Fill Flow 20 капсул по 0.2 г · оттенок U",
+        "Tokuyama Estelite Bulk Fill Flow 20 капсул по 0.2 г · оттенок B1",
+        "Tokuyama Estelite Bulk Fill Flow 20 капсул по 0.2 г · оттенок A1",
+        "Tokuyama Estelite Bulk Fill Flow 20 капсул по 0.2 г · оттенок A2",
+        "Tokuyama Estelite Bulk Fill Flow 20 капсул по 0.2 г · оттенок A3"
       ],
       "variants": [
         {
@@ -316068,6 +316243,75 @@
             "Количество": "1 шт.",
             "Оттенок": "A3",
             "Артикул производителя": "12704"
+          }
+        },
+        {
+          "id": "public-194dc96c66703495382a9ace-variant-1173b00bed000d7a9dbc2607",
+          "sku": "12720",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок U",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "12720"
+          }
+        },
+        {
+          "id": "public-194dc96c66703495382a9ace-variant-3da5dfd4a608395b8b621e25",
+          "sku": "12721",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок B1",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "B1",
+            "Артикул производителя": "12721"
+          }
+        },
+        {
+          "id": "public-194dc96c66703495382a9ace-variant-e87b026b7cf60aebd549dd1f",
+          "sku": "12722",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок A1",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "A1",
+            "Артикул производителя": "12722"
+          }
+        },
+        {
+          "id": "public-194dc96c66703495382a9ace-variant-8f2663f80092ecd81a4c574b",
+          "sku": "12723",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "A2",
+            "Артикул производителя": "12723"
+          }
+        },
+        {
+          "id": "public-194dc96c66703495382a9ace-variant-73b59ab723eaf0ea37caf4a1",
+          "sku": "12724",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок A3",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "A3",
+            "Артикул производителя": "12724"
           }
         }
       ],
@@ -316157,7 +316401,21 @@
       ],
       "aliases": [
         "Композитные краски Estelite Color, шприц 0,9 г",
-        "Estelite Color композитные краски шприц 0,9 г"
+        "Estelite Color композитные краски шприц 0,9 г",
+        "Tokuyama Estelite Color Набор · 13 шприцев по 0.9 г",
+        "Tokuyama Estelite Color Шприц 0.9 г · Clear",
+        "Tokuyama Estelite Color Шприц 0.9 г · White",
+        "Tokuyama Estelite Color Шприц 0.9 г · Blue",
+        "Tokuyama Estelite Color Шприц 0.9 г · Yellow",
+        "Tokuyama Estelite Color Шприц 0.9 г · Gray",
+        "Tokuyama Estelite Color Шприц 0.9 г · Ocher",
+        "Tokuyama Estelite Color Шприц 0.9 г · Dark Brown",
+        "Tokuyama Estelite Color Шприц 0.9 г · Red",
+        "Tokuyama Estelite Color Шприц 0.9 г · Lavender",
+        "Tokuyama Estelite Color Шприц 0.9 г · Pink Opaque",
+        "Tokuyama Estelite Color Шприц 0.9 г · High Chroma Opaque",
+        "Tokuyama Estelite Color Шприц 0.9 г · Medium Chroma Opaque",
+        "Tokuyama Estelite Color Шприц 0.9 г · Low Chroma Opaque"
       ],
       "variants": [
         {
@@ -316172,39 +316430,196 @@
             "Количество": "1 шт.",
             "Артикул производителя": "KZ-NORDSTOM-159"
           }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-11d845c6e87a8fc3e64b7ae8",
+          "sku": "10831",
+          "gtin": null,
+          "aliases": [],
+          "label": "Набор · 13 шприцев по 0.9 г",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Комплектация": "Набор",
+            "Артикул производителя": "10831"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-4cb03eebb0525168dead0d10",
+          "sku": "10841",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · Clear",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10841"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-ac592c8db7e84ece35c7d066",
+          "sku": "10842",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · White",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10842"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-57a70e9dea60e3c5c9a3b99d",
+          "sku": "10843",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · Blue",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10843"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-6248513ca181bb385274e590",
+          "sku": "10844",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · Yellow",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10844"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-9ae07e2fab2603e3179c7ce2",
+          "sku": "10845",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · Gray",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10845"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-d5803b727b411563b3aef46c",
+          "sku": "10846",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · Ocher",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10846"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-b4dbd3477a3eee4950f54837",
+          "sku": "10847",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · Dark Brown",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10847"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-6f86a40c0e4998225acd1ef2",
+          "sku": "10848",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · Red",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10848"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-6257d8fc0af7a785df34cdbd",
+          "sku": "10849",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · Lavender",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10849"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-2e9720f64ee634518247df8f",
+          "sku": "10850",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · Pink Opaque",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10850"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-e3da9974bd6e139275e9ca38",
+          "sku": "10851",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · High Chroma Opaque",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10851"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-c7362eccf362f5c288505de4",
+          "sku": "10852",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · Medium Chroma Opaque",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10852"
+          }
+        },
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-a22eee527a538a718c43ec0d",
+          "sku": "10853",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 0.9 г · Low Chroma Opaque",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10853"
+          }
         }
       ],
       "photoStatus": "category_illustration",
       "catalogSource": "manufacturer",
       "minNormalizedPriceMinor": null,
       "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-deb13cf3105661c6e8e5800b-offer-0",
-          "variantId": "public-deb13cf3105661c6e8e5800b-variant-fc9f81e254ab982cb800ba15",
-          "supplier": {
-            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
-            "name": "NORD STOM"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
+      "offers": []
     },
     {
       "id": "public-02ead33f86983f3318762148",
@@ -316457,7 +316872,27 @@
         "Estelite Sigma Quick OPA2",
         "Estelite Sigma Quick CE",
         "Estelite Sigma Quick BW",
-        "Estelite Sigma Quick WE"
+        "Estelite Sigma Quick WE",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок A1",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок A2",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок A3",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок A3.5",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок A4 Cerv.",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок A5",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок B1",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок B2",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок B3",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок B4",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок C1",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок C2",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок C3",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок OA1",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок OA2",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок OA3",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок OPA2",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок CE",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок BW",
+        "Tokuyama Estelite Sigma Quick 20 капсул по 0.2 г · оттенок WE"
       ],
       "variants": [
         {
@@ -316782,6 +317217,282 @@
             "Количество": "1 шт.",
             "Оттенок": "A2 / A3 / OA1 / OA2 / OA3",
             "Артикул производителя": "KZ-NORDSTOM-155"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-ed908da251034b88bf0a3525",
+          "sku": "13250",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок A1",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "A1",
+            "Артикул производителя": "13250"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-0bc496bec1ba3f140ff3aa11",
+          "sku": "13251",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "A2",
+            "Артикул производителя": "13251"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-3f114996ac384f8c8fc4c5e9",
+          "sku": "13252",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок A3",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "A3",
+            "Артикул производителя": "13252"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-a50ef9230810d6e5a54e58f0",
+          "sku": "13253",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок A3.5",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "A3.5",
+            "Артикул производителя": "13253"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-66e9c3f858f17c418e3de89f",
+          "sku": "13254",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок A4 Cerv.",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "A4",
+            "Артикул производителя": "13254"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-84f7a789bf88458baee167cb",
+          "sku": "13255",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок A5",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "13255"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-67d7748ce0e1418ff561b791",
+          "sku": "13256",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок B1",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "B1",
+            "Артикул производителя": "13256"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-b55b289b37c5a2b90c25515c",
+          "sku": "13257",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок B2",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "B2",
+            "Артикул производителя": "13257"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-7a97bd7c734e623d61a8e2cc",
+          "sku": "13258",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок B3",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "B3",
+            "Артикул производителя": "13258"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-a9f9c2d6c1d3e385039aaebe",
+          "sku": "13259",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок B4",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "B4",
+            "Артикул производителя": "13259"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-267e7e4409b30aef9c55d736",
+          "sku": "13260",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок C1",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "C1",
+            "Артикул производителя": "13260"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-8888b1812b1b82a79621217b",
+          "sku": "13261",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок C2",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "C2",
+            "Артикул производителя": "13261"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-faaa76b41ba5d23dc1ffc6ae",
+          "sku": "13262",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок C3",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "C3",
+            "Артикул производителя": "13262"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-4bcbd403ca7eb24a6d76b4c6",
+          "sku": "13263",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок OA1",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "OA1",
+            "Артикул производителя": "13263"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-f23453a786108580074a25d6",
+          "sku": "13264",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок OA2",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "OA2",
+            "Артикул производителя": "13264"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-ea944082b4a0cbe50ef31f5f",
+          "sku": "13265",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок OA3",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "OA3",
+            "Артикул производителя": "13265"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-3183f44c8c58a279da98a86b",
+          "sku": "13266",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок OPA2",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "13266"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-359ce24bcb5ea7cfdeb55c30",
+          "sku": "13267",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок CE",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "13267"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-7923d8438b9111a21532ae3f",
+          "sku": "13268",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок BW",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Оттенок": "BW",
+            "Артикул производителя": "13268"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-c03b82e3f605cfef0018c374",
+          "sku": "13269",
+          "gtin": null,
+          "aliases": [],
+          "label": "20 капсул по 0.2 г · оттенок WE",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,2 г",
+            "Артикул производителя": "13269"
           }
         }
       ],
@@ -317596,12 +318307,13 @@
       "aliases": [
         "Shield Force Plus",
         "Tokuyama Shield Force Plus",
-        "Набор Shield Force Plus 3 мл"
+        "Набор Shield Force Plus 3 мл",
+        "Tokuyama Shield Force Plus Набор · флакон 3 мл"
       ],
       "variants": [
         {
-          "id": "public-071bb9843ff065f43ff70057-variant-09e6b2f4a65d58386b3d0336",
-          "sku": "KZ-NORDSTOM-170",
+          "id": "public-071bb9843ff065f43ff70057-variant-3764691a1b638fd5786623b7",
+          "sku": "15112",
           "gtin": null,
           "aliases": [],
           "label": "Набор · флакон 3 мл",
@@ -317610,7 +318322,7 @@
             "Объём": "3 мл",
             "Количество": "1 шт.",
             "Комплектация": "Набор",
-            "Артикул производителя": "KZ-NORDSTOM-170"
+            "Артикул производителя": "15112"
           }
         }
       ],
