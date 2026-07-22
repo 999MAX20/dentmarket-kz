@@ -50,6 +50,7 @@ import { PromotionsPanel } from "./promotions-panel";
 import { SupplierTrustPanel } from "./supplier-trust-panel";
 import { OnboardingProgress } from "./onboarding-progress";
 import { ConnectorOnboarding } from "./connector-onboarding";
+import { ProductCorrectionsPanel } from "./product-corrections-panel";
 
 const OPERATOR_ID = "00000000-0000-4000-8000-000000000002";
 const OPERATOR_ORG_ID = "00000000-0000-4000-8000-000000000001";
@@ -99,7 +100,7 @@ type Offer = {
   sourceType: string;
   confirmationMode: string;
   productVariantId: string;
-  productVariant: { product: { canonicalName: string } };
+  productVariant: { product: { id: string; canonicalName: string; description: string | null; manufacturerSku: string | null; gtin: string | null; productType: string; regulatoryClass: string | null } };
   packaging: {
     name: string;
     quantityInBaseUnit: string;
@@ -913,6 +914,7 @@ export default function SupplierWorkspace() {
           </div>
         )}
       </Section>
+      <ProductCorrectionsPanel api={api} offers={offers} supplierId={supplierId} />
     </div>
   );
 

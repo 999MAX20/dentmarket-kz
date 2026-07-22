@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { addCartItemSchema, approveProductCandidateSchema, captureMockPaymentSchema, capturePaymentSchema, checkoutCartSchema, confirmSupplierOrderSchema, createApprovalPolicySchema, createComplianceRuleSchema, createContractPriceSchema, createDataOverrideSchema, createDeliveryRuleSchema, createDocumentTemplateSchema, createImportBatchSchema, createIntegrationBindingSchema, createIntegrationConnectionSchema, createInventoryLotSchema, createInventoryReservationSchema, createInvitationSchema, createNotificationSchema, createOfferPriceTierSchema, createOrganizationCredentialSchema, createOrganizationSchema, createPaymentIntentSchema, createProductPackagingSchema, createProductSchema, createRefundSchema, createRoleSchema, createShipmentSchema, enqueueIntegrationJobSchema, evaluateApprovalSchema, ledgerQuerySchema, resolveOfferPriceSchema, searchCatalogSchema, setAttributeValueSchema, setInventoryBalanceSchema, updateProductSchema, upsertCategoryAttributeRuleSchema, upsertIntegrationMappingSchema } from "./index.js";
 import { createRegistrationIntentSchema, mfaCodeSchema, socialExchangeSchema, updateConnectorReadinessSchema } from "./index.js";
+import { decideProductCorrectionSchema, submitProductCorrectionSchema } from "./index.js";
 
 describe("createOrganizationSchema", () => {
   it("accepts a multi-capability Kazakhstan organization", () => {
@@ -43,6 +44,24 @@ describe("self-registration schemas", () => {
   it("rejects missing consent, invalid BIN and short registration handoff tokens", () => {
     expect(createRegistrationIntentSchema.safeParse({ email: "owner@dental.kz", ownerDisplayName: "Owner", legalName: "ТОО Dental", organizationDisplayName: "Dental", bin: "123", capability: "BUYER", termsAccepted: false, privacyAccepted: true, idempotencyKey: "registration-2026-002" }).success).toBe(false);
     expect(socialExchangeSchema.safeParse({ provider: "GOOGLE", idToken: "x".repeat(40), registrationToken: "too-short" }).success).toBe(false);
+  });
+});
+
+describe("product correction schemas", () => {
+  it("accepts an evidence-backed supplier correction", () => {
+    const result = submitProductCorrectionSchema.parse({
+      productId: "00000000-0000-4000-8000-000000000010",
+      field: "DESCRIPTION",
+      proposedValue: "Композитный материал Filtek Z250, оттенок A2.",
+      reason: "Описание сверено с официальным каталогом производителя.",
+      evidenceUrl: "https://manufacturer.example/catalog/filtek-z250",
+    });
+    expect(result.field).toBe("DESCRIPTION");
+  });
+
+  it("requires a reason and an explicit moderation comment", () => {
+    expect(submitProductCorrectionSchema.safeParse({ productId: "00000000-0000-4000-8000-000000000010", field: "DESCRIPTION", proposedValue: "Текст", reason: "коротко" }).success).toBe(false);
+    expect(decideProductCorrectionSchema.safeParse({ acceptedValue: "Текст", moderatorComment: "" }).success).toBe(false);
   });
 });
 

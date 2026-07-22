@@ -73,6 +73,22 @@ enum ProductStatus {
   ARCHIVED
 }
 
+enum ProductContentSourceType {
+  MANUFACTURER
+  REGULATORY_DOCUMENT
+  OFFICIAL_DISTRIBUTOR
+  SUPPLIER_FEED
+  OPEN_CATALOG
+  DENTMARKET_EDITOR
+}
+
+enum ProductCorrectionStatus {
+  PENDING
+  APPROVED
+  PARTIALLY_APPROVED
+  REJECTED
+}
+
 enum ApprovalPolicyStatus {
   DRAFT
   ACTIVE
@@ -1379,11 +1395,62 @@ model Product {
   media              ProductMedia[]
   searchDocument     ProductSearchDocument?
   approvedCandidates ProductCandidate[]
+  contentSources      ProductContentSource[]
+  correctionRequests ProductCorrectionRequest[]
   createdAt          DateTime                @default(now())
   updatedAt          DateTime                @updatedAt
 
   @@index([canonicalName])
   @@index([gtin])
+}
+
+model ProductContentSource {
+  id                     String                   @id @default(uuid()) @db.Uuid
+  productId              String                   @db.Uuid
+  supplierOrganizationId String?                  @db.Uuid
+  field                  String
+  value                  String
+  sourceType             ProductContentSourceType
+  sourceName             String
+  sourceUrl              String?
+  confidence             Decimal                  @default(0.5) @db.Decimal(5, 4)
+  verified               Boolean                  @default(false)
+  collectedAt            DateTime                 @default(now())
+  expiresAt              DateTime?
+  metadata               Json?
+  product                Product                  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  supplier               SupplierProfile?         @relation(fields: [supplierOrganizationId], references: [organizationId], onDelete: SetNull)
+  createdAt              DateTime                 @default(now())
+  updatedAt              DateTime                 @updatedAt
+
+  @@index([productId, field, verified])
+  @@index([supplierOrganizationId, createdAt])
+}
+
+model ProductCorrectionRequest {
+  id                     String                  @id @default(uuid()) @db.Uuid
+  productId              String                  @db.Uuid
+  supplierOrganizationId String                  @db.Uuid
+  field                  String
+  currentValue           String?
+  proposedValue          String
+  reason                 String
+  evidenceUrl            String?
+  evidence               Json?
+  status                 ProductCorrectionStatus @default(PENDING)
+  moderatorComment       String?
+  appliedValue           String?
+  appliedProductVersion  Int?
+  decidedById            String?                 @db.Uuid
+  decidedAt              DateTime?
+  product                Product                 @relation(fields: [productId], references: [id], onDelete: Cascade)
+  supplier               SupplierProfile         @relation(fields: [supplierOrganizationId], references: [organizationId], onDelete: Cascade)
+  createdAt              DateTime                @default(now())
+  updatedAt              DateTime                @updatedAt
+
+  @@index([status, createdAt])
+  @@index([supplierOrganizationId, status])
+  @@index([productId, field, status])
 }
 
 model ProductMedia {
@@ -1568,6 +1635,8 @@ model SupplierProfile {
   inventoryLots          InventoryLot[]
   reservations           InventoryReservation[]
   productCandidates      ProductCandidate[]
+  productContentSources  ProductContentSource[]
+  correctionRequests     ProductCorrectionRequest[]
   contractPrices         ContractPrice[]
   lotRecalls             LotRecall[]
   integrationConnections IntegrationConnection[]

@@ -150,6 +150,11 @@ type SearchResult = {
     suppliers: Array<{ id: string; name: string; count: number }>;
   };
 };
+const contentSourceCount = (value: unknown) => {
+  if (!value || typeof value !== "object" || !("sources" in value)) return 0;
+  const sources = (value as { sources?: unknown }).sources;
+  return Array.isArray(sources) ? sources.length : 0;
+};
 const publicMediaEntries = publicCatalogMedia.entries as Record<string, SearchMedia>;
 const categoryIllustration = (name: string | undefined) => {
   const value = (name ?? "").toLocaleLowerCase("ru");
@@ -1489,12 +1494,13 @@ export default function BuyerWorkspace() {
                   alt={selectedProduct.media?.[0]?.altText ?? selectedProduct.name}
                   draggable={false}
                 />
-                <small>{selectedProduct.media?.[0]?.metadata?.exactProductPhoto ? "Фото со страницы поставщика" : "Категорийная иллюстрация, фото поставщика пока не найдено"}</small>
+                <small>{selectedProduct.media?.[0]?.metadata?.exactProductPhoto ? "Фото товара из источника" : "Иллюстрация категории"}</small>
               </div>
               <div className={styles.productInfo}>
                 <div className={styles.productModalCopy}>
-                  <h3>Описание</h3>
-                  <p>{selectedProduct.description || "Описание будет дополнено после следующей выгрузки поставщика."}</p>
+                  <h3>О товаре</h3>
+                  <p>{selectedProduct.description || "DentMarket уточняет состав и характеристики товара по первичным источникам."}</p>
+                  <small>Карточку ведёт DentMarket{contentSourceCount(selectedProduct.descriptionSources) ? `, использовано источников: ${contentSourceCount(selectedProduct.descriptionSources)}` : ""}. Поставщики управляют ценой, наличием и условиями продажи отдельно.</small>
                   {selectedProduct.attributes?.length ? (
                     <dl className={styles.productAttributes}>
                       {selectedProduct.attributes.map(([label, value]) => (
@@ -1507,13 +1513,13 @@ export default function BuyerWorkspace() {
                   ) : null}
                   {selectedProduct.sourceUrl ? (
                     <a className={styles.productSourceLink} href={selectedProduct.sourceUrl} target="_blank" rel="noreferrer">
-                      Открыть исходную карточку поставщика ↗
+                      Проверить источник ↗
                     </a>
                   ) : null}
                 </div>
                 <aside className={styles.productFacts} aria-label="Сводка по товару">
                   <span><strong>{selectedProduct.offers.length}</strong><small>{ruCount(selectedProduct.offers.length, "предложение", "предложения", "предложений")}</small></span>
-                  <span><strong>{selectedProduct.reviewSummary?.averageRating?.toFixed(1) ?? "Новый"}</strong><small>{selectedProduct.reviewSummary?.count ?? 0} {ruCount(selectedProduct.reviewSummary?.count ?? 0, "отзыв", "отзыва", "отзывов")} клиник</small></span>
+                  <span><strong>{selectedProduct.reviewSummary?.averageRating?.toFixed(1) ?? "Нет оценок"}</strong><small>{selectedProduct.reviewSummary?.count ?? 0} {ruCount(selectedProduct.reviewSummary?.count ?? 0, "отзыв", "отзыва", "отзывов")} клиник</small></span>
                   <span><strong>{selectedProduct.offers.filter((offer) => offer.available && (offer.verifiedDocuments ?? true)).length}</strong><small>готовы к заказу</small></span>
                 </aside>
               </div>
@@ -1522,7 +1528,7 @@ export default function BuyerWorkspace() {
                   <div>
                     <span className={styles.category}>Предложения поставщиков</span>
                     <h3 id="seller-list-title">Выберите продавца</h3>
-                    <p>Сначала показываем доступные предложения с проверенными документами, удобной доставкой и сильной ценой.</p>
+                    <p>Порядок учитывает наличие, проверку документов, доставку и итоговую цену.</p>
                   </div>
                   <span className={styles.rankingNote}>Цена указана за фасовку</span>
                 </div>
@@ -1552,7 +1558,7 @@ export default function BuyerWorkspace() {
                               <strong>{offer.supplier.name}</strong>
                               {recommended ? <span className={styles.recommendedBadge}>Рекомендуем</span> : null}
                             </div>
-                            <small>{offer.supplierSku ?? "Артикул поставщика не указан"}</small>
+                            {offer.supplierSku ? <small>Артикул {offer.supplierSku}</small> : null}
                             <div className={styles.sellerMarkers}>
                               {offer.markers.verifiedDocuments ? <StatusTag tone="success">Документы проверены</StatusTag> : <StatusTag tone="warning">Документы на проверке</StatusTag>}
                               {offer.markers.officialDistributor ? <StatusTag tone="info">Официальный дистрибьютор</StatusTag> : null}
@@ -1570,8 +1576,8 @@ export default function BuyerWorkspace() {
                             {leadTime != null ? <small>до {Math.ceil(leadTime / 24)} дн.</small> : null}
                           </div>
                           <div className={styles.sellerTrust}>
-                            <strong>{trustScore != null ? `${Number(trustScore).toFixed(0)}/100` : "Проверяется"}</strong>
-                            <small>{offer.markers.verifiedDocuments ? "Документы актуальны" : "Нужна проверка"}</small>
+                            <strong>{trustScore != null ? `${Number(trustScore).toFixed(0)}/100` : "Нет истории"}</strong>
+                            <small>{offer.markers.verifiedDocuments ? "Документы актуальны" : "Документы проверяются"}</small>
                           </div>
                           <Button
                             appearance={recommended ? "primary" : "secondary"}

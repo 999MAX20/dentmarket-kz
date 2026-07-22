@@ -349,6 +349,29 @@ export const rejectProductCandidateSchema = z.object({
   reason: z.string().trim().min(3).max(500),
 });
 
+export const productCorrectionFieldSchema = z.enum([
+  "CANONICAL_NAME",
+  "DESCRIPTION",
+  "MANUFACTURER_SKU",
+  "GTIN",
+  "PRODUCT_TYPE",
+  "REGULATORY_CLASS",
+]);
+
+export const submitProductCorrectionSchema = z.object({
+  productId: z.uuid(),
+  field: productCorrectionFieldSchema,
+  proposedValue: z.string().trim().min(1).max(5_000),
+  reason: z.string().trim().min(10).max(1_000),
+  evidenceUrl: z.url().max(2_000).nullable().optional(),
+  evidence: z.record(z.string(), z.unknown()).nullable().optional(),
+});
+
+export const decideProductCorrectionSchema = z.object({
+  acceptedValue: z.string().trim().min(1).max(5_000).optional(),
+  moderatorComment: z.string().trim().min(3).max(1_000),
+});
+
 export const createOfferPriceTierSchema = z.object({
   minimumQuantity: z.number().positive(),
   maximumQuantity: z.number().positive().nullable().optional(),
@@ -466,6 +489,8 @@ export const resolveLotRecallSchema = z.object({
 
 export type ApproveProductCandidateInput = z.infer<typeof approveProductCandidateSchema>;
 export type RejectProductCandidateInput = z.infer<typeof rejectProductCandidateSchema>;
+export type SubmitProductCorrectionInput = z.infer<typeof submitProductCorrectionSchema>;
+export type DecideProductCorrectionInput = z.infer<typeof decideProductCorrectionSchema>;
 export type CreateOfferPriceTierInput = z.infer<typeof createOfferPriceTierSchema>;
 export type CreateContractPriceInput = z.infer<typeof createContractPriceSchema>;
 export type ResolveOfferPriceInput = z.infer<typeof resolveOfferPriceSchema>;

@@ -2,6 +2,12 @@ import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { parse } from "../apps/api/node_modules/csv-parse/lib/sync.js";
+import {
+  buildDescriptionSources,
+  generateCanonicalDescription,
+  normalizeCatalogCategory,
+  normalizeCatalogUnit,
+} from "./lib/product-copy.mjs";
 
 const root = path.resolve(process.cwd());
 const inputDir = path.join(root, "data/imports");
@@ -16,7 +22,7 @@ const number = (value) => {
   const parsed = Number(normalized);
   return Number.isFinite(parsed) && parsed > 0 ? Math.round(parsed) : null;
 };
-const categoryName = (value) => clean(value) || "Стоматология";
+const categoryName = (value) => normalizeCatalogCategory(value);
 
 const rows = [];
 for (const file of files) {
@@ -54,7 +60,7 @@ for (const file of files) {
       source,
       sourceUrl: first(row, "sourceUrl", "url") || null,
       sourceUpdatedAt: first(row, "sourceUpdatedAt") || null,
-      unit: first(row, "unit") || "шт",
+      unit: normalizeCatalogUnit(first(row, "unit")),
       priceMinor,
       currency: first(row, "currency") || "KZT",
       quantity,
@@ -80,14 +86,14 @@ for (const row of rows) {
 
 const products = [...grouped.values()].map((row) => {
   const id = `public-${hash(row.key)}`;
-  const description = [
-    `${row.name}.`,
-    `Категория: ${row.category}.`,
-    row.brand ? `Бренд: ${row.brand}.` : null,
-    row.manufacturer ? `Производитель: ${row.manufacturer}.` : null,
-    `Формат поставки: ${row.unit}.`,
-    "Характеристики и коммерческие условия подтверждаются по актуальной выгрузке поставщика.",
-  ].filter(Boolean).join(" ");
+  const description = generateCanonicalDescription({
+    name: row.name,
+    category: row.category,
+    brand: row.brand,
+    manufacturer: row.manufacturer,
+    unit: row.unit,
+    supplierCount: row.suppliers.length,
+  });
   const attributes = [
     ["Категория", row.category],
     ["Бренд", row.brand],
@@ -119,6 +125,7 @@ const products = [...grouped.values()].map((row) => {
     id,
     name: row.name,
     description,
+    descriptionSources: buildDescriptionSources(row),
     brand: row.brand,
     manufacturer: row.manufacturer,
     category: row.category,
