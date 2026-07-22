@@ -169,21 +169,17 @@ export function normalizeCatalogCategory(value) {
 }
 
 export function generateCanonicalDescription({ name, category, brand, manufacturer, unit, supplierCount = 1 }) {
-  const safeName = clean(name);
   const safeCategory = normalizeCatalogCategory(category);
   const safeBrand = clean(brand);
   const safeManufacturer = clean(manufacturer);
   const safeUnit = normalizeCatalogUnit(unit);
   const sentences = [
-    `${safeName} относится к категории «${safeCategory}».`,
+    `Раздел: ${safeCategory}.`,
     safeBrand ? `Бренд: ${safeBrand}.` : null,
     safeManufacturer && safeManufacturer.toLocaleLowerCase("ru") !== safeBrand.toLocaleLowerCase("ru")
       ? `Производитель: ${safeManufacturer}.`
       : null,
-    `Единица поставки: ${safeUnit}${safeUnit.endsWith(".") ? "" : "."}`,
-    supplierCount > 1
-      ? `В карточке собраны предложения ${supplierCount} поставщиков; цена, наличие и условия зависят от выбранного продавца.`
-      : "Цена, наличие и условия указаны в предложении продавца.",
+    safeUnit !== "шт." ? `Упаковка: ${safeUnit}${safeUnit.endsWith(".") ? "" : "."}` : null,
   ];
   return sentences.filter(Boolean).join(" ");
 }

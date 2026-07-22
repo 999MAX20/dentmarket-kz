@@ -10,6 +10,7 @@ const outputPath = join(projectRoot, "apps/buyer-web/app/data/public-catalog-med
 const restBase = "https://tlxxicjzppflpkcgnauo.supabase.co/rest/v1";
 const apiKey = JSON.parse(execFileSync("pnpm", ["dlx", "supabase", "projects", "api-keys", "--project-ref", "tlxxicjzppflpkcgnauo"], { encoding: "utf8" })).keys.find((key) => key.id === "service_role").api_key;
 const headers = { apikey: apiKey, Authorization: `Bearer ${apiKey}` };
+const rejectedAsset = (value) => /(logo|favicon|icon|sprite|avatar|cart|basket|loading|pixel|captcha|phone[-_]?ico|placeholder|no[-_]?image|default[-_]?image|\/(?:themes?|templates?|assets\/icons?|images?\/icons?)\/)/i.test(String(value ?? ""));
 
 async function restAll(table, query) {
   const rows = [];
@@ -27,11 +28,12 @@ const entries = {};
 for (const item of media) {
   const sourcePageUrl = item.metadata?.sourcePageUrl;
   const publicPath = item.normalizedStorageKey ? `/${item.normalizedStorageKey}` : item.sourceUrl;
-  if (!sourcePageUrl || !publicPath || item.status !== "READY") continue;
+  const sourceImageUrl = item.metadata?.sourceImageUrl ?? item.sourceUrl;
+  if (!sourcePageUrl || !publicPath || item.status !== "READY" || item.metadata?.exactProductPhoto !== true || rejectedAsset(sourceImageUrl)) continue;
   try { await access(join(projectRoot, "apps/buyer-web/public", publicPath)); } catch { continue; }
   entries[sourcePageUrl] = {
     id: item.id,
-    sourceUrl: item.metadata?.sourceImageUrl ?? null,
+    sourceUrl: sourceImageUrl ?? null,
     securePath: publicPath,
     normalizedStorageKey: item.normalizedStorageKey ?? null,
     altText: item.altText ?? null,

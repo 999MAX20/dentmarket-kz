@@ -75,12 +75,17 @@ function htmlImageCandidates(html, pageUrl) {
   const candidates = [];
   const metaPattern = /<meta\b[^>]*(?:property|name)=["'](?:og:image|twitter:image)["'][^>]*content=["']([^"']+)["'][^>]*>/gi;
   const metaPatternReversed = /<meta\b[^>]*content=["']([^"']+)["'][^>]*(?:property|name)=["'](?:og:image|twitter:image)["'][^>]*>/gi;
-  const imagePattern = /<img\b[^>]*(?:src|data-src|data-original)=["']([^"']+)["'][^>]*>/gi;
   for (const match of html.matchAll(metaPattern)) candidates.push(match[1]);
   for (const match of html.matchAll(metaPatternReversed)) candidates.push(match[1]);
-  for (const match of html.matchAll(imagePattern)) candidates.push(match[1]);
+  for (const match of html.matchAll(/<img\b[^>]*>/gi)) {
+    const tag = match[0];
+    if (/(logo|header|footer|menu|social|payment|phone|contact|messenger|banner)/i.test(tag)) continue;
+    const source = tag.match(/(?:src|data-src|data-original)=["']([^"']+)["']/i)?.[1];
+    if (source) candidates.push(source);
+  }
   return [...new Set(candidates.map((value) => absoluteUrl(value, pageUrl)).filter(Boolean))]
-    .filter((value) => !/(logo|favicon|icon|sprite|avatar|cart|basket|instagram|whatsapp|loading|pixel|captcha)/i.test(value))
+    .filter((value) => !/(logo|favicon|icon|sprite|avatar|cart|basket|instagram|whatsapp|loading|pixel|captcha|phone[-_]?ico|placeholder|no[-_]?image|default[-_]?image)/i.test(value))
+    .filter((value) => !/\/(?:themes?|templates?|assets\/icons?|images?\/icons?)\//i.test(value))
     .filter((value) => !/\.(svg|gif)(?:\?|$)/i.test(value));
 }
 
@@ -155,6 +160,7 @@ async function worker() {
         metadata: {
           ...(item.metadata ?? {}),
           kind: "supplier-product-photo",
+          aiGenerated: false,
           exactProductPhoto: true,
           rightsStatus: "SOURCE_UNVERIFIED",
           sourcePageUrl: source.pageUrl,

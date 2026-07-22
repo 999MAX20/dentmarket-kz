@@ -10,7 +10,7 @@ test("normalizes feed units and unusable categories", () => {
 
 test("generates factual copy without inventing characteristics", () => {
   const text = generateCanonicalDescription({ name: "Filtek Z250", category: "Композиты", brand: "3M", manufacturer: "3M", unit: "piece", supplierCount: 3 });
-  assert.equal(text, "Filtek Z250 относится к категории «Композиты». Бренд: 3M. Единица поставки: шт. В карточке собраны предложения 3 поставщиков; цена, наличие и условия зависят от выбранного продавца.");
+  assert.equal(text, "Раздел: Композиты. Бренд: 3M.");
   assert.doesNotMatch(text, /леч|назначен|эффектив|лучший/i);
 });
 

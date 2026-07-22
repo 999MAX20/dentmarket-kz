@@ -122,7 +122,7 @@ type SearchOffer = {
   officialDistributor?: boolean;
   supplierWarranty?: boolean;
 };
-type SearchMedia = { id: string; sourceUrl: string | null; securePath?: string | null; normalizedStorageKey: string | null; altText: string | null; width: number | null; height: number | null; metadata?: { exactProductPhoto?: boolean; rightsStatus?: string } | null };
+type SearchMedia = { id: string; sourceUrl: string | null; securePath?: string | null; normalizedStorageKey: string | null; altText: string | null; width: number | null; height: number | null; metadata?: { exactProductPhoto?: boolean; rightsStatus?: string; sourceImageUrl?: string | null } | null };
 type SearchProduct = {
   id: string;
   name: string;
@@ -156,20 +156,10 @@ const contentSourceCount = (value: unknown) => {
   return Array.isArray(sources) ? sources.length : 0;
 };
 const publicMediaEntries = publicCatalogMedia.entries as Record<string, SearchMedia>;
-const categoryIllustration = (name: string | undefined) => {
-  const value = (name ?? "").toLocaleLowerCase("ru");
-  if (/энд|канал|гуттапер|силер|апекслок|файл|ирригац|обтурац/.test(value)) return "/catalog/illustrations/endodontics-category.png";
-  if (/имплант|абатмент|мембран|костн|трансфер/.test(value)) return "/catalog/illustrations/implantology-category.png";
-  if (/брекет|ортодонт|элайнер|капп|дуг|лигатур|ретейнер/.test(value)) return "/catalog/illustrations/orthopedics-category.png";
-  if (/коронк|винир|циркон|керамик|оттиск|альгинат|силикон/.test(value)) return "/catalog/illustrations/orthopedics-category.png";
-  if (/бор|фрез|зеркал|зонд|пинцет|экскаватор|скейлер|наконечник/.test(value)) return "/catalog/illustrations/instruments-category.png";
-  if (/установ|автоклав|компрессор|сканер|рентген|визиограф|фрезер|печь/.test(value)) return "/catalog/illustrations/equipment-category.png";
-  if (/полиров|отбел|air.?flow|профилакт|чистк|аппликатор|щетк/.test(value)) return "/catalog/illustrations/prevention-category.png";
-  if (/хирург|элеватор|щипц|скальпел|шовн|гемостат|кюрет|распатор/.test(value)) return "/catalog/illustrations/sterile-supplies-category.png";
-  return "/catalog/illustrations/consumables-category.png";
-};
+const rejectedProductAsset = (value: string | null | undefined) => /(logo|favicon|icon|sprite|avatar|cart|basket|loading|pixel|captcha|phone[-_]?ico|placeholder|no[-_]?image|default[-_]?image|\/(?:themes?|templates?|assets\/icons?|images?\/icons?)\/)/i.test(value ?? "");
 const mediaSource = (media: SearchMedia | undefined) => {
-  if (!media) return null;
+  if (!media || media.metadata?.exactProductPhoto !== true) return null;
+  if (rejectedProductAsset(media.metadata.sourceImageUrl ?? media.sourceUrl ?? media.securePath)) return null;
   if (media.securePath?.startsWith("/catalog/")) return media.securePath;
   if (media.securePath) {
     const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
@@ -1385,6 +1375,7 @@ export default function BuyerWorkspace() {
                   offer.confirmationMode !== "MANUAL",
               );
               const normalizedPrice = best?.normalizedPriceMinor;
+              const productImage = mediaSource(product.media?.[0]);
               return (
                 <article
                   className={styles.product}
@@ -1400,16 +1391,16 @@ export default function BuyerWorkspace() {
                   }}
                 >
                   <div className={styles.productVisual}>
-                    {mediaSource(product.media?.[0]) || categoryIllustration(product.categories[0]?.name) ? (
+                    {productImage ? (
                       <img
-                        src={mediaSource(product.media?.[0]) ?? categoryIllustration(product.categories[0]?.name)}
-                        alt={product.media?.[0]?.altText ?? `${product.categories[0]?.name ?? "Стоматология"}, иллюстрация категории`}
+                        src={productImage}
+                        alt={product.media?.[0]?.altText ?? product.name}
                         loading="lazy"
                         draggable={false}
                         onContextMenu={(event) => event.preventDefault()}
                       />
                     ) : (
-                      <ShoppingBag24Regular aria-hidden="true" />
+                      <span className={styles.photoPending}>Фото<br />добавляем</span>
                     )}
                   </div>
                   <div className={styles.productIdentity}>
@@ -1489,12 +1480,12 @@ export default function BuyerWorkspace() {
             </header>
             <div className={styles.productModalBody}>
               <div className={styles.productModalVisual} onContextMenu={(event) => event.preventDefault()}>
-                <img
-                  src={mediaSource(selectedProduct.media?.[0]) ?? categoryIllustration(selectedProduct.categories[0]?.name)}
+                {mediaSource(selectedProduct.media?.[0]) ? <img
+                  src={mediaSource(selectedProduct.media?.[0])!}
                   alt={selectedProduct.media?.[0]?.altText ?? selectedProduct.name}
                   draggable={false}
-                />
-                <small>{selectedProduct.media?.[0]?.metadata?.exactProductPhoto ? "Фото товара из источника" : "Иллюстрация категории"}</small>
+                /> : <div className={styles.productModalPhotoPending}>Ищем точное фото товара</div>}
+                <small>{mediaSource(selectedProduct.media?.[0]) ? "Фото товара" : "Покажем фото только после проверки модели"}</small>
               </div>
               <div className={styles.productInfo}>
                 <div className={styles.productModalCopy}>

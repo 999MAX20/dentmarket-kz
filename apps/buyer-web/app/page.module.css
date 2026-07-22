@@ -169,6 +169,13 @@
   width: 22px;
   height: 22px;
 }
+.photoPending {
+  color: #71807a;
+  font-size: 11px;
+  font-weight: 650;
+  line-height: 1.25;
+  text-align: center;
+}
 .productVisual img {
   width: 100%;
   height: 100%;
@@ -279,6 +286,20 @@
 .productVisual img,
 .productModalVisual img {
   -webkit-user-drag: none;
+}
+.productModalPhotoPending {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 1;
+  padding: 32px;
+  border: 1px solid var(--colorNeutralStroke2);
+  border-radius: 16px;
+  background: #f7f8fa;
+  color: var(--colorNeutralForeground3);
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: center;
 }
 .productModalBackdrop {
   position: fixed;

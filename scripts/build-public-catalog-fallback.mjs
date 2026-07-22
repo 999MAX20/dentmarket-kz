@@ -24,6 +24,7 @@ const number = (value) => {
   return Number.isFinite(parsed) && parsed > 0 ? Math.round(parsed) : null;
 };
 const categoryName = (value) => normalizeCatalogCategory(value);
+const validHttpUrl = (value) => /^https?:\/\/[^\s]+$/i.test(value) ? value : null;
 
 const rows = [];
 for (const file of files) {
@@ -41,7 +42,7 @@ for (const file of files) {
     const supplier = first(row, "supplierName") || source;
     const brand = first(row, "brand");
     const manufacturer = first(row, "manufacturer");
-    const sourceUrl = first(row, "sourceUrl", "url") || null;
+    const sourceUrl = validHttpUrl(first(row, "sourceUrl", "url"));
     const name = normalizeCanonicalName(rawName, { brand, manufacturer, sourceUrl });
     if (/^\d+$/.test(name)) continue;
     const category = categoryName(first(row, "category"));
@@ -52,6 +53,9 @@ for (const file of files) {
     const quantityText = first(row, "quantityOnHand", "quantity");
     const quantity = number(quantityText);
     const available = quantity !== null ? quantity > 0 : /в наличии|есть|available|готов/i.test(quantityText);
+    // A row without a product page, article or commercial data is normally a
+    // category heading accidentally exported as a product.
+    if (!sourceUrl && !supplierSku && !priceMinor && quantity === null) continue;
     rows.push({
       key,
       name,
