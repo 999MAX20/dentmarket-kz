@@ -25,7 +25,7 @@ export default function VariantPicker({
 
   return (
     <div className={styles.variantPicker}>
-      <label htmlFor="product-variant">Фасовка, объём и вкус</label>
+      <label htmlFor="product-variant">Выберите комплектацию</label>
       <select
         id="product-variant"
         value={selectedVariantId}

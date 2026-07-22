@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T14:56:58.360Z",
+  "generatedAt": "2026-07-22T15:16:23.131Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -618,7 +618,7 @@
           "id": "public-b13fa3fe2c45d69bde6ac8c0-variant-3bea412b1cd6dc1f72912f17",
           "sku": "41293",
           "gtin": null,
-          "label": "REF 41293",
+          "label": "Стартовый набор: флакон 5 мл + протравка 3 мл",
           "attributes": {
             "Артикул производителя": "41293"
           }
@@ -627,7 +627,7 @@
           "id": "public-b13fa3fe2c45d69bde6ac8c0-variant-fce2e40a0213587c074c7d4b",
           "sku": "41294",
           "gtin": null,
-          "label": "REF 41294",
+          "label": "Флакон 5 мл",
           "attributes": {
             "Артикул производителя": "41294"
           }
@@ -636,7 +636,7 @@
           "id": "public-b13fa3fe2c45d69bde6ac8c0-variant-d2c0874a9290b14333795822",
           "sku": "41295",
           "gtin": null,
-          "label": "REF 41295",
+          "label": "3 флакона × 5 мл",
           "attributes": {
             "Артикул производителя": "41295"
           }
@@ -645,7 +645,7 @@
           "id": "public-b13fa3fe2c45d69bde6ac8c0-variant-6289a960d39f963f4aa4f78b",
           "sku": "41297",
           "gtin": null,
-          "label": "REF 41297",
+          "label": "Одноразовые дозы L-Pop 50 шт. + протравка 3 мл",
           "attributes": {
             "Артикул производителя": "41297"
           }
@@ -654,7 +654,7 @@
           "id": "public-b13fa3fe2c45d69bde6ac8c0-variant-d3a1e49eb65377073cf003a5",
           "sku": "41298",
           "gtin": null,
-          "label": "REF 41298",
+          "label": "Одноразовые дозы L-Pop 100 шт. + протравка 3 мл",
           "attributes": {
             "Артикул производителя": "41298"
           }
@@ -663,7 +663,7 @@
           "id": "public-b13fa3fe2c45d69bde6ac8c0-variant-664ba5b88c82af91f48bcae2",
           "sku": "41299",
           "gtin": null,
-          "label": "REF 41299",
+          "label": "Одноразовые дозы L-Pop 200 шт. + протравка 3 мл",
           "attributes": {
             "Артикул производителя": "41299"
           }
@@ -672,7 +672,7 @@
           "id": "public-b13fa3fe2c45d69bde6ac8c0-variant-6bc4af62d2165c86bcca176a",
           "sku": "41304",
           "gtin": null,
-          "label": "REF 41304",
+          "label": "Одноразовые дозы L-Pop 400 шт. + протравка 3 мл",
           "attributes": {
             "Артикул производителя": "41304"
           }
