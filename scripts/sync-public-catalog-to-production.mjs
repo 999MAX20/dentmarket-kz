@@ -5,6 +5,7 @@ import { PrismaClient } from "../apps/api/node_modules/@prisma/client/index.js";
 
 const root = path.resolve(process.cwd());
 const apply = process.argv.includes("--apply");
+const multiVariantOnly = process.argv.includes("--multi-variant-only");
 const catalog = JSON.parse(
   await fs.readFile(
     path.join(root, "apps/buyer-web/app/data/public-catalog-fallback.json"),
@@ -18,6 +19,9 @@ const mediaManifest = JSON.parse(
   ),
 );
 const prisma = new PrismaClient();
+const sourceProducts = multiVariantOnly
+  ? catalog.products.filter((product) => (product.variants?.length ?? 0) > 1)
+  : catalog.products;
 
 const normalize = (value) =>
   String(value ?? "")
@@ -131,7 +135,7 @@ try {
   };
 
   const summary = {
-    sourceCards: catalog.products.length,
+    sourceCards: sourceProducts.length,
     existing: 0,
     created: 0,
     variantsEnsured: 0,
@@ -142,7 +146,7 @@ try {
     searchDocumentsEnsured: 0,
     mode: apply ? "apply" : "dry-run",
   };
-  for (const productInput of catalog.products) {
+  for (const productInput of sourceProducts) {
     const product = {
       ...productInput,
       name: normalize(productInput.name),

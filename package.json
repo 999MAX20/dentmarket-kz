@@ -3,7 +3,7 @@
   "private": true,
   "packageManager": "pnpm@11.9.0",
   "scripts": {
-    "postinstall": "pnpm --filter @marketplace/api prisma:generate",
+    "postinstall": "pnpm --filter @marketplace/api prisma:generate && pnpm --filter @marketplace/schemas build",
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
@@ -22,6 +22,7 @@
     "catalog:bootstrap-canonical": "node scripts/bootstrap-canonical-catalog.mjs",
     "catalog:sync-production": "node scripts/sync-public-catalog-to-production.mjs",
     "catalog:sync-production:apply": "node scripts/sync-public-catalog-to-production.mjs --apply",
+    "catalog:sync-production:variants": "node scripts/sync-public-catalog-to-production.mjs --apply --multi-variant-only",
     "verify:supplier-cycle:medstom": "node scripts/verify-medstom-supplier-cycle.mjs",
     "verify:supplier-cycle:pdf": "node scripts/verify-pdf-supplier-cycle.mjs",
     "verify:supplier-cycle:csv": "node scripts/verify-csv-supplier-cycle.mjs",
