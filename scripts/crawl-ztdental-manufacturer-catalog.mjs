@@ -174,7 +174,7 @@ async function readProduct(product) {
     imageUrls: imageUrls.join(" | "),
     imageCount: imageUrls.length,
     sourcePageUrl: product.sourcePageUrl,
-    kzEvidence: "EXACT_PRODUCTS_PRESENT_IN_STOMIR_KZ_CATALOG",
+    kzEvidence: "BRAND_AND_SELECTED_PRODUCTS_PRESENT_IN_STOMIR_KZ_CATALOG",
     status: "OFFICIAL_PRODUCT_REFERENCE_REVIEW_REQUIRED",
   };
 }

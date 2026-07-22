@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-07-22T20:32:08.051Z",
+  "policy": {
+    "exactPhotoRequired": true,
+    "manufacturerReferenceRequired": true,
+    "kzSkuEvidenceRequiredForAutomaticPublication": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "products": 4023,
+    "variantSkus": 4800,
+    "withPhoto": 4022,
+    "withoutPhoto": 1,
+    "withManufacturerReference": 3504,
+    "withoutManufacturerReference": 519,
+    "statusCounts": {
+      "MANUFACTURER_REFERENCE_REQUIRED": 517,
+      "IDENTITY_REQUIRED": 1,
+      "CANONICAL_CONTENT_READY": 97,
+      "KZ_SKU_EVIDENCE_REQUIRED": 3407,
+      "PHOTO_REQUIRED": 1
+    }
+  },
+  "sources": [
+    {
+      "source": "NORD STOM KZ",
+      "products": 460,
+      "withPhoto": 460,
+      "withReference": 97,
+      "variantSkus": 460,
+      "canonicalContentReady": 97,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "TOBOOM official",
+      "products": 1058,
+      "withPhoto": 1057,
+      "withReference": 1009,
+      "variantSkus": 1058,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 1009
+    },
+    {
+      "source": "ВладМиВа official",
+      "products": 2398,
+      "withPhoto": 2398,
+      "withReference": 2398,
+      "variantSkus": 3175,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 2398
+    },
+    {
+      "source": "ZT Dental official",
+      "products": 107,
+      "withPhoto": 107,
+      "withReference": 0,
+      "variantSkus": 107,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    }
+  ]
+}

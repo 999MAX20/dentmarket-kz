@@ -106,6 +106,11 @@ async function readProduct(sourceUrl) {
   );
   const localId = sourceUrl.match(/\/product\/(\d+)\.html$/u)?.[1] ?? "";
   const references = extractReferences(detailHtml, title);
+  const sourceImages = [...new Set([
+    ...[...detailHtml.matchAll(/"srcBigPic":"([^"]+)"/giu)].map((match) => match[1]),
+    ...[...detailHtml.matchAll(/domain-src="(\/repository\/image\/[^"]+)"/giu)].map((match) => match[1]),
+  ].map((imagePath) => imagePath.replace(/^\/+/, "")).filter(Boolean))];
+  const imageUrls = sourceImages.map((imagePath) => `https://img202.yun300.cn/${imagePath}`);
   return {
     localId,
     brand: "TOBOOM",
@@ -114,6 +119,9 @@ async function readProduct(sourceUrl) {
     manufacturerRefs: references.join(" | "),
     referenceCount: references.length,
     summary,
+    imageUrls: imageUrls.join(" | "),
+    imageCount: imageUrls.length,
+    photoStatus: imageUrls.length ? "EXACT_MANUFACTURER_IMAGE_URL" : "PHOTO_REQUIRED",
     sourcePageUrl: sourceUrl,
     status: references.length ? "OFFICIAL_REFERENCE_PRESENT" : "OFFICIAL_MODEL_REFERENCE_REVIEW_REQUIRED",
   };
@@ -152,6 +160,7 @@ const report = {
     crawlErrors: errors.length,
     uniqueProducts: uniqueProducts.length,
     productsWithReferences: products.filter((product) => product.referenceCount > 0).length,
+    productsWithImages: products.filter((product) => product.imageCount > 0).length,
     duplicateGroups: duplicateGroups.length,
   },
   errors,
@@ -171,6 +180,9 @@ const headers = [
   "status",
   "sourcePageUrl",
   "summary",
+  "imageUrls",
+  "imageCount",
+  "photoStatus",
 ];
 const csv = [
   headers.join(","),

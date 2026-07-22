@@ -104,13 +104,15 @@ async function readProduct(product) {
   const html = await fetchHtml(product.sourcePageUrl);
   const pageName = decode(html.match(/<h1 class="title">([\s\S]*?)<\/h1>/u)?.[1]);
   const pageBrand = extractField(html, "Бренд") || product.listedBrand;
-  const manufacturerRef = normalizeManufacturerReference(extractField(html, "Артикул"));
+  const rawReference = extractField(html, "Артикул");
+  const manufacturerRef = normalizeManufacturerReference(rawReference);
+  const titleName = decode(html.match(/<title>([\s\S]*?)<\/title>/iu)?.[1]).split("•")[0].replace(/,$/u, "").trim();
   const sourceImagePath = html.match(
     /(?:href|src)=["']?(\/userfiles\/item\/\d+\/(?:fullimage|image)[^"')\s>]+)/iu,
   )?.[1];
   const summary = decode(html.match(/<div class="anons">([\s\S]*?)<\/div>/u)?.[1]);
   const category = new URL(product.sourcePageUrl).pathname.split("/").filter(Boolean)[1] ?? "";
-  const name = pageName || product.listedName;
+  const name = pageName || product.listedName || titleName || rawReference;
   const localId = itemId(product.sourcePageUrl);
   const hasIdentity = Boolean(manufacturerRef) || /(?=.*\d)[A-ZА-ЯЁ\d][A-ZА-ЯЁ\d._/+\-]{2,}/u.test(name);
   return {

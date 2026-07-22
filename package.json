@@ -25,6 +25,7 @@
     "catalog:build-kz-coverage": "node scripts/build-kz-sku-coverage.mjs",
     "catalog:build-kz-brand-registry": "node scripts/build-kz-market-brand-registry.mjs",
     "catalog:audit-kz-intake": "node scripts/audit-kz-catalog-intake.mjs",
+    "catalog:audit:manufacturer-evidence": "node scripts/audit-manufacturer-catalog-evidence.mjs",
     "catalog:crawl:nordstom-full": "node scripts/crawl-nordstom-full-catalog.mjs",
     "catalog:crawl:amdgroup": "node scripts/crawl-amdgroup-catalog.mjs",
     "catalog:crawl:stomir": "node scripts/crawl-stomir-catalog.mjs",
