@@ -21,6 +21,8 @@ import {
   CheckmarkCircle24Regular,
   ClipboardTaskListLtr24Regular,
   Document24Regular,
+  Dismiss24Regular,
+  Filter24Regular,
   Bot24Regular,
   Grid24Regular,
   List24Regular,
@@ -29,6 +31,8 @@ import {
   Location24Regular,
   Search24Regular,
   ShoppingBag24Regular,
+  Star16Filled,
+  Tag24Regular,
 } from "@fluentui/react-icons";
 import {
   MarketplaceApiClient,
@@ -121,6 +125,11 @@ type SearchOffer = {
   verifiedDocuments?: boolean;
   officialDistributor?: boolean;
   supplierWarranty?: boolean;
+  promotion?: {
+    label: string;
+    percentage: number | null;
+    endsAt: string | null;
+  } | null;
 };
 type SearchMedia = { id: string; sourceUrl: string | null; securePath?: string | null; normalizedStorageKey: string | null; altText: string | null; width: number | null; height: number | null; metadata?: { exactProductPhoto?: boolean; rightsStatus?: string; sourceImageUrl?: string | null } | null };
 type SearchProduct = {
@@ -163,6 +172,16 @@ const mediaSource = (media: SearchMedia | undefined) => {
     return `${apiUrl}${media.securePath}`;
   }
   return media.sourceUrl;
+};
+const bestPromotionPercent = (product: SearchProduct) =>
+  product.offers.reduce((best, offer) => Math.max(best, offer.promotion?.percentage ?? 0), 0);
+const priceDifferencePercent = (product: SearchProduct) => {
+  const prices = product.offers
+    .map((offer) => Number(offer.priceMinor ?? 0))
+    .filter((price) => Number.isFinite(price) && price > 0)
+    .sort((left, right) => left - right);
+  if (prices.length < 2 || prices[0] === prices.at(-1)) return 0;
+  return Math.round((1 - prices[0] / prices.at(-1)!) * 100);
 };
 const demoCatalogFallback: SearchProduct[] = [
   {
@@ -322,6 +341,8 @@ const publicCatalogFallback = [
   ...generatedCatalogFallback,
   ...demoCatalogFallback,
 ];
+const sparseLiveCatalogLimit = 100;
+const isSparseLiveCatalog = (result: Pick<SearchResult, "total">) => result.total < sparseLiveCatalogLimit;
 const fallbackSearch = (
   query: string,
   sort: string,
@@ -403,6 +424,7 @@ async function fetchPublicCatalogSearch(
   if (!response.ok) return null;
   const result = (await response.json()) as Partial<SearchResult>;
   if (!Array.isArray(result.items) || typeof result.total !== "number") return null;
+  if (isSparseLiveCatalog(result as SearchResult)) return null;
   return result as SearchResult;
 }
 type CompareOffer = {
@@ -623,13 +645,14 @@ export default function BuyerWorkspace() {
   const [unitFilter, setUnitFilter] = useState("");
   const [packagingFilter, setPackagingFilter] = useState("");
   const [deliveryFilter, setDeliveryFilter] = useState("");
-  const [stockFilter, setStockFilter] = useState("true");
+  const [stockFilter, setStockFilter] = useState("all");
   const [brandFilter, setBrandFilter] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("");
   const [minPriceFilter, setMinPriceFilter] = useState("");
   const [maxPriceFilter, setMaxPriceFilter] = useState("");
   const [verifiedOnly, setVerifiedOnly] = useState(false);
   const [officialOnly, setOfficialOnly] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
   const [search, setSearch] = useState<SearchResult | null>(() =>
     fallbackSearch("", "RELEVANCE", { stock: "all" }),
   );
@@ -698,6 +721,7 @@ export default function BuyerWorkspace() {
     return (search?.items ?? []).filter((product) => {
       const offers = product.offers.filter((offer) => {
         const price = Number(offer.priceMinor ?? 0);
+        if (stockFilter === "true" && !offer.available) return false;
         if (verifiedOnly && !(offer.verifiedDocuments ?? true)) return false;
         if (officialOnly && !offer.officialDistributor) return false;
         if (minPriceFilter && price < minimum) return false;
@@ -708,11 +732,46 @@ export default function BuyerWorkspace() {
       if (categoryFilter && !product.categories.some(({ name }) => name === categoryFilter)) return false;
       return offers.length > 0;
     });
-  }, [brandFilter, categoryFilter, maxPriceFilter, minPriceFilter, officialOnly, search, verifiedOnly]);
+  }, [brandFilter, categoryFilter, maxPriceFilter, minPriceFilter, officialOnly, search, stockFilter, verifiedOnly]);
+  const promotedProducts = useMemo(
+    () =>
+      (search?.items ?? [])
+        .filter((product) => mediaSource(product.media?.[0]) && product.offers.some((offer) => offer.priceMinor))
+        .sort((left, right) => {
+          const promotionDifference = bestPromotionPercent(right) - bestPromotionPercent(left);
+          if (promotionDifference) return promotionDifference;
+          const sellerDifference = right.offers.length - left.offers.length;
+          if (sellerDifference) return sellerDifference;
+          return priceDifferencePercent(right) - priceDifferencePercent(left);
+        })
+        .slice(0, 3),
+    [search],
+  );
+  const activeFilterCount = [
+    packagingFilter,
+    unitFilter,
+    deliveryFilter,
+    stockFilter === "true" ? "stock" : "",
+    brandFilter,
+    categoryFilter,
+    minPriceFilter,
+    maxPriceFilter,
+    verifiedOnly ? "verified" : "",
+    officialOnly ? "official" : "",
+  ].filter(Boolean).length;
   const rankedComparisonOffers = useMemo(
     () => rankCompareOffers(comparison?.offers ?? [], supplierTrust),
     [comparison, supplierTrust],
   );
+
+  useEffect(() => {
+    if (!filtersOpen) return;
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setFiltersOpen(false);
+    };
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, [filtersOpen]);
 
   const buildSearchParams = useCallback(
     (nextQuery = query, nextSort = sort) => {
@@ -746,8 +805,8 @@ export default function BuyerWorkspace() {
           q: nextQuery,
           sort: nextSort,
           limit: "60",
-          inStock: "false",
         });
+        if (stockFilter === "true") publicParams.set("inStock", "true");
         if (unitFilter) publicParams.set("unit", unitFilter);
         if (packagingFilter) publicParams.set("packaging", packagingFilter);
         if (deliveryFilter) publicParams.set("deliveryMethod", deliveryFilter);
@@ -760,7 +819,7 @@ export default function BuyerWorkspace() {
         } catch {
           // The local catalog is the deliberate fail-safe for an unavailable API.
         }
-        setSearch(fallbackSearch(nextQuery, nextSort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }));
+        setSearch(fallbackSearch(nextQuery, nextSort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: stockFilter }));
         return;
       }
       const params = buildSearchParams(nextQuery, nextSort);
@@ -828,7 +887,9 @@ export default function BuyerWorkspace() {
           `/notifications/organizations/${buyerId}?limit=100`,
         ),
       ]);
-      setSearch(searchResult);
+      setSearch(isSparseLiveCatalog(searchResult)
+        ? fallbackSearch(query, sort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" })
+        : searchResult);
       setCarts(cartResult);
       setOrders(orderResult);
       setDocuments(documentResult);
@@ -865,7 +926,11 @@ export default function BuyerWorkspace() {
       params.set("offset", String(currentCount));
       params.set("limit", "60");
       const next = await api.get<SearchResult>(`/marketplace/search?${params}`);
-      setSearch((previous) => previous ? { ...next, items: [...previous.items, ...next.items] } : next);
+      if (isSparseLiveCatalog(next)) {
+        setSearch(fallbackSearch(query, sort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }, currentCount + 60));
+      } else {
+        setSearch((previous) => previous ? { ...next, items: [...previous.items, ...next.items] } : next);
+      }
     } catch {
       setSearch(fallbackSearch(query, sort, { unit: unitFilter, packaging: packagingFilter, delivery: deliveryFilter, stock: "all" }, currentCount + 60));
       setToast("Показываем следующую порцию резервного каталога");
@@ -917,18 +982,19 @@ export default function BuyerWorkspace() {
     return () => window.clearTimeout(timer);
   }, [toast]);
 
-  const submitSearchFor = async (nextQuery: string) => {
+  const submitSearchFor = async (nextQuery: string, nextSort = sort) => {
     setQuery(nextQuery);
+    setSort(nextSort);
     setBusy("search");
     setError(null);
     setComparison(null);
     setProductReviews(null);
     try {
       if (!handoff) {
-        await loadSearch(nextQuery, sort);
+        await loadSearch(nextQuery, nextSort);
         return;
       }
-      await loadSearch(nextQuery, sort);
+      await loadSearch(nextQuery, nextSort);
     } catch (cause) {
       setError(errorMessage(cause));
     } finally {
@@ -1150,35 +1216,63 @@ export default function BuyerWorkspace() {
   const renderCatalog = (isPublic = false) => (
     <div className="mp-stack">
       {isPublic ? (
-        <section className={styles.publicHero} aria-labelledby="catalog-title">
-          <div className={styles.publicHeroCopy}>
-            <p className={styles.publicEyebrow}>Закупки для клиник</p>
-            <h1 id="catalog-title">Один товар. <em>Все предложения.</em></h1>
-            <p className={styles.publicLead}>Сравнивайте цену, наличие, доставку и надёжность поставщиков Казахстана.</p>
-          </div>
-          <div className={styles.publicHeroAside} aria-label="Популярные категории">
-            <div className={styles.categoryMosaic}>
-              {[
-                ["Эндодонтия", "/catalog/illustrations/endodontics-category.png"],
-                ["Инструменты", "/catalog/illustrations/instruments-category.png"],
-                ["Расходники", "/catalog/illustrations/consumables-category.png"],
-              ].map(([label, image], index) => (
-                <button
-                  className={index === 0 ? styles.categoryFeature : styles.categoryTile}
-                  key={label}
-                  type="button"
-                  onClick={() => {
-                    setQuery(label.toLocaleLowerCase("ru"));
-                    void submitSearchFor(label.toLocaleLowerCase("ru"));
-                  }}
-                >
-                  <img src={image} alt="" />
-                  <span>{label}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        </section>
+        <>
+          <nav className={styles.categoryRail} aria-label="Популярные категории">
+            {[
+              { label: "Расходные материалы", query: "расходные материалы", icon: <ClipboardTaskListLtr24Regular /> },
+              { label: "Инструменты", query: "инструменты", icon: <List24Regular /> },
+              { label: "Оборудование", query: "оборудование", icon: <Grid24Regular /> },
+              { label: "Эндодонтия", query: "эндодонтия", icon: <Box24Regular /> },
+              { label: "Имплантология", query: "импланты", icon: <Cart24Regular /> },
+              { label: "Стерилизация", query: "стерилизация", icon: <Tag24Regular /> },
+            ].map((item) => (
+              <button
+                key={item.label}
+                type="button"
+                onClick={() => {
+                  setQuery(item.query);
+                  void submitSearchFor(item.query);
+                }}
+              >
+                {item.icon}
+                <span>{item.label}</span>
+              </button>
+            ))}
+          </nav>
+          {promotedProducts.length ? (
+            <section className={styles.dealsSection} aria-labelledby="deals-title">
+              <div className={styles.dealsHeading}>
+                <div>
+                  <h2 id="deals-title">Акции и выгодные предложения</h2>
+                  <p>Скидка относится к предложению конкретного продавца.</p>
+                </div>
+                <button type="button" onClick={() => void submitSearchFor("")}>Смотреть все</button>
+              </div>
+              <div className={styles.dealGrid}>
+                {promotedProducts.map((product) => {
+                  const best = rankSearchOffers(product.offers).find((offer) => offer.priceMinor);
+                  const promotion = bestPromotionPercent(product);
+                  const priceDifference = priceDifferencePercent(product);
+                  const image = mediaSource(product.media?.[0]);
+                  return (
+                    <article className={styles.dealCard} key={`deal:${product.id}`}>
+                      <button type="button" onClick={() => void openProduct(product)} aria-label={`Открыть ${product.name}`}>
+                        {image ? <img src={image} alt={product.media?.[0]?.altText ?? product.name} /> : null}
+                      </button>
+                      <div>
+                        <span className={styles.dealLabel}>{promotion ? "Акция продавца" : "Выгодная цена"}</span>
+                        <h3>{product.name}</h3>
+                        <strong>{best ? `от ${formatMoney(best.priceMinor, best.currency ?? "KZT")}` : "Цена по запросу"}</strong>
+                        <small>{product.offers.length} {ruCount(product.offers.length, "продавец", "продавца", "продавцов")}</small>
+                        {promotion ? <p>У одного продавца скидка {promotion}%</p> : priceDifference ? <p>У одного продавца цена ниже на {priceDifference}%</p> : <p>Сравните цены и условия доставки</p>}
+                      </div>
+                    </article>
+                  );
+                })}
+              </div>
+            </section>
+          ) : null}
+        </>
       ) : (
         <>
           <PageHeader
@@ -1187,22 +1281,17 @@ export default function BuyerWorkspace() {
             description="Сравнивайте цены, наличие и условия поставщиков Казахстана в одном каталоге."
           />
           <div className={styles.catalogProof} aria-label="Преимущества каталога">
-            <span><strong>3 400+</strong><small>canonical-карточек в каталоге</small></span>
+            <span><strong>3 400+</strong><small>товаров в каталоге</small></span>
             <span><strong>КЗ</strong><small>поставщики по Казахстану</small></span>
             <span><strong>24/7</strong><small>поиск по сленгу и брендам</small></span>
           </div>
         </>
       )}
-      {isPublic ? (
-        <div className={styles.publicProof} aria-label="Возможности каталога">
-          <span><strong>3 400+</strong><small>товаров в каталоге</small></span>
-          <span><strong>Проверено</strong><small>документы поставщиков</small></span>
-          <span><strong>В одной карточке</strong><small>все цены и условия</small></span>
-        </div>
-      ) : null}
       <Section>
+        {!isPublic ? (
+          <>
         <form
-          id={isPublic ? "catalog-search" : undefined}
+          id="catalog-search"
           className={styles.searchBar}
           onSubmit={(event) => {
             event.preventDefault();
@@ -1276,7 +1365,66 @@ export default function BuyerWorkspace() {
             </button>
           ))}
         </div>
-        <details className={styles.advancedFilters}>
+          </>
+        ) : (
+          <>
+            <div className={styles.catalogToolbar}>
+              <div>
+                <h1 id="catalog-title">Каталог для стоматологий</h1>
+                <p>{search?.total ?? visibleProducts.length} {ruCount(search?.total ?? visibleProducts.length, "товар", "товара", "товаров")}</p>
+              </div>
+              <div className={styles.catalogToolbarActions}>
+                <Button appearance="secondary" icon={<Filter24Regular />} onClick={() => setFiltersOpen(true)}>
+                  Фильтры{activeFilterCount ? ` · ${activeFilterCount}` : ""}
+                </Button>
+                <Select aria-label="Сортировка каталога" value={sort} onChange={(_, data) => void submitSearchFor(query, data.value)}>
+                  <option value="RELEVANCE">По популярности</option>
+                  <option value="PRICE_ASC">Сначала дешевле</option>
+                  <option value="PRICE_DESC">Сначала дороже</option>
+                  <option value="NAME_ASC">По названию</option>
+                  <option value="UPDATED_DESC">Сначала новые</option>
+                </Select>
+              </div>
+            </div>
+            {activeFilterCount ? (
+              <div className={styles.activeFilters} aria-label="Выбранные фильтры">
+                {[
+                  categoryFilter ? { key: "category", label: categoryFilter, clear: () => setCategoryFilter("") } : null,
+                  brandFilter ? { key: "brand", label: brandFilter, clear: () => setBrandFilter("") } : null,
+                  minPriceFilter ? { key: "min", label: `от ${minPriceFilter} ₸`, clear: () => setMinPriceFilter("") } : null,
+                  maxPriceFilter ? { key: "max", label: `до ${maxPriceFilter} ₸`, clear: () => setMaxPriceFilter("") } : null,
+                  deliveryFilter ? { key: "delivery", label: "Доставка выбрана", clear: () => setDeliveryFilter("") } : null,
+                  packagingFilter ? { key: "packaging", label: packagingFilter, clear: () => setPackagingFilter("") } : null,
+                  unitFilter ? { key: "unit", label: unitFilter, clear: () => setUnitFilter("") } : null,
+                  stockFilter === "true" ? { key: "stock", label: "В наличии", clear: () => setStockFilter("all") } : null,
+                  verifiedOnly ? { key: "verified", label: "Документы проверены", clear: () => setVerifiedOnly(false) } : null,
+                  officialOnly ? { key: "official", label: "Официальный продавец", clear: () => setOfficialOnly(false) } : null,
+                ].filter((item): item is { key: string; label: string; clear: () => void } => Boolean(item)).map((item) => (
+                  <button key={item.key} type="button" onClick={item.clear}>{item.label}<Dismiss24Regular aria-hidden="true" /></button>
+                ))}
+                <button
+                  className={styles.clearFilters}
+                  type="button"
+                  onClick={() => {
+                    setBrandFilter("");
+                    setCategoryFilter("");
+                    setMinPriceFilter("");
+                    setMaxPriceFilter("");
+                    setVerifiedOnly(false);
+                    setOfficialOnly(false);
+                    setUnitFilter("");
+                    setPackagingFilter("");
+                    setDeliveryFilter("");
+                    setStockFilter("all");
+                  }}
+                >
+                  Сбросить всё
+                </button>
+              </div>
+            ) : null}
+          </>
+        )}
+        {!isPublic ? <details className={styles.advancedFilters}>
           <summary>
             Уточнить поиск <span>бренд, категория, цена, документы и доставка</span>
           </summary>
@@ -1362,15 +1510,15 @@ export default function BuyerWorkspace() {
               Сбросить фильтры
             </Button>
           </div>
-        </details>
-        <div className={styles.resultsMeta}>
+        </details> : null}
+        {!isPublic ? <div className={styles.resultsMeta}>
           <span>{visibleProducts.length}{search && search.total > visibleProducts.length ? ` из ${search.total}` : ""} {ruCount(search?.total ?? visibleProducts.length, "товар", "товара", "товаров")} по запросу</span>
           <span>
             {search?.interpretedQuery?.length
               ? `Поняли как: ${search.interpretedQuery.join(", ")}`
               : "Ищите по названию, бренду или артикулу"}
           </span>
-        </div>
+        </div> : null}
         {loading && isPublic ? (
           <LoadingState label="Загружаем предложения" />
         ) : !visibleProducts.length ? (
@@ -1409,6 +1557,8 @@ export default function BuyerWorkspace() {
               );
               const normalizedPrice = best?.normalizedPriceMinor;
               const productImage = mediaSource(product.media?.[0]);
+              const promotion = bestPromotionPercent(product);
+              const priceDifference = priceDifferencePercent(product);
               return (
                 <article
                   className={styles.product}
@@ -1438,10 +1588,10 @@ export default function BuyerWorkspace() {
                   </div>
                   <div className={styles.productIdentity}>
                     <span className={styles.category}>
-                      {product.categories[0]?.name ?? "Стоматология"}
+                      {isPublic ? product.brand ?? product.categories[0]?.name ?? "DentMarket" : product.categories[0]?.name ?? "Стоматология"}
                     </span>
                     <h3>{product.name}</h3>
-                    <p>
+                    {!isPublic ? <p>
                       {[product.brand, product.manufacturer]
                         .filter(Boolean)
                         .join(" · ") ||
@@ -1450,11 +1600,11 @@ export default function BuyerWorkspace() {
                           : best?.verifiedDocuments === false
                             ? "Внешний каталог · поставщик не верифицирован"
                             : "Проверенная карточка каталога")}
-                    </p>
+                    </p> : null}
                     {product.reviewSummary?.count ? (
                       <small className={styles.reviewSummary}>
-                        {product.reviewSummary.averageRating?.toFixed(1)} ★ ·{" "}
-                        {product.reviewSummary.count} отзывов после заказов
+                        <Star16Filled aria-hidden="true" />{product.reviewSummary.averageRating?.toFixed(1)} ·{" "}
+                        {product.reviewSummary.count} {ruCount(product.reviewSummary.count, "отзыв", "отзыва", "отзывов")}
                       </small>
                     ) : (
                       <small className={styles.reviewSummaryMuted}>
@@ -1469,14 +1619,17 @@ export default function BuyerWorkspace() {
                         : "Цена по запросу"}
                     </strong>
                     {normalizedPrice ? <span>от {formatMoney(normalizedPrice, best?.currency ?? "KZT")} за {best?.packaging.unit ?? "ед."}</span> : null}
-                    <span>
+                    {isPublic ? <span>
+                      {product.offers.length} {ruCount(product.offers.length, "продавец", "продавца", "продавцов")}
+                    </span> : <span>
                       {product.offers.length} {ruCount(product.offers.length, "предложение", "предложения", "предложений")} · {eligibleOffers.length} {ruCount(eligibleOffers.length, "готово", "готовы", "готовы")} к заказу
-                    </span>
+                    </span>}
                     {best ? (
                       <small className={styles.deliveryHint}>
                         {deliveryLabel(best.deliveryMethods)}
                       </small>
                     ) : null}
+                    {isPublic && promotion ? <small className={styles.dealLine}>У одного продавца скидка {promotion}%</small> : isPublic && priceDifference ? <small className={styles.dealLine}>Цена у продавцов отличается на {priceDifference}%</small> : null}
                   </div>
                   <div className={styles.productActions}>
                     <Button
@@ -1489,7 +1642,9 @@ export default function BuyerWorkspace() {
                     >
                       {busy === `compare:${product.id}`
                         ? "Загрузка"
-                        : product.offers.length === 1
+                        : isPublic && product.offers.length > 1
+                          ? "Сравнить предложения"
+                          : product.offers.length === 1
                           ? "Смотреть предложение"
                           : `Смотреть ${product.offers.length} ${ruCount(product.offers.length, "предложение", "предложения", "предложений")}`}
                     </Button>
@@ -1501,6 +1656,91 @@ export default function BuyerWorkspace() {
         )}
         {search && search.total > search.items.length ? <div className={styles.loadMore}><Button appearance="secondary" onClick={() => void loadMoreProducts()} disabled={busy === "load-more"}>{busy === "load-more" ? "Загружаем…" : "Показать ещё 60 товаров"}</Button><small>Показано {search.items.length} из {search.total}</small></div> : null}
       </Section>
+      {isPublic && filtersOpen ? (
+        <div className={styles.filterBackdrop} role="presentation" onClick={() => setFiltersOpen(false)}>
+          <aside className={styles.filterDrawer} role="dialog" aria-modal="true" aria-labelledby="filter-title" onClick={(event) => event.stopPropagation()}>
+            <header>
+              <div>
+                <h2 id="filter-title">Фильтры</h2>
+                <p>Показываем условия для выбранного города.</p>
+              </div>
+              <button type="button" onClick={() => setFiltersOpen(false)} aria-label="Закрыть фильтры"><Dismiss24Regular /></button>
+            </header>
+            <div className={styles.filterDrawerBody}>
+              <Field label="Категория">
+                <Select value={categoryFilter} onChange={(_, data) => setCategoryFilter(data.value)}>
+                  <option value="">Все категории</option>
+                  {catalogCategories.map((category) => <option key={category} value={category}>{category}</option>)}
+                </Select>
+              </Field>
+              <Field label="Бренд">
+                <Select value={brandFilter} onChange={(_, data) => setBrandFilter(data.value)}>
+                  <option value="">Все бренды</option>
+                  {catalogBrands.map((brand) => <option key={brand} value={brand}>{brand}</option>)}
+                </Select>
+              </Field>
+              <div className={styles.filterPriceRange}>
+                <Field label="Цена от, ₸"><Input type="number" min="0" value={minPriceFilter} onChange={(_, data) => setMinPriceFilter(data.value)} placeholder="0" /></Field>
+                <Field label="Цена до, ₸"><Input type="number" min="0" value={maxPriceFilter} onChange={(_, data) => setMaxPriceFilter(data.value)} placeholder="без лимита" /></Field>
+              </div>
+              <Field label="Доставка">
+                <Select value={deliveryFilter} onChange={(_, data) => setDeliveryFilter(data.value)}>
+                  <option value="">Любая</option>
+                  <option value="CARRIER">Курьер</option>
+                  <option value="NATIONWIDE">По Казахстану</option>
+                  <option value="PICKUP">Самовывоз</option>
+                </Select>
+              </Field>
+              <Field label="Фасовка">
+                <Input value={packagingFilter} onChange={(_, data) => setPackagingFilter(data.value)} placeholder="например, 100 шт" />
+              </Field>
+              <Field label="Единица">
+                <Select value={unitFilter} onChange={(_, data) => setUnitFilter(data.value)}>
+                  <option value="">Любая</option>
+                  <option value="шт">шт</option>
+                  <option value="уп">упаковка</option>
+                  <option value="мл">мл</option>
+                  <option value="г">г</option>
+                  <option value="комплект">комплект</option>
+                </Select>
+              </Field>
+              <div className={styles.filterChecks}>
+                <Checkbox checked={stockFilter === "true"} onChange={(_, data) => setStockFilter(data.checked ? "true" : "all")} label="Только в наличии" />
+                <Checkbox checked={verifiedOnly} onChange={(_, data) => setVerifiedOnly(Boolean(data.checked))} label="Документы проверены" />
+                <Checkbox checked={officialOnly} onChange={(_, data) => setOfficialOnly(Boolean(data.checked))} label="Официальный дистрибьютор" />
+              </div>
+            </div>
+            <footer>
+              <Button
+                appearance="subtle"
+                onClick={() => {
+                  setBrandFilter("");
+                  setCategoryFilter("");
+                  setMinPriceFilter("");
+                  setMaxPriceFilter("");
+                  setVerifiedOnly(false);
+                  setOfficialOnly(false);
+                  setUnitFilter("");
+                  setPackagingFilter("");
+                  setDeliveryFilter("");
+                  setStockFilter("all");
+                }}
+              >
+                Сбросить
+              </Button>
+              <Button
+                appearance="primary"
+                onClick={() => {
+                  setFiltersOpen(false);
+                  void submitSearchFor(query);
+                }}
+              >
+                Показать {visibleProducts.length}
+              </Button>
+            </footer>
+          </aside>
+        </div>
+      ) : null}
       {selectedProduct ? (
         <div className={styles.productModalBackdrop} role="presentation" onClick={closeProduct}>
           <section className={styles.productModal} role="dialog" aria-modal="true" aria-labelledby="product-detail-title" onClick={(event) => event.stopPropagation()}>
@@ -2034,7 +2274,21 @@ export default function BuyerWorkspace() {
   if (!handoff && active === "catalog") {
     return (
       <div className={styles.publicStore}>
-        <PublicHeader active="catalog" />
+        <PublicHeader
+          active="catalog"
+          query={query}
+          searching={busy === "search"}
+          onQueryChange={(value) => {
+            setQuery(value);
+            setSearch(fallbackSearch(value, sort, {
+              unit: unitFilter,
+              packaging: packagingFilter,
+              delivery: deliveryFilter,
+              stock: "all",
+            }));
+          }}
+          onSearch={() => void submitSearchFor(query)}
+        />
         <main className={styles.publicMain} id="catalog">
           {renderCatalog(true)}
         </main>

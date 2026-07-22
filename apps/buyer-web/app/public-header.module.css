@@ -3,13 +3,18 @@
   top: 0;
   z-index: 30;
   min-height: 72px;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto minmax(300px, 1fr) auto auto;
   align-items: center;
-  gap: 32px;
+  gap: clamp(16px, 2vw, 30px);
   padding: 0 clamp(20px, 5vw, 72px);
   border-bottom: 1px solid rgb(23 32 30 / 13%);
   background: rgb(255 253 249 / 94%);
   backdrop-filter: blur(18px);
+}
+
+.headerSimple {
+  grid-template-columns: auto minmax(0, 1fr) auto auto;
 }
 
 .brand {
@@ -53,7 +58,6 @@
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-right: auto;
 }
 
 .nav a {
@@ -96,18 +100,85 @@
   transform: translateY(1px);
 }
 
+.search {
+  position: relative;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 0 7px 0 13px;
+  border: 1px solid #d9e1dd;
+  border-radius: 10px;
+  background: #f7f9f7;
+}
+
+.search > svg {
+  width: 19px;
+  color: #66736e;
+}
+
+.search input {
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #17201e;
+  font: inherit;
+  font-size: 13px;
+}
+
+.search input::placeholder {
+  color: #7a8581;
+}
+
+.search button {
+  min-height: 32px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 7px;
+  background: #e7efeb;
+  color: #234d41;
+  cursor: pointer;
+  font: inherit;
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.search button:hover {
+  background: #d9e7e0;
+}
+
+.search button:disabled {
+  cursor: wait;
+  opacity: .65;
+}
+
 .brand:focus-visible,
 .nav a:focus-visible,
-.login:focus-visible {
+.login:focus-visible,
+.search:focus-within {
   outline: 3px solid #9fc5b7;
   outline-offset: 3px;
+}
+
+@media (max-width: 1180px) {
+  .header {
+    grid-template-columns: auto minmax(280px, 1fr) auto auto;
+  }
+
+  .nav {
+    display: none;
+  }
 }
 
 @media (max-width: 760px) {
   .header {
     min-height: 68px;
+    grid-template-columns: minmax(0, 1fr) auto auto;
     gap: 16px;
-    padding: 0 16px;
+    padding: 10px 16px 12px;
   }
 
   .nav {
@@ -116,6 +187,12 @@
 
   .brand {
     margin-right: auto;
+  }
+
+  .search {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
   }
 
   .brandCopy small {
@@ -131,6 +208,14 @@
 @media (max-width: 420px) {
   .brandCopy strong {
     display: none;
+  }
+
+  .header {
+    gap: 10px;
+  }
+
+  .login {
+    padding-inline: 14px;
   }
 }
 
