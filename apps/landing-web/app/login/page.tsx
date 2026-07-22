@@ -22,7 +22,7 @@ declare global {
 }
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
-const buyerAppUrl = process.env.NEXT_PUBLIC_BUYER_APP_URL ?? "https://dentmarket-store.vercel.app";
+const buyerAppUrl = process.env.NEXT_PUBLIC_BUYER_APP_URL ?? "https://dentmarket-shop.vercel.app";
 const supplierAppUrl = process.env.NEXT_PUBLIC_SUPPLIER_APP_URL ?? "https://dentmarket-supplier.vercel.app";
 const googleClientId = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID ?? "";
 const appleClientId = process.env.NEXT_PUBLIC_APPLE_CLIENT_ID ?? "";

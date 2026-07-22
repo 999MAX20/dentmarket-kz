@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
-const buyerUrl = process.env.NEXT_PUBLIC_BUYER_APP_URL ?? "https://dentmarket-store.vercel.app";
+const buyerUrl = process.env.NEXT_PUBLIC_BUYER_APP_URL ?? "https://dentmarket-shop.vercel.app";
 
 export default function VerifyEmailPage() {
   const [state, setState] = useState("Проверяем ссылку…");

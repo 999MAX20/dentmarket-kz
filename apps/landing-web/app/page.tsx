@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const clinicBenefits = ["Сравнивайте цену за единицу", "Проверяйте наличие и сроки", "Следите за бюджетом", "Получайте документы по заказу"];
 const supplierBenefits = ["Управляйте товарами, ценами и остатками", "Загружайте прайс файлом или из 1С", "Запускайте акции и следите за продажами", "Начните продажи после проверки и договора"];
-const buyerAppUrl = process.env.NEXT_PUBLIC_BUYER_APP_URL ?? "https://dentmarket-store.vercel.app";
+const buyerAppUrl = process.env.NEXT_PUBLIC_BUYER_APP_URL ?? "https://dentmarket-shop.vercel.app";
 const supplierAppUrl = process.env.NEXT_PUBLIC_SUPPLIER_APP_URL ?? "https://dentmarket-supplier.vercel.app";
 
 export default function LandingPage() {
