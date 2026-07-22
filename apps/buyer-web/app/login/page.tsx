@@ -98,9 +98,13 @@ export default function LoginPage() {
               <b>Поставщик</b><span>Продажи и ассортимент</span>
             </button>
           </div>
-          <button type="button" className={styles.login} onClick={() => void login()} disabled={busy}>
+          <a
+            className={styles.login}
+            href={`/demo-login?capability=${capability}`}
+            aria-disabled={busy}
+          >
             {busy ? "Открываем кабинет…" : capability === "BUYER" ? "Войти в кабинет клиники" : "Войти как поставщик"}
-          </button>
+          </a>
           {error ? <p className={styles.error}>{error}</p> : null}
           <p className={styles.hint}>Сейчас доступен пилотный демо-вход. Корпоративные Google/Apple аккаунты подключаются отдельными Client ID.</p>
           <a className={styles.register} href={`https://dentmarket-about.vercel.app/register?role=${capability === "BUYER" ? "buyer" : "supplier"}`}>
