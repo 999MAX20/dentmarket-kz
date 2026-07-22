@@ -69,6 +69,7 @@ jobs:
             sleep 1
           done
           curl --fail http://127.0.0.1:4012/api/health
+          SMOKE_API_URL=http://127.0.0.1:4012/api pnpm verify:production-smoke
           pnpm verify:search-commerce
           pnpm verify:document-compliance
           pnpm verify:security

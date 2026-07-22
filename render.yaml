@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: dentmarket-api
+    runtime: node
+    region: frankfurt
+    plan: starter
+    branch: codex/production-hardening
+    autoDeploy: true
+    buildCommand: corepack enable && corepack prepare pnpm@11.9.0 --activate && pnpm install --frozen-lockfile && pnpm db:generate && pnpm --filter @marketplace/api build
+    startCommand: pnpm --filter @marketplace/api start
+    healthCheckPath: /api/health/ready
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: DATABASE_URL
+        sync: false
+      - key: REDIS_URL
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
+      - key: AUTH_MODE
+        value: jwt
+      - key: DEPLOYMENT_PROFILE
+        value: go_live
+      - key: PORT
+        value: "10000"
+      - key: APP_RELEASE
+        sync: false
+
+# This file is a migration draft only. It is not connected to production and
+# intentionally contains no secrets. Add the remaining go_live secrets in the
+# Render dashboard before creating the service.
