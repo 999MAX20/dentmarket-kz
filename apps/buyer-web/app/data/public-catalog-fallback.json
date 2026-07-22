@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T13:03:10.519Z",
+  "generatedAt": "2026-07-22T13:11:14.135Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -13,7 +13,7 @@
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3324,
+  "total": 3329,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -289506,6 +289506,533 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-67576b85059cc1fff227fd36",
+      "name": "VOCO Admira Fusion",
+      "description": "Универсальный наногибридный реставрационный материал на основе ORMOCER. Оттенок шприц или капсулы и фасовка указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "VOCO Admira Fusion",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "VOCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "VOCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "voco-official",
+            "sourceUrl": "https://www.voco.dental/in/products/direct-restoration/composites/admira-fusion.aspx",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "VOCO Admira Fusion"
+          }
+        ]
+      },
+      "brand": "VOCO",
+      "manufacturer": "VOCO",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.voco.dental/in/products/direct-restoration/composites/admira-fusion.aspx",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "VOCO"
+        ],
+        [
+          "Производитель",
+          "VOCO"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Admira Fusion",
+        "Адмира Фьюжн",
+        "Адмира Фьюжен",
+        "2750",
+        "2778",
+        "2780",
+        "2754",
+        "2782",
+        "2755",
+        "2783",
+        "2756",
+        "2784",
+        "2758",
+        "2786",
+        "2759",
+        "2787",
+        "2762",
+        "2790",
+        "2763",
+        "2791",
+        "2764",
+        "2792",
+        "2766",
+        "2794",
+        "2768",
+        "2796",
+        "2770",
+        "2798",
+        "2771",
+        "2799",
+        "2772",
+        "2800",
+        "2773",
+        "2801",
+        "2775",
+        "2803",
+        "2776",
+        "2804",
+        "2757",
+        "2785",
+        "2760",
+        "2788",
+        "2777",
+        "2805",
+        "2806"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-2a76efec248a8a34bf43a435",
+      "name": "VOCO Bifix QM",
+      "description": "Универсальный композитный цемент двойного отверждения для постоянной фиксации реставраций. Оттенок набор и фасовка указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "VOCO Bifix QM",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стоматологические цементы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "VOCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "VOCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "voco-official",
+            "sourceUrl": "https://www.voco.dental/en/products/indirect-restoration/luting/bifix-qm.aspx",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "VOCO Bifix QM"
+          }
+        ]
+      },
+      "brand": "VOCO",
+      "manufacturer": "VOCO",
+      "category": "Стоматологические цементы",
+      "sourceUrl": "https://www.voco.dental/en/products/indirect-restoration/luting/bifix-qm.aspx",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стоматологические цементы"
+        ],
+        [
+          "Бренд",
+          "VOCO"
+        ],
+        [
+          "Производитель",
+          "VOCO"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Bifix QM",
+        "Бификс Ку Эм",
+        "Бификс QM",
+        "1217",
+        "1218",
+        "1219",
+        "1759"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-a620908075054fcd0b1b1895",
+      "name": "VOCO Futurabond U",
+      "description": "Универсальный адгезив двойного отверждения для прямых и непрямых реставраций. Флакон одноразовые дозы и комплектация указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "VOCO Futurabond U",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "VOCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "VOCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "voco-official",
+            "sourceUrl": "https://www.voco.dental/in/products/direct-restoration/bonding/futurabond-u.aspx",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "VOCO Futurabond U"
+          }
+        ]
+      },
+      "brand": "VOCO",
+      "manufacturer": "VOCO",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://www.voco.dental/in/products/direct-restoration/bonding/futurabond-u.aspx",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "VOCO"
+        ],
+        [
+          "Производитель",
+          "VOCO"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Futurabond U",
+        "Футурабонд У",
+        "Футурабонд Ю",
+        "1571",
+        "1572",
+        "1574",
+        "1577",
+        "1578"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-a61caa323e551d6ff60fb7f7",
+      "name": "VOCO GrandioSO",
+      "description": "Универсальный наногибридный композит для прямых реставраций передних и боковых зубов. Оттенок шприц или капсулы и фасовка указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "VOCO GrandioSO",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "VOCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "VOCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "voco-official",
+            "sourceUrl": "https://www.voco.dental/in/products/direct-restoration/composite/grandioso.aspx",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "VOCO GrandioSO"
+          }
+        ]
+      },
+      "brand": "VOCO",
+      "manufacturer": "VOCO",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.voco.dental/in/products/direct-restoration/composite/grandioso.aspx",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "VOCO"
+        ],
+        [
+          "Производитель",
+          "VOCO"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "GrandioSO",
+        "Грандио СО",
+        "ГрандиоСО",
+        "2600",
+        "2640",
+        "2610",
+        "2650",
+        "2611",
+        "2651",
+        "2612",
+        "2652",
+        "2614",
+        "2654",
+        "2615",
+        "2655",
+        "2619",
+        "2659",
+        "2620",
+        "2660",
+        "2621",
+        "2661",
+        "2624",
+        "2664",
+        "2627",
+        "2667",
+        "2629",
+        "2669",
+        "2630",
+        "2670",
+        "2631",
+        "2671",
+        "2633",
+        "2673",
+        "2635",
+        "2675",
+        "2613",
+        "2653",
+        "2616",
+        "2656"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-0156db31b1e701f9f65dc77b",
+      "name": "VOCO Profluorid Varnish",
+      "description": "Фторсодержащий лак с 5% фторида натрия для чувствительных зубов и корневых поверхностей. Вкус тюбик картридж или одноразовые дозы и фасовка указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "VOCO Profluorid Varnish",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Профилактические материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "VOCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "VOCO",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "voco-official",
+            "sourceUrl": "https://www.voco.dental/en/products/oral-care/desensitizer/voco-profluorid-varnish.aspx",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "VOCO Profluorid Varnish"
+          }
+        ]
+      },
+      "brand": "VOCO",
+      "manufacturer": "VOCO",
+      "category": "Профилактические материалы",
+      "sourceUrl": "https://www.voco.dental/en/products/oral-care/desensitizer/voco-profluorid-varnish.aspx",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Профилактические материалы"
+        ],
+        [
+          "Бренд",
+          "VOCO"
+        ],
+        [
+          "Производитель",
+          "VOCO"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Profluorid Varnish",
+        "Профлюорид Варниш",
+        "Профлюорид лак",
+        "2971",
+        "1267",
+        "1272",
+        "2232",
+        "2233",
+        "2234",
+        "2236",
+        "2237",
+        "1269",
+        "1271",
+        "2226",
+        "2229",
+        "2227",
+        "2230",
+        "2228",
+        "2231",
+        "2238",
+        "2239",
+        "2240",
+        "2241",
+        "2242",
+        "2243",
+        "1268",
+        "2225",
+        "2235"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-747535705a2e67c49b2d86ad",

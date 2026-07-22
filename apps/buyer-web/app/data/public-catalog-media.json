@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T13:02:40.384Z",
-  "total": 1666,
+  "generatedAt": "2026-07-22T13:10:38.186Z",
+  "total": 1671,
   "entries": {
     "https://amdgroup.kz/catalog/konusovidnye/bory_almaznye_247_009f_fg/": {
       "id": "9aa079e6-0a46-43b3-af20-39eb3601a968",
@@ -33180,6 +33180,86 @@
         "rightsStatus": "official_manufacturer_catalog",
         "sourcePageUrl": "https://www.gc.dental/europe/en-GB/products/equiaforteht",
         "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/Equia%20Forte%2003.jpg"
+      }
+    },
+    "https://www.voco.dental/in/products/direct-restoration/composite/grandioso.aspx": {
+      "id": "manufacturer-8c58a1592d83d56277bdc973dfa7feea",
+      "sourceUrl": "https://www.voco.dental/in/portaldata/1/resources/products/pacshots/gb/grandioso_pac_gb.jpg",
+      "securePath": "/catalog/products/8c58a1592d83d56277bdc973dfa7feea.png",
+      "normalizedStorageKey": "catalog/products/8c58a1592d83d56277bdc973dfa7feea.png",
+      "mimeType": "image/png",
+      "altText": "VOCO GrandioSO",
+      "width": 1200,
+      "height": 900,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.voco.dental/in/products/direct-restoration/composite/grandioso.aspx",
+        "sourceImageUrl": "https://www.voco.dental/in/portaldata/1/resources/products/pacshots/gb/grandioso_pac_gb.jpg"
+      }
+    },
+    "https://www.voco.dental/in/products/direct-restoration/composites/admira-fusion.aspx": {
+      "id": "manufacturer-76c87d8c1707598806ef19b680ab8964",
+      "sourceUrl": "https://www.voco.dental/in/portaldata/1/resources/products/pacshots/gb/admira-fusion_pac_gb.jpg",
+      "securePath": "/catalog/products/76c87d8c1707598806ef19b680ab8964.png",
+      "normalizedStorageKey": "catalog/products/76c87d8c1707598806ef19b680ab8964.png",
+      "mimeType": "image/png",
+      "altText": "VOCO Admira Fusion",
+      "width": 1200,
+      "height": 900,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.voco.dental/in/products/direct-restoration/composites/admira-fusion.aspx",
+        "sourceImageUrl": "https://www.voco.dental/in/portaldata/1/resources/products/pacshots/gb/admira-fusion_pac_gb.jpg"
+      }
+    },
+    "https://www.voco.dental/in/products/direct-restoration/bonding/futurabond-u.aspx": {
+      "id": "manufacturer-f286233e937985a0ecd80bcccc883c97",
+      "sourceUrl": "https://www.voco.dental/in/portaldata/1/resources/products/pacshots/gb/futurabond-u_pac_gb.jpg",
+      "securePath": "/catalog/products/f286233e937985a0ecd80bcccc883c97.png",
+      "normalizedStorageKey": "catalog/products/f286233e937985a0ecd80bcccc883c97.png",
+      "mimeType": "image/png",
+      "altText": "VOCO Futurabond U",
+      "width": 1200,
+      "height": 900,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.voco.dental/in/products/direct-restoration/bonding/futurabond-u.aspx",
+        "sourceImageUrl": "https://www.voco.dental/in/portaldata/1/resources/products/pacshots/gb/futurabond-u_pac_gb.jpg"
+      }
+    },
+    "https://www.voco.dental/en/products/indirect-restoration/luting/bifix-qm.aspx": {
+      "id": "manufacturer-08f9bdb3600201da86dde5d2d11ca3b1",
+      "sourceUrl": "https://www.voco.dental/en/portaldata/1/resources/products/pacshots/gb/bifix-qm_pac_gb.jpg",
+      "securePath": "/catalog/products/08f9bdb3600201da86dde5d2d11ca3b1.png",
+      "normalizedStorageKey": "catalog/products/08f9bdb3600201da86dde5d2d11ca3b1.png",
+      "mimeType": "image/png",
+      "altText": "VOCO Bifix QM",
+      "width": 1200,
+      "height": 900,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.voco.dental/en/products/indirect-restoration/luting/bifix-qm.aspx",
+        "sourceImageUrl": "https://www.voco.dental/en/portaldata/1/resources/products/pacshots/gb/bifix-qm_pac_gb.jpg"
+      }
+    },
+    "https://www.voco.dental/en/products/oral-care/desensitizer/voco-profluorid-varnish.aspx": {
+      "id": "manufacturer-4c45c8ce1d4a80f57c1dad733457b4f7",
+      "sourceUrl": "https://www.voco.dental/en/portaldata/1/resources/products/pacshots/gb/voco-profluorid-varnish_pac_gb.jpg",
+      "securePath": "/catalog/products/4c45c8ce1d4a80f57c1dad733457b4f7.png",
+      "normalizedStorageKey": "catalog/products/4c45c8ce1d4a80f57c1dad733457b4f7.png",
+      "mimeType": "image/png",
+      "altText": "VOCO Profluorid Varnish",
+      "width": 1200,
+      "height": 900,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.voco.dental/en/products/oral-care/desensitizer/voco-profluorid-varnish.aspx",
+        "sourceImageUrl": "https://www.voco.dental/en/portaldata/1/resources/products/pacshots/gb/voco-profluorid-varnish_pac_gb.jpg"
       }
     }
   }

@@ -169,4 +169,28 @@ describe("supplier matching", () => {
     expect(candidates[0]?.reasons).toContain("catalog_code");
     expect(isConfidentAutomaticMatch(candidates)).toBe(true);
   });
+
+  it("matches a VOCO product by manufacturer REF number", () => {
+    const vocoVariant = {
+      ...variant,
+      product: {
+        canonicalName: "VOCO Futurabond U",
+        externalMetadata: {
+          catalogAliases: ["Futurabond U", "1571", "1572", "1574", "1577", "1578"],
+        },
+        brand: { name: "VOCO" },
+        manufacturer: { name: "VOCO GmbH" },
+      },
+    };
+    const candidates = rankVariants(
+      {
+        name: "1577 Futurabond U bottle 5 ml",
+        normalizedName: "1577 futurabond u bottle 5 ml",
+        brandText: "VOCO",
+      },
+      [vocoVariant],
+    );
+    expect(candidates[0]?.reasons).toContain("catalog_code");
+    expect(isConfidentAutomaticMatch(candidates)).toBe(true);
+  });
 });
