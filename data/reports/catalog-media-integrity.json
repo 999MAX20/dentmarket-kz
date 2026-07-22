@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-22T18:09:40.286Z",
+  "generatedAt": "2026-07-22T18:42:26.339Z",
   "intendedGrain": "Одна строка проверки на одну каноническую карточку",
   "catalog": {
-    "cardsBeforeMediaJoin": 3234,
-    "cardsAfterMediaJoin": 3234,
+    "cardsBeforeMediaJoin": 3235,
+    "cardsAfterMediaJoin": 3235,
     "lostCards": 0,
     "duplicateProductIds": []
   },
   "photos": {
     "usableCards": 1791,
     "usablePercent": 55.4,
-    "withoutUsablePhoto": 1443,
-    "cardsRetainedWithoutPhoto": 1443,
+    "withoutUsablePhoto": 1444,
+    "cardsRetainedWithoutPhoto": 1444,
     "brokenCards": 0,
     "localExact": 1791,
     "remoteUnchecked": 0,
@@ -2594,6 +2594,7 @@
       "https://www.bisco.com/uni-etch-empty-syringe-accessory-pack/"
     ],
     "missingPhotoProductIds": [
+      "public-5d0c9393a8b277cdb3504520",
       "public-672f08d61dcfb818fd91a966",
       "public-c61b6457803cba76a7d24fff",
       "public-5fc40c46006dfdea3887f053",

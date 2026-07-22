@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T18:33:46.263Z",
+  "generatedAt": "2026-07-22T18:42:25.433Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -14,7 +14,7 @@
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3234,
+  "total": 3235,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -298,6 +298,1106 @@
             "В одной единице": "0,2 г",
             "Оттенок": "A2",
             "Артикул производителя": "4867A2"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-5d0c9393a8b277cdb3504520",
+      "name": "3M Filtek Supreme XTE Universal Restorative",
+      "description": "Универсальный композит для прямых реставраций передних и боковых зубов. Форма выпуска прозрачность и оттенок выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "3M Filtek Supreme XTE Universal Restorative",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Solventum",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Solventum Corporation",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "solventum-kz-official",
+            "sourceUrl": "https://www.3mkazakhstan.com/3M/ru_KZ/p/d/b00007950/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "3M Filtek Supreme XTE Universal Restorative"
+          }
+        ]
+      },
+      "brand": "Solventum",
+      "manufacturer": "Solventum Corporation",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.3mkazakhstan.com/3M/ru_KZ/p/d/b00007950/",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Solventum"
+        ],
+        [
+          "Производитель",
+          "Solventum Corporation"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "3M Filtek Supreme XTE шприц 3 г · дентин A1D",
+        "3M Filtek Supreme XTE шприц 3 г · дентин A2D",
+        "3M Filtek Supreme XTE шприц 3 г · дентин A3D",
+        "3M Filtek Supreme XTE шприц 3 г · дентин A4D",
+        "3M Filtek Supreme XTE шприц 3 г · дентин B3D",
+        "3M Filtek Supreme XTE шприц 3 г · дентин C4D",
+        "3M Filtek Supreme XTE шприц 3 г · дентин White",
+        "3M Filtek Supreme XTE шприц 3 г · эмаль A1E",
+        "3M Filtek Supreme XTE шприц 3 г · эмаль A2E",
+        "3M Filtek Supreme XTE шприц 3 г · эмаль A3E",
+        "3M Filtek Supreme XTE шприц 3 г · эмаль B1E",
+        "3M Filtek Supreme XTE шприц 3 г · эмаль B2E",
+        "3M Filtek Supreme XTE шприц 3 г · эмаль D2E",
+        "3M Filtek Supreme XTE шприц 3 г · эмаль White",
+        "3M Filtek Supreme XTE шприц 3 г · эмаль Extra White",
+        "3M Filtek Supreme XTE шприц 3 г · body A1B",
+        "3M Filtek Supreme XTE шприц 3 г · body A2B",
+        "3M Filtek Supreme XTE шприц 3 г · body A3B",
+        "3M Filtek Supreme XTE шприц 3 г · body A3.5B",
+        "3M Filtek Supreme XTE шприц 3 г · body B1B",
+        "3M Filtek Supreme XTE шприц 3 г · body B2B",
+        "3M Filtek Supreme XTE шприц 3 г · body C1B",
+        "3M Filtek Supreme XTE шприц 3 г · body C2B",
+        "3M Filtek Supreme XTE шприц 3 г · body A4B",
+        "3M Filtek Supreme XTE шприц 3 г · body A6B",
+        "3M Filtek Supreme XTE шприц 3 г · body B3B",
+        "3M Filtek Supreme XTE шприц 3 г · body B5B",
+        "3M Filtek Supreme XTE шприц 3 г · body C3B",
+        "3M Filtek Supreme XTE шприц 3 г · body D2B",
+        "3M Filtek Supreme XTE шприц 3 г · body D3B",
+        "3M Filtek Supreme XTE шприц 3 г · body White",
+        "3M Filtek Supreme XTE шприц 3 г · body Extra White",
+        "3M Filtek Supreme XTE шприц 3 г · прозрачный Clear",
+        "3M Filtek Supreme XTE шприц 3 г · прозрачный Blue",
+        "3M Filtek Supreme XTE шприц 3 г · прозрачный Grey",
+        "3M Filtek Supreme XTE шприц 3 г · прозрачный Amber",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · дентин A1D",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · дентин A2D",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · дентин A3D",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · дентин A4D",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · дентин B3D",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · дентин C4D",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · дентин White",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · эмаль A1E",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · эмаль A2E",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · эмаль A3E",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · эмаль B1E",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · эмаль B2E",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · эмаль D2E",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · эмаль White",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · эмаль Extra White",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body A1B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body A2B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body A3B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body A3.5B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body B1B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body B2B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body C1B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body C2B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body A4B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body A6B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body B3B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body B5B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body C3B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body D2B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body D3B",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body White",
+        "3M Filtek Supreme XTE капсулы 20 × 0.2 г · body Extra White",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · прозрачный Clear",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · прозрачный Blue",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · прозрачный Grey",
+        "3M Filtek Supreme XTE капсулы 10 × 0.2 г · прозрачный Amber"
+      ],
+      "variants": [
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-9534c71e1aae29c6905bdf9c",
+          "sku": "4910A1D",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · дентин A1D",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910A1D"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-90bfd3858b1a4ade03ea490e",
+          "sku": "4910A2D",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · дентин A2D",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910A2D"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-498b7d3d9433d233af197530",
+          "sku": "4910A3D",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · дентин A3D",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910A3D"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-0c0b3fd5e0d817a3bf135484",
+          "sku": "4910A4D",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · дентин A4D",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910A4D"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-c3fb3335203c5ba3326e3f55",
+          "sku": "4910B3D",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · дентин B3D",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910B3D"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-460a3819ce9a8a141ecf2681",
+          "sku": "4910C4D",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · дентин C4D",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910C4D"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-e069ac79c29c7010a4bd6415",
+          "sku": "4910WD",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · дентин White",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910WD"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-60b640de42c81270af2b8483",
+          "sku": "4910A1E",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · эмаль A1E",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910A1E"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-e3c189063e683dc3b900cdb1",
+          "sku": "4910A2E",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · эмаль A2E",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910A2E"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-8a556ab642104cf8bf9bed53",
+          "sku": "4910A3E",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · эмаль A3E",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910A3E"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-a31aa871102a50be9c6bd1c3",
+          "sku": "4910B1E",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · эмаль B1E",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910B1E"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-2a57efd7c2b19912a1257408",
+          "sku": "4910B2E",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · эмаль B2E",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910B2E"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-c4c1cc32792fee33efdde016",
+          "sku": "4910D2E",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · эмаль D2E",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910D2E"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-0b48db88087c80a25c09ad98",
+          "sku": "4910WE",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · эмаль White",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910WE"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-3ecb8834a6b01d0236937747",
+          "sku": "4910XWE",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · эмаль Extra White",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910XWE"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-1790a687d1c08b1f755113ad",
+          "sku": "4910A1B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body A1B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910A1B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-ae566e3188a589bea3f38b60",
+          "sku": "4910A2B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body A2B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910A2B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-c28bbc1b1fe0dc39873316ef",
+          "sku": "4910A3B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body A3B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910A3B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-9289d096ef33d8a11348709d",
+          "sku": "4910A3.5B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body A3.5B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A3",
+            "Артикул производителя": "4910A3.5B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-997d5dea38204c84f6fad471",
+          "sku": "4910B1B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body B1B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910B1B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-177a0167c61437a71ddfe103",
+          "sku": "4910B2B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body B2B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910B2B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-fafcfe39c95414c59525b3ff",
+          "sku": "4910C1B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body C1B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910C1B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-fe7509dd2246abc05b062b2a",
+          "sku": "4910C2B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body C2B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910C2B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-c50a885b02ba6564c7ab4502",
+          "sku": "4910A4B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body A4B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910A4B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-7fe8fa84aa8581c111e116b4",
+          "sku": "4910A6B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body A6B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910A6B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-dce681d45038075c57d9c2d7",
+          "sku": "4910B3B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body B3B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910B3B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-12f6da1581a3651744304e75",
+          "sku": "4910B5B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body B5B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910B5B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-46fe419675597e204fa2d9ad",
+          "sku": "4910C3B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body C3B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910C3B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-5d80835673472a0c04368f91",
+          "sku": "4910D2B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body D2B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910D2B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-e758103b0e9ddc13e7b72046",
+          "sku": "4910D3B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body D3B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910D3B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-2ab076adc2fff98451c449b8",
+          "sku": "4910WB",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body White",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910WB"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-d7d95077591358cc488eb06d",
+          "sku": "4910XWB",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · body Extra White",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4910XWB"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-df0b6e3392bf70c9ebcfe858",
+          "sku": "4910CT",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · прозрачный Clear",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Оттенок": "прозрачный",
+            "Артикул производителя": "4910CT"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-bec7c49acbb668d477302367",
+          "sku": "4910BT",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · прозрачный Blue",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Оттенок": "прозрачный",
+            "Артикул производителя": "4910BT"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-99a73c9e39ada57dc9cebb45",
+          "sku": "4910GT",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · прозрачный Grey",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Оттенок": "прозрачный",
+            "Артикул производителя": "4910GT"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-eba0a67992643507bae44f93",
+          "sku": "4910AT",
+          "gtin": null,
+          "aliases": [],
+          "label": "Шприц 3 г · прозрачный Amber",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Оттенок": "прозрачный",
+            "Артикул производителя": "4910AT"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-b4885be1acde057dce1115cb",
+          "sku": "4911A1D",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · дентин A1D",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911A1D"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-a3f68fcc57f67bc4041bf975",
+          "sku": "4911A2D",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · дентин A2D",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911A2D"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-bef507046f13840c6ea994d5",
+          "sku": "4911A3D",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · дентин A3D",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911A3D"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-44348946bb02f56d7459b008",
+          "sku": "4911A4D",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · дентин A4D",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911A4D"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-3def3fec0af0a364e50b4ec7",
+          "sku": "4911B3D",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · дентин B3D",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911B3D"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-acece279b5ec11bf1f15ae93",
+          "sku": "4911C4D",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · дентин C4D",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911C4D"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-6eb4c4d6b89619f6174797e7",
+          "sku": "4911WD",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · дентин White",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911WD"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-600fe883fb20d684b9823735",
+          "sku": "4911A1E",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · эмаль A1E",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911A1E"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-ff13a4865f671c3af3c0926b",
+          "sku": "4911A2E",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · эмаль A2E",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911A2E"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-b988bfe007ea987fa847a418",
+          "sku": "4911A3E",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · эмаль A3E",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911A3E"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-af0c618758a4106632d645bb",
+          "sku": "4911B1E",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · эмаль B1E",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911B1E"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-a7cbbec638d18c745efd4143",
+          "sku": "4911B2E",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · эмаль B2E",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911B2E"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-4843d39bdb6eecf7afbdd5e9",
+          "sku": "4911D2E",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · эмаль D2E",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911D2E"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-96ac89a70c9736d060a8c5c7",
+          "sku": "4911WE",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · эмаль White",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911WE"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-8eb8aa67b00e606c8159cca6",
+          "sku": "4911XWE",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · эмаль Extra White",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911XWE"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-f5a1210030a126b8d403ff77",
+          "sku": "4911A1B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body A1B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911A1B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-9ebea5103202b01a6a31689c",
+          "sku": "4911A2B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body A2B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911A2B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-507da1e2ca65855c56cd72b4",
+          "sku": "4911A3B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body A3B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911A3B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-64bd3a3882dba67a89b82de1",
+          "sku": "4911A3.5B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body A3.5B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Оттенок": "A3",
+            "Артикул производителя": "4911A3.5B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-c286abdda339703ecab8b3e0",
+          "sku": "4911B1B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body B1B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911B1B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-db7c6ec45bc5575cf61df548",
+          "sku": "4911B2B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body B2B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911B2B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-836c7c52444419e4a96f6bdb",
+          "sku": "4911C1B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body C1B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911C1B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-dd742cad90dc2d7cae68e04d",
+          "sku": "4911C2B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body C2B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911C2B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-b3f43bce5555e775d96c321e",
+          "sku": "4911A4B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body A4B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911A4B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-ae4b6057f18f16b6000be119",
+          "sku": "4911A6B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body A6B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911A6B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-e55f9fc5edd07960b7f11979",
+          "sku": "4911B3B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body B3B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911B3B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-a7bcbbb3eae44ba89600758f",
+          "sku": "4911B5B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body B5B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911B5B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-f508578a7132a7261568f0d4",
+          "sku": "4911C3B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body C3B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911C3B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-191aa0c7ab1a8ab36961ef75",
+          "sku": "4911D2B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body D2B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911D2B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-69f8e836c6a171cab776a939",
+          "sku": "4911D3B",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body D3B",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911D3B"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-d225f79de089a61f6469ffc6",
+          "sku": "4911WB",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body White",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911WB"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-81e0fd1ae2b7796842fc0392",
+          "sku": "4911XWB",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 20 × 0.2 г · body Extra White",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "В одной единице": "0,2 г",
+            "Артикул производителя": "4911XWB"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-fb8bc1458121e8c8dcea6fc3",
+          "sku": "4911CT",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · прозрачный Clear",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Оттенок": "прозрачный",
+            "Артикул производителя": "4911CT"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-91e28b8c734d045244638d89",
+          "sku": "4911BT",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · прозрачный Blue",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Оттенок": "прозрачный",
+            "Артикул производителя": "4911BT"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-230e29e9d1b63bd2fa98899f",
+          "sku": "4911GT",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · прозрачный Grey",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Оттенок": "прозрачный",
+            "Артикул производителя": "4911GT"
+          }
+        },
+        {
+          "id": "public-5d0c9393a8b277cdb3504520-variant-b202016931945bac3a80684f",
+          "sku": "4911AT",
+          "gtin": null,
+          "aliases": [],
+          "label": "Капсулы 10 × 0.2 г · прозрачный Amber",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "10 шт.",
+            "В одной единице": "0,2 г",
+            "Оттенок": "прозрачный",
+            "Артикул производителя": "4911AT"
           }
         }
       ],

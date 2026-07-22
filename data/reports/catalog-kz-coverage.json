@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T18:33:46.530Z",
+  "generatedAt": "2026-07-22T18:42:25.942Z",
   "policy": {
     "referenceKey": "brand + manufacturerRef",
     "publishRule": "Kazakhstan evidence is tracked independently from the global manufacturer catalog",
@@ -8,16 +8,18 @@
     "sellerOfferCreatesDuplicateCard": false
   },
   "totals": {
-    "references": 690,
+    "references": 762,
     "kzConfirmedReferences": 187,
-    "confirmationRequiredReferences": 503,
-    "publishedReferences": 597,
+    "confirmationRequiredReferences": 575,
+    "publishedReferences": 669,
     "ambiguousReferences": 0
   },
   "brands": [
     {
       "brand": "BISCO",
       "coverageStatus": "KZ_AUDIT_IN_PROGRESS",
+      "auditStage": "FAMILY_CONFIRMED_SKU_REVIEW_OPEN",
+      "nextAction": "Confirm every manufacturer reference and package against Kazakhstan evidence",
       "references": 191,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 191,
@@ -31,6 +33,8 @@
     {
       "brand": "CICADA",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -44,6 +48,8 @@
     {
       "brand": "COXO",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -57,6 +63,8 @@
     {
       "brand": "DentKist",
       "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 3,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 3,
@@ -70,6 +78,8 @@
     {
       "brand": "Dentsply Sirona",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -83,6 +93,8 @@
     {
       "brand": "FOMOS",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -96,6 +108,8 @@
     {
       "brand": "GC",
       "coverageStatus": "KZ_AUDIT_IN_PROGRESS",
+      "auditStage": "FAMILY_CONFIRMED_SKU_REVIEW_OPEN",
+      "nextAction": "Confirm every manufacturer reference and package against Kazakhstan evidence",
       "references": 159,
       "kzConfirmedReferences": 154,
       "confirmationRequiredReferences": 5,
@@ -109,6 +123,8 @@
     {
       "brand": "Hummer-Pak",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -122,6 +138,8 @@
     {
       "brand": "IMD",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -135,6 +153,8 @@
     {
       "brand": "Interdent",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -148,6 +168,8 @@
     {
       "brand": "IQ Dent",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -161,6 +183,8 @@
     {
       "brand": "Ivoclar",
       "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -174,6 +198,8 @@
     {
       "brand": "Kerr",
       "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 10,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 10,
@@ -187,6 +213,8 @@
     {
       "brand": "Kettenbach",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -200,6 +228,8 @@
     {
       "brand": "Kulzer",
       "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 22,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 22,
@@ -213,6 +243,8 @@
     {
       "brand": "Kuraray Noritake",
       "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 23,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 23,
@@ -226,6 +258,8 @@
     {
       "brand": "LaTus",
       "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 9,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 9,
@@ -239,6 +273,8 @@
     {
       "brand": "LM Dental",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -252,6 +288,8 @@
     {
       "brand": "Medexim",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -265,6 +303,8 @@
     {
       "brand": "NIC",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -278,6 +318,8 @@
     {
       "brand": "NSK",
       "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 14,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 14,
@@ -291,6 +333,8 @@
     {
       "brand": "One Drop Only",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -304,6 +348,8 @@
     {
       "brand": "Ormco",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -317,6 +363,8 @@
     {
       "brand": "Planmeca",
       "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 1,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 1,
@@ -330,6 +378,8 @@
     {
       "brand": "Shofu",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -342,20 +392,24 @@
     },
     {
       "brand": "Solventum",
-      "coverageStatus": "KZ_AUDIT_REQUIRED",
-      "references": 25,
+      "coverageStatus": "KZ_AUDIT_IN_PROGRESS",
+      "auditStage": "FAMILY_CONFIRMED_SKU_REVIEW_OPEN",
+      "nextAction": "Confirm every manufacturer reference and package against Kazakhstan evidence",
+      "references": 97,
       "kzConfirmedReferences": 0,
-      "confirmationRequiredReferences": 25,
-      "publishedReferences": 25,
-      "canonicalFamilies": 5,
-      "kzMarketFamilies": 0,
+      "confirmationRequiredReferences": 97,
+      "publishedReferences": 97,
+      "canonicalFamilies": 6,
+      "kzMarketFamilies": 1,
       "kzSkuConfirmedFamilies": 0,
-      "publishedFamilies": 5,
-      "expansionFamilies": 5
+      "publishedFamilies": 6,
+      "expansionFamilies": 6
     },
     {
       "brand": "Tealth",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -369,6 +423,8 @@
     {
       "brand": "Tokuyama Dental",
       "coverageStatus": "KZ_AUDIT_IN_PROGRESS",
+      "auditStage": "FAMILY_CONFIRMED_SKU_REVIEW_OPEN",
+      "nextAction": "Confirm every manufacturer reference and package against Kazakhstan evidence",
       "references": 100,
       "kzConfirmedReferences": 33,
       "confirmationRequiredReferences": 67,
@@ -382,6 +438,8 @@
     {
       "brand": "Tor VM",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -395,6 +453,8 @@
     {
       "brand": "TORNADO",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -408,6 +468,8 @@
     {
       "brand": "Ultradent",
       "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 2,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 2,
@@ -421,6 +483,8 @@
     {
       "brand": "VDW",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -434,6 +498,8 @@
     {
       "brand": "VITA",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -447,6 +513,8 @@
     {
       "brand": "VOCO",
       "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 121,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 121,
@@ -460,6 +528,8 @@
     {
       "brand": "VRN",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -473,6 +543,8 @@
     {
       "brand": "W&H",
       "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 10,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 10,
@@ -486,6 +558,8 @@
     {
       "brand": "Woodpecker",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -499,6 +573,8 @@
     {
       "brand": "YouJoy",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
@@ -512,6 +588,8 @@
     {
       "brand": "ZT Dental",
       "coverageStatus": "NOT_CLASSIFIED",
+      "auditStage": "NOT_STARTED",
+      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,

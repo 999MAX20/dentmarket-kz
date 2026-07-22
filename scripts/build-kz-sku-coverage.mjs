@@ -10,6 +10,7 @@ const catalogPath = path.resolve("apps/buyer-web/app/data/public-catalog-fallbac
 const csvOutputPath = path.resolve("data/reports/catalog-kz-sku-coverage.csv");
 const jsonOutputPath = path.resolve("data/reports/catalog-kz-coverage.json");
 const markdownOutputPath = path.resolve("data/reports/catalog-kz-coverage.md");
+const brandAuditOutputPath = path.resolve("data/reports/catalog-brand-audit.csv");
 
 function parseCsv(text) {
   const rows = [];
@@ -140,11 +141,26 @@ const brandCoverage = brands.map((brand) => {
     : expansionRows.length > 0 || brandRows.length > 0
       ? "KZ_AUDIT_REQUIRED"
       : "NOT_CLASSIFIED";
+  const kzConfirmedReferences = brandRows.filter((row) => row.kzStatus === "KZ_SKU_CONFIRMED").length;
+  const auditStage = kzMarketFamilies.size === 0
+    ? "NOT_STARTED"
+    : kzConfirmedReferences === brandRows.length && brandRows.length > 0
+      ? "EXACT_SKU_REVIEW_COMPLETE"
+      : "FAMILY_CONFIRMED_SKU_REVIEW_OPEN";
+  const nextAction = kzMarketFamilies.size === 0
+    ? "Find an official Kazakhstan catalogue or authorized representative and reconcile every family"
+    : kzConfirmedReferences < brandRows.length
+      ? "Confirm every manufacturer reference and package against Kazakhstan evidence"
+      : publishedFamilies.size < kzMarketFamilies.size
+        ? "Publish all Kazakhstan-confirmed families without creating seller offers"
+        : "Recheck current Kazakhstan assortment and official discontinuations";
   return {
     brand,
     coverageStatus,
+    auditStage,
+    nextAction,
     references: brandRows.length,
-    kzConfirmedReferences: brandRows.filter((row) => row.kzStatus === "KZ_SKU_CONFIRMED").length,
+    kzConfirmedReferences,
     confirmationRequiredReferences: brandRows.filter((row) => row.kzStatus !== "KZ_SKU_CONFIRMED").length,
     publishedReferences: brandRows.filter((row) => row.publishedCard === "YES").length,
     canonicalFamilies: new Set(brandRows.map((row) => row.canonicalProductName)).size,
@@ -172,6 +188,36 @@ const report = {
   },
   brands: brandCoverage,
 };
+const brandAuditHeaders = [
+  "brand",
+  "auditStage",
+  "coverageStatus",
+  "publicCards",
+  "referenceFamilies",
+  "manufacturerReferences",
+  "kzMarketFamilies",
+  "exactKzFamilies",
+  "exactKzReferences",
+  "referencesRequiringReview",
+  "nextAction",
+];
+const brandAuditRows = brandCoverage.map((brand) => ({
+  brand: brand.brand,
+  auditStage: brand.auditStage,
+  coverageStatus: brand.coverageStatus,
+  publicCards: brand.publishedFamilies,
+  referenceFamilies: brand.canonicalFamilies,
+  manufacturerReferences: brand.references,
+  kzMarketFamilies: brand.kzMarketFamilies,
+  exactKzFamilies: brand.kzSkuConfirmedFamilies,
+  exactKzReferences: brand.kzConfirmedReferences,
+  referencesRequiringReview: brand.confirmationRequiredReferences,
+  nextAction: brand.nextAction,
+}));
+const brandAuditCsv = [
+  brandAuditHeaders.join(","),
+  ...brandAuditRows.map((row) => brandAuditHeaders.map((header) => escapeCsv(row[header])).join(",")),
+].join("\n") + "\n";
 const markdown = [
   "# Kazakhstan SKU coverage",
   "",
@@ -190,5 +236,6 @@ await Promise.all([
   fs.writeFile(csvOutputPath, csv),
   fs.writeFile(jsonOutputPath, JSON.stringify(report, null, 2) + "\n"),
   fs.writeFile(markdownOutputPath, markdown),
+  fs.writeFile(brandAuditOutputPath, brandAuditCsv),
 ]);
 console.log(JSON.stringify(report.totals, null, 2));

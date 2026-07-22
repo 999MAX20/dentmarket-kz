@@ -1,0 +1,40 @@
+brand,auditStage,coverageStatus,publicCards,referenceFamilies,manufacturerReferences,kzMarketFamilies,exactKzFamilies,exactKzReferences,referencesRequiringReview,nextAction
+BISCO,FAMILY_CONFIRMED_SKU_REVIEW_OPEN,KZ_AUDIT_IN_PROGRESS,25,61,191,25,0,0,191,Confirm every manufacturer reference and package against Kazakhstan evidence
+CICADA,NOT_STARTED,NOT_CLASSIFIED,7,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+COXO,NOT_STARTED,NOT_CLASSIFIED,44,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+DentKist,NOT_STARTED,KZ_AUDIT_REQUIRED,6,1,3,0,0,0,3,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Dentsply Sirona,NOT_STARTED,NOT_CLASSIFIED,15,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+FOMOS,NOT_STARTED,NOT_CLASSIFIED,11,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+GC,FAMILY_CONFIRMED_SKU_REVIEW_OPEN,KZ_AUDIT_IN_PROGRESS,13,12,159,12,11,154,5,Confirm every manufacturer reference and package against Kazakhstan evidence
+Hummer-Pak,NOT_STARTED,NOT_CLASSIFIED,1,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+IMD,NOT_STARTED,NOT_CLASSIFIED,9,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Interdent,NOT_STARTED,NOT_CLASSIFIED,12,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+IQ Dent,NOT_STARTED,NOT_CLASSIFIED,17,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Ivoclar,NOT_STARTED,KZ_AUDIT_REQUIRED,8,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Kerr,NOT_STARTED,KZ_AUDIT_REQUIRED,4,3,10,0,0,0,10,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Kettenbach,NOT_STARTED,NOT_CLASSIFIED,5,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Kulzer,NOT_STARTED,KZ_AUDIT_REQUIRED,16,2,22,0,0,0,22,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Kuraray Noritake,NOT_STARTED,KZ_AUDIT_REQUIRED,5,5,23,0,0,0,23,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+LaTus,NOT_STARTED,KZ_AUDIT_REQUIRED,5,2,9,0,0,0,9,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+LM Dental,NOT_STARTED,NOT_CLASSIFIED,11,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Medexim,NOT_STARTED,NOT_CLASSIFIED,1,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+NIC,NOT_STARTED,NOT_CLASSIFIED,2,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+NSK,NOT_STARTED,KZ_AUDIT_REQUIRED,9,4,14,0,0,0,14,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+One Drop Only,NOT_STARTED,NOT_CLASSIFIED,6,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Ormco,NOT_STARTED,NOT_CLASSIFIED,3,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Planmeca,NOT_STARTED,KZ_AUDIT_REQUIRED,7,1,1,0,0,0,1,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Shofu,NOT_STARTED,NOT_CLASSIFIED,1,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Solventum,FAMILY_CONFIRMED_SKU_REVIEW_OPEN,KZ_AUDIT_IN_PROGRESS,6,6,97,1,0,0,97,Confirm every manufacturer reference and package against Kazakhstan evidence
+Tealth,NOT_STARTED,NOT_CLASSIFIED,9,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Tokuyama Dental,FAMILY_CONFIRMED_SKU_REVIEW_OPEN,KZ_AUDIT_IN_PROGRESS,14,7,100,13,6,33,67,Confirm every manufacturer reference and package against Kazakhstan evidence
+Tor VM,NOT_STARTED,NOT_CLASSIFIED,1,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+TORNADO,NOT_STARTED,NOT_CLASSIFIED,6,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Ultradent,NOT_STARTED,KZ_AUDIT_REQUIRED,5,2,2,0,0,0,2,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+VDW,NOT_STARTED,NOT_CLASSIFIED,1,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+VITA,NOT_STARTED,NOT_CLASSIFIED,17,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+VOCO,NOT_STARTED,KZ_AUDIT_REQUIRED,12,7,121,0,0,0,121,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+VRN,NOT_STARTED,NOT_CLASSIFIED,6,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+W&H,NOT_STARTED,KZ_AUDIT_REQUIRED,5,5,10,0,0,0,10,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+Woodpecker,NOT_STARTED,NOT_CLASSIFIED,2,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+YouJoy,NOT_STARTED,NOT_CLASSIFIED,3,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
+ZT Dental,NOT_STARTED,NOT_CLASSIFIED,1,0,0,0,0,0,0,Find an official Kazakhstan catalogue or authorized representative and reconcile every family
