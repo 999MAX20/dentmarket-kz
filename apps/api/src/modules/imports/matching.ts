@@ -192,6 +192,32 @@ export function scoreVariant(
     score = Math.max(score, 0.8);
     reasons.push("exact_sku");
   }
+  const variantMetadata = variant.externalMetadata;
+  const manufacturerReferenceAliases =
+    variantMetadata &&
+    typeof variantMetadata === "object" &&
+    !Array.isArray(variantMetadata) &&
+    Array.isArray(
+      (variantMetadata as { manufacturerReferenceAliases?: unknown })
+        .manufacturerReferenceAliases,
+    )
+      ? (
+          variantMetadata as { manufacturerReferenceAliases: unknown[] }
+        ).manufacturerReferenceAliases.filter(
+          (value): value is string => typeof value === "string",
+        )
+      : [];
+  if (
+    item.supplierSku &&
+    manufacturerReferenceAliases.some(
+      (alias) =>
+        normalizeCatalogText(item.supplierSku ?? "") ===
+        normalizeCatalogText(alias),
+    )
+  ) {
+    score = Math.max(score, 0.8);
+    reasons.push("exact_sku_alias");
+  }
   const normalizedVariantSku = normalizeCatalogText(variant.sku ?? "");
   if (
     normalizedVariantSku &&
@@ -261,7 +287,9 @@ export function isConfidentAutomaticMatch(
   const runnerUp = candidates[1];
   if (best.reasons.includes("mapping_memory") && best.score >= 0.8) return true;
   if (
-    best.reasons.some((reason) => ["exact_gtin", "exact_sku"].includes(reason))
+    best.reasons.some((reason) =>
+      ["exact_gtin", "exact_sku", "exact_sku_alias"].includes(reason),
+    )
   )
     return (
       best.reasons.includes("exact_gtin") ||

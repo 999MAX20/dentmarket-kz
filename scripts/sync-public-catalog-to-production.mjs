@@ -286,6 +286,7 @@ try {
           label: desired.label,
           attributes: desired.attributes ?? {},
           manufacturerReference: desired.sku ?? null,
+          manufacturerReferenceAliases: desired.aliases ?? [],
         },
       };
       if (variant)

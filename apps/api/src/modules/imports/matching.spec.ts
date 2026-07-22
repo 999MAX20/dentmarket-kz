@@ -330,4 +330,35 @@ describe("supplier matching", () => {
     expect(candidates[1]?.reasons).toContain("variant_form_conflict");
     expect(isConfidentAutomaticMatch(candidates)).toBe(true);
   });
+
+  it("matches a supplier row by an official legacy manufacturer reference", () => {
+    const product = {
+      canonicalName: "GC Initial LiSi Press",
+      externalMetadata: { catalogAliases: ["Initial LiSi Press"] },
+      brand: { name: "GC" },
+      manufacturer: { name: "GC Corporation" },
+    };
+    const candidates = rankVariants(
+      {
+        name: "Initial LiSi Press HT-EXW 5x3 g",
+        normalizedName: "initial lisi press ht exw 5x3 g",
+        supplierSku: "901428",
+        brandText: "GC",
+      },
+      [
+        {
+          id: "lisi-press-ht-exw",
+          sku: "10003665",
+          externalMetadata: {
+            label: "5 слитков по 3 г · HT-EXW",
+            manufacturerReferenceAliases: ["901428"],
+          },
+          product,
+        },
+      ],
+    );
+
+    expect(candidates[0]?.reasons).toContain("exact_sku_alias");
+    expect(isConfidentAutomaticMatch(candidates)).toBe(true);
+  });
 });

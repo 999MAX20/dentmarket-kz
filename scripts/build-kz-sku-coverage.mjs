@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const variantsPath = path.resolve("data/catalog-variant-families-wave-2.csv");
+const skuLabelsPath = path.resolve("data/catalog-product-skus-wave-1.csv");
 const evidencePath = path.resolve("data/catalog-kz-market-evidence.csv");
 const skuEvidencePath = path.resolve("data/catalog-kz-sku-evidence.csv");
 const expansionPath = path.resolve("data/catalog-expansion-wave-1.csv");
@@ -56,20 +57,37 @@ function key(brand, productName) {
   return `${brand}|${productName}`.toLocaleLowerCase("ru");
 }
 
-const [variantText, evidenceText, skuEvidenceText, expansionText, catalog] = await Promise.all([
+const [variantText, skuLabelText, evidenceText, skuEvidenceText, expansionText, catalog] = await Promise.all([
   fs.readFile(variantsPath, "utf8"),
+  fs.readFile(skuLabelsPath, "utf8"),
   fs.readFile(evidencePath, "utf8"),
   fs.readFile(skuEvidencePath, "utf8"),
   fs.readFile(expansionPath, "utf8"),
   fs.readFile(catalogPath, "utf8").then(JSON.parse),
 ]);
-const variants = parseCsv(variantText);
-const officialReferenceVariants = variants.filter(
-  (variant) => variant.referenceType !== "LOCAL_CATALOG_ID",
-);
+const variantFamilies = parseCsv(variantText);
+const skuLabels = parseCsv(skuLabelText);
 const evidence = parseCsv(evidenceText);
 const skuEvidence = parseCsv(skuEvidenceText);
 const expansion = parseCsv(expansionText);
+const manufacturerByCard = new Map(
+  expansion.map((record) => [key(record.brand, record.canonicalProductName), record.manufacturer]),
+);
+const variants = [
+  ...variantFamilies,
+  ...skuLabels.map((record) => ({
+    brand: record.brand,
+    manufacturer: manufacturerByCard.get(key(record.brand, record.canonicalProductName)) ?? "",
+    canonicalProductName: record.canonicalProductName,
+    sourceName: record.canonicalProductName,
+    manufacturerRef: record.manufacturerRef,
+    variantLabel: record.variantLabel,
+    referenceType: "MANUFACTURER_REF",
+  })),
+];
+const officialReferenceVariants = variants.filter(
+  (variant) => variant.referenceType !== "LOCAL_CATALOG_ID",
+);
 const evidenceByCard = new Map(evidence.map((record) => [key(record.brand, record.canonicalProductName), record]));
 const skuEvidenceByReference = new Map(skuEvidence.map((record) => [`${record.brand}|${record.manufacturerRef}`.toLocaleLowerCase("ru"), record]));
 const publishedCards = new Set((catalog.products ?? []).map((product) => key(product.brand, product.name)));

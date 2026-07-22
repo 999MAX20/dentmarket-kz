@@ -31,6 +31,10 @@ const variantFamiliesPath = path.join(
   root,
   "data/catalog-variant-families-wave-2.csv",
 );
+const manufacturerRefAliasesPath = path.join(
+  root,
+  "data/catalog-manufacturer-ref-aliases.csv",
+);
 const files = (await fs.readdir(inputDir))
   .filter((file) => file.endsWith(".csv"))
   .sort();
@@ -83,6 +87,21 @@ const variantFamilyRows = await fs
     if (error.code === "ENOENT") return [];
     throw error;
   });
+const manufacturerRefAliasRows = await fs
+  .readFile(manufacturerRefAliasesPath)
+  .then((content) =>
+    parse(content, {
+      columns: true,
+      skip_empty_lines: true,
+      bom: true,
+      trim: true,
+      relax_column_count: true,
+    }),
+  )
+  .catch((error) => {
+    if (error.code === "ENOENT") return [];
+    throw error;
+  });
 const variantFamilyBySourceName = new Map(
   variantFamilyRows.map((row) => [
     clean(row.sourceName).toLocaleLowerCase("ru"),
@@ -96,6 +115,18 @@ const skuLabelByKey = new Map(
       .join("|")}|${clean(row.manufacturerRef).toLocaleLowerCase("ru")}`,
     clean(row.variantLabel),
   ]),
+);
+const manufacturerRefAliasesByKey = manufacturerRefAliasRows.reduce(
+  (result, row) => {
+    const key = `${[row.brand || "Без бренда", row.canonicalProductName]
+      .map((value) => normalizedCatalogIdentity(value))
+      .join("|")}|${clean(row.currentManufacturerRef).toLocaleLowerCase("ru")}`;
+    if (!result.has(key)) result.set(key, new Set());
+    if (clean(row.aliasManufacturerRef))
+      result.get(key).add(clean(row.aliasManufacturerRef));
+    return result;
+  },
+  new Map(),
 );
 const isManufacturerReference = (value) =>
   /^(?=.*\d)[a-z0-9][a-z0-9._/-]{3,}$/i.test(clean(value));
@@ -413,6 +444,11 @@ const products = [...grouped.values()].map((row) => {
         id: `${id}-variant-${hash(sku.toLocaleLowerCase("ru"))}`,
         sku,
         gtin: null,
+        aliases: [
+          ...(manufacturerRefAliasesByKey.get(
+            `${row.key}|${sku.toLocaleLowerCase("ru")}`,
+          ) ?? []),
+        ],
         label:
           skuLabelByKey.get(`${row.key}|${sku.toLocaleLowerCase("ru")}`) ??
           `REF ${sku}`,
