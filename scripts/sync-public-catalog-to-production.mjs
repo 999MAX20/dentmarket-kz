@@ -169,6 +169,7 @@ try {
       sourceUrl: product.sourceUrl ?? null,
       sourceUpdatedAt: product.sourceUpdatedAt ?? null,
       photoStatus: product.photoStatus ?? "category_illustration",
+      catalogAliases: product.aliases ?? [],
       importedAsCanonicalDraft: true,
     };
     if (!apply) {
@@ -200,7 +201,7 @@ try {
         productType: productType(product.name),
         brandId: brand?.id ?? null,
         manufacturerId: manufacturer?.id ?? null,
-        status: "DRAFT",
+        status: product.catalogSource === "manufacturer" ? "ACTIVE" : "DRAFT",
         externalMetadata: {
           ...(existing?.externalMetadata &&
           typeof existing.externalMetadata === "object"
@@ -220,7 +221,7 @@ try {
         productType: productType(product.name),
         brandId: brand?.id ?? null,
         manufacturerId: manufacturer?.id ?? null,
-        status: "DRAFT",
+        status: product.catalogSource === "manufacturer" ? "ACTIVE" : "DRAFT",
         externalMetadata: metadata,
       },
     });
@@ -248,7 +249,7 @@ try {
       await prisma.productVariant.update({
         where: { id: variant.id },
         data: {
-          status: "DRAFT",
+          status: product.catalogSource === "manufacturer" ? "ACTIVE" : "DRAFT",
           saleUnitId: fallbackUnit?.id ?? null,
           externalMetadata: {
             ...(variant.externalMetadata &&
@@ -264,7 +265,7 @@ try {
       await prisma.productVariant.create({
         data: {
           productId: saved.id,
-          status: "DRAFT",
+          status: product.catalogSource === "manufacturer" ? "ACTIVE" : "DRAFT",
           saleUnitId: fallbackUnit?.id ?? null,
           externalMetadata: {
             sourceId: product.id,
@@ -299,7 +300,7 @@ try {
             altText: media.altText,
             width: media.width,
             height: media.height,
-            mimeType: "image/webp",
+            mimeType: media.mimeType ?? "image/webp",
             status: "PENDING",
             metadata: {
               ...media.metadata,
@@ -315,6 +316,7 @@ try {
       product.manufacturer,
       product.category,
       ...(product.attributes ?? []).flat(),
+      ...(product.aliases ?? []),
     ]
       .filter(Boolean)
       .join(" ");

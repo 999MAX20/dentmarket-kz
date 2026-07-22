@@ -139,7 +139,8 @@ const report = {
     sellerEntity: "offer",
     duplicateSellerCardsAllowed: false,
     publishWithoutVerifiedImage: false,
-    publishWithoutKazakhstanOffer: false,
+    publishBrandCardWithoutKazakhstanOffer: true,
+    publishSellerOfferWithoutChecks: false,
   },
   representatives: {
     records: representatives.length,

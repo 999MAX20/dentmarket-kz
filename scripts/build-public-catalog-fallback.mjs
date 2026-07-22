@@ -20,14 +20,37 @@ const output = path.join(
   root,
   "apps/buyer-web/app/data/public-catalog-fallback.json",
 );
+const aliasesPath = path.join(root, "data/catalog-model-aliases-wave-1.csv");
 const files = (await fs.readdir(inputDir))
   .filter((file) => file.endsWith(".csv"))
   .sort();
-
 const clean = (value) =>
   String(value ?? "")
     .replace(/\s+/g, " ")
     .trim();
+const aliasRows = await fs
+  .readFile(aliasesPath)
+  .then((content) =>
+    parse(content, {
+      columns: true,
+      skip_empty_lines: true,
+      bom: true,
+      trim: true,
+    }),
+  )
+  .catch((error) => {
+    if (error.code === "ENOENT") return [];
+    throw error;
+  });
+const aliasesByProduct = aliasRows.reduce((result, row) => {
+  const key = [row.brand || "Без бренда", row.canonicalProductName]
+    .map((value) => clean(value).toLocaleLowerCase("ru"))
+    .join("|");
+  if (!result.has(key)) result.set(key, new Set());
+  if (clean(row.alias)) result.get(key).add(clean(row.alias));
+  return result;
+}, new Map());
+
 const first = (row, ...keys) =>
   keys.map((key) => clean(row[key])).find(Boolean) ?? "";
 const hash = (value) =>
@@ -117,6 +140,7 @@ for (const file of files) {
     const supplier = normalizeSupplierName(
       first(row, "supplierName") || source,
     );
+    const catalogOnly = /^(?:true|1|yes)$/i.test(first(row, "catalogOnly"));
     const rawBrand = first(row, "brand");
     const rawManufacturer = first(row, "manufacturer");
     const sourceUrl = validHttpUrl(first(row, "sourceUrl", "url"));
@@ -127,11 +151,15 @@ for (const file of files) {
       category: row.category,
     });
     const manufacturer = normalizeCatalogManufacturer(rawManufacturer, brand);
-    const name = normalizeCanonicalName(rawName, {
-      brand,
-      manufacturer,
-      sourceUrl,
-    });
+    // Manufacturer catalog rows are the naming authority. Keep the official
+    // Latin model spelling intact; supplier rows still pass through cleanup.
+    const name = catalogOnly
+      ? clean(rawName)
+      : normalizeCanonicalName(rawName, {
+          brand,
+          manufacturer,
+          sourceUrl,
+        });
     if (/^\d+$/.test(name)) continue;
     const category = inferCatalogCategory(
       name,
@@ -175,6 +203,8 @@ for (const file of files) {
       currency: first(row, "currency") || "KZT",
       quantity,
       available,
+      catalogOnly,
+      description: first(row, "description"),
     });
   }
 }
@@ -202,12 +232,13 @@ for (const row of acceptedRows) {
   if (!existing) {
     grouped.set(row.key, {
       ...row,
-      suppliers: [row.supplier],
+      suppliers: row.catalogOnly ? [] : [row.supplier],
       sourceRecords: [row],
     });
     continue;
   }
-  existing.suppliers = [...new Set([...existing.suppliers, row.supplier])];
+  if (!row.catalogOnly)
+    existing.suppliers = [...new Set([...existing.suppliers, row.supplier])];
   existing.sourceRecords.push(row);
   if (!existing.brand && row.brand) existing.brand = row.brand;
   if (!existing.manufacturer && row.manufacturer)
@@ -221,20 +252,24 @@ for (const row of acceptedRows) {
   if (!existing.priceMinor && row.priceMinor)
     existing.priceMinor = row.priceMinor;
   if (!existing.sourceUrl && row.sourceUrl) existing.sourceUrl = row.sourceUrl;
+  if (!existing.description && row.description)
+    existing.description = row.description;
   existing.available ||= row.available;
   if (!existing.quantity && row.quantity) existing.quantity = row.quantity;
 }
 
 const products = [...grouped.values()].map((row) => {
   const id = `public-${hash(row.key)}`;
-  const description = generateCanonicalDescription({
-    name: row.name,
-    category: row.category,
-    brand: row.brand,
-    manufacturer: row.manufacturer,
-    unit: row.unit,
-    supplierCount: row.suppliers.length,
-  });
+  const description =
+    row.description ||
+    generateCanonicalDescription({
+      name: row.name,
+      category: row.category,
+      brand: row.brand,
+      manufacturer: row.manufacturer,
+      unit: row.unit,
+      supplierCount: row.suppliers.length,
+    });
   const attributes = [
     ["Категория", row.category],
     ["Бренд", row.brand],
@@ -245,6 +280,7 @@ const products = [...grouped.values()].map((row) => {
   ].filter(([, value]) => value);
   const offerRecords = [
     ...row.sourceRecords
+      .filter((source) => !source.catalogOnly)
       .reduce((bySupplier, source) => {
         const current = bySupplier.get(source.supplier);
         const score = (item) =>
@@ -294,7 +330,11 @@ const products = [...grouped.values()].map((row) => {
     sourceUrl: row.sourceUrl,
     sourceUpdatedAt: row.sourceUpdatedAt,
     attributes,
+    aliases: [...(aliasesByProduct.get(row.key) ?? [])],
     photoStatus: "category_illustration",
+    catalogSource: row.sourceRecords.some((source) => source.catalogOnly)
+      ? "manufacturer"
+      : "supplier",
     minNormalizedPriceMinor: minPriceMinor ? String(minPriceMinor) : null,
     isAvailable: offerRecords.some((source) => source.available),
     offers,

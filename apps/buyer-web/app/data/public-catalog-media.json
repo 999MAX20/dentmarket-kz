@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T08:13:35.516Z",
-  "total": 1631,
+  "generatedAt": "2026-07-22T12:24:24.430Z",
+  "total": 1652,
   "entries": {
     "https://amdgroup.kz/catalog/konusovidnye/bory_almaznye_247_009f_fg/": {
       "id": "9aa079e6-0a46-43b3-af20-39eb3601a968",
@@ -32620,6 +32620,342 @@
         "normalizedFormat": "webp",
         "exactProductPhoto": true,
         "protectedDelivery": "frontend-friction-only"
+      }
+    },
+    "https://www.planmeca.com/dental-units/planmeca-compact-i5/": {
+      "id": "manufacturer-8d72862f5a6a151cf16425750a9386c1",
+      "sourceUrl": "https://www.planmeca.com/link/87066d089dae44f1a0037887da820628.aspx",
+      "securePath": "/catalog/products/8d72862f5a6a151cf16425750a9386c1.png",
+      "normalizedStorageKey": "catalog/products/8d72862f5a6a151cf16425750a9386c1.png",
+      "mimeType": "image/png",
+      "altText": "Planmeca Compact i5",
+      "width": 1200,
+      "height": 526,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.planmeca.com/dental-units/planmeca-compact-i5/",
+        "sourceImageUrl": "https://www.planmeca.com/link/87066d089dae44f1a0037887da820628.aspx"
+      }
+    },
+    "https://www.planmeca.com/dental-units/planmeca-pro50-dental-unit/": {
+      "id": "manufacturer-f360f56ca824ba0ebfff2c60349dc681",
+      "sourceUrl": "https://www.planmeca.com/link/9e9ae67259424cdf82bece1ecf0c0eee.aspx",
+      "securePath": "/catalog/products/f360f56ca824ba0ebfff2c60349dc681.png",
+      "normalizedStorageKey": "catalog/products/f360f56ca824ba0ebfff2c60349dc681.png",
+      "mimeType": "image/png",
+      "altText": "Planmeca Pro50",
+      "width": 1200,
+      "height": 737,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.planmeca.com/dental-units/planmeca-pro50-dental-unit/",
+        "sourceImageUrl": "https://www.planmeca.com/link/9e9ae67259424cdf82bece1ecf0c0eee.aspx"
+      }
+    },
+    "https://www.planmeca.com/dental-imaging/cbct-machines/planmeca-viso-g3/": {
+      "id": "manufacturer-9807cd3c3b929c02b2a50c5fa685dc6e",
+      "sourceUrl": "https://www.planmeca.com/link/7e438a05300f4874aca7613eed79b83a.aspx",
+      "securePath": "/catalog/products/9807cd3c3b929c02b2a50c5fa685dc6e.png",
+      "normalizedStorageKey": "catalog/products/9807cd3c3b929c02b2a50c5fa685dc6e.png",
+      "mimeType": "image/png",
+      "altText": "Planmeca Viso G3",
+      "width": 1200,
+      "height": 526,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.planmeca.com/dental-imaging/cbct-machines/planmeca-viso-g3/",
+        "sourceImageUrl": "https://www.planmeca.com/link/7e438a05300f4874aca7613eed79b83a.aspx"
+      }
+    },
+    "https://www.planmeca.com/dental-imaging/panoramic-machines/planmeca-promax-2d/": {
+      "id": "manufacturer-f775fceb3a28a76bec7bf172b639d5a4",
+      "sourceUrl": "https://www.planmeca.com/link/f09b40cd7d584dea96ad0349dd4e111c.aspx",
+      "securePath": "/catalog/products/f775fceb3a28a76bec7bf172b639d5a4.png",
+      "normalizedStorageKey": "catalog/products/f775fceb3a28a76bec7bf172b639d5a4.png",
+      "mimeType": "image/png",
+      "altText": "Planmeca ProMax 2D",
+      "width": 1200,
+      "height": 526,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.planmeca.com/dental-imaging/panoramic-machines/planmeca-promax-2d/",
+        "sourceImageUrl": "https://www.planmeca.com/link/f09b40cd7d584dea96ad0349dd4e111c.aspx"
+      }
+    },
+    "https://www.planmeca.com/cadcam-dentistry/intraoral-scanners/planmeca-emerald-s/": {
+      "id": "manufacturer-5d0b3c5fb5b63f1ff16e6a8f7d27d79d",
+      "sourceUrl": "https://www.planmeca.com/link/bcf21219df704edbadcc678e9d8c0f9b.aspx",
+      "securePath": "/catalog/products/5d0b3c5fb5b63f1ff16e6a8f7d27d79d.png",
+      "normalizedStorageKey": "catalog/products/5d0b3c5fb5b63f1ff16e6a8f7d27d79d.png",
+      "mimeType": "image/png",
+      "altText": "Planmeca Emerald S",
+      "width": 1200,
+      "height": 421,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.planmeca.com/cadcam-dentistry/intraoral-scanners/planmeca-emerald-s/",
+        "sourceImageUrl": "https://www.planmeca.com/link/bcf21219df704edbadcc678e9d8c0f9b.aspx"
+      }
+    },
+    "https://www.planmeca.com/cadcam-dentistry/dental-milling-machines/planmeca-planmill-35/": {
+      "id": "manufacturer-4cfd1bb282965543ba19ae4b5c0b5937",
+      "sourceUrl": "https://www.planmeca.com/link/0b45f8ca53c64eef8e7949d4f11e876a.aspx",
+      "securePath": "/catalog/products/4cfd1bb282965543ba19ae4b5c0b5937.png",
+      "normalizedStorageKey": "catalog/products/4cfd1bb282965543ba19ae4b5c0b5937.png",
+      "mimeType": "image/png",
+      "altText": "Planmeca PlanMill 35",
+      "width": 1200,
+      "height": 737,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.planmeca.com/cadcam-dentistry/dental-milling-machines/planmeca-planmill-35/",
+        "sourceImageUrl": "https://www.planmeca.com/link/0b45f8ca53c64eef8e7949d4f11e876a.aspx"
+      }
+    },
+    "https://www.japan.nsk-dental.com/products/turbines/turbines-ti-max_z990_z890/": {
+      "id": "manufacturer-88520a5bbf34479eeba27546193c3343",
+      "sourceUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z990L_230215.png",
+      "securePath": "/catalog/products/88520a5bbf34479eeba27546193c3343.png",
+      "normalizedStorageKey": "catalog/products/88520a5bbf34479eeba27546193c3343.png",
+      "mimeType": "image/png",
+      "altText": "NSK Ti-Max Z990",
+      "width": 1200,
+      "height": 357,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.japan.nsk-dental.com/products/turbines/turbines-ti-max_z990_z890/",
+        "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z990L_230215.png"
+      }
+    },
+    "https://www.japan.nsk-dental.com/products/turbines/turbines-s-max_m/": {
+      "id": "manufacturer-e8f5cf37541d55b0787dbad9464c4eb7",
+      "sourceUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/smax_m_m900l.png",
+      "securePath": "/catalog/products/e8f5cf37541d55b0787dbad9464c4eb7.png",
+      "normalizedStorageKey": "catalog/products/e8f5cf37541d55b0787dbad9464c4eb7.png",
+      "mimeType": "image/png",
+      "altText": "NSK S-Max M900",
+      "width": 1200,
+      "height": 660,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.japan.nsk-dental.com/products/turbines/turbines-s-max_m/",
+        "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/smax_m_m900l.png"
+      }
+    },
+    "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios/": {
+      "id": "manufacturer-ee1d291fe52c5a95f6457abb7414b66e",
+      "sourceUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/VA970-set_W1000_jp_240515.png",
+      "securePath": "/catalog/products/ee1d291fe52c5a95f6457abb7414b66e.png",
+      "normalizedStorageKey": "catalog/products/ee1d291fe52c5a95f6457abb7414b66e.png",
+      "mimeType": "image/png",
+      "altText": "NSK Varios 970",
+      "width": 1200,
+      "height": 840,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios/",
+        "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/VA970-set_W1000_jp_240515.png"
+      }
+    },
+    "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-vcp-2/": {
+      "id": "manufacturer-9c29d49e3474eafe9481e0e97d4c6d0c",
+      "sourceUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/VCP2_set_Prophy_202512.png",
+      "securePath": "/catalog/products/9c29d49e3474eafe9481e0e97d4c6d0c.png",
+      "normalizedStorageKey": "catalog/products/9c29d49e3474eafe9481e0e97d4c6d0c.png",
+      "mimeType": "image/png",
+      "altText": "NSK Varios Combi Pro2",
+      "width": 1200,
+      "height": 960,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-vcp-2/",
+        "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/VCP2_set_Prophy_202512.png"
+      }
+    },
+    "https://www.japan.nsk-dental.com/products/surgical/surgical-surgicpro2/?simply_static_page=1041550": {
+      "id": "manufacturer-0cbc05b4bdf1cbbb19b8400f1563a63f",
+      "sourceUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/SP2set_1000×1000_jp_231103-1.png",
+      "securePath": "/catalog/products/0cbc05b4bdf1cbbb19b8400f1563a63f.png",
+      "normalizedStorageKey": "catalog/products/0cbc05b4bdf1cbbb19b8400f1563a63f.png",
+      "mimeType": "image/png",
+      "altText": "NSK Surgic Pro2",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.japan.nsk-dental.com/products/surgical/surgical-surgicpro2/?simply_static_page=1041550",
+        "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/SP2set_1000×1000_jp_231103-1.png"
+      }
+    },
+    "https://www.japan.nsk-dental.com/products/surgical/surgical-variosurg4/": {
+      "id": "manufacturer-513e2de801df36fcbba7aae6cf7f4984",
+      "sourceUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/VS4set_1000×1000_jp_231103.png",
+      "securePath": "/catalog/products/513e2de801df36fcbba7aae6cf7f4984.png",
+      "normalizedStorageKey": "catalog/products/513e2de801df36fcbba7aae6cf7f4984.png",
+      "mimeType": "image/png",
+      "altText": "NSK VarioSurg 4",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.japan.nsk-dental.com/products/surgical/surgical-variosurg4/",
+        "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/VS4set_1000×1000_jp_231103.png"
+      }
+    },
+    "https://www.japan.nsk-dental.com/products/endodontics/endo-endomate_tc2/": {
+      "id": "manufacturer-e0ccf9151caefc7d5d888a79a0cb3a54",
+      "sourceUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/endo_mate_tc2_normal_set.png",
+      "securePath": "/catalog/products/e0ccf9151caefc7d5d888a79a0cb3a54.png",
+      "normalizedStorageKey": "catalog/products/e0ccf9151caefc7d5d888a79a0cb3a54.png",
+      "mimeType": "image/png",
+      "altText": "NSK ENDO-MATE TC2",
+      "width": 1200,
+      "height": 660,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.japan.nsk-dental.com/products/endodontics/endo-endomate_tc2/",
+        "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/endo_mate_tc2_normal_set.png"
+      }
+    },
+    "https://www.japan.nsk-dental.com/products/endodontics/endo-ipex2/": {
+      "id": "manufacturer-27cea998c38db8fa612c325250b2058f",
+      "sourceUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/2019/05/ipex2.png",
+      "securePath": "/catalog/products/27cea998c38db8fa612c325250b2058f.png",
+      "normalizedStorageKey": "catalog/products/27cea998c38db8fa612c325250b2058f.png",
+      "mimeType": "image/png",
+      "altText": "NSK iPex II",
+      "width": 1200,
+      "height": 470,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.japan.nsk-dental.com/products/endodontics/endo-ipex2/",
+        "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/2019/05/ipex2.png"
+      }
+    },
+    "https://www.japan.nsk-dental.com/products/hygiene_and_maintenance/maintenace-icare/": {
+      "id": "manufacturer-4acbba1b451aed47575b0ae9a3d2bf6c",
+      "sourceUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/iCare.png",
+      "securePath": "/catalog/products/4acbba1b451aed47575b0ae9a3d2bf6c.png",
+      "normalizedStorageKey": "catalog/products/4acbba1b451aed47575b0ae9a3d2bf6c.png",
+      "mimeType": "image/png",
+      "altText": "NSK iCare",
+      "width": 1200,
+      "height": 828,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.japan.nsk-dental.com/products/hygiene_and_maintenance/maintenace-icare/",
+        "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/iCare.png"
+      }
+    },
+    "https://www.ivoclar.com/en_us/products/composites/tetric-prime": {
+      "id": "manufacturer-2cfb30412388a4ab3f7d7ad1d4b0f9f7",
+      "sourceUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Media%20Releases/2020/Tetric%20Prime%20-%20new%20composite%20with%20superior%20handling%20properties/10023/image-thumb__10023__cms_teaser_1/tetric-prime_2020.28e6e719.jpg",
+      "securePath": "/catalog/products/2cfb30412388a4ab3f7d7ad1d4b0f9f7.png",
+      "normalizedStorageKey": "catalog/products/2cfb30412388a4ab3f7d7ad1d4b0f9f7.png",
+      "mimeType": "image/png",
+      "altText": "Ivoclar Tetric Prime",
+      "width": 1200,
+      "height": 752,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.ivoclar.com/en_us/products/composites/tetric-prime",
+        "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Media%20Releases/2020/Tetric%20Prime%20-%20new%20composite%20with%20superior%20handling%20properties/10023/image-thumb__10023__cms_teaser_1/tetric-prime_2020.28e6e719.jpg"
+      }
+    },
+    "https://www.ivoclar.com/fr_fr/products/cementation/variolink-esthetic": {
+      "id": "manufacturer-9253f1179b55fa843c1ba408e9bd400a",
+      "sourceUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Cementation/Variolink%20Esthetic/89397/image-thumb__89397__cms_teaser_1/Variolink-Esthetic_Header_1920x1220px.b440d931.jpg",
+      "securePath": "/catalog/products/9253f1179b55fa843c1ba408e9bd400a.png",
+      "normalizedStorageKey": "catalog/products/9253f1179b55fa843c1ba408e9bd400a.png",
+      "mimeType": "image/png",
+      "altText": "Ivoclar Variolink Esthetic",
+      "width": 1200,
+      "height": 752,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.ivoclar.com/fr_fr/products/cementation/variolink-esthetic",
+        "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Cementation/Variolink%20Esthetic/89397/image-thumb__89397__cms_teaser_1/Variolink-Esthetic_Header_1920x1220px.b440d931.jpg"
+      }
+    },
+    "https://tokuyama-dental.com/products/composites/universal/palfique-omnichroma/": {
+      "id": "manufacturer-91935f373f950499721f532844b3eca9",
+      "sourceUrl": "https://tokuyama-dental.com/wp-content/uploads/Omunichroma2-1.jpg",
+      "securePath": "/catalog/products/91935f373f950499721f532844b3eca9.png",
+      "normalizedStorageKey": "catalog/products/91935f373f950499721f532844b3eca9.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Palfique Omnichroma",
+      "width": 1200,
+      "height": 551,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://tokuyama-dental.com/products/composites/universal/palfique-omnichroma/",
+        "sourceImageUrl": "https://tokuyama-dental.com/wp-content/uploads/Omunichroma2-1.jpg"
+      }
+    },
+    "https://tokuyama-dental.com/products/composites/universal/estelite-posterior/": {
+      "id": "manufacturer-866df3511bf34c58cceca77bfe9f4bec",
+      "sourceUrl": "https://tokuyama-dental.com/wp-content/uploads/2021/10/ESTELITE-Posterior.webp",
+      "securePath": "/catalog/products/866df3511bf34c58cceca77bfe9f4bec.png",
+      "normalizedStorageKey": "catalog/products/866df3511bf34c58cceca77bfe9f4bec.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Estelite Posterior",
+      "width": 1200,
+      "height": 630,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://tokuyama-dental.com/products/composites/universal/estelite-posterior/",
+        "sourceImageUrl": "https://tokuyama-dental.com/wp-content/uploads/2021/10/ESTELITE-Posterior.webp"
+      }
+    },
+    "https://tokuyama-dental.com/products/bonding-agents/self-etching_bonding_system/palfique-universal-bond/": {
+      "id": "manufacturer-c6d7b73f489310a6586b35ffc764761b",
+      "sourceUrl": "https://tokuyama-dental.com/wp-content/uploads/2024/08/Bond3.png",
+      "securePath": "/catalog/products/c6d7b73f489310a6586b35ffc764761b.png",
+      "normalizedStorageKey": "catalog/products/c6d7b73f489310a6586b35ffc764761b.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Palfique Universal Bond",
+      "width": 1200,
+      "height": 551,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://tokuyama-dental.com/products/bonding-agents/self-etching_bonding_system/palfique-universal-bond/",
+        "sourceImageUrl": "https://tokuyama-dental.com/wp-content/uploads/2024/08/Bond3.png"
+      }
+    },
+    "https://tokuyama-dental.com/products/oral-care/sealant-desensitizer/tokuyama-shield-force-plus/": {
+      "id": "manufacturer-7e23311c1b934422a9c8a32e7c2476ca",
+      "sourceUrl": "https://tokuyama-dental.com/wp-content/uploads/2024/08/ShieldForce2.png",
+      "securePath": "/catalog/products/7e23311c1b934422a9c8a32e7c2476ca.png",
+      "normalizedStorageKey": "catalog/products/7e23311c1b934422a9c8a32e7c2476ca.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Shield Force Plus",
+      "width": 1200,
+      "height": 551,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://tokuyama-dental.com/products/oral-care/sealant-desensitizer/tokuyama-shield-force-plus/",
+        "sourceImageUrl": "https://tokuyama-dental.com/wp-content/uploads/2024/08/ShieldForce2.png"
       }
     }
   }
