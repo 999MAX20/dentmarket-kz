@@ -1,6 +1,7 @@
 import { createHmac, randomUUID } from "node:crypto";
+import webpush from "web-push";
 
-export type NotificationMessage = { id: string; channel: "IN_APP" | "EMAIL" | "SMS" | "WEBHOOK"; destination?: string | null; subject: string; body: string; payload?: unknown };
+export type NotificationMessage = { id: string; channel: "IN_APP" | "EMAIL" | "SMS" | "WEBHOOK" | "WEB_PUSH"; destination?: string | null; subject: string; body: string; payload?: unknown };
 export type NotificationDeliveryResult = { externalMessageId: string; provider: string; response: Record<string, unknown> };
 export interface NotificationAdapter { send(message: NotificationMessage): Promise<NotificationDeliveryResult>; }
 
@@ -31,5 +32,16 @@ export class WebhookNotificationAdapter implements NotificationAdapter {
     const response = await fetch(message.destination, { method: "POST", headers: { "content-type": "application/json", "x-marketplace-signature": signature, "x-marketplace-event-id": message.id }, body, signal: AbortSignal.timeout(10_000) });
     if (!response.ok) throw new Error(`Webhook returned HTTP ${response.status}`);
     return { externalMessageId: response.headers.get("x-request-id") ?? `webhook-${randomUUID()}`, provider: "signed-webhook", response: { status: response.status } };
+  }
+}
+
+export class WebPushNotificationAdapter implements NotificationAdapter {
+  constructor(subject: string, publicKey: string, privateKey: string) { webpush.setVapidDetails(subject, publicKey, privateKey); }
+  async send(message: NotificationMessage) {
+    if (!message.destination) throw new Error("Web push subscription is missing");
+    let subscription: { endpoint: string; keys: { p256dh: string; auth: string } };
+    try { subscription = JSON.parse(message.destination) as { endpoint: string; keys: { p256dh: string; auth: string } }; } catch { throw new Error("Web push subscription is malformed"); }
+    const response = await webpush.sendNotification(subscription, JSON.stringify({ title: message.subject, body: message.body, notificationId: message.id, data: (message.payload as { data?: unknown } | undefined)?.data ?? {} }));
+    return { externalMessageId: response.headers["x-webpush-request-id"]?.toString() ?? `web-push-${randomUUID()}`, provider: "web-push", response: { statusCode: response.statusCode } };
   }
 }

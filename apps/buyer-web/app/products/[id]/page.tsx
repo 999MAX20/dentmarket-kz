@@ -36,7 +36,14 @@ type ProductOffer = {
 type ProductMedia = CatalogMediaCandidate & { altText?: string };
 const mediaEntries = mediaCatalog.entries as Record<string, ProductMedia>;
 
-function getProduct(id: string): CatalogProduct | undefined {
+type PublicCompareResponse = {
+  product: { id: string; name: string; brand: string | null; manufacturer: string | null };
+  variants: ProductVariant[];
+  offers: Array<{ offerId: string; variantId: string; supplier: { name: string }; supplierSku?: string | null; price: { amountMinor: string; currency: string }; packaging?: { name: string }; availability: unknown[]; delivery: Array<{ method: string }>; markers: { verifiedDocuments: boolean; officialDistributor: boolean } }>;
+  comparisonAttributes?: Array<[string, string]>;
+};
+
+async function getProduct(id: string): Promise<CatalogProduct | undefined> {
   const catalogProduct = catalog.products.find((item) => item.id === id);
   if (catalogProduct) return catalogProduct;
 
@@ -66,7 +73,30 @@ function getProduct(id: string): CatalogProduct | undefined {
     } as unknown as CatalogProduct;
   }
 
-  return undefined;
+  try {
+    const apiBase = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
+    const response = await fetch(`${apiBase}/catalog/products/${encodeURIComponent(id)}/compare?quantity=1`, { cache: "no-store" });
+    if (!response.ok) return undefined;
+    const live = (await response.json()) as PublicCompareResponse;
+    if (!live.product?.id) return undefined;
+    return {
+      id: live.product.id,
+      name: live.product.name,
+      description: "Карточка товара DentMarket с актуальными предложениями поставщиков.",
+      brand: live.product.brand,
+      manufacturer: live.product.manufacturer,
+      category: "Стоматологические товары",
+      sourceUrl: null,
+      sourceUpdatedAt: null,
+      attributes: live.comparisonAttributes ?? [],
+      variants: live.variants ?? [],
+      offers: live.offers.map((offer) => ({ id: offer.offerId, variantId: offer.variantId, supplier: offer.supplier, supplierSku: offer.supplierSku, priceMinor: offer.price.amountMinor, currency: offer.price.currency, packaging: offer.packaging, available: offer.availability.length > 0, deliveryMethods: offer.delivery.map((item) => item.method), verifiedDocuments: offer.markers.verifiedDocuments, officialDistributor: offer.markers.officialDistributor })),
+      minNormalizedPriceMinor: live.offers[0]?.price.amountMinor ?? null,
+      isAvailable: live.offers.some((offer) => offer.availability.length > 0),
+    } as unknown as CatalogProduct;
+  } catch {
+    return undefined;
+  }
 }
 
 function formatPrice(
@@ -87,7 +117,7 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
-  const product = getProduct(decodeURIComponent(id));
+  const product = await getProduct(decodeURIComponent(id));
   return product
     ? {
         title: `${product.name} | DentMarket`,
@@ -106,7 +136,7 @@ export default async function ProductPage({
   const { id } = await params;
   const { variant: requestedVariantId, returnTo: requestedReturnTo } =
     await searchParams;
-  const product = getProduct(decodeURIComponent(id));
+  const product = await getProduct(decodeURIComponent(id));
   if (!product) notFound();
 
   const media = product.sourceUrl ? mediaEntries[product.sourceUrl] : undefined;

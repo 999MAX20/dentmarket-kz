@@ -608,6 +608,7 @@ enum NotificationChannel {
   EMAIL
   SMS
   WEBHOOK
+  WEB_PUSH
 }
 
 enum NotificationPriority {
@@ -969,6 +970,7 @@ model User {
   updatedAt                DateTime                  @updatedAt
   platformOfferAcceptances PlatformOfferAcceptance[]
   emailAuthTokens          EmailAuthToken[]
+  pushSubscriptions        PushSubscription[]
 }
 
 model EmailAuthToken {
@@ -1032,6 +1034,7 @@ model Organization {
   buyerChecks                       ComplianceCheck[]         @relation("ComplianceBuyer")
   notifications                     Notification[]
   notificationPrefs                 NotificationPreference[]
+  pushSubscriptions                 PushSubscription[]
   registrationIntents               RegistrationIntent[]
   platformOfferAcceptances          PlatformOfferAcceptance[]
   supplierBuyerAgreementsAsBuyer    BuyerSupplierAgreement[]  @relation("BuyerSupplierAgreementBuyer")
@@ -3025,6 +3028,24 @@ model NotificationPreference {
 
   @@unique([organizationId, scopeKey, eventType, channel])
   @@index([organizationId, eventType, enabled])
+}
+
+model PushSubscription {
+  id             String       @id @default(uuid()) @db.Uuid
+  organizationId String       @db.Uuid
+  userId         String       @db.Uuid
+  endpoint       String       @unique @db.Text
+  p256dh         String       @db.Text
+  auth           String       @db.Text
+  userAgent      String?
+  lastSeenAt     DateTime     @default(now())
+  disabledAt     DateTime?
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  user           User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  @@index([organizationId, userId, disabledAt])
 }
 
 model Notification {

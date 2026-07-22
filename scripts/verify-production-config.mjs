@@ -36,6 +36,7 @@ const valid = {
     "https://admin.example.kz,https://buyer.example.kz,https://supplier.example.kz,https://example.kz",
   INTEGRATION_ENCRYPTION_KEY: Buffer.alloc(32, 105).toString("base64"),
   APP_SECURITY_ENCRYPTION_KEY: Buffer.alloc(32, 97).toString("base64"),
+  MEDIA_SIGNING_SECRET: "media-signing-secret-for-config-test".repeat(2),
   OBJECT_STORAGE_DRIVER: "s3",
   S3_ENDPOINT: "https://s3.example.kz",
   S3_BUCKET: "marketplace",

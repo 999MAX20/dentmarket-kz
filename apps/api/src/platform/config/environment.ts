@@ -77,6 +77,9 @@ const environmentSchema = z.object({
   AUTH_PASSWORD_RESET_TTL_MINUTES: z.coerce.number().int().min(5).max(120).default(30),
   SMS_PROVIDER_URL: z.string().url().optional(),
   SMS_PROVIDER_TOKEN: z.string().min(16).optional(),
+  WEB_PUSH_VAPID_SUBJECT: z.string().url().optional(),
+  WEB_PUSH_VAPID_PUBLIC_KEY: z.string().min(32).optional(),
+  WEB_PUSH_VAPID_PRIVATE_KEY: z.string().min(32).optional(),
   NOTIFICATION_WEBHOOK_SECRET: z.string().min(32).optional(),
   LOG_LEVEL: z.enum(["trace", "debug", "info", "warn", "error", "fatal"]).default("info"),
 }).superRefine((value, context) => {

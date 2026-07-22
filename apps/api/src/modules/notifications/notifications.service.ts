@@ -1,16 +1,17 @@
 import { ConflictException, ForbiddenException, Injectable, NotFoundException, type OnModuleInit } from "@nestjs/common";
 import { Cron } from "@nestjs/schedule";
-import type { CreateNotificationInput, NotificationPreferenceInput, NotificationQueryInput } from "@marketplace/schemas";
+import type { CreateNotificationInput, NotificationPreferenceInput, NotificationQueryInput, PushSubscriptionInput } from "@marketplace/schemas";
 import { Prisma, type NotificationStatus } from "@prisma/client";
 import { PrismaService } from "../../platform/prisma/prisma.service";
 import type { SupplierActorContext } from "../suppliers/supplier-access.service";
 import { NotificationAdapterRegistry } from "./notification-adapter-registry.service";
 import { BackgroundQueueService } from "../../platform/jobs/background-queue.service";
+import { IntegrationCryptoService } from "../integrations/integration-crypto.service";
 
 @Injectable()
 export class NotificationsService implements OnModuleInit {
   private activeTick: Promise<void> | null = null;
-  constructor(private readonly prisma: PrismaService, private readonly registry: NotificationAdapterRegistry, private readonly backgroundQueue: BackgroundQueueService) {}
+  constructor(private readonly prisma: PrismaService, private readonly registry: NotificationAdapterRegistry, private readonly backgroundQueue: BackgroundQueueService, private readonly crypto: IntegrationCryptoService) {}
 
   onModuleInit() { this.backgroundQueue.register("notifications.tick", async () => this.tick()); }
 
@@ -72,6 +73,35 @@ export class NotificationsService implements OnModuleInit {
 
   capabilities() { return this.registry.capabilities(); }
 
+  async registerPushSubscription(organizationId: string, userId: string, input: PushSubscriptionInput, context: SupplierActorContext) {
+    await this.assertOrganizationAccess(organizationId, context);
+    if (context.actorId !== userId) throw new ForbiddenException("Push subscriptions can only be registered for the current user");
+    const encryptedKeys = { p256dh: this.crypto.encrypt({ value: input.keys.p256dh }), auth: this.crypto.encrypt({ value: input.keys.auth }) };
+    const subscription = await this.prisma.pushSubscription.upsert({ where: { endpoint: input.endpoint }, update: { organizationId, userId, ...encryptedKeys, userAgent: input.userAgent ?? null, lastSeenAt: new Date(), disabledAt: null }, create: { organizationId, userId, endpoint: input.endpoint, ...encryptedKeys, userAgent: input.userAgent ?? null } });
+    await this.prisma.auditLog.create({ data: { ...context, action: "notification.push_subscription.registered", entityType: "PushSubscription", entityId: subscription.id, after: { organizationId, userId, endpointHost: new URL(input.endpoint).hostname } } });
+    return { id: subscription.id, registered: true, publicKey: process.env.WEB_PUSH_VAPID_PUBLIC_KEY ?? null };
+  }
+
+  async unregisterPushSubscription(organizationId: string, userId: string, endpoint: string, context: SupplierActorContext) {
+    await this.assertOrganizationAccess(organizationId, context);
+    const subscription = await this.prisma.pushSubscription.findFirst({ where: { organizationId, userId, endpoint } });
+    if (!subscription) return { removed: false };
+    await this.prisma.pushSubscription.update({ where: { id: subscription.id }, data: { disabledAt: new Date() } });
+    await this.prisma.auditLog.create({ data: { ...context, action: "notification.push_subscription.disabled", entityType: "PushSubscription", entityId: subscription.id, before: { endpointHost: new URL(endpoint).hostname } } });
+    return { removed: true };
+  }
+
+  private decryptPushValue(value: string) {
+    try { return this.crypto.decrypt(value).value; } catch { return value.startsWith("v1:") ? "" : value; }
+  }
+
+  async queueTestPush(organizationId: string, userId: string, context: SupplierActorContext) {
+    await this.assertOrganizationAccess(organizationId, context);
+    const subscriptions = await this.prisma.pushSubscription.findMany({ where: { organizationId, userId, disabledAt: null }, select: { id: true } });
+    const notifications = await Promise.all(subscriptions.map((subscription) => this.create({ recipientOrganizationId: organizationId, recipientUserId: userId, eventType: "SyntheticPushTest", channel: "WEB_PUSH", priority: "NORMAL", subject: "DentMarket: push работает", body: "Тестовое уведомление доставлено из очереди DentMarket.", idempotencyKey: `synthetic-push:${subscription.id}:${Date.now()}`, payload: { pushSubscriptionId: subscription.id, data: { kind: "synthetic_test" } } }, context)));
+    return { queued: notifications.length, subscriptions: subscriptions.length };
+  }
+
   @Cron("*/5 * * * * *")
   async scheduledTick() {
     const slot = Math.floor(Date.now() / 5_000);
@@ -131,9 +161,17 @@ export class NotificationsService implements OnModuleInit {
       const claimed = await this.prisma.notification.updateMany({ where: { id: notification.id, status: notification.status, attempts: notification.attempts }, data: { status: "PROCESSING", attempts: { increment: 1 } } });
       if (claimed.count !== 1) continue;
       const attempt = notification.attempts + 1;
+      let destination = notification.destination;
+      if (notification.channel === "WEB_PUSH") {
+        const payload = notification.payload && typeof notification.payload === "object" && !Array.isArray(notification.payload) ? notification.payload as { pushSubscriptionId?: unknown } : {};
+        if (typeof payload.pushSubscriptionId === "string") {
+          const subscription = await this.prisma.pushSubscription.findFirst({ where: { id: payload.pushSubscriptionId, disabledAt: null } });
+          destination = subscription ? JSON.stringify({ endpoint: subscription.endpoint, keys: { p256dh: this.decryptPushValue(subscription.p256dh), auth: this.decryptPushValue(subscription.auth) } }) : null;
+        }
+      }
       const adapter = this.registry.resolve(notification.channel);
       try {
-        const result = await adapter.send({ id: notification.id, channel: notification.channel, destination: notification.destination, subject: notification.subject, body: notification.body, payload: notification.payload });
+        const result = await adapter.send({ id: notification.id, channel: notification.channel, destination, subject: notification.subject, body: notification.body, payload: notification.payload });
         await this.prisma.$transaction([
           this.prisma.notification.update({ where: { id: notification.id }, data: { status: "SENT", sentAt: new Date(), lastError: null } }),
           this.prisma.notificationDeliveryAttempt.create({ data: { notificationId: notification.id, attempt, status: "SENT", provider: result.provider, externalMessageId: result.externalMessageId, requestPayload: { channel: notification.channel, destination: notification.destination }, responsePayload: result.response } }),
@@ -141,6 +179,7 @@ export class NotificationsService implements OnModuleInit {
         sent += 1;
       } catch (error) {
         const message = error instanceof Error ? error.message : "Notification delivery failed";
+        if (notification.channel === "WEB_PUSH" && [404, 410].includes(Number((error as { statusCode?: unknown }).statusCode))) { const payload = notification.payload && typeof notification.payload === "object" && !Array.isArray(notification.payload) ? notification.payload as { pushSubscriptionId?: unknown } : {}; if (typeof payload.pushSubscriptionId === "string") await this.prisma.pushSubscription.updateMany({ where: { id: payload.pushSubscriptionId }, data: { disabledAt: new Date() } }); }
         const final = attempt >= notification.maxAttempts;
         await this.prisma.$transaction([
           this.prisma.notification.update({ where: { id: notification.id }, data: { status: final ? "DEAD" : "FAILED", lastError: message.slice(0, 4_000), scheduledAt: new Date(Date.now() + Math.min(60 * 60_000, 5_000 * 2 ** attempt)) } }),

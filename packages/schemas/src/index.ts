@@ -859,17 +859,25 @@ export const reviewComplianceCheckSchema = z.object({
 export const notificationPreferenceSchema = z.object({
   userId: z.uuid().nullable().optional(),
   eventType: z.string().trim().min(1).max(160),
-  channel: z.enum(["IN_APP", "EMAIL", "SMS", "WEBHOOK"]),
+  channel: z.enum(["IN_APP", "EMAIL", "SMS", "WEBHOOK", "WEB_PUSH"]),
   enabled: z.boolean().default(true),
   destination: z.string().trim().max(1_000).nullable().optional(),
   quietHours: z.object({ start: z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/), end: z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/), timezone: z.string().trim().min(1).max(80) }).nullable().optional(),
 });
 
+export const pushSubscriptionSchema = z.object({
+  endpoint: z.url().max(2_000),
+  keys: z.object({ p256dh: z.string().trim().min(16).max(512), auth: z.string().trim().min(8).max(256) }),
+  userAgent: z.string().trim().max(512).nullable().optional(),
+});
+
+export const pushUnsubscribeSchema = z.object({ endpoint: z.url().max(2_000) });
+
 export const createNotificationSchema = z.object({
   recipientOrganizationId: z.uuid(),
   recipientUserId: z.uuid().nullable().optional(),
   eventType: z.string().trim().min(1).max(160),
-  channel: z.enum(["IN_APP", "EMAIL", "SMS", "WEBHOOK"]).default("IN_APP"),
+  channel: z.enum(["IN_APP", "EMAIL", "SMS", "WEBHOOK", "WEB_PUSH"]).default("IN_APP"),
   priority: z.enum(["LOW", "NORMAL", "HIGH", "CRITICAL"]).default("NORMAL"),
   subject: z.string().trim().min(1).max(240),
   body: z.string().min(1).max(20_000),
@@ -900,6 +908,7 @@ export type CreateComplianceRuleInput = z.infer<typeof createComplianceRuleSchem
 export type ComplianceEvaluationInput = z.infer<typeof complianceEvaluationSchema>;
 export type ReviewComplianceCheckInput = z.infer<typeof reviewComplianceCheckSchema>;
 export type NotificationPreferenceInput = z.infer<typeof notificationPreferenceSchema>;
+export type PushSubscriptionInput = z.infer<typeof pushSubscriptionSchema>;
 export type CreateNotificationInput = z.infer<typeof createNotificationSchema>;
 export type NotificationQueryInput = z.infer<typeof notificationQuerySchema>;
 

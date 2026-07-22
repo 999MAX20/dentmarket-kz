@@ -40,6 +40,6 @@ import { MarketplaceAgreementsModule } from "../agreements/marketplace-agreement
     ExternalReservationsService,
     ConnectorReadinessService,
   ],
-  exports: [ExternalReservationsService, IntegrationJobsService],
+  exports: [ExternalReservationsService, IntegrationJobsService, IntegrationCryptoService],
 })
 export class IntegrationsModule {}

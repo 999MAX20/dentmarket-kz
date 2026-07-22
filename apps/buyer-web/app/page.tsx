@@ -71,6 +71,7 @@ import publicCatalogMedia from "./data/public-catalog-media.json";
 import SafeProductImage from "./components/safe-product-image";
 import { safeCatalogMediaSource } from "./lib/catalog-media";
 import { PublicHeader } from "./public-header";
+import { PushNotifications } from "./push-notifications";
 import { loginUrl } from "./public-links";
 import {
   deliveryLabel,
@@ -3431,6 +3432,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               onClick={() => void refresh()}
               aria-label="Обновить данные"
             />
+            <PushNotifications apiBase={process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api"} organizationId={buyerId} accessToken={handoff?.accessToken} actorId={handoff?.actorId} />
           </>
         ) : (
           <Button
