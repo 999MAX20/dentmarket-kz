@@ -5,6 +5,7 @@ const headers = {
     "Mozilla/5.0 (compatible; DentalMarketplaceCatalogResearch/1.0)",
 };
 const concurrency = Number(process.env.STOMIR_CONCURRENCY || 12);
+const sitemapUrl = `${base}/sitemap.xml`;
 const categories = [
   "endodontiya",
   "endodonticheskie_materialy",
@@ -125,25 +126,40 @@ const categoryPages = await pool(
 const productLinks = new Set();
 for (const html of categoryPages)
   for (const p of links(html)) productLinks.add(p);
+try {
+  const sitemap = await get(sitemapUrl);
+  for (const match of sitemap.matchAll(/<loc>(https?:\/\/[^<]+)<\/loc>/giu)) {
+    const url = new URL(match[1].replace(/^http:/iu, "https:"));
+    if (/^\/catalog\/[^/]+\/\d+\/?$/u.test(url.pathname))
+      productLinks.add(url.pathname.replace(/\/$/u, ""));
+  }
+} catch {
+  // The live category pages remain authoritative when the legacy sitemap is unavailable.
+}
 const rows = await pool([...productLinks], async (path) => {
   const html = await get(base + path);
   const title =
+    first(html, /<div class="product-card-name">([\s\S]*?)(?:<span>|<\/div>)/i) ||
     first(html, /<h1[^>]*>([\s\S]*?)<\/h1>/i) ||
     first(html, /<title[^>]*>([\s\S]*?)<\/title>/i).replace(/\s*[|].*$/, "");
   if (!title) return null;
   const sku =
     first(
       html,
-      /(?:Артикул|Код товара|Код)\s*[:№]?\s*([A-Za-zА-Яа-я0-9._-]+)/i,
+      /<div class="product-card-art">\s*(?:Артикул|Код товара|Код)\s*[:№]?\s*([A-Za-zА-Яа-я0-9._/-]+)/i,
     ) || path.split("/").pop();
+  const brand = first(
+    html,
+    /<div class="product-card-brand">\s*Бренд:\s*([\s\S]*?)<\/div>/i,
+  ).replace(/,?\s*Inc\.?$/iu, "");
   return {
     source_slug: "stomir",
     supplier_name: "ТОО СТОМир",
     source_url: base + path,
     external_id: sku,
     name: title,
-    brand: "",
-    category: "Стоматологические товары",
+    brand,
+    category: decodeURIComponent(path.split("/").filter(Boolean)[1] || "Стоматологические товары"),
     unit: "piece",
     currency: "KZT",
     price: "",
@@ -178,5 +194,10 @@ await fs.writeFile(
   ].join("\n") + "\n",
 );
 console.log(
-  JSON.stringify({ productLinks: productLinks.size, rows: uniq.size }),
+  JSON.stringify({
+    productLinks: productLinks.size,
+    rows: uniq.size,
+    brandedRows: [...uniq.values()].filter((row) => row.brand).length,
+    brands: [...new Set([...uniq.values()].map((row) => row.brand).filter(Boolean))].sort(),
+  }),
 );

@@ -22,6 +22,21 @@ const FACET_ORDER = [
   "Комплектация",
 ];
 
+function variantDisplayName(variant: Variant) {
+  const readableParts = [
+    variant.attributes["Форма выпуска"],
+    variant.attributes["Оттенок"],
+    variant.attributes["Масса"],
+    variant.attributes["Объём"],
+    variant.attributes["Количество"],
+    variant.attributes["Комплектация"],
+  ].filter((value, index, values): value is string => Boolean(value) && values.indexOf(value) === index);
+  if (readableParts.length) return readableParts.join(" · ");
+  if (variant.label && !/^((REF|SKU)\s*)?[A-Z0-9-]+$/i.test(variant.label.trim())) return variant.label;
+  const code = variant.sku ?? variant.label;
+  return code ? `Вариант товара · ${code}` : "Вариант товара";
+}
+
 export default function VariantPicker({
   variants,
   selectedVariantId,
@@ -109,7 +124,7 @@ export default function VariantPicker({
       ))}
       <div className={styles.selectedVariant}>
         <span>Выбрано</span>
-        <strong>{selected.label}</strong>
+        <strong>{variantDisplayName(selected)}</strong>
         {selected.sku ? (
           <small>Артикул производителя: {selected.sku}</small>
         ) : null}
