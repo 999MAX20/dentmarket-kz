@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-22T19:52:37.673Z",
+  "policy": {
+    "marketPresenceIsNotOfficialStatus": true,
+    "sellerListingIsEvidenceOnly": true,
+    "catalogCardRequiresCanonicalIdentity": true,
+    "requiredIdentityFields": [
+      "brand",
+      "productLineOrModel",
+      "manufacturerRefOrGtin"
+    ],
+    "excluded": [
+      "generic seller bundles",
+      "listings without a model or manufacturer reference",
+      "duplicate spelling variants",
+      "category pages exported as products",
+      "unverified images",
+      "discontinued products without current Kazakhstan evidence"
+    ]
+  },
+  "totals": {
+    "cards": 3321,
+    "canonicalContentReady": 371,
+    "finalReviewReady": 0,
+    "exactProductPhoto": 1885,
+    "verifiedPhotoRights": 0
+  },
+  "byStatus": {
+    "BRAND_REQUIRED": 2903,
+    "CANONICAL_CONTENT_READY": 371,
+    "IDENTITY_REQUIRED": 46,
+    "REJECT_NOISE": 1
+  },
+  "byNextAction": {
+    "BRAND_REQUIRED": 2903,
+    "VERIFY_OR_REPLACE_PRODUCT_PHOTO": 371,
+    "IDENTITY_REQUIRED": 46,
+    "REJECT_NOISE": 1
+  }
+}

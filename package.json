@@ -23,6 +23,8 @@
     "catalog:validate-media": "node scripts/validate-catalog-media.mjs",
     "catalog:report-expansion": "node scripts/report-catalog-expansion.mjs",
     "catalog:build-kz-coverage": "node scripts/build-kz-sku-coverage.mjs",
+    "catalog:build-kz-brand-registry": "node scripts/build-kz-market-brand-registry.mjs",
+    "catalog:audit-kz-intake": "node scripts/audit-kz-catalog-intake.mjs",
     "catalog:publish-manufacturer-media": "node scripts/publish-manufacturer-model-media.mjs",
     "catalog:bootstrap-canonical": "node scripts/bootstrap-canonical-catalog.mjs",
     "catalog:sync-production": "node scripts/sync-public-catalog-to-production.mjs",
