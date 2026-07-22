@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T12:58:59.019Z",
-  "total": 1661,
+  "generatedAt": "2026-07-22T13:02:40.384Z",
+  "total": 1666,
   "entries": {
     "https://amdgroup.kz/catalog/konusovidnye/bory_almaznye_247_009f_fg/": {
       "id": "9aa079e6-0a46-43b3-af20-39eb3601a968",
@@ -33100,6 +33100,86 @@
         "rightsStatus": "third_party_product_catalog",
         "sourcePageUrl": "https://www.kerrdental.com/en-fi/dental-restoration-products/maxcem-elite-chroma-permanent-dental-cements-and-liners",
         "sourceImageUrl": "https://www.nordenta.de/medias/1200Wx1200H-default-1001-27966-606078-maxcem-elite-chroma-standard-kit.jpg?context=bWFzdGVyfGltYWdlc3wxMDE3ODV8aW1hZ2UvanBlZ3xpbWFnZXMvaDIyL2hiNS85Mzk5ODM0NjQwNDE0LmpwZ3wzYTY0ODc3MmMwNTg4NzU1ZjkyNThjYjdiNGNhMDRhNGExNDQxNzQyODJmMzZlZjZjNGI3MjZmNzU5NzE2OWY3"
+      }
+    },
+    "https://www.gc.dental/europe/en-GP/products/gaenialachord": {
+      "id": "manufacturer-bd51ec6b17211acf4f2af392caefc610",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/Gaenial%20ACHORD%20-%20Single%20syringe%20with%20Unitips.png",
+      "securePath": "/catalog/products/bd51ec6b17211acf4f2af392caefc610.png",
+      "normalizedStorageKey": "catalog/products/bd51ec6b17211acf4f2af392caefc610.png",
+      "mimeType": "image/png",
+      "altText": "GC G-ænial A'CHORD",
+      "width": 1200,
+      "height": 849,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-GP/products/gaenialachord",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/Gaenial%20ACHORD%20-%20Single%20syringe%20with%20Unitips.png"
+      }
+    },
+    "https://www.gc.dental/europe/en-GB/products/gpremiobond": {
+      "id": "manufacturer-c0efcfb5251f0f35e4dfcd5ea496c0b6",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/gpremiobond_packshot.jpg",
+      "securePath": "/catalog/products/c0efcfb5251f0f35e4dfcd5ea496c0b6.png",
+      "normalizedStorageKey": "catalog/products/c0efcfb5251f0f35e4dfcd5ea496c0b6.png",
+      "mimeType": "image/png",
+      "altText": "GC G-Premio BOND",
+      "width": 1200,
+      "height": 736,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-GB/products/gpremiobond",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/gpremiobond_packshot.jpg"
+      }
+    },
+    "https://www.gc.dental/europe/en-GB/products/gcemone": {
+      "id": "manufacturer-446a7e5d6518016997741a53a658c4cc",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/About%20pic_LR.jpg",
+      "securePath": "/catalog/products/446a7e5d6518016997741a53a658c4cc.png",
+      "normalizedStorageKey": "catalog/products/446a7e5d6518016997741a53a658c4cc.png",
+      "mimeType": "image/png",
+      "altText": "GC G-CEM ONE",
+      "width": 1200,
+      "height": 880,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-GB/products/gcemone",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/About%20pic_LR.jpg"
+      }
+    },
+    "https://www.gc.dental/europe/en-GB/products/fujicemevolve": {
+      "id": "manufacturer-7f1e74de2eb369850b6124c33fa38928",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/fujicemevolve_packshot.jpg",
+      "securePath": "/catalog/products/7f1e74de2eb369850b6124c33fa38928.png",
+      "normalizedStorageKey": "catalog/products/7f1e74de2eb369850b6124c33fa38928.png",
+      "mimeType": "image/png",
+      "altText": "GC FujiCEM Evolve",
+      "width": 1200,
+      "height": 720,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-GB/products/fujicemevolve",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/fujicemevolve_packshot.jpg"
+      }
+    },
+    "https://www.gc.dental/europe/en-GB/products/equiaforteht": {
+      "id": "manufacturer-7914d55cbf2a200e857f3193a1816b17",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/Equia%20Forte%2003.jpg",
+      "securePath": "/catalog/products/7914d55cbf2a200e857f3193a1816b17.png",
+      "normalizedStorageKey": "catalog/products/7914d55cbf2a200e857f3193a1816b17.png",
+      "mimeType": "image/png",
+      "altText": "GC EQUIA Forte HT",
+      "width": 1200,
+      "height": 844,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-GB/products/equiaforteht",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/Equia%20Forte%2003.jpg"
       }
     }
   }

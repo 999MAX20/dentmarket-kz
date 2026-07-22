@@ -145,4 +145,28 @@ describe("supplier matching", () => {
     expect(candidates[0]?.reasons).toContain("catalog_code");
     expect(isConfidentAutomaticMatch(candidates)).toBe(true);
   });
+
+  it("keeps a leading zero when matching a GC catalog number", () => {
+    const gcVariant = {
+      ...variant,
+      product: {
+        canonicalName: "GC FujiCEM Evolve",
+        externalMetadata: {
+          catalogAliases: ["FujiCEM Evolve", "012948", "012950"],
+        },
+        brand: { name: "GC" },
+        manufacturer: { name: "GC Corporation" },
+      },
+    };
+    const candidates = rankVariants(
+      {
+        name: "012948 FujiCEM Evolve single pack",
+        normalizedName: "012948 fujicem evolve single pack",
+        brandText: "GC",
+      },
+      [gcVariant],
+    );
+    expect(candidates[0]?.reasons).toContain("catalog_code");
+    expect(isConfidentAutomaticMatch(candidates)).toBe(true);
+  });
 });

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T12:59:17.329Z",
+  "generatedAt": "2026-07-22T13:03:10.519Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -13,7 +13,7 @@
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3319,
+  "total": 3324,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -255553,6 +255553,457 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-c9d4583a36ad3da940a25ad9",
+      "name": "GC EQUIA Forte HT",
+      "description": "Стеклогибридная реставрационная система для объёмного внесения. Оттенок количество капсул и комплектация указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC EQUIA Forte HT",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стеклоиономерные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-GB/products/equiaforteht",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC EQUIA Forte HT"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Стеклоиономерные материалы",
+      "sourceUrl": "https://www.gc.dental/europe/en-GB/products/equiaforteht",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стеклоиономерные материалы"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "EQUIA Forte HT",
+        "Equia Forte HT Fil",
+        "GC Equia Forte HT",
+        "453005",
+        "453010",
+        "453011",
+        "453012",
+        "453013",
+        "453014",
+        "453015",
+        "453016",
+        "453017"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-09b8dd52ab5ddeabd9b15ef7",
+      "name": "GC FujiCEM Evolve",
+      "description": "Модифицированный смолой стеклоиономерный цемент для фиксации. Количество шприцев способ смешивания и наконечники указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC FujiCEM Evolve",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стоматологические цементы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-GB/products/fujicemevolve",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC FujiCEM Evolve"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Стоматологические цементы",
+      "sourceUrl": "https://www.gc.dental/europe/en-GB/products/fujicemevolve",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стоматологические цементы"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "FujiCEM Evolve",
+        "Fuji Cem Evolve",
+        "GC FujiCEM Evolve",
+        "012948",
+        "012949",
+        "012950",
+        "012954",
+        "012955"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-d590d0191a2e37613382c901",
+      "name": "GC G-ænial A'CHORD",
+      "description": "Универсальный композит для прямых реставраций передних и боковых зубов. Оттенок шприц или унидоза и фасовка указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC G-ænial A'CHORD",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-GP/products/gaenialachord",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC G-ænial A'CHORD"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.gc.dental/europe/en-GP/products/gaenialachord",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "G-ænial A'CHORD",
+        "G-aenial A'CHORD",
+        "Gaenial Achord",
+        "G-aenial Achord",
+        "952258",
+        "952259",
+        "952260",
+        "952261",
+        "952262",
+        "952263",
+        "952264",
+        "952265",
+        "952266"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-9d4316d552d56ee75a388ee2",
+      "name": "GC G-CEM ONE",
+      "description": "Универсальный самоадгезивный композитный цемент двойного отверждения. Оттенок набор и количество шприцев указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC G-CEM ONE",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стоматологические цементы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-GB/products/gcemone",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC G-CEM ONE"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Стоматологические цементы",
+      "sourceUrl": "https://www.gc.dental/europe/en-GB/products/gcemone",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стоматологические цементы"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "G-CEM ONE",
+        "G CEM ONE",
+        "GCEM ONE",
+        "10037117",
+        "013670",
+        "013671",
+        "013672",
+        "013673",
+        "013674",
+        "013675",
+        "013676"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-6c0a7276336ba96238b478d3",
+      "name": "GC G-Premio BOND",
+      "description": "Универсальный однокомпонентный светоотверждаемый адгезив. Флакон набор или одноразовые дозы указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC G-Premio BOND",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-GB/products/gpremiobond",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC G-Premio BOND"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://www.gc.dental/europe/en-GB/products/gpremiobond",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "G-Premio BOND",
+        "G Premio Bond",
+        "GC Premio Bond",
+        "012696",
+        "012691",
+        "009276",
+        "009552"
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-e8b126fe20d6f92ada03fa6d",
