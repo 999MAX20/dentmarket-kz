@@ -11,6 +11,7 @@ export type MatchableVariant = {
   sku?: string | null;
   gtin?: string | null;
   saleUnitId?: string | null;
+  externalMetadata?: unknown;
   product: {
     canonicalName: string;
     regulatoryClass?: string | null;
@@ -18,6 +19,15 @@ export type MatchableVariant = {
     brand?: { name: string } | null;
     manufacturer?: { name: string } | null;
   };
+};
+
+type CommercialSignals = {
+  form: string[];
+  measure: string[];
+  quantity: string[];
+  shade: string[];
+  flavor: string[];
+  connection: string[];
 };
 
 export function normalizeCatalogText(value: string) {
@@ -34,6 +44,100 @@ function tokenSimilarity(left: string, right: string) {
   if (a.size === 0 || b.size === 0) return 0;
   const intersection = [...a].filter((token) => b.has(token)).length;
   return intersection / new Set([...a, ...b]).size;
+}
+
+const unique = (values: string[]) => [...new Set(values.filter(Boolean))];
+
+function commercialSignals(value: string): CommercialSignals {
+  const normalized = normalizeCatalogText(value);
+  const shadeSource = value
+    .replace(/[Аа](?=\d)/gu, "A")
+    .replace(/[Вв](?=\d)/gu, "B")
+    .replace(/[Сс](?=\d)/gu, "C")
+    .replace(/[Оо](?=[АаA]\d)/gu, "O");
+  const measures = [
+    ...value.matchAll(/\b(\d+(?:[.,]\d+)?)\s*(мл|ml|г|гр|g|л|l)(?![\p{L}])/giu),
+  ].map((match) => {
+    const unit = match[2].toLocaleLowerCase("ru");
+    const normalizedUnit = ["ml", "мл"].includes(unit)
+      ? "мл"
+      : ["l", "л"].includes(unit)
+        ? "л"
+        : "г";
+    return `${match[1].replace(",", ".")} ${normalizedUnit}`;
+  });
+  const quantities = [
+    ...value.matchAll(
+      /\b(\d+)\s*(?:шт\.?|pcs|капсул[а-я]*|унидоз[а-я]*|доз[а-я]*)(?![\p{L}])/giu,
+    ),
+  ].map((match) => match[1]);
+  const shades = [
+    ...shadeSource.matchAll(
+      /\b(?:A[1-4](?:[.,]5)?O?|B[1-4]|C[1-4]|D[2-4]|OA[1-4](?:[.,]5)?|AO\d|AE|JE|BW|BOW|TR|WO|PO|GA\d(?:[.,]\d+)?|BL|CL|CO|OB|OD|OL|OM)\b/giu,
+    ),
+  ].map((match) => match[0].toLocaleLowerCase("en").replace(",", "."));
+  const namedShades = [
+    "bleach light",
+    "bleach xl",
+    "белый непрозрачный",
+    "белый опаковый",
+    "универсальный",
+    "прозрачный",
+    "режущий край",
+  ].filter((shade) => normalized.includes(shade));
+  const flavorNames = [
+    "дыня",
+    "карамель",
+    "вишня",
+    "мята",
+    "кола лайм",
+    "пина колада",
+    "жевательная резинка",
+  ];
+  const forms = [
+    ["набор", /набор|\bkit\b/iu],
+    ["шприц quickmix", /quickmix/iu],
+    ["одноразовые дозы", /одноразов|l pop/iu],
+    ["унидозы", /singledose|унидоз/iu],
+    ["капсулы", /капсул/iu],
+    ["шприц", /шприц|syringe/iu],
+    ["флакон", /флакон|bottle/iu],
+    ["тюбик", /тюбик|tube/iu],
+    ["картридж", /картридж|cartridge/iu],
+  ] as const;
+  const detectedForm = forms.find(([, pattern]) => pattern.test(normalized));
+  const connections = ["nsk", "kavo", "morita", "yoshida", "osada", "sirona"];
+  return {
+    form: detectedForm ? [detectedForm[0]] : [],
+    measure: unique(measures),
+    quantity: unique(quantities),
+    shade: unique([...shades, ...namedShades]),
+    flavor: flavorNames.filter((flavor) => normalized.includes(flavor)),
+    connection: connections.filter((connection) =>
+      normalized.includes(connection),
+    ),
+  };
+}
+
+function variantMetadataText(variant: MatchableVariant) {
+  const metadata = variant.externalMetadata;
+  if (!metadata || typeof metadata !== "object" || Array.isArray(metadata))
+    return "";
+  const record = metadata as {
+    label?: unknown;
+    attributes?: unknown;
+  };
+  const attributes =
+    record.attributes &&
+    typeof record.attributes === "object" &&
+    !Array.isArray(record.attributes)
+      ? Object.entries(record.attributes)
+          .filter(([key]) => key !== "Артикул производителя")
+          .map(([, value]) => String(value))
+      : [];
+  return [typeof record.label === "string" ? record.label : "", ...attributes]
+    .filter(Boolean)
+    .join(" ");
 }
 
 export function scoreVariant(
@@ -113,6 +217,23 @@ export function scoreVariant(
   ) {
     score += 0.12;
     reasons.push("exact_manufacturer");
+  }
+  const itemSignals = commercialSignals(item.name);
+  const variantSignals = commercialSignals(variantMetadataText(variant));
+  for (const dimension of Object.keys(itemSignals) as Array<
+    keyof CommercialSignals
+  >) {
+    if (itemSignals[dimension].length === 0) continue;
+    const matches = itemSignals[dimension].some((signal) =>
+      variantSignals[dimension].includes(signal),
+    );
+    if (matches) {
+      score += 0.06;
+      reasons.push(`exact_variant_${dimension}`);
+    } else if (variantSignals[dimension].length > 0) {
+      score -= 0.18;
+      reasons.push(`variant_${dimension}_conflict`);
+    }
   }
   return { score: Math.min(1, Number(score.toFixed(4))), reasons };
 }

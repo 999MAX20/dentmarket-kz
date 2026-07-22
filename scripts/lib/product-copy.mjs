@@ -31,6 +31,9 @@ const BRAND_ALIASES = [
   [/(?:interdent)/iu, "Interdent"],
   [/(?:dentkist)/iu, "DentKist"],
   [/(?:ivoclar)/iu, "Ivoclar"],
+  [/(?:tetric)/iu, "Ivoclar"],
+  [/(?:charisma|karizma|каризма)/iu, "Kulzer"],
+  [/(?:lumex\s*ac)/iu, "VITA"],
   [/(?:youjoy)/iu, "YouJoy"],
   [/(?:ormco)/iu, "Ormco"],
   [/(?:latus)/iu, "LaTus"],
@@ -38,6 +41,7 @@ const BRAND_ALIASES = [
   [/(?:medexim)/iu, "Medexim"],
   [/(?:shofu)/iu, "Shofu"],
   [/(?:\bvoco\b)/iu, "VOCO"],
+  [/(?:\badmira\b|\bstructur\s*2\b|структур\s*2)/iu, "VOCO"],
   [/(?:\bvdw\b)/iu, "VDW"],
   [/(?:\bgc\b)/iu, "GC"],
   [/(?:\bimd\b)/iu, "IMD"],
@@ -63,6 +67,10 @@ const NAME_INFERABLE_BRANDS = new Set([
   "CICADA",
   "Tealth",
   "VRN",
+  "Ivoclar",
+  "Kulzer",
+  "VITA",
+  "VOCO",
 ]);
 
 const SUPPLIER_ALIASES = new Map([

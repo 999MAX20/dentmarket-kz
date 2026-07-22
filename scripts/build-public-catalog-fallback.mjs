@@ -13,6 +13,10 @@ import {
   normalizeCanonicalName,
   normalizeSupplierName,
 } from "./lib/product-copy.mjs";
+import {
+  extractVariantAttributes,
+  normalizedCatalogIdentity,
+} from "./lib/variant-attributes.mjs";
 
 const root = path.resolve(process.cwd());
 const inputDir = path.join(root, "data/imports");
@@ -84,9 +88,9 @@ const variantFamilyBySourceName = new Map(
 );
 const skuLabelByKey = new Map(
   skuLabelRows.map((row) => [
-    [row.brand || "Без бренда", row.canonicalProductName, row.manufacturerRef]
-      .map((value) => clean(value).toLocaleLowerCase("ru"))
-      .join("|"),
+    `${[row.brand || "Без бренда", row.canonicalProductName]
+      .map((value) => normalizedCatalogIdentity(value))
+      .join("|")}|${clean(row.manufacturerRef).toLocaleLowerCase("ru")}`,
     clean(row.variantLabel),
   ]),
 );
@@ -94,7 +98,7 @@ const isManufacturerReference = (value) =>
   /^(?=.*\d)[a-z0-9][a-z0-9._/-]{3,}$/i.test(clean(value));
 const aliasesByProduct = aliasRows.reduce((result, row) => {
   const key = [row.brand || "Без бренда", row.canonicalProductName]
-    .map((value) => clean(value).toLocaleLowerCase("ru"))
+    .map((value) => normalizedCatalogIdentity(value))
     .join("|");
   if (!result.has(key)) result.set(key, new Set());
   if (
@@ -107,7 +111,7 @@ const aliasesByProduct = aliasRows.reduce((result, row) => {
 }, new Map());
 const referencesByProduct = aliasRows.reduce((result, row) => {
   const key = [row.brand || "Без бренда", row.canonicalProductName]
-    .map((value) => clean(value).toLocaleLowerCase("ru"))
+    .map((value) => normalizedCatalogIdentity(value))
     .join("|");
   if (!result.has(key)) result.set(key, new Set());
   if (
@@ -120,7 +124,7 @@ const referencesByProduct = aliasRows.reduce((result, row) => {
 
 for (const family of variantFamilyRows) {
   const key = [family.brand || "Без бренда", family.canonicalProductName]
-    .map((value) => clean(value).toLocaleLowerCase("ru"))
+    .map((value) => normalizedCatalogIdentity(value))
     .join("|");
   if (!referencesByProduct.has(key)) referencesByProduct.set(key, new Set());
   referencesByProduct.get(key).add(clean(family.manufacturerRef));
@@ -254,15 +258,12 @@ for (const file of files) {
           sourceUrl,
         });
     const family =
-      variantFamilyBySourceName.get(
-        clean(rawName).toLocaleLowerCase("ru"),
-      ) ??
+      variantFamilyBySourceName.get(clean(rawName).toLocaleLowerCase("ru")) ??
       variantFamilyBySourceName.get(
         clean(detectedName).toLocaleLowerCase("ru"),
       );
     const brand = clean(family?.brand) || detectedBrand;
-    const manufacturer =
-      clean(family?.manufacturer) || detectedManufacturer;
+    const manufacturer = clean(family?.manufacturer) || detectedManufacturer;
     const name = clean(family?.canonicalProductName) || detectedName;
     if (/^\d+$/.test(name)) continue;
     const category = inferCatalogCategory(
@@ -276,6 +277,9 @@ for (const file of files) {
       supplierSku ||
       hash(`${source}|${name}`);
     const key = [brand || "Без бренда", name]
+      .map((value) => normalizedCatalogIdentity(value))
+      .join("|");
+    const idKey = [brand || "Без бренда", name]
       .map((value) => value.toLocaleLowerCase("ru"))
       .join("|");
     const priceMinor =
@@ -292,6 +296,7 @@ for (const file of files) {
       continue;
     rows.push({
       key,
+      idKey,
       name,
       brand: brand || null,
       manufacturer: manufacturer || null,
@@ -368,7 +373,7 @@ for (const row of acceptedRows) {
 }
 
 const products = [...grouped.values()].map((row) => {
-  const id = `public-${hash(row.key)}`;
+  const id = `public-${hash(row.idKey ?? row.key)}`;
   const manufacturerReferences = [...(referencesByProduct.get(row.key) ?? [])];
   const variants = manufacturerReferences.length
     ? manufacturerReferences.map((sku) => ({
@@ -378,14 +383,22 @@ const products = [...grouped.values()].map((row) => {
         label:
           skuLabelByKey.get(`${row.key}|${sku.toLocaleLowerCase("ru")}`) ??
           `REF ${sku}`,
-        attributes: { "Артикул производителя": sku },
+        attributes: {
+          ...extractVariantAttributes(
+            skuLabelByKey.get(`${row.key}|${sku.toLocaleLowerCase("ru")}`) ??
+              `REF ${sku}`,
+          ),
+          "Артикул производителя": sku,
+        },
       }))
     : [
         {
           id: `${id}-variant-default`,
           sku: row.supplierSku || null,
           gtin: null,
-          label: row.unit ? `Стандартная фасовка · ${row.unit}` : "Стандартный вариант",
+          label: row.unit
+            ? `Стандартная фасовка · ${row.unit}`
+            : "Стандартный вариант",
           attributes: {},
         },
       ];
@@ -427,40 +440,44 @@ const products = [...grouped.values()].map((row) => {
   ];
   const resolvedOfferRecords = offerRecords
     .map((source) => {
-    const matchedVariant =
-      variants.find(
-        (variant) =>
-          variant.sku &&
-          source.supplierSku &&
-          variant.sku.toLocaleLowerCase("ru") ===
-            source.supplierSku.toLocaleLowerCase("ru"),
-      ) ?? (variants.length === 1 ? variants[0] : null);
-    return matchedVariant ? { source, matchedVariant } : null;
+      const matchedVariant =
+        variants.find(
+          (variant) =>
+            variant.sku &&
+            source.supplierSku &&
+            variant.sku.toLocaleLowerCase("ru") ===
+              source.supplierSku.toLocaleLowerCase("ru"),
+        ) ?? (variants.length === 1 ? variants[0] : null);
+      return matchedVariant ? { source, matchedVariant } : null;
     })
     .filter(Boolean);
-  const offers = resolvedOfferRecords.map(({ source, matchedVariant }, index) => ({
-    id: `${id}-offer-${index}`,
-    variantId: matchedVariant.id,
-    supplier: {
-      id: `supplier-${hash(source.supplier)}`,
-      name: source.supplier,
-    },
-    priceMinor: source.priceMinor ? String(source.priceMinor) : null,
-    currency: source.currency,
-    normalizedPriceMinor: source.priceMinor ? String(source.priceMinor) : null,
-    packaging: {
-      name: source.unit || "шт",
-      quantityInBaseUnit: "1",
-      unit: source.unit || "шт",
-    },
-    available: source.available,
-    confirmationMode: "MANUAL",
-    deliveryMethods: ["NATIONWIDE"],
-    supplierSku: source.supplierSku,
-    verifiedDocuments: false,
-    officialDistributor: false,
-    supplierWarranty: false,
-  }));
+  const offers = resolvedOfferRecords.map(
+    ({ source, matchedVariant }, index) => ({
+      id: `${id}-offer-${index}`,
+      variantId: matchedVariant.id,
+      supplier: {
+        id: `supplier-${hash(source.supplier)}`,
+        name: source.supplier,
+      },
+      priceMinor: source.priceMinor ? String(source.priceMinor) : null,
+      currency: source.currency,
+      normalizedPriceMinor: source.priceMinor
+        ? String(source.priceMinor)
+        : null,
+      packaging: {
+        name: source.unit || "шт",
+        quantityInBaseUnit: "1",
+        unit: source.unit || "шт",
+      },
+      available: source.available,
+      confirmationMode: "MANUAL",
+      deliveryMethods: ["NATIONWIDE"],
+      supplierSku: source.supplierSku,
+      verifiedDocuments: false,
+      officialDistributor: false,
+      supplierWarranty: false,
+    }),
+  );
   const pricedOffers = resolvedOfferRecords
     .map(({ source }) => source.priceMinor)
     .filter(Boolean);

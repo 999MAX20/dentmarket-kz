@@ -18,6 +18,7 @@
     "catalog:build-public": "node scripts/build-public-catalog-fallback.mjs && node scripts/validate-public-catalog-variants.mjs",
     "catalog:validate-variants": "node scripts/validate-public-catalog-variants.mjs",
     "catalog:report-quality": "node scripts/report-public-catalog-quality.mjs",
+    "catalog:audit-normalization": "node scripts/audit-catalog-normalization.mjs",
     "catalog:report-expansion": "node scripts/report-catalog-expansion.mjs",
     "catalog:publish-manufacturer-media": "node scripts/publish-manufacturer-model-media.mjs",
     "catalog:bootstrap-canonical": "node scripts/bootstrap-canonical-catalog.mjs",

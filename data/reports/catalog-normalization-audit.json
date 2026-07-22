@@ -1,0 +1,603 @@
+{
+  "generatedAt": "2026-07-22T16:08:48.496Z",
+  "dataset": {
+    "source": "apps/buyer-web/app/data/public-catalog-fallback.json",
+    "intendedGrain": "Одна карточка на бренд и модель; фасовки и оттенки — варианты",
+    "cards": 3238,
+    "variants": 3448,
+    "offers": 3247
+  },
+  "checks": {
+    "uniqueness": {
+      "duplicateGroups": 0,
+      "affectedCards": 0,
+      "evidence": []
+    },
+    "completeness": {
+      "brand": {
+        "cards": 334,
+        "percent": 10.3
+      },
+      "manufacturer": {
+        "cards": 132,
+        "percent": 4.1
+      },
+      "description": {
+        "cards": 3238,
+        "percent": 100
+      },
+      "exactProductPhoto": {
+        "cards": 1810,
+        "percent": 55.9
+      },
+      "anyPhoto": {
+        "cards": 1810,
+        "percent": 55.9
+      }
+    },
+    "variantModel": {
+      "multiVariantCards": 25,
+      "structuredVariants": 238,
+      "structuredVariantPercent": 6.9,
+      "technicalLabels": 0,
+      "cardsWithVariantDataInName": 124,
+      "candidateFamilyGroups": 21,
+      "candidateFamilies": [
+        {
+          "key": "ivoclar|пломбировочный материал tetric n ceram 2 1x3",
+          "confidence": "MEDIUM",
+          "cards": [
+            {
+              "id": "public-b570226095b24444a4589874",
+              "name": "Пломбировочный материал TETRIC N-CERAM 2 REFILL 1X3,5G A1",
+              "brand": "Ivoclar",
+              "sourceUrl": "https://amdgroup.kz/catalog/plombirovochnye_materialy/plombirovochnyy_material_tetric_n_ceram_2_refill_1x3_5g_a1/"
+            },
+            {
+              "id": "public-7ccfedda67b09cfc47492fa7",
+              "name": "Пломбировочный материал TETRIC N-CERAM 2 REFILL 1X3,5G A2",
+              "brand": "Ivoclar",
+              "sourceUrl": "https://amdgroup.kz/catalog/plombirovochnye_materialy/plombirovochnyy_material_tetric_n_ceram_2_refill_1x3_5g_a2/"
+            },
+            {
+              "id": "public-84d3cf1ec4e352b189ee6311",
+              "name": "Пломбировочный материал TETRIC N-CERAM 2 REFILL 1X3,5G A3,5",
+              "brand": "Ivoclar",
+              "sourceUrl": "https://amdgroup.kz/catalog/plombirovochnye_materialy/plombirovochnyy_material_tetric_n_ceram_2_refill_1x3_5g_a3_5/"
+            },
+            {
+              "id": "public-95c46cd71828cb4d895ad1b7",
+              "name": "Пломбировочный материал TETRIC N-CERAM 2 REFILL 1X3,5G B1",
+              "brand": "Ivoclar",
+              "sourceUrl": "https://amdgroup.kz/catalog/plombirovochnye_materialy/plombirovochnyy_material_tetric_n_ceram_2_refill_1x3_5g_b1/"
+            },
+            {
+              "id": "public-979b14d510bee7bbd13cff40",
+              "name": "Пломбировочный материал TETRIC N-CERAM 2 REFILL 1X3,5G B2",
+              "brand": "Ivoclar",
+              "sourceUrl": "https://amdgroup.kz/catalog/plombirovochnye_materialy/plombirovochnyy_material_tetric_n_ceram_2_refill_1x3_5g_b2_1/"
+            }
+          ]
+        },
+        {
+          "key": "vita|lumex ac опакуе дентине 12 г масса для безметал керамики",
+          "confidence": "MEDIUM",
+          "cards": [
+            {
+              "id": "public-6a6bd6570d9b62e58e28800c",
+              "name": "LUMEX AC опакуе дентине A1 12 г масса для безметал керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_opaque_dentine_a1_12_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-e03452270842a90d20db4d11",
+              "name": "LUMEX AC опакуе дентине A2 12 г масса для безметал керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_opaque_dentine_a2_12_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-6df983102d0b11fcfdcae64a",
+              "name": "LUMEX AC опакуе дентине A3 12 г масса для безметал керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_opaque_dentine_a3_12_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-8291d40b18dfbc10fb4965ef",
+              "name": "LUMEX AC опакуе дентине A3 5 12 г масса для безметал керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_opaque_dentine_a3_5_12_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-5aa09c417111dc19c3d4a980",
+              "name": "LUMEX AC опакуе дентине B1 12 г масса для безметал керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_opaque_dentine_b1_12_g_massa_d_bezmetal_keramiki/"
+            }
+          ]
+        },
+        {
+          "key": "vita|lumex ac opaque dentine масса д безметал керамики",
+          "confidence": "MEDIUM",
+          "cards": [
+            {
+              "id": "public-1b0bce914cca4938afd1803d",
+              "name": "LUMEX AC Opaque dentine A2, 12 g масса д/безметал.керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_opaque_dentine_a2_12_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-88d3c45bb3271a2ddccaf5ca",
+              "name": "LUMEX AC Opaque dentine A2, 50 g масса д/безметал.керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_opaque_dentine_a2_50_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-1c43a22261e6fcc8f79d4274",
+              "name": "LUMEX AC Opaque dentine A3, 12 g масса д/безметал.керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_opaque_dentine_a3_12_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-1b2459624aa779a1c1f953c4",
+              "name": "LUMEX AC Opaque dentine A3,5 12 g масса д/безметал.керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_opaque_dentine_a3_5_12_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-da0c3cf633d25eb085c13609",
+              "name": "LUMEX AC Opaque dentine B1 12 g масса д/безметал.керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_opaque_dentine_b1_12_g_massa_d_bezmetal_keramiki/"
+            }
+          ]
+        },
+        {
+          "key": "без бренда|полир poliry dlya kompozitov zhelt p",
+          "confidence": "MANUAL_REVIEW",
+          "cards": [
+            {
+              "id": "public-935a6e9bb189709e1ab2c158",
+              "name": "Полир POLIRY DLYA KOMPOZITOV ZHELT P 0730 G",
+              "brand": null,
+              "sourceUrl": "https://amdgroup.kz/catalog/poliry/poliry_dlya_kompozitov_zhelt_p_0730_g_/"
+            },
+            {
+              "id": "public-8cf4b5fac32f7b2b91edc7f8",
+              "name": "Полир POLIRY DLYA KOMPOZITOV ZHELT P 0732 G",
+              "brand": null,
+              "sourceUrl": "https://amdgroup.kz/catalog/poliry/poliry_dlya_kompozitov_zhelt_p_0732_g_/"
+            },
+            {
+              "id": "public-8b61bb041e091eaa81f0eee9",
+              "name": "Полир POLIRY DLYA KOMPOZITOV ZHELT P 0733 G",
+              "brand": null,
+              "sourceUrl": "https://amdgroup.kz/catalog/poliry/poliry_dlya_kompozitov_zhelt_p_0733_g/"
+            },
+            {
+              "id": "public-4e237ee0dcfeb1166e582b90",
+              "name": "Полир POLIRY DLYA KOMPOZITOV ZHELT P 0735 G",
+              "brand": null,
+              "sourceUrl": "https://amdgroup.kz/catalog/poliry/poliry_dlya_kompozitov_zhelt_p_0735_g_/"
+            }
+          ]
+        },
+        {
+          "key": "без бренда|hst 02 ортодонтическая модель брекеты метал керамические",
+          "confidence": "MANUAL_REVIEW",
+          "cards": [
+            {
+              "id": "public-3b1d59afbe55e35e1f635273",
+              "name": "HST-B1-02 Ортодонтическая модель брекеты метал./керамические",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b1-02-ortodonticheskaya-model-brekety-metalkeramicheskie"
+            },
+            {
+              "id": "public-0a1ed77390e91c1f439a2c73",
+              "name": "HST-B2-02 Ортодонтическая модель брекеты метал./керамические",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b2-02-ortodonticheskaya-model-brekety-metalkeramicheskie"
+            },
+            {
+              "id": "public-c3a42378900da8f299897ca4",
+              "name": "HST-B3-02 Ортодонтическая модель брекеты метал./керамические",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b3-02-ortodonticheskaya-model-brekety-metalkeramicheskie"
+            },
+            {
+              "id": "public-0414f15e81fee16f66bede83",
+              "name": "HST-B4-02 Ортодонтическая модель брекеты метал./керамические",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b4-02-ortodonticheskaya-model-brekety-metalkeramicheskie"
+            }
+          ]
+        },
+        {
+          "key": "без бренда|hst 03 ортодонтическая модель брекеты керамические",
+          "confidence": "MANUAL_REVIEW",
+          "cards": [
+            {
+              "id": "public-e4c1145d9fc1e461af64bbec",
+              "name": "HST-B1-03 Ортодонтическая модель брекеты керамические",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b1-03-ortodonticheskaya-model-brekety-keramicheskie"
+            },
+            {
+              "id": "public-651a81d3d4c457edec21cf82",
+              "name": "HST-B2-03 Ортодонтическая модель брекеты керамические",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b2-03-ortodonticheskaya-model-brekety-keramicheskie"
+            },
+            {
+              "id": "public-9ab09edc12676b5ec64c1c06",
+              "name": "HST-B3-03 Ортодонтическая модель брекеты керамические",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b3-03-ortodonticheskaya-model-brekety-keramicheskie"
+            },
+            {
+              "id": "public-15853bfea94d50340cc63679",
+              "name": "HST-B4-03 Ортодонтическая модель брекеты керамические",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b4-03-ortodonticheskaya-model-brekety-keramicheskie"
+            }
+          ]
+        },
+        {
+          "key": "без бренда|hst ортодонтическая модель",
+          "confidence": "MANUAL_REVIEW",
+          "cards": [
+            {
+              "id": "public-8227cfdfc30f95d2393d5b2b",
+              "name": "HST-B1 Ортодонтическая модель",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b1-ortodonticheskaya-model"
+            },
+            {
+              "id": "public-20fe8b7fbb14637bcd4e2fcf",
+              "name": "HST-B2 Ортодонтическая модель",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b2-ortodonticheskaya-model"
+            },
+            {
+              "id": "public-6612148b9dafb6afa1598a94",
+              "name": "HST-B3 Ортодонтическая модель",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b3-ortodonticheskaya-model"
+            },
+            {
+              "id": "public-80f267b36ebe51a8d0be2434",
+              "name": "HST-B4 Ортодонтическая модель",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b4-ortodonticheskaya-model"
+            }
+          ]
+        },
+        {
+          "key": "kulzer|charisma смарт 4 г",
+          "confidence": "MEDIUM",
+          "cards": [
+            {
+              "id": "public-0fcfe9c498272d3bf9cfa66a",
+              "name": "Charisma смарт 4 г A1",
+              "brand": "Kulzer",
+              "sourceUrl": "https://amdgroup.kz/catalog/plombirovochnye_materialy/karizma_smart_4g_a1_/"
+            },
+            {
+              "id": "public-70f054c8ee6a6a68ac9e306c",
+              "name": "Charisma смарт 4 г A2",
+              "brand": "Kulzer",
+              "sourceUrl": "https://amdgroup.kz/catalog/plombirovochnye_materialy/karizma_smart_4g_a2/"
+            },
+            {
+              "id": "public-a8dbc55d9870304e49c96608",
+              "name": "Charisma смарт 4 г A3",
+              "brand": "Kulzer",
+              "sourceUrl": "https://amdgroup.kz/catalog/plombirovochnye_materialy/karizma_smart_4g_a3_/"
+            },
+            {
+              "id": "public-b09abab42c612da044948b3a",
+              "name": "Charisma смарт 4 г A3 5",
+              "brand": "Kulzer",
+              "sourceUrl": "https://amdgroup.kz/catalog/plombirovochnye_materialy/karizma_smart_4g_a3_5_/"
+            }
+          ]
+        },
+        {
+          "key": "без бренда|замки ортодонтические на 6 ые зубы",
+          "confidence": "MANUAL_REVIEW",
+          "cards": [
+            {
+              "id": "public-7f265fdff1d5ab0658eb6799",
+              "name": "Замки ортодонтические на 6-ые зубы-1G",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/zamki-ortodonticheskie-na-6-ye-zuby-1g-0"
+            },
+            {
+              "id": "public-cfa99f8257e7434c8b5223b9",
+              "name": "Замки ортодонтические на 6-ые зубы-3G",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/zamki-ortodonticheskie-na-6-ye-zuby-3g-0"
+            },
+            {
+              "id": "public-115d2359680cea8be636368b",
+              "name": "Замки ортодонтические на 6-ые зубы-5G",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/zamki-ortodonticheskie-na-6-ye-zuby-5g-0"
+            }
+          ]
+        },
+        {
+          "key": "без бренда|hst 01 ортодонтическая модель брекеты металические",
+          "confidence": "MANUAL_REVIEW",
+          "cards": [
+            {
+              "id": "public-af34ac85a5f4fb7b9b498e20",
+              "name": "HST-B1-01 Ортодонтическая модель брекеты металические",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b1-01-ortodonticheskaya-model-brekety-metalicheskie"
+            },
+            {
+              "id": "public-7d6e8420d05efd49f7d2c6a1",
+              "name": "HST-B2-01 Ортодонтическая модель брекеты металические",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b2-01-ortodonticheskaya-model-brekety-metalicheskie"
+            },
+            {
+              "id": "public-6775fcd776d4cfb8a0620e67",
+              "name": "HST-B4-01 Ортодонтическая модель брекеты металические",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-b4-01-ortodonticheskaya-model-brekety-metalicheskie"
+            }
+          ]
+        },
+        {
+          "key": "ivoclar|пломбировочный материал tetric n flow 2 refill1x2g",
+          "confidence": "MEDIUM",
+          "cards": [
+            {
+              "id": "public-54603202476aa3ded03f5276",
+              "name": "Пломбировочный материал TETRIC N-FLOW 2 REFILL1X2G A1",
+              "brand": "Ivoclar",
+              "sourceUrl": "https://amdgroup.kz/catalog/plombirovochnye_materialy/plombirovochnyy_material_tetric_n_flow_2_refill1x2g_a1/"
+            },
+            {
+              "id": "public-ffe8bb429afb6f640cd87c12",
+              "name": "Пломбировочный материал TETRIC N-FLOW 2 REFILL1X2G A2",
+              "brand": "Ivoclar",
+              "sourceUrl": "https://amdgroup.kz/catalog/plombirovochnye_materialy/plombirovochnyy_material_tetric_n_flow_2_refill1x2g_a2/"
+            },
+            {
+              "id": "public-6fafa7ed07f65900955a32a5",
+              "name": "Пломбировочный материал TETRIC N-FLOW 2 REFILL1X2G A3",
+              "brand": "Ivoclar",
+              "sourceUrl": "https://amdgroup.kz/catalog/plombirovochnye_materialy/plombirovochnyy_material_tetric_n_flow_2_refill1x2g_a3/"
+            }
+          ]
+        },
+        {
+          "key": "vita|lumex ac дентине 12 г масса для безметал керамики",
+          "confidence": "MEDIUM",
+          "cards": [
+            {
+              "id": "public-0acc07bd1275d873ceee7d1c",
+              "name": "LUMEX AC дентине A2 12 г масса для безметал керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_dentine_a2_12_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-5c70121c3eff05fd8c0fa72c",
+              "name": "LUMEX AC дентине A3 5 12 г масса для безметал керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_dentine_a3_5_12_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-d8f3b1f4b7ae259df0ddabf2",
+              "name": "LUMEX AC дентине B1 12 г масса для безметал керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_dentine_b1_12_g_massa_d_bezmetal_keramiki/"
+            }
+          ]
+        },
+        {
+          "key": "без бренда|брекеты самолигирующие passive",
+          "confidence": "MANUAL_REVIEW",
+          "cards": [
+            {
+              "id": "public-f1b66e85942de7570a214110",
+              "name": "Брекеты самолигирующие Passive 3G",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/brekety-samoligiruyushchie-passive-3g"
+            },
+            {
+              "id": "public-5928a7fd3da9dfbee501dc06",
+              "name": "Брекеты самолигирующие Passive 5G",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/brekety-samoligiruyushchie-passive-5g"
+            }
+          ]
+        },
+        {
+          "key": "без бренда|люксаторы lm твистоут",
+          "confidence": "MANUAL_REVIEW",
+          "cards": [
+            {
+              "id": "public-974e8b9a7366c0b0224cb8f2",
+              "name": "Люксаторы LM твистоут C3",
+              "brand": null,
+              "sourceUrl": "https://amdgroup.kz/catalog/lyuksatory/lyuksatory_lm_twistout_c3/"
+            },
+            {
+              "id": "public-c6a4040e27ca3eda908e8c76",
+              "name": "Люксаторы LM твистоут C4",
+              "brand": null,
+              "sourceUrl": "https://amdgroup.kz/catalog/lyuksatory/lyuksatory_lm_twistout_c4/"
+            }
+          ]
+        },
+        {
+          "key": "без бренда|пылесосы автоклавируемые",
+          "confidence": "MANUAL_REVIEW",
+          "cards": [
+            {
+              "id": "public-6b378ffb39370c6c5e766e00",
+              "name": "Пылесосы автоклавируемые 11 mm",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/pylesosy-avtoklaviruemye-11-mm"
+            },
+            {
+              "id": "public-42b73e555e71878cfea37f17",
+              "name": "Пылесосы автоклавируемые 16 mm",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/pylesosy-avtoklaviruemye-16-mm"
+            }
+          ]
+        },
+        {
+          "key": "без бренда|hst модель с патологиями имплантом",
+          "confidence": "MANUAL_REVIEW",
+          "cards": [
+            {
+              "id": "public-56e24dc1649c5524bc48918c",
+              "name": "HST-C1 Модель с патологиями, имплантом",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-c1-model-s-patologiyami-implantom"
+            },
+            {
+              "id": "public-5b282b4803fad6257cc17c81",
+              "name": "HST-C4 Модель с патологиями, имплантом",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-c4-model-s-patologiyami-implantom"
+            }
+          ]
+        },
+        {
+          "key": "без бренда|hst модель тренировочная жесткая",
+          "confidence": "MANUAL_REVIEW",
+          "cards": [
+            {
+              "id": "public-e78c1ae0843170b0cab572d8",
+              "name": "HST-A1 Модель тренировочная жесткая",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-a1-model-trenirovochnaya-zhestkaya"
+            },
+            {
+              "id": "public-32efb2a8870687edfed288ad",
+              "name": "HST-A2 Модель тренировочная жесткая",
+              "brand": null,
+              "sourceUrl": "https://a4d.kz/content/hst-a2-model-trenirovochnaya-zhestkaya"
+            }
+          ]
+        },
+        {
+          "key": "vita|lumex ac жидк мод",
+          "confidence": "MEDIUM",
+          "cards": [
+            {
+              "id": "public-a2adabf440a67a433d5dc41a",
+              "name": "LUMEX AC Жидк.мод. 250 ml",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_zhidk_mod_250_ml/"
+            },
+            {
+              "id": "public-b3033bea2015238a7994c7bc",
+              "name": "LUMEX AC Жидк.мод. 50 ml",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_zhidk_mod_50_ml/"
+            }
+          ]
+        },
+        {
+          "key": "vita|lumex ac dentine 2m2 масса д безметал керамики",
+          "confidence": "MEDIUM",
+          "cards": [
+            {
+              "id": "public-9558c6745dc50014be563ccd",
+              "name": "LUMEX AC Dentine 2M2,12 g масса д/безметал.керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_dentine_2m2_12_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-b7132f4ed65f5ab6a2e8760e",
+              "name": "LUMEX AC Dentine 2M2,50 g масса д/безметал.керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_dentine_2m2_50_g_massa_d_bezmetal_keramiki/"
+            }
+          ]
+        },
+        {
+          "key": "vita|lumex ac dentine масса д безметал керамики",
+          "confidence": "MEDIUM",
+          "cards": [
+            {
+              "id": "public-f61e6155279a20060ece24db",
+              "name": "LUMEX AC Dentine A2 12 g масса д/безметал.керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_dentine_a2_12_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-29d78a9d01023b30c3e7688a",
+              "name": "LUMEX AC Dentine A3,5, 12 g масса д/безметал.керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_dentine_a3_5_12_g_massa_d_bezmetal_keramiki/"
+            }
+          ]
+        },
+        {
+          "key": "vita|lumex ac opaque opaque масса д безметал керамики",
+          "confidence": "MEDIUM",
+          "cards": [
+            {
+              "id": "public-b77d54384bc3cf225e42e54e",
+              "name": "LUMEX AC Opaque/Opaque-0 12 g масса д/безметал.керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_opaque_opaque_0_12_g_massa_d_bezmetal_keramiki/"
+            },
+            {
+              "id": "public-bf3c9aaddc99437f941df5f0",
+              "name": "LUMEX AC Opaque/Opaque-2 12 g масса д/безметал.керамики",
+              "brand": "VITA",
+              "sourceUrl": "https://amdgroup.kz/catalog/lumex/lumex_ac_opaque_opaque_2_12_g_massa_d_bezmetal_keramiki/"
+            }
+          ]
+        }
+      ]
+    },
+    "mediaRights": {
+      "sourceUnverifiedCards": 1769,
+      "percent": 54.6
+    }
+  },
+  "findings": [
+    {
+      "severity": "PASS",
+      "confidence": "HIGH",
+      "finding": "Уникальность карточки по нормализованным бренду и названию",
+      "affectedCards": 0,
+      "risk": "Дубли разделяют предложения поставщиков и мешают сравнению цен.",
+      "remediation": "Автоматически объединять только пунктуационно эквивалентные названия внутри одного бренда."
+    },
+    {
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "finding": "Заполнение бренда",
+      "affectedCards": 2904,
+      "risk": "Без бренда нельзя безопасно объединять фасовки и выбирать производителя.",
+      "remediation": "Обогащать бренд только по официальному артикулу, справочнику производителя или подтверждённому прайсу."
+    },
+    {
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "finding": "Покрытие фотографиями",
+      "affectedCards": 1428,
+      "risk": "Пустые или категорийные изображения снижают доверие к карточке.",
+      "remediation": "Публиковать точное фото модели после проверки источника и прав использования."
+    },
+    {
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "finding": "Фасовки и оттенки, оставшиеся отдельными карточками",
+      "affectedCards": 65,
+      "risk": "Покупатель не видит все варианты и предложения в одной карточке.",
+      "remediation": "Проверить кандидатов по бренду и артикулу, затем перенести различия в структурированные варианты."
+    }
+  ]
+}

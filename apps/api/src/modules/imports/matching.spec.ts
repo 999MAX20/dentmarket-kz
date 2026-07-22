@@ -197,4 +197,137 @@ describe("supplier matching", () => {
     expect(candidates[0]?.reasons).toContain("manufacturer_ref");
     expect(isConfidentAutomaticMatch(candidates)).toBe(true);
   });
+
+  it("selects the exact shade and package inside one product family", () => {
+    const product = {
+      canonicalName: "VOCO Admira Fusion",
+      externalMetadata: { catalogAliases: ["Admira Fusion"] },
+      brand: { name: "VOCO" },
+      manufacturer: { name: "VOCO GmbH" },
+    };
+    const candidates = rankVariants(
+      {
+        name: "Admira Fusion шприц 3 г оттенок А2",
+        normalizedName: "admira fusion шприц 3 г оттенок а2",
+        brandText: "VOCO",
+      },
+      [
+        {
+          id: "admira-a1",
+          sku: "2754",
+          externalMetadata: {
+            label: "Шприц 3 г · оттенок A1",
+            attributes: {
+              "Форма выпуска": "Шприц",
+              Масса: "3 г",
+              Оттенок: "A1",
+            },
+          },
+          product,
+        },
+        {
+          id: "admira-a2",
+          sku: "2755",
+          externalMetadata: {
+            label: "Шприц 3 г · оттенок A2",
+            attributes: {
+              "Форма выпуска": "Шприц",
+              Масса: "3 г",
+              Оттенок: "A2",
+            },
+          },
+          product,
+        },
+      ],
+    );
+
+    expect(candidates[0]?.variant.id).toBe("admira-a2");
+    expect(candidates[0]?.reasons).toContain("exact_variant_shade");
+    expect(candidates[1]?.reasons).toContain("variant_shade_conflict");
+    expect(isConfidentAutomaticMatch(candidates)).toBe(true);
+  });
+
+  it("keeps a family match in moderation when the package conflicts", () => {
+    const product = {
+      canonicalName: "Тестовый композит",
+      brand: { name: "Demo" },
+    };
+    const candidates = rankVariants(
+      {
+        name: "Тестовый композит шприц 5 г",
+        normalizedName: "тестовый композит шприц 5 г",
+        brandText: "Demo",
+      },
+      [
+        {
+          id: "demo-3g",
+          externalMetadata: {
+            label: "Шприц 3 г",
+            attributes: { "Форма выпуска": "Шприц", Масса: "3 г" },
+          },
+          product,
+        },
+        {
+          id: "demo-4g",
+          externalMetadata: {
+            label: "Шприц 4 г",
+            attributes: { "Форма выпуска": "Шприц", Масса: "4 г" },
+          },
+          product,
+        },
+      ],
+    );
+
+    expect(
+      candidates.every(({ reasons }) =>
+        reasons.includes("variant_measure_conflict"),
+      ),
+    ).toBe(true);
+    expect(isConfidentAutomaticMatch(candidates)).toBe(false);
+  });
+
+  it("distinguishes a QuickMix kit from a refill with the same shade", () => {
+    const product = {
+      canonicalName: "VOCO Bifix QM",
+      externalMetadata: { catalogAliases: ["Bifix QM"] },
+      brand: { name: "VOCO" },
+    };
+    const candidates = rankVariants(
+      {
+        name: "Bifix QM набор QuickMix 10 г универсальный",
+        normalizedName: "bifix qm набор quickmix 10 г универсальный",
+        brandText: "VOCO",
+      },
+      [
+        {
+          id: "bifix-kit",
+          externalMetadata: {
+            label: "Набор QuickMix 10 г универсальный",
+            attributes: {
+              "Форма выпуска": "Набор",
+              Масса: "10 г",
+              Оттенок: "универсальный",
+            },
+          },
+          product,
+        },
+        {
+          id: "bifix-refill",
+          externalMetadata: {
+            label: "QuickMix 10 г универсальный",
+            attributes: {
+              "Форма выпуска": "Шприц QuickMix",
+              Масса: "10 г",
+              Оттенок: "универсальный",
+            },
+          },
+          product,
+        },
+      ],
+    );
+
+    expect(candidates[0]?.variant.id).toBe("bifix-kit");
+    expect(candidates[1]?.reasons).toContain("variant_form_conflict");
+    expect(isConfidentAutomaticMatch(candidates)).toBe(true);
+  });
 });
