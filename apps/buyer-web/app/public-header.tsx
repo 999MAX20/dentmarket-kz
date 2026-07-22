@@ -12,14 +12,37 @@ type PublicHeaderProps = {
   query?: string;
   searching?: boolean;
   onQueryChange?: (value: string) => void;
-  onSearch?: () => void;
+  onSearch?: (value?: string) => void;
 };
 
+const searchSuggestions = [
+  "перчатки",
+  "перчатки нитриловые",
+  "перчатки хирургические",
+  "маски медицинские",
+  "текучий композит",
+  "композит",
+  "гуттаперча",
+  "силер",
+  "эндодонтические файлы",
+  "стоматологические боры",
+  "слюноотсосы",
+  "стерилизация",
+  "импланты",
+  "абатменты",
+];
+
 export function PublicHeader({ active, query = "", searching = false, onQueryChange, onSearch }: PublicHeaderProps) {
+  const normalizedQuery = query.trim().toLocaleLowerCase("ru");
+  const suggestions = normalizedQuery.length < 2
+    ? []
+    : searchSuggestions
+        .filter((suggestion) => suggestion.includes(normalizedQuery) && suggestion !== normalizedQuery)
+        .slice(0, 6);
   const submit = (event: FormEvent<HTMLFormElement>) => {
     if (!onSearch) return;
     event.preventDefault();
-    onSearch();
+    onSearch(query);
   };
 
   return (
@@ -49,13 +72,52 @@ export function PublicHeader({ active, query = "", searching = false, onQueryCha
             type="search"
             name="q"
             value={query}
+            list="dentmarket-search-suggestions"
             onChange={(event) => onQueryChange?.(event.currentTarget.value)}
+            onKeyDown={(event) => {
+              if (event.key === "ArrowDown" && suggestions.length) {
+                event.preventDefault();
+                (event.currentTarget.parentElement?.querySelector("[role='option']") as HTMLElement | null)?.focus();
+              }
+            }}
             placeholder="Найти товар, бренд или артикул"
             aria-label="Поиск по каталогу"
           />
           <button type="submit" disabled={searching}>
             {searching ? "Ищем" : "Найти"}
           </button>
+          <datalist id="dentmarket-search-suggestions">
+            {searchSuggestions.map((suggestion) => <option key={suggestion} value={suggestion} />)}
+          </datalist>
+          {suggestions.length ? (
+            <div className={styles.suggestions} role="listbox" aria-label="Подсказки поиска">
+              {suggestions.map((suggestion) => (
+                <button
+                  key={suggestion}
+                  type="button"
+                  role="option"
+                  tabIndex={0}
+                  onMouseDown={(event) => event.preventDefault()}
+                  onClick={() => {
+                    onQueryChange?.(suggestion);
+                    onSearch?.(suggestion);
+                  }}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter") {
+                      onQueryChange?.(suggestion);
+                      onSearch?.(suggestion);
+                    }
+                    if (event.key === "Escape") {
+                      (event.currentTarget.closest("form")?.querySelector("input[name='q']") as HTMLInputElement | null)?.focus();
+                    }
+                  }}
+                >
+                  <Search24Regular aria-hidden="true" />
+                  <span>{suggestion}</span>
+                </button>
+              ))}
+            </div>
+          ) : null}
         </form>
       ) : null}
       <CityLocation />

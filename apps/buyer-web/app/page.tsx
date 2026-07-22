@@ -628,7 +628,8 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
   const routeParams = use(searchParams);
   const initialQuery = routeParams.q?.trim() ?? "";
   const parsedOffset = Number(routeParams.offset ?? "0");
-  const initialOffset = Number.isFinite(parsedOffset) && parsedOffset > 0 ? parsedOffset : 0;
+  const initialOffset =
+    Number.isFinite(parsedOffset) && parsedOffset > 0 ? parsedOffset : 0;
   const initialCatalogLimit = initialOffset ? initialOffset + 60 : 60;
   const [handoff, setHandoff] = useState<SessionHandoff | null>(null);
   const [handoffChecked, setHandoffChecked] = useState(false);
@@ -705,7 +706,12 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
   const [officialOnly, setOfficialOnly] = useState(false);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [search, setSearch] = useState<SearchResult | null>(() =>
-    fallbackSearch(initialQuery, "RELEVANCE", { stock: "all" }, initialCatalogLimit),
+    fallbackSearch(
+      initialQuery,
+      "RELEVANCE",
+      { stock: "all" },
+      initialCatalogLimit,
+    ),
   );
   const searchInputRef = useRef<HTMLInputElement>(null);
   const catalogUrlAppliedRef = useRef(false);
@@ -796,6 +802,15 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
         !product.categories.some(({ name }) => name === categoryFilter)
       )
         return false;
+      if (product.offers.length === 0) {
+        return !(
+          stockFilter === "true" ||
+          verifiedOnly ||
+          officialOnly ||
+          minPriceFilter ||
+          maxPriceFilter
+        );
+      }
       return offers.length > 0;
     });
   }, [
@@ -954,12 +969,17 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
     try {
       if (!handoff) {
         setSearch(
-          fallbackSearch(query, sort, {
-            unit: unitFilter,
-            packaging: packagingFilter,
-            delivery: deliveryFilter,
-            stock: "all",
-          }, initialOffset ? initialCatalogLimit : undefined),
+          fallbackSearch(
+            query,
+            sort,
+            {
+              unit: unitFilter,
+              packaging: packagingFilter,
+              delivery: deliveryFilter,
+              stock: "all",
+            },
+            initialOffset ? initialCatalogLimit : undefined,
+          ),
         );
         // Do not block the public catalog on a remote API cold start. If it
         // responds, loadSearch replaces the fallback with live data.
@@ -2055,13 +2075,14 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
                       ) : null}
                       {isPublic ? (
                         <span>
-                          {product.offers.length}{" "}
-                          {ruCount(
-                            product.offers.length,
-                            "продавец",
-                            "продавца",
-                            "продавцов",
-                          )}
+                          {product.offers.length
+                            ? `${product.offers.length} ${ruCount(
+                                product.offers.length,
+                                "продавец",
+                                "продавца",
+                                "продавцов",
+                              )}`
+                            : "Пока нет предложений"}
                         </span>
                       ) : (
                         <span>
@@ -3024,6 +3045,10 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
           searching={busy === "search"}
           onQueryChange={(value) => {
             setQuery(value);
+            if (!value.trim()) {
+              void submitSearchFor("");
+              return;
+            }
             setSearch(
               fallbackSearch(value, sort, {
                 unit: unitFilter,
@@ -3033,7 +3058,7 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
               }),
             );
           }}
-          onSearch={() => void submitSearchFor(query)}
+          onSearch={(value) => void submitSearchFor(value ?? query)}
         />
         <main className={styles.publicMain} id="catalog">
           {renderCatalog(true)}
