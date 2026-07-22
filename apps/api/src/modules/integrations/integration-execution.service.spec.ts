@@ -83,4 +83,21 @@ describe("IntegrationExecutionService ORDER_EXPORT agreement gate", () => {
       } as never),
     ).rejects.toThrow(PermanentIntegrationError);
   });
+
+  it("rejects an order when the supplier agreement is missing or expired", async () => {
+    const agreementError = new Error("active EDS-signed marketplace supplier agreement is required");
+    const { service, adapter } = serviceWith({
+      order: { supplierOrganizationId: "supplier-1" },
+      agreement: vi.fn().mockRejectedValue(agreementError),
+    });
+
+    await expect(
+      service.execute({
+        type: "ORDER_EXPORT",
+        payload: { supplierOrderId: "order-1" },
+        connectionId: "connection-1",
+      } as never),
+    ).rejects.toThrow("active EDS-signed marketplace supplier agreement");
+    expect(adapter.exportOrder).not.toHaveBeenCalled();
+  });
 });

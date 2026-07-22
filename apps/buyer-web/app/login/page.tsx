@@ -21,7 +21,15 @@ const supplierAppUrl = process.env.NEXT_PUBLIC_SUPPLIER_APP_URL ?? "https://dent
 export default function LoginPage() {
   const [capability, setCapability] = useState<Capability>("BUYER");
   const [busy, setBusy] = useState(false);
-  const [error, setError] = useState("");
+  const [error, setError] = useState(() => {
+    const code = typeof window === "undefined"
+      ? null
+      : new URLSearchParams(window.location.search).get("error");
+    if (code === "service") return "Сервис входа временно недоступен. Попробуйте ещё раз.";
+    if (code === "organization") return "У аккаунта не найдена активная организация.";
+    if (code === "handoff") return "Не удалось открыть кабинет. Повторите вход.";
+    return "";
+  });
 
   const login = async () => {
     setBusy(true);
@@ -64,7 +72,7 @@ export default function LoginPage() {
         handoffCode: handoffPayload.handoffCode,
         capability,
       }));
-      window.location.assign(`${capability === "SUPPLIER" ? supplierAppUrl : ""}/#session=${handoff}`);
+      window.location.assign(`${capability === "SUPPLIER" ? supplierAppUrl : window.location.origin}/#session=${handoff}`);
     } catch (cause) {
       setError(cause instanceof Error ? cause.message : "Вход не выполнен");
     } finally {
@@ -98,13 +106,14 @@ export default function LoginPage() {
               <b>Поставщик</b><span>Продажи и ассортимент</span>
             </button>
           </div>
-          <a
+          <button
             className={styles.login}
-            href={`/demo-login?capability=${capability}`}
-            aria-disabled={busy}
+            type="button"
+            onClick={() => void login()}
+            disabled={busy}
           >
             {busy ? "Открываем кабинет…" : capability === "BUYER" ? "Войти в кабинет клиники" : "Войти как поставщик"}
-          </a>
+          </button>
           {error ? <p className={styles.error}>{error}</p> : null}
           <p className={styles.hint}>Сейчас доступен пилотный демо-вход. Корпоративные Google/Apple аккаунты подключаются отдельными Client ID.</p>
           <a className={styles.register} href={`https://dentmarket-about.vercel.app/register?role=${capability === "BUYER" ? "buyer" : "supplier"}`}>

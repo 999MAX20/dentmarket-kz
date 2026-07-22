@@ -21,6 +21,8 @@ export async function GET(request: Request) {
     const target = capability === "SUPPLIER" ? supplierAppUrl : new URL("/", request.url).origin;
     return NextResponse.redirect(`${target}/#session=${handoff}`);
   } catch {
-    return NextResponse.json({ message: "Сервис входа временно недоступен" }, { status: 502 });
+    // Never leave a browser on a raw JSON error page. The login screen can
+    // render a useful recovery message and keep the user in the right app.
+    return NextResponse.redirect(new URL("/login?error=service", request.url));
   }
 }
