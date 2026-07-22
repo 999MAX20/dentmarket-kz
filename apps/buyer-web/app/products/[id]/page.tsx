@@ -10,7 +10,36 @@ import VariantPicker from "./variant-picker";
 type CatalogProduct = (typeof catalog.products)[number];
 
 function getProduct(id: string): CatalogProduct | undefined {
-  return catalog.products.find((item) => item.id === id);
+  const catalogProduct = catalog.products.find((item) => item.id === id);
+  if (catalogProduct) return catalogProduct;
+
+  // The public search intentionally includes a small demo offer set while the
+  // production API is being connected. Keep those IDs deep-linkable as well.
+  if (id === "00000000-0000-4000-8000-000000000100") {
+    return {
+      id,
+      name: "Перчатки нитриловые SafeTouch Ultra",
+      description:
+        "Нитриловые перчатки для стоматологической практики. Доступны в упаковке 100 штук.",
+      brand: "SafeTouch",
+      manufacturer: "SafeMed Industries",
+      category: "Перчатки",
+      sourceUrl: null,
+      sourceUpdatedAt: null,
+      attributes: [
+        ["Категория", "Перчатки"],
+        ["Бренд", "SafeTouch"],
+        ["Производитель", "SafeMed Industries"],
+        ["Фасовка", "100 шт."],
+      ],
+      variants: [],
+      offers: [],
+      minNormalizedPriceMinor: "4750",
+      isAvailable: true,
+    } as unknown as CatalogProduct;
+  }
+
+  return undefined;
 }
 
 function formatPrice(
