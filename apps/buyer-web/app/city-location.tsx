@@ -184,13 +184,17 @@ export function CityLocation() {
             ))}
           </select>
         )}
-        <button
+        <a
           className={styles.close}
-          type="button"
-          onClick={() => detailsRef.current?.removeAttribute("open")}
+          href=""
+          onClick={(event) => {
+            if (!detailsRef.current) return;
+            event.preventDefault();
+            detailsRef.current.open = false;
+          }}
         >
           Не сейчас
-        </button>
+        </a>
       </div>
     </details>
   );
