@@ -1,4 +1,4 @@
-brand,manufacturer,canonicalProductName,sourceName,manufacturerRef,variantLabel
+brand,manufacturer,canonicalProductName,sourceName,manufacturerRef,variantLabel,referenceType
 DentKist,DentKist,CharmFil Plus,Универсальный нанокомпозит CharmFil Plus A1,1401588,Шприц · оттенок A1
 DentKist,DentKist,CharmFil Plus,Универсальный нанокомпозит CharmFil Plus A2,1401589,Шприц · оттенок A2
 DentKist,DentKist,CharmFil Plus,Универсальный нанокомпозит CharmFil Plus A3,1401590,Шприц · оттенок A3
@@ -283,3 +283,63 @@ BISCO,"BISCO, Inc.",Black Disposable Syringe Tips 22G,Black Disposable Syringe T
 BISCO,"BISCO, Inc.",Auto-Mix Cannula Tips 20G,Auto-Mix Cannula Tips 20G,X-81270P,Канюли 20G
 BISCO,"BISCO, Inc.",Select HV Etch Empty Syringe Accessory Package,Select HV Etch Empty Syringe Accessory Package,X-80580P,Комплект пустых шприцев
 BISCO,"BISCO, Inc.",Uni-Etch Empty Syringe Accessory Package,Uni-Etch Empty Syringe Accessory Package,X-80582P,Комплект пустых шприцев
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick System Kit,13202,Набор System Kit
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick Intro Kit,13204,Набор Intro Kit
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,"Набор Estelite Sigma Quick kit I, 3 шприца 3,8 г А2, А3, ОА3",13104,Набор 3 шприца · A2 + A3 + OA3
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick A1,13210,Шприц 3.8 г · оттенок A1
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick A2,13211,Шприц 3.8 г · оттенок A2
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick A3,13212,Шприц 3.8 г · оттенок A3
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick A3.5,13213,Шприц 3.8 г · оттенок A3.5
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick A4,13214,Шприц 3.8 г · оттенок A4
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick A5,13215,Шприц 3.8 г · оттенок A5
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick B1,13216,Шприц 3.8 г · оттенок B1
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick B2,13217,Шприц 3.8 г · оттенок B2
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick B3,13218,Шприц 3.8 г · оттенок B3
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick B4,13219,Шприц 3.8 г · оттенок B4
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick C1,13220,Шприц 3.8 г · оттенок C1
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick C2,13221,Шприц 3.8 г · оттенок C2
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick C3,13222,Шприц 3.8 г · оттенок C3
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick OA1,13223,Шприц 3.8 г · оттенок OA1
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick OA2,13224,Шприц 3.8 г · оттенок OA2
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick OA3,13225,Шприц 3.8 г · оттенок OA3
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick OPA2,13226,Шприц 3.8 г · оттенок OPA2
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick CE,13227,Шприц 3.8 г · оттенок CE
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick BW,13228,Шприц 3.8 г · оттенок BW
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Estelite Sigma Quick WE,13229,Шприц 3.8 г · оттенок WE
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria Essential Kit,10931,Набор 7 шприцев
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria PLT Essential Kit,10396,Набор 15 капсул
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria A1B,10941,Шприц 4 г · оттенок A1B
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria A2B,10942,Шприц 4 г · оттенок A2B
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria A3B,10943,Шприц 4 г · оттенок A3B
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria A3.5B,10944,Шприц 4 г · оттенок A3.5B
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria A4B,10945,Шприц 4 г · оттенок A4B
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria B3B,10946,Шприц 4 г · оттенок B3B
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria BL,10947,Шприц 4 г · оттенок BL
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria NE,10948,Шприц 4 г · оттенок NE
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria WE,10949,Шприц 4 г · оттенок WE
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria YE,10950,Шприц 4 г · оттенок YE
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria TE,10951,Шприц 4 г · оттенок TE
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Asteria,Estelite Asteria OcE,10952,Шприц 4 г · оттенок OcE
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Bulk Fill Flow,Estelite Bulk Fill Flow U,12700,Шприц 3 г · оттенок U
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Bulk Fill Flow,Estelite Bulk Fill Flow B1,12701,Шприц 3 г · оттенок B1
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Bulk Fill Flow,Estelite Bulk Fill Flow A1,12702,Шприц 3 г · оттенок A1
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Bulk Fill Flow,"Estelite Bulk Fill Flow, шприц 3.0 г А2",12703,Шприц 3 г · оттенок A2
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Bulk Fill Flow,Estelite Bulk Fill Flow A3,12704,Шприц 3 г · оттенок A3
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Posterior,Estelite Posterior PA1,12911,Шприц 4.2 г · оттенок PA1
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Posterior,Estelite Posterior PA2,12912,Шприц 4.2 г · оттенок PA2
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Posterior,Estelite Posterior PA3,12913,Шприц 4.2 г · оттенок PA3
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Posterior,Estelite Posterior PCE,12914,Шприц 4.2 г · оттенок PCE
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Bond Force II,"Tokuyama Bond Force II 5 мл, в наборе",14903,Набор · флакон 5 мл
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Bond Force II,Tokuyama Bond Force II Pen Kit,14968,Набор · ручка 2 мл
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Sigma Quick,Набор Estelite Sigma Quick Promo 6 шприцев,KZ-NORDSTOM-155,"Набор Promo · 6 шприцев 3.8 г: A2, A3, OA1, OA2, OA3, OPA2",LOCAL_CATALOG_ID
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Color,"Композитные краски Estelite Color, шприц 0,9 г",KZ-NORDSTOM-159,Шприц 0.9 г · цвет выбирается,LOCAL_CATALOG_ID
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Universal Flow High,"Текучий пломбировочный материал Estelite Universal Flow High, шприц 3.0 г А2, ОРА 2",KZ-NORDSTOM-161-A2,Шприц 3 г · оттенок A2,LOCAL_CATALOG_ID
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Universal Flow High,"Текучий пломбировочный материал Estelite Universal Flow High, шприц 3.0 г А2, ОРА 2",KZ-NORDSTOM-161-OPA2,Шприц 3 г · оттенок OPA2,LOCAL_CATALOG_ID
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Universal Flow Medium,"Текучий пломбировочный материал Estelite Universal Flow Medium, шприц 3.0 г",KZ-NORDSTOM-162,Шприц 3 г · оттенок выбирается,LOCAL_CATALOG_ID
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Estelite Universal Flow Super Low,"Текучий пломбировочный материал Estelite Universal Flow Super Low, шприц 3.0 г",KZ-NORDSTOM-163,Шприц 3 г · оттенок выбирается,LOCAL_CATALOG_ID
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Omnichroma Blocker,"Универсальный опак OMNICHROMA Blocker, шприц 4,0 г",KZ-NORDSTOM-164,Шприц 4 г,LOCAL_CATALOG_ID
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Palfique Omnichroma,"Универсальная эмаль OMNICHROMA, шприц 4,0 г",KZ-NORDSTOM-165,Шприц 4 г,LOCAL_CATALOG_ID
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Palfique Estelite Paste,"Пломбировочный материал Palfique Estelite Paste, шприц 3,8 г",KZ-NORDSTOM-166,Шприц 3.8 г · оттенок выбирается,LOCAL_CATALOG_ID
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Palfique Estelite Paste,"Набор Palfique Estelite Paste Intro kit, 6 шприцев 3,8 г А1, А2, А3, ОА2 (2 шт.), ОА3, адгезив 5 мл",KZ-NORDSTOM-167,"Набор Intro · 6 шприцев и адгезив 5 мл",LOCAL_CATALOG_ID
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Bond Force II,"Универсальный однокомпонентный самопротравливающий адгезив VII поколения Tokuyama Bond Force ll рефил, 5 мл",KZ-NORDSTOM-168,Флакон 5 мл · refill,LOCAL_CATALOG_ID
+Tokuyama Dental,Tokuyama Dental Corporation,Tokuyama Shield Force Plus,Набор Shield Force Plus 3 мл,KZ-NORDSTOM-170,Набор · флакон 3 мл,LOCAL_CATALOG_ID

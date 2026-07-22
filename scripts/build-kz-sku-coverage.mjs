@@ -3,6 +3,7 @@ import path from "node:path";
 
 const variantsPath = path.resolve("data/catalog-variant-families-wave-2.csv");
 const evidencePath = path.resolve("data/catalog-kz-market-evidence.csv");
+const skuEvidencePath = path.resolve("data/catalog-kz-sku-evidence.csv");
 const expansionPath = path.resolve("data/catalog-expansion-wave-1.csv");
 const catalogPath = path.resolve("apps/buyer-web/app/data/public-catalog-fallback.json");
 const csvOutputPath = path.resolve("data/reports/catalog-kz-sku-coverage.csv");
@@ -38,9 +39,10 @@ function parseCsv(text) {
   }
   const [headers, ...records] = rows;
   return records.map((record, rowIndex) => {
-    if (record.length !== headers.length) {
+    if (record.length > headers.length) {
       throw new Error(`CSV row ${rowIndex + 2} has ${record.length} columns; expected ${headers.length}`);
     }
+    while (record.length < headers.length) record.push("");
     return Object.fromEntries(headers.map((header, index) => [header, record[index].trim()]));
   });
 }
@@ -54,18 +56,24 @@ function key(brand, productName) {
   return `${brand}|${productName}`.toLocaleLowerCase("ru");
 }
 
-const [variantText, evidenceText, expansionText, catalog] = await Promise.all([
+const [variantText, evidenceText, skuEvidenceText, expansionText, catalog] = await Promise.all([
   fs.readFile(variantsPath, "utf8"),
   fs.readFile(evidencePath, "utf8"),
+  fs.readFile(skuEvidencePath, "utf8"),
   fs.readFile(expansionPath, "utf8"),
   fs.readFile(catalogPath, "utf8").then(JSON.parse),
 ]);
 const variants = parseCsv(variantText);
+const officialReferenceVariants = variants.filter(
+  (variant) => variant.referenceType !== "LOCAL_CATALOG_ID",
+);
 const evidence = parseCsv(evidenceText);
+const skuEvidence = parseCsv(skuEvidenceText);
 const expansion = parseCsv(expansionText);
 const evidenceByCard = new Map(evidence.map((record) => [key(record.brand, record.canonicalProductName), record]));
+const skuEvidenceByReference = new Map(skuEvidence.map((record) => [`${record.brand}|${record.manufacturerRef}`.toLocaleLowerCase("ru"), record]));
 const publishedCards = new Set((catalog.products ?? []).map((product) => key(product.brand, product.name)));
-const variantsByReference = variants.reduce((groups, variant, index) => {
+const variantsByReference = officialReferenceVariants.reduce((groups, variant, index) => {
   if (!variant.manufacturerRef) throw new Error(`Variant row ${index + 2} is missing manufacturerRef`);
   const referenceKey = `${variant.brand}|${variant.manufacturerRef}`.toLocaleLowerCase("ru");
   const group = groups.get(referenceKey) ?? [];
@@ -80,6 +88,7 @@ const rows = [...variantsByReference.values()].map((referenceVariants) => {
     throw new Error(`Ambiguous manufacturer reference: ${variant.brand} ${variant.manufacturerRef}`);
   }
   const marketEvidence = evidenceByCard.get(key(variant.brand, variant.canonicalProductName));
+  const exactSkuEvidence = skuEvidenceByReference.get(`${variant.brand}|${variant.manufacturerRef}`.toLocaleLowerCase("ru"));
   return {
     brand: variant.brand,
     manufacturer: variant.manufacturer,
@@ -87,31 +96,42 @@ const rows = [...variantsByReference.values()].map((referenceVariants) => {
     manufacturerRef: variant.manufacturerRef,
     sourceAliases: [...new Set(referenceVariants.map((item) => item.sourceName))].join(" | "),
     variantLabel: variant.variantLabel,
-    kzStatus: marketEvidence?.kzStatus ?? "KZ_CONFIRMATION_REQUIRED",
+    kzStatus: exactSkuEvidence?.kzStatus ?? (marketEvidence ? "KZ_FAMILY_CONFIRMED_VARIANT_REVIEW_REQUIRED" : "KZ_CONFIRMATION_REQUIRED"),
     publishedCard: publishedCards.has(key(variant.brand, variant.canonicalProductName)) ? "YES" : "NO",
-    evidenceUrl: marketEvidence?.evidenceUrl ?? "",
-    lastChecked: marketEvidence?.lastChecked ?? "",
-    notes: marketEvidence?.notes ?? "Official reference retained; Kazakhstan availability has not been confirmed",
+    evidenceUrl: exactSkuEvidence?.evidenceUrl ?? marketEvidence?.evidenceUrl ?? "",
+    lastChecked: exactSkuEvidence?.lastChecked ?? marketEvidence?.lastChecked ?? "",
+    notes: exactSkuEvidence?.notes ?? marketEvidence?.notes ?? "Official reference retained; Kazakhstan availability has not been confirmed",
   };
 });
 
 const headers = ["brand", "manufacturer", "canonicalProductName", "manufacturerRef", "sourceAliases", "variantLabel", "kzStatus", "publishedCard", "evidenceUrl", "lastChecked", "notes"];
 const csv = [headers.join(","), ...rows.map((row) => headers.map((header) => escapeCsv(row[header])).join(","))].join("\n") + "\n";
-const brands = [...new Set([...rows.map((row) => row.brand), ...expansion.map((row) => row.brand)])].sort((a, b) => a.localeCompare(b));
+const brands = [...new Set([
+  ...rows.map((row) => row.brand),
+  ...expansion.map((row) => row.brand),
+  ...(catalog.products ?? []).map((product) => product.brand).filter(Boolean),
+])].sort((a, b) => a.localeCompare(b));
 const brandCoverage = brands.map((brand) => {
   const brandRows = rows.filter((row) => row.brand === brand);
   const expansionRows = expansion.filter((row) => row.brand === brand);
   const publishedFamilies = new Set((catalog.products ?? []).filter((product) => product.brand === brand).map((product) => product.name));
-  const kzConfirmedFamilies = new Set(brandRows.filter((row) => row.kzStatus.startsWith("KZ_DISTRIBUTOR_")).map((row) => row.canonicalProductName));
+  const kzMarketFamilies = new Set(evidence.filter((row) => row.brand === brand).map((row) => row.canonicalProductName));
+  const kzSkuConfirmedFamilies = new Set(brandRows.filter((row) => row.kzStatus === "KZ_SKU_CONFIRMED").map((row) => row.canonicalProductName));
+  const coverageStatus = kzMarketFamilies.size > 0
+    ? "KZ_AUDIT_IN_PROGRESS"
+    : expansionRows.length > 0 || brandRows.length > 0
+      ? "KZ_AUDIT_REQUIRED"
+      : "NOT_CLASSIFIED";
   return {
     brand,
-    coverageStatus: kzConfirmedFamilies.size > 0 ? "KZ_AUDIT_IN_PROGRESS" : "KZ_AUDIT_REQUIRED",
+    coverageStatus,
     references: brandRows.length,
-    kzConfirmedReferences: brandRows.filter((row) => row.kzStatus.startsWith("KZ_DISTRIBUTOR_")).length,
-    confirmationRequiredReferences: brandRows.filter((row) => row.kzStatus === "KZ_CONFIRMATION_REQUIRED").length,
+    kzConfirmedReferences: brandRows.filter((row) => row.kzStatus === "KZ_SKU_CONFIRMED").length,
+    confirmationRequiredReferences: brandRows.filter((row) => row.kzStatus !== "KZ_SKU_CONFIRMED").length,
     publishedReferences: brandRows.filter((row) => row.publishedCard === "YES").length,
     canonicalFamilies: new Set(brandRows.map((row) => row.canonicalProductName)).size,
-    kzConfirmedFamilies: kzConfirmedFamilies.size,
+    kzMarketFamilies: kzMarketFamilies.size,
+    kzSkuConfirmedFamilies: kzSkuConfirmedFamilies.size,
     publishedFamilies: publishedFamilies.size,
     expansionFamilies: new Set(expansionRows.map((row) => row.canonicalProductName)).size,
   };
@@ -127,8 +147,8 @@ const report = {
   },
   totals: {
     references: rows.length,
-    kzConfirmedReferences: rows.filter((row) => row.kzStatus.startsWith("KZ_DISTRIBUTOR_")).length,
-    confirmationRequiredReferences: rows.filter((row) => row.kzStatus === "KZ_CONFIRMATION_REQUIRED").length,
+    kzConfirmedReferences: rows.filter((row) => row.kzStatus === "KZ_SKU_CONFIRMED").length,
+    confirmationRequiredReferences: rows.filter((row) => row.kzStatus !== "KZ_SKU_CONFIRMED").length,
     publishedReferences: rows.filter((row) => row.publishedCard === "YES").length,
     ambiguousReferences: 0,
   },
@@ -139,9 +159,9 @@ const markdown = [
   "",
   `Generated: ${report.generatedAt}`,
   "",
-  "| Brand | Audit status | References | KZ-confirmed | KZ review | Published-card refs | Ref families | KZ families | Public cards | Expansion queue |",
-  "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|",
-  ...brandCoverage.map((brand) => `| ${brand.brand} | ${brand.coverageStatus} | ${brand.references} | ${brand.kzConfirmedReferences} | ${brand.confirmationRequiredReferences} | ${brand.publishedReferences} | ${brand.canonicalFamilies} | ${brand.kzConfirmedFamilies} | ${brand.publishedFamilies} | ${brand.expansionFamilies} |`),
+  "| Brand | Audit status | References | Exact KZ refs | KZ review | Published-card refs | Ref families | KZ market families | Exact KZ families | Public cards | Expansion queue |",
+  "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|",
+  ...brandCoverage.map((brand) => `| ${brand.brand} | ${brand.coverageStatus} | ${brand.references} | ${brand.kzConfirmedReferences} | ${brand.confirmationRequiredReferences} | ${brand.publishedReferences} | ${brand.canonicalFamilies} | ${brand.kzMarketFamilies} | ${brand.kzSkuConfirmedFamilies} | ${brand.publishedFamilies} | ${brand.expansionFamilies} |`),
   "",
   "Unconfirmed references remain available for supplier-file matching, but do not become seller offers without the normal checks.",
   "",

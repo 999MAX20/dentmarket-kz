@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-22T17:45:57.899Z",
+  "generatedAt": "2026-07-22T18:05:49.689Z",
   "intendedGrain": "Одна строка проверки на одну каноническую карточку",
   "catalog": {
-    "cardsBeforeMediaJoin": 3222,
-    "cardsAfterMediaJoin": 3222,
+    "cardsBeforeMediaJoin": 3226,
+    "cardsAfterMediaJoin": 3226,
     "lostCards": 0,
     "duplicateProductIds": []
   },
   "photos": {
-    "usableCards": 1773,
-    "usablePercent": 55,
-    "withoutUsablePhoto": 1449,
-    "cardsRetainedWithoutPhoto": 1449,
+    "usableCards": 1783,
+    "usablePercent": 55.3,
+    "withoutUsablePhoto": 1443,
+    "cardsRetainedWithoutPhoto": 1443,
     "brokenCards": 0,
-    "localExact": 1773,
+    "localExact": 1783,
     "remoteUnchecked": 0,
     "sharedExactFiles": 144,
     "suspiciousSharedMedia": 0
   },
   "manifest": {
-    "entries": 1745,
+    "entries": 1755,
     "orphanEntries": 116
   },
   "evidence": {
@@ -2608,7 +2608,6 @@
       "public-020212c478926c2d127c2758",
       "public-2e8a0d05285aefaf578889b5",
       "public-366fe51b2e170778314a8bd5",
-      "public-9d26d39143b2f426a6b70e7a",
       "public-cc2a103a74f4b888bd41b6a9",
       "public-59eee5eafa3483c6053e3d3e",
       "public-d3ba8762a3afdd6c80145e42",
@@ -3126,8 +3125,6 @@
       "public-f0a7e4b6180c796f41af3253",
       "public-82fe8322e968d822e8f20eca",
       "public-35f9406e7611b3bcba3910ed",
-      "public-f415eb089caf1c98b3571b9f",
-      "public-f1b8b7754801586fca83b7af",
       "public-a69212a93019079edf7f79e9",
       "public-2c3f471cc43840ba26a4031b",
       "public-78f30a9c58d1b885af3c3ea6",
@@ -3816,9 +3813,6 @@
       "public-030868f1a024f3b464507ab4",
       "public-2fbecbf76045e51e705a90c2",
       "public-b90f5f0a18856279dd594044",
-      "public-a055dd03dba9dc2b1955c5f3",
-      "public-8eebd3c7ee47a7689a93d4aa",
-      "public-8a367684a5556982ce854de5",
       "public-a5f8d12921c30e2e6b0563e2",
       "public-e7e3ec534531b837cf596f7d",
       "public-0b411879cd56af452d658e13",

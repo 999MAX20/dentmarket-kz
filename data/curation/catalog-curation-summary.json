@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-22T17:45:58.332Z",
+  "generatedAt": "2026-07-22T18:05:49.807Z",
   "grain": "Одна строка на каноническую карточку, требующую подтверждения",
-  "totalCards": 3222,
+  "totalCards": 3226,
   "identityQueue": {
     "cards": 3055,
     "missingBrand": 2904,
@@ -9,9 +9,9 @@
     "coveredByQueuePercent": 100
   },
   "photoQueue": {
-    "cards": 1449,
+    "cards": 1443,
     "coveredByQueuePercent": 100,
-    "exactPhotos": 1773
+    "exactPhotos": 1783
   },
   "safety": {
     "inventedBrands": 0,

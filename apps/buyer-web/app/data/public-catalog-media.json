@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T17:43:38.012Z",
-  "total": 1745,
+  "generatedAt": "2026-07-22T18:01:27.376Z",
+  "total": 1755,
   "entries": {
     "https://amdgroup.kz/catalog/konusovidnye/bory_almaznye_247_009f_fg/": {
       "id": "9aa079e6-0a46-43b3-af20-39eb3601a968",
@@ -34440,6 +34440,166 @@
         "rightsStatus": "kz_exclusive_distributor_catalog",
         "sourcePageUrl": "https://www.denco.kz/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=43&category_id=31&manufacturer_id=3&option=com_virtuemart&Itemid=17",
         "sourceImageUrl": "https://denco.kz/components/com_virtuemart/shop_image/product/BISCOVER_LV_4e6e39f6cc365.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-153": {
+      "id": "manufacturer-8da19158497d5fc0535f1c092d3f25b0",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/153/fullimage1.jpg",
+      "securePath": "/catalog/products/8da19158497d5fc0535f1c092d3f25b0.png",
+      "normalizedStorageKey": "catalog/products/8da19158497d5fc0535f1c092d3f25b0.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Estelite Sigma Quick",
+      "width": 1163,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-153",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/153/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-157": {
+      "id": "manufacturer-ce7ddddc2b5e2f2ff958c30c6328a085",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/157/fullimage1.jpg",
+      "securePath": "/catalog/products/ce7ddddc2b5e2f2ff958c30c6328a085.png",
+      "normalizedStorageKey": "catalog/products/ce7ddddc2b5e2f2ff958c30c6328a085.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Estelite Asteria",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-157",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/157/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-158": {
+      "id": "manufacturer-88a76866d811e5aa77ef6ff108be357f",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/158/fullimage1.jpg",
+      "securePath": "/catalog/products/88a76866d811e5aa77ef6ff108be357f.png",
+      "normalizedStorageKey": "catalog/products/88a76866d811e5aa77ef6ff108be357f.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Estelite Bulk Fill Flow",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-158",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/158/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-159": {
+      "id": "manufacturer-9df3c7834bd5115b240ae88fab26b60c",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/159/fullimage1.jpg",
+      "securePath": "/catalog/products/9df3c7834bd5115b240ae88fab26b60c.png",
+      "normalizedStorageKey": "catalog/products/9df3c7834bd5115b240ae88fab26b60c.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Estelite Color",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-159",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/159/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-161": {
+      "id": "manufacturer-9b30f7bd8ac0c05a6d5115e35e92c326",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/161/fullimage1.jpg",
+      "securePath": "/catalog/products/9b30f7bd8ac0c05a6d5115e35e92c326.png",
+      "normalizedStorageKey": "catalog/products/9b30f7bd8ac0c05a6d5115e35e92c326.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Estelite Universal Flow High",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-161",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/161/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-162": {
+      "id": "manufacturer-f2685a6e92ff38aea99bae7b60ae588a",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/162/fullimage1.jpg",
+      "securePath": "/catalog/products/f2685a6e92ff38aea99bae7b60ae588a.png",
+      "normalizedStorageKey": "catalog/products/f2685a6e92ff38aea99bae7b60ae588a.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Estelite Universal Flow Medium",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-162",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/162/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-163": {
+      "id": "manufacturer-d341782c732a9ef933c1ee986492ac8a",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/163/fullimage1.jpg",
+      "securePath": "/catalog/products/d341782c732a9ef933c1ee986492ac8a.png",
+      "normalizedStorageKey": "catalog/products/d341782c732a9ef933c1ee986492ac8a.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Estelite Universal Flow Super Low",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-163",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/163/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-164": {
+      "id": "manufacturer-74b6c73c64352e8296c71d1070608624",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/164/fullimage1.jpg",
+      "securePath": "/catalog/products/74b6c73c64352e8296c71d1070608624.png",
+      "normalizedStorageKey": "catalog/products/74b6c73c64352e8296c71d1070608624.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Omnichroma Blocker",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-164",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/164/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-166": {
+      "id": "manufacturer-68397120a4643a6a4bf9dbb54797730d",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/166/fullimage1.jpg",
+      "securePath": "/catalog/products/68397120a4643a6a4bf9dbb54797730d.png",
+      "normalizedStorageKey": "catalog/products/68397120a4643a6a4bf9dbb54797730d.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Palfique Estelite Paste",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-166",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/166/fullimage1.jpg"
+      }
+    },
+    "https://nordstom.kz/catalog/therapy/adhesives-primers-acid-barriers-etchants/item-168": {
+      "id": "manufacturer-b594615af328e395264b8de8b794babe",
+      "sourceUrl": "https://nordstom.kz/userfiles/item/168/fullimage1.jpg",
+      "securePath": "/catalog/products/b594615af328e395264b8de8b794babe.png",
+      "normalizedStorageKey": "catalog/products/b594615af328e395264b8de8b794babe.png",
+      "mimeType": "image/png",
+      "altText": "Tokuyama Bond Force II",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "kz_distributor_catalog",
+        "sourcePageUrl": "https://nordstom.kz/catalog/therapy/adhesives-primers-acid-barriers-etchants/item-168",
+        "sourceImageUrl": "https://nordstom.kz/userfiles/item/168/fullimage1.jpg"
       }
     }
   }

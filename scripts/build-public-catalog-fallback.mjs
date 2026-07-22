@@ -61,6 +61,7 @@ const skuLabelRows = await fs
       skip_empty_lines: true,
       bom: true,
       trim: true,
+      relax_column_count: true,
     }),
   )
   .catch((error) => {
@@ -75,6 +76,7 @@ const variantFamilyRows = await fs
       skip_empty_lines: true,
       bom: true,
       trim: true,
+      relax_column_count: true,
     }),
   )
   .catch((error) => {
@@ -120,6 +122,21 @@ const referencesByProduct = aliasRows.reduce((result, row) => {
     isManufacturerReference(row.alias)
   )
     result.get(key).add(clean(row.alias));
+  return result;
+}, new Map());
+const canonicalProductByAlias = aliasRows.reduce((result, row) => {
+  const brand = normalizedCatalogIdentity(row.brand || "Без бренда");
+  const alias = normalizedCatalogIdentity(row.alias);
+  const canonicalProductName = clean(row.canonicalProductName);
+  if (!alias || !canonicalProductName) return result;
+  const aliasKey = `${brand}|${alias}`;
+  const existing = result.get(aliasKey);
+  if (existing && existing !== canonicalProductName) {
+    throw new Error(
+      `Ambiguous catalog alias for ${row.brand}: ${row.alias} -> ${existing} / ${canonicalProductName}`,
+    );
+  }
+  result.set(aliasKey, canonicalProductName);
   return result;
 }, new Map());
 
@@ -269,7 +286,17 @@ for (const file of files) {
       inferVerifiedVariantFamily(detectedName);
     const brand = clean(family?.brand) || detectedBrand;
     const manufacturer = clean(family?.manufacturer) || detectedManufacturer;
-    const name = clean(family?.canonicalProductName) || detectedName;
+    const canonicalAliasName =
+      canonicalProductByAlias.get(
+        `${normalizedCatalogIdentity(brand || "Без бренда")}|${normalizedCatalogIdentity(rawName)}`,
+      ) ??
+      canonicalProductByAlias.get(
+        `${normalizedCatalogIdentity(brand || "Без бренда")}|${normalizedCatalogIdentity(detectedName)}`,
+      );
+    const name =
+      clean(family?.canonicalProductName) ||
+      clean(canonicalAliasName) ||
+      detectedName;
     if (/^\d+$/.test(name)) continue;
     const category = inferCatalogCategory(
       name,

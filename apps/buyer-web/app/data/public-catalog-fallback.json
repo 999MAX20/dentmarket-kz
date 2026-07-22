@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T17:45:57.000Z",
+  "generatedAt": "2026-07-22T18:05:23.294Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -14,7 +14,7 @@
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3222,
+  "total": 3226,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -10965,120 +10965,6 @@
           "supplier": {
             "id": "supplier-32634230d092cc85e6e789f2",
             "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-9d26d39143b2f426a6b70e7a",
-      "name": "Адгезив стоматологический",
-      "description": "Адгезив стоматологический бренда Tokuyama Dental в категории «Адгезивы и праймеры».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Адгезив стоматологический",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Адгезивы и праймеры",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "Tokuyama Dental",
-            "confidence": 0.72
-          },
-          {
-            "field": "MANUFACTURER",
-            "value": "Tokuyama Dental",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "nordstom",
-            "sourceUrl": "https://nordstom.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Адгезив стоматологический"
-          }
-        ]
-      },
-      "brand": "Tokuyama Dental",
-      "manufacturer": "Tokuyama Dental",
-      "category": "Адгезивы и праймеры",
-      "sourceUrl": "https://nordstom.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Адгезивы и праймеры"
-        ],
-        [
-          "Бренд",
-          "Tokuyama Dental"
-        ],
-        [
-          "Производитель",
-          "Tokuyama Dental"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-9d26d39143b2f426a6b70e7a-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-9d26d39143b2f426a6b70e7a-offer-0",
-          "variantId": "public-9d26d39143b2f426a6b70e7a-variant-default",
-          "supplier": {
-            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
-            "name": "NORD STOM"
           },
           "priceMinor": null,
           "currency": "KZT",
@@ -164337,234 +164223,6 @@
       ]
     },
     {
-      "id": "public-f415eb089caf1c98b3571b9f",
-      "name": "Набор Estelite Asteria kit 7 шприцев 4,0 г",
-      "description": "Набор Estelite Asteria kit 7 шприцев 4,0 г бренда Tokuyama Dental в категории «Пломбировочные материалы». Поставляется как набор.",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Набор Estelite Asteria kit 7 шприцев 4,0 г",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Пломбировочные материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "Tokuyama Dental",
-            "confidence": 0.72
-          },
-          {
-            "field": "MANUFACTURER",
-            "value": "Tokuyama Dental",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "набор",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "nordstom",
-            "sourceUrl": "https://nordstom.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Набор Estelite Asteria kit 7 шприцев 4.0 г"
-          }
-        ]
-      },
-      "brand": "Tokuyama Dental",
-      "manufacturer": "Tokuyama Dental",
-      "category": "Пломбировочные материалы",
-      "sourceUrl": "https://nordstom.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Пломбировочные материалы"
-        ],
-        [
-          "Бренд",
-          "Tokuyama Dental"
-        ],
-        [
-          "Производитель",
-          "Tokuyama Dental"
-        ],
-        [
-          "Единица",
-          "набор"
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-f415eb089caf1c98b3571b9f-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · набор",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-f415eb089caf1c98b3571b9f-offer-0",
-          "variantId": "public-f415eb089caf1c98b3571b9f-variant-default",
-          "supplier": {
-            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
-            "name": "NORD STOM"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "набор",
-            "quantityInBaseUnit": "1",
-            "unit": "набор"
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-f1b8b7754801586fca83b7af",
-      "name": "Набор Estelite Sigma Quick Promo 6 шприцев",
-      "description": "Набор Estelite Sigma Quick Promo 6 шприцев бренда Tokuyama Dental в категории «Пломбировочные материалы». Поставляется как набор.",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Набор Estelite Sigma Quick Promo 6 шприцев",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Пломбировочные материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "Tokuyama Dental",
-            "confidence": 0.72
-          },
-          {
-            "field": "MANUFACTURER",
-            "value": "Tokuyama Dental",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "набор",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "nordstom",
-            "sourceUrl": "https://nordstom.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Набор Estelite Sigma Quick Promo 6 шприцев"
-          }
-        ]
-      },
-      "brand": "Tokuyama Dental",
-      "manufacturer": "Tokuyama Dental",
-      "category": "Пломбировочные материалы",
-      "sourceUrl": "https://nordstom.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Пломбировочные материалы"
-        ],
-        [
-          "Бренд",
-          "Tokuyama Dental"
-        ],
-        [
-          "Производитель",
-          "Tokuyama Dental"
-        ],
-        [
-          "Единица",
-          "набор"
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-f1b8b7754801586fca83b7af-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · набор",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-f1b8b7754801586fca83b7af-offer-0",
-          "variantId": "public-f1b8b7754801586fca83b7af-variant-default",
-          "supplier": {
-            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
-            "name": "NORD STOM"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "набор",
-            "quantityInBaseUnit": "1",
-            "unit": "набор"
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
       "id": "public-2faeeea0a38cfe92adbb86c4",
       "name": "Набор Set 1540",
       "description": "Набор Set 1540 в категории «Инструменты».",
@@ -275564,348 +275222,6 @@
       ]
     },
     {
-      "id": "public-a055dd03dba9dc2b1955c5f3",
-      "name": "Estelite Bulk Fill Flow шприц 3,0 г A2",
-      "description": "Estelite Bulk Fill Flow шприц 3,0 г A2 бренда Tokuyama Dental в категории «Пломбировочные материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Estelite Bulk Fill Flow шприц 3,0 г A2",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Пломбировочные материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "Tokuyama Dental",
-            "confidence": 0.72
-          },
-          {
-            "field": "MANUFACTURER",
-            "value": "Tokuyama Dental",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "nordstom",
-            "sourceUrl": "https://nordstom.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Estelite Bulk Fill Flow шприц 3.0 г A2"
-          }
-        ]
-      },
-      "brand": "Tokuyama Dental",
-      "manufacturer": "Tokuyama Dental",
-      "category": "Пломбировочные материалы",
-      "sourceUrl": "https://nordstom.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Пломбировочные материалы"
-        ],
-        [
-          "Бренд",
-          "Tokuyama Dental"
-        ],
-        [
-          "Производитель",
-          "Tokuyama Dental"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-a055dd03dba9dc2b1955c5f3-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-a055dd03dba9dc2b1955c5f3-offer-0",
-          "variantId": "public-a055dd03dba9dc2b1955c5f3-variant-default",
-          "supplier": {
-            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
-            "name": "NORD STOM"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-8eebd3c7ee47a7689a93d4aa",
-      "name": "Estelite Color композитные краски шприц 0,9 г",
-      "description": "Estelite Color композитные краски шприц 0,9 г бренда Tokuyama Dental в категории «Пломбировочные материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Estelite Color композитные краски шприц 0,9 г",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Пломбировочные материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "Tokuyama Dental",
-            "confidence": 0.72
-          },
-          {
-            "field": "MANUFACTURER",
-            "value": "Tokuyama Dental",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "nordstom",
-            "sourceUrl": "https://nordstom.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Estelite Color композитные краски шприц 0.9 г"
-          }
-        ]
-      },
-      "brand": "Tokuyama Dental",
-      "manufacturer": "Tokuyama Dental",
-      "category": "Пломбировочные материалы",
-      "sourceUrl": "https://nordstom.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Пломбировочные материалы"
-        ],
-        [
-          "Бренд",
-          "Tokuyama Dental"
-        ],
-        [
-          "Производитель",
-          "Tokuyama Dental"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-8eebd3c7ee47a7689a93d4aa-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-8eebd3c7ee47a7689a93d4aa-offer-0",
-          "variantId": "public-8eebd3c7ee47a7689a93d4aa-variant-default",
-          "supplier": {
-            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
-            "name": "NORD STOM"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-8a367684a5556982ce854de5",
-      "name": "Estelite Sigma Quick универсальный светоотверждаемый композит",
-      "description": "Estelite Sigma Quick универсальный светоотверждаемый композит бренда Tokuyama Dental в категории «Пломбировочные материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Estelite Sigma Quick универсальный светоотверждаемый композит",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Пломбировочные материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "Tokuyama Dental",
-            "confidence": 0.72
-          },
-          {
-            "field": "MANUFACTURER",
-            "value": "Tokuyama Dental",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "nordstom",
-            "sourceUrl": "https://nordstom.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Estelite Sigma Quick универсальный светоотверждаемый композит"
-          }
-        ]
-      },
-      "brand": "Tokuyama Dental",
-      "manufacturer": "Tokuyama Dental",
-      "category": "Пломбировочные материалы",
-      "sourceUrl": "https://nordstom.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Пломбировочные материалы"
-        ],
-        [
-          "Бренд",
-          "Tokuyama Dental"
-        ],
-        [
-          "Производитель",
-          "Tokuyama Dental"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-8a367684a5556982ce854de5-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-8a367684a5556982ce854de5-offer-0",
-          "variantId": "public-8a367684a5556982ce854de5-variant-default",
-          "supplier": {
-            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
-            "name": "NORD STOM"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
       "id": "public-a5f8d12921c30e2e6b0563e2",
       "name": "FАLCON Iris Ножницы изогнутыеBS51,115илиFALCON Iris Ножн и цы пр ям ые B S 540,15",
       "description": "FАLCON Iris Ножницы изогнутыеBS51,115илиFALCON Iris Ножн и цы пр ям ые B S 540,15 в категории «Инструменты».",
@@ -313562,6 +312878,697 @@
       ]
     },
     {
+      "id": "public-e0a3fdc3f8b603bec0f66266",
+      "name": "Tokuyama Bond Force II",
+      "description": "Однокомпонентный самопротравливающий светоотверждаемый адгезив. Флакон или набор выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.86,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Tokuyama Bond Force II",
+            "confidence": 0.86
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.86
+          },
+          {
+            "field": "BRAND",
+            "value": "Tokuyama Dental",
+            "confidence": 0.86
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Tokuyama Dental",
+            "confidence": 0.86
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.86
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "tokuyama-kz",
+            "sourceUrl": "https://nordstom.kz/catalog/therapy/adhesives-primers-acid-barriers-etchants/item-168",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Tokuyama Bond Force II"
+          },
+          {
+            "sourceName": "nordstom",
+            "sourceUrl": "https://nordstom.kz/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Адгезив стоматологический"
+          }
+        ]
+      },
+      "brand": "Tokuyama Dental",
+      "manufacturer": "Tokuyama Dental",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://nordstom.kz/catalog/therapy/adhesives-primers-acid-barriers-etchants/item-168",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "Tokuyama Dental"
+        ],
+        [
+          "Производитель",
+          "Tokuyama Dental"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "2"
+        ]
+      ],
+      "aliases": [
+        "Универсальный однокомпонентный самопротравливающий адгезив VII поколения Tokuyama Bond Force ll рефил, 5 мл",
+        "Универсальный однокомпонентный самопротравливающий адгезив VII поколения Tokuyama Bond Force ll 5 мл, в наборе",
+        "Адгезив стоматологический",
+        "Bond Force II",
+        "Tokuyama Bond Force II 5 мл, в наборе",
+        "Tokuyama Bond Force II Pen Kit"
+      ],
+      "variants": [
+        {
+          "id": "public-e0a3fdc3f8b603bec0f66266-variant-6df4de83894dd56d0db7a708",
+          "sku": "14903",
+          "gtin": null,
+          "label": "Набор · флакон 5 мл",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Объём": "5 мл",
+            "Количество": "1 шт.",
+            "Комплектация": "Набор",
+            "Артикул производителя": "14903"
+          }
+        },
+        {
+          "id": "public-e0a3fdc3f8b603bec0f66266-variant-81bb263274dd6a8f38456d8d",
+          "sku": "14968",
+          "gtin": null,
+          "label": "Набор · ручка 2 мл",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Объём": "2 мл",
+            "Количество": "1 шт.",
+            "Комплектация": "Набор",
+            "Артикул производителя": "14968"
+          }
+        },
+        {
+          "id": "public-e0a3fdc3f8b603bec0f66266-variant-6adfb656b8a52ee571e736f8",
+          "sku": "KZ-NORDSTOM-168",
+          "gtin": null,
+          "label": "Флакон 5 мл · refill",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Объём": "5 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "KZ-NORDSTOM-168"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-c6c6aba27cc85d594b8418e0",
+      "name": "Tokuyama Estelite Asteria",
+      "description": "Композитная система для эстетических реставраций по двухслойной методике. Форма выпуска набор и оттенок выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.86,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Tokuyama Estelite Asteria",
+            "confidence": 0.86
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.86
+          },
+          {
+            "field": "BRAND",
+            "value": "Tokuyama Dental",
+            "confidence": 0.86
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Tokuyama Dental",
+            "confidence": 0.86
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.86
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "tokuyama-kz",
+            "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-157",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Tokuyama Estelite Asteria"
+          },
+          {
+            "sourceName": "nordstom",
+            "sourceUrl": "https://nordstom.kz/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Набор Estelite Asteria kit 7 шприцев 4.0 г"
+          }
+        ]
+      },
+      "brand": "Tokuyama Dental",
+      "manufacturer": "Tokuyama Dental",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-157",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Tokuyama Dental"
+        ],
+        [
+          "Производитель",
+          "Tokuyama Dental"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "2"
+        ]
+      ],
+      "aliases": [
+        "Набор Estelite Asteria kit, 7 шприцев 4,0 г А1В, А2В, А3В, А3.5В, А4В, NE, OcE",
+        "Набор Estelite Asteria kit 7 шприцев 4.0 г",
+        "Пломбировочный материал Estelite Asteria 4,0 гр",
+        "Estelite Asteria",
+        "Estelite Asteria Essential Kit",
+        "Estelite Asteria PLT Essential Kit",
+        "Estelite Asteria A1B",
+        "Estelite Asteria A2B",
+        "Estelite Asteria A3B",
+        "Estelite Asteria A3.5B",
+        "Estelite Asteria A4B",
+        "Estelite Asteria B3B",
+        "Estelite Asteria BL",
+        "Estelite Asteria NE",
+        "Estelite Asteria WE",
+        "Estelite Asteria YE",
+        "Estelite Asteria TE",
+        "Estelite Asteria OcE"
+      ],
+      "variants": [
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-bb2ec64167e18065adaed25f",
+          "sku": "10931",
+          "gtin": null,
+          "label": "Набор 7 шприцев",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Артикул производителя": "10931"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-5cf512bfdc69646a77330bf4",
+          "sku": "10396",
+          "gtin": null,
+          "label": "Набор 15 капсул",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Количество": "15 шт.",
+            "Артикул производителя": "10396"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-2d4bb122893037ed15212bd3",
+          "sku": "10941",
+          "gtin": null,
+          "label": "Шприц 4 г · оттенок A1B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10941"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-fd85acb07af078e66c6f2261",
+          "sku": "10942",
+          "gtin": null,
+          "label": "Шприц 4 г · оттенок A2B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10942"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-5047c52df0613016fb90e704",
+          "sku": "10943",
+          "gtin": null,
+          "label": "Шприц 4 г · оттенок A3B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10943"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-55ac539c174adb22059ffc28",
+          "sku": "10944",
+          "gtin": null,
+          "label": "Шприц 4 г · оттенок A3.5B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A3",
+            "Артикул производителя": "10944"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-d241dafeaf0da9bcb4dda47b",
+          "sku": "10945",
+          "gtin": null,
+          "label": "Шприц 4 г · оттенок A4B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10945"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-d4e08c44af3e8fe24867644d",
+          "sku": "10946",
+          "gtin": null,
+          "label": "Шприц 4 г · оттенок B3B",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10946"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-57143f2cf5b12ab52aaa3f8a",
+          "sku": "10947",
+          "gtin": null,
+          "label": "Шприц 4 г · оттенок BL",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Оттенок": "BL",
+            "Артикул производителя": "10947"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-83486e77186d20cf9242cba0",
+          "sku": "10948",
+          "gtin": null,
+          "label": "Шприц 4 г · оттенок NE",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10948"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-fdc418c4c7ffbf84c0ab3d9a",
+          "sku": "10949",
+          "gtin": null,
+          "label": "Шприц 4 г · оттенок WE",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10949"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-cd6f3117349be03197a93261",
+          "sku": "10950",
+          "gtin": null,
+          "label": "Шприц 4 г · оттенок YE",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10950"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-f39de529278cf8b78b5fdeee",
+          "sku": "10951",
+          "gtin": null,
+          "label": "Шприц 4 г · оттенок TE",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10951"
+          }
+        },
+        {
+          "id": "public-c6c6aba27cc85d594b8418e0-variant-f58a468c32cb2e8370d77981",
+          "sku": "10952",
+          "gtin": null,
+          "label": "Шприц 4 г · оттенок OcE",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "10952"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-194dc96c66703495382a9ace",
+      "name": "Tokuyama Estelite Bulk Fill Flow",
+      "description": "Текучий композит для внесения слоем до 4 мм. Форма выпуска и оттенок выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.86,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Tokuyama Estelite Bulk Fill Flow",
+            "confidence": 0.86
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.86
+          },
+          {
+            "field": "BRAND",
+            "value": "Tokuyama Dental",
+            "confidence": 0.86
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Tokuyama Dental",
+            "confidence": 0.86
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.86
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "tokuyama-kz",
+            "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-158",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Tokuyama Estelite Bulk Fill Flow"
+          },
+          {
+            "sourceName": "nordstom",
+            "sourceUrl": "https://nordstom.kz/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Estelite Bulk Fill Flow шприц 3.0 г A2"
+          }
+        ]
+      },
+      "brand": "Tokuyama Dental",
+      "manufacturer": "Tokuyama Dental",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-158",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Tokuyama Dental"
+        ],
+        [
+          "Производитель",
+          "Tokuyama Dental"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "2"
+        ]
+      ],
+      "aliases": [
+        "Estelite Bulk Fill Flow, шприц 3.0 г А2",
+        "Estelite Bulk Fill Flow шприц 3,0 г A2",
+        "Estelite Bulk Fill Flow U",
+        "Estelite Bulk Fill Flow B1",
+        "Estelite Bulk Fill Flow A1",
+        "Estelite Bulk Fill Flow A3"
+      ],
+      "variants": [
+        {
+          "id": "public-194dc96c66703495382a9ace-variant-a9f80b4eaba3fd134bafafe7",
+          "sku": "12700",
+          "gtin": null,
+          "label": "Шприц 3 г · оттенок U",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "12700"
+          }
+        },
+        {
+          "id": "public-194dc96c66703495382a9ace-variant-c81d014242550f2e492e4ddd",
+          "sku": "12701",
+          "gtin": null,
+          "label": "Шприц 3 г · оттенок B1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Оттенок": "B1",
+            "Артикул производителя": "12701"
+          }
+        },
+        {
+          "id": "public-194dc96c66703495382a9ace-variant-59e1dc79a681665177701a50",
+          "sku": "12702",
+          "gtin": null,
+          "label": "Шприц 3 г · оттенок A1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A1",
+            "Артикул производителя": "12702"
+          }
+        },
+        {
+          "id": "public-194dc96c66703495382a9ace-variant-09cea12992eb9e8058b4d285",
+          "sku": "12703",
+          "gtin": null,
+          "label": "Шприц 3 г · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A2",
+            "Артикул производителя": "12703"
+          }
+        },
+        {
+          "id": "public-194dc96c66703495382a9ace-variant-51bce321a6e95707a0950901",
+          "sku": "12704",
+          "gtin": null,
+          "label": "Шприц 3 г · оттенок A3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A3",
+            "Артикул производителя": "12704"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-deb13cf3105661c6e8e5800b",
+      "name": "Tokuyama Estelite Color",
+      "description": "Светоотверждаемые краски для индивидуализации композитных реставраций. Цвет выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.86,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Tokuyama Estelite Color",
+            "confidence": 0.86
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.86
+          },
+          {
+            "field": "BRAND",
+            "value": "Tokuyama Dental",
+            "confidence": 0.86
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Tokuyama Dental",
+            "confidence": 0.86
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.86
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "tokuyama-kz",
+            "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-159",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Tokuyama Estelite Color"
+          },
+          {
+            "sourceName": "nordstom",
+            "sourceUrl": "https://nordstom.kz/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Estelite Color композитные краски шприц 0.9 г"
+          }
+        ]
+      },
+      "brand": "Tokuyama Dental",
+      "manufacturer": "Tokuyama Dental",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-159",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Tokuyama Dental"
+        ],
+        [
+          "Производитель",
+          "Tokuyama Dental"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "2"
+        ]
+      ],
+      "aliases": [
+        "Композитные краски Estelite Color, шприц 0,9 г",
+        "Estelite Color композитные краски шприц 0,9 г"
+      ],
+      "variants": [
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-variant-fc9f81e254ab982cb800ba15",
+          "sku": "KZ-NORDSTOM-159",
+          "gtin": null,
+          "label": "Шприц 0.9 г · цвет выбирается",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "0,9 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "KZ-NORDSTOM-159"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": [
+        {
+          "id": "public-deb13cf3105661c6e8e5800b-offer-0",
+          "variantId": "public-deb13cf3105661c6e8e5800b-variant-fc9f81e254ab982cb800ba15",
+          "supplier": {
+            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
+            "name": "NORD STOM"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": null,
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        }
+      ]
+    },
+    {
       "id": "public-02ead33f86983f3318762148",
       "name": "Tokuyama Estelite Posterior",
       "description": "Композит для реставраций боковых зубов. Оттенки PA1 PA2 PA3 и PCE представлены вариантами одной модели.",
@@ -313638,15 +313645,1010 @@
         "Estelite Posterior PA1",
         "Estelite Posterior PA2",
         "Estelite Posterior PA3",
-        "Estelite Posterior PCE"
+        "Estelite Posterior PCE",
+        "Пломбировочный материал Estelite Posterior, шприц 4,2 г"
       ],
       "variants": [
         {
-          "id": "public-02ead33f86983f3318762148-variant-default",
-          "sku": null,
+          "id": "public-02ead33f86983f3318762148-variant-5c01e4219f63ed93e69e3321",
+          "sku": "12911",
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Шприц 4.2 г · оттенок PA1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4,2 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "12911"
+          }
+        },
+        {
+          "id": "public-02ead33f86983f3318762148-variant-3c8f47d2ab2374eacc53b67f",
+          "sku": "12912",
+          "gtin": null,
+          "label": "Шприц 4.2 г · оттенок PA2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4,2 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "12912"
+          }
+        },
+        {
+          "id": "public-02ead33f86983f3318762148-variant-b3c3cf09c153f27bd2070039",
+          "sku": "12913",
+          "gtin": null,
+          "label": "Шприц 4.2 г · оттенок PA3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4,2 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "12913"
+          }
+        },
+        {
+          "id": "public-02ead33f86983f3318762148-variant-a5e3e3898bf3bb3ff30f18b4",
+          "sku": "12914",
+          "gtin": null,
+          "label": "Шприц 4.2 г · оттенок PCE",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4,2 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "12914"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-4b24dd54ac0bb21d5dbf69d6",
+      "name": "Tokuyama Estelite Sigma Quick",
+      "description": "Универсальный композит для прямых реставраций передних и боковых зубов. Форма выпуска набор и оттенок выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.86,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Tokuyama Estelite Sigma Quick",
+            "confidence": 0.86
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.86
+          },
+          {
+            "field": "BRAND",
+            "value": "Tokuyama Dental",
+            "confidence": 0.86
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Tokuyama Dental",
+            "confidence": 0.86
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.86
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "tokuyama-kz",
+            "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-153",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Tokuyama Estelite Sigma Quick"
+          },
+          {
+            "sourceName": "nordstom",
+            "sourceUrl": "https://nordstom.kz/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Набор Estelite Sigma Quick Promo 6 шприцев"
+          },
+          {
+            "sourceName": "nordstom",
+            "sourceUrl": "https://nordstom.kz/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Estelite Sigma Quick универсальный светоотверждаемый композит"
+          }
+        ]
+      },
+      "brand": "Tokuyama Dental",
+      "manufacturer": "Tokuyama Dental",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-153",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Tokuyama Dental"
+        ],
+        [
+          "Производитель",
+          "Tokuyama Dental"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "3"
+        ]
+      ],
+      "aliases": [
+        "Estelite Sigma Quick универсальный светоотверждаемый композит",
+        "Набор Estelite Sigma Quick kit I, 3 шприца 3,8 г А2, А3, ОА3",
+        "Набор Estelite Sigma Quick Promo, 6 шприцев 3,8 г А2, А3, ОА1, ОА2, ОА3, ОРА2",
+        "Набор Estelite Sigma Quick Promo 6 шприцев",
+        "Estelite Sigma Quick",
+        "Estelite Sigma Quick System Kit",
+        "Estelite Sigma Quick Intro Kit",
+        "Estelite Sigma Quick A1",
+        "Estelite Sigma Quick A2",
+        "Estelite Sigma Quick A3",
+        "Estelite Sigma Quick A3.5",
+        "Estelite Sigma Quick A4",
+        "Estelite Sigma Quick A5",
+        "Estelite Sigma Quick B1",
+        "Estelite Sigma Quick B2",
+        "Estelite Sigma Quick B3",
+        "Estelite Sigma Quick B4",
+        "Estelite Sigma Quick C1",
+        "Estelite Sigma Quick C2",
+        "Estelite Sigma Quick C3",
+        "Estelite Sigma Quick OA1",
+        "Estelite Sigma Quick OA2",
+        "Estelite Sigma Quick OA3",
+        "Estelite Sigma Quick OPA2",
+        "Estelite Sigma Quick CE",
+        "Estelite Sigma Quick BW",
+        "Estelite Sigma Quick WE"
+      ],
+      "variants": [
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-05b541c3795a0dc08d1369e9",
+          "sku": "13202",
+          "gtin": null,
+          "label": "Набор System Kit",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Артикул производителя": "13202"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-49c5a999428a9857812c15cd",
+          "sku": "13204",
+          "gtin": null,
+          "label": "Набор Intro Kit",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Артикул производителя": "13204"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-04e4a30a0f049f84b84e1c97",
+          "sku": "13104",
+          "gtin": null,
+          "label": "Набор 3 шприца · A2 + A3 + OA3",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Оттенок": "A2 / A3 / OA3",
+            "Артикул производителя": "13104"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-4eb3f2ab5abc8cef7d9e7b4e",
+          "sku": "13210",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок A1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A1",
+            "Артикул производителя": "13210"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-9f9df1248228b6fb974d258a",
+          "sku": "13211",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A2",
+            "Артикул производителя": "13211"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-963df261b2874c9c593d0caa",
+          "sku": "13212",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок A3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A3",
+            "Артикул производителя": "13212"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-a842d752f0a21103c853c01c",
+          "sku": "13213",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок A3.5",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A3.5",
+            "Артикул производителя": "13213"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-f6ad0765bdb620503bac9c59",
+          "sku": "13214",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок A4",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A4",
+            "Артикул производителя": "13214"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-e90f9b09d844fd2aa447965f",
+          "sku": "13215",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок A5",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "13215"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-8bdb0a1af9b780b6fb9b3b70",
+          "sku": "13216",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок B1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "B1",
+            "Артикул производителя": "13216"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-b4672738a0a2e42ace713e8b",
+          "sku": "13217",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок B2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "B2",
+            "Артикул производителя": "13217"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-7ad2d913d3dd250b384c72f6",
+          "sku": "13218",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок B3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "B3",
+            "Артикул производителя": "13218"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-4975117a3464a7f37d2859cb",
+          "sku": "13219",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок B4",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "B4",
+            "Артикул производителя": "13219"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-3fa5ca7cc617bd5ea425e67f",
+          "sku": "13220",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок C1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "C1",
+            "Артикул производителя": "13220"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-6f64769fe19482580dd8dec1",
+          "sku": "13221",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок C2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "C2",
+            "Артикул производителя": "13221"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-548ee5b11ce36037913b3f9d",
+          "sku": "13222",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок C3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "C3",
+            "Артикул производителя": "13222"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-30bc0a114420f0d47a28efdd",
+          "sku": "13223",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок OA1",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "OA1",
+            "Артикул производителя": "13223"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-cd892ad205d39ab5e64a61a1",
+          "sku": "13224",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок OA2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "OA2",
+            "Артикул производителя": "13224"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-81eff02dc644266c4fce5482",
+          "sku": "13225",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок OA3",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "OA3",
+            "Артикул производителя": "13225"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-cb978ca78b7654ef2c1c87d0",
+          "sku": "13226",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок OPA2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "13226"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-5afa02cb132b9447fb8dc7f1",
+          "sku": "13227",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок CE",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "13227"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-366a380db9cdbf8f00197f6d",
+          "sku": "13228",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок BW",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "BW",
+            "Артикул производителя": "13228"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-306f9ec8250ae2cf41650946",
+          "sku": "13229",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок WE",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "13229"
+          }
+        },
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-variant-479b339cc452a7825afb0ece",
+          "sku": "KZ-NORDSTOM-155",
+          "gtin": null,
+          "label": "Набор Promo · 6 шприцев 3.8 г: A2, A3, OA1, OA2, OA3, OPA2",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A2 / A3 / OA1 / OA2 / OA3",
+            "Артикул производителя": "KZ-NORDSTOM-155"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": [
+        {
+          "id": "public-4b24dd54ac0bb21d5dbf69d6-offer-0",
+          "variantId": "public-4b24dd54ac0bb21d5dbf69d6-variant-479b339cc452a7825afb0ece",
+          "supplier": {
+            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
+            "name": "NORD STOM"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "набор",
+            "quantityInBaseUnit": "1",
+            "unit": "набор"
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "KZ-NORDSTOM-155",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        }
+      ]
+    },
+    {
+      "id": "public-9ab8ce90f099ed87cd9576c6",
+      "name": "Tokuyama Estelite Universal Flow High",
+      "description": "Текучий композит высокой текучести для реставраций и прокладок. Оттенок выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Tokuyama Estelite Universal Flow High",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Tokuyama Dental",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Tokuyama Dental",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "tokuyama-kz",
+            "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-161",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Tokuyama Estelite Universal Flow High"
+          }
+        ]
+      },
+      "brand": "Tokuyama Dental",
+      "manufacturer": "Tokuyama Dental",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-161",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Tokuyama Dental"
+        ],
+        [
+          "Производитель",
+          "Tokuyama Dental"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Текучий пломбировочный материал Estelite Universal Flow High, шприц 3.0 г А2, ОРА 2",
+        "Universal Flow High"
+      ],
+      "variants": [
+        {
+          "id": "public-9ab8ce90f099ed87cd9576c6-variant-cbe534bf5bb93644a0bc7e0d",
+          "sku": "KZ-NORDSTOM-161-A2",
+          "gtin": null,
+          "label": "Шприц 3 г · оттенок A2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Оттенок": "A2",
+            "Артикул производителя": "KZ-NORDSTOM-161-A2"
+          }
+        },
+        {
+          "id": "public-9ab8ce90f099ed87cd9576c6-variant-64287099ffeb1e29ad15c7e7",
+          "sku": "KZ-NORDSTOM-161-OPA2",
+          "gtin": null,
+          "label": "Шприц 3 г · оттенок OPA2",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "KZ-NORDSTOM-161-OPA2"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-4bd90ea361c20b2d79f5cd68",
+      "name": "Tokuyama Estelite Universal Flow Medium",
+      "description": "Текучий композит средней вязкости для реставраций и прокладок. Оттенок выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Tokuyama Estelite Universal Flow Medium",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Tokuyama Dental",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Tokuyama Dental",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "tokuyama-kz",
+            "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-162",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Tokuyama Estelite Universal Flow Medium"
+          }
+        ]
+      },
+      "brand": "Tokuyama Dental",
+      "manufacturer": "Tokuyama Dental",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-162",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Tokuyama Dental"
+        ],
+        [
+          "Производитель",
+          "Tokuyama Dental"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Текучий пломбировочный материал Estelite Universal Flow Medium, шприц 3.0 г",
+        "Universal Flow Medium"
+      ],
+      "variants": [
+        {
+          "id": "public-4bd90ea361c20b2d79f5cd68-variant-48846cfb3f38b722bf4ffcb0",
+          "sku": "KZ-NORDSTOM-162",
+          "gtin": null,
+          "label": "Шприц 3 г · оттенок выбирается",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "KZ-NORDSTOM-162"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-c6bb4855c94d09cbea01c28a",
+      "name": "Tokuyama Estelite Universal Flow Super Low",
+      "description": "Текучий композит низкой текучести для точного моделирования реставраций. Оттенок выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Tokuyama Estelite Universal Flow Super Low",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Tokuyama Dental",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Tokuyama Dental",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "tokuyama-kz",
+            "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-163",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Tokuyama Estelite Universal Flow Super Low"
+          }
+        ]
+      },
+      "brand": "Tokuyama Dental",
+      "manufacturer": "Tokuyama Dental",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-163",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Tokuyama Dental"
+        ],
+        [
+          "Производитель",
+          "Tokuyama Dental"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Текучий пломбировочный материал Estelite Universal Flow Super Low, шприц 3.0 г",
+        "Universal Flow Super Low"
+      ],
+      "variants": [
+        {
+          "id": "public-c6bb4855c94d09cbea01c28a-variant-2de8f9fae90b921936a2cdc9",
+          "sku": "KZ-NORDSTOM-163",
+          "gtin": null,
+          "label": "Шприц 3 г · оттенок выбирается",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "KZ-NORDSTOM-163"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-7980e811a28fee039cdee9c4",
+      "name": "Tokuyama Omnichroma Blocker",
+      "description": "Опаковый композит для маскировки тёмного фона при работе с Omnichroma. Форма выпуска выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Tokuyama Omnichroma Blocker",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Tokuyama Dental",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Tokuyama Dental",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "tokuyama-kz",
+            "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-164",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Tokuyama Omnichroma Blocker"
+          }
+        ]
+      },
+      "brand": "Tokuyama Dental",
+      "manufacturer": "Tokuyama Dental",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-164",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Tokuyama Dental"
+        ],
+        [
+          "Производитель",
+          "Tokuyama Dental"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Универсальный опак OMNICHROMA Blocker, шприц 4,0 г",
+        "Omnichroma Blocker"
+      ],
+      "variants": [
+        {
+          "id": "public-7980e811a28fee039cdee9c4-variant-d04d4776c72447502c6d190e",
+          "sku": "KZ-NORDSTOM-164",
+          "gtin": null,
+          "label": "Шприц 4 г",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "KZ-NORDSTOM-164"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-817a081565b7a7ca6d218ed6",
+      "name": "Tokuyama Palfique Estelite Paste",
+      "description": "Универсальный композит для реставраций передних и боковых зубов. Набор форма выпуска и оттенок выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Tokuyama Palfique Estelite Paste",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Tokuyama Dental",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Tokuyama Dental",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "tokuyama-kz",
+            "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-166",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Tokuyama Palfique Estelite Paste"
+          }
+        ]
+      },
+      "brand": "Tokuyama Dental",
+      "manufacturer": "Tokuyama Dental",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://nordstom.kz/catalog/therapy/light-curing-restorative-materials/item-166",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Tokuyama Dental"
+        ],
+        [
+          "Производитель",
+          "Tokuyama Dental"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Пломбировочный материал Palfique Estelite Paste, шприц 3,8 г",
+        "Набор Palfique Estelite Paste Intro kit, 6 шприцев 3,8 г А1, А2, А3, ОА2 (2 шт.), ОА3, адгезив 5 мл",
+        "Palfique Estelite Paste"
+      ],
+      "variants": [
+        {
+          "id": "public-817a081565b7a7ca6d218ed6-variant-48f5188f23df8c59791fce5c",
+          "sku": "KZ-NORDSTOM-166",
+          "gtin": null,
+          "label": "Шприц 3.8 г · оттенок выбирается",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "3,8 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "KZ-NORDSTOM-166"
+          }
+        },
+        {
+          "id": "public-817a081565b7a7ca6d218ed6-variant-1039470931b61da9662f8437",
+          "sku": "KZ-NORDSTOM-167",
+          "gtin": null,
+          "label": "Набор Intro · 6 шприцев и адгезив 5 мл",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Объём": "5 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "KZ-NORDSTOM-167"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -313730,15 +314732,21 @@
       "aliases": [
         "Palfique Omnichroma",
         "Omnichroma",
-        "Tokuyama Omnichroma"
+        "Tokuyama Omnichroma",
+        "Универсальная эмаль OMNICHROMA, шприц 4,0 г"
       ],
       "variants": [
         {
-          "id": "public-2123560be5b62c1cc99984c0-variant-default",
-          "sku": null,
+          "id": "public-2123560be5b62c1cc99984c0-variant-06bd5661f559c55ec95213b1",
+          "sku": "KZ-NORDSTOM-165",
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Шприц 4 г",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Масса": "4 г",
+            "Количество": "1 шт.",
+            "Артикул производителя": "KZ-NORDSTOM-165"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -313913,15 +314921,22 @@
       ],
       "aliases": [
         "Shield Force Plus",
-        "Tokuyama Shield Force Plus"
+        "Tokuyama Shield Force Plus",
+        "Набор Shield Force Plus 3 мл"
       ],
       "variants": [
         {
-          "id": "public-071bb9843ff065f43ff70057-variant-default",
-          "sku": null,
+          "id": "public-071bb9843ff065f43ff70057-variant-09e6b2f4a65d58386b3d0336",
+          "sku": "KZ-NORDSTOM-170",
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Набор · флакон 3 мл",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Объём": "3 мл",
+            "Количество": "1 шт.",
+            "Комплектация": "Набор",
+            "Артикул производителя": "KZ-NORDSTOM-170"
+          }
         }
       ],
       "photoStatus": "category_illustration",
