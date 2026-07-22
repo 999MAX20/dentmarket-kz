@@ -17,6 +17,7 @@ import {
   extractVariantAttributes,
   normalizedCatalogIdentity,
 } from "./lib/variant-attributes.mjs";
+import { inferVerifiedVariantFamily } from "./lib/verified-variant-families.mjs";
 
 const root = path.resolve(process.cwd());
 const inputDir = path.join(root, "data/imports");
@@ -122,7 +123,7 @@ const referencesByProduct = aliasRows.reduce((result, row) => {
   return result;
 }, new Map());
 
-for (const family of variantFamilyRows) {
+const registerVariantFamily = (family) => {
   const key = [family.brand || "Без бренда", family.canonicalProductName]
     .map((value) => normalizedCatalogIdentity(value))
     .join("|");
@@ -134,7 +135,9 @@ for (const family of variantFamilyRows) {
   );
   if (!aliasesByProduct.has(key)) aliasesByProduct.set(key, new Set());
   aliasesByProduct.get(key).add(clean(family.sourceName));
-}
+};
+
+for (const family of variantFamilyRows) registerVariantFamily(family);
 
 const first = (row, ...keys) =>
   keys.map((key) => clean(row[key])).find(Boolean) ?? "";
@@ -261,7 +264,9 @@ for (const file of files) {
       variantFamilyBySourceName.get(clean(rawName).toLocaleLowerCase("ru")) ??
       variantFamilyBySourceName.get(
         clean(detectedName).toLocaleLowerCase("ru"),
-      );
+      ) ??
+      inferVerifiedVariantFamily(rawName) ??
+      inferVerifiedVariantFamily(detectedName);
     const brand = clean(family?.brand) || detectedBrand;
     const manufacturer = clean(family?.manufacturer) || detectedManufacturer;
     const name = clean(family?.canonicalProductName) || detectedName;
@@ -279,6 +284,7 @@ for (const file of files) {
     const key = [brand || "Без бренда", name]
       .map((value) => normalizedCatalogIdentity(value))
       .join("|");
+    if (family) registerVariantFamily(family);
     const idKey = [brand || "Без бренда", name]
       .map((value) => value.toLocaleLowerCase("ru"))
       .join("|");

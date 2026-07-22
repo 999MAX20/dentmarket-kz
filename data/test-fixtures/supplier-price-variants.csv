@@ -1,0 +1,21 @@
+externalId,name,supplierSku,brand,manufacturer,unit,priceMinor,currency,quantityOnHand,expectedDisposition
+PRICE-001,Ivoclar Tetric N-Ceram 2 A1 шприц 3.5 г,755750AN,Ivoclar,Ivoclar Vivadent AG,шт.,1850000,KZT,12,AUTO
+PRICE-002,Ivoclar Tetric N-Ceram 2 A2 шприц 3.5 г,755751AN,Ivoclar,Ivoclar Vivadent AG,шт.,1850000,KZT,8,AUTO
+PRICE-003,Ivoclar Tetric N-Ceram 2 A3.5 шприц 3.5 г,755754AN,Ivoclar,Ivoclar Vivadent AG,шт.,1850000,KZT,6,AUTO
+PRICE-004,Ivoclar Tetric N-Flow 2 A1 шприц 2 г,750813AN,Ivoclar,Ivoclar Vivadent AG,шт.,1630000,KZT,7,AUTO
+PRICE-005,Ivoclar Tetric N-Flow 2 A2 Dentine шприц 2 г,755966AN,Ivoclar,Ivoclar Vivadent AG,шт.,1630000,KZT,3,AUTO
+PRICE-006,Kulzer Charisma Smart А1 шприц 4 г,66060392,Kulzer,Kulzer GmbH,шт.,1210000,KZT,15,AUTO
+PRICE-007,Kulzer Charisma Smart A3.5 шприц 4 г,66060395,Kulzer,Kulzer GmbH,шт.,1210000,KZT,11,AUTO
+PRICE-008,VITA LUMEX AC Opaque Dentine A2 12 г,B5343212,VITA,VITA Zahnfabrik H. Rauter GmbH & Co. KG,шт.,980000,KZT,9,AUTO
+PRICE-009,VITA LUMEX AC Opaque Dentine A2 50 г,B5343250,VITA,VITA Zahnfabrik H. Rauter GmbH & Co. KG,шт.,2930000,KZT,4,AUTO
+PRICE-010,VITA LUMEX AC Dentine 2M2 12 г,B5303912,VITA,VITA Zahnfabrik H. Rauter GmbH & Co. KG,шт.,980000,KZT,6,AUTO
+PRICE-011,VITA LUMEX AC Opaque Opaque-2 12 г,B5325212,VITA,VITA Zahnfabrik H. Rauter GmbH & Co. KG,шт.,1040000,KZT,2,AUTO
+PRICE-012,VITA LUMEX AC Modelling Liquid 250 мл,BLML250,VITA,VITA Zahnfabrik H. Rauter GmbH & Co. KG,шт.,740000,KZT,5,AUTO
+PRICE-015,Ivoclar Tetric N-Ceram 2 B1 шприц 3.5 г,755817AN,Ivoclar,Ivoclar Vivadent AG,шт.,1850000,KZT,4,AUTO
+PRICE-016,Ivoclar Tetric N-Ceram 2 B2 шприц 3.5 г,755818AN,Ivoclar,Ivoclar Vivadent AG,шт.,1850000,KZT,4,AUTO
+PRICE-017,Kulzer Charisma Smart A2 шприц 4 г,66060393,Kulzer,Kulzer GmbH,шт.,1210000,KZT,10,AUTO
+PRICE-018,Kulzer Charisma Smart A3 шприц 4 г,66060394,Kulzer,Kulzer GmbH,шт.,1210000,KZT,10,AUTO
+PRICE-019,VITA LUMEX AC Modelling Liquid 50 мл,BLML50,VITA,VITA Zahnfabrik H. Rauter GmbH & Co. KG,шт.,320000,KZT,8,AUTO
+PRICE-020,VITA LUMEX AC Dentine A3 12 г,B5345312,VITA,VITA Zahnfabrik H. Rauter GmbH & Co. KG,шт.,980000,KZT,5,AUTO
+PRICE-013,Ivoclar Tetric N-Ceram 2 A1 капсулы 20 шт,,Ivoclar,Ivoclar Vivadent AG,уп.,2410000,KZT,5,MODERATION
+PRICE-014,Новый композит поставщика XZ-100 4 г,XZ-100,New Dental Factory,New Dental Factory,шт.,990000,KZT,20,MODERATION

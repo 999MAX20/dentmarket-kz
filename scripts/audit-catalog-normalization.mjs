@@ -12,15 +12,26 @@ const mediaPath = path.join(
   "apps/buyer-web/app/data/public-catalog-media.json",
 );
 const reportDirectory = path.join(root, "data/reports");
+const familyDecisionsPath = path.join(
+  root,
+  "data/catalog-family-decisions.json",
+);
 const jsonPath = path.join(reportDirectory, "catalog-normalization-audit.json");
 const markdownPath = path.join(
   reportDirectory,
   "catalog-normalization-audit.md",
 );
 
-const [catalog, media] = await Promise.all([
+const [catalog, media, familyDecisionRegistry] = await Promise.all([
   fs.readFile(catalogPath, "utf8").then(JSON.parse),
   fs.readFile(mediaPath, "utf8").then(JSON.parse),
+  fs
+    .readFile(familyDecisionsPath, "utf8")
+    .then(JSON.parse)
+    .catch((error) => {
+      if (error.code === "ENOENT") return { decisions: [] };
+      throw error;
+    }),
 ]);
 const products = catalog.products ?? [];
 const percent = (count) =>
@@ -58,7 +69,7 @@ const duplicateGroups = [
     cards: cards.map((card) => ({ id: card.id, name: card.name })),
   }));
 
-const familyCandidates = [
+const detectedFamilyCandidates = [
   ...groupBy(products, (product) => {
     const base = familyBase(product.name);
     if (base.length < 8) return "";
@@ -85,6 +96,18 @@ const familyCandidates = [
       right.cards.length - left.cards.length ||
       left.key.localeCompare(right.key, "ru"),
   );
+const familyDecisionByKey = new Map(
+  (familyDecisionRegistry.decisions ?? []).map((decision) => [
+    decision.familyKey,
+    decision,
+  ]),
+);
+const resolvedFamilyDecisions = detectedFamilyCandidates
+  .filter((group) => familyDecisionByKey.has(group.key))
+  .map((group) => ({ ...group, ...familyDecisionByKey.get(group.key) }));
+const familyCandidates = detectedFamilyCandidates.filter(
+  (group) => !familyDecisionByKey.has(group.key),
+);
 
 const variants = products.flatMap((product) =>
   (product.variants ?? []).map((variant) => ({ product, variant })),
@@ -178,6 +201,8 @@ const report = {
       cardsWithVariantDataInName: variantDataInCardName.length,
       candidateFamilyGroups: familyCandidates.length,
       candidateFamilies: familyCandidates,
+      resolvedFamilyGroups: resolvedFamilyDecisions.length,
+      resolvedFamilyDecisions,
     },
     mediaRights: {
       sourceUnverifiedCards: unverifiedMediaRights.length,
@@ -255,6 +280,7 @@ const markdown = `# Аудит нормализации каталога
 | Структурированные варианты | ${report.checks.variantModel.structuredVariants} (${report.checks.variantModel.structuredVariantPercent}%) |
 | Технические подписи вариантов | ${report.checks.variantModel.technicalLabels} |
 | Кандидаты на объединение | ${report.checks.variantModel.candidateFamilyGroups} групп |
+| Проверенные отдельные семейства | ${report.checks.variantModel.resolvedFamilyGroups} групп |
 
 ## Риски и решения
 
@@ -268,6 +294,10 @@ ${report.findings
 ## Кандидаты на товарные семьи
 
 ${familyCandidates.length > 0 ? familyCandidates.map((group) => `- **${group.confidence}** — ${group.cards.map((card) => card.name).join(" / ")}`).join("\n") : "Кандидаты не найдены."}
+
+## Проверенные решения «оставить раздельно»
+
+${resolvedFamilyDecisions.length > 0 ? resolvedFamilyDecisions.map((group) => `- **${group.decision}** — ${group.cards.map((card) => card.name).join(" / ")} — ${group.reason}`).join("\n") : "Решения отсутствуют."}
 `;
 
 await fs.mkdir(reportDirectory, { recursive: true });

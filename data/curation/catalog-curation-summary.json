@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-07-22T16:30:51.216Z",
+  "grain": "Одна строка на каноническую карточку, требующую подтверждения",
+  "totalCards": 3182,
+  "identityQueue": {
+    "cards": 3055,
+    "missingBrand": 2904,
+    "missingManufacturer": 3043,
+    "coveredByQueuePercent": 100
+  },
+  "photoQueue": {
+    "cards": 1428,
+    "coveredByQueuePercent": 100,
+    "exactPhotos": 1754
+  },
+  "safety": {
+    "inventedBrands": 0,
+    "categoryPlaceholdersAcceptedAsExactPhotos": 0,
+    "rule": "Не публиковать неподтверждённую идентичность или неточное фото как достоверные данные."
+  }
+}

@@ -2976,11 +2976,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                           onClick={() =>
                             void updateCartItemQuantity(
                               item.id,
-                              Math.max(1, item.quantity - 1),
+                              Math.max(1, Number(item.quantity) - 1),
                             )
                           }
                           disabled={
-                            item.quantity <= 1 ||
+                            Number(item.quantity) <= 1 ||
                             busy === `cart-item:${item.id}`
                           }
                           aria-label="Уменьшить количество"
@@ -2994,7 +2994,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                           onClick={() =>
                             void updateCartItemQuantity(
                               item.id,
-                              item.quantity + 1,
+                              Number(item.quantity) + 1,
                             )
                           }
                           disabled={busy === `cart-item:${item.id}`}

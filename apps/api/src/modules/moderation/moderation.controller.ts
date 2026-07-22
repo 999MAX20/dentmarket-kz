@@ -13,7 +13,9 @@ const statusSchema = z.enum(["PENDING", "APPROVED", "REJECTED"]).optional();
 @Controller("moderation/product-candidates")
 export class ModerationController {
   constructor(private readonly moderation: ModerationService) {}
-  private context(actorId: string, organizationId: string) { return { actorId, organizationId }; }
+  private context(actorId: string, organizationId: string) {
+    return { actorId, organizationId };
+  }
 
   @Post("submissions")
   @RequirePermissions("catalog.offer.edit")
@@ -29,6 +31,12 @@ export class ModerationController {
     const parsed = statusSchema.safeParse(status);
     if (!parsed.success) throw new BadRequestException(parsed.error.flatten());
     return this.moderation.list(parsed.data, this.context(actorId, organizationId));
+  }
+
+  @Get("queue")
+  @RequirePermissions("catalog.candidate.moderate")
+  queue(@Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {
+    return this.moderation.queue(this.context(actorId, organizationId));
   }
 
   @Post(":candidateId/approve")

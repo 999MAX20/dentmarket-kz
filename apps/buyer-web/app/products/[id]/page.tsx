@@ -107,7 +107,17 @@ export default async function ProductPage({
         product.sourceUrl as keyof typeof mediaCatalog.entries
       ]
     : undefined;
-  const variants = (product.variants ?? []) as ProductVariant[];
+  const variants = ((product.variants ?? []) as ProductVariant[]).map(
+    (variant) => ({
+      ...variant,
+      attributes: Object.fromEntries(
+        Object.entries(variant.attributes ?? {}).map(([key, value]) => [
+          key,
+          String(value),
+        ]),
+      ),
+    }),
+  );
   const offers = product.offers as ProductOffer[];
   const selectedVariant =
     variants.find((variant) => variant.id === requestedVariantId) ??
@@ -117,7 +127,7 @@ export default async function ProductPage({
       ...((product.attributes ?? []) as Array<[string, string]>),
       ...Object.entries(selectedVariant?.attributes ?? {}),
     ]),
-  );
+  ).map(([key, value]) => [key, String(value)] as const);
   const visibleOffers = selectedVariant
     ? offers.filter(
         (offer) =>

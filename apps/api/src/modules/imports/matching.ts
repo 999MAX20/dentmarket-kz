@@ -263,7 +263,13 @@ export function isConfidentAutomaticMatch(
   if (
     best.reasons.some((reason) => ["exact_gtin", "exact_sku"].includes(reason))
   )
-    return !runnerUp || best.score - runnerUp.score >= 0.05;
+    return (
+      best.reasons.includes("exact_gtin") ||
+      best.reasons.includes("exact_brand") ||
+      best.reasons.includes("exact_manufacturer") ||
+      !runnerUp ||
+      best.score - runnerUp.score >= 0.05
+    );
   if (best.reasons.includes("manufacturer_ref"))
     return !runnerUp || best.score - runnerUp.score >= 0.12;
   if (
