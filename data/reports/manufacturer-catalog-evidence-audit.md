@@ -1,6 +1,6 @@
 # Manufacturer catalog evidence audit
 
-Generated: 2026-07-22T20:32:08.051Z
+Generated: 2026-07-22T20:33:35.041Z
 
 ## Rules
 
@@ -12,8 +12,8 @@ Generated: 2026-07-22T20:32:08.051Z
 
 - Product records: 4023
 - Variant SKUs: 4800
-- Exact source photos: 4022
-- Photo required: 1
+- Exact source photos: 4023
+- Photo required: 0
 - Manufacturer reference present: 3504
 - Manufacturer reference required: 519
 
@@ -22,14 +22,12 @@ Generated: 2026-07-22T20:32:08.051Z
 | Source | Products | Variant SKUs | Photo | Ref | Ready | KZ SKU evidence required |
 |---|---:|---:|---:|---:|---:|---:|
 | NORD STOM KZ | 460 | 460 | 460 | 97 | 97 | 0 |
-| TOBOOM official | 1058 | 1058 | 1057 | 1009 | 0 | 1009 |
+| TOBOOM official | 1058 | 1058 | 1058 | 1009 | 0 | 1009 |
 | ВладМиВа official | 2398 | 3175 | 2398 | 2398 | 0 | 2398 |
 | ZT Dental official | 107 | 107 | 107 | 0 | 0 | 0 |
 
 ## Readiness
 
 - CANONICAL_CONTENT_READY: 97
-- IDENTITY_REQUIRED: 1
 - KZ_SKU_EVIDENCE_REQUIRED: 3407
-- MANUFACTURER_REFERENCE_REQUIRED: 517
-- PHOTO_REQUIRED: 1
+- MANUFACTURER_REFERENCE_REQUIRED: 519

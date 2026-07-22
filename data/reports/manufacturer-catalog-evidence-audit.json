@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T20:32:08.051Z",
+  "generatedAt": "2026-07-22T20:33:35.041Z",
   "policy": {
     "exactPhotoRequired": true,
     "manufacturerReferenceRequired": true,
@@ -9,16 +9,14 @@
   "totals": {
     "products": 4023,
     "variantSkus": 4800,
-    "withPhoto": 4022,
-    "withoutPhoto": 1,
+    "withPhoto": 4023,
+    "withoutPhoto": 0,
     "withManufacturerReference": 3504,
     "withoutManufacturerReference": 519,
     "statusCounts": {
-      "MANUFACTURER_REFERENCE_REQUIRED": 517,
-      "IDENTITY_REQUIRED": 1,
+      "MANUFACTURER_REFERENCE_REQUIRED": 519,
       "CANONICAL_CONTENT_READY": 97,
-      "KZ_SKU_EVIDENCE_REQUIRED": 3407,
-      "PHOTO_REQUIRED": 1
+      "KZ_SKU_EVIDENCE_REQUIRED": 3407
     }
   },
   "sources": [
@@ -34,7 +32,7 @@
     {
       "source": "TOBOOM official",
       "products": 1058,
-      "withPhoto": 1057,
+      "withPhoto": 1058,
       "withReference": 1009,
       "variantSkus": 1058,
       "canonicalContentReady": 0,
