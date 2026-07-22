@@ -1090,11 +1090,14 @@ export default function BuyerWorkspace() {
     }
   };
 
-  const openProduct = async (product: SearchProduct) => {
+  const openProduct = (product: SearchProduct) => {
     setSelectedProduct(product);
     setComparison(null);
     setProductReviews(null);
-    await compare(product.id);
+    // Show the detail surface immediately. Loading supplier offers must not
+    // block the product card from opening, especially for the public fallback
+    // catalog where the live API may be temporarily unavailable.
+    void compare(product.id);
   };
 
   const closeProduct = () => {
@@ -1554,13 +1557,15 @@ export default function BuyerWorkspace() {
                 <article
                   className={styles.product}
                   key={product.id}
+                  data-testid="product-card"
+                  data-product-id={product.id}
                   role="button"
                   tabIndex={0}
-                  onClick={() => void openProduct(product)}
+                  onClick={() => openProduct(product)}
                   onKeyDown={(event) => {
                     if (event.key === "Enter" || event.key === " ") {
                       event.preventDefault();
-                      void openProduct(product);
+                      openProduct(product);
                     }
                   }}
                 >
@@ -1627,7 +1632,7 @@ export default function BuyerWorkspace() {
                       appearance="primary"
                       onClick={(event) => {
                         event.stopPropagation();
-                        void openProduct(product);
+                        openProduct(product);
                       }}
                       disabled={busy === `compare:${product.id}`}
                     >

@@ -27,6 +27,17 @@ test("buyer can search and compare marketplace offers", async ({ page }) => {
   await expectHealthyPage(page, errors);
 });
 
+test("buyer can open a product card from the public catalog", async ({ page }) => {
+  const errors = collectBrowserErrors(page);
+  await page.goto("http://127.0.0.1:3001");
+  const card = page.getByTestId("product-card").first();
+  await expect(card).toBeVisible();
+  await card.click();
+  await expect(page.getByRole("dialog")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Выберите продавца" })).toBeVisible();
+  await expectHealthyPage(page, errors);
+});
+
 test("supplier can switch organization and inspect offers", async ({ page }) => {
   const errors = collectBrowserErrors(page);
   await page.goto("http://127.0.0.1:3002");
