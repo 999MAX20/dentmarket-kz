@@ -14,10 +14,24 @@ const clean = (s) =>
     .replace(/\s+/g, " ")
     .trim();
 const esc = (s) => `"${String(s ?? "").replaceAll('"', '""')}"`;
-async function get(url) {
-  const r = await fetch(url, { headers });
-  if (!r.ok) throw Error(r.status);
-  return r.text();
+async function get(url, attempts = 4) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const r = await fetch(url, {
+        headers,
+        signal: AbortSignal.timeout(20_000),
+      });
+      if (!r.ok) throw Error(`${url}: HTTP ${r.status}`);
+      return await r.text();
+    } catch (error) {
+      lastError = error;
+      if (attempt < attempts) {
+        await new Promise((resolve) => setTimeout(resolve, attempt * 300));
+      }
+    }
+  }
+  throw lastError;
 }
 async function pool(items, worker) {
   const out = [];
@@ -69,7 +83,10 @@ const productLinks = new Set();
 for (const html of pages) {
   for (const h of hrefs(html)) {
     const parts = h.split("/").filter(Boolean);
-    if (parts.length >= 3 && !h.includes("compare")) productLinks.add(h);
+    if (
+      parts.length === 3 &&
+      !/(?:\/filter\/|\/apply\/|\/compare\/)/iu.test(h)
+    ) productLinks.add(h);
   }
 }
 const rows = await pool([...productLinks], async (path) => {
@@ -95,6 +112,7 @@ const rows = await pool([...productLinks], async (path) => {
     price: "",
     quantity: "",
     is_regulated: "false",
+    catalogOnly: "true",
     notes:
       "Публичная карточка каталога AMDgroup; цена и наличие требуют подтверждения поставщиком",
   };
@@ -114,6 +132,7 @@ const cols = [
   "price",
   "quantity",
   "is_regulated",
+  "catalogOnly",
   "notes",
 ];
 await fs.writeFile(

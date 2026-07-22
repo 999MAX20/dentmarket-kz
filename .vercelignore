@@ -15,6 +15,17 @@ test-results
 *.tsbuildinfo
 node_modules.broken-*
 **/.next*
+apps/*/.next*
+apps/*/node_modules
+**/.turbo
+.turbo
+.git
+node_modules.broken-*
+outputs
+tmp
+.tmp
+.local-storage*
+.local-pg
 .local-pg
 .local-storage
 .local-storage-supabase-seed

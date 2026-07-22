@@ -74,10 +74,20 @@ const clean = (s) =>
     .replace(/\s+/g, " ")
     .trim();
 const esc = (s) => `"${String(s ?? "").replaceAll('"', '""')}"`;
-async function get(url) {
-  const r = await fetch(url, { headers });
-  if (!r.ok) throw Error(r.status);
-  return r.text();
+async function get(url, attempts = 3) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const response = await fetch(url, { headers });
+      if (!response.ok) throw Error(`${response.status} ${url}`);
+      return await response.text();
+    } catch (error) {
+      lastError = error;
+      if (attempt < attempts)
+        await new Promise((resolve) => setTimeout(resolve, attempt * 250));
+    }
+  }
+  throw lastError;
 }
 function links(html) {
   return [
@@ -165,6 +175,7 @@ const rows = await pool([...productLinks], async (path) => {
     price: "",
     quantity: "",
     is_regulated: "false",
+    catalogOnly: "true",
     notes:
       "Публичная карточка каталога СТОМир; цена и наличие требуют подтверждения поставщиком.",
   };
@@ -184,6 +195,7 @@ const cols = [
   "price",
   "quantity",
   "is_regulated",
+  "catalogOnly",
   "notes",
 ];
 await fs.writeFile(

@@ -2,9 +2,9 @@
 
 Updated: 2026-07-23
 
-- Brands: 142
+- Brands: 149
 - Already represented in the canonical catalog: 39
-- New catalog programs: 103
+- New catalog programs: 110
 - Marketplace-only evidence requiring stronger confirmation: 8
 
 Market presence is evidence for assortment research, not proof of an official distributorship.
@@ -13,12 +13,16 @@ Seller listings never create seller offers or canonical cards automatically.
 | Brand | In catalog | Evidence sources | Next action |
 |---|---:|---:|---|
 | Винар | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
+| ВладМиВа | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | Гекса | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | Дельтика | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
+| ЗАО Бинергия | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | КМИЗ | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
+| Кормед | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | Линтэкс | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | МедиДез | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | Целит | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
+| Aes | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | Ajax | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | Alpha-Bio Tec | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | Amazing White | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
@@ -27,6 +31,7 @@ Seller listings never create seller offers or canonical cards automatically.
 | Averon | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | BEGO | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | BiLumix | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
+| BIOLA | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | Biomaterials Korea | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | BISCO | YES | 1 | AUDIT_COMPLETE_KZ_LINE_AND_REFERENCES |
 | BlancOne | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
@@ -111,6 +116,7 @@ Seller listings never create seller offers or canonical cards automatically.
 | Ormco | YES | 1 | AUDIT_COMPLETE_KZ_LINE_AND_REFERENCES |
 | Osstem | NO | 2 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | OSUNG MND | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
+| Pierrot | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | Planmeca | YES | 1 | AUDIT_COMPLETE_KZ_LINE_AND_REFERENCES |
 | Plasmapp | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | President | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
@@ -134,6 +140,7 @@ Seller listings never create seller offers or canonical cards automatically.
 | Suntem | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | Tealth | YES | 1 | AUDIT_COMPLETE_KZ_LINE_AND_REFERENCES |
 | Thelavicos | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
+| TOBOOM | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | Tokuyama Dental | YES | 2 | AUDIT_COMPLETE_KZ_LINE_AND_REFERENCES |
 | Tor VM | YES | 1 | AUDIT_COMPLETE_KZ_LINE_AND_REFERENCES |
 | TORNADO | YES | 1 | AUDIT_COMPLETE_KZ_LINE_AND_REFERENCES |
