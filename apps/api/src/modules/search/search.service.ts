@@ -7,8 +7,18 @@ import { SearchAnalyticsService } from "./search-analytics.service";
 import { resolvePriceRules } from "../pricing/price-resolver";
 import type { SupplierActorContext } from "../suppliers/supplier-access.service";
 import { MediaAccessService } from "../../platform/storage/media-access.service";
+import { scopeMatches } from "../promotions/promotion-engine";
 
 type SearchRow = { productId: string; rank: number };
+type PublicSearchPromotion = {
+  id: string;
+  supplierOrganizationId: string;
+  name: string;
+  percentageBasisPoints: number | null;
+  scope: Prisma.JsonValue;
+  endsAt: Date;
+  sponsorshipLabel: string | null;
+};
 
 @Injectable()
 export class SearchService {
@@ -68,9 +78,23 @@ export class SearchService {
       this.prisma.$queryRaw<Array<{ count: bigint }>>(Prisma.sql`SELECT COUNT(*)::bigint AS count FROM "ProductSearchDocument" d JOIN "Product" p ON p.id = d."productId" WHERE ${condition}`),
     ]);
     const products = await this.loadProducts(rows.map(({ productId }) => productId));
+    const supplierIds = [...new Set(products.flatMap((product) => product.variants.flatMap((variant) => variant.supplierOffers.map((offer) => offer.supplierOrganizationId))))];
+    const promotions: PublicSearchPromotion[] = supplierIds.length ? await this.prisma.promotion.findMany({
+      where: {
+        supplierOrganizationId: { in: supplierIds },
+        status: "ACTIVE",
+        kind: "PERCENTAGE",
+        isPrivate: false,
+        couponCodeHash: null,
+        startsAt: { lte: new Date() },
+        endsAt: { gt: new Date() },
+      },
+      select: { id: true, supplierOrganizationId: true, name: true, percentageBasisPoints: true, scope: true, endsAt: true, sponsorshipLabel: true },
+      orderBy: [{ percentageBasisPoints: "desc" }, { endsAt: "asc" }],
+    }) : [];
     const reviewSummary = await this.reviewSummaries(products.flatMap((product) => product.variants.map(({ id }) => id)));
     const rankById = new Map(rows.map((row, index) => [row.productId, { rank: Number(row.rank), index }]));
-    const items = products.map((product) => this.toSearchItem(product, input, rankById.get(product.id)?.rank ?? 0, reviewSummary)).filter((item) => item.offers.length > 0).sort((left, right) => (rankById.get(left.id)?.index ?? 0) - (rankById.get(right.id)?.index ?? 0));
+    const items = products.map((product) => this.toSearchItem(product, input, rankById.get(product.id)?.rank ?? 0, reviewSummary, promotions)).filter((item) => item.offers.length > 0).sort((left, right) => (rankById.get(left.id)?.index ?? 0) - (rankById.get(right.id)?.index ?? 0));
     const total = Number(countRows[0]?.count ?? 0);
     this.analytics.record(input.q, total, context);
     return { query: input.q, interpretedQuery: searchIntent.matchedAliases.length ? searchIntent.matchedAliases : undefined, total, offset: input.offset, limit: input.limit, items, facets: this.aggregateFacets(items) };
@@ -163,7 +187,8 @@ export class SearchService {
     } });
   }
 
-  private toSearchItem(product: Awaited<ReturnType<SearchService["loadProducts"]>>[number], input: SearchCatalogInput, rank: number, reviewSummaries: Map<string, { count: number; averageRating: number | null }>) {
+  private toSearchItem(product: Awaited<ReturnType<SearchService["loadProducts"]>>[number], input: SearchCatalogInput, rank: number, reviewSummaries: Map<string, { count: number; averageRating: number | null }>, promotions: PublicSearchPromotion[] = []) {
+    const categoryIds = product.categories.map(({ categoryId }) => categoryId);
     const offers = product.variants.flatMap((variant) => variant.supplierOffers.filter((offer) => {
       const allowedBuyers = offer.publication?.allowedBuyerIds;
       if (Array.isArray(allowedBuyers) && allowedBuyers.length > 0 && !allowedBuyers.includes(input.buyerOrganizationId)) return false;
@@ -174,7 +199,20 @@ export class SearchService {
       if (input.cityId && !offer.inventoryBalances.some(({ warehouse }) => warehouse.cityId === input.cityId) && !offer.deliveryOptions.some(({ method }) => ["NATIONWIDE", "CARRIER", "MARKETPLACE_LOGISTICS"].includes(method))) return false;
       if (input.deliveryMethod && !offer.deliveryOptions.some(({ method }) => method === input.deliveryMethod)) return false;
       return true;
-    }).map((offer) => ({
+    }).map((offer) => {
+      const promotion = promotions.find((item) => {
+        if (item.supplierOrganizationId !== offer.supplierOrganizationId || !item.percentageBasisPoints) return false;
+        const scope = item.scope && typeof item.scope === "object" && !Array.isArray(item.scope) ? item.scope as Record<string, string[]> : {};
+        const locations = offer.inventoryBalances.length ? offer.inventoryBalances : [null];
+        return locations.some((balance) => scopeMatches(scope, {
+          offerId: offer.id,
+          productId: product.id,
+          categoryIds,
+          cityId: input.cityId ?? balance?.warehouse.cityId ?? null,
+          warehouseId: balance?.warehouseId ?? null,
+        }));
+      });
+      return ({
       id: offer.id,
       variantId: variant.id,
       supplier: { id: offer.supplierOrganizationId, name: offer.supplier.organization.displayName },
@@ -186,7 +224,12 @@ export class SearchService {
       freshness: offer.inventoryBalances.map(({ lastSuccessfulSyncAt, freshnessStatus, warehouse }) => ({ status: freshnessStatus, updatedAt: lastSuccessfulSyncAt, cityId: warehouse.cityId })),
       confirmationMode: offer.confirmationMode,
       deliveryMethods: offer.deliveryOptions.map(({ method }) => method),
-    })));
+      promotion: promotion ? {
+        label: promotion.sponsorshipLabel ?? promotion.name,
+        percentage: promotion.percentageBasisPoints! / 100,
+        endsAt: promotion.endsAt.toISOString(),
+      } : null,
+    }); }));
     return { id: product.id, slug: product.slug, name: product.canonicalName, description: product.description, descriptionSources: product.descriptionSources, brand: product.brand?.name ?? null, manufacturer: product.manufacturer?.name ?? null, productType: product.productType, regulatoryClass: product.regulatoryClass, media: product.media.map((media) => ({ id: media.id, sourceUrl: media.sourceUrl, securePath: media.normalizedStorageKey ? `/catalog/media/${media.id}?ticket=${this.mediaAccess.issue(media.id).token}` : null, normalizedStorageKey: media.normalizedStorageKey, altText: media.altText, width: media.width, height: media.height, metadata: media.metadata })), categories: product.categories.map(({ category }) => ({ id: category.id, name: category.nameRu })), minNormalizedPriceMinor: product.searchDocument?.minNormalizedPriceMinor?.toString() ?? null, maxNormalizedPriceMinor: product.searchDocument?.maxNormalizedPriceMinor?.toString() ?? null, isAvailable: product.searchDocument?.isAvailable ?? false, reviewSummary: this.productReviewSummary(product.variants.map(({ id }) => id), reviewSummaries), rank, offers };
   }
 
