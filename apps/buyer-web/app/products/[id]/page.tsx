@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import catalog from "../../data/public-catalog-fallback.json";
 import mediaCatalog from "../../data/public-catalog-media.json";
 import styles from "./page.module.css";
+import ProductOfferActions from "./product-offer-actions";
 
 type CatalogProduct = (typeof catalog.products)[number];
 
@@ -20,8 +21,8 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const { id } = await params;
   const product = getProduct(decodeURIComponent(id));
   return product
-    ? { title: `${product.name} — DentMarket`, description: product.description }
-    : { title: "Карточка товара — DentMarket" };
+    ? { title: `${product.name} | DentMarket`, description: product.description }
+    : { title: "Карточка товара | DentMarket" };
 }
 
 export default async function ProductPage({ params }: { params: Promise<{ id: string }> }) {
@@ -51,6 +52,10 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
               <span><strong>{product.isAvailable ? "В наличии" : "Под заказ"}</strong><small>статус товара</small></span>
               <span><strong>{product.photoStatus === "exact_product_photo" ? "Фото" : "Иллюстрация"}</strong><small>визуал</small></span>
             </div>
+            <div className={styles.heroActions}>
+              <ProductOfferActions offers={product.offers} />
+              <span className={styles.trustNote}>Заказ доступен после входа в кабинет клиники</span>
+            </div>
           </div>
         </section>
 
@@ -61,12 +66,15 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             {product.sourceUrl ? <a className={styles.source} href={product.sourceUrl} target="_blank" rel="noreferrer">Открыть источник карточки ↗</a> : null}
           </div>
           <div className={styles.panel}>
-            <h2>Предложения поставщиков</h2>
+            <div className={styles.panelHeading}>
+              <div><span className={styles.panelKicker}>Коммерческие условия</span><h2>Предложения поставщиков</h2></div>
+              <span className={styles.offerCount}>{product.offers.length}</span>
+            </div>
             <div className={styles.offers}>
               {product.offers.length ? product.offers.map((offer) => (
                 <article className={styles.offer} key={`${offer.supplier.name}-${offer.supplierSku ?? "offer"}`}>
                   <div><strong>{offer.supplier.name}</strong><span>{offer.packaging?.name ? `Фасовка: ${offer.packaging.name}` : "Условия уточняются"}</span></div>
-                  <div className={styles.offerRight}><strong>{formatPrice(offer.priceMinor, offer.currency)}</strong><span>{offer.available ? "В наличии" : "Под заказ"}</span></div>
+                  <div className={styles.offerRight}><strong>{formatPrice(offer.priceMinor, offer.currency)}</strong><span className={offer.available ? styles.available : styles.onRequest}>{offer.available ? "В наличии" : "Под заказ"}</span></div>
                 </article>
               )) : <p className={styles.muted}>Поставщики ещё не добавили предложение.</p>}
             </div>
