@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T13:10:38.186Z",
-  "total": 1671,
+  "generatedAt": "2026-07-22T17:08:19.958Z",
+  "total": 1675,
   "entries": {
     "https://amdgroup.kz/catalog/konusovidnye/bory_almaznye_247_009f_fg/": {
       "id": "9aa079e6-0a46-43b3-af20-39eb3601a968",
@@ -33240,6 +33240,86 @@
         "rightsStatus": "official_manufacturer_catalog",
         "sourcePageUrl": "https://www.voco.dental/en/products/oral-care/desensitizer/voco-profluorid-varnish.aspx",
         "sourceImageUrl": "https://www.voco.dental/en/portaldata/1/resources/products/pacshots/gb/voco-profluorid-varnish_pac_gb.jpg"
+      }
+    },
+    "https://www.ultradent.com/products/categories/whitening/take-home/opalescence-pf-ad": {
+      "id": "manufacturer-4d9baeb8394146501d15aeb88b99f6f0",
+      "sourceUrl": "https://images.ctfassets.net/wfptrcrbtkd0/156qDt7HM5IpoVjtey6Bfk/b6373b6848cad0144f6ccd5b6d5b5a45/image_opalescence_pf_box_syringe.png?fm=webp",
+      "securePath": "/catalog/products/4d9baeb8394146501d15aeb88b99f6f0.png",
+      "normalizedStorageKey": "catalog/products/4d9baeb8394146501d15aeb88b99f6f0.png",
+      "mimeType": "image/png",
+      "altText": "Opalescence PF",
+      "width": 1200,
+      "height": 913,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.ultradent.com/products/categories/whitening/take-home/opalescence-pf-ad",
+        "sourceImageUrl": "https://images.ctfassets.net/wfptrcrbtkd0/156qDt7HM5IpoVjtey6Bfk/b6373b6848cad0144f6ccd5b6d5b5a45/image_opalescence_pf_box_syringe.png?fm=webp"
+      }
+    },
+    "https://www.ultradent.com/products/categories/bond-etch/etchants/ultra-etch-ad": {
+      "id": "manufacturer-297d52925cee342e4b2ef262d9430dcd",
+      "sourceUrl": "https://images.ctfassets.net/wfptrcrbtkd0/6y13tcDeE5nv19Lo8cL8UA/39d6150c8ddb0057ae9ee7c78d196439/Image_Hero_Shot_Ultra_Etch_Syringe_3D__2_.png?w=1080",
+      "securePath": "/catalog/products/297d52925cee342e4b2ef262d9430dcd.png",
+      "normalizedStorageKey": "catalog/products/297d52925cee342e4b2ef262d9430dcd.png",
+      "mimeType": "image/png",
+      "altText": "Ultra-Etch",
+      "width": 1200,
+      "height": 644,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.ultradent.com/products/categories/bond-etch/etchants/ultra-etch-ad",
+        "sourceImageUrl": "https://images.ctfassets.net/wfptrcrbtkd0/6y13tcDeE5nv19Lo8cL8UA/39d6150c8ddb0057ae9ee7c78d196439/Image_Hero_Shot_Ultra_Etch_Syringe_3D__2_.png?w=1080"
+      }
+    },
+    "https://www.ultradent.com/products/categories/bond-etch/adhesives/peak-universal-bond?group=1621": {
+      "id": "manufacturer-bff6c03f80ab632c6dfcf9e58ccb0d46",
+      "sourceUrl": "https://images.ctfassets.net/wfptrcrbtkd0/1UrQvEUu4tJoctflSTIvDj/f06ac0e0052a5149b537c43cc3a99296/Image_Peak_Universal_Bottles_Overview.png?fm=webp",
+      "securePath": "/catalog/products/bff6c03f80ab632c6dfcf9e58ccb0d46.png",
+      "normalizedStorageKey": "catalog/products/bff6c03f80ab632c6dfcf9e58ccb0d46.png",
+      "mimeType": "image/png",
+      "altText": "Peak Universal Bond",
+      "width": 1200,
+      "height": 1095,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.ultradent.com/products/categories/bond-etch/adhesives/peak-universal-bond?group=1621",
+        "sourceImageUrl": "https://images.ctfassets.net/wfptrcrbtkd0/1UrQvEUu4tJoctflSTIvDj/f06ac0e0052a5149b537c43cc3a99296/Image_Peak_Universal_Bottles_Overview.png?fm=webp"
+      }
+    },
+    "https://www.ultradent.com/products/categories/composites/paste-type-composite/transcend-ad": {
+      "id": "manufacturer-18a30d1f018722c90b9358b1ab6f88a1",
+      "sourceUrl": "https://images.ctfassets.net/wfptrcrbtkd0/39BzbmMOOLJQJ0T4dwt8bf/1bcecebc14c9944bcd7ff3d39f5c113c/Transcend-Composite-Caps-Off.png?fm=webp",
+      "securePath": "/catalog/products/18a30d1f018722c90b9358b1ab6f88a1.png",
+      "normalizedStorageKey": "catalog/products/18a30d1f018722c90b9358b1ab6f88a1.png",
+      "mimeType": "image/png",
+      "altText": "Transcend Universal Composite",
+      "width": 1200,
+      "height": 490,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.ultradent.com/products/categories/composites/paste-type-composite/transcend-ad",
+        "sourceImageUrl": "https://images.ctfassets.net/wfptrcrbtkd0/39BzbmMOOLJQJ0T4dwt8bf/1bcecebc14c9944bcd7ff3d39f5c113c/Transcend-Composite-Caps-Off.png?fm=webp"
+      }
+    },
+    "https://www.ultradent.com/products/categories/equipment/curing-lights/valo-x?sku=5973-": {
+      "id": "manufacturer-de3a021ab26bba413721aad4a31a1b3e",
+      "sourceUrl": "https://images.ctfassets.net/wfptrcrbtkd0/6nKwX7OcM1Z9CzWSRmMTNS/944eb2aaca033189125939e6f4a69d12/ValoX-Black-2x.png?fm=webp",
+      "securePath": "/catalog/products/de3a021ab26bba413721aad4a31a1b3e.png",
+      "normalizedStorageKey": "catalog/products/de3a021ab26bba413721aad4a31a1b3e.png",
+      "mimeType": "image/png",
+      "altText": "VALO X",
+      "width": 376,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.ultradent.com/products/categories/equipment/curing-lights/valo-x?sku=5973-",
+        "sourceImageUrl": "https://images.ctfassets.net/wfptrcrbtkd0/6nKwX7OcM1Z9CzWSRmMTNS/944eb2aaca033189125939e6f4a69d12/ValoX-Black-2x.png?fm=webp"
       }
     }
   }

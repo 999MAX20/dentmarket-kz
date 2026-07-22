@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T16:30:50.242Z",
+  "generatedAt": "2026-07-22T17:08:37.538Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -8,12 +8,13 @@
     "kazdentservice-catalog.csv",
     "kz-public-sitemaps.csv",
     "manufacturer-models-wave-1.csv",
+    "manufacturer-models-wave-2.csv",
     "medstom-catalog.csv",
     "nordstom-catalog.csv",
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3182,
+  "total": 3187,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -304718,6 +304719,198 @@
       ]
     },
     {
+      "id": "public-5aae6962db4181a5469edfed",
+      "name": "Opalescence PF",
+      "description": "Профессиональный гель для домашнего отбеливания в индивидуальных каппах. Концентрация вкус и количество шприцев выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Opalescence PF",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Отбеливание",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Ultradent",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Ultradent Products, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ultradent-official",
+            "sourceUrl": "https://www.ultradent.com/products/categories/whitening/take-home/opalescence-pf-ad",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Opalescence PF"
+          }
+        ]
+      },
+      "brand": "Ultradent",
+      "manufacturer": "Ultradent Products, Inc.",
+      "category": "Отбеливание",
+      "sourceUrl": "https://www.ultradent.com/products/categories/whitening/take-home/opalescence-pf-ad",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Отбеливание"
+        ],
+        [
+          "Бренд",
+          "Ultradent"
+        ],
+        [
+          "Производитель",
+          "Ultradent Products, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Opalescence PF",
+        "Opalescence Custom PF",
+        "Опалесценс ПФ",
+        "Ультрадент Opalescence PF"
+      ],
+      "variants": [
+        {
+          "id": "public-5aae6962db4181a5469edfed-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-81162216c4cc9ceb82cbf5d8",
+      "name": "Peak Universal Bond",
+      "description": "Адгезив для прямых и непрямых реставраций. Флакон шприц одноразовые дозы и наборы представлены вариантами одной карточки.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Peak Universal Bond",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Ultradent",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Ultradent Products, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ultradent-official",
+            "sourceUrl": "https://www.ultradent.com/products/categories/bond-etch/adhesives/peak-universal-bond?group=1621",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Peak Universal Bond"
+          }
+        ]
+      },
+      "brand": "Ultradent",
+      "manufacturer": "Ultradent Products, Inc.",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://www.ultradent.com/products/categories/bond-etch/adhesives/peak-universal-bond?group=1621",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "Ultradent"
+        ],
+        [
+          "Производитель",
+          "Ultradent Products, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Peak Universal Bond",
+        "Peak Bond",
+        "Пик Универсал Бонд",
+        "Peak Universal Bond Starter Kit"
+      ],
+      "variants": [
+        {
+          "id": "public-81162216c4cc9ceb82cbf5d8-variant-c196451df88696ab27f6f6e7",
+          "sku": "4551",
+          "gtin": null,
+          "label": "Стартовый набор · Peak 1,2 мл + Ultra-Etch 1,2 мл",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Объём": "1,2 мл",
+            "Количество": "1 шт.",
+            "Комплектация": "Стартовый набор",
+            "Артикул производителя": "4551"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-bcef2e9b72e6887db747bbe2",
       "name": "Planmeca Compact i5",
       "description": "Стоматологическая установка для ежедневной работы клиники. Конфигурацию инструментов и дополнительные модули можно выбрать у продавца.",
@@ -309953,6 +310146,98 @@
       "offers": []
     },
     {
+      "id": "public-9b1e91720fec9ec49e4f9707",
+      "name": "Transcend Universal Composite",
+      "description": "Универсальный композит для реставраций передних и боковых зубов. Оттенок и форма выпуска выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Transcend Universal Composite",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Ultradent",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Ultradent Products, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ultradent-official",
+            "sourceUrl": "https://www.ultradent.com/products/categories/composites/paste-type-composite/transcend-ad",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Transcend Universal Composite"
+          }
+        ]
+      },
+      "brand": "Ultradent",
+      "manufacturer": "Ultradent Products, Inc.",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.ultradent.com/products/categories/composites/paste-type-composite/transcend-ad",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Ultradent"
+        ],
+        [
+          "Производитель",
+          "Ultradent Products, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Transcend Universal Composite",
+        "Transcend",
+        "Трансценд композит"
+      ],
+      "variants": [
+        {
+          "id": "public-9b1e91720fec9ec49e4f9707-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-a6dd582dcc8a221deac3a577",
       "name": "U-филе",
       "description": "U-филе в категории «Стоматологические материалы и оборудование».",
@@ -310527,6 +310812,195 @@
           "supplierWarranty": false
         }
       ]
+    },
+    {
+      "id": "public-51e4e3a2e1466fefd2816b33",
+      "name": "Ultra-Etch",
+      "description": "Гель для протравливания эмали и дентина перед нанесением адгезива. Фасовка и количество шприцев выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Ultra-Etch",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Протравочные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Ultradent",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Ultradent Products, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ultradent-official",
+            "sourceUrl": "https://www.ultradent.com/products/categories/bond-etch/etchants/ultra-etch-ad",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Ultra-Etch"
+          }
+        ]
+      },
+      "brand": "Ultradent",
+      "manufacturer": "Ultradent Products, Inc.",
+      "category": "Протравочные материалы",
+      "sourceUrl": "https://www.ultradent.com/products/categories/bond-etch/etchants/ultra-etch-ad",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Протравочные материалы"
+        ],
+        [
+          "Бренд",
+          "Ultradent"
+        ],
+        [
+          "Производитель",
+          "Ultradent Products, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "Ultra-Etch",
+        "Ultra Etch",
+        "Ультра-Этч",
+        "Ультра Эч"
+      ],
+      "variants": [
+        {
+          "id": "public-51e4e3a2e1466fefd2816b33-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-59adaf77070299e9f95bfcd8",
+      "name": "VALO X",
+      "description": "Светодиодная лампа для полимеризации стоматологических материалов. Цвет корпуса и комплектация указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "VALO X",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Полимеризационные лампы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Ultradent",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Ultradent Products, Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "ultradent-official",
+            "sourceUrl": "https://www.ultradent.com/products/categories/equipment/curing-lights/valo-x?sku=5973-",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "VALO X"
+          }
+        ]
+      },
+      "brand": "Ultradent",
+      "manufacturer": "Ultradent Products, Inc.",
+      "category": "Полимеризационные лампы",
+      "sourceUrl": "https://www.ultradent.com/products/categories/equipment/curing-lights/valo-x?sku=5973-",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Полимеризационные лампы"
+        ],
+        [
+          "Бренд",
+          "Ultradent"
+        ],
+        [
+          "Производитель",
+          "Ultradent Products, Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "VALO X",
+        "Valo X",
+        "Вало Икс",
+        "5973",
+        "VALO X curing light kit"
+      ],
+      "variants": [
+        {
+          "id": "public-59adaf77070299e9f95bfcd8-variant-8fe1d670096b67002f15c2a7",
+          "sku": "5973",
+          "gtin": null,
+          "label": "Комплект VALO X · 5 линз · проводной и беспроводной режим",
+          "attributes": {
+            "Артикул производителя": "5973"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
     },
     {
       "id": "public-b66cd8e7c75ac75e42da332a",

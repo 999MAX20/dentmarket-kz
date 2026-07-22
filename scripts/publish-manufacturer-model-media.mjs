@@ -19,6 +19,7 @@ const publicDirectory = path.join(
 );
 const rejectedAsset =
   /(logo|favicon|icon|sprite|avatar|cart|basket|loading|pixel|captcha|placeholder|no[-_]?image|default[-_]?image)/i;
+const onlyMissing = process.argv.includes("--only-missing");
 
 const records = parse(await fs.readFile(inputPath), {
   columns: true,
@@ -31,6 +32,7 @@ const entries = { ...(manifest.entries ?? {}) };
 const temporaryDirectory = await fs.mkdtemp(
   path.join(os.tmpdir(), "dentmarket-manufacturer-media-"),
 );
+let published = 0;
 
 try {
   await fs.mkdir(publicDirectory, { recursive: true });
@@ -38,6 +40,7 @@ try {
     const { sourcePageUrl, sourceImageUrl, productName, rightsStatus } = record;
     if (!sourcePageUrl || !sourceImageUrl || !productName)
       throw new Error(`Media row ${index + 2} is incomplete`);
+    if (onlyMissing && entries[sourcePageUrl]) continue;
     if (rejectedAsset.test(sourceImageUrl))
       throw new Error(`Rejected non-product asset: ${sourceImageUrl}`);
     new URL(sourcePageUrl);
@@ -100,6 +103,7 @@ try {
         sourceImageUrl,
       },
     };
+    published += 1;
   }
 } finally {
   await fs.rm(temporaryDirectory, { recursive: true, force: true });
@@ -120,7 +124,8 @@ await fs.writeFile(
 console.log(
   JSON.stringify(
     {
-      published: records.length,
+      published,
+      skipped: records.length - published,
       manifestTotal: Object.keys(entries).length,
       manifestPath,
     },
