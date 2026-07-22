@@ -11,6 +11,12 @@ const mediaPath = path.join(
   "apps/buyer-web/app/data/public-catalog-media.json",
 );
 const outputDirectory = path.join(root, "data/curation");
+const publicDirectory = path.join(root, "apps/buyer-web/public");
+
+const rejectedAsset = (value) =>
+  /(logo|favicon|icon|sprite|avatar|cart|basket|loading|pixel|captcha|phone[-_]?ico|placeholder|no[-_]?image|default[-_]?image|\/(?:themes?|templates?|assets\/icons?|images?\/icons?)\/)/i.test(
+    String(value ?? ""),
+  );
 
 const [catalog, media] = await Promise.all([
   fs.readFile(catalogPath, "utf8").then(JSON.parse),
@@ -39,6 +45,36 @@ const priorityFor = (product) => {
 };
 
 const products = catalog.products ?? [];
+const usablePhotoBySource = new Map(
+  await Promise.all(
+    products.map(async (product) => {
+      const item = media.entries?.[product.sourceUrl];
+      const provenance =
+        item?.metadata?.sourceImageUrl ?? item?.sourceUrl ?? item?.securePath;
+      if (
+        item?.metadata?.exactProductPhoto !== true ||
+        !provenance ||
+        rejectedAsset(provenance)
+      ) {
+        return [product.sourceUrl, false];
+      }
+      if (item.securePath?.startsWith("/catalog/")) {
+        try {
+          const stat = await fs.stat(
+            path.join(publicDirectory, item.securePath.replace(/^\/+/, "")),
+          );
+          return [product.sourceUrl, stat.isFile() && stat.size >= 2_000];
+        } catch {
+          return [product.sourceUrl, false];
+        }
+      }
+      return [
+        product.sourceUrl,
+        Boolean(item.securePath || /^https?:\/\//i.test(item.sourceUrl ?? "")),
+      ];
+    }),
+  ),
+);
 const identityQueue = products
   .filter((product) => !product.brand || !product.manufacturer)
   .map((product) => ({
@@ -60,10 +96,7 @@ const identityQueue = products
   }));
 
 const photoQueue = products
-  .filter(
-    (product) =>
-      media.entries?.[product.sourceUrl]?.metadata?.exactProductPhoto !== true,
-  )
+  .filter((product) => !usablePhotoBySource.get(product.sourceUrl))
   .map((product) => {
     const current = media.entries?.[product.sourceUrl];
     return {

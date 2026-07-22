@@ -6,6 +6,8 @@ import mediaCatalog from "../../data/public-catalog-media.json";
 import styles from "./page.module.css";
 import ProductOfferActions from "./product-offer-actions";
 import VariantPicker from "./variant-picker";
+import SafeProductImage from "../../components/safe-product-image";
+import { safeCatalogMediaSource } from "../../lib/catalog-media";
 
 type CatalogProduct = (typeof catalog.products)[number];
 type ProductVariant = {
@@ -107,6 +109,7 @@ export default async function ProductPage({
         product.sourceUrl as keyof typeof mediaCatalog.entries
       ]
     : undefined;
+  const imageSource = safeCatalogMediaSource(media);
   const variants = ((product.variants ?? []) as ProductVariant[]).map(
     (variant) => ({
       ...variant,
@@ -153,19 +156,18 @@ export default async function ProductPage({
         </div>
         <section className={styles.hero}>
           <div className={styles.visual}>
-            {media?.securePath ? (
-              <img
-                src={media.securePath}
-                alt={media.altText ?? product.name}
-                draggable={false}
-              />
-            ) : (
-              <span>
-                Фото товара
-                <br />
-                готовится
-              </span>
-            )}
+            <SafeProductImage
+              src={imageSource}
+              alt={media?.altText ?? product.name}
+              draggable={false}
+              fallback={
+                <span>
+                  Фото товара
+                  <br />
+                  готовится
+                </span>
+              }
+            />
           </div>
           <div className={styles.summary}>
             <span className={styles.eyebrow}>
@@ -200,7 +202,7 @@ export default async function ProductPage({
                 <small>статус товара</small>
               </span>
               <span>
-                <strong>{media?.securePath ? "Фото" : "Готовится"}</strong>
+                <strong>{imageSource ? "Фото" : "Готовится"}</strong>
                 <small>визуал</small>
               </span>
             </div>

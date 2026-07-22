@@ -20,6 +20,7 @@
     "catalog:report-quality": "node scripts/report-public-catalog-quality.mjs",
     "catalog:audit-normalization": "node scripts/audit-catalog-normalization.mjs",
     "catalog:build-curation-queues": "node scripts/build-catalog-curation-queues.mjs",
+    "catalog:validate-media": "node scripts/validate-catalog-media.mjs",
     "catalog:report-expansion": "node scripts/report-catalog-expansion.mjs",
     "catalog:publish-manufacturer-media": "node scripts/publish-manufacturer-model-media.mjs",
     "catalog:bootstrap-canonical": "node scripts/bootstrap-canonical-catalog.mjs",

@@ -682,26 +682,6 @@
         "protectedDelivery": "frontend-friction-only"
       }
     },
-    "https://kazdentservice.kz/product_list": {
-      "id": "6c247755-7e5c-425c-8da5-798abb1c5ff5",
-      "sourceUrl": "https://kazdentservice.kz/cloud-cgi/static/vader-static/image/satu-cbbb4cb5.png",
-      "securePath": "/catalog/products/00bd3879-4237-4323-8bb1-e853435d98c6.webp",
-      "normalizedStorageKey": "catalog/products/00bd3879-4237-4323-8bb1-e853435d98c6.webp",
-      "altText": "Пресс таблетка Стеклокерамические заготовки IPS E.MAX PRESS 5шт HT A1 5 PCS — иллюстрация категории",
-      "width": 1200,
-      "height": 1200,
-      "metadata": {
-        "kind": "supplier-product-photo",
-        "aiGenerated": true,
-        "rightsStatus": "SOURCE_UNVERIFIED",
-        "sourcePageUrl": "https://kazdentservice.kz/product_list",
-        "normalizedSize": "1200x1200",
-        "sourceImageUrl": "https://kazdentservice.kz/cloud-cgi/static/vader-static/image/satu-cbbb4cb5.png",
-        "normalizedFormat": "webp",
-        "exactProductPhoto": true,
-        "protectedDelivery": "frontend-friction-only"
-      }
-    },
     "https://amdgroup.kz/catalog/zondy_/endo_spreder_d_uplotneniya_materiala_24xsi/": {
       "id": "1b3bd241-0f70-46b5-831b-e8f055da9b57",
       "sourceUrl": "https://amdgroup.kz/upload/iblock/35e/wwfjw1yivbk01wrrxspd5dotxf6jywvl.jpg",

@@ -68,6 +68,8 @@ import { BuyerServicesPanel } from "./buyer-services-panel";
 import { SmartCommercePanel } from "./smart-commerce-panel";
 import publicCatalogData from "./data/public-catalog-fallback.json";
 import publicCatalogMedia from "./data/public-catalog-media.json";
+import SafeProductImage from "./components/safe-product-image";
+import { safeCatalogMediaSource } from "./lib/catalog-media";
 import { PublicHeader } from "./public-header";
 import { loginUrl } from "./public-links";
 import {
@@ -205,27 +207,8 @@ const publicMediaEntries = publicCatalogMedia.entries as Record<
   string,
   SearchMedia
 >;
-const rejectedProductAsset = (value: string | null | undefined) =>
-  /(logo|favicon|icon|sprite|avatar|cart|basket|loading|pixel|captcha|phone[-_]?ico|placeholder|no[-_]?image|default[-_]?image|\/(?:themes?|templates?|assets\/icons?|images?\/icons?)\/)/i.test(
-    value ?? "",
-  );
-const mediaSource = (media: SearchMedia | undefined) => {
-  if (!media || media.metadata?.exactProductPhoto !== true) return null;
-  if (
-    rejectedProductAsset(
-      media.metadata.sourceImageUrl ?? media.sourceUrl ?? media.securePath,
-    )
-  )
-    return null;
-  if (media.securePath?.startsWith("/catalog/")) return media.securePath;
-  if (media.securePath) {
-    const apiUrl =
-      process.env.NEXT_PUBLIC_API_URL ??
-      "https://dentmarket-api.vercel.app/api";
-    return `${apiUrl}${media.securePath}`;
-  }
-  return media.sourceUrl;
-};
+const mediaSource = (media: SearchMedia | undefined) =>
+  safeCatalogMediaSource(media);
 const bestPromotionPercent = (product: SearchProduct) =>
   product.offers.reduce(
     (best, offer) => Math.max(best, offer.promotion?.percentage ?? 0),
@@ -385,7 +368,7 @@ const generatedCatalogFallback: SearchProduct[] =
     media: publicMediaEntries[product.sourceUrl ?? ""]
       ? [publicMediaEntries[product.sourceUrl ?? ""]]
       : undefined,
-    photoStatus: publicMediaEntries[product.sourceUrl ?? ""]
+    photoStatus: mediaSource(publicMediaEntries[product.sourceUrl ?? ""])
       ? "exact"
       : product.photoStatus,
     categories: [
@@ -1664,12 +1647,15 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                         onClick={() => void openProduct(product)}
                         aria-label={`Открыть ${product.name}`}
                       >
-                        {image ? (
-                          <img
-                            src={image}
-                            alt={product.media?.[0]?.altText ?? product.name}
-                          />
-                        ) : null}
+                        <SafeProductImage
+                          src={image}
+                          alt={product.media?.[0]?.altText ?? product.name}
+                          fallback={
+                            <span className={styles.photoPending}>
+                              Фото готовится
+                            </span>
+                          }
+                        />
                       </button>
                       <div>
                         <span className={styles.dealLabel}>
@@ -2214,21 +2200,20 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                     aria-label={`Открыть карточку ${product.name}`}
                   >
                     <div className={styles.productVisual}>
-                      {productImage ? (
-                        <img
-                          src={productImage}
-                          alt={product.media?.[0]?.altText ?? product.name}
-                          loading="lazy"
-                          draggable={false}
-                          onContextMenu={(event) => event.preventDefault()}
-                        />
-                      ) : (
-                        <span className={styles.photoPending}>
-                          Фото
-                          <br />
-                          добавляем
-                        </span>
-                      )}
+                      <SafeProductImage
+                        src={productImage}
+                        alt={product.media?.[0]?.altText ?? product.name}
+                        loading="lazy"
+                        draggable={false}
+                        onContextMenu={(event) => event.preventDefault()}
+                        fallback={
+                          <span className={styles.photoPending}>
+                            Фото
+                            <br />
+                            добавляем
+                          </span>
+                        }
+                      />
                     </div>
                     <div className={styles.productIdentity}>
                       <span className={styles.category}>
@@ -2605,20 +2590,18 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                 className={styles.productModalVisual}
                 onContextMenu={(event) => event.preventDefault()}
               >
-                {mediaSource(selectedProduct.media?.[0]) ? (
-                  <img
-                    src={mediaSource(selectedProduct.media?.[0])!}
-                    alt={
-                      selectedProduct.media?.[0]?.altText ??
-                      selectedProduct.name
-                    }
-                    draggable={false}
-                  />
-                ) : (
-                  <div className={styles.productModalPhotoPending}>
-                    Ищем точное фото товара
-                  </div>
-                )}
+                <SafeProductImage
+                  src={mediaSource(selectedProduct.media?.[0])}
+                  alt={
+                    selectedProduct.media?.[0]?.altText ?? selectedProduct.name
+                  }
+                  draggable={false}
+                  fallback={
+                    <div className={styles.productModalPhotoPending}>
+                      Ищем точное фото товара
+                    </div>
+                  }
+                />
                 <small>
                   {mediaSource(selectedProduct.media?.[0])
                     ? "Фото товара"
