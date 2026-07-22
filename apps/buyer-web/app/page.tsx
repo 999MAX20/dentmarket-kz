@@ -1569,6 +1569,12 @@ export default function BuyerWorkspace() {
                     }
                   }}
                 >
+                  <a
+                    className={styles.productCardLink}
+                    href={`/products/${encodeURIComponent(product.id)}`}
+                    aria-label={`Открыть карточку ${product.name}`}
+                    onClick={(event) => event.stopPropagation()}
+                  />
                   <div className={styles.productVisual}>
                     {productImage ? (
                       <img
@@ -1607,6 +1613,13 @@ export default function BuyerWorkspace() {
                         Пока без отзывов
                       </small>
                     )}
+                    <a
+                      className={styles.productOpenLink}
+                      href={`/products/${encodeURIComponent(product.id)}`}
+                      onClick={(event) => event.stopPropagation()}
+                    >
+                      Открыть карточку →
+                    </a>
                   </div>
                   <div className={styles.offerSummary}>
                     <strong>

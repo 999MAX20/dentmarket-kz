@@ -32,9 +32,11 @@ test("buyer can open a product card from the public catalog", async ({ page }) =
   await page.goto("http://127.0.0.1:3001");
   const card = page.getByTestId("product-card").first();
   await expect(card).toBeVisible();
-  await card.click();
-  await expect(page.getByRole("dialog")).toBeVisible();
-  await expect(page.getByRole("heading", { name: "Выберите продавца" })).toBeVisible();
+  const cardLink = card.getByRole("link", { name: /Открыть карточку/ }).last();
+  await expect(cardLink).toHaveAttribute("href", /\/products\//);
+  await cardLink.click();
+  await expect(page).toHaveURL(/\/products\//);
+  await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
   await expectHealthyPage(page, errors);
 });
 
