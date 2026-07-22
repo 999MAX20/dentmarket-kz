@@ -654,6 +654,7 @@ export default function BuyerWorkspace() {
     fallbackSearch("", "RELEVANCE", { stock: "all" }),
   );
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const catalogUrlAppliedRef = useRef(false);
   const [comparison, setComparison] = useState<Comparison | null>(null);
   const [selectedProduct, setSelectedProduct] = useState<SearchProduct | null>(null);
   const [productReviews, setProductReviews] = useState<ProductReviews | null>(
@@ -908,6 +909,19 @@ export default function BuyerWorkspace() {
     sort,
     unitFilter,
   ]);
+
+  useEffect(() => {
+    if (!handoffChecked || handoff || catalogUrlAppliedRef.current || typeof window === "undefined") return;
+    catalogUrlAppliedRef.current = true;
+    const params = new URLSearchParams(window.location.search);
+    const urlQuery = params.get("q")?.trim() ?? "";
+    const parsedOffset = Number(params.get("offset") ?? "0");
+    const offset = Number.isFinite(parsedOffset) && parsedOffset > 0 ? parsedOffset : 0;
+    if (!urlQuery && !offset) return;
+    setQuery(urlQuery);
+    setSearch(fallbackSearch(urlQuery, sort, { stock: "all" }, Math.max(60, offset + 60)));
+    if (!offset) void loadSearch(urlQuery, sort);
+  }, [handoff, handoffChecked, loadSearch, sort]);
 
   const loadMoreProducts = async () => {
     const currentCount = search?.items.length ?? 0;
@@ -1220,17 +1234,18 @@ export default function BuyerWorkspace() {
               { label: "Имплантология", query: "импланты", icon: <Cart24Regular /> },
               { label: "Стерилизация", query: "стерилизация", icon: <Tag24Regular /> },
             ].map((item) => (
-              <button
+              <a
                 key={item.label}
-                type="button"
-                onClick={() => {
+                href={`/?q=${encodeURIComponent(item.query)}`}
+                onClick={(event) => {
+                  event.preventDefault();
                   setQuery(item.query);
                   void submitSearchFor(item.query);
                 }}
               >
                 {item.icon}
                 <span>{item.label}</span>
-              </button>
+              </a>
             ))}
           </nav>
           {promotedProducts.length ? (
@@ -1240,7 +1255,7 @@ export default function BuyerWorkspace() {
                   <h2 id="deals-title">Акции и выгодные предложения</h2>
                   <p>Скидка относится к предложению конкретного продавца.</p>
                 </div>
-                <button type="button" onClick={() => void submitSearchFor("")}>Смотреть все</button>
+                <a href="/?q=" onClick={(event) => { event.preventDefault(); void submitSearchFor(""); }}>Смотреть все</a>
               </div>
               <div className={styles.dealGrid}>
                 {promotedProducts.map((product) => {
@@ -1651,7 +1666,7 @@ export default function BuyerWorkspace() {
             })}
           </div>
         )}
-        {search && search.total > search.items.length ? <div className={styles.loadMore}><Button appearance="secondary" onClick={() => void loadMoreProducts()} disabled={busy === "load-more"}>{busy === "load-more" ? "Загружаем…" : "Показать ещё 60 товаров"}</Button><small>Показано {search.items.length} из {search.total}</small></div> : null}
+        {search && search.total > search.items.length ? <div className={styles.loadMore}><a className={styles.loadMoreLink} href={`/?q=${encodeURIComponent(query)}&offset=${search.items.length}`} onClick={(event) => { event.preventDefault(); void loadMoreProducts(); }}>{busy === "load-more" ? "Загружаем…" : "Показать ещё 60 товаров"}</a><small>Показано {search.items.length} из {search.total}</small></div> : null}
       </Section>
       {isPublic && filtersOpen ? (
         <div className={styles.filterBackdrop} role="presentation" onClick={() => setFiltersOpen(false)}>

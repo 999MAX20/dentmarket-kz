@@ -144,6 +144,20 @@
   color: var(--colorNeutralForeground3);
   font-size: 11px;
 }
+.loadMoreLink {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  padding: 0 18px;
+  border: 1px solid #c9d8d0;
+  border-radius: 8px;
+  background: #fff;
+  color: #26705d;
+  font-size: 13px;
+  font-weight: 750;
+  text-decoration: none;
+}
+.loadMoreLink:hover { background: #f1f7f3; border-color: #26705d; }
 .product {
   position: relative;
   display: grid;
@@ -1124,7 +1138,8 @@
   scrollbar-width: none;
 }
 .categoryRail::-webkit-scrollbar { display: none; }
-.categoryRail button {
+.categoryRail button,
+.categoryRail a {
   min-width: 150px;
   min-height: 60px;
   display: inline-flex;
@@ -1141,10 +1156,14 @@
   font-size: 12px;
   font-weight: 650;
   white-space: nowrap;
+  text-decoration: none;
 }
-.categoryRail button:first-child { border-left: 1px solid #edf0ee; }
-.categoryRail button:hover { background: #f2f6f3; color: #234d41; }
-.categoryRail button:active { transform: translateY(1px); }
+.categoryRail button:first-child,
+.categoryRail a:first-child { border-left: 1px solid #edf0ee; }
+.categoryRail button:hover,
+.categoryRail a:hover { background: #f2f6f3; color: #234d41; }
+.categoryRail button:active,
+.categoryRail a:active { transform: translateY(1px); }
 .categoryRail svg { width: 19px; color: #527568; }
 
 .dealsSection {

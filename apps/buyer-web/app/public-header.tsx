@@ -17,8 +17,9 @@ type PublicHeaderProps = {
 
 export function PublicHeader({ active, query = "", searching = false, onQueryChange, onSearch }: PublicHeaderProps) {
   const submit = (event: FormEvent<HTMLFormElement>) => {
+    if (!onSearch) return;
     event.preventDefault();
-    onSearch?.();
+    onSearch();
   };
 
   return (
@@ -42,10 +43,11 @@ export function PublicHeader({ active, query = "", searching = false, onQueryCha
         </Link>
       </nav>
       {onSearch ? (
-        <form className={styles.search} role="search" onSubmit={submit}>
+        <form className={styles.search} role="search" method="get" action="/" onSubmit={submit}>
           <Search24Regular aria-hidden="true" />
           <input
             type="search"
+            name="q"
             value={query}
             onChange={(event) => onQueryChange?.(event.currentTarget.value)}
             placeholder="Найти товар, бренд или артикул"
