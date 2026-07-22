@@ -1244,7 +1244,7 @@
 .categoryRail button,
 .categoryRail a {
   min-width: 150px;
-  min-height: 60px;
+  min-height: 64px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1768,4 +1768,12 @@
   .publicMain .productList { grid-template-columns: 1fr; }
   .publicMain .product { min-height: 0; }
   .publicMain .productVisual { height: 220px; }
+}
+
+@media (max-width: 650px) {
+  .publicMain .searchBar :global(.fui-Button),
+  .publicMain .productActions :global(.fui-Button),
+  .publicMain .catalogToolbarActions :global(.fui-Button) {
+    min-height: 44px;
+  }
 }

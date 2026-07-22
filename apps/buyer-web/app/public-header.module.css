@@ -233,14 +233,17 @@
     grid-column: 1 / -1;
     grid-row: 2;
     width: 100%;
+    min-height: 46px;
   }
+
+  .search button { min-height: 40px; }
 
   .brandCopy small {
     display: none;
   }
 
   .login {
-    min-height: 40px;
+    min-height: 44px;
     padding-inline: 18px;
   }
 }

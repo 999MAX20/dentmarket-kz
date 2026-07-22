@@ -135,3 +135,77 @@ test("operator sees production assurance controls", async ({ page }) => {
   await expect(page.locator("body")).not.toBeEmpty();
   await expectHealthyPage(page, errors);
 });
+
+test.describe("mobile buyer experience", () => {
+  test.use({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+
+  test("keeps the public catalog inside the viewport and exposes touch targets", async ({ page }) => {
+    const errors = collectBrowserErrors(page);
+    await page.goto("http://127.0.0.1:3001");
+    await expect(page.getByRole("heading", { name: "Каталог для стоматологий" })).toBeVisible();
+    await expect(page.getByRole("searchbox", { name: "Поиск по каталогу" })).toBeVisible();
+    await expect(page.getByRole("button", { name: "Выберите город" })).toBeVisible();
+    const dimensions = await page.evaluate(() => ({
+      clientWidth: document.documentElement.clientWidth,
+      scrollWidth: document.documentElement.scrollWidth,
+    }));
+    expect(dimensions.scrollWidth).toBeLessThanOrEqual(dimensions.clientWidth + 1);
+    await expectHealthyPage(page, errors);
+  });
+
+  test("supports mobile dental search, city selection and reset", async ({ page }) => {
+    const errors = collectBrowserErrors(page);
+    await page.goto("http://127.0.0.1:3001");
+    const search = page.getByRole("searchbox", { name: "Поиск по каталогу" });
+    await search.fill("пер");
+    await expect(page.getByRole("option", { name: "перчатки" })).toBeVisible();
+    await page.getByRole("option", { name: "перчатки" }).click();
+    await expect(page.getByTestId("product-card").first()).toBeVisible();
+    await search.fill("");
+    await search.press("Enter");
+    await expect(page.getByRole("heading", { name: "Каталог для стоматологий" })).toBeVisible();
+    await page.getByRole("button", { name: "Выберите город" }).click();
+    await expect(page.getByRole("dialog", { name: "Выбор города" })).toBeVisible();
+    await page.getByRole("combobox").selectOption({ label: "Алматы" });
+    await expect(page.getByRole("dialog", { name: "Выбор города" })).toBeHidden();
+    await expectHealthyPage(page, errors);
+  });
+
+  test("opens a product and returns to the mobile catalog context", async ({ page }) => {
+    const errors = collectBrowserErrors(page);
+    await page.goto("http://127.0.0.1:3001/?q=%D0%BF%D0%B5%D1%80%D1%87%D0%B0%D1%82%D0%BA%D0%B8");
+    const card = page.getByTestId("product-card").first();
+    await expect(card).toBeVisible();
+    await card.getByRole("link", { name: /Открыть карточку/ }).click();
+    await expect(page).toHaveURL(/\/products\//);
+    await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
+    await page.getByRole("link", { name: /Вернуться в каталог/ }).click();
+    await expect(page).toHaveURL(/q=/);
+    await expect(page.getByTestId("product-card").first()).toBeVisible();
+    await expectHealthyPage(page, errors);
+  });
+
+  test("collapses cabinet navigation and landing content without horizontal overflow", async ({ page }) => {
+    const errors = collectBrowserErrors(page);
+    for (const [url, heading] of [
+      ["http://127.0.0.1:3002", null],
+      ["http://127.0.0.1:3000", null],
+      ["http://127.0.0.1:3003", "Материалы, цены и сроки поставки в одном месте"],
+    ] as const) {
+      await page.goto(url);
+      if (heading) await expect(page.getByRole("heading", { name: heading })).toBeVisible();
+      else await expect(page.locator("body")).not.toBeEmpty();
+      const dimensions = await page.evaluate(() => ({
+        clientWidth: document.documentElement.clientWidth,
+        scrollWidth: document.documentElement.scrollWidth,
+      }));
+      expect(dimensions.scrollWidth).toBeLessThanOrEqual(dimensions.clientWidth + 1);
+      if (url.endsWith("3002") || url.endsWith("3000")) {
+        await page.getByRole("button", { name: "Открыть меню" }).click();
+        await expect(page.getByRole("button", { name: "Закрыть меню" })).toBeVisible();
+        await page.getByRole("button", { name: "Закрыть меню" }).click();
+      }
+    }
+    await expectHealthyPage(page, errors);
+  });
+});

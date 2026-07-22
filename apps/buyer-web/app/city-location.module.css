@@ -5,7 +5,7 @@
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  min-height: 38px;
+  min-height: 44px;
   padding: 7px 10px;
   border: 1px solid #d9e1dd;
   border-radius: 9px;
@@ -65,7 +65,7 @@
 .secondary,
 .select {
   width: 100%;
-  min-height: 36px;
+  min-height: 44px;
   border-radius: 7px;
   font: inherit;
   font-size: 12px;
