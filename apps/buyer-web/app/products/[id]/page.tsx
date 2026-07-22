@@ -5,6 +5,7 @@ import catalog from "../../data/public-catalog-fallback.json";
 import mediaCatalog from "../../data/public-catalog-media.json";
 import styles from "./page.module.css";
 import ProductOfferActions from "./product-offer-actions";
+import VariantPicker from "./variant-picker";
 
 type CatalogProduct = (typeof catalog.products)[number];
 
@@ -41,10 +42,13 @@ export async function generateMetadata({
 
 export default async function ProductPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams: Promise<{ variant?: string }>;
 }) {
   const { id } = await params;
+  const { variant: requestedVariantId } = await searchParams;
   const product = getProduct(decodeURIComponent(id));
   if (!product) notFound();
 
@@ -54,6 +58,16 @@ export default async function ProductPage({
       ]
     : undefined;
   const attributes = product.attributes ?? [];
+  const variants = product.variants ?? [];
+  const selectedVariant =
+    variants.find((variant) => variant.id === requestedVariantId) ?? variants[0];
+  const visibleOffers = selectedVariant
+    ? product.offers.filter(
+        (offer) =>
+          offer.variantId === selectedVariant.id ||
+          (!offer.variantId && variants.length <= 1),
+      )
+    : product.offers;
 
   return (
     <main className={styles.page}>
@@ -95,9 +109,15 @@ export default async function ProductPage({
               {product.description ||
                 "Карточка товара DentMarket с описанием, характеристиками и предложениями поставщиков."}
             </p>
+            {selectedVariant ? (
+              <VariantPicker
+                variants={variants}
+                selectedVariantId={selectedVariant.id}
+              />
+            ) : null}
             <div className={styles.facts}>
               <span>
-                <strong>{product.offers.length}</strong>
+                <strong>{visibleOffers.length}</strong>
                 <small>предложений</small>
               </span>
               <span>
@@ -112,7 +132,7 @@ export default async function ProductPage({
               </span>
             </div>
             <div className={styles.heroActions}>
-              <ProductOfferActions offers={product.offers} />
+              <ProductOfferActions offers={visibleOffers} />
               <span className={styles.trustNote}>
                 Заказ доступен после входа в кабинет клиники
               </span>
@@ -155,11 +175,11 @@ export default async function ProductPage({
                 <span className={styles.panelKicker}>Коммерческие условия</span>
                 <h2>Предложения поставщиков</h2>
               </div>
-              <span className={styles.offerCount}>{product.offers.length}</span>
+              <span className={styles.offerCount}>{visibleOffers.length}</span>
             </div>
             <div className={styles.offers}>
-              {product.offers.length ? (
-                product.offers.map((offer) => (
+              {visibleOffers.length ? (
+                visibleOffers.map((offer) => (
                   <article
                     className={styles.offer}
                     key={`${offer.supplier.name}-${offer.supplierSku ?? "offer"}`}

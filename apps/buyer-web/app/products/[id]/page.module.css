@@ -15,6 +15,11 @@
 .summary h1 { max-width: 720px; margin: 12px 0 14px; font-size: clamp(36px, 5vw, 62px); line-height: 1.02; letter-spacing: -.045em; }
 .brand, .description { color: #66766f; font-size: 17px; line-height: 1.55; }
 .description { max-width: 680px; }
+.variantPicker { display: grid; gap: 7px; max-width: 560px; margin-top: 24px; }
+.variantPicker label { font-size: 13px; font-weight: 800; }
+.variantPicker select { width: 100%; min-height: 48px; padding: 0 42px 0 14px; border: 1px solid #b9cbc3; border-radius: 9px; background: #fff; color: #17231f; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; }
+.variantPicker select:focus { border-color: #26705d; outline: 3px solid rgb(38 112 93 / 13%); }
+.variantPicker span { color: #77867f; font-size: 12px; }
 .facts { display: flex; flex-wrap: wrap; gap: 30px; margin-top: 26px; }
 .facts span { display: grid; gap: 3px; }
 .facts strong { font-size: 18px; }
