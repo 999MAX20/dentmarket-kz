@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T17:14:53.756Z",
+  "generatedAt": "2026-07-22T17:21:41.218Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -14,7 +14,7 @@
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3192,
+  "total": 3197,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -264465,6 +264465,469 @@
       ]
     },
     {
+      "id": "public-6029132f0d70debfe437ba66",
+      "name": "CLEARFIL MAJESTY ES-2 Universal",
+      "description": "Универсальный композит для передних и боковых реставраций. Оттенок и форма выпуска выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "CLEARFIL MAJESTY ES-2 Universal",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Kuraray Noritake",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Kuraray Noritake Dental Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "kuraray-official",
+            "sourceUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-es2-universal",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "CLEARFIL MAJESTY ES-2 Universal"
+          }
+        ]
+      },
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-es2-universal",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "Kuraray Noritake"
+        ],
+        [
+          "Производитель",
+          "Kuraray Noritake Dental Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "CLEARFIL MAJESTY ES-2 Universal",
+        "Clearfil Majesty ES2",
+        "Клирфил Маджести ES-2",
+        "CLEARFIL MAJESTY ES-2 Universal Syringe U",
+        "CLEARFIL MAJESTY ES-2 Universal Syringe UW",
+        "CLEARFIL MAJESTY ES-2 Universal Syringe UL",
+        "CLEARFIL MAJESTY ES-2 Universal Syringe UD",
+        "CLEARFIL MAJESTY ES-2 Universal PLT U",
+        "CLEARFIL MAJESTY ES-2 Universal PLT UW",
+        "CLEARFIL MAJESTY ES-2 Universal PLT UL",
+        "CLEARFIL MAJESTY ES-2 Universal PLT UD"
+      ],
+      "variants": [
+        {
+          "id": "public-6029132f0d70debfe437ba66-variant-fe4fc929789ad40779ab243b",
+          "sku": "3181-EU",
+          "gtin": null,
+          "label": "Шприц 2 мл · оттенок U",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Объём": "2 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "3181-EU"
+          }
+        },
+        {
+          "id": "public-6029132f0d70debfe437ba66-variant-f855f65e85f8243c70bae23d",
+          "sku": "3182-EU",
+          "gtin": null,
+          "label": "Шприц 2 мл · оттенок UW",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Объём": "2 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "3182-EU"
+          }
+        },
+        {
+          "id": "public-6029132f0d70debfe437ba66-variant-13dd4360a8d9f532f7bda282",
+          "sku": "3183-EU",
+          "gtin": null,
+          "label": "Шприц 2 мл · оттенок UL",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Объём": "2 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "3183-EU"
+          }
+        },
+        {
+          "id": "public-6029132f0d70debfe437ba66-variant-7a74654310525b2ece80eb5e",
+          "sku": "3184-EU",
+          "gtin": null,
+          "label": "Шприц 2 мл · оттенок UD",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Объём": "2 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "3184-EU"
+          }
+        },
+        {
+          "id": "public-6029132f0d70debfe437ba66-variant-2462b0d45f834222da9f221f",
+          "sku": "3191-EU",
+          "gtin": null,
+          "label": "Капсулы 20 шт. по 0,25 г · оттенок U",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,25 г",
+            "Артикул производителя": "3191-EU"
+          }
+        },
+        {
+          "id": "public-6029132f0d70debfe437ba66-variant-428d17e93f25ae69554b3370",
+          "sku": "3192-EU",
+          "gtin": null,
+          "label": "Капсулы 20 шт. по 0,25 г · оттенок UW",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,25 г",
+            "Артикул производителя": "3192-EU"
+          }
+        },
+        {
+          "id": "public-6029132f0d70debfe437ba66-variant-e23a4722f718dfaf4e6076de",
+          "sku": "3193-EU",
+          "gtin": null,
+          "label": "Капсулы 20 шт. по 0,25 г · оттенок UL",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,25 г",
+            "Артикул производителя": "3193-EU"
+          }
+        },
+        {
+          "id": "public-6029132f0d70debfe437ba66-variant-3b15c0ddd324b3aaec859d73",
+          "sku": "3194-EU",
+          "gtin": null,
+          "label": "Капсулы 20 шт. по 0,25 г · оттенок UD",
+          "attributes": {
+            "Форма выпуска": "Капсулы",
+            "Количество": "20 шт.",
+            "Масса": "0,25 г",
+            "Артикул производителя": "3194-EU"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-da286e98cd701d095eb734cb",
+      "name": "CLEARFIL SE BOND 2",
+      "description": "Двухэтапная самопротравливающая адгезивная система. Набор отдельный праймер бонд или одноразовые дозы выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "CLEARFIL SE BOND 2",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Kuraray Noritake",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Kuraray Noritake Dental Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "kuraray-official",
+            "sourceUrl": "https://www.kuraraynoritake.eu/en/clearfil-se-bond-2",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "CLEARFIL SE BOND 2"
+          }
+        ]
+      },
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://www.kuraraynoritake.eu/en/clearfil-se-bond-2",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "Kuraray Noritake"
+        ],
+        [
+          "Производитель",
+          "Kuraray Noritake Dental Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "CLEARFIL SE BOND 2",
+        "Clearfil SE Bond II",
+        "Клирфил СЕ Бонд 2",
+        "CLEARFIL SE BOND 2 Kit",
+        "CLEARFIL SE BOND 2 Value Pack",
+        "CLEARFIL SE BOND 2 Unit Dose",
+        "CLEARFIL SE BOND 2 Bond",
+        "CLEARFIL SE BOND 2 Primer"
+      ],
+      "variants": [
+        {
+          "id": "public-da286e98cd701d095eb734cb-variant-905fa0cbbc51869d73b57f86",
+          "sku": "3270-EU",
+          "gtin": null,
+          "label": "Набор · бонд 5 мл + праймер 6 мл",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Объём": "5 мл",
+            "Количество": "1 шт.",
+            "Комплектация": "Набор",
+            "Артикул производителя": "3270-EU"
+          }
+        },
+        {
+          "id": "public-da286e98cd701d095eb734cb-variant-a6b974195af32549a3b96ca9",
+          "sku": "3272-EU",
+          "gtin": null,
+          "label": "Большой набор · 3 бонда по 5 мл + 3 праймера по 6 мл",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Объём": "5 мл",
+            "Количество": "1 шт.",
+            "Комплектация": "Большой набор",
+            "Артикул производителя": "3272-EU"
+          }
+        },
+        {
+          "id": "public-da286e98cd701d095eb734cb-variant-eca24f6a74198ef16480b952",
+          "sku": "328C-EU-1",
+          "gtin": null,
+          "label": "Одноразовые дозы · 50 бондов + 50 праймеров",
+          "attributes": {
+            "Форма выпуска": "Одноразовые дозы",
+            "Артикул производителя": "328C-EU-1"
+          }
+        },
+        {
+          "id": "public-da286e98cd701d095eb734cb-variant-95265243f9f10f0816ff4ba9",
+          "sku": "3281-EU",
+          "gtin": null,
+          "label": "Бонд · флакон 5 мл",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Объём": "5 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "3281-EU"
+          }
+        },
+        {
+          "id": "public-da286e98cd701d095eb734cb-variant-d25af86a2e43819f3835facf",
+          "sku": "3282-EU",
+          "gtin": null,
+          "label": "Праймер · флакон 6 мл",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Объём": "6 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "3282-EU"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-c87abb01112beb624eed0dd6",
+      "name": "CLEARFIL Universal Bond Quick 2",
+      "description": "Универсальный адгезив для прямых и непрямых реставраций. Флакон набор из трёх флаконов или одноразовые дозы выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "CLEARFIL Universal Bond Quick 2",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Kuraray Noritake",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Kuraray Noritake Dental Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "kuraray-official",
+            "sourceUrl": "https://www.kuraraynoritake.eu/en/clearfil-universal-bond-quick-2",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "CLEARFIL Universal Bond Quick 2"
+          }
+        ]
+      },
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://www.kuraraynoritake.eu/en/clearfil-universal-bond-quick-2",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "Kuraray Noritake"
+        ],
+        [
+          "Производитель",
+          "Kuraray Noritake Dental Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "CLEARFIL Universal Bond Quick 2",
+        "Clearfil UBQ 2",
+        "Клирфил Универсал Бонд Квик 2",
+        "CLEARFIL Universal Bond Quick 2 Bottle Refill",
+        "CLEARFIL Universal Bond Quick 2 Bottle Value Pack",
+        "CLEARFIL Universal Bond Quick 2 Unit Dose Standard Pack"
+      ],
+      "variants": [
+        {
+          "id": "public-c87abb01112beb624eed0dd6-variant-53416b2e390142bd6788d36a",
+          "sku": "4042-EU",
+          "gtin": null,
+          "label": "Флакон 5 мл",
+          "attributes": {
+            "Форма выпуска": "Флакон",
+            "Объём": "5 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4042-EU"
+          }
+        },
+        {
+          "id": "public-c87abb01112beb624eed0dd6-variant-474d0d16e1454f04dffca22a",
+          "sku": "4044-EU",
+          "gtin": null,
+          "label": "Набор · 3 флакона по 5 мл",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Объём": "5 мл",
+            "Количество": "1 шт.",
+            "Комплектация": "Набор",
+            "Артикул производителя": "4044-EU"
+          }
+        },
+        {
+          "id": "public-c87abb01112beb624eed0dd6-variant-d37837e9c3efa82a907bbec5",
+          "sku": "4046-EU",
+          "gtin": null,
+          "label": "Одноразовые дозы · 50 шт.",
+          "attributes": {
+            "Форма выпуска": "Одноразовые дозы",
+            "Количество": "50 шт.",
+            "Артикул производителя": "4046-EU"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-ee6f78c3353d0e8e03ca1e17",
       "name": "CoCr колпачок на MULTI UNIT Ø3,5",
       "description": "CoCr колпачок на MULTI UNIT Ø3,5 в категории «Стоматологические материалы и оборудование».",
@@ -304803,6 +305266,262 @@
           "gtin": null,
           "label": "Стандартная фасовка · шт.",
           "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-7ec5014b2810c7964e19ea96",
+      "name": "PANAVIA SA Cement Universal",
+      "description": "Самоадгезивный композитный цемент для постоянной фиксации реставраций. Способ смешивания фасовка и оттенок выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "PANAVIA SA Cement Universal",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стоматологические цементы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Kuraray Noritake",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Kuraray Noritake Dental Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "kuraray-official",
+            "sourceUrl": "https://www.kuraraynoritake.eu/en/en-en/resin-cements/panavia-sa-cement-universal",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "PANAVIA SA Cement Universal"
+          }
+        ]
+      },
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "category": "Стоматологические цементы",
+      "sourceUrl": "https://www.kuraraynoritake.eu/en/en-en/resin-cements/panavia-sa-cement-universal",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стоматологические цементы"
+        ],
+        [
+          "Бренд",
+          "Kuraray Noritake"
+        ],
+        [
+          "Производитель",
+          "Kuraray Noritake Dental Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "PANAVIA SA Cement Universal",
+        "Panavia SA Universal",
+        "Панавиа СА Цемент Универсал",
+        "PANAVIA SA Cement Universal Automix Single Pack",
+        "PANAVIA SA Cement Universal Handmix Single Pack",
+        "PANAVIA SA Cement Universal Automix Value Pack",
+        "PANAVIA SA Cement Universal Handmix Value Pack"
+      ],
+      "variants": [
+        {
+          "id": "public-7ec5014b2810c7964e19ea96-variant-52fccfd6db4ed627d4d166a0",
+          "sku": "4200-EU-02",
+          "gtin": null,
+          "label": "Automix · 4,6 мл · один шприц",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Объём": "4,6 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4200-EU-02"
+          }
+        },
+        {
+          "id": "public-7ec5014b2810c7964e19ea96-variant-fd3bb2ed88cd381d1c32ceb3",
+          "sku": "4202-EU-C",
+          "gtin": null,
+          "label": "Handmix · 5 мл · один шприц",
+          "attributes": {
+            "Форма выпуска": "Шприц",
+            "Объём": "5 мл",
+            "Количество": "1 шт.",
+            "Артикул производителя": "4202-EU-C"
+          }
+        },
+        {
+          "id": "public-7ec5014b2810c7964e19ea96-variant-6af310a34a141caeb6b07f77",
+          "sku": "4210-EU-1",
+          "gtin": null,
+          "label": "Automix · набор из 3 шприцев",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Артикул производителя": "4210-EU-1"
+          }
+        },
+        {
+          "id": "public-7ec5014b2810c7964e19ea96-variant-0e56489bf0dc4283e84891f5",
+          "sku": "4206-EU",
+          "gtin": null,
+          "label": "Handmix · набор из 2 шприцев",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Артикул производителя": "4206-EU"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-81173fbd61a0dd6f9315f456",
+      "name": "PANAVIA V5",
+      "description": "Композитный цемент для постоянной фиксации непрямых реставраций. Состав набора и оттенки пасты указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "PANAVIA V5",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стоматологические цементы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Kuraray Noritake",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Kuraray Noritake Dental Inc.",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "kuraray-official",
+            "sourceUrl": "https://www.kuraraynoritake.eu/en/en-en/resin-cements/panavia-v5",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "PANAVIA V5"
+          }
+        ]
+      },
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "category": "Стоматологические цементы",
+      "sourceUrl": "https://www.kuraraynoritake.eu/en/en-en/resin-cements/panavia-v5",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стоматологические цементы"
+        ],
+        [
+          "Бренд",
+          "Kuraray Noritake"
+        ],
+        [
+          "Производитель",
+          "Kuraray Noritake Dental Inc."
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "PANAVIA V5",
+        "Panavia V 5",
+        "Панавиа V5",
+        "PANAVIA V5 Professional Kit",
+        "PANAVIA V5 Standard Kit",
+        "PANAVIA V5 Introductory Kit"
+      ],
+      "variants": [
+        {
+          "id": "public-81173fbd61a0dd6f9315f456-variant-bc567ee9868bd7d22652e017",
+          "sku": "3600-EU",
+          "gtin": null,
+          "label": "Профессиональный набор · 5 оттенков",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Комплектация": "Профессиональный набор",
+            "Артикул производителя": "3600-EU"
+          }
+        },
+        {
+          "id": "public-81173fbd61a0dd6f9315f456-variant-ab800524abe6ca0fef8f5f9a",
+          "sku": "3601-EU-1",
+          "gtin": null,
+          "label": "Стандартный набор · Universal A2 + Clear",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Оттенок": "A2",
+            "Комплектация": "Стандартный набор",
+            "Артикул производителя": "3601-EU-1"
+          }
+        },
+        {
+          "id": "public-81173fbd61a0dd6f9315f456-variant-d5d953032be5f509f30fccdc",
+          "sku": "3604-EU-2",
+          "gtin": null,
+          "label": "Начальный набор · Universal A2 + Clear",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Оттенок": "A2",
+            "Комплектация": "Начальный набор",
+            "Артикул производителя": "3604-EU-2"
+          }
         }
       ],
       "photoStatus": "category_illustration",

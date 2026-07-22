@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T17:14:52.812Z",
-  "total": 1680,
+  "generatedAt": "2026-07-22T17:21:40.219Z",
+  "total": 1685,
   "entries": {
     "https://amdgroup.kz/catalog/konusovidnye/bory_almaznye_247_009f_fg/": {
       "id": "9aa079e6-0a46-43b3-af20-39eb3601a968",
@@ -33400,6 +33400,86 @@
         "rightsStatus": "official_manufacturer_catalog",
         "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/piezomed",
         "sourceImageUrl": "https://a.storyblok.com/f/45617/c68b229650/piezomed_product-detail-zoom.jpg"
+      }
+    },
+    "https://www.kuraraynoritake.eu/en/clearfil-universal-bond-quick-2": {
+      "id": "manufacturer-d1649d3609a3d8edb8da537a10285612",
+      "sourceUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/u/cubq2_1_1.png",
+      "securePath": "/catalog/products/d1649d3609a3d8edb8da537a10285612.png",
+      "normalizedStorageKey": "catalog/products/d1649d3609a3d8edb8da537a10285612.png",
+      "mimeType": "image/png",
+      "altText": "CLEARFIL Universal Bond Quick 2",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-universal-bond-quick-2",
+        "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/u/cubq2_1_1.png"
+      }
+    },
+    "https://www.kuraraynoritake.eu/en/clearfil-se-bond-2": {
+      "id": "manufacturer-43675a06f002655b040de3c6ab534113",
+      "sourceUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-2-kit-wb.png",
+      "securePath": "/catalog/products/43675a06f002655b040de3c6ab534113.png",
+      "normalizedStorageKey": "catalog/products/43675a06f002655b040de3c6ab534113.png",
+      "mimeType": "image/png",
+      "altText": "CLEARFIL SE BOND 2",
+      "width": 1200,
+      "height": 677,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-se-bond-2",
+        "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-2-kit-wb.png"
+      }
+    },
+    "https://www.kuraraynoritake.eu/en/en-en/resin-cements/panavia-v5": {
+      "id": "manufacturer-9784b26af162ba79e81c2a117f477144",
+      "sourceUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/2/1/21940_1-panavia-v5-standard-kit-wb_nc.png",
+      "securePath": "/catalog/products/9784b26af162ba79e81c2a117f477144.png",
+      "normalizedStorageKey": "catalog/products/9784b26af162ba79e81c2a117f477144.png",
+      "mimeType": "image/png",
+      "altText": "PANAVIA V5",
+      "width": 1200,
+      "height": 830,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.kuraraynoritake.eu/en/en-en/resin-cements/panavia-v5",
+        "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/2/1/21940_1-panavia-v5-standard-kit-wb_nc.png"
+      }
+    },
+    "https://www.kuraraynoritake.eu/en/en-en/resin-cements/panavia-sa-cement-universal": {
+      "id": "manufacturer-88b00a0ef989a5bc6ac443b7661c7457",
+      "sourceUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia_sa_cement_universal_automix_single_pack_1_1.png",
+      "securePath": "/catalog/products/88b00a0ef989a5bc6ac443b7661c7457.png",
+      "normalizedStorageKey": "catalog/products/88b00a0ef989a5bc6ac443b7661c7457.png",
+      "mimeType": "image/png",
+      "altText": "PANAVIA SA Cement Universal",
+      "width": 1200,
+      "height": 782,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.kuraraynoritake.eu/en/en-en/resin-cements/panavia-sa-cement-universal",
+        "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia_sa_cement_universal_automix_single_pack_1_1.png"
+      }
+    },
+    "https://www.kuraraynoritake.eu/en/clearfil-majesty-es2-universal": {
+      "id": "manufacturer-5883407e9d3db991963916ee9e25ccf8",
+      "sourceUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/m/a/majesty-unuversal-syringe_u.png",
+      "securePath": "/catalog/products/5883407e9d3db991963916ee9e25ccf8.png",
+      "normalizedStorageKey": "catalog/products/5883407e9d3db991963916ee9e25ccf8.png",
+      "mimeType": "image/png",
+      "altText": "CLEARFIL MAJESTY ES-2 Universal",
+      "width": 1200,
+      "height": 393,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_manufacturer_catalog",
+        "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-es2-universal",
+        "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/m/a/majesty-unuversal-syringe_u.png"
       }
     }
   }
