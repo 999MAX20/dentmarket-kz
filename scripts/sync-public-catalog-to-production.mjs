@@ -181,7 +181,7 @@ try {
       else summary.created += 1;
       summary.categoriesEnsured += category.id.startsWith("dry-run-") ? 1 : 0;
       summary.mediaLinked += media ? 1 : 0;
-      summary.variantsEnsured += 1;
+      summary.variantsEnsured += product.variants?.length || 1;
       summary.searchDocumentsEnsured += 1;
       continue;
     }
@@ -241,39 +241,60 @@ try {
       update: {},
       create: { productId: saved.id, categoryId: category.id },
     });
-    const variant = await prisma.productVariant.findFirst({
+    const desiredVariants = product.variants?.length
+      ? product.variants
+      : [{ sku: null, gtin: null, label: "Стандартный вариант", attributes: {} }];
+    const existingVariants = await prisma.productVariant.findMany({
       where: { productId: saved.id },
+      include: { _count: { select: { supplierOffers: true } } },
       orderBy: { createdAt: "asc" },
     });
-    if (variant)
-      await prisma.productVariant.update({
-        where: { id: variant.id },
-        data: {
-          status: product.catalogSource === "manufacturer" ? "ACTIVE" : "DRAFT",
-          saleUnitId: fallbackUnit?.id ?? null,
-          externalMetadata: {
-            ...(variant.externalMetadata &&
-            typeof variant.externalMetadata === "object"
-              ? variant.externalMetadata
-              : {}),
-            sourceId: product.id,
-            sourceUrl: product.sourceUrl ?? null,
-          },
+    for (const [variantIndex, desired] of desiredVariants.entries()) {
+      let variant = desired.sku
+        ? existingVariants.find(
+            (candidate) =>
+              candidate.sku?.toLocaleLowerCase("ru") ===
+              desired.sku.toLocaleLowerCase("ru"),
+          )
+        : existingVariants.find((candidate) => !candidate.sku && !candidate.gtin);
+      if (
+        !variant &&
+        variantIndex === 0 &&
+        desired.sku &&
+        existingVariants[0] &&
+        !existingVariants[0].sku &&
+        !existingVariants[0].gtin &&
+        existingVariants[0]._count.supplierOffers === 0
+      )
+        variant = existingVariants[0];
+      const variantData = {
+        status: product.catalogSource === "manufacturer" ? "ACTIVE" : "DRAFT",
+        sku: desired.sku ?? null,
+        gtin: desired.gtin ?? null,
+        saleUnitId: fallbackUnit?.id ?? null,
+        externalMetadata: {
+          ...(variant?.externalMetadata &&
+          typeof variant.externalMetadata === "object"
+            ? variant.externalMetadata
+            : {}),
+          sourceId: product.id,
+          sourceUrl: product.sourceUrl ?? null,
+          label: desired.label,
+          attributes: desired.attributes ?? {},
+          manufacturerReference: desired.sku ?? null,
         },
-      });
-    else
-      await prisma.productVariant.create({
-        data: {
-          productId: saved.id,
-          status: product.catalogSource === "manufacturer" ? "ACTIVE" : "DRAFT",
-          saleUnitId: fallbackUnit?.id ?? null,
-          externalMetadata: {
-            sourceId: product.id,
-            sourceUrl: product.sourceUrl ?? null,
-          },
-        },
-      });
-    summary.variantsEnsured += 1;
+      };
+      if (variant)
+        await prisma.productVariant.update({
+          where: { id: variant.id },
+          data: variantData,
+        });
+      else
+        await prisma.productVariant.create({
+          data: { productId: saved.id, ...variantData },
+        });
+      summary.variantsEnsured += 1;
+    }
     if (media) {
       const existingMedia = await prisma.productMedia.findFirst({
         where: { productId: saved.id, sourceUrl: media.sourceUrl },

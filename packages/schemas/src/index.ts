@@ -471,6 +471,7 @@ export const searchCatalogSchema = z.object({
 export const compareOffersSchema = z.object({
   buyerOrganizationId: z.uuid(),
   productId: z.uuid(),
+  variantId: z.uuid().optional(),
   quantity: z.coerce.number().positive().default(1),
   cityId: z.uuid().optional(),
 });

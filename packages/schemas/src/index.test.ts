@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { addCartItemSchema, approveProductCandidateSchema, captureMockPaymentSchema, capturePaymentSchema, checkoutCartSchema, confirmSupplierOrderSchema, createApprovalPolicySchema, createComplianceRuleSchema, createContractPriceSchema, createDataOverrideSchema, createDeliveryRuleSchema, createDocumentTemplateSchema, createImportBatchSchema, createIntegrationBindingSchema, createIntegrationConnectionSchema, createInventoryLotSchema, createInventoryReservationSchema, createInvitationSchema, createNotificationSchema, createOfferPriceTierSchema, createOrganizationCredentialSchema, createOrganizationSchema, createPaymentIntentSchema, createProductPackagingSchema, createProductSchema, createRefundSchema, createRoleSchema, createShipmentSchema, enqueueIntegrationJobSchema, evaluateApprovalSchema, ledgerQuerySchema, resolveOfferPriceSchema, searchCatalogSchema, setAttributeValueSchema, setInventoryBalanceSchema, updateProductSchema, upsertCategoryAttributeRuleSchema, upsertIntegrationMappingSchema } from "./index.js";
+import { addCartItemSchema, approveProductCandidateSchema, captureMockPaymentSchema, capturePaymentSchema, checkoutCartSchema, compareOffersSchema, confirmSupplierOrderSchema, createApprovalPolicySchema, createComplianceRuleSchema, createContractPriceSchema, createDataOverrideSchema, createDeliveryRuleSchema, createDocumentTemplateSchema, createImportBatchSchema, createIntegrationBindingSchema, createIntegrationConnectionSchema, createInventoryLotSchema, createInventoryReservationSchema, createInvitationSchema, createNotificationSchema, createOfferPriceTierSchema, createOrganizationCredentialSchema, createOrganizationSchema, createPaymentIntentSchema, createProductPackagingSchema, createProductSchema, createRefundSchema, createRoleSchema, createShipmentSchema, enqueueIntegrationJobSchema, evaluateApprovalSchema, ledgerQuerySchema, resolveOfferPriceSchema, searchCatalogSchema, setAttributeValueSchema, setInventoryBalanceSchema, updateProductSchema, upsertCategoryAttributeRuleSchema, upsertIntegrationMappingSchema } from "./index.js";
 import { createRegistrationIntentSchema, mfaCodeSchema, socialExchangeSchema, updateConnectorReadinessSchema } from "./index.js";
 import { decideProductCorrectionSchema, submitProductCorrectionSchema } from "./index.js";
 
@@ -175,6 +175,16 @@ describe("iteration 1A schemas", () => {
     expect(capturePaymentSchema.safeParse({ idempotencyKey: "capture-0002", allocationIds: [offerId, offerId] }).success).toBe(true);
     expect(createRefundSchema.safeParse({ amountMinor: 1000, reason: "Частичный возврат", idempotencyKey: "refund-0001" }).success).toBe(true);
     expect(createRefundSchema.safeParse({ amountMinor: 0, reason: "Ошибка", idempotencyKey: "refund-0002" }).success).toBe(false);
+  });
+
+  it("allows offer comparison to target one exact product variant", () => {
+    const result = compareOffersSchema.parse({
+      buyerOrganizationId: "00000000-0000-4000-8000-000000000001",
+      productId: "00000000-0000-4000-8000-000000000010",
+      variantId: "00000000-0000-4000-8000-000000000011",
+      quantity: 1,
+    });
+    expect(result.variantId).toBe("00000000-0000-4000-8000-000000000011");
   });
 
   it("rejects duplicate supplier-order decisions", () => {

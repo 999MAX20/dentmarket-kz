@@ -57,7 +57,6 @@ import {
 } from "@marketplace/ui";
 import {
   Fragment,
-  use,
   useCallback,
   useEffect,
   useMemo,
@@ -128,6 +127,7 @@ function readSessionHandoff(): SessionHandoff | null {
 
 type SearchOffer = {
   id: string;
+  variantId?: string;
   supplier: { id: string; name: string };
   priceMinor: string | null;
   currency: string | null;
@@ -149,6 +149,13 @@ type SearchOffer = {
     percentage: number | null;
     endsAt: string | null;
   } | null;
+};
+type ProductVariantOption = {
+  id: string;
+  sku: string | null;
+  gtin: string | null;
+  label: string;
+  attributes?: Record<string, unknown>;
 };
 type SearchMedia = {
   id: string;
@@ -176,6 +183,7 @@ type SearchProduct = {
   minNormalizedPriceMinor: string | null;
   isAvailable: boolean;
   reviewSummary?: { count: number; averageRating: number | null };
+  variants?: ProductVariantOption[];
   offers: SearchOffer[];
   sourceUrl?: string | null;
   sourceUpdatedAt?: string | null;
@@ -482,6 +490,7 @@ async function fetchPublicCatalogSearch(
 }
 type CompareOffer = {
   offerId: string;
+  variantId: string;
   supplier: { organizationId: string; name: string };
   supplierSku: string | null;
   price: {
@@ -516,6 +525,8 @@ type Comparison = {
     brand: string | null;
     manufacturer: string | null;
   };
+  variants?: ProductVariantOption[];
+  selectedVariantId?: string | null;
   offers: CompareOffer[];
   reviewSummary?: { count: number; averageRating: number | null };
   comparisonAttributes: Array<{ code: string; name: string; value: unknown }>;
@@ -635,13 +646,13 @@ type BuyerWorkspaceProps = {
   searchParams: Promise<{ q?: string; offset?: string }>;
 };
 
-export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
-  const routeParams = use(searchParams);
-  const initialQuery = routeParams.q?.trim() ?? "";
-  const parsedOffset = Number(routeParams.offset ?? "0");
-  const initialOffset =
-    Number.isFinite(parsedOffset) && parsedOffset > 0 ? parsedOffset : 0;
-  const initialCatalogLimit = initialOffset ? initialOffset + 60 : 60;
+export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWorkspaceProps) {
+  // URL state is applied in an effect after hydration. Keeping the client
+  // component's first render deterministic prevents Safari from leaving the
+  // server markup interactive-looking but without event handlers.
+  const initialQuery = "";
+  const initialOffset = 0;
+  const initialCatalogLimit = 60;
   const [handoff, setHandoff] = useState<SessionHandoff | null>(null);
   const [handoffChecked, setHandoffChecked] = useState(false);
   const buyerId = handoff?.organizationId ?? BUYER_ID;
@@ -731,6 +742,7 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
   const [selectedProduct, setSelectedProduct] = useState<SearchProduct | null>(
     null,
   );
+  const [selectedVariantId, setSelectedVariantId] = useState<string | null>(null);
   const [productReviews, setProductReviews] = useState<ProductReviews | null>(
     null,
   );
@@ -1221,7 +1233,7 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
   };
   const submitSearch = async () => submitSearchFor(query);
 
-  const compare = async (productId: string) => {
+  const compare = async (productId: string, variantId?: string | null) => {
     setBusy(`compare:${productId}`);
     setError(null);
     try {
@@ -1236,10 +1248,14 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
               manufacturer: product.manufacturer,
             },
             reviewSummary: product.reviewSummary,
+            variants: product.variants,
+            selectedVariantId: variantId ?? null,
             offers: product.offers
+              .filter((offer) => !variantId || offer.variantId === variantId)
               .filter((offer) => offer.priceMinor && offer.normalizedPriceMinor)
               .map((offer) => ({
                 offerId: offer.id,
+                variantId: offer.variantId ?? variantId ?? product.variants?.[0]?.id ?? "",
                 supplier: {
                   organizationId: offer.supplier.id,
                   name: offer.supplier.name,
@@ -1290,7 +1306,7 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
         }
       }
       const nextComparison = await api.get<Comparison>(
-        `${handoff ? "/marketplace" : "/catalog"}/products/${productId}/compare?buyerOrganizationId=${buyerId}&quantity=1`,
+        `${handoff ? "/marketplace" : "/catalog"}/products/${productId}/compare?buyerOrganizationId=${buyerId}&quantity=1${variantId ? `&variantId=${encodeURIComponent(variantId)}` : ""}`,
       );
       setComparison(nextComparison);
       const [reviews, ...ratings] = await Promise.all([
@@ -1318,17 +1334,21 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
   };
 
   const openProduct = (product: SearchProduct) => {
+    const initialVariantId =
+      product.offers[0]?.variantId ?? product.variants?.[0]?.id ?? null;
     setSelectedProduct(product);
+    setSelectedVariantId(initialVariantId);
     setComparison(null);
     setProductReviews(null);
     // Show the detail surface immediately. Loading supplier offers must not
     // block the product card from opening, especially for the public fallback
     // catalog where the live API may be temporarily unavailable.
-    void compare(product.id);
+    void compare(product.id, initialVariantId);
   };
 
   const closeProduct = () => {
     setSelectedProduct(null);
+    setSelectedVariantId(null);
     setComparison(null);
     setProductReviews(null);
   };
@@ -2418,6 +2438,30 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
                 </small>
               </div>
               <div className={styles.productInfo}>
+                {selectedProduct.variants && selectedProduct.variants.length > 1 ? (
+                  <div className={styles.variantPicker}>
+                    <div>
+                      <span className={styles.category}>Вариант товара</span>
+                      <strong>Выберите точную фасовку или REF</strong>
+                    </div>
+                    <select
+                      value={selectedVariantId ?? ""}
+                      onChange={(event) => {
+                        const variantId = event.target.value;
+                        setSelectedVariantId(variantId);
+                        setComparison(null);
+                        void compare(selectedProduct.id, variantId);
+                      }}
+                      aria-label="Выберите вариант товара"
+                    >
+                      {selectedProduct.variants.map((variant) => (
+                        <option key={variant.id} value={variant.id}>
+                          {variant.label}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                ) : null}
                 <div className={styles.productModalCopy}>
                   <h3>О товаре</h3>
                   <p>
@@ -2454,10 +2498,10 @@ export default function BuyerWorkspace({ searchParams }: BuyerWorkspaceProps) {
                   aria-label="Сводка по товару"
                 >
                   <span>
-                    <strong>{selectedProduct.offers.length}</strong>
+                    <strong>{comparison?.offers.length ?? selectedProduct.offers.length}</strong>
                     <small>
                       {ruCount(
-                        selectedProduct.offers.length,
+                        comparison?.offers.length ?? selectedProduct.offers.length,
                         "предложение",
                         "предложения",
                         "предложений",

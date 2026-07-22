@@ -101,10 +101,11 @@ describe("supplier matching", () => {
   it("matches a Solventum catalog number even when the supplier name is abbreviated", () => {
     const solventumVariant = {
       ...variant,
+      sku: "56971",
       product: {
         canonicalName: "3M RelyX Universal Resin Cement",
         externalMetadata: {
-          catalogAliases: ["RelyX Universal", "56971", "56972"],
+          catalogAliases: ["RelyX Universal"],
         },
         brand: { name: "Solventum" },
         manufacturer: { name: "Solventum Corporation" },
@@ -118,17 +119,18 @@ describe("supplier matching", () => {
       },
       [solventumVariant],
     );
-    expect(candidates[0]?.reasons).toContain("catalog_code");
+    expect(candidates[0]?.reasons).toContain("manufacturer_ref");
     expect(isConfidentAutomaticMatch(candidates)).toBe(true);
   });
 
   it("matches a Kerr kit by manufacturer catalog number", () => {
     const kerrVariant = {
       ...variant,
+      sku: "36517",
       product: {
         canonicalName: "Kerr OptiBond Universal",
         externalMetadata: {
-          catalogAliases: ["OptiBond Universal", "36517", "36518", "36519"],
+          catalogAliases: ["OptiBond Universal"],
         },
         brand: { name: "Kerr" },
         manufacturer: { name: "Kerr Corporation" },
@@ -142,17 +144,18 @@ describe("supplier matching", () => {
       },
       [kerrVariant],
     );
-    expect(candidates[0]?.reasons).toContain("catalog_code");
+    expect(candidates[0]?.reasons).toContain("manufacturer_ref");
     expect(isConfidentAutomaticMatch(candidates)).toBe(true);
   });
 
   it("keeps a leading zero when matching a GC catalog number", () => {
     const gcVariant = {
       ...variant,
+      sku: "012948",
       product: {
         canonicalName: "GC FujiCEM Evolve",
         externalMetadata: {
-          catalogAliases: ["FujiCEM Evolve", "012948", "012950"],
+          catalogAliases: ["FujiCEM Evolve"],
         },
         brand: { name: "GC" },
         manufacturer: { name: "GC Corporation" },
@@ -166,17 +169,18 @@ describe("supplier matching", () => {
       },
       [gcVariant],
     );
-    expect(candidates[0]?.reasons).toContain("catalog_code");
+    expect(candidates[0]?.reasons).toContain("manufacturer_ref");
     expect(isConfidentAutomaticMatch(candidates)).toBe(true);
   });
 
   it("matches a VOCO product by manufacturer REF number", () => {
     const vocoVariant = {
       ...variant,
+      sku: "1577",
       product: {
         canonicalName: "VOCO Futurabond U",
         externalMetadata: {
-          catalogAliases: ["Futurabond U", "1571", "1572", "1574", "1577", "1578"],
+          catalogAliases: ["Futurabond U"],
         },
         brand: { name: "VOCO" },
         manufacturer: { name: "VOCO GmbH" },
@@ -190,7 +194,7 @@ describe("supplier matching", () => {
       },
       [vocoVariant],
     );
-    expect(candidates[0]?.reasons).toContain("catalog_code");
+    expect(candidates[0]?.reasons).toContain("manufacturer_ref");
     expect(isConfidentAutomaticMatch(candidates)).toBe(true);
   });
 });

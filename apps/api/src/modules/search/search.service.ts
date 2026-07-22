@@ -27,6 +27,36 @@ type PublicSearchPromotion = {
   endsAt: Date;
   sponsorshipLabel: string | null;
 };
+const publicVariant = (variant: {
+  id: string;
+  sku: string | null;
+  gtin: string | null;
+  externalMetadata: Prisma.JsonValue;
+}) => {
+  const metadata =
+    variant.externalMetadata &&
+    typeof variant.externalMetadata === "object" &&
+    !Array.isArray(variant.externalMetadata)
+      ? (variant.externalMetadata as Record<string, unknown>)
+      : {};
+  return {
+    id: variant.id,
+    sku: variant.sku,
+    gtin: variant.gtin,
+    label:
+      typeof metadata.label === "string"
+        ? metadata.label
+        : variant.sku
+          ? `REF ${variant.sku}`
+          : "Стандартный вариант",
+    attributes:
+      metadata.attributes &&
+      typeof metadata.attributes === "object" &&
+      !Array.isArray(metadata.attributes)
+        ? metadata.attributes
+        : {},
+  };
+};
 
 @Injectable()
 export class SearchService {
@@ -258,7 +288,12 @@ export class SearchService {
     const product = products[0];
     if (!product) throw new NotFoundException("Marketplace product not found");
     const now = new Date();
-    const offers = product.variants
+    const selectedVariants = input.variantId
+      ? product.variants.filter(({ id }) => id === input.variantId)
+      : product.variants;
+    if (input.variantId && !selectedVariants.length)
+      throw new NotFoundException("Product variant not found");
+    const offers = selectedVariants
       .flatMap((variant) =>
         variant.supplierOffers.map((offer) => {
           const decision = resolvePriceRules({
@@ -389,10 +424,10 @@ export class SearchService {
           Number(right.price.normalizedPriceMinor),
       );
     const reviewSummary = await this.reviewSummaries(
-      product.variants.map(({ id }) => id),
+      selectedVariants.map(({ id }) => id),
     );
     const summary = this.productReviewSummary(
-      product.variants.map(({ id }) => id),
+      selectedVariants.map(({ id }) => id),
       reviewSummary,
     );
     return {
@@ -404,6 +439,8 @@ export class SearchService {
         baseUnit: product.baseUnit,
       },
       reviewSummary: summary,
+      variants: product.variants.map(publicVariant),
+      selectedVariantId: input.variantId ?? null,
       offers,
       comparisonAttributes: this.comparisonAttributes(product),
     };
@@ -732,6 +769,7 @@ export class SearchService {
         reviewSummaries,
       ),
       rank,
+      variants: product.variants.map(publicVariant),
       offers,
     };
   }

@@ -21,6 +21,7 @@ const output = path.join(
   "apps/buyer-web/app/data/public-catalog-fallback.json",
 );
 const aliasesPath = path.join(root, "data/catalog-model-aliases-wave-1.csv");
+const skuLabelsPath = path.join(root, "data/catalog-product-skus-wave-1.csv");
 const files = (await fs.readdir(inputDir))
   .filter((file) => file.endsWith(".csv"))
   .sort();
@@ -42,12 +43,45 @@ const aliasRows = await fs
     if (error.code === "ENOENT") return [];
     throw error;
   });
+const skuLabelRows = await fs
+  .readFile(skuLabelsPath)
+  .then((content) =>
+    parse(content, {
+      columns: true,
+      skip_empty_lines: true,
+      bom: true,
+      trim: true,
+    }),
+  )
+  .catch((error) => {
+    if (error.code === "ENOENT") return [];
+    throw error;
+  });
+const skuLabelByKey = new Map(
+  skuLabelRows.map((row) => [
+    [row.brand || "Без бренда", row.canonicalProductName, row.manufacturerRef]
+      .map((value) => clean(value).toLocaleLowerCase("ru"))
+      .join("|"),
+    clean(row.variantLabel),
+  ]),
+);
+const isManufacturerReference = (value) =>
+  /^(?=.*\d)[a-z0-9][a-z0-9._/-]{3,}$/i.test(clean(value));
 const aliasesByProduct = aliasRows.reduce((result, row) => {
   const key = [row.brand || "Без бренда", row.canonicalProductName]
     .map((value) => clean(value).toLocaleLowerCase("ru"))
     .join("|");
   if (!result.has(key)) result.set(key, new Set());
-  if (clean(row.alias)) result.get(key).add(clean(row.alias));
+  if (clean(row.alias) && !isManufacturerReference(row.alias))
+    result.get(key).add(clean(row.alias));
+  return result;
+}, new Map());
+const referencesByProduct = aliasRows.reduce((result, row) => {
+  const key = [row.brand || "Без бренда", row.canonicalProductName]
+    .map((value) => clean(value).toLocaleLowerCase("ru"))
+    .join("|");
+  if (!result.has(key)) result.set(key, new Set());
+  if (isManufacturerReference(row.alias)) result.get(key).add(clean(row.alias));
   return result;
 }, new Map());
 
@@ -260,6 +294,26 @@ for (const row of acceptedRows) {
 
 const products = [...grouped.values()].map((row) => {
   const id = `public-${hash(row.key)}`;
+  const manufacturerReferences = [...(referencesByProduct.get(row.key) ?? [])];
+  const variants = manufacturerReferences.length
+    ? manufacturerReferences.map((sku) => ({
+        id: `${id}-variant-${hash(sku.toLocaleLowerCase("ru"))}`,
+        sku,
+        gtin: null,
+        label:
+          skuLabelByKey.get(`${row.key}|${sku.toLocaleLowerCase("ru")}`) ??
+          `REF ${sku}`,
+        attributes: { "Артикул производителя": sku },
+      }))
+    : [
+        {
+          id: `${id}-variant-default`,
+          sku: row.supplierSku || null,
+          gtin: null,
+          label: row.unit ? `Стандартная фасовка · ${row.unit}` : "Стандартный вариант",
+          attributes: {},
+        },
+      ];
   const description =
     row.description ||
     generateCanonicalDescription({
@@ -293,8 +347,22 @@ const products = [...grouped.values()].map((row) => {
       }, new Map())
       .values(),
   ];
-  const offers = offerRecords.map((source, index) => ({
+  const resolvedOfferRecords = offerRecords
+    .map((source) => {
+    const matchedVariant =
+      variants.find(
+        (variant) =>
+          variant.sku &&
+          source.supplierSku &&
+          variant.sku.toLocaleLowerCase("ru") ===
+            source.supplierSku.toLocaleLowerCase("ru"),
+      ) ?? (variants.length === 1 ? variants[0] : null);
+    return matchedVariant ? { source, matchedVariant } : null;
+    })
+    .filter(Boolean);
+  const offers = resolvedOfferRecords.map(({ source, matchedVariant }, index) => ({
     id: `${id}-offer-${index}`,
+    variantId: matchedVariant.id,
     supplier: {
       id: `supplier-${hash(source.supplier)}`,
       name: source.supplier,
@@ -315,8 +383,8 @@ const products = [...grouped.values()].map((row) => {
     officialDistributor: false,
     supplierWarranty: false,
   }));
-  const pricedOffers = offerRecords
-    .map((source) => source.priceMinor)
+  const pricedOffers = resolvedOfferRecords
+    .map(({ source }) => source.priceMinor)
     .filter(Boolean);
   const minPriceMinor = pricedOffers.length ? Math.min(...pricedOffers) : null;
   return {
@@ -331,12 +399,13 @@ const products = [...grouped.values()].map((row) => {
     sourceUpdatedAt: row.sourceUpdatedAt,
     attributes,
     aliases: [...(aliasesByProduct.get(row.key) ?? [])],
+    variants,
     photoStatus: "category_illustration",
     catalogSource: row.sourceRecords.some((source) => source.catalogOnly)
       ? "manufacturer"
       : "supplier",
     minNormalizedPriceMinor: minPriceMinor ? String(minPriceMinor) : null,
-    isAvailable: offerRecords.some((source) => source.available),
+    isAvailable: resolvedOfferRecords.some(({ source }) => source.available),
     offers,
   };
 });
