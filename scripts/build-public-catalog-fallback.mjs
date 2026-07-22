@@ -41,6 +41,7 @@ const aliasRows = await fs
       skip_empty_lines: true,
       bom: true,
       trim: true,
+      relax_column_count: true,
     }),
   )
   .catch((error) => {
@@ -96,7 +97,11 @@ const aliasesByProduct = aliasRows.reduce((result, row) => {
     .map((value) => clean(value).toLocaleLowerCase("ru"))
     .join("|");
   if (!result.has(key)) result.set(key, new Set());
-  if (clean(row.alias) && !isManufacturerReference(row.alias))
+  if (
+    clean(row.alias) &&
+    (clean(row.aliasType).toLocaleLowerCase("ru") === "search" ||
+      !isManufacturerReference(row.alias))
+  )
     result.get(key).add(clean(row.alias));
   return result;
 }, new Map());
@@ -105,7 +110,11 @@ const referencesByProduct = aliasRows.reduce((result, row) => {
     .map((value) => clean(value).toLocaleLowerCase("ru"))
     .join("|");
   if (!result.has(key)) result.set(key, new Set());
-  if (isManufacturerReference(row.alias)) result.get(key).add(clean(row.alias));
+  if (
+    clean(row.aliasType).toLocaleLowerCase("ru") !== "search" &&
+    isManufacturerReference(row.alias)
+  )
+    result.get(key).add(clean(row.alias));
   return result;
 }, new Map());
 

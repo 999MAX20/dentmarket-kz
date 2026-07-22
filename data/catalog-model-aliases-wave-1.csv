@@ -1,4 +1,4 @@
-brand,canonicalProductName,alias
+brand,canonicalProductName,alias,aliasType
 Planmeca,Planmeca Compact i5,Compact i5
 Planmeca,Planmeca Compact i5,Compact i 5
 Planmeca,Planmeca Compact i5,Planmeca Compact i5 dental unit
@@ -111,7 +111,7 @@ Solventum,3M Clinpro White Varnish,Clinpro White Varnish
 Solventum,3M Clinpro White Varnish,Clinpro varnish
 Solventum,3M Clinpro White Varnish,Clinpro 12247BL
 Solventum,3M Clinpro White Varnish,12247BL
-Solventum,3M Clinpro White Varnish,70201420752
+Solventum,3M Clinpro White Varnish,70201420752,search
 Kerr,Kerr Harmonize,Harmonize
 Kerr,Kerr Harmonize,Harmonize Universal Composite
 Kerr,Kerr Harmonize,Harmonize Intro Kit
