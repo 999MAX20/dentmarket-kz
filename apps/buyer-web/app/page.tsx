@@ -1705,6 +1705,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       <Section>
         {!isPublic ? (
           <>
+            {/** Keep cabinet search behavior and visual language aligned with the public store. */}
             <form
               id="catalog-search"
               className={styles.searchBar}
@@ -1716,28 +1717,67 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               }}
             >
               <Field label="Поиск по каталогу">
-                <input
-                  ref={searchInputRef}
-                  className={styles.searchInput}
-                  aria-label="Поиск по каталогу"
-                  value={query}
-                  onChange={(event) => setQuery(event.currentTarget.value)}
-                  onInput={(event) => {
-                    const value = event.currentTarget.value;
-                    setQuery(value);
-                    if (!handoff) {
-                      setSearch(
-                        fallbackSearch(value, sort, {
-                          unit: unitFilter,
-                          packaging: packagingFilter,
-                          delivery: deliveryFilter,
-                          stock: "all",
-                        }),
-                      );
-                    }
-                  }}
-                  placeholder="Например: текучий композит, гутта, перчатки"
-                />
+                <div className={styles.searchInputShell}>
+                  <Search24Regular aria-hidden="true" />
+                  <input
+                    ref={searchInputRef}
+                    className={styles.searchInput}
+                    aria-label="Поиск по каталогу"
+                    value={query}
+                    onChange={(event) => setQuery(event.currentTarget.value)}
+                    onInput={(event) => {
+                      const value = event.currentTarget.value;
+                      setQuery(value);
+                      if (!handoff) {
+                        setSearch(
+                          fallbackSearch(value, sort, {
+                            unit: unitFilter,
+                            packaging: packagingFilter,
+                            delivery: deliveryFilter,
+                            stock: "all",
+                          }),
+                        );
+                      }
+                    }}
+                    placeholder="Найти товар, бренд, артикул или сказать по-своему"
+                  />
+                  {(() => {
+                    const normalized = query.trim().toLocaleLowerCase("ru");
+                    const pool = [
+                      ...dentalSearchSuggestions,
+                      ...Object.keys(dentalSearchAliases),
+                      ...Object.values(dentalSearchAliases).flat(),
+                      ...recentSearches,
+                    ];
+                    const matches = [...new Set(pool)]
+                      .filter(
+                        (suggestion) =>
+                          normalized.length >= 2 &&
+                          suggestion.toLocaleLowerCase("ru").includes(normalized) &&
+                          suggestion.toLocaleLowerCase("ru") !== normalized,
+                      )
+                      .slice(0, 6);
+                    return matches.length ? (
+                      <div className={styles.searchSuggestions} role="listbox" aria-label="Подсказки поиска">
+                        {matches.map((suggestion) => (
+                          <button
+                            key={suggestion}
+                            type="button"
+                            role="option"
+                            onMouseDown={(event) => event.preventDefault()}
+                            onClick={() => {
+                              setQuery(suggestion);
+                              void submitSearchFor(suggestion);
+                            }}
+                          >
+                            <Search24Regular aria-hidden="true" />
+                            <span>{suggestion}</span>
+                          </button>
+                        ))}
+                      </div>
+                    ) : null;
+                  })()}
+                </div>
               </Field>
               <Field label="Сортировка">
                 <Select
@@ -2266,8 +2306,34 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                     </div>
                   </a>
                   <div className={styles.productActions}>
+                    {(() => {
+                      const cartOffer = eligibleOffers[0] ??
+                        (isPublic && product.offers.length === 1
+                          ? product.offers[0]
+                          : undefined);
+                      return cartOffer ? (
+                        <Button
+                          appearance="primary"
+                          icon={<Cart24Regular />}
+                          onClick={(event) => {
+                            event.stopPropagation();
+                            void addToCart(cartOffer.id);
+                          }}
+                          disabled={
+                            busy === `cart:${cartOffer.id}` ||
+                            (!isPublic &&
+                              (!cartOffer.available ||
+                                cartOffer.verifiedDocuments === false))
+                          }
+                        >
+                          {busy === `cart:${cartOffer.id}`
+                            ? "Добавляем"
+                            : "В корзину"}
+                        </Button>
+                      ) : null;
+                    })()}
                     <Button
-                      appearance="primary"
+                      appearance="secondary"
                       onClick={(event) => {
                         event.stopPropagation();
                         openProduct(product);
