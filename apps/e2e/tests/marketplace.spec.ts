@@ -40,6 +40,32 @@ test("buyer can open a product card from the public catalog", async ({ page }) =
   await expectHealthyPage(page, errors);
 });
 
+test("buyer can use dental slang search and return to the same catalog context", async ({ page }) => {
+  const errors = collectBrowserErrors(page);
+  await page.goto("http://127.0.0.1:3001/?q=%D0%BF%D0%B5%D1%80");
+  await expect(page.getByRole("heading", { name: "Каталог для стоматологий" })).toBeVisible();
+  await page.getByRole("searchbox", { name: "Поиск по каталогу" }).fill("пер");
+  await expect(page.getByRole("option", { name: "перчатки" })).toBeVisible();
+  await page.getByRole("option", { name: "перчатки" }).click();
+  await expect(page.getByTestId("product-card").first()).toBeVisible();
+  const firstCard = page.getByTestId("product-card").first();
+  await firstCard.getByRole("link", { name: /Открыть карточку/ }).click();
+  await expect(page).toHaveURL(/\/products\//);
+  await page.getByRole("link", { name: /Вернуться в каталог/ }).click();
+  await expect(page).toHaveURL(/q=/);
+  await expect(page.getByTestId("product-card").first()).toBeVisible();
+  await expectHealthyPage(page, errors);
+});
+
+test("product card exposes a clear add-to-cart action", async ({ page }) => {
+  const errors = collectBrowserErrors(page);
+  await page.goto("http://127.0.0.1:3001");
+  const card = page.getByTestId("product-card").first();
+  await expect(card).toBeVisible();
+  await expect(card.getByRole("button", { name: /В корзину|Смотреть предложение|Открыть карточку/ }).first()).toBeVisible();
+  await expectHealthyPage(page, errors);
+});
+
 test("supplier can switch organization and inspect offers", async ({ page }) => {
   const errors = collectBrowserErrors(page);
   await page.goto("http://127.0.0.1:3002");

@@ -780,6 +780,26 @@
   padding: 18px;
   border-top: 1px solid var(--colorNeutralStroke2);
 }
+.quantityControl {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 34px;
+  padding: 2px 4px;
+  border: 1px solid var(--colorNeutralStroke2);
+  border-radius: 9px;
+  background: var(--colorNeutralBackground1);
+}
+.quantityControl strong {
+  min-width: 22px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+.quantityControl :global(.fui-Button) {
+  min-width: 28px;
+  min-height: 28px;
+  padding: 0;
+}
 .cartTotal span {
   display: grid;
   gap: 3px;

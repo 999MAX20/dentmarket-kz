@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "build": "next build --webpack",
-    "dev": "next dev --webpack --port 3001",
-    "start": "next start --port 3001",
+    "dev": "node -r ../../scripts/next-semver-compat.cjs ./node_modules/next/dist/bin/next dev --webpack --port 3001",
+    "start": "node -r ../../scripts/next-semver-compat.cjs ./node_modules/next/dist/bin/next start --port 3001",
     "typecheck": "tsc --noEmit",
     "lint": "tsc --noEmit",
     "test": "vitest run --passWithNoTests"

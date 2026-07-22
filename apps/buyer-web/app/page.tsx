@@ -1486,6 +1486,37 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     }
   };
 
+  const updateCartItemQuantity = async (itemId: string, quantity: number) => {
+    if (!activeCart || quantity < 1) return;
+    setBusy(`cart-item:${itemId}`);
+    setError(null);
+    try {
+      await api.patch(`/carts/${activeCart.id}/items/${itemId}`, { quantity });
+      setCarts(await api.get<Cart[]>(`/buyers/${buyerId}/carts`));
+    } catch (cause) {
+      setError(errorMessage(cause));
+    } finally {
+      setBusy(null);
+    }
+  };
+
+  const removeCartItem = async (itemId: string) => {
+    if (!activeCart) return;
+    setBusy(`cart-item:${itemId}`);
+    setError(null);
+    try {
+      await api.request(`/carts/${activeCart.id}/items/${itemId}`, {
+        method: "DELETE",
+      });
+      setCarts(await api.get<Cart[]>(`/buyers/${buyerId}/carts`));
+      setToast("Позиция удалена из корзины");
+    } catch (cause) {
+      setError(errorMessage(cause));
+    } finally {
+      setBusy(null);
+    }
+  };
+
   const reviewDraft = (orderId: string) =>
     reviewDrafts[orderId] ?? { rating: 5, comment: "" };
   const submitReview = async (orderId: string) => {
@@ -2937,7 +2968,50 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                       {item.offer?.supplier?.organization?.displayName ??
                         "Поставщик"}
                     </td>
-                    <td>{item.quantity}</td>
+                    <td>
+                      <div className={styles.quantityControl}>
+                        <Button
+                          appearance="subtle"
+                          size="small"
+                          onClick={() =>
+                            void updateCartItemQuantity(
+                              item.id,
+                              Math.max(1, item.quantity - 1),
+                            )
+                          }
+                          disabled={
+                            item.quantity <= 1 ||
+                            busy === `cart-item:${item.id}`
+                          }
+                          aria-label="Уменьшить количество"
+                        >
+                          −
+                        </Button>
+                        <strong>{item.quantity}</strong>
+                        <Button
+                          appearance="subtle"
+                          size="small"
+                          onClick={() =>
+                            void updateCartItemQuantity(
+                              item.id,
+                              item.quantity + 1,
+                            )
+                          }
+                          disabled={busy === `cart-item:${item.id}`}
+                          aria-label="Увеличить количество"
+                        >
+                          +
+                        </Button>
+                        <Button
+                          appearance="subtle"
+                          size="small"
+                          icon={<Dismiss24Regular />}
+                          onClick={() => void removeCartItem(item.id)}
+                          disabled={busy === `cart-item:${item.id}`}
+                          aria-label="Удалить позицию"
+                        />
+                      </div>
+                    </td>
                     <td>{formatMoney(item.unitPriceMinor, item.currency)}</td>
                     <td>
                       <strong>
