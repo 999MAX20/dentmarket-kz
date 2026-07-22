@@ -1164,20 +1164,57 @@
 .dealLabel { color: #527568; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
 
 .catalogToolbar {
-  min-height: 86px;
+  min-height: 72px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-  padding: 18px 20px;
+  gap: 16px;
+  padding: 13px 20px;
   border-bottom: 1px solid #e4e9e6;
 }
-.catalogToolbar h1 { margin: 0; font-size: 24px; letter-spacing: -.045em; }
-.catalogToolbar p { margin: 5px 0 0; color: #6d7773; font-size: 12px; }
+.catalogToolbar h1 { margin: 0; font-size: 22px; letter-spacing: -.04em; }
+.catalogToolbar p { margin: 3px 0 0; color: #6d7773; font-size: 11px; }
 .catalogToolbarActions { display: flex; align-items: center; gap: 10px; }
-.catalogToolbarActions :global(.fui-Button),
-.catalogToolbarActions :global(.fui-Select) { min-height: 38px; border-radius: 9px; }
-.catalogToolbarActions :global(.fui-Button) { border-color: #cfd9d4; color: #234d41; }
+.catalogToolbarActions :global(.fui-Button) {
+  min-height: 40px;
+  padding-inline: 14px;
+  border: 1px solid #d5ded9;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: none;
+  color: #234d41;
+  font-size: 12px;
+  font-weight: 700;
+}
+.catalogToolbarActions :global(.fui-Button:hover) {
+  border-color: #9fb3aa;
+  background: #f4f7f5;
+  color: #173d32;
+}
+.catalogToolbarActions :global(.fui-Select) {
+  min-width: 192px;
+  min-height: 40px;
+  border: 1px solid #d5ded9;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: none;
+}
+.catalogToolbarActions :global(.fui-Select__select) {
+  min-height: 38px;
+  padding: 0 38px 0 13px;
+  border: 0;
+  background: transparent;
+  color: #26332f;
+  font-size: 12px;
+  font-weight: 650;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.catalogToolbarActions :global(.fui-Select__select:focus) { outline: none; }
+.catalogToolbarActions :global(.fui-Select__icon) {
+  right: 12px;
+  color: #60706a;
+}
 
 .activeFilters {
   display: flex;
