@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T18:42:25.433Z",
+  "generatedAt": "2026-07-22T18:47:01.636Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -14,7 +14,7 @@
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3235,
+  "total": 3240,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -214733,120 +214733,6 @@
       ]
     },
     {
-      "id": "public-cc360de7ff7471eb472375a3",
-      "name": "Ручные эндодонтические инструменты",
-      "description": "Ручные эндодонтические инструменты бренда VDW в категории «Эндодонтия». Поставляется как уп.",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Ручные эндодонтические инструменты",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Эндодонтия",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "VDW",
-            "confidence": 0.72
-          },
-          {
-            "field": "MANUFACTURER",
-            "value": "VDW",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "уп.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "nordstom",
-            "sourceUrl": "https://nordstom.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Ручные эндодонтические инструменты"
-          }
-        ]
-      },
-      "brand": "VDW",
-      "manufacturer": "VDW",
-      "category": "Эндодонтия",
-      "sourceUrl": "https://nordstom.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Эндодонтия"
-        ],
-        [
-          "Бренд",
-          "VDW"
-        ],
-        [
-          "Производитель",
-          "VDW"
-        ],
-        [
-          "Единица",
-          "уп."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-cc360de7ff7471eb472375a3-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · уп.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-cc360de7ff7471eb472375a3-offer-0",
-          "variantId": "public-cc360de7ff7471eb472375a3-variant-default",
-          "supplier": {
-            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
-            "name": "NORD STOM"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "уп.",
-            "quantityInBaseUnit": "1",
-            "unit": "уп."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
       "id": "public-ac07f03ac1fb10bde2dabb09",
       "name": "С16 -01 модель",
       "description": "С16 -01 модель в категории «Стоматологические материалы и оборудование».",
@@ -320403,6 +320289,1018 @@
           "label": "Комплект VALO X · 5 линз · проводной и беспроводной режим",
           "attributes": {
             "Артикул производителя": "5973"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-7c239c885fed26635ca45c9f",
+      "name": "VDW C-Pilot Files",
+      "description": "Ручные файлы для прохождения узких и кальцифицированных корневых каналов. Длина и размер ISO выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "VDW C-Pilot Files",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Эндодонтия",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "VDW",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "VDW",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "уп.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "vdw-kz",
+            "sourceUrl": "https://nordstom.kz/brand?id=48",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "VDW C-Pilot Files"
+          }
+        ]
+      },
+      "brand": "VDW",
+      "manufacturer": "VDW",
+      "category": "Эндодонтия",
+      "sourceUrl": "https://nordstom.kz/brand?id=48",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Эндодонтия"
+        ],
+        [
+          "Бренд",
+          "VDW"
+        ],
+        [
+          "Производитель",
+          "VDW"
+        ],
+        [
+          "Единица",
+          "уп."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "VDW C-Pilot Files 6 шт. · 25 мм · ISO 006",
+        "VDW C-Pilot Files 6 шт. · 25 мм · ISO 008",
+        "VDW C-Pilot Files 6 шт. · 25 мм · ISO 010",
+        "VDW C-Pilot Files 6 шт. · 25 мм · набор ISO 006–010"
+      ],
+      "variants": [
+        {
+          "id": "public-7c239c885fed26635ca45c9f-variant-f58e68619baf7c1535c8b9e7",
+          "sku": "V040368025006",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 006",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040368025006"
+          }
+        },
+        {
+          "id": "public-7c239c885fed26635ca45c9f-variant-b061723f75c8353926b65dda",
+          "sku": "V040368025008",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 008",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040368025008"
+          }
+        },
+        {
+          "id": "public-7c239c885fed26635ca45c9f-variant-3a17c11296e4f24319592966",
+          "sku": "V040368025010",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 010",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040368025010"
+          }
+        },
+        {
+          "id": "public-7c239c885fed26635ca45c9f-variant-8d8cd5654c691593aea729e4",
+          "sku": "V040368025210",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · набор ISO 006–010",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040368025210"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-a6f1746039fa97ac1808cdd6",
+      "name": "VDW Finger Pluggers",
+      "description": "Ручные плаггеры для вертикальной конденсации гуттаперчи. Размер ISO выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "VDW Finger Pluggers",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Инструменты для пломбирования каналов",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "VDW",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "VDW",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "уп.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "vdw-kz",
+            "sourceUrl": "https://nordstom.kz/brand?id=48",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "VDW Finger Pluggers"
+          }
+        ]
+      },
+      "brand": "VDW",
+      "manufacturer": "VDW",
+      "category": "Инструменты для пломбирования каналов",
+      "sourceUrl": "https://nordstom.kz/brand?id=48",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Инструменты для пломбирования каналов"
+        ],
+        [
+          "Бренд",
+          "VDW"
+        ],
+        [
+          "Производитель",
+          "VDW"
+        ],
+        [
+          "Единица",
+          "уп."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "VDW Finger Pluggers 6 шт. · 25 мм · ISO 025",
+        "VDW Finger Pluggers 6 шт. · 25 мм · ISO 030"
+      ],
+      "variants": [
+        {
+          "id": "public-a6f1746039fa97ac1808cdd6-variant-58386859c16378768cf8c15a",
+          "sku": "V040399025025",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 025",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040399025025"
+          }
+        },
+        {
+          "id": "public-a6f1746039fa97ac1808cdd6-variant-6ba024ff042f4e5cb6d5c49b",
+          "sku": "V040399025030",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 030",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040399025030"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-a9566b42e6f0d3e8b7b0dd9b",
+      "name": "VDW Finger Spreaders",
+      "description": "Ручные спредеры для латеральной конденсации гуттаперчи. Размер ISO выбирается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "VDW Finger Spreaders",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Инструменты для пломбирования каналов",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "VDW",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "VDW",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "уп.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "vdw-kz",
+            "sourceUrl": "https://nordstom.kz/brand?id=48",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "VDW Finger Spreaders"
+          }
+        ]
+      },
+      "brand": "VDW",
+      "manufacturer": "VDW",
+      "category": "Инструменты для пломбирования каналов",
+      "sourceUrl": "https://nordstom.kz/brand?id=48",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Инструменты для пломбирования каналов"
+        ],
+        [
+          "Бренд",
+          "VDW"
+        ],
+        [
+          "Производитель",
+          "VDW"
+        ],
+        [
+          "Единица",
+          "уп."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "VDW Finger Spreaders 6 шт. · 25 мм · ISO 015",
+        "VDW Finger Spreaders 6 шт. · 25 мм · ISO 020",
+        "VDW Finger Spreaders 6 шт. · 25 мм · ISO 025",
+        "VDW Finger Spreaders 6 шт. · 25 мм · ISO 030",
+        "VDW Finger Spreaders 6 шт. · 25 мм · набор ISO 015–040"
+      ],
+      "variants": [
+        {
+          "id": "public-a9566b42e6f0d3e8b7b0dd9b-variant-96760397afd7526c8b7bbc7d",
+          "sku": "V040395025015",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 015",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040395025015"
+          }
+        },
+        {
+          "id": "public-a9566b42e6f0d3e8b7b0dd9b-variant-654df8d2fa28ebd7c2b98e18",
+          "sku": "V040395025020",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 020",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040395025020"
+          }
+        },
+        {
+          "id": "public-a9566b42e6f0d3e8b7b0dd9b-variant-b5596146259efed5b8dac9e2",
+          "sku": "V040395025025",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 025",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040395025025"
+          }
+        },
+        {
+          "id": "public-a9566b42e6f0d3e8b7b0dd9b-variant-3a78f0b41ad758bcfab4e968",
+          "sku": "V040395025030",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 030",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040395025030"
+          }
+        },
+        {
+          "id": "public-a9566b42e6f0d3e8b7b0dd9b-variant-56bc986634f457c7992e1f20",
+          "sku": "V040395025230",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · набор ISO 015–040",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040395025230"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-574c8b8ad54e7c3ed6cb9fe8",
+      "name": "VDW Hedstroem Files",
+      "description": "Ручные H-файлы для расширения корневых каналов. Длина и размер ISO выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "VDW Hedstroem Files",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Эндодонтия",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "VDW",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "VDW",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "уп.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "vdw-kz",
+            "sourceUrl": "https://nordstom.kz/brand?id=48",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "VDW Hedstroem Files"
+          }
+        ]
+      },
+      "brand": "VDW",
+      "manufacturer": "VDW",
+      "category": "Эндодонтия",
+      "sourceUrl": "https://nordstom.kz/brand?id=48",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Эндодонтия"
+        ],
+        [
+          "Бренд",
+          "VDW"
+        ],
+        [
+          "Производитель",
+          "VDW"
+        ],
+        [
+          "Единица",
+          "уп."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "VDW Hedstroem Files 6 шт. · 25 мм · ISO 008",
+        "VDW Hedstroem Files 6 шт. · 25 мм · ISO 010",
+        "VDW Hedstroem Files 6 шт. · 25 мм · ISO 015",
+        "VDW Hedstroem Files 6 шт. · 25 мм · ISO 020",
+        "VDW Hedstroem Files 6 шт. · 25 мм · ISO 025",
+        "VDW Hedstroem Files 6 шт. · 25 мм · ISO 030",
+        "VDW Hedstroem Files 6 шт. · 25 мм · ISO 035",
+        "VDW Hedstroem Files 6 шт. · 25 мм · ISO 040",
+        "VDW Hedstroem Files 6 шт. · 25 мм · набор ISO 015–040"
+      ],
+      "variants": [
+        {
+          "id": "public-574c8b8ad54e7c3ed6cb9fe8-variant-50a8dd567ca17d32978705ed",
+          "sku": "V040373025008",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 008",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040373025008"
+          }
+        },
+        {
+          "id": "public-574c8b8ad54e7c3ed6cb9fe8-variant-56b09e25fcd7fb6098134123",
+          "sku": "V040373025010",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 010",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040373025010"
+          }
+        },
+        {
+          "id": "public-574c8b8ad54e7c3ed6cb9fe8-variant-64228c1d7048ba9b6ceb70a5",
+          "sku": "V040373025015",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 015",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040373025015"
+          }
+        },
+        {
+          "id": "public-574c8b8ad54e7c3ed6cb9fe8-variant-5895ddf8b2f3318f695df946",
+          "sku": "V040373025020",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 020",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040373025020"
+          }
+        },
+        {
+          "id": "public-574c8b8ad54e7c3ed6cb9fe8-variant-2bc3c4d322a1945c1309fbee",
+          "sku": "V040373025025",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 025",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040373025025"
+          }
+        },
+        {
+          "id": "public-574c8b8ad54e7c3ed6cb9fe8-variant-33253ee064d4cd3d5a7b7ff9",
+          "sku": "V040373025030",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 030",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040373025030"
+          }
+        },
+        {
+          "id": "public-574c8b8ad54e7c3ed6cb9fe8-variant-4e1d4e25e3236a81187077ca",
+          "sku": "V040373025035",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 035",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040373025035"
+          }
+        },
+        {
+          "id": "public-574c8b8ad54e7c3ed6cb9fe8-variant-70d71a6b97042b6b6dd78b26",
+          "sku": "V040373025040",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 040",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040373025040"
+          }
+        },
+        {
+          "id": "public-574c8b8ad54e7c3ed6cb9fe8-variant-457f43d8b2da129a89da648d",
+          "sku": "V040373025230",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · набор ISO 015–040",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040373025230"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-bcaed22ce080f5b6c340a1d0",
+      "name": "VDW K-Files",
+      "description": "Ручные K-файлы для обработки корневых каналов. Длина и размер ISO выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "VDW K-Files",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Эндодонтия",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "VDW",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "VDW",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "уп.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "vdw-kz",
+            "sourceUrl": "https://nordstom.kz/brand?id=48",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "VDW K-Files"
+          }
+        ]
+      },
+      "brand": "VDW",
+      "manufacturer": "VDW",
+      "category": "Эндодонтия",
+      "sourceUrl": "https://nordstom.kz/brand?id=48",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Эндодонтия"
+        ],
+        [
+          "Бренд",
+          "VDW"
+        ],
+        [
+          "Производитель",
+          "VDW"
+        ],
+        [
+          "Единица",
+          "уп."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "VDW K-Files 6 шт. · 25 мм · ISO 006",
+        "VDW K-Files 6 шт. · 25 мм · ISO 008",
+        "VDW K-Files 6 шт. · 25 мм · ISO 010",
+        "VDW K-Files 6 шт. · 25 мм · ISO 015",
+        "VDW K-Files 6 шт. · 25 мм · ISO 020",
+        "VDW K-Files 6 шт. · 25 мм · ISO 025",
+        "VDW K-Files 6 шт. · 25 мм · ISO 030",
+        "VDW K-Files 6 шт. · 25 мм · ISO 035",
+        "VDW K-Files 6 шт. · 25 мм · ISO 040",
+        "VDW K-Files 6 шт. · 25 мм · набор ISO 015–040",
+        "VDW K-Files 6 шт. · 31 мм · ISO 010",
+        "VDW K-Files 6 шт. · 31 мм · ISO 015",
+        "VDW K-Files 6 шт. · 31 мм · ISO 020",
+        "VDW K-Files 6 шт. · 31 мм · ISO 025",
+        "VDW K-Files 6 шт. · 31 мм · ISO 030",
+        "VDW K-Files 6 шт. · 31 мм · ISO 035",
+        "VDW K-Files 6 шт. · 31 мм · ISO 040"
+      ],
+      "variants": [
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-974c25fd00a2227fa17ee0c6",
+          "sku": "V040363025006",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 006",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363025006"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-9bfcfa0b6e1b618c954f4e09",
+          "sku": "V040363025008",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 008",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363025008"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-eff84e1050825aff612dc7a4",
+          "sku": "V040363025010",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 010",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363025010"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-b3092bc7db9c0ee4e270ebe6",
+          "sku": "V040363025015",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 015",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363025015"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-f9eefe1539e4d8e0f487df41",
+          "sku": "V040363025020",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 020",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363025020"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-a8901427fe035f7039c398ce",
+          "sku": "V040363025025",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 025",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363025025"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-0e7ef6a9092e20b16272bdd1",
+          "sku": "V040363025030",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 030",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363025030"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-bade6e9611ceb1b860fe5b1a",
+          "sku": "V040363025035",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 035",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363025035"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-da0b0466973c74b5c4b1c7b1",
+          "sku": "V040363025040",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 040",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363025040"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-6a50a5f54634a3ed629596b9",
+          "sku": "V040363025230",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · набор ISO 015–040",
+          "attributes": {
+            "Форма выпуска": "Набор",
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363025230"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-4ccb45c7ffbfbf884f300beb",
+          "sku": "V040363031010",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 31 мм · ISO 010",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363031010"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-6765ec71f805014605718650",
+          "sku": "V040363031015",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 31 мм · ISO 015",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363031015"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-4757ad96a5e495c61d5d3d9b",
+          "sku": "V040363031020",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 31 мм · ISO 020",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363031020"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-5042aa900a06438c680a8bbd",
+          "sku": "V040363031025",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 31 мм · ISO 025",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363031025"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-c8752166e9bea183242bcdc0",
+          "sku": "V040363031030",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 31 мм · ISO 030",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363031030"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-ee6349095d2e0443db04f66f",
+          "sku": "V040363031035",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 31 мм · ISO 035",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363031035"
+          }
+        },
+        {
+          "id": "public-bcaed22ce080f5b6c340a1d0-variant-68755d67be15cac33a4b5e2e",
+          "sku": "V040363031040",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 31 мм · ISO 040",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040363031040"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-e6143405757001981cfc73f3",
+      "name": "VDW K-Reamers",
+      "description": "Ручные K-римеры для расширения корневых каналов вращательным движением. Длина и размер ISO выбираются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "VDW K-Reamers",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Эндодонтия",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "VDW",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "VDW",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "уп.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "vdw-kz",
+            "sourceUrl": "https://nordstom.kz/brand?id=48",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "VDW K-Reamers"
+          }
+        ]
+      },
+      "brand": "VDW",
+      "manufacturer": "VDW",
+      "category": "Эндодонтия",
+      "sourceUrl": "https://nordstom.kz/brand?id=48",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Эндодонтия"
+        ],
+        [
+          "Бренд",
+          "VDW"
+        ],
+        [
+          "Производитель",
+          "VDW"
+        ],
+        [
+          "Единица",
+          "уп."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [
+        "VDW K-Reamers 6 шт. · 25 мм · ISO 008",
+        "VDW K-Reamers 6 шт. · 25 мм · ISO 010",
+        "VDW K-Reamers 6 шт. · 25 мм · ISO 015",
+        "VDW K-Reamers 6 шт. · 25 мм · ISO 020",
+        "VDW K-Reamers 6 шт. · 25 мм · ISO 025",
+        "VDW K-Reamers 6 шт. · 25 мм · ISO 030"
+      ],
+      "variants": [
+        {
+          "id": "public-e6143405757001981cfc73f3-variant-6436c26929d3619dbfe9141e",
+          "sku": "V040353025008",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 008",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040353025008"
+          }
+        },
+        {
+          "id": "public-e6143405757001981cfc73f3-variant-96f1bf97c9315ecbe9b3546e",
+          "sku": "V040353025010",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 010",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040353025010"
+          }
+        },
+        {
+          "id": "public-e6143405757001981cfc73f3-variant-0dbd533e04e5cbce270b006a",
+          "sku": "V040353025015",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 015",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040353025015"
+          }
+        },
+        {
+          "id": "public-e6143405757001981cfc73f3-variant-1d8d21b4f450af28b89ec093",
+          "sku": "V040353025020",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 020",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040353025020"
+          }
+        },
+        {
+          "id": "public-e6143405757001981cfc73f3-variant-11c61af25d5fb10df638c270",
+          "sku": "V040353025025",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 025",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040353025025"
+          }
+        },
+        {
+          "id": "public-e6143405757001981cfc73f3-variant-e89cf924347e5c8bc223a8da",
+          "sku": "V040353025030",
+          "gtin": null,
+          "aliases": [],
+          "label": "6 шт. · 25 мм · ISO 030",
+          "attributes": {
+            "Количество": "6 шт.",
+            "Артикул производителя": "V040353025030"
           }
         }
       ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T18:42:25.942Z",
+  "generatedAt": "2026-07-22T18:47:02.308Z",
   "policy": {
     "referenceKey": "brand + manufacturerRef",
     "publishRule": "Kazakhstan evidence is tracked independently from the global manufacturer catalog",
@@ -8,10 +8,10 @@
     "sellerOfferCreatesDuplicateCard": false
   },
   "totals": {
-    "references": 762,
-    "kzConfirmedReferences": 187,
+    "references": 805,
+    "kzConfirmedReferences": 230,
     "confirmationRequiredReferences": 575,
-    "publishedReferences": 669,
+    "publishedReferences": 712,
     "ambiguousReferences": 0
   },
   "brands": [
@@ -482,18 +482,18 @@
     },
     {
       "brand": "VDW",
-      "coverageStatus": "NOT_CLASSIFIED",
-      "auditStage": "NOT_STARTED",
-      "nextAction": "Find an official Kazakhstan catalogue or authorized representative and reconcile every family",
-      "references": 0,
-      "kzConfirmedReferences": 0,
+      "coverageStatus": "KZ_AUDIT_IN_PROGRESS",
+      "auditStage": "EXACT_SKU_REVIEW_COMPLETE",
+      "nextAction": "Recheck current Kazakhstan assortment and official discontinuations",
+      "references": 43,
+      "kzConfirmedReferences": 43,
       "confirmationRequiredReferences": 0,
-      "publishedReferences": 0,
-      "canonicalFamilies": 0,
-      "kzMarketFamilies": 0,
-      "kzSkuConfirmedFamilies": 0,
-      "publishedFamilies": 1,
-      "expansionFamilies": 0
+      "publishedReferences": 43,
+      "canonicalFamilies": 6,
+      "kzMarketFamilies": 6,
+      "kzSkuConfirmedFamilies": 6,
+      "publishedFamilies": 6,
+      "expansionFamilies": 6
     },
     {
       "brand": "VITA",

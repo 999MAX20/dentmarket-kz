@@ -1,6 +1,6 @@
 # Kazakhstan SKU coverage
 
-Generated: 2026-07-22T18:42:25.942Z
+Generated: 2026-07-22T18:47:02.308Z
 
 | Brand | Audit status | References | Exact KZ refs | KZ review | Published-card refs | Ref families | KZ market families | Exact KZ families | Public cards | Expansion queue |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -35,7 +35,7 @@ Generated: 2026-07-22T18:42:25.942Z
 | Tor VM | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | TORNADO | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 | 0 |
 | Ultradent | KZ_AUDIT_REQUIRED | 2 | 0 | 2 | 2 | 2 | 0 | 0 | 5 | 5 |
-| VDW | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+| VDW | KZ_AUDIT_IN_PROGRESS | 43 | 43 | 0 | 43 | 6 | 6 | 6 | 6 | 6 |
 | VITA | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 17 | 0 |
 | VOCO | KZ_AUDIT_REQUIRED | 121 | 0 | 121 | 121 | 7 | 0 | 0 | 12 | 5 |
 | VRN | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 | 0 |
