@@ -2,6 +2,12 @@ name: Deploy database migrations
 
 on:
   workflow_dispatch:
+    inputs:
+      sync_catalog:
+        description: Sync canonical catalog cards and SKU variants
+        required: false
+        default: true
+        type: boolean
 
 permissions:
   contents: read
@@ -30,3 +36,6 @@ jobs:
         run: test -n "$DATABASE_URL"
       - name: Apply pending Prisma migrations
         run: pnpm --filter @marketplace/api exec prisma migrate deploy
+      - name: Sync canonical catalog and SKU variants
+        if: ${{ inputs.sync_catalog }}
+        run: pnpm catalog:sync-production:apply
