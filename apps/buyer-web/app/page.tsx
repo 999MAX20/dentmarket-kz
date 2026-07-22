@@ -771,6 +771,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   );
   const searchInputRef = useRef<HTMLInputElement>(null);
   const catalogUrlAppliedRef = useRef(false);
+  const returnScrollAppliedRef = useRef(false);
   const [comparison, setComparison] = useState<Comparison | null>(null);
   const [selectedProduct, setSelectedProduct] = useState<SearchProduct | null>(
     null,
@@ -1166,6 +1167,25 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     );
     if (!offset) void loadSearch(urlQuery, sort);
   }, [handoff, handoffChecked, loadSearch, sort]);
+
+  useEffect(() => {
+    if (returnScrollAppliedRef.current || typeof window === "undefined" || !search)
+      return;
+    const hash = window.location.hash;
+    if (!hash.startsWith("#product-")) return;
+    const productId = decodeURIComponent(hash.slice("#product-".length));
+    const card = Array.from(
+      document.querySelectorAll<HTMLElement>("[data-product-id]"),
+    ).find((element) => element.dataset.productId === productId);
+    if (!card) return;
+    returnScrollAppliedRef.current = true;
+    requestAnimationFrame(() => card.scrollIntoView({ block: "center" }));
+    window.history.replaceState(
+      null,
+      "",
+      `${window.location.pathname}${window.location.search}`,
+    );
+  }, [search]);
 
   const loadMoreProducts = async () => {
     const currentCount = search?.items.length ?? 0;
@@ -2106,6 +2126,10 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               const productImage = mediaSource(product.media?.[0]);
               const promotion = bestPromotionPercent(product);
               const priceDifference = priceDifferencePercent(product);
+              const productIndex = search?.items.findIndex(
+                (item) => item.id === product.id,
+              ) ?? 0;
+              const returnTo = `/?q=${encodeURIComponent(query)}&offset=${Math.max(0, Math.floor(productIndex / 60) * 60)}#product-${encodeURIComponent(product.id)}`;
               return (
                 <article
                   className={styles.product}
@@ -2115,7 +2139,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                 >
                   <a
                     className={styles.productCardSurface}
-                    href={`/products/${encodeURIComponent(product.id)}`}
+                    href={`/products/${encodeURIComponent(product.id)}?returnTo=${encodeURIComponent(returnTo)}`}
                     aria-label={`Открыть карточку ${product.name}`}
                   >
                     <div className={styles.productVisual}>

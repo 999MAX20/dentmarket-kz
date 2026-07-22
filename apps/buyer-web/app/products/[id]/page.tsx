@@ -45,10 +45,13 @@ export default async function ProductPage({
   searchParams,
 }: {
   params: Promise<{ id: string }>;
-  searchParams: Promise<{ variant?: string }>;
+  searchParams: Promise<{ variant?: string; returnTo?: string }>;
 }) {
   const { id } = await params;
-  const { variant: requestedVariantId } = await searchParams;
+  const {
+    variant: requestedVariantId,
+    returnTo: requestedReturnTo,
+  } = await searchParams;
   const product = getProduct(decodeURIComponent(id));
   if (!product) notFound();
 
@@ -68,11 +71,17 @@ export default async function ProductPage({
           (!offer.variantId && variants.length <= 1),
       )
     : product.offers;
+  const returnTo =
+    requestedReturnTo &&
+    requestedReturnTo.startsWith("/") &&
+    !requestedReturnTo.startsWith("//")
+      ? requestedReturnTo
+      : "/";
 
   return (
     <main className={styles.page}>
       <div className={styles.shell}>
-        <Link className={styles.back} href="/">
+        <Link className={styles.back} href={returnTo}>
           ← Вернуться в каталог
         </Link>
         <div className={styles.breadcrumbs}>
