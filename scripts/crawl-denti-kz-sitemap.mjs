@@ -105,8 +105,19 @@ const rows = await pool(urls, async (url) => {
       "Публичная карточка Denti.kz; цена и наличие требуют подтверждения поставщиком.",
   };
 });
+const repeatedNames = new Map();
+for (const row of rows) {
+  const key = row.name.toLocaleLowerCase("ru");
+  repeatedNames.set(key, (repeatedNames.get(key) || 0) + 1);
+}
+const invalidNames = new Set(
+  [...repeatedNames].filter(([, count]) => count > 25).map(([name]) => name),
+);
+const acceptedRows = rows.filter(
+  (row) => !invalidNames.has(row.name.toLocaleLowerCase("ru")),
+);
 const unique = new Map();
-for (const row of rows)
+for (const row of acceptedRows)
   unique.set(`${row.source_url}|${row.external_id}|${row.name}`, row);
 const columns = [
   "source_slug",
@@ -139,6 +150,7 @@ console.log(
     discovered: productUrls.size,
     crawled: urls.length,
     rows: unique.size,
+    quarantinedRows: rows.length - acceptedRows.length,
     out,
   }),
 );
