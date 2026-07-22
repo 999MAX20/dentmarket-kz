@@ -17,6 +17,7 @@
     "catalog:import:medstom": "node scripts/import-medstom-catalog.mjs",
     "catalog:build-public": "node scripts/build-public-catalog-fallback.mjs",
     "catalog:report-quality": "node scripts/report-public-catalog-quality.mjs",
+    "catalog:report-expansion": "node scripts/report-catalog-expansion.mjs",
     "catalog:bootstrap-canonical": "node scripts/bootstrap-canonical-catalog.mjs",
     "catalog:sync-production": "node scripts/sync-public-catalog-to-production.mjs",
     "catalog:sync-production:apply": "node scripts/sync-public-catalog-to-production.mjs --apply",
