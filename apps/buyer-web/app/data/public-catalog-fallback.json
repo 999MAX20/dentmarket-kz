@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T13:26:19.622Z",
+  "generatedAt": "2026-07-22T14:56:58.360Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -13,7 +13,7 @@
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3329,
+  "total": 3316,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -106698,6 +106698,31 @@
           "verifiedDocuments": false,
           "officialDistributor": false,
           "supplierWarranty": false
+        },
+        {
+          "id": "public-6cd0323d869343d1d1e6d8b1-offer-1",
+          "variantId": "public-6cd0323d869343d1d1e6d8b1-variant-default",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "CKB-154",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
         }
       ]
     },
@@ -106909,6 +106934,31 @@
           "verifiedDocuments": false,
           "officialDistributor": false,
           "supplierWarranty": false
+        },
+        {
+          "id": "public-a68096afa2b7a7114bb7eba6-offer-1",
+          "variantId": "public-a68096afa2b7a7114bb7eba6-variant-default",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "CKB-156",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
         }
       ]
     },
@@ -107117,6 +107167,31 @@
             "NATIONWIDE"
           ],
           "supplierSku": "CKB-151",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-d03b79bf3d2f6e624075927c-offer-1",
+          "variantId": "public-d03b79bf3d2f6e624075927c-variant-default",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "CKB-152",
           "verifiedDocuments": false,
           "officialDistributor": false,
           "supplierWarranty": false
@@ -155958,870 +156033,6 @@
       ]
     },
     {
-      "id": "public-2a0ddfe8eb2f999a8236b3e7",
-      "name": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A1-СТОМИР",
-      "description": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A1-СТОМИР в категории «Терапевтические материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A1-СТОМИР",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Терапевтические материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/181113104340",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A1 - СТОМИР"
-          }
-        ]
-      },
-      "brand": null,
-      "manufacturer": null,
-      "category": "Терапевтические материалы",
-      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/181113104340",
-      "sourceUpdatedAt": null,
-      "attributes": [
-        [
-          "Категория",
-          "Терапевтические материалы"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-2a0ddfe8eb2f999a8236b3e7-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-2a0ddfe8eb2f999a8236b3e7-offer-0",
-          "variantId": "public-2a0ddfe8eb2f999a8236b3e7-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-e38954538e9c8eb2fabb6fdc",
-      "name": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A2-СТОМИР",
-      "description": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A2-СТОМИР в категории «Терапевтические материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A2-СТОМИР",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Терапевтические материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210611042418",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A2 - СТОМИР"
-          }
-        ]
-      },
-      "brand": null,
-      "manufacturer": null,
-      "category": "Терапевтические материалы",
-      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210611042418",
-      "sourceUpdatedAt": null,
-      "attributes": [
-        [
-          "Категория",
-          "Терапевтические материалы"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-e38954538e9c8eb2fabb6fdc-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-e38954538e9c8eb2fabb6fdc-offer-0",
-          "variantId": "public-e38954538e9c8eb2fabb6fdc-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-6148a2254211df788cd91bcb",
-      "name": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A3-СТОМИР",
-      "description": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A3-СТОМИР в категории «Терапевтические материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A3-СТОМИР",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Терапевтические материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210611042627",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A3 - СТОМИР"
-          }
-        ]
-      },
-      "brand": null,
-      "manufacturer": null,
-      "category": "Терапевтические материалы",
-      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210611042627",
-      "sourceUpdatedAt": null,
-      "attributes": [
-        [
-          "Категория",
-          "Терапевтические материалы"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-6148a2254211df788cd91bcb-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-6148a2254211df788cd91bcb-offer-0",
-          "variantId": "public-6148a2254211df788cd91bcb-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-b0c77c5e923a1c152a0c5be1",
-      "name": "Материал композиционный пломбировочный светоотверждаемый Latelux A1-СТОМИР",
-      "description": "Материал композиционный пломбировочный светоотверждаемый Latelux A1-СТОМИР в категории «Терапевтические материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Материал композиционный пломбировочный светоотверждаемый Latelux A1-СТОМИР",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Терапевтические материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610033658",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Материал композиционный пломбировочный светоотверждаемый Latelux A1 - СТОМИР"
-          }
-        ]
-      },
-      "brand": null,
-      "manufacturer": null,
-      "category": "Терапевтические материалы",
-      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610033658",
-      "sourceUpdatedAt": null,
-      "attributes": [
-        [
-          "Категория",
-          "Терапевтические материалы"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-b0c77c5e923a1c152a0c5be1-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-b0c77c5e923a1c152a0c5be1-offer-0",
-          "variantId": "public-b0c77c5e923a1c152a0c5be1-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-6940bb34335c90b03c56d0eb",
-      "name": "Материал композиционный пломбировочный светоотверждаемый Latelux A2-СТОМИР",
-      "description": "Материал композиционный пломбировочный светоотверждаемый Latelux A2-СТОМИР в категории «Терапевтические материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Материал композиционный пломбировочный светоотверждаемый Latelux A2-СТОМИР",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Терапевтические материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610040558",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Материал композиционный пломбировочный светоотверждаемый Latelux A2 - СТОМИР"
-          }
-        ]
-      },
-      "brand": null,
-      "manufacturer": null,
-      "category": "Терапевтические материалы",
-      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610040558",
-      "sourceUpdatedAt": null,
-      "attributes": [
-        [
-          "Категория",
-          "Терапевтические материалы"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-6940bb34335c90b03c56d0eb-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-6940bb34335c90b03c56d0eb-offer-0",
-          "variantId": "public-6940bb34335c90b03c56d0eb-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-ded3cd47cda92279a7ff5d2d",
-      "name": "Материал композиционный пломбировочный светоотверждаемый Latelux A3-СТОМИР",
-      "description": "Материал композиционный пломбировочный светоотверждаемый Latelux A3-СТОМИР в категории «Терапевтические материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Материал композиционный пломбировочный светоотверждаемый Latelux A3-СТОМИР",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Терапевтические материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610041115",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Материал композиционный пломбировочный светоотверждаемый Latelux A3 - СТОМИР"
-          }
-        ]
-      },
-      "brand": null,
-      "manufacturer": null,
-      "category": "Терапевтические материалы",
-      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610041115",
-      "sourceUpdatedAt": null,
-      "attributes": [
-        [
-          "Категория",
-          "Терапевтические материалы"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-ded3cd47cda92279a7ff5d2d-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-ded3cd47cda92279a7ff5d2d-offer-0",
-          "variantId": "public-ded3cd47cda92279a7ff5d2d-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-12ba9237476f598399c5b073",
-      "name": "Материал композиционный пломбировочный светоотверждаемый Latelux B1-СТОМИР",
-      "description": "Материал композиционный пломбировочный светоотверждаемый Latelux B1-СТОМИР в категории «Терапевтические материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Материал композиционный пломбировочный светоотверждаемый Latelux B1-СТОМИР",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Терапевтические материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610041939",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Материал композиционный пломбировочный светоотверждаемый Latelux B1 - СТОМИР"
-          }
-        ]
-      },
-      "brand": null,
-      "manufacturer": null,
-      "category": "Терапевтические материалы",
-      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610041939",
-      "sourceUpdatedAt": null,
-      "attributes": [
-        [
-          "Категория",
-          "Терапевтические материалы"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-12ba9237476f598399c5b073-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-12ba9237476f598399c5b073-offer-0",
-          "variantId": "public-12ba9237476f598399c5b073-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-94717315c1cd01e02a1836d6",
-      "name": "Материал композиционный пломбировочный светоотверждаемый Latelux B2-СТОМИР",
-      "description": "Материал композиционный пломбировочный светоотверждаемый Latelux B2-СТОМИР в категории «Терапевтические материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Материал композиционный пломбировочный светоотверждаемый Latelux B2-СТОМИР",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Терапевтические материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610042203",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Материал композиционный пломбировочный светоотверждаемый Latelux B2 - СТОМИР"
-          }
-        ]
-      },
-      "brand": null,
-      "manufacturer": null,
-      "category": "Терапевтические материалы",
-      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610042203",
-      "sourceUpdatedAt": null,
-      "attributes": [
-        [
-          "Категория",
-          "Терапевтические материалы"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-94717315c1cd01e02a1836d6-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-94717315c1cd01e02a1836d6-offer-0",
-          "variantId": "public-94717315c1cd01e02a1836d6-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-beb8d51e068022a4e0d700a0",
-      "name": "Материал композиционный пломбировочный светоотверждаемый Latelux OA2-СТОМИР",
-      "description": "Материал композиционный пломбировочный светоотверждаемый Latelux OA2-СТОМИР в категории «Терапевтические материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Материал композиционный пломбировочный светоотверждаемый Latelux OA2-СТОМИР",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Терапевтические материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610041631",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Материал композиционный пломбировочный светоотверждаемый Latelux OA2 - СТОМИР"
-          }
-        ]
-      },
-      "brand": null,
-      "manufacturer": null,
-      "category": "Терапевтические материалы",
-      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610041631",
-      "sourceUpdatedAt": null,
-      "attributes": [
-        [
-          "Категория",
-          "Терапевтические материалы"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-beb8d51e068022a4e0d700a0-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-beb8d51e068022a4e0d700a0-offer-0",
-          "variantId": "public-beb8d51e068022a4e0d700a0-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
       "id": "public-ed82c5ebb34b98ebd64cdfff",
       "name": "Материал стоматологический светоотверждаемый жидкотекучий временный Quicks Flow Blue-СТОМИР",
       "description": "Материал стоматологический светоотверждаемый жидкотекучий временный Quicks Flow Blue-СТОМИР в категории «Стоматологические материалы и оборудование».",
@@ -157211,115 +156422,6 @@
             "NATIONWIDE"
           ],
           "supplierSku": "MOPYLEN-4/0",
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-2d179df650507b247bf6422f",
-      "name": "Материал Latelux flow A1",
-      "description": "Материал Latelux flow A1 бренда LaTus в категории «Пломбировочные материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Материал Latelux flow A1",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Пломбировочные материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "LaTus",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Материал Latelux flow A1"
-          }
-        ]
-      },
-      "brand": "LaTus",
-      "manufacturer": null,
-      "category": "Пломбировочные материалы",
-      "sourceUrl": "https://stomir.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Пломбировочные материалы"
-        ],
-        [
-          "Бренд",
-          "LaTus"
-        ],
-        [
-          "Артикул поставщика",
-          "1400016"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-2d179df650507b247bf6422f-variant-default",
-          "sku": "1400016",
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-2d179df650507b247bf6422f-offer-0",
-          "variantId": "public-2d179df650507b247bf6422f-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": "1400016",
           "verifiedDocuments": false,
           "officialDistributor": false,
           "supplierWarranty": false
@@ -188297,6 +187399,31 @@
       "offers": [
         {
           "id": "public-f18f8187a96661322383c30f-offer-0",
+          "variantId": "public-f18f8187a96661322383c30f-variant-default",
+          "supplier": {
+            "id": "supplier-af734c7b5d64f3be4044849a",
+            "name": "Medstom"
+          },
+          "priceMinor": "7117000",
+          "currency": "KZT",
+          "normalizedPriceMinor": "7117000",
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": null,
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-f18f8187a96661322383c30f-offer-1",
           "variantId": "public-f18f8187a96661322383c30f-variant-default",
           "supplier": {
             "id": "supplier-af734c7b5d64f3be4044849a",
@@ -235079,6 +234206,31 @@
           "deliveryMethods": [
             "NATIONWIDE"
           ],
+          "supplierSku": null,
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-ddf3a1d258b7910433b39ed9-offer-1",
+          "variantId": "public-ddf3a1d258b7910433b39ed9-variant-default",
+          "supplier": {
+            "id": "supplier-af734c7b5d64f3be4044849a",
+            "name": "Medstom"
+          },
+          "priceMinor": "913000",
+          "currency": "KZT",
+          "normalizedPriceMinor": "913000",
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
           "supplierSku": "MSK-T-36",
           "verifiedDocuments": false,
           "officialDistributor": false,
@@ -237846,333 +236998,6 @@
       ]
     },
     {
-      "id": "public-c7bdfbc25f5c0f750262359b",
-      "name": "Универсальный нанокомпозит CharmFil Plus A1",
-      "description": "Универсальный нанокомпозит CharmFil Plus A1 бренда DentKist в категории «Пломбировочные материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Универсальный нанокомпозит CharmFil Plus A1",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Пломбировочные материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "DentKist",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Универсальный нанокомпозит CharmFil Plus A1"
-          }
-        ]
-      },
-      "brand": "DentKist",
-      "manufacturer": null,
-      "category": "Пломбировочные материалы",
-      "sourceUrl": "https://stomir.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Пломбировочные материалы"
-        ],
-        [
-          "Бренд",
-          "DentKist"
-        ],
-        [
-          "Артикул поставщика",
-          "1401588"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-c7bdfbc25f5c0f750262359b-variant-default",
-          "sku": "1401588",
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-c7bdfbc25f5c0f750262359b-offer-0",
-          "variantId": "public-c7bdfbc25f5c0f750262359b-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": "1401588",
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-21862b122edbba377a9eecd6",
-      "name": "Универсальный нанокомпозит CharmFil Plus A2",
-      "description": "Универсальный нанокомпозит CharmFil Plus A2 бренда DentKist в категории «Пломбировочные материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Универсальный нанокомпозит CharmFil Plus A2",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Пломбировочные материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "DentKist",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Универсальный нанокомпозит CharmFil Plus A2"
-          }
-        ]
-      },
-      "brand": "DentKist",
-      "manufacturer": null,
-      "category": "Пломбировочные материалы",
-      "sourceUrl": "https://stomir.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Пломбировочные материалы"
-        ],
-        [
-          "Бренд",
-          "DentKist"
-        ],
-        [
-          "Артикул поставщика",
-          "1401589"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-21862b122edbba377a9eecd6-variant-default",
-          "sku": "1401589",
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-21862b122edbba377a9eecd6-offer-0",
-          "variantId": "public-21862b122edbba377a9eecd6-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": "1401589",
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-fc1d094268c60aee3a19ec29",
-      "name": "Универсальный нанокомпозит CharmFil Plus A3",
-      "description": "Универсальный нанокомпозит CharmFil Plus A3 бренда DentKist в категории «Пломбировочные материалы».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Универсальный нанокомпозит CharmFil Plus A3",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Пломбировочные материалы",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "DentKist",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Универсальный нанокомпозит CharmFil Plus A3"
-          }
-        ]
-      },
-      "brand": "DentKist",
-      "manufacturer": null,
-      "category": "Пломбировочные материалы",
-      "sourceUrl": "https://stomir.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Пломбировочные материалы"
-        ],
-        [
-          "Бренд",
-          "DentKist"
-        ],
-        [
-          "Артикул поставщика",
-          "1401590"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-fc1d094268c60aee3a19ec29-variant-default",
-          "sku": "1401590",
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-fc1d094268c60aee3a19ec29-offer-0",
-          "variantId": "public-fc1d094268c60aee3a19ec29-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": "1401590",
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
       "id": "public-f065d48068674b26349deb86",
       "name": "Универсальный нанокомпозит CharmFil Plus UO",
       "description": "Универсальный нанокомпозит CharmFil Plus UO бренда DentKist в категории «Пломбировочные материалы».",
@@ -238275,294 +237100,6 @@
             "NATIONWIDE"
           ],
           "supplierSku": "1401591",
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-80d670aed612f9154326bd84",
-      "name": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A1-СТОМИР",
-      "description": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A1-СТОМИР в категории «Оборудование».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A1-СТОМИР",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Оборудование",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210921115959",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A1 - СТОМИР"
-          }
-        ]
-      },
-      "brand": null,
-      "manufacturer": null,
-      "category": "Оборудование",
-      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210921115959",
-      "sourceUpdatedAt": null,
-      "attributes": [
-        [
-          "Категория",
-          "Оборудование"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-80d670aed612f9154326bd84-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-80d670aed612f9154326bd84-offer-0",
-          "variantId": "public-80d670aed612f9154326bd84-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-437d2120197e5eb70aa28232",
-      "name": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A2-СТОМИР",
-      "description": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A2-СТОМИР в категории «Оборудование».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A2-СТОМИР",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Оборудование",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210921122043",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A2 - СТОМИР"
-          }
-        ]
-      },
-      "brand": null,
-      "manufacturer": null,
-      "category": "Оборудование",
-      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210921122043",
-      "sourceUpdatedAt": null,
-      "attributes": [
-        [
-          "Категория",
-          "Оборудование"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-437d2120197e5eb70aa28232-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-437d2120197e5eb70aa28232-offer-0",
-          "variantId": "public-437d2120197e5eb70aa28232-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-00494367dafa361e260627c2",
-      "name": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A3-СТОМИР",
-      "description": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A3-СТОМИР в категории «Оборудование».",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A3-СТОМИР",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Оборудование",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "шт.",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "stomir",
-            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210921122349",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A3 - СТОМИР"
-          }
-        ]
-      },
-      "brand": null,
-      "manufacturer": null,
-      "category": "Оборудование",
-      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210921122349",
-      "sourceUpdatedAt": null,
-      "attributes": [
-        [
-          "Категория",
-          "Оборудование"
-        ],
-        [
-          "Единица",
-          "шт."
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-00494367dafa361e260627c2-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-00494367dafa361e260627c2-offer-0",
-          "variantId": "public-00494367dafa361e260627c2-variant-default",
-          "supplier": {
-            "id": "supplier-32634230d092cc85e6e789f2",
-            "name": "СТОМир"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "шт.",
-            "quantityInBaseUnit": "1",
-            "unit": "шт."
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
           "verifiedDocuments": false,
           "officialDistributor": false,
           "supplierWarranty": false
@@ -273642,6 +272179,231 @@
       ]
     },
     {
+      "id": "public-e25054e223eeb203780a070f",
+      "name": "CharmFil Plus",
+      "description": "CharmFil Plus бренда DentKist в категории «Пломбировочные материалы».",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.86,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "CharmFil Plus",
+            "confidence": 0.86
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Пломбировочные материалы",
+            "confidence": 0.86
+          },
+          {
+            "field": "BRAND",
+            "value": "DentKist",
+            "confidence": 0.86
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "DentKist",
+            "confidence": 0.86
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.86
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Универсальный нанокомпозит CharmFil Plus A1"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Универсальный нанокомпозит CharmFil Plus A2"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Универсальный нанокомпозит CharmFil Plus A3"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210921122043",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A2 - СТОМИР"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210921115959",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A1 - СТОМИР"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210921122349",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A3 - СТОМИР"
+          }
+        ]
+      },
+      "brand": "DentKist",
+      "manufacturer": "DentKist",
+      "category": "Пломбировочные материалы",
+      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210921122043",
+      "sourceUpdatedAt": "2026-07-17",
+      "attributes": [
+        [
+          "Категория",
+          "Пломбировочные материалы"
+        ],
+        [
+          "Бренд",
+          "DentKist"
+        ],
+        [
+          "Производитель",
+          "DentKist"
+        ],
+        [
+          "Артикул поставщика",
+          "1401588"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "6"
+        ]
+      ],
+      "aliases": [
+        "Универсальный нанокомпозит CharmFil Plus A1",
+        "Универсальный нанокомпозит CharmFil Plus A2",
+        "Универсальный нанокомпозит CharmFil Plus A3",
+        "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A1-СТОМИР",
+        "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A2-СТОМИР",
+        "Универсальный светоотверждаемый рентгеноконтрастный микрогибридный нанокомпозит CharmFil Plus A3-СТОМИР"
+      ],
+      "variants": [
+        {
+          "id": "public-e25054e223eeb203780a070f-variant-b2cdef2b90d29c6714b8492d",
+          "sku": "1401588",
+          "gtin": null,
+          "label": "Шприц · оттенок A1",
+          "attributes": {
+            "Артикул производителя": "1401588"
+          }
+        },
+        {
+          "id": "public-e25054e223eeb203780a070f-variant-bbe9930a14957ebbdcefdeec",
+          "sku": "1401589",
+          "gtin": null,
+          "label": "Шприц · оттенок A2",
+          "attributes": {
+            "Артикул производителя": "1401589"
+          }
+        },
+        {
+          "id": "public-e25054e223eeb203780a070f-variant-98e5df43e0c7f8a29a5bafbe",
+          "sku": "1401590",
+          "gtin": null,
+          "label": "Шприц · оттенок A3",
+          "attributes": {
+            "Артикул производителя": "1401590"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "supplier",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": [
+        {
+          "id": "public-e25054e223eeb203780a070f-offer-0",
+          "variantId": "public-e25054e223eeb203780a070f-variant-b2cdef2b90d29c6714b8492d",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "1401588",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-e25054e223eeb203780a070f-offer-1",
+          "variantId": "public-e25054e223eeb203780a070f-variant-bbe9930a14957ebbdcefdeec",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "1401589",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-e25054e223eeb203780a070f-offer-2",
+          "variantId": "public-e25054e223eeb203780a070f-variant-98e5df43e0c7f8a29a5bafbe",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "1401590",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        }
+      ]
+    },
+    {
       "id": "public-0411c4be75847e6c5f4bad1f",
       "name": "CICADA повышающий угловой наконечник",
       "description": "CICADA повышающий угловой наконечник в категории «Оборудование».",
@@ -279143,6 +277905,31 @@
       "offers": [
         {
           "id": "public-0f054858fd0c4ebd779971fa-offer-0",
+          "variantId": "public-0f054858fd0c4ebd779971fa-variant-default",
+          "supplier": {
+            "id": "supplier-af734c7b5d64f3be4044849a",
+            "name": "Medstom"
+          },
+          "priceMinor": "638000",
+          "currency": "KZT",
+          "normalizedPriceMinor": "638000",
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": null,
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-0f054858fd0c4ebd779971fa-offer-1",
           "variantId": "public-0f054858fd0c4ebd779971fa-variant-default",
           "supplier": {
             "id": "supplier-af734c7b5d64f3be4044849a",
@@ -293991,6 +292778,333 @@
       "offers": []
     },
     {
+      "id": "public-7393b05f5f16abadba611774",
+      "name": "Latelux",
+      "description": "Latelux бренда LaTus в категории «Стоматологические материалы и оборудование».",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.86,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Latelux",
+            "confidence": 0.86
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Стоматологические материалы и оборудование",
+            "confidence": 0.86
+          },
+          {
+            "field": "BRAND",
+            "value": "LaTus",
+            "confidence": 0.86
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "LaTus",
+            "confidence": 0.86
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.86
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610033658",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Материал композиционный пломбировочный светоотверждаемый Latelux A1 - СТОМИР"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610040558",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Материал композиционный пломбировочный светоотверждаемый Latelux A2 - СТОМИР"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610041939",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Материал композиционный пломбировочный светоотверждаемый Latelux B1 - СТОМИР"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610042203",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Материал композиционный пломбировочный светоотверждаемый Latelux B2 - СТОМИР"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610041631",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Материал композиционный пломбировочный светоотверждаемый Latelux OA2 - СТОМИР"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610041115",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Материал композиционный пломбировочный светоотверждаемый Latelux A3 - СТОМИР"
+          }
+        ]
+      },
+      "brand": "LaTus",
+      "manufacturer": "LaTus",
+      "category": "Стоматологические материалы и оборудование",
+      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210610033658",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Стоматологические материалы и оборудование"
+        ],
+        [
+          "Бренд",
+          "LaTus"
+        ],
+        [
+          "Производитель",
+          "LaTus"
+        ],
+        [
+          "Артикул поставщика",
+          "1400019"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "6"
+        ]
+      ],
+      "aliases": [
+        "Материал композиционный пломбировочный светоотверждаемый Latelux A1-СТОМИР",
+        "Материал композиционный пломбировочный светоотверждаемый Latelux A2-СТОМИР",
+        "Материал композиционный пломбировочный светоотверждаемый Latelux A3-СТОМИР",
+        "Материал композиционный пломбировочный светоотверждаемый Latelux B1-СТОМИР",
+        "Материал композиционный пломбировочный светоотверждаемый Latelux B2-СТОМИР",
+        "Материал композиционный пломбировочный светоотверждаемый Latelux OA2-СТОМИР"
+      ],
+      "variants": [
+        {
+          "id": "public-7393b05f5f16abadba611774-variant-c1db0cdcd5dd580bb01bcda1",
+          "sku": "1400019",
+          "gtin": null,
+          "label": "Шприц · оттенок A1",
+          "attributes": {
+            "Артикул производителя": "1400019"
+          }
+        },
+        {
+          "id": "public-7393b05f5f16abadba611774-variant-5031b59460a7061ec79918cc",
+          "sku": "1400020",
+          "gtin": null,
+          "label": "Шприц · оттенок A2",
+          "attributes": {
+            "Артикул производителя": "1400020"
+          }
+        },
+        {
+          "id": "public-7393b05f5f16abadba611774-variant-6b4a0b007b44a28c8700206c",
+          "sku": "1400021",
+          "gtin": null,
+          "label": "Шприц · оттенок A3",
+          "attributes": {
+            "Артикул производителя": "1400021"
+          }
+        },
+        {
+          "id": "public-7393b05f5f16abadba611774-variant-acbe9d3202fbee07db4165a3",
+          "sku": "1401391",
+          "gtin": null,
+          "label": "Шприц · оттенок B1",
+          "attributes": {
+            "Артикул производителя": "1401391"
+          }
+        },
+        {
+          "id": "public-7393b05f5f16abadba611774-variant-03e0eb361844daef79f518b3",
+          "sku": "1401392",
+          "gtin": null,
+          "label": "Шприц · оттенок B2",
+          "attributes": {
+            "Артикул производителя": "1401392"
+          }
+        },
+        {
+          "id": "public-7393b05f5f16abadba611774-variant-a4279fab93cce88b40c7c7ae",
+          "sku": "1401393",
+          "gtin": null,
+          "label": "Шприц · оттенок OA2",
+          "attributes": {
+            "Артикул производителя": "1401393"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "supplier",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": [
+        {
+          "id": "public-7393b05f5f16abadba611774-offer-0",
+          "variantId": "public-7393b05f5f16abadba611774-variant-c1db0cdcd5dd580bb01bcda1",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "1400019",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-7393b05f5f16abadba611774-offer-1",
+          "variantId": "public-7393b05f5f16abadba611774-variant-5031b59460a7061ec79918cc",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "1400020",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-7393b05f5f16abadba611774-offer-2",
+          "variantId": "public-7393b05f5f16abadba611774-variant-acbe9d3202fbee07db4165a3",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "1401391",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-7393b05f5f16abadba611774-offer-3",
+          "variantId": "public-7393b05f5f16abadba611774-variant-03e0eb361844daef79f518b3",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "1401392",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-7393b05f5f16abadba611774-offer-4",
+          "variantId": "public-7393b05f5f16abadba611774-variant-a4279fab93cce88b40c7c7ae",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "1401393",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-7393b05f5f16abadba611774-offer-5",
+          "variantId": "public-7393b05f5f16abadba611774-variant-6b4a0b007b44a28c8700206c",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "1400021",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        }
+      ]
+    },
+    {
       "id": "public-970e9e819b640bd087641966",
       "name": "LATELUX 5 г",
       "description": "LATELUX 5 г в категории «Стоматологические материалы и оборудование».",
@@ -294285,6 +293399,217 @@
             "NATIONWIDE"
           ],
           "supplierSku": null,
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        }
+      ]
+    },
+    {
+      "id": "public-6cfa9a1f66c1159a7cdf05b8",
+      "name": "Latelux Flow",
+      "description": "Latelux Flow бренда LaTus в категории «Пломбировочные материалы».",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.86,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Latelux Flow",
+            "confidence": 0.86
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Пломбировочные материалы",
+            "confidence": 0.86
+          },
+          {
+            "field": "BRAND",
+            "value": "LaTus",
+            "confidence": 0.86
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "LaTus",
+            "confidence": 0.86
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.86
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Материал Latelux flow A1"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/181113104340",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A1 - СТОМИР"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210611042418",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A2 - СТОМИР"
+          },
+          {
+            "sourceName": "stomir",
+            "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/210611042627",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A3 - СТОМИР"
+          }
+        ]
+      },
+      "brand": "LaTus",
+      "manufacturer": "LaTus",
+      "category": "Пломбировочные материалы",
+      "sourceUrl": "https://stomir.kz/catalog/plombirovochnye_materialy_svetovogo_otverzhdeniya/181113104340",
+      "sourceUpdatedAt": "2026-07-17",
+      "attributes": [
+        [
+          "Категория",
+          "Пломбировочные материалы"
+        ],
+        [
+          "Бренд",
+          "LaTus"
+        ],
+        [
+          "Производитель",
+          "LaTus"
+        ],
+        [
+          "Артикул поставщика",
+          "1400016"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "4"
+        ]
+      ],
+      "aliases": [
+        "Материал Latelux flow A1",
+        "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A1-СТОМИР",
+        "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A2-СТОМИР",
+        "Материал композиционный пломбировочный светоотверждаемый текучий Latelux flow A3-СТОМИР"
+      ],
+      "variants": [
+        {
+          "id": "public-6cfa9a1f66c1159a7cdf05b8-variant-3247ad1650bc3fb694d54c67",
+          "sku": "1400016",
+          "gtin": null,
+          "label": "Шприц · оттенок A1",
+          "attributes": {
+            "Артикул производителя": "1400016"
+          }
+        },
+        {
+          "id": "public-6cfa9a1f66c1159a7cdf05b8-variant-b4c0727a64caedc819825f00",
+          "sku": "1400017",
+          "gtin": null,
+          "label": "Шприц · оттенок A2",
+          "attributes": {
+            "Артикул производителя": "1400017"
+          }
+        },
+        {
+          "id": "public-6cfa9a1f66c1159a7cdf05b8-variant-9d11916d4c18b97b0ae691e1",
+          "sku": "1400018",
+          "gtin": null,
+          "label": "Шприц · оттенок A3",
+          "attributes": {
+            "Артикул производителя": "1400018"
+          }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "supplier",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": [
+        {
+          "id": "public-6cfa9a1f66c1159a7cdf05b8-offer-0",
+          "variantId": "public-6cfa9a1f66c1159a7cdf05b8-variant-3247ad1650bc3fb694d54c67",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "1400016",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-6cfa9a1f66c1159a7cdf05b8-offer-1",
+          "variantId": "public-6cfa9a1f66c1159a7cdf05b8-variant-b4c0727a64caedc819825f00",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "1400017",
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-6cfa9a1f66c1159a7cdf05b8-offer-2",
+          "variantId": "public-6cfa9a1f66c1159a7cdf05b8-variant-9d11916d4c18b97b0ae691e1",
+          "supplier": {
+            "id": "supplier-32634230d092cc85e6e789f2",
+            "name": "СТОМир"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": "1400018",
           "verifiedDocuments": false,
           "officialDistributor": false,
           "supplierWarranty": false
@@ -317678,6 +317003,31 @@
           "deliveryMethods": [
             "NATIONWIDE"
           ],
+          "supplierSku": null,
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-637c7263e61b3f9075797a00-offer-1",
+          "variantId": "public-637c7263e61b3f9075797a00-variant-default",
+          "supplier": {
+            "id": "supplier-af734c7b5d64f3be4044849a",
+            "name": "Medstom"
+          },
+          "priceMinor": "726000",
+          "currency": "KZT",
+          "normalizedPriceMinor": "726000",
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
           "supplierSku": "MSK-T-49",
           "verifiedDocuments": false,
           "officialDistributor": false,
@@ -317756,6 +317106,31 @@
       "offers": [
         {
           "id": "public-c5932970aa1ca3e19f561903-offer-0",
+          "variantId": "public-c5932970aa1ca3e19f561903-variant-default",
+          "supplier": {
+            "id": "supplier-af734c7b5d64f3be4044849a",
+            "name": "Medstom"
+          },
+          "priceMinor": "6200000",
+          "currency": "KZT",
+          "normalizedPriceMinor": "6200000",
+          "packaging": {
+            "name": "шт.",
+            "quantityInBaseUnit": "1",
+            "unit": "шт."
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": null,
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-c5932970aa1ca3e19f561903-offer-1",
           "variantId": "public-c5932970aa1ca3e19f561903-variant-default",
           "supplier": {
             "id": "supplier-af734c7b5d64f3be4044849a",

@@ -22,6 +22,10 @@ const output = path.join(
 );
 const aliasesPath = path.join(root, "data/catalog-model-aliases-wave-1.csv");
 const skuLabelsPath = path.join(root, "data/catalog-product-skus-wave-1.csv");
+const variantFamiliesPath = path.join(
+  root,
+  "data/catalog-variant-families-wave-2.csv",
+);
 const files = (await fs.readdir(inputDir))
   .filter((file) => file.endsWith(".csv"))
   .sort();
@@ -57,6 +61,26 @@ const skuLabelRows = await fs
     if (error.code === "ENOENT") return [];
     throw error;
   });
+const variantFamilyRows = await fs
+  .readFile(variantFamiliesPath)
+  .then((content) =>
+    parse(content, {
+      columns: true,
+      skip_empty_lines: true,
+      bom: true,
+      trim: true,
+    }),
+  )
+  .catch((error) => {
+    if (error.code === "ENOENT") return [];
+    throw error;
+  });
+const variantFamilyBySourceName = new Map(
+  variantFamilyRows.map((row) => [
+    clean(row.sourceName).toLocaleLowerCase("ru"),
+    row,
+  ]),
+);
 const skuLabelByKey = new Map(
   skuLabelRows.map((row) => [
     [row.brand || "Без бренда", row.canonicalProductName, row.manufacturerRef]
@@ -85,6 +109,20 @@ const referencesByProduct = aliasRows.reduce((result, row) => {
   return result;
 }, new Map());
 
+for (const family of variantFamilyRows) {
+  const key = [family.brand || "Без бренда", family.canonicalProductName]
+    .map((value) => clean(value).toLocaleLowerCase("ru"))
+    .join("|");
+  if (!referencesByProduct.has(key)) referencesByProduct.set(key, new Set());
+  referencesByProduct.get(key).add(clean(family.manufacturerRef));
+  skuLabelByKey.set(
+    `${key}|${clean(family.manufacturerRef).toLocaleLowerCase("ru")}`,
+    clean(family.variantLabel),
+  );
+  if (!aliasesByProduct.has(key)) aliasesByProduct.set(key, new Set());
+  aliasesByProduct.get(key).add(clean(family.sourceName));
+}
+
 const first = (row, ...keys) =>
   keys.map((key) => clean(row[key])).find(Boolean) ?? "";
 const hash = (value) =>
@@ -99,6 +137,15 @@ const number = (value) => {
 const categoryName = (value) => normalizeCatalogCategory(value);
 const validHttpUrl = (value) =>
   /^https?:\/\/[^\s]+$/i.test(value) ? value : null;
+const sourceUrlScore = (value) => {
+  if (!value) return 0;
+  try {
+    const url = new URL(value);
+    return url.pathname.split("/").filter(Boolean).length;
+  } catch {
+    return 0;
+  }
+};
 const dateValue = (value) =>
   /^\d{4}-\d{2}-\d{2}(?:T.*)?$/.test(clean(value)) ? clean(value) : null;
 const unitValue = (value) =>
@@ -178,28 +225,43 @@ for (const file of files) {
     const rawBrand = first(row, "brand");
     const rawManufacturer = first(row, "manufacturer");
     const sourceUrl = validHttpUrl(first(row, "sourceUrl", "url"));
-    const brand = normalizeCatalogBrand({
+    const detectedBrand = normalizeCatalogBrand({
       brand: rawBrand,
       manufacturer: rawManufacturer,
       name: rawName,
       category: row.category,
     });
-    const manufacturer = normalizeCatalogManufacturer(rawManufacturer, brand);
+    const detectedManufacturer = normalizeCatalogManufacturer(
+      rawManufacturer,
+      detectedBrand,
+    );
     // Manufacturer catalog rows are the naming authority. Keep the official
     // Latin model spelling intact; supplier rows still pass through cleanup.
-    const name = catalogOnly
+    const detectedName = catalogOnly
       ? clean(rawName)
       : normalizeCanonicalName(rawName, {
-          brand,
-          manufacturer,
+          brand: detectedBrand,
+          manufacturer: detectedManufacturer,
           sourceUrl,
         });
+    const family =
+      variantFamilyBySourceName.get(
+        clean(rawName).toLocaleLowerCase("ru"),
+      ) ??
+      variantFamilyBySourceName.get(
+        clean(detectedName).toLocaleLowerCase("ru"),
+      );
+    const brand = clean(family?.brand) || detectedBrand;
+    const manufacturer =
+      clean(family?.manufacturer) || detectedManufacturer;
+    const name = clean(family?.canonicalProductName) || detectedName;
     if (/^\d+$/.test(name)) continue;
     const category = inferCatalogCategory(
       name,
       categoryName(first(row, "category")),
     );
-    const supplierSku = first(row, "supplierSku", "sku");
+    const supplierSku =
+      first(row, "supplierSku", "sku") || clean(family?.manufacturerRef);
     const externalId =
       first(row, "externalId", "id") ||
       supplierSku ||
@@ -285,7 +347,11 @@ for (const row of acceptedRows) {
     existing.category = row.category;
   if (!existing.priceMinor && row.priceMinor)
     existing.priceMinor = row.priceMinor;
-  if (!existing.sourceUrl && row.sourceUrl) existing.sourceUrl = row.sourceUrl;
+  if (
+    row.sourceUrl &&
+    sourceUrlScore(row.sourceUrl) > sourceUrlScore(existing.sourceUrl)
+  )
+    existing.sourceUrl = row.sourceUrl;
   if (!existing.description && row.description)
     existing.description = row.description;
   existing.available ||= row.available;
@@ -336,13 +402,16 @@ const products = [...grouped.values()].map((row) => {
     ...row.sourceRecords
       .filter((source) => !source.catalogOnly)
       .reduce((bySupplier, source) => {
-        const current = bySupplier.get(source.supplier);
+        const offerKey = [source.supplier, source.supplierSku || "без артикула"]
+          .map((value) => clean(value).toLocaleLowerCase("ru"))
+          .join("|");
+        const current = bySupplier.get(offerKey);
         const score = (item) =>
           (item.priceMinor ? 4 : 0) +
           (item.available ? 2 : 0) +
           (item.supplierSku ? 1 : 0);
         if (!current || score(source) > score(current))
-          bySupplier.set(source.supplier, source);
+          bySupplier.set(offerKey, source);
         return bySupplier;
       }, new Map())
       .values(),
