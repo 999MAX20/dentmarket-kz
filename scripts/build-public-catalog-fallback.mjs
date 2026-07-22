@@ -7,6 +7,7 @@ import {
   generateCanonicalDescription,
   normalizeCatalogCategory,
   normalizeCatalogUnit,
+  normalizeCanonicalName,
 } from "./lib/product-copy.mjs";
 
 const root = path.resolve(process.cwd());
@@ -34,12 +35,15 @@ for (const file of files) {
     trim: true,
   });
   for (const row of parsed) {
-    const name = first(row, "name", "productName", "title");
-    if (!name) continue;
+    const rawName = first(row, "name", "productName", "title");
+    if (!rawName) continue;
     const source = first(row, "source") || file.replace(/-catalog\.csv$/, "").replace(/\.csv$/, "");
     const supplier = first(row, "supplierName") || source;
     const brand = first(row, "brand");
     const manufacturer = first(row, "manufacturer");
+    const sourceUrl = first(row, "sourceUrl", "url") || null;
+    const name = normalizeCanonicalName(rawName, { brand, manufacturer, sourceUrl });
+    if (/^\d+$/.test(name)) continue;
     const category = categoryName(first(row, "category"));
     const supplierSku = first(row, "supplierSku", "sku");
     const externalId = first(row, "externalId", "id") || supplierSku || hash(`${source}|${name}`);
@@ -58,7 +62,8 @@ for (const file of files) {
       supplierSku: supplierSku || null,
       externalId,
       source,
-      sourceUrl: first(row, "sourceUrl", "url") || null,
+      rawName,
+      sourceUrl,
       sourceUpdatedAt: first(row, "sourceUpdatedAt") || null,
       unit: normalizeCatalogUnit(first(row, "unit")),
       priceMinor,
