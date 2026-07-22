@@ -22,8 +22,8 @@ test("buyer can search and compare marketplace offers", async ({ page }) => {
   const errors = collectBrowserErrors(page);
   await page.goto("http://127.0.0.1:3001");
   await expect(page.getByRole("heading", { name: "Каталог для стоматологий" })).toBeVisible();
-  await expect(page.getByRole("button", { name: "Сравнить предложения" }).first()).toBeVisible();
-  await expect(page.locator("article[role=button]").first()).toBeVisible();
+  await expect(page.getByRole("button", { name: "Сравнить цены" }).first()).toBeVisible();
+  await expect(page.getByTestId("product-card").first()).toBeVisible();
   await expectHealthyPage(page, errors);
 });
 

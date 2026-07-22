@@ -155,13 +155,19 @@
   cursor: pointer;
   transition: background 140ms ease, box-shadow 140ms ease;
 }
-.productCardLink {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  border-radius: inherit;
+.productCardSurface {
+  display: grid;
+  grid-column: 1 / 4;
+  grid-template-columns: 128px minmax(260px, 1fr) minmax(220px, 0.72fr);
+  gap: 22px;
+  align-items: center;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
 }
-.productCardLink:focus-visible {
+.productCardSurface:focus-visible .productVisual,
+.productCardSurface:focus-visible .productIdentity,
+.productCardSurface:focus-visible .offerSummary {
   outline: 3px solid rgb(18 104 216 / 35%);
   outline-offset: -3px;
 }
@@ -1074,6 +1080,13 @@
   padding: 24px 28px;
   border-bottom-color: rgba(23, 32, 30, 0.1);
 }
+.publicMain .productCardSurface {
+  grid-column: 1;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(86px, auto) 1fr;
+  align-items: stretch;
+  gap: 14px;
+}
 .publicMain .product:hover { background: #f4f6f2; }
 .publicMain .productIdentity h3 {
   color: #17201e;
@@ -1274,37 +1287,85 @@
   background: #fff;
   box-shadow: none;
 }
-.publicMain .productList { display: grid; }
+.publicMain .productList {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  background: #e4e9e6;
+}
 .publicMain .product {
-  grid-template-columns: 128px minmax(260px, 1.15fr) minmax(220px, .7fr) minmax(190px, auto);
-  min-height: 176px;
-  padding: 22px 24px;
+  min-width: 0;
+  min-height: 430px;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(86px, auto) 1fr auto;
+  align-items: stretch;
+  gap: 14px;
+  padding: 16px;
+  border: 0;
   background: #fff;
 }
-.publicMain .product:hover { background: #f7f9f7; box-shadow: inset 3px 0 0 #527568; }
-.publicMain .productVisual { width: 128px; height: 128px; border-color: #dfe6e2; background: #f5f7f5; }
-.publicMain .productVisual img { background: #f5f7f5; }
+.publicMain .product:hover {
+  z-index: 1;
+  background: #fbfcfb;
+  box-shadow: inset 0 0 0 1px #8ca79c;
+}
+.publicMain .productVisual {
+  width: 100%;
+  height: 220px;
+  min-height: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 10px;
+  background: #f4f6f4;
+}
+.publicMain .productVisual img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 12px;
+  background: transparent;
+}
 .publicMain .productIdentity { min-width: 0; gap: 6px; }
-.publicMain .productIdentity h3 { min-height: 0; font-size: 16px; line-height: 1.4; }
-.publicMain .category { letter-spacing: .04em; font-size: 10px; }
+.publicMain .productIdentity h3 {
+  min-height: 44px;
+  font-size: 15px;
+  line-height: 1.42;
+  text-wrap: pretty;
+}
+.publicMain .category {
+  overflow: hidden;
+  color: #527568;
+  font-size: 9px;
+  letter-spacing: .055em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .publicMain .reviewSummary,
 .publicMain .reviewSummaryMuted { min-height: 18px; display: flex; align-items: center; gap: 4px; color: #6f7975; font-size: 10px; }
 .publicMain .reviewSummary svg { width: 13px; color: #b57a14; }
-.publicMain .offerSummary { align-content: center; gap: 5px; }
-.publicMain .offerSummary strong { color: #17201e; font-size: 20px; letter-spacing: -.025em; }
+.publicMain .offerSummary { align-content: start; gap: 5px; padding-top: 2px; }
+.publicMain .offerSummary strong {
+  color: #17201e;
+  font-size: 19px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -.025em;
+}
 .publicMain .offerSummary span { font-size: 11px; }
 .publicMain .deliveryHint { color: #527568; }
 .publicMain .dealLine { color: #2f6b58; font-size: 11px; font-weight: 750; }
-.publicMain .productActions { width: 100%; }
+.publicMain .productActions { width: 100%; align-self: end; }
 .publicMain .productActions :global(.fui-Button) {
-  min-height: 38px;
+  min-height: 40px;
   border: 1px solid #527568;
   border-radius: 9px;
   background: #fff;
   color: #234d41;
   font-size: 11px;
+  transition: background 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
 }
 .publicMain .productActions :global(.fui-Button:hover) { background: #e8f0ec; color: #173d32; }
+.publicMain .productActions :global(.fui-Button:active) { transform: translateY(1px); }
 .publicMain .loadMore { grid-column: 1 / -1; border-top: 0; }
 
 .filterBackdrop {
@@ -1471,12 +1532,12 @@
     width: 100%;
   }
   .publicMain .product {
-    grid-template-columns: 96px 1fr;
+    grid-template-columns: minmax(0, 1fr);
     padding: 18px;
   }
   .publicMain .productVisual {
-    width: 96px;
-    height: 96px;
+    width: 100%;
+    height: auto;
   }
   .catalogProof {
     justify-content: space-between;
@@ -1531,8 +1592,7 @@
 }
 
 @media (max-width: 1180px) {
-  .publicMain .product { grid-template-columns: 112px minmax(240px, 1fr) minmax(190px, .65fr) minmax(170px, auto); }
-  .publicMain .productVisual { width: 112px; height: 112px; }
+  .publicMain .productList { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .dealGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .dealCard:last-child { display: none; }
 }
@@ -1540,13 +1600,11 @@
 @media (max-width: 820px) {
   .dealsSection,
   .publicMain :global(.mp-section) { width: calc(100% - 28px); }
-  .publicMain .product {
-    grid-template-columns: 112px minmax(0, 1fr);
-    gap: 12px 16px;
-  }
-  .publicMain .productVisual { grid-row: span 2; width: 112px; height: 112px; }
+  .publicMain .productList { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .publicMain .product { min-height: 408px; }
+  .publicMain .productVisual { grid-row: auto; }
   .publicMain .offerSummary,
-  .publicMain .productActions { grid-column: 2; }
+  .publicMain .productActions { grid-column: auto; }
   .catalogToolbar { align-items: flex-start; }
   .catalogToolbarActions { align-items: stretch; flex-direction: column; }
 }
@@ -1564,10 +1622,17 @@
   .catalogToolbarActions { display: grid; grid-template-columns: 1fr 1fr; }
   .activeFilters { overflow-x: auto; flex-wrap: nowrap; padding-inline: 16px; }
   .activeFilters button { flex: 0 0 auto; }
-  .publicMain .product { min-height: 0; grid-template-columns: 96px minmax(0, 1fr); padding: 14px; }
-  .publicMain .productVisual { width: 96px; height: 96px; }
-  .publicMain .offerSummary span:first-of-type,
+  .publicMain .product { min-height: 390px; padding: 13px; }
+  .publicMain .productVisual { height: 180px; }
+  .publicMain .productIdentity h3 { font-size: 14px; }
+  .publicMain .offerSummary strong { font-size: 17px; }
   .publicMain .deliveryHint { display: none; }
   .filterDrawer { width: 100%; }
   .filterPriceRange { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .publicMain .productList { grid-template-columns: 1fr; }
+  .publicMain .product { min-height: 0; }
+  .publicMain .productVisual { height: 220px; }
 }

@@ -1559,23 +1559,13 @@ export default function BuyerWorkspace() {
                   key={product.id}
                   data-testid="product-card"
                   data-product-id={product.id}
-                  role="button"
-                  tabIndex={0}
-                  onClick={() => openProduct(product)}
-                  onKeyDown={(event) => {
-                    if (event.key === "Enter" || event.key === " ") {
-                      event.preventDefault();
-                      openProduct(product);
-                    }
-                  }}
                 >
                   <a
-                    className={styles.productCardLink}
+                    className={styles.productCardSurface}
                     href={`/products/${encodeURIComponent(product.id)}`}
                     aria-label={`Открыть карточку ${product.name}`}
-                    onClick={(event) => event.stopPropagation()}
-                  />
-                  <div className={styles.productVisual}>
+                  >
+                    <div className={styles.productVisual}>
                     {productImage ? (
                       <img
                         src={productImage}
@@ -1587,8 +1577,8 @@ export default function BuyerWorkspace() {
                     ) : (
                       <span className={styles.photoPending}>Фото<br />добавляем</span>
                     )}
-                  </div>
-                  <div className={styles.productIdentity}>
+                    </div>
+                    <div className={styles.productIdentity}>
                     <span className={styles.category}>
                       {isPublic ? product.brand ?? product.categories[0]?.name ?? "DentMarket" : product.categories[0]?.name ?? "Стоматология"}
                     </span>
@@ -1613,15 +1603,8 @@ export default function BuyerWorkspace() {
                         Пока без отзывов
                       </small>
                     )}
-                    <a
-                      className={styles.productOpenLink}
-                      href={`/products/${encodeURIComponent(product.id)}`}
-                      onClick={(event) => event.stopPropagation()}
-                    >
-                      Открыть карточку →
-                    </a>
-                  </div>
-                  <div className={styles.offerSummary}>
+                    </div>
+                    <div className={styles.offerSummary}>
                     <strong>
                       {best
                         ? `от ${formatMoney(best.priceMinor, best.currency ?? "KZT")}`
@@ -1639,7 +1622,8 @@ export default function BuyerWorkspace() {
                       </small>
                     ) : null}
                     {isPublic && promotion ? <small className={styles.dealLine}>У одного продавца скидка {promotion}%</small> : isPublic && priceDifference ? <small className={styles.dealLine}>Цена у продавцов отличается на {priceDifference}%</small> : null}
-                  </div>
+                    </div>
+                  </a>
                   <div className={styles.productActions}>
                     <Button
                       appearance="primary"
@@ -1651,11 +1635,15 @@ export default function BuyerWorkspace() {
                     >
                       {busy === `compare:${product.id}`
                         ? "Загрузка"
-                        : isPublic && product.offers.length > 1
-                          ? "Сравнить предложения"
+                        : isPublic
+                          ? product.offers.length > 1
+                            ? "Сравнить цены"
+                            : product.offers.length === 1
+                              ? "Смотреть предложение"
+                              : "Открыть карточку"
                           : product.offers.length === 1
-                          ? "Смотреть предложение"
-                          : `Смотреть ${product.offers.length} ${ruCount(product.offers.length, "предложение", "предложения", "предложений")}`}
+                            ? "Смотреть предложение"
+                            : `Смотреть ${product.offers.length} ${ruCount(product.offers.length, "предложение", "предложения", "предложений")}`}
                     </Button>
                   </div>
                 </article>
