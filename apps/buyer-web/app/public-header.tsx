@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import { Search24Regular } from "@fluentui/react-icons";
 import type { FormEvent } from "react";
+import { useEffect, useRef, useState } from "react";
 import { loginUrl } from "./public-links";
 import { CityLocation } from "./city-location";
 import styles from "./public-header.module.css";
@@ -50,6 +53,8 @@ const searchAliases: Record<string, string[]> = {
 };
 
 export function PublicHeader({ active, query = "", searching = false, onQueryChange, onSearch, recentSearches = [] }: PublicHeaderProps) {
+  const [suggestionsOpen, setSuggestionsOpen] = useState(false);
+  const searchRef = useRef<HTMLFormElement>(null);
   const normalizedQuery = query.trim().toLocaleLowerCase("ru");
   const aliasMatches = Object.entries(searchAliases)
     .filter(([alias]) => alias.includes(normalizedQuery) || normalizedQuery.includes(alias))
@@ -59,9 +64,26 @@ export function PublicHeader({ active, query = "", searching = false, onQueryCha
     : [...new Set([...aliasMatches, ...searchSuggestions])]
         .filter((suggestion) => suggestion.includes(normalizedQuery) && suggestion !== normalizedQuery)
         .slice(0, 6);
+  useEffect(() => {
+    if (!suggestionsOpen) return;
+    const closeOnOutsidePointer = (event: PointerEvent) => {
+      if (!searchRef.current?.contains(event.target as Node)) setSuggestionsOpen(false);
+    };
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setSuggestionsOpen(false);
+    };
+    document.addEventListener("pointerdown", closeOnOutsidePointer);
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.removeEventListener("pointerdown", closeOnOutsidePointer);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [suggestionsOpen]);
+
   const submit = (event: FormEvent<HTMLFormElement>) => {
     if (!onSearch) return;
     event.preventDefault();
+    setSuggestionsOpen(false);
     onSearch(query);
   };
 
@@ -86,15 +108,20 @@ export function PublicHeader({ active, query = "", searching = false, onQueryCha
         </Link>
       </nav>
       {onSearch ? (
-        <form className={styles.search} role="search" method="get" action="/" onSubmit={submit}>
+        <form ref={searchRef} className={styles.search} role="search" method="get" action="/" onSubmit={submit}>
           <Search24Regular aria-hidden="true" />
           <input
             type="search"
             name="q"
             value={query}
             list="dentmarket-search-suggestions"
+            onFocus={() => setSuggestionsOpen(true)}
             onChange={(event) => onQueryChange?.(event.currentTarget.value)}
             onKeyDown={(event) => {
+              if (event.key === "Escape") {
+                setSuggestionsOpen(false);
+                return;
+              }
               if (event.key === "ArrowDown" && suggestions.length) {
                 event.preventDefault();
                 (event.currentTarget.parentElement?.querySelector("[role='option']") as HTMLElement | null)?.focus();
@@ -109,7 +136,7 @@ export function PublicHeader({ active, query = "", searching = false, onQueryCha
           <datalist id="dentmarket-search-suggestions">
             {[...new Set([...searchSuggestions, ...recentSearches])].map((suggestion) => <option key={suggestion} value={suggestion} />)}
           </datalist>
-          {suggestions.length ? (
+          {suggestionsOpen && suggestions.length ? (
             <div className={styles.suggestions} role="listbox" aria-label="Подсказки поиска">
               {suggestions.map((suggestion) => (
                 <button
@@ -120,11 +147,13 @@ export function PublicHeader({ active, query = "", searching = false, onQueryCha
                   onMouseDown={(event) => event.preventDefault()}
                   onClick={() => {
                     onQueryChange?.(suggestion);
+                    setSuggestionsOpen(false);
                     onSearch?.(suggestion);
                   }}
                   onKeyDown={(event) => {
                     if (event.key === "Enter") {
                       onQueryChange?.(suggestion);
+                      setSuggestionsOpen(false);
                       onSearch?.(suggestion);
                     }
                     if (event.key === "Escape") {

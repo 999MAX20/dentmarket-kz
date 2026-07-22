@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { type FormEvent, useState } from "react";
 import styles from "./page.module.css";
 
 type Capability = "BUYER" | "SUPPLIER";
@@ -17,6 +17,8 @@ type Session = {
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
 const supplierAppUrl = process.env.NEXT_PUBLIC_SUPPLIER_APP_URL ?? "https://dentmarket-supplier.vercel.app";
+const landingAppUrl = process.env.NEXT_PUBLIC_LANDING_APP_URL ?? "https://dentmarket-kz.vercel.app";
+const demoLoginEnabled = process.env.NEXT_PUBLIC_DEMO_LOGIN_ENABLED === "true";
 
 export default function LoginPage() {
   const [capability, setCapability] = useState<Capability>("BUYER");
@@ -30,6 +32,40 @@ export default function LoginPage() {
     if (code === "handoff") return "Не удалось открыть кабинет. Повторите вход.";
     return "";
   });
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const routeSession = async (session: Session) => {
+    const organizationId = session.activeOrganizationId ?? session.organizationId;
+    if (!organizationId) throw new Error("У аккаунта нет активной организации");
+    const handoffResponse = await fetch(`${apiUrl}/auth/handoff`, {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        authorization: `Bearer ${session.accessToken}`,
+        "x-user-id": session.user.id,
+        "x-organization-id": organizationId,
+        ...(session.sessionId ? { "x-session-id": session.sessionId } : {}),
+      },
+      body: JSON.stringify({ capability }),
+      credentials: "include",
+    });
+    const payload = await handoffResponse.json() as { handoffCode?: string; organizationDisplayName?: string; message?: string };
+    if (!handoffResponse.ok || !payload.handoffCode) throw new Error(payload.message ?? "Не удалось создать безопасный переход в кабинет");
+    const handoff = encodeURIComponent(JSON.stringify({ displayName: session.user.displayName, organizationDisplayName: payload.organizationDisplayName ?? session.organizationDisplayName, organizationId, handoffCode: payload.handoffCode, capability }));
+    window.location.assign(`${capability === "SUPPLIER" ? supplierAppUrl : window.location.origin}/#session=${handoff}`);
+  };
+
+  const loginWithEmail = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault(); setBusy(true); setError("");
+    try {
+      const response = await fetch(`${apiUrl}/auth/login`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ email, password }), credentials: "include" });
+      const session = await response.json() as Session & { message?: string };
+      if (!response.ok) throw new Error(session.message ?? "Вход не выполнен");
+      await routeSession(session);
+    } catch (cause) { setError(cause instanceof Error ? cause.message : "Вход не выполнен"); }
+    finally { setBusy(false); }
+  };
 
   const login = async () => {
     setBusy(true);
@@ -106,17 +142,15 @@ export default function LoginPage() {
               <b>Поставщик</b><span>Продажи и ассортимент</span>
             </button>
           </div>
-          <button
-            className={styles.login}
-            type="button"
-            onClick={() => void login()}
-            disabled={busy}
-          >
-            {busy ? "Открываем кабинет…" : capability === "BUYER" ? "Войти в кабинет клиники" : "Войти как поставщик"}
-          </button>
+          <form onSubmit={loginWithEmail} className={styles.loginForm}>
+            <input type="email" placeholder="Рабочий email" autoComplete="email" value={email} onChange={(event) => setEmail(event.target.value)} required />
+            <input type="password" placeholder="Пароль" autoComplete="current-password" value={password} onChange={(event) => setPassword(event.target.value)} required />
+            <button className={styles.login} type="submit" disabled={busy}>{busy ? "Входим…" : "Войти по email"}</button>
+          </form>
+          {demoLoginEnabled ? <button className={styles.demo} type="button" onClick={() => void login()} disabled={busy}>{busy ? "Открываем демо…" : "Открыть демо без регистрации"}</button> : null}
           {error ? <p className={styles.error}>{error}</p> : null}
-          <p className={styles.hint}>Сейчас доступен пилотный демо-вход. Корпоративные Google/Apple аккаунты подключаются отдельными Client ID.</p>
-          <a className={styles.register} href={`https://dentmarket-about.vercel.app/register?role=${capability === "BUYER" ? "buyer" : "supplier"}`}>
+          <p className={styles.hint}>Для доступа к кабинету нужны рабочий email и пароль. Если аккаунта нет, зарегистрируйте организацию.</p>
+          <a className={styles.register} href={`${landingAppUrl}/register?role=${capability === "BUYER" ? "buyer" : "supplier"}`}>
             Нет аккаунта? Зарегистрироваться
           </a>
         </div>

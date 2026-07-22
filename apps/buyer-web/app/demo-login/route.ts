@@ -4,6 +4,9 @@ const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel
 const supplierAppUrl = process.env.NEXT_PUBLIC_SUPPLIER_APP_URL ?? "https://dentmarket-supplier.vercel.app";
 
 export async function GET(request: Request) {
+  if (process.env.NEXT_PUBLIC_DEMO_LOGIN_ENABLED !== "true") {
+    return NextResponse.redirect(new URL("/login?error=demo_disabled", request.url));
+  }
   const capability = new URL(request.url).searchParams.get("capability") === "SUPPLIER" ? "SUPPLIER" : "BUYER";
   try {
     const demoResponse = await fetch(`${apiUrl}/auth/demo`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ capability }), cache: "no-store" });
