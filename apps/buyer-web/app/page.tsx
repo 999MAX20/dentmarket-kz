@@ -1115,7 +1115,12 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
             stock: "all",
           }),
         );
-      setError(errorMessage(cause));
+      if (handoff) {
+        setError(null);
+        setToast("Некоторые личные данные пока недоступны — каталог загружен полностью");
+      } else {
+        setError(errorMessage(cause));
+      }
     } finally {
       setLoading(false);
     }
