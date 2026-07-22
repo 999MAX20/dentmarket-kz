@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T18:05:23.294Z",
+  "generatedAt": "2026-07-22T18:09:39.860Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -14,7 +14,7 @@
     "stomir-catalog.csv",
     "stomir-crawled-catalog.csv"
   ],
-  "total": 3226,
+  "total": 3234,
   "quarantine": [
     {
       "source": "denti-kz",
@@ -277333,6 +277333,94 @@
       ]
     },
     {
+      "id": "public-62c56b92ec90dfa2e388b8c0",
+      "name": "GC Aadva Lab Scanner 3",
+      "description": "Лабораторный сканер для оцифровки моделей и элементов протезирования. Комплектация указывается в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC Aadva Lab Scanner 3",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Оборудование",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-kz-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/aadvalabscanner3",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC Aadva Lab Scanner 3"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Оборудование",
+      "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/aadvalabscanner3",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Оборудование"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-62c56b92ec90dfa2e388b8c0-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-c9d4583a36ad3da940a25ad9",
       "name": "GC EQUIA Forte HT",
       "description": "Стеклогибридная реставрационная система для объёмного внесения. Оттенок количество капсул и комплектация указываются в варианте товара.",
@@ -277526,6 +277614,94 @@
             "Оттенок": "C4",
             "Артикул производителя": "453017"
           }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-2dfdfd847c41b96f5761f131",
+      "name": "GC everX Flow",
+      "description": "Текучий композит с короткими стекловолокнами для укрепления реставраций. Оттенок и форма выпуска указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC everX Flow",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-kz-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/everxflow",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC everX Flow"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/everxflow",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-2dfdfd847c41b96f5761f131-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
         }
       ],
       "photoStatus": "category_illustration",
@@ -277881,6 +278057,94 @@
       "offers": []
     },
     {
+      "id": "public-fefab3e4c8adf9afaf254595",
+      "name": "GC G-ænial Universal Injectable",
+      "description": "Инъекционный композит для прямых реставраций. Оттенок шприц или унидоза указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC G-ænial Universal Injectable",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Композитные материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-kz-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/gaenialuniversalinjectable",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC G-ænial Universal Injectable"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Композитные материалы",
+      "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/gaenialuniversalinjectable",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Композитные материалы"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-fefab3e4c8adf9afaf254595-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
       "id": "public-9d4316d552d56ee75a388ee2",
       "name": "GC G-CEM ONE",
       "description": "Универсальный самоадгезивный композитный цемент двойного отверждения. Оттенок набор и количество шприцев указываются в варианте товара.",
@@ -278199,6 +278463,446 @@
             "Количество": "1 шт.",
             "Артикул производителя": "009552"
           }
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-a13b0eabdee5b9e67c429643",
+      "name": "GC G2-BOND Universal",
+      "description": "Двухкомпонентная универсальная адгезивная система. Набор и отдельные компоненты указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC G2-BOND Universal",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Адгезивные системы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-kz-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/g2bonduniversal",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC G2-BOND Universal"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Адгезивные системы",
+      "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/g2bonduniversal",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Адгезивные системы"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-a13b0eabdee5b9e67c429643-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-0dcff07fdc8bad9d9af192e2",
+      "name": "GC GRADIA PLUS",
+      "description": "Модульная композитная система для лабораторных реставраций. Набор материал и оттенок указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC GRADIA PLUS",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Лабораторные композиты",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-kz-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/gradiaplus",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC GRADIA PLUS"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Лабораторные композиты",
+      "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/gradiaplus",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Лабораторные композиты"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-0dcff07fdc8bad9d9af192e2-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-9824a9f3a4f7f53c5435349c",
+      "name": "GC Initial IQ ONE SQIN",
+      "description": "Керамическая система для окрашивания и микрослойного нанесения. Набор масса и оттенок указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC Initial IQ ONE SQIN",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Керамические материалы",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-kz-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/initialiqonesqin",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC Initial IQ ONE SQIN"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Керамические материалы",
+      "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/initialiqonesqin",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Керамические материалы"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-9824a9f3a4f7f53c5435349c-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-47ceb714884da8fb41ca1e24",
+      "name": "GC Initial LiSi Block",
+      "description": "Блок из дисиликата лития для изготовления реставраций CAD/CAM. Размер прозрачность и оттенок указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC Initial LiSi Block",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Материалы CAD/CAM",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-kz-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/initiallisiblock",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC Initial LiSi Block"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Материалы CAD/CAM",
+      "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/initiallisiblock",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Материалы CAD/CAM"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-47ceb714884da8fb41ca1e24-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "manufacturer",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": []
+    },
+    {
+      "id": "public-14c5ad7fe350b1540841898e",
+      "name": "GC Initial LiSi Press",
+      "description": "Заготовки из дисиликата лития для прессования реставраций. Размер прозрачность и оттенок указываются в варианте товара.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "GC Initial LiSi Press",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Пресс-керамика",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "GC",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "шт.",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "gc-kz-official",
+            "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/initiallisipress",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "GC Initial LiSi Press"
+          }
+        ]
+      },
+      "brand": "GC",
+      "manufacturer": "GC",
+      "category": "Пресс-керамика",
+      "sourceUrl": "https://www.gc.dental/europe/en-KZ/products/initiallisipress",
+      "sourceUpdatedAt": null,
+      "attributes": [
+        [
+          "Категория",
+          "Пресс-керамика"
+        ],
+        [
+          "Бренд",
+          "GC"
+        ],
+        [
+          "Производитель",
+          "GC"
+        ],
+        [
+          "Единица",
+          "шт."
+        ],
+        [
+          "Источники",
+          "1"
+        ]
+      ],
+      "aliases": [],
+      "variants": [
+        {
+          "id": "public-14c5ad7fe350b1540841898e-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Стандартная фасовка · шт.",
+          "attributes": {}
         }
       ],
       "photoStatus": "category_illustration",

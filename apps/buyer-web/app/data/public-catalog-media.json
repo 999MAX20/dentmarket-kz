@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T18:01:27.376Z",
-  "total": 1755,
+  "generatedAt": "2026-07-22T18:09:30.879Z",
+  "total": 1763,
   "entries": {
     "https://amdgroup.kz/catalog/konusovidnye/bory_almaznye_247_009f_fg/": {
       "id": "9aa079e6-0a46-43b3-af20-39eb3601a968",
@@ -34600,6 +34600,134 @@
         "rightsStatus": "kz_distributor_catalog",
         "sourcePageUrl": "https://nordstom.kz/catalog/therapy/adhesives-primers-acid-barriers-etchants/item-168",
         "sourceImageUrl": "https://nordstom.kz/userfiles/item/168/fullimage1.jpg"
+      }
+    },
+    "https://www.gc.dental/europe/en-KZ/products/aadvalabscanner3": {
+      "id": "manufacturer-66b75d7effd8367cc7723653c4231f36",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/Scanner%2013.jpg",
+      "securePath": "/catalog/products/66b75d7effd8367cc7723653c4231f36.png",
+      "normalizedStorageKey": "catalog/products/66b75d7effd8367cc7723653c4231f36.png",
+      "mimeType": "image/png",
+      "altText": "GC Aadva Lab Scanner 3",
+      "width": 1200,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_kz_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-KZ/products/aadvalabscanner3",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/Scanner%2013.jpg"
+      }
+    },
+    "https://www.gc.dental/europe/en-KZ/products/everxflow": {
+      "id": "manufacturer-c66520612d0761c926caeb299c395ee9",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/everxflow_packshot.jpg",
+      "securePath": "/catalog/products/c66520612d0761c926caeb299c395ee9.png",
+      "normalizedStorageKey": "catalog/products/c66520612d0761c926caeb299c395ee9.png",
+      "mimeType": "image/png",
+      "altText": "GC everX Flow",
+      "width": 1200,
+      "height": 1026,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_kz_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-KZ/products/everxflow",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/everxflow_packshot.jpg"
+      }
+    },
+    "https://www.gc.dental/europe/en-KZ/products/g2bonduniversal": {
+      "id": "manufacturer-c6678b650e85df6eec980c44f73870b3",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/G2-BOND%20Universal%20packshot_LR.jpg",
+      "securePath": "/catalog/products/c6678b650e85df6eec980c44f73870b3.png",
+      "normalizedStorageKey": "catalog/products/c6678b650e85df6eec980c44f73870b3.png",
+      "mimeType": "image/png",
+      "altText": "GC G2-BOND Universal",
+      "width": 1200,
+      "height": 948,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_kz_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-KZ/products/g2bonduniversal",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/G2-BOND%20Universal%20packshot_LR.jpg"
+      }
+    },
+    "https://www.gc.dental/europe/en-KZ/products/gaenialuniversalinjectable": {
+      "id": "manufacturer-3cea36e48554435d9f9ef005f916000e",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/G-aenial%20Universal%20Injectable%20A2%2Bunitip-low.png",
+      "securePath": "/catalog/products/3cea36e48554435d9f9ef005f916000e.png",
+      "normalizedStorageKey": "catalog/products/3cea36e48554435d9f9ef005f916000e.png",
+      "mimeType": "image/png",
+      "altText": "GC G-ænial Universal Injectable",
+      "width": 1200,
+      "height": 886,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_kz_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-KZ/products/gaenialuniversalinjectable",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/G-aenial%20Universal%20Injectable%20A2%2Bunitip-low.png"
+      }
+    },
+    "https://www.gc.dental/europe/en-KZ/products/gradiaplus": {
+      "id": "manufacturer-1ad615a56d508e9507b72c23670b2b29",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/gradiaplus_packshot.jpg",
+      "securePath": "/catalog/products/1ad615a56d508e9507b72c23670b2b29.png",
+      "normalizedStorageKey": "catalog/products/1ad615a56d508e9507b72c23670b2b29.png",
+      "mimeType": "image/png",
+      "altText": "GC GRADIA PLUS",
+      "width": 1200,
+      "height": 938,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_kz_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-KZ/products/gradiaplus",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/gradiaplus_packshot.jpg"
+      }
+    },
+    "https://www.gc.dental/europe/en-KZ/products/initialiqonesqin": {
+      "id": "manufacturer-a3eba82aaa4923fb41d7cdad1163c4ca",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/Initial%20IQ%20ONE%20SQIN%20System%20Set_about.jpg",
+      "securePath": "/catalog/products/a3eba82aaa4923fb41d7cdad1163c4ca.png",
+      "normalizedStorageKey": "catalog/products/a3eba82aaa4923fb41d7cdad1163c4ca.png",
+      "mimeType": "image/png",
+      "altText": "GC Initial IQ ONE SQIN",
+      "width": 1200,
+      "height": 1177,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_kz_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-KZ/products/initialiqonesqin",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/Initial%20IQ%20ONE%20SQIN%20System%20Set_about.jpg"
+      }
+    },
+    "https://www.gc.dental/europe/en-KZ/products/initiallisiblock": {
+      "id": "manufacturer-6f6e5f9a569604f772dab993a4616479",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/About.jpg",
+      "securePath": "/catalog/products/6f6e5f9a569604f772dab993a4616479.png",
+      "normalizedStorageKey": "catalog/products/6f6e5f9a569604f772dab993a4616479.png",
+      "mimeType": "image/png",
+      "altText": "GC Initial LiSi Block",
+      "width": 1200,
+      "height": 861,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_kz_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-KZ/products/initiallisiblock",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/About.jpg"
+      }
+    },
+    "https://www.gc.dental/europe/en-KZ/products/initiallisipress": {
+      "id": "manufacturer-81e48b3ce102d3ed58d9b9b5c946fed9",
+      "sourceUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/initiallisipress_packshot.jpg",
+      "securePath": "/catalog/products/81e48b3ce102d3ed58d9b9b5c946fed9.png",
+      "normalizedStorageKey": "catalog/products/81e48b3ce102d3ed58d9b9b5c946fed9.png",
+      "mimeType": "image/png",
+      "altText": "GC Initial LiSi Press",
+      "width": 844,
+      "height": 1200,
+      "metadata": {
+        "exactProductPhoto": true,
+        "rightsStatus": "official_kz_manufacturer_catalog",
+        "sourcePageUrl": "https://www.gc.dental/europe/en-KZ/products/initiallisipress",
+        "sourceImageUrl": "https://www.gc.dental/europe/sites/europe.gc.dental/files/products/images/initiallisipress_packshot.jpg"
       }
     }
   }

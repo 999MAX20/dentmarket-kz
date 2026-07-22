@@ -1,6 +1,6 @@
 # Kazakhstan SKU coverage
 
-Generated: 2026-07-22T18:05:23.639Z
+Generated: 2026-07-22T18:09:40.140Z
 
 | Brand | Audit status | References | Exact KZ refs | KZ review | Published-card refs | Ref families | KZ market families | Exact KZ families | Public cards | Expansion queue |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -10,7 +10,7 @@ Generated: 2026-07-22T18:05:23.639Z
 | DentKist | KZ_AUDIT_REQUIRED | 3 | 0 | 3 | 3 | 1 | 0 | 0 | 6 | 0 |
 | Dentsply Sirona | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 15 | 0 |
 | FOMOS | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 | 0 |
-| GC | KZ_AUDIT_REQUIRED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 | 5 |
+| GC | KZ_AUDIT_IN_PROGRESS | 0 | 0 | 0 | 0 | 0 | 12 | 0 | 13 | 13 |
 | Hummer-Pak | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | IMD | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 | 0 |
 | Interdent | NOT_CLASSIFIED | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 | 0 |

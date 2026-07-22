@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T18:05:23.639Z",
+  "generatedAt": "2026-07-22T18:09:40.140Z",
   "policy": {
     "referenceKey": "brand + manufacturerRef",
     "publishRule": "Kazakhstan evidence is tracked independently from the global manufacturer catalog",
@@ -95,16 +95,16 @@
     },
     {
       "brand": "GC",
-      "coverageStatus": "KZ_AUDIT_REQUIRED",
+      "coverageStatus": "KZ_AUDIT_IN_PROGRESS",
       "references": 0,
       "kzConfirmedReferences": 0,
       "confirmationRequiredReferences": 0,
       "publishedReferences": 0,
       "canonicalFamilies": 0,
-      "kzMarketFamilies": 0,
+      "kzMarketFamilies": 12,
       "kzSkuConfirmedFamilies": 0,
-      "publishedFamilies": 5,
-      "expansionFamilies": 5
+      "publishedFamilies": 13,
+      "expansionFamilies": 13
     },
     {
       "brand": "Hummer-Pak",

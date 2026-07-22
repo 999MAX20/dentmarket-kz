@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-22T18:05:49.689Z",
+  "generatedAt": "2026-07-22T18:09:40.286Z",
   "intendedGrain": "Одна строка проверки на одну каноническую карточку",
   "catalog": {
-    "cardsBeforeMediaJoin": 3226,
-    "cardsAfterMediaJoin": 3226,
+    "cardsBeforeMediaJoin": 3234,
+    "cardsAfterMediaJoin": 3234,
     "lostCards": 0,
     "duplicateProductIds": []
   },
   "photos": {
-    "usableCards": 1783,
-    "usablePercent": 55.3,
+    "usableCards": 1791,
+    "usablePercent": 55.4,
     "withoutUsablePhoto": 1443,
     "cardsRetainedWithoutPhoto": 1443,
     "brokenCards": 0,
-    "localExact": 1783,
+    "localExact": 1791,
     "remoteUnchecked": 0,
     "sharedExactFiles": 144,
     "suspiciousSharedMedia": 0
   },
   "manifest": {
-    "entries": 1755,
+    "entries": 1763,
     "orphanEntries": 116
   },
   "evidence": {
