@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "e2e": "playwright test",
+    "mobile": "MOBILE_BUYER_ONLY=1 playwright test --config=playwright.mobile.config.ts",
+    "mobile:production": "MOBILE_BASE_URL=https://dentmarket-shop.vercel.app MOBILE_BUYER_ONLY=1 playwright test --config=playwright.mobile.config.ts",
     "typecheck": "tsc --noEmit",
     "lint": "tsc --noEmit"
   },
