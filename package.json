@@ -29,6 +29,8 @@
     "verify:security-storage": "pnpm --filter @marketplace/api exec node ../../scripts/verify-security-storage.mjs",
     "verify:production-config": "node scripts/verify-production-config.mjs",
     "verify:production-connectors": "node scripts/verify-production-connectors.mjs",
+    "load-test:search": "node scripts/load-test-search.mjs",
+    "load-test:handoff": "node scripts/load-test-handoff.mjs",
     "verify:release": "pnpm typecheck && pnpm test && pnpm build && pnpm verify:production-config",
     "verify:web": "pnpm --filter @marketplace/e2e e2e",
     "test:containers": "RUN_TESTCONTAINERS=1 pnpm --filter @marketplace/api test -- postgres-concurrency.testcontainers.spec.ts"

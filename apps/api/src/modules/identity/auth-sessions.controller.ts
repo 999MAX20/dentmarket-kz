@@ -100,6 +100,22 @@ export class AuthSessionsController {
     return { ...result, refreshToken: cookie.mp_refresh ? undefined : result.refreshToken, csrfToken };
   }
 
+  @Post("logout")
+  async logout(@Req() request: Request, @Headers("x-user-id") userId: string | undefined, @Res({ passthrough: true }) response: Response) {
+    const cookie = cookies(request.header("cookie"));
+    const refreshToken = cookie.mp_refresh;
+    if (refreshToken) {
+      const suppliedCsrf = request.header("x-csrf-token");
+      if (!suppliedCsrf || !cookie.mp_csrf || !equal(suppliedCsrf, cookie.mp_csrf)) throw new UnauthorizedException("CSRF validation failed");
+      await this.sessions.revokeByRefreshToken(refreshToken, userId, "user_logout");
+    }
+    const config = environment();
+    const common = { secure: config.NODE_ENV === "production", sameSite: "lax" as const, domain: config.AUTH_COOKIE_DOMAIN, path: "/api/auth" };
+    response.clearCookie("mp_refresh", { ...common, httpOnly: true });
+    response.clearCookie("mp_csrf", { ...common, httpOnly: false });
+    return { ok: true };
+  }
+
   @Get("sessions")
   list(@Headers("x-user-id") userId: string) { if (!userId) throw new UnauthorizedException(); return this.sessions.list(userId); }
 
