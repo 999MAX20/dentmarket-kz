@@ -30,6 +30,7 @@
     "catalog:crawl:stomir": "node scripts/crawl-stomir-catalog.mjs",
     "catalog:crawl:toboom": "node scripts/crawl-toboom-manufacturer-catalog.mjs",
     "catalog:crawl:vladmiva": "node scripts/crawl-vladmiva-dental-catalog.mjs",
+    "catalog:crawl:ztdental": "node scripts/crawl-ztdental-manufacturer-catalog.mjs",
     "catalog:publish-manufacturer-media": "node scripts/publish-manufacturer-model-media.mjs",
     "catalog:bootstrap-canonical": "node scripts/bootstrap-canonical-catalog.mjs",
     "catalog:sync-production": "node scripts/sync-public-catalog-to-production.mjs",
