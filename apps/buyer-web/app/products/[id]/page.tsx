@@ -8,6 +8,26 @@ import ProductOfferActions from "./product-offer-actions";
 import VariantPicker from "./variant-picker";
 
 type CatalogProduct = (typeof catalog.products)[number];
+type ProductVariant = {
+  id: string;
+  label: string;
+  sku: string | null;
+  gtin: string | null;
+  attributes?: Record<string, unknown>;
+};
+type ProductOffer = {
+  id: string;
+  variantId?: string | null;
+  supplier: { name: string };
+  supplierSku?: string | null;
+  priceMinor: number | string | null;
+  currency: string;
+  packaging?: { name: string };
+  available: boolean;
+  deliveryMethods?: string[];
+  verifiedDocuments?: boolean;
+  officialDistributor?: boolean;
+};
 
 function getProduct(id: string): CatalogProduct | undefined {
   const catalogProduct = catalog.products.find((item) => item.id === id);
@@ -77,10 +97,8 @@ export default async function ProductPage({
   searchParams: Promise<{ variant?: string; returnTo?: string }>;
 }) {
   const { id } = await params;
-  const {
-    variant: requestedVariantId,
-    returnTo: requestedReturnTo,
-  } = await searchParams;
+  const { variant: requestedVariantId, returnTo: requestedReturnTo } =
+    await searchParams;
   const product = getProduct(decodeURIComponent(id));
   if (!product) notFound();
 
@@ -89,17 +107,24 @@ export default async function ProductPage({
         product.sourceUrl as keyof typeof mediaCatalog.entries
       ]
     : undefined;
-  const attributes = product.attributes ?? [];
-  const variants = product.variants ?? [];
+  const variants = (product.variants ?? []) as ProductVariant[];
+  const offers = product.offers as ProductOffer[];
   const selectedVariant =
-    variants.find((variant) => variant.id === requestedVariantId) ?? variants[0];
+    variants.find((variant) => variant.id === requestedVariantId) ??
+    variants[0];
+  const attributes = Object.entries(
+    Object.fromEntries([
+      ...((product.attributes ?? []) as Array<[string, string]>),
+      ...Object.entries(selectedVariant?.attributes ?? {}),
+    ]),
+  );
   const visibleOffers = selectedVariant
-    ? product.offers.filter(
+    ? offers.filter(
         (offer) =>
           offer.variantId === selectedVariant.id ||
           (!offer.variantId && variants.length <= 1),
       )
-    : product.offers;
+    : offers;
   const returnTo =
     requestedReturnTo &&
     requestedReturnTo.startsWith("/") &&

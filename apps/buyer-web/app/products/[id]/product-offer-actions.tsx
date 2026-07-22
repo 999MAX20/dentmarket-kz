@@ -1,9 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import {
+  MarketplaceApiClient,
+  parseSessionHandoff,
+} from "@marketplace/api-client";
+import { Cart24Regular } from "@fluentui/react-icons";
+import { loginUrl } from "../../public-links";
 import styles from "./page.module.css";
 
 type Offer = {
+  id: string;
   supplier: { name: string };
   priceMinor: number | string | null;
   currency: string;
@@ -28,9 +35,73 @@ function deliveryLabel(methods: string[] = []) {
 
 export default function ProductOfferActions({ offers }: { offers: Offer[] }) {
   const [compareOpen, setCompareOpen] = useState(false);
+  const [busyOfferId, setBusyOfferId] = useState<string | null>(null);
+  const [notice, setNotice] = useState<string | null>(null);
+
+  const addToCart = async (offer: Offer) => {
+    const session = parseSessionHandoff(
+      window.sessionStorage.getItem("dentmarket:buyer-session"),
+      "BUYER",
+    );
+    if (!session?.organizationId) {
+      window.location.assign(
+        `${loginUrl}?returnTo=${encodeURIComponent(window.location.href)}`,
+      );
+      return;
+    }
+    setBusyOfferId(offer.id);
+    setNotice(null);
+    try {
+      const api = new MarketplaceApiClient(
+        process.env.NEXT_PUBLIC_API_URL ??
+          "https://dentmarket-api.vercel.app/api",
+        session.accessToken
+          ? { accessToken: session.accessToken }
+          : {
+              actorId: session.actorId,
+              organizationId: session.organizationId,
+            },
+      );
+      const carts = await api.get<Array<{ id: string; status: string }>>(
+        `/buyers/${session.organizationId}/carts`,
+      );
+      const activeCart = carts.find((cart) => cart.status === "ACTIVE");
+      const cart =
+        activeCart ??
+        (await api.post<{ id: string }>(
+          `/buyers/${session.organizationId}/carts`,
+          { currency: "KZT" },
+        ));
+      await api.post(`/carts/${cart.id}/items`, {
+        offerId: offer.id,
+        quantity: 1,
+      });
+      setNotice("Позиция добавлена в корзину");
+    } catch {
+      setNotice("Не удалось добавить позицию. Повторите попытку.");
+    } finally {
+      setBusyOfferId(null);
+    }
+  };
 
   return (
     <>
+      {offers.find((offer) => offer.available && offer.verifiedDocuments !== false) ? (
+        <button
+          className={styles.primaryCartButton}
+          type="button"
+          onClick={() => {
+            const offer = offers.find(
+              (item) => item.available && item.verifiedDocuments !== false,
+            );
+            if (offer) void addToCart(offer);
+          }}
+          disabled={busyOfferId !== null}
+        >
+          <Cart24Regular aria-hidden="true" />
+          {busyOfferId ? "Добавляем" : "В корзину"}
+        </button>
+      ) : null}
       <button className={styles.compareButton} type="button" onClick={() => setCompareOpen(true)}>
         Сравнить предложения
       </button>
@@ -53,10 +124,24 @@ export default function ProductOfferActions({ offers }: { offers: Offer[] }) {
                     <strong>{formatPrice(offer.priceMinor, offer.currency)}</strong>
                     <span className={offer.available ? styles.available : styles.onRequest}>{offer.available ? "В наличии" : "Под заказ"}</span>
                     {offer.verifiedDocuments ? <small>Документы проверены</small> : null}
+                    <button
+                      className={styles.addToCartButton}
+                      type="button"
+                      disabled={
+                        busyOfferId === offer.id ||
+                        !offer.available ||
+                        offer.verifiedDocuments === false
+                      }
+                      onClick={() => void addToCart(offer)}
+                    >
+                      <Cart24Regular aria-hidden="true" />
+                      {busyOfferId === offer.id ? "Добавляем" : "В корзину"}
+                    </button>
                   </div>
                 </article>
               )) : <p className={styles.muted}>Предложения ещё не добавлены.</p>}
             </div>
+            {notice ? <p className={styles.cartNotice} role="status">{notice}</p> : null}
           </section>
         </div>
       ) : null}

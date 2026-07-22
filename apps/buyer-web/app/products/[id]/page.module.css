@@ -15,16 +15,42 @@
 .summary h1 { max-width: 720px; margin: 12px 0 14px; font-size: clamp(36px, 5vw, 62px); line-height: 1.02; letter-spacing: -.045em; }
 .brand, .description { color: #66766f; font-size: 17px; line-height: 1.55; }
 .description { max-width: 680px; }
-.variantPicker { display: grid; gap: 7px; max-width: 560px; margin-top: 24px; }
-.variantPicker label { font-size: 13px; font-weight: 800; }
-.variantPicker select { width: 100%; min-height: 48px; padding: 0 42px 0 14px; border: 1px solid #b9cbc3; border-radius: 9px; background: #fff; color: #17231f; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; }
-.variantPicker select:focus { border-color: #26705d; outline: 3px solid rgb(38 112 93 / 13%); }
-.variantPicker span { color: #77867f; font-size: 12px; }
+.variantPicker { display: grid; gap: 16px; max-width: 620px; margin-top: 28px; }
+.variantTitle { font-size: 15px; }
+.variantFacet { min-width: 0; margin: 0; padding: 0; border: 0; }
+.variantFacet legend { margin-bottom: 8px; color: #66766f; font-size: 12px; font-weight: 750; }
+.variantOptions { display: flex; flex-wrap: wrap; gap: 8px; }
+.variantOptions button { min-height: 38px; padding: 0 13px; border: 1px solid #c8d7d0; border-radius: 8px; background: #fff; color: #30413a; cursor: pointer; font: inherit; font-size: 13px; font-weight: 700; transition: border-color 140ms ease, background 140ms ease, color 140ms ease; }
+.variantOptions button:hover { border-color: #26705d; }
+.variantOptions button:focus-visible { outline: 3px solid rgb(38 112 93 / 13%); outline-offset: 2px; }
+.variantOptions .variantOptionActive { border-color: #26705d; background: #eaf3ef; color: #1f5c4d; }
+.selectedVariant { display: grid; gap: 4px; padding: 14px 16px; border-left: 3px solid #26705d; border-radius: 0 9px 9px 0; background: #eef5f2; }
+.selectedVariant span, .selectedVariant small { color: #6d7d76; font-size: 11px; }
+.selectedVariant strong { font-size: 14px; line-height: 1.4; }
 .facts { display: flex; flex-wrap: wrap; gap: 30px; margin-top: 26px; }
 .facts span { display: grid; gap: 3px; }
 .facts strong { font-size: 18px; }
 .facts small, .offer span { color: #77867f; font-size: 12px; }
 .heroActions { display: grid; gap: 10px; margin-top: 32px; }
+.primaryCartButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 46px;
+  padding: 0 18px;
+  border: 0;
+  border-radius: 9px;
+  background: #234d41;
+  color: #fffdf9;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+}
+.primaryCartButton svg { width: 18px; }
+.primaryCartButton:hover { background: #173d32; }
+.primaryCartButton:disabled { cursor: wait; opacity: .65; }
 .trustNote { color: #77867f; font-size: 12px; }
 .compareButton { width: fit-content; min-height: 44px; padding: 0 18px; border: 1px solid #26705d; border-radius: 8px; background: #26705d; color: #fff; cursor: pointer; font: inherit; font-size: 14px; font-weight: 750; transition: transform 140ms ease, background 140ms ease; }
 .compareButton:hover { background: #1f5c4d; }
@@ -58,4 +84,31 @@
 .compareOfferMain, .compareOfferSide { display: grid; gap: 6px; }
 .compareOfferMain span, .compareOfferSide span, .compareOfferSide small { color: #77867f; font-size: 12px; }
 .compareOfferSide { text-align: right; }
+.addToCartButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 34px;
+  margin-top: 8px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 8px;
+  background: #234d41;
+  color: #fffdf9;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 750;
+  white-space: nowrap;
+}
+.addToCartButton svg { width: 16px; }
+.addToCartButton:hover { background: #173d32; }
+.addToCartButton:disabled { cursor: not-allowed; opacity: .5; }
+.cartNotice {
+  margin: 12px 0 0;
+  color: #2d6b57;
+  font-size: 13px;
+  font-weight: 650;
+}
 @media (max-width: 760px) { .page { padding: 24px 16px 56px; } .hero, .contentGrid { grid-template-columns: 1fr; gap: 26px; } .summary h1 { font-size: 42px; } .visual { max-width: none; } .compareDrawer { padding: 24px 18px; } .compareOffer { align-items: flex-start; flex-direction: column; } .compareOfferSide { text-align: left; } }

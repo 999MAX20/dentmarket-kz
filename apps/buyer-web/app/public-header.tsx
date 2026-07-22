@@ -31,13 +31,32 @@ const searchSuggestions = [
   "стерилизация",
   "импланты",
   "абатменты",
+  "светильник",
+  "лампа",
+  "композит",
+  "коффердам",
+  "гуттаперча",
+  "карпула",
+  "эндомотор",
 ];
+
+const searchAliases: Record<string, string[]> = {
+  светник: ["светильник", "лампа"],
+  текучка: ["композит", "текучий композит"],
+  коффер: ["коффердам"],
+  гутта: ["гуттаперча"],
+  карпулы: ["карпула", "анестезия"],
+  эндошка: ["эндодонтия", "эндомотор"],
+};
 
 export function PublicHeader({ active, query = "", searching = false, onQueryChange, onSearch, recentSearches = [] }: PublicHeaderProps) {
   const normalizedQuery = query.trim().toLocaleLowerCase("ru");
+  const aliasMatches = Object.entries(searchAliases)
+    .filter(([alias]) => alias.includes(normalizedQuery) || normalizedQuery.includes(alias))
+    .flatMap(([, values]) => values);
   const suggestions = normalizedQuery.length < 2
     ? recentSearches.slice(0, 4)
-    : searchSuggestions
+    : [...new Set([...aliasMatches, ...searchSuggestions])]
         .filter((suggestion) => suggestion.includes(normalizedQuery) && suggestion !== normalizedQuery)
         .slice(0, 6);
   const submit = (event: FormEvent<HTMLFormElement>) => {
