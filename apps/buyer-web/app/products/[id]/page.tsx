@@ -45,6 +45,20 @@ type ProductMedia = CatalogMediaCandidate & { altText?: string };
 const mediaEntries = mediaCatalog.entries as Record<string, ProductMedia>;
 type DisplayProduct = CatalogProduct & { liveMedia?: ProductMedia };
 
+const detachedBrandOverlay = (imageUrl: string | null | undefined) => {
+  try {
+    return new Set([
+      "denti.kz",
+      "www.denti.kz",
+      "img.waimaoniu.net",
+      "dental-market.kz",
+      "www.dental-market.kz",
+    ]).has(new URL(String(imageUrl)).hostname.toLocaleLowerCase("en"));
+  } catch {
+    return false;
+  }
+};
+
 type PublicCompareResponse = {
   product: {
     id: string;
@@ -201,18 +215,22 @@ export default async function ProductPage({
 
   const media =
     product.liveMedia ??
-    (product.sourceUrl ? mediaEntries[product.sourceUrl] : undefined) ??
     ("imageUrl" in product && product.imageUrl
       ? {
-          sourceUrl: product.imageUrl,
+          sourceUrl: `/api/catalog-images/${encodeURIComponent(product.id)}`,
           securePath: null,
           altText: `${product.name} — фото товара`,
           metadata: {
             exactProductPhoto: true,
             sourceImageUrl: product.imageUrl,
+            visualCompliance: "auto_corrected",
+            overlayCleanup: detachedBrandOverlay(product.imageUrl)
+              ? "top_strip"
+              : "none",
           },
         }
-      : undefined);
+      : undefined) ??
+    (product.sourceUrl ? mediaEntries[product.sourceUrl] : undefined);
   const imageSource = safeCatalogMediaSource(media);
   const variants = ((product.variants ?? []) as ProductVariant[]).map(
     (variant) => ({
@@ -264,6 +282,11 @@ export default async function ProductPage({
             <SafeProductImage
               src={imageSource}
               alt={media?.altText ?? product.name}
+              className={
+                media?.metadata?.overlayCleanup === "top_strip"
+                  ? styles.productImageTopStrip
+                  : undefined
+              }
               loading="eager"
               fetchPriority="high"
               draggable={false}

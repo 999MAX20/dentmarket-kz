@@ -15,6 +15,15 @@ const TYPO_ALIASES: Record<string, string> = {
   "карпуллы": "карпулы",
   "матриццы": "матрицы",
 };
+const CYRILLIC_TO_LATIN: Record<string, string> = {
+  а: "a", б: "b", в: "v", г: "g", д: "d", е: "e", ж: "zh", з: "z",
+  и: "i", й: "y", к: "k", л: "l", м: "m", н: "n", о: "o", п: "p",
+  р: "r", с: "s", т: "t", у: "u", ф: "f", х: "kh", ц: "ts", ч: "ch",
+  ш: "sh", щ: "shch", ы: "y", э: "e", ю: "yu", я: "ya", ь: "", ъ: "",
+};
+
+const transliterate = (value: string) =>
+  [...value].map((character) => CYRILLIC_TO_LATIN[character] ?? character).join("");
 
 function swapKeyboardLayout(value: string, from: string, to: string) {
   const index = new Map([...from].map((character, position) => [character, to[position] ?? character]));
@@ -24,6 +33,8 @@ function swapKeyboardLayout(value: string, from: string, to: string) {
 // Поисковые термины, которыми клиники реально называют товар в заявках и чатах.
 // Официальные названия остаются в индексе; этот слой только расширяет запрос.
 const LEXICON: DentalSearchEntry[] = [
+  { aliases: ["для фиксации коронки", "зафиксировать коронку", "фиксация коронки"], terms: ["фиксирующий цемент", "стоматологический цемент", "цемент для постоянной фиксации"] },
+  { aliases: ["для определения длины канала", "определить длину канала", "рабочая длина канала"], terms: ["апекслокатор", "определитель апекса", "рабочая длина корневого канала"] },
   { aliases: ["светник", "светляк", "светоотверждайка", "светоотверждаемка", "фотополимер"], terms: ["композит", "светоотверждаемый", "реставрационный материал"] },
   { aliases: ["текучка", "флоу", "flow", "флоу композит"], terms: ["текучий композит", "flow", "жидкотекучий"] },
   { aliases: ["пломба", "пломбировочный", "пломбировочный материал"], terms: ["композит", "реставрационный материал", "пломбировочный материал"] },
@@ -157,6 +168,8 @@ export function expandDentalSearchQuery(value: string) {
   const matchedAliases = new Set<string>();
   const layoutVariants = normalized.split(" ").length === 1 ? [swapKeyboardLayout(normalized, RU_LAYOUT, EN_LAYOUT), swapKeyboardLayout(normalized, EN_LAYOUT, RU_LAYOUT)] : [];
   layoutVariants.filter((variant) => variant !== normalized).forEach((variant) => terms.add(variant));
+  const transliterated = transliterate(normalized);
+  if (transliterated !== normalized) terms.add(transliterated);
   for (const entry of LEXICON) {
     if (!entry.aliases.some((alias) => normalized.includes(normalizeCatalogText(alias)))) continue;
     entry.aliases.forEach((alias) => matchedAliases.add(alias));

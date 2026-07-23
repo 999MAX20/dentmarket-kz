@@ -110,12 +110,48 @@ async function fetchImageFromPage(pageUrl) {
   throw new Error("no product image candidate");
 }
 
-async function normalize(bytes) {
+const overlayHosts = new Set([
+  "denti.kz",
+  "www.denti.kz",
+  "img.waimaoniu.net",
+  "dental-market.kz",
+  "www.dental-market.kz",
+]);
+
+async function normalize(bytes, sourceUrl, pageUrl) {
   const sharpPackage = (await readdir(join(projectRoot, "node_modules/.pnpm"))).find((name) => name.startsWith("sharp@"));
   if (!sharpPackage) throw new Error("sharp is not installed; run pnpm install first");
   const requireSharp = createRequire(join(projectRoot, "node_modules/.pnpm", sharpPackage, "node_modules/sharp/package.json"));
   const sharp = requireSharp("sharp");
-  return sharp(bytes).rotate().resize(1200, 1200, { fit: "contain", background: "#F7F8FA" }).webp({ quality: 86, effort: 4 }).toBuffer({ resolveWithObject: true });
+  const metadata = await sharp(bytes).metadata();
+  const height = metadata.autoOrient?.height ?? metadata.height ?? 0;
+  const width = metadata.autoOrient?.width ?? metadata.width ?? 0;
+  const sourceHost = new URL(sourceUrl).hostname.toLocaleLowerCase("en");
+  let image = sharp(bytes).autoOrient().flatten({ background: "#ffffff" });
+  if (
+    overlayHosts.has(sourceHost) &&
+    !/\/(?:aktsii|promotions?|special-offers?)(?:\/|$)/iu.test(pageUrl) &&
+    height >= 240 &&
+    width >= 240
+  ) {
+    const top = Math.max(1, Math.round(height * 0.12));
+    image = image.extract({ left: 0, top, width, height: height - top });
+  }
+  return image
+    .trim({ background: "#ffffff", threshold: 10 })
+    .resize(1000, 1000, {
+      fit: "contain",
+      background: "#ffffff",
+    })
+    .extend({
+      top: 100,
+      right: 100,
+      bottom: 100,
+      left: 100,
+      background: "#ffffff",
+    })
+    .webp({ quality: 88, effort: 4 })
+    .toBuffer({ resolveWithObject: true });
 }
 
 async function updateMedia(id, payload) {
@@ -144,7 +180,11 @@ async function worker() {
     const { product, media: item, pageUrl } = jobs[index];
     try {
       const source = await fetchImageFromPage(pageUrl);
-      const normalized = await normalize(source.bytes);
+      const normalized = await normalize(
+        source.bytes,
+        source.sourceUrl,
+        source.pageUrl,
+      );
       const storageKey = `catalog/products/${product.id}.webp`;
       await writeFile(join(projectRoot, "apps/buyer-web/public", storageKey), normalized.data);
       await writeFile(join(projectRoot, ".local-storage", storageKey), normalized.data);
@@ -167,6 +207,12 @@ async function worker() {
           sourceImageUrl: source.sourceUrl,
           normalizedFormat: "webp",
           normalizedSize: "1200x1200",
+          visualCompliance: "auto_corrected",
+          visualComplianceRules: [
+            "detached_brand_strip_removed",
+            "inner_canvas_trimmed",
+            "product_centered",
+          ],
           protectedDelivery: "frontend-friction-only",
         },
         updatedAt: new Date().toISOString(),

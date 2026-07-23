@@ -463,10 +463,16 @@ export const searchCatalogSchema = z.object({
   minNormalizedPriceMinor: z.coerce.number().nonnegative().optional(),
   maxNormalizedPriceMinor: z.coerce.number().nonnegative().optional(),
   attributeFilters: z.string().max(8_000).optional(),
-  sort: z.enum(["RELEVANCE", "PRICE_ASC", "PRICE_DESC", "NAME_ASC", "UPDATED_DESC"]).default("RELEVANCE"),
+  sort: z.enum(["RELEVANCE", "TOP", "BEST_SELLER", "BEST_PRICE", "PRICE_ASC", "PRICE_DESC", "NAME_ASC", "UPDATED_DESC"]).default("RELEVANCE"),
   offset: z.coerce.number().int().nonnegative().max(10_000).default(0),
   limit: z.coerce.number().int().min(1).max(100).default(24),
 }).refine((value) => value.minNormalizedPriceMinor == null || value.maxNormalizedPriceMinor == null || value.minNormalizedPriceMinor <= value.maxNormalizedPriceMinor, "Search price range is inverted");
+
+export const recordSearchEventSchema = z.object({
+  query: z.string().trim().min(1).max(240),
+  resultCount: z.coerce.number().int().nonnegative().max(1_000_000),
+  matchedAliases: z.array(z.string().trim().min(1).max(120)).max(20).default([]),
+});
 
 export const compareOffersSchema = z.object({
   buyerOrganizationId: z.uuid(),

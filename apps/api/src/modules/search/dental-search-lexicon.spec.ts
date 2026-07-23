@@ -24,4 +24,15 @@ describe("dental search lexicon", () => {
     const layout = expandDentalSearchQuery("rjvvth");
     expect(layout.expandedQuery).toContain("коммер");
   });
+
+  it("understands treatment purpose and transliteration", () => {
+    const crown = expandDentalSearchQuery("для фиксации коронки");
+    expect(crown.expandedQuery).toContain("фиксирующий цемент");
+
+    const canal = expandDentalSearchQuery("для определения длины канала");
+    expect(canal.expandedQuery).toContain("апекслокатор");
+
+    const transliterated = expandDentalSearchQuery("адгезив");
+    expect(transliterated.expandedQuery).toContain("adgeziv");
+  });
 });
