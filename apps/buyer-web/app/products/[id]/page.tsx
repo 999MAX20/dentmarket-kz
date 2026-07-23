@@ -3,7 +3,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cache } from "react";
 import catalog from "../../data/public-catalog-fallback.json";
-import approvedCatalog from "../../data/production-approved-catalog.json";
 import mediaCatalog from "../../data/public-catalog-media.json";
 import styles from "./page.module.css";
 import ProductOfferActions from "./product-offer-actions";
@@ -13,10 +12,14 @@ import {
   safeCatalogMediaSource,
   type CatalogMediaCandidate,
 } from "../../lib/catalog-media";
+import {
+  readPublishedCatalog,
+  type PublishedCatalogProduct,
+} from "../../lib/published-catalog-server";
 
 type CatalogProduct =
   | (typeof catalog.products)[number]
-  | (typeof approvedCatalog.products)[number];
+  | PublishedCatalogProduct;
 type ProductVariant = {
   id: string;
   label: string;
@@ -57,9 +60,10 @@ type PublicCompareResponse = {
 };
 
 const getProduct = cache(async (id: string): Promise<DisplayProduct | undefined> => {
-  const catalogProduct = [...catalog.products, ...approvedCatalog.products].find(
-    (item) => item.id === id,
-  );
+  const publishedCatalog = await readPublishedCatalog();
+  const catalogProduct =
+    catalog.products.find((item) => item.id === id) ??
+    publishedCatalog.products.find((item) => item.id === id);
   if (catalogProduct) return catalogProduct;
 
   // The public search intentionally includes a small demo offer set while the
@@ -171,7 +175,18 @@ export default async function ProductPage({
 
   const media =
     product.liveMedia ??
-    (product.sourceUrl ? mediaEntries[product.sourceUrl] : undefined);
+    (product.sourceUrl ? mediaEntries[product.sourceUrl] : undefined) ??
+    ("imageUrl" in product && product.imageUrl
+      ? {
+          sourceUrl: product.imageUrl,
+          securePath: null,
+          altText: `${product.name} — фото товара`,
+          metadata: {
+            exactProductPhoto: true,
+            sourceImageUrl: product.imageUrl,
+          },
+        }
+      : undefined);
   const imageSource = safeCatalogMediaSource(media);
   const variants = ((product.variants ?? []) as ProductVariant[]).map(
     (variant) => ({

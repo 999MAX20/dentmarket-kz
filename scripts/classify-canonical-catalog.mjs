@@ -81,15 +81,18 @@ function classify(product) {
   if (!exactKzEvidence) warnings.push(brandKzEvidence ? "EXACT_KZ_SKU_EVIDENCE_REQUIRED" : "KZ_MARKET_EVIDENCE_REQUIRED");
 
   if (reasons.length) return { decision: "REJECT", reasons, warnings, exactKzEvidence };
-  if (warnings.length) return { decision: "MODERATION", reasons, warnings, exactKzEvidence };
-  return { decision: "PUBLISH", reasons, warnings, exactKzEvidence };
+  // Product identity, brand and an exact product photo are the public-shelf
+  // gate. Missing commercial enrichment remains visible to moderators without
+  // hiding a recognizable manufacturer card from clinics or future suppliers.
+  if (exactPhoto) return { decision: "PUBLISH", reasons, warnings, exactKzEvidence };
+  return { decision: "MODERATION", reasons, warnings, exactKzEvidence };
 }
 
 const rows = catalog.products.map((product) => ({ product, ...classify(product) }));
 const counts = rows.reduce((result, row) => ({ ...result, [row.decision]: (result[row.decision] ?? 0) + 1 }), {});
 const reasonCounts = rows.flatMap((row) => [...row.reasons, ...row.warnings]).reduce((result, reason) => ({ ...result, [reason]: (result[reason] ?? 0) + 1 }), {});
 
-const approvedProducts = rows.filter((row) => row.decision === "PUBLISH").map(({ product }) => {
+const approvedProducts = rows.filter((row) => row.decision === "PUBLISH").map(({ product, warnings, exactKzEvidence }) => {
   const id = stableId(product.canonicalProductId);
   return {
     id,
@@ -104,7 +107,11 @@ const approvedProducts = rows.filter((row) => row.decision === "PUBLISH").map(({
     imageUrl: clean(product.publishableImageUrl),
     photoStatus: "exact",
     catalogSource: "manufacturer",
-    complianceClassification: "PUBLISH",
+    complianceClassification: warnings.length
+      ? "PUBLISH_WITH_REVIEW_FLAGS"
+      : "PUBLISH",
+    moderationWarnings: warnings,
+    exactKzEvidence,
     attributes: [
       ["Категория", clean(product.categoryPath) || "Стоматологические товары"],
       ["Бренд", clean(product.brand)],
@@ -133,10 +140,12 @@ const report = {
     allCanonicalCardsClassified: true,
     rejectedCardsExcludedFromCatalog: true,
     moderationCardsRetained: true,
-    productionRequiresExactKzSkuEvidence: true,
+    productionRequiresExactKzSkuEvidence: false,
     productionRequiresExactPhoto: true,
-    productionRequiresManufacturerReference: true,
-    productionRequiresCleanDescription: true,
+    productionRequiresBrand: true,
+    productionRequiresManufacturerReference: false,
+    productionRequiresCleanDescription: false,
+    nonBlockingReviewFlagsRetained: true,
     complianceMode: "REPORT_ONLY_NO_AUTOMATIC_CORRECTION",
   },
   totals: { total: rows.length, PUBLISH: counts.PUBLISH ?? 0, MODERATION: counts.MODERATION ?? 0, REJECT: counts.REJECT ?? 0 },
@@ -150,7 +159,7 @@ const queueCsv = [queueHeaders.join(","), ...queueRows.map((row) => queueHeaders
 const noPhotoRows = rows.filter(({ product }) => !clean(product.publishableImageUrl)).map(({ product, decision, warnings }) => ({ canonicalProductId: product.canonicalProductId, brand: product.brand, name: product.name, decision, photoStatus: product.photoStatus, evidenceImageUrl: product.evidenceImageUrl, sourcePageUrl: product.sourcePageUrl, nextAction: warnings.includes("PHOTO_REVIEW_REQUIRED") ? "REVIEW_OR_REPLACE_IMAGE" : "FIND_OR_GENERATE_MODERATED_IMAGE" }));
 const noPhotoHeaders = ["canonicalProductId", "brand", "name", "decision", "photoStatus", "evidenceImageUrl", "sourcePageUrl", "nextAction"];
 const noPhotoCsv = [noPhotoHeaders.join(","), ...noPhotoRows.map((row) => noPhotoHeaders.map((header) => escapeCsv(row[header])).join(","))].join("\n") + "\n";
-const md = `# Классификация канонического каталога\n\nСформировано: ${report.generatedAt}\n\n- Всего карточек: ${report.totals.total}\n- Можно публиковать автоматически: ${report.totals.PUBLISH}\n- Оставлено на модерации: ${report.totals.MODERATION}\n- Отсеяно как не соответствующее правилам: ${report.totals.REJECT}\n- Без одобренного фото: ${noPhotoRows.length}\n\n## Правило допуска\n\nПубликация разрешена только при наличии корректной товарной сущности, категории, официальной страницы, артикула производителя, понятного варианта, чистого описания, точного фото и подтверждения конкретной позиции для рынка Казахстана. Остальные карточки не удаляются: они остаются в очереди модерации с причиной.\n`;
+const md = `# Классификация канонического каталога\n\nСформировано: ${report.generatedAt}\n\n- Всего карточек: ${report.totals.total}\n- Можно публиковать автоматически: ${report.totals.PUBLISH}\n- Оставлено на модерации: ${report.totals.MODERATION}\n- Отсеяно как не соответствующее правилам: ${report.totals.REJECT}\n- Без одобренного фото: ${noPhotoRows.length}\n\n## Правило допуска\n\nПубликация разрешена при наличии корректного названия товара, бренда и точного фото. Недостающие описание, категория, артикул, понятное название варианта или подтверждение позиции для рынка Казахстана сохраняются как флаги последующей модерации, но не скрывают карточку с публичной витрины. Карточки без точного фото остаются на модерации, некорректные товарные сущности отсекаются.\n`;
 const approvedMediaHeaders = ["sourcePageUrl", "sourceImageUrl", "productName", "rightsStatus"];
 const approvedMediaCsv = [
   approvedMediaHeaders.join(","),

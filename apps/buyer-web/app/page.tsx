@@ -67,7 +67,6 @@ import styles from "./page.module.css";
 import { BuyerServicesPanel } from "./buyer-services-panel";
 import { SmartCommercePanel } from "./smart-commerce-panel";
 import publicCatalogData from "./data/public-catalog-fallback.json";
-import approvedCatalogData from "./data/production-approved-catalog.json";
 import publicCatalogMedia from "./data/public-catalog-media.json";
 import SafeProductImage from "./components/safe-product-image";
 import { safeCatalogMediaSource } from "./lib/catalog-media";
@@ -372,12 +371,10 @@ const demoCatalogFallback: SearchProduct[] = [
 ];
 const combinedCatalogProducts = [
   ...new Map(
-    [...publicCatalogData.products, ...approvedCatalogData.products].map(
-      (product) => [
-        `${product.brand ?? ""}|${product.name}`.toLocaleLowerCase("ru"),
-        product,
-      ],
-    ),
+    publicCatalogData.products.map((product) => [
+      `${product.brand ?? ""}|${product.name}`.toLocaleLowerCase("ru"),
+      product,
+    ]),
   ).values(),
 ];
 const generatedCatalogFallback: SearchProduct[] =
@@ -497,29 +494,15 @@ const mergePrivateCatalog = (
 };
 
 async function fetchPublicCatalogSearch(
-  query: string,
+  _query: string,
   sort: string,
   params: URLSearchParams,
 ): Promise<SearchResult | null> {
-  if (typeof window !== "undefined") {
-    try {
-      const saved = JSON.parse(
-        window.localStorage.getItem("dentmarket:city") ?? "null",
-      ) as { id?: string } | null;
-      if (saved?.id) params.set("cityId", saved.id);
-    } catch {
-      /* legacy plain-text city selection */
-    }
-  }
-  const apiUrl =
-    process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
-  const response = await fetch(
-    `${apiUrl}/catalog/search?${params.toString()}`,
-    {
-      cache: "no-store",
-      signal: AbortSignal.timeout(3500),
-    },
-  );
+  params.set("sort", sort);
+  const response = await fetch(`/api/catalog-search?${params.toString()}`, {
+    cache: "no-store",
+    signal: AbortSignal.timeout(8000),
+  });
   if (!response.ok) return null;
   const result = (await response.json()) as Partial<SearchResult>;
   if (!Array.isArray(result.items) || typeof result.total !== "number")
@@ -1029,14 +1012,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
             publicParams,
           );
           if (live) {
-            setSearch(
-              mergePrivateCatalog(live, nextQuery, nextSort, {
-                unit: unitFilter,
-                packaging: packagingFilter,
-                delivery: deliveryFilter,
-                stock: stockFilter,
-              }),
-            );
+            setSearch(live);
             return;
           }
         } catch {
@@ -1147,7 +1123,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         }),
       );
       const localCart = demoCartToCart(readDemoCart());
-      setCarts(cartResult.length || !localCart ? cartResult : [localCart]);
+      setCarts(
+        cartResult.length || !localCart ? cartResult : [localCart],
+      );
       setOrders(orderResult);
       setDocuments(documentResult);
       setNotifications(notificationResult);
@@ -1237,19 +1215,19 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     setBusy("load-more");
     try {
       if (!handoff) {
-        setSearch(
-          fallbackSearch(
-            query,
-            sort,
-            {
-              unit: unitFilter,
-              packaging: packagingFilter,
-              delivery: deliveryFilter,
-              stock: "all",
-            },
-            currentCount + 60,
-          ),
-        );
+        const params = new URLSearchParams({
+          q: canonicalSearchQuery(query),
+          sort,
+          offset: String(currentCount),
+          limit: "60",
+        });
+        const next = await fetchPublicCatalogSearch(query, sort, params);
+        if (!next) throw new Error("Published catalog is unavailable");
+        setSearch((current) => ({
+          ...next,
+          offset: 0,
+          items: [...(current?.items ?? []), ...next.items],
+        }));
         return;
       }
       const params = buildSearchParams(query, sort);
@@ -1500,9 +1478,12 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       productId: product?.id ?? comparison!.product.id,
       productName: product?.name ?? comparison!.product.name,
       supplierName: offer?.supplier.name ?? comparedOffer!.supplier.name,
-      priceMinor: String(offer?.priceMinor ?? comparedOffer!.price.amountMinor ?? "0"),
+      priceMinor: String(
+        offer?.priceMinor ?? comparedOffer!.price.amountMinor ?? "0",
+      ),
       currency: offer?.currency ?? comparedOffer!.price.currency ?? "KZT",
-      packaging: offer?.packaging.name ?? comparedOffer!.packaging.name ?? "Фасовка",
+      packaging:
+        offer?.packaging.name ?? comparedOffer!.packaging.name ?? "Фасовка",
     });
     const localCart = demoCartToCart(items);
     if (localCart) setCarts([localCart]);
@@ -1563,7 +1544,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   const updateCartItemQuantity = async (itemId: string, quantity: number) => {
     if (!activeCart || quantity < 1) return;
     if (activeCart.id === "demo-local-cart") {
-      const localCart = demoCartToCart(setDemoCartQuantity(itemId, quantity));
+      const localCart = demoCartToCart(
+        setDemoCartQuantity(itemId, quantity),
+      );
       if (localCart) setCarts([localCart]);
       return;
     }
