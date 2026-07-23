@@ -110,12 +110,10 @@ async function fetchImageFromPage(pageUrl) {
   throw new Error("no product image candidate");
 }
 
-const overlayHosts = new Set([
-  "denti.kz",
-  "www.denti.kz",
-  "img.waimaoniu.net",
-  "dental-market.kz",
-  "www.dental-market.kz",
+const detachedOverlayMasks = new Map([
+  ["img.waimaoniu.net", { width: 0.4, height: 0.16 }],
+  ["dental-market.kz", { width: 0.29, height: 0.14 }],
+  ["www.dental-market.kz", { width: 0.29, height: 0.14 }],
 ]);
 
 async function normalize(bytes, sourceUrl, pageUrl) {
@@ -129,13 +127,26 @@ async function normalize(bytes, sourceUrl, pageUrl) {
   const sourceHost = new URL(sourceUrl).hostname.toLocaleLowerCase("en");
   let image = sharp(bytes).autoOrient().flatten({ background: "#ffffff" });
   if (
-    overlayHosts.has(sourceHost) &&
+    detachedOverlayMasks.has(sourceHost) &&
     !/\/(?:aktsii|promotions?|special-offers?)(?:\/|$)/iu.test(pageUrl) &&
     height >= 240 &&
     width >= 240
   ) {
-    const top = Math.max(1, Math.round(height * 0.12));
-    image = image.extract({ left: 0, top, width, height: height - top });
+    const mask = detachedOverlayMasks.get(sourceHost);
+    image = image.composite([
+      {
+        input: {
+          create: {
+            width: Math.round(width * mask.width),
+            height: Math.round(height * mask.height),
+            channels: 3,
+            background: "#ffffff",
+          },
+        },
+        left: 0,
+        top: 0,
+      },
+    ]);
   }
   return image
     .trim({ background: "#ffffff", threshold: 10 })

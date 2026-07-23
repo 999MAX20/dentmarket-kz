@@ -121,7 +121,7 @@ const toSearchProduct = (product: PublishedCatalogProduct) => ({
     ? [
         {
           id: `catalog-media-${product.id}`,
-          sourceUrl: `/api/catalog-images/${encodeURIComponent(product.id)}`,
+          sourceUrl: `/api/catalog-images/${encodeURIComponent(product.id)}?v=3`,
           securePath: null,
           normalizedStorageKey: null,
           altText: `${product.name} — фото товара`,

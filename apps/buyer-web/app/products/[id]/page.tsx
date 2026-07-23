@@ -217,7 +217,7 @@ export default async function ProductPage({
     product.liveMedia ??
     ("imageUrl" in product && product.imageUrl
       ? {
-          sourceUrl: `/api/catalog-images/${encodeURIComponent(product.id)}`,
+          sourceUrl: `/api/catalog-images/${encodeURIComponent(product.id)}?v=3`,
           securePath: null,
           altText: `${product.name} — фото товара`,
           metadata: {

@@ -24,9 +24,32 @@ async function correctedProductImage(
     throw new Error("Image size is outside the catalog limits");
   }
 
+  const metadata = await sharp(bytes, { failOn: "warning" }).metadata();
+  const width = metadata.autoOrient?.width ?? metadata.width ?? 0;
+  const height = metadata.autoOrient?.height ?? metadata.height ?? 0;
+  const sourceHost = new URL(sourceUrl).hostname.toLocaleLowerCase("en");
   let image = sharp(bytes, { failOn: "warning" }).autoOrient().flatten({
     background: "#ffffff",
   });
+
+  // This source adds a detached advertising logo to the empty upper-left
+  // canvas. Remove only that overlay; factory markings on the product stay.
+  if (sourceHost === "img.waimaoniu.net" && width >= 240 && height >= 240) {
+    image = image.composite([
+      {
+        input: {
+          create: {
+            width: Math.round(width * 0.4),
+            height: Math.round(height * 0.16),
+            channels: 3,
+            background: "#ffffff",
+          },
+        },
+        left: 0,
+        top: 0,
+      },
+    ]);
+  }
 
   return image
     .trim({ background: "#ffffff", threshold: 10 })
