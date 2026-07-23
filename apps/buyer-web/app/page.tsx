@@ -196,6 +196,7 @@ type SearchProduct = {
   offers: SearchOffer[];
   sourceUrl?: string | null;
   sourceUpdatedAt?: string | null;
+  placement?: "catalog" | "promotion";
   attributes?: Array<string[]>;
   photoStatus?: string;
 };
@@ -228,6 +229,22 @@ const priceDifferencePercent = (product: SearchProduct) => {
     .sort((left, right) => left - right);
   if (prices.length < 2 || prices[0] === prices.at(-1)) return 0;
   return Math.round((1 - prices[0] / prices.at(-1)!) * 100);
+};
+const cardSummary = (product: SearchProduct) => {
+  const description = String(product.description ?? "")
+    .replace(/\s+/gu, " ")
+    .trim();
+  if (!description) return product.categories[0]?.name ?? "";
+  const repeatedName = description
+    .toLocaleLowerCase("ru")
+    .startsWith(product.name.trim().toLocaleLowerCase("ru"));
+  const withoutRepeatedName = repeatedName
+    ? description.slice(product.name.trim().length).replace(/^[\s:—–-]+/u, "")
+    : description;
+  const sentence =
+    withoutRepeatedName.match(/^.{30,150}?(?:[.!?](?=\s|$)|$)/u)?.[0] ??
+    withoutRepeatedName;
+  return sentence.length > 135 ? `${sentence.slice(0, 132).trimEnd()}…` : sentence;
 };
 const demoCatalogFallback: SearchProduct[] = [
   {
@@ -780,6 +797,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       initialCatalogLimit,
     ),
   );
+  const [promotionProducts, setPromotionProducts] = useState<SearchProduct[]>([]);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const catalogUrlAppliedRef = useRef(false);
   const returnScrollAppliedRef = useRef(false);
@@ -942,6 +960,16 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         .slice(0, 3),
     [search],
   );
+  const featuredDeals = useMemo(() => {
+    const seen = new Set<string>();
+    return [...promotionProducts, ...promotedProducts]
+      .filter((product) => {
+        if (seen.has(product.id)) return false;
+        seen.add(product.id);
+        return true;
+      })
+      .slice(0, 3);
+  }, [promotedProducts, promotionProducts]);
   const activeFilterCount = [
     packagingFilter,
     unitFilter,
@@ -967,6 +995,18 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     window.addEventListener("keydown", closeOnEscape);
     return () => window.removeEventListener("keydown", closeOnEscape);
   }, [filtersOpen]);
+
+  useEffect(() => {
+    if (!handoffChecked || handoff) return;
+    const params = new URLSearchParams({
+      placement: "promotion",
+      sort: "RELEVANCE",
+      limit: "6",
+    });
+    void fetchPublicCatalogSearch("", "RELEVANCE", params)
+      .then((result) => setPromotionProducts(result?.items ?? []))
+      .catch(() => setPromotionProducts([]));
+  }, [handoff, handoffChecked]);
 
   const buildSearchParams = useCallback(
     (nextQuery = query, nextSort = sort) => {
@@ -1694,7 +1734,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               </a>
             ))}
           </nav>
-          {promotedProducts.length ? (
+          {featuredDeals.length ? (
             <section
               className={styles.dealsSection}
               aria-labelledby="deals-title"
@@ -1702,23 +1742,15 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               <div className={styles.dealsHeading}>
                 <div>
                   <h2 id="deals-title">Акции и выгодные предложения</h2>
-                  <p>Скидка относится к предложению конкретного продавца.</p>
+                  <p>Комплекты брендов и скидки конкретных продавцов.</p>
                 </div>
-                <a
-                  href="/?q="
-                  onClick={(event) => {
-                    event.preventDefault();
-                    void submitSearchFor("");
-                  }}
-                >
-                  Смотреть все
-                </a>
               </div>
               <div className={styles.dealGrid}>
-                {promotedProducts.map((product) => {
+                {featuredDeals.map((product) => {
                   const best = rankSearchOffers(product.offers).find(
                     (offer) => offer.priceMinor,
                   );
+                  const isCampaign = product.placement === "promotion";
                   const promotion = bestPromotionPercent(product);
                   const priceDifference = priceDifferencePercent(product);
                   const image = mediaSource(product.media?.[0]);
@@ -1727,9 +1759,8 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                       className={styles.dealCard}
                       key={`deal:${product.id}`}
                     >
-                      <button
-                        type="button"
-                        onClick={() => void openProduct(product)}
+                      <a
+                        href={`/products/${encodeURIComponent(product.id)}`}
                         aria-label={`Открыть ${product.name}`}
                       >
                         <SafeProductImage
@@ -1741,27 +1772,36 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                             </span>
                           }
                         />
-                      </button>
+                      </a>
                       <div>
                         <span className={styles.dealLabel}>
-                          {promotion ? "Акция продавца" : "Выгодная цена"}
+                          {isCampaign
+                            ? "Акция бренда"
+                            : promotion
+                              ? "Акция продавца"
+                              : "Выгодная цена"}
                         </span>
                         <h3>{product.name}</h3>
                         <strong>
-                          {best
+                          {isCampaign
+                            ? "Специальный комплект"
+                            : best
                             ? `от ${formatMoney(best.priceMinor, best.currency ?? "KZT")}`
                             : "Цена по запросу"}
                         </strong>
                         <small>
-                          {product.offers.length}{" "}
-                          {ruCount(
-                            product.offers.length,
-                            "продавец",
-                            "продавца",
-                            "продавцов",
-                          )}
+                          {isCampaign
+                            ? (product.brand ?? "DentMarket")
+                            : `${product.offers.length} ${ruCount(
+                                product.offers.length,
+                                "продавец",
+                                "продавца",
+                                "продавцов",
+                              )}`}
                         </small>
-                        {promotion ? (
+                        {isCampaign ? (
+                          <p>Состав и условия — в карточке</p>
+                        ) : promotion ? (
                           <p>У одного продавца скидка {promotion}%</p>
                         ) : priceDifference ? (
                           <p>
@@ -2309,6 +2349,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                           : (product.categories[0]?.name ?? "Стоматология")}
                       </span>
                       <h3>{product.name}</h3>
+                      {isPublic && cardSummary(product) ? (
+                        <p className={styles.productSummary}>
+                          {cardSummary(product)}
+                        </p>
+                      ) : null}
                       {!isPublic ? (
                         <p>
                           {[

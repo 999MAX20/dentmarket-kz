@@ -33,6 +33,10 @@ const navigationNoise = /^(?:products?|product center|catalog(?:ue)?|home|about|
 const textNoise = /(?:document\.createElement|jivosite|yaCounter|slick\s*\(|copyright\s*©|didn't find the information|legal declaration|site map)/iu;
 const unsafeMedicalClaim = /(?:гарантирован(?:ный|о) результат|абсолютно безопас|лечит все|без побочных эффектов)/iu;
 const validUrl = (value) => /^https?:\/\/[^\s]+$/iu.test(clean(value));
+const isPromotionSource = (product) =>
+  /\/(?:aktsii|promotions?|special-offers?)(?:\/|$)/iu.test(
+    clean(product.sourcePageUrl),
+  );
 
 function classify(product) {
   const reasons = [];
@@ -105,6 +109,7 @@ const approvedProducts = rows.filter((row) => row.decision === "PUBLISH").map(({
     sourceUrl: clean(product.sourcePageUrl),
     sourceUpdatedAt: catalog.generatedAt,
     imageUrl: clean(product.publishableImageUrl),
+    placement: isPromotionSource(product) ? "promotion" : "catalog",
     photoStatus: "exact",
     catalogSource: "manufacturer",
     complianceClassification: warnings.length

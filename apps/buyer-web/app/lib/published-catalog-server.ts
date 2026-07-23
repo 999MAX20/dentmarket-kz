@@ -23,6 +23,7 @@ export type PublishedCatalogProduct = {
   sourceUrl?: string | null;
   sourceUpdatedAt?: string | null;
   imageUrl?: string | null;
+  placement?: "catalog" | "promotion";
   photoStatus?: string;
   catalogSource?: string;
   complianceClassification?: string;
