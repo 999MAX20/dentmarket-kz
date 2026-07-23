@@ -18,7 +18,10 @@ type Session = {
 const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
 const supplierAppUrl = process.env.NEXT_PUBLIC_SUPPLIER_APP_URL ?? "https://dentmarket-supplier.vercel.app";
 const landingAppUrl = process.env.NEXT_PUBLIC_LANDING_APP_URL ?? "https://dentmarket-kz.vercel.app";
-const demoLoginEnabled = process.env.NEXT_PUBLIC_DEMO_LOGIN_ENABLED === "true";
+// Temporary partner preview: the API demo session is intentionally available
+// until the five-person review is finished. Remove this fallback and set the
+// production flag to false before enabling real commercial access.
+const demoLoginEnabled = process.env.NEXT_PUBLIC_DEMO_LOGIN_ENABLED !== "false";
 
 export default function LoginPage() {
   const [capability, setCapability] = useState<Capability>("BUYER");
@@ -147,9 +150,9 @@ export default function LoginPage() {
             <input type="password" placeholder="Пароль" autoComplete="current-password" value={password} onChange={(event) => setPassword(event.target.value)} required />
             <button className={styles.login} type="submit" disabled={busy}>{busy ? "Входим…" : "Войти по email"}</button>
           </form>
-          {demoLoginEnabled ? <button className={styles.demo} type="button" onClick={() => void login()} disabled={busy}>{busy ? "Открываем демо…" : "Открыть демо без регистрации"}</button> : null}
+          {demoLoginEnabled ? <button className={styles.demo} type="button" onClick={() => void login()} disabled={busy}>{busy ? "Открываем демо…" : "Открыть общий демо-доступ"}</button> : null}
           {error ? <p className={styles.error}>{error}</p> : null}
-          <p className={styles.hint}>Для доступа к кабинету нужны рабочий email и пароль. Если аккаунта нет, зарегистрируйте организацию.</p>
+          <p className={styles.hint}>Для доступа к кабинету нужны рабочий email и пароль. Для временного просмотра партнёрами используйте общий демо-доступ ниже.</p>
           <a className={styles.register} href={`${landingAppUrl}/register?role=${capability === "BUYER" ? "buyer" : "supplier"}`}>
             Нет аккаунта? Зарегистрироваться
           </a>
