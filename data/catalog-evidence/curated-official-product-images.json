@@ -1,0 +1,1274 @@
+{
+  "sourceType": "CURATED_OFFICIAL_MANUFACTURER_PRODUCT_PAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "explicitCanonicalProductMappingRequired": true,
+    "imageMustBeReferencedByOfficialProductPage": true,
+    "duplicateDownloadedImagesRejected": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 36,
+    "candidates": 36,
+    "recovered": 36,
+    "recoveredThisRun": 36,
+    "retainedFromPreviousRuns": 34,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-122-TAPER-FULL-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "122 TAPER FULL KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "122 TAPER FULL KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-122-taper-full-kit-c6e0e54e57.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-122-taper-full-kit-c6e0e54e57.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/for-placement/122-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem 122 Taper Kit product image",
+        "validationPageUrl": "https://www.osstem.ru/surgery-kits/for-placement/122-kit/",
+        "originalImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/9f1/em9aa5yah5dahjr12zdafbqv7cqpsjsi/1000_0_1/122-Taper_Kit-30-copy.jpg",
+        "sha256": "c6e0e54e576f41ddfe6ff76adbc6e4f9f8a83a0524be705d175c6a4f6f03265f",
+        "bytes": 862957,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-DRA-GER-DRAEGER-PERSEUS-A500",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Анестезиологический комплекс Dräger Perseus A500",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Perseus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "A500",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-dra-ger-dra-ger-perseus-a500-66a8004439.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-dra-ger-dra-ger-perseus-a500-66a8004439.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Perseus-A500",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Perseus A500 product photo",
+        "validationPageUrl": "https://www.draeger.com/ru_ru/Products/Perseus-A500",
+        "originalImageUrl": "https://www.draeger.com/Media/Content/Products/Default/D-313-2023-ps.jpg",
+        "sha256": "66a80044395e6b2c1586f142dce9276c7919c3c872f3692b69d2db456bf49e45",
+        "bytes": 16574,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-IMPLANTAT-MS-SA-TIPA-DENTURE",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Имплантат MS SA TIPA DENTURE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Имплантат MS SA TIPA DENTURE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ms-sa-tipa-denture-54c695300b.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ms-sa-tipa-denture-54c695300b.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ms/removable/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem MS Denture implant product image with dimensional diagram",
+        "validationPageUrl": "https://www.osstem.ru/implants/ms/removable/",
+        "originalImageUrl": "https://www.osstem.ru/upload/iblock/9cd/jugr1tbtcycr8ap0g478tswgh3qemr0q.jpg",
+        "sha256": "54c695300b97098a6cb5dc83c75ad0c849b0d3e11433424073933f3b4a016f04",
+        "bytes": 41814,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-IMPLANTAT-MS-SA-TIPA-NARROW-RIDGE-1",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Имплантат MS SA TIPA NARROW RIDGE 1",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Имплантат MS SA TIPA NARROW RIDGE 1",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ms-sa-tipa-narrow-ridge-1-5d31feaca9.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ms-sa-tipa-narrow-ridge-1-5d31feaca9.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ms/narrow/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem MS Narrow Ridge implant product image with dimensional diagram",
+        "validationPageUrl": "https://www.osstem.ru/implants/ms/narrow/",
+        "originalImageUrl": "https://www.osstem.ru/upload/iblock/a51/6iqywlr6hqykc2zrn66xtkyy07wicubt.jpg",
+        "sha256": "5d31feaca98bd0efa5a0b8f7489345ffafaa3ee5a6ed6b3790a19fb7c3289ac9",
+        "bytes": 18993,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-IMPLANTAT-TSIII-SA",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Имплантат TSIII SA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Имплантат TSIII SA",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-tsiii-sa-0e8f92d61c.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-tsiii-sa-0e8f92d61c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ts/sa/iii/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem TSIII SA implant system product image",
+        "validationPageUrl": "https://www.osstem.ru/implants/ts/sa/iii/",
+        "originalImageUrl": "https://www.osstem.ru/upload/iblock/04d/e2x7s3bpt7qx3wzlg23zqdexsdtr9yah.jpg",
+        "sha256": "0e8f92d61cccdf1e5e68c703fe25ca173fe0ecc1fa176c36b8588d86822c2dd5",
+        "bytes": 98705,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-IMPLANTAT-TSIII-SOI-1",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Имплантат TSIII SOI 1",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Имплантат TSIII SOI 1",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-tsiii-soi-1-55ffd09f2c.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-tsiii-soi-1-55ffd09f2c.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ts/ts-soi/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem TS SOI implant system product image",
+        "validationPageUrl": "https://www.osstem.ru/implants/ts/ts-soi/",
+        "originalImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/df7/1000_0_1/uah7e13typ22jw5sow0sb31vxtsts92t.png",
+        "sha256": "55ffd09f2ce2909976d9e2e16b6607f9cb42362744dbe69702702feded93ef65",
+        "bytes": 1552748,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-DRA-GER-DRAEGER-SET2GO-PACK2GO",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Комплекты дыхательных контуров Dräger Set2Go и Pack2Go",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Дыхательные контуры",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Set2Go",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "Pack2Go",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Дыхательные контуры",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-dra-ger-dra-ger-set2go-pack2go-d2bff8011a.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-dra-ger-dra-ger-set2go-pack2go-d2bff8011a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Set2Go-and-Pack2Go",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Set2Go and Pack2Go product photo",
+        "validationPageUrl": "https://www.draeger.com/ru_ru/Products/Set2Go-and-Pack2Go",
+        "originalImageUrl": "https://www.draeger.com/Media/Content/Products/Default/Draeger-Set2Go-and-Pack2Go-1-D-42734-2015.jpg",
+        "sha256": "d2bff8011a8631cde5166246089d116e0633d12fb71c265e7d2e878d566638f6",
+        "bytes": 36645,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-MEMBRANA-OSSGUIDE",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Мембрана OSSGUIDE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Мембрана OSSGUIDE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "NKR 11",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ossguide-6ca69edad3.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ossguide-6ca69edad3.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/dbr/ossguide/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem OssGuide membrane product image",
+        "validationPageUrl": "https://www.osstem.ru/dbr/ossguide/",
+        "originalImageUrl": "https://www.osstem.ru/upload/iblock/482/67ch57di2uf8fugt0p47dwwrwgabx3sa.png",
+        "sha256": "6ca69edad3d26119e14ebdd0a01506bc29c990ae4ac322c0f557108081bc38b4",
+        "bytes": 168004,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-MEMBRANA-SUREDERM",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Мембрана SUREDERM",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Мембрана SUREDERM",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "NKR 11",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-surederm-5e6e7dec0d.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-surederm-5e6e7dec0d.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/dbr/bone-materials/surederm/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem SureDerm membrane product image",
+        "validationPageUrl": "https://www.osstem.ru/dbr/bone-materials/surederm/",
+        "originalImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/49b/1000_0_1/1qr67b04sd4hg2uon96nyeeqb1eyqegi.png",
+        "sha256": "5e6e7dec0de8d6078e83fbfe7b3e783f759dd41c314a0ec9dcd5c3e12cb2de45",
+        "bytes": 898485,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-COTISEN-DENTI-KZ-COTISEN-19723",
+      "brand": "Cotisen",
+      "manufacturer": "",
+      "name": "Микроаппликатор Cotisen безворсовый",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "listingOfferId": "19725",
+          "name": "Микроаппликатор Cotisen безворсовый ((M) 2,0 мм желтый)",
+          "label": "Микроаппликатор Cotisen безворсовый ((M) 2,0 мм желтый)",
+          "manufacturerRef": "",
+          "variantLabel": "Микроаппликатор Cotisen безворсовый ((M) 2,0 мм желтый)",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "listingOfferId": "19726",
+          "name": "Микроаппликатор Cotisen безворсовый ((SF) 1,0 мм белый)",
+          "label": "Микроаппликатор Cotisen безворсовый ((SF) 1,0 мм белый)",
+          "manufacturerRef": "",
+          "variantLabel": "Микроаппликатор Cotisen безворсовый ((SF) 1,0 мм белый)",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "instrumenty_3 / ortopediya i terapiya / raskhodnyy material / mikroapplikator cotisen bezvorsovyy",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-cotisen-cotisen-e4d869f309.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-cotisen-cotisen-e4d869f309.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.cotisen-dental.com/fiber-free-micro-applicator/fiber-free-micro-applicator.html",
+      "kzEvidence": "EXACT_KZ_SPECIALIZED_MARKETPLACE_LISTING",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Fiber-Free Micro Applicator product image with three size colors",
+        "validationPageUrl": "https://www.cotisen-dental.com/fiber-free-micro-applicator/fiber-free-micro-applicator.html",
+        "originalImageUrl": "https://www.cotisen-dental.com/data/watermark/main/20250107/677cd69132d13.jpg",
+        "sha256": "e4d869f309e15ead0723c8af3f1242e3e00b84ba7f84c48a334db78943a13e5a",
+        "bytes": 115450,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-DRA-GER-DRAEGER-FABIUS-PLUS",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Наркозный аппарат Dräger Fabius Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fabius",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-dra-ger-dra-ger-fabius-plus-8b6730fb34.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-dra-ger-dra-ger-fabius-plus-8b6730fb34.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Fabius-Plus",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Fabius Plus product photo",
+        "validationPageUrl": "https://www.draeger.com/ru_ru/Products/Fabius-Plus",
+        "originalImageUrl": "https://www.draeger.com/Media/Content/Products/Default/D-20328-2010.jpg",
+        "sha256": "8b6730fb34ca0afea5753a84c9ef46ebfdd5acde853fac017a97371a3f379e68",
+        "bytes": 16899,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-FIZIODISPENSER-SM5-1",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Физиодиспенсер sm5 1",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Физиодиспенсер sm5 1",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "OBORUDOVANIE",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-sm5-1-9f5115e48e.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-sm5-1-9f5115e48e.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/stom-oborudovanie/kavo-expertsurg-sm5/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem Russia KaVo EXPERTsurg SM5 product image",
+        "validationPageUrl": "https://www.osstem.ru/stom-oborudovanie/kavo-expertsurg-sm5/",
+        "originalImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/70f/1000_0_1/nvn26sqxnw0mp7wt5fsqoo1ymnu0xzsd.png",
+        "sha256": "9f5115e48e153c565fb754e4d29cfcd7808d77217039c16a8db9c2adfdffb27c",
+        "bytes": 427348,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-VOCO-1526",
+      "brand": "VOCO",
+      "manufacturer": "VOCO GmbH",
+      "name": "AlignerFlow LC",
+      "manufacturerRef": "1526",
+      "manufacturerRefs": "1526 | 1527 | 1528",
+      "model": "AlignerFlow LC",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "Syringe 2 × 2 g A1, accessories · REF 1526",
+          "manufacturerRef": "1526",
+          "sourceContext": "Syringe 2 × 2 g A1, accessories",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "Syringe 2 × 2 g A2, accessories · REF 1527",
+          "manufacturerRef": "1527",
+          "sourceContext": "Syringe 2 × 2 g A2, accessories",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "Syringe 2 × 2 g A3, accessories · REF 1528",
+          "manufacturerRef": "1528",
+          "sourceContext": "Syringe 2 × 2 g A3, accessories",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VOCO / direct-restoration / composites",
+      "description": "AlignerFlow LC - Fluorescent composite for aligner attachments, Secure grinding and removal under UV-A light, Precise application with perfect flow, Light-curing through the transparent template, Stable and abrasion resistant throughout the entire treatment period, Pleasant aesthetic in tooth shades",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-voco-alignerflow-lc-d38b989359.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-voco-alignerflow-lc-d38b989359.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.voco.dental/en/products/direct-restoration/composites/alignerflow-lc.aspx",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official product-specific AlignerFlow LC syringe illustration",
+        "validationPageUrl": "https://www.voco.dental/en/products/direct-restoration/composites/alignerflow-lc.aspx",
+        "originalImageUrl": "https://www.voco.dental/en/portaldata/1/resources/products/landingpages/alignerFlow-lc/de/alignerflowlc_spritze_1320x766px.webp",
+        "sha256": "d38b9893594907d9798b770b01a30f384959a27e7cf0cf13dc54b5315784fad4",
+        "bytes": 232476,
+        "contentType": "image/webp"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-BONE-SPREADER-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "BONE SPREADER KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BONE SPREADER KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-bone-spreader-kit-2076ff07d8.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-bone-spreader-kit-2076ff07d8.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/nabory-instrumentov/bone-spreader-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem Bone Spreader KIT product image",
+        "validationPageUrl": "https://www.osstem.ru/surgery-kits/nabory-instrumentov/bone-spreader-kit/",
+        "originalImageUrl": "https://www.osstem.ru/upload/iblock/e68/e2y6rx4ysxjyqfgogxtms698do73ci3n.jpg",
+        "sha256": "2076ff07d86a961724f6cb5ec3937a029369d3814f63096d72a435d4c14acabc",
+        "bytes": 201417,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-CASTELLINI-CASTELLINI-C-17",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "C-17",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "C-17",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Автоклавы",
+      "description": "Castellini dental autoclaves guarantee maximum hygiene for medical instruments and equipment: discover the details and features.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-c-17-f1910613ea.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-c-17-f1910613ea.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/sterilisation/autoclaves",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Castellini C-series image with the exact C17 model marking",
+        "validationPageUrl": "https://www.castellini.com/en/sterilisation/autoclaves",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/C.jpg",
+        "sha256": "f1910613ea1a87424f45191b14031bd74671a192f4e211017c0c73e09f024f97",
+        "bytes": 64644,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-CASTELLINI-CASTELLINI-C7-STOOL",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "C7 Stool",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "C7 Stool",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стулья врача и ассистента",
+      "description": "Discover the Castellini range of dental stools: functional, comfortable, and ergonomic solutions for the dental team.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-c7-stool-3c8c0acd0b.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-c7-stool-3c8c0acd0b.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/stools",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Castellini C7 Stool image attached to the C7 product section",
+        "validationPageUrl": "https://www.castellini.com/en/dental-units/stools",
+        "originalImageUrl": "https://www.castellini.com/hs-fs/hubfs/Castellini%202025/images/CA_STOOLS_27.8.2024%203.jpg?width=2000&name=CA_STOOLS_27.8.2024%203.jpg",
+        "sha256": "3c8c0acd0b62209058121c4f7b3e870fc6e0bf9ef5f21bd8180fcd1d082f7268",
+        "bytes": 90508,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-CASTELLINI-CASTELLINI-C9-STOOL",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "C9 Stool",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "C9 Stool",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стулья врача и ассистента",
+      "description": "Discover the Castellini range of dental stools: functional, comfortable, and ergonomic solutions for the dental team.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-c9-stool-9a3e48cf3c.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-c9-stool-9a3e48cf3c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/stools",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Castellini C9 Stool image attached to the C9 product section",
+        "validationPageUrl": "https://www.castellini.com/en/dental-units/stools",
+        "originalImageUrl": "https://www.castellini.com/hs-fs/hubfs/Castellini%202025/images/CA_STOOLS_27.8.2024%209.jpg?width=2000&name=CA_STOOLS_27.8.2024%209.jpg",
+        "sha256": "9a3e48cf3c84cc6d0e051a10ae95162a8caa2656171bd49a706ca3963f9fcdca",
+        "bytes": 174478,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-KAVO-KAVO-CONNECTME",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "CONNECTme App",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CONNECTme App",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-kavo-connectme-app-6e7fed832c.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-kavo-connectme-app-6e7fed832c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/digital-connectivity/connectme",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official CONNECTme software product banner with the application icon",
+        "validationPageUrl": "https://www.kavo.com/en/products/practice-equipment/digital-connectivity/connectme",
+        "originalImageUrl": "https://www.kavo.com/sites/default/files/styles/mq_media_16_7_1920_xxl_1_full/public/mq_acquia_dam/connectme-header_16-7.jpg?itok=fkQYfzTc",
+        "sha256": "6e7fed832c966e4200ae33889e9a7ffed12880e65054c517edbc6c3d779069a8",
+        "bytes": 382438,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-CASTELLINI-CASTELLINI-DAILY-OIL-PLUS",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "DAILY OIL PLUS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DAILY OIL PLUS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Расходные материалы для оборудования",
+      "description": "Castellini lubricants and disinfectants are formulated to guarantee impeccable hygiene and optimal functioning of dental instruments.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-daily-oil-plus-ad62b35c77.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-daily-oil-plus-ad62b35c77.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/disinfectants-and-lubricants",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Castellini Daily Oil Plus product image",
+        "validationPageUrl": "https://www.castellini.com/en/dental-units/disinfectants-and-lubricants",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/Daylioil.jpg",
+        "sha256": "ad62b35c778c44e764267c8078718117608a540d4ea5bb999e3209d28a41de79",
+        "bytes": 119280,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-ENERGO",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Electric Handpieces | Straight & Contra-Angle",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Electric Handpieces | Straight & Contra-Angle",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Electric Handpieces | Straight & Contra-Angle",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Browse a broad portfolio of straight and contra-angle dental handpieces. Dentsply Sirona presents unique solutions for each step and application.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-dentsply-sirona-electric-handpieces-straight-contra-angle-b8b2d3a02b.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-dentsply-sirona-electric-handpieces-straight-contra-angle-b8b2d3a02b.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-no/discover/discover-by-category/instruments/electric-handpieces.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Dentsply Sirona family image of T1 Energo straight and contra-angle handpieces",
+        "validationPageUrl": "https://www.dentsplysirona.com/en-no/discover/discover-by-category/instruments/electric-handpieces.html",
+        "originalImageUrl": "https://www.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/instruments/product-categories/handpieces/electric-handpiece-systems/midwest-energo/images/INS-image-T1-Energo-Family.png",
+        "sha256": "b8b2d3a02bcf5c1c862d6438c87c061aa10d99f3ec19356cadff24a2e4ee6b01",
+        "bytes": 11147152,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-CASTELLINI-CASTELLINI-M-W-B",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "M.W.B.",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "M.W.B.",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Гигиена стоматологической установки",
+      "description": "Discover Castellini disinfection systems for the hygiene of dental units: a guarantee of maximum safety and protection.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-m-w-b-55e6c63282.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-m-w-b-55e6c63282.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/autosteril-and-mwb",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Castellini M.W.B. image attached to the M.W.B. product section",
+        "validationPageUrl": "https://www.castellini.com/en/dental-units/autosteril-and-mwb",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/MWB.jpg",
+        "sha256": "55e6c632822c8597ce48d867637ba4c1e9972e0d0208a74209142a0564a3f708",
+        "bytes": 136143,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-MEDIT-I600",
+      "brand": "Medit",
+      "manufacturer": "Medit Corp.",
+      "name": "Medit i600",
+      "manufacturerRef": "i600",
+      "manufacturerRefs": "i600",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "i600",
+          "label": "i600",
+          "variantLabel": "i600",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Intraoral scanners",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-medit-medit-i600-bd83f2ddb9.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-medit-medit-i600-bd83f2ddb9.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://support.medit.com/hc/en-us/articles/5643552195865-i600-Components-and-Settings",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Medit Help Center image of the i600 main package and handpiece",
+        "validationPageUrl": "https://support.medit.com/api/v2/help_center/en-us/articles/5643552195865.json",
+        "originalImageUrl": "https://support.medit.com/hc/article_attachments/36759393041689",
+        "sha256": "bd83f2ddb920923d094346accb6302e725536a823a7c1ca7b229139a75376f9e",
+        "bytes": 408908,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-MS-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "MS KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "MS KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ms-kit-c3c7f8b350.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ms-kit-c3c7f8b350.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/for-placement/ms-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem MS KIT product image",
+        "validationPageUrl": "https://www.osstem.ru/surgery-kits/for-placement/ms-kit/",
+        "originalImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/932/1000_0_1/wlft5knq6ylnekyzie0s1dxmv9h14281.png",
+        "sha256": "c3c7f8b350e21a0ef8d4e865a893238660f44251ab271acc43f4eb6c83eeb394",
+        "bytes": 685959,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-ORTHO-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "ORTHO KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ORTHO KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ortho-kit-11775be157.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ortho-kit-11775be157.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/for-placement/ortho-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem Ortho KIT product image",
+        "validationPageUrl": "https://www.osstem.ru/surgery-kits/for-placement/ortho-kit/",
+        "originalImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/4f3/lzdunl0fntevyeiwk3yjisd14038lji0/1000_0_1/orto-kit_01.png",
+        "sha256": "11775be1574327ab6b3cdec29af7bf51040a269185fefd95c374d5410e377be7",
+        "bytes": 683311,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-OSTEOTOME-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "OSTEOTOME KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OSTEOTOME KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-osteotome-kit-aa800d3415.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-osteotome-kit-aa800d3415.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/nabory-instrumentov/osteo-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem Osteo KIT product image",
+        "validationPageUrl": "https://www.osstem.ru/surgery-kits/nabory-instrumentov/osteo-kit/",
+        "originalImageUrl": "https://www.osstem.ru/upload/iblock/fb9/1ba0gzhh55eze5ulumsqj8ei3xyn7ynk.png",
+        "sha256": "aa800d3415bfee155a3b8fff5907bf840aad4fca8de385b1764d00937a9e15e7",
+        "bytes": 397298,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-PARALLEL-GUIDE-FULL-KITRASSHIRENNAYA-KOMPLEKTACIYA",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "PARALLEL GUIDE FULL KITRASSHIRENNAYA KOMPLEKTACIYA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PARALLEL GUIDE FULL KITRASSHIRENNAYA KOMPLEKTACIYA",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-parallel-guide-full-kitrasshirennaya-komplektaciya-d802e469f7.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-parallel-guide-full-kitrasshirennaya-komplektaciya-d802e469f7.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/hirurgiya-po-shablonam/parallel-guide-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem Parallel Guide KIT product image",
+        "validationPageUrl": "https://www.osstem.ru/surgery-kits/hirurgiya-po-shablonam/parallel-guide-kit/",
+        "originalImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/c78/1000_0_1/mrlodbzmpjlmcab5x9o7horyuxgz57yy.png",
+        "sha256": "d802e469f70a7298f312c3c5a79d13826d714e1cc90d51a861dac58014d8e8b1",
+        "bytes": 956528,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-CASTELLINI-CASTELLINI-PEROXY-AG",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "PEROXY Ag+",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PEROXY Ag+",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Расходные материалы для оборудования",
+      "description": "Castellini lubricants and disinfectants are formulated to guarantee impeccable hygiene and optimal functioning of dental instruments.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-peroxy-ag-cf36cf6743.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-peroxy-ag-cf36cf6743.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/disinfectants-and-lubricants",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Castellini Peroxy Ag+ product image",
+        "validationPageUrl": "https://www.castellini.com/en/dental-units/disinfectants-and-lubricants",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/Peroxi.jpg",
+        "sha256": "cf36cf674375fd1419aa6c797328b12d02f0d4678f43f48dfda4b19ce73132c2",
+        "bytes": 83025,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-RIDGE-SPLIT-KIT-PRYAMOJ",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "RIDGE SPLIT KIT прямой",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RIDGE SPLIT KIT прямой",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ridge-split-kit-1f4eb4f31e.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ridge-split-kit-1f4eb4f31e.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/nabory-instrumentov/ridge-split-kit-straight/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem Ridge Split KIT straight product image",
+        "validationPageUrl": "https://www.osstem.ru/surgery-kits/nabory-instrumentov/ridge-split-kit-straight/",
+        "originalImageUrl": "https://www.osstem.ru/upload/iblock/e30/swwyi3sy6yyft4b7562q6g1bniut0a3r.png",
+        "sha256": "1f4eb4f31e66ffe195a24991e0fe167837bdd56e8635ab82b732e8f2833b6f25",
+        "bytes": 228594,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-RIDGE-SPLIT-KIT-UGLOVOJ",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "RIDGE SPLIT KIT угловой",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RIDGE SPLIT KIT угловой",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ridge-split-kit-f28f5be081.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-ridge-split-kit-f28f5be081.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/nabory-instrumentov/ridge-split-kit-offset/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem Ridge Split KIT offset product image",
+        "validationPageUrl": "https://www.osstem.ru/surgery-kits/nabory-instrumentov/ridge-split-kit-offset/",
+        "originalImageUrl": "https://www.osstem.ru/upload/iblock/b6d/d434k2cmvzxlbq7qrnap3nymzzfp230j.png",
+        "sha256": "f28f5be0812572d896b46d719bf8fb5412f12c83ae3eebd498b94d6e753d4bbd",
+        "bytes": 231423,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-DS-PRIMETAPER",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Shop DS PrimeTaper dental products online",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Shop DS PrimeTaper dental products online",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Shop DS PrimeTaper dental products online",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Click to shop DS Primetaper implants, Astratech implants, Primetaper drill and all other accessories here!",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-dentsply-sirona-shop-ds-primetaper-dental-products-online-3aa79f8fe7.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-dentsply-sirona-shop-ds-primetaper-dental-products-online-3aa79f8fe7.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-se/shop/product-page.html/BP-1000191382/ds-primetaper-implant.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Dentsply Sirona DS PrimeTaper implant family image",
+        "validationPageUrl": "https://www.dentsplysirona.com/en-se/shop/product-page.html/BP-1000191382/ds-primetaper-implant.html",
+        "originalImageUrl": "https://www.dentsplysirona.com/content/dam/master/ecom/product-procedure-brand-categories/implant-dentistry/product-categories/implants/ds-primetaper-implant/images/IMP-Product-Image-PrimeTaper-EV-BP.png",
+        "sha256": "3aa79f8fe7cfb5243cb8a0baf2e6c1754fb685234fdf2bce41059167ce65b041",
+        "bytes": 157626,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-OSSTEM-SINUS-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "SINUS KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SINUS KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-sinus-kit-163728cb7d.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-osstem-sinus-kit-163728cb7d.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/nabory-instrumentov/sinus-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Osstem Sinus KIT product image",
+        "validationPageUrl": "https://www.osstem.ru/surgery-kits/nabory-instrumentov/sinus-kit/",
+        "originalImageUrl": "https://www.osstem.ru/upload/iblock/eb6/fmgj11bxzewv4qe76jky3anydxtoej9h.png",
+        "sha256": "163728cb7ddd2a9d4b64f91e1e163ffcf7f66fe3d199f1a831c06b64477b1397",
+        "bytes": 315592,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-ZHERMACK-UNIVERSAL-TRAY-ADHESIVE",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Universal Tray Adhesive",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Universal Tray Adhesive",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-zhermack-universal-tray-adhesive-fd24bc571c.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-zhermack-universal-tray-adhesive-fd24bc571c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product_category/dental/dental-practice/impression-systems/accessories/adhesive-for-trays/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official product photo of Universal Tray Adhesive C700025, 10 ml",
+        "validationPageUrl": "https://www.zhermack.com/en/product_category/dental/dental-practice/impression-systems/accessories/adhesive-for-trays/",
+        "originalImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Universal-Tray-Adhesive-C700025-1.jpg",
+        "sha256": "fd24bc571c21350ffc078ffa888a82f84e4382c2159ea28f7aaeacf6449273a2",
+        "bytes": 130565,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-CASTELLINI-CASTELLINI-X-RADIUS-TRIO-PLUS",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "X-RADiUS TRiO PLUS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "X-RADiUS TRiO PLUS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Экстраоральная визуализация",
+      "description": "Discover Castellini extraoral systems: equipped with advanced technology, they boost workflow efficiency and guarantee top-of-the-range quality.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-x-radius-trio-plus-6398caf19e.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-x-radius-trio-plus-6398caf19e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/extraoral-devices",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Castellini X-RADiUS TRiO PLUS product image",
+        "validationPageUrl": "https://www.castellini.com/en/extraoral-devices",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/XRTP.jpg",
+        "sha256": "6398caf19e85baf2c71b57cd57aa1f7daa0840dbe18d67506357a2f09124da05",
+        "bytes": 96189,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-CASTELLINI-CASTELLINI-X-RADIUS-TRIO-PLUS-FULLVIEW",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "X-RADiUS TRiO PLUS FullView",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "X-RADiUS TRiO PLUS FullView",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Экстраоральная визуализация",
+      "description": "Discover Castellini extraoral systems: equipped with advanced technology, they boost workflow efficiency and guarantee top-of-the-range quality.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-x-radius-trio-plus-fullview-2520867d01.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-x-radius-trio-plus-fullview-2520867d01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/extraoral-devices",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Castellini X-RADiUS TRiO PLUS FullView product image",
+        "validationPageUrl": "https://www.castellini.com/en/extraoral-devices",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/XRTP%20F.jpg",
+        "sha256": "2520867d01a819f018173dc6f8b270988d88f1e1dade0ea65f31e32a6ed21652",
+        "bytes": 100502,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-CASTELLINI-CASTELLINI-X-VS",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "X-VS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "X-VS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Интраоральные датчики",
+      "description": "Castellini dental and intraoral sensors offer high-resolution images for precise and rapid diagnoses thanks to advanced technology.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-x-vs-c23d6412ec.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-x-vs-c23d6412ec.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/imaging/sensors",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Castellini X-VS sensor product image",
+        "validationPageUrl": "https://www.castellini.com/en/imaging/sensors",
+        "originalImageUrl": "https://www.castellini.com/hubfs/Castellini_XVS.png",
+        "sha256": "c23d6412ec4f9bdbfc784921205e515b33b587fbdf72ac0843f5d6f805cbab05",
+        "bytes": 242964,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "CURATED-PHOTO-CANON-CASTELLINI-CASTELLINI-X-VS-E",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "X-VS E",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "X-VS E",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Интраоральные датчики",
+      "description": "Castellini dental and intraoral sensors offer high-resolution images for precise and rapid diagnoses thanks to advanced technology.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-x-vs-e-9d4c3291ac.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-x-vs-e-9d4c3291ac.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/imaging/sensors",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "CURATED_OFFICIAL_PRODUCT_PAGE_IMAGE",
+        "evidenceNote": "Official Castellini X-VS E sensor product image",
+        "validationPageUrl": "https://www.castellini.com/en/imaging/sensors",
+        "originalImageUrl": "https://www.castellini.com/hubfs/Castellini_XVSe.png",
+        "sha256": "9d4c3291ac870cf98f92faf7bca77661be5eb7cf96114f3633cfcd80c2b3f9de",
+        "bytes": 211300,
+        "contentType": "image/png"
+      }
+    }
+  ]
+}

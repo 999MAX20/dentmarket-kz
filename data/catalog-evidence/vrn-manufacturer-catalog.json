@@ -1,0 +1,1066 @@
+{
+  "brand": "VRN",
+  "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+  "sourceType": "CURRENT_OFFICIAL_PRODUCT_CENTER",
+  "sourceUrl": "https://www.veirun.com/ProductsCenter",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "allOfficialProductCardsCollected": true,
+    "exactOfficialCardImagesPreserved": true,
+    "modelUsedAsReferenceOnlyWhenExplicitlyDisplayed": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "officialIndexEntries": 40,
+    "discoveredProducts": 40,
+    "variantSkus": 40,
+    "productsWithImages": 40,
+    "productsWithReferences": 40,
+    "duplicateReferencesAcrossProducts": 0,
+    "crawlErrors": 0
+  },
+  "duplicateRefs": [],
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "VRN-154",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "DA-1",
+      "manufacturerRef": "DA-1",
+      "manufacturerRefs": "DA-1",
+      "model": "DA-1",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DA-1",
+          "manufacturerRef": "DA-1",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/fg3mwcbtjhexrcdt.png?REEtMS5wbmc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/fg3mwcbtjhexrcdt.png?REEtMS5wbmc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/154",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-146",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "DA-10",
+      "manufacturerRef": "DA-10",
+      "manufacturerRefs": "DA-10",
+      "model": "DA-10",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DA-10",
+          "manufacturerRef": "DA-10",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "VRN Medical、Ultrasonic scaler、Guilin Veirun Medical Technology、VRN medical、VRN Dental、Guilin Veirun Medical Technology Co., Ltd.、DA-10-Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/tibkibfxxspth2sb.png?REEtMTAucG5n",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/tibkibfxxspth2sb.png?REEtMTAucG5n",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/146",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-145",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "DA-20",
+      "manufacturerRef": "DA-20",
+      "manufacturerRefs": "DA-20",
+      "model": "DA-20",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DA-20",
+          "manufacturerRef": "DA-20",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "VRN Medical、Ultrasonic scaler、Guilin Veirun Medical Technology、VRN medical、VRN Dental、Guilin Veirun Medical Technology Co., Ltd.、DA-20-Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/mv4vczhtxftvyju2.png?REEtMjAucG5n",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/mv4vczhtxftvyju2.png?REEtMjAucG5n",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/145",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-929",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "DK-100",
+      "manufacturerRef": "DK-100",
+      "manufacturerRefs": "DK-100",
+      "model": "DK-100",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DK-100",
+          "manufacturerRef": "DK-100",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/05-08/u7kcmcanbjlw5ij3.jpg?V2VpeGluIEltYWdlXzIwMjUwNTA4MTUwNzI3LmpwZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/05-08/u7kcmcanbjlw5ij3.jpg?V2VpeGluIEltYWdlXzIwMjUwNTA4MTUwNzI3LmpwZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/929",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-147",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "DP-10",
+      "manufacturerRef": "DP-10",
+      "manufacturerRefs": "DP-10",
+      "model": "DP-10",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DP-10",
+          "manufacturerRef": "DP-10",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "VRN Medical、Ultrasonic scaler、Guilin Veirun Medical Technology、VRN medical、VRN Dental、Guilin Veirun Medical Technology Co., Ltd.、DP-10-Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/06-20/x2lawgz5y22ccbnb.jpg?RFAtMTAuanBn",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/06-20/x2lawgz5y22ccbnb.jpg?RFAtMTAuanBn",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/147",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-932",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "DP-60",
+      "manufacturerRef": "DP-60",
+      "manufacturerRefs": "DP-60",
+      "model": "DP-60",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DP-60",
+          "manufacturerRef": "DP-60",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/04-02/zvpaaizzjn7xxm12.jpg?V2VpeGluIEltYWdlXzIwMjUwNDAyMTY1NTU3LmpwZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/04-02/zvpaaizzjn7xxm12.jpg?V2VpeGluIEltYWdlXzIwMjUwNDAyMTY1NTU3LmpwZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/932",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-37",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "DQ-40",
+      "manufacturerRef": "DQ-40",
+      "manufacturerRefs": "DQ-40",
+      "model": "DQ-40",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DQ-40",
+          "manufacturerRef": "DQ-40",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "VRN Medical、Ultrasonic scaler、Guilin Veirun Medical Technology、VRN medical、VRN Dental、Guilin Veirun Medical Technology Co., Ltd.、DQ-40-Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/08-12/b6r2mqzxnul4a9t5.png?RFE0MC5wbmc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/08-12/b6r2mqzxnul4a9t5.png?RFE0MC5wbmc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/37",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-38",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "DQ-80",
+      "manufacturerRef": "DQ-80",
+      "manufacturerRefs": "DQ-80",
+      "model": "DQ-80",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DQ-80",
+          "manufacturerRef": "DQ-80",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "VRN Medical、Ultrasonic scaler、Guilin Veirun Medical Technology、VRN medical、VRN Dental、Guilin Veirun Medical Technology Co., Ltd.、DQ-80-Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/08-12/esqqs9gqk6vjev99.png?ZHE4MC5wbmc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/08-12/esqqs9gqk6vjev99.png?ZHE4MC5wbmc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/38",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-140",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "DS-100",
+      "manufacturerRef": "DS-100",
+      "manufacturerRefs": "DS-100",
+      "model": "DS-100",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DS-100",
+          "manufacturerRef": "DS-100",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/q5byexlb3kdaxnmg.png?RFMtMTAwLnBuZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/q5byexlb3kdaxnmg.png?RFMtMTAwLnBuZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/140",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-30",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "DV-50",
+      "manufacturerRef": "DV-50",
+      "manufacturerRefs": "DV-50",
+      "model": "DV-50",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DV-50",
+          "manufacturerRef": "DV-50",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-17/sfmdezq9c4xy1stc.png?RFYtNTAucG5n",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-17/sfmdezq9c4xy1stc.png?RFYtNTAucG5n",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/30",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-931",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "DV-60",
+      "manufacturerRef": "DV-60",
+      "manufacturerRefs": "DV-60",
+      "model": "DV-60",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DV-60",
+          "manufacturerRef": "DV-60",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/04-02/raxwlymcpwbvhvxz.jpg?V2VpeGluIEltYWdlXzIwMjUwNDAyMTY1ODU1LmpwZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/04-02/raxwlymcpwbvhvxz.jpg?V2VpeGluIEltYWdlXzIwMjUwNDAyMTY1ODU1LmpwZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/931",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-141",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "DZ-100",
+      "manufacturerRef": "DZ-100",
+      "manufacturerRefs": "DZ-100",
+      "model": "DZ-100",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DZ-100",
+          "manufacturerRef": "DZ-100",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/09-23/mzhzgsylspww8s9n.jpg?6Iux5paHLeeZveW6leWbvi5qcGc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/09-23/mzhzgsylspww8s9n.jpg?6Iux5paHLeeZveW6leWbvi5qcGc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/141",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-1109",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "EQ Series Sensors",
+      "manufacturerRef": "EQ Series Sensors",
+      "manufacturerRefs": "EQ Series Sensors",
+      "model": "EQ Series Sensors",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "EQ Series Sensors",
+          "manufacturerRef": "EQ Series Sensors",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/09-23/ugd5dwqkdutariwq.jpg?RVHkvKDmhJ/lmaguanBn",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/09-23/ugd5dwqkdutariwq.jpg?RVHkvKDmhJ/lmaguanBn",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/1109",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-143",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "EQ-600",
+      "manufacturerRef": "EQ-600",
+      "manufacturerRefs": "EQ-600",
+      "model": "EQ-600",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "EQ-600",
+          "manufacturerRef": "EQ-600",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/fmvcyrfrf4fxvvwx.png?RVEtNjAwLnBuZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/fmvcyrfrf4fxvvwx.png?RVEtNjAwLnBuZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/143",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-142",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "ES-20",
+      "manufacturerRef": "ES-20",
+      "manufacturerRefs": "ES-20",
+      "model": "ES-20",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ES-20",
+          "manufacturerRef": "ES-20",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/05-08/s2egbf9sgc4egmzd.jpg?V2VpeGluIEltYWdlXzIwMjUwNTA4MTUxMzAzLmpwZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/05-08/s2egbf9sgc4egmzd.jpg?V2VpeGluIEltYWdlXzIwMjUwNTA4MTUxMzAzLmpwZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/142",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-944",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "Handpiece",
+      "manufacturerRef": "Handpiece",
+      "manufacturerRefs": "Handpiece",
+      "model": "Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Handpiece",
+          "manufacturerRef": "Handpiece",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/04-16/43clzkwstuhxkdqu.jpg?V2VpeGluIEltYWdlXzIwMjUwNDE2MTcxOTM0LmpwZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/04-16/43clzkwstuhxkdqu.jpg?V2VpeGluIEltYWdlXzIwMjUwNDE2MTcxOTM0LmpwZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/944",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-161",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "Prophylaxis Powder",
+      "manufacturerRef": "Prophylaxis Powder",
+      "manufacturerRefs": "Prophylaxis Powder",
+      "model": "Prophylaxis Powder",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Prophylaxis Powder",
+          "manufacturerRef": "Prophylaxis Powder",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/05-08/hbmzkmyhwy1jsjbf.jpg?V2VpeGluIEltYWdlXzIwMjUwNTA4MTUwNDQ3LmpwZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/05-08/hbmzkmyhwy1jsjbf.jpg?V2VpeGluIEltYWdlXzIwMjUwNTA4MTUwNDQ3LmpwZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/161",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-928",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "SUPER05",
+      "manufacturerRef": "SUPER05",
+      "manufacturerRefs": "SUPER05",
+      "model": "SUPER05",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SUPER05",
+          "manufacturerRef": "SUPER05",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/04-02/kj3manrxqen1qsbb.jpg?V2VpeGluIEltYWdlXzIwMjUwNDAyMTY1NzQzMi5qcGc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/04-02/kj3manrxqen1qsbb.jpg?V2VpeGluIEltYWdlXzIwMjUwNDAyMTY1NzQzMi5qcGc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/928",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-1105",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "T-3 Dental Utility Cart",
+      "manufacturerRef": "T-3 Dental Utility Cart",
+      "manufacturerRefs": "T-3 Dental Utility Cart",
+      "model": "T-3 Dental Utility Cart",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T-3 Dental Utility Cart",
+          "manufacturerRef": "T-3 Dental Utility Cart",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/08-18/s7z96tkkp35tjavx.jpg?55m95bqV5Zu+LeWNlS5qcGc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/08-18/s7z96tkkp35tjavx.jpg?55m95bqV5Zu+LeWNlS5qcGc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/1105",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-157",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "T100-K",
+      "manufacturerRef": "T100-K",
+      "manufacturerRefs": "T100-K",
+      "model": "T100-K",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T100-K",
+          "manufacturerRef": "T100-K",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/expivjguxtfuhiis.png?VDEwMC1LLnBuZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/expivjguxtfuhiis.png?VDEwMC1LLnBuZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/157",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-374",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "T100-KT",
+      "manufacturerRef": "T100-KT",
+      "manufacturerRefs": "T100-KT",
+      "model": "T100-KT",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T100-KT",
+          "manufacturerRef": "T100-KT",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/02-20/ysej4a57kvglnxjj.png?VDEwMC1LVC5wbmc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/02-20/ysej4a57kvglnxjj.png?VDEwMC1LVC5wbmc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/374",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-158",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "T100-P",
+      "manufacturerRef": "T100-P",
+      "manufacturerRefs": "T100-P",
+      "model": "T100-P",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T100-P",
+          "manufacturerRef": "T100-P",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/qjkgmzzgx9lmrm2s.png?VDEwMC1QLnBuZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/qjkgmzzgx9lmrm2s.png?VDEwMC1QLnBuZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/158",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-375",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "T100-PC",
+      "manufacturerRef": "T100-PC",
+      "manufacturerRefs": "T100-PC",
+      "model": "T100-PC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T100-PC",
+          "manufacturerRef": "T100-PC",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/02-20/p4sgqqbaajamybta.png?VDEwMC1QQy5wbmc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/02-20/p4sgqqbaajamybta.png?VDEwMC1QQy5wbmc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/375",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-376",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "T100-PT",
+      "manufacturerRef": "T100-PT",
+      "manufacturerRefs": "T100-PT",
+      "model": "T100-PT",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T100-PT",
+          "manufacturerRef": "T100-PT",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/02-20/5erptksnxmxwrruz.png?VDEwMC1QVC5wbmc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/02-20/5erptksnxmxwrruz.png?VDEwMC1QVC5wbmc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/376",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-159",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "T200-K",
+      "manufacturerRef": "T200-K",
+      "manufacturerRefs": "T200-K",
+      "model": "T200-K",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T200-K",
+          "manufacturerRef": "T200-K",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/vwwnzk3azr1fe94k.png?VDIwMC1LLnBuZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/vwwnzk3azr1fe94k.png?VDIwMC1LLnBuZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/159",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-377",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "T200-P",
+      "manufacturerRef": "T200-P",
+      "manufacturerRefs": "T200-P",
+      "model": "T200-P",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T200-P",
+          "manufacturerRef": "T200-P",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/02-20/lizumxfuqj6fxb9g.png?VDIwMC1QLnBuZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/02-20/lizumxfuqj6fxb9g.png?VDIwMC1QLnBuZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/377",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-160",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "T200-PT",
+      "manufacturerRef": "T200-PT",
+      "manufacturerRefs": "T200-PT",
+      "model": "T200-PT",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T200-PT",
+          "manufacturerRef": "T200-PT",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/rlgytpsqlcx6nvuv.png?VDIwMC1QVC5wbmc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/rlgytpsqlcx6nvuv.png?VDIwMC1QVC5wbmc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/160",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-930",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "US980",
+      "manufacturerRef": "US980",
+      "manufacturerRefs": "US980",
+      "model": "US980",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "US980",
+          "manufacturerRef": "US980",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/04-02/hzpysieprg3ispq7.jpg?V2VpeGluIEltYWdlXzIwMjUwNDAyMTY1NzQzLmpwZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/04-02/hzpysieprg3ispq7.jpg?V2VpeGluIEltYWdlXzIwMjUwNDAyMTY1NzQzLmpwZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/930",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-29",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "V200",
+      "manufacturerRef": "V200",
+      "manufacturerRefs": "V200",
+      "model": "V200",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "V200",
+          "manufacturerRef": "V200",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-17/dqjha3tagrwbbqfd.png?VjIwMC5wbmc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-17/dqjha3tagrwbbqfd.png?VjIwMC5wbmc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/29",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-28",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "V300",
+      "manufacturerRef": "V300",
+      "manufacturerRefs": "V300",
+      "model": "V300",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "V300",
+          "manufacturerRef": "V300",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-17/t5pcmqxdcbdybmxk.png?VjMwMC5wbmc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-17/t5pcmqxdcbdybmxk.png?VjMwMC5wbmc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/28",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-164",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "V400",
+      "manufacturerRef": "V400",
+      "manufacturerRefs": "V400",
+      "model": "V400",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "V400",
+          "manufacturerRef": "V400",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-22/nmqxkx8tpyeedsef.jpg?djQwMC5qcGc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-22/nmqxkx8tpyeedsef.jpg?djQwMC5qcGc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/164",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-31",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "VAFU",
+      "manufacturerRef": "VAFU",
+      "manufacturerRefs": "VAFU",
+      "model": "VAFU",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VAFU",
+          "manufacturerRef": "VAFU",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/04-02/rhzgayppgwxitc98.jpg?V2VpeGluIEltYWdlXzIwMjUwNDAyMTc1MTEwLmpwZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/04-02/rhzgayppgwxitc98.jpg?V2VpeGluIEltYWdlXzIwMjUwNDAyMTc1MTEwLmpwZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/31",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-148",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "VR-K08A",
+      "manufacturerRef": "VR-K08A",
+      "manufacturerRefs": "VR-K08A",
+      "model": "VR-K08A",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VR-K08A",
+          "manufacturerRef": "VR-K08A",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "VRN Medical、Ultrasonic scaler、Guilin Veirun Medical Technology、VRN medical、VRN Dental、Guilin Veirun Medical Technology Co., Ltd.、VR-K08A-Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/7c6sqvzrsssemq7j.png?VlItSzA4QS5wbmc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/7c6sqvzrsssemq7j.png?VlItSzA4QS5wbmc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/148",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-378",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "VRN-A5",
+      "manufacturerRef": "VRN-A5",
+      "manufacturerRefs": "VRN-A5",
+      "model": "VRN-A5",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VRN-A5",
+          "manufacturerRef": "VRN-A5",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/06-20/hnmprnsazstpdsw9.jpg?VlJOLUE1LmpwZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/06-20/hnmprnsazstpdsw9.jpg?VlJOLUE1LmpwZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/378",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-144",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "VRN-A8",
+      "manufacturerRef": "VRN-A8",
+      "manufacturerRefs": "VRN-A8",
+      "model": "VRN-A8",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VRN-A8",
+          "manufacturerRef": "VRN-A8",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "VRN Medical、Ultrasonic scaler、Guilin Veirun Medical Technology、VRN medical、VRN Dental、Guilin Veirun Medical Technology Co., Ltd.、VRN-A8-Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/06-20/whcce176g3pjmjg4.jpg?QTguanBn",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/06-20/whcce176g3pjmjg4.jpg?QTguanBn",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/144",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-35",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "VRN-Q5",
+      "manufacturerRef": "VRN-Q5",
+      "manufacturerRefs": "VRN-Q5",
+      "model": "VRN-Q5",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VRN-Q5",
+          "manufacturerRef": "VRN-Q5",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "VRN Medical、Ultrasonic scaler、Guilin Veirun Medical Technology、VRN medical、VRN Dental、Guilin Veirun Medical Technology Co., Ltd.、VRN-Q5-Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-17/s65jj8ysay4shyem.png?UTUucG5n",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-17/s65jj8ysay4shyem.png?UTUucG5n",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/35",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-36",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "VRN-Q6",
+      "manufacturerRef": "VRN-Q6",
+      "manufacturerRefs": "VRN-Q6",
+      "model": "VRN-Q6",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VRN-Q6",
+          "manufacturerRef": "VRN-Q6",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "VRN Medical、Ultrasonic scaler、Guilin Veirun Medical Technology、VRN medical、VRN Dental、Guilin Veirun Medical Technology Co., Ltd.、VRN-Q6-Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/08-12/q4hp2gkkugd9m745.png?UTYucG5n",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/08-12/q4hp2gkkugd9m745.png?UTYucG5n",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/36",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-155",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "WSD-II",
+      "manufacturerRef": "WSD-II",
+      "manufacturerRefs": "WSD-II",
+      "model": "WSD-II",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "WSD-II",
+          "manufacturerRef": "WSD-II",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/nebb73wikmfi9axm.png?V1NELUlJLnBuZw==",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/nebb73wikmfi9axm.png?V1NELUlJLnBuZw==",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/155",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-156",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "WSD-III",
+      "manufacturerRef": "WSD-III",
+      "manufacturerRefs": "WSD-III",
+      "model": "WSD-III",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "WSD-III",
+          "manufacturerRef": "WSD-III",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/dfjfbyt7zku8mi8f.png?V1NELUlJSS5wbmc=",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/dfjfbyt7zku8mi8f.png?V1NELUlJSS5wbmc=",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/156",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "VRN-152",
+      "brand": "VRN",
+      "manufacturer": "Guilin Veirun Medical Technology Co., Ltd.",
+      "name": "YOU98 (P)",
+      "manufacturerRef": "YOU98 (P)",
+      "manufacturerRefs": "YOU98 (P)",
+      "model": "YOU98 (P)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "YOU98 (P)",
+          "manufacturerRef": "YOU98 (P)",
+          "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "VRN / Dental equipment and accessories",
+      "description": "Products Center",
+      "sourceImageUrl": "https://www.veirun.com/uploadfiles/web/2025/01-21/ciqyezvym2j1883z.png?WU9VOTgucG5n",
+      "imageUrls": "https://www.veirun.com/uploadfiles/web/2025/01-21/ciqyezvym2j1883z.png?WU9VOTgucG5n",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.veirun.com/ProductsCenter/info/152",
+      "additionalSourceUrls": "https://www.veirun.com/ProductsCenter",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_MODEL_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    }
+  ]
+}

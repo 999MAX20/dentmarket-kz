@@ -1,0 +1,2655 @@
+{
+  "brand": "Tealth",
+  "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+  "sourceType": "CURRENT_OFFICIAL_PRODUCT_SITEMAP_AND_PRODUCT_JSON_LD",
+  "sourceUrl": "https://www.tealthhandpiece.com/sitemap.xml",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "everyOfficialProductPageCollected": true,
+    "exactOfficialImagesPreserved": true,
+    "explicitOrderCodesPreserved": true,
+    "duplicateReferencesAudited": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "sitemapProductPages": 98,
+    "discoveredProducts": 98,
+    "variantSkus": 114,
+    "productsWithReferences": 33,
+    "productsWithImages": 98,
+    "duplicateReferences": 0,
+    "crawlErrors": 0
+  },
+  "duplicateReferences": [],
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "TEALTH-04MM-UP-DOWN-MOVEMENT-ENDO-HEAD",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "0.4mm Up & Down Movement Endo Head",
+      "manufacturerRef": "L6-07",
+      "manufacturerRefs": "L6-07",
+      "model": "0.4mm Up & Down Movement Endo Head",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "0.4mm Up & Down Movement Endo Head · L6-07",
+          "manufacturerRef": "L6-07",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: L6-07 Tealth® 0.4mm up&down movement endo contra angle head Used for endodontics, with handfile Push button chuck type our Tealth® 0.4mm Up & Down Movement Endo Contra Angle Head, a specialized tool for endodontic procedures. Key Features: - Designed with a 0.4mm up and down movement, allowing for precise and controlled actions during endodontic treatments. - Specifically used with handfiles for effective cleaning and shaping of root canals. - Equipped with a push button chuck type for easy and secure attachment of endodontic instruments. Our Tealth® 0.4mm Up & Down Movement Endo Contra Angle Head is designed to meet the needs of dental professionals in endodontics. endodontics parts offer reliable performance and precise movements for efficient and effective root canal treatments. Upgrade your endodontic procedures with our Tealth® 0.4mm Up & Down Movement Endo Contra Angle Head. Contact us today for more information on this product and how it can benefit your dental practice.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311201621304538.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311201621304538.jpg | https://img.waimaoniu.net/1384/1384-202311201622338360.png | https://img.waimaoniu.net/1384/1384-202312071512453403.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/04mm-up-down-movement-endo-head",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-11-ENDO-HEAD-FIT-FOR-WIRELESS-MOTOR",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "1:1 Endo Head Fit For Wireless Motor",
+      "manufacturerRef": "E01N-01C",
+      "manufacturerRefs": "E01N-01C",
+      "model": "1:1 Endo Head Fit For Wireless Motor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "1:1 Endo Head Fit For Wireless Motor · E01N-01C",
+          "manufacturerRef": "E01N-01C",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: E01N-01C Tealth® 1:1 Endo head fit for wireless endo motor Push button chuck type, fit for most brands in the market.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312041341269966.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312041341269966.jpg | https://img.waimaoniu.net/1384/1384-202312041341261759.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/11-endo-head-fit-for-wireless-motor",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-11-FIBER-OPTIC-CONTRA-ANGLE-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "1:1 fiber optic contra angle dental handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "1:1 fiber optic contra angle dental handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "1:1 fiber optic contra angle dental handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "The 1:1 Fiber Optic Contra Angle is a professional dental tool that offers exceptional performance and versatility. With its advanced features and design, this contra angle is a reliable and efficient instrument for various dental procedures.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311291641352559.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311291641352559.jpg | https://img.waimaoniu.net/1384/1384-202208250855154890.jpg | https://img.waimaoniu.net/1384/1384-202311291645530239.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/11-fiber-optic-contra-angle-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-12-INCREASING-SPEED-STRAIGHT-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "1:2 Increasing Speed Straight Handpiece",
+      "manufacturerRef": "SEN-09C",
+      "manufacturerRefs": "SEN-09C",
+      "model": "1:2 Increasing Speed Straight Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "1:2 Increasing Speed Straight Handpiece · SEN-09C",
+          "manufacturerRef": "SEN-09C",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: SEN-09C Tealth® 1:3 increasing speed straight handpiece Param Atomized air pressure:200kPamin Air consumption: 1.5L/min Rotation Speed:24,000-120,000r/min Noise :≤70dB Bur size: 2.35mm Irrigaion: external spray Tealth® 1:3 increase surgical straight handpiece Handpieces are repeatedly autoclavable up to 135℃. 1:3 increasing speed straight handpiece faster, stronger",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311406403139.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311406403139.jpg | https://img.waimaoniu.net/1384/1384-202208311406408072.jpg | https://img.waimaoniu.net/1384/1384-202312071749068374.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/12-increasing-speed-straight-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-142-FIBER-OPTIC-45-DEGREE-CONTRA-ANGLE-SURGICAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "1:4.2 Fiber Optic 45 Degree Contra Angle Surgical Handpiece",
+      "manufacturerRef": "I04F-01C",
+      "manufacturerRefs": "I04F-01C",
+      "model": "1:4.2 Fiber Optic 45 Degree Contra Angle Surgical Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "1:4.2 Fiber Optic 45 Degree Contra Angle Surgical Handpiece · I04F-01C",
+          "manufacturerRef": "I04F-01C",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: I04F-01C 1:4.2 Fiber optic 45 degree contra angle surgical handpiece 1. Internal irrigation & external irrigation 2. Fiber optic 3. 1:4.2 increased speed 4. Applicable with FG bur 5. 45° , better view Fiber Optic 1:4.2 Surgical Handpiece, a professional and advanced tool designed for dental procedures. This handpiece offers exceptional performance and features that enhance efficiency and patient comfort. The Fiber Optic 1:4.2 Surgical Handpiece is designed with a unique feature - it does not release air from either the front or back, preventing air emphysema. This ensures a safer and more comfortable experience for both the dentist and the patient. With its high torque and strong cutting force, this handpiece allows for efficient and effective tooth extraction. The increased cutting efficiency translates to higher productivity and reduced procedure time. One of the standout features of our Fiber Optic 1:4.2 Surgical Handpiece is its ability to connect to physiological saline solution. This enables sterile tooth extraction, promoting faster post-operative recovery for patients. The handpiece is designed with precision and durability in mind, ensuring long-term performance and reliability. Its fiber optic technology provides excellent illumination for enhanced visibility during procedures. Choose our Fiber Optic 1:4.2 Surgical Handpiece for your dental practice and experience the benefits of its advanced features. Contact us today for more information or to place an order.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606260901122275.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606260901122275.jpg | https://img.waimaoniu.net/1384/1384-202208311357350739.jpg | https://img.waimaoniu.net/1384/1384-202208311357350081.jpg | https://img.waimaoniu.net/1384/1384-202208311357367514.jpg | https://img.waimaoniu.net/1384/1384-202312081138362284.jpg | https://img.waimaoniu.net/1384/1384-202606260901395335.jpg",
+      "imageCount": 6,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/142-fiber-optic-45-degree-contra-angle-surgical-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-14MM-UP-DOWN-MOVEMENT-ENDO-HEAD",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "1.4mm Up & Down Movement Endo Head",
+      "manufacturerRef": "L6-08",
+      "manufacturerRefs": "L6-08",
+      "model": "1.4mm Up & Down Movement Endo Head",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "1.4mm Up & Down Movement Endo Head · L6-08",
+          "manufacturerRef": "L6-08",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: L6-08 our 1.4mm Up & Down Movement Endo Head, a specialized tool for endodontic procedures. Key Features: - Designed with a 1.4mm up and down movement, allowing for precise and controlled actions during endodontic treatments. - Specifically used in endodontics and compatible with Tealth®, Kavo®, and other handpieces. - Equipped with a push button chuck type for easy and secure attachment of endodontic instruments. - Designed for use with hand files for effective cleaning and shaping of root canals. Upgrade your endodontic procedures with our 1.4mm Up & Down Movement Endo Head. Contact us today for more information on this product and how it can benefit your dental practice.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311201642236887.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311201642236887.jpg | https://img.waimaoniu.net/1384/1384-202311201641553753.png | https://img.waimaoniu.net/1384/1384-202311201641492074.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/14mm-up-down-movement-endo-head",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-16-1-STYLE-ENDODONTIC-ELECTRICAL-CONTRA-ANGLE-REDUCTION-HEAD-FOR-ENDO-MATE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "16-1 Style Endodontic Electrical Contra Angle Reduction Head For Endo Mate",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "16-1 Style Endodontic Electrical Contra Angle Reduction Head For Endo Mate",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "16-1 Style Endodontic Electrical Contra Angle Reduction Head For Endo Mate",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "16-1 Style Endodontic Electrical Contra Angle Reduction Head For Endo Mate 16:1 reduction endontic reciprocating movement contra angle dental handpiece",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606231451082219.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606231451082219.jpg | https://img.waimaoniu.net/1384/1384-202208251507197085.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/16-1-style-endodontic-electrical-contra-angle-reduction-head-for-endo-mate",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-161-ENDO-HEAD-FIT-FOR-WIRELESS-MOTOR",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "16:1 Endo Head Fit For Wireless Motor",
+      "manufacturerRef": "E16N-01C",
+      "manufacturerRefs": "E16N-01C",
+      "model": "16:1 Endo Head Fit For Wireless Motor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "16:1 Endo Head Fit For Wireless Motor · E16N-01C",
+          "manufacturerRef": "E16N-01C",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: E16N-01C 16:1 endo heaf fit for wireless endo motor 16:1 reduction gear rate Fit for Nsk®, Densply® endo motors...",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312041339388655.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312041339388655.jpg | https://img.waimaoniu.net/1384/1384-202312041339395806.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/161-endo-head-fit-for-wireless-motor",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-161-REDUCTION-CONTRA-ANGLE-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "16:1 Reduction Contra Angle Dental Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "16:1 Reduction Contra Angle Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "16:1 Reduction Contra Angle Dental Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "1. More big torque supply due to 16:1 reduction speeder 2. water/ air separated supply , make perfect spray for operation. 3. skid resitance sleeve, FG/CA exchangable head, muti-function. 4.It is used for grinding , and polishing .",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606221719325167.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606221719325167.jpg | https://img.waimaoniu.net/1384/1384-202606221719579277.jpg | https://img.waimaoniu.net/1384/1384-202208311142036338.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/161-reduction-contra-angle-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-2-TO-4-ADAPTOR-FOR-HIGH-SPEED-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "2 To 4 adaptor For High Speed Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "2 To 4 adaptor For High Speed Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "2 To 4 adaptor For High Speed Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "2 to 4 and 4 to 2 connector adapter for high speed handpiece",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221459047022.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221459047022.jpg | https://img.waimaoniu.net/1384/1384-202302221459067629.jpg | https://img.waimaoniu.net/1384/1384-202302221459042703.jpg | https://img.waimaoniu.net/1384/1384-202302221459067758.jpg | https://img.waimaoniu.net/1384/1384-202302221459054530.jpg | https://img.waimaoniu.net/1384/1384-202302221459059139.jpg | https://img.waimaoniu.net/1384/1384-202302221459051873.jpg | https://img.waimaoniu.net/1384/1384-202302221459060038.jpg",
+      "imageCount": 8,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/2-to-4-adaptor-for-high-speed-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-201-HIGH-TORQUE-IMPLANT-CONTRA-ANGLE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "20:1 High Torque Implant Contra Angle",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "20:1 High Torque Implant Contra Angle",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "20:1 High Torque Implant Contra Angle",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: 201N 20:1 High Torque Implant Contra Angle, a powerful and reliable tool designed specifically for dental implant procedures. Product Description: Our 20:1 High Torque Implant Contra Angle features the following characteristics: - 20:1 reduction gear ratio: This gear ratio is specifically designed for dental implant procedures, providing the necessary torque and precision for successful implant placement. - Push button chuck: The push button chuck mechanism allows for easy and efficient accessory changes, ensuring smooth and seamless operation during procedures. - High torque: With a torque rating of more than 80N.cm, our contra angle delivers exceptional power and durability, allowing for efficient and reliable implant placement. - Easy assembly and disassembly: The contra angle is designed for easy and hassle-free assembly and disassembly, saving you time and effort during setup and maintenance. Upgrade your dental practice with our 20:1 High Torque Implant Contra Angle. Experience the benefits of its high torque, easy operation, and reliable performance. Contact us today for more information on how this contra angle can enhance your dental implant procedures.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311405312267.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311405312267.jpg | https://img.waimaoniu.net/1384/1384-202208311405323738.jpg | https://img.waimaoniu.net/1384/1384-202208311405315881.jpg | https://img.waimaoniu.net/1384/1384-202208311405314109.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/201-high-torque-implant-contra-angle",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-201-LED-IMPLANT-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "20:1 LED Implant Dental Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "20:1 LED Implant Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "20:1 LED Implant Dental Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: 210L 20:1 LED implant conrta angle dental handpiece The 20:1 LED Implant Dental Handpiece is a professional dental tool designed specifically for implant procedures. With its advanced features and reliable performance, this handpiece offers excellent functionality and convenience for dental professionals. Product Description: - LED 20:1 Implant Contra Angle: This handpiece features a 20:1 gear ratio, providing the necessary torque and control for implant procedures. The LED illumination inside the handpiece ensures optimal visibility during operations. - Button Type Chuck: The handpiece is equipped with a button type chuck, allowing for easy and secure bur changes. This ensures efficiency and convenience during procedures. - Internal and External Irrigation System: The handpiece is designed with both internal and external irrigation systems, ensuring proper cooling and irrigation during implant procedures. This enhances patient comfort and treatment outcomes. - Max Torque 80Ncm: The handpiece provides sufficient force at low speed, allowing for precise and controlled implant placement. The maximum torque of 70Ncm ensures optimal performance. - Ergonomic Comfort Grip: The handpiece is designed with an ergonomic comfort grip, offering a comfortable and secure hold during procedures. This reduces hand fatigue and improves overall performance. - Compatibility and Warranty: The handpiece is compatible with all e-type motors, including NSK, Aseptico, W&H, Nouvag Acteon, and KAVO. It comes with a one-year warranty, providing peace of mind and assurance of quality. In summary, the 20:1 LED Implant Dental Handpiece is a reliable and efficient tool for implant procedures. With its LED illumination, button type chuck, internal and external irrigation system, max torque of 70Ncm, ergonomic comfort grip, compatibility with various e-type motors, and one-year warranty, this handpiece offers dental professionals a high-quality and convenient solution for successful implant treatments.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606231446345818.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606231446345818.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/201-led-implant-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-41-RECIPROCATING-ENDO-INTERNAL-SPRAY-CONTRA-ANGLE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "4:1 Reciprocating Endo Internal Spray Contra Angle",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "4:1 Reciprocating Endo Internal Spray Contra Angle",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "4:1 Reciprocating Endo Internal Spray Contra Angle",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order No. R04N-51C Easy to exchange the heads, there are CA bur heads, Hand file using heads for choice. 2.35mm heads used for prophy. Three different movements heads can be choiced, 1.4mm up&down movment, 0.4mm up&down movement,reciprocating movement.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311403077551.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311403077551.jpg | https://img.waimaoniu.net/1384/1384-202312061513180899.jpg | https://img.waimaoniu.net/1384/1384-202312061514191044.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/41-reciprocating-endo-internal-spray-contra-angle",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-BEARINGS-FOR-DENTAL-HANDPIECES",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Bearings For Dental Handpieces",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Bearings For Dental Handpieces",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Bearings For Dental Handpieces",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Introducing our Bearings for High & Low-Speed Dental Handpieces, a crucial component that ensures smooth and efficient operation. Our bearings are specifically designed for high and low-speed dental handpieces, providing reliable performance and durability. With their precision engineering, they minimize friction and vibration, resulting in quieter operation and extended lifespan of the handpiece. Whether you require bearings for high-speed turbines or low-speed contra angles, our products are designed to meet the demanding requirements of dental professionals. They offer exceptional rotational stability, allowing for precise and controlled movements during procedures. By choosing our bearings, you can expect enhanced performance and reduced maintenance costs. Our high-quality bearings are manufactured to the highest industry standards, ensuring consistent and reliable performance. Upgrade your dental handpieces with our Bearings for High & Low-Speed Dental Handpieces. Experience the benefits of smooth operation, reduced noise, and increased longevity. Contact us today for more information on how our bearings can benefit your dental practice.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221443219663.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221443219663.jpg | https://img.waimaoniu.net/1384/1384-202302221442284385.jpg | https://img.waimaoniu.net/1384/1384-202302221443287611.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/bearings-for-dental-handpieces",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-CARTRIDGES-FOR-HIGH-SPEED-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Cartridges For High Speed Dental Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Cartridges For High Speed Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Cartridges For High Speed Dental Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Cartridges for high speed dental turbine handpiece our Cartridges for High Speed Dental Handpiece, designed to ensure optimal performance and durability. Our cartridges are compatible with various high-speed dental turbine handpiece brands, including Tealth®, Kavo®, Nsk®, and W&H®. With different types of cartridges available, you can easily find the right fit for your specific handpiece model. Choose our Cartridges for High Speed Dental Handpiece to maintain the efficiency and longevity of your dental handpiece. Contact us today to learn more about our product and how it can benefit your dental practice.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221446212268.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221446212268.jpg | https://img.waimaoniu.net/1384/1384-202302221446213254.jpg | https://img.waimaoniu.net/1384/1384-202302221446227151.jpg | https://img.waimaoniu.net/1384/1384-202302221446237787.jpg | https://img.waimaoniu.net/1384/1384-202302221446228476.jpg | https://img.waimaoniu.net/1384/1384-202302221446253270.jpg | https://img.waimaoniu.net/1384/1384-202302221446244799.jpg | https://img.waimaoniu.net/1384/1384-202302221446237161.jpg | https://img.waimaoniu.net/1384/1384-202302221446242656.jpg | https://img.waimaoniu.net/1384/1384-202302221446248903.jpg",
+      "imageCount": 10,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/cartridges-for-high-speed-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-CARTRIDGES-SPARE-PARTS-FOR-LOW-SPEED-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Cartridges Spare Parts For Low Speed Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Cartridges Spare Parts For Low Speed Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Cartridges Spare Parts For Low Speed Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Cartridges spare parts for low speed handpiece Cartridge for 20:1 implant contra angle handpiece Cartridge for 1:1 internal irrigation contra angle handpiece Cartridge for 1:5 increasing speed contra angle handpiece Cartridge for 1:1 external irrigation contra angle handpiece",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221506240410.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221506240410.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/cartridges-spare-parts-for-low-speed-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-CK-11-LED-HIGH-SPEED-GERMANY-BEARINGS-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "CK 11 LED High Speed Germany Bearings Dental Handpiece",
+      "manufacturerRef": "TPL3-U-M4/B2",
+      "manufacturerRefs": "TPL3-U-M4/B2",
+      "model": "CK 11 LED High Speed Germany Bearings Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CK 11 LED High Speed Germany Bearings Dental Handpiece · TPL3-U-M4/B2",
+          "manufacturerRef": "TPL3-U-M4/B2",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Specification: 1. Triple spray,Push botton 2.Noise: ≤60dB 3. Speed:320,000-350,000RPM 4.Torque Head , stronger cutting force 5.LED light, E-generator 6. Balanced cartridge more durable and stable. 7. Order Code: TPL3-U-M4/B2",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606260912018098.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606260912018098.jpg | https://img.waimaoniu.net/1384/1384-202606260915275422.jpg | https://img.waimaoniu.net/1384/1384-202208251729141397.jpg | https://img.waimaoniu.net/1384/1384-202208251729110963.jpg | https://img.waimaoniu.net/1384/1384-202208251729075079.jpg | https://img.waimaoniu.net/1384/1384-202208251729205205.jpg",
+      "imageCount": 6,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/ck-11-led-high-speed-germany-bearings-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-CK-18-LED-HIGH-SPEED-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "CK 18 LED High Speed Dental Handpiece",
+      "manufacturerRef": "CK-18-M4",
+      "manufacturerRefs": "CK-18-M4 | CK-18-B2",
+      "model": "CK 18 LED High Speed Dental Handpiece",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "CK 18 LED High Speed Dental Handpiece · CK-18-M4",
+          "manufacturerRef": "CK-18-M4",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "CK 18 LED High Speed Dental Handpiece · CK-18-B2",
+          "manufacturerRef": "CK-18-B2",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Specification: 1. Triple spray,Push botton 2.Noise: ≤65dB, ceramic bearing 3.Speed:320,000-350,000RPM 4.Torque Head , stronger cutting force，clean head system 5.LED light, E-generator 6. Stainless steel materials，higher hardness more durable，anti-scratch 7. Order Code: CK-18-M4 (4 holes) CK-18-B2 (2 holes)",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606221709442457.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606221709442457.jpg | https://img.waimaoniu.net/1384/1384-202405281038378591.jpg | https://img.waimaoniu.net/1384/1384-202606221710565174.jpg | https://img.waimaoniu.net/1384/1384-202405281043501171.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/ck-18-led-high-speed-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-CK-08-PRO-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "CK-08 Pro Dental Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CK-08 Pro Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CK-08 Pro Dental Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "CK-08 Pro Dental Handpiece​ delivers ​powerful cutting performance​ with ​imported bearings​ for smooth, long-lasting operation. Its ​zero suction design​ helps reduce cross-infection, while ​four-hole water spray​ ensures efficient cooling and ​minimal noise & vibration​ for a comfortable experience.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202508271513500451.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202508271513500451.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/ck-08-pro-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-CK-18-PRO-DURALIGHT-HIGH-SPEED-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "CK-18 Pro Duralight High Speed Dental Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CK-18 Pro Duralight High Speed Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CK-18 Pro Duralight High Speed Dental Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "CK-18 Pro Dental Handpiece​ combines ​powerful cutting performance​ with ​imported bearings and a balanced cartridge​ for ultra-smooth, quiet operation. Equipped with ​four-hole water spray​ for efficient cooling and ​DuraLight​ for bright, long-lasting illumination, it ensures precision and comfort in every procedure.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202508271515339438.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202508271515339438.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/ck-18-pro-duralight-high-speed-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-QUICK-COUPLING-HIGH-SPEED-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "CK-21 Quick Coupling High Speed Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CK-21 Quick Coupling High Speed Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CK-21 Quick Coupling High Speed Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "The high - speed handpiece CK - 21 features imported ceramic bearings for smooth operation. It offers triple water spray with perfect atomization. With less noise and vibration, it provides a comfortable user experience. It has a powerful cutting force and a quick coupling for efficient work.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202510151714470346.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202510151714470346.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/quick-coupling-high-speed-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-CK02-MINI-HEAD-CHILDREN-HIGH-SPEED-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "CK02 Mini Head Children High Speed Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CK02 Mini Head Children High Speed Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CK02 Mini Head Children High Speed Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "As a professional manufacturer of dental handpieces for over 10 years, we take great pride in the quality and reliability of our products. Our dental handpieces are designed to meet the highest industry standards and are backed by certifications for registration.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311271344421860.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311271344421860.jpg | https://img.waimaoniu.net/1384/1384-202311271344509887.jpg | https://img.waimaoniu.net/1384/1384-202208311121549427.jpg | https://img.waimaoniu.net/1384/1384-202208311122021684.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/ck02-mini-head-children-high-speed-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-BUILT-IN-ELECTRIC-MOTOR",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Dental built in Electric Motor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dental built in Electric Motor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental built in Electric Motor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Feature: * Micromotor is brushless, permanent magnet electrical micromotor, use for artificel lab and dentistry clinic * Built in type, for dental chair. * Handpiece with LED Light * With air motor * With control panel * This Micromotor has 4 speed rates: 1:1 1:5 16:1 1:4.2 * ISO E type motor handpiece",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606221716370405.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606221716370405.jpg | https://img.waimaoniu.net/1384/1384-202312061043057598.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-built-in-electric-motor",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-FIBER-OPTIC-IMPLANT-REDUCTION-20-1-CONTRA-ANGLE-HANDPIECEDETACHABLE-UK",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Dental Fiber Optic Implant Reduction 20-1 Contra Angle Handpiece(Detachable) UK",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dental Fiber Optic Implant Reduction 20-1 Contra Angle Handpiece(Detachable) UK",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental Fiber Optic Implant Reduction 20-1 Contra Angle Handpiece(Detachable) UK",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Dental Fiber Optic Implant Reduction 20-1 Contra Angle Handpiece(Detachable) UK (2) Order code: 201F Tealth® 20:1 Fiber optic implant conrta angle 70N.cm dental handpiece parameters: Gear ratio: 20:1 reduction Rotation speed:5-2,000r/min Push button chuck type Bur applicable:Φ2.35mm Max torque: 80N.cm Noise:≤70dB Our 20:1 fiber optic implant handpiece is a cutting-edge tool designed for precision and efficiency in dental implant procedures. With its advanced features and superior performance, it is the perfect choice for dental professionals seeking high-quality implant handpieces. 1. 20:1 Fiber Optic: Our handpiece features a 20:1 reduction ratio, providing excellent torque and control during implant procedures. The fiber optic technology ensures optimal illumination, enhancing visibility in the surgical area for accurate and precise placement. 2. Push Button: The handpiece is equipped with a convenient push-button mechanism for easy bur changing. This allows for quick and efficient operation, saving valuable time during implant procedures. 3. φ2.35mm Bur Size: The handpiece is compatible with φ2.35mm burs, which are commonly used in dental implant procedures. This ensures compatibility with a wide range of implant systems, offering flexibility and convenience for dental professionals. 4. Internal and External Irrigation System: The handpiece is designed with both internal and external irrigation systems, ensuring proper cooling and irrigation during implant procedures. This enhances patient comfort and treatment outcomes. 5. Max Torque: With a maximum torque of 70N.cm, our implant handpiece provides ample power for efficient drilling and implant placement. This high torque capability ensures stability and precision, resulting in successful and long-lasting implant outcomes. Our 20:1 fiber optic implant handpiece is crafted with precision and attention to detail, ensuring durability and reliability. It is designed to meet the demands of modern implant dentistry, delivering exceptional performance and superior results. Choose our 20:1 fiber optic implant handpiece for your dental practice and experience the benefits of advanced technology, ergonomic design, and exceptional quality. Trust in our handpiece to enhance your implant procedures and provide the best possible outcomes for your patients.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208251510521940.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208251510521940.jpg | https://img.waimaoniu.net/1384/1384-202208251511091620.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-fiber-optic-implant-reduction-20-1-contra-angle-handpiecedetachable-uk",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-HANDPIECE-CARTRIDGE-MAINTENANCE-TOOLS",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Dental Handpiece Cartridge Maintenance Tools",
+      "manufacturerRef": "L8-04",
+      "manufacturerRefs": "L8-04",
+      "model": "Dental Handpiece Cartridge Maintenance Tools",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental Handpiece Cartridge Maintenance Tools · L8-04",
+          "manufacturerRef": "L8-04",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: L8-04 Tealth High Speed Dental Handpiece Repair Tool is a professional and essential tool for maintaining and repairing dental handpieces. This tool is specifically designed to ensure the longevity and optimal performance of dental handpieces, making it an indispensable tool for dentists. Key Features: 1. Cartridge Turbine Maintenance Repair: The Tealth High Speed Dental Handpiece Repair Tool is used for the maintenance and repair of cartridge turbines, ensuring that they function efficiently and smoothly. 2. Bearing Removal Tool: This tool is equipped with a bearing removal tool chuck, which is compatible with both standard and torque dental handpieces. It also includes a mini head for precise and delicate repairs. 3. Universal Compatibility: The Tealth High Speed Dental Handpiece Repair Tool is capable of opening and repairing all high-speed handpiece cartridges and rotors, offering a comprehensive solution for dental handpiece repairs. 4. Compact and Portable: This tool comes in a small box, making it easy to carry and store. Dentists can conveniently bring it to their clinics or even during travel. 5. User-Friendly: The Tealth High Speed Dental Handpiece Repair Tool is designed to be easy to operate, serving as a helpful assistant to dentists. It simplifies the repair process, saving time and effort. 6. Versatile Functionality: With this tool, dentists can easily change the bearings and shafts of dental handpieces, ensuring their smooth operation and longevity. 7. Comprehensive Repair: The Tealth High Speed Dental Handpiece Repair Tool is suitable for repairing dental mini, standard, and torque high-speed handpieces and turbines, making it a versatile and reliable tool for dental professionals. In summary, the Tealth High Speed Dental Handpiece Repair Tool is a professional and user-friendly tool designed to maintain and repair dental handpieces. With its versatile functionality, universal compatibility, and compact design, this tool is an essential companion for dentists, ensuring the optimal performance and longevity of dental handpieces.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221514024444.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221514024444.jpg | https://img.waimaoniu.net/1384/1384-202302221514006017.jpg | https://img.waimaoniu.net/1384/1384-202302221514019631.jpg | https://img.waimaoniu.net/1384/1384-202302221514010287.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-handpiece-cartridge-maintenance-tools",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-HANDPIECE-CLEANING-LUBRICATING",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Dental Handpiece Cleaning Lubricating",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dental Handpiece Cleaning Lubricating",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental Handpiece Cleaning Lubricating",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Dental Handpiece Cleaning Lubricanting It is a device for cleaning and lubricanting low speed handpiece. Every time make your handpiece fresh! Dental Handpiece Cleaning Lubricanting It is a device for cleaning and lubricanting low speed handpiece. Every time make your handpiece fresh! Steps of using: Step 1: Fill the bottle with lubricant oil. Step 2: Remove the tip of 3-way syringe, lock the device on it. Step 3: Press air button to spray. Advantages: Cost-effective, easy to operate. Suitable for all brands of Lubricants. Available for 99% low speed handpiece in market. Extend handpiece’s life.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221517399314.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221517399314.jpg | https://img.waimaoniu.net/1384/1384-202302221517396419.jpg | https://img.waimaoniu.net/1384/1384-202302221517386078.jpg | https://img.waimaoniu.net/1384/1384-202302160926425137.jpg | https://img.waimaoniu.net/1384/1384-202302160926427623.jpg | https://img.waimaoniu.net/1384/1384-202302160924045230.jpg | https://img.waimaoniu.net/1384/1384-202302160926435737.jpg",
+      "imageCount": 7,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-handpiece-cleaning-lubricating",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-HANDPIECE-KIT-IPR-RECIPROCATING-INTERPROXIMAL-STRIPPING-REDUCTION-CONTRA-ANGLE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Dental Handpiece Kit IPR Reciprocating Interproximal Stripping Reduction Contra Angle",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dental Handpiece Kit IPR Reciprocating Interproximal Stripping Reduction Contra Angle",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental Handpiece Kit IPR Reciprocating Interproximal Stripping Reduction Contra Angle",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth Dental Handpiece Kit IPR System Reciprocating Interproximal Stripping Reduction Contra Angle 4-1 Orthodontic our Dental Handpiece Kit with IPR System, a comprehensive solution for orthodontic procedures involving interproximal stripping and reduction.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312061351581816.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312061351581816.jpg | https://img.waimaoniu.net/1384/1384-202208260935425784.jpg | https://img.waimaoniu.net/1384/1384-202312061351597845.jpg | https://img.waimaoniu.net/1384/1384-202208260935480089.jpg | https://img.waimaoniu.net/1384/1384-202208260935521716.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-handpiece-kit-ipr-reciprocating-interproximal-stripping-reduction-contra-angle",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-HIGH-SPEED-HANDPIECE-BEARING-MAINTENANCE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Dental High Speed Handpiece Bearing Maintenance",
+      "manufacturerRef": "L8-05",
+      "manufacturerRefs": "L8-05",
+      "model": "Dental High Speed Handpiece Bearing Maintenance",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental High Speed Handpiece Bearing Maintenance · L8-05",
+          "manufacturerRef": "L8-05",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: L8-05 Dental high speed handpiece bearing maintenance tool Tealth high speed dental handpiece repair tool features: 1.Used for Cartridge Turbine Maintenance Repair 2. Dental Handpiece Repair Tool Bearing removal tool chuck STANDARD\\\\Torque\\\\Mini head 3. The tool could open and repair all the high speed handpiece cartridges/ rotors 4. Small box, easy to carry 5. Good helper to dentists, easy to operate 6. With the tool,bearings and shaft can be changed. 7. Repair for dental mini/standard/torque high speed handpiece/ turbine",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221515132313.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221515132313.jpg | https://img.waimaoniu.net/1384/1384-202302221515147219.jpg | https://img.waimaoniu.net/1384/1384-202302221515140813.jpg | https://img.waimaoniu.net/1384/1384-202302221515135226.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-high-speed-handpiece-bearing-maintenance",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-HIGH-SPEED-HANDPIECE-CARTRIDGE-REPAIR-TOOLS",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Dental High Speed Handpiece Cartridge Repair Tools",
+      "manufacturerRef": "L8-03",
+      "manufacturerRefs": "L8-03",
+      "model": "Dental High Speed Handpiece Cartridge Repair Tools",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental High Speed Handpiece Cartridge Repair Tools · L8-03",
+          "manufacturerRef": "L8-03",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: L8-03 Dental high speed handpiece cartridge repair tool Fir for most brands in the market, easy to operate.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221515358520.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221515358520.jpg | https://img.waimaoniu.net/1384/1384-202302221515347042.jpg | https://img.waimaoniu.net/1384/1384-202302221515352856.jpg | https://img.waimaoniu.net/1384/1384-202302221515356990.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-high-speed-handpiece-cartridge-repair-tools",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-LOW-SPEED-HANDPIECE-INTERNAL-IRRIGATION-24-HOLES-AIR-MOTOR",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "dental low speed handpiece internal irrigation 2/4 holes air motor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "dental low speed handpiece internal irrigation 2/4 holes air motor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "dental low speed handpiece internal irrigation 2/4 holes air motor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "​Tealth Dental Low-Speed Handpiece Air Motor, a reliable and durable tool for various dental procedures, good helper for your dental treatment.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312021151089801.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312021151089801.jpg | https://img.waimaoniu.net/1384/1384-202312021151160384.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-low-speed-handpiece-internal-irrigation-24-holes-air-motor",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-LOW-SPEED-HANDPIECE-REPAIR-TOOL-FOR-TEALTH",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Dental Low Speed Handpiece Repair Tool For Tealth",
+      "manufacturerRef": "L8-06",
+      "manufacturerRefs": "L8-06",
+      "model": "Dental Low Speed Handpiece Repair Tool For Tealth",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental Low Speed Handpiece Repair Tool For Tealth · L8-06",
+          "manufacturerRef": "L8-06",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: L8-06 Dental low speed handpiece repair tool for Tealth dental handpiece This professional tool is specifically designed for repairing Tealth internal irrigation low speed dental handpieces. It ensures efficient and effective repair with its internal irrigation feature.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221514457562.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221514457562.jpg | https://img.waimaoniu.net/1384/1384-202302221514459444.jpg | https://img.waimaoniu.net/1384/1384-202302221514460618.jpg | https://img.waimaoniu.net/1384/1384-202302221514464504.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-low-speed-handpiece-repair-tool-for-tealth",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-STRAIGHT-HANDPIECE-11-LOW-SPEED-HANDPIECE-DENTAL-TURBINE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Dental Straight Handpiece 1:1 Low Speed Handpiece Dental Turbine",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dental Straight Handpiece 1:1 Low Speed Handpiece Dental Turbine",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental Straight Handpiece 1:1 Low Speed Handpiece Dental Turbine",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Dental Straight Handpiece 1:1 Low Speed Handpiece Dental Turbine used high quality bearings, durbal and stable. with long service life.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312021031337878.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312021031337878.jpg | https://img.waimaoniu.net/1384/1384-202312021031411723.jpg | https://img.waimaoniu.net/1384/1384-202312021031460067.jpg | https://img.waimaoniu.net/1384/1384-202208251620468464.jpg | https://img.waimaoniu.net/1384/1384-202208251620588698.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-straight-handpiece-11-low-speed-handpiece-dental-turbine",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-SUPPLY-HANDPIECE-DENTAL-20-DEGREE-STRAIGHT-HEAD-SURGICAL-WITH-HOT-SALES",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Dental Supply handpiece dental 20 degree Straight Head surgical with hot sales",
+      "manufacturerRef": "SEN-10C",
+      "manufacturerRefs": "SEN-10C",
+      "model": "Dental Supply handpiece dental 20 degree Straight Head surgical with hot sales",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental Supply handpiece dental 20 degree Straight Head surgical with hot sales · SEN-10C",
+          "manufacturerRef": "SEN-10C",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Dental Supply handpiece dental 20 degree Straight Head surgical with hot sales 20 degree Surgical Straight Handpice Order code: SEN-10C Features: Swivel ring type Gear ratio:1:1 Bur size:2.35mm Max speed:20,000rpm Introducing our 20 Degree Surgical Straight Handpiece, a versatile and reliable tool designed to meet the demands of surgical procedures in the dental field. With its advanced features and precise functionality, this handpiece is an essential addition to any dental practice. 1. Swivel Ring Type: The handpiece is designed with a swivel ring, allowing for easy maneuverability and flexibility during surgical procedures. This feature enhances the dentist\\'s control and precision, providing optimal results for the patient. 2. Gear Ratio: With a gear ratio of 1:1, this handpiece offers a direct drive system, ensuring efficient and consistent power transmission. This enables the dentist to perform surgical procedures with accuracy and precision. 3. Bur Size: The handpiece is compatible with 2.35mm burs, which are commonly used in dental surgeries. This ensures compatibility with a wide range of surgical instruments, providing versatility and convenience for dental professionals. 4. Max Speed: The handpiece has a maximum speed of 20,000rpm, allowing for high-speed and efficient cutting during surgical procedures. This speed ensures fast and precise operation, saving valuable time for both the dentist and the patient. Our 20 Degree Surgical Straight Handpiece is meticulously crafted with precision and durability in mind. It is designed to meet the demands of modern dental surgeries, providing exceptional performance and reliability. Choose our 20 Degree Surgical Straight Handpiece for your dental practice and experience the benefits of advanced technology, ergonomic design, and superior functionality. Trust in our product to enhance your surgical procedures and deliver optimal results for your patients.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606231449022760.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606231449022760.jpg | https://img.waimaoniu.net/1384/1384-202208251629482917.jpg | https://img.waimaoniu.net/1384/1384-202312081158428329.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-supply-handpiece-dental-20-degree-straight-head-surgical-with-hot-sales",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-SURGICAL-EXTERNAL-IRRIGATION-STRAIGHT-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Dental Surgical External irrigation Straight Handpiece",
+      "manufacturerRef": "SEN-05C",
+      "manufacturerRefs": "SEN-05C | SEN-07C",
+      "model": "Dental Surgical External irrigation Straight Handpiece",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Dental Surgical External irrigation Straight Handpiece · SEN-05C",
+          "manufacturerRef": "SEN-05C",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Dental Surgical External irrigation Straight Handpiece · SEN-07C",
+          "manufacturerRef": "SEN-07C",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: SEN-05C (sliver) / SEN-07C (blue) Dental Surgical External Irrigation Straight Handpiece, a versatile tool designed for efficient and precise dental surgical procedures. Product Description: Our Dental Surgical External Irrigation Straight Handpiece features the following characteristics: 1. Easy removal and assembly: The handpiece is designed for easy removal and assembly, allowing for quick and hassle-free setup and maintenance. 2. External irrigation: The handpiece is equipped with an external irrigation system, ensuring effective cooling and irrigation during surgical procedures. This helps maintain optimal temperature and reduces the risk of overheating, enhancing patient comfort and safety. 3. Extra water tube: The handpiece comes with an additional water tube, providing more functions and versatility during surgical procedures. This allows for improved irrigation and better control over the flow of water. Upgrade your dental practice with our Dental Surgical External Irrigation Straight Handpiece. Experience the benefits of easy removal, external irrigation, and enhanced functionality. Contact us today for more information on how this handpiece can elevate your dental surgical procedures.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311116098119.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311116098119.jpg | https://img.waimaoniu.net/1384/1384-202208311116153193.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-surgical-external-irrigation-straight-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DENTAL-WIRELESS-ENDO-MOTOR-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Dental Wireless Endo Motor Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dental Wireless Endo Motor Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental Wireless Endo Motor Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth® Dental wireless endo dental motor handpiece is small in size and easy to carry. Wireless endo motor is used in endodontics, which has a long service life.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312041203342219.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312041203342219.jpg | https://img.waimaoniu.net/1384/1384-202312041203341439.jpg | https://img.waimaoniu.net/1384/1384-202312041203359155.jpg | https://img.waimaoniu.net/1384/1384-202312041203355758.jpg | https://img.waimaoniu.net/1384/1384-202312041203332657.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/dental-wireless-endo-motor-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-DRIVING-SHAFTS-FOR-LOW-SPEED-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Driving Shafts For Low Speed Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Driving Shafts For Low Speed Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Driving Shafts For Low Speed Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Driving Shafts for Low-Speed Handpieces, essential spare parts for various dental handpieces. Available options: 1. Driving shaft for low-speed dental handpieces. 2. Driving shaft for 20:1 implant contra angle dental handpiece. 3. Driving shaft for 1:5 increasing contra angle dental handpiece. 4. Driving shaft for 16:1 reduction contra angle dental handpiece. Our driving shafts are designed to ensure smooth and reliable operation of dental handpieces. They are made with high-quality materials to withstand the demands of dental procedures and provide long-lasting performance. Choose our driving shafts as spare parts for your low-speed handpieces to maintain their functionality and extend their lifespan. Contact us today for more information on these products and how they can benefit your dental practice.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221507122995.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221507122995.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/driving-shafts-for-low-speed-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-ELECTRIC-DENTAL-HANDPIECE-CLEANING-AND-MAINTENANCE-MACHINE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Electric dental handpiece cleaning and maintenance machine",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Electric dental handpiece cleaning and maintenance machine",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Electric dental handpiece cleaning and maintenance machine",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "This product has the following functions : ◆ Can clean , oil maintenance and blow away excess liquid for two handpiece(Two high/low speed handpiece or one high speed and one low speed handpiece) at same time. ◆ Suitable for caring and maintaining high and low speed handpiece of all types of brands. ◆ The sealing door design can effectively reduce the oil mist at minimum to ensure the cleaning of working environment. ◆ Intelligent working mode, no needs to set the oiling time for every use.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202507221041440180.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202507221041440180.jpg | https://img.waimaoniu.net/1384/1384-202507221041467701.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/electric-dental-handpiece-cleaning-and-maintenance-machine",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-EXTERNAL-IRRIGATION-CONTRA-ANGLE-HEAD",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "External Irrigation Contra Angle Head",
+      "manufacturerRef": "L6-09",
+      "manufacturerRefs": "L6-09 | L6-10 | L6-11 | L6-12 | L6-14 | L6-16 | L6-17",
+      "model": "External Irrigation Contra Angle Head",
+      "variantCount": 7,
+      "variants": [
+        {
+          "variantLabel": "External Irrigation Contra Angle Head · L6-09",
+          "manufacturerRef": "L6-09",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "External Irrigation Contra Angle Head · L6-10",
+          "manufacturerRef": "L6-10",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "External Irrigation Contra Angle Head · L6-11",
+          "manufacturerRef": "L6-11",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "External Irrigation Contra Angle Head · L6-12",
+          "manufacturerRef": "L6-12",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "External Irrigation Contra Angle Head · L6-14",
+          "manufacturerRef": "L6-14",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "External Irrigation Contra Angle Head · L6-16",
+          "manufacturerRef": "L6-16",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "External Irrigation Contra Angle Head · L6-17",
+          "manufacturerRef": "L6-17",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: L6-09 (φ2.35mm, push button), L6-10 (φ1.60mm, push button), L6-11 (φ2.35mm, latch type), L6-12 (φ2.35mm, push button), L6-14 (φ2.35mm, latch type), L6-16 (LED, φ2.35mm, latch type), L6-17 (LED, φ2.35mm, latch type) External Irrigation Contra Angle Heads, a versatile and cost-effective solution for dental professionals. With our contra angle heads, you only need to invest in one shank, while having the flexibility to choose different heads for various procedures. This allows for more economical use of your dental equipment. Our contra angle heads are designed to fit most brands available in the market, ensuring compatibility and ease of use. Upgrade your dental practice with our External Irrigation Contra Angle Heads. Contact us today for more information on these products and how they can enhance your dental procedures.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221504469303.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221504469303.jpg | https://img.waimaoniu.net/1384/1384-202302221504447315.jpg | https://img.waimaoniu.net/1384/1384-202302221504452084.jpg | https://img.waimaoniu.net/1384/1384-202302221504452517.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/external-irrigation-contra-angle-head",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-EXTERNAL-IRRIGATION-LATCH-TYPE-HANDPIECE-SET",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "External Irrigation Latch Type Handpiece Set",
+      "manufacturerRef": "S-03",
+      "manufacturerRefs": "S-03",
+      "model": "External Irrigation Latch Type Handpiece Set",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "External Irrigation Latch Type Handpiece Set · S-03",
+          "manufacturerRef": "S-03",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order Code: S-03 External irrigation low speed latch type kit including: latch type contra angle 1pcs, straight handpiece 1pcs, air motor 1pcs. 1. Latch type chuck, easy to use 2. High quality 3. 4 or 2 holes air motor connectors for choice 4. Made of aluminum Order Code: S-06 1. Latch type chuck, easy to use 2. High quality aluminum body 3. 4 or 2 holes air motor connectors for choice",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312071441104219.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312071441104219.jpg | https://img.waimaoniu.net/1384/1384-202312071446333461.jpg | https://img.waimaoniu.net/1384/1384-202312071441446333.jpg | https://img.waimaoniu.net/1384/1384-202312071442561006.jpg | https://img.waimaoniu.net/1384/1384-202312071442573624.jpg | https://img.waimaoniu.net/1384/1384-202312071447094205.jpg",
+      "imageCount": 6,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/external-irrigation-latch-type-handpiece-set",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-EXTERNAL-IRRIGATION-LOW-SPEED-AIR-MOTOR-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "External irrigation low speed air motor dental handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "External irrigation low speed air motor dental handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "External irrigation low speed air motor dental handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth Mini External irrigation low speed air motor dental handpiece light weight, autoclavable and up to 135 ℃",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312021149552756.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312021149552756.jpg | https://img.waimaoniu.net/1384/1384-202312021142375078.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/external-irrigation-low-speed-air-motor-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-EXTERNAL-IRRIGATION-LOW-SPEED-CONTRA-ANGLE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "External Irrigation Low Speed Contra Angle",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "External Irrigation Low Speed Contra Angle",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "External Irrigation Low Speed Contra Angle",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth External Irrigation Low-Speed Contra Angle, a reliable and efficient dental handpiece for various procedures. With its user-friendly features and ergonomic design, it offers convenience and precision during dental procedures.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311301144002060.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311301144002060.jpg | https://img.waimaoniu.net/1384/1384-202208311113381887.jpg | https://img.waimaoniu.net/1384/1384-202208311113396958.jpg | https://img.waimaoniu.net/1384/1384-202311301201499588.jpg | https://img.waimaoniu.net/1384/1384-202311301201496389.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/external-irrigation-low-speed-contra-angle",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-EXTERNAL-IRRIGATION-PUSH-BUTTON-HANDPIECE-SET",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "External Irrigation Push Button Handpiece Set",
+      "manufacturerRef": "S-04",
+      "manufacturerRefs": "S-04",
+      "model": "External Irrigation Push Button Handpiece Set",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "External Irrigation Push Button Handpiece Set · S-04",
+          "manufacturerRef": "S-04",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: S-04 External irrigation push button set including: push button contra angle 1pcs, straight handpiece 1pcs, air motor 1pcs. External irrigation, push button chuck type, 2.35mm or 1.6mm push button head for choice. 4 or 2 holes air motor conncetor, forward & reverse control to adjust control",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312071556009468.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312071556009468.jpg | https://img.waimaoniu.net/1384/1384-202312071555590675.jpg | https://img.waimaoniu.net/1384/1384-202312071555593107.jpg | https://img.waimaoniu.net/1384/1384-202208311049563747.jpg | https://img.waimaoniu.net/1384/1384-202208311049572040.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/external-irrigation-push-button-handpiece-set",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-EXTERNAL-LOW-SPEED-LATCH-TYPE-CONTRA-ANGLE-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "external low speed latch type contra angle dental handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "external low speed latch type contra angle dental handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "external low speed latch type contra angle dental handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "This contra angle handpiece is compatible with various low-speed motors, making it suitable for a wide range of dental applications. Choose our external low-speed latch type contra angle dental handpiece for reliable performance and enhanced control during dental procedures.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606260909468373.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606260909468373.jpg | https://img.waimaoniu.net/1384/1384-202208250844461898.jpg | https://img.waimaoniu.net/1384/1384-202208250844421228.jpg | https://img.waimaoniu.net/1384/1384-202208250845026484.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/external-low-speed-latch-type-contra-angle-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-FIBER-OPTIC-15-INCREASING-CONTRA-ANGLE-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Fiber optic 1:5 increasing contra angle dental handpiece",
+      "manufacturerRef": "I05F-01C",
+      "manufacturerRefs": "I05F-01C",
+      "model": "Fiber optic 1:5 increasing contra angle dental handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Fiber optic 1:5 increasing contra angle dental handpiece · I05F-01C",
+          "manufacturerRef": "I05F-01C",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Product name: Fiber optic 1:5 increase speed contra angle Order code: I05F-01C Features: Bur size: 1.60mm Gear ratio: 1:5 increase Noise: Less than 70dB Chuck type: Push button 1:5 Fiber optic increase speed dental contra angle 1. Drilling out cavities and restoration 2. Removal of dental fillings and metals 3. Orthodontics 4. Dental crown treatment Introducing our Fiber Optic 1:5 Increase Speed Contra Angle, designed to provide dental professionals with exceptional performance and efficiency in various dental procedures. With its advanced features and reliable functionality, this contra angle is an essential tool for any dental practice. Order Code: I05F-01C Features: 1. Bur Size: The contra angle is compatible with 1.60mm burs, allowing for precise and efficient cutting during procedures. This size is commonly used in dental applications, ensuring compatibility with a wide range of dental instruments. 2. Gear Ratio: With a gear ratio of 1:5 increase, this contra angle provides a significant increase in rotational speed compared to traditional handpieces. This allows for faster and more efficient dental procedures, saving valuable time for both the dentist and the patient. 3. Noise Level: The contra angle is designed to operate at a noise level of less than 70dB, ensuring a comfortable and quiet environment for both the dental professional and the patient. This feature enhances the overall dental experience and promotes a relaxed atmosphere during procedures. 4. Chuck Type: Equipped with a convenient push-button chuck, this contra angle allows for easy and efficient bur changes. The push-button mechanism ensures quick and secure bur insertion and removal, enhancing workflow and productivity. Our Fiber Optic 1:5 Increase Speed Contra Angle is meticulously crafted with precision and durability in mind. It is designed to meet the demands of modern dental practices, providing exceptional performance and reliability. Choose our Fiber Optic 1:5 Increase Speed Contra Angle for your dental procedures and experience the benefits of advanced technology, ergonomic design, and superior functionality. Trust in our product to enhance your dental practice and deliver optimal results for your patients.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311003542513.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311003542513.jpg | https://img.waimaoniu.net/1384/1384-202208311003546230.jpg | https://img.waimaoniu.net/1384/1384-202208311003554470.jpg | https://img.waimaoniu.net/1384/1384-202208311003553263.jpg | https://img.waimaoniu.net/1384/1384-202208311004121086.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/fiber-optic-15-increasing-contra-angle-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-FIBER-OPTIC-INTERNAL-IRRIGATION-6-HOLES-AIR-MOTOR-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Fiber optic internal irrigation 6 holes air motor dental handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fiber optic internal irrigation 6 holes air motor dental handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Fiber optic internal irrigation 6 holes air motor dental handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth fiber optic air motor 6 holes dental handpiece, with stable light source, quiet and with low noise . Low vibration, long service life.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312021126318498.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312021126318498.jpg | https://img.waimaoniu.net/1384/1384-202208311403326944.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/fiber-optic-internal-irrigation-6-holes-air-motor-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-FIBER-OPTIC-LOW-SPEED-DENTAL-HANDPIECE-SET",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Fiber Optic Low Speed Dental Handpiece Set",
+      "manufacturerRef": "S-13",
+      "manufacturerRefs": "S-13",
+      "model": "Fiber Optic Low Speed Dental Handpiece Set",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Fiber Optic Low Speed Dental Handpiece Set · S-13",
+          "manufacturerRef": "S-13",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order Code: S-13 Fiber optic low speed dental handpiece kit including: fiber optic contra angle 1pcs, fiber optic air motor 1pcs, fiber optic straight handpiece 1pcs Internal irrigation spray, perfect cooling system. Fiber optic light source, more stable Exchangeable contra angle head, fit for most brands in the market",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312061055481788.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312061055481788.jpg | https://img.waimaoniu.net/1384/1384-202312061055478114.jpg | https://img.waimaoniu.net/1384/1384-202208311032194199.jpg | https://img.waimaoniu.net/1384/1384-202208311032197874.jpg | https://img.waimaoniu.net/1384/1384-202208311032191349.jpg | https://img.waimaoniu.net/1384/1384-202208311032192815.jpg",
+      "imageCount": 6,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/fiber-optic-low-speed-dental-handpiece-set",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-HIGH-INTERNAL-SPRAY-LOW-SPEED-DENTAL-HANDPIECE-SET",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "High & Internal Spray Low Speed Dental Handpiece Set",
+      "manufacturerRef": "T-03",
+      "manufacturerRefs": "T-03",
+      "model": "High & Internal Spray Low Speed Dental Handpiece Set",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "High & Internal Spray Low Speed Dental Handpiece Set · T-03",
+          "manufacturerRef": "T-03",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code:T-03 High & low speed dental handpiece kit including: External irrigation low speed 1kit, high speed dental handpieces 2pcs. 1.External irrigation 2.Chuck type：Latch type 3.Detachable head, 4.Torque head 5.Single spray",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312071639031447.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312071639031447.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/high-internal-spray-low-speed-dental-handpiece-set",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-HIGH-LOW-SPEED-STUDENT-DENTAL-HANDPIECE-SET",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "High & Low Speed Student Dental Handpiece Set",
+      "manufacturerRef": "T-02",
+      "manufacturerRefs": "T-02",
+      "model": "High & Low Speed Student Dental Handpiece Set",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "High & Low Speed Student Dental Handpiece Set · T-02",
+          "manufacturerRef": "T-02",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: T-02 Introducing the High & Low Speed Student Dental Handpiece Set The High & Low Speed Student Dental Handpiece Set is a comprehensive kit designed specifically for dental students. This set includes a range of handpieces and accessories to meet the various needs of dental procedures and training. Key Features: 1. Latch Type Low Speed Handpiece: The set includes a latch type low-speed handpiece, which is essential for performing precision tasks such as polishing, finishing, and prophylaxis. This handpiece ensures smooth and controlled movements for accurate results. 2. LED High Speed Handpiece: The set includes two LED high-speed handpieces, which are crucial for efficient and precise cutting and drilling procedures. The LED lighting provides enhanced visibility, allowing students to work with precision and confidence. 3. External Irrigation Low Speed Kit: The set also includes an external irrigation low-speed kit, which is used for procedures that require water spray. This kit enables efficient cooling and irrigation during procedures, ensuring patient comfort and optimal results. 4. Latch Type Contra Angle and Straight Handpiece: The set includes a latch type contra angle and a silver straight handpiece. These handpieces offer versatility and flexibility for a wide range of procedures, allowing students to gain hands-on experience in various dental techniques. 5. Air Motor: The set includes a 2 or 4 holes air motor, which is compatible with the low-speed handpieces. The air motor provides the necessary power and control for smooth and precise movements during dental procedures. 6. LED High Speed Turbine: The set includes an LED high-speed turbine with 8 holes water spray. This turbine offers high-speed cutting and drilling capabilities, ensuring efficient and effective treatment. In summary, the High & Low Speed Student Dental Handpiece Set is a comprehensive kit that provides dental students with the essential handpieces and accessories for their training and procedures. With a latch type low-speed handpiece, LED high-speed handpieces, external irrigation low-speed kit, latch type contra angle, straight handpiece, and air motor, this set offers versatility and functionality. It is designed to enhance students\\' learning experience and prepare them for their future dental practice.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312071528387578.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312071528387578.jpg | https://img.waimaoniu.net/1384/1384-202312071528388592.jpg | https://img.waimaoniu.net/1384/1384-202312071528374462.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/high-low-speed-student-dental-handpiece-set",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-HOLER-FOR-STRIPS-ORTHODONTIC",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Holer For Strips Orthodontic",
+      "manufacturerRef": "L8-02",
+      "manufacturerRefs": "L8-02",
+      "model": "Holer For Strips Orthodontic",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Holer For Strips Orthodontic · L8-02",
+          "manufacturerRef": "L8-02",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: L8-02 Holder for strips orthodontic",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221504194879.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221504194879.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/holer-for-strips-orthodontic",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-IMPELLOR-FOR-HIGH-SPEED-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Impellor For High Speed Dental Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Impellor For High Speed Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Impellor For High Speed Dental Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Impellor for high speed dental handpieces, fit for W&H , NSK, KAVO different brands",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221442583389.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221442583389.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/impellor-for-high-speed-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-INTERNAL-IRRIGATION-CONTRA-ANGLE-HEADS",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Internal Irrigation Contra Angle Heads",
+      "manufacturerRef": "L6-01",
+      "manufacturerRefs": "L6-01 | L6-02 | L6-03 | L6-04",
+      "model": "Internal Irrigation Contra Angle Heads",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "Internal Irrigation Contra Angle Heads · L6-01",
+          "manufacturerRef": "L6-01",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Internal Irrigation Contra Angle Heads · L6-02",
+          "manufacturerRef": "L6-02",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Internal Irrigation Contra Angle Heads · L6-03",
+          "manufacturerRef": "L6-03",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Internal Irrigation Contra Angle Heads · L6-04",
+          "manufacturerRef": "L6-04",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: L6-01 (φ2.35mm, 24,000rpm), L6-02 (φ1.60mm, 24,000rpm), L6-03 (φ2.35mm, 40,000rpm), L6-04 (φ1.60mm, 40,000rpm) Internal irrigation contra angle heads 1.Be compatible with Kavo 2.Imported bearing 3.Easy to separate, convenient for repair 4.CA bur/ FG bur head for your choice",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221516127187.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221516127187.jpg | https://img.waimaoniu.net/1384/1384-202302221516132803.jpg | https://img.waimaoniu.net/1384/1384-202302221516167142.jpg | https://img.waimaoniu.net/1384/1384-202302221516190909.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/internal-irrigation-contra-angle-heads",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-INTERNAL-IRRIGATION-STRAIGHT-HANDPIECE-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Internal Irrigation Straight Handpiece Dental Handpiece",
+      "manufacturerRef": "SIN-01C",
+      "manufacturerRefs": "SIN-01C",
+      "model": "Internal Irrigation Straight Handpiece Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Internal Irrigation Straight Handpiece Dental Handpiece · SIN-01C",
+          "manufacturerRef": "SIN-01C",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: SIN-01C Parameters: 1.inner channel cooling systerm 2.straight Head 3.rotation speed: about 20,000rpm 4.bur applicable: φ2.35mm 5.noise: ≤70dB",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311027505173.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311027505173.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/internal-irrigation-straight-handpiece-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-INTERNAL-SPRAY-LOW-SPEED-STRAIGHT-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Internal Spray Low Speed Straight Dental Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Internal Spray Low Speed Straight Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Internal Spray Low Speed Straight Dental Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth internal irrigation straight handpiece is inner channel cooling system, ensuring effective cooling during operation. The straight head design allows for easy access to the treatment area.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312021004556283.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312021004556283.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/internal-spray-low-speed-straight-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-LED-EXTERNAL-IRRIGATION-LATCH-CONTRA-ANGLE-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "LED External Irrigation Latch Contra Angle Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LED External Irrigation Latch Contra Angle Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED External Irrigation Latch Contra Angle Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth LED low speed latch type contra angle, E-generator in head. Detachable head which is exchangeable with NSK and many international brands. Latch type which is easy to hold and take out bur, more safty.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311126417996.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311126417996.jpg | https://img.waimaoniu.net/1384/1384-202208311126425306.jpg | https://img.waimaoniu.net/1384/1384-202208311126415045.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/led-external-irrigation-latch-contra-angle-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-LED-HIGH-LOW-SPEED-DENTAL-HANDPIECE-SET",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "LED High & Low Speed Dental Handpiece Set",
+      "manufacturerRef": "T-11",
+      "manufacturerRefs": "T-11",
+      "model": "LED High & Low Speed Dental Handpiece Set",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED High & Low Speed Dental Handpiece Set · T-11",
+          "manufacturerRef": "T-11",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: T-11 LED high & low speed dental handpieces kit including: led low speed handpiece 1 kit, led high speed handpiece 2pcs. LED contra angle, self-illuminated, E-generator, bright light. LED high speed handpiece, ceramic bearings, with perfect cooling Internal irrigation, separated air tube & water pipe",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312071608319705.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312071608319705.jpg | https://img.waimaoniu.net/1384/1384-202312071608503901.jpg | https://img.waimaoniu.net/1384/1384-202312071609458506.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/led-high-low-speed-dental-handpiece-set",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-LED-INTERNAL-IRRIGATION-CONTRA-ANGLE-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "LED Internal Irrigation Contra Angle Dental Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LED Internal Irrigation Contra Angle Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED Internal Irrigation Contra Angle Dental Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth 1:1 internal irrigation contra angle dental handpiece, the design of the replacable bur head enrich the function of the products such as Finishing, Polishing, Orthodontics",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311291623526878.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311291623526878.jpg | https://img.waimaoniu.net/1384/1384-202208311104181223.jpg | https://img.waimaoniu.net/1384/1384-202311291624544931.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/led-internal-irrigation-contra-angle-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-LED-LOW-SPEED-INTERNAL-SPRAY-DENTAL-HANDPIECE-SET",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "LED Low Speed Internal Spray Dental Handpiece Set",
+      "manufacturerRef": "S-01",
+      "manufacturerRefs": "S-01",
+      "model": "LED Low Speed Internal Spray Dental Handpiece Set",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED Low Speed Internal Spray Dental Handpiece Set · S-01",
+          "manufacturerRef": "S-01",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order Code: S-01 LED internal irrigation low speed kit including: LED contra angle 1pcs, straight handpiece 1pcs, air motor 1pcs. LED contra angle, E-generator, self-illuminated, push button chuck type. CA bur 2.35mm and FG bur 1.60mm heads for choice. 4 or 2 holes air motor connector, fit for different customers needs.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312071414040856.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312071414040856.jpg | https://img.waimaoniu.net/1384/1384-202312071414053670.jpg | https://img.waimaoniu.net/1384/1384-202208311047296570.jpg | https://img.waimaoniu.net/1384/1384-202208311047292753.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/led-low-speed-internal-spray-dental-handpiece-set",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-LOW-SPEED-EXTERNAL-IRRIGATION-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Low Speed External Irrigation Dental Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Low Speed External Irrigation Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Low Speed External Irrigation Dental Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth Low-Speed External Irrigation Dental Handpiece is designed to meet the needs of dental professionals. With its user-friendly features and ergonomic design, it offers convenience and precision during dental procedures.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311291735192163.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311291735192163.jpg | https://img.waimaoniu.net/1384/1384-202208311127492871.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/low-speed-external-irrigation-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-LOW-SPEED-INTERNAL-IRRIGATION-DENTAL-HANDPIECE-SET",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Low Speed Internal Irrigation Dental Handpiece Set",
+      "manufacturerRef": "S-10",
+      "manufacturerRefs": "S-10",
+      "model": "Low Speed Internal Irrigation Dental Handpiece Set",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Low Speed Internal Irrigation Dental Handpiece Set · S-10",
+          "manufacturerRef": "S-10",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: S-10 Low-Speed Internal Irrigation Dental Handpiece Set, a comprehensive kit designed for efficient and precise dental procedures. Product Description: Our Internal Irrigation Low-Speed Kit includes the following components: - Contra Angle Handpiece: 1 piece - Straight Handpiece: 1 piece - Air Motor: 1 piece The kit offers versatility with exchangeable heads, allowing for individual choice based on specific procedure requirements. You can choose between CA/FG bur heads to suit your preferences. For the CA bur heads, a 2.35mm bur is used, providing compatibility with a wide range of dental accessories. For the FG bur heads, a 1.60mm bur is used, offering precision and control during procedures. Upgrade your dental practice with our Low-Speed Internal Irrigation Dental Handpiece Set. Experience the benefits of its interchangeable heads and precise performance. Contact us today for more information on how this set can enhance your dental procedures and improve patient satisfaction.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312061457364311.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312061457364311.jpg | https://img.waimaoniu.net/1384/1384-202312061457365862.jpg | https://img.waimaoniu.net/1384/1384-202302221428484144.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/low-speed-internal-irrigation-dental-handpiece-set",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-LOW-SPEED-PUSH-BUTTON-16MM-FG-CONTRA-ANGLE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Low Speed Push Button 1.6mm FG Contra Angle",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Low Speed Push Button 1.6mm FG Contra Angle",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Low Speed Push Button 1.6mm FG Contra Angle",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth Low Speed Push Button 1.6mm FG Contra Angle is designed to meet the needs of dental professionals. It comes with essential accessories and a comprehensive English manual for easy use and maintenance.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311301206067294.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311301206067294.jpg | https://img.waimaoniu.net/1384/1384-202311301205474925.jpg | https://img.waimaoniu.net/1384/1384-202208311113103953.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/low-speed-push-button-16mm-fg-contra-angle",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-METAL-STRIPS-FOR-IPR-CONTRA-ANGLE-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Metal Strips For IPR Contra Angle Handpiece",
+      "manufacturerRef": "C-SB",
+      "manufacturerRefs": "C-SB | C-15 | C-25 | C-40 | C-60 | C-90",
+      "model": "Metal Strips For IPR Contra Angle Handpiece",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantLabel": "Metal Strips For IPR Contra Angle Handpiece · C-SB",
+          "manufacturerRef": "C-SB",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Metal Strips For IPR Contra Angle Handpiece · C-15",
+          "manufacturerRef": "C-15",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Metal Strips For IPR Contra Angle Handpiece · C-25",
+          "manufacturerRef": "C-25",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Metal Strips For IPR Contra Angle Handpiece · C-40",
+          "manufacturerRef": "C-40",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Metal Strips For IPR Contra Angle Handpiece · C-60",
+          "manufacturerRef": "C-60",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Metal Strips For IPR Contra Angle Handpiece · C-90",
+          "manufacturerRef": "C-90",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: C-SB (07HD), C-15 (15HD), C-25 (25HD). C-40 (40HD), C-60 (60HD), C-90 (90HD) Metal strips for IPR contra angle dental handpiece Strips: 07 micron-serrated saw 15 micron-for pre polishing 25 micron-for finishing 40 micron-for contouring 60 micron-for reducting 90 micron-for opening contacts",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311040133047.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311040133047.jpg | https://img.waimaoniu.net/1384/1384-202208311040482373.jpg | https://img.waimaoniu.net/1384/1384-202208311040492292.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/metal-strips-for-ipr-contra-angle-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-MINI-EXTERNAL-SPRAY-LOW-SPEED-HANDPIECE-SET",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Mini External Spray Low Speed Handpiece Set",
+      "manufacturerRef": "S-09",
+      "manufacturerRefs": "S-09",
+      "model": "Mini External Spray Low Speed Handpiece Set",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Mini External Spray Low Speed Handpiece Set · S-09",
+          "manufacturerRef": "S-09",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: S-09 Mini external irrigation low speed handpieces kit including: push button contra angle 1pcs, straight handpiece 1pcs, mini air motor 1pcs. Push button chuck type, easy to operate, mini motor, easy to control.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312071349549445.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312071349549445.jpg | https://img.waimaoniu.net/1384/1384-202208311105100540.jpg | https://img.waimaoniu.net/1384/1384-202312071349542284.jpg | https://img.waimaoniu.net/1384/1384-202208311105105795.jpg | https://img.waimaoniu.net/1384/1384-202208311105114107.jpg | https://img.waimaoniu.net/1384/1384-202208311105101785.jpg",
+      "imageCount": 6,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/mini-external-spray-low-speed-handpiece-set",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-ORINGS-FOR-HIGH-LOW-SPEED-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Orings For High & Low Speed Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Orings For High & Low Speed Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Orings For High & Low Speed Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Introducing our O-rings for High & Low-Speed Dental Handpieces, a vital component that ensures proper sealing and optimal performance of your dental handpiece. Our O-rings are designed to fit both high and low-speed handpieces, providing a reliable and secure seal. They are made from high-quality materials that are resistant to wear, tear, and degradation, ensuring long-lasting performance. By maintaining a proper seal, our O-rings prevent the entry of contaminants and fluids into the handpiece, protecting its internal components and prolonging its lifespan. This results in reduced maintenance costs and downtime for your dental practice. Whether you need O-rings for high-speed turbines or low-speed contra angles, our products are engineered to meet the demanding requirements of dental professionals. They are precision-made to ensure a perfect fit and optimal performance. Upgrade your dental handpieces with our O-rings for High & Low-Speed Dental Handpieces. Experience the benefits of proper sealing, enhanced performance, and extended handpiece lifespan. Contact us today for more information on how our O-rings can benefit your dental practice.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221505441060.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221505441060.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/orings-for-high-low-speed-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-PLASTIC-STRIPS-FOR-ORTHODONTIC-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Plastic Strips For Orthodontic Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Plastic Strips For Orthodontic Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Plastic Strips For Orthodontic Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: Plastic strips for orthodontic dental handpiece Introducing our Tealth® Reciprocating IPR System Dental Handpiece, a cutting-edge tool that offers a safe, precise, and reliable method for achieving accurate interproximal stripping. Our IPR system provides a superior alternative to traditional diamond discs, offering more control and safety for both the dentist and the patient. With its reciprocating motion, it allows for precise and controlled stripping, ensuring minimal damage to adjacent teeth. This innovative handpiece provides the flexibility that diamond and carbide burs cannot match. It allows for faster and more comfortable procedures for the patient compared to manual hand stripping, reducing chair time and enhancing overall patient experience. Upgrade your dental practice with our Tealth® Reciprocating IPR System Dental Handpiece. Experience the benefits of its advanced technology and improve the efficiency and accuracy of your interproximal stripping procedures. Contact us today for more information on how this handpiece can elevate your dental practice.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311436178696.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311436178696.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/plastic-strips-for-orthodontic-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-QUICK-COUPLINGS-FOR-HIGH-SPEED-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Quick Couplings For High Speed Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Quick Couplings For High Speed Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Quick Couplings For High Speed Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Quick couplings for high speed turbine dental handpiece Quick coupling fit for Nsk®, Kavo®, W&H®, Sirona®.. With led/ with fiber optic, 4/6 holes connectors for choice.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221445079208.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221445079208.jpg | https://img.waimaoniu.net/1384/1384-202302221444455908.jpg | https://img.waimaoniu.net/1384/1384-202302221445063351.jpg | https://img.waimaoniu.net/1384/1384-202302221445061600.jpg | https://img.waimaoniu.net/1384/1384-202302221445054003.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/quick-couplings-for-high-speed-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-RECIPROCATING-INTERPROXIMAL-STRIPPING-REDUCTION-CONTRA-ANGLE-41-IPR-DENTAL-SYSTEM",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Reciprocating Interproximal Stripping Reduction Contra Angle 4:1 IPR Dental system",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Reciprocating Interproximal Stripping Reduction Contra Angle 4:1 IPR Dental system",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Reciprocating Interproximal Stripping Reduction Contra Angle 4:1 IPR Dental system",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "The Internal irrigation 4:1 IPR is a specialized dental tool designed for interproximal stripping and reduction procedures,it provides dental professionals with a reliable and efficient tool for precise and effective interproximal stripping and reduction.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311291601089251.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311291601089251.jpg | https://img.waimaoniu.net/1384/1384-202208251730579419.jpg | https://img.waimaoniu.net/1384/1384-202208251731012686.jpg | https://img.waimaoniu.net/1384/1384-202208251731092212.jpg | https://img.waimaoniu.net/1384/1384-202208251731041328.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/reciprocating-interproximal-stripping-reduction-contra-angle-41-ipr-dental-system",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-SAW-BLADES-FOR-SURGICAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Saw Blades For Surgical Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Saw Blades For Surgical Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Saw Blades For Surgical Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth® 4:1 reduction speed Saw blades for surgical handpiece. Introducing Tealth® Saw Blades for Surgical Handpiece, designed to deliver exceptional cutting performance and durability. Our Tealth® saw blades are specifically engineered to maintain high cutting performance even after repeated use at maximum speed. This ensures consistent and reliable results for surgical procedures. Equipped with a 4:1 reduction speed, our saw blades offer high torque and stronger power. This enables efficient and precise cutting, even through tough materials. The Tealth® saw straight handpiece is designed for comfort and ease of use. Its ergonomic design ensures a secure grip and optimal control during surgical procedures. With Tealth® saw blades for surgical handpiece, you can trust in the quality and performance of our products. Experience the difference of our high-quality blades that deliver consistent cutting performance, even after multiple uses. Choose Tealth® for reliable and high-performing saw blades for your surgical handpiece. Contact us today to learn more about our products and how they can benefit your surgical practice.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311341577202.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311341577202.jpg | https://img.waimaoniu.net/1384/1384-202208311341585759.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/saw-blades-for-surgical-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-SPINDLE-FOR-DENTAL-HANDPIECES",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Spindle For Dental Handpieces",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Spindle For Dental Handpieces",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Spindle For Dental Handpieces",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Spindle for high speed turbine handpiece Spindle size: 12.75mm H6-02 13.75mm H6-03 10.40mm H6-04 11.80mm H6-05 13.95mm H6-06",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202302221505206826.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202302221505206826.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/spindle-for-dental-handpieces",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-SURGICAL-INTERNAL-EXTERNAL-SPRAY-STRAIGHT-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Surgical Internal & External Spray Straight Handpiece",
+      "manufacturerRef": "SIN-02C",
+      "manufacturerRefs": "SIN-02C",
+      "model": "Surgical Internal & External Spray Straight Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Surgical Internal & External Spray Straight Handpiece · SIN-02C",
+          "manufacturerRef": "SIN-02C",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: SIN-02C Surgical Internal & External spray straight handpiece our Surgical Internal & External Spray Straight Handpiece, a versatile tool for surgical procedures. Key Features: 1. Internal cooling system with an extra water tube, ensuring effective and continuous water flow for optimal cooling during procedures. 2. Excellent atomization capability for complete flushing and cleaning of the surgical site. 3. Waterpipe and airtube separated structure, preventing cross-contamination and ensuring hygiene. Our Surgical Internal & External Spray Straight Handpiece is designed to meet the needs of dental professionals during surgical procedures. With its advanced cooling system and efficient atomization, it provides a clean and comfortable surgical environment. Upgrade your surgical procedures with our Surgical Internal & External Spray Straight Handpiece. Contact us today for more information on this product and how it can benefit your dental practice.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311339294783.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311339294783.jpg | https://img.waimaoniu.net/1384/1384-202312071724146749.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/surgical-internal-external-spray-straight-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-T-01-HIGH-SPEED-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "T-01 High speed handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "T-01 High speed handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T-01 High speed handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "T-01 Dental Handpiece​ delivers ​superior cutting precision​ with ​zero suction​ to reduce cross-infection. Featuring ​Japanese bearings​ for smooth, quiet operation and ​stainless steel with titanium coating​ for durability. Ergonomic, easy to maintain, and built for long-term performance.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202508271406256864.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202508271406256864.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/t-01-high-speed-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-T-11-LED-HIGH-SPEED-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "T-11 LED High Speed Dental Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "T-11 LED High Speed Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T-11 LED High Speed Dental Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "T-11 Dental Handpiece​ combines ​silent, smooth operation​ with ​superior cutting power​ and ​zero suction​ to minimize cross-infection. Featuring ​Japanese bearings, ​LED illumination, and a ​scratch-resistant titanium-coated body​ for durability and precision.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606221657366169.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606221657366169.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/t-11-led-high-speed-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-T-31QUICK-COUPLING-HIGH-SPEED-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "T-31Quick Coupling High Speed Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "T-31Quick Coupling High Speed Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T-31Quick Coupling High Speed Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "T-31 Quick Coupling Handpiece​ delivers ​powerful cutting performance​ with a ​torque head​ and ​imported ceramic bearings​ for stability and durability. Features ​K-Quick Coupling​ for fast, tool-free changes and ​four-hole water spray​ for efficient cooling.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202508271452137591.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202508271452137591.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/t-31quick-coupling-high-speed-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-T-45-45-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "T-45 45&#176; Dental Handpiece​",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "T-45 45&#176; Dental Handpiece​",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T-45 45&#176; Dental Handpiece​",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "T-45 45° Dental Handpiece​ features an ​ergonomic 45° golden angle​ for precise access to posterior teeth. With ​triple water spray​ for efficient cooling and ​rear exhaust design​ to minimize aerosols, it ensures safe, stable, and comfortable treatments.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202508271457109357.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202508271457109357.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/t-45-45-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-T-45-45-LED-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "T-45 45&#176; LED Dental Handpiece​",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "T-45 45&#176; LED Dental Handpiece​",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T-45 45&#176; LED Dental Handpiece​",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "T-45L 45° Dental Handpiece​ features a ​precise 45° golden angle​ for optimal access to posterior teeth, paired with ​triple water spray​ for effective cooling. Its ​rear exhaust design​ minimizes aerosols, while ​LED illumination​ ensures clear visibility and ​imported bearings​ deliver smooth, stable performance.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202508271503375298.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202508271503375298.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/t-45-45-led-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-11-DETACHABLE-CA-FG-EXCHANGEABLE-INTERNAL-IRRIGATION-CONTRA-ANGLE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth 1:1 detachable CA & FG exchangeable Internal irrigation Contra angle",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth 1:1 detachable CA & FG exchangeable Internal irrigation Contra angle",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth 1:1 detachable CA & FG exchangeable Internal irrigation Contra angle",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "As a professional manufacturer of dental handpieces for over 10 years, we take great pride in the quality and reliability of our products. Our dental handpieces are designed to meet the highest industry standards and are backed by certifications for registration.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311291547374737.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311291547374737.jpg | https://img.waimaoniu.net/1384/1384-202311291549215675.jpg | https://img.waimaoniu.net/1384/1384-202311291549574607.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-11-detachable-ca-fg-exchangeable-internal-irrigation-contra-angle",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-11-PROPHY-SCREW-TYPE-CONTRA-ANGLE-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth 1:1 prophy screw type contra angle dental handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth 1:1 prophy screw type contra angle dental handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth 1:1 prophy screw type contra angle dental handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth 1:1 screw type prophy contra angle, which the prophy cups for use with prophy paste to provide fast, effective cleaning for dental treatment.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311301656580556.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311301656580556.jpg | https://img.waimaoniu.net/1384/1384-202208250852508188.jpg | https://img.waimaoniu.net/1384/1384-202208250852415447.jpg | https://img.waimaoniu.net/1384/1384-202208250852467156.jpg | https://img.waimaoniu.net/1384/1384-202208250853069997.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-11-prophy-screw-type-contra-angle-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-11-SURGERY-IMPLANT-STRAIGHT-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth 1:1 surgery implant straight dental handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth 1:1 surgery implant straight dental handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth 1:1 surgery implant straight dental handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth surgical straight handpiece can be used inapical resection, osteotomy, sequestrotomy, bone modelling and bone smoothing and also for extraction of wisdom teeth.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312021045069685.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312021045069685.jpg | https://img.waimaoniu.net/1384/1384-202208251625021207.jpg | https://img.waimaoniu.net/1384/1384-202312021044592167.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-11-surgery-implant-straight-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-11-SURGICAL-EXTERNAL-IRRIGATION-STRAIGHT-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth 1:1 surgical external irrigation straight dental handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth 1:1 surgical external irrigation straight dental handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth 1:1 surgical external irrigation straight dental handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth surgical straight handpiece can be used inapical resection, osteotomy, sequestrotomy, bone modelling and bone smoothing and also for extraction of wisdom teeth.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312021016079920.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312021016079920.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-11-surgical-external-irrigation-straight-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-41-IPR-ORTHODONTIC-LOW-SPEED-CONTRA-ANGLE-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth 4:1 IPR orthodontic low speed contra angle dental handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth 4:1 IPR orthodontic low speed contra angle dental handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth 4:1 IPR orthodontic low speed contra angle dental handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth 4:1 IPR orthodontic low speed contra angle dental handpiece is a specialized dental tool designed for interproximal stripping and reduction procedures,it provides dental professionals with a reliable and efficient tool for precise and effective interproximal stripping and reduction.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208250946457897.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208250946457897.jpg | https://img.waimaoniu.net/1384/1384-202302111546182194.png",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-41-ipr-orthodontic-low-speed-contra-angle-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-41-REDUCTION-PROPHY-SCREW-TYPE-CONTRA-ANGLE-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth 4:1 reduction prophy screw type contra angle handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth 4:1 reduction prophy screw type contra angle handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth 4:1 reduction prophy screw type contra angle handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Our Tealth 4:1 Reduction Prophy Screw Type Contra Angle Handpiece is designed to meet the needs of dental professionals during prophylaxis procedures. It offers reliable performance and ease of use, enhancing the efficiency and effectiveness of dental cleanings.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311291700470626.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311291700470626.jpg | https://img.waimaoniu.net/1384/1384-202208311402180201.jpg | https://img.waimaoniu.net/1384/1384-202208311402183885.jpg | https://img.waimaoniu.net/1384/1384-202208311402195501.jpg | https://img.waimaoniu.net/1384/1384-202208311402182459.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-41-reduction-prophy-screw-type-contra-angle-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-41-REDUCTION-RECIPROCATING-HANDFILE-ENDO-CONTRA-ANGLE-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth 4:1 reduction reciprocating handfile endo contra angle handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth 4:1 reduction reciprocating handfile endo contra angle handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth 4:1 reduction reciprocating handfile endo contra angle handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth 4:1 reduction endo handfile contra angle dental handpiece, 4:1 reduction gear speed, more powerful. 4:1 endo contra angle, used with hand file, reciprocating movement. Gear ratio: 4:1 reduction Movement: Reciprocating Be used in : Endodontic Water: External irrigation Bur size: Hand file",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311407192511.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311407192511.jpg | https://img.waimaoniu.net/1384/1384-202208311407198052.jpg | https://img.waimaoniu.net/1384/1384-202312061556521638.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-41-reduction-reciprocating-handfile-endo-contra-angle-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-CK03-TORQUE-HEAD-HIGH-SPEED-DENTAL-TURBINE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth CK03 Torque Head High Speed Dental Turbine",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth CK03 Torque Head High Speed Dental Turbine",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth CK03 Torque Head High Speed Dental Turbine",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "CK03 Turbine is clean head design, with this innovative feature, foreign matter is prevented from entering the head, reducing the risk of damage to the cartridge and ensuring the longevity of the handpiece. This clean head design also allows for easy maintenance and cleaning, further enhancing the overall durability and hygiene of the handpiece.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311271747300493.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311271747300493.jpg | https://img.waimaoniu.net/1384/1384-202302221525195817.jpg | https://img.waimaoniu.net/1384/1384-202302221525181876.jpg | https://img.waimaoniu.net/1384/1384-202302221525199782.jpg | https://img.waimaoniu.net/1384/1384-202302221525208364.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-ck03-torque-head-high-speed-dental-turbine",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-CK45-45-HIGH-SPEED-SURGICAL-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth CK45 45° High speed surgical dental handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth CK45 45° High speed surgical dental handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth CK45 45° High speed surgical dental handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Our Degree 45° Angle Turbine LED Light is a special dental handpiece designed specifically for tooth extraction procedures. It features a unique angle of 45 degrees, allowing for better access and visibility during the extraction process.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311281740586819.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311281740586819.jpg | https://img.waimaoniu.net/1384/1384-202208241150539506.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-ck45-45-high-speed-surgical-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-CK45L-45-DEGREE-TURBINE-LED-LIGHT-E-GENERATOR-HIGH-SPEED-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth CK45L 45° Degree Turbine LED Light E-generator High Speed handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth CK45L 45° Degree Turbine LED Light E-generator High Speed handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth CK45L 45° Degree Turbine LED Light E-generator High Speed handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "As a professional manufacturer of dental handpieces for over 10 years, we take great pride in the quality and reliability of our products. Our dental handpieces are designed to meet the highest industry standards and are backed by certifications for registration.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311281615452699.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311281615452699.jpg | https://img.waimaoniu.net/1384/1384-202311281716404634.jpg | https://img.waimaoniu.net/1384/1384-202311281716405188.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-ck45l-45-degree-turbine-led-light-e-generator-high-speed-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-DENTAL-41-REDUCTION-IPR-CONTRA-ANGLE-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth dental 4:1 reduction IPR contra angle handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth dental 4:1 reduction IPR contra angle handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth dental 4:1 reduction IPR contra angle handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Internal spray Chuck type: Key type Fit for E type motor Appliable bur: strip Rotation speed: 10,000RPM 90μm-use as a saw for opening contacts 60μm-for reduction 40μm-for contouring 25μm-for finishing 15μm-for per polishing",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202208311020021819.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202208311020021819.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-dental-41-reduction-ipr-contra-angle-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-DENTAL-BRUSHLESS-ELECTRIC-MOTOR",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth Dental Brushless Electric Motor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth Dental Brushless Electric Motor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth Dental Brushless Electric Motor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth Dental Brushless Electric Motor Packing List: - Motor：1PCS -Control PC board：1PCS -Power adapter jack ：1PCS Features: 1. Troque head, powerful 2. Quiet, noise less than 60dB 3. Motor size: Φ22*L71mm 4. Voltage : DC24V",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606260906131173.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606260906131173.jpg | https://img.waimaoniu.net/1384/1384-202208311012057580.jpg | https://img.waimaoniu.net/1384/1384-202208311012043726.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-dental-brushless-electric-motor",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-DENTAL-BUILT-IN-ELECTRIC-MOTOR",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth Dental built in Electric Motor",
+      "manufacturerRef": "DIL-22C",
+      "manufacturerRefs": "DIL-22C",
+      "model": "Tealth Dental built in Electric Motor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth Dental built in Electric Motor · DIL-22C",
+          "manufacturerRef": "DIL-22C",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth Built in electric motor with Touch screen , easy to operate Order code: DIL-22C Commodity：Built in brushless electric motor Features: Rotation speed: 2000~40000r/min Torque: 3 N.cm Voltage: DC24V-36V Motor size: 22*L74mm Weight:77g Noise: <60dB Light: LED (white) Control system Size: 148*80*17mm",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606260907206477.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606260907206477.jpg | https://img.waimaoniu.net/1384/1384-202312021539040869.jpg | https://img.waimaoniu.net/1384/1384-202312021539059668.jpg | https://img.waimaoniu.net/1384/1384-202312021539054201.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-dental-built-in-electric-motor",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-DENTAL-ELECTRIC-MOTOR",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth Dental Electric Motor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth Dental Electric Motor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth Dental Electric Motor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth Dental Brushless Electric Motor Features: 1. Troque head, powerful 2. Quiet, noise less than 60dB 3. Motor size: Φ22*L71mm 4. Voltage : DC24V Packing List: - Motor：1PCS -Control PC board：1PCS -Power adapter jack ：1PCS",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606231447528064.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606231447528064.jpg | https://img.waimaoniu.net/1384/1384-202312061039496696.jpg | https://img.waimaoniu.net/1384/1384-202312061039484449.jpg | https://img.waimaoniu.net/1384/1384-202312061039484165.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-dental-electric-motor",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-DENTAL-ORAL-SURGICAL-ELECTRIC-MOTOR",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth dental Oral Surgical electric motor",
+      "manufacturerRef": "DIL-21C",
+      "manufacturerRefs": "DIL-21C",
+      "model": "Tealth dental Oral Surgical electric motor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth dental Oral Surgical electric motor · DIL-21C",
+          "manufacturerRef": "DIL-21C",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "TEALTH dental Surgical drive system self pumping water electric motor Electric motor composes of motor, control unit, foot control and Coolant solution hanger post. It is intended for use in dental oral surgery and surgical procedures by qualified personnel. Order code: DIL-21C CE: 3050EM-1 Brushless motor Torque: 17N.cm Rotation speed 0-50,000r/min Cooling water: 0-100ml/min Self-pumping water",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312061101383772.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312061101383772.jpg | https://img.waimaoniu.net/1384/1384-202312061102412252.png | https://img.waimaoniu.net/1384/1384-202312061102426163.png | https://img.waimaoniu.net/1384/1384-202312061102437477.png",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-dental-oral-surgical-electric-motor",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-DENTAL-SURGICAL-DRIVE-SYSTEM-SELF-PUMPING-WATER-ELECTRIC-MOTOR",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "TEALTH dental Surgical drive system self pumping water electric motor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "TEALTH dental Surgical drive system self pumping water electric motor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TEALTH dental Surgical drive system self pumping water electric motor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "TEALTH dental Surgical drive system self pumping water electric motor Electric motor composes of motor, control unit, foot control and Coolant solution hanger post. It is intended for use in dental oral surgery and surgical procedures by qualified personnel.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312021557331020.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312021557331020.jpg | https://img.waimaoniu.net/1384/1384-202312021557341499.jpg | https://img.waimaoniu.net/1384/1384-202212211142533014.jpg | https://img.waimaoniu.net/1384/1384-202606260904544278.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-dental-surgical-drive-system-self-pumping-water-electric-motor",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-EM-3-IMPLANT-MOTOR-TOUCH-SCREEN-MACHINE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth EM-3 Implant Motor Touch Screen Machine",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth EM-3 Implant Motor Touch Screen Machine",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth EM-3 Implant Motor Touch Screen Machine",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth EM-3 Implant Motor has large color touch screen, with selection of 7 implant modes, visual images display every procedure in implant surgery. Custom program, with 1:1, 1:5 and 20:1 speed ratio avaliable. Tealth EM-3 implant machine with multifunction foot pedal can realize aseptic operation and liberate two hands.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606221706399069.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606221706399069.jpg | https://img.waimaoniu.net/1384/1384-202606221707253876.jpg | https://img.waimaoniu.net/1384/1384-202312131351595982.jpg | https://img.waimaoniu.net/1384/1384-202312131351594521.jpg | https://img.waimaoniu.net/1384/1384-202312131351590492.jpg | https://img.waimaoniu.net/1384/1384-202312131352003108.jpg",
+      "imageCount": 6,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-em-3-implant-motor-touch-screen-machine",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-EXTERNAL-IRRIGATION-2-4-HOLES-AIR-MOTOR-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth external irrigation 2/ 4 holes air motor handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth external irrigation 2/ 4 holes air motor handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth external irrigation 2/ 4 holes air motor handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth external irrigation air motor with midwest and borden 2/4 holes for choice , E-type ISO international standard",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312021055590654.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312021055590654.jpg | https://img.waimaoniu.net/1384/1384-202312021055544164.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-external-irrigation-2-4-holes-air-motor-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-FIBER-OPTIC-11-INTERNAL-IRRIGATION-STRAIGHT-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth Fiber Optic 1:1 Internal Irrigation Straight Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth Fiber Optic 1:1 Internal Irrigation Straight Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth Fiber Optic 1:1 Internal Irrigation Straight Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Upgrade your dental practice with our Fiber Optic Internal Irrigation Straight Handpiece. Contact us today for more information on this product and how it can enhance your dental procedures.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311301745496679.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311301745496679.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-fiber-optic-11-internal-irrigation-straight-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-S12-PLASTIC-STRRIPS-IPR-ORTHODONTIC-HANDPIECE-SET",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth S12 Plastic Strrips IPR Orthodontic Handpiece Set",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth S12 Plastic Strrips IPR Orthodontic Handpiece Set",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth S12 Plastic Strrips IPR Orthodontic Handpiece Set",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Tealth Plastic strips IPR Orthodontics handpiece set is a specialized dental tool designed for interproximal stripping and reduction procedures,it provides dental professionals with a reliable and efficient tool for precise and effective interproximal stripping and reduction.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202312061432474932.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202312061432474932.jpg | https://img.waimaoniu.net/1384/1384-202208311044127080.jpg | https://img.waimaoniu.net/1384/1384-202312061432462009.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-s12-plastic-strrips-ipr-orthodontic-handpiece-set",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-CK01-HIGH-SPEED-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth&#174; CK01 High speed dental handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth&#174; CK01 High speed dental handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth&#174; CK01 High speed dental handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "As a professional manufacturer of dental handpieces for over 10 years, we take great pride in the quality and reliability of our products. Our dental handpieces are designed to meet the highest industry standards and are backed by certifications for registration.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606231456119089.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606231456119089.jpg | https://img.waimaoniu.net/1384/1384-202606231457549064.jpg | https://img.waimaoniu.net/1384/1384-202208251726585323.jpg | https://img.waimaoniu.net/1384/1384-202208251727098895.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-ck01-high-speed-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-CK08-TORQUE-CLEAN-HEAD-HIGH-SPEED-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth&#174; CK08 torque clean head high speed handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth&#174; CK08 torque clean head high speed handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth&#174; CK08 torque clean head high speed handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "CK08 Stainless Steel High-Speed Dental Handpiece is engineered to deliver exceptional performance and reliability. Equipped with a torque head, it provides super power and fast cutting, ensuring efficient and precise dental procedures.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202606231453227921.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202606231453227921.jpg | https://img.waimaoniu.net/1384/1384-202606231453521332.jpg | https://img.waimaoniu.net/1384/1384-202606231453561713.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-ck08-torque-clean-head-high-speed-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-CK12-6-HOLES-FIBER-OPTIC-HIGH-SPEED-TURBINE-DENTAL-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth® CK12 6 Holes Fiber Optic High Speed Turbine Dental Handpiece",
+      "manufacturerRef": "TPF4-F-K6",
+      "manufacturerRefs": "TPF4-F-K6",
+      "model": "Tealth® CK12 6 Holes Fiber Optic High Speed Turbine Dental Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth® CK12 6 Holes Fiber Optic High Speed Turbine Dental Handpiece · TPF4-F-K6",
+          "manufacturerRef": "TPF4-F-K6",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "Order code: TPF4-F-K6 Push button type； Rotation Speed：320,000~350,000RPM Fiber optical, Kavo type quick coupling Sterilization Temperature：135°C Applicable Bur：Φ1.59-1.60mm",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311271145437193.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311271145437193.jpg | https://img.waimaoniu.net/1384/1384-202311271146149822.jpg | https://img.waimaoniu.net/1384/1384-202311271146155916.jpg | https://img.waimaoniu.net/1384/1384-202311271146165971.jpg | https://img.waimaoniu.net/1384/1384-202311271146152153.jpg | https://img.waimaoniu.net/1384/1384-202311271146159336.jpg",
+      "imageCount": 6,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-ck12-6-holes-fiber-optic-high-speed-turbine-dental-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "TEALTH-TEALTH-CK22-LED-MINI-HEAD-KID-HIGH-SPEED-HANDPIECE",
+      "brand": "Tealth",
+      "manufacturer": "Tealth Foshan Medical Equipment Co., Ltd.",
+      "name": "Tealth® CK22 Led Mini Head Kid High Speed Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tealth® CK22 Led Mini Head Kid High Speed Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tealth® CK22 Led Mini Head Kid High Speed Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Tealth / Dental handpieces and motors",
+      "description": "As a professional manufacturer of dental handpieces for over 10 years, we take great pride in the quality and reliability of our products. Our dental handpieces are designed to meet the highest industry standards and are backed by certifications for registration.",
+      "sourceImageUrl": "https://img.waimaoniu.net/1384/1384-202311281806205546.jpg",
+      "imageUrls": "https://img.waimaoniu.net/1384/1384-202311281806205546.jpg | https://img.waimaoniu.net/1384/1384-202311281806222591.jpg | https://img.waimaoniu.net/1384/1384-202208311500086149.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.tealthhandpiece.com/product/tealth-ck22-led-mini-head-kid-high-speed-handpiece",
+      "additionalSourceUrls": "https://www.tealthhandpiece.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

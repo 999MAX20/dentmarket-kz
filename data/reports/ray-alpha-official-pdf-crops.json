@@ -1,0 +1,176 @@
+{
+  "brand": "RAY",
+  "manufacturer": "RAY Co., Ltd.",
+  "sourceType": "OFFICIAL_RAYCONNECT_PDF_VISUALLY_VERIFIED_PRODUCT_CROPS",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialPdfOnly": true,
+    "exactProductHeadingRequired": true,
+    "visualVerificationRequired": true,
+    "backgroundCopyMayBeMasked": true,
+    "productGeometryMustNotBeAltered": true,
+    "pdfAndOutputHashesPinned": true,
+    "noGeneratedProductGeometry": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 3,
+    "recovered": 3,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "RAY-RAYSCAN-ALPHA-P",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYSCAN α-P",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RAYSCAN α-P",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "2D Panorama",
+      "description": "RAYSCAN α-P — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayscan-α-p-brochure-664a56d50e.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayscan-α-p-brochure-664a56d50e.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/resources/bd301d00-338a-4f52-9a5f-e27e1da98db9",
+      "sourcePdfPages": "1",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_PDF_VISUALLY_VERIFIED_CROP",
+        "officialResourcePageUrl": "https://connect.raymedical.com/en/resources/bd301d00-338a-4f52-9a5f-e27e1da98db9",
+        "officialPdfSha256": "333e6a5ebc0c50c419d71cc3e4466a6f405d2dcba44b87a5ac25cbf94e0dde79",
+        "pdfPage": 1,
+        "normalizedCropBox": [
+          0.055,
+          0.2,
+          0.9,
+          0.91
+        ],
+        "backgroundOnlyMaskBoxes": [
+          [
+            0.0,
+            0.55,
+            0.37,
+            1.0
+          ],
+          [
+            0.85,
+            0.55,
+            1.0,
+            1.0
+          ]
+        ],
+        "visualMatchNote": "Official RAYSCAN Alpha p(i) flyer cover. Product geometry is retained in full; only surrounding brochure copy is masked.",
+        "outputImageSha256": "664a56d50e38081dc5694b071a9da020dc837995843b161eae706aa92f3c7731",
+        "bytes": 204988,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "RAY-RAYSCAN-ALPHA-PLUS",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYSCAN α+",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RAYSCAN α+",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "CBCT",
+      "description": "RAYSCAN α+ — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayscan-α+-brochure-779403bf71.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayscan-α+-brochure-779403bf71.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/resources/3b95718d-cdae-472f-9bd4-bfd3e24cad61",
+      "sourcePdfPages": "1",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_PDF_VISUALLY_VERIFIED_CROP",
+        "officialResourcePageUrl": "https://connect.raymedical.com/en/resources/3b95718d-cdae-472f-9bd4-bfd3e24cad61",
+        "officialPdfSha256": "9919780b5b6d2aeea86ef49d0587ad36f4940bbe0dc4b51352e9a5e756412cf2",
+        "pdfPage": 1,
+        "normalizedCropBox": [
+          0.43,
+          0.1,
+          0.97,
+          0.79
+        ],
+        "backgroundOnlyMaskBoxes": [
+          [
+            0.88,
+            0.0,
+            1.0,
+            0.06
+          ]
+        ],
+        "visualMatchNote": "Official RAYSCAN Alpha Plus APAC brochure cover crop containing the complete scanner without adjacent title copy.",
+        "outputImageSha256": "779403bf71febf8c0a8fbe5b312d25a5a793f08a464d8d03437e1069f990336f",
+        "bytes": 412801,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "RAY-RAYZIR-FS",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYZir FS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RAYZir FS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Consumables",
+      "description": "RAYZir FS — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayzir-fs-brochure-d3624b082d.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayzir-fs-brochure-d3624b082d.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/resources/b39dfe2d-7997-4823-a331-8727d744ad35",
+      "sourcePdfPages": "1",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_PDF_VISUALLY_VERIFIED_CROP",
+        "officialResourcePageUrl": "https://connect.raymedical.com/en/resources/b39dfe2d-7997-4823-a331-8727d744ad35",
+        "officialPdfSha256": "e8a69086e48d38b8c33273e52af11388475752bf62704b7522f5a338d71f7e88",
+        "pdfPage": 1,
+        "normalizedCropBox": [
+          0.27,
+          0.17,
+          0.82,
+          0.68
+        ],
+        "backgroundOnlyMaskBoxes": [],
+        "visualMatchNote": "Official RAYZir FS brochure cover crop showing the two exact RAYZir FS milling blocks without printer marks or title copy.",
+        "outputImageSha256": "d3624b082dd50d39b0fb7458c809df994d8e500187ab1dbeb97f26417032fa60",
+        "bytes": 385134,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    }
+  ],
+  "review": []
+}

@@ -1,0 +1,2889 @@
+{
+  "brand": "Zhermack",
+  "manufacturer": "Zhermack S.p.A.",
+  "sourceType": "MANUFACTURER_CATALOG",
+  "sourceUrl": "https://www.zhermack.com/product-sitemap.xml",
+  "lastChecked": "2026-07-22",
+  "totals": {
+    "discoveredProducts": 95,
+    "crawledProducts": 94,
+    "variantSkus": 278,
+    "productsWithReferences": 86,
+    "productsWithImages": 93,
+    "retiredOrRedirected": 1,
+    "crawlErrors": 1
+  },
+  "errors": [
+    {
+      "sourcePageUrl": "https://www.zhermack.com/en/product/universal-tray-adhesive/",
+      "error": "Error: https://www.zhermack.com/en/product/universal-tray-adhesive/: HTTP 404"
+    }
+  ],
+  "skipped": [
+    {
+      "skipped": true,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zetaclave-b/",
+      "finalUrl": "https://www.zhermack.com/en/product_category/dental/dental-practice/hygiene/"
+    }
+  ],
+  "products": [
+    {
+      "officialProductId": "za-8-lt-8-shore",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "ZA 8 LT (8 Shore A)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Wellbeing",
+      "description": "",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Header_Company.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Header_Company.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/za-8-lt-8-shore/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "thermosealer",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Thermosealer",
+      "manufacturerRef": "XR0150060",
+      "manufacturerRefs": "XR0150060",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "XR0150060",
+          "label": "XR0150060"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Equipment > Solutions for hygiene",
+      "description": "Manual thermosealing machine for sterilization rolls.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Termosigillatrice_XR0150060.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Termosigillatrice_XR0150060.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/thermosealer/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "acrylic-powders",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Acrylic powders",
+      "manufacturerRef": "CI15850",
+      "manufacturerRefs": "CI15850",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "CI15850",
+          "label": "CI15850"
+        }
+      ],
+      "categoryPath": "Wellbeing > Cosmetics > Nails stylisation products",
+      "description": "Characterized by optimal quality for fast nail modeling. Thanks to high-quality plasticizers powder does not stick and does not pull the brush. The technology of fine grinding eliminates the formation of air bubbles and cracks. It does not crystallize and yellow. Nails are characterized by a high level of resistance to mechanical stress. The polymerized [&hellip;]",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Header_Company.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Header_Company.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/acrylic-powders/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "auxiliary-products",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Auxiliary Products",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Wellbeing > Cosmetics > Nails stylisation products",
+      "description": "Auxiliary products used in all nail stylization methods: Acid primer: Methacrylic acid-based product. Etches the natural nail plate to ensure improved adhesion of acrylic mass to natural nail surface Acid-free primer: delicate, acid free liquid for the adhesion of acrylic or gel mass to the natural nail plate Primer strong: Effectively lifts the scales of [&hellip;]",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Header_Company.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Header_Company.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/auxiliary-products/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "liquids",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Liquids",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Wellbeing > Cosmetics > Nails stylisation products",
+      "description": "Universal liquid I: provides permanent adhesion of acrylic mass to the natural nail plate when creating nails. Thanks to the UV filters contained in the monomer, the nails do not turn yellow and do not change color under the influence of sunlight. Plasticized absorbents prevent cracking and breaking of nails. Universal liquid II: has maximum [&hellip;]",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Header_Company.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Header_Company.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/liquids/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "platinum-85",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Platinum 85",
+      "manufacturerRef": "C400727",
+      "manufacturerRefs": "C400727 | C400725 | C400723",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C400727",
+          "label": "C400727"
+        },
+        {
+          "manufacturerRef": "C400725",
+          "label": "C400725"
+        },
+        {
+          "manufacturerRef": "C400723",
+          "label": "C400723"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Masks > A-Silicones",
+      "description": "Platinum 85 is Zhermack's addition silicone designed specifically for high-precision CAD/CAM scans, with excellent dimensional stability and final results.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Platinum85_C400725.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Platinum85_C400725.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/platinum-85/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "titanium",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Titanium",
+      "manufacturerRef": "C400605",
+      "manufacturerRefs": "C400605 | C400611 | C400818 | C100900",
+      "variantCount": 4,
+      "variants": [
+        {
+          "manufacturerRef": "C400605",
+          "label": "C400605"
+        },
+        {
+          "manufacturerRef": "C400611",
+          "label": "C400611"
+        },
+        {
+          "manufacturerRef": "C400818",
+          "label": "C400818"
+        },
+        {
+          "manufacturerRef": "C100900",
+          "label": "C100900"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Masks > C-Silicones",
+      "description": "Zetalabor and Titanium are condensation silicones with high hardness and good mechanical properties, designed for the dental laboratory. Find out more.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Titanium_C400605_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Titanium_C400605_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/titanium/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "platinum-75-cad",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Platinum 75 CAD",
+      "manufacturerRef": "C400741",
+      "manufacturerRefs": "C400741",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C400741",
+          "label": "C400741"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > CAD/CAM solutions > Bite registration",
+      "description": "Platinum 75 CAD is a perfect silicone for scannable occlusal keys with precise details: high durability and ease of processing for CAD/CAM systems.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Platinum75_CAD_C400741.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Platinum75_CAD_C400741.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/platinum-75-cad/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "platinum-95",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Platinum 95",
+      "manufacturerRef": "C400720",
+      "manufacturerRefs": "C400720 | C400700 | C400710",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C400720",
+          "label": "C400720"
+        },
+        {
+          "manufacturerRef": "C400700",
+          "label": "C400700"
+        },
+        {
+          "manufacturerRef": "C400710",
+          "label": "C400710"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Masks > A-Silicones",
+      "description": "Platinum is Zhermack's high-precision addition silicone: dimensional stability in a short time, ideal for CAD/CAM systems and masks. Discover more.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Platinum95_C400720.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Platinum95_C400720.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/platinum-95/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "platinum-85-touch",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Platinum 85 TOUCH",
+      "manufacturerRef": "C400750",
+      "manufacturerRefs": "C400750 | C400751",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C400750",
+          "label": "C400750"
+        },
+        {
+          "manufacturerRef": "C400751",
+          "label": "C400751"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Masks > A-Silicones",
+      "description": "Platinum 85 Touch is an addition silicone with high dimensional stability and short fixing times, ideal for making masks and counter-molds.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Platinum_85_touch_C400750.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Platinum_85_touch_C400750.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/platinum-85-touch/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "platinum-75-cad-mask",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Platinum 75 CAD",
+      "manufacturerRef": "C400741",
+      "manufacturerRefs": "C400741",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C400741",
+          "label": "C400741"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Masks > A-Silicones",
+      "description": "Platinum 75 CAD is the high precision silicone for various dental applications, ideal for CAD/CAM systems, with high performance and maximum reliability.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Platinum75_CAD_C400741.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Platinum75_CAD_C400741.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/platinum-75-cad-mask/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-glass",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Glass",
+      "manufacturerRef": "C401610",
+      "manufacturerRefs": "C401610",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C401610",
+          "label": "C401610"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Transparent matrix",
+      "description": "Elite Glass is a silicone for transparent matrices in high-hardness aesthetic composites: maximum transparency and precision for dental restorations.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-Glass-C401610-1.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-Glass-C401610-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-glass/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-rock-cad-cam",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Rock",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Dental > Laboratory > CAD/CAM solutions > Stone models",
+      "description": "Elite Rock: ideal for master models in fixed prostheses. High strength and precise detail. Scanable in Silver Grey. Save time with optical scanners.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Rock.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Rock.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-rock-cad-cam/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "gingifast-cad",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Gingifast CAD",
+      "manufacturerRef": "C203227",
+      "manufacturerRefs": "C203227 | C203232",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C203227",
+          "label": "C203227"
+        },
+        {
+          "manufacturerRef": "C203232",
+          "label": "C203232"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > CAD/CAM solutions > Gingival reproduction",
+      "description": "Gingifast CAD is a fluid and scannable silicone designed for gingival reproduction. Elastic version for undercuts, Rigid for implant prosthetics.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Gingifast-CAD-Elastic-C203227.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Gingifast-CAD-Elastic-C203227.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/gingifast-cad/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zetalabor",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zetalabor",
+      "manufacturerRef": "C400791",
+      "manufacturerRefs": "C400791 | C400790 | C400811 | C400804 | C400812 | C400798 | C100900",
+      "variantCount": 7,
+      "variants": [
+        {
+          "manufacturerRef": "C400791",
+          "label": "C400791"
+        },
+        {
+          "manufacturerRef": "C400790",
+          "label": "C400790"
+        },
+        {
+          "manufacturerRef": "C400811",
+          "label": "C400811"
+        },
+        {
+          "manufacturerRef": "C400804",
+          "label": "C400804"
+        },
+        {
+          "manufacturerRef": "C400812",
+          "label": "C400812"
+        },
+        {
+          "manufacturerRef": "C400798",
+          "label": "C400798"
+        },
+        {
+          "manufacturerRef": "C100900",
+          "label": "C100900"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Masks > C-Silicones",
+      "description": "Zetalabor is a condensation silicone with high hardness and good mechanical properties, the perfect solution for various laboratory applications.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Zetalabor_C400790_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Zetalabor_C400790_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zetalabor/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-vest-plus",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Vest",
+      "manufacturerRef": "C420000",
+      "manufacturerRefs": "C420000 | C420002 | C420010",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C420000",
+          "label": "C420000"
+        },
+        {
+          "manufacturerRef": "C420002",
+          "label": "C420002"
+        },
+        {
+          "manufacturerRef": "C420010",
+          "label": "C420010"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Prosthesis Preparation > Investments",
+      "description": "Elite Vest universal precision investment for fixed prosthese, specifically for chromes and mixing liquid for both investments.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Vest.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Vest.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-vest-plus/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-transparent",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Transparent",
+      "manufacturerRef": "C401600",
+      "manufacturerRefs": "C401600",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C401600",
+          "label": "C401600"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Masks > A-Silicones",
+      "description": "Elite Transparent: fluid two-component addition silicone. Perfect for crafting transparent masks for composites and light-curing resins. Discover more.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-Transparent-C401600.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-Transparent-C401600.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-transparent/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-master-cad-cam",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Master",
+      "manufacturerRef": "C410400",
+      "manufacturerRefs": "C410400 | C410402 | C410403 | C410404 | C410410 | C410411 | C410412",
+      "variantCount": 7,
+      "variants": [
+        {
+          "manufacturerRef": "C410400",
+          "label": "C410400"
+        },
+        {
+          "manufacturerRef": "C410402",
+          "label": "C410402"
+        },
+        {
+          "manufacturerRef": "C410403",
+          "label": "C410403"
+        },
+        {
+          "manufacturerRef": "C410404",
+          "label": "C410404"
+        },
+        {
+          "manufacturerRef": "C410410",
+          "label": "C410410"
+        },
+        {
+          "manufacturerRef": "C410411",
+          "label": "C410411"
+        },
+        {
+          "manufacturerRef": "C410412",
+          "label": "C410412"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > CAD/CAM solutions > Stone models",
+      "description": "Thanks to the reinforcements with resin particles, Elite Master is the perfect plaster for obtaining highly workable and chipping-resistant models.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Master.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Master.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-master-cad-cam/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-lc-tray-2",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite LC Tray",
+      "manufacturerRef": "D500100",
+      "manufacturerRefs": "D500100 | D500101 | D500102",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "D500100",
+          "label": "D500100"
+        },
+        {
+          "manufacturerRef": "D500101",
+          "label": "D500101"
+        },
+        {
+          "manufacturerRef": "D500102",
+          "label": "D500102"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Prosthesis Preparation > Custom trays",
+      "description": "Elite LC Tray is the line of light-cured resin plates for making individual impression trays and removable prosthesis bases.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-LC-Tray-D500100-D500101-D500102.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-LC-Tray-D500100-D500101-D500102.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-lc-tray-2/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-lc-tray-round-lab-en",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite LC Tray ROUND",
+      "manufacturerRef": "D500052",
+      "manufacturerRefs": "D500052",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "D500052",
+          "label": "D500052"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Prosthesis Preparation > Custom trays",
+      "description": "Elite LC Tray is a solution of light-curing resin plates for individual impression trays. Ideal for removable prostheses and occlusal plates.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-LC-Tray-Round-D500052.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-LC-Tray-Round-D500052.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-lc-tray-round-lab-en/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-lc-tray-round-en",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite LC Tray ROUND",
+      "manufacturerRef": "D500052",
+      "manufacturerRefs": "D500052",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "D500052",
+          "label": "D500052"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Accessories > Custom impression trays",
+      "description": "Elite LC Tray Round is a solution of light-curing resin plates specifically thought for clinics looking for higher ergonomy.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-LC-Tray-Round-D500052.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-LC-Tray-Round-D500052.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-lc-tray-round-en/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-lc-tray",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite LC Tray",
+      "manufacturerRef": "D500100",
+      "manufacturerRefs": "D500100 | D500101 | D500102",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "D500100",
+          "label": "D500100"
+        },
+        {
+          "manufacturerRef": "D500101",
+          "label": "D500101"
+        },
+        {
+          "manufacturerRef": "D500102",
+          "label": "D500102"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Accessories > Custom impression trays",
+      "description": "Elite LC Tray are light-curing resin plates for impression trays and prosthetic bases. Quick and easy, they optimize work and efficiency.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-LC-Tray-D500100-D500101-D500102.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-LC-Tray-D500100-D500101-D500102.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-lc-tray/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "acrytemp-2",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Acrytemp",
+      "manufacturerRef": "C700201",
+      "manufacturerRefs": "C700201 | C700200 | C700215 | C700205 | C700211",
+      "variantCount": 5,
+      "variants": [
+        {
+          "manufacturerRef": "C700201",
+          "label": "C700201"
+        },
+        {
+          "manufacturerRef": "C700200",
+          "label": "C700200"
+        },
+        {
+          "manufacturerRef": "C700215",
+          "label": "C700215"
+        },
+        {
+          "manufacturerRef": "C700205",
+          "label": "C700205"
+        },
+        {
+          "manufacturerRef": "C700211",
+          "label": "C700211"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Prosthesis Preparation > Temporary restorations",
+      "description": "Acrytemp is the bisacrylic resin designed for temporary restorations: fracture resistance and natural fluorescence for precise and reliable results.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Acrytemp_C700200-1.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Acrytemp_C700200-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/acrytemp-2/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "acrytemp",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Acrytemp",
+      "manufacturerRef": "C700201",
+      "manufacturerRefs": "C700201 | C700200 | C700215 | C700205 | C700211",
+      "variantCount": 5,
+      "variants": [
+        {
+          "manufacturerRef": "C700201",
+          "label": "C700201"
+        },
+        {
+          "manufacturerRef": "C700200",
+          "label": "C700200"
+        },
+        {
+          "manufacturerRef": "C700215",
+          "label": "C700215"
+        },
+        {
+          "manufacturerRef": "C700205",
+          "label": "C700205"
+        },
+        {
+          "manufacturerRef": "C700211",
+          "label": "C700211"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Restorative > Temporary restorations",
+      "description": "Acrytemp is a bisacrylic resin designed for temporary restorations: fracture resistance and natural fluorescence for precise and reliable results.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Acrytemp_C700200-1.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Acrytemp_C700200-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/acrytemp/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "freealgin-maxi-medium-body-fast-set",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Freealgin",
+      "manufacturerRef": "C300110",
+      "manufacturerRefs": "C300110 | C300105 | C300106",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C300110",
+          "label": "C300110"
+        },
+        {
+          "manufacturerRef": "C300105",
+          "label": "C300105"
+        },
+        {
+          "manufacturerRef": "C300106",
+          "label": "C300106"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Preliminary impression > Alginate replacement",
+      "description": "Freealign is Zhermack's silicone replacement for alginates with superior dimensional stability, for greater accuracy and durability over time.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Freealgin_C300110-2.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Freealgin_C300110-2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/freealgin-maxi-medium-body-fast-set/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "hydrogum-5",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Hydrogum 5",
+      "manufacturerRef": "C302070",
+      "manufacturerRefs": "C302070 | C302071 | C302075",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C302070",
+          "label": "C302070"
+        },
+        {
+          "manufacturerRef": "C302071",
+          "label": "C302071"
+        },
+        {
+          "manufacturerRef": "C302075",
+          "label": "C302075"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Preliminary impression > High-tech, high-performance alginates",
+      "description": "Hydrogum 5 is a high performance scannable alginate, for detailed reproduction and high dimensional stability for up to 5 days. Ideal choice for your studio.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrogum5-C302070_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrogum5-C302070_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/hydrogum-5/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "hydrocolor-5",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Hydrocolor 5",
+      "manufacturerRef": "C302120",
+      "manufacturerRefs": "C302120",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C302120",
+          "label": "C302120"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Preliminary impression > High-tech, high-performance alginates",
+      "description": "Hydrocolor 5 is a high performance chromatic alginate: dimensional stability for up to 5 days to optimize the dentist's daily work. Discover it now.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrocolor5-C302120_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrocolor5-C302120_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/hydrocolor-5/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "pinkalgin-5-en",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Pinkalgin 5",
+      "manufacturerRef": "C302140",
+      "manufacturerRefs": "C302140",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C302140",
+          "label": "C302140"
+        }
+      ],
+      "categoryPath": "Impression systems > Preliminary impression > High-tech, high-performance alginates",
+      "description": "Pinkalgin 5 is a fluorescent pink, high-performance, extra-fast alginate with 5 μm detail reproduction and 5 daysof dimensional stability",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Pinkalgin5-C302140_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Pinkalgin5-C302140_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/pinkalgin-5-en/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "orthoprint",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Orthoprint",
+      "manufacturerRef": "C302145",
+      "manufacturerRefs": "C302145 | C302171",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C302145",
+          "label": "C302145"
+        },
+        {
+          "manufacturerRef": "C302171",
+          "label": "C302171"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Preliminary impression > Alginates for special applications",
+      "description": "Orthoprint is an extra fast alginate for orthodontics with fast action and high efficiency, very well indicated for children. Highly recommended for its performance.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Orthoprint-C302145_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Orthoprint-C302145_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/orthoprint/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "neocolloid",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Neocolloid",
+      "manufacturerRef": "C302205",
+      "manufacturerRefs": "C302205",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C302205",
+          "label": "C302205"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Preliminary impression > Alginates for special applications",
+      "description": "Neocolloid: extended mouth time alginate for precise removable prostheses. Trusted by 95% of users. Ideal choice for soft tissue reproduction.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Neocolloid-C302205_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Neocolloid-C302205_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/neocolloid/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "tropicalgin",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Tropicalgin",
+      "manufacturerRef": "C302241",
+      "manufacturerRefs": "C302241 | C302240 | C302244 | C302245",
+      "variantCount": 4,
+      "variants": [
+        {
+          "manufacturerRef": "C302241",
+          "label": "C302241"
+        },
+        {
+          "manufacturerRef": "C302240",
+          "label": "C302240"
+        },
+        {
+          "manufacturerRef": "C302244",
+          "label": "C302244"
+        },
+        {
+          "manufacturerRef": "C302245",
+          "label": "C302245"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Preliminary impression > Versatile alginates",
+      "description": "Tropicalgin is a versatile chromatic alginate for dental impressions, with fast setting and extra-fast setting versions for different professional needs.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Tropicalgin-fast-C302240_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Tropicalgin-fast-C302240_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/tropicalgin/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zetalgin",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zetalgin",
+      "manufacturerRef": "C301001",
+      "manufacturerRefs": "C301001 | C301004",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C301001",
+          "label": "C301001"
+        },
+        {
+          "manufacturerRef": "C301004",
+          "label": "C301004"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Preliminary impression > Essential alginates",
+      "description": "Zetalgin is Zhermack's high-quality alginate with mint flavor. A precise, effective and long-lasting solution for impression taking. Discover more.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zetalgin-C301001-C301004_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zetalgin-C301001-C301004_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zetalgin/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zetalgin-chromatic-en",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zetalgin Chromatic",
+      "manufacturerRef": "C301001",
+      "manufacturerRefs": "C301001 | C301004",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C301001",
+          "label": "C301001"
+        },
+        {
+          "manufacturerRef": "C301004",
+          "label": "C301004"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Preliminary impression > Essential alginates",
+      "description": "Zetalgin is a mint flavored chromatic alginate with guaranteed ISO quality, with the exclusive visual guide for accurate dental impression taking.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zetalgin-C301001-C301004_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zetalgin-C301001-C301004_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zetalgin-chromatic-en/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "hydrogum",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Hydrogum",
+      "manufacturerRef": "C302025",
+      "manufacturerRefs": "C302025",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C302025",
+          "label": "C302025"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Preliminary impression > Versatile alginates",
+      "description": "Hydrogum is a historic alginate for reliable and versatile dental impressions, for high quality results, used for over 20 years in many practices.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrogum-C302025_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrogum-C302025_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/hydrogum/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-rock-model-prep",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Rock",
+      "manufacturerRef": "C410032",
+      "manufacturerRefs": "C410032 | C410030 | C410200 | C410334 | C410020 | C410201 | C410332 | C410010 | C410202 | C410330 | C410000 | C410204 | C410336 | C410152 | C410151 | C410150 | C410205 | C410160 | C410207",
+      "variantCount": 19,
+      "variants": [
+        {
+          "manufacturerRef": "C410032",
+          "label": "C410032"
+        },
+        {
+          "manufacturerRef": "C410030",
+          "label": "C410030"
+        },
+        {
+          "manufacturerRef": "C410200",
+          "label": "C410200"
+        },
+        {
+          "manufacturerRef": "C410334",
+          "label": "C410334"
+        },
+        {
+          "manufacturerRef": "C410020",
+          "label": "C410020"
+        },
+        {
+          "manufacturerRef": "C410201",
+          "label": "C410201"
+        },
+        {
+          "manufacturerRef": "C410332",
+          "label": "C410332"
+        },
+        {
+          "manufacturerRef": "C410010",
+          "label": "C410010"
+        },
+        {
+          "manufacturerRef": "C410202",
+          "label": "C410202"
+        },
+        {
+          "manufacturerRef": "C410330",
+          "label": "C410330"
+        },
+        {
+          "manufacturerRef": "C410000",
+          "label": "C410000"
+        },
+        {
+          "manufacturerRef": "C410204",
+          "label": "C410204"
+        },
+        {
+          "manufacturerRef": "C410336",
+          "label": "C410336"
+        },
+        {
+          "manufacturerRef": "C410152",
+          "label": "C410152"
+        },
+        {
+          "manufacturerRef": "C410151",
+          "label": "C410151"
+        },
+        {
+          "manufacturerRef": "C410150",
+          "label": "C410150"
+        },
+        {
+          "manufacturerRef": "C410205",
+          "label": "C410205"
+        },
+        {
+          "manufacturerRef": "C410160",
+          "label": "C410160"
+        },
+        {
+          "manufacturerRef": "C410207",
+          "label": "C410207"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Stone models > Master Model and Bases",
+      "description": "page description",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Rock.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Rock.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-rock-model-prep/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-master",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Master",
+      "manufacturerRef": "C410400",
+      "manufacturerRefs": "C410400 | C410402 | C410403 | C410404 | C410410 | C410411 | C410412",
+      "variantCount": 7,
+      "variants": [
+        {
+          "manufacturerRef": "C410400",
+          "label": "C410400"
+        },
+        {
+          "manufacturerRef": "C410402",
+          "label": "C410402"
+        },
+        {
+          "manufacturerRef": "C410403",
+          "label": "C410403"
+        },
+        {
+          "manufacturerRef": "C410404",
+          "label": "C410404"
+        },
+        {
+          "manufacturerRef": "C410410",
+          "label": "C410410"
+        },
+        {
+          "manufacturerRef": "C410411",
+          "label": "C410411"
+        },
+        {
+          "manufacturerRef": "C410412",
+          "label": "C410412"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Stone models > Master Model and Bases",
+      "description": "Elite Master is Zhermack's resin-reinforced plaster solution for master models in fixed prosthetics. Low expansion, high fidelity and durability.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Master.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Master.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-master/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-base",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Base",
+      "manufacturerRef": "C410448",
+      "manufacturerRefs": "C410448 | C410446 | C410447 | C410437 | C410435 | C410436 | C410439",
+      "variantCount": 7,
+      "variants": [
+        {
+          "manufacturerRef": "C410448",
+          "label": "C410448"
+        },
+        {
+          "manufacturerRef": "C410446",
+          "label": "C410446"
+        },
+        {
+          "manufacturerRef": "C410447",
+          "label": "C410447"
+        },
+        {
+          "manufacturerRef": "C410437",
+          "label": "C410437"
+        },
+        {
+          "manufacturerRef": "C410435",
+          "label": "C410435"
+        },
+        {
+          "manufacturerRef": "C410436",
+          "label": "C410436"
+        },
+        {
+          "manufacturerRef": "C410439",
+          "label": "C410439"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Stone models > Master Model and Bases",
+      "description": "Elite Base is a solution for a plaster with optimal fluidity for bases without vibration: low expansion and high fidelity for impeccable results.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Base.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Base.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-base/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-stone",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Stone",
+      "manufacturerRef": "C410048",
+      "manufacturerRefs": "C410048 | C410214 | C410315 | C410310 | C410040 | C410211 | C410312 | C410043 | C410313",
+      "variantCount": 9,
+      "variants": [
+        {
+          "manufacturerRef": "C410048",
+          "label": "C410048"
+        },
+        {
+          "manufacturerRef": "C410214",
+          "label": "C410214"
+        },
+        {
+          "manufacturerRef": "C410315",
+          "label": "C410315"
+        },
+        {
+          "manufacturerRef": "C410310",
+          "label": "C410310"
+        },
+        {
+          "manufacturerRef": "C410040",
+          "label": "C410040"
+        },
+        {
+          "manufacturerRef": "C410211",
+          "label": "C410211"
+        },
+        {
+          "manufacturerRef": "C410312",
+          "label": "C410312"
+        },
+        {
+          "manufacturerRef": "C410043",
+          "label": "C410043"
+        },
+        {
+          "manufacturerRef": "C410313",
+          "label": "C410313"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Stone models > Master Model and Bases",
+      "description": "Elite Stone is Zhermack's thermal shock resistant stone for master models in removable prostheses. Maximum durability and resistance guaranteed.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Stone.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Stone.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-stone/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-model-fast",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Model – Elite Model Fast",
+      "manufacturerRef": "C410070",
+      "manufacturerRefs": "C410070 | C410221 | C410080 | C410220 | C410304 | C410065 | C410224 | C410306 | C410069 | C410067 | C410226 | C410308 | C410064 | C410063 | C410228 | C410309",
+      "variantCount": 16,
+      "variants": [
+        {
+          "manufacturerRef": "C410070",
+          "label": "C410070"
+        },
+        {
+          "manufacturerRef": "C410221",
+          "label": "C410221"
+        },
+        {
+          "manufacturerRef": "C410080",
+          "label": "C410080"
+        },
+        {
+          "manufacturerRef": "C410220",
+          "label": "C410220"
+        },
+        {
+          "manufacturerRef": "C410304",
+          "label": "C410304"
+        },
+        {
+          "manufacturerRef": "C410065",
+          "label": "C410065"
+        },
+        {
+          "manufacturerRef": "C410224",
+          "label": "C410224"
+        },
+        {
+          "manufacturerRef": "C410306",
+          "label": "C410306"
+        },
+        {
+          "manufacturerRef": "C410069",
+          "label": "C410069"
+        },
+        {
+          "manufacturerRef": "C410067",
+          "label": "C410067"
+        },
+        {
+          "manufacturerRef": "C410226",
+          "label": "C410226"
+        },
+        {
+          "manufacturerRef": "C410308",
+          "label": "C410308"
+        },
+        {
+          "manufacturerRef": "C410064",
+          "label": "C410064"
+        },
+        {
+          "manufacturerRef": "C410063",
+          "label": "C410063"
+        },
+        {
+          "manufacturerRef": "C410228",
+          "label": "C410228"
+        },
+        {
+          "manufacturerRef": "C410309",
+          "label": "C410309"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Stone models > Antagonist model",
+      "description": "Discover Elite Model: High-quality type 3 stone for crafting antagonists & flask filling in removable prosthetics. Superior mechanics & versatility.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Model.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Model.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-model-fast/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-arti",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Arti – Elite Arti Fast",
+      "manufacturerRef": "C410100",
+      "manufacturerRefs": "C410100 | C410240 | C410350 | C410107 | C410105 | C410241 | C410351",
+      "variantCount": 7,
+      "variants": [
+        {
+          "manufacturerRef": "C410100",
+          "label": "C410100"
+        },
+        {
+          "manufacturerRef": "C410240",
+          "label": "C410240"
+        },
+        {
+          "manufacturerRef": "C410350",
+          "label": "C410350"
+        },
+        {
+          "manufacturerRef": "C410107",
+          "label": "C410107"
+        },
+        {
+          "manufacturerRef": "C410105",
+          "label": "C410105"
+        },
+        {
+          "manufacturerRef": "C410241",
+          "label": "C410241"
+        },
+        {
+          "manufacturerRef": "C410351",
+          "label": "C410351"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Stone models > Articulator",
+      "description": "Elite Arti is a class 3 thixotropic plaster with low expansion to keep the occlusion unaltered with minimal expansion and great ease of use.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Arti_C410100.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Arti_C410100.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-arti/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-ortho",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Ortho",
+      "manufacturerRef": "C410091",
+      "manufacturerRefs": "C410091 | C410090 | C410230 | C410320",
+      "variantCount": 4,
+      "variants": [
+        {
+          "manufacturerRef": "C410091",
+          "label": "C410091"
+        },
+        {
+          "manufacturerRef": "C410090",
+          "label": "C410090"
+        },
+        {
+          "manufacturerRef": "C410230",
+          "label": "C410230"
+        },
+        {
+          "manufacturerRef": "C410320",
+          "label": "C410320"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Stone models > Orthodontic model",
+      "description": "Elite Ortho is Zhermack's brilliant white plaster for orthodontic models. Thixotropic and low expansion, it is ideal for dental practice and orthodontics.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Ortho_C410090.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Ortho_C410090.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-ortho/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "gingifast-rigid",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Gingifast Rigid",
+      "manufacturerRef": "C401520",
+      "manufacturerRefs": "C401520",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C401520",
+          "label": "C401520"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Gingival reproduction",
+      "description": "Gingifast is the perfect solution for gingival morphology, ideal for fixed and implant prosthetics, effective and easy to use. Discover it on our website.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Gingifast-Rigid-C401520.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Gingifast-Rigid-C401520.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/gingifast-rigid/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "gingifast-elastic",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Gingifast Elastic",
+      "manufacturerRef": "C401500",
+      "manufacturerRefs": "C401500",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C401500",
+          "label": "C401500"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Gingival reproduction",
+      "description": "Gingifast addition silicones offer a perfect reproduction of the gingival morphology: high aesthetic results and a 100% natural appearance. Dicover more.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Gingifast-Elastic-C401500.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Gingifast-Elastic-C401500.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/gingifast-elastic/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "gingifast-cad-elastic",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Gingifast CAD Elastic and Rigid",
+      "manufacturerRef": "C203227",
+      "manufacturerRefs": "C203227 | C203232",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C203227",
+          "label": "C203227"
+        },
+        {
+          "manufacturerRef": "C203232",
+          "label": "C203232"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Gingival reproduction",
+      "description": "Gingifast CAD is a fluid silicone for gingival masks, available in Elastic and Rigid versions, for quick 3D scans without the use of reflective sprays.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Gingifast-CAD-Elastic-C203227.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Gingifast-CAD-Elastic-C203227.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/gingifast-cad-elastic/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-3-wipes-pop-up",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 3 Wipes POP-UP",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Surfaces",
+      "description": "Zeta 3 Wipes Pop-up is the Zhermack solution for the rapid disinfection of all medical devices: wide range of action in a single pass. Discover more now.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Zeta_3_Wipes_POPUP_C810064-1.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Zeta_3_Wipes_POPUP_C810064-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-3-wipes-pop-up/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-3-wipes-total",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 3 Wipes TOTAL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Surfaces",
+      "description": "Zeta 3 Wipes Total allows you to disinfect work surface quickly and effectively, for perfect results on any kind of surface. Discover more on our website.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zeta_3_wipes_total_C810063-1.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zeta_3_wipes_total_C810063-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-3-wipes-total/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zetaplus",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zetaplus",
+      "manufacturerRef": "C100600",
+      "manufacturerRefs": "C100600 | C100468 | C100720 | C100730 | C100700",
+      "variantCount": 5,
+      "variants": [
+        {
+          "manufacturerRef": "C100600",
+          "label": "C100600"
+        },
+        {
+          "manufacturerRef": "C100468",
+          "label": "C100468"
+        },
+        {
+          "manufacturerRef": "C100720",
+          "label": "C100720"
+        },
+        {
+          "manufacturerRef": "C100730",
+          "label": "C100730"
+        },
+        {
+          "manufacturerRef": "C100700",
+          "label": "C100700"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Condensation silicones",
+      "description": "Zetaplus is a condensation silicone with high hydrocompatibility and biocompatibility: high durability and precision for dental impressions.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zetaplus-C100600.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zetaplus-C100600.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zetaplus/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zetaplus-soft",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zetaplus Soft",
+      "manufacturerRef": "C100610",
+      "manufacturerRefs": "C100610 | C100740 | C100700",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C100610",
+          "label": "C100610"
+        },
+        {
+          "manufacturerRef": "C100740",
+          "label": "C100740"
+        },
+        {
+          "manufacturerRef": "C100700",
+          "label": "C100700"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Condensation silicones",
+      "description": "Zetaplus Soft is the condensation silicone for hydrocompatible, biocompatible and high-resistance impressions, to obtain precise impressions for the patient.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zetaplus-C100610.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zetaplus-C100610.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zetaplus-soft/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "oranwash-l",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Oranwash L",
+      "manufacturerRef": "C100660",
+      "manufacturerRefs": "C100660 | C100720 | C100700",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C100660",
+          "label": "C100660"
+        },
+        {
+          "manufacturerRef": "C100720",
+          "label": "C100720"
+        },
+        {
+          "manufacturerRef": "C100700",
+          "label": "C100700"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Condensation silicones",
+      "description": "Oranwash by Zhermack is a solution for a highly hard condensation silicone designed for professionals, for precise and high-performance results.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Oranwash_L-C100660.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Oranwash_L-C100660.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/oranwash-l/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "oranwash-vl",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Oranwash VL",
+      "manufacturerRef": "C100650",
+      "manufacturerRefs": "C100650 | C100740 | C100700",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C100650",
+          "label": "C100650"
+        },
+        {
+          "manufacturerRef": "C100740",
+          "label": "C100740"
+        },
+        {
+          "manufacturerRef": "C100700",
+          "label": "C100700"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Condensation silicones",
+      "description": "Oranwash VL is the condensing silicone for dental impressions. Water-compatible, biocompatible, resistant to obtain precise and safe impressions.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Oranwash_VL-C100650.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Oranwash_VL-C100650.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/oranwash-vl/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-hd-putty-soft-normal-set",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite HD+ Putty Soft",
+      "manufacturerRef": "C203000",
+      "manufacturerRefs": "C203000 | C203010 | C203002 | C203012 | C202340 | C202360 | C202370",
+      "variantCount": 7,
+      "variants": [
+        {
+          "manufacturerRef": "C203000",
+          "label": "C203000"
+        },
+        {
+          "manufacturerRef": "C203010",
+          "label": "C203010"
+        },
+        {
+          "manufacturerRef": "C203002",
+          "label": "C203002"
+        },
+        {
+          "manufacturerRef": "C203012",
+          "label": "C203012"
+        },
+        {
+          "manufacturerRef": "C202340",
+          "label": "C202340"
+        },
+        {
+          "manufacturerRef": "C202360",
+          "label": "C202360"
+        },
+        {
+          "manufacturerRef": "C202370",
+          "label": "C202370"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Elite HD+",
+      "description": "Elite HD+ Putty Soft is a versatile, precise addition silicone with excellent visual comfort, perfect for reliable and precise results in your studio.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-HD-Putty-Soft-Fast-C203010_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-HD-Putty-Soft-Fast-C203010_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-hd-putty-soft-normal-set/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-hd-tray-material",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite HD+ Tray Material",
+      "manufacturerRef": "C202032",
+      "manufacturerRefs": "C202032 | C202320 | C202330",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C202032",
+          "label": "C202032"
+        },
+        {
+          "manufacturerRef": "C202320",
+          "label": "C202320"
+        },
+        {
+          "manufacturerRef": "C202330",
+          "label": "C202330"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Elite HD+",
+      "description": "Elite HD+ Tray Material is a versatile addition silicone with hydrocompatibility, tear resistance and dimensional stability, safety and precision.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-HD-Tray-Material-Fast-C202032_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-HD-Tray-Material-Fast-C202032_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-hd-tray-material/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-hd-monophase",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite HD+ Monophase",
+      "manufacturerRef": "C202020",
+      "manufacturerRefs": "C202020",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C202020",
+          "label": "C202020"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Elite HD+",
+      "description": "Elite HD+ Monophase guarantees versatility and precision for high-quality dental impressions. The ideal choice for dental professionals.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-HD-Monophase-Normal-C202020_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-HD-Monophase-Normal-C202020_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-hd-monophase/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-hd-regular-body-normal-set-en",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite HD+ Regular Body",
+      "manufacturerRef": "C203020",
+      "manufacturerRefs": "C203020 | C203025",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C203020",
+          "label": "C203020"
+        },
+        {
+          "manufacturerRef": "C203025",
+          "label": "C203025"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Elite HD+",
+      "description": "Elite HD+ is an addition silicone with hydrocompatibility, thixotropy and high resistance, versatile, precise and safe, perfect for many processes.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-HD-Regular-Normal-C203020_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-HD-Regular-Normal-C203020_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-hd-regular-body-normal-set-en/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-hd-light-body-normal-set",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite HD+ Light Body",
+      "manufacturerRef": "C203030",
+      "manufacturerRefs": "C203030 | C203035 | C203040",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C203030",
+          "label": "C203030"
+        },
+        {
+          "manufacturerRef": "C203035",
+          "label": "C203035"
+        },
+        {
+          "manufacturerRef": "C203040",
+          "label": "C203040"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Elite HD+",
+      "description": "Elite HD+ Light Body is an addition silicone with hydrocompatibility and tear resistance, versatile, precise and stable for up to 15 days. Discover it now.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-HD-Light-Normal-C203030_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-HD-Light-Normal-C203030_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-hd-light-body-normal-set/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-hd-super-light-body-fast-set",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite HD+ Super Light Body",
+      "manufacturerRef": "C203050",
+      "manufacturerRefs": "C203050",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C203050",
+          "label": "C203050"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Elite HD+",
+      "description": "Elite HD+ Super Light Body is a versatile and precise addition silicone, water-compatible and tear-resistant, ideal for many processes in your studio.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-HD-Super-Light-Fast-C203050_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Elite-HD-Super-Light-Fast-C203050_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-hd-super-light-body-fast-set/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "hydrorise-putty",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Hydrorise Putty",
+      "manufacturerRef": "C207010",
+      "manufacturerRefs": "C207010 | C207011 | C207012 | C207013 | C207071 | C207044 | C207045 | C207065",
+      "variantCount": 8,
+      "variants": [
+        {
+          "manufacturerRef": "C207010",
+          "label": "C207010"
+        },
+        {
+          "manufacturerRef": "C207011",
+          "label": "C207011"
+        },
+        {
+          "manufacturerRef": "C207012",
+          "label": "C207012"
+        },
+        {
+          "manufacturerRef": "C207013",
+          "label": "C207013"
+        },
+        {
+          "manufacturerRef": "C207071",
+          "label": "C207071"
+        },
+        {
+          "manufacturerRef": "C207044",
+          "label": "C207044"
+        },
+        {
+          "manufacturerRef": "C207045",
+          "label": "C207045"
+        },
+        {
+          "manufacturerRef": "C207065",
+          "label": "C207065"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Hydrorise System > Hydrorise",
+      "description": "Hydrorise Putty is Zhermack's high viscosity vinyl polysiloxane for two-step or one-step techniques. Excellent with Hydrorise series fluids.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Putty-C207010-MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Putty-C207010-MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/hydrorise-putty/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "hydrorise-monophase",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Hydrorise Monophase",
+      "manufacturerRef": "C207006",
+      "manufacturerRefs": "C207006 | C207007 | C207040 | C207041",
+      "variantCount": 4,
+      "variants": [
+        {
+          "manufacturerRef": "C207006",
+          "label": "C207006"
+        },
+        {
+          "manufacturerRef": "C207007",
+          "label": "C207007"
+        },
+        {
+          "manufacturerRef": "C207040",
+          "label": "C207040"
+        },
+        {
+          "manufacturerRef": "C207041",
+          "label": "C207041"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Hydrorise System > Hydrorise",
+      "description": "Hydrorise Monophase is Zhermack's vinylpolysiloxane designed for single-phase impressions. High precision and dimensional stability up to 21 days.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Monophase-C207040_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Monophase-C207040_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/hydrorise-monophase/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "hydrorise-light-body",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Hydrorise Light Body",
+      "manufacturerRef": "C207000",
+      "manufacturerRefs": "C207000 | C207001 | C207071",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C207000",
+          "label": "C207000"
+        },
+        {
+          "manufacturerRef": "C207001",
+          "label": "C207001"
+        },
+        {
+          "manufacturerRef": "C207071",
+          "label": "C207071"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Hydrorise System > Hydrorise",
+      "description": "Hydrorise Light Body: low viscosity vinyl polysiloxane (mixing ratio 1:1). Ideal for two-phase or one-step technique with Hydrorise Putty/Heavy Body.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Light-Body-C207000_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Light-Body-C207000_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/hydrorise-light-body/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "hydrorise-heavy-body-en",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Hydrorise Heavy Body",
+      "manufacturerRef": "C207042",
+      "manufacturerRefs": "C207042 | C207043 | C207063",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C207042",
+          "label": "C207042"
+        },
+        {
+          "manufacturerRef": "C207043",
+          "label": "C207043"
+        },
+        {
+          "manufacturerRef": "C207063",
+          "label": "C207063"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Hydrorise System > Hydrorise",
+      "description": "Hydrorise Heavy Body is a high viscosity vinyl polysiloxane for double impression or simultaneous technique. Ideal with Hydrorise Light fluids.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Heavy-Body-C207042-MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Heavy-Body-C207042-MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/hydrorise-heavy-body-en/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "hydrorise-regular-body",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Hydrorise Regular Body",
+      "manufacturerRef": "C207004",
+      "manufacturerRefs": "C207004 | C207005",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C207004",
+          "label": "C207004"
+        },
+        {
+          "manufacturerRef": "C207005",
+          "label": "C207005"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Hydrorise System > Hydrorise",
+      "description": "Hydrorise Regular Body is a medium viscosity vinylpolysiloxane perfect for the one-phase technique, precise in the impression and accurate over time.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Regular-Body-C207004_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Regular-Body-C207004_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/hydrorise-regular-body/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "hydrorise-extra-light-body",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Hydrorise Extra Light Body",
+      "manufacturerRef": "C207002",
+      "manufacturerRefs": "C207002 | C207003",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C207002",
+          "label": "C207002"
+        },
+        {
+          "manufacturerRef": "C207003",
+          "label": "C207003"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Hydrorise System > Hydrorise",
+      "description": "Hydrorise Extra Light Body is an accurate, reliable and precise low viscosity vinyl polysiloxane, perfect for the two-step technique. Find out more.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Extra-Light-C207002_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Extra-Light-C207002_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/hydrorise-extra-light-body/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "hydrorise-implant-heavy-body",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Hydrorise Implant Heavy Body",
+      "manufacturerRef": "C207090",
+      "manufacturerRefs": "C207090 | C207095",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C207090",
+          "label": "C207090"
+        },
+        {
+          "manufacturerRef": "C207095",
+          "label": "C207095"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Hydrorise System > Hydrorise Implant",
+      "description": "Hydrorise Implant Heavy Body is a high viscosity vinyl polysiloxane: maximum reliability, 99.5% elastic recovery and stability for up to 21 days.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Hydrorise_Implant_C207090.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Hydrorise_Implant_C207090.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/hydrorise-implant-heavy-body/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "hydrorise-implant-medium-body",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Hydrorise Implant Medium Body",
+      "manufacturerRef": "C207092",
+      "manufacturerRefs": "C207092 | C207122 | C207096 | C207126",
+      "variantCount": 4,
+      "variants": [
+        {
+          "manufacturerRef": "C207092",
+          "label": "C207092"
+        },
+        {
+          "manufacturerRef": "C207122",
+          "label": "C207122"
+        },
+        {
+          "manufacturerRef": "C207096",
+          "label": "C207096"
+        },
+        {
+          "manufacturerRef": "C207126",
+          "label": "C207126"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Hydrorise System > Hydrorise Implant",
+      "description": "Hydrorise Implant Heavy Body is an high viscosity vinyl polysiloxane: maximum reliability, 99.5% elastic recovery and stability for up to 21 days.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Hydrorise_Implant_C207092.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Hydrorise_Implant_C207092.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/hydrorise-implant-medium-body/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "hydrorise-implant-light-body",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Hydrorise Implant Light Body",
+      "manufacturerRef": "C207091",
+      "manufacturerRefs": "C207091 | C207095",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C207091",
+          "label": "C207091"
+        },
+        {
+          "manufacturerRef": "C207095",
+          "label": "C207095"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Precision Impression > Addition silicones > Hydrorise System > Hydrorise Implant",
+      "description": "Hydrorise Implant Light Body is a precise and reliable low viscosity vinyl polysiloxane, perfect for scans without the use of opaque sprays.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Implant-Light-Normal-C207091.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Hydrorise-Implant-Light-Normal-C207091.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/hydrorise-implant-light-body/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "mx300",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "MX-300",
+      "manufacturerRef": "C305170",
+      "manufacturerRefs": "C305170 | C305172",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C305170",
+          "label": "C305170"
+        },
+        {
+          "manufacturerRef": "C305172",
+          "label": "C305172"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Equipment > Mixers for impression systems",
+      "description": "MX-300 is an ideal alginate mixer to improve studio efficiency and obtain consistent, high-quality and reproducible results. Check out more on our website.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Mx300_C305170_DX-2.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Mx300_C305170_DX-2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/mx300/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "sympress",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Sympress",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Dental > Dental Practice > Equipment > Mixers for impression systems",
+      "description": "Sympress is a 5:1 automatic mixer for impression materials. High performance and wide compatibility to optimize studio work: discover more on our website.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/sympress_web.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/sympress_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/sympress/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-3-soft-soft-classic",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 3 Soft",
+      "manufacturerRef": "C810023",
+      "manufacturerRefs": "C810023 | C810024 | C810027 | C810028",
+      "variantCount": 4,
+      "variants": [
+        {
+          "manufacturerRef": "C810023",
+          "label": "C810023"
+        },
+        {
+          "manufacturerRef": "C810024",
+          "label": "C810024"
+        },
+        {
+          "manufacturerRef": "C810027",
+          "label": "C810027"
+        },
+        {
+          "manufacturerRef": "C810028",
+          "label": "C810028"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Surfaces",
+      "description": "Zeta 3 Soft is a ready-to-use alcoholic disinfectant, easy to use and effective on all medical devices, with rapid fixation on different materials.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zeta_3_soft_C810023_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zeta_3_soft_C810023_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-3-soft-soft-classic/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-3-foam",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 3 Foam",
+      "manufacturerRef": "C810025",
+      "manufacturerRefs": "C810025 | C810026",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C810025",
+          "label": "C810025"
+        },
+        {
+          "manufacturerRef": "C810026",
+          "label": "C810026"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Surfaces",
+      "description": "Zeta 3 Foam is a ready-to-use alcohol-free disinfectant foam, the perfect solution for quickly sanitizing all medical devices with basically zero effort.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zeta_3_foam_C810025_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zeta_3_foam_C810025_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-3-foam/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-1-ultra",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 1 Ultra",
+      "manufacturerRef": "C810000",
+      "manufacturerRefs": "C810000",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C810000",
+          "label": "C810000"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Instruments and burs",
+      "description": "Zeta 1 Ultra is a concentrated liquid disinfectant and cleaner for dental instruments. Safe, effective and easy to use on any kind of surface.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zeta_1_ultra_C810000.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zeta_1_ultra_C810000.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-1-ultra/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-2-sporex",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 2 Sporex",
+      "manufacturerRef": "C810011",
+      "manufacturerRefs": "C810011",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C810011",
+          "label": "C810011"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Instruments and burs",
+      "description": "Zeta 2 Sporex is a cold chemical sterilant in powder designed for all devices that cannot be disinfected in an autoclave. Perfect results in your studio.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zeta-2-Sporex-C810011.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Zeta-2-Sporex-C810011.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-2-sporex/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-4-wash",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 4 Wash",
+      "manufacturerRef": "C810037",
+      "manufacturerRefs": "C810037",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C810037",
+          "label": "C810037"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Surfaces",
+      "description": "Zeta 4 Wash is a 3 in 1 for cleaning the studio: effective detergent, deodorant and sanitizer tested even with the most delicate surfaces. Discover more.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/C810037-4-e1591882053686-1.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/C810037-4-e1591882053686-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-4-wash/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-5-power-act",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 5 Power Act",
+      "manufacturerRef": "EN13727",
+      "manufacturerRefs": "EN13727 | EN14561 | EN13624 | EN14562 | EN14348 | C810040",
+      "variantCount": 6,
+      "variants": [
+        {
+          "manufacturerRef": "EN13727",
+          "label": "EN13727"
+        },
+        {
+          "manufacturerRef": "EN14561",
+          "label": "EN14561"
+        },
+        {
+          "manufacturerRef": "EN13624",
+          "label": "EN13624"
+        },
+        {
+          "manufacturerRef": "EN14562",
+          "label": "EN14562"
+        },
+        {
+          "manufacturerRef": "EN14348",
+          "label": "EN14348"
+        },
+        {
+          "manufacturerRef": "C810040",
+          "label": "C810040"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Special applications > Suction unit disinfectants and cleaners",
+      "description": "Zeta 5 Power Act is a practical and effective concentrated disinfectant thanks to its 2 action times: rapid in just 15 minutes or standard evening.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Zeta_5_power_act_C810040-3.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Zeta_5_power_act_C810040-3.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-5-power-act/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-7-spray",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 7 Spray",
+      "manufacturerRef": "C810050",
+      "manufacturerRefs": "C810050",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C810050",
+          "label": "C810050"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Special applications > Impressions disinfectants and cleaners",
+      "description": "Zeta 7 Spray is an effective solution for disinfecting dental impressions, with a broad spectrum of action and compatibility with all materials.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Zeta_7_spray_C810050.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Zeta_7_spray_C810050.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-7-spray/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-7-solution",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 7 Solution",
+      "manufacturerRef": "C810048",
+      "manufacturerRefs": "C810048",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C810048",
+          "label": "C810048"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Special applications > Impressions disinfectants and cleaners",
+      "description": "Zeta 7 Solution is a broad-spectrum concentrated disinfectant for dental impressions: high protection and proven compatibility with various materials.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Zeta_7_solution_C810048-1-1.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Zeta_7_solution_C810048-1-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-7-solution/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "detergent-algitray",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Algitray",
+      "manufacturerRef": "C400435",
+      "manufacturerRefs": "C400435",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C400435",
+          "label": "C400435"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Special applications > Trays and instruments gypsum and alginate removers",
+      "description": "Algitray is the Zhermack neutral pH solution specific for the removal of alginate residues from impression trays, effective and delicate on all surfaces.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Algitray_C400430-2.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Algitray_C400430-2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/detergent-algitray/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "gypstray",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Gypstray",
+      "manufacturerRef": "C400441",
+      "manufacturerRefs": "C400441",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C400441",
+          "label": "C400441"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Special applications > Trays and instruments gypsum and alginate removers",
+      "description": "Gypstray is an ideal Zhermack solution for removing plaster residues from dental instruments, effective and delicate for always complete cleaning.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Gypstray_C400441.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Gypstray_C400441.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/gypstray/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-7-solution-lab",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 7 Solution",
+      "manufacturerRef": "C810048",
+      "manufacturerRefs": "C810048",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C810048",
+          "label": "C810048"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Hygiene > Disinfectant for impressions",
+      "description": "Zeta 7 Solution is a concentrated disinfectant for dental impressions with a broad spectrum of action and high compatibility for effective protection.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Zeta_7_solution_C810048-1-1.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Zeta_7_solution_C810048-1-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-7-solution-lab/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-7-spray-lab",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 7 Spray",
+      "manufacturerRef": "C810050",
+      "manufacturerRefs": "C810050",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C810050",
+          "label": "C810050"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Hygiene > Disinfectant for impressions",
+      "description": "Zeta 7 Spray is an effective solution for disinfecting dental impressions, with a broad spectrum of action and compatibility with all materials.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Zeta_7_spray_C810050.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Zeta_7_spray_C810050.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-7-spray-lab/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "algitray",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Algitray",
+      "manufacturerRef": "C400435",
+      "manufacturerRefs": "C400435",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C400435",
+          "label": "C400435"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Hygiene > Trays & instruments cleaners",
+      "description": "Algitray is the neutral pH solution specific for the removal of alginate residues from impression trays: fast action and perfect result.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Algitray_C400430-2.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Algitray_C400430-2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/algitray/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "gypstray-lab",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Gypstray",
+      "manufacturerRef": "C400441",
+      "manufacturerRefs": "C400441",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C400441",
+          "label": "C400441"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Hygiene > Trays & instruments cleaners",
+      "description": "Zhermack's Gypstray is the ready-to-use solution for removing gypsum residues from dental instruments, even in the least accessible places.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Gypstray_C400441.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Gypstray_C400441.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/gypstray-lab/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "occlufast-occlufast-color_plus",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Occlufast+ | Occlufast+ Color",
+      "manufacturerRef": "C200791",
+      "manufacturerRefs": "C200791 | C200792 | C200790 | C200781 | C200782 | C200780 | C202085 | C202086 | C202100",
+      "variantCount": 9,
+      "variants": [
+        {
+          "manufacturerRef": "C200791",
+          "label": "C200791"
+        },
+        {
+          "manufacturerRef": "C200792",
+          "label": "C200792"
+        },
+        {
+          "manufacturerRef": "C200790",
+          "label": "C200790"
+        },
+        {
+          "manufacturerRef": "C200781",
+          "label": "C200781"
+        },
+        {
+          "manufacturerRef": "C200782",
+          "label": "C200782"
+        },
+        {
+          "manufacturerRef": "C200780",
+          "label": "C200780"
+        },
+        {
+          "manufacturerRef": "C202085",
+          "label": "C202085"
+        },
+        {
+          "manufacturerRef": "C202086",
+          "label": "C202086"
+        },
+        {
+          "manufacturerRef": "C202100",
+          "label": "C202100"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Bite registration > High-tech, high-performance silicones for bite registration",
+      "description": "Occlufast+ is an addition silicone with a high final hardness. Occlufast+ Color is the thermochromic version",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Occlufast-C200791_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Occlufast-C200791_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/occlufast-occlufast-color_plus/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "occlufast-rock",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Occlufast Rock",
+      "manufacturerRef": "C200726",
+      "manufacturerRefs": "C200726 | C202086 | C202100",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C200726",
+          "label": "C200726"
+        },
+        {
+          "manufacturerRef": "C202086",
+          "label": "C202086"
+        },
+        {
+          "manufacturerRef": "C202100",
+          "label": "C202100"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Bite registration > Versatile addition silicones for bite registration",
+      "description": "Occlufast Rock was Zhermack’s first addition silicone for bite registration, and is still one of the best-known and most popular in the world",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Occlufast-Rock-C200726_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Occlufast-Rock-C200726_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/occlufast-rock/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "occlufast-cad",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Occlufast CAD",
+      "manufacturerRef": "C200800",
+      "manufacturerRefs": "C200800 | C202086 | C202100",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C200800",
+          "label": "C200800"
+        },
+        {
+          "manufacturerRef": "C202086",
+          "label": "C202086"
+        },
+        {
+          "manufacturerRef": "C202100",
+          "label": "C202100"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Impression systems > Bite registration > Bite registration silicones for special application",
+      "description": "Occlufast CAD is a scannable addition silicone for accurate bite registration that facilitates digital work-flow access",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Occlufast-CAD-C200800_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Occlufast-CAD-C200800_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/occlufast-cad/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "occlufast-cad-lab",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Occlufast CAD",
+      "manufacturerRef": "C200800",
+      "manufacturerRefs": "C200800 | C202086 | C202100",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C200800",
+          "label": "C200800"
+        },
+        {
+          "manufacturerRef": "C202086",
+          "label": "C202086"
+        },
+        {
+          "manufacturerRef": "C202100",
+          "label": "C202100"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > CAD/CAM solutions > Bite registration",
+      "description": "Occlufast CAD is Zhermack's scannable silicone for occlusal registration that simplifies workflow and communication with the dental technician.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Occlufast-CAD-C200800_MDR.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/ZH-Web-Pack-Image-Occlufast-CAD-C200800_MDR.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/occlufast-cad-lab/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-double-8",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Double 8",
+      "manufacturerRef": "C400830",
+      "manufacturerRefs": "C400830",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "C400830",
+          "label": "C400830"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Duplication",
+      "description": "Elite Double 8 is the elastic duplicating silicone with 8ShA hardness, perfect for duplicating stumps and for thinner thicknesses: discover more.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Double8_C400830.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Double8_C400830.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-double-8/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-double-16-fast",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Double 16 Fast",
+      "manufacturerRef": "C400825",
+      "manufacturerRefs": "C400825 | C400831 | C400847",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C400825",
+          "label": "C400825"
+        },
+        {
+          "manufacturerRef": "C400831",
+          "label": "C400831"
+        },
+        {
+          "manufacturerRef": "C400847",
+          "label": "C400847"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Duplication",
+      "description": "Elite Double 16 Fast is a versatile duplicating silicone with 16 ShA hardness, ideal for fixed and removable prostheses, with medium processing times.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Double16_C400831.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Double16_C400831.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-double-16-fast/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-double-22",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Double 22",
+      "manufacturerRef": "C400821",
+      "manufacturerRefs": "C400821 | C400832 | C400840",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C400821",
+          "label": "C400821"
+        },
+        {
+          "manufacturerRef": "C400832",
+          "label": "C400832"
+        },
+        {
+          "manufacturerRef": "C400840",
+          "label": "C400840"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Duplication",
+      "description": "Elite Double 22 is a duplicating silicone with 22 ShA hardness, ideal for removable prosthetics. Setting time 20' and maximum reliability over time.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Double22_C400832.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Double22_C400832.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-double-22/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-double-22-fast",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Double 22 Fast",
+      "manufacturerRef": "C400823",
+      "manufacturerRefs": "C400823 | C400834 | C400842",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "C400823",
+          "label": "C400823"
+        },
+        {
+          "manufacturerRef": "C400834",
+          "label": "C400834"
+        },
+        {
+          "manufacturerRef": "C400842",
+          "label": "C400842"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Duplication",
+      "description": "Elite Double 22 Fast is a duplicating silicone with 22 ShA hardness for removable prosthetics, with a rapid setting time of just 10 minutes.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Double22_fast_C400834.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Double22_fast_C400834.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-double-22-fast/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-double-22-extra-fast",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Double 22 Extra Fast",
+      "manufacturerRef": "C400838",
+      "manufacturerRefs": "C400838 | C400849",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C400838",
+          "label": "C400838"
+        },
+        {
+          "manufacturerRef": "C400849",
+          "label": "C400849"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Duplication",
+      "description": "Elite Double 22 Extra Fast is a silicone with 22 ShA hardness ideal for removable prosthetics, with a setting time of just 5 seconds. Discover more.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Double22_extrafast_C400838.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Double22_extrafast_C400838.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-double-22-extra-fast/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-double-32",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Double 32",
+      "manufacturerRef": "C400833",
+      "manufacturerRefs": "C400833 | C400841",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C400833",
+          "label": "C400833"
+        },
+        {
+          "manufacturerRef": "C400841",
+          "label": "C400841"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Duplication",
+      "description": "Elite Double 32: rigid duplication silicone ideal for framework procedures. Consistent and structured. Normal version sets in 20′ with light green color.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Double32_C400833.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Double32_C400833.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-double-32/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "elite-double-32-fast",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Elite Double 32 Fast",
+      "manufacturerRef": "C400836",
+      "manufacturerRefs": "C400836 | C400843",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C400836",
+          "label": "C400836"
+        },
+        {
+          "manufacturerRef": "C400843",
+          "label": "C400843"
+        }
+      ],
+      "categoryPath": "Dental > Laboratory > Model preparation > Duplication",
+      "description": "Elite Double 32 is the rigid duplicating silicone ideal for skeletonized prostheses, with a setting time of only 20' and high resistance and stability.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Elite_Double32_fast_C400836.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Elite_Double32_fast_C400836.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/elite-double-32-fast/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "zeta-6-hydra",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Zeta 6 Hydra",
+      "manufacturerRef": "C810042",
+      "manufacturerRefs": "C810042 | C810043",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "C810042",
+          "label": "C810042"
+        },
+        {
+          "manufacturerRef": "C810043",
+          "label": "C810043"
+        }
+      ],
+      "categoryPath": "Dental > Dental Practice > Hygiene > Hands",
+      "description": "Maximum effectiveness and gentleness on the skin: Zeta 6 Hydra is the solution for daily hygiene in the office. Perfect hand cleaning in just a few steps.",
+      "sourceImageUrl": "https://www.zhermack.com/public/uploads/Zeta_6_hydra_C810042.jpg",
+      "imageUrls": "https://www.zhermack.com/public/uploads/Zeta_6_hydra_C810042.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/zeta-6-hydra/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "universal-tray-adhesive",
+      "brand": "Zhermack",
+      "manufacturer": "Zhermack S.p.A.",
+      "name": "Universal Tray Adhesive",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.zhermack.com/en/product/universal-tray-adhesive/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KAZAKHSTAN_DISTRIBUTORS_AT_CADEX",
+      "status": "SOURCE_PAGE_PHOTO_REFERENCE_REVIEW_REQUIRED"
+    }
+  ]
+}

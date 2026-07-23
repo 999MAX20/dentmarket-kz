@@ -1,0 +1,65 @@
+{
+  "brand": "RAY",
+  "manufacturer": "RAY Co., Ltd.",
+  "sourceType": "OFFICIAL_MANUFACTURER_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialPdfOnly": true,
+    "exactProductRequired": true,
+    "visualVerificationRequired": true,
+    "pdfAndOutputHashesPinned": true,
+    "noGeneratedProductGeometry": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 1,
+    "recovered": 1,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "RAY-RAYPREMIERE",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYPreMiere",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RAYPreMiere",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "CBCT",
+      "description": "RAYPreMiere — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-premiere-brochure-1f8a344f8b.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-premiere-brochure-1f8a344f8b.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYPreMiere/RAYPreMiere(v)/Sales",
+      "sourcePdfPages": "1",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialResourcePageUrl": "https://connect.raymedical.com/en/resources/a31d3985-0fbb-4e4e-88d8-2bd208fe0601",
+        "officialPdfSha256": "50670d257c8238d4675e9bf0340a2cdc2d78493c02caa2e77fa2b4c7c6617d71",
+        "pdfPage": 1,
+        "normalizedCropBox": [
+          0.435,
+          0.135,
+          0.925,
+          0.765
+        ],
+        "visualMatchNote": "Official RAYPreMiere unit on the manufacturer brochure cover; product-name typography and adjacent content are excluded",
+        "outputImageSha256": "1f8a344f8ba43855bf7d47f8de9c5c35b12238e4bec4efe490344fbe799f4dee",
+        "bytes": 457412,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    }
+  ],
+  "review": []
+}

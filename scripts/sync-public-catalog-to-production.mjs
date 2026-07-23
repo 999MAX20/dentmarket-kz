@@ -6,9 +6,15 @@ import { PrismaClient } from "../apps/api/node_modules/@prisma/client/index.js";
 const root = path.resolve(process.cwd());
 const apply = process.argv.includes("--apply");
 const multiVariantOnly = process.argv.includes("--multi-variant-only");
+const approvedCatalogOnly = process.argv.includes("--approved-catalog");
 const catalog = JSON.parse(
   await fs.readFile(
-    path.join(root, "apps/buyer-web/app/data/public-catalog-fallback.json"),
+    path.join(
+      root,
+      approvedCatalogOnly
+        ? "data/reports/production-approved-catalog.json"
+        : "apps/buyer-web/app/data/public-catalog-fallback.json",
+    ),
     "utf8",
   ),
 );
@@ -156,7 +162,22 @@ try {
     const category = await getCategory(product.category);
     const brand = await getBrand(product.brand);
     const manufacturer = await getManufacturer(product.manufacturer);
-    const media = mediaManifest.entries[product.sourceUrl ?? ""];
+    const manifestMedia = mediaManifest.entries[product.sourceUrl ?? ""];
+    const media = manifestMedia ??
+      (product.imageUrl
+        ? {
+            sourceUrl: product.imageUrl,
+            securePath: null,
+            altText: `${product.name} — фото товара`,
+            width: null,
+            height: null,
+            mimeType: null,
+            metadata: {
+              source: "canonical-publication-classification",
+              exactProductPhoto: product.photoStatus === "exact",
+            },
+          }
+        : null);
     const description =
       product.description ||
       [
@@ -168,13 +189,19 @@ try {
         .filter(Boolean)
         .join(" ");
     const metadata = {
-      source: "public-catalog-fallback",
+      source: approvedCatalogOnly
+        ? "production-approved-catalog"
+        : "public-catalog-fallback",
       sourceId: product.id,
       sourceUrl: product.sourceUrl ?? null,
       sourceUpdatedAt: product.sourceUpdatedAt ?? null,
       photoStatus: product.photoStatus ?? "category_illustration",
       catalogAliases: product.aliases ?? [],
       importedAsCanonicalDraft: true,
+      complianceClassification:
+        product.complianceClassification ??
+        (approvedCatalogOnly ? "PUBLISH" : null),
+      publicationPolicy: approvedCatalogOnly ? "strict-v1" : null,
     };
     if (!apply) {
       const existing = await prisma.product.findUnique({
@@ -205,7 +232,11 @@ try {
         productType: productType(product.name),
         brandId: brand?.id ?? null,
         manufacturerId: manufacturer?.id ?? null,
-        status: product.catalogSource === "manufacturer" ? "ACTIVE" : "DRAFT",
+        status:
+          product.complianceClassification === "PUBLISH" ||
+          (!approvedCatalogOnly && product.catalogSource === "manufacturer")
+            ? "ACTIVE"
+            : "DRAFT",
         externalMetadata: {
           ...(existing?.externalMetadata &&
           typeof existing.externalMetadata === "object"
@@ -225,7 +256,11 @@ try {
         productType: productType(product.name),
         brandId: brand?.id ?? null,
         manufacturerId: manufacturer?.id ?? null,
-        status: product.catalogSource === "manufacturer" ? "ACTIVE" : "DRAFT",
+        status:
+          product.complianceClassification === "PUBLISH" ||
+          (!approvedCatalogOnly && product.catalogSource === "manufacturer")
+            ? "ACTIVE"
+            : "DRAFT",
         externalMetadata: metadata,
       },
     });
@@ -272,7 +307,11 @@ try {
       )
         variant = existingVariants[0];
       const variantData = {
-        status: product.catalogSource === "manufacturer" ? "ACTIVE" : "DRAFT",
+        status:
+          product.complianceClassification === "PUBLISH" ||
+          (!approvedCatalogOnly && product.catalogSource === "manufacturer")
+            ? "ACTIVE"
+            : "DRAFT",
         sku: desired.sku ?? null,
         gtin: desired.gtin ?? null,
         saleUnitId: fallbackUnit?.id ?? null,
@@ -313,9 +352,14 @@ try {
             height: media.height,
             metadata: {
               ...media.metadata,
-              publicFallbackPath: media.securePath,
+              ...(media.securePath
+                ? { publicFallbackPath: media.securePath }
+                : {}),
             },
-            status: existingMedia.normalizedStorageKey ? "READY" : "PENDING",
+            status:
+              existingMedia.normalizedStorageKey || media.securePath
+                ? "READY"
+                : "PENDING",
           },
         });
       else
@@ -326,11 +370,13 @@ try {
             altText: media.altText,
             width: media.width,
             height: media.height,
-            mimeType: media.mimeType ?? "image/webp",
-            status: "PENDING",
+            mimeType: media.mimeType ?? null,
+            status: media.securePath ? "READY" : "PENDING",
             metadata: {
               ...media.metadata,
-              publicFallbackPath: media.securePath,
+              ...(media.securePath
+                ? { publicFallbackPath: media.securePath }
+                : {}),
             },
           },
         });
@@ -352,7 +398,9 @@ try {
         searchableText: terms,
         normalizedText: terms.toLocaleLowerCase("ru"),
         facets: {
-          source: "public-catalog-fallback",
+          source: approvedCatalogOnly
+            ? "production-approved-catalog"
+            : "public-catalog-fallback",
           category: product.category,
           brand: product.brand ?? null,
         },
@@ -365,7 +413,9 @@ try {
         searchableText: terms,
         normalizedText: terms.toLocaleLowerCase("ru"),
         facets: {
-          source: "public-catalog-fallback",
+          source: approvedCatalogOnly
+            ? "production-approved-catalog"
+            : "public-catalog-fallback",
           category: product.category,
           brand: product.brand ?? null,
         },

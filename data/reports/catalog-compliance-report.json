@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-07-23T01:03:03.163Z",
+  "mode": "REPORT_ONLY",
+  "dataMutated": false,
+  "scope": {
+    "canonicalCards": 21483,
+    "approvedCards": 229,
+    "moderationCards": 21221,
+    "rejectedCards": 33
+  },
+  "result": "PASS",
+  "blockerCount": 0,
+  "reviewCount": 0,
+  "reasonCounts": {
+    "MANUFACTURER_REFERENCE_REQUIRED": 3555,
+    "EXACT_KZ_SKU_EVIDENCE_REQUIRED": 18709,
+    "CATEGORY_REQUIRED": 2368,
+    "DESCRIPTION_REQUIRED": 4800,
+    "PHOTO_REQUIRED": 4519,
+    "DESCRIPTION_REVIEW_REQUIRED": 3279,
+    "VARIANT_LABEL_REQUIRED": 1254,
+    "PHOTO_REVIEW_REQUIRED": 1050,
+    "INVALID_PRODUCT_IDENTITY": 33,
+    "KZ_MARKET_EVIDENCE_REQUIRED": 1024
+  },
+  "issues": [],
+  "controls": [
+    "Каждая каноническая карточка имеет решение PUBLISH, MODERATION или REJECT.",
+    "В продакшен допускается только PUBLISH.",
+    "PUBLISH требует точный источник KZ, точное фото, категорию, описание и артикул производителя.",
+    "Карточки без фото остаются на модерации и не удаляются.",
+    "Отчёт ничего не исправляет, не исключает и не добавляет автоматически."
+  ]
+}

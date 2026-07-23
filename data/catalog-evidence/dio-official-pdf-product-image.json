@@ -1,0 +1,67 @@
+{
+  "brand": "DIO",
+  "manufacturer": "",
+  "sourceType": "OFFICIAL_MANUFACTURER_PDF_EMBEDDED_PRODUCT_IMAGE",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialPdfHashPinned": true,
+    "embeddedImageHashPinned": true,
+    "pageScreenshotsForbidden": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 1,
+    "recovered": 1,
+    "recoveredThisRun": 1,
+    "retainedFromPreviousRuns": 0,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "DENTI-KZ-DIO-10089",
+      "brand": "DIO",
+      "manufacturer": "",
+      "name": "DIOnavi-C&B Z фотополимерный материал",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "listingOfferId": "10091",
+          "name": "DIOnavi-C&B Z фотополимерный материал (DIO-3DCNBF-1000A2)",
+          "label": "DIOnavi-C&B Z фотополимерный материал (DIO-3DCNBF-1000A2)",
+          "manufacturerRef": "",
+          "variantLabel": "DIOnavi-C&B Z фотополимерный материал (DIO-3DCNBF-1000A2)",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "listingOfferId": "10092",
+          "name": "DIOnavi-C&B Z фотополимерный материал (DIO-3DCNBF-1000A3)",
+          "label": "DIOnavi-C&B Z фотополимерный материал (DIO-3DCNBF-1000A3)",
+          "manufacturerRef": "",
+          "variantLabel": "DIOnavi-C&B Z фотополимерный материал (DIO-3DCNBF-1000A3)",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "laboratornoe oborudovanie / raskhoduemyy material_1 / dionavi c b z fotopolimernyy material",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-dio-dionavi-cb-z-dba208dc6e.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-dio-dionavi-cb-z-dba208dc6e.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://denti.kz/orders/blank_zakaza/laboratornoe-oborudovanie/raskhoduemyy-material_1/dionavi-c-b-z-fotopolimernyy-material/",
+      "kzEvidence": "EXACT_KZ_SPECIALIZED_MARKETPLACE_LISTING",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_PRODUCT_IMAGE",
+        "officialPdfUrl": "https://diodigital.co.jp/_userdata/proboz.pdf",
+        "officialPdfPage": 14,
+        "officialPdfSha256": "300d2919e6419aabcbe0168e3c49bd86f7eca4db2d7743c337b6fed2fb7be83d",
+        "embeddedImageSha256": "0c00e6166fb99f91a8fb0210d4e0c27f6ef407366a7e89f30b33ec364d4e48a0",
+        "sha256": "dba208dc6e875d49b78dcefdf89fa23013302771eeddb44fd42d25e36c10c715",
+        "bytes": 140743,
+        "contentType": "image/png"
+      }
+    }
+  ]
+}

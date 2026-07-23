@@ -1,0 +1,149 @@
+brand,manufacturerEvidenceProducts,publicProducts,evidenceSources,classificationStatus,classificationReason,status
+Винар,6,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+ВладМиВа,2398,0,vladmiva-dental-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Гекса,3,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Дельтика,4,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+ЗАО Бинергия,25,0,binergia-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+КМИЗ,97,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Кормед,37,0,cormed-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Линтэкс,20,0,lintex-manufacturer-catalog.json | denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+МедиДез,49,0,medidez-kz-catalog.json | denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Целит,22,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Aes,1,0,aes-kz-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Ajax,63,0,ajax-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Alpha-Bio Tec,261,0,alpha-bio-kz-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Amazing White,25,0,amazing-white-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Anthos,51,0,anthos-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+AS-US,1,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Averon,811,0,averon-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+BEGO,1917,0,bego-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+BiLumix,25,0,bilumix-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+BIOLA,1,0,biola-kz-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Biomaterials Korea,27,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+BISCO,82,25,bisco-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+BlancOne,11,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Castellini,49,0,castellini-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+ChoiceTech,6,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+CICADA,52,7,cicada-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Clean+Safe,5,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Coral,7,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Cotisen,34,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+COXO,50,44,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Dental Air,1,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Dental Art,19,0,dental-art-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Dental X,39,0,dental-x-regional-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+DentKist,26,6,dentkist-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Dentsply Sirona,105,15,dentsply-sirona-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+DENU,46,0,denu-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+DIO,211,0,dio-manufacturer-catalog.json | denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Diplomat Dental,12,0,diplomat-dental-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Doctor Smile,17,0,doctor-smile-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+DOF,2,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Dräger,12,0,draeger-anesthesia-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Dürr Dental,84,0,durr-dental-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+EKOM,1,30,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+EMS,3,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+ESCO Medical,13,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Falcon,4307,0,falcon-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Ferroplast,2,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+FOMOS,20,11,fomos-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Gapadent,11,0,gapadent-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+GC,154,13,gc-europe-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Genoray,9,0,genoray-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Good Doctors,41,0,good-doctors-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+GoodnDoc,19,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+GRT,0,0,,AMBIGUOUS_COMMERCIAL_LABEL_NO_VERIFIED_MANUFACTURER,"LIRA Medical Group uses GRT as a catalogue section/brand claim, but does not identify a legal manufacturer or publish an attributable SKU catalogue; search results for dental GRT do not establish that it is GDT Implants, so the names must not be merged.",MARKET_LABEL_CLASSIFIED_NO_CANONICAL_CATALOG
+Handy,10,0,handy-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Humanchemie,30,0,humanchemie-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Hummer-Pak,0,1,,AMBIGUOUS_MARKET_LABEL_EXACT_KZ_CARD_PRESERVED,"The Kazakhstan listing identifies Hummer-Pak and article СКТ-5, but no attributable legal manufacturer or current official SKU catalogue could be verified. The exact observed card remains available for supplier-price matching and manual identity review; no additional cards are invented.",MARKET_LABEL_CLASSIFIED_NO_CANONICAL_CATALOG
+Huons,2,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+IMD,70,9,imd-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Inci Dental,1,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Interdent,64,64,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+IQ Dent,203,17,iqdent-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Ivoclar,107,8,ivoclar-russia-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+JINY,4,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Johnson & Johnson,0,0,,STALE_SOURCE_LABEL_NOT_CURRENT_DENTAL_BRAND_FILTER,The current Denti.kz brand filter has no exact Johnson & Johnson entry. A conglomerate name without a current dental SKU source cannot generate a canonical dental catalogue.,MARKET_LABEL_CLASSIFIED_NO_CANONICAL_CATALOG
+Kaeser,6,0,kaeser-dental-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+KaVo,80,0,kavo-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Kerr,31,4,kerr-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Kettenbach,10,5,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+KINGFA Medical,1,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+KO-MAX,4,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+KristiDent,16,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Kulzer,249,16,kulzer-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Kuraray Noritake,49,5,kuraray-noritake-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+LaTus,151,5,latus-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+LM Dental,362,11,lm-dental-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Madespa,43,0,madespa-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Majestic,110,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+MEDESY,433,0,medesy-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Medexim,0,0,,EXPORTER_DISTRIBUTOR_NOT_DENTAL_PRODUCT_BRAND,"Medexim's dental compressor pages explicitly identify EKOM equipment. EKOM is already represented as the manufacturer brand, so duplicating the same products under Medexim would create false brand cards.",MARKET_LABEL_CLASSIFIED_NO_CANONICAL_CATALOG
+Medit,12,0,medit-manufacturer-catalog.json | denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+MedPark,6,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Medprotect,2,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+MELAG,83,0,melag-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Mercury,108,0,mercury-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+MGF,312,0,mgf-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Miglionico,7,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Miradent,3,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Morita,33,0,morita-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+MustDent,0,0,,KAZAKHSTAN_SUPPLIER_NOT_MANUFACTURER_BRAND,"MustDent is a Kazakhstan wholesale legal entity/importer. The current Denti.kz brand filter has no exact MustDent entry, and supplier catalogue paths must not be converted into a manufacturer brand.",MARKET_LABEL_CLASSIFIED_NO_CANONICAL_CATALOG
+Myobrace,22,0,myobrace-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+MyRay,18,0,myray-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+NIC,68,2,nic-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+NSK,70,9,nsk-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+NTI,721,0,nti-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Nuvo,0,0,,PRODUCT_LINE_LABEL_MANUFACTURER_IDENTITY_REQUIRED,The Kazakhstan observation is a Nuvo surgical suit listing. It does not establish a dental manufacturer identity or a standalone manufacturer SKU catalogue.,MARKET_LABEL_CLASSIFIED_NO_CANONICAL_CATALOG
+Olident,40,0,olident-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Omega Dent,24,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+One Drop Only,8,6,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Ordamed,0,0,,KAZAKHSTAN_DISTRIBUTOR_NOT_MANUFACTURER_BRAND,Ordamed is a Kazakhstan medical equipment distributor/company. Products must be attributed to their actual manufacturers instead of creating an Ordamed manufacturer catalogue.,MARKET_LABEL_CLASSIFIED_NO_CANONICAL_CATALOG
+Ormco,15,3,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Osstem,60,0,osstem-kz-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+OSUNG MND,1652,0,osung-manufacturer-catalog.json | denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Pierrot,24,0,pierrot-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Planmeca,3,7,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Plasmapp,6,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+President,8,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+RAY,88,0,ray-manufacturer-catalog.json | denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Revyline,208,0,revyline-kz-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Saeshin,38,0,saeshin-manufacturer-catalog.json | denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Sanavita,1,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Sanctuary,1,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Sani,28,0,sani-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Septodont,55,0,septodont-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Shenzhen Perfect,15,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Shinhung,7,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+SHINING 3D,40,0,shining3d-manufacturer-catalog.json | denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Shofu,97,1,shofu-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+SIGER,8,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Sigmadent SD Ceram,11,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+SOCO,6,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Solventum,246,6,solventum-dental-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+StomaDent,5,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Strauss,1798,0,strauss-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Suntem,11,0,suntem-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Tealth,98,9,tealth-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Thelavicos,14,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+TOBOOM,1058,0,toboom-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Tokuyama Dental,21,14,nordstom-full-catalog.json | denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Tor VM,103,1,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+TORNADO,0,6,,DURR_DENTAL_PRODUCT_LINE_ALIAS,"TORNADO is an official compressor product line of Dürr Dental, not a separate manufacturer brand. Existing Kazakhstan observations are preserved and reconciled against the structured Dürr Dental catalogue instead of creating duplicate brand cards.",MARKET_LABEL_CLASSIFIED_NO_CANONICAL_CATALOG
+Ultradent,185,5,ultradent-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+UP3D,19,0,up3d-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+VDW,35,6,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Vericom,31,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+VITA,80,17,vita-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+VOCO,166,12,voco-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+VRN,40,6,vrn-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+VT Cosmetics,1,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+W&H,63,5,wh-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Wellmed,7,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Woodpecker,145,2,woodpecker-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Xpect Vision,1,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+XTCERA,4,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+YouJoy,33,3,youjoy-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Zhermack,94,0,zhermack-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+ZION,36,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
+ZT Dental,107,1,ztdental-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED

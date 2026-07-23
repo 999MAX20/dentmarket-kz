@@ -1,0 +1,720 @@
+{
+  "brand": "Osstem",
+  "manufacturer": "Osstem Implant Co., Ltd.",
+  "sourceType": "OFFICIAL_OSSTEM_REGIONAL_PRODUCT_PAGES",
+  "sourceUrl": "https://www.osstem.ru/",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialRegionalManufacturerPagesOnly": true,
+    "exactOrUniqueProductIdentityRequired": true,
+    "galleryProductImageOnly": true,
+    "ambiguousMatchesRemainOnModeration": true
+  },
+  "totals": {
+    "sitemapPages": 329,
+    "productPagesWithGallery": 66,
+    "targets": 60,
+    "recovered": 21,
+    "review": 39,
+    "pageErrors": 17
+  },
+  "products": [
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-122-TAPER-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "122 TAPER KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "122 TAPER KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/9f1/em9aa5yah5dahjr12zdafbqv7cqpsjsi/1000_0_1/122-Taper_Kit-30-copy.jpg",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/9f1/em9aa5yah5dahjr12zdafbqv7cqpsjsi/1000_0_1/122-Taper_Kit-30-copy.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/for-placement/122-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "122 KIT",
+        "score": 40,
+        "matchedIdentityTokens": [
+          "122"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/hirurgicheskie-nabory-/dlya-ustanovki-implantatov/122-taper-kit"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-ABATMENT-CONVERTIBLE",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Абатмент CONVERTIBLE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Абатмент CONVERTIBLE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/9b4/1000_0_1/i497hsiygekkt913aikucpn2ixe1qout.jpg",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/9b4/1000_0_1/i497hsiygekkt913aikucpn2ixe1qout.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ts-prostetics/convertible/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "Convertible абатмент",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "convertible"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/sistema-implantatov-/protetika/abatment-convertible"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-ABATMENT-FREEFORM-ST",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Абатмент FREEFORM ST",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Абатмент FREEFORM ST",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/2d2/1000_0_1/mfutk1ac1rxpzf17bi0b80imdwjs0man.jpg",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/2d2/1000_0_1/mfutk1ac1rxpzf17bi0b80imdwjs0man.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ts-prostetics/freeform/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "FreeForm абатмент",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "freeform"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/sistema-implantatov-/protetika/abatment-freeform-st"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-ABATMENT-GOLDCAST",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Абатмент GOLDCAST",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Абатмент GOLDCAST",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/c30/1000_0_1/plvgnikb7kir7lwcgi99xrpuwcmmd06j.jpg",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/c30/1000_0_1/plvgnikb7kir7lwcgi99xrpuwcmmd06j.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ts-prostetics/goldcast/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "GoldCast абатмент",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "goldcast"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/sistema-implantatov-/protetika/abatment-goldcast"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-ABATMENT-MULTI",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Абатмент MULTI",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Абатмент MULTI",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/1e9/1000_0_1/r5mxhf43kxz6w57lik4ry6o5fcjzcrz5.png",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/1e9/1000_0_1/r5mxhf43kxz6w57lik4ry6o5fcjzcrz5.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ts-prostetics/ts-multi-ti-base/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "TS Multi Ti Base",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "multi"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/sistema-implantatov-/protetika/abatment-multi"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-ABATMENT-NP-CAST",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Абатмент NP CAST",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Абатмент NP CAST",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/190/1000_0_1/jq5ynhfqojpjun8wj8bckxutoe0ug8sx.jpg",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/190/1000_0_1/jq5ynhfqojpjun8wj8bckxutoe0ug8sx.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ts-prostetics/np-cast/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "Np-cast абатмент",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "cast"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/sistema-implantatov-/protetika/abatment-np-cast"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-ABATMENT-STUD",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Абатмент STUD",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Абатмент STUD",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/4df/1000_0_1/55g7jp2hw8ce5sv892fz8aqupx4fbeup.jpg",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/4df/1000_0_1/55g7jp2hw8ce5sv892fz8aqupx4fbeup.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ts-prostetics/stud/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "Stud абатмент",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "stud"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/sistema-implantatov-/protetika/abatment-stud"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-ABATMENT-TRANSFER",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Абатмент TRANSFER",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Абатмент TRANSFER",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/111/1000_0_1/6qqefb6to3jdpdoku4vj251xm3jheblg.jpg",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/111/1000_0_1/6qqefb6to3jdpdoku4vj251xm3jheblg.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ts-prostetics/transfer/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "Transfer абатмент",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "transfer"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/sistema-implantatov-/protetika/abatment-transfer"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-VREMENNYJ-ABATMENT-PLASTIKOVYJ",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Временный Абатмент пластиковый",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Временный Абатмент пластиковый",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/ddb/1000_0_1/1bbo70c573s0j3nvv1mlhwt20hs02dj6.jpg",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/ddb/1000_0_1/1bbo70c573s0j3nvv1mlhwt20hs02dj6.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ts-prostetics/temp-plastic/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "Временный пластиковый абатмент",
+        "score": 180,
+        "matchedIdentityTokens": [
+          "временныи",
+          "пластиковыи"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/sistema-implantatov-/protetika/vremennyj-abatment-plastikovyj"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-VREMENNYJ-ABATMENT-TITANOVYJ",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "Временный Абатмент титановый",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Временный Абатмент титановый",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/945/1000_0_1/l1gh8jixsw68v42oxfopvx6v7cdwp6dr.jpg",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/945/1000_0_1/l1gh8jixsw68v42oxfopvx6v7cdwp6dr.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ts-prostetics/temp-titanium/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "Временный титановый абатмент",
+        "score": 180,
+        "matchedIdentityTokens": [
+          "временныи",
+          "титановыи"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/sistema-implantatov-/protetika/vremennyj-abatment-titanovyj"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-UGLOVOJ-ABATMENT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "угловой Абатмент",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "угловой Абатмент",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "SISTEMA IMPLANTATOV",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/032/1000_0_1/20usxju175q6zttlhp4p90ymvgzfk939.png",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/032/1000_0_1/20usxju175q6zttlhp4p90ymvgzfk939.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/implants/ss-prostetics/abatment-uglovoy-comocta-angled/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "Абатмент угловой ComOcta Angled",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "угловои"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/sistema-implantatov-/protetika/uglovoj-abatment"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-AUTOBONE-COLLECTOR-1",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "AUTOBONE COLLECTOR 1",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AUTOBONE COLLECTOR 1",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "NKR 11",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/iblock/18c/gy32209f3t9gr0tixrkl8wfb7fd68tdp.jpg",
+      "imageUrls": "https://www.osstem.ru/upload/iblock/18c/gy32209f3t9gr0tixrkl8wfb7fd68tdp.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/dbr/autobone-collector/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "Autobone collector",
+        "score": 180,
+        "matchedIdentityTokens": [
+          "autobone",
+          "collector"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/nkr-11/autobone-collector/autobone-collector-1"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-CAS-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "CAS KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CAS KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/251/1000_0_1/swszp9wip4v0jpfc25x8yj415kv5h9ua.png",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/251/1000_0_1/swszp9wip4v0jpfc25x8yj415kv5h9ua.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/bone-plastic/cas-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "CAS KIT",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "cas"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/hirurgicheskie-nabory-/dlya-kostnoj-plastiki/cas-kit"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-ESSET-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "ESSET KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ESSET KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/iblock/949/znp4h3wldd01tfba1x6l4p0av5vrn0in/ESSET_copy.png",
+      "imageUrls": "https://www.osstem.ru/upload/iblock/949/znp4h3wldd01tfba1x6l4p0av5vrn0in/ESSET_copy.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/bone-plastic/esset-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "Esset KIT",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "esset"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/hirurgicheskie-nabory-/dlya-kostnoj-plastiki/esset-kit"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-HYSIL-2",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "HYSIL 2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "HYSIL 2",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "OTTISKNOJ материал",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/e43/llkd4pg5ebltvghylig5lmi9n04mx3pg/1000_0_1/s_02.png",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/e43/llkd4pg5ebltvghylig5lmi9n04mx3pg/1000_0_1/s_02.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/slepochnye-materialy/hysil/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "Hysil",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "hysil"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/ottisknoj-material-/hysil/hysil-2"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-LAS-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "LAS KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LAS KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/ce3/1000_0_1/k3hh4tqpdou1pcqo84j9um208pknum0x.png",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/ce3/1000_0_1/k3hh4tqpdou1pcqo84j9um208pknum0x.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/bone-plastic/las-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "LAS KIT",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "las"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/hirurgicheskie-nabory-/dlya-kostnoj-plastiki/las-kit"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-ONECAS-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "ONECAS KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ONECAS KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/a78/1000_0_1/tp7dmzwqrglrk9134kz5z20eyjeygwuq.png",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/a78/1000_0_1/tp7dmzwqrglrk9134kz5z20eyjeygwuq.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/hirurgiya-po-shablonam/one-cas-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "OneCAS KIT",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "onecas"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/hirurgicheskie-nabory-/hirurgiya-po-shablonam/onecas-kit"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-OSSBUILDER",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "OSSBUILDER",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OSSBUILDER",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "NKR 11",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/fb0/1000_0_1/1h0cb6ju2escs7o5xfg9tqyfambwtil1.png",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/fb0/1000_0_1/1h0cb6ju2escs7o5xfg9tqyfambwtil1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/bone-plastic/ossbuilder-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "OssBuilder KIT",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "ossbuilder"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/nkr-11/membrany/ossbuilder"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-OSSBUILDER-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "OSSBUILDER KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OSSBUILDER KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/fb0/1000_0_1/1h0cb6ju2escs7o5xfg9tqyfambwtil1.png",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/fb0/1000_0_1/1h0cb6ju2escs7o5xfg9tqyfambwtil1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/bone-plastic/ossbuilder-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "OssBuilder KIT",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "ossbuilder"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/hirurgicheskie-nabory-/dlya-kostnoj-plastiki/ossbuilder-kit"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-PARALLEL-GUIDE-KIT",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "PARALLEL GUIDE KIT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PARALLEL GUIDE KIT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Хирургические NABORY",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/c78/1000_0_1/mrlodbzmpjlmcab5x9o7horyuxgz57yy.png",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/c78/1000_0_1/mrlodbzmpjlmcab5x9o7horyuxgz57yy.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/surgery-kits/hirurgiya-po-shablonam/parallel-guide-kit/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "Parallel Guide KIT",
+        "score": 180,
+        "matchedIdentityTokens": [
+          "parallel",
+          "guide"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/hirurgicheskie-nabory-/hirurgiya-po-shablonam/parallel-guide-kit"
+      }
+    },
+    {
+      "officialProductId": "OSSTEM-GLOBAL-CANON-OSSTEM-SUREOSS",
+      "brand": "Osstem",
+      "manufacturer": "OSSTEM IMPLANT Co., Ltd.",
+      "name": "SUREOSS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SUREOSS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "NKR 11",
+      "description": "",
+      "sourceImageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/595/1000_0_1/mdh1s3819vv0icptubicf3tmpbll8vy2.png",
+      "imageUrls": "https://www.osstem.ru/upload/resize_cache/iblock/595/1000_0_1/mdh1s3819vv0icptubicf3tmpbll8vy2.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.osstem.ru/dbr/bone-materials/sureoss/",
+      "kzEvidence": "EXACT_PRODUCT_FAMILY_ON_OSSTEM_KAZAKHSTAN_SITE",
+      "status": "RECOVERED_FROM_OFFICIAL_OSSTEM_REGIONAL_PAGE",
+      "recovery": {
+        "pageTitle": "SureOss",
+        "score": 155,
+        "matchedIdentityTokens": [
+          "sureoss"
+        ],
+        "originalKazakhstanSourcePageUrl": "https://osstem.kz/nkr-11/kostnyj-material/sureoss"
+      }
+    }
+  ]
+}

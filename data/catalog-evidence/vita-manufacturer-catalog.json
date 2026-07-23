@@ -1,0 +1,2126 @@
+{
+  "brand": "VITA",
+  "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+  "sourceType": "CURRENT_OFFICIAL_ENGLISH_PRODUCT_SITEMAP",
+  "sourceUrl": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "activeDeepProductPagesCollected": true,
+    "archivePagesExcluded": true,
+    "genericLogoNeverAcceptedAsProductPhoto": true,
+    "noManufacturerReferenceInvented": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "sitemapProductPages": 85,
+    "discoveredProducts": 80,
+    "variantSkus": 80,
+    "productsWithImages": 77,
+    "productsWithReferences": 0,
+    "crawlErrors": 5
+  },
+  "errors": [
+    {
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Shade-determination/Digital-solutions/VITA-Easyhade-Downloads-Altgeraete-49334,27568.html",
+      "error": "403 Forbidden"
+    },
+    {
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/System-components/VITA-VACUMAT-6000-M-327816,27568.html",
+      "error": "403 Forbidden"
+    },
+    {
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/System-components/VITAPAN-EXCELL-Anteriores-VITA-classica-328008,27568.html",
+      "error": "403 Forbidden"
+    },
+    {
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/System-components/VITA-PHYSIODENS-Anteriores-VITA-classic-328040,27568.html",
+      "error": "403 Forbidden"
+    },
+    {
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/System-components/VITA-YZ-T-COLORING-LIQUIDS-328328,27568.html",
+      "error": "403 Forbidden"
+    }
+  ],
+  "products": [
+    {
+      "officialProductId": "VITA-119817",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "AKZENT LC",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "AKZENT LC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AKZENT LC",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Characterization / Composite-stains",
+      "description": "VITA AKZENT® LC stain and glaze system Reproducing individual shade effects with VITA AKZENT® LC: light-curing stains for composite, polymer and hybrid ceramic",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb5/bb5b52/Buehne_AKZENT-LC.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb5/bb5b52/Buehne_AKZENT-LC.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Characterization/Composite-stains/VITA-AKZENT-LC-119817,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-24670",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "AKZENT Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "AKZENT Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AKZENT Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Characterization / Ceramic-stains",
+      "description": "VITA AKZENT PLUS materials are fluorescent ceramic stain materials that can be&nbsp;used for internal coloring during layering, or external stain-glazing and glazing,&nbsp;regardless of the CTE.The stains and glazes are&nbsp;available in different formulations, as a powder, paste or spray.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb3/bb3b56/Buehne_Akzent-Plus_Aufsicht.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb3/bb3b56/Buehne_Akzent-Plus_Aufsicht.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Characterization/Ceramic-stains/VITA-AKZENT-Plus-24670,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-132674",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "Aufbewahrung",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Aufbewahrung",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Aufbewahrung",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Accessories",
+      "description": "The VITA MODULBOX is a modular A3-sized system for long-term, clearly-arranged and material-appropriate storage of VITA products in laboratories and dental practices.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/k/kk2/kk2k30/Buehne_Zubehoer_Modulbox.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/k/kk2/kk2k30/Buehne_Zubehoer_Modulbox.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Accessories/VITA-Modulbox-132674,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-132579",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "Aufbewahrung",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Aufbewahrung",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Aufbewahrung",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / Accessories",
+      "description": "The VITA MODULBOX is a modular A3-sized system for long-term, clearly-arranged and material-appropriate storage of VITA products in laboratories and dental practices.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/k/kk2/kk2k30/Buehne_Zubehoer_Modulbox.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/k/kk2/kk2k30/Buehne_Zubehoer_Modulbox.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/Accessories/VITA-Modulbox-132579,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-38740",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "CAD-Temp IS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CAD-Temp IS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CAD-Temp IS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Implant-supported-restorations",
+      "description": "VITA CAD-Temp IS are blanks comprised of composite, which feature an integrated interface for an&nbsp;adhesive/titanium base.&nbsp;Available as VITA CAD-Temp IS composite for temporary restorations.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc3/cc3c49/cc3c49c305/Buehne_CAD_Temp-IS.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc3/cc3c49/cc3c49c305/Buehne_CAD_Temp-IS.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Implant-supported-restorations/VITA-CAD-Temp-IS-38740,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-25300",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "CAD-Temp monoColor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CAD-Temp monoColor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CAD-Temp monoColor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Temporary-restoration / aids",
+      "description": "VITA CAD-Temp monoColor is a monochromatic composite made&nbsp;of highly cross-linked acrylate polymer with microfiller for the&nbsp;fabrication of long-term temporary restorations.&nbsp;It can be used to&nbsp;fabricate temporary bridge restorations with up to two pontics&nbsp;and temporary crowns in the posterior region.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc3/cc3c49/CAD-Temp_mono_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc3/cc3c49/CAD-Temp_mono_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Temporary-restoration/aids/VITA-CAD-Temp-monoColor-25300,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-25330",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "CAD-Temp multiColor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CAD-Temp multiColor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CAD-Temp multiColor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Temporary-restoration / aids",
+      "description": "VITA CAD-Temp multiColor composite blocks and discs are made&nbsp;of highly cross-linked acrylate polymer with microfiller for the&nbsp;fabrication of long-term temporary restorations.&nbsp;The tooth-colored VITA CAD-Temp blanks impress with their&nbsp;natural shade effect, fracture strength and long-term stability.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc3/cc3c50/Buehne_CAD_Temp_multi_mono_Color_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc3/cc3c50/Buehne_CAD_Temp_multi_mono_Color_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Temporary-restoration/aids/VITA-CAD-Temp-multiColor-25330,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-24970",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "ENAMIC",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ENAMIC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ENAMIC",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Single-tooth-restoration",
+      "description": "VITA ENAMIC is a monochromatic CAD/CAM block that is available in&nbsp;three translucency levels (T, HT, ST). If you are looking for the&nbsp;perfect inlay, onlay or tabletop material for your daily practice,&nbsp;look no further than VITA ENAMIC ST.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc0/cc0c01/Buehne_ENAMIC.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc0/cc0c01/Buehne_ENAMIC.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Single-tooth-restoration/VITA-ENAMIC-24970,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-38678",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "ENAMIC IS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ENAMIC IS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ENAMIC IS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Implant-supported-restorations",
+      "description": "VITA ENAMIC IS are blanks comprised of hybrid ceramic, which feature an integrated interface&nbsp;for an adhesive/titanium base.&nbsp;Available as VITA ENAMIC IS hybrid ceramic (T/HT) for permanent&nbsp;reconstructions.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc0/cc0c01/cc0c01c009/Buehne_ENAMIC-IS.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc0/cc0c01/cc0c01c009/Buehne_ENAMIC-IS.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Implant-supported-restorations/VITA-ENAMIC-IS-38678,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-55319",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "ENAMIC multiColor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ENAMIC multiColor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ENAMIC multiColor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Single-tooth-restoration",
+      "description": "VITA ENAMIC multiColor is a multichromatic CAD/CAM blank with an integrated color and translucency gradient for esthetic reconstructions at the touch of a button.&nbsp;The state-of-the-art material with a unique dual network structure offers numerous processing advantages.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc0/cc0c02/Buehne_ENAMIC_multiColor.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc0/cc0c02/Buehne_ENAMIC_multiColor.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Single-tooth-restoration/VITA-ENAMIC-multiColor-55319,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-132547",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "Fl&uuml;ssigkeiten",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fl&uuml;ssigkeiten",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Fl&uuml;ssigkeiten",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / Accessories",
+      "description": "Modeling liquids for outstanding stability when layering dental ceramics.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb8/Buehne_Fluessigkeiten_Verblendmaterial.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb8/Buehne_Fluessigkeiten_Verblendmaterial.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/Accessories/Liquids-for-Veneering-Materials-132547,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-24640",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "INTERNO",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "INTERNO",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "INTERNO",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Characterization / Ceramic-stains",
+      "description": "The VITA INTERNO ceramics enable the ceramist to achieve an even more perfect reproduction of in-depth shade effects.&nbsp;The VITA INTERNO porcelains are fine-grained and strongly fluorescent and are distinguished by their shade intensity.&nbsp;These porcelains&nbsp;enable the user to reproduce natural shade effe",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb3/bb3b50/Buehne_Interno_Aufsicht.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb3/bb3b50/Buehne_Interno_Aufsicht.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Characterization/Ceramic-stains/VITA-INTERNO-24640,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-50388",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "LINGOFORM Posterior",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LINGOFORM Posterior",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LINGOFORM Posterior",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Teeth-carded / Premium-prosthetics",
+      "description": "VITAPAN LINGOFORM is a contoured posterior tooth made of MRP composite that perfectly combines function and esthetics. The occlusal surfaces in the lower jaw have a functional cusp inclination. In the&nbsp;upper jaw, the slightly deeper occlusal surface reliefs are modeled after nature&nbsp;without impairing",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa2/aa2a23/aa2a23a251/VITAPAN_LINGOFORM_640_324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa2/aa2a23/aa2a23a251/VITAPAN_LINGOFORM_640_324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Teeth-carded/Premium-prosthetics/VITAPAN-LINGOFORM-Posterior-50388,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-87902",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "LUMEX AC",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LUMEX AC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LUMEX AC",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / All-ceramics",
+      "description": "Process veneering ceramic efficiently and precisely, thanks to the ideal modeling properties, outstanding shape stability and universal applicability for all substructure ceramics.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb1/bb1b10/Buehne_LUMEX.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb1/bb1b10/Buehne_LUMEX.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/All-ceramics/VITA-LUMEX-AC-87902,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-323355",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "LUMEX UNIQUE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LUMEX UNIQUE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LUMEX UNIQUE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / Liquid-Ceramic",
+      "description": "Process veneering ceramic efficiently and precisely, thanks to the ideal modeling properties, outstanding shape stability and universal applicability for all substructure ceramics.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb1/bb1b11/VITA_LUMEX_UNIQUE_HG_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb1/bb1b11/VITA_LUMEX_UNIQUE_HG_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/Liquid-Ceramic/VITA-LUMEX-UNIQUE-323355,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-331176",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "LUMEX UNIQUE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LUMEX UNIQUE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LUMEX UNIQUE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Characterization / Liquid-Ceramic",
+      "description": "Process veneering ceramic efficiently and precisely, thanks to the ideal modeling properties, outstanding shape stability and universal applicability for all substructure ceramics.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb1/bb1b11/VITA_LUMEX_UNIQUE_HG_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb1/bb1b11/VITA_LUMEX_UNIQUE_HG_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Characterization/Liquid-Ceramic/VITA-LUMEX-UNIQUE-331176,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-25030",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "Mark II",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Mark II",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Mark II",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Single-tooth-restoration",
+      "description": "VITABLOCS Mark II are monochromatic, tooth-colored feldspar blanks&nbsp;that integrate impressively into the remaining tooth substance and are very&nbsp;well suited for processing esthetic reconstructions.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc1/cc1c10/Buehne_VITABLOCS_Mark-II.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc1/cc1c10/Buehne_VITABLOCS_Mark-II.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Single-tooth-restoration/VITABLOCS-Mark-II-25030,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-322995",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "PHYSIODENS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PHYSIODENS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PHYSIODENS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Teeth-carded / Premium-prosthetics",
+      "description": "VITA PHYSIODENS are premium denture teeth made of MRP composite with intricate, lifelike moulds and a lively play of light for harmonious integration into the remaining dentition.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa2/aa2a21/aa2a21a220/Produktseite-Physiodens_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa2/aa2a21/aa2a21a220/Produktseite-Physiodens_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Teeth-carded/Premium-prosthetics/VITA-PHYSIODENS-322995,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-25120",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "RealLife",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "RealLife",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RealLife",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Single-tooth-restoration",
+      "description": "VITABLOCS RealLife are polychromatic, tooth-colored feldspar&nbsp;blanks with an integrated 3D layer structure that reproduce&nbsp;the natural shade gradient.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc1/cc1c13/Buehne_VITABLOCS_RealLife.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc1/cc1c13/Buehne_VITABLOCS_RealLife.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Single-tooth-restoration/VITABLOCS-RealLife-25120,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-26830",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "SPRAY ON",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SPRAY ON",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SPRAY ON",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / Accessories",
+      "description": "VITA SPRAY-ON&nbsp;is used to spray dental ceramic powder opaque materials onto metal alloy and titanium substructures. A compressed air spray gun is used to spray on a uniformly thin covering layer of opaque material. Materials which have already been mixed can be kept in the glass bottles supplied with",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb9/bb9b90/bb9b90b902/Buehne_Spray-On.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb9/bb9b90/bb9b90b902/Buehne_Spray-On.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/Accessories/VITA-SPRAY-ON-26830,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-25090",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "TriLuxe forte",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "TriLuxe forte",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TriLuxe forte",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Single-tooth-restoration",
+      "description": "VITABLOCS TriLuxe forte with integrated four-layer shade gradient makes&nbsp;optimized reproduction of the natural play of colors possible in the esthetic zone.&nbsp;Chairside treatments can be performed easily and efficiently in just one session.&nbsp;The four-layer shade gradient also ensures highly esthetic res",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc1/cc1c14/Buehne_VITABLOC_TriLuxe-forte_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc1/cc1c14/Buehne_VITABLOC_TriLuxe-forte_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Single-tooth-restoration/VITABLOCS-TriLuxe-forte-25090,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-121345",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VIONIC BASE DISC HI",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VIONIC BASE DISC HI",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VIONIC BASE DISC HI",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Digital-Dentures / Milling",
+      "description": "VITA VIONIC BASE are pre-colored premium quality PMMA disc for the fabrication&nbsp;of final denture bases.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a60/aa7a60a601/Buehne-VIONIC-BASE-DISC-HI_640x324px.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a60/aa7a60a601/Buehne-VIONIC-BASE-DISC-HI_640x324px.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/Milling/VITA-VIONIC-BASE-DISC-HI-121345,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-331986",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VIONIC BASE RESIN FLEX",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VIONIC BASE RESIN FLEX",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VIONIC BASE RESIN FLEX",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Digital-Dentures / 3D-printing",
+      "description": "Today, digital prosthetics offer more than just full dentures: VITA VIONIC BASE RESIN FLEX enables the fabrication of flexible partial dentures for temporary use – with precision, efficiency and comfort. This innovative printing material is approved as a Class IIa medical device and offers stabilit",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/hh1/hh1h10/hh1h10h130/VITA-VIONIC-BASE-RESIN-FLEX_pink_verbiegen_640x324.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/hh1/hh1h10/hh1h10h130/VITA-VIONIC-BASE-RESIN-FLEX_pink_verbiegen_640x324.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/3D-printing/VITA-VIONIC-BASE-RESIN-FLEX-331986,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-328539",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VIONIC BASE RESIN IMPACT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VIONIC BASE RESIN IMPACT",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VIONIC BASE RESIN IMPACT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Digital-Dentures / 3D-printing",
+      "description": "Take 3D printing to the next quality level with VITA VIONIC BASE RESIN IMPACT, an impactresistant printing material for removable denture bases. The excellent impact resistance of the product reduces the risk of breaking under stress. In addition to the fracture work, the high flexural strength and",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/hh1/hh1h10/xhh1h10h110/WF_Stuetzstruktur-Base-89_640x324.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/hh1/hh1h10/xhh1h10h110/WF_Stuetzstruktur-Base-89_640x324.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/3D-printing/VITA-VIONIC-BASE-RESIN-IMPACT-328539,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-48155",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VIONIC BOND",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VIONIC BOND",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VIONIC BOND",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Digital-Dentures / Accessories",
+      "description": "VITA VIONIC BOND&nbsp;is a MMA-based self-curing two-component bonding system&nbsp;for fixation of denture teeth in denture bases.&nbsp;It has a low-viscosity consistency for precise application to the adhesive surface and forms a reactive boundary layer on the adhesive surfaces for a secure bond. VITA VIONIC BON",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a80/aa7a80a800/Buehne_VIONIC-BOND-multiDose-COMPLETE_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a80/aa7a80a800/Buehne_VIONIC-BOND-multiDose-COMPLETE_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/Accessories/VITA-VIONIC-BOND-48155,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-324199",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VIONIC DENT RESIN",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VIONIC DENT RESIN",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VIONIC DENT RESIN",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Digital-Dentures / 3D-printing",
+      "description": "Economically printed dental arches and elements that have a high abrasion resistance and remarkable stability, and also meet modern, esthetic demands – VITA VIONIC DENT RESIN makes this possible. VITA PERFECT MATCH offers shade-stable results:You can choose from eight VITA classical shades and the",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/hh1/hh1h10/xhh1h10h120/Prothesenzaehne_2_Zahnkraenze-10_640x324.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/hh1/hh1h10/xhh1h10h120/Prothesenzaehne_2_Zahnkraenze-10_640x324.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/3D-printing/VITA-VIONIC-DENT-RESIN-324199,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-132846",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VIONIC DIGITAL VIGO",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VIONIC DIGITAL VIGO",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VIONIC DIGITAL VIGO",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Teeth-carded / System-components",
+      "description": "VITA VIONIC DIGITAL VIGO denture tooth library is the extended version of the VITA VIONIC denture tooth library. In addition to the export function for STL data for dentures set up as a monoblock (try-in dentures) and denture base designs, it also allows the export of STL data for the denture tooth",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a90/aa7a90a900/Buehne_Zahndatenbank_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a90/aa7a90a900/Buehne_Zahndatenbank_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Teeth-carded/System-components/VITA-VIONIC-DIGITAL-VIGO-132846,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-130398",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VIONIC DIGITAL VIGO",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VIONIC DIGITAL VIGO",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VIONIC DIGITAL VIGO",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Digital-Dentures / Accessories",
+      "description": "VITA VIONIC DIGITAL VIGO denture tooth library is the extended version of the VITA VIONIC denture tooth library. In addition to the export function for STL data for dentures set up as a monoblock (try-in dentures) and denture base designs, it also allows the export of STL data for the denture tooth",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a90/aa7a90a900/Buehne_Zahndatenbank_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a90/aa7a90a900/Buehne_Zahndatenbank_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/Accessories/VITA-VIONIC-DIGITAL-VIGO-Denture-Tooth-Library-130398,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-324135",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VIONIC TRY-IN RESIN",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VIONIC TRY-IN RESIN",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VIONIC TRY-IN RESIN",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Digital-Dentures / 3D-printing",
+      "description": "Validated printers: ASIGA Max/Mini ASIGA Max 2 ASIGA Ultra ASIGA Pico2 ASIGA PRO2 ASIGA PRO 4K Carbon 3D M2 Formlabs Form4B MICROLAY Versus Rapid Shape PRO 20, D20+, D30+, D50+ Rapid Shape D70/D90 Series Straumann P Series W2P SolFlex Validated post-curing units: Asiga Cure Den",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/hh1/hh1h10/xhh1h10h100/TRY-IN-Prothese_V01_640x324px.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/hh1/hh1h10/xhh1h10h100/TRY-IN-Prothese_V01_640x324px.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/3D-printing/VITA-VIONIC-TRY-IN-RESIN-324135,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-92199",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VIONIC VIGO",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VIONIC VIGO",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VIONIC VIGO",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Digital-Dentures / Milling",
+      "description": "The new tooth generation for digital denture fabrication at the touch of a button",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa2/aa2a40/Buehne_VIONIC_VIGO_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa2/aa2a40/Buehne_VIONIC_VIGO_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/Milling/VITA-VIONIC-VIGO-92199,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-48093",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VIONIC WAX",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VIONIC WAX",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VIONIC WAX",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Digital-Dentures / Milling",
+      "description": "VITA VIONIC WAX&nbsp;are&nbsp;Dimensionally stable, temperature resistant,&nbsp;synthetic wax blanks for the fabrication of wax setups.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a61/aa7a61a610/VIONIC_WAX_640_324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a61/aa7a61a610/VIONIC_WAX_640_324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/Milling/VITA-VIONIC-WAX-48093,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-72075",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA ADIVA® FULL-ADHESIVE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA ADIVA® FULL-ADHESIVE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA ADIVA® FULL-ADHESIVE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Luting / Full-adhesive-luting",
+      "description": "The&nbsp;full-adhesive luting system is suitable for&nbsp;luting of all indirect restorations made of feldspar, glass and hybrid ceramics, zirconia, composite and metal.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/f/ffb/ffbf70/ffbf70f700/Buehne_Adiva_FULL-ADHESIVE_NEU.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/f/ffb/ffbf70/ffbf70f700/Buehne_Adiva_FULL-ADHESIVE_NEU.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Luting/Full-adhesive-luting/VITA-ADIVA-FULL-ADHESIVE-72075,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-79404",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA ADIVA® IA-CEM",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA ADIVA® IA-CEM",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA ADIVA® IA-CEM",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Accessories",
+      "description": "VITA ADIVA IA-CEM is an ultra opaque, strongly-masking, dual-curing luting composite for implant prosthetics.It is used for permanent adhesive bonding of (abutment) crowns and mesostructures on adhesive titanium bases and individual titanium and zirconia abutments.There are material-specific, matche",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/f/ffb/ffbf75/ffbf75f707/Buehne_Adiva_IA-CEM-2.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/f/ffb/ffbf75/ffbf75f707/Buehne_Adiva_IA-CEM-2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Accessories/VITA-ADIVA-IA-CEM-79404,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-74760",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA ADIVA® IA-CEM",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA ADIVA® IA-CEM",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA ADIVA® IA-CEM",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Luting / Implant-prosthetic-luting",
+      "description": "VITA ADIVA IA-CEM is an ultra opaque, strongly-masking, dual-curing luting composite for implant prosthetics.It is used for permanent adhesive bonding of (abutment) crowns and mesostructures on adhesive titanium bases and individual titanium and zirconia abutments.There are material-specific, matche",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/f/ffb/ffbf75/ffbf75f707/Buehne_Adiva_IA-CEM-2.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/f/ffb/ffbf75/ffbf75f707/Buehne_Adiva_IA-CEM-2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Luting/Implant-prosthetic-luting/VITA-ADIVA-IA-CEM-74760,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-72106",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA ADIVA® SELF-ADHESIVE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA ADIVA® SELF-ADHESIVE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA ADIVA® SELF-ADHESIVE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Luting / Self-adhesive-luting",
+      "description": "The self-adhesive bonding system with ideally matched components is suitable for preparing the restoration material (made from feldspar, glass and hybrid ceramics, zirconia, composite, and metal) for adhesive bonding.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/f/ffb/ffbf71/ffbf71f702/Buehne_Adiva_SELF-ADHESIVE_NEU.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/f/ffb/ffbf71/ffbf71f702/Buehne_Adiva_SELF-ADHESIVE_NEU.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Luting/Self-adhesive-luting/VITA-ADIVA-SELF-ADHESIVE-72106,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-48310",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA ADIVA® TE-CEM",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA ADIVA® TE-CEM",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA ADIVA® TE-CEM",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Luting / Temporary-luting",
+      "description": "VITA ADIVA TE-CEM is a dual-hardening composite cement for temporary bonding. It is available in the Translucent shade.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/f/ffb/ffbf72/ffbf72f704/Buehne_Adiva_TE-CEM.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/f/ffb/ffbf72/ffbf72f704/Buehne_Adiva_TE-CEM.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Luting/Temporary-luting/VITA-ADIVA-TE-CEM-48310,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-87934",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA AMBRIA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA AMBRIA",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA AMBRIA",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Press-technique / Pressing-material",
+      "description": "VITA AMBRIA® Press is a highly esthetic press ceramic for natural, lifelike results. In addition to very good shade fidelity and light dynamics, the press ceramic is also characterized by efficient processing.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/l/ll1/ll1l10/Buehne_AMBRIA-2.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/l/ll1/ll1l10/Buehne_AMBRIA-2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Press-technique/Pressing-material/VITA-AMBRIA-87934,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-74502",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA Assist",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA Assist",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA Assist",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Shade-determination / Digital-solutions",
+      "description": "The VITA Assist software currently combines the VITA ShadeAssist and VITA ToothConfigurator modules. With VITA Assist, tooth shades determined by the VITA Easyshade are recorded and communicated professionally. The Windows-based PC software combines digital patient photos with all relevant patient",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/s/ssx/ssxs10/Buehne_VITA_Assist.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/s/ssx/ssxs10/Buehne_VITA_Assist.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Shade-determination/Digital-solutions/VITA-Assist-74502,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-39699",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA classical A1-D4 Farbskala",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA classical A1-D4 Farbskala",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA classical A1-D4 Farbskala",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Shade-determination / Visual-solutions",
+      "description": "Zahnfarbnahme, Zahnfarbbestimmung, Farbbestimmung, Farbnahme mit der VITA classical A1-D4 Farbskala",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/g/gg1/gg1g10/gg1g10g100/classical-farbskala-640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/g/gg1/gg1g10/gg1g10g100/classical-farbskala-640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Shade-determination/Visual-solutions/VITA-classical-A1-D4-shade-guide-39699,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-39968",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA classical A1-D4 Farbskala mit VITA Bleached Shades",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA classical A1-D4 Farbskala mit VITA Bleached Shades",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA classical A1-D4 Farbskala mit VITA Bleached Shades",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Shade-determination / Visual-solutions",
+      "description": "Zahnfarbnahme, Zahnfarbbestimmung, Farbbestimmung, Farbnahme mit der VITA classical A1-D4 Farbskala mit VITA Bleached Shades",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/g/gg1/gg1g10/gg1g10g102/bleach-shades-640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/g/gg1/gg1g10/gg1g10g102/bleach-shades-640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Shade-determination/Visual-solutions/VITA-classical-A1-D4-shade-guide-with-VITA-Bleached-Shades-39968,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-119694",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA Easyshade® LITE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA Easyshade® LITE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA Easyshade® LITE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Shade-determination / Digital-solutions",
+      "description": "Digitale Zahnfarbnahme, Zahnfarbnahme, Zahnfarbbestimmung, Farbbestimmung mit dem VITA Easyshade® LITE",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/g/gg2/gg2g50/gg2g50g201/Buehne-Easy-LITE-640x324.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/g/gg2/gg2g50/gg2g50g201/Buehne-Easy-LITE-640x324.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Shade-determination/Digital-solutions/VITA-Easyshade-LITE-119694,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-78900",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA Easyshade® V",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA Easyshade® V",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA Easyshade® V",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Shade-determination / Digital-solutions",
+      "description": "Digitale Zahnfarbnahme, Zahnfarbnahme, Zahnfarbbestimmung, Farbbestimmung mit dem VITA Easyshade® V",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/pics/layout/vita/og_logo.png",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/pics/layout/vita/og_logo.png",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Shade-determination/Digital-solutions/VITA-Easyshade-V-78900,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-107208",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA FURNACE App",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA FURNACE App",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA FURNACE App",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Firing / Mobile-App",
+      "description": "The app supports communication via WLAN from the VITA vPad excellence with the VITA VACUMAT 6000 M, VITA VACUMAT 6000 MP, VITA ZYRCOMAT 6000/6100 MS and VITA SMART.FIRE furnaces.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/pics/layout/vita/og_logo.png",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/pics/layout/vita/og_logo.png",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Firing/Mobile-App/VITA-FURNACE-App-107208,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-116072",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA mobileAssist & VITA mobileAssist +",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA mobileAssist & VITA mobileAssist +",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA mobileAssist & VITA mobileAssist +",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Shade-determination / Digital-solutions",
+      "description": "Thanks to the convenient mobileAssist app, transferring tooth shade information between the practice and the laboratory is easy and efficient. The data from VITA Easyshade V is wirelessly transmitted to the app via an internal Bluetooth interface and can be combined with a patient photo and sent thr",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/pics/layout/vita/og_logo.png",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/pics/layout/vita/og_logo.png",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Shade-determination/Digital-solutions/VITA-mobileAssist-VITA-mobileAssist--116072,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-134724",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA MultiPump",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA MultiPump",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA MultiPump",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Firing / Multi-furnace-operation",
+      "description": "Combined with VITA vacuum pump vacuum for up to four furnaces. Available to order as an accessory to the VITA vacuum pump after the second furnace. Can only be used in combination with VITA vPad excellence&nbsp;/&nbsp;VITA vPad PRO. Standard accessories: 2 USB cables, 10 m for two firing or combipress units",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d16/dd1d16d400/Buehne_MultiPump.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d16/dd1d16d400/Buehne_MultiPump.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Firing/Multi-furnace-operation/VITA-MultiPump-134724,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-322930",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA SMART.FIRE ADVANCED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA SMART.FIRE ADVANCED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA SMART.FIRE ADVANCED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Firing / Furnaces",
+      "description": "The VITA SMART.FIRE ADVANCED combines modern design with reliable firing quality. Despite its compact design, it even offers ample space for up to 14-unit bridges – making it ideal not only for your practice, but also for all laboratories. Experience the intuitive, user-friendly operation with every",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d10/dd1d10d160/Buehne-SMART-FIRE-Advanced_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d10/dd1d10d160/Buehne-SMART-FIRE-Advanced_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Firing/Furnaces/VITA-SMARTFIRE-ADVANCED-322930,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-119894",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA SYSTEM 3D-MASTER – Precise, systematic tooth shades",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA SYSTEM 3D-MASTER – Precise, systematic tooth shades",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA SYSTEM 3D-MASTER – Precise, systematic tooth shades",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Shade-determination / VITA-Tooth-shade-systems",
+      "description": "Science made simple – find out what&#039;s behind the VITA SYSTEM 3D-MASTER shade standard: Here&#039;s how to precisely determine tooth shades for greater process reliability",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/pics/Landingpages/VITAPAN-EXCELL/HUB/VITAPAN-Excell-Mann-1920x1080px-ENG.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/pics/Landingpages/VITAPAN-EXCELL/HUB/VITAPAN-Excell-Mann-1920x1080px-ENG.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Shade-determination/VITA-Tooth-shade-systems/VITA-SYSTEM-3D-MASTER-Precise-systematic-tooth-shades-119894,27568,256821.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-122593",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA V60 i-Line PLUS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA V60 i-Line PLUS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA V60 i-Line PLUS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Firing / Furnaces",
+      "description": "The VITA V60 i-Line PLUS focuses on two central aspects: outstanding firing results over a long period of time and intuitive user-friendliness. In its timeless design, the new furnace combines proven quality and modern technology at an attractive price.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d10/dd1d10d114/Buehne_V-60-Line-PLUS_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d10/dd1d10d114/Buehne_V-60-Line-PLUS_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Firing/Furnaces/VITA-V60-i-Line-PLUS-122593,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-49753",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA VACUMAT 6000 MP",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA VACUMAT 6000 MP",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA VACUMAT 6000 MP",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Firing / Press-furnace",
+      "description": "VITA VACUMAT 6000 MP is built to guarantee safe and reliable pressing results. This combipress unit combines all the advantages of a modern firing and press furnace with a compact design that sets new standards. VITA VACUMAT 6000 MP features all the programs and functions of VITA VACUMAT 6000 M. It",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d10/dd1d10d113/Buehne_Vacumat_6000-mp.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d10/dd1d10d113/Buehne_Vacumat_6000-mp.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Firing/Press-furnace/VITA-VACUMAT-6000-MP-49753,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-323280",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA VACUMAT® 61000 M",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA VACUMAT® 61000 M",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA VACUMAT® 61000 M",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Firing / Furnaces",
+      "description": "The VITA VACUMAT 6100 M is a fully-automatic, microprocessor-controlled firing unit. The firing unit is ideal for all dental ceramic firing requirements. The furnace impresses with superb quality and esthetics,&nbsp; and offers outstanding firing results, user safety and convenience. Thanks to its optimu",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d10/dd1d10d140/VITA_VACUMAT-6100M_HG_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d10/dd1d10d140/VITA_VACUMAT-6100M_HG_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Firing/Furnaces/VITA-VACUMAT-6100-M-323280,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-325411",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA VIONIC® DENT DISC multiColor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA VIONIC® DENT DISC multiColor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA VIONIC® DENT DISC multiColor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Teeth-carded / System-components",
+      "description": "The VITA VIONIC DENT DISC multiColor is an MRP composite disc made of inorganically filled PMMA, designed for milling tooth elements for removable full and partial and dentures, as well as implant-supported prosthetics requiring a supporting substructure. This composite disc impresses with its mater",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a51/VITA_VIONIC_DENT_DISC_multiColor_640_324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a51/VITA_VIONIC_DENT_DISC_multiColor_640_324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Teeth-carded/System-components/VITA-VIONIC-DENT-DISC-multiColor-325411,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-130059",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA VIONIC® DENT DISC multiColor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA VIONIC® DENT DISC multiColor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA VIONIC® DENT DISC multiColor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Digital-Dentures / Milling",
+      "description": "The VITA VIONIC DENT DISC multiColor is an MRP composite disc made of inorganically filled PMMA, designed for milling tooth elements for removable full and partial and dentures, as well as implant-supported prosthetics requiring a supporting substructure. This composite disc impresses with its mater",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a51/VITA_VIONIC_DENT_DISC_multiColor_640_324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a51/VITA_VIONIC_DENT_DISC_multiColor_640_324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Digital-Dentures/Milling/VITA-VIONIC-DENT-DISC-multiColor-130059,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-133262",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA VIONIC® DENT DISC multiColor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA VIONIC® DENT DISC multiColor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA VIONIC® DENT DISC multiColor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Press-technique / System-components",
+      "description": "The VITA VIONIC DENT DISC multiColor is an MRP composite disc made of inorganically filled PMMA, designed for milling tooth elements for removable full and partial and dentures, as well as implant-supported prosthetics requiring a supporting substructure. This composite disc impresses with its mater",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a51/VITA_VIONIC_DENT_DISC_multiColor_640_324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa7/aa7a51/VITA_VIONIC_DENT_DISC_multiColor_640_324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Press-technique/System-components/VITA-VIONIC-DENT-DISC-133262,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-25900",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA YZ® HT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA YZ® HT",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA YZ® HT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Framework-constructions / fully-anatomic-bridges",
+      "description": "VITA YZ HT are highly translucent ZrO2 blanks for natural, individual, fully veneered substructures.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/ccg/Buehne_YZ_HT_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/ccg/Buehne_YZ_HT_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Framework-constructions/fully-anatomic-bridges/VITA-YZ-HT-25900,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-323997",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA YZ® MULTI TRANSLUCENT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA YZ® MULTI TRANSLUCENT",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA YZ® MULTI TRANSLUCENT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Framework-constructions / fully-anatomic-bridges",
+      "description": "VITA YZ MULTI TRANSLUCENT represents the latest generation of premium zirconia. It combines the best of two zirconia raw materials and offers a consistent shade, translucency and strength gradient from the neck to the incisal area. Users no longer have to choose between different materials. The wide",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/ccl/cclc32/Buehne-YZ-multi.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/ccl/cclc32/Buehne-YZ-multi.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Framework-constructions/fully-anatomic-bridges/VITA-YZ-MULTI-TRANSLUCENT-323997,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-322776",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA YZ® ST",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA YZ® ST",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA YZ® ST",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Framework-constructions / fully-anatomic-bridges",
+      "description": "VITA YZ ST are super translucent ZrO2 blanks for the fabrication of monolithic and partially veneered posterior tooth restorations. VITA YZ ST blanks are available in several versions: VITA YZ STWhite (unstained) VITA YZ STColor (monochromatic, tooth shades) VITA YZ STMulticolor (polychromatic",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cck/Buehne_YZ_ST_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cck/Buehne_YZ_ST_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Framework-constructions/fully-anatomic-bridges/VITA-YZ-ST-Multicolor-322776,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-68771",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA YZ® T",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA YZ® T",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA YZ® T",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Framework-constructions / fully-anatomic-bridges",
+      "description": "VITA YZ T are Translucent ZrO2 blanks for natural, individual, fully veneered substructures.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cci/Buehne_YZ_T_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cci/Buehne_YZ_T_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Framework-constructions/fully-anatomic-bridges/VITA-YZ-T-68771,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-322744",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITA YZ® XT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITA YZ® XT",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITA YZ® XT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Framework-constructions / fully-anatomic-bridges",
+      "description": "VITA YZ XT are extra translucent ZrO2 blanks for the production of monolithic andpartially veneered anterior tooth restorations. VITA YZ XT blanks are available in several versions: VITA YZ XTWhite (unstained) VITA YZ XTColor (monochromatic, tooth shades) VITA YZ XTMulticolor (polychromatic, t",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/ccj/Buehne_YZ_XT_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/ccj/Buehne_YZ_XT_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Framework-constructions/fully-anatomic-bridges/VITA-YZ-XT-Multicolor-322744,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-48442",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITACOLL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITACOLL",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITACOLL",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Teeth-carded / Accessories",
+      "description": "VITACOLL ensures reliable bonding of&nbsp;denture teeth to denture base materials. Since a wide range of different denture base materials is used, it is frequently difficult for the responsible dental technician to determine whether these materials provide perfect bonding to the&nbsp;denture teeth available.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa9/aa9a80/aa9a80a901/Buehne_VITACOLL_Haftverrmittler.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa9/aa9a80/aa9a80a901/Buehne_VITACOLL_Haftverrmittler.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Teeth-carded/Accessories/VITACOLL-bonding-agent-48442,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-48473",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITAFOL H",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITAFOL H",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITAFOL H",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Teeth-carded / Accessories",
+      "description": "VITAFOL H is a silicon material which protects&nbsp;denture and ceramic teeth during denture fabrication.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa9/aa9a80/aa9a80a905/Buehne_VITAFOL_H-Silikon-Isolierfilm.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa9/aa9a80/aa9a80a905/Buehne_VITAFOL_H-Silikon-Isolierfilm.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Teeth-carded/Accessories/VITAFOL-H-silicone-separating-film-48473,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-323032",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITAPAN",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITAPAN",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITAPAN",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Teeth-carded / Universal-prosthetics",
+      "description": "VITAPAN Anterior are age-appropriate, universal anterior teeth made of MRP composite. VITAPAN CUSPIFORM Posteriores are delicate posterior teeth with pronounced occlusal surface relief. VITAPAN SYNOFORM are slender posterior teeth with flat occlusal surface relief for&nbsp;gerontoprosthetics.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa2/aa2a20/aa2a20a200/VITAPAN_Anterior_640_324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa2/aa2a20/aa2a20a200/VITAPAN_Anterior_640_324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Teeth-carded/Universal-prosthetics/VITAPAN-323032,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-48857",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VITAPAN EXCELL Anterior",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VITAPAN EXCELL Anterior",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VITAPAN EXCELL Anterior",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Teeth-carded / Premium-prosthetics",
+      "description": "VITAPAN EXCELL is an anterior tooth made of MRP composite that has an impressive, balanced overall composition, combining esthetic criteria such as natural shapes, good light transmission and a vibrant play of shades. This prefabricated tooth is exceptionally suited for highly esthetic complete, par",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa2/aa2a18/aa2a18a050 aa2a18a051/VITAPAN-EXCELL_640x324_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa2/aa2a18/aa2a18a050 aa2a18a051/VITAPAN-EXCELL_640x324_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Teeth-carded/Premium-prosthetics/VITAPAN-EXCELL-Anterior-48857,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-30403",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VM 13",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VM 13",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VM 13",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / Metal-ceramics",
+      "description": "VITA VM 13 is a highly-esthetic, fine-structure feldspar ceramic that is perfectly adapted to the CTE value of conventional bonding alloys (approx. 13.8 – 15.2 &micro;m/mK).Regardless of whether the conventional alloys are cast, milled or sintered.VITA VM 13 provides a genuine alternative to all-ceramics",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb1/bb1b30/Buehne_VITA-VM13.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb1/bb1b30/Buehne_VITA-VM13.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/Metal-ceramics/VITAVM13-30403,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-30433",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VM 9",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VM 9",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VM 9",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / All-ceramics",
+      "description": "VITA VM 9 is a highly-esthetic, fine-structure feldspar ceramic that is perfectly adapted to the CTE value of zirconia frameworks (approx. 10.5, e.g. such as VITA YZ) – regardless of whether they are white, colored or translucent. It is also recommended for customizing restorations made from VITABL",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb1/bb1b25/Buehne_VITA-VM09.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb1/bb1b25/Buehne_VITA-VM09.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/All-ceramics/VITAVM9-30433,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-30283",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VM CC",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VM CC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VM CC",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / Cold-curing-polymer-resins",
+      "description": "VITA VM CC is a filler-free, cold-curing polymer resin for extraoral&nbsp;fabrication of temporary restorations and repairs.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb4/bb4b89/Buehne_VM-CC.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb4/bb4b89/Buehne_VM-CC.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/Cold-curing-polymer-resins/VITAVMCC-30283,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-322808",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VM LC",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VM LC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VM LC",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / Veneering-composites",
+      "description": "VITA VM LC &amp; VITA VM LC flow&nbsp;are a&nbsp;Light-curing microparticle composite for fixed&nbsp;and removable restorations for extraoral use.The VITA VM LC product family meets all your expectations when it comes to a veneering composite for the extraoral fabrication of restorations. Whether it&#039;s in the form",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb4/bb4b80/Buehne_VITA-VM-LC.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb4/bb4b80/Buehne_VITA-VM-LC.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/Veneering-composites/VITAVMLC-VITAVMLC-flow-322808,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-119859",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VM LC PRIMER",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VM LC PRIMER",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VM LC PRIMER",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / Veneering-composites",
+      "description": "VITA VM LC PRIMER is a bonding agent for extraoral surface conditioning. As a two-step bonding agent system, VITA VM LC PRIMER enables reliable bonding between veneering composites and dental substructure materials. VITA VM LC PRIMER I &amp; II can also be used separately with specific materials. H",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb4/bb4b80/bb4b80b450/VITA-VM-LC-Primer_640x324.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb4/bb4b80/bb4b80b450/VITA-VM-LC-Primer_640x324.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/Veneering-composites/VITAVMLC-PRIMER-119859,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-24520",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "VMK MASTER",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VMK MASTER",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VMK MASTER",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / Metal-ceramics",
+      "description": "VITA VMK Master is a natural feldspar veneering ceramic for conventional bonding alloys (approx. 13.8 – 15.2 &micro;m/mK).Regardless of whether the conventional alloys are cast, milled or sintered.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb1/bb1b06/Buehne_VITA-VMK-Master.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb1/bb1b06/Buehne_VITA-VMK-Master.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/Metal-ceramics/VITA-VMK-Master-24520,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-331001",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "vPad LITE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "vPad LITE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "vPad LITE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Firing / Control-units",
+      "description": "The VITA vPad LITE for the VITA firing furnaces and sintering furnaces is characterized by its intuitive navigation, clear menu guidance, and solid technical basis. Ideal for standardized laboratory applications.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d10/dd1d10d157/vPad-LITE_640x324.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d10/dd1d10d157/vPad-LITE_640x324.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Firing/Control-units/VITA-vPad-LITE-331001,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-331033",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "vPad PRO",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "vPad PRO",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "vPad PRO",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Firing / Control-units",
+      "description": "In addition to an intuitive navigation system, the VITA vPad PRO controller for VITA firing and sintering furnaces offers additional functions, such as planned program start and flexible connection possibilities. This is ideal for complex processes where efficiency and full control are required - wi",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d10/dd1d10d158/vPad-PRO_640x324.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd1/dd1d10/dd1d10d158/vPad-PRO_640x324.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Firing/Control-units/VITA-vPad-PRO-331033,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-75206",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "YZ EFFECT Liquids",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "YZ EFFECT Liquids",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "YZ EFFECT Liquids",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Coloring-liquids",
+      "description": "xxx",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc8/cc8c70/cc8c70c807/Buehne_YZ-EFFECT-LIQUIDS.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc8/cc8c70/cc8c70c807/Buehne_YZ-EFFECT-LIQUIDS.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Coloring-liquids/VITA-YZ-EFFECT-LIQUID-75206,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-329226",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "YZ HT Shade Liquids",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "YZ HT Shade Liquids",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "YZ HT Shade Liquids",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Coloring-liquids",
+      "description": "xxx",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc8/cc8c70/cc8c70c803/Buehne_YZ-HT-SHADE-LIQUIDS.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc8/cc8c70/cc8c70c803/Buehne_YZ-HT-SHADE-LIQUIDS.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Coloring-liquids/VITA-YZ-HT-Shade-Liquids-329226,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-130553",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "Zahnschrank vario",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Zahnschrank vario",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Zahnschrank vario",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Teeth-carded / Accessories",
+      "description": "The VITA tooth cabinet which features comprehensive storage options and requires only little space is perfectly suitable to store all VITA tooth stocks.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa8/aa8a85/aa8a85a852/Buehne_Modulbox_grau_640_324.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/a/aa8/aa8a85/aa8a85a852/Buehne_Modulbox_grau_640_324.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Teeth-carded/Accessories/Tooth-cabinet-vario-130553,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-132612",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "Zubeh&ouml;r",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Zubeh&ouml;r",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Zubeh&ouml;r",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Shade-determination / Digital-solutions",
+      "description": "Protective caps Hygienic&nbsp;Protective caps for single use &nbsp;Transport case Secure transport of the VITA Easyshade&nbsp;thanks to the handy case",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/g/gg3/gg3g51/gg3g51g509/Buehne_Zubehoer.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/g/gg3/gg3g51/gg3g51g509/Buehne_Zubehoer.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Shade-determination/Digital-solutions/Accessories-132612,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-132643",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "Zubeh&ouml;r allgemein",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Zubeh&ouml;r allgemein",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Zubeh&ouml;r allgemein",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Accessories",
+      "description": "VITA Firing Paste is an&nbsp;Ready-to-use, fireproof material for simple and fast fabrication of individual firing trays. The soft, creamy consistency results in exceptional processing characteristics. Inlays, onlays, veneers and crowns can be easily fixed on platinum pins or directly on the firing tray",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc9/cc9c88/cc9c88c910/Buehne_Firing-Paste.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc9/cc9c88/cc9c88c910/Buehne_Firing-Paste.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Accessories/VITA-Firing-Paste-132643,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-79830",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "Zubeh&ouml;r Machinable Materials",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Zubeh&ouml;r Machinable Materials",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Zubeh&ouml;r Machinable Materials",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / CAD / CAM-fabrication / Accessories",
+      "description": "VITA Powder Scan Spray is a spray-on, titanium dioxide free and blue coloured pigment suspension with mint aroma for intraoral application (tooth surface) as well as for extraoral use (plaster die / plaster model) for the fabrication of the opto-electronic impression for CAD/CAM restorations. With",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc9/cc9c80/cc9c80c901/ECSCAN75V2_schraeg_640.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/c/cc9/cc9c80/cc9c80c901/ECSCAN75V2_schraeg_640.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/CAD/CAM-fabrication/Accessories/VITA-Powder-Scan-Spray-79830,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-132706",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "Zubeh&ouml;r Presskeramik",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Zubeh&ouml;r Presskeramik",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Zubeh&ouml;r Presskeramik",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Press-technique / Accessories",
+      "description": "Investment material/liquidIdeally matched to VITA AMBRIA press pellets,&nbsp;phosphate-bonded and speed-capable investment material&nbsp;with liquid for precise expansion control and flowability. VITA AMBRIA INVEST VITA AMBRIA INVEST P: available as 50 x 100 g pack VITA AMBRIA INVEST F: available as 1-li",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/l/ll9/ll9l90/ll9l90l915/Ambria-zubehoer_640_324_2_screen_web.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/l/ll9/ll9l90/ll9l90l915/Ambria-zubehoer_640_324_2_screen_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Press-technique/Accessories/Accessories-for-Press-Ceramic-132706,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-132513",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "Zubeh&ouml;r Verblendkunststoff",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Zubeh&ouml;r Verblendkunststoff",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Zubeh&ouml;r Verblendkunststoff",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / Accessories",
+      "description": "The accessories for veneering acrylics make it easier to process these materials.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb9/bb9b91/bb9b91b901/Buehne_Zubehoer_Verblendkunststoff.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb9/bb9b91/bb9b91b901/Buehne_Zubehoer_Verblendkunststoff.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/Accessories/Accessories-for-Veneering-resin-132513,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-37812",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "Zubeh&ouml;r Verblendmaterial",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Zubeh&ouml;r Verblendmaterial",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Zubeh&ouml;r Verblendmaterial",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Veneering / Accessories",
+      "description": "The accessories for veneering materials make it easier to process these materials.",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb9/bb9b90/bb9b90b900/Buehne_Zubehoer_Verblendmaterial.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/b/bb9/bb9b90/bb9b90b900/Buehne_Zubehoer_Verblendmaterial.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Veneering/Accessories/Accessories-for-Veneering-Materials-37812,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "VITA-78698",
+      "brand": "VITA",
+      "manufacturer": "VITA Zahnfabrik H. Rauter GmbH & Co. KG",
+      "name": "ZYRCOMAT 6100 MS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ZYRCOMAT 6100 MS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ZYRCOMAT 6100 MS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "VITA / Firing / Sintering-furnace",
+      "description": "Developed and manufactured entirely in Germany, the VITA ZYRCOMAT 6100 MS delivers the quality and reliability that you have come to expect from VITA. The sintering furnace offers a choice of three sintering modes: HighSpeed, conventional and user-defined, giving you flexibility at all times. Optimi",
+      "sourceImageUrl": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd2/dd2d23/dd2d23d217/Buehne_Zyrcomat_6100-ms.jpg",
+      "imageUrls": "https://www.vita-zahnfabrik.com/portal/sap/medien/d/dd2/dd2d23/dd2d23d217/Buehne_Zyrcomat_6100-ms.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.vita-zahnfabrik.com/en/Firing/Sintering-furnace/VITA-ZYRCOMAT-6100-MS-78698,27568.html",
+      "additionalSourceUrls": "https://www.vita-zahnfabrik.com/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

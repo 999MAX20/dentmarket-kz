@@ -22,6 +22,18 @@ const FACET_ORDER = [
   "Комплектация",
 ];
 
+const FACET_HELP: Record<string, string> = {
+  "Форма выпуска": "Что именно получите: шприц, капсулы, набор или другую форму",
+  Количество: "Сколько единиц будет в упаковке",
+  Объём: "Объём одной упаковки или ёмкости",
+  Масса: "Вес материала в выбранной упаковке",
+  "В одной единице": "Сколько материала находится в одной дозе или капсуле",
+  Оттенок: "Цвет материала по шкале производителя",
+  Вкус: "Вкус расходного материала",
+  Соединение: "Тип крепления или подключения к оборудованию",
+  Комплектация: "Что входит в выбранный набор",
+};
+
 function variantDisplayName(variant: Variant) {
   const readableParts = [
     variant.attributes["Форма выпуска"],
@@ -49,9 +61,24 @@ export default function VariantPicker({
   const searchParams = useSearchParams();
   const selected = variants.find((variant) => variant.id === selectedVariantId);
 
-  if (variants.length <= 1) return null;
-
   if (!selected) return null;
+
+  if (variants.length <= 1) {
+    return (
+      <section className={styles.variantPicker} aria-label="Выбранный товар">
+        <div className={styles.variantIntro}>
+          <span className={styles.variantStep}>Один вариант</span>
+          <strong className={styles.variantTitle}>Выбирать ничего не нужно</strong>
+          <p>Цена и наличие ниже относятся именно к этой комплектации.</p>
+        </div>
+        <div className={styles.selectedVariant}>
+          <span>Товар для заказа</span>
+          <strong>{variantDisplayName(selected)}</strong>
+          {selected.sku ? <small>Код производителя: {selected.sku}</small> : null}
+        </div>
+      </section>
+    );
+  }
 
   const form = selected.attributes["Форма выпуска"];
   const scopedVariants = form
@@ -99,11 +126,16 @@ export default function VariantPicker({
   };
 
   return (
-    <div className={styles.variantPicker}>
-      <strong className={styles.variantTitle}>Выберите вариант товара</strong>
-      {facetGroups.map(({ key, options }) => (
+    <section className={styles.variantPicker} aria-label="Выбор варианта товара">
+      <div className={styles.variantIntro}>
+        <span className={styles.variantStep}>Перед сравнением цен</span>
+        <strong className={styles.variantTitle}>Сначала выберите нужный вариант</strong>
+        <p>Поставщики, цена и наличие будут показаны только для выбранного варианта.</p>
+      </div>
+      {facetGroups.map(({ key, options }, index) => (
         <fieldset className={styles.variantFacet} key={key}>
-          <legend>{key}</legend>
+          <legend><span>{index + 1}</span>{key}</legend>
+          <small className={styles.variantHelp}>{FACET_HELP[key] ?? "Выберите подходящее значение"}</small>
           <div className={styles.variantOptions}>
             {options.map((option) => {
               const active = selected.attributes[key] === option;
@@ -123,12 +155,12 @@ export default function VariantPicker({
         </fieldset>
       ))}
       <div className={styles.selectedVariant}>
-        <span>Выбрано</span>
+        <span>Вы выбрали</span>
         <strong>{variantDisplayName(selected)}</strong>
         {selected.sku ? (
-          <small>Артикул производителя: {selected.sku}</small>
+          <small>Код производителя: {selected.sku}</small>
         ) : null}
       </div>
-    </div>
+    </section>
   );
 }

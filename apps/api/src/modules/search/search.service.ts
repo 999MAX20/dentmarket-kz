@@ -434,8 +434,32 @@ export class SearchService {
       product: {
         id: product.id,
         name: product.canonicalName,
+        description: product.description,
         brand: product.brand?.name ?? null,
         manufacturer: product.manufacturer?.name ?? null,
+        category: product.categories[0]?.category.nameRu ?? null,
+        media: product.media.map((media) => {
+          const metadata =
+            media.metadata &&
+            typeof media.metadata === "object" &&
+            !Array.isArray(media.metadata)
+              ? (media.metadata as Record<string, unknown>)
+              : {};
+          const publicFallbackPath =
+            typeof metadata.publicFallbackPath === "string"
+              ? metadata.publicFallbackPath
+              : null;
+          return {
+            sourceUrl: media.sourceUrl,
+            securePath: media.normalizedStorageKey
+              ? `/catalog/media/${media.id}?ticket=${this.mediaAccess.issue(media.id).token}`
+              : publicFallbackPath,
+            altText: media.altText,
+            width: media.width,
+            height: media.height,
+            metadata,
+          };
+        }),
         baseUnit: product.baseUnit,
       },
       reviewSummary: summary,

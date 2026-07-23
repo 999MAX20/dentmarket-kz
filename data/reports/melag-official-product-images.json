@@ -1,0 +1,89 @@
+{
+  "brand": "MELAG",
+  "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+  "sourceType": "OFFICIAL_MANUFACTURER_PRODUCT_PAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialCanonicalProductPageRequired": true,
+    "officialProductGalleryRequired": true,
+    "duplicateDownloadedImagesRejected": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 5,
+    "candidates": 3,
+    "recovered": 1,
+    "recoveredThisRun": 1,
+    "retainedFromPreviousRuns": 0,
+    "reviewRequired": 4
+  },
+  "products": [
+    {
+      "officialProductId": "MELAG-PHOTO-CANON-MELAG-ME83304",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Sterile container system for dental practices: MELAstore Box Compact | MELAG",
+      "manufacturerRef": "ME83304",
+      "manufacturerRefs": "ME83304",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME83304",
+          "label": "Sterile container system for dental practices: MELAstore Box Compact | MELAG",
+          "variantLabel": "Sterile container system for dental practices: MELAstore Box Compact | MELAG",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "melastore-box-compact",
+      "description": "The MELAstore Box Compact was specially developed for the instrument reprocessing with Vacuclave 105/305 to make optimum use of the chamber volume and ensure safe sterilisation and storage of medical devices until use.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-melag-sterile-container-system-for-dental-practices-melastore-box-compact-melag-549246efd7.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-melag-sterile-container-system-for-dental-practices-melastore-box-compact-melag-549246efd7.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melastore-box-compact/me83304",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_PRIMARY_GALLERY_IMAGE",
+        "originalImageUrl": "https://shopware.melag.com/media/be/8c/9f/1748251466/CR6_5577.png?ts=1748350434",
+        "sha256": "549246efd73007e3188f38a1f0995b64ba4043b53f04d167773ad758da66cfcf",
+        "bytes": 5294944,
+        "contentType": "image/png"
+      }
+    }
+  ],
+  "review": [
+    {
+      "canonicalProductId": "CANON-MELAG-ME00118",
+      "brand": "MELAG",
+      "name": "Working table Comfort",
+      "sourcePageUrl": "https://www.melag.com/en/working-table-comfort/me00118",
+      "reason": "NO_OFFICIAL_PRODUCT_GALLERY_IMAGE"
+    },
+    {
+      "canonicalProductId": "CANON-MELAG-ME00119",
+      "brand": "MELAG",
+      "name": "Working table Standard",
+      "sourcePageUrl": "https://www.melag.com/en/working-table-standard/me00119",
+      "reason": "NO_OFFICIAL_PRODUCT_GALLERY_IMAGE"
+    },
+    {
+      "canonicalProductId": "CANON-MELAG-ME22922",
+      "brand": "MELAG",
+      "name": "Mount Universal (long)",
+      "sourcePageUrl": "https://www.melag.com/en/mount-universal-long/me22922",
+      "sourceImageUrl": "https://shopware.melag.com/media/50/0e/c7/1714649256/universalhalterung-beladung-leer.jpg?ts=1714649256",
+      "duplicateGroupSize": 2,
+      "reason": "SHARED_OFFICIAL_IMAGE_NOT_EXACT_TO_ONE_CARD"
+    },
+    {
+      "canonicalProductId": "CANON-MELAG-ME22921",
+      "brand": "MELAG",
+      "name": "Mount Universal (short)",
+      "sourcePageUrl": "https://www.melag.com/en/mount-universal-short/me22921",
+      "sourceImageUrl": "https://shopware.melag.com/media/50/0e/c7/1714649256/universalhalterung-beladung-leer.jpg?ts=1714649256",
+      "duplicateGroupSize": 2,
+      "reason": "SHARED_OFFICIAL_IMAGE_NOT_EXACT_TO_ONE_CARD"
+    }
+  ]
+}

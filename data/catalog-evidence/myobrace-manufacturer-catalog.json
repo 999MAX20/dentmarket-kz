@@ -1,0 +1,708 @@
+{
+  "brand": "Myobrace",
+  "manufacturer": "Myofunctional Research Co.",
+  "sourceType": "MANUFACTURER_APPLIANCE_CATALOGUE_2025",
+  "sourceUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf",
+  "lastChecked": "2026-07-22",
+  "totals": {
+    "discoveredProducts": 24,
+    "variantSkus": 59,
+    "productsWithReferences": 24,
+    "productsWithImages": 0,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "MYOBRACE-J1",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Juniors J1",
+      "manufacturerRef": "J1",
+      "manufacturerRefs": "J1",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace for Juniors",
+      "description": "Habit correction",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=4",
+      "cataloguePage": 4,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-J2",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Juniors J2",
+      "manufacturerRef": "J2",
+      "manufacturerRefs": "J2",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace for Juniors",
+      "description": "Arch development",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=4",
+      "cataloguePage": 4,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-J3",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Juniors J3",
+      "manufacturerRef": "J3",
+      "manufacturerRefs": "J3",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace for Juniors",
+      "description": "Jaw alignment and retention",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=4",
+      "cataloguePage": 4,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-K0",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Kids K0",
+      "manufacturerRef": "K0",
+      "manufacturerRefs": "K0",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Myobrace for Kids",
+      "description": "Functional airway and initial habit correction",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=5",
+      "cataloguePage": 5,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-K1",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Kids K1",
+      "manufacturerRef": "K1",
+      "manufacturerRefs": "K1",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Small"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace for Kids",
+      "description": "Habit correction",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=5",
+      "cataloguePage": 5,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-K2",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Kids K2",
+      "manufacturerRef": "K2",
+      "manufacturerRefs": "K2",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Small"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace for Kids",
+      "description": "Arch development",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=5",
+      "cataloguePage": 5,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-K3",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Kids K3",
+      "manufacturerRef": "K3",
+      "manufacturerRefs": "K3",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Small"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace for Kids",
+      "description": "Final alignment and retention",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=5",
+      "cataloguePage": 5,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-T1",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Teens T1",
+      "manufacturerRef": "T1",
+      "manufacturerRefs": "T1",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace for Teens",
+      "description": "Habit correction",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=6",
+      "cataloguePage": 6,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-T1BWS",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Teens T1BWS",
+      "manufacturerRef": "T1BWS",
+      "manufacturerRefs": "T1BWS",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Myobrace for Teens",
+      "description": "Habit correction with Farrell Bent Wire System",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=6",
+      "cataloguePage": 6,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-T2",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Teens T2",
+      "manufacturerRef": "T2",
+      "manufacturerRefs": "T2",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace for Teens",
+      "description": "Arch development",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=6",
+      "cataloguePage": 6,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-T3",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Teens T3",
+      "manufacturerRef": "T3",
+      "manufacturerRefs": "T3",
+      "variantCount": 7,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Size 1"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 2"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 3"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 4"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 5"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 6"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 7"
+        }
+      ],
+      "categoryPath": "Myobrace for Teens",
+      "description": "Dental alignment",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=7",
+      "cataloguePage": 7,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-T3N",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Tooth Alignment System T3N",
+      "manufacturerRef": "T3N",
+      "manufacturerRefs": "T3N",
+      "variantCount": 7,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Size 1"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 2"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 3"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 4"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 5"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 6"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 7"
+        }
+      ],
+      "categoryPath": "Myobrace Tooth Alignment System",
+      "description": "Initial tooth alignment",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=7",
+      "cataloguePage": 7,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-T4",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Teens T4",
+      "manufacturerRef": "T4",
+      "manufacturerRefs": "T4",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace for Teens",
+      "description": "Retention",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=7",
+      "cataloguePage": 7,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-I-3N",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Interceptive Class III i-3N",
+      "manufacturerRef": "i-3N",
+      "manufacturerRefs": "i-3N",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Small"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace Interceptive Class III",
+      "description": "Habit correction",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=8",
+      "cataloguePage": 8,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-I-3",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Interceptive Class III i-3",
+      "manufacturerRef": "i-3",
+      "manufacturerRefs": "i-3",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Small"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace Interceptive Class III",
+      "description": "Arch development",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=8",
+      "cataloguePage": 8,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-I-3H",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Interceptive Class III i-3H",
+      "manufacturerRef": "i-3H",
+      "manufacturerRefs": "i-3H",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Myobrace Interceptive Class III",
+      "description": "Final alignment and retention",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=8",
+      "cataloguePage": 8,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-P-3N",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Permanent Dentition Class III P-3N",
+      "manufacturerRef": "P-3N",
+      "manufacturerRefs": "P-3N",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Myobrace Permanent Dentition Class III",
+      "description": "Habit correction",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=9",
+      "cataloguePage": 9,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-P-3",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Permanent Dentition Class III P-3",
+      "manufacturerRef": "P-3",
+      "manufacturerRefs": "P-3",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Myobrace Permanent Dentition Class III",
+      "description": "Arch development",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=9",
+      "cataloguePage": 9,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-P-3H",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Permanent Dentition Class III P-3H",
+      "manufacturerRef": "P-3H",
+      "manufacturerRefs": "P-3H",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Small"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace Permanent Dentition Class III",
+      "description": "Final alignment and retention",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=9",
+      "cataloguePage": 9,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-AA1",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Adult Aligner AA1",
+      "manufacturerRef": "AA1",
+      "manufacturerRefs": "AA1",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace Adult Aligner",
+      "description": "Habit correction",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=10",
+      "cataloguePage": 10,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-AA2",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Adult Aligner AA2",
+      "manufacturerRef": "AA2",
+      "manufacturerRefs": "AA2",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace Adult Aligner",
+      "description": "Arch development",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=10",
+      "cataloguePage": 10,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-AA3",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Adult Aligner AA3",
+      "manufacturerRef": "AA3",
+      "manufacturerRefs": "AA3",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace Adult Aligner",
+      "description": "Final alignment and retention",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=10",
+      "cataloguePage": 10,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-R",
+      "brand": "Myoretainr",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myoretainr R",
+      "manufacturerRef": "R",
+      "manufacturerRefs": "R",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myoretainr",
+      "description": "Flexible orthodontic retainer",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=11",
+      "cataloguePage": 11,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "MYOBRACE-RH",
+      "brand": "Myoretainr",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myoretainr RH",
+      "manufacturerRef": "RH",
+      "manufacturerRefs": "RH",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myoretainr",
+      "description": "Hard orthodontic retainer",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=11",
+      "cataloguePage": 11,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "brand": "Aes",
+  "manufacturer": "Aes",
+  "sourceType": "KAZAKHSTAN_SPECIALIZED_RETAILER_EXACT_LISTING",
+  "sourceUrl": "https://stomir.kz/catalog/breket-sistema/170223023330",
+  "lastChecked": "2026-07-22",
+  "totals": {
+    "discoveredProducts": 1,
+    "variantSkus": 3,
+    "productsWithReferences": 1,
+    "productsWithImages": 1
+  },
+  "products": [
+    {
+      "officialProductId": "AES-CKB-106",
+      "brand": "Aes",
+      "manufacturer": "Aes",
+      "name": "Брекеты керамические",
+      "manufacturerRef": "CKB - 106",
+      "manufacturerRefs": "CKB - 106",
+      "variantCount": 3,
+      "variants": [
+        {
+          "sellerVariantId": "170223023330",
+          "name": "верхние",
+          "manufacturerRef": "CKB - 106"
+        },
+        {
+          "sellerVariantId": "170223023504",
+          "name": "набор",
+          "manufacturerRef": "CKB - 106"
+        },
+        {
+          "sellerVariantId": "170223023559",
+          "name": "нижние",
+          "manufacturerRef": "CKB - 106"
+        }
+      ],
+      "country": "Китай",
+      "categoryPath": "Стоматологические товары",
+      "description": "",
+      "sourceImageUrl": "https://stomir.kz/user_uploads/products/536-00003_256.jpg",
+      "imageUrls": "https://stomir.kz/user_uploads/products/536-00003_256.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://stomir.kz/catalog/breket-sistema/170223023330",
+      "kzEvidence": "EXACT_KZ_LISTING",
+      "status": "CANONICAL_CONTENT_READY"
+    }
+  ]
+}

@@ -1,0 +1,2547 @@
+{
+  "brand": "Shofu",
+  "manufacturer": "SHOFU Inc.",
+  "sourceType": "CURRENT_OFFICIAL_ENGLISH_PRODUCT_SITEMAPS",
+  "sourceUrl": "https://www.shofu.de/produkte-sitemap1.xml",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "allEnglishProductPagesCollected": true,
+    "languageDuplicatesExcluded": true,
+    "exactOfficialImagesPreserved": true,
+    "noManufacturerReferenceInvented": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "sitemapProductPages": 97,
+    "discoveredProducts": 97,
+    "variantSkus": 97,
+    "productsWithImages": 97,
+    "productsWithReferences": 0,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "SHOFU-ABRASIVES-DRESSER",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Abrasives Dresser",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Abrasives Dresser",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Abrasives Dresser",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/02/20260213-abrasives-dresser_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/02/20260213-abrasives-dresser_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/abrasives-dresser/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-ACRYPOINT-E",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "AcryPoint-E",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "AcryPoint-E",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AcryPoint-E",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_acrypoint-e_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_acrypoint-e_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/acrypoint-e/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-ALL-CERAMIC-PREPARATION-KIT",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "All Ceramic Preparation Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "All Ceramic Preparation Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All Ceramic Preparation Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/02/20260213-shofu-all-ceramic-preparation-kit_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/02/20260213-shofu-all-ceramic-preparation-kit_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/all-ceramic-preparation-kit/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-ALUMINIUM-CASE-FOR-LIVING-MOULD-CHART",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Aluminium case for living mould chart",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Aluminium case for living mould chart",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Aluminium case for living mould chart",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2025/05/20250513-alukoffer-01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2025/05/20250513-alukoffer-01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/aluminium-case-for-living-mould-chart/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-AMALGAM-POLISHING-KIT",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Amalgam Polishing Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Amalgam Polishing Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Amalgam Polishing Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/03/20260311-amalgam-polishing-kit_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/03/20260311-amalgam-polishing-kit_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/amalgam-polishing-kit/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTIBOND",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BeautiBond",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BeautiBond",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BeautiBond",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/10/20241125-beautibond_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/10/20241125-beautibond_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautibond/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTIBOND-UNIVERSAL",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BeautiBond Universal",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BeautiBond Universal",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BeautiBond Universal",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/10/20241125-beautibond-universal_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/10/20241125-beautibond-universal_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautibond-universal/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTIBOND-XTREME",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BeautiBond Xtreme",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BeautiBond Xtreme",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BeautiBond Xtreme",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240515-beautibond-xtreme_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240515-beautibond-xtreme_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautibond-xtreme/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTICEM-SA",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BeautiCem SA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BeautiCem SA",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BeautiCem SA",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/10/20241125-beauticem-SA_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/10/20241125-beauticem-SA_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beauticem-sa/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTICEM-TRY-IN-PASTE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BeautiCem Try-In-Paste",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BeautiCem Try-In-Paste",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BeautiCem Try-In-Paste",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/10/20250213-beauticem_try-in-paste_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/10/20250213-beauticem_try-in-paste_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beauticem-try-in-paste/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTICEM-VENEER",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BeautiCem Veneer",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BeautiCem Veneer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BeautiCem Veneer",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-beauticem-veneer_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-beauticem-veneer_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beauticem-veneer/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTIFIL-FLOW",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BEAUTIFIL Flow",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BEAUTIFIL Flow",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BEAUTIFIL Flow",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240514-beautifil-flow_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240514-beautifil-flow_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautifil-flow/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTIFIL-FLOW-PLUS",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BEAUTIFIL Flow Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BEAUTIFIL Flow Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BEAUTIFIL Flow Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20250605-beautifil-flow-plus_01_633.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20250605-beautifil-flow-plus_01_633.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautifil-flow-plus/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTIFIL-FLOW-PLUS-X",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BEAUTIFIL Flow Plus X",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BEAUTIFIL Flow Plus X",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BEAUTIFIL Flow Plus X",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2023/12/20250605-beautifil-flow-plus-x_01_633.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2023/12/20250605-beautifil-flow-plus-x_01_633.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautifil-flow-plus-x/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTIFIL-II",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BEAUTIFIL II",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BEAUTIFIL II",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BEAUTIFIL II",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240514-beautifil-II_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240514-beautifil-II_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautifil-ii/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTIFIL-II-GINGIVA-ENAMEL",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BEAUTIFIL II Gingiva &#038; Enamel",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BEAUTIFIL II Gingiva &#038; Enamel",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BEAUTIFIL II Gingiva &#038; Enamel",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20250605-beautifil-II-gingiva-enamel_01_633.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20250605-beautifil-II-gingiva-enamel_01_633.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautifil-ii-gingiva-enamel/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTIFIL-II-LS",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BEAUTIFIL II LS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BEAUTIFIL II LS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BEAUTIFIL II LS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240514-beautifil-II-ls_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240514-beautifil-II-ls_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautifil-ii-ls/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTIFIL-OPAQUER",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BEAUTIFIL Opaquer",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BEAUTIFIL Opaquer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BEAUTIFIL Opaquer",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/03/20240514-beautifil-opaquer_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/03/20240514-beautifil-opaquer_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautifil-opaquer/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTIFIL-BULK",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BEAUTIFIL-Bulk",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BEAUTIFIL-Bulk",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BEAUTIFIL-Bulk",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240514-beautifil-bulk_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240514-beautifil-bulk_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautifil-bulk/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTILINK-SA",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BeautiLink SA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BeautiLink SA",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BeautiLink SA",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2025/03/20250522-beautilink-sa-01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2025/03/20250522-beautilink-sa-01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautilink-sa/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BEAUTISEALANT",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "BeautiSealant",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BeautiSealant",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BeautiSealant",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240515-beautisealant_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240515-beautisealant_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/beautisealant/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BROWNIE-GREENIE-SUPERGREENIE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Brownie · Greenie · Supergreenie",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Brownie · Greenie · Supergreenie",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Brownie · Greenie · Supergreenie",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_brownie-greenie-supergreenie_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_brownie-greenie-supergreenie_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/brownie-greenie-supergreenie/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BURBLOCK",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Bur Block",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Bur Block",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Bur Block",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/10/20250310-burblock_003.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/10/20250310-burblock_003.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/burblock/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-BUR-STATION-II",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Bur Station II",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Bur Station II",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Bur Station II",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/10/20250310-burstation-II_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/10/20250310-burstation-II_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/bur-station-ii/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-CAD-CAM-PREPARATION-KIT",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "CAD/CAM Preparation Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CAD/CAM Preparation Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CAD/CAM Preparation Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/03/20260316-CAD_CAM-Preparation-Kit_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/03/20260316-CAD_CAM-Preparation-Kit_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/cad-cam-preparation-kit/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-CERAMAGE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "CERAMAGE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CERAMAGE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CERAMAGE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240515-ceramage_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240515-ceramage_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/ceramage/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-CERAMAGE-UP",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "CERAMAGE UP",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CERAMAGE UP",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CERAMAGE UP",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240515-ceramage-up_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240515-ceramage-up_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/ceramage-up/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-CERAMASTER-CERAMASTER-COARSE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "CeraMaster · CeraMaster Coarse",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CeraMaster · CeraMaster Coarse",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CeraMaster · CeraMaster Coarse",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_ceramaster_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_ceramaster_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/ceramaster-ceramaster-coarse/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-CERAMISTE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Ceramisté",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ceramisté",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ceramisté",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_ceramiste_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_ceramiste_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/ceramiste/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-CRB-CERARESIN-BOND",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "CERARESIN BOND (CRB)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CERARESIN BOND (CRB)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CERARESIN BOND (CRB)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-crb-ceraresin-bond_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-crb-ceraresin-bond_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/crb-ceraresin-bond/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-CERAVETY-PRESS-CAST",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Ceravety Press &#038; Cast",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ceravety Press &#038; Cast",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ceravety Press &#038; Cast",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240524_ceravety_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240524_ceravety_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/ceravety-press-cast/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-CLEARFORM-X",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "ClearForm X",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ClearForm X",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ClearForm X",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/02/20260203-clearform-x_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/02/20260203-clearform-x_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/clearform-x/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-COMPOMASTER-COMPOMASTER-COARSE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "CompoMaster · CompoMaster Coarse",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CompoMaster · CompoMaster Coarse",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CompoMaster · CompoMaster Coarse",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_compomaster_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_compomaster_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/compomaster-compomaster-coarse/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-COMPOSITE-COMPOSITE-FINE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "CompoSite · CompoSite Fine",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CompoSite · CompoSite Fine",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CompoSite · CompoSite Fine",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_composite_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_composite_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/composite-composite-fine/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-COMPOSITE-POLISHING-KIT",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Composite Polishing Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Composite Polishing Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Composite Polishing Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/03/20260306-composite-finishing-kit_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/03/20260306-composite-finishing-kit_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/composite-polishing-kit/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-DIRECTDIA-PASTE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "DirectDia Paste",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "DirectDia Paste",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DirectDia Paste",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/02/20240205_directdia-paste_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/02/20240205_directdia-paste_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/directdia-paste/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-DURA-GREEN",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Dura-Green",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dura-Green",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dura-Green",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2023/12/20240205_dura-green_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2023/12/20240205_dura-green_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/dura-green/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-DURA-GREEN-DIA",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Dura-Green DIA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dura-Green DIA",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dura-Green DIA",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_dura-green-dia_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_dura-green-dia_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/dura-green-dia/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-DURA-POLISH",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Dura-Polish",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dura-Polish",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dura-Polish",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/05/20240508-dura-polish_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/05/20240508-dura-polish_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/dura-polish/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-DURA-POLISH-DIA",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Dura-Polish DIA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dura-Polish DIA",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dura-Polish DIA",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240424-dura-polish_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240424-dura-polish_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/dura-polish-dia/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-DURA-WHITE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Dura-White",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dura-White",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dura-White",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_dura-white_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_dura-white_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/dura-white/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-EYESPECIAL-C-V",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "EyeSpecial C-V",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "EyeSpecial C-V",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "EyeSpecial C-V",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20260218-eye-special_c-v_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20260218-eye-special_c-v_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/eyespecial-c-v/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-FL-BOND-II",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "FL-Bond II",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "FL-Bond II",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "FL-Bond II",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/03/20240305-fl-bond-II_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/03/20240305-fl-bond-II_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/fl-bond-ii/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-GINGI-CURETTAGE-DIAMANTEN",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Gingi Curettage Diamanten",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Gingi Curettage Diamanten",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Gingi Curettage Diamanten",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/10/20241125-gingi-curettage-diamanten_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/10/20241125-gingi-curettage-diamanten_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/gingi-curettage-diamanten/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-GINGI-CURETTAGE-DIAMONDS-KIT",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Gingi Curettage Diamonds Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Gingi Curettage Diamonds Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Gingi Curettage Diamonds Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/03/20260316-Gingi-Curettage-Diamonds-Kit_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/03/20260316-Gingi-Curettage-Diamonds-Kit_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/gingi-curettage-diamonds-kit/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-GLASIONOMER-CEMENT-CX-PLUS",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "GlasIonomer Cement CX-Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "GlasIonomer Cement CX-Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "GlasIonomer Cement CX-Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-glasIonomer-cement-cx-plus_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-glasIonomer-cement-cx-plus_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/glasionomer-cement-cx-plus/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-GLASIONOMER-FX-ULTRA",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "GlasIonomer FX Ultra",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "GlasIonomer FX Ultra",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "GlasIonomer FX Ultra",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-glasIonomer-fx-ultra_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-glasIonomer-fx-ultra_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/glasionomer-fx-ultra/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-HYBRID-POINTS",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Hybrid Points",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Hybrid Points",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Hybrid Points",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/03/20240305-hybrid-points_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/03/20240305-hybrid-points_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/hybrid-points/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-HYBRID-POINTS-KIT",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Hybrid Points Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Hybrid Points Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Hybrid Points Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/03/20260313-Hybrid-Points-Kit_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/03/20260313-Hybrid-Points-Kit_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/hybrid-points-kit/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-LITE-ART",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "LITE ART",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LITE ART",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LITE ART",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240515-lite-art_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240515-lite-art_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/lite-art/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-MANDRELS",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Mandrels",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Mandrels",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Mandrels",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/02/20260213-mandrells_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/02/20260213-mandrells_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/mandrels/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-MERSSAGE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Merssage",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Merssage",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Merssage",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20260304-merssage_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20260304-merssage_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/merssage/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-ONEGLOSS-M-ONEGLOSS-ONEGLOSS-PS",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "OneGloss M · OneGloss · OneGloss PS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OneGloss M · OneGloss · OneGloss PS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OneGloss M · OneGloss · OneGloss PS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/02/20240205_onegloss_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/02/20240205_onegloss_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/onegloss-m-onegloss-onegloss-ps/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-PORCELAIN-LAMINATE-POLISHING-KIT",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Porcelain Laminate Polishing Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Porcelain Laminate Polishing Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Porcelain Laminate Polishing Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/03/20260313-porcelain-laminate-polishing-kit_001_DE.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/03/20260313-porcelain-laminate-polishing-kit_001_DE.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/porcelain-laminate-polishing-kit/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-PRESSAGE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Pressage",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Pressage",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Pressage",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/03/20240506-pressage_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/03/20240506-pressage_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/pressage/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-RESICEM",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "ResiCem",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ResiCem",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ResiCem",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-resicem_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-resicem_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/resicem/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-ROBOT-POINTS-FG",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Robot Points FG",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Robot Points FG",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Robot Points FG",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_robot-points-fg_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_robot-points-fg_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/robot-points-fg/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-ADJUSTER",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU Adjuster",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU Adjuster",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU Adjuster",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/02/20260213-shofu-adjuster_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/02/20260213-shofu-adjuster_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-adjuster/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-AZ-PRIMER",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU AZ Primer",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU AZ Primer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU AZ Primer",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2025/02/20250310-shofu-az-primer_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2025/02/20250310-shofu-az-primer_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-az-primer/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-BLOCK-HC-DISK-HC",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU Block HC · Disk HC",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU Block HC · Disk HC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU Block HC · Disk HC",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-shofu-block-hc-disk-hc_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-shofu-block-hc-disk-hc_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-block-hc-disk-hc/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-BLOCK-HC-HARD",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU BLOCK HC Hard",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU BLOCK HC Hard",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU BLOCK HC Hard",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-shofu-block-hc-hard_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-shofu-block-hc-hard_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-block-hc-hard/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-DISK-ZR-LUCENT",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU DISK ZR Lucent",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU DISK ZR Lucent",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU DISK ZR Lucent",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-shofu-disk-zr-lucent_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-shofu-disk-zr-lucent_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-disk-zr-lucent/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-DISK-ZR-LUCENT-SUPRA",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU DISK ZR Lucent Supra",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU DISK ZR Lucent Supra",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU DISK ZR Lucent Supra",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-shofu-disk-zr-lucent-supra_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-shofu-disk-zr-lucent-supra_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-disk-zr-lucent-supra/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-DISK-ZR-LUCENT-SUPRA-COLOR-INDICATOR",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU DISK ZR Lucent Supra Color Indicator",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU DISK ZR Lucent Supra Color Indicator",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU DISK ZR Lucent Supra Color Indicator",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/02/20260220-shofu-disk-zr-lucent-supra_color-indic_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/02/20260220-shofu-disk-zr-lucent-supra_color-indic_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-disk-zr-lucent-supra-color-indicator/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-GUMY-V",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU Gumy-V",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU Gumy-V",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU Gumy-V",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/02/20260208-gummy-v_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/02/20260208-gummy-v_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-gumy-v/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-HC-PRIMER",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU HC Primer",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU HC Primer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU HC Primer",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2025/02/20250310-shofu-hc-primer_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2025/02/20250310-shofu-hc-primer_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-hc-primer/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-PORCELAIN-BRUSH-ART",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU PORCELAIN BRUSH Art",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU PORCELAIN BRUSH Art",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU PORCELAIN BRUSH Art",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/04/20260427-shofu-porcelain-brush-art_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/04/20260427-shofu-porcelain-brush-art_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-porcelain-brush-art/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-PORCELAIN-PRIMER",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU Porcelain Primer",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU Porcelain Primer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU Porcelain Primer",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2025/02/20250310-shofu-porcelain-primer_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2025/02/20250310-shofu-porcelain-primer_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-porcelain-primer/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-RESIN-GLAZE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU RESIN GLAZE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU RESIN GLAZE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU RESIN GLAZE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/10/20250213-resin-glaze_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/10/20250213-resin-glaze_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-resin-glaze/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-UNIVERSAL-OPAQUE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU Universal Opaque",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU Universal Opaque",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU Universal Opaque",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/05/20240508-shofu-universal-opaque_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/05/20240508-shofu-universal-opaque_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-universal-opaque/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SHOFU-UNIVERSAL-PRIMER",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SHOFU Universal Primer",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SHOFU Universal Primer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SHOFU Universal Primer",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240430-shofu-universal-primer_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240430-shofu-universal-primer_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/shofu-universal-primer/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SOFTCUT-E",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "SoftCut-E",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SoftCut-E",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SoftCut-E",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_softcut-e_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_softcut-e_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/softcut-e/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SOLIDILITE-LED",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Solidilite LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Solidilite LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Solidilite LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-solidilite-led_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-solidilite-led_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/solidilite-led/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SUBLITE-V",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Sublite V",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Sublite V",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Sublite V",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-sublite-v_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-sublite-v_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/sublite-v/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SUPER-SNAP",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Super-Snap",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Super-Snap",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Super-Snap",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/11/20250507-supersnap-01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/11/20250507-supersnap-01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/super-snap/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SUPER-SNAP-BUFF-DISK",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Super-Snap Buff Disk",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Super-Snap Buff Disk",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Super-Snap Buff Disk",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_super-snap-buff-disk_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_super-snap-buff-disk_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/super-snap-buff-disk/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-SUPER-SNAP-X-TREME",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Super-Snap X-TREME",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Super-Snap X-TREME",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Super-Snap X-TREME",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240515-super-snap-xtreme_002.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240515-super-snap-xtreme_002.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/super-snap-x-treme/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-TF-HYBRID-POINTS",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "T&#038;F Hybrid Points",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "T&#038;F Hybrid Points",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T&#038;F Hybrid Points",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/10/20241125-tf-hybrid-points_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/10/20241125-tf-hybrid-points_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/tf-hybrid-points/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-TF-HYBRID-POINTS-KIT",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "T&#038;F Hybrid Points Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "T&#038;F Hybrid Points Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T&#038;F Hybrid Points Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/03/20260313-TF-Hybrid-Points-Kit_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/03/20260313-TF-Hybrid-Points-Kit_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/tf-hybrid-points-kit/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-ZAHNSCHRANK-MIT-5-SCHUBLADEN",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Tooth cabinet with 5 drawers",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tooth cabinet with 5 drawers",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tooth cabinet with 5 drawers",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2025/05/20250513-zahnschrank-01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2025/05/20250513-zahnschrank-01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/zahnschrank-mit-5-schubladen/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-TPE-DIAMANTEN",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "TPE Diamanten",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "TPE Diamanten",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TPE Diamanten",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/10/20241125-tpe-diamanten_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/10/20241125-tpe-diamanten_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/tpe-diamanten/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-TPE-DIAMONDS-KIT",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "TPE Diamonds Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "TPE Diamonds Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TPE Diamonds Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/03/20260316-TPE-Diamonds-Kit_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/03/20260316-TPE-Diamonds-Kit_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/tpe-diamonds-kit/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VERACIA",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Veracia",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Veracia",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Veracia",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20250513-veracia-03.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20250513-veracia-03.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/veracia/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VERACIA-VERACIA-SA-SHADE-GUIDE",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Veracia / Veracia SA Shade guide",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Veracia / Veracia SA Shade guide",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Veracia / Veracia SA Shade guide",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2025/05/20250513-shade-guide-01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2025/05/20250513-shade-guide-01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/veracia-veracia-sa-shade-guide/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VERACIA-SA",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "Veracia SA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Veracia SA",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Veracia SA",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20250513-veracia-SA-01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20250513-veracia-SA-01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/veracia-sa/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VINTAGE-ART",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "VINTAGE Art",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VINTAGE Art",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VINTAGE Art",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2025/02/20250318-vintage-art_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2025/02/20250318-vintage-art_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/vintage-art/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VINTAGE-ART-LF",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "VINTAGE Art LF",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VINTAGE Art LF",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VINTAGE Art LF",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2025/02/20250318-vintage-art-LF_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2025/02/20250318-vintage-art-LF_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/vintage-art-lf/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VINTAGE-ART-UNIVERSAL",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "VINTAGE Art Universal",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VINTAGE Art Universal",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VINTAGE Art Universal",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240528_vintage-art-universal.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240528_vintage-art-universal.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/vintage-art-universal/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VINTAGE-ART-UNIVERSAL-YAMAMOTO-LIQUID",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "VINTAGE Art Universal YAMAMOTO LIQUID",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VINTAGE Art Universal YAMAMOTO LIQUID",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VINTAGE Art Universal YAMAMOTO LIQUID",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2026/04/20260428-vintage-art-universal-yamamoto-liquid_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2026/04/20260428-vintage-art-universal-yamamoto-liquid_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/vintage-art-universal-yamamoto-liquid/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VINTAGE-HALO",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "VINTAGE Halo",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VINTAGE Halo",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VINTAGE Halo",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/10/20250213-vintage-halo_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/10/20250213-vintage-halo_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/vintage-halo/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VINTAGE-LD",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "VINTAGE LD",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VINTAGE LD",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VINTAGE LD",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/09/20250318-vintage-ld_01-mdd.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/09/20250318-vintage-ld_01-mdd.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/vintage-ld/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VINTAGE-LD-PRESS",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "VINTAGE LD PRESS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VINTAGE LD PRESS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VINTAGE LD PRESS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2025/02/20250318-vintage-ld-press_01.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2025/02/20250318-vintage-ld-press_01.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/vintage-ld-press/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VINTAGE-PRIME-PRESS",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "VINTAGE PRIME PRESS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VINTAGE PRIME PRESS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VINTAGE PRIME PRESS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-vintage-prime-press_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240303-vintage-prime-press_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/vintage-prime-press/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VINTAGE-PRO",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "VINTAGE PRO",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VINTAGE PRO",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VINTAGE PRO",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240528_vintage-pro.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240528_vintage-pro.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/vintage-pro/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-VINTAGE-ZR",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "VINTAGE ZR",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VINTAGE ZR",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VINTAGE ZR",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240528_vintage-zr.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240528_vintage-zr.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/vintage-zr/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-ZILMASTER",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "ZiLMaster",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ZiLMaster",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ZiLMaster",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_zilmaster_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_zilmaster_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/zilmaster/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHOFU-ZIRGLOSS",
+      "brand": "Shofu",
+      "manufacturer": "SHOFU Dental GmbH / SHOFU Inc.",
+      "name": "ZirGloss",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ZirGloss",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ZirGloss",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Shofu / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_zirgloss_001.jpg",
+      "imageUrls": "https://www.shofu.de/wp-content/uploads/2024/01/20240205_zirgloss_001.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shofu.de/en/products/zirgloss/",
+      "additionalSourceUrls": "https://www.shofu.de/produkte-sitemap1.xml | https://www.shofu.de/produkte-sitemap2.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCT_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

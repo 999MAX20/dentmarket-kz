@@ -1,0 +1,2755 @@
+{
+  "brand": "Dentsply Sirona",
+  "manufacturer": "Dentsply Sirona Inc.",
+  "sourceType": "CURRENT_OFFICIAL_ALL_BRANDS_INDEX_AND_PRODUCT_FAMILY_PAGES",
+  "sourceUrl": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "allOfficialCurrentBrandFamilyLinksCollected": true,
+    "trademarkAndNavigationDuplicatesCollapsed": true,
+    "exactOfficialPageImagesPreserved": true,
+    "noManufacturerReferenceInvented": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "officialIndexEntries": 105,
+    "discoveredProducts": 105,
+    "variantSkus": 105,
+    "productsWithImages": 91,
+    "productsWithReferences": 0,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "DENTSPLY-SIRONA-LUCITONE-DIGITAL-PRINT-DENTURE-SYSTEM",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "3D Printed Dentures: Lucitone Digital Print",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "3D Printed Dentures: Lucitone Digital Print",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "3D Printed Dentures: Lucitone Digital Print",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Start a new digital era where you can quickly print single-arch dentures & manage complex cases, with Lucitone Digital Print. Learn more!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/procedures/dental-lab/removable-prosthetics/lucitone-digital-print-denture-system/images/LAB-Image-Product-Family%20Render-No%20Background.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/procedures/dental-lab/removable-prosthetics/lucitone-digital-print-denture-system/images/LAB-Image-Product-Family%20Render-No%20Background.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-lab/brands/lucitone/lucitone-digital-print-denture-system.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ACURIS-CONOMETRIC-CONCEPT",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Acuris Conometric Implant Abutment",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Acuris Conometric Implant Abutment",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Acuris Conometric Implant Abutment",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Improve patient satisfaction, save time and cost. Trust the Acuris Conometric Concept Implant Abutment for Ankylos to offer science-backed, stable results.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/cover-screws---healing-abutments/healing-abutments/acuris-conometric-healing-cap/images/IMP-Image-Acuris-cap-crown-Xive-with-grid-background.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/cover-screws---healing-abutments/healing-abutments/acuris-conometric-healing-cap/images/IMP-Image-Acuris-cap-crown-Xive-with-grid-background.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/other-products/acuris-conometric-concept.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-AH-PLUS-RIBBON",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "AH Plus Ribbon: Endodontic sealing with proven clinical success",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "AH Plus Ribbon: Endodontic sealing with proven clinical success",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AH Plus Ribbon: Endodontic sealing with proven clinical success",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover AH Plus Ribbon, endo sealer designed for cold & warm obturation techniques, offering excellent long-term sealing and superior radiopacity.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/ah-plus-ribbon.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ALGIN_X-ULTRA",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Algin•X Ultra Alginate Alternative I Dentsply Sirona",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Algin•X Ultra Alginate Alternative I Dentsply Sirona",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Algin•X Ultra Alginate Alternative I Dentsply Sirona",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "This elastomeric dental impression material is an alginate alternative designed for the High detail and dimensional stability you need for your temporary crown procedure.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/overarching-clinical-images/RES-image-alginx-dispensing-white-575x375.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/overarching-clinical-images/RES-image-alginx-dispensing-white-575x375.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/algin_x-ultra.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ANKYLOS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Ankylos Implants",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ankylos Implants",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ankylos Implants",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Deliver enduring results patients want with the simplicity, world-class technology, and lasting tissue stability of Ankylos Implants trusted by 17,000 patients.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/implants/ankylos-c-x-implant/images/IMP-Image-Ankylos-implant-range-atlantis-abutments.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/implants/ankylos-c-x-implant/images/IMP-Image-Ankylos-implant-range-atlantis-abutments.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/ankylos.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-AQUASIL-ULTRA--",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Aquasil Smart+ Wetting Impression Material",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Aquasil Smart+ Wetting Impression Material",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Aquasil Smart+ Wetting Impression Material",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "See the chemistry giving reformulated, state-of-the-art Aquasil Ultra+ Smart Wetting Impression Material its leading intraoral hydrophilicity and tear strength.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/impression-taking/silicones-vps/aquasil-ultra-plus/images/RES-Product-Image-AquasilUltraPlus-LV-Regular-Set-Cartridge-Refill-NCIS-678671.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/impression-taking/silicones-vps/aquasil-ultra-plus/images/RES-Product-Image-AquasilUltraPlus-LV-Regular-Set-Cartridge-Refill-NCIS-678671.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/aquasil-ultra--.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ASTRA-TECH",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Astra Tech Implant System",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Astra Tech Implant System",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Astra Tech Implant System",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Easily, hygienically install implants with the streamlined components of the Astra Tech Implant System- scientific, clinically used and documented for 30 years.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/implants/astra-tech-implant-system-ev-astra-tech-implant-ev/images/IMP-Image-Hero-Astra-Tech-Implant_System.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/implants/astra-tech-implant-system-ev-astra-tech-implant-ev/images/IMP-Image-Hero-Astra-Tech-Implant_System.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/other-products/astra-tech.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ASTRA-TECH-IMPLANT-SYSTEM-EV",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Astra Tech Implant System EV",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Astra Tech Implant System EV",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Astra Tech Implant System EV",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Astra Tech Implant System EV helps you deliver life-long function and natural esthetics to your patients using a streamlined workflow. Learn more!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/implants/astra-tech-implant-system-ev-astra-tech-implant-ev/images/IMP-tile-square-ATIS-EV.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/implants/astra-tech-implant-system-ev-astra-tech-implant-ev/images/IMP-tile-square-ATIS-EV.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/astra-tech-implant-system-ev.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ATLANTIS-ABUTMENT",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Atlantis Patient-Specific Abutments: Customized Solutions",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Atlantis Patient-Specific Abutments: Customized Solutions",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Atlantis Patient-Specific Abutments: Customized Solutions",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover Atlantis® abutments with patient-specific designs for optimal esthetics, soft-tissue management, and functionality. Compatible with all major implant systems.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/impression/digital-impression-components/atlantis-io-flo-for-intraoral-scanning-(atlantis-abutments)/images/base-product-image/IMP-Image-Atlantis-cement-retained.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/impression/digital-impression-components/atlantis-io-flo-for-intraoral-scanning-(atlantis-abutments)/images/base-product-image/IMP-Image-Atlantis-cement-retained.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/atlantis/atlantis-abutment.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ATLANTIS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Atlantis Patient-Specific Solutions",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Atlantis Patient-Specific Solutions",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Atlantis Patient-Specific Solutions",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover precision and customization with Atlantis patient-specific solutions by Dentsply Sirona for dental restorations.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/flagship/fr_fr/explore/implantology/garantie/FR-hero-richtext-small-Warranty.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/flagship/fr_fr/explore/implantology/garantie/FR-hero-richtext-small-Warranty.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/atlantis.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ATLANTIS-SUPRASTRUCTURES",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Atlantis Suprastructures",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Atlantis Suprastructures",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Atlantis Suprastructures",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Patient-specific Atlantic suprastructures transcend CAD to create fixed & removable protheses and overdentures. Attain crucial angles with easier handling.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/prosthetics/patient-specific-abutment/atlantis/IMP-Image-Atlantis-BridgeBase-Full-layer.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/prosthetics/patient-specific-abutment/atlantis/IMP-Image-Atlantis-BridgeBase-Full-layer.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/atlantis/atlantis-suprastructures.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-AXEOS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Axeos CBCT Machine",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Axeos CBCT Machine",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Axeos CBCT Machine",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Be your practice’s architect in extraoral imaging. Axeos presents the most versatile 2D/3D CBCT Machine: Smart connectivity & clearly superior sharp imaging.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/treatment-centers/product-categories/axano/images/TRE-product-image-axano-innovation-meets-fascination.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/treatment-centers/product-categories/axano/images/TRE-product-image-axano-innovation-meets-fascination.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/x-ray-solutions/brands/axeos.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-AZENTO",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Azento: Dental Implant Procedure",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Azento: Dental Implant Procedure",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Azento: Dental Implant Procedure",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Implement a comprehensive, customized, and cost-effective surgical solution with the Azento planning service for general practitioners, specialists, and labs.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/implants/implant-systems/image/image2/IMP-Hero-Image-AzentoBox-open.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/implants/implant-systems/image/image2/IMP-Hero-Image-AzentoBox-open.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/azento.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-OSSIX",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Bone regeneration in implants",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Bone regeneration in implants",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Bone regeneration in implants",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Bone and soft tissue regeneration is a medical procedure in implantology. Click here to discover all implant tools that DS has to offer!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/implants/bone-grafts/IMP-Product-Image-Ossix-Bone-BP-127655%20cropped.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/implants/bone-grafts/IMP-Product-Image-Ossix-Bone-BP-127655%20cropped.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/ossix.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CAD---CAM-BLOCKS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "CAD/CAM Materials | Dental Ceramic",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CAD/CAM Materials | Dental Ceramic",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CAD/CAM Materials | Dental Ceramic",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Re-imagine CAD/CAM Materials for the dental practice. Compare the preferred options in dental glass, zirconia, and feldspar ceramics from CEREC and Celtra",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/usa/product-categories/cad-cam-chairside-dentistry/images/CER-EN-US-Image-CAD-Primescan-48-Resto-Design.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/usa/product-categories/cad-cam-chairside-dentistry/images/CER-EN-US-Image-CAD-Primescan-48-Resto-Design.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/cad---cam-blocks.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CALIBRA--FAMILY",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Calibra Family",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Calibra Family",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Calibra Family",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Calibra Cements are designed to make it easier than ever to achieve consistent, successful results in your indirect restorations. Learn more!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/permanent-cements/resin-cements/calibra/images/RES-Image-Calibra-Family.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/permanent-cements/resin-cements/calibra/images/RES-Image-Calibra-Family.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/calibra--family.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CAVITRON-300",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Cavitron® 300 Series | Ultrasonic scaling system",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Cavitron® 300 Series | Ultrasonic scaling system",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Cavitron® 300 Series | Ultrasonic scaling system",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover the Cavitron® 300 Series System, designed for efficient, comfortable and faster scaling. Learn more today!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/preventive/product-categories/ultrasonic-scaling/table-top-units/cavitron-300/images/PRE-Image-Cavitron-300-Package.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/preventive/product-categories/ultrasonic-scaling/table-top-units/cavitron-300/images/PRE-Image-Cavitron-300-Package.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/preventive/brands/cavitron-300.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CELTRA-DUO",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Celtra Duo Blocks",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Celtra Duo Blocks",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Celtra Duo Blocks",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Make a difference in your patient&#39;s experience with Celtra Duo proprietary Zirconia-reinforced Lithium Silicate from CEREC. Learn more!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/ceramics/cad-cam-ceramics/celtra-duo/images/RES-Image-Celtra-Duo-2-blocks.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/ceramics/cad-cam-ceramics/celtra-duo/images/RES-Image-Celtra-Duo-2-blocks.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/other/celtra-duo.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CELTRA-PRESS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Celtra Press",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Celtra Press",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Celtra Press",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Celtra is the new generation of high strength glass ceramics, zirconia reinforced lithium silicate – ZLS. Celtra Press is an all-ceramic system for the creation of Occlusal veneers, Thin veneers, Veneers, Inlays, Onlays, Crowns in the anterior and posterior region, 3-unit bridges in the anterior region up to the second premolar as the terminal abutment, Crown or 3 unit bridge up to the second premolar placed on top of an implant abutment.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/high-strength-glass-ceramic/celtra-press/images/Lab-Image-Celtra-Press-full-restoration.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/high-strength-glass-ceramic/celtra-press/images/Lab-Image-Celtra-Press-full-restoration.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-lab/brands/celtra-press.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CERCON-HT-ML",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Cercon ht ML: Dental Zirconia",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Cercon ht ML: Dental Zirconia",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Cercon ht ML: Dental Zirconia",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Match natural tooth shades with consistent quality and lifelike gradient. Cercon ht ML multilayer hybrid zirconia discs sinter in under 3 hours.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/campaigns-promotions/ds-signature-workflows/images/IMP-Image-Signature-Workflows-WF-product-Cercon-ht-ML-grey-bkgd.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/campaigns-promotions/ds-signature-workflows/images/IMP-Image-Signature-Workflows-WF-product-Cercon-ht-ML-grey-bkgd.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-lab/brands/cercon/cercon-ht-ml.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CERCON-XT-ML",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Cercon xt ML",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Cercon xt ML",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Cercon xt ML",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Cercon® xt ML improves productivity and achieves very natural esthetics. Click here and discover more about Cercon® xt ML!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/cad-cam-materials/zirconium-oxide/cercon-discs/cercon-xt-ml/images/LAB-Product-Image-Cercon-xt-ML-Disc-standing-.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/cad-cam-materials/zirconium-oxide/cercon-discs/cercon-xt-ml/images/LAB-Product-Image-Cercon-xt-ML-Disc-standing-.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-lab/brands/cercon/cercon-xt-ml.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CEREC-CERCON-4D",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "CEREC Cercon 4D Zirconia: Strength meets esthetics chairside",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CEREC Cercon 4D Zirconia: Strength meets esthetics chairside",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CEREC Cercon 4D Zirconia: Strength meets esthetics chairside",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover CEREC Cercon 4D multidimensional zirconia: Esthetics, thin wall designs, and fast chairside workflows for crowns, bridges, veneers, and abutments.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/ceramics/cad-cam-ceramics/CEREC-Cercon-4D/images/RES-Image-CEREC-Cercon4d-Block-with-Abutment-and-Crown.JPG",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/ceramics/cad-cam-ceramics/CEREC-Cercon-4D/images/RES-Image-CEREC-Cercon4d-Block-with-Abutment-and-Crown.JPG",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/other/cerec-cercon-4d.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CEREC-MTL--ZIRCONIA",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "CEREC MTL Zirconia",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CEREC MTL Zirconia",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CEREC MTL Zirconia",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "CEREC MTL Zirconia is the solution that provides you with strong, precise restorations that are highly esthetic and natural looking. Learn more!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/ceramics/cad-cam-ceramics/cerec-mtl-zirconia/images/RES-image-product-CEREC-MTL-Zirconia-medi-A2.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/ceramics/cad-cam-ceramics/cerec-mtl-zirconia/images/RES-image-product-CEREC-MTL-Zirconia-medi-A2.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/other/cerec-mtl--zirconia.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CEREC-PRIMEMILL",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "CEREC Primemill",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CEREC Primemill",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CEREC Primemill",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Easy, fast & precise - CEREC Primemill combines state-of-the-art technology and CAM strategies to produce premium chairside restorations. Discover now!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/cerec/product-categories/hardware/milling-units/cerec-primemill/images/CER-Image-product-Primemill-left-side.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/cerec/product-categories/hardware/milling-units/cerec-primemill/images/CER-Image-product-Primemill-left-side.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/cad-cam/brands/cerec-primemill.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CEREC-SPEEDFIRE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "CEREC Speedfire",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CEREC Speedfire",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CEREC Speedfire",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Save time and sinter a crown within a few minutes - with the smallest and fastest sintering furnace: Click here to discover CEREC SpeedFire!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/cerec/product-categories/hardware/furnaces/cerec-speedfire/images/CER-image-product-CEREC-SpeedFire.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/cerec/product-categories/hardware/furnaces/cerec-speedfire/images/CER-image-product-CEREC-SpeedFire.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/cad-cam/brands/cerec-speedfire.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CEREC-TESSERA",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "CEREC Tessera: CAD/CAM Blocks",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CEREC Tessera: CAD/CAM Blocks",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CEREC Tessera: CAD/CAM Blocks",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Your go-to glass ceramic block: Click here to discover CEREC Tessera - Advanced Lithium Disilicate!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/ceramics/cad-cam-ceramics/cerec-tessera/images/RES-image-CEREC-Tessera-trifecta.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/ceramics/cad-cam-ceramics/cerec-tessera/images/RES-image-CEREC-Tessera-trifecta.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/other/cerec-tessera.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-DS-CORE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Cloud Solution for Dentists: Clinical applications for streamlined dental workflows",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Cloud Solution for Dentists: Clinical applications for streamlined dental workflows",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Cloud Solution for Dentists: Clinical applications for streamlined dental workflows",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Simplify collaboration, storage, and treatment workflows with DS Core®. Explore powerful cloud-based tools for patient consultation, treatment planning, and management for an integrated and efficient dental practice.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/ds-core/product-categories/overarching-images/PPS-Image-Primeprint-More-Connectivity.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/ds-core/product-categories/overarching-images/PPS-Image-Primeprint-More-Connectivity.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/digital-dentistry/brands/ds-core.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CONNECT-SOFTWARE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Connect Software",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Connect Software",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Connect Software",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "The Connect Portal creates a more efficient workflow by smoothly transmitting digital impressions data from practice to lab. Learn about its economic design.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/flagship/en/explore/digital-impression/connect/images/DIM-Image-Screenshot-Connect-Case-Center-Inbox-576x324.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/flagship/en/explore/digital-impression/connect/images/DIM-Image-Screenshot-Connect-Case-Center-Inbox-576x324.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/cad-cam/brands/other-products/connect-software.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-OMNITAPER-IMPLANT-SYSTEM",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "DS OmniTaper Implant System EV",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "DS OmniTaper Implant System EV",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DS OmniTaper Implant System EV",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Intuitive & reliable for a simplified experience. Click here to discover DS OmniTaper, our new solution for Implant Dentistry.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/collateral-marketing-product/ds-omnitaper/image/product/IMP-Product-Image-web-DS-OmniTaper-blue-background-big.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/collateral-marketing-product/ds-omnitaper/image/product/IMP-Product-Image-web-DS-OmniTaper-blue-background-big.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/omnitaper-implant-system.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PRIMETAPER-IMPLANT-SYSTEM",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "DS Primetaper",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "DS Primetaper",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DS Primetaper",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "It has a progressive thread design that enables it to quickly cut and engage with the bone. This allows for immediate function and shorter procedure times.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/implants/ds-primetaper/images/IMP-Image-product-PrimeTaper-2.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/implants/ds-primetaper/images/IMP-Image-product-PrimeTaper-2.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/primetaper-implant-system.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ENERGO-",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Electric Handpieces | Straight & Contra-Angle",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Electric Handpieces | Straight & Contra-Angle",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Electric Handpieces | Straight & Contra-Angle",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Browse a broad portfolio of straight and contra-angle dental handpieces. Dentsply Sirona presents unique solutions for each step and application.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/instruments/brands/energo-.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ENDOACTIVATOR",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "EndoActivator",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "EndoActivator",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "EndoActivator",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Dissolve tissue 12 times faster with the intuitive, versatile EndoActivator. It creates fluid hydrodynamics and uses a simple, hygienic clinical technique.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/usa/product-categories/endodontics/END-EN-US-EndoActivator-Teaser.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/usa/product-categories/endodontics/END-EN-US-EndoActivator-Teaser.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/discover/discover-by-brand/endoactivator.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ENHANCE-",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Enhance Finishing System",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Enhance Finishing System",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Enhance Finishing System",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Less time for impressive results. Enhance Finishing System promises adjustable coarseness in a one-step, simplified polishing system with max-gloss.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/direct-restoration/finishing-polishing/finishing/enhance-finishing/images/RES-Image-Product-Enhance.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/direct-restoration/finishing-polishing/finishing/enhance-finishing/images/RES-Image-Product-Enhance.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/enhance-.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ESSIX--PLASTICS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Essix Plastics",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Essix Plastics",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Essix Plastics",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Essix plastics exemplify the quality clinicians and patients expect in appearance, versatility, and durability. Choose the right plastic for every function.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/orthodontics/product-categories/plastics/images/ORT-image-teaser-Essix-Plus-plastics.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/orthodontics/product-categories/plastics/images/ORT-image-teaser-Essix-Plus-plastics.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/orthodontics/brands/essix--plastics.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-FLUOROPOST-",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "FluoroPost Root Canal Post I Dentsply Sirona",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "FluoroPost Root Canal Post I Dentsply Sirona",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "FluoroPost Root Canal Post I Dentsply Sirona",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "FluoroPost root canal post is the reliable tooth post material for those cases when not enough hard tissue remains, increasing the overall longevity and success of your final crown restoration.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/restorative/single-unit-crown/teaser-images/RES-teaser-image-transparent-background-Single-Unit-glove-hand-Crown-Fluoropost-tweaser.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/restorative/single-unit-crown/teaser-images/RES-teaser-image-transparent-background-Single-Unit-glove-hand-Crown-Fluoropost-tweaser.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/other/fluoropost-.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-GUTTA-SMART",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Gutta-Smart Cordless Obturation",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Gutta-Smart Cordless Obturation",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Gutta-Smart Cordless Obturation",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Learn how convenient, hygienic and well-insulated Gutta-Smart Cordless Obturation handpieces reliably fill canals with high visibility and tactile feedback.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/endodontic-equipment/obturation-units/gutta-smart/images/END-image-product-white-background-gutta-smart-570x342px.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/endodontic-equipment/obturation-units/gutta-smart/images/END-image-product-white-background-gutta-smart-570x342px.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/other/gutta-smart.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-GUTTACORE-OBTURATORS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "GuttaCore Obturators",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "GuttaCore Obturators",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "GuttaCore Obturators",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Explore scientific evidence distinguishing GuttaCore Obturators’ thorough, efficient gutta-percha distribution and easy retreatment, even on intricate anatomy.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/obturation-materials/obturators-size-verifiers/guttacore/images/END-image-product-package-Guttacore-for-TruNatomy-blister-570x342px.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/obturation-materials/obturators-size-verifiers/guttacore/images/END-image-product-package-Guttacore-for-TruNatomy-blister-570x342px.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/other/guttacore-obturators.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-HELIODENT-PLUS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Heliodent Plus: Intraoral X-Ray Generator",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Heliodent Plus: Intraoral X-Ray Generator",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Heliodent Plus: Intraoral X-Ray Generator",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Heliodent Plus Intraoral Dental X-Ray Generator exemplifies flexibility and efficiency. Operate the durable, smart design intuitively, remotely, and safely.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/imaging/product-categories/intraoral-imaging/intraoral-x-ray-generators/heliodent-plus/images/IMG-Image-Heliodent-Plus-Product.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/imaging/product-categories/intraoral-imaging/intraoral-x-ray-generators/heliodent-plus/images/IMG-Image-Heliodent-Plus-Product.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/x-ray-solutions/brands/heliodent-plus.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-HEMOBAN-GEL-",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Hemoban Gel I Dentsply Sirona",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Hemoban Gel I Dentsply Sirona",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Hemoban Gel I Dentsply Sirona",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Hemoban Gel 25% Aluminum Chloride Hemostatic Solution, provides a clinically better way to achieve fluid control and reduce the risk of secondary bleeding.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/flagship/en/explore/restorative/hemoban-gel/RES-Hemoban-Cord-Getty-Image.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/flagship/en/explore/restorative/hemoban-gel/RES-Hemoban-Cord-Getty-Image.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/other/hemoban-gel-.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-INEOS-X5",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "inEos X5: Dental Lab Scanner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "inEos X5: Dental Lab Scanner",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "inEos X5: Dental Lab Scanner",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "inEos X5 dental lab scanner comfortably captures objects for precise measurement. Watch special camera optics and digital stripe light projection in action.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/cad-cam-with-inlab/scanner/ineos-x5/images/LAB-image-tb-inEos-X5-front-model-hr.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/cad-cam-with-inlab/scanner/ineos-x5/images/LAB-image-tb-inEos-X5-front-model-hr.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-lab/brands/ineos-x5.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-INLAB-CAD-CAM-EQUIPMENT-",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "inLab | CAD/CAM Equipment for Dental Labs",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "inLab | CAD/CAM Equipment for Dental Labs",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "inLab | CAD/CAM Equipment for Dental Labs",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Explore the forefront of dental lab technology with Dentsply Sirona&#39;s inLab CAD/CAM equipment. Discover our cutting-edge solutions for dental restorations.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/dental-lab/lab/images/inlab-scanner-ineos-x5_525.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/dental-lab/lab/images/inlab-scanner-ineos-x5_525.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-lab/brands/inlab/inlab-cad-cam-equipment-.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-INLAB-MC-X5-",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "inLab MC X5: Dental Milling Machine",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "inLab MC X5: Dental Milling Machine",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "inLab MC X5: Dental Milling Machine",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "The inLab MC X5 was designed as a universal five-axis production unit to meet dental laboratory requirements for cost-efficient production. Learn more.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/cad-cam-with-inlab/milling-units/inlab-mc-x5/images/Lab-image-tb-inLab-MC-X5-open.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/cad-cam-with-inlab/milling-units/inlab-mc-x5/images/Lab-image-tb-inLab-MC-X5-open.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-lab/brands/inlab/inlab-mc-x5-.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-INLAB-PROFIRE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "inLab Profire: Dental Lab Sintering Furnace",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "inLab Profire: Dental Lab Sintering Furnace",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "inLab Profire: Dental Lab Sintering Furnace",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Handle zirconium oxide and non-precious metal restorations. inLab Profire dental lab sintering furnace marries easy operation and long-trusted heating elements.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/cad-cam-with-inlab/sintering-furnace/inlab-profire/images/Lab-image-inLab-Profire-front-down.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/cad-cam-with-inlab/sintering-furnace/inlab-profire/images/Lab-image-inLab-Profire-front-down.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-lab/brands/inlab/inlab-profire.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-INLAB-CAD-SOFTWARE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "inLab Software: Dental CAD Software",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "inLab Software: Dental CAD Software",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "inLab Software: Dental CAD Software",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Breeze through the production process with integrated inLab dental CAD software’s intuitive user interface. Manage process start and disc information and mill right away.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/cad-cam-with-inlab/inlab-cad-software/images/LAB-Image-Screen-inlab-CAD-SW-basic-module-vollatonomisch.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/cad-cam-with-inlab/inlab-cad-software/images/LAB-Image-Screen-inlab-CAD-SW-basic-module-vollatonomisch.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/discover/discover-by-brand/inlab-cad-software.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-INTEGO",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Intego Dental Chair",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Intego Dental Chair",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Intego Dental Chair",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "The Intego Dental Chair comes in Pro and Ambidextrous. Click here to discover how to navigate next-level patient comfort and communication.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/websites/corporate-website/explore/imaging/treatment-centers/text-and-image/M4103416_Benelux_Variante_HG_monitor_schwarz-800x480px.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/websites/corporate-website/explore/imaging/treatment-centers/text-and-image/M4103416_Benelux_Variante_HG_monitor_schwarz-800x480px.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-chairs/brands/other-products/intego.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-INTEGRITY-MULTI_CURE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Integrity Multi•Cure I Dentsply Sirona",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Integrity Multi•Cure I Dentsply Sirona",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Integrity Multi•Cure I Dentsply Sirona",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "High-strength temporary crown material. Light-cures on demand and finishes smoothly to ensure continued tissue health with full proper function and esthetics.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/provisional-restoration/temporary-restoration/integrity-multicure/images/RES-Image-Product-transparent-background-Integrity-MultiCure-cartridge.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/provisional-restoration/temporary-restoration/integrity-multicure/images/RES-Image-Product-transparent-background-Integrity-MultiCure-cartridge.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/integrity/integrity-multi_cure.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-INTEGRITY-TEMPGRIP",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Integrity TempGrip: Temporary Crown Cement",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Integrity TempGrip: Temporary Crown Cement",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Integrity TempGrip: Temporary Crown Cement",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "High-strength temporary crown cement. Holds the provisional in place & releases easily to protect and preserve the tooth preparation for final cementation.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/provisional-restoration/temporary-cements/integrity-tempgrip/images/RES-Product-Image-Integrity-TempGrip-Syringe.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/indirect-restoration/provisional-restoration/temporary-cements/integrity-tempgrip/images/RES-Product-Image-Integrity-TempGrip-Syringe.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/integrity/integrity-tempgrip.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-IPN-3D-",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "IPN 3D Digital Denture Teeth",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPN 3D Digital Denture Teeth",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPN 3D Digital Denture Teeth",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "A homogenous 3D structure with cross-linking molecular chains ensures durability. Advance printed & milled dentures with strong IPN 3D Digital Denture Teeth.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/denture-teeth/ipn-3d---digital-denture-teeth/images/LAB-image-shop-IPN-3D.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/denture-teeth/ipn-3d---digital-denture-teeth/images/LAB-image-shop-IPN-3D.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-lab/brands/other-products/ipn-3d-.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-IRRIGATION-NEEDLE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Irrigation Needle – Designed to improve disinfection in Endodontics",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Irrigation Needle – Designed to improve disinfection in Endodontics",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Irrigation Needle – Designed to improve disinfection in Endodontics",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Dentsply Sirona Irrigation Needle is designed to provide safe yet efficient distribution of the irrigation solution close to the apex during endodontic procedures.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/irrigation-materials/irrigants/irrigation-needle/images/END-image-product-IrrigationNeedle-lowres.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/irrigation-materials/irrigants/irrigation-needle/images/END-image-product-IrrigationNeedle-lowres.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/irrigation-needle.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-KISS-CERAMICS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Kiss Veneer Ceramic Material I Dentsply Sirona",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Kiss Veneer Ceramic Material I Dentsply Sirona",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Kiss Veneer Ceramic Material I Dentsply Sirona",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Kiss is a product family of veneer ceramic materials for any metal and zirconia frameworks for the dental lab. The system includes: Celtra Ceram Kiss, Duceram Kiss, and Duceragold Kiss. With the Kiss system discover a reduced number of modeling masses, perfect aesthetics and simple and safe shade production and shade matching.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/ceramics/veneering-porcelain/duceram-kiss/images/Lab-Image-Product-Duceram-kiss.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/ceramics/veneering-porcelain/duceram-kiss/images/Lab-Image-Product-Duceram-kiss.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-lab/brands/kiss-ceramics.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-MIDWEST-ELECTRIC",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Midwest® Electric: Discover now!",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Midwest® Electric: Discover now!",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Midwest® Electric: Discover now!",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Upgrade your practice to the Midwest E Electric System & discover how doubling the power impacts efficiency. Click here to learn more!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/instruments/handpieces/straight-contra-angle-handpieces/images/INS-Midwest-Stylus-Plus-H.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/instruments/handpieces/straight-contra-angle-handpieces/images/INS-Midwest-Stylus-Plus-H.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/discover/discover-by-brand/midwest-electric.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-MIDWEST-HIGH-SPEED",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Midwest® High Speed Dental Handpieces",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Midwest® High Speed Dental Handpieces",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Midwest® High Speed Dental Handpieces",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Our efficient Midwest High-speed dental handpieces are unbelievably accurate and deliver low noise output while effectively performing at their best.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/instruments/handpieces/straight-contra-angle-handpieces/images/straight-and-contra-angle-handpieces/ins-mw-highspeed-dentist-handpiece.jpeg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/instruments/handpieces/straight-contra-angle-handpieces/images/straight-and-contra-angle-handpieces/ins-mw-highspeed-dentist-handpiece.jpeg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/discover/discover-by-brand/midwest-high-speed.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-MIDWEST-LOW-SPEED",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Midwest® Low Speed Dental Handpieces",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Midwest® Low Speed Dental Handpieces",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Midwest® Low Speed Dental Handpieces",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Easy attachment of all modular angle components makes this collection a must-have. Click here to learn more.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/instruments/motors-and-attachments/low-speed-attachments/images/INS-Midwest-LS-Air-GRP.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/instruments/motors-and-attachments/low-speed-attachments/images/INS-Midwest-LS-Air-GRP.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/discover/discover-by-brand/midwest-low-speed.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-MULTIMAT-CUBE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Multimat Cube Ceramic Furnaces I Dentsply Sirona",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Multimat Cube Ceramic Furnaces I Dentsply Sirona",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Multimat Cube Ceramic Furnaces I Dentsply Sirona",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Multimat Cube porcelain furnace and Multimat Cube Press porcelain pressing and firing furnace for dental labs. Learn more!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/ceramic-furnaces/multimat-cube/images/LAB-Image-Multimat-Cube-and-Press-closed.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/ceramic-furnaces/multimat-cube/images/LAB-Image-Multimat-Cube-and-Press-closed.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/discover/discover-by-brand/multimat-cube.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-NUPRO-PROPHY-PASTE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Nupro Prophylaxis Paste: Performance with Patient Comfort",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Nupro Prophylaxis Paste: Performance with Patient Comfort",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Nupro Prophylaxis Paste: Performance with Patient Comfort",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover Nupro Prophy Paste, formulated for efficient cleaning and polishing. Enjoy proprietary formulations designed to deliver splatter-free performance, sensitivity relief with versatile grit and flavor options.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/preventive/product-categories/polishing/prophy-paste/nupro-prophy-paste-/images/PRE-product-image-Prophy-Paste-Cups-with-Fluoride-BP-1000170200.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/preventive/product-categories/polishing/prophy-paste/nupro-prophy-paste-/images/PRE-product-image-Prophy-Paste-Cups-with-Fluoride-BP-1000170200.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/preventive/brands/nupro/nupro-prophy-paste.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-NUPRO",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Nupro® Disposable Prophy Angles",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Nupro® Disposable Prophy Angles",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Nupro® Disposable Prophy Angles",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover Nupro® Disposable Prophy Angles, designed to enhance comfort, performance, and efficiency in dental polishing with various cup styles to meet all your patients needs.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/preventive/product-categories/polishing/hygiene-handpiece/cordless/nupro-freedom-classic/images/sales-compass-images/PRE-Image-Product-Nupro-Freedom-Cordless-Handpiece-vertical.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/preventive/product-categories/polishing/hygiene-handpiece/cordless/nupro-freedom-classic/images/sales-compass-images/PRE-Image-Product-Nupro-Freedom-Cordless-Handpiece-vertical.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/preventive/brands/nupro.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-NUPRO-WHITE-VARNISH",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Nupro® Disposable Prophy Angles",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Nupro® Disposable Prophy Angles",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Nupro® Disposable Prophy Angles",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover Nupro® Disposable Prophy Angles, designed to enhance comfort, performance, and efficiency in dental polishing with various cup styles to meet all your patients needs.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/preventive/product-categories/polishing/hygiene-handpiece/cordless/nupro-freedom-classic/images/sales-compass-images/PRE-Image-Product-Nupro-Freedom-Cordless-Handpiece-vertical.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/preventive/product-categories/polishing/hygiene-handpiece/cordless/nupro-freedom-classic/images/sales-compass-images/PRE-Image-Product-Nupro-Freedom-Cordless-Handpiece-vertical.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/preventive/brands/nupro/nupro-white-varnish.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ORTHOPHOS-E",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Orthophos E: 2D Extraoral Imaging System",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Orthophos E: 2D Extraoral Imaging System",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Orthophos E: 2D Extraoral Imaging System",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Diagnose with the digital imaging of Orthophos E. The solid 2D Extraoral Imaging System, CsI sensor technology, and easy-to-use interface suits orthodontics.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/imaging/product-categories/extraoral-imaging/2d-imaging-/orthophos-e/images/IMG-Image-People-Orthophos-E-assistant-patient-positioning-1.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/imaging/product-categories/extraoral-imaging/2d-imaging-/orthophos-e/images/IMG-Image-People-Orthophos-E-assistant-patient-positioning-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/x-ray-solutions/brands/orthophos-sl/orthophos-e.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ORTHOPHOS-S",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Orthophos S 2D/3D",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Orthophos S 2D/3D",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Orthophos S 2D/3D",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Digital imaging with the Orthophos S 2D/3D offers you a wide diagnostic range of panoramic and CBCT solutions with an excellent image quality.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/marketing-hub/marketing-hub/sbu/imaging/upload/dealer-portal/orthophos-s/Orthophos_S_CEPH_2.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/marketing-hub/marketing-hub/sbu/imaging/upload/dealer-portal/orthophos-s/Orthophos_S_CEPH_2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/x-ray-solutions/brands/orthophos-sl/orthophos-s.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PALODENT-MATRIX-SYSTEMS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Palodent Matrix Systems | Denstply Sirona",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Palodent Matrix Systems | Denstply Sirona",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Palodent Matrix Systems | Denstply Sirona",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "A tight seal, predictable contacts and the right contours for restorative clinical success. Learn more about the Palodent Matrix System.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/direct-restoration/matrix-systems/circumferential-systems/palodent-360/images/RES-Product-Image-Palodent-Family-570x342.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/direct-restoration/matrix-systems/circumferential-systems/palodent-360/images/RES-Product-Image-Palodent-Family-570x342.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/palodent-matrix-systems.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PORTRAIT-IPN",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Portrait IPN Denture Teeth",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Portrait IPN Denture Teeth",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Portrait IPN Denture Teeth",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Portrait IPN Premium Denture Teeth continue the 100-year Anatoform Trubyte Systems prosthetic dentistry revolution in transforming lives one smile at a time.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/dental-lab/portrait-ipn/Lab-portraitIPN-benefits-laboratory.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/regions-countries/north-america/product-procedure-brand/dental-lab/portrait-ipn/Lab-portraitIPN-benefits-laboratory.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-lab/brands/portrait-ipn.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-LUCITONE-DIGITAL-IPN",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Premium 3D Printed Teeth with Lucitone Digital IPN",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Premium 3D Printed Teeth with Lucitone Digital IPN",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Premium 3D Printed Teeth with Lucitone Digital IPN",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Lucitone Digital IPN is the premium-level 3D dentures material that offers superior wear resistance and esthetic demand. Explore Now!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/denture-teeth/lucitone-digital-ipn/images/LAB-image-product-Lucitone-Digital-IPN-Bottle.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/lab/product-categories/denture-teeth/lucitone-digital-ipn/images/LAB-image-product-Lucitone-Digital-IPN-Bottle.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/dental-lab/brands/lucitone/lucitone-digital-ipn.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PREPCHECK",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "prepCheck",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "prepCheck",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "prepCheck",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "prepCheck is an easy-to-learn system based on objective measurement procedures. Click here to find out more!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/cerec/product-categories/software/prepcheck/images/ISCS-Image-people-prepCheck-3.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/cerec/product-categories/software/prepcheck/images/ISCS-Image-people-prepCheck-3.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/cad-cam/brands/other-products/prepcheck.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PRIME-BOND-ACTIVE--",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Prime&Bond active® | Universal Dental Adhesive",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Prime&Bond active® | Universal Dental Adhesive",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Prime&Bond active® | Universal Dental Adhesive",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Use Prime&Bond active® Universal Dental Adhesive with all etching methods and indications. Relax working time. Reduce sensitivity, waste, film thickness, and pooling.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/direct-restoration/adhesives/universal-adhesives/prime-bond-active/images/sales-compass-images-/RES-thumbnail-image-Prime-and-Bond-active-search-1120x630.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/direct-restoration/adhesives/universal-adhesives/prime-bond-active/images/sales-compass-images-/RES-thumbnail-image-Prime-and-Bond-active-search-1120x630.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/prime-bond-active--.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PRIMEPRINT",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Primeprint | Dental 3D Printer",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Primeprint | Dental 3D Printer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Primeprint | Dental 3D Printer",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Primeprint is a highly automated, end-to-end, medical grade 3D printing system for dental professionals who want to expand their service offerings. Learn more!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/digital-dentistry/product-category/3d-printing/primeprint-3d-printer/images/PPS-Image-Primeprint-3d-Printing-Solution.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/digital-dentistry/product-category/3d-printing/primeprint-3d-printer/images/PPS-Image-Primeprint-3d-Printing-Solution.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/cad-cam/brands/primeprint.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PRIMESCAN",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Primescan",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Primescan",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Primescan",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "The flowing, contemporary design transports value, accuracy & outstanding performance. Primescan is the intraoral scanner for all your digital needs!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/cerec/product-categories/software/cerec-ortho-sw/images/CER-Image-People-Workflow-Scan-male-dentist.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/cerec/product-categories/software/cerec-ortho-sw/images/CER-Image-People-Workflow-Scan-male-dentist.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/digital-dentistry/brands/primescan.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PRIMESCAN-2",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Primescan 2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Primescan 2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Primescan 2",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Welcome the first cloud-native intraoral scanning solution with Primescan 2 powered by DS Core. Empower your practice with wireless scanning technology to excel in the digital age!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/digital-impression/product-categories/intraoral-scanners/primescan2/images/PSC-Image-Teaser-3-Across-Primescan2-Cradle.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/digital-impression/product-categories/intraoral-scanners/primescan2/images/PSC-Image-Teaser-3-Across-Primescan2-Cradle.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/digital-dentistry/brands/primescan-2.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PRIMESCAN-CONNECT",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Primescan Connect",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Primescan Connect",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Primescan Connect",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "With simplified intraoral scanning and streamlined workflows, Primescan Connect is a great starting point to digital dentistry.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/digital-dentistry/brands/other-products/primescan-connect.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PROROOT-BIO-SEALER",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "ProRoot Bio Sealer: Bioactive endodontic sealer",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ProRoot Bio Sealer: Bioactive endodontic sealer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ProRoot Bio Sealer: Bioactive endodontic sealer",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover ProRoot Bio Sealer, a bioceramic sealer with high clinical success rate, higher bioactive cement content and easy handling with minimal waste.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/other/proroot-bio-sealer.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PROTAPER-GOLD",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "ProTaper Gold: Precision & Performance for Root Canal Treatment",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ProTaper Gold: Precision & Performance for Root Canal Treatment",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ProTaper Gold: Precision & Performance for Root Canal Treatment",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover ProTaper Gold&#39;s advanced flexibility and durability. Elevate your root canal procedures with a trusted, complete endodontic solution.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/full-solutions/protaper-gold-solution/images/END-image-product-white-background-ProTaper-Gold-File-Assortment.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/full-solutions/protaper-gold-solution/images/END-image-product-white-background-ProTaper-Gold-File-Assortment.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/protaper-ultimate/protaper-gold.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PROTAPER-NEXT",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "ProTaper Next Endodontic File System",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ProTaper Next Endodontic File System",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ProTaper Next Endodontic File System",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "The stronger, more efficient ProTaper Next endodontic file system works with a selection of obturation accessories. Read about its science-refined performance.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/full-solutions/protaper-next/images/END-image-product-ProTaper-Next-Files-box-with-cutout-and-blister1.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/full-solutions/protaper-next/images/END-image-product-ProTaper-Next-Files-box-with-cutout-and-blister1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/protaper-ultimate/protaper-next.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PROTAPER-ULTIMATE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "ProTaper Ultimate Solution",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ProTaper Ultimate Solution",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ProTaper Ultimate Solution",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "A new endodontic treatment solution combining files, disinfection and obturation to seamlessly support your workflow. See the details and benefits here.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/full-solutions/protaper-ultimate-solution/images/END-Product-image-ProTaper-Ultimate-Composition-Packs1.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/full-solutions/protaper-ultimate-solution/images/END-Product-image-ProTaper-Ultimate-Composition-Packs1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/protaper-ultimate.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PUREVAC-HVE-",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Purevac HVE System",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Purevac HVE System",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Purevac HVE System",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "HVE stands for high volume evacuation. In a study, it removed 90% more harmful aerosols. Protect from bacteria and respiratory infections with Purevac HVE.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/preventive/product-categories/infection-prevention/high-volume-evacuation/purevac-hve/images/PRE-Image-mood-people-Purevac-HVE-aerosols.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/preventive/product-categories/infection-prevention/high-volume-evacuation/purevac-hve/images/PRE-Image-mood-people-Purevac-HVE-aerosols.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/preventive/brands/purevac-hve-.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-READYSTEEL",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "ReadySteel | Endodontic Files",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ReadySteel | Endodontic Files",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ReadySteel | Endodontic Files",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Enjoy simple prep and peace of mind thanks to the heightened medical standards behind ReadySteel endodontic files.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/files-motors-lubricants/hand-instruments/ready-steel/images/END-product-image-ReadySteel-15-40-Blister.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/files-motors-lubricants/hand-instruments/ready-steel/images/END-product-image-ReadySteel-15-40-Blister.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/discover/discover-by-brand/readysteel.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-RECIPROC-FAMILY",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Reciproc® family: One file Endo",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Reciproc® family: One file Endo",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Reciproc® family: One file Endo",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Designed to enable shaping without the need for an additional scouting or glidepath instrument in most cases, the Reciproc® family offers you efficiency in time saving through real one file endo",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/reciproc-family.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-RECIPROC-BLUE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Reciproc™ Blue",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Reciproc™ Blue",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Reciproc™ Blue",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Reciproc™ Blue enables you to prepare root canals with only one reciprocating instrument - without creating an initial glidepath in the majority of cases.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/brands/reciproc-blue/END-Image-Reciproc-Blue-Implants.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/brands/reciproc-blue/END-Image-Reciproc-Blue-Implants.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/reciproc-family/reciproc-blue.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-RINN",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Rinn Dental Intraoral Imaging Accessories",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Rinn Dental Intraoral Imaging Accessories",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Rinn Dental Intraoral Imaging Accessories",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "From radiation protection to media holders and aiming devices, our products are designed to simplify your workflow. Learn more!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/flagship/en/explore/preventive/PRE-Rinn-intraoral-radiography.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/flagship/en/explore/preventive/PRE-Rinn-intraoral-radiography.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/x-ray-solutions/brands/rinn.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SDR--FLOW--",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "SDR® flow+ | Bulk Fill Flowable",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SDR® flow+ | Bulk Fill Flowable",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SDR® flow+ | Bulk Fill Flowable",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Fill cavities with lasting success using SDR® flow+ flowable composite. Clinically accomplished bulk-fill technology easily adapts, minimizing gaps and stress.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/direct-restoration/composites-flowables/flowables/sdr-flow--(outside-north-america)/images/RES-Thumbnail-Image-SDRflowPlus-TeethS2-1120x630.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/direct-restoration/composites-flowables/flowables/sdr-flow--(outside-north-america)/images/RES-Thumbnail-Image-SDRflowPlus-TeethS2-1120x630.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/sdr--flow--.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ASTRA-TECH-IMPLANT-SYSTEM-EV",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Shop Astra Tech Implant System EV online",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Shop Astra Tech Implant System EV online",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Shop Astra Tech Implant System EV online",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Click here to buy our Astra Tech Implant System EV, designed to offer endless possibilities for superior outcomes.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/astra-tech-implant-system-ev.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-ASTRA-TECH-IMPLANT-SYSTEM-EV",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Shop Astra Tech Implant System EV online",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Shop Astra Tech Implant System EV online",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Shop Astra Tech Implant System EV online",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Click here to buy our Astra Tech Implant System EV, designed to offer endless possibilities for superior outcomes.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/astra-tech-implant-system-ev.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-CAVITRON",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Shop Cavitron Systems online",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Shop Cavitron Systems online",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Shop Cavitron Systems online",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Shop Cavitron and Cavitron system products, including the featured scalers, air polishing systems, prophy and prophy-jet systems.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/cavitron.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-DS-PRIMETAPER",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Shop DS PrimeTaper dental products online",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Shop DS PrimeTaper dental products online",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Shop DS PrimeTaper dental products online",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Click to shop DS Primetaper implants, Astratech implants, Primetaper drill and all other accessories here!",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/ds-primetaper.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-LUCITONE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Shop Lucitone dental products online",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Shop Lucitone dental products online",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Shop Lucitone dental products online",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Click here to shop Lucitone dental products and all its accessories",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/lucitone.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-PALODENT",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Shop Palodent online",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Shop Palodent online",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Shop Palodent online",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Click here to shop Palodent products ✓ & many more!",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/palodent.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SICAT",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "SICAT Dental Software",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SICAT Dental Software",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SICAT Dental Software",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Meet the 3D dental software solution inventors at SICAT. A varied product range in innovative digital dentistry is here- safer, faster, and easier than ever.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/imaging/product-categories/software/treatment-planning-software/sicat/imags/IMG-image-X-Ray-SICAT-Implant-CADCAM-Map-Nerve-3.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/imaging/product-categories/software/treatment-planning-software/sicat/imags/IMG-image-X-Ray-SICAT-Implant-CADCAM-Map-Nerve-3.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/x-ray-solutions/brands/sicat.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SIDEXIS-4",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Sidexis 4: Dental Imaging Software",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Sidexis 4: Dental Imaging Software",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Sidexis 4: Dental Imaging Software",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Sidexis 4 Dental Imaging Software structures workflow and connects with 200 products. Transfer, analyze, diagnose, and communicate with its intuitive design.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/imaging/product-categories/software/imgaging-software/sidexis-4/IMG-Image-Screen-X-Ray-Sidexis-4-.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/imaging/product-categories/software/imgaging-software/sidexis-4/IMG-Image-Screen-X-Ray-Sidexis-4-.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/x-ray-solutions/brands/sidexis/sidexis-4.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SIDEXIS-IX",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Sidexis iX Dental Imaging iPad App",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Sidexis iX Dental Imaging iPad App",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Sidexis iX Dental Imaging iPad App",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Sidexis iX Dental Software for iPad and PC is accessible anytime via Sidexis 4 Timeline. Scroll through, display & move renderings in-person and on the move.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/imaging/product-categories/software/imaging-software/sidexis-ix/images/IMG-Image-Screen-Sidexis-iX.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/imaging/product-categories/software/imaging-software/sidexis-ix/images/IMG-Image-Screen-Sidexis-iX.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/x-ray-solutions/brands/sidexis/sidexis-ix.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SIMPLANT",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Simplant Implant Planning Software",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Simplant Implant Planning Software",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Simplant Implant Planning Software",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "This 3D treatment solution is compatible with many implants and scanners for outstanding prosthetics. Start out right with Simplant implant planning software.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/guided-surgery/instruments/simplant-universal-drill-key-accessories/images/IMP-Simplant-computer-case-48hours.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/guided-surgery/instruments/simplant-universal-drill-key-accessories/images/IMP-Simplant-computer-case-48hours.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/simplant.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SIROLASER-ADVANCE-PLUS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "SiroLaser Advance Plus: Dental Diode Laser",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SiroLaser Advance Plus: Dental Diode Laser",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SiroLaser Advance Plus: Dental Diode Laser",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "SiroLaser Advance Plus is a diode laser with both an infrared and a red diode. It covers more than 20 indications. Learn more!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/intruments/product-categories/lasers/images/INS-Picture-SiroLaser-Advance-Plus-EN-M005-Alpha.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/intruments/product-categories/lasers/images/INS-Picture-SiroLaser-Advance-Plus-EN-M005-Alpha.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/instruments/brands/other-products/sirolaser-advance-plus.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SIROLASER-BLUE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "SiroLaser Blue: Dental Diode Laser",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SiroLaser Blue: Dental Diode Laser",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SiroLaser Blue: Dental Diode Laser",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "SiroLaser Blue is the first dental diode laser with blue, infrared, and red wavelengths. Reduce bacteria, post-op pain, and scarring to optimize healing.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/intruments/product-categories/lasers/images/INS-Image-mood-SiroLaser-Blue-EN-shutterstock-233807773.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/intruments/product-categories/lasers/images/INS-Image-mood-SiroLaser-Blue-EN-shutterstock-233807773.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/instruments/brands/other-products/sirolaser-blue.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SMARTLITE-PRO-ENDOACTIVATOR",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "SmartLite Pro EndoActivator",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SmartLite Pro EndoActivator",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SmartLite Pro EndoActivator",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Redefine your root canal irrigation practice, completing thorough cleanings faster for higher productivity.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/endodontic-equipment/irrigation-units/smartlitepro-endoactivator/images/END-image-SmartliteProEndoActivator-complete-kit-transparent-576x324.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/endodontic-equipment/irrigation-units/smartlitepro-endoactivator/images/END-image-SmartliteProEndoActivator-complete-kit-transparent-576x324.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/smartlite-pro-endoactivator.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SMARTLITE--PRO",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "SmartLite Pro: Dental Curing Light",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SmartLite Pro: Dental Curing Light",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SmartLite Pro: Dental Curing Light",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "SmartLite Pro is the forward-thinking Modular LED Dental Curing Light. Find out why it won a German Design Award and an IF Design Award in 2020.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/direct-restoration/curing-lights/led-lights/smartlite-pro/images/sales-compass-images-/RES-Product-Image-SmartLitPro.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/direct-restoration/curing-lights/led-lights/smartlite-pro/images/sales-compass-images-/RES-Product-Image-SmartLitPro.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/smartlite--pro.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SPRAYVIT",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Sprayvit: Dental Syringe",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Sprayvit: Dental Syringe",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Sprayvit: Dental Syringe",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Meticulously control exams using Sprayvit. The multifunctional dental syringe features lighting, heating, and rotating nozzle for safe, hygienic treatment.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/intruments/product-categories/syringes/images/Ins-product-image-Sprayvit-and-accessories.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/intruments/product-categories/syringes/images/Ins-product-image-Sprayvit-and-accessories.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/discover/discover-by-brand/sprayvit.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SURESMILE-CLEAR-ALIGNER",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "SureSmile Clear Aligner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SureSmile Clear Aligner",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SureSmile Clear Aligner",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "SureSmile Clear Aligners use digital dental technology to deliver predictable orthodontic treatment and profitability to your practice. Learn More!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/orthodontics/product-categories/suresmile-aligner/starter-kit/images/ort-images-suresmile-aligner-text-patient.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/orthodontics/product-categories/suresmile-aligner/starter-kit/images/ort-images-suresmile-aligner-text-patient.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/orthodontics/brands/suresmile-clear-aligner.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SURESMILE-CLEAR-ALIGNER",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "SureSmile Clear Aligner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SureSmile Clear Aligner",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SureSmile Clear Aligner",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "SureSmile Clear Aligners use digital dental technology to deliver predictable orthodontic treatment and profitability to your practice. Learn More!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/orthodontics/product-categories/suresmile-aligner/starter-kit/images/ort-images-suresmile-aligner-text-patient.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/orthodontics/product-categories/suresmile-aligner/starter-kit/images/ort-images-suresmile-aligner-text-patient.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/orthodontics/brands/suresmile-clear-aligner.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SURESMILE-RETAINERS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "SureSmile Retainers",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SureSmile Retainers",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SureSmile Retainers",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "SureSmile Retainers are designed to maintain final occlusion after orthodontic treatment. Learn more about the benefits of SureSmile Retainers.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/orthodontics/product-categories/suresmile-retainer/images/ORT-Images-SureSmile-Retainer-LP-TextHeavyTeaser-US_SureSmile_1210_1.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/orthodontics/product-categories/suresmile-retainer/images/ORT-Images-SureSmile-Retainer-LP-TextHeavyTeaser-US_SureSmile_1210_1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/orthodontics/brands/the-suresmile--system/suresmile-retainers.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SYMBIOS",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Symbios: Bone & Tissue Regeneration",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Symbios: Bone & Tissue Regeneration",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Symbios: Bone & Tissue Regeneration",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "The solution for all your regenerative needs - reliable bone graft materials resorbable, non-resorbable membranes and instruments. Discover Symbios!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/regenerative-solutions/membrane-and-scaffolds/symbios-multi-pack-membrane-tacks-/images/IMP-image-Symbios-Boneshield.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/implant-dentistry/product-categories/regenerative-solutions/membrane-and-scaffolds/symbios-multi-pack-membrane-tacks-/images/IMP-image-Symbios-Boneshield.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/implant-dentistry/brands/symbios.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-THE-SURESMILE--SYSTEM",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "The SureSmile® System",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "The SureSmile® System",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "The SureSmile® System",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "The SureSmile Clear Aligner System provides comprehensive treatment, including our VPro vibration device, clear aligner therapy, a SureSmile retainer, and our whitening kit.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/orthodontics/brands/the-suresmile--system.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-TPH-SPECTRA-",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "TPH Spectra® ST Family",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "TPH Spectra® ST Family",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TPH Spectra® ST Family",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "We know what matters most to dentists: TPH Spectra® ST composites stands out thanks to SphereTEC® filler technology. Discover now!",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/direct-restoration/composites-flowables/universal-composites/tph-spectra-st/images/RES-Image-tb-Spectra-ST-CompulesSyringes-A2-570x342.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/restorative/product-categories/direct-restoration/composites-flowables/universal-composites/tph-spectra-st/images/RES-Image-tb-Spectra-ST-CompulesSyringes-A2-570x342.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/restorative/brands/tph-spectra-.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-TRUNATOMY-SOLUTION",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "TruNatomy Solution",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "TruNatomy Solution",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TruNatomy Solution",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "The TruNatomy endodontic solution provides efficient performance and increased respect of the tooth anatomy, combined with a smooth user-experience.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/trunatomy-solution.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-SURESMILE--VPRO_",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "VPro Vibration Device for SureSmile Clear Aligners",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VPro Vibration Device for SureSmile Clear Aligners",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VPro Vibration Device for SureSmile Clear Aligners",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "VPro is an orthodontic, high-frequency vibration device that may reduce discomfort and treatment time with SureSmile Clear Aligners.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/orthodontics/brands/the-suresmile--system/suresmile--vpro_.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-WAVEONE-GOLD",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "WaveOne Gold: Simplified root canal shaping & obturation",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "WaveOne Gold: Simplified root canal shaping & obturation",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "WaveOne Gold: Simplified root canal shaping & obturation",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover WaveOne Gold: an endodontic system that streamlines root canal shaping and obturation with fewer files, faster treatments, and results in every case.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/full-solutions/waveone-gold-solution/images/END-image-WaveOne-Gold-full-solution.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/full-solutions/waveone-gold-solution/images/END-image-WaveOne-Gold-full-solution.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/waveone-gold.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-X-SMART-GO",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "X-Smart Go",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "X-Smart Go",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "X-Smart Go",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "X-Smart Go is our most powerful cordless motor ever—engineered to maximize the performance of Dentsply Sirona endodontic file systems. With an accurate, real-time apex locator, clinicians can streamline the shaping procedure—moving freely and working flawlessly.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/endodontic-equipment/motors-and-contra-angles/motors/x-smart-go/images/END-product-image-x-smart-go-final-handpiece-alone.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/endodontic-equipment/motors-and-contra-angles/motors/x-smart-go/images/END-product-image-x-smart-go-final-handpiece-alone.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/other/x-smart-go.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-X-SMART--PRO-",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "X-Smart Pro+ Endo Motor with Apex Locator",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "X-Smart Pro+ Endo Motor with Apex Locator",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "X-Smart Pro+ Endo Motor with Apex Locator",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "With up to 7.5 Ncm and 3,000 rpm, the X-Smart® Pro+ endo motor with integrated apex locator has been specifically designed to drive Dentsply Sirona’s endodontic file systems in both continuous rotation and reciprocating modes.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/endodontic-equipment/motors-and-contra-angles/motors/x-smart-pro/images/x-smart-pro-plus/sales-compass-images/END-Thumbnail-image-X-SmartProPlus-1120x630.png",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/endodontics/product-categories/endodontic-equipment/motors-and-contra-angles/motors/x-smart-pro/images/x-smart-pro-plus/sales-compass-images/END-Thumbnail-image-X-SmartProPlus-1120x630.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/x-smart--pro-.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DENTSPLY-SIRONA-XYLOCAINE-",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Xylocaine: Dental Lidocaine with Epinephrine",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Xylocaine: Dental Lidocaine with Epinephrine",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Xylocaine: Dental Lidocaine with Epinephrine",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Reach for the gold standard in local anesthetic agents. Start with latex-free, fast-acting Xylocaine, Dental Lidocaine with Epinephrine and any accessories.",
+      "sourceImageUrl": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/preventive/product-categories/anesthetics/non-injectable-anesthesia/xylocaine/images/PRE-product-image-Xylocaine-20016-US-BP-1000170218.jpg",
+      "imageUrls": "https://career.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/preventive/product-categories/anesthetics/non-injectable-anesthesia/xylocaine/images/PRE-product-image-Xylocaine-20016-US-BP-1000170218.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/preventive/brands/other-products/xylocaine-.html",
+      "additionalSourceUrls": "https://www.dentsplysirona.com/en-us/explore/all-brands.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

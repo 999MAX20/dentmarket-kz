@@ -1,0 +1,1501 @@
+{
+  "brand": "DENU",
+  "manufacturer": "HDI Inc.",
+  "sourceType": "OFFICIAL_MANUFACTURER_2026_CATALOG_MIRROR_VISUALLY_VERIFIED",
+  "sourceUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+  "officialManufacturerUrl": "https://www.hdident.com/",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "actualPublishedVariantsOnly": true,
+    "noCartesianVariantExpansion": true,
+    "resellerCodesAreNotManufacturerReferences": true,
+    "catalogPageImagesAreNotUsedAsCardImages": true,
+    "announcedGingiCordPlusExcludedUntilCommercialAvailabilityIsConfirmed": true
+  },
+  "totals": {
+    "discoveredProducts": 46,
+    "variantSkus": 102,
+    "productsWithReferences": 0,
+    "productsWithImages": 0,
+    "photoQueue": 46,
+    "crawlErrors": 0
+  },
+  "products": [
+    {
+      "officialProductId": "DENU-HDI-DENU-LIGHT-BODY",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Light Body",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantId": "CARTRIDGE-NORMAL-SET-4-50-ML",
+          "label": "Cartridge · Normal set · 4 × 50 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "CARTRIDGE-FAST-SET-4-50-ML",
+          "label": "Cartridge · Fast set · 4 × 50 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "TUBE-NORMAL-SET-5-300-ML",
+          "label": "Tube · Normal set · 5 × 300 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "TUBE-FAST-SET-5-300-ML",
+          "label": "Tube · Fast set · 5 × 300 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Слепочные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 5,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-HEAVY-BODY",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Heavy Body",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantId": "CARTRIDGE-NORMAL-SET-4-50-ML",
+          "label": "Cartridge · Normal set · 4 × 50 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "CARTRIDGE-FAST-SET-4-50-ML",
+          "label": "Cartridge · Fast set · 4 × 50 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "TUBE-NORMAL-SET-5-300-ML",
+          "label": "Tube · Normal set · 5 × 300 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "TUBE-FAST-SET-5-300-ML",
+          "label": "Tube · Fast set · 5 × 300 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Слепочные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 6,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-MEDIUM-BODY",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Medium Body",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "CARTRIDGE-NORMAL-SET-4-50-ML",
+          "label": "Cartridge · Normal set · 4 × 50 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "CARTRIDGE-FAST-SET-4-50-ML",
+          "label": "Cartridge · Fast set · 4 × 50 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Слепочные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 7,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-PUTTY-SET",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Putty Set",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "NORMAL-SET-560-ML",
+          "label": "Normal set · 560 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "FAST-SET-560-ML",
+          "label": "Fast set · 560 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Слепочные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 7,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-ALGINATE",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Alginate",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "NORMAL-SET-500-G",
+          "label": "Normal set · 500 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "FAST-SET-500-G",
+          "label": "Fast set · 500 g",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Слепочные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 8,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-TRAY-CLEANER",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Tray Cleaner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "1-KG",
+          "label": "1 kg",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Очистка слепочных ложек",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 8,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-BITE-SIL",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Bite Sil",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "4-50-ML-CARTRIDGES",
+          "label": "4 × 50 ml cartridges",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Регистрация прикуса",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 9,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-TRANS-SIL",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Trans Sil",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "2-50-ML-CARTRIDGES",
+          "label": "2 × 50 ml cartridges",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Слепочные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 9,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-GINGICORD",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu GingiCord",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 5,
+      "variants": [
+        {
+          "variantId": "000-BLACK-300-CM",
+          "label": "#000 · black · 300 cm",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "00-BROWN-300-CM",
+          "label": "#00 · brown · 300 cm",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "0-PURPLE-300-CM",
+          "label": "#0 · purple · 300 cm",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "1-BLUE-300-CM",
+          "label": "#1 · blue · 300 cm",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "2-GREEN-300-CM",
+          "label": "#2 · green · 300 cm",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Ретракционные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 10,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-SPEEDYSTAT",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu SpeedyStat",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "20-ML",
+          "label": "20 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Гемостатические материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 10,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-COMPOSITE-RESIN",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Composite Resin",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 9,
+      "variants": [
+        {
+          "variantId": "A0-4-G-SYRINGE",
+          "label": "A0 · 4 g syringe",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "A1-4-G-SYRINGE",
+          "label": "A1 · 4 g syringe",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "A2-4-G-SYRINGE",
+          "label": "A2 · 4 g syringe",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "A3-4-G-SYRINGE",
+          "label": "A3 · 4 g syringe",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "A3-5-4-G-SYRINGE",
+          "label": "A3.5 · 4 g syringe",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "B1-4-G-SYRINGE",
+          "label": "B1 · 4 g syringe",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "B2-4-G-SYRINGE",
+          "label": "B2 · 4 g syringe",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "B3-4-G-SYRINGE",
+          "label": "B3 · 4 g syringe",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "U0-4-G-SYRINGE",
+          "label": "U0 · 4 g syringe",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Реставрационные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 12,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-COMPOSITE-RESIN-KIT",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Composite Resin Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "KIT-1-2-COMPOSITE-SYRINGES-ETCH-37-BOND",
+          "label": "Kit 1 · 2 composite syringes + Etch-37 + Bond",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "KIT-2-8-COMPOSITE-SYRINGES-ETCH-37-2-BOND",
+          "label": "Kit 2 · 8 composite syringes + Etch-37 + 2 Bond",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Реставрационные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 12,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-FLOW-RESIN",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Flow Resin",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 9,
+      "variants": [
+        {
+          "variantId": "A0-2-2-G-SYRINGES",
+          "label": "A0 · 2 × 2 g syringes",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "A1-2-2-G-SYRINGES",
+          "label": "A1 · 2 × 2 g syringes",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "A2-2-2-G-SYRINGES",
+          "label": "A2 · 2 × 2 g syringes",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "A3-2-2-G-SYRINGES",
+          "label": "A3 · 2 × 2 g syringes",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "A3-5-2-2-G-SYRINGES",
+          "label": "A3.5 · 2 × 2 g syringes",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "B1-2-2-G-SYRINGES",
+          "label": "B1 · 2 × 2 g syringes",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "B2-2-2-G-SYRINGES",
+          "label": "B2 · 2 × 2 g syringes",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "B3-2-2-G-SYRINGES",
+          "label": "B3 · 2 × 2 g syringes",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "U0-2-2-G-SYRINGES",
+          "label": "U0 · 2 × 2 g syringes",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Жидкотекучие композиты",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 13,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-TEMP-FLOW",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Temp Flow",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantId": "BLUE-5-2-G",
+          "label": "Blue · 5 × 2 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "LIGHT-BLUE-5-2-G",
+          "label": "Light Blue · 5 × 2 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "YELLOW-5-2-G",
+          "label": "Yellow · 5 × 2 g",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Временные пломбировочные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 13,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-TEMTOOTH",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu TemTooth",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "A2-5-12-ML",
+          "label": "A2 · 5 × 12 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "A3-5-12-ML",
+          "label": "A3 · 5 × 12 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Временные коронки и зубы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 14,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-TEMP-CROWN-CARTRIDGE",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Temp Crown Cartridge",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantId": "A1-50-ML",
+          "label": "A1 · 50 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "A2-50-ML",
+          "label": "A2 · 50 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "A3-50-ML",
+          "label": "A3 · 50 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Временные коронки и мосты",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 14,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-FIL-FLOW-FOR-IMPLANT",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Fil Flow for Implant",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "5-1-2-ML-SYRINGES",
+          "label": "5 × 1.2 ml syringes",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Материалы для имплантатов",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 15,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-BLOCK-OUT-RESIN",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Block-out Resin",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "BLUE-5-1-2-ML",
+          "label": "Blue · 5 × 1.2 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Материалы для изготовления кап",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 15,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-ETCH-37",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Etch-37",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "5-3-ML-SYRINGES",
+          "label": "5 × 3 ml syringes",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Протравочные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 16,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-BOND",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Bond",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "2-5-ML-BOTTLES",
+          "label": "2 × 5 ml bottles",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Адгезивные системы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 16,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-TEMP-CEMENT-NE",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Temp Cement NE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "2-5-ML-SYRINGES",
+          "label": "2 × 5 ml syringes",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Временные цементы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 17,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-TEMP-CEMENT-EZ",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Temp Cement EZ",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "2-5-ML-SYRINGES",
+          "label": "2 × 5 ml syringes",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Временные цементы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 17,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-TEMP-CEMENT-IMPLANT",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Temp Cement Implant",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "1-5-ML-SYRINGE",
+          "label": "1 × 5 ml syringe",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Временные цементы для имплантатов",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 17,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-TEMCEMENT-CLEANER",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu TemCement Cleaner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "200-ML",
+          "label": "200 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "500-ML",
+          "label": "500 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Очистка временного цемента",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 17,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-DUAL-CORE",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Dual Core",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "A3-YELLOW-2-5-ML",
+          "label": "A3 yellow · 2 × 5 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "BLUE-2-5-ML",
+          "label": "Blue · 2 × 5 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Материалы для восстановления культи",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 18,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-BASE-LINER",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Base Liner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "2-1-2-ML-SYRINGES",
+          "label": "2 × 1.2 ml syringes",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Прокладочные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 18,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-VASELINE",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Vaseline",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "5-ML-SYRINGE",
+          "label": "5 ml syringe",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Разделительные материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 19,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-EDTA-CREAM",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu EDTA Cream",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "2-6-G-SYRINGES",
+          "label": "2 × 6 g syringes",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Эндодонтические материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 19,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-SPARKLE",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Sparkle",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "WHITENING-KIT-1-10-1-5-ML",
+          "label": "Whitening Kit 1 · 10 × 1.5 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "WHITENING-KIT-2-1-1-5-ML-2-DAM-SYRINGES",
+          "label": "Whitening Kit 2 · 1 × 1.5 ml + 2 Dam syringes",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Профессиональное отбеливание",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 20,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-DAM",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Dam",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "BLUE-5-1-2-ML",
+          "label": "Blue · 5 × 1.2 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Защита десны при отбеливании",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 20,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-CLEAR-VARNISH",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Clear Varnish",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "FRESH-SWEET-APPLE-10-UNIT-DOSES",
+          "label": "Fresh sweet apple · 10 unit doses",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "FRESH-SWEET-APPLE-100-UNIT-DOSES",
+          "label": "Fresh sweet apple · 100 unit doses",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Фторлаки",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 22,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-VARNISH",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Varnish",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "ORANGE-10-UNIT-DOSES",
+          "label": "Orange · 10 unit doses",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "ORANGE-100-UNIT-DOSES",
+          "label": "Orange · 100 unit doses",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Фторлаки",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 22,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-FLUORIDE-GEL",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Fluoride Gel",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantId": "STRAWBERRY-500-ML",
+          "label": "Strawberry · 500 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "ORANGE-500-ML",
+          "label": "Orange · 500 ml",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "PEACH-500-ML",
+          "label": "Peach · 500 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Фторирование",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 23,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-FLUORIDE-GEL-TRAY",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Fluoride Gel Tray",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantId": "LARGE",
+          "label": "Large",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "MEDIUM",
+          "label": "Medium",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "SMALL",
+          "label": "Small",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Ложки для фторирования",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 23,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-SEAL",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Seal",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "WHITE-2-1-2-ML",
+          "label": "White · 2 × 1.2 ml",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Герметики фиссур",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 24,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-PUMICE-PASTE",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Pumice Paste",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantId": "WITH-FLUORIDE-STRAWBERRY-340-G",
+          "label": "With fluoride · strawberry · 340 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "WITH-FLUORIDE-NATURAL-MINT-340-G",
+          "label": "With fluoride · natural mint · 340 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "WITHOUT-FLUORIDE-STRAWBERRY-340-G",
+          "label": "Without fluoride · strawberry · 340 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "WITHOUT-FLUORIDE-NATURAL-MINT-340-G",
+          "label": "Without fluoride · natural mint · 340 g",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Полировочные пасты",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 24,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-ROOT-SEAL",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Root Seal",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "12-G-DUAL-SYRINGE",
+          "label": "12 g dual syringe",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Материалы для пломбирования каналов",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 25,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-PASTE",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Paste",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "2-G-SYRINGE",
+          "label": "2 g syringe",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Кальцийсодержащие эндодонтические материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 25,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-PEX",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Pex",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "2-G-SYRINGE",
+          "label": "2 g syringe",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Йодоформные эндодонтические материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 25,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-OSSNOVA",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu OssNOVA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 9,
+      "variants": [
+        {
+          "variantId": "BPA-0-5-1-MM-0-5-G",
+          "label": "BPA · 0.5–1 mm · 0.5 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "BPA-0-5-1-MM-1-G",
+          "label": "BPA · 0.5–1 mm · 1 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "BPA-0-5-1-MM-2-G",
+          "label": "BPA · 0.5–1 mm · 2 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "BPB-1-2-MM-0-5-G",
+          "label": "BPB · 1–2 mm · 0.5 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "BPB-1-2-MM-1-G",
+          "label": "BPB · 1–2 mm · 1 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "BPB-1-2-MM-2-G",
+          "label": "BPB · 1–2 mm · 2 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "BPC-0-5-1-4-MM-0-5-G",
+          "label": "BPC · 0.5–1.4 mm · 0.5 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "BPC-0-5-1-4-MM-1-G",
+          "label": "BPC · 0.5–1.4 mm · 1 g",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "BPC-0-5-1-4-MM-2-G",
+          "label": "BPC · 0.5–1.4 mm · 2 g",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Костнопластические материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 26,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-CURE-CEM-MTA",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Cure CEM MTA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "5-0-15-G-VIALS",
+          "label": "5 × 0.15 g vials",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "1-1-G-VIAL",
+          "label": "1 × 1 g vial",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "МТА-материалы",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 26,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-CURE-SEAL-MTA",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Cure Seal MTA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "1-5-G-SYRINGE",
+          "label": "1.5 g syringe",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "МТА-силеры",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 26,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-STICK-FREE",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Stick Free",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "64-STICKS",
+          "label": "64 sticks",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Держатели для реставраций",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 27,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-BITE-BLOCK-COVER",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Bite Block Cover",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "35-65-MM-300-PCS",
+          "label": "35 × 65 mm · 300 pcs",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Барьерная защита",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 27,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-DIGITAL-SENSOR-COVER",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Digital Sensor Cover",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "40-110-MM-300-PCS",
+          "label": "40 × 110 mm · 300 pcs",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Барьерная защита",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 27,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DENU-HDI-DENU-INTRAORAL-CAMERA-COVER",
+      "brand": "DENU",
+      "manufacturer": "HDI Inc.",
+      "name": "Denu Intraoral Camera Cover",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "40-110-MM-300-PCS",
+          "label": "40 × 110 mm · 300 pcs",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Барьерная защита",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourceDocumentPage": 27,
+      "sourcePageUrl": "https://www.keverocsor.hu/custom/keverocsordiszkont/image/data/srattached/c6e9c5a8b7068235526dccd0b84180ce_2026-denu-HDI-katalogus.pdf",
+      "officialManufacturerUrl": "https://www.hdident.com/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    }
+  ]
+}

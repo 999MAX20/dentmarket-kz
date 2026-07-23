@@ -1,0 +1,255 @@
+{
+  "brand": "Myobrace",
+  "manufacturer": "Myofunctional Research Co.",
+  "sourceType": "OFFICIAL_MYOBRACE_CATALOG_PRODUCT_ONLY_CROPS",
+  "sourceUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf",
+  "generatedAt": "2026-07-23T12:14:25.041477+00:00",
+  "policy": {
+    "exactModelLabelAndStageRequired": true,
+    "productOnlyCrop": true,
+    "neighbouringStagesExcluded": true,
+    "noGeneratedPixels": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 5,
+    "recovered": 5,
+    "review": 0
+  },
+  "products": [
+    {
+      "officialProductId": "MYOBRACE-T1",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Teens T1",
+      "manufacturerRef": "T1",
+      "manufacturerRefs": "T1",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Medium"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Large"
+        }
+      ],
+      "categoryPath": "Myobrace for Teens",
+      "description": "Habit correction",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-myobrace-t1.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-myobrace-t1.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=6",
+      "cataloguePage": 6,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "VERIFIED_MYOBRACE_APPLIANCE_CROP_RECOVERED",
+      "photoEvidence": {
+        "method": "VERIFIED_PRODUCT_ONLY_CROP_FROM_OFFICIAL_CATALOG",
+        "sourcePdfUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=6",
+        "physicalPdfPage": 6,
+        "width": 1200,
+        "height": 1200,
+        "normalizedSourceBounds": [
+          0.19,
+          0.445,
+          0.45,
+          0.6
+        ],
+        "sourcePixelBoundsAt300Dpi": [
+          471,
+          1561,
+          1116,
+          2105
+        ],
+        "sha256": "375808d902f98752b76e0ad07b861bd9438fdc1b43d9b88ab6f126c6343fe45d"
+      }
+    },
+    {
+      "officialProductId": "MYOBRACE-T1BWS",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace for Teens T1BWS",
+      "manufacturerRef": "T1BWS",
+      "manufacturerRefs": "T1BWS",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Myobrace for Teens",
+      "description": "Habit correction with Farrell Bent Wire System",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-myobrace-t1bws.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-myobrace-t1bws.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=6",
+      "cataloguePage": 6,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "VERIFIED_MYOBRACE_APPLIANCE_CROP_RECOVERED",
+      "photoEvidence": {
+        "method": "VERIFIED_PRODUCT_ONLY_CROP_FROM_OFFICIAL_CATALOG",
+        "sourcePdfUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=6",
+        "physicalPdfPage": 6,
+        "width": 1200,
+        "height": 1200,
+        "normalizedSourceBounds": [
+          0.19,
+          0.63,
+          0.45,
+          0.77
+        ],
+        "sourcePixelBoundsAt300Dpi": [
+          471,
+          2210,
+          1116,
+          2701
+        ],
+        "sha256": "7c80655b4e688c722192fec7f57ad9bba067991f538578991381e9f310752d1c"
+      }
+    },
+    {
+      "officialProductId": "MYOBRACE-T3N",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Tooth Alignment System T3N",
+      "manufacturerRef": "T3N",
+      "manufacturerRefs": "T3N",
+      "variantCount": 7,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Size 1"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 2"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 3"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 4"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 5"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 6"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Size 7"
+        }
+      ],
+      "categoryPath": "Myobrace Tooth Alignment System",
+      "description": "Initial tooth alignment",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-myobrace-t3n.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-myobrace-t3n.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=7",
+      "cataloguePage": 7,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "VERIFIED_MYOBRACE_APPLIANCE_CROP_RECOVERED",
+      "photoEvidence": {
+        "method": "VERIFIED_PRODUCT_ONLY_CROP_FROM_OFFICIAL_CATALOG",
+        "sourcePdfUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=7",
+        "physicalPdfPage": 7,
+        "width": 1200,
+        "height": 1200,
+        "normalizedSourceBounds": [
+          0.08,
+          0.65,
+          0.33,
+          0.78
+        ],
+        "sourcePixelBoundsAt300Dpi": [
+          198,
+          2280,
+          819,
+          2736
+        ],
+        "sha256": "c3204c9dceff8fd4500f14098dae1ea3ccf2a2c5847eecf716b482213a20edd0"
+      }
+    },
+    {
+      "officialProductId": "MYOBRACE-P-3N",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Permanent Dentition Class III P-3N",
+      "manufacturerRef": "P-3N",
+      "manufacturerRefs": "P-3N",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Myobrace Permanent Dentition Class III",
+      "description": "Habit correction",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-myobrace-p-3n.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-myobrace-p-3n.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=9",
+      "cataloguePage": 9,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "VERIFIED_MYOBRACE_APPLIANCE_CROP_RECOVERED",
+      "photoEvidence": {
+        "method": "VERIFIED_PRODUCT_ONLY_CROP_FROM_OFFICIAL_CATALOG",
+        "sourcePdfUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=9",
+        "physicalPdfPage": 9,
+        "width": 1200,
+        "height": 1200,
+        "normalizedSourceBounds": [
+          0.19,
+          0.445,
+          0.45,
+          0.59
+        ],
+        "sourcePixelBoundsAt300Dpi": [
+          471,
+          1561,
+          1116,
+          2070
+        ],
+        "sha256": "f792aee3e1edc76e47d8007d472e6292abf2df6fe64310c6704effa37ac4e894"
+      }
+    },
+    {
+      "officialProductId": "MYOBRACE-P-3",
+      "brand": "Myobrace",
+      "manufacturer": "Myofunctional Research Co.",
+      "name": "Myobrace Permanent Dentition Class III P-3",
+      "manufacturerRef": "P-3",
+      "manufacturerRefs": "P-3",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Myobrace Permanent Dentition Class III",
+      "description": "Arch development",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-myobrace-p-3.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-myobrace-p-3.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=9",
+      "cataloguePage": 9,
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "VERIFIED_MYOBRACE_APPLIANCE_CROP_RECOVERED",
+      "photoEvidence": {
+        "method": "VERIFIED_PRODUCT_ONLY_CROP_FROM_OFFICIAL_CATALOG",
+        "sourcePdfUrl": "https://www.myoresearch.com/storage/app/media/resources/Brochures-Catalogues/Myobrace_AC_0325_ENG_v6.0.0_Web.pdf#page=9",
+        "physicalPdfPage": 9,
+        "width": 1200,
+        "height": 1200,
+        "normalizedSourceBounds": [
+          0.19,
+          0.625,
+          0.45,
+          0.75
+        ],
+        "sourcePixelBoundsAt300Dpi": [
+          471,
+          2192,
+          1116,
+          2631
+        ],
+        "sha256": "657de976907886809b54453c3f4301ed615f76d6fe551bb5f82994e9f81e71a0"
+      }
+    }
+  ],
+  "review": []
+}

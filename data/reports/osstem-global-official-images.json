@@ -1,0 +1,935 @@
+{
+  "generatedAt": "2026-07-23T03:48:11.623Z",
+  "totals": {
+    "sitemapPages": 329,
+    "productPagesWithGallery": 66,
+    "targets": 60,
+    "recovered": 21,
+    "review": 39,
+    "pageErrors": 17
+  },
+  "review": [
+    {
+      "canonicalProductId": "CANON-OSSTEM-122-TAPER-FULL-KIT",
+      "name": "122 TAPER FULL KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/surgery-kits/for-placement/122-kit/",
+        "title": "122 KIT",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/9f1/em9aa5yah5dahjr12zdafbqv7cqpsjsi/1000_0_1/122-Taper_Kit-30-copy.jpg",
+        "score": 35,
+        "matches": [
+          "122"
+        ],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-3D-RENTGEN-APPARAT-T1-1",
+      "name": "3d рентген аппарат t1 1",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-ABATMENT-RIGID",
+      "name": "Абатмент RIGID",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-IMPLANTAT-ETIII-NH",
+      "name": "Имплантат ETIII NH",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-IMPLANTAT-MS-SA-TIPA-DENTURE",
+      "name": "Имплантат MS SA TIPA DENTURE",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/surgery-kits/hirurgiya-po-shablonam/denture-4u/",
+        "title": "Denture 4U",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/a67/rv9im4fc2wmgxnvdga9bqu145mqlhtu3/1000_0_1/1200kh800_1.2.png",
+        "score": 40,
+        "matches": [
+          "denture"
+        ],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-IMPLANTAT-MS-SA-TIPA-NARROW-RIDGE-1",
+      "name": "Имплантат MS SA TIPA NARROW RIDGE 1",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-IMPLANTAT-TSIII-SA",
+      "name": "Имплантат TSIII SA",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-IMPLANTAT-TSIII-SOI-1",
+      "name": "Имплантат TSIII SOI 1",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/ts/ts-soi/",
+        "title": "TS SOI",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/df7/1000_0_1/uah7e13typ22jw5sow0sb31vxtsts92t.png",
+        "score": 40,
+        "matches": [
+          "soi"
+        ],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-MEMBRANA-OSSGUIDE",
+      "name": "Мембрана OSSGUIDE",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/dbr/ossguide/",
+        "title": "OssGuide",
+        "imageUrl": "https://www.osstem.ru/upload/iblock/482/67ch57di2uf8fugt0p47dwwrwgabx3sa.png",
+        "score": 40,
+        "matches": [
+          "ossguide"
+        ],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-MEMBRANA-SUREDERM",
+      "name": "Мембрана SUREDERM",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/dbr/bone-materials/surederm/",
+        "title": "SureDerm",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/49b/1000_0_1/1qr67b04sd4hg2uon96nyeeqb1eyqegi.png",
+        "score": 40,
+        "matches": [
+          "surederm"
+        ],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-ORTODONTICHESKIJ-VINT-S-GOLOVKOJ-DLYA-BREKETOV",
+      "name": "Ортодонтический винт S головкой для брекетов",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-ORTODONTICHESKIJ-VINT-S-MALOJ-GOLOVKOJ",
+      "name": "Ортодонтический винт S малой головкой",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-ORTODONTICHESKIJ-VINT-S-OBYCHNOJ-GOLOVKOJ",
+      "name": "Ортодонтический винт S обычной головкой",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-ORTODONTICHESKIJ-VINT-S-OTVERSTIEM",
+      "name": "Ортодонтический винт S отверстием",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-STOMATOLOGICHESKAYA-USTANOVKA-K3",
+      "name": "Стоматологическая установка k3",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-UGLOVOJ-ABATMENT-MULTI",
+      "name": "угловой Абатмент MULTI",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/ss-prostetics/abatment-uglovoy-comocta-angled/",
+        "title": "Абатмент угловой ComOcta Angled",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/032/1000_0_1/20usxju175q6zttlhp4p90ymvgzfk939.png",
+        "score": 40,
+        "matches": [
+          "угловои"
+        ],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ts-prostetics/ts-multi-ti-base/",
+        "title": "TS Multi Ti Base",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/1e9/1000_0_1/r5mxhf43kxz6w57lik4ry6o5fcjzcrz5.png",
+        "score": 40,
+        "matches": [
+          "multi"
+        ],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-UGLOVOJ-ABATMENT-PORT",
+      "name": "угловой Абатмент PORT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/ss-prostetics/abatment-uglovoy-comocta-angled/",
+        "title": "Абатмент угловой ComOcta Angled",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/032/1000_0_1/20usxju175q6zttlhp4p90ymvgzfk939.png",
+        "score": 40,
+        "matches": [
+          "угловои"
+        ],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ts-prostetics/port/",
+        "title": "Port абатмент",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/ccf/1000_0_1/t95zdo1bd19fq2e1gu6beb1ioa1texhv.jpg",
+        "score": 40,
+        "matches": [
+          "port"
+        ],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-UGLOVOJ-CIRKONIEVYJ-ABATMENT-ZIOSERA",
+      "name": "угловой Циркониевый Абатмент ZIOSERA",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/ss-prostetics/abatment-uglovoy-comocta-angled/",
+        "title": "Абатмент угловой ComOcta Angled",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/032/1000_0_1/20usxju175q6zttlhp4p90ymvgzfk939.png",
+        "score": 35,
+        "matches": [
+          "угловои"
+        ],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-FIZIODISPENSER-SM5-1",
+      "name": "Физиодиспенсер sm5 1",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/stom-oborudovanie/kavo-expertsurg-sm5/",
+        "title": "KAVO EXPERTsurg (SM5)",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/70f/1000_0_1/nvn26sqxnw0mp7wt5fsqoo1ymnu0xzsd.png",
+        "score": 40,
+        "matches": [
+          "sm5"
+        ],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-CIRKONIEVYJ-ABATMENT-ZIOSERA",
+      "name": "Циркониевый Абатмент ZIOSERA",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-BONE-SPREADER-KIT",
+      "name": "BONE SPREADER KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-MS-KIT",
+      "name": "MS KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/surgery-kits/hirurgiya-po-shablonam/onems-kit/",
+        "title": "OneMS KIT",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/509/mnlelebvec94sfjfbtiht4e7krw77ika/1000_0_1/000486_orig.png",
+        "score": 100,
+        "matches": [],
+        "exact": true
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/surgery-kits/for-placement/ms-kit/",
+        "title": "MS KIT",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/932/1000_0_1/wlft5knq6ylnekyzie0s1dxmv9h14281.png",
+        "score": 100,
+        "matches": [],
+        "exact": true
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-ONE-GUIDE-KIT",
+      "name": "ONE GUIDE KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/surgery-kits/hirurgiya-po-shablonam/parallel-guide-kit/",
+        "title": "Parallel Guide KIT",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/c78/1000_0_1/mrlodbzmpjlmcab5x9o7horyuxgz57yy.png",
+        "score": 40,
+        "matches": [
+          "guide"
+        ],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-ORP-KIT",
+      "name": "ORP KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-ORTHO-KIT",
+      "name": "ORTHO KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 155,
+        "matches": [
+          "ortho"
+        ],
+        "exact": true
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/surgery-kits/for-placement/ortho-kit/",
+        "title": "Ortho KIT",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/4f3/lzdunl0fntevyeiwk3yjisd14038lji0/1000_0_1/orto-kit_01.png",
+        "score": 155,
+        "matches": [
+          "ortho"
+        ],
+        "exact": true
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-OSTEOTOME-KIT",
+      "name": "OSTEOTOME KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-PARALLEL-GUIDE-FULL-KITRASSHIRENNAYA-KOMPLEKTACIYA",
+      "name": "PARALLEL GUIDE FULL KITRASSHIRENNAYA KOMPLEKTACIYA",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/surgery-kits/hirurgiya-po-shablonam/parallel-guide-kit/",
+        "title": "Parallel Guide KIT",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/c78/1000_0_1/mrlodbzmpjlmcab5x9o7horyuxgz57yy.png",
+        "score": 62,
+        "matches": [
+          "parallel",
+          "guide"
+        ],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-PROSTHETIC-KIT",
+      "name": "PROSTHETIC KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-PROSTHETIC-SIMPLE-KIT",
+      "name": "PROSTHETIC SIMPLE KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-RIDGE-SPLIT-KIT-PRYAMOJ",
+      "name": "RIDGE SPLIT KIT прямой",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-RIDGE-SPLIT-KIT-UGLOVOJ",
+      "name": "RIDGE SPLIT KIT угловой",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/ss-prostetics/abatment-uglovoy-comocta-angled/",
+        "title": "Абатмент угловой ComOcta Angled",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/032/1000_0_1/20usxju175q6zttlhp4p90ymvgzfk939.png",
+        "score": 35,
+        "matches": [
+          "угловои"
+        ],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-SINUS-KIT",
+      "name": "SINUS KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-SMARTGUIDE-KIT",
+      "name": "SMARTGUIDE KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-SNAP-WIRED",
+      "name": "SNAP WIRED",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-TAPER-KIT",
+      "name": "TAPER KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-THE-GRAFT",
+      "name": "THE GRAFT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-ULTRA-KIT",
+      "name": "ULTRA KIT",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-V-CEPH",
+      "name": "V CEPH",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-OSSTEM-XIRURGICHESKIE-INSTRUMENTY",
+      "name": "XIRURGICHESKIE инструменты",
+      "bestCandidate": {
+        "url": "https://www.osstem.ru/implants/et-iii-sa-hiossen-implant/",
+        "title": "ET III SA система имплантатов от Hiossen Implant",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/7d4/1000_0_1/n4v2251g4ya0h1wuk0gk2oi2s40tsukk.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "secondCandidate": {
+        "url": "https://www.osstem.ru/implants/ortho-screw/",
+        "title": "Ortho винты",
+        "imageUrl": "https://www.osstem.ru/upload/resize_cache/iblock/3a5/1000_0_1/5c5vs8wypc9frgt2cfeyfmjfzf2r3cg6.png",
+        "score": 0,
+        "matches": [],
+        "exact": false
+      },
+      "reason": "GLOBAL_OFFICIAL_PAGE_MATCH_AMBIGUOUS"
+    }
+  ],
+  "pageErrors": [
+    {
+      "url": "https://www.osstem.ru/patients/hirurgicheskie-shablony-oneguide/",
+      "error": "https://www.osstem.ru/patients/hirurgicheskie-shablony-oneguide/: HTTP 500"
+    },
+    {
+      "url": "https://www.osstem.ru/surgery-kits/for-placement/ultra-kit/",
+      "error": "https://www.osstem.ru/surgery-kits/for-placement/ultra-kit/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/surgery-kits/bone-plastic/bone-spreader-kit/",
+      "error": "https://www.osstem.ru/surgery-kits/bone-plastic/bone-spreader-kit/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/surgery-kits/bone-plastic/osteo-kit/",
+      "error": "https://www.osstem.ru/surgery-kits/bone-plastic/osteo-kit/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/surgery-kits/bone-plastic/ridge-split-kit-straight/",
+      "error": "https://www.osstem.ru/surgery-kits/bone-plastic/ridge-split-kit-straight/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/surgery-kits/bone-plastic/ridge-split-kit-offset/",
+      "error": "https://www.osstem.ru/surgery-kits/bone-plastic/ridge-split-kit-offset/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/surgery-kits/bone-plastic/sinus-kit/",
+      "error": "https://www.osstem.ru/surgery-kits/bone-plastic/sinus-kit/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/surgery-kits/bone-plastic/basic-kit/",
+      "error": "https://www.osstem.ru/surgery-kits/bone-plastic/basic-kit/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/surgery-kits/bone-plastic/dr-cho-kit/",
+      "error": "https://www.osstem.ru/surgery-kits/bone-plastic/dr-cho-kit/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/stom-oborudovanie/t1/",
+      "error": "https://www.osstem.ru/stom-oborudovanie/t1/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/education/programs/schedule/sinuslift-kadiev-moscow/",
+      "error": "https://www.osstem.ru/education/programs/schedule/sinuslift-kadiev-moscow/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/education/programs/schedule/bazovyi-orthopedy-khabarovsk/",
+      "error": "https://www.osstem.ru/education/programs/schedule/bazovyi-orthopedy-khabarovsk/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/education/programs/schedule/sinuslift-kadiev-1/",
+      "error": "https://www.osstem.ru/education/programs/schedule/sinuslift-kadiev-1/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/education/programs/lecturers/usikov-dmitriy-vladimirovich/",
+      "error": "https://www.osstem.ru/education/programs/lecturers/usikov-dmitriy-vladimirovich/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/education/programs/lecturers/chechenov/",
+      "error": "https://www.osstem.ru/education/programs/lecturers/chechenov/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/patients/hirurgicheskie-shablony-oneguide/protokol-implantatsii-oneguide/",
+      "error": "https://www.osstem.ru/patients/hirurgicheskie-shablony-oneguide/protokol-implantatsii-oneguide/: HTTP 404"
+    },
+    {
+      "url": "https://www.osstem.ru/patients/hirurgicheskie-shablony-oneguide/preimuschestva-implantatsii-s-shablonami-oneguide/",
+      "error": "https://www.osstem.ru/patients/hirurgicheskie-shablony-oneguide/preimuschestva-implantatsii-s-shablonami-oneguide/: HTTP 404"
+    }
+  ]
+}

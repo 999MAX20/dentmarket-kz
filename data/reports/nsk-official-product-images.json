@@ -1,0 +1,456 @@
+{
+  "generatedAt": "2026-07-23T11:51:17.144Z",
+  "totals": {
+    "targets": 24,
+    "sourcePages": 24,
+    "newlyRecovered": 5,
+    "recovered": 25,
+    "preservedFromPreviousRuns": 20,
+    "review": 19,
+    "errors": 0
+  },
+  "review": [
+    {
+      "canonicalProductId": "CANON-NSK-C875",
+      "name": "EX Series(コントラアングル)",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/contra-angles/contra-ex/",
+      "reason": "NO_OFFICIAL_PRODUCT_AREA_IMAGE"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-HEADS",
+      "name": "Heads",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/heads/",
+      "pageTitle": "<div>Heads</div>",
+      "candidates": [
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/head_mpf20r_mpf16r_mpf4r.png",
+          "alt": "Heads",
+          "evidence": "<div class=\"list-wrap\"> <h3>コントラアングルヘッド : MP-F20R / MP-F16R</h3> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/head_mpf20r_mpf16r_mpf4r.png\" alt=\"Heads\"> <img class=\"icons\" src=\"/admin/wp-content/uploads/icon2020_ac_hw.png\"> </li> <li class=\"list-detail\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>MP-F20R</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Y110044</span> </li> </ul> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>MP-F16R</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Y110096</span> </li> </ul> <div class=\"wrap-specifications\"> <h2>仕様</h2> <ul class=\"specifications\"> <li>ヘッド</li> <li>ミニヘッド</li> <li>ギア比 </li> <li>減速 20 : 1 / 16 : 1</li> <li>バー</li> <li>360°回転 / Ni-Tiファイル用 (Ø2.35)</li> </ul> <p class=\"comments\">※ファイル別売</p> </div> <div class=\"wrap-features\"> <h2>機能</h2> <ul class=\"features\"> <li>プッシュボタン式チャック</li> </ul> </div> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [
+            "heads",
+            "heads"
+          ],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 2
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/head_mpasf20r_mpasf16r_mpasf4r.png",
+          "alt": "Heads",
+          "evidence": "<div class=\"list-wrap\"> <h3>根管長測定器接続用ヘッド : MPAS-F20R / MPAS-F16R</h3> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/head_mpasf20r_mpasf16r_mpasf4r.png\" alt=\"Heads\"> <img class=\"icons\" src=\"/admin/wp-content/uploads/icon2020_ac_hw.png\"> </li> <li class=\"list-detail\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>MPAS-F20R</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Y110046</span> </li> </ul> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>MPAS-F16R</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Y110098</span> </li> </ul> <div class=\"wrap-specifications\"> <h2>仕様</h2> <ul class=\"specifications\"> <li>ヘッド</li> <li>ミニヘッド</li> <li>ギア比</li> <li>減速 20 : 1 / 16 : 1</li> <li>バー</li> <li>360°回転 / 根管長測定器接続用 (ショートシャンク用 12 mm)</li> </ul> <p class=\"comments\">※ ファイル別売</p> </div> <div class=\"wrap-features\"> <h2>機能</h2> <ul class=\"features\"> <li>プッシュボタン式チャック</li> </ul> </div> <p class=\"comments\">上記のコントラアングルヘッド以外にも、別売りのヘッドとシャンクの組み合わせにより、ご使用のファイルにあわせた回転速度に対応できます。詳しくは、お取引の販売店にお尋ねください。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [
+            "heads",
+            "heads"
+          ],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 2
+        }
+      ],
+      "reason": "MULTIPLE_OFFICIAL_PRODUCT_IMAGES_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-Z1027001",
+      "name": "Surgic Pro+(オーラルサージェリー)",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/surgical/surgical-surgicproplus/",
+      "reason": "NO_OFFICIAL_PRODUCT_AREA_IMAGE"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-ENDO-CONTRA",
+      "name": "エンド用コントラアングル(根幹治療)",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/endodontics/endo-contra/",
+      "reason": "NO_OFFICIAL_PRODUCT_AREA_IMAGE"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-AS-TIPS-SCALING",
+      "name": "スケーリング(エアースケーラーチップ)",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-airscaler_tips/as_tips_scaling/",
+      "pageTitle": "<div>エアースケーラー用チップ</div>",
+      "candidates": [
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252411.png",
+          "alt": "Scaling/S1 -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252411.png\" alt=\"Scaling/S1 -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S1</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252411</span> </li> </ul> <p class=\"comments\">ユニバーサルタイプ<br> 主に歯肉縁上のスケーリングに適したユニバーサルタイプのチップです。<br> 活用範囲が広く全顎的に使用できます。<br> </p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252413.png",
+          "alt": "Scaling/S2 -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252413.png\" alt=\"Scaling/S2 -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S2</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252413</span> </li> </ul> <p class=\"comments\">シックルタイプ<br> 主に歯肉縁上のスケーリングに適したチップです。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252412.png",
+          "alt": "Scaling/S3 -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252412.png\" alt=\"Scaling/S3 -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S3</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252412</span> </li> </ul> <p class=\"comments\">ペリオタイプ<br> 主に歯肉縁上のスケーリングに適したチップです。 <br> チップ先端が細く、歯間部や歯肉辺縁への操作も行いやすい形態です。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        }
+      ],
+      "reason": "MULTIPLE_OFFICIAL_PRODUCT_IMAGES_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-AS-TIPS-SONICBRUSH",
+      "name": "ソニックブラシ",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-airscaler_tips/as_tips_sonicbrush/",
+      "pageTitle": "ソニックブラシ（エアースケーラーチップ）｜歯科医療機器のナカニシ",
+      "candidates": [
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252450.png",
+          "alt": "S50 -AIR SCALER(Sonic Brush)",
+          "evidence": "<div class=\"list-wrap list-tips\"> <h3 class=\"itemName\">ソニックブラシホルダー</h3> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252450.png\" alt=\"S50 -AIR SCALER(Sonic Brush)\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S50</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252450</span> </li> </ul> <p class=\"comments\">オートクレーブ滅菌、熱水洗浄対応<br> <br> ソニックブラシホルダー / Ｅチップレンチ付属<br> ※ブラシ別売</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Y900097.png",
+          "alt": "S50 -AIR SCALER(Sonic Brush)",
+          "evidence": "<div class=\"list-wrap list-tips\"> <h3 class=\"itemName\">ブラシ</h3> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Y900097.png\" alt=\"S50 -AIR SCALER(Sonic Brush)\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S50-C1</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Y900097</span> </li> </ul> <p class=\"comments\">コニカルブラシ (小) / 5個入</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Y900098.png",
+          "alt": "S50 -AIR SCALER(Sonic Brush)",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Y900098.png\" alt=\"S50 -AIR SCALER(Sonic Brush)\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S50-C2</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Y900098</span> </li> </ul> <p class=\"comments\">コニカルブラシ (大) / 5個入</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        }
+      ],
+      "reason": "MULTIPLE_OFFICIAL_PRODUCT_IMAGES_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-AS-TIPS-PERIO",
+      "name": "ぺリオチップ(エアースケーラーチップ)",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-airscaler_tips/as_tips_perio/",
+      "pageTitle": "<div>エアースケーラー用チップ</div>",
+      "candidates": [
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252420.png",
+          "alt": "Perio/S10 -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252420.png\" alt=\"Perio/S10 -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S10</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252420</span> </li> </ul> <p class=\"comments\">ユニバーサルタイプ (スリムライン)<br> 主に歯肉縁下のスケーリングに適したチップです。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252441.png",
+          "alt": "Perio/S20 -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252441.png\" alt=\"Perio/S20 -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S20</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252441</span> </li> </ul> <p class=\"comments\">ストレートタイプ<br> 主に歯肉縁下のスケーリング、メインテナンスに適しています。<br> 細長い形状でポケット内へのアクセスがスムーズに行えるので全顎的に使用できるチップです。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252442.png",
+          "alt": "Perio/S21R -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252442.png\" alt=\"Perio/S21R -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S21R</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252442</span> </li> </ul> <p class=\"comments\">右湾曲タイプ<br> 主に歯肉縁下のスケーリング、メインテナンスに適しています。<br> 緩やかに湾曲した形態で、臼歯部の隣接面へのアクセスが行いやすいチップです。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        }
+      ],
+      "reason": "MULTIPLE_OFFICIAL_PRODUCT_IMAGES_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-SGA-ES",
+      "name": "リダイレクト中...",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/surgical/surgical_handpieces/micro_surgery/sga-es/",
+      "reason": "NO_OFFICIAL_PRODUCT_AREA_IMAGE"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-SGO2-E",
+      "name": "リダイレクト中...",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/surgical/surgical_handpieces/micro_saw/sgo2-e/",
+      "reason": "NO_OFFICIAL_PRODUCT_AREA_IMAGE"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-EX",
+      "name": "リダイレクト中...",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/contra-angles/ex/",
+      "reason": "NO_OFFICIAL_PRODUCT_AREA_IMAGE"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-SGA-E2S",
+      "name": "リダイレクト中...",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/surgical/surgical_handpieces/micro_surgery/sga-e2s/",
+      "reason": "NO_OFFICIAL_PRODUCT_AREA_IMAGE"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-EZ-SPRAY",
+      "name": "リダイレクト中...",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/ez-spray/",
+      "reason": "NO_OFFICIAL_PRODUCT_AREA_IMAGE"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-AS-TIPS-RESTORATIVE-V-TIP-FOR-MI",
+      "name": "初期う蝕除去Vチップ(エアースケーラーチップ)",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-airscaler_tips/as_tips_restorative_v_tip_for_mi/",
+      "pageTitle": "<div>エアースケーラー用チップ</div>",
+      "candidates": [
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252035.png",
+          "alt": "Restorative V-TIP(For MI)/S75 -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <h3 class=\"itemName\">Vチップホルダー</h3> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252035.png\" alt=\"Restorative V-TIP(For MI)/S75 -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S75</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252035</span> </li> </ul> <p class=\"comments\">Vチップホルダー / 120°アングル / Eチップ用レンチ付属 ※先端チップ別売<br> ※ CR-20レンチはご使用になれません</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/V-G70.png",
+          "alt": "Restorative V-TIP(For MI)/V-G70 -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <h3 class=\"itemName\">う蝕除去</h3> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/V-G70.png\" alt=\"Restorative V-TIP(For MI)/V-G70 -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>V-G70</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Y900118</span> </li> </ul> <p class=\"comments\">ダイヤモンドコーティング / 3本入 / 初期う触除去用<br> う蝕象牙質除去用チップは罹患象牙質のみを選択的に研削できるので、健全歯質を最大限に残すことが可能です。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/V-G71.png",
+          "alt": "Restorative V-TIP(For MI)/V-G71 -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/V-G71.png\" alt=\"Restorative V-TIP(For MI)/V-G71 -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>V-G71</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Y900119</span> </li> </ul> <p class=\"comments\">ダイヤモンドコーティング / 3本入 / 初期う触除去用<br> う蝕象牙質除去用チップは罹患象牙質のみを選択的に研削できるので、健全歯質を最大限に残すことが可能です。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        }
+      ],
+      "reason": "MULTIPLE_OFFICIAL_PRODUCT_IMAGES_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-AS-TIPS-RESTORATIVE-FOR-MI",
+      "name": "初期う蝕除去用チップ(エアスケーラーチップ)",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-airscaler_tips/as_tips_restorative_for_mi/",
+      "pageTitle": "<div>エアースケーラー用チップ</div>",
+      "candidates": [
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252465.png",
+          "alt": "Restorative (For MI)/S65D -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252465.png\" alt=\"Restorative (For MI)/S65D -AIR SCALER\"> <img src=\"/admin/wp-content/uploads/Z252465_b.png\" alt=\"Restorative (For MI)/S65D -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S65D</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252465</span> </li> </ul> <p class=\"comments\">ダイヤモンドコーティング</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252466.png",
+          "alt": "Restorative (For MI)/S66D -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252466.png\" alt=\"Restorative (For MI)/S66D -AIR SCALER\"> <img src=\"/admin/wp-content/uploads/Z252465_b-1.png\" alt=\"Restorative (For MI)/S66D -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S66D</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252466</span> </li> </ul> <p class=\"comments\">ダイヤモンドコーティング</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252467.png",
+          "alt": "Restorative (For MI)/S67D -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252467.png\" alt=\"Restorative (For MI)/S67D -AIR SCALER\"> <img src=\"/admin/wp-content/uploads/Z252465_b-1-1.png\" alt=\"Restorative (For MI)/S67D -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S67D</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252467</span> </li> </ul> <p class=\"comments\">ダイヤモンドコーティング</p> <div class=\"wrap-repeat_tipmov\"> <ul> <li><a href=\"https://www.youtube.com/embed/mA_HfbqT6z4\" class=\"video\"><img src=\"//img.youtube.com/vi/mA_HfbqT6z4/mqdefault.jpg\"> <p>S67D：隣接面のう蝕除去</p></a></li> </ul> </div> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        }
+      ],
+      "reason": "MULTIPLE_OFFICIAL_PRODUCT_IMAGES_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-US-TIPS-RESTORATIVE-V-TIP",
+      "name": "初期う蝕除去用超音波スケーラーチップ(Vチップ)",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios_ultrascaler_tips/us_tips_restorative_v_tip/",
+      "pageTitle": "<div>超音波スケーラー用チップ</div>",
+      "candidates": [
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217030-1.png",
+          "alt": "Restorative V-TIP/V30 -varios",
+          "evidence": "<div class=\"list-wrap list-tips\"> <h3 class=\"itemName\">Vチップホルダー</h3> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z217030-1.png\" alt=\"Restorative V-TIP/V30 -varios\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>V30</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z217030</span> </li> </ul> <p class=\"comments\">Eチップ用レンチ付属 ※先端チップ別売</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/V-G70.png",
+          "alt": "Restorative V-TIP/V-G70 -varios",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/V-G70.png\" alt=\"Restorative V-TIP/V-G70 -varios\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>V-G70</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Y900118</span> </li> </ul> <p class=\"comments\">・う触除去用<br> ・ダイヤモンドコーティング<br> ・3本入</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/V-G71.png",
+          "alt": "Restorative V-TIP/V-G71 -varios",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/V-G71.png\" alt=\"Restorative V-TIP/V-G71 -varios\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>V-G71</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Y900119</span> </li> </ul> <p class=\"comments\">・う触除去用<br> ・ダイヤモンドコーティング<br> ・3本入</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        }
+      ],
+      "reason": "MULTIPLE_OFFICIAL_PRODUCT_IMAGES_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-AS-TIPS-RESTORATIVE-FOR-PREPARATION-OF-CROWN-CORES",
+      "name": "形成チップ(エアースケーラーチップ)",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-airscaler_tips/as_tips_restorative_for_preparation_of_crown_cores/",
+      "pageTitle": "<div>エアースケーラー用チップ</div>",
+      "candidates": [
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252471.png",
+          "alt": "Restorative(For Preparation of crown cores)/S71D -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252471.png\" alt=\"Restorative(For Preparation of crown cores)/S71D -AIR SCALER\"> <img src=\"/admin/wp-content/uploads/Z252471_b.png\" alt=\"Restorative(For Preparation of crown cores)/S71D -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S71D</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252471</span> </li> </ul> <p class=\"comments\">ダイヤモンドコーティング</p> <div class=\"wrap-repeat_tipmov\"> <ul> <li><a href=\"https://www.youtube.com/embed/d2zwYRQu7io\" class=\"video\"><img src=\"//img.youtube.com/vi/d2zwYRQu7io/mqdefault.jpg\"> <p>S71D/S72D：ラミネートべニア形成仕上げ</p></a></li> <li><a href=\"https://www.youtube.com/embed/DWCg3hydsmU\" class=\"video\"><img src=\"//img.youtube.com/vi/DWCg3hydsmU/mqdefault.jpg\"> <p>S71D：支台歯形成の隣接面仕上げ</p></a></li> </ul> </div> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252472.png",
+          "alt": "Restorative(For Preparation of crown cores)/S72D -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252472.png\" alt=\"Restorative(For Preparation of crown cores)/S72D -AIR SCALER\"> <img src=\"/admin/wp-content/uploads/Z252471_b.png\" alt=\"Restorative(For Preparation of crown cores)/S72D -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S72D</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252472</span> </li> </ul> <p class=\"comments\">ダイヤモンドコーティング</p> <div class=\"wrap-repeat_tipmov\"> <ul> <li><a href=\"https://www.youtube.com/embed/d2zwYRQu7io\" class=\"video\"><img src=\"//img.youtube.com/vi/d2zwYRQu7io/mqdefault.jpg\"> <p>S71D/S72D：ラミネートべニア形成仕上げ</p></a></li> </ul> </div> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252469.png",
+          "alt": "Restorative(For Preparation of crown cores)/S81D -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252469.png\" alt=\"Restorative(For Preparation of crown cores)/S81D -AIR SCALER\"> <img src=\"/admin/wp-content/uploads/Z252469_b.png\" alt=\"Restorative(For Preparation of crown cores)/S81D -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S81D</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252469</span> </li> </ul> <p class=\"comments\">ダイヤモンドコーティング</p> <div class=\"wrap-repeat_tipmov\"> <ul> <li><a href=\"https://www.youtube.com/embed/f4zH5HyhT7U\" class=\"video\"><img src=\"//img.youtube.com/vi/f4zH5HyhT7U/mqdefault.jpg\"> <p>S81D：フィニッシュラインの仕上げ</p></a></li> </ul> </div> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        }
+      ],
+      "reason": "MULTIPLE_OFFICIAL_PRODUCT_IMAGES_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-AS-TIPS-ENDODONTICS-V-TIP",
+      "name": "根管洗浄用Vチップ(エアースケーラーチップ)",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-airscaler_tips/as_tips_endodontics_v_tip/",
+      "pageTitle": "<div>エアースケーラー用チップ</div>",
+      "candidates": [
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252035.png",
+          "alt": "Endodontics V-TIP/S75 -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <h3 class=\"itemName\">Vチップホルダー</h3> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z252035.png\" alt=\"Endodontics V-TIP/S75 -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>S75</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z252035</span> </li> </ul> <p class=\"comments\">Vチップホルダー / 120°アングル / Eチップ用レンチ付属 ※先端チップ別売<br> ※ CR-20レンチはご使用になれません</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Y900177.png",
+          "alt": "Endodontics V-TIP/V-U20 -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Y900177.png\" alt=\"Endodontics V-TIP/V-U20 -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>V-U20</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Y900178</span> </li> </ul> <p class=\"comments\">Vファイル 23 mm #20 / ISO20 / 6本入<br> 根管洗浄用</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Y900179.png",
+          "alt": "Endodontics V-TIP/V-U25 -AIR SCALER",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Y900179.png\" alt=\"Endodontics V-TIP/V-U25 -AIR SCALER\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>V-U25</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Y900179</span> </li> </ul> <p class=\"comments\">Vファイル 21 mm #25 / ISO25 / 6本入<br> 根管洗浄用</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        }
+      ],
+      "reason": "MULTIPLE_OFFICIAL_PRODUCT_IMAGES_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-Z217212",
+      "name": "超音波スケーラー用チップ(超音波スケーラー)",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios_ultrascaler_tips/",
+      "pageTitle": "<div>超音波スケーラー用チップ</div>",
+      "candidates": [
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217101-1.png",
+          "alt": "Scaling/G1 -varios",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z217101-1.png\" alt=\"Scaling/G1 -varios\"> <img src=\"/admin/wp-content/uploads/164x164_ti_G1.png\" alt=\"Scaling/G1 -varios\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>G1</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z217101</span> </li> </ul> <p class=\"comments\">歯肉縁上、 歯間部の除石に適したチップです。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217102-1.png",
+          "alt": "Scaling/G2 -varios",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z217102-1.png\" alt=\"Scaling/G2 -varios\"> <img src=\"/admin/wp-content/uploads/164x164_ti_G2.png\" alt=\"Scaling/G2 -varios\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>G2</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z217102</span> </li> </ul> <p class=\"comments\">歯肉縁上に付着した大量の歯石やステイン除去に適したチップです。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217103-1.png",
+          "alt": "Scaling/G3 -varios",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z217103-1.png\" alt=\"Scaling/G3 -varios\"> <img src=\"/admin/wp-content/uploads/164x164_ti_G3.png\" alt=\"Scaling/G3 -varios\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>G3</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z217103</span> </li> </ul> <p class=\"comments\">歯肉縁上に付着した大量の歯石やステイン除去に適したチップです。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        }
+      ],
+      "reason": "MULTIPLE_OFFICIAL_PRODUCT_IMAGES_AMBIGUOUS"
+    },
+    {
+      "canonicalProductId": "CANON-NSK-NSK-US-TIPS-RETROGRADE-ENDO",
+      "name": "逆根管充填用窩洞形成 超音波スケーラーチップ",
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios_ultrascaler_tips/us_tips_retrograde_endo/",
+      "pageTitle": "<div>超音波スケーラー用チップ</div>",
+      "candidates": [
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217212-1.png",
+          "alt": "Retrograde endo/E30RD -varios",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z217212-1.png\" alt=\"Retrograde endo/E30RD -varios\"> <img src=\"/admin/wp-content/uploads/164x164_ti_E31D_240503.png\" alt=\"Retrograde endo/E30RD -varios\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>E30RD</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z217212</span> </li> </ul> <p class=\"comments\">・ダイヤモンドコーティング<br> ・臼歯部用 (右曲がり)<br> 根尖の切除後、逆根管充填窩洞の形成に適したダイヤモンドコーティングを施しているチップです。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217213-1.png",
+          "alt": "Retrograde endo/E30LD -varios",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z217213-1.png\" alt=\"Retrograde endo/E30LD -varios\"> <img src=\"/admin/wp-content/uploads/164x164_ti_E31D_240503.png\" alt=\"Retrograde endo/E30LD -varios\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>E30LD</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z217213</span> </li> </ul> <p class=\"comments\">・ダイヤモンドコーティング<br> ・臼歯部用 (左曲がり)<br> 根尖の切除後、逆根管充填窩洞の形成に適したダイヤモンドコーティングを施しているチップです。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        },
+        {
+          "imageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217210-1.png",
+          "alt": "Retrograde endo/E31D -varios",
+          "evidence": "<div class=\"list-wrap list-tips\"> <ul> <li class=\"list-vis\"> <img class=\"fadeConts\" src=\"/admin/wp-content/uploads/Z217210-1.png\" alt=\"Retrograde endo/E31D -varios\"> <img src=\"/admin/wp-content/uploads/164x164_ti_E31D_240503.png\" alt=\"Retrograde endo/E31D -varios\"> </li> <li class=\"list-detail list-tips\"> <ul class=\"model\"> <li class=\"no-optic\" style=\"display: none;\"> <li class=\"no-optic\"> <span class=\"note\">製品名:</span><span>E31D</span> </li> <li class=\"no-optic\"> <span class=\"note\">製品番号:</span><span>Z217210</span> </li> </ul> <p class=\"comments\">・ダイヤモンドコーティング<br> ・前歯部・臼歯部用 (70°)<br> 先端角度70°のチップです。 前歯のバックアクション、臼歯部に適しています。</p> </li> </ul> </div> <!--/.list-wrap-->",
+          "matches": [],
+          "matchedManufacturerRefs": [],
+          "primaryReferenceMatch": false,
+          "score": 0
+        }
+      ],
+      "reason": "MULTIPLE_OFFICIAL_PRODUCT_IMAGES_AMBIGUOUS"
+    }
+  ],
+  "errors": []
+}

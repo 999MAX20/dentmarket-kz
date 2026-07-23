@@ -1,0 +1,831 @@
+{
+  "brand": "Kerr",
+  "manufacturer": "Kerr Corporation",
+  "sourceType": "CURRENT_OFFICIAL_KERR_BRAZIL_PRODUCT_INDEX",
+  "sourceUrl": "https://kerrdental.com.br/produtos/",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "allCurrentRegionalProductPagesCollected": true,
+    "exactOfficialImagesPreserved": true,
+    "globalCloudChallengeNotBypassedWithUnverifiedSources": true,
+    "noManufacturerReferenceInvented": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "officialIndexEntries": 31,
+    "discoveredProducts": 31,
+    "variantSkus": 31,
+    "productsWithImages": 30,
+    "productsWithReferences": 0,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "KERR-ADAPT-SUPERCAP-E-SUPEMAT",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Adapt SuperCap & SuperMat",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Adapt SuperCap & SuperMat",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Adapt SuperCap & SuperMat",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/supercap_maior.webp",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/supercap_maior.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/adapt-supercap-e-supemat/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-CARBIDE",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Broca Carbide",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Broca Carbide",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Broca Carbide",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2022/09/produto-site-carbide-1024x904.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2022/09/produto-site-carbide-1024x904.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/carbide/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-CUNHAS-DE-MADEIRA",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Cunhas de Madeira",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Cunhas de Madeira",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Cunhas de Madeira",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/cunhas1.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/cunhas1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/cunhas-de-madeira/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-FOTOPOLIMERIZADOR-DEMI-PLUS",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Demi Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Demi Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Demi Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2022/09/fotopoliDemi-Plus-wChargerBase_Top-View.webp",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2022/09/fotopoliDemi-Plus-wChargerBase_Top-View.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/fotopolimerizador-demi-plus/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-DEXIS-IS-3800W",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Dexis IS 3800W",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dexis IS 3800W",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dexis IS 3800W",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2025/10/IS3800W_ObliqueVew1_SideTip_WithReflection_070822-scaled.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2025/10/IS3800W_ObliqueVew1_SideTip_WithReflection_070822-scaled.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/dexis-is-3800w/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-HARMONIZE",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Harmonize",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Harmonize",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Harmonize",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/Harmonize-Enamel-ot.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/Harmonize-Enamel-ot.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/harmonize/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-LIMAS-HEDSTROM",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Hedstrom",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Hedstrom",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Hedstrom",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/11359-_HEDSTROM_FILES_25MM_ASST_15-45_OPEN-FRONT.webp",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/11359-_HEDSTROM_FILES_25MM_ASST_15-45_OPEN-FRONT.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/limas-hedstrom/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-HERCULITE-XRV",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Herculite XRV",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Herculite XRV",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Herculite XRV",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "Resina composta microhíbrida",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/herculite-xrv/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-HERCULITE-XRV-ULTRA",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Herculite XRV Ultra",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Herculite XRV Ultra",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Herculite XRV Ultra",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/Foto-Embalagem-Herculite-XRV-Ultra-Esmalte.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/Foto-Embalagem-Herculite-XRV-Ultra-Esmalte.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/herculite-xrv-ultra/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-LIMAS-K",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "K-Files",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "K-Files",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "K-Files",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/821-8025_K-FILES_25MM_SERIES1_SST_ASST_15-40_OPEN-FRONT.webp",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/821-8025_K-FILES_25MM_SERIES1_SST_ASST_15-40_OPEN-FRONT.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/limas-k/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-LIMAS-K-FLEX",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "K-Flex",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "K-Flex",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "K-Flex",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/821-4025_K-FLEX_25MM_SERIES1_SST_ASST_15-40_OPEN-FRONT.webp",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/821-4025_K-FLEX_25MM_SERIES1_SST_ASST_15-40_OPEN-FRONT.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/limas-k-flex/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-LUBRIFICANTE-UNISPRAY",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Kerr UNIspray",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Kerr UNIspray",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Kerr UNIspray",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2022/09/Kerr-unispray-produto-lubrificante-ot.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2022/09/Kerr-unispray-produto-lubrificante-ot.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/lubrificante-unispray/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-LIMAS-K3XF",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Lima rotatória K3XF",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Lima rotatória K3XF",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Lima rotatória K3XF",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/k3xf-e1480677882348.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/k3xf-e1480677882348.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/limas-k3xf/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-LIMAS-TF-ADAPTIVE",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Lima rotatória TF Adaptive",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Lima rotatória TF Adaptive",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Lima rotatória TF Adaptive",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/TF_adaptive_embalagem_usar.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/TF_adaptive_embalagem_usar.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/limas-tf-adaptive/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-MAXCEM-ELITE",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Maxcem Eite Universal",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Maxcem Eite Universal",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Maxcem Eite Universal",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/MAXCEM_ELITE_UNIVERSAL_BOX_FRONT.webp",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/MAXCEM_ELITE_UNIVERSAL_BOX_FRONT.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/maxcem-elite/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-NX3",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "NX3",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "NX3",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "NX3",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/78953_REV03_NX3_INTRO_KIT_BOX_33642_wSYRINGE_US_ROW_3Q-VIEW.webp",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/78953_REV03_NX3_INTRO_KIT_BOX_33642_wSYRINGE_US_ROW_3Q-VIEW.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/nx3/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-OCCLUBRUSH",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Occlubrush",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Occlubrush",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Occlubrush",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/occlur1.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/occlur1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/occlubrush/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-OPTI-1-STEP-POLISHER",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Opti 1 Step Polisher",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Opti 1 Step Polisher",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Opti 1 Step Polisher",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/Opti-1-Step-Polisher-3-unidades-1-1013x1024.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/Opti-1-Step-Polisher-3-unidades-1-1013x1024.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/opti-1-step-polisher/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-OPTIBOND-FL",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "OptiBond FL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OptiBond FL",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OptiBond FL",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/3310_REV00_OPTIBOND_FL_BOTTLE_REFILL_PRIMER.webp",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/3310_REV00_OPTIBOND_FL_BOTTLE_REFILL_PRIMER.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/optibond-fl/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-OPTIBOND-S",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "OptiBond Solo Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OptiBond Solo Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OptiBond Solo Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/3320_REV00_OPTIBOND_SOLO_PLUS_BOTTLE_LABEL.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/3320_REV00_OPTIBOND_SOLO_PLUS_BOTTLE_LABEL.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/optibond-s/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-OPTIBOND-UNIVERSAL",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "OptiBond Universal",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OptiBond Universal",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OptiBond Universal",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/produto-site-universal-1-1024x904.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/produto-site-universal-1-1024x904.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/optibond-universal/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-OPTIBOND-UNIVERSAL-360",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "OptiBond™ Universal 360",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OptiBond™ Universal 360",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OptiBond™ Universal 360",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2026/04/Bottle-Alone.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2026/04/Bottle-Alone.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/optibond-universal-360/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-OPTIDISC",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "OptiDisc",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OptiDisc",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OptiDisc",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "http://kerrdental.com.br/wp-content/uploads/2021/06/Kits-OptiDisc.png",
+      "imageUrls": "http://kerrdental.com.br/wp-content/uploads/2021/06/Kits-OptiDisc.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/optidisc/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-OPTISHINE",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "OptiShine",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OptiShine",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OptiShine",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/OptiShine-1-unidade-940x1024.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/OptiShine-1-unidade-940x1024.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/optishine/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-POINT-4",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Point 4",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Point 4",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Point 4",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/point4-e1480696786705.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/point4-e1480696786705.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/point-4/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-DIAMANTADAS",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Ponta Diamantada",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ponta Diamantada",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ponta Diamantada",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2022/09/produto-site-diamantada-1-1024x904.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2022/09/produto-site-diamantada-1-1024x904.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/diamantadas/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-SEALAPEX",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Sealapex",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Sealapex",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Sealapex",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/Sealapex_Produtos_500px-e1536155443362.webp",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/Sealapex_Produtos_500px-e1536155443362.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/sealapex/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-SIMPLISHADE",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "SimpliShade™",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SimpliShade™",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SimpliShade™",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2025/10/SimpliShade-scaled.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2025/10/SimpliShade-scaled.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/simplishade/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-SONICFILL",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "SonicFill 3",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SonicFill 3",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SonicFill 3",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/SonicFill3-A2-1-scaled.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/SonicFill3-A2-1-scaled.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/sonicfill/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-TEMPBOND-NE",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Temp-Bond NE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Temp-Bond NE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Temp-Bond NE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/Temp-BondNE_1box2tubes_15004-1.png",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/Temp-BondNE_1box2tubes_15004-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/tempbond-ne/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KERR-LIMAS-TRIPLE-FLEX",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Triple-Flex",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Triple-Flex",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Triple-Flex",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2021/06/TRIPLE-FLEX_25MM_SERIES1_SST_ASST_45-80.webp",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2021/06/TRIPLE-FLEX_25MM_SERIES1_SST_ASST_45-80.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/limas-triple-flex/",
+      "additionalSourceUrls": "https://kerrdental.com.br/produtos/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

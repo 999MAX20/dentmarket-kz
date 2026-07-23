@@ -1,0 +1,362 @@
+{
+  "brand": "Dräger",
+  "manufacturer": "Drägerwerk AG & Co. KGaA",
+  "sourceType": "CURRENT_OFFICIAL_PRODUCTFINDER_PLUS_KZ_MODEL_AND_RANGE_EVIDENCE",
+  "sourceUrl": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "currentOfficialAnesthesiaRangeOnly": true,
+    "modelVariantsPreservedWithoutInventedOrderCodes": true,
+    "exactKzAtlanA350EvidencePreserved": true,
+    "exactPhotoRequiredBeforePublication": true,
+    "missingPhotoOrReferenceNeverDeletesCard": true
+  },
+  "totals": {
+    "discoveredProducts": 12,
+    "variantSkus": 17,
+    "productsWithReferences": 0,
+    "productsWithImages": 0,
+    "productsWithoutImages": 12,
+    "exactKzModels": 1,
+    "crawlErrors": 0
+  },
+  "products": [
+    {
+      "officialProductId": "DRAEGER-ATLAN-A300",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Наркозный аппарат Dräger Atlan A300/A300 XL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Atlan",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "A300",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "A300 XL",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Atlan-A300-A300-XL",
+      "additionalSourceUrls": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia | https://medconcept.kz/apparaty_dlya_narkoza1",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DRAEGER-ATLAN-A350",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Наркозный аппарат Dräger Atlan A350/A350 XL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Atlan",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "A350",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "A350 XL",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Atlan-A350-A350-XL",
+      "additionalSourceUrls": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia | https://medsyst.kz/catalog/narkozno-dykhatelnye-apparaty/narkozno-dykhatelnyy-apparat-a350-a350-xl/ | https://medconcept.kz/apparaty_dlya_narkoza1",
+      "kzEvidence": "EXACT_KZ_MODEL_LISTING",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DRAEGER-PERSEUS-A500",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Анестезиологический комплекс Dräger Perseus A500",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Perseus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "A500",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Perseus-A500",
+      "additionalSourceUrls": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia | https://medconcept.kz/apparaty_dlya_narkoza1",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DRAEGER-ZEUS-INFINITY",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Анестезиологический комплекс Dräger Zeus Infinity Empowered",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Zeus Infinity",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Empowered",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Zeus-Infinity-Empowered",
+      "additionalSourceUrls": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia | https://medconcept.kz/apparaty_dlya_narkoza1",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DRAEGER-FABIUS-MRI",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Наркозный аппарат Dräger Fabius MRI",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fabius",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "MRI",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Fabius-MRI",
+      "additionalSourceUrls": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia | https://medconcept.kz/apparaty_dlya_narkoza1",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DRAEGER-FABIUS-PLUS-XL",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Наркозный аппарат Dräger Fabius Plus XL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fabius",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Plus XL",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Fabius-plus-XL",
+      "additionalSourceUrls": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia | https://medconcept.kz/apparaty_dlya_narkoza1",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DRAEGER-VAPOR-2000",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Испарители анестетиков Dräger Vapor 2000 и D-Vapor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Vapor",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Vapor 2000",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "D-Vapor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Испарители анестетиков",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/D-Vapor-Vapor-2000",
+      "additionalSourceUrls": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia | https://medconcept.kz/apparaty_dlya_narkoza1",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DRAEGER-VAPOR-3000",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Испарители анестетиков Dräger Vapor 3000 и D-Vapor 3000",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Vapor",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Vapor 3000",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "D-Vapor 3000",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Испарители анестетиков",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/D-Vapor-3000",
+      "additionalSourceUrls": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia | https://medconcept.kz/apparaty_dlya_narkoza1",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DRAEGER-SCIO-FOUR",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Газоанализатор Dräger Scio Four",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Scio",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Four",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Газоанализаторы",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Scio",
+      "additionalSourceUrls": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia | https://medconcept.kz/apparaty_dlya_narkoza1",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DRAEGER-SET2GO-PACK2GO",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Комплекты дыхательных контуров Dräger Set2Go и Pack2Go",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Дыхательные контуры",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Set2Go",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "Pack2Go",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Дыхательные контуры",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Set2Go-and-Pack2Go",
+      "additionalSourceUrls": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia | https://medconcept.kz/apparaty_dlya_narkoza1",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DRAEGER-FABIUS-PLUS",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Наркозный аппарат Dräger Fabius Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fabius",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Fabius-Plus",
+      "additionalSourceUrls": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia | https://medconcept.kz/apparaty_dlya_narkoza1",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "DRAEGER-SMARTPILOT-VIEW",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Программный продукт Dräger SmartPilot View",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SmartPilot",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "View",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Программное обеспечение",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/SmartPilot-View",
+      "additionalSourceUrls": "https://www.draeger.com/ru_ru/Productfinder/Anaesthesia | https://medconcept.kz/apparaty_dlya_narkoza1",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    }
+  ]
+}

@@ -6,6 +6,11 @@ const nextConfig: NextConfig = {
   transpilePackages: ["@marketplace/ui", "@marketplace/api-client"],
   allowedDevOrigins: ["127.0.0.1"],
   reactStrictMode: true,
+  experimental: {
+    // Next's isolated webpack worker can stall on the large curated catalog.
+    // Building in-process is deterministic and keeps the same runtime output.
+    webpackBuildWorker: false,
+  },
   async headers() {
     return [
       { source: "/catalog/products/:path*", headers: productImageHeaders() },

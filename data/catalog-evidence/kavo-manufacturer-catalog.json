@@ -1,0 +1,3018 @@
+{
+  "brand": "KaVo",
+  "manufacturer": "KaVo Dental GmbH",
+  "sourceType": "MANUFACTURER_SITEMAP_PRODUCT_PAGES",
+  "sourceUrl": "https://www.kavo.com/en/products",
+  "lastChecked": "2026-07-22",
+  "totals": {
+    "sitemapProductUrls": 113,
+    "discoveredProducts": 80,
+    "variantSkus": 334,
+    "productsWithReferences": 38,
+    "productsWithImages": 79,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "KAVO-PIEZOLED-SCALER",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "PiezoLED Scaler",
+      "manufacturerRef": "1.007.4024",
+      "manufacturerRefs": "1.007.4024 | 1.007.4026 | 1.007.4028 | 1.007.4008",
+      "variantCount": 4,
+      "variants": [
+        {
+          "manufacturerRef": "1.007.4024",
+          "label": "1.007.4024"
+        },
+        {
+          "manufacturerRef": "1.007.4026",
+          "label": "1.007.4026"
+        },
+        {
+          "manufacturerRef": "1.007.4028",
+          "label": "1.007.4028"
+        },
+        {
+          "manufacturerRef": "1.007.4008",
+          "label": "1.007.4008"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Whether it’s used for prophylaxis or cleaning implants, KaVo’s PiezoLED ultrasonic scaler boasts a multitude of potential applications.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/PiezoLED-Header-dark_16-7-1920px.jpg?itok=0Ge6-soH",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/PiezoLED-Header-dark_16-7-1920px.jpg?itok=0Ge6-soH",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/prophylaxis/piezoled-scaler",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-MASTERTORQUE",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "MASTERtorque M9000 & M8700",
+      "manufacturerRef": "1.008.7900",
+      "manufacturerRefs": "1.008.7900 | 1.008.5400 | 3.001.0000 | 3.001.0600",
+      "variantCount": 4,
+      "variants": [
+        {
+          "manufacturerRef": "1.008.7900",
+          "label": "1.008.7900"
+        },
+        {
+          "manufacturerRef": "1.008.5400",
+          "label": "1.008.5400"
+        },
+        {
+          "manufacturerRef": "3.001.0000",
+          "label": "3.001.0000"
+        },
+        {
+          "manufacturerRef": "3.001.0600",
+          "label": "3.001.0600"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Enjoy outstanding comfort and relaxed working. See our impressive KaVo MASTERtorque models for yourself.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/MASTERtorque-M9000-L_1-007-7100-black-cutout-3840px-2160px.png?itok=BsVJ_EPm",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/MASTERtorque-M9000-L_1-007-7100-black-cutout-3840px-2160px.png?itok=BsVJ_EPm",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/turbines/mastertorque",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-SONICFLEX-2003-L-QUICK-2008-L",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "SONICflex 2003 & quick 2008",
+      "manufacturerRef": "1.000.4887",
+      "manufacturerRefs": "1.000.4887 | 0.411.0892 | 0.571.5171 | 1.005.8949 | 0.571.5181 | 1.005.8950 | 0.571.5191 | 1.005.3951 | 0.571.5371 | 1.006.1953 | 1.000.4983 | 1.005.9328 | 0.571.0401 | 1.006.1982 | 0.571.7402 | 1.006.1934 | 0.571.7412 | 1.006.1935 | 0.571.7422 | 1.006.1936 | 0.571.3712 | 1.006.2020 | 0.571.5621 | 1.006.1957 | 0.571.5631 | 1.006.1959 | 0.571.5641 | 1.006.1961 | 0.571.5651 | 1.006.1963 | 1.006.2045 | 1.007.1142 | 1.000.8323 | 1.007.1506 | 0.571.6741 | 1.006.1965 | 0.571.6731 | 1.006.1967 | 0.571.6811 | 1.006.1969 | 0.571.6801 | 1.006.1971 | 0.571.6831 | 1.006.1973 | 0.571.6821 | 1.006.1975 | 0.571.0421 | 1.006.2023 | 0.571.7392 | 1.006.1988 | 0.571.7382 | 1.006.1990 | 0.571.0391 | 1.000.7105 | 1.006.1980 | 1.000.7167 | 1.006.1981 | 1.000.7362 | 1.006.2002 | 1.000.7363 | 1.006.2004 | 0.571.0341 | 1.006.2029 | 1.002.1988 | 1.006.2024",
+      "variantCount": 65,
+      "variants": [
+        {
+          "manufacturerRef": "1.000.4887",
+          "label": "1.000.4887"
+        },
+        {
+          "manufacturerRef": "0.411.0892",
+          "label": "0.411.0892"
+        },
+        {
+          "manufacturerRef": "0.571.5171",
+          "label": "0.571.5171"
+        },
+        {
+          "manufacturerRef": "1.005.8949",
+          "label": "1.005.8949"
+        },
+        {
+          "manufacturerRef": "0.571.5181",
+          "label": "0.571.5181"
+        },
+        {
+          "manufacturerRef": "1.005.8950",
+          "label": "1.005.8950"
+        },
+        {
+          "manufacturerRef": "0.571.5191",
+          "label": "0.571.5191"
+        },
+        {
+          "manufacturerRef": "1.005.3951",
+          "label": "1.005.3951"
+        },
+        {
+          "manufacturerRef": "0.571.5371",
+          "label": "0.571.5371"
+        },
+        {
+          "manufacturerRef": "1.006.1953",
+          "label": "1.006.1953"
+        },
+        {
+          "manufacturerRef": "1.000.4983",
+          "label": "1.000.4983"
+        },
+        {
+          "manufacturerRef": "1.005.9328",
+          "label": "1.005.9328"
+        },
+        {
+          "manufacturerRef": "0.571.0401",
+          "label": "0.571.0401"
+        },
+        {
+          "manufacturerRef": "1.006.1982",
+          "label": "1.006.1982"
+        },
+        {
+          "manufacturerRef": "0.571.7402",
+          "label": "0.571.7402"
+        },
+        {
+          "manufacturerRef": "1.006.1934",
+          "label": "1.006.1934"
+        },
+        {
+          "manufacturerRef": "0.571.7412",
+          "label": "0.571.7412"
+        },
+        {
+          "manufacturerRef": "1.006.1935",
+          "label": "1.006.1935"
+        },
+        {
+          "manufacturerRef": "0.571.7422",
+          "label": "0.571.7422"
+        },
+        {
+          "manufacturerRef": "1.006.1936",
+          "label": "1.006.1936"
+        },
+        {
+          "manufacturerRef": "0.571.3712",
+          "label": "0.571.3712"
+        },
+        {
+          "manufacturerRef": "1.006.2020",
+          "label": "1.006.2020"
+        },
+        {
+          "manufacturerRef": "0.571.5621",
+          "label": "0.571.5621"
+        },
+        {
+          "manufacturerRef": "1.006.1957",
+          "label": "1.006.1957"
+        },
+        {
+          "manufacturerRef": "0.571.5631",
+          "label": "0.571.5631"
+        },
+        {
+          "manufacturerRef": "1.006.1959",
+          "label": "1.006.1959"
+        },
+        {
+          "manufacturerRef": "0.571.5641",
+          "label": "0.571.5641"
+        },
+        {
+          "manufacturerRef": "1.006.1961",
+          "label": "1.006.1961"
+        },
+        {
+          "manufacturerRef": "0.571.5651",
+          "label": "0.571.5651"
+        },
+        {
+          "manufacturerRef": "1.006.1963",
+          "label": "1.006.1963"
+        },
+        {
+          "manufacturerRef": "1.006.2045",
+          "label": "1.006.2045"
+        },
+        {
+          "manufacturerRef": "1.007.1142",
+          "label": "1.007.1142"
+        },
+        {
+          "manufacturerRef": "1.000.8323",
+          "label": "1.000.8323"
+        },
+        {
+          "manufacturerRef": "1.007.1506",
+          "label": "1.007.1506"
+        },
+        {
+          "manufacturerRef": "0.571.6741",
+          "label": "0.571.6741"
+        },
+        {
+          "manufacturerRef": "1.006.1965",
+          "label": "1.006.1965"
+        },
+        {
+          "manufacturerRef": "0.571.6731",
+          "label": "0.571.6731"
+        },
+        {
+          "manufacturerRef": "1.006.1967",
+          "label": "1.006.1967"
+        },
+        {
+          "manufacturerRef": "0.571.6811",
+          "label": "0.571.6811"
+        },
+        {
+          "manufacturerRef": "1.006.1969",
+          "label": "1.006.1969"
+        },
+        {
+          "manufacturerRef": "0.571.6801",
+          "label": "0.571.6801"
+        },
+        {
+          "manufacturerRef": "1.006.1971",
+          "label": "1.006.1971"
+        },
+        {
+          "manufacturerRef": "0.571.6831",
+          "label": "0.571.6831"
+        },
+        {
+          "manufacturerRef": "1.006.1973",
+          "label": "1.006.1973"
+        },
+        {
+          "manufacturerRef": "0.571.6821",
+          "label": "0.571.6821"
+        },
+        {
+          "manufacturerRef": "1.006.1975",
+          "label": "1.006.1975"
+        },
+        {
+          "manufacturerRef": "0.571.0421",
+          "label": "0.571.0421"
+        },
+        {
+          "manufacturerRef": "1.006.2023",
+          "label": "1.006.2023"
+        },
+        {
+          "manufacturerRef": "0.571.7392",
+          "label": "0.571.7392"
+        },
+        {
+          "manufacturerRef": "1.006.1988",
+          "label": "1.006.1988"
+        },
+        {
+          "manufacturerRef": "0.571.7382",
+          "label": "0.571.7382"
+        },
+        {
+          "manufacturerRef": "1.006.1990",
+          "label": "1.006.1990"
+        },
+        {
+          "manufacturerRef": "0.571.0391",
+          "label": "0.571.0391"
+        },
+        {
+          "manufacturerRef": "1.000.7105",
+          "label": "1.000.7105"
+        },
+        {
+          "manufacturerRef": "1.006.1980",
+          "label": "1.006.1980"
+        },
+        {
+          "manufacturerRef": "1.000.7167",
+          "label": "1.000.7167"
+        },
+        {
+          "manufacturerRef": "1.006.1981",
+          "label": "1.006.1981"
+        },
+        {
+          "manufacturerRef": "1.000.7362",
+          "label": "1.000.7362"
+        },
+        {
+          "manufacturerRef": "1.006.2002",
+          "label": "1.006.2002"
+        },
+        {
+          "manufacturerRef": "1.000.7363",
+          "label": "1.000.7363"
+        },
+        {
+          "manufacturerRef": "1.006.2004",
+          "label": "1.006.2004"
+        },
+        {
+          "manufacturerRef": "0.571.0341",
+          "label": "0.571.0341"
+        },
+        {
+          "manufacturerRef": "1.006.2029",
+          "label": "1.006.2029"
+        },
+        {
+          "manufacturerRef": "1.002.1988",
+          "label": "1.002.1988"
+        },
+        {
+          "manufacturerRef": "1.006.2024",
+          "label": "1.006.2024"
+        }
+      ],
+      "categoryPath": "",
+      "description": "The KaVo SONICflex airscaler boasts impressive performance in everyday prophylaxis and a variety of other indications.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SONICflex-Header_Close-up-top_4000px.jpg?itok=PAPzglCC",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SONICflex-Header_Close-up-top_4000px.jpg?itok=PAPzglCC",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/scalers-tips/sonicflex-2003-l-quick-2008-l",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "1.003.8167",
+        "1.006.2027",
+        "0.571.7322",
+        "1.006.2040",
+        "0.571.7332",
+        "1.006.2041",
+        "0.571.5541",
+        "1.006.2036",
+        "0.571.5581",
+        "1.006.2035",
+        "0.571.5521",
+        "1.006.2037",
+        "0.571.5561",
+        "1.006.2038",
+        "0.571.7342",
+        "1.006.2039",
+        "1.000.5825",
+        "1.006.1992",
+        "1.000.5822",
+        "1.006.1994",
+        "1.000.5823",
+        "1.006.1996",
+        "1.000.5827",
+        "1.006.1998",
+        "1.000.5821",
+        "1.006.2000",
+        "1.006.2042",
+        "1.006.2043",
+        "1.006.2044",
+        "0.571.7212",
+        "1.006.1983",
+        "0.571.7222",
+        "1.006.1984",
+        "0.571.7262",
+        "1.006.1985",
+        "0.571.7272",
+        "1.002.1984",
+        "1.006.1977",
+        "1.002.1986",
+        "1.006.1979",
+        "0.571.5431",
+        "1.006.2021",
+        "1.008.6383",
+        "1.008.6384",
+        "1.008.6385",
+        "1.008.6386"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-EXPERTTORQUE-E680-MINI-E677-L",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "EXPERTtorque 680 & 677",
+      "manufacturerRef": "1.006.8700",
+      "manufacturerRefs": "1.006.8700 | 1.006.9000 | 1.007.3600",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "1.006.8700",
+          "label": "1.006.8700"
+        },
+        {
+          "manufacturerRef": "1.006.9000",
+          "label": "1.006.9000"
+        },
+        {
+          "manufacturerRef": "1.007.3600",
+          "label": "1.007.3600"
+        }
+      ],
+      "categoryPath": "",
+      "description": "KaVo EXPERTtorque models are powerful and reliable turbines with impressive features for continuous daily use.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/EXPERTtorque-LUX-E680-L_1-006-8700-hb-v01-c-16-7-1920px-840px.jpg?itok=9gp7b0kt",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/EXPERTtorque-LUX-E680-L_1-006-8700-hb-v01-c-16-7-1920px-840px.jpg?itok=9gp7b0kt",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/turbines/experttorque-e680-mini-e677-l",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-MASTERSURG",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "MASTERsurg",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Even long-experienced dentists who are accustomed to convenience are wowed by the features of the KaVo MASTERsurg LUX Wireless.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/MASTERsurg-Display-V1-Title_background_3000px.jpg?itok=M9MBpGqP",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/MASTERsurg-Display-V1-Title_background_3000px.jpg?itok=M9MBpGqP",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/surgery/mastersurg",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "1.008.8000",
+        "1.009.8757",
+        "1.009.3411",
+        "0.534.5660",
+        "0.540.8340"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-RONDOFLEX-PLUS-360",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "RONDOflex plus 360",
+      "manufacturerRef": "1.002.6251",
+      "manufacturerRefs": "1.002.6251 | 1.002.9176 | 1.002.6250 | 1.003.1235 | 1.003.1236 | 1.000.2678 | 0.573.6052 | 0.573.0321 | 3.005.4213 | 3.006.4667 | 1.000.9006 | 1.002.9179 | 1.002.9182 | 0.573.6072 | 0.200.6019 | 1.002.9920",
+      "variantCount": 16,
+      "variants": [
+        {
+          "manufacturerRef": "1.002.6251",
+          "label": "1.002.6251"
+        },
+        {
+          "manufacturerRef": "1.002.9176",
+          "label": "1.002.9176"
+        },
+        {
+          "manufacturerRef": "1.002.6250",
+          "label": "1.002.6250"
+        },
+        {
+          "manufacturerRef": "1.003.1235",
+          "label": "1.003.1235"
+        },
+        {
+          "manufacturerRef": "1.003.1236",
+          "label": "1.003.1236"
+        },
+        {
+          "manufacturerRef": "1.000.2678",
+          "label": "1.000.2678"
+        },
+        {
+          "manufacturerRef": "0.573.6052",
+          "label": "0.573.6052"
+        },
+        {
+          "manufacturerRef": "0.573.0321",
+          "label": "0.573.0321"
+        },
+        {
+          "manufacturerRef": "3.005.4213",
+          "label": "3.005.4213"
+        },
+        {
+          "manufacturerRef": "3.006.4667",
+          "label": "3.006.4667"
+        },
+        {
+          "manufacturerRef": "1.000.9006",
+          "label": "1.000.9006"
+        },
+        {
+          "manufacturerRef": "1.002.9179",
+          "label": "1.002.9179"
+        },
+        {
+          "manufacturerRef": "1.002.9182",
+          "label": "1.002.9182"
+        },
+        {
+          "manufacturerRef": "0.573.6072",
+          "label": "0.573.6072"
+        },
+        {
+          "manufacturerRef": "0.200.6019",
+          "label": "0.200.6019"
+        },
+        {
+          "manufacturerRef": "1.002.9920",
+          "label": "1.002.9920"
+        }
+      ],
+      "categoryPath": "",
+      "description": "The modern air abrasion system or mini sandblaster & spray water for gentle and virtually painless material removal.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/RONDOflex-plus-360_Header-dark_16-7-3840px.jpg?itok=H-u1fhC5",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/RONDOflex-plus-360_Header-dark_16-7-3840px.jpg?itok=H-u1fhC5",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/restoration/rondoflex-plus-360",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-CLEANSPRAY-DRYSPRAY",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "CLEANspray & DRYspray",
+      "manufacturerRef": "1.007.0573",
+      "manufacturerRefs": "1.007.0573 | 1.007.0579 | 1.007.0580 | 1.007.1776 | 1.007.1775 | 1.007.3350",
+      "variantCount": 6,
+      "variants": [
+        {
+          "manufacturerRef": "1.007.0573",
+          "label": "1.007.0573"
+        },
+        {
+          "manufacturerRef": "1.007.0579",
+          "label": "1.007.0579"
+        },
+        {
+          "manufacturerRef": "1.007.0580",
+          "label": "1.007.0580"
+        },
+        {
+          "manufacturerRef": "1.007.1776",
+          "label": "1.007.1776"
+        },
+        {
+          "manufacturerRef": "1.007.1775",
+          "label": "1.007.1775"
+        },
+        {
+          "manufacturerRef": "1.007.3350",
+          "label": "1.007.3350"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Increased demands on hygienic preparation have led to the need for internal cleaning methods, which must have validation of their efficiency. For this validated, intensive internal cleaning, KaVo offers very economical solutions for manual use.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header-CLEANspray-DRYspray-Hygiene-dark_V2-2000px.jpg?itok=41Q3GxOX",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header-CLEANspray-DRYspray-Hygiene-dark_V2-2000px.jpg?itok=41Q3GxOX",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/maintenance-hygiene/cleanspray-dryspray",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "0.411.9691"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-KAVO-SPRAY",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "KaVo Spray",
+      "manufacturerRef": "0.411.9640",
+      "manufacturerRefs": "0.411.9640 | 1.011.5721 | 0.411.9911 | 1.005.3154 | 0.411.9921 | 1.005.8436 | 1.005.8365",
+      "variantCount": 7,
+      "variants": [
+        {
+          "manufacturerRef": "0.411.9640",
+          "label": "0.411.9640"
+        },
+        {
+          "manufacturerRef": "1.011.5721",
+          "label": "1.011.5721"
+        },
+        {
+          "manufacturerRef": "0.411.9911",
+          "label": "0.411.9911"
+        },
+        {
+          "manufacturerRef": "1.005.3154",
+          "label": "1.005.3154"
+        },
+        {
+          "manufacturerRef": "0.411.9921",
+          "label": "0.411.9921"
+        },
+        {
+          "manufacturerRef": "1.005.8436",
+          "label": "1.005.8436"
+        },
+        {
+          "manufacturerRef": "1.005.8365",
+          "label": "1.005.8365"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Universal care for all KaVo contra-angles, handpieces, turbines, heads and air motors",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/2026-06/kavo-spray_header-light_16-7-3840px_kopie.png?itok=zsfq-yJk",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/2026-06/kavo-spray_header-light_16-7-3840px_kopie.png?itok=zsfq-yJk",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/maintenance-hygiene/kavo-spray",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "0.411.9691"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-QUATTROCARE-PLUS",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "QUATTROcare PLUS",
+      "manufacturerRef": "1.005.4525",
+      "manufacturerRefs": "1.005.4525 | 1.011.5720 | 0.411.7603 | 0.411.7981 | 0.411.7991 | 0.411.7941 | 1.005.1707 | 1.000.1003 | 1.000.7156 | 1.001.7860 | 1.001.7888 | 1.000.7403 | 1.000.7585 | 1.000.8459 | 1.000.8786 | 1.000.8858 | 1.002.1217 | 1.000.6063 | 1.003.1253",
+      "variantCount": 19,
+      "variants": [
+        {
+          "manufacturerRef": "1.005.4525",
+          "label": "1.005.4525"
+        },
+        {
+          "manufacturerRef": "1.011.5720",
+          "label": "1.011.5720"
+        },
+        {
+          "manufacturerRef": "0.411.7603",
+          "label": "0.411.7603"
+        },
+        {
+          "manufacturerRef": "0.411.7981",
+          "label": "0.411.7981"
+        },
+        {
+          "manufacturerRef": "0.411.7991",
+          "label": "0.411.7991"
+        },
+        {
+          "manufacturerRef": "0.411.7941",
+          "label": "0.411.7941"
+        },
+        {
+          "manufacturerRef": "1.005.1707",
+          "label": "1.005.1707"
+        },
+        {
+          "manufacturerRef": "1.000.1003",
+          "label": "1.000.1003"
+        },
+        {
+          "manufacturerRef": "1.000.7156",
+          "label": "1.000.7156"
+        },
+        {
+          "manufacturerRef": "1.001.7860",
+          "label": "1.001.7860"
+        },
+        {
+          "manufacturerRef": "1.001.7888",
+          "label": "1.001.7888"
+        },
+        {
+          "manufacturerRef": "1.000.7403",
+          "label": "1.000.7403"
+        },
+        {
+          "manufacturerRef": "1.000.7585",
+          "label": "1.000.7585"
+        },
+        {
+          "manufacturerRef": "1.000.8459",
+          "label": "1.000.8459"
+        },
+        {
+          "manufacturerRef": "1.000.8786",
+          "label": "1.000.8786"
+        },
+        {
+          "manufacturerRef": "1.000.8858",
+          "label": "1.000.8858"
+        },
+        {
+          "manufacturerRef": "1.002.1217",
+          "label": "1.002.1217"
+        },
+        {
+          "manufacturerRef": "1.000.6063",
+          "label": "1.000.6063"
+        },
+        {
+          "manufacturerRef": "1.003.1253",
+          "label": "1.003.1253"
+        }
+      ],
+      "categoryPath": "",
+      "description": "KaVo QUATTROcare PLUS, including collet care, is probably the most efficient instrument preparation method available for dental practices. The KaVo QUATTROcare PLUS care system is not only incomparably thorough and economical, it is also easy to use. Perfect for any instruments that are used on a daily basis in your dental practice.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header-QUATTROcare-Spray-Hygiene-dark_2000px.jpg?itok=OZ2iMsqu",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header-QUATTROcare-Spray-Hygiene-dark_2000px.jpg?itok=OZ2iMsqu",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/maintenance-hygiene/quattrocare-plus",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-MASTERMATIC",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "MASTERmatic",
+      "manufacturerRef": "1.009.3630",
+      "manufacturerRefs": "1.009.3630 | 1.009.3640 | 1.014.0280 | 1.009.3610 | 1.009.3620 | 1.009.3580 | 1.009.3570",
+      "variantCount": 7,
+      "variants": [
+        {
+          "manufacturerRef": "1.009.3630",
+          "label": "1.009.3630"
+        },
+        {
+          "manufacturerRef": "1.009.3640",
+          "label": "1.009.3640"
+        },
+        {
+          "manufacturerRef": "1.014.0280",
+          "label": "1.014.0280"
+        },
+        {
+          "manufacturerRef": "1.009.3610",
+          "label": "1.009.3610"
+        },
+        {
+          "manufacturerRef": "1.009.3620",
+          "label": "1.009.3620"
+        },
+        {
+          "manufacturerRef": "1.009.3580",
+          "label": "1.009.3580"
+        },
+        {
+          "manufacturerRef": "1.009.3570",
+          "label": "1.009.3570"
+        }
+      ],
+      "categoryPath": "",
+      "description": "KaVo MASTERmatic handpieces and contra-angles – the master of KaVo instruments when it comes to performance and comfort.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/MASTERmatic-M25-L_1-009-3630-black-cutout-3840px-2160px.png?itok=fquSaC7h",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/MASTERmatic-M25-L_1-009-3630-black-cutout-3840px-2160px.png?itok=fquSaC7h",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/handpieces-contra-angles/mastermatic",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-KAVOLUX-540-LED",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "KaVoLUX 540 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVoLUX 540 LED – perfect natural light and illumination for any treatment.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/KaVoLUX-540-LED_Header-dark_16-7-3840px.jpg?itok=-kkIY7y4",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/KaVoLUX-540-LED_Header-dark_16-7-3840px.jpg?itok=-kkIY7y4",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/operating-lights/kavolux-540-led",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-K-ERGOGRIP",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "K-ERGOgrip",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Featuring ergonomic comfort and a lightweight design, the KaVo K-ERGOgrip laboratory handpiece promotes a working posture that’s especially gentle on your joints.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/K-ERGOgrip_Header-light_16-7-3840px.jpg?itok=MrMofBP-",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/K-ERGOgrip_Header-light_16-7-3840px.jpg?itok=MrMofBP-",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/laboratory-equipment/laboratory-handpieces-controllers/k-ergogrip",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-STUDY-MODELS-SURGERY-AND-IMPLANTOLOGY",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Study Models Prosthetics",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo tooth models for dental surgery and implantology are anatomically precise, complete with realistic detailing.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Tooth-Models_Header-dark_16-7-3840px.jpg?itok=vCJZKUxX",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Tooth-Models_Header-dark_16-7-3840px.jpg?itok=vCJZKUxX",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/dental-education/teeth-study-models/study-models-surgery-and-implantology",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-DIAGNOCAMTM-VISION-FULL-HD",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "DIAGNOcam Vision Full HD",
+      "manufacturerRef": "1.011.1213",
+      "manufacturerRefs": "1.011.1213 | 1.013.1500 | 1.013.5708 | 1.013.5712 | 1.013.5713 | 1.013.5711 | 1.013.5709 | 1.013.5715 | 1.013.0400 | 1.013.4952",
+      "variantCount": 10,
+      "variants": [
+        {
+          "manufacturerRef": "1.011.1213",
+          "label": "1.011.1213"
+        },
+        {
+          "manufacturerRef": "1.013.1500",
+          "label": "1.013.1500"
+        },
+        {
+          "manufacturerRef": "1.013.5708",
+          "label": "1.013.5708"
+        },
+        {
+          "manufacturerRef": "1.013.5712",
+          "label": "1.013.5712"
+        },
+        {
+          "manufacturerRef": "1.013.5713",
+          "label": "1.013.5713"
+        },
+        {
+          "manufacturerRef": "1.013.5711",
+          "label": "1.013.5711"
+        },
+        {
+          "manufacturerRef": "1.013.5709",
+          "label": "1.013.5709"
+        },
+        {
+          "manufacturerRef": "1.013.5715",
+          "label": "1.013.5715"
+        },
+        {
+          "manufacturerRef": "1.013.0400",
+          "label": "1.013.0400"
+        },
+        {
+          "manufacturerRef": "1.013.4952",
+          "label": "1.013.4952"
+        }
+      ],
+      "categoryPath": "",
+      "description": "KaVo DIAGNOcam Vision Full HD offers three diagnostic recordings in full HD resolution with just one click.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/DIAGNOcam-Vision-Full-HD_Header-dark-V4_16-7-3840px.jpg?itok=5F20hbCo",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/DIAGNOcam-Vision-Full-HD_Header-dark-V4_16-7-3840px.jpg?itok=5F20hbCo",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/patient-communication/diagnocamtm-vision-full-hd",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-POLISHING-INSTRUMENTS",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Polishing instruments",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SMARTmatic-Prophylaxe-und-Endodontie-S53_1-011-6810-hb-v01-c-16-7-1920px-840px.jpg?itok=j1HII6dx",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SMARTmatic-Prophylaxe-und-Endodontie-S53_1-011-6810-hb-v01-c-16-7-1920px-840px.jpg?itok=j1HII6dx",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/prophylaxis/polishing-instruments",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "1.011.6800",
+        "1.011.6810",
+        "1.011.6760",
+        "1.011.6740",
+        "1.008.4998",
+        "1.008.1824",
+        "1.008.1826"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-MULTIFLEX",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "MULTIflex",
+      "manufacturerRef": "1.007.3201",
+      "manufacturerRefs": "1.007.3201 | 0.553.1390 | 0.553.1600 | 0.553.1210",
+      "variantCount": 4,
+      "variants": [
+        {
+          "manufacturerRef": "1.007.3201",
+          "label": "1.007.3201"
+        },
+        {
+          "manufacturerRef": "0.553.1390",
+          "label": "0.553.1390"
+        },
+        {
+          "manufacturerRef": "0.553.1600",
+          "label": "0.553.1600"
+        },
+        {
+          "manufacturerRef": "0.553.1210",
+          "label": "0.553.1210"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Get multi-flexible with KaVo: quick and easy instrument changing saves you precious time and money every day.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/MULTIflex-LUX-465-LRN_0-553-1550-black-cutout-3840px-2160px.png?itok=n37UNc2E",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/MULTIflex-LUX-465-LRN_0-553-1550-black-cutout-3840px-2160px.png?itok=n37UNc2E",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/couplings-motors/multiflex",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "1.007.3197"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-MULTI-LED",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "MULTI LED",
+      "manufacturerRef": "1.007.5372",
+      "manufacturerRefs": "1.007.5372",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "1.007.5372",
+          "label": "1.007.5372"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Impressive brightness and powerful illumination for your preparation area – all thanks to KaVo MULTI LED.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/multiflex-led.jpg?itok=v9SfmFaO",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/multiflex-led.jpg?itok=v9SfmFaO",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/couplings-motors/multi-led",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "1.007.3197"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-PHYSIO-EVO-EVO-F",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "PHYSIO Evo / Evo F",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo PHYSIO Evo: the KaVo work chair for superb ergonomics and excellent treatment comfort.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/2025-03/header-physio-2025_16_7_0.jpg?itok=LNhRIh_g",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/2025-03/header-physio-2025_16_7_0.jpg?itok=LNhRIh_g",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/dental-stools/physio-evo-evo-f",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-RELAXLINE-UPHOLSTERY",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "RELAXline soft upholstery",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo RELAXline upholstery boasts an exclusive design and outstanding comfort when lying down.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/upholsteryr-E70-coffee-total_3000px.jpg?itok=c41-FL0i",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/upholsteryr-E70-coffee-total_3000px.jpg?itok=c41-FL0i",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/options-accessories/relaxline-upholstery",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-DESIGN-EDITION-STYLE",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Design Edition Style",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo Style - Exclusively for the ESTETICA E70/E80 Vision. The all-round matt finish, which is unusual for treatment units, in combination with a discreetly-structured film in elegant grey on the front of the supply element is a highlight. In harmony with the well-known KaVo suspended chair, an innovative, timeless and stylish aesthetic emerges. The subtle \"style\" branding emphasises the premise with sophistication and discretion.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/STYLE_Detail-Graphite-Rauml_1000x650px.jpg?itok=Rs8N9oiB",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/STYLE_Detail-Graphite-Rauml_1000x650px.jpg?itok=Rs8N9oiB",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/dental-units/design-edition-style",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-MICROMOTORS-MOTOR-CONTROL",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Micromotors & motor control",
+      "manufacturerRef": "1.007.0150",
+      "manufacturerRefs": "1.007.0150 | 1.001.8776 | 0.535.5210 | 0.535.5200 | 0.535.5250",
+      "variantCount": 5,
+      "variants": [
+        {
+          "manufacturerRef": "1.007.0150",
+          "label": "1.007.0150"
+        },
+        {
+          "manufacturerRef": "1.001.8776",
+          "label": "1.001.8776"
+        },
+        {
+          "manufacturerRef": "0.535.5210",
+          "label": "0.535.5210"
+        },
+        {
+          "manufacturerRef": "0.535.5200",
+          "label": "0.535.5200"
+        },
+        {
+          "manufacturerRef": "0.535.5250",
+          "label": "0.535.5250"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Whether electric or air-operated, all KaVo Micromotors boast the reliability we’ve come to expect from KaVo, not to mention a consistently great performance across the entire speed range.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Motor-INTRA-K-LUX-703-LED_1-007-0150-black-cutout-3840px-2160px.png?itok=isfWekFu",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Motor-INTRA-K-LUX-703-LED_1-007-0150-black-cutout-3840px-2160px.png?itok=isfWekFu",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/couplings-motors/micromotors-motor-control",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "1.008.8000"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-DEKASEPTOL-GEL",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "DEKASEPTOL Gel",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo DEKASEPTOL Gel is the go-to cleaning and disinfection gel for all dental extraction units.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header_Website_DEKASEPTOL.jpg?itok=2EErjRtV",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header_Website_DEKASEPTOL.jpg?itok=2EErjRtV",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/hygiene/dekaseptol-gel",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-SURGICAL-INSTRUMENTS",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Surgical Instruments",
+      "manufacturerRef": "1.014.4000",
+      "manufacturerRefs": "1.014.4000 | 1.013.7541 | 1.013.7540 | 1.009.1010 | 0.524.5600 | 0.524.5610 | 0.524.5620",
+      "variantCount": 7,
+      "variants": [
+        {
+          "manufacturerRef": "1.014.4000",
+          "label": "1.014.4000"
+        },
+        {
+          "manufacturerRef": "1.013.7541",
+          "label": "1.013.7541"
+        },
+        {
+          "manufacturerRef": "1.013.7540",
+          "label": "1.013.7540"
+        },
+        {
+          "manufacturerRef": "1.009.1010",
+          "label": "1.009.1010"
+        },
+        {
+          "manufacturerRef": "0.524.5600",
+          "label": "0.524.5600"
+        },
+        {
+          "manufacturerRef": "0.524.5610",
+          "label": "0.524.5610"
+        },
+        {
+          "manufacturerRef": "0.524.5620",
+          "label": "0.524.5620"
+        }
+      ],
+      "categoryPath": "",
+      "description": "For surgical procedures with the utmost precision, KaVo SURGmatic instruments are the obvious choice.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SURGmatic-S15L-Pro_Title-Head-Water_800px.jpg?itok=dxvg7k2g",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SURGmatic-S15L-Pro_Title-Head-Water_800px.jpg?itok=dxvg7k2g",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/surgery/surgical-instruments",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-EXPERTMATIC",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "EXPERTmatic",
+      "manufacturerRef": "1.007.5550",
+      "manufacturerRefs": "1.007.5550 | 1.007.5540 | 1.007.5530 | 1.007.5551 | 1.007.5541 | 1.007.5531 | 1.007.5560 | 1.008.4999",
+      "variantCount": 8,
+      "variants": [
+        {
+          "manufacturerRef": "1.007.5550",
+          "label": "1.007.5550"
+        },
+        {
+          "manufacturerRef": "1.007.5540",
+          "label": "1.007.5540"
+        },
+        {
+          "manufacturerRef": "1.007.5530",
+          "label": "1.007.5530"
+        },
+        {
+          "manufacturerRef": "1.007.5551",
+          "label": "1.007.5551"
+        },
+        {
+          "manufacturerRef": "1.007.5541",
+          "label": "1.007.5541"
+        },
+        {
+          "manufacturerRef": "1.007.5531",
+          "label": "1.007.5531"
+        },
+        {
+          "manufacturerRef": "1.007.5560",
+          "label": "1.007.5560"
+        },
+        {
+          "manufacturerRef": "1.008.4999",
+          "label": "1.008.4999"
+        }
+      ],
+      "categoryPath": "",
+      "description": "EXPERTmatic handpieces and contra- angles are impressive tools, even with the most intensive continuous use.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/EXPERTmatic-LUX-E25-L_1-007-5550-hb-v01-c-16-7-1920px-840px.jpg?itok=e3NJABd3",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/EXPERTmatic-LUX-E25-L_1-007-5550-hb-v01-c-16-7-1920px-840px.jpg?itok=e3NJABd3",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/handpieces-contra-angles/expertmatic",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "1.008.4998"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-SMARTMATIC",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "SMARTmatic",
+      "manufacturerRef": "1.011.6752",
+      "manufacturerRefs": "1.011.6752 | 1.011.6750 | 1.011.6732 | 1.011.6730 | 1.011.6780 | 1.011.6790",
+      "variantCount": 6,
+      "variants": [
+        {
+          "manufacturerRef": "1.011.6752",
+          "label": "1.011.6752"
+        },
+        {
+          "manufacturerRef": "1.011.6750",
+          "label": "1.011.6750"
+        },
+        {
+          "manufacturerRef": "1.011.6732",
+          "label": "1.011.6732"
+        },
+        {
+          "manufacturerRef": "1.011.6730",
+          "label": "1.011.6730"
+        },
+        {
+          "manufacturerRef": "1.011.6780",
+          "label": "1.011.6780"
+        },
+        {
+          "manufacturerRef": "1.011.6790",
+          "label": "1.011.6790"
+        }
+      ],
+      "categoryPath": "",
+      "description": "The KaVo SMARTmatic instrument series boasts authentic, German-made KaVo quality at a great entry-level price.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SMARTmatic-Prophylaxe-und-Endodontie-S53_1-011-6810-hb-v01-c-16-7-1920px-840px.jpg?itok=j1HII6dx",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SMARTmatic-Prophylaxe-und-Endodontie-S53_1-011-6810-hb-v01-c-16-7-1920px-840px.jpg?itok=j1HII6dx",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/handpieces-contra-angles/smartmatic",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "1.011.6800",
+        "1.011.6810",
+        "1.011.6760",
+        "1.011.6740"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-CENTRO",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Centro",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Rapid, convenient access and everything close at hand – that’s the KaVo Centro carrying system.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header_Website_Centro.jpg?itok=0pi-OVm3",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header_Website_Centro.jpg?itok=0pi-OVm3",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/options-accessories/centro",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-PROPHYFLEX-CLEANING-POWDER",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "PROPHYflex Cleaning powder",
+      "manufacturerRef": "1.010.1798",
+      "manufacturerRefs": "1.010.1798 | 1.010.1826 | 1.010.1828 | 1.010.1829 | 1.010.1830 | 1.010.1831 | 1.009.3731 | 1.011.9403 | 1.010.0287 | 1.007.0014 | 1.007.0015 | 1.007.0016 | 1.007.0017 | 1.009.3732 | 3.002.8000 | 3.002.8200 | 3.002.8800 | 3.004.5900 | 3.004.5930 | 3.004.5950",
+      "variantCount": 20,
+      "variants": [
+        {
+          "manufacturerRef": "1.010.1798",
+          "label": "1.010.1798"
+        },
+        {
+          "manufacturerRef": "1.010.1826",
+          "label": "1.010.1826"
+        },
+        {
+          "manufacturerRef": "1.010.1828",
+          "label": "1.010.1828"
+        },
+        {
+          "manufacturerRef": "1.010.1829",
+          "label": "1.010.1829"
+        },
+        {
+          "manufacturerRef": "1.010.1830",
+          "label": "1.010.1830"
+        },
+        {
+          "manufacturerRef": "1.010.1831",
+          "label": "1.010.1831"
+        },
+        {
+          "manufacturerRef": "1.009.3731",
+          "label": "1.009.3731"
+        },
+        {
+          "manufacturerRef": "1.011.9403",
+          "label": "1.011.9403"
+        },
+        {
+          "manufacturerRef": "1.010.0287",
+          "label": "1.010.0287"
+        },
+        {
+          "manufacturerRef": "1.007.0014",
+          "label": "1.007.0014"
+        },
+        {
+          "manufacturerRef": "1.007.0015",
+          "label": "1.007.0015"
+        },
+        {
+          "manufacturerRef": "1.007.0016",
+          "label": "1.007.0016"
+        },
+        {
+          "manufacturerRef": "1.007.0017",
+          "label": "1.007.0017"
+        },
+        {
+          "manufacturerRef": "1.009.3732",
+          "label": "1.009.3732"
+        },
+        {
+          "manufacturerRef": "3.002.8000",
+          "label": "3.002.8000"
+        },
+        {
+          "manufacturerRef": "3.002.8200",
+          "label": "3.002.8200"
+        },
+        {
+          "manufacturerRef": "3.002.8800",
+          "label": "3.002.8800"
+        },
+        {
+          "manufacturerRef": "3.004.5900",
+          "label": "3.004.5900"
+        },
+        {
+          "manufacturerRef": "3.004.5930",
+          "label": "3.004.5930"
+        },
+        {
+          "manufacturerRef": "3.004.5950",
+          "label": "3.004.5950"
+        }
+      ],
+      "categoryPath": "",
+      "description": "KaVo PROPHYflex cleaning powder – the professional must-have for gentle yet thorough tooth cleaning.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/PROPHYpearls_Header-dark_16-7-3840px.jpg?itok=LYI0HT4Q",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/PROPHYpearls_Header-dark_16-7-3840px.jpg?itok=LYI0HT4Q",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/prophylaxis/prophyflex-cleaning-powder",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-DIAGNODENT-PEN",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "DIAGNOdent pen",
+      "manufacturerRef": "1.002.7000",
+      "manufacturerRefs": "1.002.7000 | 1.004.8400 | 1.002.6967 | 1.002.6970 | 1.004.0370 | 1.002.7011",
+      "variantCount": 6,
+      "variants": [
+        {
+          "manufacturerRef": "1.002.7000",
+          "label": "1.002.7000"
+        },
+        {
+          "manufacturerRef": "1.004.8400",
+          "label": "1.004.8400"
+        },
+        {
+          "manufacturerRef": "1.002.6967",
+          "label": "1.002.6967"
+        },
+        {
+          "manufacturerRef": "1.002.6970",
+          "label": "1.002.6970"
+        },
+        {
+          "manufacturerRef": "1.004.0370",
+          "label": "1.004.0370"
+        },
+        {
+          "manufacturerRef": "1.002.7011",
+          "label": "1.002.7011"
+        }
+      ],
+      "categoryPath": "",
+      "description": "The KaVo DIAGNOdent pen: quick and effective assistance with caries diagnostics.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/DIAGNOdent-Pen_persp-steelgrey.jpg?itok=V-J7C9-8",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/DIAGNOdent-Pen_persp-steelgrey.jpg?itok=V-J7C9-8",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/diagnostics/diagnodent-pen",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-INTRA-HEADS",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "INTRA LUX heads",
+      "manufacturerRef": "1.008.1833",
+      "manufacturerRefs": "1.008.1833 | 1.008.1834 | 1.008.1831 | 1.008.1832 | 1.008.1825 | 1.004.4456 | 1.008.1828 | 1.008.1829 | 1.008.1835 | 1.001.8993 | 1.008.1822 | 1.008.1823 | 1.008.1830",
+      "variantCount": 13,
+      "variants": [
+        {
+          "manufacturerRef": "1.008.1833",
+          "label": "1.008.1833"
+        },
+        {
+          "manufacturerRef": "1.008.1834",
+          "label": "1.008.1834"
+        },
+        {
+          "manufacturerRef": "1.008.1831",
+          "label": "1.008.1831"
+        },
+        {
+          "manufacturerRef": "1.008.1832",
+          "label": "1.008.1832"
+        },
+        {
+          "manufacturerRef": "1.008.1825",
+          "label": "1.008.1825"
+        },
+        {
+          "manufacturerRef": "1.004.4456",
+          "label": "1.004.4456"
+        },
+        {
+          "manufacturerRef": "1.008.1828",
+          "label": "1.008.1828"
+        },
+        {
+          "manufacturerRef": "1.008.1829",
+          "label": "1.008.1829"
+        },
+        {
+          "manufacturerRef": "1.008.1835",
+          "label": "1.008.1835"
+        },
+        {
+          "manufacturerRef": "1.001.8993",
+          "label": "1.001.8993"
+        },
+        {
+          "manufacturerRef": "1.008.1822",
+          "label": "1.008.1822"
+        },
+        {
+          "manufacturerRef": "1.008.1823",
+          "label": "1.008.1823"
+        },
+        {
+          "manufacturerRef": "1.008.1830",
+          "label": "1.008.1830"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Unlimited versatility for KaVo MASTERmatic contra-angle handpieces: KaVo INTRA heads are suitable for many indications.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/INTRA-Head-L68-1-008-1833-black-cutout-3840px-2160px.png?itok=MU382hYT",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/INTRA-Head-L68-1-008-1833-black-cutout-3840px-2160px.png?itok=MU382hYT",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/handpieces-contra-angles/intra-heads",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "1.008.1824",
+        "1.008.1826"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-KAVO-CONNECTIONS",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Connections from other companies",
+      "manufacturerRef": "1.006.4600",
+      "manufacturerRefs": "1.006.4600 | 1.006.4700 | 1.006.0100",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "1.006.4600",
+          "label": "1.006.4600"
+        },
+        {
+          "manufacturerRef": "1.006.4700",
+          "label": "1.006.4700"
+        },
+        {
+          "manufacturerRef": "1.006.0100",
+          "label": "1.006.0100"
+        }
+      ],
+      "categoryPath": "",
+      "description": "We have suitable connections for Sirona and NSK couplings and more, so you won’t miss out on the quality of KaVo instruments.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/1_008_5400_black_cutout_3840px_2160px.png?itok=UOm5dj5B",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/1_008_5400_black_cutout_3840px_2160px.png?itok=UOm5dj5B",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/couplings-motors/kavo-connections",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-MAIA-LED",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "MAIA LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo MAIA LED – your introduction to KaVo LED lighting technology.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/MAIA-LED_Header-dark_16-7-3840px.jpg?itok=QL6-RUrx",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/MAIA-LED_Header-dark_16-7-3840px.jpg?itok=QL6-RUrx",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/operating-lights/maia-led",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-KAVO-SCREEN-22",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "KaVo Screen",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Outstanding precision: The 22-inch KaVo Screen boasts brilliant images in unrivalled full HD resolution.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/DIAGNOcam_Screen.jpg?itok=oKGUkDRe",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/DIAGNOcam_Screen.jpg?itok=oKGUkDRe",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/patient-communication/kavo-screen-22",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-OXYGENAL",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "OXYGENAL 6",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo OXYGENAL 6 ensures reliable and effective water germ reduction for all KaVo treatment units.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/2025-01/oxygenal-6-header-v2_16-7.jpg?itok=bSx0xV-U",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/2025-01/oxygenal-6-header-v2_16-7.jpg?itok=bSx0xV-U",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/hygiene/oxygenal",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-PROPHYFLEX-PERIO-TIP",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "PROPHYflex perio tip",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "The PROPHYflex perio tip enables subgingival and supragingivale cleaning with the PROPHYflex. The perio tip is combined with the fine Perio Powder.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/PROphyflex4_3_002_8800_black_cutout_3840px_2160px.png?itok=3t5lE7Al",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/PROphyflex4_3_002_8800_black_cutout_3840px_2160px.png?itok=3t5lE7Al",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/prophylaxis/prophyflex-perio-tip",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-PHYSIO-ONE",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "PHYSIO One",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "The KaVo PHYSIO One offers modern design in KaVo premium-quality at a great price.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/PHYSIO-One-pine_Header-16-7.jpg?itok=b1LtW8xm",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/PHYSIO-One-pine_Header-16-7.jpg?itok=b1LtW8xm",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/dental-stools/physio-one",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-MASTERSPACE",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "MASTERspace",
+      "manufacturerRef": "1.000.3394",
+      "manufacturerRefs": "1.000.3394 | 1.000.3395 | 1.011.8860",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "1.000.3394",
+          "label": "1.000.3394"
+        },
+        {
+          "manufacturerRef": "1.000.3395",
+          "label": "1.000.3395"
+        },
+        {
+          "manufacturerRef": "1.011.8860",
+          "label": "1.011.8860"
+        }
+      ],
+      "categoryPath": "",
+      "description": "KaVo MASTERspace laboratory furnishings offer everything you need for a great-looking workspace that stands the test of time.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/MASTERspace_Header_1920x840px.jpg?itok=OOCwyhPW",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/MASTERspace_Header_1920x840px.jpg?itok=OOCwyhPW",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/laboratory-equipment/laboratory-equipment/masterspace",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-DSE-CLINICAL-E50-LIFE",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "DSE Clinical E50 Life",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "The KaVo DSE Clinical E50 Life simulation unit ensures realistic, practical dental training the KaVo way.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/2026-04/dse-clinical-e50-life-lumina-header_16-7_0.jpg?itok=qNK1fnpU",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/2026-04/dse-clinical-e50-life-lumina-header_16-7_0.jpg?itok=qNK1fnpU",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/dental-education/dental-simulation-units/dse-clinical-e50-life",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-PROXAM-ICAM",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ProXam iCam",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "The new, elegant KaVo ProXam iCam is notable for the sharpness of its images and foot control.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/ProXam-iCam_header_16-7.jpg?itok=eJS7ZwCL",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/ProXam-iCam_header_16-7.jpg?itok=eJS7ZwCL",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/patient-communication/proxam-icam",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-X-RAY-YOUR-DENTAL-CHAIR",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "X-ray at your dental unit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Röntgen an Ihrer KaVo Behandlungseinheit: Spart Zeit und Geld - Geräteadaptierte Röntgenlösung für hohen Behandlungskomfort.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/x-ray-adapter-on-dental-chair_4-3.jpg?itok=J23MW06H",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/x-ray-adapter-on-dental-chair_4-3.jpg?itok=J23MW06H",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/options-accessories/x-ray-your-dental-chair",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-MODEL-TEETH",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Model Teeth",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo Basic tooth models boast anatomical accuracy and a patented locking mechanism for easy mounting in the model base.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Tooth-Models_Header-dark_16-7-3840px.jpg?itok=vCJZKUxX",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Tooth-Models_Header-dark_16-7-3840px.jpg?itok=vCJZKUxX",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/dental-education/teeth-study-models/model-teeth",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-PERIODONTICS-TOOTH-MODELS",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Surgery and implantology",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo tooth models for periodontic exercises feature anatomical details for realistic study.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Tooth-Models_Header-dark_16-7-3840px.jpg?itok=vCJZKUxX",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Tooth-Models_Header-dark_16-7-3840px.jpg?itok=vCJZKUxX",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/dental-education/teeth-study-models/periodontics-tooth-models",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-SONICFLEX-ENDO",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "SONICflex endo",
+      "manufacturerRef": "1.008.5164",
+      "manufacturerRefs": "1.008.5164 | 1.008.5163",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "1.008.5164",
+          "label": "1.008.5164"
+        },
+        {
+          "manufacturerRef": "1.008.5163",
+          "label": "1.008.5163"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Shaping of the pulp cavity for coronal root preparation, preparation of the canal entrances.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SONICflex-endo_Header-light-V7_16-7-1920px.jpg?itok=AYX4HN9K",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SONICflex-endo_Header-light-V7_16-7-1920px.jpg?itok=AYX4HN9K",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/endodontics/sonicflex-endo",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "1.000.5825",
+        "1.006.1992",
+        "1.000.5822",
+        "1.006.1994",
+        "1.000.5823",
+        "1.006.1996",
+        "1.000.5827",
+        "1.006.1998",
+        "1.000.5821",
+        "1.006.2000",
+        "1.006.2042",
+        "1.006.2043",
+        "1.006.2044"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-DENTAL-TEACHER",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Dental Teacher",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo Dental Teacher provides fast and objective digital assistance with assessing and validating your students’ preparations.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Dental-Teacher_Header-dark_16-7-3840px.jpg?itok=jbsCVF-3",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Dental-Teacher_Header-dark_16-7-3840px.jpg?itok=jbsCVF-3",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/dental-education/digital-education-systems/dental-teacher",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-EXPERTSURG",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "EXPERTsurg LUX",
+      "manufacturerRef": "1.008.3500",
+      "manufacturerRefs": "1.008.3500 | 1.009.1700",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "1.008.3500",
+          "label": "1.008.3500"
+        },
+        {
+          "manufacturerRef": "1.009.1700",
+          "label": "1.009.1700"
+        }
+      ],
+      "categoryPath": "",
+      "description": "High-performance, reliable and precise: the KaVo EXPERTsurg LUX surgical system with an ultra-lightweight micromotor.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/EXPERTsurg-with-motor_Header-dark_16-7-3840px.jpg?itok=8ujCjUB5",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/EXPERTsurg-with-motor_Header-dark_16-7-3840px.jpg?itok=8ujCjUB5",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/surgery/expertsurg",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "1.008.8000",
+        "1.009.8757",
+        "1.009.3411",
+        "0.534.5660",
+        "0.540.8340"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-ARCUS-ARCUSEVO",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ARCUS & ARCUSevo",
+      "manufacturerRef": "0.622.5000",
+      "manufacturerRefs": "0.622.5000 | 1.005.0900 | 0.622.0901 | 0.622.1391 | 0.622.0911",
+      "variantCount": 5,
+      "variants": [
+        {
+          "manufacturerRef": "0.622.5000",
+          "label": "0.622.5000"
+        },
+        {
+          "manufacturerRef": "1.005.0900",
+          "label": "1.005.0900"
+        },
+        {
+          "manufacturerRef": "0.622.0901",
+          "label": "0.622.0901"
+        },
+        {
+          "manufacturerRef": "0.622.1391",
+          "label": "0.622.1391"
+        },
+        {
+          "manufacturerRef": "0.622.0911",
+          "label": "0.622.0911"
+        }
+      ],
+      "categoryPath": "",
+      "description": "The KaVo ARCUSevo facebow offers the utmost precision, speed and ease of use.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header_Website_ARCUSevo.jpg?itok=wFxTTHi3",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header_Website_ARCUSevo.jpg?itok=wFxTTHi3",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/laboratory-equipment/articulation/arcus-arcusevo",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-KAVO-EDUNET",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "EDUnet",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo EDUnet is a high-performance communication network for your dental training.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/EDUnet_Header-dark-V2_16-7-3840px.jpg?itok=SSPyNB-H",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/EDUnet_Header-dark-V2_16-7-3840px.jpg?itok=SSPyNB-H",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/dental-education/digital-education-systems/kavo-edunet",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-PROTAREVO",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "PROTARevo",
+      "manufacturerRef": "1.002.3305",
+      "manufacturerRefs": "1.002.3305 | 1.002.3308 | 1.002.3309 | 1.002.3312 | 1.002.3313 | 1.002.3316 | 1.002.3317 | 1.002.3320 | 1.002.3321 | 1.002.3324 | 1.002.3325 | 1.005.4121",
+      "variantCount": 12,
+      "variants": [
+        {
+          "manufacturerRef": "1.002.3305",
+          "label": "1.002.3305"
+        },
+        {
+          "manufacturerRef": "1.002.3308",
+          "label": "1.002.3308"
+        },
+        {
+          "manufacturerRef": "1.002.3309",
+          "label": "1.002.3309"
+        },
+        {
+          "manufacturerRef": "1.002.3312",
+          "label": "1.002.3312"
+        },
+        {
+          "manufacturerRef": "1.002.3313",
+          "label": "1.002.3313"
+        },
+        {
+          "manufacturerRef": "1.002.3316",
+          "label": "1.002.3316"
+        },
+        {
+          "manufacturerRef": "1.002.3317",
+          "label": "1.002.3317"
+        },
+        {
+          "manufacturerRef": "1.002.3320",
+          "label": "1.002.3320"
+        },
+        {
+          "manufacturerRef": "1.002.3321",
+          "label": "1.002.3321"
+        },
+        {
+          "manufacturerRef": "1.002.3324",
+          "label": "1.002.3324"
+        },
+        {
+          "manufacturerRef": "1.002.3325",
+          "label": "1.002.3325"
+        },
+        {
+          "manufacturerRef": "1.005.4121",
+          "label": "1.005.4121"
+        }
+      ],
+      "categoryPath": "",
+      "description": "KaVo PROTARevo articulators for practices and dental laboratories feature unique workmanship and superior handling.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header_Website_PROTARevo.jpg?itok=lDIPsOMF",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header_Website_PROTARevo.jpg?itok=lDIPsOMF",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/laboratory-equipment/articulation/protarevo",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-SMARTAIR-EVO",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "SMARTair evo",
+      "manufacturerRef": "1.010.4075",
+      "manufacturerRefs": "1.010.4075 | 1.010.4076 | 1.010.4074 | 0.650.7481 | 0.650.7031 | 0.650.1271 | 0.650.2601 | 0.650.2591 | 0.659.3300 | 0.659.3330 | 0.659.3360",
+      "variantCount": 11,
+      "variants": [
+        {
+          "manufacturerRef": "1.010.4075",
+          "label": "1.010.4075"
+        },
+        {
+          "manufacturerRef": "1.010.4076",
+          "label": "1.010.4076"
+        },
+        {
+          "manufacturerRef": "1.010.4074",
+          "label": "1.010.4074"
+        },
+        {
+          "manufacturerRef": "0.650.7481",
+          "label": "0.650.7481"
+        },
+        {
+          "manufacturerRef": "0.650.7031",
+          "label": "0.650.7031"
+        },
+        {
+          "manufacturerRef": "0.650.1271",
+          "label": "0.650.1271"
+        },
+        {
+          "manufacturerRef": "0.650.2601",
+          "label": "0.650.2601"
+        },
+        {
+          "manufacturerRef": "0.650.2591",
+          "label": "0.650.2591"
+        },
+        {
+          "manufacturerRef": "0.659.3300",
+          "label": "0.659.3300"
+        },
+        {
+          "manufacturerRef": "0.659.3330",
+          "label": "0.659.3330"
+        },
+        {
+          "manufacturerRef": "0.659.3360",
+          "label": "0.659.3360"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Rely on KaVo SMARTair evo single-place dust extraction to ensure clean, dust-free air in practices and dental laboratories.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SMARTair-evo_Header-hell_3840px.jpg?itok=90_8MDi7",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SMARTair-evo_Header-hell_3840px.jpg?itok=90_8MDi7",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/laboratory-equipment/dust-extraction-systems/smartair-evo",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-SENSIT",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "SENsit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "The KaVo SENsit work and laboratory chair with synchronous mechanics guarantees an ergonomically healthy sitting posture in every working position.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SENsit-Title_3840px.jpg?itok=PHXdjrbx",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SENsit-Title_3840px.jpg?itok=PHXdjrbx",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/laboratory-equipment/laboratory-equipment/sensit",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-SONICFLEX-RETRO",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "SONICflex retro",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Tips for minimally invasive, axial retrograde preparation, filling of the root canal and preparation of undercuts.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SONICflex-retro_Header-light-V7_16-7-1920px.jpg?itok=CeJXym64",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SONICflex-retro_Header-light-V7_16-7-1920px.jpg?itok=CeJXym64",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/restoration/sonicflex-retro",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "0.571.7322",
+        "1.006.2040",
+        "0.571.7332",
+        "1.006.2041",
+        "0.571.5541",
+        "1.006.2036",
+        "0.571.5581",
+        "1.006.2035",
+        "0.571.5521",
+        "1.006.2037",
+        "0.571.5561",
+        "1.006.2038",
+        "0.571.7342",
+        "1.006.2039"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-CONNECTBASE",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "CONNECTbase",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Essential software for integrated, efficient patient communication – KaVo CONNECTbase.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/KaVo-uniQa_CONNECTbase-Team_1000px.jpg?itok=8u4yOEEB",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/KaVo-uniQa_CONNECTbase-Team_1000px.jpg?itok=8u4yOEEB",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/patient-communication/connectbase",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-K5-PLUS",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "K5 plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "The KaVo K5plus is the reliable, effective entry-level model among KaVo laboratory drive solutions.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/K5-plus_Header-dark_16-7-3840px.jpg?itok=xhdHGXlK",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/K5-plus_Header-dark_16-7-3840px.jpg?itok=xhdHGXlK",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/laboratory-equipment/laboratory-handpieces-controllers/k5-plus",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-K-POWERGRIP",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "K-POWERgrip",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "The KaVo K-POWERgrip laboratory handpiece boasts dependable performance, low vibrations and low noise.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/K-POWERgrip_Header-dark_16-7-3840px.jpg?itok=N5AG_m8k",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/K-POWERgrip_Header-dark_16-7-3840px.jpg?itok=N5AG_m8k",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/laboratory-equipment/laboratory-handpieces-controllers/k-powergrip",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-K-CONTROL-TLC",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "K-Control TLC",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo K-Control TLC: the smart and efficient control unit for KaVo laboratory drives.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header_Website_K-Control%20TLC.jpg?itok=E20bFnPa",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header_Website_K-Control%20TLC.jpg?itok=E20bFnPa",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/laboratory-equipment/laboratory-handpieces-controllers/k-control-tlc",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-ESTETICA-E70E80-VISION",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ESTETICA E70/E80 Vision",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Premium dental unit with suspended chair concept for the ultimate in ergonomic design and treatment comfort.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/ESTETICA-E70-E80-Vision_T_pearl_7clock.jpg?itok=euJWcQ_8",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/ESTETICA-E70-E80-Vision_T_pearl_7clock.jpg?itok=euJWcQ_8",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/dental-units/estetica-e70e80-vision",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-JAW-SIMULATORS",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Patient / Jaw simulators",
+      "manufacturerRef": "0.622.1901",
+      "manufacturerRefs": "0.622.1901 | 0.622.0551 | 0.622.1312 | 0.622.3882 | 0.622.1431 | 1.011.2618 | 0.622.0531 | 1.011.1401 | 0.622.4872",
+      "variantCount": 9,
+      "variants": [
+        {
+          "manufacturerRef": "0.622.1901",
+          "label": "0.622.1901"
+        },
+        {
+          "manufacturerRef": "0.622.0551",
+          "label": "0.622.0551"
+        },
+        {
+          "manufacturerRef": "0.622.1312",
+          "label": "0.622.1312"
+        },
+        {
+          "manufacturerRef": "0.622.3882",
+          "label": "0.622.3882"
+        },
+        {
+          "manufacturerRef": "0.622.1431",
+          "label": "0.622.1431"
+        },
+        {
+          "manufacturerRef": "1.011.2618",
+          "label": "1.011.2618"
+        },
+        {
+          "manufacturerRef": "0.622.0531",
+          "label": "0.622.0531"
+        },
+        {
+          "manufacturerRef": "1.011.1401",
+          "label": "1.011.1401"
+        },
+        {
+          "manufacturerRef": "0.622.4872",
+          "label": "0.622.4872"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Dental training the KaVo way – with realistic KaVo jaw simulators.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Website_Header_Kiefersimulatoren_16-7.jpg?itok=UdrZloNs",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Website_Header_Kiefersimulatoren_16-7.jpg?itok=UdrZloNs",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/dental-education/patient-simulators/jaw-simulators",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-SONICFLEX-PREP",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "SONICflex prep",
+      "manufacturerRef": "1.006.1986",
+      "manufacturerRefs": "1.006.1986",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "1.006.1986",
+          "label": "1.006.1986"
+        }
+      ],
+      "categoryPath": "",
+      "description": "SONICflex prep gold / ceram / CAD/CAM / crown Tips for prosthetics for adhesive inlays and onlays.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SONICflex-prep_Header-light-V7_16-7-1920px.jpg?itok=GHK8PCMC",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SONICflex-prep_Header-light-V7_16-7-1920px.jpg?itok=GHK8PCMC",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/restoration/sonicflex-prep",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "0.571.7212",
+        "1.006.1983",
+        "0.571.7222",
+        "1.006.1984",
+        "0.571.7262",
+        "1.006.1985",
+        "0.571.7272",
+        "1.002.1984",
+        "1.006.1977",
+        "1.002.1986",
+        "1.006.1979",
+        "1.008.6383",
+        "1.008.6384",
+        "1.008.6385",
+        "1.008.6386"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-SONICFLEX-CEM",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "SONICflex cem",
+      "manufacturerRef": "0.571.7142",
+      "manufacturerRefs": "0.571.7142",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "0.571.7142",
+          "label": "0.571.7142"
+        }
+      ],
+      "categoryPath": "",
+      "description": "",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SONICflex-cem_Header-light-V7_16-7-1920px.jpg?itok=pPlsLBQF",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SONICflex-cem_Header-light-V7_16-7-1920px.jpg?itok=pPlsLBQF",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/restoration/sonicflex-cem",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "0.571.5431",
+        "1.006.2021"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-SONICFLEX-IMPLANT",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "SONICflex implant",
+      "manufacturerRef": "1.003.8168",
+      "manufacturerRefs": "1.003.8168",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "1.003.8168",
+          "label": "1.003.8168"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Das SONICflex The implant cleaning tip.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SONICflex-implant_Header-light-V7_16-7-1920px.jpg?itok=PFqFpWS8",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SONICflex-implant_Header-light-V7_16-7-1920px.jpg?itok=PFqFpWS8",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/surgical/sonicflex-implant",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "1.003.8167",
+        "1.006.2027"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-DSE-EXPERT",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "DSE Expert",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "The KaVo DSE Expert simulation unit is KaVo’s modern training solution for the dental experts of tomorrow.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/University-Gent-Belgium_DSE-EXPERT-MAIA-detail_6000px.jpg?itok=dY8lcJOM",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/University-Gent-Belgium_DSE-EXPERT-MAIA-detail_6000px.jpg?itok=dY8lcJOM",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/dental-education/dental-simulation-units/dse-expert",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-SILICONE-MOULDS",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Silicone moulds",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "KaVo silicone moulds provide an easy way to create precise tooth models with real or artificial teeth for your students to use.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Tooth-Models_Header-dark_16-7-3840px.jpg?itok=vCJZKUxX",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Tooth-Models_Header-dark_16-7-3840px.jpg?itok=vCJZKUxX",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/dental-education/teeth-study-models/silicone-moulds",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-ESTETICA-E30",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ESTETICA E30",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Are you looking for an easy-to-use dental chair that offers you quality, reliability and efficiency? Here it is: KaVo ESTETICA E30 combines convenience and efficiency as part of your daily workload. Clever technology and integrated service functions ensure cost-efficient operation. We call it the essence of Dental Excellence at affordable entry-level pricing. You will simply think: I love it!",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header-2025-E30-S_16-7.jpg?itok=cCSViRVE",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header-2025-E30-S_16-7.jpg?itok=cCSViRVE",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/dental-units/estetica-e30",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-PROXAM-IX",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ProXam iX",
+      "manufacturerRef": "2.023.1052",
+      "manufacturerRefs": "2.023.1052 | 2.023.1053 | 2.023.1059 | 2.023.1058 | 2.023.1057 | 2.023.1056 | 2.023.1054 | 2.023.1055 | 2.023.1060 | 2.023.1061",
+      "variantCount": 10,
+      "variants": [
+        {
+          "manufacturerRef": "2.023.1052",
+          "label": "2.023.1052"
+        },
+        {
+          "manufacturerRef": "2.023.1053",
+          "label": "2.023.1053"
+        },
+        {
+          "manufacturerRef": "2.023.1059",
+          "label": "2.023.1059"
+        },
+        {
+          "manufacturerRef": "2.023.1058",
+          "label": "2.023.1058"
+        },
+        {
+          "manufacturerRef": "2.023.1057",
+          "label": "2.023.1057"
+        },
+        {
+          "manufacturerRef": "2.023.1056",
+          "label": "2.023.1056"
+        },
+        {
+          "manufacturerRef": "2.023.1054",
+          "label": "2.023.1054"
+        },
+        {
+          "manufacturerRef": "2.023.1055",
+          "label": "2.023.1055"
+        },
+        {
+          "manufacturerRef": "2.023.1060",
+          "label": "2.023.1060"
+        },
+        {
+          "manufacturerRef": "2.023.1061",
+          "label": "2.023.1061"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Intraoral X-ray imaging at the highest level: KaVo ProXam iX takes impressively sharp images while being intuitive and easy to use.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Intraoral-ProXam_Assistent-Patient-Stool_4000px.jpg?itok=KKBnqR5q",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Intraoral-ProXam_Assistent-Patient-Stool_4000px.jpg?itok=KKBnqR5q",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/imaging/intraoral/proxam-ix",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "2.023.2051",
+        "2.023.1051"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-PROXAM",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ProXam iS",
+      "manufacturerRef": "2.023.2152",
+      "manufacturerRefs": "2.023.2152 | 2.023.2052 | 2.023.2153 | 2.023.2154 | 2.023.2155 | 2.023.2071 | 2.023.2072 | 2.023.2060",
+      "variantCount": 8,
+      "variants": [
+        {
+          "manufacturerRef": "2.023.2152",
+          "label": "2.023.2152"
+        },
+        {
+          "manufacturerRef": "2.023.2052",
+          "label": "2.023.2052"
+        },
+        {
+          "manufacturerRef": "2.023.2153",
+          "label": "2.023.2153"
+        },
+        {
+          "manufacturerRef": "2.023.2154",
+          "label": "2.023.2154"
+        },
+        {
+          "manufacturerRef": "2.023.2155",
+          "label": "2.023.2155"
+        },
+        {
+          "manufacturerRef": "2.023.2071",
+          "label": "2.023.2071"
+        },
+        {
+          "manufacturerRef": "2.023.2072",
+          "label": "2.023.2072"
+        },
+        {
+          "manufacturerRef": "2.023.2060",
+          "label": "2.023.2060"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Brilliant images can be created quickly and conveniently with the digital, intraoral KaVo ProXam iS X-ray sensors.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/ProXam-iS_Dentist-Patient-Stool_3000px.jpg?itok=vACK4FC2",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/ProXam-iS_Dentist-Patient-Stool_3000px.jpg?itok=vACK4FC2",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/imaging/intraoral/proxam",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "2.023.2051",
+        "2.023.3003"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-ROMEXIS",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Romexis",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Romexis is the worlds leading all-in-one software for all imaging and diagnostic processes in practices and clinics.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/2025-07/romexis7-ai-header_16-7-2000px.jpg?itok=XMYVun0n",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/2025-07/romexis7-ai-header_16-7-2000px.jpg?itok=XMYVun0n",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/imaging/software/romexis",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-PROXAM-IP",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ProXam iP",
+      "manufacturerRef": "2.023.3004",
+      "manufacturerRefs": "2.023.3004 | 2.023.3005 | 2.023.3006 | 2.023.3007 | 2.023.3011 | 2.023.3012 | 2.023.3013 | 2.023.3014 | 2.023.3002",
+      "variantCount": 9,
+      "variants": [
+        {
+          "manufacturerRef": "2.023.3004",
+          "label": "2.023.3004"
+        },
+        {
+          "manufacturerRef": "2.023.3005",
+          "label": "2.023.3005"
+        },
+        {
+          "manufacturerRef": "2.023.3006",
+          "label": "2.023.3006"
+        },
+        {
+          "manufacturerRef": "2.023.3007",
+          "label": "2.023.3007"
+        },
+        {
+          "manufacturerRef": "2.023.3011",
+          "label": "2.023.3011"
+        },
+        {
+          "manufacturerRef": "2.023.3012",
+          "label": "2.023.3012"
+        },
+        {
+          "manufacturerRef": "2.023.3013",
+          "label": "2.023.3013"
+        },
+        {
+          "manufacturerRef": "2.023.3014",
+          "label": "2.023.3014"
+        },
+        {
+          "manufacturerRef": "2.023.3002",
+          "label": "2.023.3002"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Quick, easy and uncomplicated scanning in the treatment room or the X-ray room – all with the KaVo ProXam iP.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/ProXam-iX_Dentist-Patient-Stool_3000px.jpg?itok=hraz9GMg",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/ProXam-iX_Dentist-Patient-Stool_3000px.jpg?itok=hraz9GMg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/imaging/intraoral/proxam-ip",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "2.023.3003"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-PROXAM-IOS",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ProXam iOS",
+      "manufacturerRef": "2.023.7007",
+      "manufacturerRefs": "2.023.7007 | 2.023.7008 | 2.023.7001 | 2.023.7003 | 2.023.7005 | 2.023.7017 | 3.008.0887 | 3.008.0968 | 2.023.7006 | 2.023.7014 | 2.023.7012 | 2.023.7013",
+      "variantCount": 12,
+      "variants": [
+        {
+          "manufacturerRef": "2.023.7007",
+          "label": "2.023.7007"
+        },
+        {
+          "manufacturerRef": "2.023.7008",
+          "label": "2.023.7008"
+        },
+        {
+          "manufacturerRef": "2.023.7001",
+          "label": "2.023.7001"
+        },
+        {
+          "manufacturerRef": "2.023.7003",
+          "label": "2.023.7003"
+        },
+        {
+          "manufacturerRef": "2.023.7005",
+          "label": "2.023.7005"
+        },
+        {
+          "manufacturerRef": "2.023.7017",
+          "label": "2.023.7017"
+        },
+        {
+          "manufacturerRef": "3.008.0887",
+          "label": "3.008.0887"
+        },
+        {
+          "manufacturerRef": "3.008.0968",
+          "label": "3.008.0968"
+        },
+        {
+          "manufacturerRef": "2.023.7006",
+          "label": "2.023.7006"
+        },
+        {
+          "manufacturerRef": "2.023.7014",
+          "label": "2.023.7014"
+        },
+        {
+          "manufacturerRef": "2.023.7012",
+          "label": "2.023.7012"
+        },
+        {
+          "manufacturerRef": "2.023.7013",
+          "label": "2.023.7013"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Intraoral scanning at the highest level – impressive speed and precision with the KaVo ProXam iOS intraoral scanner.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Introral-ProXam-iOS_Assistant-Patient-explaining_4000px.jpg?itok=FSm8QqXq",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Introral-ProXam-iOS_Assistant-Patient-explaining_4000px.jpg?itok=FSm8QqXq",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/imaging/intraoral/proxam-ios",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-SURGTORQUE",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "SURGtorque",
+      "manufacturerRef": "3.000.4808",
+      "manufacturerRefs": "3.000.4808 | 3.000.5063",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "3.000.4808",
+          "label": "3.000.4808"
+        },
+        {
+          "manufacturerRef": "3.000.5063",
+          "label": "3.000.5063"
+        }
+      ],
+      "categoryPath": "",
+      "description": "The dental turbine KaVo SURGtorque features cutting power for faster preps, side and rear exhaust to help increase safety.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SURGtorque-LUX-s459l_3-000-4808-hb-v01-c-16-7-1920px-840px.jpg?itok=3P5Fiz-F",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SURGtorque-LUX-s459l_3-000-4808-hb-v01-c-16-7-1920px-840px.jpg?itok=3P5Fiz-F",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/turbines/surgtorque",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-CEPH-IMAGING",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ProXam Ceph & ProCeph",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "More flexibility for a variety of image formats. Ceph can be used as an additional feature for all extraoral KaVo ProXam imaging units and offers an extended selection of image sizes of up to 30 x 27 cm. The KaVo ProXam scans the patient's head horizontally with a narrow X-ray beam, ensuring an extremely low and effective patient dose.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Extraoral-ProXam-Ceph_Header_4000px.jpg?itok=Qlg6DxJb",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Extraoral-ProXam-Ceph_Header_4000px.jpg?itok=Qlg6DxJb",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/imaging/extraoral/ceph-imaging",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-KAVO-PROXAM-2D-2D-PRO",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ProXam 2D & 2D Pro",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Versatility at the highest level – the KaVo ProXam 2D series offers extraoral X-rays of the highest standard.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Extraoral-ProXam-2D_Header-Assistant_3000px.jpg?itok=TUJ2XM1y",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Extraoral-ProXam-2D_Header-Assistant_3000px.jpg?itok=TUJ2XM1y",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/imaging/extraoral/kavo-proxam-2d-2d-pro",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "2.023.1051",
+        "2.023.4050",
+        "2.023.4052",
+        "2.023.4053"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-SMARTTORQUETM",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "SMARTtorque",
+      "manufacturerRef": "1.008.1641",
+      "manufacturerRefs": "1.008.1641 | 1.008.1642 | 1.008.1643 | 1.008.1644 | 1.008.1645",
+      "variantCount": 5,
+      "variants": [
+        {
+          "manufacturerRef": "1.008.1641",
+          "label": "1.008.1641"
+        },
+        {
+          "manufacturerRef": "1.008.1642",
+          "label": "1.008.1642"
+        },
+        {
+          "manufacturerRef": "1.008.1643",
+          "label": "1.008.1643"
+        },
+        {
+          "manufacturerRef": "1.008.1644",
+          "label": "1.008.1644"
+        },
+        {
+          "manufacturerRef": "1.008.1645",
+          "label": "1.008.1645"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Simply smart: KaVo SMARTtorque turbines make everyday preparation a breeze.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SMARTtorque-LUX-S619-L_1-008-1641-hb-v01-c-1-1-4096px-4096px.png?itok=FlCY8V21",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/SMARTtorque-LUX-S619-L_1-008-1641-hb-v01-c-1-1-4096px-4096px.png?itok=FlCY8V21",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/turbines/smarttorquetm",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-ELECTROMATICTM-SERIES",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ELECTROmatic System",
+      "manufacturerRef": "1.012.8537",
+      "manufacturerRefs": "1.012.8537 | 1.012.8538 | 1.012.8541 | 1.012.8542 | 1.012.8545 | 1.012.8546 | 1.012.8547 | 1.012.8548 | 1.012.8539 | 1.012.8540 | 1.012.8543 | 1.012.8544 | 1.012.8549 | 1.012.8550",
+      "variantCount": 14,
+      "variants": [
+        {
+          "manufacturerRef": "1.012.8537",
+          "label": "1.012.8537"
+        },
+        {
+          "manufacturerRef": "1.012.8538",
+          "label": "1.012.8538"
+        },
+        {
+          "manufacturerRef": "1.012.8541",
+          "label": "1.012.8541"
+        },
+        {
+          "manufacturerRef": "1.012.8542",
+          "label": "1.012.8542"
+        },
+        {
+          "manufacturerRef": "1.012.8545",
+          "label": "1.012.8545"
+        },
+        {
+          "manufacturerRef": "1.012.8546",
+          "label": "1.012.8546"
+        },
+        {
+          "manufacturerRef": "1.012.8547",
+          "label": "1.012.8547"
+        },
+        {
+          "manufacturerRef": "1.012.8548",
+          "label": "1.012.8548"
+        },
+        {
+          "manufacturerRef": "1.012.8539",
+          "label": "1.012.8539"
+        },
+        {
+          "manufacturerRef": "1.012.8540",
+          "label": "1.012.8540"
+        },
+        {
+          "manufacturerRef": "1.012.8543",
+          "label": "1.012.8543"
+        },
+        {
+          "manufacturerRef": "1.012.8544",
+          "label": "1.012.8544"
+        },
+        {
+          "manufacturerRef": "1.012.8549",
+          "label": "1.012.8549"
+        },
+        {
+          "manufacturerRef": "1.012.8550",
+          "label": "1.012.8550"
+        }
+      ],
+      "categoryPath": "",
+      "description": "Easy to use, easy versatility, easy and fast installation: Switching to KaVo electrics helps to improve your workflow efficiency and patient care.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header_EXPERTMATIC_16-7.jpg?itok=1a--pFD0",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Header_EXPERTMATIC_16-7.jpg?itok=1a--pFD0",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/couplings-motors/electromatictm-series",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-KAVO-PROXAM-3D",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ProXam 3D",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "The KaVo ProXam 3D combines modern 3D imaging with 2D programmes for maximum diagnostic quality.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Extraoral-ProXam-3D_Header_4000px.jpg?itok=u7XhyxI-",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Extraoral-ProXam-3D_Header_4000px.jpg?itok=u7XhyxI-",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/imaging/extraoral/kavo-proxam-3d",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "2.023.1051",
+        "2.023.4050",
+        "2.023.4052",
+        "2.023.4053",
+        "2.023.5072"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-KAVO-PROXAM-3DQ-3DQ-PRO",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "ProXam 3DQ & 3DQ Pro",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "The KaVo ProXam 3DQ series combine the latest 3D and 2D diagnostics with an extra-large volume.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Extraoral-ProXam-3DQ_Header_3000px.jpg?itok=5W1VHfzb",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/Extraoral-ProXam-3DQ_Header_3000px.jpg?itok=5W1VHfzb",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/imaging/extraoral/kavo-proxam-3dq-3dq-pro",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED",
+      "ambiguousManufacturerRefs": [
+        "2.023.1051",
+        "2.023.4050",
+        "2.023.4052",
+        "2.023.4053",
+        "2.023.5072"
+      ]
+    },
+    {
+      "officialProductId": "KAVO-SYRINGE-PORTFOLIO",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "Syringes",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "The KaVo syringe range contains 3F and multifunctional syringes with air, water and spray. They boast an attractive, slim design and are light-weighted. The KaVo syringes are available as straight and angled versions.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/KaVo-Minilight_front-side-background-1-1.jpg?itok=r9y01k07",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/KaVo-Minilight_front-side-background-1-1.jpg?itok=r9y01k07",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/options-accessories/syringe-portfolio",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-KAVO-LUMINA",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "KaVo Lumina",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "The KaVo Lumina is setting new lighting standards in dental practices and sets the gold standard in terms of user experience. The innovative UX Light technology enables perfect illumination of all levels right up to the molar area – without annoying reflections on the anterior teeth.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/KaVo-Lumina-Key-Visual-launch-teaser_Header-16-7-4000px.jpg?itok=RC0YluYN",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/KaVo-Lumina-Key-Visual-launch-teaser_Header-16-7-4000px.jpg?itok=RC0YluYN",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/operating-lights/kavo-lumina",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-KAVO-AMIQA",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "KaVo amiQa",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Top quality, simple yet ingenious hygiene processes, sophisticated ergonomics and fresh design. From basic features to specialist equipment, the amiQa delights its users with its external and internal qualities. Something you can rely on: the KaVo amiQa is your steadfast companion – ideally for a lifetime.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/KaVo-amiQa-TM-frost_9clock-background.jpg?itok=qrrXFfJK",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/KaVo-amiQa-TM-frost_9clock-background.jpg?itok=qrrXFfJK",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/dental-units/kavo-amiqa",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-KAVO-ESCALER-ULTRASONIC-SCALER",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "KaVo eSCALER Ultrasonic Scaler",
+      "manufacturerRef": "1.015.4741",
+      "manufacturerRefs": "1.015.4741 | 1.015.4742 | 1.015.4743 | 1.015.4744 | 1.015.2000 | 1.015.2050 | 1.014.5736 | 1.015.4733 | 1.015.4734 | 1.015.4735 | 1.015.4737 | 1.015.4738 | 3.008.8298",
+      "variantCount": 13,
+      "variants": [
+        {
+          "manufacturerRef": "1.015.4741",
+          "label": "1.015.4741"
+        },
+        {
+          "manufacturerRef": "1.015.4742",
+          "label": "1.015.4742"
+        },
+        {
+          "manufacturerRef": "1.015.4743",
+          "label": "1.015.4743"
+        },
+        {
+          "manufacturerRef": "1.015.4744",
+          "label": "1.015.4744"
+        },
+        {
+          "manufacturerRef": "1.015.2000",
+          "label": "1.015.2000"
+        },
+        {
+          "manufacturerRef": "1.015.2050",
+          "label": "1.015.2050"
+        },
+        {
+          "manufacturerRef": "1.014.5736",
+          "label": "1.014.5736"
+        },
+        {
+          "manufacturerRef": "1.015.4733",
+          "label": "1.015.4733"
+        },
+        {
+          "manufacturerRef": "1.015.4734",
+          "label": "1.015.4734"
+        },
+        {
+          "manufacturerRef": "1.015.4735",
+          "label": "1.015.4735"
+        },
+        {
+          "manufacturerRef": "1.015.4737",
+          "label": "1.015.4737"
+        },
+        {
+          "manufacturerRef": "1.015.4738",
+          "label": "1.015.4738"
+        },
+        {
+          "manufacturerRef": "3.008.8298",
+          "label": "3.008.8298"
+        }
+      ],
+      "categoryPath": "",
+      "description": "The KaVo eSCALER combines reliability, outstanding technology and maximum user comfort - the ideal solution for modern dental practices that focus on quality.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/KaVo-eScaler-header_V3-16-7-3000px.jpg?itok=1GcY5Dl6",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/KaVo-eScaler-header_V3-16-7-3000px.jpg?itok=1GcY5Dl6",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/instruments/prophylaxis/kavo-escaler-ultrasonic-scaler",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-KAVO-UNIQA",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "KaVo uniQa",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "Unique quality now has a name: introducing KaVo uniQa, the first premium compact class treatment unit.",
+      "sourceImageUrl": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/UniQa_T_chilired_9oclock.jpg?itok=TxI-91D0",
+      "imageUrls": "https://www.kavo.com/sites/default/files/styles/og_image/public/mq_acquia_dam/UniQa_T_chilired_9oclock.jpg?itok=TxI-91D0",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/dental-units/kavo-uniqa",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAVO-CONNECTME",
+      "brand": "KaVo",
+      "manufacturer": "KaVo Dental GmbH",
+      "name": "CONNECTme App",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.kavo.com/en/products/practice-equipment/digital-connectivity/connectme",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    }
+  ]
+}

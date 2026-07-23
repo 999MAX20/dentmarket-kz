@@ -1,0 +1,280 @@
+{
+  "brand": "Suntem",
+  "manufacturer": "Foshan Suntem Medical Instrument Co., Ltd.",
+  "sourceType": "OFFICIAL_CURRENT_MANUFACTURER_DENTAL_PRODUCT_CATEGORIES",
+  "sourceUrl": "https://suntem.cn/en/dental/index.jhtml | https://suntem.cn/en/other/index.jhtml",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "allCurrentDentalUnitAndDentalSpecificOtherEquipmentPagesTraversed": true,
+    "entProductsExcluded": true,
+    "exactOfficialModelsPreserved": true,
+    "exactOfficialProductImagesOnly": true,
+    "kzAvailabilityRequiresSupplierEvidence": true
+  },
+  "totals": {
+    "categoryPages": 2,
+    "candidateUrls": 11,
+    "discoveredProducts": 11,
+    "productsWithReferences": 11,
+    "productsWithImages": 11,
+    "skippedPages": 0,
+    "crawlErrors": 0
+  },
+  "skipped": [],
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "SUNTEM-SIP-10",
+      "brand": "Suntem",
+      "manufacturer": "Foshan Suntem Medical Instrument Co., Ltd.",
+      "name": "SIP-10 (built-in) dental chair water disinfection instrument",
+      "manufacturerRef": "SIP-10",
+      "manufacturerRefs": "SIP-10",
+      "model": "SIP-10",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "SIP-10"
+        }
+      ],
+      "categoryPath": "Стоматологическая водоподготовка",
+      "description": "SIP-10 (built-in) dental chair water disinfection instrument Product details Standard configuration Options Technical parameter Didn't find the information you wanted? Whether you are looking for an answer, trying to solve a problem, or trying to give us advice and suggestions, you can find them here Our contact information. We will help you solve problems quickly and easily. Contact us now Quality comes from focus Legal declaration Site map Copyright © 2021 佛山市盛田医疗器械有限公司 . 粤ICP备2023090825号-1 // img $('.qui-pro-info1 .quill .ULLIST').slick({ fade: true, arrows: false, dots: true, dotsClass:\"ul divDot\", autoplay: true, // pauseOnHover:false, });",
+      "sourceImageUrl": "https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg",
+      "imageUrls": "https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg | https://suntem.cn/english/upload/cms/www/202206/30001228t2u0.png",
+      "imageCount": 2,
+      "sourcePageUrl": "https://suntem.cn/en/other/1350.jhtml",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SUNTEM-ST-ANNA",
+      "brand": "Suntem",
+      "manufacturer": "Foshan Suntem Medical Instrument Co., Ltd.",
+      "name": "ST-ANNA DENTAL UNIT (children's dental chair)",
+      "manufacturerRef": "ST-ANNA",
+      "manufacturerRefs": "ST-ANNA",
+      "model": "ST-ANNA",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ST-ANNA"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "ST-ANNA DENTAL UNIT (children's dental chair) This equipment consists of dental treatment table, dental patient chair, dental assistant instruments and accessories, which are used by the Department of stomatology for diagnosis, treatment and operation. Product details Standard configuration ● 24V DC motor patient chair (safety system): 1 set ● 4-way joystick (controlpatientchair go up/down/front/back): 1 set ● Sewed eco-leather cushion: 1 set ● Double articulate headrest: 1 set ● 9-programs inter-lock control system: 1 set ● Auto spittoon flushing and cup filler control system: 1 set ● Mobile instrument trolly (interlock): 1 set ● Assistant system: 1 set ● High suction and salive ejector system (aluminium alloy handle/detachable & autoclavable): 1 set ● Outer water tank: 1 set ● Round foot switch: 1 set ● Water / gas / electricity main switch device: 1 set ● Removable ceramic spittoon:1 set ● LED Film viewer: 1 set ● LED-9 operating lamp (adjustable color temperature / illuminance):1 set ● 3-way syringe (cold / hot):1 ● External junction box: 1 set ● ST-603 Doctor stool: 1 set ● Smart phone fixer: 1 set Options ◎ LED-10 operating lamp (adjustable color temperature / illuminance ) :1 set ◎ Imported central suction machine (wet suction):1 set ◎ SIP-10 (built-in) dental unit water pipelines sterilizer: 1 set Technical parameter ● Power supply voltage: AC 220V-230V / 50Hz ● Water pressure: 0.2MPa-0.4MPa/ 2.0-4.0 bar ● Water source flow:＞10L/min ● Air pressure: 0.5MPa-0.8MPa/ 5.5-8 bar ● Air flow:＞50L/min Didn't find the information you wanted? Whether you are looking for an answer, trying to solve a problem, or trying to give us advice and suggestions, you can find them here Our contact information. We will help you solve problems quickly and easily. Contact us now Quality comes from focus Legal declaration Site map Copyright © 2021 佛山市盛田医疗器械有限公司 . 粤ICP备2023090825号-1 // img $('.qui-pro-info1 .quill .ULLIST').slick({ fade: true, arrows: false, dots: true, dotsClass:\"ul divDot\", autoplay: true, // pauseOnHover:false, });",
+      "sourceImageUrl": "https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg",
+      "imageUrls": "https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg | https://suntem.cn/english/upload/cms/www/202206/30001228t2u0.png",
+      "imageCount": 2,
+      "sourcePageUrl": "https://suntem.cn/en/dental/1336.jhtml",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SUNTEM-ST-D302",
+      "brand": "Suntem",
+      "manufacturer": "Foshan Suntem Medical Instrument Co., Ltd.",
+      "name": "ST-D302 DENTAL UNIT",
+      "manufacturerRef": "ST-D302",
+      "manufacturerRefs": "ST-D302",
+      "model": "ST-D302",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ST-D302"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "ST-D302 DENTAL UNIT This equipment consists of dental treatment table, dental patient chair, dental assistant instruments and accessories, which are used by the Department of stomatology for diagnosis, treatment and operation. Product details Didn't find the information you wanted? Whether you are looking for an answer, trying to solve a problem, or trying to give us advice and suggestions, you can find them here Our contact information. We will help you solve problems quickly and easily. Contact us now Quality comes from focus Legal declaration Site map Copyright © 2021 佛山市盛田医疗器械有限公司 . 粤ICP备2023090825号-1 // img $('.qui-pro-info1 .quill .ULLIST').slick({ fade: true, arrows: false, dots: true, dotsClass:\"ul divDot\", autoplay: true, // pauseOnHover:false, });",
+      "sourceImageUrl": "https://suntem.cn/tpl_res/upload/kind/image/20250624/20250624114713_130.jpg",
+      "imageUrls": "https://suntem.cn/tpl_res/upload/kind/image/20250624/20250624114713_130.jpg | https://suntem.cn/tpl_res/upload/kind/image/20250624/20250624114721_916.jpg | https://suntem.cn/tpl_res/upload/kind/image/20250624/20250624114729_810.jpg | https://suntem.cn/tpl_res/upload/kind/image/20250624/20250624121245_959.jpg | https://suntem.cn/tpl_res/upload/kind/image/20250624/20250624114742_493.jpg | https://suntem.cn/tpl_res/upload/kind/image/20250624/20250624114756_355.jpg | https://suntem.cn/tpl_res/upload/kind/image/20250624/20250624115934_719.jpg | https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg | https://suntem.cn/english/upload/cms/www/202206/30001228t2u0.png",
+      "imageCount": 9,
+      "sourcePageUrl": "https://suntem.cn/en/dental/1363.jhtml",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SUNTEM-ST-D303",
+      "brand": "Suntem",
+      "manufacturer": "Foshan Suntem Medical Instrument Co., Ltd.",
+      "name": "ST-D303 DENTAL UNIT",
+      "manufacturerRef": "ST-D303",
+      "manufacturerRefs": "ST-D303",
+      "model": "ST-D303",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ST-D303"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "ST-D303 DENTAL UNIT This equipment consists of dental treatment table, dental patient chair, dental assistant instruments and accessories, which are used by the Department of stomatology for diagnosis, treatment and operation. Product details Didn't find the information you wanted? Whether you are looking for an answer, trying to solve a problem, or trying to give us advice and suggestions, you can find them here Our contact information. We will help you solve problems quickly and easily. Contact us now Quality comes from focus Legal declaration Site map Copyright © 2021 佛山市盛田医疗器械有限公司 . 粤ICP备2023090825号-1 // img $('.qui-pro-info1 .quill .ULLIST').slick({ fade: true, arrows: false, dots: true, dotsClass:\"ul divDot\", autoplay: true, // pauseOnHover:false, });",
+      "sourceImageUrl": "https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418112709_603.jpg",
+      "imageUrls": "https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418112709_603.jpg | https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418112946_572.jpg | https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418113002_210.jpg | https://suntem.cn/tpl_res/upload/kind/image/20250624/20250624110038_733.jpg | https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418113027_116.jpg | https://suntem.cn/tpl_res/upload/kind/image/20250624/20250624105830_291.jpg | https://suntem.cn/tpl_res/upload/kind/image/20250624/20250624105147_949.jpg | https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg | https://suntem.cn/english/upload/cms/www/202206/30001228t2u0.png",
+      "imageCount": 9,
+      "sourcePageUrl": "https://suntem.cn/en/dental/1343.jhtml",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SUNTEM-ST-D307",
+      "brand": "Suntem",
+      "manufacturer": "Foshan Suntem Medical Instrument Co., Ltd.",
+      "name": "ST-D307 DENTAL UNIT",
+      "manufacturerRef": "ST-D307",
+      "manufacturerRefs": "ST-D307",
+      "model": "ST-D307",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ST-D307"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "ST-D307 DENTAL UNIT This equipment consists of dental treatment table, dental patient chair, dental assistant instruments and accessories, which are used by the Department of stomatology for diagnosis, treatment and operation. Product details Didn't find the information you wanted? Whether you are looking for an answer, trying to solve a problem, or trying to give us advice and suggestions, you can find them here Our contact information. We will help you solve problems quickly and easily. Contact us now Quality comes from focus Legal declaration Site map Copyright © 2021 佛山市盛田医疗器械有限公司 . 粤ICP备2023090825号-1 // img $('.qui-pro-info1 .quill .ULLIST').slick({ fade: true, arrows: false, dots: true, dotsClass:\"ul divDot\", autoplay: true, // pauseOnHover:false, });",
+      "sourceImageUrl": "https://suntem.cn/tpl_res/upload/kind/image/20240718/20240718155334_435.jpg",
+      "imageUrls": "https://suntem.cn/tpl_res/upload/kind/image/20240718/20240718155334_435.jpg | https://suntem.cn/tpl_res/upload/kind/image/20240719/20240719144435_450.jpg | https://suntem.cn/tpl_res/upload/kind/image/20240718/20240718155406_158.jpg | https://suntem.cn/tpl_res/upload/kind/image/20240718/20240718165810_886.jpg | https://suntem.cn/tpl_res/upload/kind/image/20240718/20240718165823_418.jpg | https://suntem.cn/tpl_res/upload/kind/image/20240718/20240718170223_655.jpg | https://suntem.cn/tpl_res/upload/kind/image/20240718/20240718172830_228.jpg | https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg | https://suntem.cn/english/upload/cms/www/202206/30001228t2u0.png",
+      "imageCount": 9,
+      "sourcePageUrl": "https://suntem.cn/en/dental/1334.jhtml",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SUNTEM-ST-D520",
+      "brand": "Suntem",
+      "manufacturer": "Foshan Suntem Medical Instrument Co., Ltd.",
+      "name": "ST-D520 DENTAL UNIT",
+      "manufacturerRef": "ST-D520",
+      "manufacturerRefs": "ST-D520",
+      "model": "ST-D520",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ST-D520"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "ST-D520 DENTAL UNIT This equipment consists of dental treatment table, dental patient chair, dental assistant instruments and accessories, which are used by the Department of stomatology for diagnosis, treatment and operation. Product details Didn't find the information you wanted? Whether you are looking for an answer, trying to solve a problem, or trying to give us advice and suggestions, you can find them here Our contact information. We will help you solve problems quickly and easily. Contact us now Quality comes from focus Legal declaration Site map Copyright © 2021 佛山市盛田医疗器械有限公司 . 粤ICP备2023090825号-1 // img $('.qui-pro-info1 .quill .ULLIST').slick({ fade: true, arrows: false, dots: true, dotsClass:\"ul divDot\", autoplay: true, // pauseOnHover:false, });",
+      "sourceImageUrl": "https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418171434_865.jpg",
+      "imageUrls": "https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418171434_865.jpg | https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418171444_283.jpg | https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418171454_491.jpg | https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418171516_196.jpg | https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418171554_548.jpg | https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418171606_744.jpg | https://suntem.cn/tpl_res/upload/kind/image/20260418/20260418171618_410.jpg | https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg | https://suntem.cn/english/upload/cms/www/202206/30001228t2u0.png",
+      "imageCount": 9,
+      "sourcePageUrl": "https://suntem.cn/en/dental/1341.jhtml",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SUNTEM-ST-D530",
+      "brand": "Suntem",
+      "manufacturer": "Foshan Suntem Medical Instrument Co., Ltd.",
+      "name": "ST-D530 DENTAL UNIT",
+      "manufacturerRef": "ST-D530",
+      "manufacturerRefs": "ST-D530",
+      "model": "ST-D530",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ST-D530"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "ST-D530 DENTAL UNIT This equipment consists of dental treatment table, dental patient chair, dental assistant instruments and accessories, which are used by the Department of stomatology for diagnosis, treatment and operation. Product details Didn't find the information you wanted? Whether you are looking for an answer, trying to solve a problem, or trying to give us advice and suggestions, you can find them here Our contact information. We will help you solve problems quickly and easily. Contact us now Quality comes from focus Legal declaration Site map Copyright © 2021 佛山市盛田医疗器械有限公司 . 粤ICP备2023090825号-1 // img $('.qui-pro-info1 .quill .ULLIST').slick({ fade: true, arrows: false, dots: true, dotsClass:\"ul divDot\", autoplay: true, // pauseOnHover:false, });",
+      "sourceImageUrl": "https://suntem.cn/tpl_res/upload/kind/image/20240719/20240719152233_76.jpg",
+      "imageUrls": "https://suntem.cn/tpl_res/upload/kind/image/20240719/20240719152233_76.jpg | https://suntem.cn/tpl_res/upload/kind/image/20240719/20240719145523_616.jpg | https://suntem.cn/tpl_res/upload/kind/image/20240719/20240719154010_73.jpg | https://suntem.cn/tpl_res/upload/kind/image/20240719/20240719150634_893.jpg | https://suntem.cn/tpl_res/upload/kind/image/20240719/20240719151851_168.jpg | https://suntem.cn/tpl_res/upload/kind/image/20240719/20240719143257_148.jpg | https://suntem.cn/tpl_res/upload/kind/image/20240719/20240719155816_544.jpg | https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg | https://suntem.cn/english/upload/cms/www/202206/30001228t2u0.png",
+      "imageCount": 9,
+      "sourcePageUrl": "https://suntem.cn/en/dental/1344.jhtml",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SUNTEM-ST-D560",
+      "brand": "Suntem",
+      "manufacturer": "Foshan Suntem Medical Instrument Co., Ltd.",
+      "name": "ST-D560 DENTAL UNIT",
+      "manufacturerRef": "ST-D560",
+      "manufacturerRefs": "ST-D560",
+      "model": "ST-D560",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ST-D560"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "ST-D560 DENTAL UNIT This equipment consists of dental treatment table, dental patient chair, dental assistant instruments and accessories, which are used by the Department of stomatology for diagnosis, treatment and operation. Product details Standard configuration ● Luxury patient chair with safety system :1 set ● Sewed eco-leather cushion : 1 set ● Water unit box : 1 set ● Instrument tray (Interlock) :1 set ● Main switch for water/air/power : 1 set ● Foot controller : 1 set ● 4-way joystick (Control patient chair go up/down/front/back) : 1 set ● 3-way syringe (cold/hot water) : 2 sets ● LED-10 operating light (adjustable color temperature/illuminance): 1 set ● Left & Right armrest: 1 set ● Double articulate headrest: 1 set ● Assistant system: 1 set ● 603 doctor stool: 2 sets ● LED film viewer: 1 set ● 9-programs inter-lock control system : 1 set ● Pure water system: 1 set ● Removable ceramic spittoon: 1 set ● Built-in floor box: 1 set Options ◎ Mobile Instrument trolly with stainless steel tray: 1 set ◎ Assistant system (with stainless steel tray): 1 set ◎ Automatic cup filler with sensor: 1 set ◎ Central suction system with place selection valve: 1 set ◎ Intelligent self-detect system: 1 set ◎ External junction box: 1 set ◎ Imported suction pump (wet suction): 1 set ◎ SIP-10 (built-in) dental unit water pipelines sterilizer: 1 set Technical parameter ● Rated voltage: AC 220V / 50Hz ● Motor voltage: DC 24V ● Water pressure: 0.2MPa-0.6MPa ● Air pressure: 0.5MPa-0.8MPa ● Maximum loading capacity: ≤180kg ● Height range of patient chair: 400-800mm Didn't find the information you wanted? Whether you are looking for an answer, trying to solve a problem, or trying to give us advice and suggestions, you can find them here Our contact information. We will help you solve problems quickly and easily. Contact us now Quality comes from focus Legal declaration Site map Copyright © 2021 佛山市盛田医疗器械有限公司 . 粤ICP备2023090825号-1 // img $('.qui-pro-info1 .quill .ULLIST').slick({ fade: true, arrows: false, dots: true, dotsClass:\"ul divDot\", autoplay: true, // pauseOnHover:false, });",
+      "sourceImageUrl": "https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg",
+      "imageUrls": "https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg | https://suntem.cn/english/upload/cms/www/202206/30001228t2u0.png",
+      "imageCount": 2,
+      "sourcePageUrl": "https://suntem.cn/en/dental/1338.jhtml",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SUNTEM-ST-D570",
+      "brand": "Suntem",
+      "manufacturer": "Foshan Suntem Medical Instrument Co., Ltd.",
+      "name": "ST-D570 DENTAL UNIT",
+      "manufacturerRef": "ST-D570",
+      "manufacturerRefs": "ST-D570",
+      "model": "ST-D570",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ST-D570"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "ST-D570 DENTAL UNIT This equipment consists of dental treatment table, dental patient chair, dental assistant instruments and accessories, which are used by the Department of stomatology for diagnosis, treatment and operation. Product details Standard configuration ● Luxury patient chair with safety system:1 set ● Sewed eco-leather cushion: 1 set ● Water unit box: 1 set ● Instrument tray (Interlock):1 set ● Main switch for water/air/power: 1 set ● Foot controller: 1 set ● 4-way joystick (Control patient chair go up/down/front/back): 1 set ● 3-way syringe (cold/hot water): 2 sets ● LED-10 operating light (adjustable color temperature/illuminance): 1 set ● Left & Right armrest: 1 set ● Double articulate headrest: 1 set ● Assistant system: 1 set ● 603 doctor stool: 2 sets ● LED film viewer: 1 set ● 9-programs inter-lock control system : 1 set ● Pure water system: 1 set ● Removable ceramic spittoon: 1 set ● Built-in floor box: 1 set Options ◎ Mobile Instrument trolly with stainless steel tray : 1 set ◎ Assistant system(with stainless steel tray) : 1 set ◎ Automatic cup filler with sensor : 1 set ◎ Central suction system with place selection valve : 1 set ◎ SIP-10 (built-in) dental unit water pipelines sterilizer: 1 set ◎ External junction box : 1 set ◎ Imported suction pump (wet suction) : 1 set Technical parameter ● Rated voltage: AC 220V / 50Hz ● Motor voltage: DC 24V ● Water pressure: 0.2MPa-0.6MPa ● Air pressure: 0.5MPa-0.8MPa ● Maximum loading capacity: ≤180kg ● Height range of patient chair: 400-800mm Didn't find the information you wanted? Whether you are looking for an answer, trying to solve a problem, or trying to give us advice and suggestions, you can find them here Our contact information. We will help you solve problems quickly and easily. Contact us now Quality comes from focus Legal declaration Site map Copyright © 2021 佛山市盛田医疗器械有限公司 . 粤ICP备2023090825号-1 // img $('.qui-pro-info1 .quill .ULLIST').slick({ fade: true, arrows: false, dots: true, dotsClass:\"ul divDot\", autoplay: true, // pauseOnHover:false, });",
+      "sourceImageUrl": "https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg",
+      "imageUrls": "https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg | https://suntem.cn/english/upload/cms/www/202206/30001228t2u0.png",
+      "imageCount": 2,
+      "sourcePageUrl": "https://suntem.cn/en/dental/1339.jhtml",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SUNTEM-ST-D580",
+      "brand": "Suntem",
+      "manufacturer": "Foshan Suntem Medical Instrument Co., Ltd.",
+      "name": "ST-D580 DENTAL UNIT",
+      "manufacturerRef": "ST-D580",
+      "manufacturerRefs": "ST-D580",
+      "model": "ST-D580",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ST-D580"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "ST-D580 DENTAL UNIT This equipment consists of dental treatment table, dental patient chair, dental assistant instruments and accessories, which are used by the Department of stomatology for diagnosis, treatment and operation. Product details Standard configuration ● Luxury patient chair with safety system:1 set ● Sewed eco-leather cushion: 1 set ● Water unit box: 1 set ● Top mounted instrument tray (Interlock): 1 set ● Main switch for water/air/power: 1 set ● Foot controller: 1 set ● 4-way joystick (Control patient chair go up/down/front/back): 1 set ● 3-way syringe (cold/hot water): 2 sets ● LED-10 operating light (adjustable color temperature/illuminance): 1 set ● Left & Right armrest: 1 set ● Double articulate headrest: 1 set ● Assistant system: 1 set ● 603 doctor stool: 2 sets ● LED film viewer: 1 set ● 9-programs inter-lock control system: 1 set ● Pure water system: 1 set ● Removable ceramic spittoon: 1 set ● Built-in floor box: 1 set Options ◎ Mobile Instrument trolly with stainless steel tray: 1 set ◎ Assistant system(with stainless steel tray): 1 set ◎ Automatic cup filler with sensor: 1 set ◎ Central suction system with place selection valve: 1 set ◎ Intelligent self-detect system: 1 set ◎ External junction box: 1 set ◎ Imported suction pump (wet suction): 1 set ◎ SIP-10 (built-in) dental unit water pipelines sterilizer: 1 set Technical parameter ● Rated voltage: AC 220V / 50Hz ● Motor voltage: DC 24V ● Water pressure: 0.2MPa-0.6MPa ● Air pressure: 0.5MPa-0.8MPa ● Maximum loading capacity: ≤180kg ● Height range of patient chair: 400-800mm Didn't find the information you wanted? Whether you are looking for an answer, trying to solve a problem, or trying to give us advice and suggestions, you can find them here Our contact information. We will help you solve problems quickly and easily. Contact us now Quality comes from focus Legal declaration Site map Copyright © 2021 佛山市盛田医疗器械有限公司 . 粤ICP备2023090825号-1 // img $('.qui-pro-info1 .quill .ULLIST').slick({ fade: true, arrows: false, dots: true, dotsClass:\"ul divDot\", autoplay: true, // pauseOnHover:false, });",
+      "sourceImageUrl": "https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg",
+      "imageUrls": "https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg | https://suntem.cn/english/upload/cms/www/202206/30001228t2u0.png",
+      "imageCount": 2,
+      "sourcePageUrl": "https://suntem.cn/en/dental/1340.jhtml",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SUNTEM-ST-RYAN",
+      "brand": "Suntem",
+      "manufacturer": "Foshan Suntem Medical Instrument Co., Ltd.",
+      "name": "ST-RYAN DENTAL UNIT (implant)",
+      "manufacturerRef": "ST-RYAN",
+      "manufacturerRefs": "ST-RYAN",
+      "model": "ST-RYAN",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ST-RYAN"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "ST-RYAN DENTAL UNIT (implant) This equipment consists of dental treatment table, dental patient chair, dental assistant instruments and accessories, which are used by the Department of stomatology for diagnosis, treatment and operation. Product details Standard configuration ● Luxury patient chair with safety system:1 set ● Sewed eco-leather cushion: 1 set ● Water unit box: 1 set ● Mobile Instrument trolly with stainless steel tray: 1 set ● Main switch for water/air/power: 1 set ● Foot controller: 1 set ● 4-way joystick (Control patient chair go up/down/front/back): 1 set ● 3-way syringe (cold/hot water): 2 sets ● LED-10 operating light (adjustable color temperature/illuminance): 1 set ● Left & Right armrest: 1 set ● Double articulate headrest: 1 set ● Assistant system (with stainless steel tray): 1 set ● Central suction system with place selection valve: 1 set ● 603 doctor stool: 2 sets ● 3-programs inter-lock control system: 1 set ● Pure water system: 1 set ● Removable ceramic spittoon: 1 set ● Built-in floor box: 1 set ● SIP-10 (built-in) dental unit water pipelines sterilizer : 1 set Options ◎ Automatic cup filler with sensor: 1 set ◎ LED film viewer: 1 set ◎ External junction box: 1 set ◎ Multi-media endoscope image system: 1 set ◎ Imported suction pump: 1 set Technical parameter ● Rated voltage: AC 220V / 50Hz ● Motor voltage: DC 24V ● Water pressure: 0.2MPa-0.6MPa ● Air pressure: 0.5MPa-0.8MPa ● Maximum loading capacity: ≤180kg ● Height range of patient chair: 400-800mm Didn't find the information you wanted? Whether you are looking for an answer, trying to solve a problem, or trying to give us advice and suggestions, you can find them here Our contact information. We will help you solve problems quickly and easily. Contact us now Quality comes from focus Legal declaration Site map Copyright © 2021 佛山市盛田医疗器械有限公司 . 粤ICP备2023090825号-1 // img $('.qui-pro-info1 .quill .ULLIST').slick({ fade: true, arrows: false, dots: true, dotsClass:\"ul divDot\", autoplay: true, // pauseOnHover:false, });",
+      "sourceImageUrl": "https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg",
+      "imageUrls": "https://suntem.cn/english/upload/cms/www/202206/292356336zcs.jpg | https://suntem.cn/english/upload/cms/www/202206/30001228t2u0.png",
+      "imageCount": 2,
+      "sourcePageUrl": "https://suntem.cn/en/dental/1337.jhtml",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    }
+  ]
+}

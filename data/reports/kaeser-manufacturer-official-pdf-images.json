@@ -1,0 +1,184 @@
+{
+  "brand": "Kaeser",
+  "manufacturer": "KAESER KOMPRESSOREN SE",
+  "sourceType": "OFFICIAL_MANUFACTURER_PDF_EMBEDDED_PRODUCT_IMAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialPdfHashPinned": true,
+    "embeddedProductImagesHashPinned": true,
+    "pageScreenshotsForbidden": true,
+    "noGeneratedProductGeometry": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 2,
+    "recovered": 2,
+    "recoveredThisRun": 2,
+    "retainedFromPreviousRuns": 0,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "KAESER-KCT-BLUE",
+      "brand": "Kaeser",
+      "manufacturer": "KAESER KOMPRESSOREN SE",
+      "name": "KCT blue",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "KCT blue",
+      "variantCount": 6,
+      "variants": [
+        {
+          "name": "110-24 T",
+          "attributes": {
+            "pressureBar": "5,5–7",
+            "receiverLitres": 24,
+            "voltage": "230 В, 1 фаза, 50 Гц"
+          },
+          "variantLabel": "110-24 T",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "name": "230-24 T",
+          "attributes": {
+            "pressureBar": "5,5–7",
+            "receiverLitres": 24,
+            "voltage": "230 В / 400 В"
+          },
+          "variantLabel": "230-24 T",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "name": "230-65 T",
+          "attributes": {
+            "pressureBar": "7,5–9",
+            "receiverLitres": 65,
+            "voltage": "230 В / 400 В"
+          },
+          "variantLabel": "230-65 T",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "name": "420-65 T",
+          "attributes": {
+            "pressureBar": "5,5–7",
+            "receiverLitres": 65,
+            "voltage": "230 В / 400 В"
+          },
+          "variantLabel": "420-65 T",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "name": "401-65 T",
+          "attributes": {
+            "pressureBar": "7,5–9",
+            "receiverLitres": 65,
+            "voltage": "230 В / 400 В"
+          },
+          "variantLabel": "401-65 T",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "name": "420-90 T",
+          "attributes": {
+            "pressureBar": "5,5–7",
+            "receiverLitres": 90,
+            "voltage": "400 В, 3 фазы, 50 Гц"
+          },
+          "variantLabel": "420-90 T",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Безмасляные компрессорные станции для стоматологических лабораторий",
+      "description": "Безмасляная компрессорная станция со встроенной системой подготовки воздуха SECCOMAT для стоматологических лабораторий.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-kaeser-kct-blue-af4e5725df.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-kaeser-kct-blue-af4e5725df.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://th.kaeser.com/en/download.ashx?id=tcm%3A58-85538",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_EXACT_FAMILY_MODEL",
+        "officialPdfUrl": "https://th.kaeser.com/en/download.ashx?id=tcm%3A58-85538",
+        "officialPdfPages": "4–5",
+        "officialPdfSha256": "a807f7d7daa9cbe500d25b45f207d3770be6095ff8bbadfa995bd76be609741d",
+        "embeddedSourceImageHashes": [
+          "6962d63e41bb408179587527de095b376b34a3c0a8ff36736cd4a00d6864a1a1"
+        ],
+        "composition": "Unaltered KCT blue 420-90 T product photo on a white 1200x800 canvas",
+        "sha256": "af4e5725df7eac8947ee753c69e8f4db06bf3d1511aaf5e1499e47a55bcc99fa",
+        "bytes": 278811,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "KAESER-KCT-BLUE-EXTERNAL-DRYER",
+      "brand": "Kaeser",
+      "manufacturer": "KAESER KOMPRESSOREN SE",
+      "name": "KCT blue с внешним осушителем",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "KCT blue с внешним осушителем",
+      "variantCount": 4,
+      "variants": [
+        {
+          "name": "110-24",
+          "attributes": {},
+          "variantLabel": "110-24",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "name": "230-24",
+          "attributes": {},
+          "variantLabel": "230-24",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "name": "420-65",
+          "attributes": {},
+          "variantLabel": "420-65",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "name": "420-90",
+          "attributes": {},
+          "variantLabel": "420-90",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Безмасляные компрессорные станции для стоматологических лабораторий",
+      "description": "Исполнение KCT blue для совместной работы с отдельным холодильным осушителем.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-kaeser-kct-blue-external-dryer-3b00860eb7.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-kaeser-kct-blue-external-dryer-3b00860eb7.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://th.kaeser.com/en/download.ashx?id=tcm%3A58-85538",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_EXACT_PRODUCT_COMPOSITION",
+        "officialPdfUrl": "https://th.kaeser.com/en/download.ashx?id=tcm%3A58-85538",
+        "officialPdfPages": "4–5 and 8–9",
+        "officialPdfSha256": "a807f7d7daa9cbe500d25b45f207d3770be6095ff8bbadfa995bd76be609741d",
+        "embeddedSourceImageHashes": [
+          "6962d63e41bb408179587527de095b376b34a3c0a8ff36736cd4a00d6864a1a1",
+          "7c2b0719dc8fea81c64269c95f87603281d27a07bd61ed21191aa7da1fa028f6"
+        ],
+        "composition": "Unaltered KCT blue 420-90 T and KRYOSEC TAH 10 product photos on a white 1200x800 canvas",
+        "sha256": "3b00860eb71b380cc4ecd84c0a27ffba90dcd3748c1ac4282d913faf0841c43b",
+        "bytes": 293663,
+        "contentType": "image/png"
+      }
+    }
+  ],
+  "review": []
+}

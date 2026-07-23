@@ -1,0 +1,236 @@
+{
+  "brand": "Handy",
+  "manufacturer": "Shanghai Handy Medical Equipment Co., Ltd.",
+  "sourceType": "OFFICIAL_CURRENT_HUMAN_DENTAL_PRODUCTS_PAGE",
+  "sourceUrl": "https://www.handyimaging.com/products/",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "veterinaryProductsExcluded": true,
+    "everyHumanDentalProductPagePreserved": true,
+    "slashSeparatedModelsPreservedAsVariants": true,
+    "modelNamesNotAssumedToBeOrderCodes": true,
+    "exactOfficialImagesOnly": true,
+    "emsAirFlowHandyIsNotThisBrand": true
+  },
+  "totals": {
+    "discoveredProducts": 10,
+    "variantSkus": 13,
+    "productsWithReferences": 0,
+    "productsWithImages": 10,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "HANDY-DIGITAL-DENTAL-X-RAY-IMAGING-SYSTEM-HDR-380-PRODUCT",
+      "brand": "Handy",
+      "manufacturer": "Shanghai Handy Medical Equipment Co., Ltd.",
+      "name": "Wholesale Digital Dental X",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Интраоральные рентгеновские датчики",
+      "description": "- Direct USB Helps to make it more convenient to use and carry, and offer faster transmission speed, lower power consumption, and longer service life. - FOP and low power consumption The built-in FOP and low power consumption design effectively prolong the sensor’s service life. As shown in ...",
+      "sourceImageUrl": "https://www.handyimaging.com/uploads/1.-HDR-380-sensor.png",
+      "imageUrls": "https://www.handyimaging.com/uploads/1.-HDR-380-sensor.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.handyimaging.com/digital-dental-x-ray-imaging-system-hdr-380-product/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "HANDY-DIGITAL-IMAGING-PLATE-SCANNER-HDS-500-PRODUCT",
+      "brand": "Handy",
+      "manufacturer": "Shanghai Handy Medical Equipment Co., Ltd.",
+      "name": "Wholesale Digital Imaging Plate Scanner HDS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Сканеры фосфорных пластин",
+      "description": "- One-click imaging Convenient operation, fast response, efficient and easy - Quick scanning Advanced galvanometer scanning technology, high-speed scanning, high-precision, stable performance, output image within 5s. - Mini-size and portable With weight less than 1.5kg, it is highly integrated...",
+      "sourceImageUrl": "https://www.handyimaging.com/uploads/Digital-Imaging-Plate-Scanner-HDS-500-11.jpg",
+      "imageUrls": "https://www.handyimaging.com/uploads/Digital-Imaging-Plate-Scanner-HDS-500-11.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.handyimaging.com/digital-imaging-plate-scanner-hds-500-product/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "HANDY-HANDY-AI-PRODUCT",
+      "brand": "Handy",
+      "manufacturer": "Shanghai Handy Medical Equipment Co., Ltd.",
+      "name": "Wholesale Handy AI Manufacturer and Supplier",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Программное обеспечение для рентгенодиагностики",
+      "description": "As the latest feature of HandyDentist Imaging Management Software, AI Edit transforms dental X-rays into color-coded visual insights with a single click, highlighting anatomy, potential pathologies, and restorations to support faster interpretation and clearer clinical communication. - AI-Po...",
+      "sourceImageUrl": "https://www.handyimaging.com/uploads/HandyDentist-AI.jpg",
+      "imageUrls": "https://www.handyimaging.com/uploads/HandyDentist-AI.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.handyimaging.com/handy-ai-product/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "HANDY-INTRAORAL-CAMERA-HDI-712D-PRODUCT",
+      "brand": "Handy",
+      "manufacturer": "Shanghai Handy Medical Equipment Co., Ltd.",
+      "name": "Wholesale HDI",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Интраоральные камеры",
+      "description": "- Larger view With focusing and shooting integrated patented technology and a focusing range from 5mm to infinity, it features 1080P full HD and can realize the imaging of patients&#8217; root canals, double teeth, full mouth and face portrait. - Ultra-low distortion optical lens The lowes...",
+      "sourceImageUrl": "https://www.handyimaging.com/uploads/Intraoral-Camera-HDI-712D-2.jpg",
+      "imageUrls": "https://www.handyimaging.com/uploads/Intraoral-Camera-HDI-712D-2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.handyimaging.com/intraoral-camera-hdi-712d-product/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "HANDY-DIGITAL-DENTAL-X-RAY-IMAGING-SYSTEM-HDR-360460-PRODUCT",
+      "brand": "Handy",
+      "manufacturer": "Shanghai Handy Medical Equipment Co., Ltd.",
+      "name": "Wholesale HDR",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "name": "HDR-360"
+        },
+        {
+          "name": "HDR-460"
+        }
+      ],
+      "categoryPath": "Интраоральные рентгеновские датчики",
+      "description": "- Direct USB Helps to make it more convenient to use and carry, and offer faster transmission speed, lower power consumption, and longer service life. - FOP and low power consumption The built-in FOP and low power consumption design effectively prolong the sensor’s service life. As shown i...",
+      "sourceImageUrl": "https://www.handyimaging.com/uploads/Digital-Dental-Intraoral-Sensor-HDR-360460-1.jpg",
+      "imageUrls": "https://www.handyimaging.com/uploads/Digital-Dental-Intraoral-Sensor-HDR-360460-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.handyimaging.com/digital-dental-x-ray-imaging-system-hdr-360460-product/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "HANDY-DIGITAL-DENTAL-X-RAY-IMAGING-SYSTEM-HDR-500600-PRODUCT",
+      "brand": "Handy",
+      "manufacturer": "Shanghai Handy Medical Equipment Co., Ltd.",
+      "name": "Wholesale HDR",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "name": "HDR-500"
+        },
+        {
+          "name": "HDR-600"
+        }
+      ],
+      "categoryPath": "Интраоральные рентгеновские датчики",
+      "description": "- FOP The built-in FOP reduces X-ray radiation and effectively prolongs the sensor’s service life. As shown in the picture, the red X-rays from A are converted into yellow visible light after flashing, but there are still some red X-rays. After passing through FOP, there’s no red X-ray left....",
+      "sourceImageUrl": "https://www.handyimaging.com/uploads/1.-HDR-500.jpg",
+      "imageUrls": "https://www.handyimaging.com/uploads/1.-HDR-500.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.handyimaging.com/digital-dental-x-ray-imaging-system-hdr-500600-product/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "HANDY-INTRAORAL-CAMERA-HDI-210-PRODUCT",
+      "brand": "Handy",
+      "manufacturer": "Shanghai Handy Medical Equipment Co., Ltd.",
+      "name": "Wholesale High Quality Oral Endoscope HDI",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Интраоральные камеры",
+      "description": "- Double-side freeze button design The ergonomic design of the freeze button on both sides provides more comfort for the dentist. - High Definition The image quality of 720P, with distortion lower than 5%, can perfectly present cracked teeth. - Imaging sensors for industrial use ...",
+      "sourceImageUrl": "https://www.handyimaging.com/uploads/Intraoral-Camera-HDI-210-2.jpg",
+      "imageUrls": "https://www.handyimaging.com/uploads/Intraoral-Camera-HDI-210-2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.handyimaging.com/intraoral-camera-hdi-210-product/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "HANDY-INTRAORAL-CAMERA-HDI-220C-PRODUCT",
+      "brand": "Handy",
+      "manufacturer": "Shanghai Handy Medical Equipment Co., Ltd.",
+      "name": "Wholesale Intraoral Camera HDI",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Интраоральные камеры",
+      "description": "- HD The image quality of 1080P FHD, with distortion lower than 5%, can perfectly present cracked teeth. - Sturdy metal body The electroplated aluminum alloy shell is easy to clean and durable. As its hand feel is close to that of a dental handpiece, it is easier for doctors to operate. - Nat...",
+      "sourceImageUrl": "https://www.handyimaging.com/uploads/1.-HDI-220D-intraoral-camera.png",
+      "imageUrls": "https://www.handyimaging.com/uploads/1.-HDI-220D-intraoral-camera.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.handyimaging.com/intraoral-camera-hdi-220c-product/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "HANDY-INTRAORAL-CAMERA-HDI-200A-USB-2-0-100A-TV-PRODUCT",
+      "brand": "Handy",
+      "manufacturer": "Shanghai Handy Medical Equipment Co., Ltd.",
+      "name": "Wholesale Intraoral Camera HDI",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "name": "HDI-200A (USB 2.0)"
+        },
+        {
+          "name": "HDI-100A (AV)"
+        }
+      ],
+      "categoryPath": "Интраоральные камеры",
+      "description": "- CMOS medical-grade sensor CMOS medical-grade sensor guarantees images’ color saturation and fidelity. The obtained hyperspectral image can provide a continuous spectral curve and improve the accuracy of tooth color judgment. Therefore, the colorimetric results are more scientific and reas...",
+      "sourceImageUrl": "https://www.handyimaging.com/uploads/Intraoral-Camera-HDI-200A-USB-2.0-100A-TV-1.jpg",
+      "imageUrls": "https://www.handyimaging.com/uploads/Intraoral-Camera-HDI-200A-USB-2.0-100A-TV-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.handyimaging.com/intraoral-camera-hdi-200a-usb-2-0-100a-tv-product/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "HANDY-PORTABLE-HIGH-FREQUENCY-X-RAY-UNIT-HDX-7030-PRODUCT",
+      "brand": "Handy",
+      "manufacturer": "Shanghai Handy Medical Equipment Co., Ltd.",
+      "name": "Wholesale Portable High",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Портативные рентген-аппараты",
+      "description": "User-friendly Design Radiation well-controlled, real-time monitor of radiation dose. Childproof lock, safety protection for children, prevents misuse. Power-on self-test, easy troubleshooting. Digital display, easy to operate. Advantages of 70kV 2mA Fast exposure time Increased X-ray penetration...",
+      "sourceImageUrl": "https://www.handyimaging.com/uploads/x光机.背面.png",
+      "imageUrls": "https://www.handyimaging.com/uploads/x光机.背面.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.handyimaging.com/portable-high-frequency-x-ray-unit-hdx-7030-product/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

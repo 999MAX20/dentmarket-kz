@@ -1,0 +1,568 @@
+{
+  "brand": "Ajax",
+  "manufacturer": "Ajax Medical Equipment Co., Ltd.",
+  "sourceType": "OFFICIAL_MANUFACTURER_PRODUCT_PAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "exactVisibleProductNameRequired": true,
+    "nearestOfficialImageRequired": true,
+    "sharedImagesRejected": true,
+    "duplicateDownloadedImagesRejected": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 17,
+    "candidates": 17,
+    "recovered": 17,
+    "recoveredThisRun": 17,
+    "retainedFromPreviousRuns": 13,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-AJ17",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "AJ17 Dental Unit",
+      "manufacturerRef": "AJ17",
+      "manufacturerRefs": "AJ17",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AJ17",
+          "variantLabel": "REF AJ17",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-aj17-dental-unit-7967b13955.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-aj17-dental-unit-7967b13955.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/ba10f23a64294204.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/downloadFile?fileId=526708327342731287",
+        "sha256": "7967b13955b51dfe85a270f5e89390b4e0c57127eb8be64f1f7b5838821d5c21",
+        "bytes": 1971715,
+        "contentType": "image/png;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-AJ17FM",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "AJ17 Floor Mounted Dental Unit",
+      "manufacturerRef": "AJ17FM",
+      "manufacturerRefs": "AJ17FM",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AJ17FM",
+          "variantLabel": "REF AJ17FM",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-aj17-floor-mounted-dental-unit-acfd4795f7.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-aj17-floor-mounted-dental-unit-acfd4795f7.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/ba10f23a64294204.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/downloadFile?fileId=526707771987533838",
+        "sha256": "acfd4795f75b2288a2958b461e62e5026ceb6c169b67b36ee3ab30e2363dd473",
+        "bytes": 326055,
+        "contentType": "image/jpeg;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-AJX300",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "AJX300",
+      "manufacturerRef": "AJX300",
+      "manufacturerRefs": "AJX300",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AJX300",
+          "variantLabel": "REF AJX300",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Стоматологическая визуализация",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ajx300-cf2a81abf7.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ajx300-cf2a81abf7.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/73d1453037f243f1.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/downloadFile?fileId=728653710913261594&cL=s",
+        "sha256": "cf2a81abf730eeb09985bdb415cd74f1e424cc2afea1e61a9e9adc7e230b0b54",
+        "bytes": 28092,
+        "contentType": "image/webp;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-AJX400",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "AJX400",
+      "manufacturerRef": "AJX400",
+      "manufacturerRefs": "AJX400",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AJX400",
+          "variantLabel": "REF AJX400",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Стоматологическая визуализация",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ajx400-552ec28e6d.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ajx400-552ec28e6d.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/73d1453037f243f1.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/downloadFile?fileId=728654792657817642&cL=s",
+        "sha256": "552ec28e6d692dd0c7720b737d74937266e9ca964d7a8c18bd6461245df612e5",
+        "bytes": 52946,
+        "contentType": "image/webp;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-AJAX-PHOTO-CANON-AJAX-AJAX-BUTTERFLY-SHAPE-BACKREST",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "Butterfly-Shape Backrest",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Butterfly-Shape Backrest",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Комплектующие стоматологических установок",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-butterfly-shape-backrest-cc79dc0c9b.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-butterfly-shape-backrest-cc79dc0c9b.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/cf61d9996bae4774.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/downloadFile?fileId=531098904318509152",
+        "sha256": "cc79dc0c9b7d648e069579b5c7f923b2615d1cfea3fa82ea1c8d3adb58b982cb",
+        "bytes": 3852242,
+        "contentType": "image/png;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-AJAX-CERAMIC-CUSPIDOR",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "Ceramic Cuspidor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ceramic Cuspidor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Комплектующие стоматологических установок",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ceramic-cuspidor-1d21256aba.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ceramic-cuspidor-1d21256aba.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/cf61d9996bae4774.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/downloadFile?fileId=531108933323001929",
+        "sha256": "1d21256aba793f8b8b7b8161f3a6b81618795b454d27e7aafd9c26a0fe37f9dd",
+        "bytes": 158020,
+        "contentType": "image/jpeg;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-AJAX-PHOTO-CANON-AJAX-AJAX-DENTAL-LMAGE-PLATE-SCANNER",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "Dental lmage Plate Scanner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental lmage Plate Scanner",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стоматологическая визуализация",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-dental-lmage-plate-scanner-ea889f89cd.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-dental-lmage-plate-scanner-ea889f89cd.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/73d1453037f243f1.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/downloadFile?fileId=714828170892763176&cL=s",
+        "sha256": "ea889f89cd05cf646e0a6ca7439b28da1c39ff915de22f7844d99637580a5756",
+        "bytes": 23748,
+        "contentType": "image/webp;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-AJAX-PHOTO-CANON-AJAX-AJAX-DIGITAL-X-RAY-IMAGING-SYSTEM",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "Digital X-ray Imaging System",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Digital X-ray Imaging System",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стоматологическая визуализация",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-digital-x-ray-imaging-system-2652c97cf0.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-digital-x-ray-imaging-system-2652c97cf0.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/73d1453037f243f1.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/download?key=d4fe1cac6820d74a029fbf0f2f61c0f6/s5455222766704e/img/c7e2fb4f28b442ebaebd8d0fd3090de4&qianhuaid=426332",
+        "sha256": "2652c97cf0fc1a08564083ff52f7e15503f897cebdaa182adc5f0480fde27e83",
+        "bytes": 30776,
+        "contentType": "image/webp;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-AJAX-DUAL-FOOT-CONTROL",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "Dual Foot Control",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dual Foot Control",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Комплектующие стоматологических установок",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-dual-foot-control-af33355c1a.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-dual-foot-control-af33355c1a.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/cf61d9996bae4774.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/downloadFile?fileId=526428602875576379",
+        "sha256": "af33355c1a1169dde77dfcdae5f57b518ca52f65de3b37822ce07fee03fec76d",
+        "bytes": 69164,
+        "contentType": "image/png;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-AJAX-PHOTO-CANON-AJAX-AJAX-FAN-SHAPE-BACKREST",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "Fan-Shape Backrest",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Fan-Shape Backrest",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Комплектующие стоматологических установок",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-fan-shape-backrest-8726b9b360.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-fan-shape-backrest-8726b9b360.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/cf61d9996bae4774.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/downloadFile?fileId=531112918599671824",
+        "sha256": "8726b9b36064cc6fba803cb2e60c33ca117dc3f44d749a0d59112056c4eb5a1f",
+        "bytes": 2354695,
+        "contentType": "image/png;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-FT0",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "FT-0 Multifunctional Foot Control",
+      "manufacturerRef": "FT0",
+      "manufacturerRefs": "FT0",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "FT0",
+          "variantLabel": "REF FT0",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Комплектующие стоматологических установок",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ft-0-multifunctional-foot-control-e6f99dc208.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ft-0-multifunctional-foot-control-e6f99dc208.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/cf61d9996bae4774.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/downloadFile?fileId=531098902200385554",
+        "sha256": "e6f99dc208c358e16852138575ef0e9ce6f8865c4317e022bf2d5d4bcb7a0807",
+        "bytes": 197692,
+        "contentType": "image/jpeg;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-AJAX-GLASS-CUSPIDOR",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "Glass Cuspidor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Glass Cuspidor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Комплектующие стоматологических установок",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-glass-cuspidor-38d0bb9a46.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-glass-cuspidor-38d0bb9a46.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/cf61d9996bae4774.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/downloadFile?fileId=531108183096229936",
+        "sha256": "38d0bb9a46096f156c51b16b2cfb1fb9ba2006134e9a514499ce4db769899f76",
+        "bytes": 286134,
+        "contentType": "image/jpeg;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-AJAX-NARROW-BACKREST",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "Narrow Backrest",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Narrow Backrest",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Комплектующие стоматологических установок",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-narrow-backrest-a5d76fe436.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-narrow-backrest-a5d76fe436.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/cf61d9996bae4774.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/downloadFile?fileId=531098910765150240",
+        "sha256": "a5d76fe436c00df51c4d86e7e903671499ee2b9238f576c21e7c950413c7c842",
+        "bytes": 3908929,
+        "contentType": "image/png;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-UA1200",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "UA1200 Air Compressor",
+      "manufacturerRef": "UA1200",
+      "manufacturerRefs": "UA1200",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "UA1200",
+          "variantLabel": "REF UA1200",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Безмасляные компрессоры",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ua1200-air-compressor-054b38e5cc.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ua1200-air-compressor-054b38e5cc.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/19b851c2563d45bd.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/download?key=d4fe1cac6820d74a029fbf0f2f61c0f6/s5455222766704e/img/5d3acc5484e6476f84a328e04defed5c&qianhuaid=420737",
+        "sha256": "054b38e5cce04e40ae8241b6b660b3bcb76af6518f7d0ae2bb218bbe3244fe30",
+        "bytes": 128748,
+        "contentType": "image/webp;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-UA300",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "UA300 Air Compressor",
+      "manufacturerRef": "UA300",
+      "manufacturerRefs": "UA300",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "UA300",
+          "variantLabel": "REF UA300",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Безмасляные компрессоры",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ua300-air-compressor-3681d54106.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ua300-air-compressor-3681d54106.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/19b851c2563d45bd.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/download?key=d4fe1cac6820d74a029fbf0f2f61c0f6/s5455222766704e/img/9ecf4dc1fc8a436ea07fd2998cefebe6&qianhuaid=420739",
+        "sha256": "3681d54106b1a84752c4d6d026898a88f7f0d03f94493be23d52970ea3aa6b8c",
+        "bytes": 113872,
+        "contentType": "image/webp;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-UA600",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "UA600 Air Compressor",
+      "manufacturerRef": "UA600",
+      "manufacturerRefs": "UA600",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "UA600",
+          "variantLabel": "REF UA600",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Безмасляные компрессоры",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ua600-air-compressor-d27c17f59f.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ua600-air-compressor-d27c17f59f.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/19b851c2563d45bd.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/download?key=d4fe1cac6820d74a029fbf0f2f61c0f6/s5455222766704e/img/622430811e594c849c7fb945d68ae5d6&qianhuaid=420741",
+        "sha256": "d27c17f59f3e0db6fccf0d1e862ec29a6b27fde338649e985be461671d4459fa",
+        "bytes": 124092,
+        "contentType": "image/webp;charset=UTF-8"
+      }
+    },
+    {
+      "officialProductId": "AJAX-PHOTO-CANON-AJAX-UA900",
+      "brand": "Ajax",
+      "manufacturer": "Guangzhou Ajax Medical Equipment Co., Ltd.",
+      "name": "UA900 Air Compressor",
+      "manufacturerRef": "UA900",
+      "manufacturerRefs": "UA900",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "UA900",
+          "variantLabel": "REF UA900",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Безмасляные компрессоры",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ua900-air-compressor-a27aad86af.webp",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ajax-ua900-air-compressor-a27aad86af.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ajaxdent.com/en/site-page/19b851c2563d45bd.html",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_NEAREST_NAMED_PRODUCT_IMAGE",
+        "originalImageUrl": "https://waimao.office.163.com/site/api/pub/resource/download?key=d4fe1cac6820d74a029fbf0f2f61c0f6/s5455222766704e/img/69603c667a3e4157adb01c1e80b96b6e&qianhuaid=420740",
+        "sha256": "a27aad86af9b6bc6f9aabeb2a0dc181e4d34cdd1c994214dac0a6f449ba311e7",
+        "bytes": 91736,
+        "contentType": "image/webp;charset=UTF-8"
+      }
+    }
+  ],
+  "review": []
+}

@@ -1,0 +1,223 @@
+{
+  "brand": "Genoray",
+  "manufacturer": "GENORAY Co., Ltd.",
+  "sourceType": "MANUFACTURER_CURRENT_DENTAL_PRODUCT_LIST",
+  "sourceUrl": "https://www.genorayamerica.com/dental/dental_list/",
+  "lastChecked": "2026-07-22",
+  "totals": {
+    "discoveredProducts": 9,
+    "productsWithReferences": 9,
+    "productsWithImages": 9,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "GENORAY-PAPAYA-PLUS",
+      "brand": "Genoray",
+      "manufacturer": "GENORAY Co., Ltd.",
+      "name": "Genoray PAPAYA Plus",
+      "manufacturerRef": "PAPAYA Plus",
+      "manufacturerRefs": "PAPAYA Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "PAPAYA Plus",
+          "label": "PAPAYA Plus"
+        }
+      ],
+      "categoryPath": "Dental imaging > 2D",
+      "description": "",
+      "sourceImageUrl": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_papayaplus.png",
+      "imageUrls": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_papayaplus.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.genorayamerica.com/dental/papaya_plus/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GENORAY-GT300",
+      "brand": "Genoray",
+      "manufacturer": "GENORAY Co., Ltd.",
+      "name": "Genoray GT300",
+      "manufacturerRef": "GT300",
+      "manufacturerRefs": "GT300",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "GT300",
+          "label": "GT300"
+        }
+      ],
+      "categoryPath": "Dental imaging > 3D",
+      "description": "",
+      "sourceImageUrl": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_gt300.png",
+      "imageUrls": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_gt300.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.genorayamerica.com/dental/gt300/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GENORAY-PAPAYA-3D-PREMIUM-PLUS",
+      "brand": "Genoray",
+      "manufacturer": "GENORAY Co., Ltd.",
+      "name": "Genoray PAPAYA 3D Premium Plus",
+      "manufacturerRef": "PAPAYA 3D Premium Plus",
+      "manufacturerRefs": "PAPAYA 3D Premium Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "PAPAYA 3D Premium Plus",
+          "label": "PAPAYA 3D Premium Plus"
+        }
+      ],
+      "categoryPath": "Dental imaging > 3D",
+      "description": "",
+      "sourceImageUrl": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_papaya3dpremiumplus.png",
+      "imageUrls": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_papaya3dpremiumplus.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.genorayamerica.com/dental/papaya3d_premium/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GENORAY-PAPAYA-3D-PLUS",
+      "brand": "Genoray",
+      "manufacturer": "GENORAY Co., Ltd.",
+      "name": "Genoray PAPAYA 3D Plus",
+      "manufacturerRef": "PAPAYA 3D Plus",
+      "manufacturerRefs": "PAPAYA 3D Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "PAPAYA 3D Plus",
+          "label": "PAPAYA 3D Plus"
+        }
+      ],
+      "categoryPath": "Dental imaging > 3D",
+      "description": "",
+      "sourceImageUrl": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_papaya3dplus.png",
+      "imageUrls": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_papaya3dplus.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.genorayamerica.com/dental/papaya3d_plus/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GENORAY-DVAS",
+      "brand": "Genoray",
+      "manufacturer": "GENORAY Co., Ltd.",
+      "name": "Genoray DVAS",
+      "manufacturerRef": "DVAS",
+      "manufacturerRefs": "DVAS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "DVAS",
+          "label": "DVAS"
+        }
+      ],
+      "categoryPath": "Dental imaging > IOS/IOX",
+      "description": "",
+      "sourceImageUrl": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_dvas.png",
+      "imageUrls": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_dvas.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.genorayamerica.com/dental/dvas/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GENORAY-ZEN-PX4",
+      "brand": "Genoray",
+      "manufacturer": "GENORAY Co., Ltd.",
+      "name": "Genoray ZEN-PX4",
+      "manufacturerRef": "ZEN-PX4",
+      "manufacturerRefs": "ZEN-PX4",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ZEN-PX4",
+          "label": "ZEN-PX4"
+        }
+      ],
+      "categoryPath": "Dental imaging > IOS/IOX",
+      "description": "",
+      "sourceImageUrl": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_zenpx4.png",
+      "imageUrls": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_zenpx4.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.genorayamerica.com/dental/portx_iv/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GENORAY-ZEN-PX2",
+      "brand": "Genoray",
+      "manufacturer": "GENORAY Co., Ltd.",
+      "name": "Genoray ZEN-PX2",
+      "manufacturerRef": "ZEN-PX2",
+      "manufacturerRefs": "ZEN-PX2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ZEN-PX2",
+          "label": "ZEN-PX2"
+        }
+      ],
+      "categoryPath": "Dental imaging > IOS/IOX",
+      "description": "",
+      "sourceImageUrl": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_xii.png",
+      "imageUrls": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_xii.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.genorayamerica.com/dental/portx_ii/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GENORAY-GENX-CR",
+      "brand": "Genoray",
+      "manufacturer": "GENORAY Co., Ltd.",
+      "name": "Genoray GENX-CR",
+      "manufacturerRef": "GENX-CR",
+      "manufacturerRefs": "GENX-CR",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "GENX-CR",
+          "label": "GENX-CR"
+        }
+      ],
+      "categoryPath": "Dental imaging > IOS/IOX",
+      "description": "",
+      "sourceImageUrl": "https://www.genorayamerica.com/include/images/sub/dental/genx_cr/sumarray_img.png",
+      "imageUrls": "https://www.genorayamerica.com/include/images/sub/dental/genx_cr/sumarray_img.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.genorayamerica.com/dental/genx_cr/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GENORAY-GIX-1",
+      "brand": "Genoray",
+      "manufacturer": "GENORAY Co., Ltd.",
+      "name": "Genoray GIX-1",
+      "manufacturerRef": "GIX-1",
+      "manufacturerRefs": "GIX-1",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "GIX-1",
+          "label": "GIX-1"
+        }
+      ],
+      "categoryPath": "Dental imaging > IOS/IOX",
+      "description": "",
+      "sourceImageUrl": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_portview.png",
+      "imageUrls": "https://www.genorayamerica.com/include/images/sub/dental/dental_list_portview.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.genorayamerica.com/dental/gix_1/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    }
+  ]
+}

@@ -1,0 +1,1950 @@
+{
+  "brand": "MELAG",
+  "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+  "sourceType": "MANUFACTURER_PRODUCT_CONFIGURATOR",
+  "sourceUrl": "https://www.melag.com/sitemap.xml",
+  "lastChecked": "2026-07-22",
+  "totals": {
+    "discoveredFamilyPages": 32,
+    "familyPageErrors": 0,
+    "discoveredProducts": 88,
+    "crawledProducts": 83,
+    "productsWithReferences": 83,
+    "productsWithImages": 70,
+    "crawlErrors": 5
+  },
+  "familyErrors": [],
+  "errors": [
+    {
+      "sourcePageUrl": "https://www.melag.com/en/conductivity-measuring-unit/me01060",
+      "error": "Error: https://www.melag.com/en/conductivity-measuring-unit/me01060: product identity not found"
+    },
+    {
+      "sourcePageUrl": "https://www.melag.com/en/compact-autoclaves/sw10020",
+      "error": "Error: https://www.melag.com/en/compact-autoclaves/sw10020: product identity not found"
+    },
+    {
+      "sourcePageUrl": "https://www.melag.com/en/melaquick/sw10003",
+      "error": "Error: https://www.melag.com/en/melaquick/sw10003: product identity not found"
+    },
+    {
+      "sourcePageUrl": "https://www.melag.com/en/vacuklav-premium-klasse/sw10000",
+      "error": "Error: https://www.melag.com/en/vacuklav-premium-klasse/sw10000: product identity not found"
+    },
+    {
+      "sourcePageUrl": "https://www.melag.com/en/cliniclave/sw10007",
+      "error": "Error: https://www.melag.com/en/cliniclave/sw10007: product identity not found"
+    }
+  ],
+  "products": [
+    {
+      "officialProductId": "ME10211",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAseal 100+",
+      "manufacturerRef": "ME10211",
+      "manufacturerRefs": "ME10211",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10211",
+          "label": "MELAseal 100+"
+        }
+      ],
+      "categoryPath": "melaseal-100",
+      "description": "MELAseal 100+ is a compact bar sealer that is characterised by its performance, reliability and ease of use. After a heating time of 200 seconds, transparent sterilised packaging (e.g. MELAfol) can be securely sealed without a break. The reproducibility of the sealing time and temperature is monitored electronically and visualised via an illuminated LED display. Fast sealing processes thanks to short heating and sealing times Compact device dimensions require little space on the work line Acoustic and visual monitoring function for sealing time and temperature Simple operation: handle can be used on the right or left Maintenance-free helps to save costs",
+      "sourceImageUrl": "https://shopware.melag.com/media/65/1e/c4/1669296228/ME10211.png?ts=1669296228",
+      "imageUrls": "https://shopware.melag.com/media/65/1e/c4/1669296228/ME10211.png?ts=1669296228",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melaseal-100/me10211",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10108",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Reel dispenser Deluxe",
+      "manufacturerRef": "ME10108",
+      "manufacturerRefs": "ME10108",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10108",
+          "label": "Reel dispenser Deluxe"
+        }
+      ],
+      "categoryPath": "reel-dispenser-deluxe",
+      "description": "The reel dispenser “Deluxe“ enables space-saving storage of the film reels over the sealing device. The integrated feeding device with a hand roll enables easy feeding of the film.",
+      "sourceImageUrl": "https://shopware.melag.com/media/6e/86/01/1669296361/ME10108.png?ts=1779883071",
+      "imageUrls": "https://shopware.melag.com/media/6e/86/01/1669296361/ME10108.png?ts=1779883071",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/reel-dispenser-deluxe/me10108",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10111",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Reel dispenser Comfort",
+      "manufacturerRef": "ME10111",
+      "manufacturerRefs": "ME10111",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10111",
+          "label": "Reel dispenser Comfort"
+        }
+      ],
+      "categoryPath": "reel-dispenser-comfort",
+      "description": "The reel dispenser “comfort“ enables space-saving storage of the film reels over the sealing device.",
+      "sourceImageUrl": "https://shopware.melag.com/media/af/ba/2d/1669296319/ME10111.png?ts=1779883096",
+      "imageUrls": "https://shopware.melag.com/media/af/ba/2d/1669296319/ME10111.png?ts=1779883096",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/reel-dispenser-comfort/me10111",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10117",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Reel dispenser Standard",
+      "manufacturerRef": "ME10117",
+      "manufacturerRefs": "ME10117",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10117",
+          "label": "Reel dispenser Standard"
+        }
+      ],
+      "categoryPath": "reel-dispenser-standard",
+      "description": "The “standard” rell dispenser is placed directly behind the sealing device and enables simple replacement of the film reel.",
+      "sourceImageUrl": "https://shopware.melag.com/media/66/4d/3b/1669296294/ME10117.png?ts=1779883122",
+      "imageUrls": "https://shopware.melag.com/media/66/4d/3b/1669296294/ME10117.png?ts=1779883122",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/reel-dispenser-standard/me10117",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME00106",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Wall mounted reel dispenser",
+      "manufacturerRef": "ME00106",
+      "manufacturerRefs": "ME00106",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME00106",
+          "label": "Wall mounted reel dispenser"
+        }
+      ],
+      "categoryPath": "wall-mounted-reel-dispenser",
+      "description": "Mounted on the wall directly over the sealing device, the wall-mounted reel dispenser saves space.",
+      "sourceImageUrl": "https://shopware.melag.com/media/2f/07/7d/1669301405/ME00106.png?ts=1779889016",
+      "imageUrls": "https://shopware.melag.com/media/2f/07/7d/1669301405/ME00106.png?ts=1779889016",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/wall-mounted-reel-dispenser/me00106",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01072",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcontrol Wash Check cleaning indicators",
+      "manufacturerRef": "ME01072",
+      "manufacturerRefs": "ME01072",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01072",
+          "label": "MELAcontrol Wash Check cleaning indicators"
+        }
+      ],
+      "categoryPath": "melacontrol-wash-check-cleaning-indicators",
+      "description": "With the MELAcontrol Wash Check for your MELAtherm washer disinfector, you can always keep an eye on the cleaning performance. The 100 wash check indicators allow you to routinely monitor the cleaning results of instruments in the base basket or on the injector rail in accordance with DIN EN ISO 15883-5. It is very easy to use: Place one wash indicator in the separately available holder for the base basket or for the injector rail. After the cycle, a visual check of the indicator enables a quick assessment of the cleaning quality in the washer disinfector. With MELAcontrol Wash Check, you can ensure that your instruments are always thoroughly cleaned - for optimum hygiene and patient protection.",
+      "sourceImageUrl": "https://shopware.melag.com/media/bd/6d/13/1725896106/ME01072.png?ts=1725896106",
+      "imageUrls": "https://shopware.melag.com/media/bd/6d/13/1725896106/ME01072.png?ts=1725896106",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melacontrol-wash-check-cleaning-indicators/me01072",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME80000",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Regenerating salt for washer disinfectors | MELAG",
+      "manufacturerRef": "ME80000",
+      "manufacturerRefs": "ME80000",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME80000",
+          "label": "Regenerating salt for washer disinfectors | MELAG"
+        }
+      ],
+      "categoryPath": "regeneration-salt",
+      "description": "The specially granulated and highly purified regenerating salt was designed for the internal softening system of the MELAtherm. The coarse grain size ensures optimum solubility, protects the thermal disinfector / washer-disinfector from limescale deposits and enables an effective cleaning outcome. Each pack contains 2 kilograms of regenerating salt. Please note: After filling the regenerating salt, it is advisable to start a short rinse program (without loading) to remove any salt residue from the washing chamber and ensure proper functioning.",
+      "sourceImageUrl": "https://shopware.melag.com/media/d7/91/bc/1689080417/ME80000.png?ts=1689080417",
+      "imageUrls": "https://shopware.melag.com/media/d7/91/bc/1689080417/ME80000.png?ts=1689080417",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/regeneration-salt/me80000",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10711",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcare Lid Blue",
+      "manufacturerRef": "ME10711",
+      "manufacturerRefs": "ME10711",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10711",
+          "label": "MELAcare Lid Blue"
+        }
+      ],
+      "categoryPath": "melacare-lid-blue",
+      "description": "Premium Care for Rotary Instruments: The MELAcare Blue Lid is the ideal solution for cleaning, disinfecting and lubricating handpieces, contra-angles, turbines and contra-angle heads. With up to 6 individually configurable adapters, you can tailor the lid perfectly to your instruments - ensuring safe reprocessing and long-term reliable performance. Cleaning, disinfection and oiling in as little as 17 minutes for up to 6 rotating instruments (incl. internal drying and pre-cooling) ULTRAflow Technology for powerful internal and external cleaning with compressed-air-accelerated deionized water - completely chemical-free Thermal disinfection at approx. 95 °C with an A0 value of 3,000 and a broad spectrum of activity Precise oil and chuck care with fully synthetic oil for preserving value and optimal function Individually configurable with up to 6 adapters for handpieces, contra-angles, turbines, and contra-angle headsThe MELAcare Lid Blue makes the reprocessing of rotating instruments convenient, safe, and efficient. For instruments that are quickly ready for use again—and a workflow that becomes a WOWflow.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/melacare-lid-blue/me10711",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10712",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcare Lid Green",
+      "manufacturerRef": "ME10712",
+      "manufacturerRefs": "ME10712",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10712",
+          "label": "MELAcare Lid Green"
+        }
+      ],
+      "categoryPath": "melacare-lid-green",
+      "description": "More flexibility for instruments that do not require oiling:The MELAcare Green lid was specially developed for reprocessing hollow instruments that do not require oil care. With up to 6 individually configurable adapters, you can reprocess ultrasonic scaler tips, prophylaxis handpieces and other compatible instruments safely, efficiently between treatments. Reprocessing in just 14 minutes, including cleaning, thermal disinfection, internal drying and pre-coolingULTRAflow technology for powerful internal and external cleaning with deionised water - completely chemical-freeThermal disinfection at approx. 95 °C with an A0 value of 3,000 and a broad activity spectrum Configurable with up to 6 adapters for ultrasonic scaler tips and prophylaxis handpieces Quickly ready for use again thanks to efficient and intelligent additional cooling The MELAcare Lid Green brings maximum flexibility to the reprocessing of hollow instruments that do not require oil. For reliable results, efficient processes and a workflow that becomes a WOWflow.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/melacare-lid-green/me10712",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME84740",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Care Oil",
+      "manufacturerRef": "ME84740",
+      "manufacturerRefs": "ME84740",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME84740",
+          "label": "Care Oil"
+        }
+      ],
+      "categoryPath": "care-oil",
+      "description": "Runs like clockwork: rely on MELAG Care Oil to look after your valuable instruments. This fully synthetic dental oil is not only economical to use, but also guarantees optimal care for contra-angles and turbines. The 150 ml bottle is sufficient for maintaining up to 1,000 instruments. The oil can is stored in the door to save space and is perfectly tailored to the unique features of the Careclave and MELAcare, making it quick to replace.",
+      "sourceImageUrl": "https://shopware.melag.com/media/7e/2f/dd/1669201731/ME84740.png?ts=1669201731",
+      "imageUrls": "https://shopware.melag.com/media/7e/2f/dd/1669201731/ME84740.png?ts=1669201731",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/care-oil/me84740",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10708",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Carebox Blue",
+      "manufacturerRef": "ME10708",
+      "manufacturerRefs": "ME10708",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10708",
+          "label": "Carebox Blue"
+        }
+      ],
+      "categoryPath": "carebox-blue",
+      "description": "For the safe reprocessing and reliable lubrication of up to 8 transmission instruments with Careclave. A process that could not be more intuitive: Our patented Carebox Connect Technology automatically recognizes which Carebox was inserted and adapts the program selection to your load. Align the Carebox Blue to your handpieces and turbines using up to 8 adapters.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/carebox-blue/me10708",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10704",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Carebox Green",
+      "manufacturerRef": "ME10704",
+      "manufacturerRefs": "ME10704",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10704",
+          "label": "Carebox Green"
+        }
+      ],
+      "categoryPath": "carebox-green",
+      "description": "For the safe reprocessing of up to 8 hollow body instruments which do not require oiling. A process that could not be more intuitive: Our patented Carebox Connect Technology automatically recognizes which Carebox was inserted and adapts the program selection to your load. Configure the Carebox Green with up to 8 adapters for ultrasonic scaler tips and prophylaxis handpieces.",
+      "sourceImageUrl": "https://shopware.melag.com/media/b2/68/66/1737102320/ME10704.png?ts=1737102320",
+      "imageUrls": "https://shopware.melag.com/media/b2/68/66/1737102320/ME10704.png?ts=1737102320",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/carebox-green/me10704",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME11000",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Cooling Box",
+      "manufacturerRef": "ME11000",
+      "manufacturerRefs": "ME11000",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME11000",
+          "label": "Cooling Box"
+        }
+      ],
+      "categoryPath": "cooling-box",
+      "description": "Use instruments on the patient immediately after reprocessing: The Cooling Box offers two programs that allow the Carebox Blue and Carebox Green to cool down quickly in just 4 minutes.",
+      "sourceImageUrl": "https://shopware.melag.com/media/a1/7e/85/1669295941/ME11000.png?ts=1669295941",
+      "imageUrls": "https://shopware.melag.com/media/a1/7e/85/1669295941/ME11000.png?ts=1669295941",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/cooling-box/me11000",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01100",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAstore Transport Box",
+      "manufacturerRef": "ME01100",
+      "manufacturerRefs": "ME01100",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01100",
+          "label": "MELAstore Transport Box"
+        }
+      ],
+      "categoryPath": "melastore-transport-box",
+      "description": "The MELAstore transport box offers sufficient space for individual instruments and up to 5 MELAstore Trays 100 or 4 MELAstore Trays 200, thus ensuring the safe transportation of contaminated instruments from the treatment room to the reprocessing room. This solution protects practice staff and patients from contamination and puncture injuries while complying with hygiene regulations.",
+      "sourceImageUrl": "https://shopware.melag.com/media/53/1c/e1/1688395896/ME01100.png?ts=1688395896",
+      "imageUrls": "https://shopware.melag.com/media/53/1c/e1/1688395896/ME01100.png?ts=1688395896",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melastore-transport-box/me01100",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01108",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAprint 80",
+      "manufacturerRef": "ME01108",
+      "manufacturerRefs": "ME01108",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01108",
+          "label": "MELAprint 80"
+        }
+      ],
+      "categoryPath": "melaprint-80",
+      "description": "The network-compatible MELAprint 80 is designed for direct communication with the MELAtrace software, Prime Line, Careclave and Vacuclave 550. It may be connected direct to the network interface of the device, but also to the existing practice network and MELAtrace. When the sterilization program has been completed successfully, and clearance is seen on the screen of the device, labels are printed with the MELAprint 80 for labelling the wrapped instruments. An additional PC in the reprocessing room and external software for release is not required. The labels contain information about the device and sterilization program, the sterilization date, the daily and total batch, the storage period of the sterilized instrument, if applicable the personnel numbers of the persons who started the sterilization, released instruments for use and printed the label as well as a barcode for convenient digital documentation in your practice.In addition, MELAprint 80 can also be used as a log printer for the new Pro and Prime Line as well as for older device generations (e.g. Profi class, Euroklav, MELAquick 12+ and MELAtronic® 15 EN+).",
+      "sourceImageUrl": "https://shopware.melag.com/media/7e/e3/6e/1688558890/ME01108.png?ts=1688558890",
+      "imageUrls": "https://shopware.melag.com/media/7e/e3/6e/1688558890/ME01108.png?ts=1688558890",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melaprint-80/me01108",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01160",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAprint 60",
+      "manufacturerRef": "ME01160",
+      "manufacturerRefs": "ME01160",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01160",
+          "label": "MELAprint 60"
+        }
+      ],
+      "categoryPath": "melaprint-60",
+      "description": "The network-compatible MELAprint 60 is designed for direct communication with the MELAtrace software, steam sterilizers of the Premium-Class and Cliniclave series. It may be connected direct to the network interface of the steam sterilizer, but also to the existing practice network and MELAtrace. When the sterilization program has been completed successfully, and clearance is seen on the screen of the steam sterilizer, labels are printed with the MELAprint 60 for labelling the wrapped instruments. An additional PC in the processing room and external software for clearance are unnecessary.",
+      "sourceImageUrl": "https://shopware.melag.com/media/34/f4/dc/1669298651/ME01160.png?ts=1669298651",
+      "imageUrls": "https://shopware.melag.com/media/34/f4/dc/1669298651/ME01160.png?ts=1669298651",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melaprint-60/me01160",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01086",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Labeller for packaged instruments: MELAdoc | MELAG",
+      "manufacturerRef": "ME01086",
+      "manufacturerRefs": "ME01086",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01086",
+          "label": "Labeller for packaged instruments: MELAdoc | MELAG"
+        }
+      ],
+      "categoryPath": "meladoc-labeller",
+      "description": "MELAdoc facilitates and simplifies manual batch documentation and enables batch traceability. The MELAdoc labels are double self-adhesive and have two lines. Flawless packaging with sterilised instruments is marked as approved for use after sterilisation by applying a label. Once the instruments have been used, the MELAdoc label can simply be removed from the sterilisation packaging and attached to the patient file. The sterilisation date, batch number, approving person, steriliser used and expiry date can thus be easily assigned to the sterilised instruments and the patient.The MELAdoc labels are double self-adhesive, language-neutral and have a two-line design.",
+      "sourceImageUrl": "https://shopware.melag.com/media/88/dc/32/1721130726/ME01086.jpg?ts=1721130726",
+      "imageUrls": "https://shopware.melag.com/media/88/dc/32/1721130726/ME01086.jpg?ts=1721130726",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/meladoc-labeller/me01086",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01039",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAflash CF-Card-Printer",
+      "manufacturerRef": "ME01039",
+      "manufacturerRefs": "ME01039",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01039",
+          "label": "MELAflash CF-Card-Printer"
+        }
+      ],
+      "categoryPath": "melaflash-cf-card-printer",
+      "description": "The MELAflash system consists of a compact flash card printer, the MELAflash CF card and the MELAflash card reader. The legally required batch documentation is thus both simple and comfortable for the proven MELAG steam sterilizers of the Pro-Class, S-Class (Euroklav), Cliniklav 25 and the MELAtronic EN series of models. The sterilization logs can be very simply saved on a PC, without further connection of the steam sterilizer to the practice network or connection to an external printer. This way you satisfy the requirements to permanently repeat successful sterilization in your practice.",
+      "sourceImageUrl": "https://shopware.melag.com/media/d1/5d/93/1669299562/ME01039.png?ts=1669299562",
+      "imageUrls": "https://shopware.melag.com/media/d1/5d/93/1669299562/ME01039.png?ts=1669299562",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melaflash-cf-card-printer/me01039",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME40296",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAnet Box",
+      "manufacturerRef": "ME40296",
+      "manufacturerRefs": "ME40296",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME40296",
+          "label": "MELAnet Box"
+        }
+      ],
+      "categoryPath": "melanet-box",
+      "description": "The MELAnet Box enables simple network connection (Ethernet) of MELAG steam sterilizers of the Pro-Class, the S-Class (Euroklav), and the Cliniklav 25 series of models and further series. It is connected to the serial interface of the steam sterilizer and transmits the data into the practice\"s internal network. The MELAnet Box contains its own web server, which loads websites into the practice network. The user is then able to see logs of processes already finished or ongoing in real time, in any selected computer connected to the practice\"s network.",
+      "sourceImageUrl": "https://shopware.melag.com/media/8d/8c/26/1669293592/ME40296.png?ts=1669293592",
+      "imageUrls": "https://shopware.melag.com/media/8d/8c/26/1669293592/ME40296.png?ts=1669293592",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melanet-box/me40296",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01081",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Chamber Protect Cleaning Set",
+      "manufacturerRef": "ME01081",
+      "manufacturerRefs": "ME01081",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01081",
+          "label": "Chamber Protect Cleaning Set"
+        }
+      ],
+      "categoryPath": "chamber-protect-cleaning-set",
+      "description": "The Chamber Protect cleaning set is the ideal solution for weekly cleaning of the stainless steel surfaces of your autoclave kettle. This comprehensive kit provides everything you need to keep your autoclave in optimum condition and maintain its value in the long term. The set includes a powerful cleaner specially developed for cleaning stainless steel surfaces. It effectively removes dirt, residues and impurities without damaging the chamber. The formula is gentle yet extremely effective. In addition to the cleaner, 50 lint-free cloths are included in the scope of delivery, which are perfectly suited to cleaning autoclave kettles. These cloths ensure thorough cleaning without leaving any residue or lint, which ensures a flawless surface. A microfiber cloth rounds off the set and enables streak-free drying and polishing of the cleaned surfaces.",
+      "sourceImageUrl": "https://shopware.melag.com/media/bd/d2/27/1669299041/ME01081.png?ts=1669299041",
+      "imageUrls": "https://shopware.melag.com/media/bd/d2/27/1669299041/ME01081.png?ts=1669299041",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/chamber-protect-cleaning-set/me01081",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01049",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAdem 40",
+      "manufacturerRef": "ME01049",
+      "manufacturerRefs": "ME01049",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01049",
+          "label": "MELAdem 40"
+        }
+      ],
+      "categoryPath": "meladem-40",
+      "description": "MELAdem 40 enables the economical production of demineralised water (aqua dem) in practice. (aqua dem) in practice. According to the principle of ion exchange principle, ions that contaminate tap water (e.g. calcium, magnesium etc.) are exchanged for hydrogen and hydroxide ions. In this way, MELAdem 40 supplies high-quality feed water for the automatic supply of MELAG steam sterilisers of the premium class. steam sterilisers of the premium class, the Pro / Prime Line and the Euroklav and SteriHero series.",
+      "sourceImageUrl": "https://shopware.melag.com/media/71/32/9f/1669299462/ME01049.png?ts=1782111030",
+      "imageUrls": "https://shopware.melag.com/media/71/32/9f/1669299462/ME01049.png?ts=1782111030",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/meladem-40/me01049",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01047",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAdem 47",
+      "manufacturerRef": "ME01047",
+      "manufacturerRefs": "ME01047",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01047",
+          "label": "MELAdem 47"
+        }
+      ],
+      "categoryPath": "meladem-47",
+      "description": "Increasing hygiene requirements in the processing of medical products can involve the frequent sterilizing of instruments. The consequent increased need for high quality demineralised water is provided amply by the MELAdem 47 and at low cost. The reversal of the physical principle of osmosis is an extremely environmentally-friendly type of water processing. MELAdem 47 produces around 3-5 litres of feed water per hour, so that several MELAG steam sterilizers can be supplied at the same time.",
+      "sourceImageUrl": "https://shopware.melag.com/media/b0/1c/8b/1669299504/ME01047.png?ts=1669299504",
+      "imageUrls": "https://shopware.melag.com/media/b0/1c/8b/1669299504/ME01047.png?ts=1669299504",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/meladem-47/me01047",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01038",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAdem 53",
+      "manufacturerRef": "ME01038",
+      "manufacturerRefs": "ME01038",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01038",
+          "label": "MELAdem 53"
+        }
+      ],
+      "categoryPath": "meladem-53",
+      "description": "The MELAdem 53 works in accordance with the tried and tested ion exchange procedure, generating high-quality demineralized water for the cleaning, disinfection and sterilization process. It has been conceived to satisfy a requirement for large volumes of aqua dem e.g. for the supply of the Cliniclave, MELAtherm and one or more practice steam sterilizers. The scope of delivery consists of two high-value cartridges filled with regeneratable resin, one of which is connected to the steam sterilizer and/or the MELAtherm. Once the cartridge has been exhausted, it is dispatched for regeneration and the second cartridge is brought into operation. The MELAdem 53 represents the standard water treatment unit for practices requiring large quantities of demineralized water. The high-performance of the MELAdem 53 enables the connection of one or more steam sterilizers in addition to the MELAtherm. Given an average water hardness of the tap water, the capacity of a cartridge is sufficient for c. 2,800 litres of high-quality demineralized water.Do you already own a MELAdem? Then get your MELAdem 53 regeneration now for just €240 using our form.",
+      "sourceImageUrl": "https://shopware.melag.com/media/aa/28/a5/1669299699/ME01038.png?ts=1669299699",
+      "imageUrls": "https://shopware.melag.com/media/aa/28/a5/1669299699/ME01038.png?ts=1669299699",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/meladem-53/me01038",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01036",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAdem 53 C",
+      "manufacturerRef": "ME01036",
+      "manufacturerRefs": "ME01036",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01036",
+          "label": "MELAdem 53 C"
+        }
+      ],
+      "categoryPath": "meladem-53-c",
+      "description": "The MELAdem 53 C works in accordance with the tried and tested ion exchange procedure, generating high-quality demineralized water for the cleaning, disinfection and sterilization process. It has been conceived to satisfy a requirement for large-volumes of aqua dem e.g. for the supply of the Cliniclave, MELAtherm and one or more practice steam sterilizers. The scope of delivery consists of two high-value cartridges filled with regeneratable resin, one of which is connected to the steam sterilizer and/or the MELAtherm. Once the cartridge has been exhausted, it is dispatched for regeneration and the second cartridge is brought into operation. The low height of the water treatment unit MELAdem 53 C in comparison to the MELAdem 53 makes it especially suited to installation in tightly-fitting situations. The high capacity of up to 2,100 l enables the connection of one or more steam sterilizers in addition to the MELAtherm. Do you already own a MELAdem 53 C and need a regeneration? Then get your regeneration now for just €210 using our form.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/meladem-53-c/me01036",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME11056",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAdem 56",
+      "manufacturerRef": "ME11056",
+      "manufacturerRefs": "ME11056",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME11056",
+          "label": "MELAdem 56"
+        }
+      ],
+      "categoryPath": "meladem-56",
+      "description": "The MELAdem 56 was developed especially for the Cliniclave 45 and Cliniclave 45 D and complies with the requirements of EN 1717 regarding the protection of drinking water. The reverse osmosis unit permits especially economical operation. The MELAdem 56 is installed in the floor unit to save space.",
+      "sourceImageUrl": "https://shopware.melag.com/media/c0/b5/0b/1669295888/ME11056.png?ts=1669295888",
+      "imageUrls": "https://shopware.melag.com/media/c0/b5/0b/1669295888/ME11056.png?ts=1669295888",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/meladem-56/me11056",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME27300",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAjet spray pistol",
+      "manufacturerRef": "ME27300",
+      "manufacturerRefs": "ME27300",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME27300",
+          "label": "MELAjet spray pistol"
+        }
+      ],
+      "categoryPath": "melajet-spray-pistol",
+      "description": "If MELAjet is connected to the water processing facility, the MELAdem 40, instruments can be rinsed with demineralised water. Similarly, aqua dem can thus be extracted for other purposes, e.g. for the ultrasonic bath or for steam sterilizers that cannot be supplied automatically with aqua dem. A spot blast or a flat jet can be adjusted with the jet nozzle of the MELAjet.",
+      "sourceImageUrl": "https://shopware.melag.com/media/8d/d2/0d/1669294089/ME27300.png?ts=1669294089",
+      "imageUrls": "https://shopware.melag.com/media/8d/d2/0d/1669294089/ME27300.png?ts=1669294089",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melajet-spray-pistol/me27300",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01082",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcontrol Helix",
+      "manufacturerRef": "ME01082",
+      "manufacturerRefs": "ME01082",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01082",
+          "label": "MELAcontrol Helix"
+        }
+      ],
+      "categoryPath": "melacontrol-helix",
+      "description": "The new MELAcontrol Helix – Reliable Routine Testing for Class B Autoclaves The MELAcontrol Helix is a professional solution for reliable routine monitoring of Class B autoclaves. The Helix test was developed in accordance with the strict requirements of the European standard DIN EN ISO 11140 and offers a validated and compliant method for testing steam penetration in hollow instruments—a crucial factor for effective sterilization. By simulating the most challenging load conditions within the sterilization process, the Helix delivers highly meaningful test results and ensures maximum process reliability. A clear color change from blue to pink after successful sterilization enables fast, unambiguous evaluation and supports reliable documentation.✅ Fully compliant with ISO 11140✅ Reliable verification of steam penetration✅ Clear visual result for quick decision-making✅ High process safety with minimal time investment✅ Economical and sustainable solution for routine control To ensure consistently high test quality, every reorder of indicator strips includes a new Helix test body. This guarantees long-term reliability in batch monitoring while minimizing administrative effort.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/melacontrol-helix/me01082",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01075",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcontrol Pro",
+      "manufacturerRef": "ME01075",
+      "manufacturerRefs": "ME01075",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01075",
+          "label": "MELAcontrol Pro"
+        }
+      ],
+      "categoryPath": "melacontrol-pro",
+      "description": "The so-called HELIX is covered by the EN ISO 11140-6 European Standard. This is a test body for \"Class B\" steam sterilizers, which simulate the complicated requirements for sterilizing hollow instruments. This test body is required for batch monitoring of the processing of \"critical B\" instruments. MELAcontrol Pro with 40 indicator strips is a durable, usable test body for the power-user. The test strips can be re-ordered in a refill package with 250 indicator strips.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/melacontrol-pro/me01075",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01077",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcontrol Type 5 Indicator",
+      "manufacturerRef": "ME01077",
+      "manufacturerRefs": "ME01077",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01077",
+          "label": "MELAcontrol Type 5 Indicator"
+        }
+      ],
+      "categoryPath": "melacontrol-type-5-indicator",
+      "description": "Indicator according to EN ISO 11140-1 for checking the sterilisation conditions (steam, temperature and time). The indicator can be added to packaged instruments (e.g. in MELAfol, MELAstore) or placed directly in the chamber. If the sterilisation conditions are observed, the indicator turns over after 16.5 min at 121 °C or after 3,5 min at 134 °C. The ready-to-use indicator is for single use and is supplied in a practical box with 250 indicator strips.",
+      "sourceImageUrl": "https://shopware.melag.com/media/b6/92/b0/1688392056/ME01077.png?ts=1688392056",
+      "imageUrls": "https://shopware.melag.com/media/b6/92/b0/1688392056/ME01077.png?ts=1688392056",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melacontrol-type-5-indicator/me01077",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01078",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcontrol Bowie & Dick Test",
+      "manufacturerRef": "ME01078",
+      "manufacturerRefs": "ME01078",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01078",
+          "label": "MELAcontrol Bowie & Dick Test"
+        }
+      ],
+      "categoryPath": "melacontrol-bowie-dick-test",
+      "description": "MELAcontrol Bowie & Dick Test (Size: 11.4 cm x 11.4 cm) is a test system according to EN ISO 11140-1 (type 2) for routine control of the steam penetration of your autoclave. The practical test package simulates a laundry package weighing several kilograms being sterilized in an autoclave with fractionated pre-vacuum. The successful color change of the indicator in the test package takes place at 134 °C after 3.5 min. 1 test package is included in the scope of delivery. The handling of the MELAcontrol Bowie & Dick test is very simple: Place the test package at the desired position in the load. Run the sterilization program and then check the result. With sufficient steam penetration, the indicator turns from yellow to black.",
+      "sourceImageUrl": "https://shopware.melag.com/media/80/c6/65/1688395233/ME01078.png?ts=1688395233",
+      "imageUrls": "https://shopware.melag.com/media/80/c6/65/1688395233/ME01078.png?ts=1688395233",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melacontrol-bowie-dick-test/me01078",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01079",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Seal Check for sealing devices | MELAG",
+      "manufacturerRef": "ME01079",
+      "manufacturerRefs": "ME01079",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01079",
+          "label": "Seal Check for sealing devices | MELAG"
+        }
+      ],
+      "categoryPath": "melacontrol-seal-check",
+      "description": "With MELAcontrol Seal Check, the required control of sealing devices is carried out quickly and cost-effectively. The indicator paper precisely proves the quality and reproducibility of the sealing seams.",
+      "sourceImageUrl": "https://shopware.melag.com/media/f1/e3/79/1669299245/ME01079.png?ts=1669299245",
+      "imageUrls": "https://shopware.melag.com/media/f1/e3/79/1669299245/ME01079.png?ts=1669299245",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melacontrol-seal-check/me01079",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME20022B50",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAtherm 20 | 230 V and passiveDRY",
+      "manufacturerRef": "ME20022B50",
+      "manufacturerRefs": "ME20022B50",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME20022B50",
+          "label": "MELAtherm 20 | 230 V and passiveDRY"
+        }
+      ],
+      "categoryPath": "melatherm-20",
+      "description": "All the magic of the MELAtherm in XXL: With an extra-large washing chamber, smart operating and documentation concepts and a newly developed cleaning system, the MELAtherm a newly developed cleaning system, MELAtherm 20 is ready for any challenge - today and in the future. Because with up to 24 Flex segments in the lower basket and upper basket, MELAtherm 20 offers more than double the capacity, enabling efficient reprocessing of instruments for up to 90 instruments. efficient reprocessing of instruments for up to 90 patients per cycle - ideally cleaned and disinfected thanks to the innovative 3-arm rinsing system in combination with the proven AquaBoost technology. Smart functions such as the large touch display, the integrated ProControl batch release and the new self-cleaning central filter Cleanfinity Pro self-cleaning central filter also ensure maximum process reliability with minimum effort - for greater efficiency, control and convenience in and convenience in everyday practice and clinic work. MELAtherm 20 is available as a 230 V or 400 V version and with activeDRY or passiveDRY drying system: perfectly customised to your individual requirements.",
+      "sourceImageUrl": "https://shopware.melag.com/media/92/92/97/1751630103/MT20-frontal-halboffen-min.png?ts=1751630103",
+      "imageUrls": "https://shopware.melag.com/media/92/92/97/1751630103/MT20-frontal-halboffen-min.png?ts=1751630103",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melatherm-20/sw10031",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10021",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAtherm 10 DTB",
+      "manufacturerRef": "ME10021",
+      "manufacturerRefs": "ME10021",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10021",
+          "label": "MELAtherm 10 DTB"
+        }
+      ],
+      "categoryPath": "melatherm-10",
+      "description": "The automated cleaning and disinfection of instruments using a washer-disinfector are a prerequisite of modern instrument decontamination in practices and clinics. MELAtherm 10 has proven its quality and advantages many thousands of installations. Through the unique product highlights and the variety of baskets and accessories for different specialties MELAtherm 10 offers a significant increase in safety and efficiency.",
+      "sourceImageUrl": "https://shopware.melag.com/media/80/61/e5/1689938040/melatherm-1000x1000.jpg?ts=1689938040",
+      "imageUrls": "https://shopware.melag.com/media/80/61/e5/1689938040/melatherm-1000x1000.jpg?ts=1689938040",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melatherm-10/sw10004",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME20021",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAtherm 10 Evolution DTB",
+      "manufacturerRef": "ME20021",
+      "manufacturerRefs": "ME20021",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME20021",
+          "label": "MELAtherm 10 Evolution DTB"
+        }
+      ],
+      "categoryPath": "melatherm-10-evolution",
+      "description": "The MELAG washer-disinfector of the Evolution series excel with convincing innovations in addition to the tried-and-tested product highlights of MELAtherm 10 – including active drying, integrated process agent intake and documentation interfaces at no additional cost. MELAtherm 10 Evolution sets new standards in operation: Its large Smart-Touch Display with helpful video tutorials makes for an intuitive operation. Moreover, take advantage of ProControl to perform a fast and paperless batch approval directly on the Smart-Touch Display. The new AquaBoost technology ensures optimal cleaning outcomes: AquaBoost makes for double rinsing pressure and up to 44 % better cleaning results. The increased pressure permits the decontamination of even more instruments.",
+      "sourceImageUrl": "https://shopware.melag.com/media/d1/5a/e5/1691750805/ME20021.jpg?ts=1691750805",
+      "imageUrls": "https://shopware.melag.com/media/d1/5a/e5/1691750805/ME20021.jpg?ts=1691750805",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melatherm-10-evolution/sw10005",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10600",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcare",
+      "manufacturerRef": "ME10600",
+      "manufacturerRefs": "ME10600",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10600",
+          "label": "MELAcare"
+        }
+      ],
+      "categoryPath": "melacare",
+      "description": "Wellness for your instruments – Fully automatic, safe, and efficient MELAcare is redefining the reprocessing of transmission instruments: cleaning, disinfection, and oil maintenance are performed fully automatically, in a validatable manner, and with exceptional care for the instruments. For reliable workflows, maximum patient safety and instruments that are quickly ready for use again between treatments.Validatable reprocessing process according to EN ISO 15883-1/2 starting at approx. 14 minutes (Incl. internal drying and pre-cooling ) Gentle cleaning and disinfection without chemicals to preserve the value of your instruments Precise oil and collet maintenance for reliable function and long service life Intuitive operation and documentation via a large touchscreen display with batch approval directly on the device at no extra charge Compact design with high flexibility thanks to a small footprint and 28 specially developed adapters for hollow-body instruments MELAcare significantly reduces routine tasks and saves valuable time week after week in daily practice. With the Blue and Green lids, you can prepare different instrument groups safely, conveniently, and according to your needs. [MELAcare will be available in the EU from 15 July 2026. Availability outside the EU depends on the respective registration process.]",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/melacare/me10600",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10618",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Careclave 618",
+      "manufacturerRef": "ME10618",
+      "manufacturerRefs": "ME10618",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10618",
+          "label": "Careclave 618"
+        }
+      ],
+      "categoryPath": "careclave-618",
+      "description": "Rethink everything you know about instrument reprocessing in dental practices and clinics. Nine years of intensive research and development have brought together what belongs together: The worldwide unique 4-in-1 Solution combines the entire process of instrument reprocessing in just one device! Benefit from revolutionary advantages: Space: Careclave requires up to 45 % less space, as it combines a number of devices in one. Money: Reduction of running costs for maintenance and validation. Time: Reprocessing and lubrication of up to 200 handpieces and further instruments in just one practice day.",
+      "sourceImageUrl": "https://shopware.melag.com/media/6c/93/90/1689752715/produktbild2.jpg?ts=1689752715",
+      "imageUrls": "https://shopware.melag.com/media/6c/93/90/1689752715/produktbild2.jpg?ts=1689752715",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/careclave-618/me10618",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10080",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuklav 40 B+ Evolution",
+      "manufacturerRef": "ME10080",
+      "manufacturerRefs": "ME10080",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10080",
+          "label": "Vacuklav 40 B+ Evolution"
+        }
+      ],
+      "categoryPath": "vacuklav-40-b-evolution",
+      "description": "The premium quick steam sterilizer - new with DRYtelligence Ideal for all those practices seeking to sterilize wrapped instruments in a Quick-Program B in only 20 minutes and unwrapped instruments in only 10 minutes. Both times includes fractionated pre-vacuum and drying. The intelligent drying system DRYtelligence uses especially-developed algorithms to adapt the drying cycle to the load in order to shorten the operating times even further and save resources. The intuitive operating concept means easy and safe operation via the XXL colour-touch display. Quick and easy program location and selection; easy documentation; avoid malfunctions.",
+      "sourceImageUrl": "https://shopware.melag.com/media/f8/9e/7b/1657809306/40 B + Evo_2.jpg?ts=1657809306",
+      "imageUrls": "https://shopware.melag.com/media/f8/9e/7b/1657809306/40 B + Evo_2.jpg?ts=1657809306",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuklav-40-b-evolution/me10080",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10318",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuclave 318",
+      "manufacturerRef": "ME10318",
+      "manufacturerRefs": "ME10318",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10318",
+          "label": "Vacuclave 318"
+        }
+      ],
+      "categoryPath": "vacuclave-318",
+      "description": "The MELAG price-performance champion: Offers more, needs less! Whether loading, sterilization or documentation - the new Prime Line autoclave with a chamber volume of 17 liters offers a price-performance ratio that stands up any comparison: So you not only sterilize more instruments in less time, but also save a lot of money. And all this in the MELAG quality - made in Germany, that you know and love from the proven predecessor models of the Pro-Class. The MELAG price-performance champion: Vacuclave 318 combines the Pro Line product highlights with further innovations for more performance, for outstanding drying results and for complete traceability.",
+      "sourceImageUrl": "https://shopware.melag.com/media/f5/c0/7e/1688550309/ME10318.jpg?ts=1688550309",
+      "imageUrls": "https://shopware.melag.com/media/f5/c0/7e/1688550309/ME10318.jpg?ts=1688550309",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuclave-318/me10318",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10118",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuclave 118",
+      "manufacturerRef": "ME10118",
+      "manufacturerRefs": "ME10118",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10118",
+          "label": "Vacuclave 118"
+        }
+      ],
+      "categoryPath": "vacuclave-118",
+      "description": "Do you know the world's best-selling autoclaves of the MELAG pro class? Then you will love the new MELAG device generation - from the functions to the price! Because the low-priced entry-level model of the Pro Line convinces all along the line: With smart operating and documentation concepts as well as a chamber volume of 17 litres, Vacuclave 118 offers everything for the safe, comfortable and resource-saving sterilisation of your instruments.",
+      "sourceImageUrl": "https://shopware.melag.com/media/4a/14/f8/1688463184/ME10118.png?ts=1688463184",
+      "imageUrls": "https://shopware.melag.com/media/4a/14/f8/1688463184/ME10118.png?ts=1688463184",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuclave-118/me10118",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10105",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuclave 105",
+      "manufacturerRef": "ME10105",
+      "manufacturerRefs": "ME10105",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10105",
+          "label": "Vacuclave 105"
+        }
+      ],
+      "categoryPath": "vacuclave-105",
+      "description": "To the future, get set, go! With the fastest autoclave of their class, we are redefining the limits of speed: with Vacuclave 105 you can sterilise your instruments on 2 trays or 1 MELAstore Box Compact in record time from 6.5 minutes (plus drying) - and all in the smallest of spaces. The powerhouse with its 5-litre chamber is a compact class B autoclave that achieves great things: Ideal as an addition to your practice autoclave for quick sterilisations between treatments or as a stand-alone device for smaller quantities of instruments. Use the versatility of the Vacuclave 105 to organise your practice processes efficiently and flexibly. So who says you can't expect great features from a small autoclave? Buckle up and benefit from a magical operating concept, impressive power and smart functions that will save you time, money and space in RKI-compliant reprocessing. The device can be operated flexibly with external water canisters and waste water canisters.",
+      "sourceImageUrl": "https://shopware.melag.com/media/36/7a/c6/1715939712/ME10105.png?ts=1715939712",
+      "imageUrls": "https://shopware.melag.com/media/36/7a/c6/1715939712/ME10105.png?ts=1715939712",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuclave-105/me10105",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10120",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAseal 200",
+      "manufacturerRef": "ME10120",
+      "manufacturerRefs": "ME10120",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10120",
+          "label": "MELAseal 200"
+        }
+      ],
+      "categoryPath": "melaseal-200",
+      "description": "The innovative MELAseal 200 sealing device combines reliable technology and easy operation with compact dimensions. Above all, this bar sealer is validatable and ready to use only 90 seconds after activation! MELAseal 200 ensures the non-stop sealing of sterilization packages (e.g. MELAfol) in only three seconds per sealing procedure. All the sealing parameters are monitored by the integrated electronics. Equipped with two USB interfaces for maximum safety, the sealing device can save the log files on MELAG USB flash drive or a practice computer and network (MELAtrace software required). Short pre-heating and sealing times ensure a fast sealing process Legally compliant and validatable in accordance with international hygiene standards Compact device dimensions take up the minimum amount of space on your worktop LCD-Display and MELAG four-key-concept make for easy and intuitive operation Two USB Interfaces to output the log-files easily Monitoring and documentation of the sealing parameters (pressure, time and temperature) Power saving mode and seal check function guarantee best-possible efficiency",
+      "sourceImageUrl": "https://shopware.melag.com/media/3c/49/ed/1669296251/ME10120.png?ts=1669296251",
+      "imageUrls": "https://shopware.melag.com/media/3c/49/ed/1669296251/ME10120.png?ts=1669296251",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melaseal-200/me10120",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10300",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAseal 300 (incl. USB Stick)",
+      "manufacturerRef": "ME10300",
+      "manufacturerRefs": "ME10300",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10300",
+          "label": "MELAseal 300 (incl. USB Stick)"
+        }
+      ],
+      "categoryPath": "melaseal-300-incl.-usb-stick",
+      "description": "Simply magical. Magically simple. MELAseal 300 redefines the packaging process: The compact MELAG rotary sealer with large Smart-Touch display not only fits in every reprocessing line, but also for every volume of instruments: Because with the help of the automatic film feeder, you can pack a particularly large number of instruments in the shortest possible time - and without interruptions! And it's that simple: Insert the film, done! With smart functions and outstanding performance, the packaging process is magically simple - saving time and guaranteeing absolute safety. Because all important sealing parameters and routine checks are documented with integrated USB and network interfaces.",
+      "sourceImageUrl": "https://shopware.melag.com/media/fc/06/1d/1715592328/ME10300.png?ts=1715592328",
+      "imageUrls": "https://shopware.melag.com/media/fc/06/1d/1715592328/ME10300.png?ts=1715592328",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melaseal-300-incl.-usb-stick/me10300",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01110",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Barcode scanner",
+      "manufacturerRef": "ME01110",
+      "manufacturerRefs": "ME01110",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01110",
+          "label": "Barcode scanner"
+        }
+      ],
+      "categoryPath": "barcode-scanner",
+      "description": "Yes, you scan! The barcode hand scanner is connected to the USB connection of the practice PC. This compact scanner is used to read-in the barcodes on the MELAstore-Trays or the MELAstore-Boxes and automatically assign them to the load in MELAtrace. Additional, the barcodes of the MELAprint 60 and MELAprint 80 can be scanned and assigned to a patient file in the practice software.",
+      "sourceImageUrl": "https://shopware.melag.com/media/d5/52/45/1669298805/ME01110.png?ts=1669298805",
+      "imageUrls": "https://shopware.melag.com/media/d5/52/45/1669298805/ME01110.png?ts=1669298805",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/barcode-scanner/me01110",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME22927",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Pen for film packaging: MELAdoc Pen | MELAG",
+      "manufacturerRef": "ME22927",
+      "manufacturerRefs": "ME22927",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME22927",
+          "label": "Pen for film packaging: MELAdoc Pen | MELAG"
+        }
+      ],
+      "categoryPath": "meladoc-pen",
+      "description": "Discover the MELAdoc Pen: the sterilization-resistant fibre-tip pen for precise marking of packaged instruments. To withstand the demanding requirements of sterilization and storage, the MELAdoc Pen enables heat-resistant manual marking. With the MELAdoc Pen, you can mark packaged instruments with important information such as sterilization date, batch number and storage date. This ensures seamless traceability after the instrument has been used in an uncomplicated and cost-efficient manner.",
+      "sourceImageUrl": "https://shopware.melag.com/media/42/b7/6a/1688557809/ME22927.jpg?ts=1688557809",
+      "imageUrls": "https://shopware.melag.com/media/42/b7/6a/1688557809/ME22927.jpg?ts=1688557809",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/meladoc-pen/me22927",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME21144",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAG MELAtrace release software | Product configurator",
+      "manufacturerRef": "ME21144",
+      "manufacturerRefs": "ME21144",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME21144",
+          "label": "MELAG MELAtrace release software | Product configurator"
+        }
+      ],
+      "categoryPath": "melatrace-pro",
+      "description": "Create your individual configuration for the complete documentation of the MELAtrace release software and request a personalised consultation.",
+      "sourceImageUrl": "https://shopware.melag.com/media/b9/8f/ee/1688400338/ME21144.jpg?ts=1688400338",
+      "imageUrls": "https://shopware.melag.com/media/b9/8f/ee/1688400338/ME21144.jpg?ts=1688400338",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melatrace-pro/me21144",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10550",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuclave 550",
+      "manufacturerRef": "ME10550",
+      "manufacturerRefs": "ME10550",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10550",
+          "label": "Vacuclave 550"
+        }
+      ],
+      "categoryPath": "vacuclave-550",
+      "description": "Vacuclave 550 proves true greatness: The brandnew 50 litres autoklave offers significantly more capacity as well as pioneering innovations for energy-efficient, time- and cost-saving sterilization of your instruments.",
+      "sourceImageUrl": "https://shopware.melag.com/media/02/8b/a2/1669296041/ME10550.png?ts=1669296041",
+      "imageUrls": "https://shopware.melag.com/media/02/8b/a2/1669296041/ME10550.png?ts=1669296041",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuclave-550/me10550",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10045LS",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Cliniclave 45",
+      "manufacturerRef": "ME10045LS",
+      "manufacturerRefs": "ME10045LS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10045LS",
+          "label": "Cliniclave 45"
+        }
+      ],
+      "categoryPath": "cliniclave-45",
+      "description": "Innovative large steam sterilizer (1 STU) with DRYtelligence® technology Decades of experience in developing solutions for instrument reprocessing lead to the most innovative large steam sterilizers: the Cliniclave-Series! The world-beating MELAG quality made in Germany means that Cliniclave 45 outperforms many other large autoclaves. The sterilization of larger quantities of instruments and textiles and their quick availability is one of the most important requirements in practices, clinics and hospitals. The large steam sterilizer Cliniclave 45 has the capacity of one sterilization unit (STU) to accommodate up to 35 kg of wrapped instruments. The combination of extremely short operation times with our intelligent drying system DRYtelligence® guarantees the best-possible sterilization outcomes. The patented double jacket technology of Cliniclave 45 makes for record B-Class sterilization in 30 minutes (including drying). The new XXL colour-touch display of Cliniclave 45 and the versatile interface concept permits easy batch documentation and approval. Benefit from a CF card slot and two network interfaces to store the log files automatically.",
+      "sourceImageUrl": "https://shopware.melag.com/media/45/3d/fc/1675181688/45-frontal_freigestellt_9.jpg?ts=1675181688",
+      "imageUrls": "https://shopware.melag.com/media/45/3d/fc/1675181688/45-frontal_freigestellt_9.jpg?ts=1675181688",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/cliniclave-45/me10045ls",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME22161",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Table mount",
+      "manufacturerRef": "ME22161",
+      "manufacturerRefs": "ME22161",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME22161",
+          "label": "Table mount"
+        }
+      ],
+      "categoryPath": "table-mount",
+      "description": "Table mount for holding the upper part of the Carebox for optimal handling when loading and unloading the instruments.",
+      "sourceImageUrl": "https://shopware.melag.com/media/54/a0/dc/1669294540/ME22161.png?ts=1669294540",
+      "imageUrls": "https://shopware.melag.com/media/54/a0/dc/1669294540/ME22161.png?ts=1669294540",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/table-mount/me22161",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10052",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuklav 24 BL+",
+      "manufacturerRef": "ME10052",
+      "manufacturerRefs": "ME10052",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10052",
+          "label": "Vacuklav 24 BL+"
+        }
+      ],
+      "categoryPath": "vacuklav-24-bl",
+      "description": "The spacious miracle with 60 cm sterilization chamber The Vacuklav 24 BL+ features an especially deep sterilization chamber (60 cm, volume of 29 litres) and is thereby especially suited to practices and hospitals that wish to sterilize extra-long instrument sets quickly. The technical equipment is equivalent to the steam sterilizer Vacuklav 24 B+.",
+      "sourceImageUrl": "https://shopware.melag.com/media/f9/ca/2f/1675087391/sk_24bl_01_12.jpg?ts=1675087391",
+      "imageUrls": "https://shopware.melag.com/media/f9/ca/2f/1675087391/sk_24bl_01_12.jpg?ts=1675087391",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuklav-24-bl/me10052",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME21143",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAG MELAtrace release software | Product configurator",
+      "manufacturerRef": "ME21143",
+      "manufacturerRefs": "ME21143",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME21143",
+          "label": "MELAG MELAtrace release software | Product configurator"
+        }
+      ],
+      "categoryPath": "melatrace-pro",
+      "description": "Create your individual configuration for the complete documentation of the MELAtrace release software and request a personalised consultation.",
+      "sourceImageUrl": "https://shopware.melag.com/media/35/d8/27/1688400046/ME21143.jpg?ts=1688400046",
+      "imageUrls": "https://shopware.melag.com/media/35/d8/27/1688400046/ME21143.jpg?ts=1688400046",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melatrace-pro/me21143",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME00119",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Working table Standard",
+      "manufacturerRef": "ME00119",
+      "manufacturerRefs": "ME00119",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME00119",
+          "label": "Working table Standard"
+        }
+      ],
+      "categoryPath": "working-table-standard",
+      "description": "The \"standard” work table for supporting the operation of the MELAseal Pro.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/working-table-standard/me00119",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01056",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Water stop",
+      "manufacturerRef": "ME01056",
+      "manufacturerRefs": "ME01056",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01056",
+          "label": "Water stop"
+        }
+      ],
+      "categoryPath": "water-stop",
+      "description": "The water stop valve offers reliable protection against water damage and is a recommended addition for all installations of autoclaves and washer-disinfectors connected to the water network. In the event of a leak, the valve automatically shuts off the water supply and simultaneously warns with an acoustic signal to immediately indicate problems and minimize potential damage.",
+      "sourceImageUrl": "https://shopware.melag.com/media/0a/42/4a/1669299442/ME01056.png?ts=1669299442",
+      "imageUrls": "https://shopware.melag.com/media/0a/42/4a/1669299442/ME01056.png?ts=1669299442",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/water-stop/me01056",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10523",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAtronic 23 EN",
+      "manufacturerRef": "ME10523",
+      "manufacturerRefs": "ME10523",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10523",
+          "label": "MELAtronic 23 EN"
+        }
+      ],
+      "categoryPath": "melatronic-23-en",
+      "description": "The MELAtronic 23 EN represents the ideal standard steam sterilizer for the sterilization of wrapped and unwrapped instruments.",
+      "sourceImageUrl": "https://shopware.melag.com/media/8e/1e/02/1669296198/ME10523.png?ts=1669296198",
+      "imageUrls": "https://shopware.melag.com/media/8e/1e/02/1669296198/ME10523.png?ts=1669296198",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melatronic-23-en/me10523",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10123",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuclave 123",
+      "manufacturerRef": "ME10123",
+      "manufacturerRefs": "ME10123",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10123",
+          "label": "Vacuclave 123"
+        }
+      ],
+      "categoryPath": "vacuclave-123",
+      "description": "Do you know the world's best-selling autoclaves of the MELAG pro class? Then you will love the new MELAG device generation - from the functions to the price! Because the low-priced entry-level model of the Pro Line convinces all along the line: With smart operating and documentation concepts as well as a chamber volume of 23 litres, Vacuclave 123 offers everything for the safe, comfortable and resource-saving sterilisation of your instruments.",
+      "sourceImageUrl": "https://shopware.melag.com/media/4a/14/f8/1688463184/ME10118.png?ts=1688463184",
+      "imageUrls": "https://shopware.melag.com/media/4a/14/f8/1688463184/ME10118.png?ts=1688463184",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuclave-123/me10123",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME22486",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Mount Basic",
+      "manufacturerRef": "ME22486",
+      "manufacturerRefs": "ME22486",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME22486",
+          "label": "Mount Basic"
+        }
+      ],
+      "categoryPath": "mount-basic",
+      "description": "Sterilize the maximum number of unwrapped and wrapped individual instruments on up to 16 trays with the mount Basic.",
+      "sourceImageUrl": "https://shopware.melag.com/media/fa/d8/fc/1669294232/ME22486.png?ts=1669294232",
+      "imageUrls": "https://shopware.melag.com/media/fa/d8/fc/1669294232/ME22486.png?ts=1669294232",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/mount-basic/me22486",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME22485",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Mount Comfort",
+      "manufacturerRef": "ME22485",
+      "manufacturerRefs": "ME22485",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME22485",
+          "label": "Mount Comfort"
+        }
+      ],
+      "categoryPath": "mount-comfort",
+      "description": "The loading drawer with the mount Comfort offers maximum capacity and ergonomics for the sterilization of instruments on up to 16 trays. To use the mount Comfort, it is necessary to combine it with the loading drawer, which is not included in the delivery scope.",
+      "sourceImageUrl": "https://shopware.melag.com/media/3f/2c/bd/1669294269/ME22485.png?ts=1669294269",
+      "imageUrls": "https://shopware.melag.com/media/3f/2c/bd/1669294269/ME22485.png?ts=1669294269",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/mount-comfort/me22485",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME22606",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Loading slide for Vacuclave 550",
+      "manufacturerRef": "ME22606",
+      "manufacturerRefs": "ME22606",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME22606",
+          "label": "Loading slide for Vacuclave 550"
+        }
+      ],
+      "categoryPath": "loading-slide-for-vacuclave-550",
+      "description": "The loading drawer for up to 10 MELAstore boxes enables convenient loading and unloading of the autoclave with sterilization containers. For the reprocessing of trays and individual instruments it is required to combine the loading drawer with the mount Comfort. (Not compatible with mount Basic).",
+      "sourceImageUrl": "https://shopware.melag.com/media/fd/61/c3/1669294175/ME22606.png?ts=1669294175",
+      "imageUrls": "https://shopware.melag.com/media/fd/61/c3/1669294175/ME22606.png?ts=1669294175",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/loading-slide-for-vacuclave-550/me22606",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME21142",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAG MELAtrace release software | Product configurator",
+      "manufacturerRef": "ME21142",
+      "manufacturerRefs": "ME21142",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME21142",
+          "label": "MELAG MELAtrace release software | Product configurator"
+        }
+      ],
+      "categoryPath": "melatrace-time-credit-60-months",
+      "description": "Create your individual configuration for the complete documentation of the MELAtrace release software and request a personalised consultation.",
+      "sourceImageUrl": "https://shopware.melag.com/media/f4/cc/f5/1688399799/ME21142.jpg?ts=1688399799",
+      "imageUrls": "https://shopware.melag.com/media/f4/cc/f5/1688399799/ME21142.jpg?ts=1688399799",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melatrace-time-credit-60-months/me21142",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME21140",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAG MELAtrace release software | Product configurator",
+      "manufacturerRef": "ME21140",
+      "manufacturerRefs": "ME21140",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME21140",
+          "label": "MELAG MELAtrace release software | Product configurator"
+        }
+      ],
+      "categoryPath": "melatrace-time-credit-12-months",
+      "description": "Create your individual configuration for the complete documentation of the MELAtrace release software and request a personalised consultation.",
+      "sourceImageUrl": "https://shopware.melag.com/media/d7/28/fc/1688398852/ME21140.jpg?ts=1688398852",
+      "imageUrls": "https://shopware.melag.com/media/d7/28/fc/1688398852/ME21140.jpg?ts=1688398852",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melatrace-time-credit-12-months/me21140",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME21141",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAG MELAtrace release software | Product configurator",
+      "manufacturerRef": "ME21141",
+      "manufacturerRefs": "ME21141",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME21141",
+          "label": "MELAG MELAtrace release software | Product configurator"
+        }
+      ],
+      "categoryPath": "melatrace-time-credit-36-months",
+      "description": "Create your individual configuration for the complete documentation of the MELAtrace release software and request a personalised consultation.",
+      "sourceImageUrl": "https://shopware.melag.com/media/07/9a/11/1688399577/ME21141.jpg?ts=1688399577",
+      "imageUrls": "https://shopware.melag.com/media/07/9a/11/1688399577/ME21141.jpg?ts=1688399577",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melatrace-time-credit-36-months/me21141",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME20020",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAtherm 10 Evolution DTA",
+      "manufacturerRef": "ME20020",
+      "manufacturerRefs": "ME20020",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME20020",
+          "label": "MELAtherm 10 Evolution DTA"
+        }
+      ],
+      "categoryPath": "melatherm-10-evolution-dta",
+      "description": "The MELAG washer-disinfector of the Evolution series excel with convincing innovations in addition to the tried-and-tested product highlights of MELAtherm 10 – including active drying, integrated process agent intake and documentation interfaces at no additional cost. MELAtherm 10 Evolution sets new standards in operation: Its large Smart-Touch Display with helpful video tutorials makes for an intuitive operation. Moreover, take advantage of ProControl to perform a fast and paperless batch approval directly on the Smart-Touch Display. The new AquaBoost technology ensures optimal cleaning outcomes: AquaBoost makes for double rinsing pressure and up to 44 % better cleaning results. The increased pressure permits the decontamination of even more instruments.",
+      "sourceImageUrl": "https://shopware.melag.com/media/d1/5a/e5/1691750805/ME20021.jpg?ts=1691750805",
+      "imageUrls": "https://shopware.melag.com/media/d1/5a/e5/1691750805/ME20021.jpg?ts=1691750805",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melatherm-10-evolution-dta/me20020",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10021",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAtherm 10 DTB",
+      "manufacturerRef": "ME10021",
+      "manufacturerRefs": "ME10021",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10021",
+          "label": "MELAtherm 10 DTB"
+        }
+      ],
+      "categoryPath": "melatherm-10-dtb",
+      "description": "The automated cleaning and disinfection of instruments using a washer-disinfector are a prerequisite of modern instrument decontamination in practices and clinics. MELAtherm 10 has proven its quality and advantages many thousands of installations. Through the unique product highlights and the variety of baskets and accessories for different specialties MELAtherm 10 offers a significant increase in safety and efficiency.",
+      "sourceImageUrl": "https://shopware.melag.com/media/80/61/e5/1689938040/melatherm-1000x1000.jpg?ts=1689938040",
+      "imageUrls": "https://shopware.melag.com/media/80/61/e5/1689938040/melatherm-1000x1000.jpg?ts=1689938040",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melatherm-10-dtb/me10021",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME83304",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Sterile container system for dental practices: MELAstore Box Compact | MELAG",
+      "manufacturerRef": "ME83304",
+      "manufacturerRefs": "ME83304",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME83304",
+          "label": "Sterile container system for dental practices: MELAstore Box Compact | MELAG"
+        }
+      ],
+      "categoryPath": "melastore-box-compact",
+      "description": "The MELAstore Box Compact was specially developed for the instrument reprocessing with Vacuclave 105/305 to make optimum use of the chamber volume and ensure safe sterilisation and storage of medical devices until use.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/melastore-box-compact/me83304",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME09046",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Water connection set for 5 liter autoclaves",
+      "manufacturerRef": "ME09046",
+      "manufacturerRefs": "ME09046",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME09046",
+          "label": "Water connection set for 5 liter autoclaves"
+        }
+      ],
+      "categoryPath": "water-connection-set-for-5-liter-autoclaves",
+      "description": "With the connection set, your autoclave can be quickly connected to a MELAdem water treatment system for automated water supply and a siphon for automatic waste water disposal.",
+      "sourceImageUrl": "https://shopware.melag.com/media/0c/de/90/1750242694/ME09046.png?ts=1750242845",
+      "imageUrls": "https://shopware.melag.com/media/0c/de/90/1750242694/ME09046.png?ts=1750242845",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/water-connection-set-for-5-liter-autoclaves/me09046",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10118S",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuclave 118 S",
+      "manufacturerRef": "ME10118S",
+      "manufacturerRefs": "ME10118S",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10118S",
+          "label": "Vacuclave 118 S"
+        }
+      ],
+      "categoryPath": "vacuclave-118-s",
+      "description": "The Pro Line class S autoclaves offer an even cheaper alternative for practices and clinics that do not require a class B autoclave due to the instruments used. Vacuclave® 118 S even sterilizes packaged instruments with simple hollow bodies (e.g. articulated instruments such as scissors and needle holders). \"",
+      "sourceImageUrl": "https://shopware.melag.com/media/4a/14/f8/1688463184/ME10118.png?ts=1688463184",
+      "imageUrls": "https://shopware.melag.com/media/4a/14/f8/1688463184/ME10118.png?ts=1688463184",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuclave-118-s/me10118s",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10123S",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuclave 123 S",
+      "manufacturerRef": "ME10123S",
+      "manufacturerRefs": "ME10123S",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10123S",
+          "label": "Vacuclave 123 S"
+        }
+      ],
+      "categoryPath": "vacuclave-123-s",
+      "description": "The Pro Line class S autoclaves offer an even cheaper alternative for practices and clinics that do not require a class B autoclave due to the instruments used. Vacuclave® 123 S even sterilizes packaged instruments with simple hollow bodies (e.g. articulated instruments such as scissors and needle holders).",
+      "sourceImageUrl": "https://shopware.melag.com/media/4a/14/f8/1688463184/ME10118.png?ts=1688463184",
+      "imageUrls": "https://shopware.melag.com/media/4a/14/f8/1688463184/ME10118.png?ts=1688463184",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuclave-123-s/me10123s",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10023",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAtronic 23",
+      "manufacturerRef": "ME10023",
+      "manufacturerRefs": "ME10023",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10023",
+          "label": "MELAtronic 23"
+        }
+      ],
+      "categoryPath": "melatronic-23",
+      "description": "The MELAtronic 23 is the high-performance standard steam sterilizer for veterinary clinics.",
+      "sourceImageUrl": "https://shopware.melag.com/media/03/3d/a4/1669296409/ME10023.png?ts=1669296409",
+      "imageUrls": "https://shopware.melag.com/media/03/3d/a4/1669296409/ME10023.png?ts=1669296409",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melatronic-23/me10023",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10081",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuklav 41 B+ Evolution",
+      "manufacturerRef": "ME10081",
+      "manufacturerRefs": "ME10081",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10081",
+          "label": "Vacuklav 41 B+ Evolution"
+        }
+      ],
+      "categoryPath": "vacuklav-41-b-evolution",
+      "description": "Quick, easy-to-use and stand-alone – now with DRYtelligence This high-performance practice steam sterilizer brings the same record operating times as the almost identical Vacuklav 40 B+ Evolution. Its innovative double chamber technology means the sterilization and drying of unwrapped instruments in only 10 minutes; wrapped instruments in a Class-B program require no more than 20 minutes. Both times include fractionated pre-vacuum and drying. The intelligent drying system DRYtelligence uses especially-developed algorithms to adapt the drying to the load in order to shorten the operating times even further and save resources. The Vacuklav 41 B+ Evolution is fitted with an effective air-cooling system, making it into a true stand-alone steam sterilizer as it requires no connections other than to the electricity supply.",
+      "sourceImageUrl": "https://shopware.melag.com/media/8f/60/cb/1671189363/microsoftteams-image_87.png?ts=1671189363",
+      "imageUrls": "https://shopware.melag.com/media/8f/60/cb/1671189363/microsoftteams-image_87.png?ts=1671189363",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuklav-41-b-evolution/me10081",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10083",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuklav 43 B+ Evolution",
+      "manufacturerRef": "ME10083",
+      "manufacturerRefs": "ME10083",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10083",
+          "label": "Vacuklav 43 B+ Evolution"
+        }
+      ],
+      "categoryPath": "vacuklav-43-b-evolution",
+      "description": "Premium, large and stand-alone – now with DRYtelligence The high-performance air-cooling of the Vacuklav 43 B+ Evolution makes it ideally-suited for all practices seeking a quick, large and high-performance practice steam sterilizer without a fitted water connection. A deeper sterilization chamber (45 cm) allows the acceptance of longer instrument sets than the otherwise identical Vacuklav 41 B+ Evolution permits. Very short operating times enable the use of this innovative steam sterilizer in practices seeking to decontaminate a large number of instruments in a short time. The intelligent drying system DRYtelligence uses especially-developed algorithms to adapt the drying to the load in order to shorten the operating times even further and save resources. This means that even partial loads can be decontaminated without wasting resources.",
+      "sourceImageUrl": "https://shopware.melag.com/media/d9/de/bb/1657812966/43_frontal_freigestellt-01.jpg?ts=1657812966",
+      "imageUrls": "https://shopware.melag.com/media/d9/de/bb/1657812966/43_frontal_freigestellt-01.jpg?ts=1657812966",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuklav-43-b-evolution/me10083",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10084",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuklav 44 B+ Evolution",
+      "manufacturerRef": "ME10084",
+      "manufacturerRefs": "ME10084",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10084",
+          "label": "Vacuklav 44 B+ Evolution"
+        }
+      ],
+      "categoryPath": "vacuklav-44-b-evolution",
+      "description": "The power-autoclave for large practices and clinics – new with DRYtelligence The larger sterilization chamber (45 cm, volume 22 l) and the water-cooled vacuum pump make the Vacuklav 44 B+ the ideal steam sterilizer for all those practices seeking to sterilize a large quantity of instruments in a short time. 20 minutes in Quick-Program “B” for the sterilization of wrapped instruments. 10 minutes in Quick-Program “S” for the sterilization of unwrapped instruments. Both times include fractionated pre-vacuum and drying. Safe sterilization and drying of a load of up to 9 kg. The unique algorithms of our intelligent drying system DRYtelligence permit the shortest possible drying time whatever the load size.",
+      "sourceImageUrl": "https://shopware.melag.com/media/69/d9/cc/1657812852/44b_frontal_geschlossen_freigestellt_01_en.jpg?ts=1657812852",
+      "imageUrls": "https://shopware.melag.com/media/69/d9/cc/1657812852/44b_frontal_geschlossen_freigestellt_01_en.jpg?ts=1657812852",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuklav-44-b-evolution/me10084",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME22922",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Mount Universal (long)",
+      "manufacturerRef": "ME22922",
+      "manufacturerRefs": "ME22922",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME22922",
+          "label": "Mount Universal (long)"
+        }
+      ],
+      "categoryPath": "mount-universal-long",
+      "description": "The Universal holder offers optimum flexibility for combining loads from MELAstore boxes as well as up to 6 trays and 2 narrow trays. Specially designed for use with Vacuklav 43 / 44 B+ Evolution, it is the ideal solution for versatile requirements in the sterilization environment.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/mount-universal-long/me22922",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME22921",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Mount Universal (short)",
+      "manufacturerRef": "ME22921",
+      "manufacturerRefs": "ME22921",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME22921",
+          "label": "Mount Universal (short)"
+        }
+      ],
+      "categoryPath": "mount-universal-short",
+      "description": "The Universal holder offers optimum flexibility for combining loads from MELAstore boxes as well as up to 6 trays and 2 narrow trays. Specially designed for use with Careclave and Vacuklav 40 / 41 B+ Evolution, it is the ideal solution for versatile requirements in the sterilization environment.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/mount-universal-short/me22921",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01189",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAstore Tray Ophthalmology",
+      "manufacturerRef": "ME01189",
+      "manufacturerRefs": "ME01189",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01189",
+          "label": "MELAstore Tray Ophthalmology"
+        }
+      ],
+      "categoryPath": "melastore-tray-ophthalmology",
+      "description": "Optimize the instrument reprocessing in your ophthalmological practice or clinic with the MELAstore Tray Ophthalmology. Specifically designed for the demanding requirements of ophthalmology, the MELAstore Tray ensures maximum efficiency and safety throughout the reprocessing of your cataract surgery sets.Flexible and secure: The MELAstore Tray consists of an upper and a lower basket, equipped with flexible, positionable silicone supports. These guarantee a secure hold for both rigid and articulated instruments.Effective cleaning: The lower basket features an injection rail and versatile connections to ensure reliable cleaning and disinfection of your complex hollow instruments (e.g., phaco, irrigation, and suction handpieces).Time-saving: Instruments are inserted directly into the silicone supports after the procedure, significantly speeding up preparation and reprocessing through a standardised process.Space-saving: Up to 6 or 8 MELAstore Trays Ophthalmology can be space-efficiently placed in the universal holder of the MELAtherm 10 or MELAtherm 20 and optimally adapted for cleaning and disinfection.Protection against recontamination: After cleaning and disinfection, the upper and lower baskets are combined into a set and packed in a MELAstore Box 200. The integrated filter protects the instrument set from recontamination during storage.The MELAstore Tray Ophthalmology is only compatible with the MELAtherm 10 base basket with injection rail and plastic central filter (Art.-Nr. ME80440) or the Cleanfinity Pro (Art.-Nr. ME84650) central filter of the MELAtherm 20.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/melastore-tray-ophthalmology/me01189",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10046LLS",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Cliniclave 45 D",
+      "manufacturerRef": "ME10046LLS",
+      "manufacturerRefs": "ME10046LLS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10046LLS",
+          "label": "Cliniclave 45 D"
+        }
+      ],
+      "categoryPath": "cliniclave-45-d",
+      "description": "Innovative double door large steam sterilizer (1 STU) with DRYtelligence® technology Decades of experience in developing solutions for instrument reprocessing lead to the most innovative large steam sterilizers: the Cliniclave-Series! The world-beating MELAG quality made in Germany means that Cliniclave 45 D outperforms many other large autoclaves. The sterilization of larger quantities of instruments and textiles and their quick availability is one of the most important requirements in practices, clinics and hospitals. The large steam sterilizer Cliniclave 45 D has the capacity of one sterilization unit (STU) to accommodate up to 35 kg of wrapped instruments. The combination of extremely short operation times with our intelligent drying system DRYtelligence® guarantees the best- possible sterilization outcomes. The patented double jacket technology of Cliniclave 45 D makes for record B-Class sterilization in 31 minutes (including drying). The pass-through technology of Cliniclave 45 D has been designed for clinics employing a multi- room concept. Fitted with a door on both the loading and removal sides, the concept of this large steam sterilizer ensures maximum safety using stream-lined working practices. The new XXL colour-touch display of Cliniclave 45 D permits easy batch approval; a CF card slot and two network interfaces enables you to choose from a range of different methods of storing log files.",
+      "sourceImageUrl": "https://shopware.melag.com/media/b3/63/12/1675181167/45d-frontal_freigestellt_0_0.jpg?ts=1675181167",
+      "imageUrls": "https://shopware.melag.com/media/b3/63/12/1675181167/45d-frontal_freigestellt_0_0.jpg?ts=1675181167",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/cliniclave-45-d/me10046lls",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10048LS",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Cliniclave 45 M",
+      "manufacturerRef": "ME10048LS",
+      "manufacturerRefs": "ME10048LS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10048LS",
+          "label": "Cliniclave 45 M"
+        }
+      ],
+      "categoryPath": "cliniclave-45-m",
+      "description": "Innovative large steam sterilizer (1 STU) with DRYtelligence® technology Decades of experience in developing solutions for instrument reprocessing lead to the most innovative large steam sterilizers: the Cliniclave-Series! The world-beating MELAG quality made in Germany means that Cliniclave 45 M outperforms many other large autoclaves. The sterilization of larger quantities of instruments and textiles and their quick availability is one of the most important requirements in practices, clinics and hospitals. The large steam sterilizer Cliniclave 45 M has the capacity of two sterilization units (STU) to accommodate up to 70 kg of wrapped instruments. The combination of extremely short operation times with our intelligent drying system DRYtelligence® guarantees the best- possible sterilization outcomes. The patented double jacket technology of Cliniclave 45 M makes for record B-Class sterilization in 38 minutes (including drying). The new XXL colour-touch display of Cliniclave 45 M and the versatile interface concept permits easy batch documentation and approval. Benefit from a CF card slot and two network interfaces to store the log files automatically.",
+      "sourceImageUrl": "https://shopware.melag.com/media/a4/35/d4/1675181502/45m-frontal_freigestellt_1_0_0.jpg?ts=1675181502",
+      "imageUrls": "https://shopware.melag.com/media/a4/35/d4/1675181502/45m-frontal_freigestellt_1_0_0.jpg?ts=1675181502",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/cliniclave-45-m/me10048ls",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10049LLS",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Cliniclave 45 MD",
+      "manufacturerRef": "ME10049LLS",
+      "manufacturerRefs": "ME10049LLS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10049LLS",
+          "label": "Cliniclave 45 MD"
+        }
+      ],
+      "categoryPath": "cliniclave-45-md",
+      "description": "Innovative double door large steam sterilizer (2 STU) with DRYtelligence® technology Decades of experience in developing solutions for instrument reprocessing lead to the most innovative large steam sterilizers: the Cliniclave-Series! The world-beating MELAG quality made in Germany means that Cliniclave 45 MD outperforms many other large autoclaves. The sterilization of larger quantities of instruments and textiles and their quick availability is one of the most important requirements in practices, clinics and hospitals. The large steam sterilizer Cliniclave 45 MD has the capacity of two sterilization units (STU) to accommodate up to 70 kg of wrapped instruments. The combination of extremely short operation times with our intelligent drying system DRYtelligence® guarantees the best- possible sterilization outcomes. The patented double jacket technology of Cliniclave 45 MD makes for record B-Class sterilization in 40 minutes (including drying). The pass-through technology of Cliniclave 45 MD has been designed for clinics employing a multi-room concept. Fitted with a door on both the loading and removal sides, the concept of this large steam sterilizer ensures maximum safety using stream-lined working practices. The new XXL colour-touch display of Cliniclave 45 MD permits easy batch approval; a CF card slot and two network interfaces enables you to choose from a range of different methods of storing log files.",
+      "sourceImageUrl": "https://shopware.melag.com/media/64/4a/c2/1675181234/45md-frontal_freigestellt_0_0.jpg?ts=1675181234",
+      "imageUrls": "https://shopware.melag.com/media/64/4a/c2/1675181234/45md-frontal_freigestellt_0_0.jpg?ts=1675181234",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/cliniclave-45-md/me10049lls",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01146",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Loading trolley for Cliniclave 45",
+      "manufacturerRef": "ME01146",
+      "manufacturerRefs": "ME01146",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01146",
+          "label": "Loading trolley for Cliniclave 45"
+        }
+      ],
+      "categoryPath": "loading-trolley-for-cliniclave-45",
+      "description": "For the ergonomic loading and unloading of the Cliniclave. To be used in conjunction with the loading system (consisting of a sliding rail \"Comfort\", batch slider and a push hook). *No containers are included in the scope of delivery.",
+      "sourceImageUrl": "https://shopware.melag.com/media/98/3d/69/1764929926/ME01146.png?ts=1764929926",
+      "imageUrls": "https://shopware.melag.com/media/98/3d/69/1764929926/ME01146.png?ts=1764929926",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/loading-trolley-for-cliniclave-45/me01146",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01089",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcontrol Ink Test",
+      "manufacturerRef": "ME01089",
+      "manufacturerRefs": "ME01089",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01089",
+          "label": "MELAcontrol Ink Test"
+        }
+      ],
+      "categoryPath": "melacontrol-ink-test",
+      "description": "The ink test is a reliable testing device for the weekly control of sealing seams for tightness according to DIN EN ISO 11607-1 and ASTM F1929-12. The ink required for the test is contained in a practical disposable bag. The MELAcontrol Ink Test is sealed in a transparent sterilization packaging. The ink is then squeezed out of the pouch inside the packaging. With the ink now on the sealed seams, the seams on all four sides of the package can be precisely inspected. Irregularities, flaws or channels in the sealing seams quickly become visible. The ink test is particularly suitable for testing bags with side gussets.",
+      "sourceImageUrl": "https://shopware.melag.com/media/c7/c8/15/1669299018/ME01089.png?ts=1669299018",
+      "imageUrls": "https://shopware.melag.com/media/c7/c8/15/1669299018/ME01089.png?ts=1669299018",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melacontrol-ink-test/me01089",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME00118",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Working table Comfort",
+      "manufacturerRef": "ME00118",
+      "manufacturerRefs": "ME00118",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME00118",
+          "label": "Working table Comfort"
+        }
+      ],
+      "categoryPath": "working-table-comfort",
+      "description": "The work table \"comfort\" with easy-running casters for the quick transport of heavy individual instruments and containers.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.melag.com/en/working-table-comfort/me00118",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "ME00142",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Reel dispenser for MELAseal 300",
+      "manufacturerRef": "ME00142",
+      "manufacturerRefs": "ME00142",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME00142",
+          "label": "Reel dispenser for MELAseal 300"
+        }
+      ],
+      "categoryPath": "reel-dispenser-for-melaseal-300",
+      "description": "The Flex roll holder is the ideal addition to your MELAseal 300 continuous sealing device. It ensures efficient, ergonomic, and clean working when preparing the packaging process. The roll holder is flexible in use and can either be placed on the work surface or mounted on the wall to save space. This means it fits perfectly into any practice or clinic environment and offers convenient storage for various film rolls. Thanks to the integrated cutting device, the rolls can be cut to the required length effortlessly and precisely. This allows you to prepare your instruments quickly and safely for the subsequent sealing process. Dimensions (WxHxD): 50.5 × 20 × 27 cm Compatible with: MELAseal 300 and MELAseal Pro Mounting: Tabletop or wall mounting The Flex roll holder – for order, efficiency, and perfect workflows in instrument reprocessing.",
+      "sourceImageUrl": "https://shopware.melag.com/media/6c/a8/64/1761735278/ME00142.png?ts=1761735278",
+      "imageUrls": "https://shopware.melag.com/media/6c/a8/64/1761735278/ME00142.png?ts=1761735278",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/reel-dispenser-for-melaseal-300/me00142",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10012",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAquick 12+",
+      "manufacturerRef": "ME10012",
+      "manufacturerRefs": "ME10012",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10012",
+          "label": "MELAquick 12+"
+        }
+      ],
+      "categoryPath": "melaquick-12",
+      "description": "A compact quick steam sterilizer achieving record operating times for hand pieces and turbines Transmission instruments need to be decontaminated after patient treatment in a reliable sterilization process. Operating in a cost and time-efficient manner, the compact quick steam sterilizers of the MELAquick series operate in compliance with international hygiene standards. Up to 12 hand pieces and turbines, prophylactic or other instruments (up to 20 cm) can be reprocessed in only 7 minutes. The quick sterilization cycles enable you to reduce your stock of transmission instruments to a minimum. The steam sterilizer MELAquick 12+ requires a compressed air supply to ensure an efficient and standard-compliant drying process. An optional water treatment unit of the MELAdem series facilitates the workflows in your practice or clinic. The water treatment unit directly supplies quick steam sterilizer MELAquick 12+ with demineralized water. MELAG provides a variety of accessories for the documentation, batch approval and traceability of the sterilization process. Choose from the MELAprint 44 protocol printer; MELAflash CF card printer; MELAnet-Box for network connection and MELAtrace software for the complete approval, labelling and tracing of the entire instrument reprocessing procedure.",
+      "sourceImageUrl": "https://shopware.melag.com/media/63/56/c6/1675180870/sk_mq12_0.jpg?ts=1675180870",
+      "imageUrls": "https://shopware.melag.com/media/63/56/c6/1675180870/sk_mq12_0.jpg?ts=1675180870",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melaquick-12/me10012",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME10323",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Vacuclave 323",
+      "manufacturerRef": "ME10323",
+      "manufacturerRefs": "ME10323",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10323",
+          "label": "Vacuclave 323"
+        }
+      ],
+      "categoryPath": "vacuclave-323",
+      "description": "The MELAG price-performance champion: Offers more, needs less! Whether loading, sterilization or documentation - the new Prime Line autoclave with a chamber volume of 23 liters offers a price-performance ratio that stands up any comparison: So you not only sterilize more instruments in less time, but also save a lot of money. And all this in the MELAG quality - made in Germany, that you know and love from the proven predecessor models of the Pro-Class. The MELAG price-performance champion: Vacuclave 323 combines the Pro Line product highlights with further innovations for more performance, for outstanding drying results and for complete traceability.",
+      "sourceImageUrl": "https://shopware.melag.com/media/3d/69/60/1688549563/ME10323.jpg?ts=1688549563",
+      "imageUrls": "https://shopware.melag.com/media/3d/69/60/1688549563/ME10323.jpg?ts=1688549563",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/vacuclave-323/me10323",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "ME01144",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAprint 44",
+      "manufacturerRef": "ME01144",
+      "manufacturerRefs": "ME01144",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01144",
+          "label": "MELAprint 44"
+        }
+      ],
+      "categoryPath": "melaprint-44",
+      "description": "Sterilization logs of the following steam sterilizers can be recorded very simply with the MELAprint 44, namely the Pro-Class, the S-Class (Euroklav), the MELAtronic EN and the Cliniklav 25. It is ideal for the practice or hospital that needs or wants a direct print-out. An additional network adapter (Art. No. 40295) is necessary to connect the MELAprint 44 to the steam sterilizers of the Premium-Class or to the Vacuquick and the MELAtherm washer disinfector.",
+      "sourceImageUrl": "https://shopware.melag.com/media/43/b7/b6/1669298785/ME01144.png?ts=1669298785",
+      "imageUrls": "https://shopware.melag.com/media/43/b7/b6/1669298785/ME01144.png?ts=1669298785",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melaprint-44/me01144",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    }
+  ]
+}

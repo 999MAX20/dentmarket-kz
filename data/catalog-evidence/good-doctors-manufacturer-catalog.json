@@ -1,0 +1,1001 @@
+{
+  "brand": "Good Doctors",
+  "manufacturer": "Good Doctors Co., Ltd.",
+  "sourceType": "MANUFACTURER_PRODUCT_SITEMAP",
+  "sourceUrl": "https://www.gooddrs.de/sitemap.xml",
+  "lastChecked": "2026-07-22",
+  "totals": {
+    "discoveredProducts": 41,
+    "crawledProducts": 41,
+    "productsWithReferences": 41,
+    "productsWithImages": 41,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "GOOD-DOCTORS-IC-DCAU71",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Dr’s cam (Wired)",
+      "manufacturerRef": "IC-DCAU71",
+      "manufacturerRefs": "IC-DCAU71",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "IC-DCAU71",
+          "label": "Dr’s cam (Wired)"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/1-29.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/1-29.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/drs-cam-kabelgebunden",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/drs-cam-kabelgebunden/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-DIRECT-M-IC-WM-",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Wirelesspack for Whicam M & Inspire",
+      "manufacturerRef": "Direct M (IC-WM)",
+      "manufacturerRefs": "Direct M (IC-WM)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Direct M (IC-WM)",
+          "label": "Wirelesspack for Whicam M & Inspire"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Wirelesspack um die Metall-Kameras (Whicam M oder Inspire) drahtlos zu machen. Vebindungsaufbau innerhalb von Sekunden und Störungsfrei.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Inspire-mit-Ladestation.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Inspire-mit-Ladestation.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/wireless-pack-fuer-inspire-oder-whicam-m",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/wireless-pack-fuer-inspire-oder-whicam-m/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-IC-AD",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Receiver Direct V",
+      "manufacturerRef": "IC-AD",
+      "manufacturerRefs": "IC-AD",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "IC-AD",
+          "label": "Receiver Direct V"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/air-direct.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/air-direct.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/produkte/receiver-direct-v-fuer-air-direct-kameras/",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/receiver-direct-v-fuer-air-direct-kameras/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-CL-DP40",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Dr’s Light PRIME",
+      "manufacturerRef": "CL-DP40",
+      "manufacturerRefs": "CL-DP40",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "CL-DP40",
+          "label": "Dr’s Light PRIME"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Curingligthprime-2.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Curingligthprime-2.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/drs-light-prime-2",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/drs-light-prime-2/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-IC-DCAM70",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Dr’s Cam Air",
+      "manufacturerRef": "IC-DCAM70",
+      "manufacturerRefs": "IC-DCAM70",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "IC-DCAM70",
+          "label": "Dr’s Cam Air"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/dcam70-3-ad-copy-1.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/dcam70-3-ad-copy-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/drs-cam-air-2",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/drs-cam-air-2/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-IC-WHT60",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Kabellose Freiheit mit der Whicam AIR",
+      "manufacturerRef": "IC-WHT60",
+      "manufacturerRefs": "IC-WHT60",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "IC-WHT60",
+          "label": "Kabellose Freiheit mit der Whicam AIR"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Wireless freedom with the Whicam AIR. Thanks to its own developed WLAN, the Whicam runs smoothly in all rooms without interference.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Whicam-AIR-01-copy.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Whicam-AIR-01-copy.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/whicam-air",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/whicam-air/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-IC-WHW61",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Whicam Story3 CS (Wired)",
+      "manufacturerRef": "IC-WHW61",
+      "manufacturerRefs": "IC-WHW61",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "IC-WHW61",
+          "label": "Whicam Story3 CS (Wired)"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/1-28.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/1-28.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/whicam-story-3-kabelgebunden",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/whicam-story-3-kabelgebunden/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-DR-S-FINDER-PART-NO-AL01006010-DR-S-FINDER-NEO-PART-NO-AL02006010",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Calibration jig",
+      "manufacturerRef": "Dr's Finder - Part No. AL01006010 Dr's Finder Neo - Part No. AL02006010",
+      "manufacturerRefs": "Dr's Finder - Part No. AL01006010 Dr's Finder Neo - Part No. AL02006010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Dr's Finder - Part No. AL01006010 Dr's Finder Neo - Part No. AL02006010",
+          "label": "Calibration jig"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Kalibrierungsstick-fuer-DrsFinder-NEO.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Kalibrierungsstick-fuer-DrsFinder-NEO.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/kalibrierungs-jig-fuer-drsfinder",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/kalibrierungs-jig-fuer-drsfinder/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-PART-NO-AL01002010",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Probe cord for Dr’s Finder",
+      "manufacturerRef": "Part No. AL01002010",
+      "manufacturerRefs": "Part No. AL01002010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Part No. AL01002010",
+          "label": "Probe cord for Dr’s Finder"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/DrsFinder-Messkabel-1.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/DrsFinder-Messkabel-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/messkabel-fuer-drsfinder",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/messkabel-fuer-drsfinder/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-PART-NO-AL02002020",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Probe cord for Dr’s Finder Neo",
+      "manufacturerRef": "Part No. AL02002020",
+      "manufacturerRefs": "Part No. AL02002020",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Part No. AL02002020",
+          "label": "Probe cord for Dr’s Finder Neo"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Messkabel-DrsFinder-NEO-1.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Messkabel-DrsFinder-NEO-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/messkabel-fuer-drsfinder-neo",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/messkabel-fuer-drsfinder-neo/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-PART-NO-AL01004010",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "File hook for Drs´Finder",
+      "manufacturerRef": "Part No. AL01004010",
+      "manufacturerRefs": "Part No. AL01004010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Part No. AL01004010",
+          "label": "File hook for Drs´Finder"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Feilenclip-1.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Feilenclip-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/feilenclip-fuer-drsfinder",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/feilenclip-fuer-drsfinder/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-PART-NO-AL01004010",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Lip hook for DrsFinder",
+      "manufacturerRef": "Part No. AL01004010",
+      "manufacturerRefs": "Part No. AL01004010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Part No. AL01004010",
+          "label": "Lip hook for DrsFinder"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Lip-Hook-1.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Lip-Hook-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/schleimhaut-elektrode-fuer-drsfinder",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/schleimhaut-elektrode-fuer-drsfinder/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-WHITE-PART-NO-AL01005010-BLACK-PART-NO-AL02005010",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Stand for Drs´Finder",
+      "manufacturerRef": "White - Part No. AL01005010 Black - Part No. AL02005010",
+      "manufacturerRefs": "White - Part No. AL01005010 Black - Part No. AL02005010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "White - Part No. AL01005010 Black - Part No. AL02005010",
+          "label": "Stand for Drs´Finder"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Stand-1.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Stand-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/staender-fuer-drs-finder",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/staender-fuer-drs-finder/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-ARTIKEL-NR-AL02005020",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Ruler for DrsFinder NEO",
+      "manufacturerRef": "Artikel Nr.: AL02005020",
+      "manufacturerRefs": "Artikel Nr.: AL02005020",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Artikel Nr.: AL02005020",
+          "label": "Ruler for DrsFinder NEO"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/FIngerhalter-1.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/FIngerhalter-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/fingerhalter-fuer-drsfinder-neo",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/fingerhalter-fuer-drsfinder-neo/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-PART-NO-CL02001010",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Battery for Clever & AT",
+      "manufacturerRef": "Part No. CL02001010",
+      "manufacturerRefs": "Part No. CL02001010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Part No. CL02001010",
+          "label": "Battery for Clever & AT"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/AT-Battery-1.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/AT-Battery-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/batterie-fuer-drs-light-at-clever",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/batterie-fuer-drs-light-at-clever/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-PART-NO-CL02002020",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Guide-cap",
+      "manufacturerRef": "Part No. CL02002020",
+      "manufacturerRefs": "Part No. CL02002020",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Part No. CL02002020",
+          "label": "Guide-cap"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Guide-Cap-2.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Guide-Cap-2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/guide-cap",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/guide-cap/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-LARGE-PART-NO-CL01005010-MINI-PART-NO-CL01005020",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Anti-glare plate",
+      "manufacturerRef": "Large - Part No. CL01005010 Mini - Part No. CL01005020",
+      "manufacturerRefs": "Large - Part No. CL01005010 Mini - Part No. CL01005020",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Large - Part No. CL01005010 Mini - Part No. CL01005020",
+          "label": "Anti-glare plate"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/HandSchutzSchild.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/HandSchutzSchild.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/hand-schutzschild",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/hand-schutzschild/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-PART-NO-CL01001010",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Battery for Dr’s Light G",
+      "manufacturerRef": "Part No. CL01001010",
+      "manufacturerRefs": "Part No. CL01001010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Part No. CL01001010",
+          "label": "Battery for Dr’s Light G"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Battery-Drslight-1.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Battery-Drslight-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/batterie-fuer-drs-light-g",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/batterie-fuer-drs-light-g/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-PART-NO-CL01004010",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Anti-glare cone",
+      "manufacturerRef": "Part No. CL01004010",
+      "manufacturerRefs": "Part No. CL01004010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Part No. CL01004010",
+          "label": "Anti-glare cone"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Anti-Clare-Cone-1.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Anti-Clare-Cone-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/anti-glare-cone",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/anti-glare-cone/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-PART-NO-CL03002011",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Soft Lens for Dr’s Light2",
+      "manufacturerRef": "Part No. CL03002011",
+      "manufacturerRefs": "Part No. CL03002011",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Part No. CL03002011",
+          "label": "Soft Lens for Dr’s Light2"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Soft-Lense-1.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Soft-Lense-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/soft-linse-fuer-drs-light2",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/soft-linse-fuer-drs-light2/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-PART-NO-CL03001010",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Battery for Dr’s Light 2",
+      "manufacturerRef": "Part No. CL03001010",
+      "manufacturerRefs": "Part No. CL03001010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Part No. CL03001010",
+          "label": "Battery for Dr’s Light 2"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Batterie-DRSLIGHT2-3.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Batterie-DRSLIGHT2-3.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/batterie-fuer-drs-light-2",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/batterie-fuer-drs-light-2/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-FOR-ALL-CURING-LIGHTS",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Anti-glare shield",
+      "manufacturerRef": "For all curing lights",
+      "manufacturerRefs": "For all curing lights",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "For all curing lights",
+          "label": "Anti-glare shield"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Anti-Glare-Plate-1.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Anti-Glare-Plate-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/schutzschild",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/schutzschild/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-HOLDER-FOR-ALL-WIRED-CAMERAS-EXCEPT-WHICAM-M-INSPIRE",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Cradle",
+      "manufacturerRef": "Holder for all wired cameras except WHICAM M/INSPIRE",
+      "manufacturerRefs": "Holder for all wired cameras except WHICAM M/INSPIRE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Holder for all wired cameras except WHICAM M/INSPIRE",
+          "label": "Cradle"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Halter-intraorale-Kamera.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Halter-intraorale-Kamera.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/kamera-halter",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/kamera-halter/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-PART-NO-IC06003010",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Receiver",
+      "manufacturerRef": "Part No. IC06003010",
+      "manufacturerRefs": "Part No. IC06003010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Part No. IC06003010",
+          "label": "Receiver"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Receiver-Whicam3.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Receiver-Whicam3.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/receiver-drahtlose-kameras",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/receiver-drahtlose-kameras/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-FOR-ALL-CAMERAS-EXCEPT-INSPIRE-WHICAM-M",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "USB Cable",
+      "manufacturerRef": "For all cameras except INSPIRE/WHICAM M",
+      "manufacturerRefs": "For all cameras except INSPIRE/WHICAM M",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "For all cameras except INSPIRE/WHICAM M",
+          "label": "USB Cable"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/EZ-SHOT-USB-KABEL-1.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/EZ-SHOT-USB-KABEL-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/usb-kabel-kamera",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/usb-kabel-kamera/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-IC09005010",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Cradle (metal)",
+      "manufacturerRef": "IC09005010",
+      "manufacturerRefs": "IC09005010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "IC09005010",
+          "label": "Cradle (metal)"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Kamera-Halter-1.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Kamera-Halter-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/kamera-halter-metall-kamera",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/kamera-halter-metall-kamera/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-IC10006010",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Silicon cap",
+      "manufacturerRef": "IC10006010",
+      "manufacturerRefs": "IC10006010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "IC10006010",
+          "label": "Silicon cap"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Abstandshalter-intraoral-Kamera-1.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Abstandshalter-intraoral-Kamera-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/abstandshalter",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/abstandshalter/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-INSPIRE-UND-WHICAM-M",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "USB cable (metal)",
+      "manufacturerRef": "Inspire und Whicam M",
+      "manufacturerRefs": "Inspire und Whicam M",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Inspire und Whicam M",
+          "label": "USB cable (metal)"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/3Meter-Whicam-M-1.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/3Meter-Whicam-M-1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/usb-kabel-metall-kameras",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/usb-kabel-metall-kameras/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-USE-WITH-ALL-OF-INTRAORAL-CAMERA-CURING-LIGHT",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Disposable cover",
+      "manufacturerRef": "Use with all of intraoral camera, Curing light",
+      "manufacturerRefs": "Use with all of intraoral camera, Curing light",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Use with all of intraoral camera, Curing light",
+          "label": "Disposable cover"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Disposable-cover-1.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Disposable-cover-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/schutzhuellen-fuer-intraorale-kamera",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/schutzhuellen-fuer-intraorale-kamera/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-8MM-PART-NO-CL01002010-11MM-PART-NO-CL01002020-3-3MM-PART-NO-CL01002030",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Guide tip",
+      "manufacturerRef": "8mm - Part No. CL01002010 11mm - Part No. CL01002020 3.3mm - Part No. CL01002030",
+      "manufacturerRefs": "8mm - Part No. CL01002010 11mm - Part No. CL01002020 3.3mm - Part No. CL01002030",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "8mm - Part No. CL01002010 11mm - Part No. CL01002020 3.3mm - Part No. CL01002030",
+          "label": "Guide tip"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/Lichtleiter-2.jpg",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/Lichtleiter-2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/lichtleiter",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/lichtleiter/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-IC-EZAU81",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Ez SHOT HD (wired)",
+      "manufacturerRef": "IC-EZAU81",
+      "manufacturerRefs": "IC-EZAU81",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "IC-EZAU81",
+          "label": "Ez SHOT HD (wired)"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/1-8.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/1-8.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/ez-shot-hd-intraorale-kamera",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/ez-shot-hd-intraorale-kamera/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-IC-EZAM80",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "EZ-SHOT HD Wireless",
+      "manufacturerRef": "IC-EZAM80",
+      "manufacturerRefs": "IC-EZAM80",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "IC-EZAM80",
+          "label": "EZ-SHOT HD Wireless"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/2-5.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/2-5.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/ez-shot-hd-wireless",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/ez-shot-hd-wireless/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-IC-WHCD100",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Inspire",
+      "manufacturerRef": "IC-WHCD100",
+      "manufacturerRefs": "IC-WHCD100",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "IC-WHCD100",
+          "label": "Inspire"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/2021/05/whicam-m-gooddrs_orig.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/2021/05/whicam-m-gooddrs_orig.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/inspire",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/inspire/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-IC-WHT-60",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Wireless Whicam Story 3",
+      "manufacturerRef": "IC-WHT-60",
+      "manufacturerRefs": "IC-WHT-60",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "IC-WHT-60",
+          "label": "Wireless Whicam Story 3"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Mit der drahtlosen WhicamStory3 brauchen Sie nur eine Kamera für die komplette Praxis. Gestochen scharfe Bilder dank eingebauter Flüssiglinse",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/2021/05/1.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/2021/05/1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/produkte/wireless-whicam-story-3/",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/wireless-whicam-story-3/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-IC-WHMA90",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Whicam M",
+      "manufacturerRef": "IC-WHMA90",
+      "manufacturerRefs": "IC-WHMA90",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "IC-WHMA90",
+          "label": "Whicam M"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/1-3-e1630059090598.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/1-3-e1630059090598.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/whicam-m",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/whicam-m/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-AL-DFA20",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Dr’s Finder NEO",
+      "manufacturerRef": "AL-DFA20",
+      "manufacturerRefs": "AL-DFA20",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AL-DFA20",
+          "label": "Dr’s Finder NEO"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/1-24.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/1-24.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/drs-finder-neo",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/drs-finder-neo/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-CL-DC20",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Dr’s Light Clever",
+      "manufacturerRef": "CL-DC20",
+      "manufacturerRefs": "CL-DC20",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "CL-DC20",
+          "label": "Dr’s Light Clever"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/1-17.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/1-17.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/drs-light-clever",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/drs-light-clever/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-CL-DLT30",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Drs Light 2",
+      "manufacturerRef": "CL-DLT30",
+      "manufacturerRefs": "CL-DLT30",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "CL-DLT30",
+          "label": "Drs Light 2"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/1-21.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/1-21.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/drs-light-2",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/drs-light-2/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-CL-DL10",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Dr´s Light G",
+      "manufacturerRef": "CL-DL10",
+      "manufacturerRefs": "CL-DL10",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "CL-DL10",
+          "label": "Dr´s Light G"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/1-13.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/1-13.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/drs-light-g",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/drs-light-g/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-CL-AT24",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Dr’s Light AT",
+      "manufacturerRef": "CL-AT24",
+      "manufacturerRefs": "CL-AT24",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "CL-AT24",
+          "label": "Dr’s Light AT"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/1-19.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/1-19.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/drs-light-at",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/drs-light-at/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GOOD-DOCTORS-AL-DF10",
+      "brand": "Good Doctors",
+      "manufacturer": "Good Doctors Co., Ltd.",
+      "name": "Dr’s Finder",
+      "manufacturerRef": "AL-DF10",
+      "manufacturerRefs": "AL-DF10",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AL-DF10",
+          "label": "Dr’s Finder"
+        }
+      ],
+      "categoryPath": "Intraorale Kameras",
+      "description": "Good Doctors Ihr Partner für Intraorale Kameras und Kleingeräte.",
+      "sourceImageUrl": "https://www.gooddrs.de/wp-content/uploads/2-15.png",
+      "imageUrls": "https://www.gooddrs.de/wp-content/uploads/2-15.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.gooddrs.de/en/produkte/drs-find",
+      "canonicalSourcePageUrl": "https://www.gooddrs.de/produkte/drs-find/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    }
+  ]
+}

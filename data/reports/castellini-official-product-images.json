@@ -1,0 +1,634 @@
+{
+  "brand": "Castellini",
+  "manufacturer": "Cefla S.C.",
+  "sourceType": "OFFICIAL_MANUFACTURER_PRODUCT_PAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "exactModelAssetMappingRequired": true,
+    "familyImagesNotAppliedToCapacityVariants": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 29,
+    "recovered": 16,
+    "recoveredThisRun": 16,
+    "retainedFromPreviousRuns": 16,
+    "reviewRequired": 13
+  },
+  "products": [
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-ALPHASCAN-WL",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "AlphaScan WL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AlphaScan WL",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Интраоральные сканеры",
+      "description": "Discover Castellini intraoral scanners: innovative solutions and advanced technology for a precise and rapid scan of the dental arches.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-alphascan-wl-322286d122.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-alphascan-wl-322286d122.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/imaging/intraoral-scanners",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/WL.jpg",
+        "sha256": "322286d122a8535b1fe2ac28328d2c95b80b9e5cfdd63f9206bcc685cec8268f",
+        "bytes": 74035,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-ALPHASCAN-WR",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "AlphaScan WR",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AlphaScan WR",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Интраоральные сканеры",
+      "description": "Discover Castellini intraoral scanners: innovative solutions and advanced technology for a precise and rapid scan of the dental arches.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-alphascan-wr-03a12deb96.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-alphascan-wr-03a12deb96.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/imaging/intraoral-scanners",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/WR.jpg",
+        "sha256": "03a12deb964d96b590be9a7701e4b609618d603792afbb6e7a5507439ac69c77",
+        "bytes": 78497,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-C-PLUS",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "C Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "C Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Автоклавы",
+      "description": "Castellini dental autoclaves guarantee maximum hygiene for medical instruments and equipment: discover the details and features.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-c-plus-33611776bb.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-c-plus-33611776bb.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/sterilisation/autoclaves",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/CPLUS.jpg",
+        "sha256": "33611776bb691ef681e91321358fdd1825abe1d9e3c2a20d6690029f7360cea7",
+        "bytes": 60888,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-C-PLATINUM",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "C-Platinum",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "C-Platinum",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Автоклавы",
+      "description": "Castellini dental autoclaves guarantee maximum hygiene for medical instruments and equipment: discover the details and features.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-c-platinum-ef1b3242cf.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-c-platinum-ef1b3242cf.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/sterilisation/autoclaves",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM.jpg",
+        "sha256": "ef1b3242cf9d9b0e61ad2086251fe04002f0bcb79b710e151b0f4ea062ee6180",
+        "bytes": 86028,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-CASTELLINI-SYRINGES",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Castellini Syringes",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Castellini Syringes",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стоматологические шприцы",
+      "description": "Castellini dental syringes offer precise and delicate control during therapies, ensuring comfort and safety for the patient in every treatment.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-castellini-syringes-8632a26ec0.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-castellini-syringes-8632a26ec0.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/syringes",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/SIRINGA2%20M_H_2.jpg",
+        "sha256": "8632a26ec0a71db88fddfd9270e148722a627057beeab7d205d5796768565362",
+        "bytes": 145847,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-GOLDSPEED-EVO",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Goldspeed Evo",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Goldspeed Evo",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Наконечники",
+      "description": "Castellini offers a series of dental turbines and contra-angles suitable to optimise control and improve clinical performance.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-goldspeed-evo-311fd54c30.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-goldspeed-evo-311fd54c30.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/turbines-and-contra-angles",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/goldspeedevo.jpg",
+        "sha256": "311fd54c3028be7ab9a1d3251fd0522ed78bd2935cfa5a075caef731a183e8ad",
+        "bytes": 140678,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PIEZOLIGHT-6-PIEZOSTERIL-6",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Piezolight 6 / Piezosteril 6",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "PIEZOLIGHT-6",
+          "label": "Piezolight 6",
+          "manufacturerRef": "",
+          "variantLabel": "Piezolight 6",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantId": "PIEZOSTERIL-6",
+          "label": "Piezosteril 6",
+          "manufacturerRef": "",
+          "variantLabel": "Piezosteril 6",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Скалеры",
+      "description": "Castellini ultrasonic dental scalers ensure controlled vibrations for prophylaxis, periodontics, and endodontics treatments.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-piezolight-6-piezosteril-6-70344c9545.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-piezolight-6-piezosteril-6-70344c9545.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/scalers",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/piezosteril%20(1).jpg",
+        "sha256": "70344c95452206e49db531777eea3ece85910d15f8b33528d5aa10dbfd9c9f2e",
+        "bytes": 99268,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PUMA-ELI-AMBIDEXTROUS",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Puma Eli Ambidextrous",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Puma Eli Ambidextrous",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "The Castellini Puma Eli ambidextrous dental unit is a modern and functional Italian-made dental unit. Discover it on the site.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-puma-eli-ambidextrous-42f5789edb.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-puma-eli-ambidextrous-42f5789edb.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/puma-eli-ambidex",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/Castellini_eli%20AMBI2026%20M_H_2.jpg",
+        "sha256": "42f5789edbe307b70515a098d77cf366e43fe636d0bc09f85f5c5dadd1d4990c",
+        "bytes": 187956,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PUMA-ELI-R",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Puma Eli R",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Puma Eli R",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "The Castellini Puma Eli R dental chair is an Italian-made dental unit with an unmistakable design and extreme flexibility. Discover it on the site.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-puma-eli-r-070e61d043.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-puma-eli-r-070e61d043.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/puma-eli-r",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/Castellini_eli%20R2026%20M_H_2.jpg",
+        "sha256": "070e61d043995339399097dbfac375cedb9f689d0934e104a5aa4fe768ef9d6c",
+        "bytes": 193939,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-SILENT-POWER-EVO",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Silent Power Evo",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Silent Power Evo",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Наконечники",
+      "description": "Castellini offers a series of dental turbines and contra-angles suitable to optimise control and improve clinical performance.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-silent-power-evo-91606b5065.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-silent-power-evo-91606b5065.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/turbines-and-contra-angles",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/silentpower.jpg",
+        "sha256": "91606b50657bd00b93e38bd173058955c8dbaea708a9f0a5fd363f69ef807a8b",
+        "bytes": 59646,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-SKEMA-5",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Skema 5",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Skema 5",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "The Castellini Skema 5 dental unit is an easy-to-use and compact Italian-made dental unit. Discover it on the site.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-skema-5-64055287f5.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-skema-5-64055287f5.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/skema-5",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/Castellini_Skema52026%20M_H_2.jpg",
+        "sha256": "64055287f5530f9f3ce16cd48fbb0f868f80d4352ee556384fa488422ded48a7",
+        "bytes": 197115,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-STER-1-PLUS",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Ster 1 Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ster 1 Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Расходные материалы для оборудования",
+      "description": "Castellini lubricants and disinfectants are formulated to guarantee impeccable hygiene and optimal functioning of dental instruments.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-ster-1-plus-d899b44b82.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-ster-1-plus-d899b44b82.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/disinfectants-and-lubricants",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/ster1plus.jpg",
+        "sha256": "d899b44b820ff9823d3acbfe25f1c0939a0bda18706fd30921384c7594c0f569",
+        "bytes": 95837,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-STER-3-PLUS",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Ster 3 Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ster 3 Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Расходные материалы для оборудования",
+      "description": "Castellini lubricants and disinfectants are formulated to guarantee impeccable hygiene and optimal functioning of dental instruments.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-ster-3-plus-3fe0697d53.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-ster-3-plus-3fe0697d53.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/disinfectants-and-lubricants",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/ster3plus.jpg",
+        "sha256": "3fe0697d5303d04953bbf495eebef14fa9f31126c9e04e512c73fd333257ac33",
+        "bytes": 107271,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-SURGICAL-CART",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Surgical Cart",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Surgical Cart",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "The Castellini Surgical Cart offers the dentist the potential to practise implantology and endodontics at the highest levels, without being tied to a chair.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-surgical-cart-a50866726f.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-surgical-cart-a50866726f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/surgical-cart",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/Castellini_CART2026.jpg",
+        "sha256": "a50866726f40d0332da32468579e9b49858882d2931eeeff1ab57a413439237f",
+        "bytes": 4252829,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-SURGISON-2",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Surgison 2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Surgison 2",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Скалеры",
+      "description": "Castellini ultrasonic dental scalers ensure controlled vibrations for prophylaxis, periodontics, and endodontics treatments.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-surgison-2-1cc6c6ae15.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-surgison-2-1cc6c6ae15.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/scalers",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/surgison%20(1).jpg",
+        "sha256": "1cc6c6ae159f25d636c042e7883b54c9af33fafc52c65154465b3cc92b317492",
+        "bytes": 100177,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-PHOTO-CANON-CASTELLINI-CASTELLINI-X-VISUS-DCIS",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "X-VISUS DCiS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "X-VISUS DCiS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Интраоральные датчики",
+      "description": "Castellini dental and intraoral sensors offer high-resolution images for precise and rapid diagnoses thanks to advanced technology.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-x-visus-dcis-dfc4932892.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-castellini-x-visus-dcis-dfc4932892.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/imaging/sensors",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PAGE_EXACT_MODEL_ASSET",
+        "originalImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/DCIS.jpg",
+        "sha256": "dfc49328924cd7f45bd49c71062063e9bd2f43201ad0529d48fcd3920bbd602b",
+        "bytes": 112562,
+        "contentType": "image/jpeg"
+      }
+    }
+  ],
+  "review": [
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-C-17",
+      "brand": "Castellini",
+      "name": "C-17",
+      "sourcePageUrl": "https://www.castellini.com/en/sterilisation/autoclaves",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-C-22",
+      "brand": "Castellini",
+      "name": "C-22",
+      "sourcePageUrl": "https://www.castellini.com/en/sterilisation/autoclaves",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-C-28",
+      "brand": "Castellini",
+      "name": "C-28",
+      "sourcePageUrl": "https://www.castellini.com/en/sterilisation/autoclaves",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-C7-STOOL",
+      "brand": "Castellini",
+      "name": "C7 Stool",
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/stools",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-C9-STOOL",
+      "brand": "Castellini",
+      "name": "C9 Stool",
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/stools",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-DAILY-OIL-PLUS",
+      "brand": "Castellini",
+      "name": "DAILY OIL PLUS",
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/disinfectants-and-lubricants",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-HMD-ACCESSORY",
+      "brand": "Castellini",
+      "name": "HMD accessory",
+      "sourcePageUrl": "https://www.castellini.com/en/sterilisation/thermodisinfectors",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-M-W-B",
+      "brand": "Castellini",
+      "name": "M.W.B.",
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/autosteril-and-mwb",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-PEROXY-AG",
+      "brand": "Castellini",
+      "name": "PEROXY Ag+",
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/disinfectants-and-lubricants",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-X-RADIUS-TRIO-PLUS",
+      "brand": "Castellini",
+      "name": "X-RADiUS TRiO PLUS",
+      "sourcePageUrl": "https://www.castellini.com/en/extraoral-devices",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-X-RADIUS-TRIO-PLUS-FULLVIEW",
+      "brand": "Castellini",
+      "name": "X-RADiUS TRiO PLUS FullView",
+      "sourcePageUrl": "https://www.castellini.com/en/extraoral-devices",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-X-VS",
+      "brand": "Castellini",
+      "name": "X-VS",
+      "sourcePageUrl": "https://www.castellini.com/en/imaging/sensors",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-X-VS-E",
+      "brand": "Castellini",
+      "name": "X-VS E",
+      "sourcePageUrl": "https://www.castellini.com/en/imaging/sensors",
+      "reason": "NO_EXACT_MODEL_ASSET_CONFIRMED_ON_OFFICIAL_PAGE"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "sourceType": "VALIDATED_SPECIALIST_RESELLER_PRODUCT_PAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "exactModelPageRequired": true,
+    "modelSpecificImagePathRequired": true,
+    "minimumResolution": "600x600",
+    "duplicateImagesRejected": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 2,
+    "candidates": 2,
+    "recovered": 2,
+    "recoveredThisRun": 2,
+    "retainedFromPreviousRuns": 0,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "MEDIT-T310",
+      "brand": "Medit",
+      "manufacturer": "Medit Corp.",
+      "name": "Medit T310",
+      "manufacturerRef": "T310",
+      "manufacturerRefs": "T310",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "T310",
+          "label": "T310",
+          "variantLabel": "T310",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Laboratory scanners",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/verified-medit-medit-t310-b828ee9d0d.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/verified-medit-medit-t310-b828ee9d0d.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://shop.dentaldirekt.de/en/products/lab-scanner-medit-t310",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "VALIDATED_EXACT_SPECIALIST_PRODUCT_IMAGE",
+      "photoEvidence": {
+        "method": "MODEL_SPECIFIC_SPECIALIST_RESELLER_PRODUCT_PAGE",
+        "specialist": "Dental Direkt GmbH",
+        "modelToken": "T310",
+        "originalImageUrl": "https://shop.dentaldirekt.de/cdn/shop/files/T310_MEDITLaborscanner800x800.webp?v=1768388319",
+        "sha256": "b828ee9d0dfe9208e3080675890b7063b84ea2a4fee31cafa906e6379625abc2",
+        "bytes": 157241,
+        "width": 800,
+        "height": 800,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "MEDIT-T510",
+      "brand": "Medit",
+      "manufacturer": "Medit Corp.",
+      "name": "Medit T510",
+      "manufacturerRef": "T510",
+      "manufacturerRefs": "T510",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "T510",
+          "label": "T510",
+          "variantLabel": "T510",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Laboratory scanners",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/verified-medit-medit-t510-6a479098c2.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/verified-medit-medit-t510-6a479098c2.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://shop.dentaldirekt.de/en/products/lab-scanner-medit-t510",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "VALIDATED_EXACT_SPECIALIST_PRODUCT_IMAGE",
+      "photoEvidence": {
+        "method": "MODEL_SPECIFIC_SPECIALIST_RESELLER_PRODUCT_PAGE",
+        "specialist": "Dental Direkt GmbH",
+        "modelToken": "T510",
+        "originalImageUrl": "https://shop.dentaldirekt.de/cdn/shop/files/T510_MEDITLaborscanner800x800.webp?v=1768388341",
+        "sha256": "6a479098c212f05014cc6a025bc4e716a9584e0702c9ab0b1e34cfcb4ba4371f",
+        "bytes": 151271,
+        "width": 800,
+        "height": 800,
+        "contentType": "image/png"
+      }
+    }
+  ],
+  "review": []
+}

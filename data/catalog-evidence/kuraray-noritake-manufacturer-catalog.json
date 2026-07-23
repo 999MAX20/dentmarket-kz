@@ -1,0 +1,2174 @@
+{
+  "brand": "Kuraray Noritake",
+  "manufacturer": "Kuraray Noritake Dental Inc.",
+  "sourceType": "CURRENT_OFFICIAL_ENGLISH_SITEMAP_AND_STRUCTURED_PRODUCT_DATA",
+  "sourceUrl": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "allOfficialFamilyPagesCollected": true,
+    "exactOfficialVariantSkusCollected": true,
+    "duplicateReferencesConsolidatedToCanonicalFamily": true,
+    "exactOfficialImagesPreserved": true,
+    "noManufacturerReferenceInvented": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "officialFamilyPages": 62,
+    "discoveredProducts": 49,
+    "variantSkus": 152,
+    "productsWithImages": 49,
+    "productsWithReferences": 40,
+    "exactReferences": 143,
+    "consolidatedDuplicateReferences": 2,
+    "duplicateReferencesAcrossProducts": 0,
+    "crawlErrors": 13
+  },
+  "consolidatedRefs": [
+    {
+      "manufacturerRef": "064-EU",
+      "canonicalFamily": "ALLOY PRIMER",
+      "removedFrom": [
+        "PANAVIA F 2.0"
+      ]
+    },
+    {
+      "manufacturerRef": "917-EU",
+      "canonicalFamily": "Composite Accessories",
+      "removedFrom": [
+        "PANAVIA F 2.0"
+      ]
+    }
+  ],
+  "duplicateRefs": [],
+  "errors": [
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/746",
+      "error": "family name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/771",
+      "error": "family name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/twist-dia-for-composite",
+      "error": "family name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/super-porcelain-ex-3",
+      "error": "family name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/cerabien-zr-fc-paste-stain",
+      "error": "family name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/twist-dia-for-zirconia",
+      "error": "family name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2457",
+      "error": "family name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2443",
+      "error": "family name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2639",
+      "error": "family name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2757",
+      "error": "family name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2807",
+      "error": "family name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2765",
+      "error": "family name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2609",
+      "error": "500 Internal Server Error"
+    }
+  ],
+  "products": [
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "Adhesive Accessories",
+      "manufacturerRef": "902-EU",
+      "manufacturerRefs": "902-EU | 904-EU | 965-EU | 966-EU | 1022-EU | 1023-EU | 1024-EU | 1025-EU",
+      "model": "Adhesive Accessories",
+      "variantCount": 8,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL Mixing Dish · 1 pc.",
+          "manufacturerRef": "902-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_902-eu_-_clearfil_mixing_dish.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1431/s/clearfil-mixing-dish/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL Mixing Pad · 1 pc.",
+          "manufacturerRef": "904-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_904-eu_-_clearfil_mixing_pad.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1432/s/clearfil-mixing-pad/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "Brush Handle White · 1 pc.",
+          "manufacturerRef": "965-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_965-eu_brush_handle_white.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1437/s/brush-handle-white/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "Brush Handle Black · 1 pc.",
+          "manufacturerRef": "966-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_966-eu_brush_handle_black.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1438/s/brush-handle-black/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "Dispensing Dish · 1 pc.",
+          "manufacturerRef": "1022-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_1022-eu_dispensing_dish.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1439/s/dispensing-dish/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "Light Blocking Plate · 1 pc.",
+          "manufacturerRef": "1023-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_1023-eu.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1440/s/light-blocking-plate/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "Applicator Brush Fine · 50 brushes",
+          "manufacturerRef": "1024-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_1024-eu.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1441/s/applicator-brush-fine/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "Applicator Brush Endo · 50 brushes",
+          "manufacturerRef": "1025-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_1025-eu.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1442/s/applicator-brush-endo/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/p/r/product-fallback_1024_2.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/p/r/product-fallback_1024_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_902-eu_-_clearfil_mixing_dish.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_904-eu_-_clearfil_mixing_pad.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_965-eu_brush_handle_white.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_966-eu_brush_handle_black.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_1022-eu_dispensing_dish.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_1023-eu.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_1024-eu.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_1025-eu.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/adhesive-accessories",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "ALLOY PRIMER",
+      "manufacturerRef": "064-EU",
+      "manufacturerRefs": "064-EU",
+      "model": "ALLOY PRIMER",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ALLOY PRIMER · 5ml",
+          "manufacturerRef": "064-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/a/l/alloy-primer-1ml-wb_2xs2_2_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1102/s/alloy-primer/category/105/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "ALLOY PRIMER is a metal primer used to increase the bond strength of composite and acrylic resins to gold, base and semi-precious metals and titanium.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/a/l/alloy-primer-1ml-wb_2xs2_2.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/a/l/alloy-primer-1ml-wb_2xs2_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/a/l/alloy-primer-1ml-wb_2xs2_2_1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/alloy-primer",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CARIES DETECTOR",
+      "manufacturerRef": "220-eu",
+      "manufacturerRefs": "220-eu",
+      "model": "CARIES DETECTOR",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CARIES DETECTOR · 6ml",
+          "manufacturerRef": "220-eu",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/a/caries-detector-tb-2_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1416/s/caries-detector/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CARIES DETECTOR is an excellent means of detecting caries and plays a major role in maintaining and preserving teeth.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/a/caries-detector-tb-2.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/a/caries-detector-tb-2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/a/caries-detector-tb-2_1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/caries-detector",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-1446",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "Cement Accessories",
+      "manufacturerRef": "915-EU",
+      "manufacturerRefs": "915-EU | 906-EU | 941-EU | 953-EU | 945-EU | 967-EU",
+      "model": "Cement Accessories",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantLabel": "Mixing Pad Scaled · 1 pc.",
+          "manufacturerRef": "915-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_915-eu_mixing_pad_scaled.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1447/s/mixing-pad-scaled/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA Mixing Spatula · 1 pc.",
+          "manufacturerRef": "906-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_906-eu_panavia_mixing_spatula.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1448/s/panavia-mixing-spatula/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "Sponge Pledge L · 1 pc.",
+          "manufacturerRef": "941-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_941-eu_sponge_pledge_l.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1451/s/sponge-pledge-l/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA F Mixing Dish · 1 pc.",
+          "manufacturerRef": "953-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_953-eu_panavia_f_mixing_dish.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1452/s/panavia-f-mixing-dish/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA 21 Mixing Pad · 50 pcs.",
+          "manufacturerRef": "945-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_945-eu_panavia_21_mixing_pad.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1453/s/panavia-21-mixing-pad/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA 21 Brush Tip · 50 pcs.",
+          "manufacturerRef": "967-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_967-eu_panavia_21_brush_tip.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1454/s/panavia-21-brush-tip/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/p/r/product-fallback_1024_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/p/r/product-fallback_1024_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_915-eu_mixing_pad_scaled.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_906-eu_panavia_mixing_spatula.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_941-eu_sponge_pledge_l.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_953-eu_panavia_f_mixing_dish.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_945-eu_panavia_21_mixing_pad.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_967-eu_panavia_21_brush_tip.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1446",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CERABIEN ZR",
+      "manufacturerRef": "104-1740EU",
+      "manufacturerRefs": "104-1740EU | 104-1770EU | 104-1790EU | 104-1810EU | 104-1820EU | 104-1840EU | 104-1870EU | 104-1880EU | 104-1890EU | czr-opaque-white | 104-3681EU | 104-3684EU | czr-opaque-light | 104-5500EU | 104-5510EU | czr-opaque-dark | 104-5581EU | 126-0052EU | czr-opaque-light-tissue | czr-opaque-dark-tissue | 126-0091EU-C | 126-0111EU-C | 211-2569EU | 211-2579EU",
+      "model": "CERABIEN ZR",
+      "variantCount": 24,
+      "variants": [
+        {
+          "variantLabel": "CERABIEN ZR Basic Full Kit · 630g63 bottles/10g",
+          "manufacturerRef": "104-1740EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1740eu_-_basic_full_kit_630g__1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1603/s/basic-full-kit-630g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Margin Kit · 190g19 bottles/10g",
+          "manufacturerRef": "104-1770EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1770eu_-_margin_kit_190g_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1605/s/margin-kit-190g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Luster CCV Kit · 160g16 bottles/10g",
+          "manufacturerRef": "104-1790EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1790eu_-_luster_ccv_kit_160g_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1606/s/luster-ccv-kit-160g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Opacious Body Complete Kit · 200g20 bottles/10g",
+          "manufacturerRef": "104-1810EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1810eu_-_ob_complete_kit_200g_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1607/s/ob-complete-kit-200g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR External Stain Kit · 73g22 bottles1 External Stain Liquid/10ml1 External Stain Color Guide",
+          "manufacturerRef": "104-1820EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1820eu_-_external_stain_kit_73g_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1608/s/external-stain-kit-73g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Internal Stain Complete Kit · 57g19 bottles/3g1 IS Liquid/10ml1 IS Color Guide",
+          "manufacturerRef": "104-1840EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1840eu_-_internal_stain_complete_kit_57g_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1609/s/internal-stain-complete-kit-57g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Esthetic White Kit · 110g11 bottles/10g",
+          "manufacturerRef": "104-1870EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1870_-_esthetic_white_kit_110g_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1610/s/esthetic-white-kit-110g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR SS Esthetic White Kit · 96g11 bottles",
+          "manufacturerRef": "104-1880EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1880eu_-_ss_esthetic_white_kit_96g_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1611/s/ss-esthetic-white-kit-96g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Tissue Kit · 70g7 bottles/10g",
+          "manufacturerRef": "104-1890EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1890eu_-_tissue_kit_70g_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1612/s/tissue-kit-70g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Opaque White · Opaque White",
+          "manufacturerRef": "czr-opaque-white",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_2.jpg",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/czr-opaque-white",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "ES Glaze 10g · 1 pc.",
+          "manufacturerRef": "104-3681EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-3681eu_-_es_glaze_10g_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1613/s/es-glaze-10g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "ES Glaze 30g · 1 pc.",
+          "manufacturerRef": "104-3684EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-3684eu_-_es_glaze_30g_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1614/s/es-glaze-30g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Opaque Light · Opaque Light",
+          "manufacturerRef": "czr-opaque-light",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_2_1.jpg",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/czr-opaque-light",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Value Shade Body Kit · 260g26 bottles/10g",
+          "manufacturerRef": "104-5500EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-5500eu_-_value_shade_body_kit_260g_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1616/s/value-shade-body-kit-260g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Value Shade Opacious Body Kit · 260g26 bottles/10g",
+          "manufacturerRef": "104-5510EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-5510eu_-_value_shade_opacious_body_kit_260g_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1617/s/value-shade-opacious-body-kit-260g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Opaque Dark · Opaque Dark",
+          "manufacturerRef": "czr-opaque-dark",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_2_1_1.jpg",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/czr-opaque-dark",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "VC Glaze 10g · 1 pc.",
+          "manufacturerRef": "104-5581EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/1/0/104-5581eu_-_czr_vc_glaze_tb1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1624/s/vc-glaze-10g/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "Meister Liquid 100ml · 1 pc.",
+          "manufacturerRef": "126-0052EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/m/e/meister-liquid_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1691/s/meister-liquid-100ml/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Opaque Light Tissue · Opaque Light Tissue",
+          "manufacturerRef": "czr-opaque-light-tissue",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_9.jpg",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/czr-opaque-light-tissue",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CERABIEN ZR Opaque Dark Tissue · Opaque Dark Tissue",
+          "manufacturerRef": "czr-opaque-dark-tissue",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_12.jpg",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/czr-opaque-dark-tissue",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "ES Liquid · 1 pc.",
+          "manufacturerRef": "126-0091EU-C",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/n/e/new-stain-liquid.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1692/s/es-liquid/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "IS Liquid · 1 pc.",
+          "manufacturerRef": "126-0111EU-C",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/n/e/new-stain-liquid_3.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1695/s/is-liquid/category/112/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "C-GUIDE 431 CZR SHADE BASE OP · 1 pc.",
+          "manufacturerRef": "211-2569EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_13.jpg",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/color-guide-431-czr-sb-opaque",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "C-GUIDE 4003 CZR COMPLETE · 1 pc.",
+          "manufacturerRef": "211-2579EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_14.jpg",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/color-guide-4003-czr-complete",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CZR (Cerabien ZR) is a porcelain system for making all ceramic crowns in use with zirconia frameworks.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/z/czr-press-ingot-l-kit_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/z/czr-press-ingot-l-kit_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1740eu_-_basic_full_kit_630g__1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1770eu_-_margin_kit_190g_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1790eu_-_luster_ccv_kit_160g_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1810eu_-_ob_complete_kit_200g_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1820eu_-_external_stain_kit_73g_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1840eu_-_internal_stain_complete_kit_57g_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1870_-_esthetic_white_kit_110g_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1880eu_-_ss_esthetic_white_kit_96g_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-1890eu_-_tissue_kit_70g_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_2.jpg | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-3681eu_-_es_glaze_10g_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-3684eu_-_es_glaze_30g_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_2_1.jpg | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-5500eu_-_value_shade_body_kit_260g_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_104-5510eu_-_value_shade_opacious_body_kit_260g_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_2_1_1.jpg | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/1/0/104-5581eu_-_czr_vc_glaze_tb1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/m/e/meister-liquid_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_9.jpg | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_12.jpg | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/n/e/new-stain-liquid.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/n/e/new-stain-liquid_3.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_13.jpg | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/z/czr_opaque_nw_colors_362x241px_14.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/cerabien-zr",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL AP-X",
+      "manufacturerRef": "1721-E2-1-C-1",
+      "manufacturerRefs": "1721-E2-1-C-1 | COM-004-0-C-1 | 935-EU",
+      "model": "CLEARFIL AP-X",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ AP-X PLT · 20 tips (0.2g/tip)* *A4 10 tips (0.2g/tip)*HO 10 tips (0.2g/tip)",
+          "manufacturerRef": "1721-E2-1-C-1",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-ap-x-plt-a2-wb_2x_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1772/s/clearfil-8482-ap-x-plt/category/104/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ AP-X Syringe · 4.6g/2ml",
+          "manufacturerRef": "COM-004-0-C-1",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-ap-x-syringe-a2-wb_2x_1_1_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1773/s/clearfil-8482-ap-x-syringe/category/104/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ AP-X Shade Guide X11 · 1 pc.",
+          "manufacturerRef": "935-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_935-eu_-_clearfil_ap-x_shade_guide.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/956/s/clearfil-ap-x-shade-guide-x11/category/104/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL AP-X is a light-cure, radiopaque restorative resin, which provides accurate color matching, high polishability and excellent physical properties.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-ap-x-syringe-a2-wb_2x_1_2.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-ap-x-syringe-a2-wb_2x_1_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-ap-x-plt-a2-wb_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-ap-x-syringe-a2-wb_2x_1_1_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_935-eu_-_clearfil_ap-x_shade_guide.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-ap-x",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL CERAMIC PRIMER PLUS",
+      "manufacturerRef": "3637-EU",
+      "manufacturerRefs": "3637-EU",
+      "model": "CLEARFIL CERAMIC PRIMER PLUS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ CERAMIC PRIMER PLUS · 4ml",
+          "manufacturerRef": "3637-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-ceramic_primer_plus_nc_2.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/767/s/clearfil-ceramic-primer-plus/category/105/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "A universal primer for all cement and repair indications to silica-based ceramics, zirconia, composites and even metals. Just apply and dry.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/c/ccpp_new_cap_cp_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/c/ccpp_new_cap_cp_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-ceramic_primer_plus_nc_2.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-ceramic-primer-plus",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL CORE New Bond",
+      "manufacturerRef": "315-EU",
+      "manufacturerRefs": "315-EU",
+      "model": "CLEARFIL CORE New Bond",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ CORE Cat/Uni · Catalyst 23gUniversal 21g",
+          "manufacturerRef": "315-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-core-cat-uni-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/844/s/clearfil-core-cat-uni/category/103/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL™ CORE is a self-curing composite core build up material.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-core-cat-uni-wb.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-core-cat-uni-wb.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-core-cat-uni-wb_2x.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-core",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL DC Activator",
+      "manufacturerRef": "3250-EU",
+      "manufacturerRefs": "3250-EU",
+      "model": "CLEARFIL DC Activator",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ DC Activator · 1 bottle (4ml)",
+          "manufacturerRef": "3250-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-dc-activator-1_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/740/s/clearfil-dc-activator/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "When mixed with CLEARFIL SE BOND 2 and CLEARFIL Universal Bond they become dual-cure. A universal solution for indirect & core build-up restorations.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-dc-activator-1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-dc-activator-1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-dc-activator-1_1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-dc-activator",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL DC CORE PLUS",
+      "manufacturerRef": "2942-EU-1",
+      "manufacturerRefs": "2942-EU-1 | 1029-EU | 1030-EU | 1031-EU",
+      "model": "CLEARFIL DC CORE PLUS",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ DC CORE PLUS · 1 syringe (17.9g/9ml)20 mixing tips10 guide tips (L)10 guide tips (S)",
+          "manufacturerRef": "2942-EU-1",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-dc-core-plus-dentin-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/836/s/clearfil-dc-core-plus/category/103/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ DC CORE PLUS Guide Tip L · 20 tips",
+          "manufacturerRef": "1029-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_1029-eu_-_clearfil_dc_core_plus_guide_tip_breed-ezgif.com-webp-to-png-converter.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/839/s/clearfil-dc-core-plus-guide-tip-l/category/103/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ DC CORE PLUS Guide Tip S · 20 tips",
+          "manufacturerRef": "1030-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_1030-eu_-_clearfil_dc_core_plus_guide_tip_lang-ezgif.com-webp-to-png-converter.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/840/s/clearfil-dc-core-plus-guide-tip-s/category/103/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ DC CORE PLUS Mixing Tip · 20 tips",
+          "manufacturerRef": "1031-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/m/i/mixing_tip_tb.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/841/s/clearfil-dc-core-plus-mixing-tip/category/103/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "The self-curing property of this core material (automix)is the perfect solution for these areas of root canal which are not accessible for light.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-dc-core-plus-white-wb.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-dc-core-plus-white-wb.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-dc-core-plus-dentin-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_1029-eu_-_clearfil_dc_core_plus_guide_tip_breed-ezgif.com-webp-to-png-converter.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_1030-eu_-_clearfil_dc_core_plus_guide_tip_lang-ezgif.com-webp-to-png-converter.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/m/i/mixing_tip_tb.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-dc-core-plus",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL LINER BOND 2V",
+      "manufacturerRef": "1920-EU",
+      "manufacturerRefs": "1920-EU | 1931-EU | 1930-EU | 1943-EU | 1944-EU",
+      "model": "CLEARFIL LINER BOND 2V",
+      "variantCount": 5,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ LINER BOND 2V Kit · 6ml Primer A6ml Primer B5ml Bond AAccessories",
+          "manufacturerRef": "1920-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-liner-bond-2v-kit-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/717/s/clearfil-liner-bond-2v-kit/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ LINER BOND 2V Bond Liquid B · 3ml",
+          "manufacturerRef": "1931-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-liner-bond-2v-bond-b-wb.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/719/s/clearfil-liner-bond-2v-bond-liquid-b/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ LINER BOND 2V Bond Liquid A · 5ml",
+          "manufacturerRef": "1930-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-liner-bond-2v-bond-a-wb.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/720/s/clearfil-liner-bond-2v-bond-liquid-a/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ LINER BOND 2V Primer Liquid A · 6ml",
+          "manufacturerRef": "1943-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-liner-bond-2v-primer-a-wb.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/721/s/clearfil-liner-bond-2v-primer-liquid-a/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ LINER BOND 2V Primer Liquid B · 6ml",
+          "manufacturerRef": "1944-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-liner-bond-2v-primer-b-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/722/s/clearfil-liner-bond-2v-primer-liquid-b/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL LINER BOND 2V enables the processing of all light-curing and chemically curing composites as well as amalgamates.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-liner-bond-2v-dc-kit-wb_2x_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-liner-bond-2v-dc-kit-wb_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-liner-bond-2v-kit-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-liner-bond-2v-bond-b-wb.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-liner-bond-2v-bond-a-wb.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-liner-bond-2v-primer-a-wb.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-liner-bond-2v-primer-b-wb_2x.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-liner-bond-2v",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL MAJESTY ES Flow",
+      "manufacturerRef": "COM-003-LOW",
+      "manufacturerRefs": "COM-003-LOW | 3331-EU | COM-003-HIGH | COM-003-SUPER-LOW",
+      "model": "CLEARFIL MAJESTY ES Flow",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL MAJESTY™ ES Flow - Low · Standard Pack 1.5 ml (2.7g)",
+          "manufacturerRef": "COM-003-LOW",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/l/o/low.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/983/s/clearfil-8482-majesty-es-flow/category/104/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL MAJESTY™ ES Flow Needle Tip (N) · 20 tips",
+          "manufacturerRef": "3331-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-majesty-flow-needle-3-tips.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-es-flow-needle-tip-n",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL MAJESTY™ ES Flow - High · Standard Pack 1.5 ml (2.7g)",
+          "manufacturerRef": "COM-003-HIGH",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/h/i/high.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-es-flow-high",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL MAJESTY™ ES Flow - Super Low · Standard Pack 1.5 ml (2.7g)",
+          "manufacturerRef": "COM-003-SUPER-LOW",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/s/u/super_low.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-es-flow-super-low",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "Universal flowable composites comes in 3 different levels of flowability. Adapted to your needs and providing durable, aesthetic and easy restorations.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/3/f/3flowspuit-schaduw_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/3/f/3flowspuit-schaduw_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/l/o/low.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-majesty-flow-needle-3-tips.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/h/i/high.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/s/u/super_low.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-es-flow",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL MAJESTY ES-2 Classic",
+      "manufacturerRef": "COM-002-1-C",
+      "manufacturerRefs": "COM-002-1-C",
+      "model": "CLEARFIL MAJESTY ES-2 Classic",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL MAJESTY™ ES-2 Classic",
+          "manufacturerRef": "COM-002-1-C",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil_majesty-es2-a2-wb_2x_2.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/880/s/clearfil-8482-majesty-es-2-classic/category/104/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "Thanks to CLEARFIL MAJESTY™ ES-2 Classic, you can make esthetic restorations on both anterior as well as posterior teeth.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil_majesty-es2-a2-wb_2x_2_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil_majesty-es2-a2-wb_2x_2_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil_majesty-es2-a2-wb_2x_2.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-es-2-classic",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL MAJESTY ES-2 Premium",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CLEARFIL MAJESTY ES-2 Premium",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL MAJESTY ES-2 Premium",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL MAJESTY™ ES-2 Premium will make your restorations a predictable success, thanks to the fixed shade combinations of Dentin and Enamel.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/3/7/37ee7aca-2573-43c9-95a1-5addf4d48d07.jpg",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/3/7/37ee7aca-2573-43c9-95a1-5addf4d48d07.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-es-2-premium",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL MAJESTY Flow",
+      "manufacturerRef": "COM-010-0-C",
+      "manufacturerRefs": "COM-010-0-C | 1015-EU | 2602-EU",
+      "model": "CLEARFIL MAJESTY Flow",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL MAJESTY™ Flow · Syringe: 3.2g/1.5ml Needle Tip: 20 pcs.",
+          "manufacturerRef": "COM-010-0-C",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-majesty-flow-a2-wb_2x_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-8482-majesty-flow",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "Needle Tip · 20 pcs.",
+          "manufacturerRef": "1015-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/f/l/flow_tip_tb.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/needle-tip-20pcs",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL MAJESTY™ Flow Shade Guide · 1 pc.",
+          "manufacturerRef": "2602-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/2/_2602-eu_-_clearfil_majesty_flow_shade_guide.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-flow-shade-guide",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL MAJESTY Flow is a flowable, superfilled, light-curing, radiopaque restorative composite resin.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-majesty-flow-a2-wb_2x_2.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-majesty-flow-a2-wb_2x_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-majesty-flow-a2-wb_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/f/l/flow_tip_tb.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/2/_2602-eu_-_clearfil_majesty_flow_shade_guide.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-flow-1",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL MAJESTY Posterior",
+      "manufacturerRef": "COM-008-0-C",
+      "manufacturerRefs": "COM-008-0-C | 2572-EU",
+      "model": "CLEARFIL MAJESTY Posterior",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL MAJESTY™ Posterior · Syringe: 4.9g/2ml PLT: 20 tips (0.25g/tip)",
+          "manufacturerRef": "COM-008-0-C",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-majesty-posterior-a2-wb_2x_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-8482-majesty-posterior",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL MAJESTY™ Posterior Shade Guide · 1 pc.",
+          "manufacturerRef": "2572-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/2/_2572-eu_-_clearfil_majesty_posterior_shade_guide.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1766/s/clearfil-majesty-posterior-shade-guide/category/104/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL MAJESTY Posterior is a light-curing, nano-superfilled, radiopaque restorative posterior composite resin.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-majesty-posterior-a2-wb_2x_1_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-majesty-posterior-a2-wb_2x_1_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-majesty-posterior-a2-wb_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/2/_2572-eu_-_clearfil_majesty_posterior_shade_guide.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-majesty-posterior",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL NEW BOND",
+      "manufacturerRef": "055-EU",
+      "manufacturerRefs": "055-EU | 054-EU | 053-EU",
+      "model": "CLEARFIL NEW BOND",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ NEW BOND Kit · CLEARFIL™ NEW BOND UniversalCLEARFIL™ NEW BOND Catalyst 6ml each",
+          "manufacturerRef": "055-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-new-bond-catalyst-universal-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/743/s/clearfil-new-bond-kit/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ NEW BOND Universal · 6ml",
+          "manufacturerRef": "054-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-new-bond-universal-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/744/s/clearfil-new-bond-universal/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ NEW BOND Catalyst · 6ml",
+          "manufacturerRef": "053-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-new-bond-catalyst-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/745/s/clearfil-new-bond-catalyst/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL™ NEW BOND is a self-curing adhesive for enamel and dentin based on the total-etch technique.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-new-bond-catalyst-universal-wb_2x_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-new-bond-catalyst-universal-wb_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-new-bond-catalyst-universal-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-new-bond-universal-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-new-bond-catalyst-wb_2x.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-new-bond",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL PHOTO BOND",
+      "manufacturerRef": "075-EU",
+      "manufacturerRefs": "075-EU | 074-EU | 073-EU",
+      "model": "CLEARFIL PHOTO BOND",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ PHOTO BOND · CLEARFIL™ PHOTO BOND UniversalCLEARFIL™ PHOTO BOND Catalyst 6ml each",
+          "manufacturerRef": "075-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo-bond-catalyst-universal-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/735/s/clearfil-photo-bond/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ PHOTO BOND Universal · 6ml",
+          "manufacturerRef": "074-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo-bond-universal-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/736/s/clearfil-photo-bond-universal/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ PHOTO BOND Catalyst · 6ml",
+          "manufacturerRef": "073-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo-bond-catalyst-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/737/s/clearfil-photo-bond-catalyst/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL™ PHOTO BOND is a dual-curing adhesive for enamel and dentin based on the total-etch technique.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-photo-bond-catalyst-universal-wb_2x_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-photo-bond-catalyst-universal-wb_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo-bond-catalyst-universal-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo-bond-universal-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo-bond-catalyst-wb_2x.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-photo-bond",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL PHOTO BRIGHT",
+      "manufacturerRef": "COM-007-0-C",
+      "manufacturerRefs": "COM-007-0-C",
+      "model": "CLEARFIL PHOTO BRIGHT",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ PHOTO BRIGHT",
+          "manufacturerRef": "COM-007-0-C",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo-bright-us-a2-wb-alternative.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-8482-photo-bright",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL PHOTO BRIGHT is an esthetic anterior composite with proven Kuraray technology, excellent handling properties and a beautiful selection of colors.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-photo-bright-us-a2-wb_2x.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-photo-bright-us-a2-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo-bright-us-a2-wb-alternative.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-photo-bright",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL PHOTO CORE",
+      "manufacturerRef": "356-EU-1",
+      "manufacturerRefs": "356-EU-1 | 366-EU",
+      "model": "CLEARFIL PHOTO CORE",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ PHOTO CORE · Syringe 1 x 4.4g/2ml 3 x 4.4g/2ml",
+          "manufacturerRef": "356-EU-1",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo-core-1syringe-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/846/s/clearfil-photo-core/category/103/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PLT X-Large · 30 tips (0.4g/tip)",
+          "manufacturerRef": "366-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo-core-plt-x-large-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/849/s/plt-x-large/category/103/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL PHOTO CORE cuts like dentin after curing, is radiopaque and does not stick to instruments during insertion.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-photo-core-1syringe-wb_2x_2.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-photo-core-1syringe-wb_2x_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo-core-1syringe-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo-core-plt-x-large-wb_2x.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-photo-core",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL PHOTO POSTERIOR",
+      "manufacturerRef": "COM-009-0-C",
+      "manufacturerRefs": "COM-009-0-C",
+      "model": "CLEARFIL PHOTO POSTERIOR",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ PHOTO POSTERIOR",
+          "manufacturerRef": "COM-009-0-C",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo_posterior_syringe-us-wb_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-8482-photo-posterior",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL PHOTO POSTERIOR stands out for its excellent processing, exceptional adhesion, superior marginal sealing, and high resistance to wear.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-photo_posterior_syringe-us-wb_2.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-photo_posterior_syringe-us-wb_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-photo_posterior_syringe-us-wb_1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-photo-posterior",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL PORCELAIN BOND ACTIVATOR",
+      "manufacturerRef": "061-EU",
+      "manufacturerRefs": "061-EU",
+      "model": "CLEARFIL PORCELAIN BOND ACTIVATOR",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ PORCELAIN BOND ACTIVATOR · 4ml",
+          "manufacturerRef": "061-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-porcelain-bond-activator-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1104/s/clearfil-porcelain-bond-activator/category/105/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "Pretreatment for restorations made of ceramic or composite resin mixed with Clearfil bonding.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-porcelain-bond-activator-wb_2x_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-porcelain-bond-activator-wb_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-porcelain-bond-activator-wb_2x.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-porcelain-bond-activator",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL SA PRIMER",
+      "manufacturerRef": "066-EU",
+      "manufacturerRefs": "066-EU",
+      "model": "CLEARFIL SA PRIMER",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ SA Primer · 6ml",
+          "manufacturerRef": "066-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-sa-primer-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/738/s/clearfil-sa-primer/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL SA PRIMER is a dental adhesion primer containing salicylic derivative monomer to promote the affinity to collagen fibers.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-sa-primer-wb_2x_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-sa-primer-wb_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-sa-primer-wb_2x.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-sa-primer",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-687",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL SE BOND",
+      "manufacturerRef": "1970-EU",
+      "manufacturerRefs": "1970-EU | 1981-EU | 1982-EU | 1975-EU",
+      "model": "CLEARFIL SE BOND",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ SE BOND Kit · 6ml Primer5ml BondAccessories",
+          "manufacturerRef": "1970-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-kit-transparent-background_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/688/s/clearfil-se-bond-kit/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ SE BOND Bond · 5ml",
+          "manufacturerRef": "1981-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-bond-agent-5ml-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/689/s/clearfil-se-bond-bond/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ SE BOND Primer · 6ml",
+          "manufacturerRef": "1982-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-primer-6ml-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/690/s/clearfil-se-bond-primer/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ SE BOND Campaign Kit · 1/4 contents",
+          "manufacturerRef": "1975-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-kit-transparent-background_2x_1_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/691/s/clearfil-se-bond-campaign-kit/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL SE BOND the golden standard. Minimal post-operative sensitivity. A mild self-etching adhesive for many indications.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfilt-se-bond_1x.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfilt-se-bond_1x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-kit-transparent-background_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-bond-agent-5ml-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-primer-6ml-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-kit-transparent-background_2x_1_.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/687",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL SE BOND 2",
+      "manufacturerRef": "3272-EU",
+      "manufacturerRefs": "3272-EU | 328C-EU-1 | 3281-EU | 3282-EU | 3270-EU",
+      "model": "CLEARFIL SE BOND 2",
+      "variantCount": 5,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ SE BOND 2 Value Pack · 3 Bond (5ml)3 Primer (6ml)",
+          "manufacturerRef": "3272-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-2-kit-wb_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/694/s/clearfil-se-bond-2-value-pack/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ SE BOND 2 Unit Dose · 50 tips (0.1ml/tip) each for Bond and Primer100 applicator brushes (fine)",
+          "manufacturerRef": "328C-EU-1",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfill_se_bond_2_set_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1809/s/clearfil-8482-se-bond-2-unit-dose/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ SE BOND 2 Bond · Bond 5ml",
+          "manufacturerRef": "3281-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfill_se_bond_2.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/695/s/clearfil-se-bond-2-bond/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ SE BOND 2 Primer · Primer 6ml",
+          "manufacturerRef": "3282-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfill_se_bond_2_primer.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/696/s/clearfil-se-bond-2-primer/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ SE BOND 2 Kit · Bond (5ml)Primer (6ml)100 applicator brushes (fine)1 mixing dish1 light blocking plate1 outer case",
+          "manufacturerRef": "3270-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-2-kit-wb.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/693/s/clearfil-se-bond-2-kit/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL SE BOND 2 is the future-proof successor of the self-etch adhesive CLEARFIL™ SE BOND with an extended range of indications.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil_se_bond_2_1009_8_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil_se_bond_2_1009_8_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-2-kit-wb_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfill_se_bond_2_set_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfill_se_bond_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfill_se_bond_2_primer.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-se-bond-2-kit-wb.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-se-bond-2",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-710",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL SE Protect",
+      "manufacturerRef": "2875-EU",
+      "manufacturerRefs": "2875-EU | 2870-EU | 2872-EU | 2881-EU | 2882-EU",
+      "model": "CLEARFIL SE Protect",
+      "variantCount": 5,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ SE Protect Intro Kit · Primer: 1.2mlBond: 1mlOuter case",
+          "manufacturerRef": "2875-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfilt-se-protect-primer-clearfilt-se-protect-bond_0_5x_2.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/711/s/clearfil-se-protect-intro-kit/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ SE Protect Kit · Primer: 6mlBond: 5ml2 x 50 Disposable brush tips (white)1 Brush tip handle (white)1 Brush tip handle (black)Mixing dishLight blocking plateOuter case",
+          "manufacturerRef": "2870-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfilt-se-protect.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/712/s/clearfil-se-protect-kit/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ SE Protect Value Pack · 3 x Primer: 6ml3 x Bond: 5ml",
+          "manufacturerRef": "2872-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfilt-se-protect_1_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/713/s/clearfil-se-protect-value-pack/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ SE Protect Bond · Bond: 5ml",
+          "manufacturerRef": "2881-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfilt-se-protect-bond.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/714/s/clearfil-se-protect-bond/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ SE Protect Primer · Primer: 6ml",
+          "manufacturerRef": "2882-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfilt-se-protect-primer-clearfilt-se-protect-bond_0_5x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/715/s/clearfil-se-protect-primer/category/101/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL SE PROTECT is the antibacterial bond system thanks to the unique anti-bacterial monomer MDPB.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfilt-se-protect-primer-clearfilt-se-protect-bond_0_5x_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfilt-se-protect-primer-clearfilt-se-protect-bond_0_5x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfilt-se-protect-primer-clearfilt-se-protect-bond_0_5x_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfilt-se-protect.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfilt-se-protect_1_.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfilt-se-protect-bond.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfilt-se-protect-primer-clearfilt-se-protect-bond_0_5x.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/710",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL ST OPAQUER",
+      "manufacturerRef": "636-EU",
+      "manufacturerRefs": "636-EU | 637-EU",
+      "model": "CLEARFIL ST OPAQUER",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ ST OPAQUER L · 4g",
+          "manufacturerRef": "636-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-st-opaquer-l-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1095/s/clearfil-st-opaquer-l/category/104/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "CLEARFIL™ ST OPAQUER US · 4g",
+          "manufacturerRef": "637-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-st-opaquer-l-wb_2x_1_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1096/s/clearfil-st-opaquer-us/category/104/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "CLEARFIL ST OPAQUER is a light-cured composite resin used to mask underling metal darkness and tooth discoloration.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-st-opaquer-l-wb_2x_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-st-opaquer-l-wb_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-st-opaquer-l-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/c/l/clearfil-st-opaquer-l-wb_2x_1_.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-st-opaquer",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CLEARFIL™ FII",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CLEARFIL™ FII",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CLEARFIL™ FII",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "Excellent physical properties, a natural appearance, and good handling properties make CLEARFIL™ F II a good choice in restorative dentistry.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-f2-uni-cat-wb_2x_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/l/clearfil-f2-uni-cat-wb_2x_1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/clearfil-fii",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "Color Guide 4003 CZR COMPLETE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Color Guide 4003 CZR COMPLETE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Color Guide 4003 CZR COMPLETE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "Color Guide 4003 CZR COMPLETE",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/z/czr_opaque_nw_colors_362x241px_14.jpg",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/z/czr_opaque_nw_colors_362x241px_14.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/color-guide-4003-czr-complete",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "Color Guide 431 CZR SB OPAQUE",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Color Guide 431 CZR SB OPAQUE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Color Guide 431 CZR SB OPAQUE",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "Color Guide 431 CZR SB OPAQUE",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/z/czr_opaque_nw_colors_362x241px_13.jpg",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/z/czr_opaque_nw_colors_362x241px_13.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/color-guide-431-czr-sb-opaque",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "Composite Accessories",
+      "manufacturerRef": "917-EU",
+      "manufacturerRefs": "917-EU",
+      "model": "Composite Accessories",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OXYGUARD™ II Disposable Nozzles · 20 pcs.",
+          "manufacturerRef": "917-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_917-eu_dispozable_nozzle_5_nozzles_.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1444/s/dispozable-nozzle-5-nozzles/category/109/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/p/r/product-fallback_1024_3.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/p/r/product-fallback_1024_3.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_917-eu_dispozable_nozzle_5_nozzles_.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/composite-accessories",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CZR FC P-Stain Color Guide",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CZR FC P-Stain Color Guide",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CZR FC P-Stain Color Guide",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/c/z/czr-fc-paste-stain-guide.jpg",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/c/z/czr-fc-paste-stain-guide.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/czr-fc-p-stain-color-guide",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CZR FC Paste Stain Basic Guide",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CZR FC Paste Stain Basic Guide",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CZR FC Paste Stain Basic Guide",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/1/0/104-5870_czr_fc_paste_stain_basic_kit.jpg",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/1/0/104-5870_czr_fc_paste_stain_basic_kit.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/czr-fc-paste-stain-basic-guide",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "CZR FC Paste Stain Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "CZR FC Paste Stain Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CZR FC Paste Stain Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/1/0/104-5590_czr_fc_paste_stain_kit_1_.jpg",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/1/0/104-5590_czr_fc_paste_stain_kit_1_.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/czr-fc-paste-stain-kit",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-2314",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "How to use KATANA block",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "How to use KATANA block",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "How to use KATANA block",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/k/a/katana-b14_1_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/k/a/katana-b14_1_1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2314",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "K-ETCHANT GEL",
+      "manufacturerRef": "013-EU",
+      "manufacturerRefs": "013-EU",
+      "model": "K-ETCHANT GEL",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "K-ETCHANT GEL · 6ml",
+          "manufacturerRef": "013-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/-/k-etchant-gel-6ml-wb_2x_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1106/s/k-etchant-gel-6ml/category/105/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "K-ETCHANT GEL is a thixotropic etching gel which is used to etch tooth enamel, dentin, ceramics, hybrid ceramics and cured composites for restorations.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/k/-/k-etchant-gel-6ml-wb_2x-1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/k/-/k-etchant-gel-6ml-wb_2x-1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/-/k-etchant-gel-6ml-wb_2x_1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/k-etchant-gel",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "K-ETCHANT Syringe",
+      "manufacturerRef": "3252-EU",
+      "manufacturerRefs": "3252-EU | 3253-EU",
+      "model": "K-ETCHANT Syringe",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "K-ETCHANT Syringe · Syringe 3ml20 Needle tips (E)",
+          "manufacturerRef": "3252-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/-/k-etchant-syringe-chairside_1x_1_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1099/s/k-etchant-syringe/category/105/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "K-ETCHANT Syringe Needle Tips · Needle tip (20 pcs.)",
+          "manufacturerRef": "3253-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/-/k-etchant_tip_tb.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1100/s/k-etchant-syringe-needle-tips/category/105/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "K-ETCHANT Syringe allows for precise and selective placement, thanks to its flowable but not runny consistency.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/k/-/k-etchant-syringe-chairside_1x_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/k/-/k-etchant-syringe-chairside_1x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/-/k-etchant-syringe-chairside_1x_1_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/-/k-etchant_tip_tb.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/k-etchant-syringe",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "KATANA Avencia Block",
+      "manufacturerRef": "KAT-200-1",
+      "manufacturerRefs": "KAT-200-1 | KAT-200-2 | KAT-200-3 | KAT-200-4",
+      "model": "KATANA Avencia Block",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "KATANA Avencia Block Cerec 12 - packed 5 pieces",
+          "manufacturerRef": "KAT-200-1",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana_avencia.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2356/s/katana-avencia-block-cerec-12-packed-5-pieces/category/115/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA Avencia Block Cerec 14L - packed 5 pieces",
+          "manufacturerRef": "KAT-200-2",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana_avencia_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2360/s/katana-avencia-block-cerec-14l-packed-5-pieces/category/115/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA Avencia Block Universal 12 - packed 5 pieces",
+          "manufacturerRef": "KAT-200-3",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana_avencia-block_universal_3.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2365/s/katana-avencia-block-universal-12-packed-5-pieces/category/115/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA Avencia Block Universal 14L - packed 5 pieces",
+          "manufacturerRef": "KAT-200-4",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana_avencia-block_universal_3_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-avencia-block-universal-14l-packed-5-pieces",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "Benefits of the Katana Avencia Block are easy polishing of the restoration surface and excellent gloss retention in the patient&#039;s mouth.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/k/a/katana_avencia_1_3.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/k/a/katana_avencia_1_3.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana_avencia.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana_avencia_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana_avencia-block_universal_3.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana_avencia-block_universal_3_1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-avencia-block",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "KATANA Zirconia Block",
+      "manufacturerRef": "KAT-200",
+      "manufacturerRefs": "KAT-200 | KAT-300 | KAT-400 | KAT-500 | KAT-700-1 | KAT-700-2 | 125-5980-EU",
+      "model": "KATANA Zirconia Block",
+      "variantCount": 7,
+      "variants": [
+        {
+          "variantLabel": "KATANA Zirconia Block 12Z - packed 5 pieces · 5 Blocks",
+          "manufacturerRef": "KAT-200",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-b15-1_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-block-packed-5-pieces",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA Zirconia Block 12Z - packed 2 pieces · 2 Blocks",
+          "manufacturerRef": "KAT-300",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-b15-1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-block-12mm-packed-2-pieces",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA Zirconia Block 14Z - packed 5 pieces · 5 Blocks",
+          "manufacturerRef": "KAT-400",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-b14_1_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/chairside/zirconia/how-to-use-katana-block",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA Zirconia Block 14Z - packed 2 pieces · 2 Blocks",
+          "manufacturerRef": "KAT-500",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-b14_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-block-14mm-packed-2-pieces",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA Zirconia Block for Bridge 14mm L - packed 2 pieces · 2 pcs.",
+          "manufacturerRef": "KAT-700-1",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana_block_bridge.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-block-for-bridge-14mm-l-packed-2-pieces",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA Zirconia Block for Bridge 14mm L - packed 3 pieces · 3 pcs.",
+          "manufacturerRef": "KAT-700-2",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana_block_bridge_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-block-for-bridge-14mm-l-packed-3-pieces",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "Basic kit 12Z - A1, A2, A3, A3.5, B2 · 5 pcs.",
+          "manufacturerRef": "125-5980-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_125-5980-eu_-_basic_kit_12z-_a1_a2_a3_a3_5_b2_-_400x185_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/basickit-a1-a2-a3-a3-5-b2",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "The KATANA™ Zirconia Block allows the chairside fabrication of natural-tooth colored restorations. Eliminating complex staining of the restoration.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/k/a/katana-b14_2.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/k/a/katana-b14_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-b15-1_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-b15-1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-b14_1_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-b14_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana_block_bridge.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana_block_bridge_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/1/_125-5980-eu_-_basic_kit_12z-_a1_a2_a3_a3_5_b2_-_400x185_1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-block",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "KATANA Zirconia HT",
+      "manufacturerRef": "125-2301EU-T",
+      "manufacturerRefs": "125-2301EU-T | 125-2312EU-T | 125-2323EU-T | 125-2334EU-T | 125-2345EU-T",
+      "model": "KATANA Zirconia HT",
+      "variantCount": 5,
+      "variants": [
+        {
+          "variantLabel": "KATANA™ Zirconia HT 10MM",
+          "manufacturerRef": "125-2301EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-ht03_2.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2018/s/katanatm-zirconia-ht-10mm/category/110/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA™ Zirconia HT 14MM",
+          "manufacturerRef": "125-2312EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-ht03_3.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katanatm-zirconia-ht-14mm",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA™ Zirconia HT 18MM",
+          "manufacturerRef": "125-2323EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-ht03_4.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2026/s/katanatm-zirconia-ht-18mm/category/110/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA™ Zirconia HT 22MM",
+          "manufacturerRef": "125-2334EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-ht03_5.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2030/s/katanatm-zirconia-ht-22mm/category/110/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA™ Zirconia HT 26MM",
+          "manufacturerRef": "125-2345EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-ht03_6.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/2034/s/katanatm-zirconia-ht-26mm/category/110/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "The KATANA Zirconia HT disc is a high-translucent disc, which can be used ideally for highly individualized restorations. It’s high aesthetic translucency fulfill all aesthetic demands.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/h/t/ht.jpg",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/h/t/ht.jpg | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-ht03_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-ht03_3.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-ht03_4.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-ht03_5.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-ht03_6.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-ht",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "KATANA Zirconia HTML Plus",
+      "manufacturerRef": "125-8922EU-T",
+      "manufacturerRefs": "125-8922EU-T | 125-8933EU-T | 125-8944EU-T",
+      "model": "KATANA Zirconia HTML Plus",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "KATANA™ Zirconia HTML PLUS 14MM",
+          "manufacturerRef": "125-8922EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-disc-html-plus_3.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-html-plus-14mm",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA™ Zirconia HTML PLUS 18MM",
+          "manufacturerRef": "125-8933EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-disc-html-plus_3_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-html-plus-18mm",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA™ Zirconia HTML PLUS 22MM",
+          "manufacturerRef": "125-8944EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-disc-html-plus_3_2.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-html-plus-22mm",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "The high-strength option for complex restorations",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/h/t/html_plus_ml.jpg",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/h/t/html_plus_ml.jpg | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-disc-html-plus_3.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-disc-html-plus_3_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-disc-html-plus_3_2.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-html-plus",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "KATANA Zirconia STML",
+      "manufacturerRef": "125-3122EU-T",
+      "manufacturerRefs": "125-3122EU-T | 125-3133EU-T | 125-3144EU-T",
+      "model": "KATANA Zirconia STML",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "KATANA™ Zirconia STML 14MM",
+          "manufacturerRef": "125-3122EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-stml02_2.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1963/s/katanatm-zirconia-stml-14mm/category/110/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA™ Zirconia STML 18MM",
+          "manufacturerRef": "125-3133EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-stml02_3.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1978/s/katanatm-zirconia-stml-18mm/category/110/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA™ Zirconia STML 22MM",
+          "manufacturerRef": "125-3144EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-stml02_4.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1993/s/katanatm-zirconia-stml-22mm/category/110/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "It’s a pioneer of zirconia with a color/natural translucency and color gradient. Use KATANA Zirconia STML for your next full contour prosthetics.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/s/t/stml.jpg",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/s/t/stml.jpg | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-stml02_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-stml02_3.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-stml02_4.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-stml",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "KATANA Zirconia UTML",
+      "manufacturerRef": "125-3842EU-T",
+      "manufacturerRefs": "125-3842EU-T | 125-3853EU-T",
+      "model": "KATANA Zirconia UTML",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "KATANA™ Zirconia UTML 14MM",
+          "manufacturerRef": "125-3842EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-utml03_2.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1906/s/katanatm-zirconia-utml-14mm/category/110/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA™ Zirconia UTML 18MM",
+          "manufacturerRef": "125-3853EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-utml03_3.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1927/s/katanatm-zirconia-utml-18mm/category/110/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "KATANA Zirconia UTML is so translucent that light reaches the original tooth color, bringing you the natural result you need.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/u/t/utml.jpg",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/u/t/utml.jpg | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-utml03_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/z/i/zirconia-utml03_3.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-utml",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "KATANA™ Zirconia YML: Empower Your Dental Lab with Multi-Layered Zirconia",
+      "manufacturerRef": "125-7932EU-T",
+      "manufacturerRefs": "125-7932EU-T | 125-7943EU-T | 125-7954EU-T",
+      "model": "KATANA™ Zirconia YML: Empower Your Dental Lab with Multi-Layered Zirconia",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "KATANA™ Zirconia YML 14MM",
+          "manufacturerRef": "125-7932EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-disc-yml_3.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-yml-14mm",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA™ Zirconia YML 18MM",
+          "manufacturerRef": "125-7943EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-disc-yml_2.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-yml-18mm",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "KATANA™ Zirconia YML 22MM",
+          "manufacturerRef": "125-7954EU-T",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-disc-yml_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-yml-22mm",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "Discover KATANA™ Zirconia YML: 1100MPa strength, 49% translucency, 54-min sintering. Elevate your dental lab with unmatched aesthetics & durability.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/y/m/yml.jpg",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/y/m/yml.jpg | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-disc-yml_3.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-disc-yml_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/k/a/katana-disc-yml_1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/katana-zirconia-yml",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "Modelling Gypsum",
+      "manufacturerRef": "318-0015EU-C",
+      "manufacturerRefs": "318-0015EU-C",
+      "model": "Modelling Gypsum",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SUPER ROCK Ex",
+          "manufacturerRef": "318-0015EU-C",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/s/u/super-rock-ex_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1573/s/super-rock-ex/category/111/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "Modelling Gypsum",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/s/u/super-rock-ex_2x_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/s/u/super-rock-ex_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/s/u/super-rock-ex_2x.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/modelling-gypsum",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-814",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "PANAVIA 21",
+      "manufacturerRef": "450-EU-C",
+      "manufacturerRefs": "450-EU-C | 455-EU-C | 1053-EU | 1054-EU | 930-EU",
+      "model": "PANAVIA 21",
+      "variantCount": 5,
+      "variants": [
+        {
+          "variantLabel": "PANAVIA™ 21 Kit · PasteED Primer AED Primer BOxyguard IIEtching VAccessories",
+          "manufacturerRef": "450-EU-C",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia-21-ex-kit-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/815/s/panavia-21-kit/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA™ 21 Paste Uni/Cat · Universal 7.6g/4mlCatalyst 7.9g/4ml",
+          "manufacturerRef": "455-EU-C",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panaviat-21-paste-with-box-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/819/s/panavia-21-paste-uni-cat/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA™ 21 ED Primer A · 4ml",
+          "manufacturerRef": "1053-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panaviat-21-ed-primer-liquid-a-bottle-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/823/s/panavia-21-ed-primer-a/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA™ 21 ED Primer B · 4ml",
+          "manufacturerRef": "1054-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panaviat-21-ed-primer-liquid-b-bottle-wb.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/824/s/panavia-21-ed-primer-b/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA™ 21 Dispenser · 1 pc.",
+          "manufacturerRef": "930-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_930-eu_-_panavia_21_dispenser.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/826/s/panavia-21-dispenser/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "PANAVIA 21 is an anaerobic-curing adhesive resin cement which cures only when oxygen is excluded.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/p/a/panavia-21-ex-kit-wb_2x_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/p/a/panavia-21-ex-kit-wb_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia-21-ex-kit-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panaviat-21-paste-with-box-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panaviat-21-ed-primer-liquid-a-bottle-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panaviat-21-ed-primer-liquid-b-bottle-wb.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_930-eu_-_panavia_21_dispenser.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/814",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "PANAVIA F 2.0",
+      "manufacturerRef": "485-EU-1",
+      "manufacturerRefs": "485-EU-1 | 480-EU-1 | 493-EU | 494-EU-1 | 491-EU | 492-EU | 490-EU",
+      "model": "PANAVIA F 2.0",
+      "variantCount": 7,
+      "variants": [
+        {
+          "variantLabel": "PANAVIA™ F 2.0 Kit · 1 PANAVIA™ F 2.0 A Paste (5g/2.3ml)1 PANAVIA™ F 2.0 B Paste (4.6g/2.3ml)1 ED PRIMER II Liquid A (4ml)1 ED PRIMER II Liquid B (4ml)1 ALLOY PRIMER (1ml)1 OXYGUARD™ II (6ml)1 mixing pad1 spatula1 mixing dish1 brush tip handle200 disposable brush tips20 disposable nozzles1 light blocking plate",
+          "manufacturerRef": "485-EU-1",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia-f-2.0-kit-tc-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/800/s/panavia-f-2-0-kit/category/102/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA™ F 2.0 Introductory Kit · 1 PANAVIA™ F 2.0 A Paste (2.1g/1ml)1 PANAVIA™ F 2.0 B Paste (1.9g/1ml)1 ED PRIMER II Liquid A (1ml)1 ED PRIMER II Liquid B (1ml)1 OXYGUARD™ II (1.5ml)1 mixing pad1 spatula1 mixing dish1 brush tip handle50 disposable brush tips5 disposable nozzles1 light blocking plate",
+          "manufacturerRef": "480-EU-1",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/i/m/image-2020-05-20-09-46-12-296.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/795/s/panavia-f-2-0-introductory-kit/category/102/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA™ F 2.0 A PASTE · 5g/2.3ml",
+          "manufacturerRef": "493-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia-f-20-paste-a-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/805/s/panavia-f-2-0-a-paste/category/102/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA™ F 2.0 B PASTE · TC (4.6g/2.3ml)White (4.6g/2.3ml)Light (4.6g/2.3ml) Opaque (4.6g/2.3ml)",
+          "manufacturerRef": "494-EU-1",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia_f_2.0.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/806/s/panavia-f-2-0-b-paste/category/102/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA™ F 2.0 ED PRIMER II Liquid A · 4ml",
+          "manufacturerRef": "491-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia_2.0_primer.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/811/s/panavia-f-2-0-ed-primer-ii-liquid-a/category/102/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA™ F 2.0 ED PRIMER II Liquid B · 4ml",
+          "manufacturerRef": "492-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia_2.0_liquid.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/812/s/panavia-f-2-0-ed-primer-ii-liquid-b/category/102/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "PANAVIA F 2.0 OXYGUARD™ II · 6ml",
+          "manufacturerRef": "490-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia-f-20-oxyguard-wb_2x_1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/813/s/panavia-f-2-0-oxyguard-ea/category/102/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "PANAVIA™ F 2.0 is a dual-cure resin cement with anaerobic properties. Excess paste can be light-cured.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/p/a/panavia-f-2.0-kit-tc-wb_2x_1.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/p/a/panavia-f-2.0-kit-tc-wb_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia-f-2.0-kit-tc-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/i/m/image-2020-05-20-09-46-12-296.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia-f-20-paste-a-wb_2x.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia_f_2.0.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/a/l/alloy-primer-1ml-wb_2xs2_2_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia_2.0_primer.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia_2.0_liquid.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/p/a/panavia-f-20-oxyguard-wb_2x_1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/_/9/_917-eu_dispozable_nozzle_5_nozzles_.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/panavia-f-2-0",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "Refractory Die Material",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Refractory Die Material",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Refractory Die Material",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "This system makes precise soldering easily. It is suitable for soldering of porcelain-fused-to-metal restoration and full cast metal crowns.",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/n/o/nori-vest_2.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/n/o/nori-vest_2.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/refractory-die-material",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KURARAY-NORITAKE-undefined",
+      "brand": "Kuraray Noritake",
+      "manufacturer": "Kuraray Noritake Dental Inc.",
+      "name": "TEETHMATE DESENSITIZER",
+      "manufacturerRef": "1210-EU",
+      "manufacturerRefs": "1210-EU | 1216-EU | 1217-EU | 1220-EU | 1221-EU | 1215-EU",
+      "model": "TEETHMATE DESENSITIZER",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantLabel": "TEETHMATE™ DESENSITIZER Set · Powder (6g)Liquid (4.8ml)Mixing dishMeasuring spoonApplicator brush",
+          "manufacturerRef": "1210-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/t/e/teethmate_desensitizer_set_1_2.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1401/s/teethmate-desensitizer-set/category/105/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "TEETHMATE™ DESENSITIZER Powder · Powder (6g)",
+          "manufacturerRef": "1216-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/t/e/teethmate_powder.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1402/s/teethmate-desensitizer-powder/category/105/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "TEETHMATE™ DESENSITIZER Liquid · Liquid (4.8ml)",
+          "manufacturerRef": "1217-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/t/e/teethmate_liquid1.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1403/s/teethmate-desensitizer-liquid/category/105/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "TEETHMATE™ DESENSITIZER Measuring Spoon · 1 pc.",
+          "manufacturerRef": "1220-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/t/e/teethmate_spoon.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1404/s/teethmate-desensitizer-measuring-spoon/category/105/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "TEETHMATE™ DESENSITIZER Applicator Brush · 50 brushes",
+          "manufacturerRef": "1221-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/b/r/bruches.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1405/s/teethmate-desensitizer-applicator-brush/category/105/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "TEETHMATE™ DESENSITIZER Introductory Set · Powder (1.2g)Liquid (1ml)Mixing dishMeasuring spoonApplicator brush",
+          "manufacturerRef": "1215-EU",
+          "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/t/e/teethmatet-desensitizer-introductory-set-with-box-1-wb_2x.png",
+          "sourcePageUrl": "https://www.kuraraynoritake.eu/en/catalog/product/view/id/1400/s/teethmate-desensitizer-introductory-set/category/105/",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kuraray Noritake / Dental products",
+      "description": "Treat sensitive teeth not only effectively and durably, but for the first time naturally. Theethmate Desensitizer creates hydroxyapatite (HAp).",
+      "sourceImageUrl": "https://www.kuraraynoritake.eu/media/catalog/product/t/e/teethmate-desensitizer.png",
+      "imageUrls": "https://www.kuraraynoritake.eu/media/catalog/product/t/e/teethmate-desensitizer.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/t/e/teethmate_desensitizer_set_1_2.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/t/e/teethmate_powder.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/t/e/teethmate_liquid1.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/t/e/teethmate_spoon.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/b/r/bruches.png | https://www.kuraraynoritake.eu/media/catalog/product/cache/e9642b8663e035af4ac1dab57d716a20/t/e/teethmatet-desensitizer-introductory-set-with-box-1-wb_2x.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.kuraraynoritake.eu/en/teethmate-desensitizer",
+      "additionalSourceUrls": "https://www.kuraraynoritake.eu/sitemaps/sitemap_en.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+    }
+  ]
+}

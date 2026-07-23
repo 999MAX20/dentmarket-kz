@@ -1,0 +1,96 @@
+{
+  "brand": "LM Dental",
+  "manufacturer": "LM-Instruments Oy",
+  "sourceType": "OFFICIAL_AND_VALIDATED_SPECIALIST_PRODUCT_IMAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "allSourceHashesPinned": true,
+    "pageScreenshotsForbidden": true,
+    "noGeneratedProductGeometry": true,
+    "referenceMismatchRemainsOnModeration": true
+  },
+  "totals": {
+    "targets": 3,
+    "recovered": 2,
+    "recoveredThisRun": 2,
+    "retainedFromPreviousRuns": 2,
+    "reviewRequired": 1
+  },
+  "products": [
+    {
+      "officialProductId": "LM-DENTAL-AP-2",
+      "brand": "LM Dental",
+      "manufacturer": "LM-Instruments Oy",
+      "name": "AP-2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "AP-2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AP-2",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "LM Dental / uncategorized",
+      "description": "Apical surgery Clinical Use Same area of use as AP-1. AP-2 has a slimmer design and is therefore better suited for small roots. Available in a pack of four. Diameter 0.5 mm. 100° angle. Working mode &nbsp; &nbsp; Max 40 % &nbsp; Not available in the US market.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/verified-lm-dental-ap-2-100508-234f66d581.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/verified-lm-dental-ap-2-100508-234f66d581.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://dentalgroup-company.ru/ap-2",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "SPECIALIST_EXACT_PRODUCT_IMAGE_VALIDATED",
+      "photoEvidence": {
+        "method": "VALIDATED_SPECIALIST_EXACT_MODEL_IMAGE",
+        "specialistProductPageUrl": "https://dentalgroup-company.ru/ap-2",
+        "specialistSourceImageUrl": "https://dentalgroup-company.ru/thumb/2/O66xjJ87OOIUaOoFKY8MCA/r/d/ap_2_nasadka_dlya_skalerov_lm_dlya_retrogradnoy_endodontii_almaznaya_4_re_smennyh_nasadki_dlya_derzhateley_ih1_ih2_ihs1_ihs2.jpg",
+        "matchedModel": "AP-2",
+        "matchedManufacturerReference": "100508",
+        "matchedSpecifications": [
+          "diameter 0.5 mm",
+          "100° angle"
+        ],
+        "sourceImageSha256": "234f66d581659f6aeced6c4d115d3010556f48f3f944cb67dff356dd5ff86cad",
+        "sha256": "234f66d581659f6aeced6c4d115d3010556f48f3f944cb67dff356dd5ff86cad",
+        "bytes": 7761,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "LM-DENTAL-FOOT-PEDAL",
+      "brand": "LM Dental",
+      "manufacturer": "LM-Instruments Oy",
+      "name": "Foot pedal",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Foot pedal",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Foot pedal",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "LM Dental / uncategorized",
+      "description": "Dynamic foot pedal Turn the LED light on and off for diagnostics, control the working power within the chosen working mode, use the special water jet teeth cleaning function in polishing and the irrigation function in scaling with the pedal, and leave your hands free for treating the patient. Not available in the US market.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/verified-lm-dental-propower-foot-pedal-9e22eecf8b.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/verified-lm-dental-propower-foot-pedal-9e22eecf8b.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://publications.lm-dental.com/LM-Dental/Brochures/LM_ProPower_brochure_en.pdf",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_EXACT_PRODUCT_IMAGE",
+        "officialPdfUrl": "https://publications.lm-dental.com/LM-Dental/Brochures/LM_ProPower_brochure_en.pdf",
+        "officialPdfPage": 7,
+        "officialPdfSha256": "c4c97a0da5c3566fa18c831cb3de5f77728ccb4afeccc61958faf3ba804aca71",
+        "embeddedImageSha256": "9e60ca3426fad4933dde95e25800617ee2153a6aa1f91120e01e1a6a96f79f9a",
+        "sha256": "9e22eecf8b12cc4e98dcf9d3a4daf4a5908dc4ffc71eb7db705c7424a107471d",
+        "bytes": 210371,
+        "contentType": "image/png"
+      }
+    }
+  ]
+}

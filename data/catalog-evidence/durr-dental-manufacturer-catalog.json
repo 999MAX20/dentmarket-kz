@@ -1,0 +1,2032 @@
+{
+  "brand": "Dürr Dental",
+  "manufacturer": "DÜRR DENTAL SE",
+  "sourceType": "MANUFACTURER_PRODUCT_SITEMAP_AND_PRODUCT_DETAIL_BLOCKS",
+  "sourceUrl": "https://www.duerrdental.com/en/sitemap.xml",
+  "lastChecked": "2026-07-22",
+  "totals": {
+    "sitemapProductUrls": 161,
+    "pagesWithProductDetails": 89,
+    "discoveredProductBlocks": 89,
+    "aggregatePagesExcluded": 5,
+    "duplicateBlocksRemoved": 0,
+    "uniqueProducts": 84,
+    "productsWithReferences": 0,
+    "productsWithImages": 84,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "DURR-AMALGAM-SEPARATOR",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Amalgam separator",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "1 CA"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "2 CA"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "4 CA"
+        }
+      ],
+      "categoryPath": "Suction",
+      "description": "No amalgam into the waste water The process that starts with the separation unit is completed by the amalgam separator. By law, amalgam must be filtered out of the waste water produced by the treatment unit, separated and collected. As a pioneer and premium manufacturer in dental suction systems , DÜRR DENTAL has been working on the development of high-performance amalgam separators since the start of the 1980s. It goes without saying that all of our systems bear the quality promise \"Made in Germany\". They also meet the requirements defined for the whole of Europe in ISO standard 11143:2008. Discover the amalgam separators by DÜRR DENTAL – The best. By design.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/moved_assets/Absaugung/Header_Amalgamabscheider.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/moved_assets/Absaugung/Header_Amalgamabscheider.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/suction/devices/amalgam-separator/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-CANNULAS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Cannulas",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Cannulas"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Y-Adapter"
+        }
+      ],
+      "categoryPath": "Suction",
+      "description": "The DÜRR DENTAL range of suction cannulas and handpieces The right cannulas enable you to effectively reduce germ-laden aerosols. The powerful range of cannulas from DÜRR DENTAL protects the entire practice team. All cannulas in the DÜRR DENTAL range share the same basic quality features: they are ergonomically designed and have no edges, making them extremely comfortable for both patients and therapists alike. At the same time, it provides the therapist with optimum grip. All cannulas deliver highly efficient suction performance to remove saliva, blood and micro-particles from the patient's mouth and are therefore well-suited to all types and areas of treatment.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/845f7535-1d7a-45ba-a43b-68d796549ad9/thumbnail/mini-Absaugkanulen-Header-Webseite",
+      "imageUrls": "https://media.duerrdental.com/asset/845f7535-1d7a-45ba-a43b-68d796549ad9/thumbnail/mini-Absaugkanulen-Header-Webseite",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/suction/materials-and-accessories/cannulas/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-CLINIC-SYSTEMS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Clinic systems",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "P 6000"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "P 9000"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "P 12000"
+        }
+      ],
+      "categoryPath": "Compressed air",
+      "description": "Powerful compressed air solutions for day-to-day clinic operations Dental clinics and universities require an uncompromising compressed air supply that offers top performance and reliable reserves. Dürr Dental offers central pressure stations with refrigerant type dryers and cyclone separators for up to 80 therapists. The sophisticated system structure ensures efficient planning, economical operation and long-term supply reliability.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/34fe3c6b-8833-42eb-859e-7c8ea9fdd902/thumbnail/mini-Druckluft-Kliniken-Header-2026",
+      "imageUrls": "https://media.duerrdental.com/asset/34fe3c6b-8833-42eb-859e-7c8ea9fdd902/thumbnail/mini-Druckluft-Kliniken-Header-2026",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/compressed-air/devices/clinic-systems/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-COMPONENTS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Components for system integration",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Place selection valve"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Spittoon valve"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Auxiliary air nozzle"
+        }
+      ],
+      "categoryPath": "Suction",
+      "description": "Everything from a single source For the industrial sector, DÜRR DENTAL offers an entire dental unit portfolio to meet the requirements of system integration. The components are integrated ex-works in the treatment units of leading manufacturers and ensure efficient and trouble-free operation.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/moved_assets/Absaugung/Komponenten_Systemintegration_header.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/moved_assets/Absaugung/Komponenten_Systemintegration_header.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/suction/system-integration/components/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-DUERRCONNECT",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "DürrConnect",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "DürrConnect"
+        }
+      ],
+      "categoryPath": "Suction",
+      "description": "DÜRR DENTAL suction units have an intelligent design. This makes them easier and more flexible to install. Nonetheless, every surgery is different in its own way. The solution: DürrConnect.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/852adcb4-c887-4cb4-922f-b18ec8f24914/thumbnail/mini-Service-Image-Campaign-03",
+      "imageUrls": "https://media.duerrdental.com/asset/852adcb4-c887-4cb4-922f-b18ec8f24914/thumbnail/mini-Service-Image-Campaign-03",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/suction/system-integration/duerrconnect/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-300-SURFACE-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 300 Surface disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Fully virucidal and alcohol-free concentrate for cleaning and disinfecting surfaces of non-invasive medical devices and medical fixtures Especially fast reaction time Economical application: Up to 250 l of ready-to-use solution at 1% Good material compatibility Spectrum of activity 1 : Bactericidal, yeasticidal, tuberculocidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), limited virucidal PLUS (incl. rotaviruses, adenoviruses, noroviruses), virucidal (enveloped and non-enveloped viruses) Active ingredients: Alkylamines, quaternary ammonium compounds Units: 2.5 litres Ideal for: Dry wipes from DÜRR DENTAL 1 FD 300 has been tested under high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 (4-field test) and the DVV/RKI guideline.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/769527c9-5b83-4873-bd4f-27f8f8b2cf5f/L/FD300.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/769527c9-5b83-4873-bd4f-27f8f8b2cf5f/L/FD300.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/concentrates-and-ready-to-use-solutions/fd-300-surface-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-312-SURFACE-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 312 Surface disinfection*",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Alcohol-free concentrate for cleaning and disinfecting surfaces of non-invasive medical devices, fixtures and floors Economical application: Up to 250 l of ready-to-use solution at 1% Good material compatibility Pleasant scent Spectrum of activity 1 : Bactericidal, yeasticidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), limited virucidal PLUS (incl. rotaviruses, adenoviruses, noroviruses) Active ingredients: Alkyl(C12-18)dimethylbenzylammonium chloride (quaternary ammonium compounds) Units: 2.5 litres Ideal for: Dry wipes from DÜRR DENTAL 1 FD 312 has been tested under high loads in accordance with EN 13727, EN 13624, EN 14476, EN 16615 (4-field test) and the DVV/RKI guideline.",
+      "sourceImageUrl": "EN",
+      "imageUrls": "EN",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/concentrates-and-ready-to-use-solutions/fd-312-surface-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-312-WET-WIPES-SURFACE-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 312 wet wipes Surface disinfection*",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Alcohol-free disinfection and cleaning wipes for floors, surgery inventory etc. High-yield surface coverage Wipes with tear-resistant honeycomb structure Pleasant scent Spectrum of activity 1 : Bactericidal, yeasticidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses) Active ingredients: Alkyl(C12-18)dimethylbenzylammonium chloride (quaternary ammonium compounds) Units: Package with 15 wipes Wipe size: 22 x 42 cm 1 The FD 312 wet wipes have been tested under high loads in accordance with EN 13727, EN 13624, EN 16615 (4-field test).",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/90e61dc8-32d1-4d9c-bafb-d6a1fa75f372/L/FD312_wetwipes.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/90e61dc8-32d1-4d9c-bafb-d6a1fa75f372/L/FD312_wetwipes.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-312-wet-wipes-surface-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-322-PERFUME-FREE-QUICK-ACTING-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 322 Perfume-free quick-acting disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Fast-acting, ready-to-use solution for disinfecting and cleaning surfaces of medical devices and fixtures Very short reaction time Dries without residue Good material compatibility Perfume-free Spectrum of activity 1 : Bactericidal, tuberculocidal, yeasticidal, fungicidal, limited virucidal PLUS (enveloped viruses incl. HBV, HCV, HIV and coronaviruses, as well as non-enveloped adenoviruses and noroviruses) Active ingredients: Alcohols Units: 2.5 litres, 10 litres Ideal for: Dry wipes from DÜRR DENTAL, 500 ml spray bottle, spray head 1 The active ingredient solution of the product is based on a quick-acting combination of alcohols and is tested in accordance with current VAH methods, the DVV/RKI guideline and European standards (testing under high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 – 4 field test).",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/378c3cc1-bfac-473b-924a-5a8554b593ed/L/FD322perfumefree.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/378c3cc1-bfac-473b-924a-5a8554b593ed/L/FD322perfumefree.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/concentrates-and-ready-to-use-solutions/fd-322-perfume-free-quick-acting-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-322-PREMIUM-WIPES-QUICK-ACTING-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 322 premium wipes Quick-acting disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Disinfection wipes for the quick disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and fixtures Spectrum of activity 1 : Bactericidal, tuberculocidal, fungicidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), limited virucidal PLUS (incl. rotaviruses, adenoviruses, noroviruses), polyomaviruses SV40 Active ingredients: Alcohols Units: Dispenser box of 80 wipes, refill pack of 80 wipes Wipe size: 14 x 19 cm 1 FD 322 as active ingredient solution of FD 322 premium wipes is based on a fast-acting combination of alcohols. The active ingredient solution has been tested under high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 and the DVV/RKI guideline. FD 322 premium wipes have been tested and certified as ready-to-use wipes based on the 4-field test in accordance with VAH/EN 16615.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/6cbcb0d8-8d6a-4f60-ad8e-5e571e13107b/L/FD322_premiumwipes.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/6cbcb0d8-8d6a-4f60-ad8e-5e571e13107b/L/FD322_premiumwipes.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-322-premium-wipes-quick-acting-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-322-QUICK-ACTING-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 322 Quick-acting disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Fast-acting, ready-to-use solution for the disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and fixtures Very short reaction time Dries without residue Good material compatibility Spectrum of activity 1 : Bactericidal, tuberculocidal, fungicidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), limited virucidal PLUS (incl. rotaviruses, adenoviruses, noroviruses), polyomaviruses SV40 Active ingredients: Alcohols Units: 750 ml for Hygowipe Plus, 1 litre, 2.5 litres, 10 litres Ideal for: Dry wipes from DÜRR DENTAL, 500 ml spray bottle, spray head 1 The active ingredient solution of the product is based on a fast-acting combination of alcohols and has been tested in accordance with current VAH methods, the DVV/RKI guideline and European standards (testing under high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 – 4-field test).",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/2bca90f5-d9e1-4c5f-9d65-2d1e586a03aa/L/FD322.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/2bca90f5-d9e1-4c5f-9d65-2d1e586a03aa/L/FD322.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/concentrates-and-ready-to-use-solutions/fd-322-quick-acting-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-322-TOP-WIPES-QUICK-ACTING-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 322 top wipes Quick-acting disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Disinfection wipes for the quick disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and fixtures Very short reaction time Dries without residue Good material compatibility Spectrum of activity 1 : Bactericidal, tuberculocidal, fungicidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), limited virucidal PLUS (incl. rotaviruses, adenoviruses, noroviruses), polyomaviruses SV40 Active ingredients: Alcohols Units: Package with 50 wipes Wipe size: 17.5 x 25 cm 1 FD 322 as active ingredient solution of FD 322 top wipes is based on a fast-acting combination of alcohols. The active ingredient solution has been tested under high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 and the DVV/RKI guideline. The FD 322 top wipes have been tested as ready-to-use wipes using the 4-field test in accordance with VAH/EN 16615.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/55d8f4f2-4ede-4ffb-b93e-738dc485025b/L/FD322_topwipes.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/55d8f4f2-4ede-4ffb-b93e-738dc485025b/L/FD322_topwipes.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-322-top-wipes-quick-acting-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-322-WIPES-QUICK-ACTING-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 322 wipes for quick-acting disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Disinfection wipes for the quick disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and fixtures",
+      "sourceImageUrl": ">FD",
+      "imageUrls": ">FD",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-322-wipes-quick-acting-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-333-FORTE-PREMIUM-WIPES-QUICK-ACTING-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 333 forte premium wipes Quick-acting disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Fully virucidal, ready-to-use disinfection wipes for fast disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and inventory Quick-acting disinfection effect Fresh lemon scent Wipe made of particularly soft material Spectrum of activity 1 : Bactericidal, tuberculocidal, mycobactericidal, fungicidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), limited virucidal PLUS (incl. rotaviruses, adenoviruses, noroviruses), virucidal (enveloped and non-enveloped viruses) Active ingredients: Alcohols, quaternary ammonium compounds Units: Dispenser box of 80 wipes, refill pack of 80 wipes Wipe size: 14 x 19 cm 1 The active ingredient solution has been tested in accordance with current VAH methods and European standards: under low and high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 (4-field test) and the DVV/RKI guideline.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/eab39407-b5fe-4e5b-8017-67923da974f1/L/FD333_forte_premiumwipes.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/eab39407-b5fe-4e5b-8017-67923da974f1/L/FD333_forte_premiumwipes.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-333-forte-premium-wipes-quick-acting-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-333-FORTE-QUICK-ACTING-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 333 forte Quick-acting disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Fully virucidal ready-to-use solution for the disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and fixtures Good material compatibility Fresh lemon scent Quick-acting disinfection effect Spectrum of activity 1 : Bactericidal, tuberculocidal, mycobactericidal, fungicidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), limited virucidal PLUS (incl. rotaviruses, adenoviruses, noroviruses), virucidal (enveloped and non-enveloped viruses) Active ingredients: Alcohols, quaternary ammonium compounds Units: 1 litre, 2.5 litres, 10 litres Ideal for: Dry wipes from DÜRR DENTAL, 500 ml spray bottle, spray head 1 FD 333 forte has been tested under low and high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 (4-field test) and the DVV/RKI guideline.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/20886d76-4ec2-4f85-9894-f90a1fa26cce/L/FD333forte.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/20886d76-4ec2-4f85-9894-f90a1fa26cce/L/FD333forte.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/concentrates-and-ready-to-use-solutions/fd-333-forte-quick-acting-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-333-FORTE-WIPES-QUICK-ACTING-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 333 forte wipes for quick-acting disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Fully virucidal, ready-to-use disinfection wipes for fast disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and inventory Quick-acting disinfection effect Extra-large wipes Fresh lemon scent Spectrum of activity 1 : Bactericidal, tuberculocidal, mycobactericidal, fungicidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), limited virucidal PLUS (incl. rotaviruses, adenoviruses, noroviruses), virucidal (enveloped and non-enveloped viruses) Active ingredients: alcohols and quaternary ammonium compounds Units: Dispenser box of 100 wipes, refill pack of 100 wipes Wipe size: 20 x 30 cm 1 The active ingredient solution has been tested in accordance with current VAH methods and European standards: under low and high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 and the DVV/RKI guideline; tested using the 4-field test in accordance with VAH and EN 16615; virucidal in accordance with DVV/RKI and EN 14476.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/43794efb-1051-457b-8c18-ce0966209d69/L/FD333_fortewipes.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/43794efb-1051-457b-8c18-ce0966209d69/L/FD333_fortewipes.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-333-forte-wipes-quick-acting-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-333-QUICK-ACTING-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 333 Quick-acting disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Fast-acting, ready-to-use solution for the disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and fixtures Good material compatibility Fresh lemon scent Quick drying Spectrum of activity 1 : Bactericidal, tuberculocidal, fungicidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), limited virucidal PLUS (incl. rotaviruses, adenoviruses, noroviruses) Active ingredients: Alcohols, quaternary ammonium compounds Units: 750 ml for Hygowipe Plus, 1 litre, 2.5 litres, 10 litres Ideal for: Dry wipes from DÜRR DENTAL, 500 ml spray bottle, spray head 1 FD 333 has been tested under low loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 (4-field test).",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/42c06d35-9f1d-4332-a770-3478d5779f08/L/FD333.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/42c06d35-9f1d-4332-a770-3478d5779f08/L/FD333.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/concentrates-and-ready-to-use-solutions/fd-333-quick-acting-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-333-TOP-WIPES-QUICK-ACTING-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 333 top wipes Quick-acting disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Disinfection wipes for the quick disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and fixtures Quick-acting disinfection effect Quick drying times Perfume-free Spectrum of activity 1 : Bactericidal, tuberculocidal, mycobactericidal, fungicidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), limited virucidal PLUS (incl. rotaviruses, adenoviruses, noroviruses), virucidal (enveloped and non-enveloped viruses) Active ingredients: Alcohols, quaternary ammonium compounds Units: Package with 50 wipes Wipe size: 17.5 x 25 cm 1 The active ingredient solution has been tested under low loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615. The FD 333 top wipes have been tested as ready-to-use wipes using the 4-field test in accordance with VAH/EN 16615.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/e789388f-0776-44b7-b1dc-599575f180ec/L/FD-333-top-wipes-quick-disinfectant.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/e789388f-0776-44b7-b1dc-599575f180ec/L/FD-333-top-wipes-quick-disinfectant.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-333-top-wipes-quick-acting-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-333-WIPES-QUICK-ACTING-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 333 wipes for quick-acting disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Disinfection wipes for the quick disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and fixtures Quick-acting disinfection effect Quick drying times Perfume-free Spectrum of activity 1 : Bactericidal, tuberculocidal, fungicidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), limited virucidal PLUS (incl. rotaviruses, adenoviruses, noroviruses) Active ingredients: Alcohols, quaternary ammonium compounds Units: Dispenser box of 110 wipes, refill pack of 110 wipes 1 The active ingredient solution has been tested under low loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476 and EN 16615 (4-field test). Wipe size: 14 x 22 cm",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/49508f02-104e-44b1-be9a-917528da4a62/L/FD333_wipes.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/49508f02-104e-44b1-be9a-917528da4a62/L/FD333_wipes.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-333-wipes-quick-acting-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-350-DISINFECTION-WIPES",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 350 Quick-acting disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Disinfection wipes for the quick disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and fixtures Quick-acting disinfection effect Quick, streak-free drying 3 different fragrances: Classic, Flower, Lemon Spectrum of activity 1 : Bactericidal, tuberculocidal, fungicidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), limited virucidal PLUS (incl. rotaviruses, adenoviruses, noroviruses), polyomaviruses SV40 Active ingredients: Alcohols Units: Dispenser box of 110 wipes, refill pack of 110 wipes Wipe size: 14 x 22 cm 1 The product is based on a combination of alcohols and has been tested in accordance with current VAH methods and European standards: the active ingredient solution has been tested under high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 (4-field test) and the DVV/RKI guideline.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/7c940876-ea3d-4e2d-8096-4d22df742127/L/FD350_Reinigungstuch_1200x1328px-jpg.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/7c940876-ea3d-4e2d-8096-4d22df742127/L/FD350_Reinigungstuch_1200x1328px-jpg.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-350-disinfection-wipes/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-360-CLEANING-AND-CARE-OF-VINYL-UPHOLSTERY",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 360 Cleaning and care of vinyl upholstery",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Cleaning fluid for deep cleaning and care of vinyl upholstery Cleaning agent, gentle on materials, combined with a care product for long-term value-retention Intensive cleaning effect - removes stains of all kinds, rims and discolouration Certified material compatibility – recommended by leading equipment manufacturers Ideal for treatment units in combination with FD 366 sensitive Ingredients: Special surfactants, silicon compounds and care formula based on avocado oil Units: Set with 250 ml spray bottle, 1 FD polishing wipe and 5 special sponges Ideal for: FD 366 sensitive , FD 366 sensitive wipes , FD polishing wipe , FD 366 sensitive top wipes",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/8fe9c536-7c81-4c7a-a91c-c2b5bc4e17d4/L/FD-360-set-250-ml-bottle.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/8fe9c536-7c81-4c7a-a91c-c2b5bc4e17d4/L/FD-360-set-250-ml-bottle.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/concentrates-and-ready-to-use-solutions/fd-360-cleaning-and-care-of-vinyl-upholstery/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-366-SENSITIVE-DISINFECTION-OF-SENSITIVE-SURFACES",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 366 sensitive Disinfection of sensitive surfaces",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Alcohol-reduced ready-to-use solution for the quick disinfection of sensitive surfaces of invasive and non-invasive medical devices and fixtures Quick-acting disinfection effect Certified material compatibility – recommended by leading equipment manufacturers Ideal for treatment units in combination with FD 360 Cleaning and care of vinyl upholstery Spectrum of activity 1 : Bactericidal, tuberculocidal, yeasticidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), noroviruses Active ingredients: Alcohols, quaternary ammonium compounds Units: 750 ml for Hygowipe Plus, 1 litre, 2.5 litres, 10 litres Ideal for: Dry wipes from DÜRR DENTAL, 500 ml spray bottle, spray head 1 FD 366 sensitive has been tested under low and high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 (4-field test) and the DVV/RKI guideline.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/3b345472-25af-4dac-ba3a-04223d2e9cf5/L/FD366_sensitive.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/3b345472-25af-4dac-ba3a-04223d2e9cf5/L/FD366_sensitive.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/concentrates-and-ready-to-use-solutions/fd-366-sensitive-disinfection-of-sensitive-surfaces/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-366-SENSITIVE-TOP-WIPES-FOR-DISINFECTION-OF-SENSITIVE-SURFACES",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 366 sensitive top wipes for disinfection of sensitive surfaces",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Ready-to-use disinfection wipes for the quick disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and fixtures Quick-acting disinfection effect Recommended by equipment manufacturers Perfume-free Spectrum of activity 1 : Bactericidal, tuberculocidal, yeasticidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), noroviruses Active ingredients: Alcohols, quaternary ammonium compounds Available as: Package with 50 wipes Wipe size: 17.5 x 25 cm 1 The active ingredient solution has been tested under low and high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 and the DVV/RKI guideline. The FD 366 sensitive top wipes have been tested as ready-to-use wipes using the 4-field test in accordance with VAH/EN 16615.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/2a3770b4-2153-4461-981f-5c42bf83a82c/L/FD366_sensitivetopwipes.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/2a3770b4-2153-4461-981f-5c42bf83a82c/L/FD366_sensitivetopwipes.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-366-sensitive-top-wipes-for-disinfection-of-sensitive-surfaces/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-366-SENSITIVE-WIPES-DISINFECTION-OF-SENSITIVE-SURFACES",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD 366 sensitive wipes Disinfection of sensitive surfaces",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Ready-to-use disinfection wipes for the quick disinfection of alcohol-resistant surfaces of invasive and non-invasive medical devices and fixtures Quick-acting disinfection effect Recommended by equipment manufacturers Perfume-free Spectrum of activity 1 : Bactericidal, tuberculocidal, yeasticidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), noroviruses Active ingredients: Alcohols, quaternary ammonium compounds Units: Dispenser box of 100 wipes, refill pack of 100 wipes Wipe size: 20 x 30 cm 1 The active ingredient solution has been tested under low and high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 16615 and the DVV/RKI guideline. The FD 366 sensitive wipes have been tested as ready-to-use wipes using the 4-field test in accordance with VAH/EN 16615.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/8b283600-405b-418a-b3d5-aabf8aa3954b/L/FD-366-sensitive-wipes-Web-Produktbild.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/8b283600-405b-418a-b3d5-aabf8aa3954b/L/FD-366-sensitive-wipes-Web-Produktbild.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-366-sensitive-wipes-disinfection-of-sensitive-surfaces/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-MULTI-WIPES",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD multi wipes",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Universal dry wipes, can be soaked in disinfectant and cleaning agents All-purpose wipes can be used together with surface disinfectants Lint-free and tear-proof Excellent wetting; does not scratch surfaces Units: Dispenser box of 180 wipes, refill pack of 180 wipes Wipe size: 20 x 30 cm Ideal for: Can be used for surface disinfection with all DÜRR DENTAL ready-to-use solutions and concentrates. Tested and approved using the 4-field test (EN 16615).",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/d8454f1c-2202-4dc7-b8a0-e541c263897c/L/FD_multiwipes.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/d8454f1c-2202-4dc7-b8a0-e541c263897c/L/FD_multiwipes.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-multi-wipes/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-MULTI-WIPES-COMPACT",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD multi wipes compact",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Universal dry wipes, can be soaked in disinfectant and cleaning agents All-purpose wipes can be used together with surface disinfectants Lint-free and tear-proof Excellent wetting; does not scratch surfaces Compact box, extra-large wipes Units: Dispenser box of 60 wipes, refill pack of 60 wipes Wipe size: 29 x 30 cm Ideal for: Can be used for surface disinfection with all DÜRR DENTAL ready-to-use solutions and concentrates. Tested and approved using the 4-field test (EN 16615).",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/2da0d7cb-6225-465c-b023-287bfb5d80fc/L/FD-multiwipes-compact.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/2da0d7cb-6225-465c-b023-287bfb5d80fc/L/FD-multiwipes-compact.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-multi-wipes-compact/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-FD-POLISHING-WIPE",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "FD polishing wipe",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Surfaces",
+      "description": "Microfibre cloth with special fibres for gentle cleaning and polishing of sensitive surfaces Particularly thorough thanks to the fine fibre material Fast, streak-free cleaning Antistatic properties remove small particles of dirt and dust Suitable for washing at temperatures of up to 60°C Units: Available as individual wipes Wipe size: 32 x 32 cm",
+      "sourceImageUrl": "0-1.6-.6-2.7-2.1-2.7-.9",
+      "imageUrls": "0-1.6-.6-2.7-2.1-2.7-.9",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/disinfection-wipes/fd-polishing-wipe/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-EXHAUST-AIR-VIRUS-BACTERIA-FILTER",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Filter",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Filter"
+        }
+      ],
+      "categoryPath": "Suction",
+      "description": "It is possible that the exhaust air from the suction unit may be microbially contaminated. It is therefore recommended to direct the exhaust air from the suction unit outside the building via an exhaust air virus-bacteria filter. Protect your patients and yourself by keeping the ambient air clean.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/de04d54c-519d-4d2c-84d3-fce19b3bf26f/thumbnail/mini-exhaust-air-bacteria-filter-group",
+      "imageUrls": "https://media.duerrdental.com/asset/de04d54c-519d-4d2c-84d3-fce19b3bf26f/thumbnail/mini-exhaust-air-bacteria-filter-group",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/suction/materials-and-accessories/exhaust-air-virus-bacteria-filter/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-HD-420-PLUS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "HD 420 plus Hand disinfection*",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Skin and hands",
+      "description": "Alcoholic rub-in preparation for hygienic and surgical hand disinfection Contains moisturisers Dermatologically tested Perfume-free Spectrum of activity 1 : Hygienic hand disinfection: Bactericidal (incl. tuberculocidal / mycobactericidal), yeasticidal and effective against enveloped viruses (limited virucidal activity) as well as against rotaviruses, adenoviruses and noroviruses (limited virucidal PLUS activity) Surgical hand disinfection: Bactericidal and yeasticidal Active ingredients: 2-Propanol, 1-Propanol Units 2 : 500 ml, 1 litre, 2.5 litres Ideal for: Dispensers from DÜRR DENTAL 1 HD 420 plus has been tested in accordance with EN 1500, EN 12791, EN 13727, EN 13624, EN 14348, EN 14476. 2 Products used for surgical hand disinfection must not be refilled or transferred.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/b0d19051-53fb-41d1-83b4-70a7e61b354f/L/HD-420-plus_web.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/b0d19051-53fb-41d1-83b4-70a7e61b354f/L/HD-420-plus_web.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/skin-and-hands/hd-420-plus/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-HD-435-CLEANSING-LOTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "HD 435 Cleansing lotion",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Skin and hands",
+      "description": "Mild cleansing lotion for washing of the hands Protects and supports the natural protective barrier of the skin – with a pH value suitable for the skin Dermatologically tested Available as: 500 ml, 1 l, 2.5 l Ideal for: Dispensers from DÜRR DENTAL",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/b57cca6c-ba23-4ff3-97aa-1b15f5d78eb2/L/HD-435-range.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/b57cca6c-ba23-4ff3-97aa-1b15f5d78eb2/L/HD-435-range.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/skin-and-hands/hd-435-cleansing-lotion/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VARIOSUC",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "High-performance intraoral suction",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Variosuc VS"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Variosuc VSA"
+        }
+      ],
+      "categoryPath": "Suction",
+      "description": "Variosuc – mobile and flexible spray mist suction system Depending on the practice requirements or the area of application, adequate protection against infection must be ensured, particularly by means of highly efficient suction of germ-laden aerosol. In addition, our devices are certified as Class IIa medical devices in accordance with the MDR (EU 2017/745). They therefore fulfil all regulatory requirements and offer you security. With the Variosuc mobile suction unit, DÜRR DENTAL offers a mobile and flexible spray mist suction system that is ready to use straight away anywhere in your dental practice – with no need for prior installation. Simply plug in and get started! This means that even if conditions are challenging you can still rely on the benefits of a highly efficient suction system from DÜRR DENTAL . If it is difficult to install a fixed suction system in your dental practice then the Variosuc can also be permanently used as a stationary solution, e.g. in the prophylaxis room.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/user_upload/Variosuc_HeroImage.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/user_upload/Variosuc_HeroImage.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/suction/devices/variosuc/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-HYGOBOX",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Hygobox",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Instruments",
+      "description": "Sturdy and robust transport and disinfection box with a 3 litre capacity Ergonomic handles for safe transport Tilt-resistant drip-off position for the integrated cartridge Specially shaped slits prevent the instruments from becoming entangled Colours: Anthracite-coloured lid with blue or yellow cartridge, lid available in 5 different colours with a white cartridge Dimensions (HxWxD): 13 x 32.5 x 21 cm Volume: 3 litre capacity Ideal for: ID 212 , ID 212 forte plus , ID 213 , ID 215 , MD 520 , MD 535",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/c8eda9d6-cec2-4104-95cb-ab9d8f89c77e/L/Hygobox.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/c8eda9d6-cec2-4104-95cb-ab9d8f89c77e/L/Hygobox.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/instruments/hygobox/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-HYGOCLAVE-40",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Hygoclave 40 Sterilisation made simple and reliable.",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Hygoclave 40"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Hygoclave 40 Plus"
+        }
+      ],
+      "categoryPath": "Hygiene",
+      "description": "The new pacesetter in the hygiene cycle In order for sterilisation equipment to really make a difference in demanding day-to-day practice, it needs to deliver outstanding strengths in all key areas. This includes ensuring reliable sterilisation results and offering a combination of genuinely user-friendly operation, exceptional efficiency and high reliability. With the Class B Hygoclave 40, DÜRR DENTAL meets the highest professional requirements for sterilisation cycles and thus provides a cost-effective basis for successful day-to-day working.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-technology/hygoclave-40/%3EHygoclave",
+      "imageUrls": "https://www.duerrdental.com/en/products/hygiene/hygiene-technology/hygoclave-40/%3EHygoclave",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-technology/hygoclave-40/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-HYGOCLAVE-50",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Hygoclave 50",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Hygoclave 50"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Hygoclave 50 Plus"
+        }
+      ],
+      "categoryPath": "Hygiene",
+      "description": "Hygoclave 50. Hygiene is in our DNA. With Hygoclave 50, Dürr Dental offers dental practices a professional Class B solution that combines impressive performance with a well thought-out operating concept – for maximum efficiency and exceptional user friendliness designed to cope effortlessly with tough day-to-day working environments.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/f10dcfa4-cf57-43b3-a8f6-efd4e8072722/thumbnail/mini-Hygoclave-50-open",
+      "imageUrls": "https://media.duerrdental.com/asset/f10dcfa4-cf57-43b3-a8f6-efd4e8072722/thumbnail/mini-Hygoclave-50-open",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-technology/hygoclave-50/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-DOCUMENTATION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Hygoprint",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Hygoprint"
+        }
+      ],
+      "categoryPath": "Hygiene",
+      "description": "",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/b9fba281-badb-4742-a4b3-1953884ee395/thumbnail/mini-Hygoprint-Easy-Label-Print",
+      "imageUrls": "https://media.duerrdental.com/asset/b9fba281-badb-4742-a4b3-1953884ee395/thumbnail/mini-Hygoprint-Easy-Label-Print",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-technology/documentation/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-WATER-TREATMENT-FOR-SMALL-STEAM-STERILISERS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Hygopure 90 and Hygodem 90 water treatment systems from DÜRR DENTAL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Hygodem 90"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Hygopure 90"
+        }
+      ],
+      "categoryPath": "Hygiene",
+      "description": "Systematic water treatment Professional hygiene engineering requires special water treatment in accordance with the highest of standards. Practice instruments require high-quality water for good sterilisation. It is decisive that the water is demineralised or distilled to prevent deposits and contaminants on the instrument, thereby ensuring them the best protection.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/user_upload/istockphoto-1147579064-612x612.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/user_upload/istockphoto-1147579064-612x612.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-technology/water-treatment-for-small-steam-sterilisers/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-HYGOSUC",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Hygosuc",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Hygosuc"
+        }
+      ],
+      "categoryPath": "Suction",
+      "description": "Hygosuc – precise dispensing and disinfection The Hygosuc enables precise, automated cleaning and disinfection of the suction system combined with easy handling, generating substantial time savings for your practice staff. It eliminates the need for routine manual cleaning and disinfection of the suction system. The compact design of the add-on device enables quick and easy retrofitting of the treatment unit. The cleaning and disinfection cycles can be logged via the software.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/e80ea830-2e9e-40a4-9b5f-5c527d65d4ea/thumbnail/mini-Hygosuc-Application",
+      "imageUrls": "https://media.duerrdental.com/asset/e80ea830-2e9e-40a4-9b5f-5c527d65d4ea/thumbnail/mini-Hygosuc-Application",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/suction/system-integration/hygosuc/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-ID-212-FORTE-INSTRUMENT-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "ID 212 forte plus Instrument disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Instruments",
+      "description": "Concentrate for cleaning and disinfecting general, surgical and rotating instruments Excellent material compatibility Works for up to 7 days Fast disinfection and cleaning Spectrum of activity 1 : Bactericidal, tuberculocidal in an ultrasonic device, yeasticidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), as well as non-enveloped adenoviruses and noroviruses Active ingredients: Quaternary ammonium compounds Units: 2.5 litres Ideal for: Hygobox ¹ ID 212 forte plus has been tested under high organic loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 14561, EN 14562, EN 14563, EN 17111 and the DVV/RKI guideline.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/cad49a07-6633-4563-adf6-4524fd7355ec/L/ID-212-forte-plus-Produktbild.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/cad49a07-6633-4563-adf6-4524fd7355ec/L/ID-212-forte-plus-Produktbild.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/instruments/id-212-forte-instrument-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-ID-212-INSTRUMENT-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "ID 212 Instrument disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Instruments",
+      "description": "Concentrate for gentle cleaning and disinfection of instruments Suitable for general, surgical and rotary instruments Very short reaction time Outstanding material compatibility with instruments containing rubber and silicon Spectrum of activity 1 : Bactericidal, tuberculocidal in an ultrasonic device, yeasticidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses) Active ingredients: Quaternary ammonium compounds Units: 2.5 litres Ideal for: Hygobox 1 ID 212 has been tested under high organic loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 14561, EN 14562, EN 14563, EN 17111 and the DVV/RKI guideline.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/e2af53a1-d97d-49e3-8268-c3cc105a7e4f/L/ID-212-Produktbild.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/e2af53a1-d97d-49e3-8268-c3cc105a7e4f/L/ID-212-Produktbild.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/instruments/id-212-instrument-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-ID-213-INSTRUMENT-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "ID 213 Instrument disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Instruments",
+      "description": "Concentrate for cleaning and disinfecting general, surgical and rotating instruments with a broad range of effectiveness Very economical thanks to a long working time of up to 14 days Excellent material compatibility thanks to corrosion inhibitors Spectrum of activity 1 : Bactericidal, tuberculocidal, mycobactericidal in an ultrasonic device, levurocidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV), noroviruses and polyomaviruses SV40 Active ingredients: Alkylamines, quaternary ammonium compounds Units: 2.5 litres Ideal for: Hygobox 1 ID 213 has been tested under high organic loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 14561, EN 14562, EN 14563, EN 17111 and the DVV/RKI guideline.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/8c5087c6-8a85-4efa-a880-fc3a672f5ad0/L/ID-213.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/8c5087c6-8a85-4efa-a880-fc3a672f5ad0/L/ID-213.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/instruments/id-213-instrument-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-ID-215-ENZYMATIC-INSTRUMENT-CLEANER",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "ID 215 Enzymatic instrument cleaner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Instruments",
+      "description": "Concentrate for manual, enzymatic instrument cleaning prior to disinfection Bactericidal, yeasticidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses) The microbicidal effect protects personnel Exceptional cleaning efficiency - dissolves even the most stubborn contamination Good material compatibility Active ingredients: quaternary ammonium compounds, guanidine compounds Available as: 2.5 l Our recommendation: Hygobox",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/1edff68f-3c3e-404f-a847-b410ecd99b86/L/ID-215.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/1edff68f-3c3e-404f-a847-b410ecd99b86/L/ID-215.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/instruments/id-215-enzymatic-instrument-cleaner/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-ID-220-BUR-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "ID 220 Bur disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Instruments",
+      "description": "Fully virucidal, ready-to-use solution for cleaning and disinfection of alcohol-resistant rotating instruments Exceptional cleaning power, especially designed for the microstructures in drills and cutters Outstanding corrosion protection and long working time of up to 7 days Very short reaction times Spectrum of activity 1 : Bactericidal, mycobactericidal, tuberculocidal, yeasticidal, fungicidal, virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses as well as non-enveloped viruses such as adenoviruses, polyomaviruses SV40, noroviruses and polioviruses) Active ingredients: Alcohols in alkaline medium Units: 2.5 litres 1 ID 220 has been tested under high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 14561, EN 14562, EN 14563, EN 17111 and the DVV/RKI guideline.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/5976ba76-a61f-4901-9525-7d4e97f74a96/L/ID-220.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/5976ba76-a61f-4901-9525-7d4e97f74a96/L/ID-220.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/instruments/id-220-bur-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-LUNOSR-FLUORIDE-PRODUCTS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Lunos Fluoride products",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Lunos® Fissure sealant"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Lunos Fluoride gel"
+        }
+      ],
+      "categoryPath": "Dental care",
+      "description": "Protection and strengthening As part of professional teeth cleaning, fluoride treatment makes a significant contribution to providing protection against caries. You can choose between a gel and a varnish to suit your requirements.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/dental-care/consumables/lunosr-fluoride-products/c369",
+      "imageUrls": "https://www.duerrdental.com/en/products/dental-care/consumables/lunosr-fluoride-products/c369",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/dental-care/consumables/lunosr-fluoride-products/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-LUNOSR-PROPHY-PASTES",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Lunos Prophy Pastes",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Lunos Prophy Paste Super Soft"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Lunos Prophy Paste Two in One"
+        }
+      ],
+      "categoryPath": "Dental care",
+      "description": "Gentle, time-saving tooth cleaning Lunos prophy pastes stand for effective yet gentle cleaning. From the gentle removal of discolouration or plaque to the polishing of particularly sensitive surfaces. Whether with or without fragrances, Lunos prophy pastes provide gentle yet thorough cleaning of dental surfaces. The self-reducing Lunos Two in One prophy paste saves valuable time for both the user and the patient.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/dental-care/consumables/lunosr-prophy-pastes/c352",
+      "imageUrls": "https://www.duerrdental.com/en/products/dental-care/consumables/lunosr-prophy-pastes/c352",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/dental-care/consumables/lunosr-prophy-pastes/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-LUNOSR-PROPHY-POWDER",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Lunos Prophy Powders",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Lunos Prophy Powder Perio Combi"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Lunos Prophy Powder Gentle Clean"
+        }
+      ],
+      "categoryPath": "Dental care",
+      "description": "Lunos Prophy Powders Gentle Clean and Perio Combi With the Lunos Prophy Powder Gentle Clean and Perio Combi, the first priority is the protection of sensitive dental substance with simultaneous effective cleaning. They display an extremely low abrasive effect on tooth enamel and dentine and can therefore be used as part of regular recall treatments. The innovative abrasive agent trehalose is incredibly water-soluble, which improves patient comfort and protects the suction unit.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/dental-care/consumables/lunosr-prophy-powder/c345",
+      "imageUrls": "https://www.duerrdental.com/en/products/dental-care/consumables/lunosr-prophy-powder/c345",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/dental-care/consumables/lunosr-prophy-powder/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-MD-520-DISINFECTION-BOX",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "MD 520 Disinfection box",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Special areas",
+      "description": "Container for immersion disinfection and cleaning with MD 520 Contains a special suspension device in the lid for max. 2 impression trays With practical ‘occupied’ display/reminder when hanging up Volume: Maximum capacity 1 litre Size: height 19 cm, Ø 11.7 cm Ideal for: MD 520 Impression disinfection",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/e1bc8410-bbf5-4988-9eae-487a3d23d93e/L/MD-520-disinfection-can.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/e1bc8410-bbf5-4988-9eae-487a3d23d93e/L/MD-520-disinfection-can.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/special-areas/md-520-disinfection-box/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-MD-520-IMPRESSION-DISINFECTION",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "MD 520 Impression disinfection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Special areas",
+      "description": "Fully virucidal ready-to-use solution for effective and gentle disinfection and cleaning of dental impressions, prosthetic work, etc. For use with alginates, silicones, polyether rubber, hydrocolloids, polysulphides etc. Increased accuracy in the plaster master model, thanks to effective cleaning effect No adverse effects on dimensional stability or plaster compatibility Spectrum of activity 1 : Bactericidal, tuberculocidal, yeasticidal, virucidal (enveloped viruses incl. HBV, HCV and HIV, as well as non-enveloped viruses such as adenoviruses, polyomaviruses SV 40, noroviruses and polioviruses) Active ingredients: Quaternary ammonium compounds, glutaraldehyde Units: 2.5 litres, 10 litres Ideal for: MD 520 disinfection box , Hygobox 1 MD 520 has been tested under high loads in accordance with EN 13727, EN 13624, EN 14348, EN 14476, EN 14561, EN 14562, EN 14563, EN 17111 and the DVV/RKI guideline.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/3df12aaa-21fe-4d22-8b5a-6bd8e228c91f/L/MD-520-10l-2-5l.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/3df12aaa-21fe-4d22-8b5a-6bd8e228c91f/L/MD-520-10l-2-5l.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/special-areas/md-520-impression-disinfection/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-MD-530-CEMENT-REMOVER-AND-DENTURE-CLEANER",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "MD 530 Cement remover and prosthesis cleaner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Special areas",
+      "description": "Ready-to-use solution for removal of cement, calculus, smoking stains, oxide layers etc. from dentures, bridges, crowns, spatulas, glass etc. Intensive cleaning effect and residue-free removal of acid-soluble plaque Can be used directly with good material compatibility Also suitable for use in an ultrasonic bath Ingredients: Inorganic acids, surfactants Units: 2.5 litres Our recommendation: Hygobox",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/44aed903-9fd3-496b-ac62-02eaf6c3064b/L/MD-530.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/44aed903-9fd3-496b-ac62-02eaf6c3064b/L/MD-530.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/special-areas/md-530-cement-remover-and-denture-cleaner/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-MD-535-PLASTER-REMOVER",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "MD 535 plaster remover",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Special areas",
+      "description": "Ready-to-use solution for removal of plaster and alginates from impression trays and other aids Special cleaner with particularly fast action Exceptional, residue-free cleaning With activity indicator Also suitable for use in an ultrasonic bath Ingredients: Alkaline cleaning components and complexing agents Units: 2.5 litres Our recommendation: Hygobox",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/31787b1f-6631-4eb4-a76f-5603f542f750/L/MD535gross.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/31787b1f-6631-4eb4-a76f-5603f542f750/L/MD535gross.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/special-areas/md-535-plaster-remover/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-MD-550-SPITTOON-BOWL-CLEANER",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "MD 550 Spittoon bowl cleaner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Special areas",
+      "description": "Foam-free, ready-to-use solution for intensive cleaning of spittoons Problem-free removal of residues, such as lime scale, blood or plaque colouring agents Simultaneous cleaning, deodorisation and care of spittoons No abrasive components – the spittoon suffers no scratching Anti-microbial – effective against bacteria, Tb bacteria and yeast fungus Active ingredients: Alcohols Units: 750 ml Ideal for: Orotol® plus , Orotol® ultra , MD 555 cleaner , MD 555 cleaner organic",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/872f6ca2-9baf-4235-a260-d3aba824ad14/L/MD-550.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/872f6ca2-9baf-4235-a260-d3aba824ad14/L/MD-550.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/special-areas/md-550-spittoon-bowl-cleaner/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-MD-555-CLEANER-ORGANIC",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "MD 555 cleaner organic",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Special areas",
+      "description": "Foam-free cleaning concentrate for all kinds of dental suction systems and amalgam separators Exceptionally intensive cleaning effect against deposits Citric acid-based, perfume- and colour-free Particularly suitable for removing residues from prophy powders and prophylaxis pearl products Ideal in combination with Orotol plus pH 7 Ingredients: Organic acids, foam-free surfactants Units: 2.5 litres Ideal for: OroCup , Orotol plus , Orotol plus pH 7 , MD 550",
+      "sourceImageUrl": ">MD",
+      "imageUrls": ">MD",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/special-areas/md-555-cleaner-organic/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-MD-555-CLEANER",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "MD 555 cleaner: Special detergent for suction units",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Special areas",
+      "description": "Foam-free cleaning concentrate for all types of suction system and amalgam separator Exceptionally intensive cleaning effect against deposits (e.g. limescale) Particularly suitable for removing residues from prophy powders and prophylaxis pearl products Certified material compatibility – recommended by leading equipment manufacturers Ideal in combination with Orotol plus Ingredients: organic and inorganic acids, non-foaming surfactants Available as: 2.5 l, 1.0 l Ideal addition: OroCup , Orotol plus , Orotol plus pH 7 , Orotol ultra , MD 550",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/1971d83e-1d44-4ecc-ae19-f825685aa1b9/L/MD-555-cleaner.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/1971d83e-1d44-4ecc-ae19-f825685aa1b9/L/MD-555-cleaner.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/special-areas/md-555-cleaner/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-MYLUNOS-DUO",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "MyLunos Duo",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "MyLunos Duo"
+        }
+      ],
+      "categoryPath": "Dental care",
+      "description": "The all-rounder for all purposes MyLunos Duo combines two of the most important treatment methods for a prophylaxis session: powder jet treatment and ultrasound treatment. The combined unit enables complete prophylaxis and periodontal treatment using just a single device, with highly flexible application tailored to the needs of the individual patient – ranging from ultrasonic removal of supragingival and subgingival calculus to the removal of discolouration and biofilm with the powder jet.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/dental-care/devices/mylunos-duo/c18545",
+      "imageUrls": "https://www.duerrdental.com/en/products/dental-care/devices/mylunos-duo/c18545",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/dental-care/devices/mylunos-duo/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-POWDER-JET-HANDPIECE-MYLUNOS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "MyLunos powder jet unit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "MyLunos powder jet unit"
+        }
+      ],
+      "categoryPath": "Dental care",
+      "description": "Easy to handle, versatile, with radiance The powder jet handpiece MyLunos offers simple, powerful and ergonomic assistance when you need to remove discolouration, deposits and biofilms. Depending on the nozzle it is ready for either supragingival or subgingival application. The unit follows our strictly systematic approach – from preparation and use during treatment to reprocessing. MyLunos offers excellent flexibility and efficiency because it has been conceived as a system.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/dental-care/devices/powder-jet-handpiece-mylunos/c307",
+      "imageUrls": "https://www.duerrdental.com/en/products/dental-care/devices/powder-jet-handpiece-mylunos/c307",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/dental-care/devices/powder-jet-handpiece-mylunos/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-OROCUP",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "OroCup care system",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Special areas",
+      "description": "User-friendly, closed care system for disinfection and cleaning of suction systems and amalgam separators Creates an air-water mix for optimal wetting and effective cleaning and disinfection of the suction system Enables a safe and efficient dosing and application of the solution Connecting adapter for all suction hoses Volume: 2 litre care system Our recommendation: Orotol plus , Orotol plus pH 7 , Orotol ultra , MD 555 cleaner , MD 555 cleaner organic",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/4d704fe6-33e3-40a3-8b98-4778368759d6/L/Orocup-Produktbild.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/4d704fe6-33e3-40a3-8b98-4778368759d6/L/Orocup-Produktbild.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/special-areas/orocup/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-OROTOL-PLUS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Orotol plus disinfection of suction systems",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Special areas",
+      "description": "Foam-free liquid concentrate for the simultaneous disinfection, cleaning, deodorisation and care of dental suction systems and amalgam separators The solution for contaminated suction systems that provides reliable protection against infection Removes even the most stubborn deposits Certified material compatibility – recommended by leading equipment manufacturers Spectrum of activity 1 : Bactericidal, yeasticidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses), as well as adenoviruses and noroviruses Active ingredients: quaternary ammonium compounds Available as: 1 l, 2.5 l Ideal addition: OroCup , MD 550 , MD 555 cleaner , MD 555 cleaner organic 1 Tested in accordance with EN 13727, EN 14561, EN 13624, EN 14562, EN 14476, EN 17111 and EN 16615.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/862c922c-39de-4c83-8964-182fc44f8403/L/Orotol.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/862c922c-39de-4c83-8964-182fc44f8403/L/Orotol.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/special-areas/orotol-plus/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-OROTOL-PLUS-PH-7",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Orotol plus pH 7",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Special areas",
+      "description": "Neutral and highly effective liquid concentrate for simultaneous cleaning, disinfection, deodorisation and care for all suction systems and amalgam separators bactericidal, yeasticidal, limited virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses). Dissolves biofilm and prevents formation of sludge through blood and proteins Tested in accordance with the current VAH methods and European standards. &gt; 95% of the organic ingredients are easily biodegradable in accordance with the OECD guidelines Gentle, foam-free cleaning Active ingredients: quaternary ammonium compounds Available as: 2.5 l Our recommendation: OroCup , MD 555 cleaner organic, MD 550",
+      "sourceImageUrl": "c28897",
+      "imageUrls": "c28897",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/special-areas/orotol-plus-ph-7/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-OROTOL-ULTRA",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Orotol ultra Disinfection of suction systems",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Hygiene > Special areas",
+      "description": "Powder concentrate for the simultaneous disinfection, cleaning, deodorisation and care of all dental suction systems and amalgam separators Removes the most persistent deposits, even in places that are difficult to access Low application concentration (from just 1 %) Certified material compatibility – recommended by leading equipment manufacturers Spectrum of activity 1 : Bactericidal, tuberculocidal, mycobactericidal, fungicidal, sporicidal ( Clostridium difficile ), virucidal (enveloped viruses incl. HBV, HCV, HIV and coronaviruses, as well as non-enveloped viruses such as adenoviruses, noroviruses, polioviruses, polyomaviruses SV40) Active ingredients: Sodium percarbonate peroxohydrate Units: 500 g bag Ideal for: OroCup , MD 550 , MD 555 cleaner , MD 555 cleaner organic 1 Orotol ultra has been tested under high loads in accordance with EN 13727, EN 14561, EN 13624, EN 14562, EN 14348, EN 14563, EN 17126, EN 14476, EN 17111 and the DVV/RKI guideline, with and without loads.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/1045b25e-7685-49c0-ac94-64a844fe6753/L/Orotol-ultra-suction-unit-disinfectant-basic-set.jpg",
+      "imageUrls": "https://media.duerrdental.com/asset/1045b25e-7685-49c0-ac94-64a844fe6753/L/Orotol-ultra-suction-unit-disinfectant-basic-set.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-preparations/special-areas/orotol-ultra/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-POWER-TOWER-VIEW",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Power Tower View",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 6,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Power Tower View V 600"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Power Tower View VS 600"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Power Tower View VS 900 S"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Power Tower View VS 1200 S"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Power Tower View V 900 S"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Power Tower View V 1200 S"
+        }
+      ],
+      "categoryPath": "Compressed air",
+      "description": "The perfect solution for every requirement The compact and quiet Power Tower View can be installed flexibly in the surgery with a footprint of just 0.4 m2, saving valuable space over the installation of equivalent separate units – a real advantage given the expense of current rental costs. But there are other reasons that make this unit the perfect fit for any surgery. As impressive as its striking, high-quality design is, in terms of operating noise you will barely notice this unit when it is running. This leaves you free to position the unit anywhere you want in the surgery. Thanks to the many individual configuration options, Power Tower View is a flexible solution that will grow with the surgery and adapt effortlessly to new circumstances.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/compressed-air/devices/power-tower-view/c16754",
+      "imageUrls": "https://www.duerrdental.com/en/products/compressed-air/devices/power-tower-view/c16754",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/compressed-air/devices/power-tower-view/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-POWER-TOWER",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "PTS 120",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "PTS 120"
+        }
+      ],
+      "categoryPath": "Compressed air",
+      "description": "Quiet and space-saving! The Power Tower Silence from DÜRR DENTAL combines compressed air and suction in a single housing. With a footprint of just 0.3–0.4 m², the compact and quiet supply unit can be installed flexibly in any practice. This saves valuable space compared to installing a series of individual units. The metal construction and covering panels will satisfy the highest design expectations and blend in with any interior design. The Power Tower Silence is connected to the supply lines for the treatment unit via a central connection point, making planning and installation considerably easier.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/moved_assets/Druckluft/pts_120_header.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/moved_assets/Druckluft/pts_120_header.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/compressed-air/devices/power-tower/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-SEPARATION-SYSTEMS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Reliable separation systems guarantee the highest performance",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "CS 1 Combi-Sepamatic"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "CAS 1 Combi-Separator"
+        }
+      ],
+      "categoryPath": "Suction",
+      "description": "Powerful and reliable separation DÜRR DENTAL se paration systems set standards. Not only can they be relied upon to separate secretion and solids, they also operate at a pleasantly low volume. No wonder then that they are an integral ex-works component of the treatment units being produced by leading manufacturers. But retrofitting is also very straightforward.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/b7e94b00-2ba7-4079-93a4-5bfc4f7aa277/thumbnail/mini-Training-Academy-DuoTandem-CAD-CAM-2",
+      "imageUrls": "https://media.duerrdental.com/asset/b7e94b00-2ba7-4079-93a4-5bfc4f7aa277/thumbnail/mini-Training-Academy-DuoTandem-CAD-CAM-2",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/suction/system-integration/separation-systems/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-SEALING-DEVICES",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Sealing devices from DÜRR DENTAL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Hygopac View"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Hygopac"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Hygofol sterile product packaging"
+        }
+      ],
+      "categoryPath": "Hygiene",
+      "description": "Sterile product packaging in accordance with state-of-the-art medical practice – and legal requirements With their extraordinarily compact design, sealing devices from DÜRR DENTAL will fit inside any preparation room. The automated rotary sealing technology makes the wrapping process really easy, saves time and ensures that all sealing seams are of consistently high quality. With our sealing devices, you can be confident that your medical device has been packaged perfectly.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/user_upload/Hygopuc_Header.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/user_upload/Hygopuc_Header.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-technology/sealing-devices/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-SILVER-AIRLINE-SERIES",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Silver Airline",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 9,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Primo"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Duo"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Duo Tandem 1 unit"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Trio"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Duo Tandem 2 units"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Quattro"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Quattro Tandem 1 unit"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Quattro Tandem 2 units"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Quattro P 20"
+        }
+      ],
+      "categoryPath": "Compressed air",
+      "description": "Powerful, reliable – and far too nice to be banished to the basement! DÜRR DENTAL compressors combine top quality with robustness and durability and are almost completely maintenance-free. They supply the compressed air you need for dental treatments in your practice – air that needs to meet strict hygiene requirements. DÜRR DENTAL introduced drying systems for their compressed air units back in 1965 and set the global benchmark in dental-medical technology as they became the first manufacturer in the world not to use oil-based lubrication. Following this tradition, we are constantly developing our oil-free dental compressors for dental practices, dental laboratories and clinics.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/compressed-air/devices/silver-airline-series/c160",
+      "imageUrls": "https://www.duerrdental.com/en/products/compressed-air/devices/silver-airline-series/c160",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/compressed-air/devices/silver-airline-series/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-CLINIC-SYSTEMS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Suction systems for clinics and universities",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 10,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "V 6000"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "V 9000"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "V 12000"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "V 15000"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "V 18000"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor V 20"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor V 30"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor V 40"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor V 50"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor V 60"
+        }
+      ],
+      "categoryPath": "Suction",
+      "description": "Cutting-edge technology No matter whether as a dry or semi-dry suction system, DÜRR DENTAL offers vacuum systems for every application. The individual solutions are available in several versions and are suitable for up to 100 workstations. The high-performance side channel compressors are precisely matched to your requirements by the intelligent control. In addition, our devices are certified as Class IIa medical devices in accordance with the MDR (EU 2017/745). They therefore fulfil all regulatory requirements and offer you security.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/52e32c78-5916-4836-9f74-66887409b4eb/thumbnail/mini-Clinical-Suction-Group-picture",
+      "imageUrls": "https://media.duerrdental.com/asset/52e32c78-5916-4836-9f74-66887409b4eb/thumbnail/mini-Clinical-Suction-Group-picture",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/suction/devices/clinic-systems/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-SUCTION-SYSTEMS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Suction systems for dental practices",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 13,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "V 300 S"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "V 600"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "V 900 S"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "V 1200 S"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "V 2400"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "VS 300 S"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "VS 600"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "VS 900 S"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "VS 1200 S"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "VSA 300 S"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "VSA 600"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "VSA 900"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "VSA 1200"
+        }
+      ],
+      "categoryPath": "Suction",
+      "description": "V and VS suction systems - the perfect suction power from DÜRR DENTAL Work processes or spatial conditions - every dental practice is different. We always take these individual characteristics into account when developing the suction systems. Over many years, this has resulted in system solutions that leave no questions unanswered.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/suction/devices/suction-systems/c19709",
+      "imageUrls": "https://www.duerrdental.com/en/products/suction/devices/suction-systems/c19709",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/suction/devices/suction-systems/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VECTOR-SYSTEM",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "The Vector Method",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Vector Paro"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Vector Paro Pro"
+        }
+      ],
+      "categoryPath": "Dental care",
+      "description": "Vector System: The efficient and gentle periodontitis therapy Over 25 years ago, DÜRR DENTAL developed its unique vibration deflection and set new standards in the field of painless, minimally invasive periodontitis treatment with the Vector System. The ultrasonic energy is diverted to the place where it is needed in a linear direction and instruments move parallel to the surface of the root. This enables vibration-free operation and can be incorporated into a clinically efficient and minimally invasive treatment plan.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/dental-care/devices/vector-system/c42191",
+      "imageUrls": "https://www.duerrdental.com/en/products/dental-care/devices/vector-system/c42191",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/dental-care/devices/vector-system/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-TORNADO-COMPRESSORS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Tornado compressors",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Tornado 1"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tornado 2"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tornado 4"
+        }
+      ],
+      "categoryPath": "Compressed air",
+      "description": "Run with safety – Compressed air for the highest demands in dentistry A dental compressor must be a reliable partner for dental practices. The new Tornado meets the growing demands in terms of air quality and performance. The Tornado range from Dürr Dental features high quality at attractive prices – and this has been the case for decades. Compressors with less consumption and increased efficiency and longevity will help you to reduce your practice’s operating costs and protect the environment at the same time.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/19b13fbf-3a3d-45aa-a5bc-8f39ce3d1759/thumbnail/mini-Coming-Soon-2025",
+      "imageUrls": "https://media.duerrdental.com/asset/19b13fbf-3a3d-45aa-a5bc-8f39ce3d1759/thumbnail/mini-Coming-Soon-2025",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/compressed-air/devices/tornado-compressors/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-TYSCOR-SYSTEMS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Tyscor suction systems",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 11,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor VS 1 Plus"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor VS 2"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor VS 2 Plus"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor VS 4"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor V 1 Plus"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor V 2"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor V 2 Plus"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor V 4"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor VSA 1 Plus"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor VSA 2"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Tyscor VSA 4"
+        }
+      ],
+      "categoryPath": "Suction",
+      "description": "New standards in terms of performance and sustainability The dry and wet suction systems from DÜRR DENTAL combine extremely powerful performance with exceptionally quiet operation. DÜRR DENTAL V suction units can easily withstand up to seven or eight hours of continuous operation. The substances that are sucked in are directed straight into the integrated separation unit and then, if necessary, into an amalgam separator. In addition to DÜRR DENTAL 's usual quality and reliability, the newly developed suction systems with radial technology in the Tyscor premium range are up to 50% lighter and deliver potential energy savings of up to 75%. They truly are setting standards in performance and efficiency in day-to-day operation in the practice. An electronic control system also offers new options in terms of operational safety and reliability, scalability and adaptability to the individual practice conditions.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/moved_assets/Service/Tyscor_Saugsysteme_HeroImage.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/moved_assets/Service/Tyscor_Saugsysteme_HeroImage.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/suction/devices/tyscor-systems/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-DISPENSERS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Universal dispensers",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Universal dispensers"
+        }
+      ],
+      "categoryPath": "Hygiene",
+      "description": "",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/aad62f07-d3df-484d-b727-9bc2efca7996/thumbnail/mini-Universal-preparation-dispenser-XT-applicationn-dispenser-Touchless-XT_HD-420-plus",
+      "imageUrls": "https://media.duerrdental.com/asset/aad62f07-d3df-484d-b727-9bc2efca7996/thumbnail/mini-Universal-preparation-dispenser-XT-applicationn-dispenser-Touchless-XT_HD-420-plus",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/hygiene/hygiene-technology/dispensers/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-SURGICAL-SYSTEMS",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VC 65 surgical suction unit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VC 65 surgical suction unit"
+        }
+      ],
+      "categoryPath": "Suction",
+      "description": "Ideal for use in oral and maxillofacial surgery and implantology In contrast to conventional dental suction systems, where the other main task alongside the removal of saliva and secretion is to extract the contaminated spray mist (aerosol) from the treatment area, different requirements are placed on the suction unit in oral and maxillofacial surgery. Pinpoint-accurate removal of larger amounts of blood, tissue, dentine and bone residue with the surgical cannula demands a high negative pressure and a powerful pump.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/d2f0a462-ced7-42eb-a35f-05be2ee3cdd7/thumbnail/mini-VC-65",
+      "imageUrls": "https://media.duerrdental.com/asset/d2f0a462-ced7-42eb-a35f-05be2ee3cdd7/thumbnail/mini-VC-65",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/suction/devices/surgical-systems/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VECTORR-CONSUMABLES",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "Vector consumables",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "Vector Fluid polish"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Vector cleaner"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "Vector/RinsEndo disinfectant"
+        }
+      ],
+      "categoryPath": "Dental care",
+      "description": "",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/moved_assets/Zahnerhaltung/Vector_Paro_Hero_Image_Header_v1.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/moved_assets/Zahnerhaltung/Vector_Paro_Hero_Image_Header_v1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/dental-care/consumables/vectorr-consumables/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTACAM",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaCam",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaCam iX HD Smart"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "VistaCam iX"
+        }
+      ],
+      "categoryPath": "Imaging",
+      "description": "High-quality patient communication, caries diagnosis and documentation DÜRR DENTAL camera systems provide valuable support in dental treatments and foster patient understanding of the required treatment measures. Thanks to the intelligent interchangeable head mechanism, the cameras will provide you with reliable support – both in the diagnosis and early detection of caries, as well as in plaque visualisation. At the same time, it makes your treatment recommendations easier for patients to understand. All the VistaCam models feature outstanding image quality, depth of field and ease of use.",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/411a26fd-55da-4fed-a1f6-f8c251b45fe9/thumbnail/mini-VistaCam-iX-HD-application-practice-situation-003",
+      "imageUrls": "https://media.duerrdental.com/asset/411a26fd-55da-4fed-a1f6-f8c251b45fe9/thumbnail/mini-VistaCam-iX-HD-application-practice-situation-003",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistacam/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTAINTRA",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaIntra DC",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaIntra DC"
+        }
+      ],
+      "categoryPath": "Imaging",
+      "description": "",
+      "sourceImageUrl": "https://media.duerrdental.com/asset/c605e2f9-8f7d-4ca7-853e-f656680230be/thumbnail/mini-VistaIntra-1",
+      "imageUrls": "https://media.duerrdental.com/asset/c605e2f9-8f7d-4ca7-853e-f656680230be/thumbnail/mini-VistaIntra-1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistaintra/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTAPANO-S-20",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaPano S 2.0 and VistaPano S Ceph 2.0",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaPano S 2.0"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "VistaPano S Ceph 2.0"
+        }
+      ],
+      "categoryPath": "Imaging",
+      "description": "Digital panoramic X-ray device with S-Pan technology With the VistaPano S 2.0, Dürr Dental has set new standards in the resolution of extraoral images. The 2D panorama X-ray device also impresses with its simple operation and a consistently well thought-out workflow, which is supported by an innovative 8” glass touch display. The excellent imaging performance of the VistaPano S 2.0 is thanks to two innovative technologies. Firstly, the state-of-the-art Csl sensor technology delivers improved picture quality and thus facilitates significantly improved diagnostics. Secondly, S-Pan technology uses the image information from the individual patient image to automatically create a pinpoint-sharp panoramic image of every tooth and jaw position.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/user_upload/Aktionen/Effizienz_in_neuem_Licht/VistaPano2-0_Header.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/user_upload/Aktionen/Effizienz_in_neuem_Licht/VistaPano2-0_Header.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/imaging/extraoral-diagnostics/vistapano-s-20/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTAPOSITION-PSP-HOLDER-SYSTEM",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaPosition PSP Holder system",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaPosition PSP Holder system"
+        }
+      ],
+      "categoryPath": "Imaging",
+      "description": "The new image plate holder system The holder system has been specially developed for use with image plates and combines a number of practical new solutions in a single product. Specially developed bite blocks fix the image plates securely and gently in place. Thanks to the optimised ergonomic shape of the bite block, the image plate does not need to be folded or squashed when it is inserted in the holder, thus improving the durability of the image plate. Assembly of the individual components could not be easier thanks to the high quality finish and colour coding of the individual parts.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/moved_assets/Bildgebung/VistaPosition_Header_1920.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/moved_assets/Bildgebung/VistaPosition_Header_1920.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistaposition-psp-holder-system/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTARAY",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaRay 7",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaRay 7 Sensor Size 1"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "VistaRay 7 Sensor Size 2"
+        }
+      ],
+      "categoryPath": "Imaging",
+      "description": "The quick and easy way to get excellent X-ray images. Dentists all over the world put their trust in DÜRR DENTAL – including when it comes to sensor technology. With the sensors being manufactured in Germany, DÜRR DENTAL guarantees highest quality and high diagnostic benefits. Extremely impressive: the high level of detail even at lowest radiation doses. The finest greyscales are displayed, meaning that carious D1 lesions can be reliably detected. The quick image availability and high level of detail (e.g. display of ISO 06 files) make the VistaRay 7 a valuable complement to image plate technology in the area of endodontics or for checking abutments.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/moved_assets/Bildgebung/VistaRay_Hero_Image_hoch.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/moved_assets/Bildgebung/VistaRay_Hero_Image_hoch.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistaray/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTASCAN-COMBI-VIEW",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaScan Combi View",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaScan Combi View"
+        }
+      ],
+      "categoryPath": "Imaging",
+      "description": "The image plate scanner with a touchscreen for all formats The VistaScan Combi View image plate scanner offers operators exceptionally intuitive, efficient and time-saving digitalisation of image plates for both intraoral and extraoral formats. This is thanks to features including its large touchscreen plus intuitive user interface. The integrated WLAN capability makes the device uniquely flexible.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistascan-combi-view/c176",
+      "imageUrls": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistascan-combi-view/c176",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistascan-combi-view/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTASCAN-MINI-EASY-20",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaScan Mini Easy 2.0",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaScan Mini Easy 2.0"
+        }
+      ],
+      "categoryPath": "Imaging",
+      "description": "Plug into the future – ready for dental practice 2.0 Not only does the new VistaScan Mini Easy 2.0 feature a pioneering design, it also boasts state-of-the-art technology. The image plate scanner uses the latest image plate technology and works together with VistaScan IQ image plates to open up many new AI-based features. Together with the superior image quality of the tried-and-tested PCS technology, it makes your dental practice sustainably ready for the future.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/moved_assets/Bildgebung/VistaScan_Mini_Easy2.0_Header.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/moved_assets/Bildgebung/VistaScan_Mini_Easy2.0_Header.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistascan-mini-easy-20/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTASCAN-MINI-VIEW-20",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaScan Mini View 2.0",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaScan Mini View 2.0"
+        }
+      ],
+      "categoryPath": "Imaging",
+      "description": "Plug into the future – ready for the dental practices of tomorrow Not just the design of the new VistaScan Mini View 2.0 is futuristic. The technology behind it is just as pioneering. The image plate scanner uses the state-of-the-art VistaScan image plates IQ to support the latest generation of AI functions. In conjunction with the VistaScan Smart Reader, workflows are easily automated. Together with superior image quality, it makes your dental practice sustainably ready for the future.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/moved_assets/Bildgebung/VistaScan_Mini_View2.0_Header.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/moved_assets/Bildgebung/VistaScan_Mini_View2.0_Header.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistascan-mini-view-20/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTASCAN-NANO-EASY",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaScan Nano Easy",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaScan Nano Easy"
+        }
+      ],
+      "categoryPath": "Imaging",
+      "description": "Reliable diagnostics in a compact unit VistaScan Nano Easy makes diagnostics even simpler. The unit is particularly easy to operate and only takes up a very small amount of space in the treatment room. Take advantage of DÜRR DENTAL image plate technology in its most compact form for state-of-the-art and reliable diagnostics.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistascan-nano-easy/c402",
+      "imageUrls": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistascan-nano-easy/c402",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistascan-nano-easy/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTASCAN-ULTRA-VIEW",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaScan Ultra View",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaScan Ultra View"
+        }
+      ],
+      "categoryPath": "Imaging",
+      "description": "Increased performance for maximum efficiency In the form of VistaScan Ultra View, a high-end device is available that combines the superior image quality of PCS technology with excellent performance and innovative, groundbreaking features. It has been developed particularly with the high demands of larger dental surgeries and clinics in mind.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistascan-ultra-view/c17034",
+      "imageUrls": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistascan-ultra-view/c17034",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/imaging/intraoral-diagnostics/vistascan-ultra-view/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTASOFT-IMAGING",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaSoft",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaSoft"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "DBSWIN"
+        }
+      ],
+      "categoryPath": "Software > Imaging",
+      "description": "VistaSoft imaging – simple, intuitive and tailored to your needs From acquiring and editing digital X-ray images and camera images to sharing images via the cloud and planning implants and drilling templates – VistaSoft brings together all of the different areas of dental imaging. The one-click principle and the ergonomic design optimised for professional diagnostics offer you the best possible support in your practice day in, day out. Our X-ray software package also comes with a full 3D X-ray licence, which allows you to view 3D image data and perform diagnoses – even without a dedicated CBCT device. Numerous interfaces (including TWAIN) are also provided for effortless connection to third-party devices and software solutions to allow seamless integration in your existing practice accounting system.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/software/imaging/vistasoft-imaging/c28774",
+      "imageUrls": "https://www.duerrdental.com/en/products/software/imaging/vistasoft-imaging/c28774",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/software/imaging/vistasoft-imaging/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTASOFT-MONITOR",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaSoft Monitor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaSoft Monitor"
+        }
+      ],
+      "categoryPath": "Software > Networking for dental practices",
+      "description": "Real-time monitoring of equipment: keep a relaxed overview of everything that is happening in your dental practice with VistaSoft Monitor With the new IoT solution VistaSoft Monitor, DÜRR DENTAL brings the cloud to your dental practice. Intelligent, forward-thinking and with a constant eye on ensuring that the practice is running reliably. In the day-to-day working environment of a dental practice, your focus is on your own work and on your patients. All the systems required for this must work smoothly and reliably. With VistaSoft Monitor you can keep a close eye on all your important equipment at all times. The IoT solution can optionally communicate directly with the service department of participating specialist retailers to enable a fast response.",
+      "sourceImageUrl": "https://www.duerrdental.com/fileadmin/moved_assets/Bildgebung/VSM/VSM_Key-visual_2023_1920px.jpg",
+      "imageUrls": "https://www.duerrdental.com/fileadmin/moved_assets/Bildgebung/VSM/VSM_Key-visual_2023_1920px.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/software/networking-for-dental-practices/vistasoft-monitor/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DURR-VISTAVOX-S",
+      "brand": "Dürr Dental",
+      "manufacturer": "DÜRR DENTAL SE",
+      "name": "VistaVox S and VistaVox S Ceph",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "",
+          "label": "VistaVox S"
+        },
+        {
+          "manufacturerRef": "",
+          "label": "VistaVox S Ceph"
+        }
+      ],
+      "categoryPath": "Imaging",
+      "description": "VistaVox S combines diagnostic reliability with efficiency and lower radiation exposure Ideal imaging volume, easy positioning, high image quality: VistaVox S represents a milestone in the field of 3D X-ray systems. Thanks to its unique technology, the 3D images generated with this system cover everything you need for reliable diagnoses, well-founded treatment decisions and convincing patient communication. The S-Pan technology of the VistaVox S generates pinpoint accurate OPG images in best DÜRR DENTAL quality.",
+      "sourceImageUrl": "https://www.duerrdental.com/en/products/imaging/extraoral-diagnostics/vistavox-s/c519",
+      "imageUrls": "https://www.duerrdental.com/en/products/imaging/extraoral-diagnostics/vistavox-s/c519",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.duerrdental.com/en/products/imaging/extraoral-diagnostics/vistavox-s/",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "brand": "RAY",
+  "manufacturer": "RAY Co., Ltd.",
+  "sourceType": "OFFICIAL_RAYCONNECT_PRODUCT_VIDEO_VERIFIED_FRAME",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialProductVideoOnly": true,
+    "exactProductRequired": true,
+    "visualVerificationRequired": true,
+    "exposureCorrectionAllowed": true,
+    "noGeneratedProductGeometry": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 1,
+    "recovered": 1,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "RAY-RAYMILL-4X",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYMill 4X",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RAYMill 4X",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Milling Machine",
+      "description": "RAYMill 4X — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-raymill-4x-video-frame-328cbdf05a.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-raymill-4x-video-frame-328cbdf05a.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/resources/2d3ccdb2-f508-4db3-9e2c-334e705df0d5",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_PRODUCT_VIDEO_VERIFIED_FRAME",
+        "officialResourcePageUrl": "https://connect.raymedical.com/en/resources/2d3ccdb2-f508-4db3-9e2c-334e705df0d5",
+        "officialVideoFilename": "RAYDENT Mill 4X promotional video (English)",
+        "officialVideoSha256": "4937207c346d5e0d4cf45fd4c75428bb51077a476dea503c5571a4bda665f5d8",
+        "frameTimestampSeconds": 23,
+        "frameProcessing": "center square crop; exposure correction; 1200x1200 marketplace padding",
+        "visualMatchNote": "The frame shows the complete RAYDENT Mill 4X front with the milling chamber open.",
+        "outputImageSha256": "328cbdf05a176e78225518fded421335d68ddad4eca26c85e121cd7177f96800",
+        "bytes": 184565,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    }
+  ],
+  "review": []
+}

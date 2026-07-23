@@ -1,0 +1,569 @@
+{
+  "brand": "FOMOS",
+  "manufacturer": "Fomos Medical Technology Co., Ltd.",
+  "sourceType": "CURRENT_OFFICIAL_PRODUCT_SITEMAP",
+  "sourceUrl": "https://www.ifomos.com/sitemap.xml",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "allOfficialProductDetailPagesCollected": true,
+    "exactOfficialImagesPreserved": true,
+    "noManufacturerReferenceInvented": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "sitemapProductPages": 26,
+    "discoveredProducts": 20,
+    "variantSkus": 20,
+    "productsWithImages": 20,
+    "productsWithReferences": 0,
+    "crawlErrors": 6
+  },
+  "errors": [
+    {
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/30.html",
+      "error": "product name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/29.html",
+      "error": "product name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/28.html",
+      "error": "product name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/19.html",
+      "error": "product name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/1321433353975533568.html",
+      "error": "product name not found"
+    },
+    {
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/4.html",
+      "error": "product name not found"
+    }
+  ],
+  "products": [
+    {
+      "officialProductId": "FOMOS-18",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "AQUA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "AQUA",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AQUA",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "AQUA <span>AQUA</span> <span>AQUA-S</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/e3b9af5e-5eef-4a2c-9421-873f397181d6.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/e3b9af5e-5eef-4a2c-9421-873f397181d6.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/18.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-20",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "Foclean-25",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Foclean-25",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Foclean-25",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "Foclean-25 <span>Foclean-25</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/4a4da601-125d-4fd0-b932-ee7626747bd8.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/4a4da601-125d-4fd0-b932-ee7626747bd8.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/20.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-21",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "Foclean-60",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Foclean-60",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Foclean-60",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "Foclean-60 <span>Foclean-60</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/e330e6d7-aad6-4a20-87d7-7298b376107f.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/e330e6d7-aad6-4a20-87d7-7298b376107f.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/21.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-22",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "Folub",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Folub",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Folub",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "Folub <span>Folub</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/9cf3707e-dc16-4a55-9373-bd9831f9e7a6.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/9cf3707e-dc16-4a55-9373-bd9831f9e7a6.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/22.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-6",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "Foseal",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Foseal",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Foseal",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "Foseal <span>FoSeal</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/7f9085e5-f1f9-4ed2-9529-934af73d511a.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/7f9085e5-f1f9-4ed2-9529-934af73d511a.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/6.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-13",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "FoSeal-01",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "FoSeal-01",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "FoSeal-01",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "FoSeal-01 <span>FoSeal-01</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/25306edf-1159-4bf2-ac3d-42062f32726f.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/25306edf-1159-4bf2-ac3d-42062f32726f.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/13.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-14",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "FoSeal-02",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "FoSeal-02",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "FoSeal-02",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "FoSeal-02 <span>FoSeal-02</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/cf1cf3d3-ae3e-462f-b539-c559dc082b7e.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/cf1cf3d3-ae3e-462f-b539-c559dc082b7e.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/14.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-15",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "FoSeal-02A",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "FoSeal-02A",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "FoSeal-02A",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "FoSeal-02A <span>FoSeal-02A</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/afa21598-b73d-441f-acd9-f237a28bbbee.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/afa21598-b73d-441f-acd9-f237a28bbbee.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/15.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-16",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "FoSeal-AC",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "FoSeal-AC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "FoSeal-AC",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "FoSeal-AC <span>FoSeal-AC</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/3f621a64-2b7f-40c8-a54e-e92686a0ec8a.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/3f621a64-2b7f-40c8-a54e-e92686a0ec8a.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/16.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-17",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "FoSeal-AP",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "FoSeal-AP",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "FoSeal-AP",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "FoSeal-AP <span>FoSeal-AP</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/fd31a134-1011-4e24-b8e9-abe609586af5.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/fd31a134-1011-4e24-b8e9-abe609586af5.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/17.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-8",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "Foster 17LB / 22LB",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Foster 17LB / 22LB",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Foster 17LB / 22LB",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "Foster 17LB / 22LB <span>Foster 17L B</span> <span>Foster 22L B</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/b8f7ceb5-c830-4fcd-a864-d6068541428f.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/b8f7ceb5-c830-4fcd-a864-d6068541428f.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/8.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-7",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "Foster 8LB / 12LB",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Foster 8LB / 12LB",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Foster 8LB / 12LB",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "Foster 8LB / 12LB <span>Foster 8L B</span> <span>Foster 12L B</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/93fc2892-fd89-4108-8774-712f0889456d.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/93fc2892-fd89-4108-8774-712f0889456d.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/7.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-12",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "Foster Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Foster Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Foster Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "Foster Plus <span>Foster iX (29L)</span> <span>Foster iXL (45L)</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/f4ff05b4-29cf-4fb7-adf6-4cb11bc0991f.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/f4ff05b4-29cf-4fb7-adf6-4cb11bc0991f.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/12.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-5",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "Foster Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Foster Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Foster Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "Foster Plus <span>Foster Plus 17L B</span> <span>Foster Plus 22L B</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/ed86d5a1-d183-4c2e-b8b4-88b7000573a2.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/ed86d5a1-d183-4c2e-b8b4-88b7000573a2.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/5.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-10",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "Foster S",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Foster S",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Foster S",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "Foster S <span>Foster S3 (3L)</span> <span>Foster S5(5L)</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/0595d0fb-f018-4b71-833f-ede5e73e21ca.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/0595d0fb-f018-4b71-833f-ede5e73e21ca.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/10.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-26",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "FoVac",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "FoVac",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "FoVac",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "FoVac <span>FoVac-01</span> <span>FoVac-02</span> <span>FoVac-03</span> <span>FoVac-05</span> <span>FoVac-06</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/df5064f4-402d-4205-b148-20e3d0472970.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/df5064f4-402d-4205-b148-20e3d0472970.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/26.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-23",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "IMIX-M3",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IMIX-M3",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IMIX-M3",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "IMIX-M3 <span>IMIX-M3</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/55032b8b-30d0-40fe-af18-8c4d388cf6ba.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/55032b8b-30d0-40fe-af18-8c4d388cf6ba.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/23.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-25",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "IMIX-M6",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IMIX-M6",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IMIX-M6",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "IMIX-M6 <span>IMIX-M6</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/693a3cb8-e77d-47a3-991f-8c87821971a8.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/693a3cb8-e77d-47a3-991f-8c87821971a8.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/25.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-9",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "Linea 17L B / 22L B",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Linea 17L B / 22L B",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Linea 17L B / 22L B",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "Linea 17L B / 22L B <span>Linea 17L B</span> <span>Linea 22L B</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/68e9a150-1450-4d0d-90f3-8110b060d035.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/68e9a150-1450-4d0d-90f3-8110b060d035.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/9.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "FOMOS-11",
+      "brand": "FOMOS",
+      "manufacturer": "Fomos Medical Technology Co., Ltd.",
+      "name": "Linea 22L N",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Linea 22L N",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Linea 22L N",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "FOMOS / Dental sterilization equipment",
+      "description": "Linea 22L N <span>Linea 22L N</span>",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/072673b3-7eeb-4be0-aec3-9ce59dd1aa84.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/pg2024062417342775197/cms/image/072673b3-7eeb-4be0-aec3-9ce59dd1aa84.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ifomos.com/products_detail/11.html",
+      "additionalSourceUrls": "https://www.ifomos.com/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

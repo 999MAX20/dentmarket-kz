@@ -1,0 +1,161 @@
+{
+  "brand": "MELAG",
+  "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+  "sourceType": "OFFICIAL_MANUFACTURER_PRODUCT_PAGE_IMAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "pageReferenceRequired": true,
+    "allImageHashesPinned": true,
+    "noGeneratedProductGeometry": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 4,
+    "recovered": 4,
+    "recoveredThisRun": 4,
+    "retainedFromPreviousRuns": 0,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "ME22922",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Mount Universal (long)",
+      "manufacturerRef": "ME22922",
+      "manufacturerRefs": "ME22922",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME22922",
+          "label": "Mount Universal (long)",
+          "variantLabel": "Mount Universal (long)",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "mount-universal-long",
+      "description": "The Universal holder offers optimum flexibility for combining loads from MELAstore boxes as well as up to 6 trays and 2 narrow trays. Specially designed for use with Vacuklav 43 / 44 B+ Evolution, it is the ideal solution for versatile requirements in the sterilization environment.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-melag-mount-universal-long-me22922-a76c7c074e.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-melag-mount-universal-long-me22922-a76c7c074e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/mount-universal-long/me22922",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_EXACT_IMAGE",
+        "officialProductPageUrl": "https://www.melag.com/en/mount-universal-long/me22922",
+        "officialSourceImageUrl": "https://shopware.melag.com/media/6d/f6/31/1714649256/universalhalterung-beladung-8.jpg?ts=1714649256",
+        "sourceImageSha256": "a76c7c074ee52c797bb82c916df809d22078013f99913ad6fbd666165c27235a",
+        "sha256": "a76c7c074ee52c797bb82c916df809d22078013f99913ad6fbd666165c27235a",
+        "bytes": 279718,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "ME22921",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Mount Universal (short)",
+      "manufacturerRef": "ME22921",
+      "manufacturerRefs": "ME22921",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME22921",
+          "label": "Mount Universal (short)",
+          "variantLabel": "Mount Universal (short)",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "mount-universal-short",
+      "description": "The Universal holder offers optimum flexibility for combining loads from MELAstore boxes as well as up to 6 trays and 2 narrow trays. Specially designed for use with Careclave and Vacuklav 40 / 41 B+ Evolution, it is the ideal solution for versatile requirements in the sterilization environment.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-melag-mount-universal-short-me22921-b280c71703.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-melag-mount-universal-short-me22921-b280c71703.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/mount-universal-short/me22921",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_EXACT_IMAGE",
+        "officialProductPageUrl": "https://www.melag.com/en/mount-universal-short/me22921",
+        "officialSourceImageUrl": "https://shopware.melag.com/media/50/0e/c7/1714649256/universalhalterung-beladung-leer.jpg?ts=1714649256",
+        "sourceImageSha256": "b280c71703f1e304bdd6f92e6cd134231b0b2496c79f122bb258f885727a5aef",
+        "sha256": "b280c71703f1e304bdd6f92e6cd134231b0b2496c79f122bb258f885727a5aef",
+        "bytes": 318264,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "ME00118",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Working table Comfort",
+      "manufacturerRef": "ME00118",
+      "manufacturerRefs": "ME00118",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME00118",
+          "label": "Working table Comfort",
+          "variantLabel": "Working table Comfort",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "working-table-comfort",
+      "description": "The work table \"comfort\" with easy-running casters for the quick transport of heavy individual instruments and containers.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-melag-working-table-comfort-me00118-803140900b.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-melag-working-table-comfort-me00118-803140900b.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://configurator.melag.com/en/our-products?page=25",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_EXACT_IMAGE",
+        "officialProductPageUrl": "https://configurator.melag.com/en/our-products?page=25",
+        "officialSourceImageUrl": "https://configurator.melag.com/sites/default/files/import/ME00118.png",
+        "sourceImageSha256": "803140900b0ef0a8fecfb6fabad4e1b3e30eba371ff3839e399600693082caca",
+        "sha256": "803140900b0ef0a8fecfb6fabad4e1b3e30eba371ff3839e399600693082caca",
+        "bytes": 131513,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "ME00119",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Working table Standard",
+      "manufacturerRef": "ME00119",
+      "manufacturerRefs": "ME00119",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME00119",
+          "label": "Working table Standard",
+          "variantLabel": "Working table Standard",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "working-table-standard",
+      "description": "The \"standard” work table for supporting the operation of the MELAseal Pro.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-melag-working-table-standard-me00119-aebf9e5f77.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-melag-working-table-standard-me00119-aebf9e5f77.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://configurator.melag.com/en/our-products?page=25",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_EXACT_IMAGE",
+        "officialProductPageUrl": "https://configurator.melag.com/en/our-products?page=25",
+        "officialSourceImageUrl": "https://configurator.melag.com/sites/default/files/import/ME00119.png",
+        "sourceImageSha256": "aebf9e5f77b8a77bbd773a4fa3d4644d9a794d0028e34ffad04be6f4a7a92844",
+        "sha256": "aebf9e5f77b8a77bbd773a4fa3d4644d9a794d0028e34ffad04be6f4a7a92844",
+        "bytes": 97933,
+        "contentType": "image/png"
+      }
+    }
+  ]
+}

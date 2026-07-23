@@ -1,0 +1,59 @@
+{
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "supplierNamesAreNotProductBrands": true,
+    "ambiguousLabelsDoNotGenerateProductCards": true,
+    "classificationPreservesOriginalMarketObservation": true,
+    "reclassificationRequiresManufacturerOrTrademarkEvidence": true
+  },
+  "classifications": [
+    {
+      "label": "GRT",
+      "classificationStatus": "AMBIGUOUS_COMMERCIAL_LABEL_NO_VERIFIED_MANUFACTURER",
+      "reason": "LIRA Medical Group uses GRT as a catalogue section/brand claim, but does not identify a legal manufacturer or publish an attributable SKU catalogue; search results for dental GRT do not establish that it is GDT Implants, so the names must not be merged.",
+      "sourceUrls": ["https://dent-materials.kz/", "https://dent-materials.kz/catalog"]
+    },
+    {
+      "label": "Johnson & Johnson",
+      "classificationStatus": "STALE_SOURCE_LABEL_NOT_CURRENT_DENTAL_BRAND_FILTER",
+      "reason": "The current Denti.kz brand filter has no exact Johnson & Johnson entry. A conglomerate name without a current dental SKU source cannot generate a canonical dental catalogue.",
+      "sourceUrls": ["https://denti.kz/about/"]
+    },
+    {
+      "label": "MustDent",
+      "classificationStatus": "KAZAKHSTAN_SUPPLIER_NOT_MANUFACTURER_BRAND",
+      "reason": "MustDent is a Kazakhstan wholesale legal entity/importer. The current Denti.kz brand filter has no exact MustDent entry, and supplier catalogue paths must not be converted into a manufacturer brand.",
+      "sourceUrls": ["https://rsp.gov.kz/ru/rsp?page=621", "https://denti.kz/about/"]
+    },
+    {
+      "label": "Medexim",
+      "classificationStatus": "EXPORTER_DISTRIBUTOR_NOT_DENTAL_PRODUCT_BRAND",
+      "reason": "Medexim's dental compressor pages explicitly identify EKOM equipment. EKOM is already represented as the manufacturer brand, so duplicating the same products under Medexim would create false brand cards.",
+      "sourceUrls": ["https://www.medexim.eu/ru/produkty/kompressory/stomatologicheskie-kompressory", "https://www.medexim.eu/ru/produkty/kompressory/stomatologicheskie-kompressory/dk50-2v/50"]
+    },
+    {
+      "label": "Nuvo",
+      "classificationStatus": "PRODUCT_LINE_LABEL_MANUFACTURER_IDENTITY_REQUIRED",
+      "reason": "The Kazakhstan observation is a Nuvo surgical suit listing. It does not establish a dental manufacturer identity or a standalone manufacturer SKU catalogue.",
+      "sourceUrls": ["https://amdgroup.kz/brendy/"]
+    },
+    {
+      "label": "Ordamed",
+      "classificationStatus": "KAZAKHSTAN_DISTRIBUTOR_NOT_MANUFACTURER_BRAND",
+      "reason": "Ordamed is a Kazakhstan medical equipment distributor/company. Products must be attributed to their actual manufacturers instead of creating an Ordamed manufacturer catalogue.",
+      "sourceUrls": ["https://ordamed.kz/"]
+    },
+    {
+      "label": "Hummer-Pak",
+      "classificationStatus": "AMBIGUOUS_MARKET_LABEL_EXACT_KZ_CARD_PRESERVED",
+      "reason": "The Kazakhstan listing identifies Hummer-Pak and article СКТ-5, but no attributable legal manufacturer or current official SKU catalogue could be verified. The exact observed card remains available for supplier-price matching and manual identity review; no additional cards are invented.",
+      "sourceUrls": ["https://stomir.kz/"]
+    },
+    {
+      "label": "TORNADO",
+      "classificationStatus": "DURR_DENTAL_PRODUCT_LINE_ALIAS",
+      "reason": "TORNADO is an official compressor product line of Dürr Dental, not a separate manufacturer brand. Existing Kazakhstan observations are preserved and reconciled against the structured Dürr Dental catalogue instead of creating duplicate brand cards.",
+      "sourceUrls": ["https://www.duerrdental.com/en/products/compressed-air/compressors/", "https://www.duerrdental.com/"]
+    }
+  ]
+}

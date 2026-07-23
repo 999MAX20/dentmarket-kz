@@ -1,0 +1,882 @@
+{
+  "brand": "YouJoy",
+  "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+  "sourceType": "CURRENT_OFFICIAL_PAGINATED_PRODUCT_LISTINGS_AND_PRODUCT_METADATA",
+  "sourceUrl": "https://en.youjoy.cn/products/p-0-12.html",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "allOfficialListingPagesCollected": true,
+    "exactOfficialMetadataImagesPreserved": true,
+    "noManufacturerReferenceInvented": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "listingPages": 3,
+    "discoveredProducts": 33,
+    "variantSkus": 33,
+    "productsWithImages": 33,
+    "productsWithReferences": 0,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "YOUJOY-36",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "BES-18L/23L-B-LCD",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BES-18L/23L-B-LCD",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BES-18L/23L-B-LCD",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/1bd877a4-2347-4c31-a886-21e0dd8b3881.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/1bd877a4-2347-4c31-a886-21e0dd8b3881.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/36.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-37",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "BES-18L/23L-B-LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BES-18L/23L-B-LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BES-18L/23L-B-LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/1a4516d0-f80c-48f7-aa1e-2b9de048a8ed.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/1a4516d0-f80c-48f7-aa1e-2b9de048a8ed.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/37.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-1",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "BES-18L／23L-N-LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BES-18L／23L-N-LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BES-18L／23L-N-LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/b9fab131-a3e6-4d1b-b654-d5b3e8e75172.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/b9fab131-a3e6-4d1b-b654-d5b3e8e75172.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/1.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-38",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "BES-29L/45L-B-LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BES-29L/45L-B-LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BES-29L/45L-B-LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/79872f7b-5715-4698-87aa-3f8164203b60.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/79872f7b-5715-4698-87aa-3f8164203b60.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/38.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-33",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "BES18/23-D Touch Screen Sterilizer",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BES18/23-D Touch Screen Sterilizer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BES18/23-D Touch Screen Sterilizer",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/c4a63662-8c66-4fb3-a0ce-058ffac3f1db.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/c4a63662-8c66-4fb3-a0ce-058ffac3f1db.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/33.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-34",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "BES5L Sterilizer",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BES5L Sterilizer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BES5L Sterilizer",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/13973b6d-9252-45b4-a59b-569eb46b94be.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/13973b6d-9252-45b4-a59b-569eb46b94be.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/34.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-21",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Ease 02 Series Dental Unit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ease 02 Series Dental Unit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ease 02 Series Dental Unit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/f2a120fa-b53c-4c46-b3f1-a32afb20eda3.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/f2a120fa-b53c-4c46-b3f1-a32afb20eda3.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/21.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-22",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Ease 03 Flying Dental Unit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ease 03 Flying Dental Unit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ease 03 Flying Dental Unit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/d1882a98-bea1-408d-aba3-073212cbc62d.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/d1882a98-bea1-408d-aba3-073212cbc62d.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/22.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-23",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "ENROLL-01 Air Compressor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ENROLL-01 Air Compressor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ENROLL-01 Air Compressor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/e971776c-91a2-47b7-b3a2-f0ca1c2b4c4b.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/e971776c-91a2-47b7-b3a2-f0ca1c2b4c4b.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/23.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-30",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "EvoScan",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "EvoScan",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "EvoScan",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/beef22f9-f149-4096-b1bb-10e76db5c708.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/beef22f9-f149-4096-b1bb-10e76db5c708.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/30.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-29",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "iMapper Photogrammetry Camera",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "iMapper Photogrammetry Camera",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "iMapper Photogrammetry Camera",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/cb50ea6c-eb44-49ed-8514-238d753ea6ce.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/cb50ea6c-eb44-49ed-8514-238d753ea6ce.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/29.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-39",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Lubrication Machine",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Lubrication Machine",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Lubrication Machine",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/56f9f3fb-3495-488d-83f4-06cba1559a40.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/56f9f3fb-3495-488d-83f4-06cba1559a40.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/39.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-27",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Mobile Cart",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Mobile Cart",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Mobile Cart",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/5fc457e9-f6b1-4c18-aca3-dc797b0f4009.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/5fc457e9-f6b1-4c18-aca3-dc797b0f4009.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/27.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-6",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Mobile X-Ray YOU(M)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Mobile X-Ray YOU(M)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Mobile X-Ray YOU(M)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/f4d487e6-9334-4dc1-a141-94f55c8d4eec.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/f4d487e6-9334-4dc1-a141-94f55c8d4eec.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/6.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-4",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Mobile X-ray YOU(MG)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Mobile X-ray YOU(MG)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Mobile X-ray YOU(MG)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/79e151e8-1da9-475c-9647-1a1cea1aa5c9.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/79e151e8-1da9-475c-9647-1a1cea1aa5c9.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/4.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-28",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Omni Color Shade Detector",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Omni Color Shade Detector",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Omni Color Shade Detector",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/196a1758-6db6-4961-9bd9-568dd1d57d3c.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/196a1758-6db6-4961-9bd9-568dd1d57d3c.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/28.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-17",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Phosphor Plate Scanner (US630)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Phosphor Plate Scanner (US630)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Phosphor Plate Scanner (US630)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/1318a697-dc85-4376-b8f3-105480f0faa5.png?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/1318a697-dc85-4376-b8f3-105480f0faa5.png?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/17.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-5",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Portable DC X-Ray",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Portable DC X-Ray",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Portable DC X-Ray",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/6a5a4163-1c90-498f-a926-021548d732c7.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/6a5a4163-1c90-498f-a926-021548d732c7.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/5.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-1445077758240305152",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Portable Digital Imaging System",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Portable Digital Imaging System",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Portable Digital Imaging System",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/09260e22-a3ef-48dc-a379-84d072cd3c40.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/09260e22-a3ef-48dc-a379-84d072cd3c40.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/1445077758240305152.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-25",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "SCAN-i5 Intraoral Scanner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SCAN-i5 Intraoral Scanner",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SCAN-i5 Intraoral Scanner",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/dba2ba26-b1a7-46ee-94b3-5e50eefbcef8.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/dba2ba26-b1a7-46ee-94b3-5e50eefbcef8.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/25.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-26",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "SCAN-i6 Intraoral Scanner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SCAN-i6 Intraoral Scanner",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SCAN-i6 Intraoral Scanner",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/006276f1-9e95-4ed2-bb37-23b74becc028.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/006276f1-9e95-4ed2-bb37-23b74becc028.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/26.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-11",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "SCAN11 Intraoral Scanner",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SCAN11 Intraoral Scanner",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SCAN11 Intraoral Scanner",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/4876f7b1-d100-4b2a-a695-e858da494829.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/4876f7b1-d100-4b2a-a695-e858da494829.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/11.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-9",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "SealingMachine(SEAL120)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SealingMachine(SEAL120)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SealingMachine(SEAL120)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/0f825b06-9583-4fc0-bb8e-a2b3ea4d05e7.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/0f825b06-9583-4fc0-bb8e-a2b3ea4d05e7.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/9.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-18",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Sensor(Blue)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Sensor(Blue)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Sensor(Blue)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/d9e7b584-8916-41cf-92f8-1e4b6450f169.png?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/d9e7b584-8916-41cf-92f8-1e4b6450f169.png?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/18.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-8",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Sensor(US980)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Sensor(US980)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Sensor(US980)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/8ad029b4-59c6-4d84-a29e-97e17f0f657d.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/8ad029b4-59c6-4d84-a29e-97e17f0f657d.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/8.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-10",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Suction Unit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Suction Unit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Suction Unit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/c52ac8d4-c845-44f7-a542-8350d5915bd6.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/c52ac8d4-c845-44f7-a542-8350d5915bd6.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/10.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-35",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "SUPER05 Diagnostic X-ray Equipment",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SUPER05 Diagnostic X-ray Equipment",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SUPER05 Diagnostic X-ray Equipment",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/805b5b6b-07a1-416b-97bb-6dd22dbb0c74.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/805b5b6b-07a1-416b-97bb-6dd22dbb0c74.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/35.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-19",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Ultrasonic Cleaner(UC-01)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ultrasonic Cleaner(UC-01)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ultrasonic Cleaner(UC-01)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/d896d804-506a-4f3d-9b21-d40f92fb4d8c.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/d896d804-506a-4f3d-9b21-d40f92fb4d8c.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/19.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-20",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Ultrasonic Cleaner(UC-02)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ultrasonic Cleaner(UC-02)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ultrasonic Cleaner(UC-02)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/453d19f1-82e4-4b14-9527-3900b378d885.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/453d19f1-82e4-4b14-9527-3900b378d885.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/20.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-2",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Ultrasonic Cleaner(UC-03)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ultrasonic Cleaner(UC-03)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ultrasonic Cleaner(UC-03)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/b6225902-8328-44ef-9abf-d4740d3b46e0.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/b6225902-8328-44ef-9abf-d4740d3b46e0.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/2.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-7",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Wall Mounted X-Ray YOU(W)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Wall Mounted X-Ray YOU(W)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Wall Mounted X-Ray YOU(W)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/d700f107-1e14-4720-84ec-ea7d4a81a9a8.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/d700f107-1e14-4720-84ec-ea7d4a81a9a8.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/7.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-3",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Wall Mounted X-ray YOU(WG)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Wall Mounted X-ray YOU(WG)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Wall Mounted X-ray YOU(WG)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/2f6ba121-1de8-46cb-a2f8-f046ff0f2155.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/2f6ba121-1de8-46cb-a2f8-f046ff0f2155.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/3.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "YOUJOY-32",
+      "brand": "YouJoy",
+      "manufacturer": "Ningbo Youjoy Dental Equipment Co., Ltd.",
+      "name": "Water Distiller(Drink)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Water Distiller(Drink)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Water Distiller(Drink)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "YouJoy / Dental equipment",
+      "description": "Текущая модель подтверждена официальной карточкой YouJoy. Заводская комплектация и артикул сверяются с прайсом поставщика.",
+      "sourceImageUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/d845ba90-c3a4-46b4-b6fa-8d38acb0a305.jpg?vf=B7gH3s",
+      "imageUrls": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022041416372310845/cms/image/d845ba90-c3a4-46b4-b6fa-8d38acb0a305.jpg?vf=B7gH3s",
+      "imageCount": 1,
+      "sourcePageUrl": "https://en.youjoy.cn/Products_detail/32.html",
+      "additionalSourceUrls": "https://en.youjoy.cn/products/p-0-12.html | https://en.youjoy.cn/products/p-12-12.html | https://en.youjoy.cn/products/p-24-12.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

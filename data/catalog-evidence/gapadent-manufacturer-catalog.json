@@ -1,0 +1,587 @@
+{
+  "brand": "Gapadent",
+  "manufacturer": "Tianjin Gapadent Co., Ltd.",
+  "sourceType": "EXACT_KZ_RETAIL_LISTING_PLUS_VERIFIED_SPECIALIST_RANGE_AND_REGULATORY_EVIDENCE",
+  "sourceUrl": "https://stomir.kz/catalog/rashodnye_materialy_i_akssesuary_terapevticheskie/170216043611",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "unavailableManufacturerWebsiteRecorded": true,
+    "exactKzVariantsAndImagesPreserved": true,
+    "distributorOrderReferencesNeverPromotedToManufacturerReferences": true,
+    "verifiedRangeWithoutExactPhotoRetainedInPhotoQueue": true,
+    "noProductCardsDeletedForMissingFields": true
+  },
+  "totals": {
+    "discoveredProducts": 11,
+    "variantSkus": 65,
+    "productsWithReferences": 0,
+    "productsWithImages": 1,
+    "productsWithoutImages": 10,
+    "exactKzVariants": 6,
+    "crawlErrors": 0
+  },
+  "products": [
+    {
+      "officialProductId": "GAPADENT-ABSORBENT-PAPER-POINTS-KZ",
+      "brand": "Gapadent",
+      "manufacturer": "Tianjin Gapadent Co., Ltd.",
+      "name": "Абсорбирующие бумажные штифты Gapadent",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantLabel": "№ 15",
+          "sourceOfferId": "170216043611",
+          "sourceImageUrl": "https://stomir.kz/user_uploads/products/85-00003_35.jpg",
+          "referenceType": "KZ_SELLER_VARIANT_ID_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "№ 20",
+          "sourceOfferId": "170216043819",
+          "sourceImageUrl": "https://stomir.kz/user_uploads/products/170216043819-00003_36.jpg",
+          "referenceType": "KZ_SELLER_VARIANT_ID_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "№ 25",
+          "sourceOfferId": "170216044001",
+          "sourceImageUrl": "https://stomir.kz/user_uploads/products/170216044001-00003_37.jpg",
+          "referenceType": "KZ_SELLER_VARIANT_ID_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "№ 35",
+          "sourceOfferId": "170216044200",
+          "sourceImageUrl": "https://stomir.kz/user_uploads/products/170216044200-00003_38.jpg",
+          "referenceType": "KZ_SELLER_VARIANT_ID_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "№ 40",
+          "sourceOfferId": "170216044301",
+          "sourceImageUrl": "https://stomir.kz/user_uploads/products/170216044301-00003_39.jpg",
+          "referenceType": "KZ_SELLER_VARIANT_ID_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "№ 15–40, ассорти",
+          "sourceOfferId": "170216044411",
+          "sourceImageUrl": "https://stomir.kz/user_uploads/products/170216044411-00003_40.jpg",
+          "referenceType": "KZ_SELLER_VARIANT_ID_NOT_MANUFACTURER_REFERENCE"
+        }
+      ],
+      "categoryPath": "Абсорбирующие бумажные штифты",
+      "description": "Шесть вариантов фактически представлены в каталоге СТОМир Казахстан. Артикул CKT-111 сохранён только как артикул продавца и не выдается за заводской код.",
+      "sourceImageUrl": "https://stomir.kz/user_uploads/products/85-00003_35.jpg",
+      "imageUrls": "https://stomir.kz/user_uploads/products/85-00003_35.jpg | https://stomir.kz/user_uploads/products/170216043819-00003_36.jpg | https://stomir.kz/user_uploads/products/170216044001-00003_37.jpg | https://stomir.kz/user_uploads/products/170216044200-00003_38.jpg | https://stomir.kz/user_uploads/products/170216044301-00003_39.jpg | https://stomir.kz/user_uploads/products/170216044411-00003_40.jpg",
+      "imageCount": 6,
+      "sourcePageUrl": "https://stomir.kz/catalog/rashodnye_materialy_i_akssesuary_terapevticheskie/170216043611",
+      "additionalSourceUrls": "https://www.pearsondental.com/flyers/Gapadent%20Page.pdf | https://stommarket.ru/upload/iblock/a16/2j2lo6ng3sfuj2a315vlf89stgb3tz74.pdf",
+      "kzEvidence": "EXACT_KZ_LISTING_AND_VARIANTS",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "GAPADENT-GP-ENDO-AIDE",
+      "brand": "Gapadent",
+      "manufacturer": "Tianjin Gapadent Co., Ltd.",
+      "name": "Гуттаперчевые штифты Endo Aide",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "№ 15–40",
+          "sourceOrderRef": "G16-0002",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "№ 45–80",
+          "sourceOrderRef": "G16-0004",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "№ 15–80",
+          "sourceOrderRef": "G16-0006",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        }
+      ],
+      "categoryPath": "Эндодонтические штифты",
+      "description": "Варианты подтверждены специализированным каталогом линейки Gapadent; заводской артикул требует сверки с актуальным прайсом производителя или поставщика.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.pearsondental.com/flyers/Gapadent%20Page.pdf",
+      "additionalSourceUrls": "https://stommarket.ru/upload/iblock/a16/2j2lo6ng3sfuj2a315vlf89stgb3tz74.pdf",
+      "kzEvidence": "BRAND_AND_ABSORBENT_PAPER_POINTS_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "GAPADENT-PAPER-ENDO-AIDE",
+      "brand": "Gapadent",
+      "manufacturer": "Tianjin Gapadent Co., Ltd.",
+      "name": "Бумажные штифты Endo Aide",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "№ 15–40",
+          "sourceOrderRef": "G16-0008",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "№ 45–80",
+          "sourceOrderRef": "G16-0010",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "№ 15–80",
+          "sourceOrderRef": "G16-0012",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        }
+      ],
+      "categoryPath": "Эндодонтические штифты",
+      "description": "Варианты подтверждены специализированным каталогом линейки Gapadent; заводской артикул требует сверки с актуальным прайсом производителя или поставщика.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.pearsondental.com/flyers/Gapadent%20Page.pdf",
+      "additionalSourceUrls": "https://stommarket.ru/upload/iblock/a16/2j2lo6ng3sfuj2a315vlf89stgb3tz74.pdf",
+      "kzEvidence": "BRAND_AND_ABSORBENT_PAPER_POINTS_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "GAPADENT-ENDO-AIDE-COMBO",
+      "brand": "Gapadent",
+      "manufacturer": "Tianjin Gapadent Co., Ltd.",
+      "name": "Набор Endo Aide с гуттаперчевыми и бумажными штифтами",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "№ 15–40",
+          "sourceOrderRef": "G16-0014",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "№ 45–80",
+          "sourceOrderRef": "G16-0016",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        }
+      ],
+      "categoryPath": "Эндодонтические наборы",
+      "description": "Варианты подтверждены специализированным каталогом линейки Gapadent; заводской артикул требует сверки с актуальным прайсом производителя или поставщика.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.pearsondental.com/flyers/Gapadent%20Page.pdf",
+      "additionalSourceUrls": "https://stommarket.ru/upload/iblock/a16/2j2lo6ng3sfuj2a315vlf89stgb3tz74.pdf",
+      "kzEvidence": "BRAND_AND_ABSORBENT_PAPER_POINTS_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "GAPADENT-GP-WAVE-ONE",
+      "brand": "Gapadent",
+      "manufacturer": "Tianjin Gapadent Co., Ltd.",
+      "name": "Гуттаперчевые штифты для файлов WaveOne",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "Small",
+          "sourceOrderRef": "G16-0104",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "Primary",
+          "sourceOrderRef": "G16-0106",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "Large",
+          "sourceOrderRef": "G16-0108",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "Ассорти",
+          "sourceOrderRef": "G16-0110",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        }
+      ],
+      "categoryPath": "Эндодонтические штифты",
+      "description": "Варианты подтверждены специализированным каталогом линейки Gapadent; заводской артикул требует сверки с актуальным прайсом производителя или поставщика.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.pearsondental.com/flyers/Gapadent%20Page.pdf",
+      "additionalSourceUrls": "https://stommarket.ru/upload/iblock/a16/2j2lo6ng3sfuj2a315vlf89stgb3tz74.pdf",
+      "kzEvidence": "BRAND_AND_ABSORBENT_PAPER_POINTS_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "GAPADENT-GP-TAPER-04-06",
+      "brand": "Gapadent",
+      "manufacturer": "Tianjin Gapadent Co., Ltd.",
+      "name": "Гуттаперчевые штифты конусности 04 и 06",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 14,
+      "variants": [
+        {
+          "variantLabel": ".04, № 2",
+          "sourceOrderRef": "G16-0062",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 2",
+          "sourceOrderRef": "G16-0076",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".04, № 3",
+          "sourceOrderRef": "G16-0064",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 3",
+          "sourceOrderRef": "G16-0078",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".04, № 4",
+          "sourceOrderRef": "G16-0066",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 4",
+          "sourceOrderRef": "G16-0080",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".04, № 5",
+          "sourceOrderRef": "G16-0068",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 5",
+          "sourceOrderRef": "G16-0082",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".04, № 6",
+          "sourceOrderRef": "G16-0070",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 6",
+          "sourceOrderRef": "G16-0084",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".04, № 7",
+          "sourceOrderRef": "G16-0072",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 7",
+          "sourceOrderRef": "G16-0086",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".04, № 2–7, ассорти",
+          "sourceOrderRef": "G16-0074",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 2–7, ассорти",
+          "sourceOrderRef": "G16-0088",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        }
+      ],
+      "categoryPath": "Эндодонтические штифты",
+      "description": "Варианты подтверждены специализированным каталогом линейки Gapadent; заводской артикул требует сверки с актуальным прайсом производителя или поставщика.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.pearsondental.com/flyers/Gapadent%20Page.pdf",
+      "additionalSourceUrls": "https://stommarket.ru/upload/iblock/a16/2j2lo6ng3sfuj2a315vlf89stgb3tz74.pdf",
+      "kzEvidence": "BRAND_AND_ABSORBENT_PAPER_POINTS_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "GAPADENT-GP-GREATER-TAPER",
+      "brand": "Gapadent",
+      "manufacturer": "Tianjin Gapadent Co., Ltd.",
+      "name": "Гуттаперчевые штифты повышенной конусности",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 5,
+      "variants": [
+        {
+          "variantLabel": ".06",
+          "sourceOrderRef": "G16-0112",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".08",
+          "sourceOrderRef": "G16-0114",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".10",
+          "sourceOrderRef": "G16-0116",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".12",
+          "sourceOrderRef": "G16-0118",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "Ассорти",
+          "sourceOrderRef": "G16-0120",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        }
+      ],
+      "categoryPath": "Эндодонтические штифты",
+      "description": "Варианты подтверждены специализированным каталогом линейки Gapadent; заводской артикул требует сверки с актуальным прайсом производителя или поставщика.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.pearsondental.com/flyers/Gapadent%20Page.pdf",
+      "additionalSourceUrls": "https://stommarket.ru/upload/iblock/a16/2j2lo6ng3sfuj2a315vlf89stgb3tz74.pdf",
+      "kzEvidence": "BRAND_AND_ABSORBENT_PAPER_POINTS_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "GAPADENT-GP-PROTAPER",
+      "brand": "Gapadent",
+      "manufacturer": "Tianjin Gapadent Co., Ltd.",
+      "name": "Гуттаперчевые штифты для файлов ProTaper",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantLabel": "F1",
+          "sourceOrderRef": "G16-0090",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "F2",
+          "sourceOrderRef": "G16-0092",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "F3",
+          "sourceOrderRef": "G16-0094",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "F4",
+          "sourceOrderRef": "G16-0096",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "F5",
+          "sourceOrderRef": "G16-0098",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "F1–F3, ассорти",
+          "sourceOrderRef": "G16-0100",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        }
+      ],
+      "categoryPath": "Эндодонтические штифты",
+      "description": "Варианты подтверждены специализированным каталогом линейки Gapadent; заводской артикул требует сверки с актуальным прайсом производителя или поставщика.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.pearsondental.com/flyers/Gapadent%20Page.pdf",
+      "additionalSourceUrls": "https://stommarket.ru/upload/iblock/a16/2j2lo6ng3sfuj2a315vlf89stgb3tz74.pdf",
+      "kzEvidence": "BRAND_AND_ABSORBENT_PAPER_POINTS_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "GAPADENT-PAPER-TAPER-04-06",
+      "brand": "Gapadent",
+      "manufacturer": "Tianjin Gapadent Co., Ltd.",
+      "name": "Бумажные штифты конусности 04 и 06",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 14,
+      "variants": [
+        {
+          "variantLabel": ".04, № 15",
+          "sourceOrderRef": "G16-0122",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".04, № 20",
+          "sourceOrderRef": "G16-0124",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".04, № 25",
+          "sourceOrderRef": "G16-0126",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".04, № 30",
+          "sourceOrderRef": "G16-0128",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".04, № 35",
+          "sourceOrderRef": "G16-0130",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".04, № 40",
+          "sourceOrderRef": "G16-0132",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".04, № 15–40",
+          "sourceOrderRef": "G16-0134",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 15",
+          "sourceOrderRef": "G16-0136",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 20",
+          "sourceOrderRef": "G16-0138",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 25",
+          "sourceOrderRef": "G16-0140",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 30",
+          "sourceOrderRef": "G16-0142",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 35",
+          "sourceOrderRef": "G16-0144",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 40",
+          "sourceOrderRef": "G16-0146",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": ".06, № 15–40",
+          "sourceOrderRef": "G16-0048",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        }
+      ],
+      "categoryPath": "Эндодонтические штифты",
+      "description": "Варианты подтверждены специализированным каталогом линейки Gapadent; заводской артикул требует сверки с актуальным прайсом производителя или поставщика.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.pearsondental.com/flyers/Gapadent%20Page.pdf",
+      "additionalSourceUrls": "https://stommarket.ru/upload/iblock/a16/2j2lo6ng3sfuj2a315vlf89stgb3tz74.pdf",
+      "kzEvidence": "BRAND_AND_ABSORBENT_PAPER_POINTS_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "GAPADENT-PAPER-PROTAPER",
+      "brand": "Gapadent",
+      "manufacturer": "Tianjin Gapadent Co., Ltd.",
+      "name": "Бумажные штифты для файлов ProTaper",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantLabel": "F1",
+          "sourceOrderRef": "G16-0178",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "F2",
+          "sourceOrderRef": "G16-0180",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "F3",
+          "sourceOrderRef": "G16-0182",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "F4",
+          "sourceOrderRef": "G16-0184",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "F5",
+          "sourceOrderRef": "G16-0186",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "F1–F3, ассорти",
+          "sourceOrderRef": "G16-0188",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        }
+      ],
+      "categoryPath": "Эндодонтические штифты",
+      "description": "Варианты подтверждены специализированным каталогом линейки Gapadent; заводской артикул требует сверки с актуальным прайсом производителя или поставщика.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.pearsondental.com/flyers/Gapadent%20Page.pdf",
+      "additionalSourceUrls": "https://stommarket.ru/upload/iblock/a16/2j2lo6ng3sfuj2a315vlf89stgb3tz74.pdf",
+      "kzEvidence": "BRAND_AND_ABSORBENT_PAPER_POINTS_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "GAPADENT-ENDO-AIDE-ORGANIZER",
+      "brand": "Gapadent",
+      "manufacturer": "Tianjin Gapadent Co., Ltd.",
+      "name": "Органайзер Endo Aide",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Пустой органайзер",
+          "sourceOrderRef": "G16-0000",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        },
+        {
+          "variantLabel": "Пустой контейнер для гуттаперчи",
+          "sourceOrderRef": "G16-0001",
+          "referenceType": "DISTRIBUTOR_ORDER_REFERENCE_NOT_MANUFACTURER_REFERENCE"
+        }
+      ],
+      "categoryPath": "Эндодонтические принадлежности",
+      "description": "Варианты подтверждены специализированным каталогом линейки Gapadent; заводской артикул требует сверки с актуальным прайсом производителя или поставщика.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.pearsondental.com/flyers/Gapadent%20Page.pdf",
+      "additionalSourceUrls": "https://stommarket.ru/upload/iblock/a16/2j2lo6ng3sfuj2a315vlf89stgb3tz74.pdf",
+      "kzEvidence": "BRAND_AND_ABSORBENT_PAPER_POINTS_OBSERVED_IN_KAZAKHSTAN",
+      "status": "PHOTO_REQUIRED"
+    }
+  ]
+}

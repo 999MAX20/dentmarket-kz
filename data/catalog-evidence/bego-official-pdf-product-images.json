@@ -1,0 +1,357 @@
+{
+  "brand": "BEGO",
+  "manufacturer": "BEGO GmbH & Co. KG",
+  "sourceType": "OFFICIAL_MANUFACTURER_PDF_EMBEDDED_EXACT_PRODUCT_IMAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialPdfOnly": true,
+    "exactReferenceOrDiameterFamilyRequired": true,
+    "visualVerificationRequired": true,
+    "pdfAndOutputHashesPinned": true,
+    "noGeneratedProductGeometry": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 8,
+    "recovered": 8,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "BEGO-58503",
+      "brand": "BEGO",
+      "manufacturer": "BEGO GmbH & Co. KG",
+      "name": "naturesQue SemOss B",
+      "manufacturerRef": "58503",
+      "manufacturerRefs": "58503",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "58503",
+          "label": "naturesQue SemOss B",
+          "barcode": "",
+          "sourceVariantId": "44134366806280",
+          "variantLabel": "naturesQue SemOss B",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Implantology",
+      "description": "Xenohybrides Knochenersatzmaterial",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-58503-9741094559.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-58503-9741094559.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+      "sourcePdfPages": "7",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_IMAGE_EXACT_REF_OR_FAMILY",
+        "officialPdfUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+        "officialPdfSha256": "40e027bbc48229d54f63d59e9f8e4209f11a6d9f3e926ccc3d5179f941071dc7",
+        "pdfPage": 7,
+        "embeddedImageIndex": 7,
+        "embeddedImageName": "Im7.jpg",
+        "visualMatchNote": "Official naturesQue SemOss B vial image; the same page lists REF 58503 for 2.0 g / 4.0 ml.",
+        "outputImageSha256": "9741094559bd7776b95b85f6a14a0054eec71311214fca013bbee5db087ca902",
+        "bytes": 237151,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "BEGO-58263",
+      "brand": "BEGO",
+      "manufacturer": "BEGO GmbH & Co. KG",
+      "name": "BEGO Semados® SCX",
+      "manufacturerRef": "58263",
+      "manufacturerRefs": "58263",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "58263",
+          "label": "BEGO Semados® SCX",
+          "barcode": "",
+          "sourceVariantId": "44342551609608",
+          "variantLabel": "BEGO Semados® SCX",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Implantology",
+      "description": "Implantat",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-58263-d3b1f7084b.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-58263-d3b1f7084b.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+      "sourcePdfPages": "13",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_IMAGE_EXACT_REF_OR_FAMILY",
+        "officialPdfUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+        "officialPdfSha256": "40e027bbc48229d54f63d59e9f8e4209f11a6d9f3e926ccc3d5179f941071dc7",
+        "pdfPage": 13,
+        "embeddedImageIndex": 1,
+        "embeddedImageName": "Im0.jp2",
+        "visualMatchNote": "Official Semados SCX 3.25 mm family image; the adjacent table lists REF 58263 for diameter 3.25 mm, length 13 mm.",
+        "outputImageSha256": "d3b1f7084b9a7d87c929bd31d36c88260d157a03e899caef2ef5d82348b39ad0",
+        "bytes": 195013,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "BEGO-58276",
+      "brand": "BEGO",
+      "manufacturer": "BEGO GmbH & Co. KG",
+      "name": "BEGO Semados® SCX",
+      "manufacturerRef": "58276",
+      "manufacturerRefs": "58276",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "58276",
+          "label": "BEGO Semados® SCX",
+          "barcode": "",
+          "sourceVariantId": "44342388588808",
+          "variantLabel": "BEGO Semados® SCX",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Implantology",
+      "description": "Implantat",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-58276-dba012ad7e.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-58276-dba012ad7e.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+      "sourcePdfPages": "13",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_IMAGE_EXACT_REF_OR_FAMILY",
+        "officialPdfUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+        "officialPdfSha256": "40e027bbc48229d54f63d59e9f8e4209f11a6d9f3e926ccc3d5179f941071dc7",
+        "pdfPage": 13,
+        "embeddedImageIndex": 4,
+        "embeddedImageName": "Im3.jp2",
+        "visualMatchNote": "Official Semados SCX 4.5 mm family image; the adjacent table lists REF 58276 for diameter 4.5 mm, length 7 mm.",
+        "outputImageSha256": "dba012ad7edd20af6d73dbcd8009e41b06c96aed784bbc96e5b8d50978774c41",
+        "bytes": 230198,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "BEGO-58885",
+      "brand": "BEGO",
+      "manufacturer": "BEGO GmbH & Co. KG",
+      "name": "BEGO Semados® RSXPro",
+      "manufacturerRef": "58885",
+      "manufacturerRefs": "58885",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "58885",
+          "label": "BEGO Semados® RSXPro",
+          "barcode": "",
+          "sourceVariantId": "44350534025480",
+          "variantLabel": "BEGO Semados® RSXPro",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Implantology",
+      "description": "Implantat",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-58885-e80eb35d95.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-58885-e80eb35d95.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+      "sourcePdfPages": "14",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_IMAGE_EXACT_REF_OR_FAMILY",
+        "officialPdfUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+        "officialPdfSha256": "40e027bbc48229d54f63d59e9f8e4209f11a6d9f3e926ccc3d5179f941071dc7",
+        "pdfPage": 14,
+        "embeddedImageIndex": 2,
+        "embeddedImageName": "Im10.jpg",
+        "visualMatchNote": "Official Semados RSXPro 5.5 mm family image; the adjacent table lists REF 58885 for diameter 5.5 mm, length 10 mm.",
+        "outputImageSha256": "e80eb35d95980227c19088f437c49e858985205e11e095d94109aa7fb61bde31",
+        "bytes": 262760,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "BEGO-57720",
+      "brand": "BEGO",
+      "manufacturer": "BEGO GmbH & Co. KG",
+      "name": "BEGO Semados® RI",
+      "manufacturerRef": "57720",
+      "manufacturerRefs": "57720",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "57720",
+          "label": "BEGO Semados® RI",
+          "barcode": "",
+          "sourceVariantId": "44350860296456",
+          "variantLabel": "BEGO Semados® RI",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Implantology",
+      "description": "Implantat",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-57720-81c6547d8b.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-57720-81c6547d8b.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+      "sourcePdfPages": "15",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_IMAGE_EXACT_REF_OR_FAMILY",
+        "officialPdfUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+        "officialPdfSha256": "40e027bbc48229d54f63d59e9f8e4209f11a6d9f3e926ccc3d5179f941071dc7",
+        "pdfPage": 15,
+        "embeddedImageIndex": 3,
+        "embeddedImageName": "Im2.jp2",
+        "visualMatchNote": "Official Semados RI 4.1 mm family image; the adjacent table lists REF 57720 for diameter 4.1 mm, length 11.5 mm.",
+        "outputImageSha256": "81c6547d8bf57bc37c61221f8c706c50ee6a5b5879d21caa157d8cd7f3ba3224",
+        "bytes": 191010,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "BEGO-57817",
+      "brand": "BEGO",
+      "manufacturer": "BEGO GmbH & Co. KG",
+      "name": "PS HPW",
+      "manufacturerRef": "57817",
+      "manufacturerRefs": "57817",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "57817",
+          "label": "PS HPW",
+          "barcode": "",
+          "sourceVariantId": "44619620614408",
+          "variantLabel": "PS HPW",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Implantology",
+      "description": "Abheilpfosten",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-57817-995d287be3.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-57817-995d287be3.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+      "sourcePdfPages": "17",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_IMAGE_EXACT_REF_OR_FAMILY",
+        "officialPdfUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+        "officialPdfSha256": "40e027bbc48229d54f63d59e9f8e4209f11a6d9f3e926ccc3d5179f941071dc7",
+        "pdfPage": 17,
+        "embeddedImageIndex": 5,
+        "embeddedImageName": "Im4.jp2",
+        "visualMatchNote": "Official PS HPW image aligned with the 4.5 mm compatibility group; the table lists REF 57817, diameter 6.5 mm, length 3 mm.",
+        "outputImageSha256": "995d287be362827a4d0b2cad9d4dbf6e9b757e240855705cdbbfb94c663bb618",
+        "bytes": 122687,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "BEGO-60512",
+      "brand": "BEGO",
+      "manufacturer": "BEGO GmbH & Co. KG",
+      "name": "ABUTMENT FINISHING HANDLE",
+      "manufacturerRef": "60512",
+      "manufacturerRefs": "60512",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "60512",
+          "label": "ABUTMENT FINISHING HANDLE",
+          "barcode": "",
+          "sourceVariantId": "53436385558792",
+          "variantLabel": "ABUTMENT FINISHING HANDLE",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Implantology",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-60512-5dc35dc6f9.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-60512-5dc35dc6f9.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+      "sourcePdfPages": "28",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_IMAGE_EXACT_REF_OR_FAMILY",
+        "officialPdfUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+        "officialPdfSha256": "40e027bbc48229d54f63d59e9f8e4209f11a6d9f3e926ccc3d5179f941071dc7",
+        "pdfPage": 28,
+        "embeddedImageIndex": 27,
+        "embeddedImageName": "Im8.jp2",
+        "visualMatchNote": "Official BEGO Abutment Finishing Handle image directly beside the REF 60512 row.",
+        "outputImageSha256": "5dc35dc6f9b9af3072125d7f38b029d334384f4b3e7e6b63ec7aa58a420e6df5",
+        "bytes": 135465,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "BEGO-60513",
+      "brand": "BEGO",
+      "manufacturer": "BEGO GmbH & Co. KG",
+      "name": "IMPLANT ANALOG ABUTMENT FINISHING HANDLE",
+      "manufacturerRef": "60513",
+      "manufacturerRefs": "60513",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "60513",
+          "label": "IMPLANT ANALOG ABUTMENT FINISHING HANDLE",
+          "barcode": "",
+          "sourceVariantId": "53437506289928",
+          "variantLabel": "IMPLANT ANALOG ABUTMENT FINISHING HANDLE",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Implantology",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-60513-3ae7a2fd87.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-bego-60513-3ae7a2fd87.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+      "sourcePdfPages": "28",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_IMAGE_EXACT_REF_OR_FAMILY",
+        "officialPdfUrl": "https://www.bego.com/fileadmin/user_downloads/Mediathek/Implants/Std_Downloads_global_en/Implants-Katalog_imp_82472_20_br_en_screen.pdf",
+        "officialPdfSha256": "40e027bbc48229d54f63d59e9f8e4209f11a6d9f3e926ccc3d5179f941071dc7",
+        "pdfPage": 28,
+        "embeddedImageIndex": 28,
+        "embeddedImageName": "Im9.jp2",
+        "visualMatchNote": "Official replacement model analog image directly beside the REF 60513 row.",
+        "outputImageSha256": "3ae7a2fd87175ce7ab614f17562565f1bc6f20d998f532510751dbfdac098a0d",
+        "bytes": 68003,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    }
+  ]
+}

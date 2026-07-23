@@ -1,0 +1,1567 @@
+{
+  "generatedAt": "2026-07-23T12:15:18.950Z",
+  "totals": {
+    "htmlTargets": 98,
+    "recovered": 40,
+    "recoveredThisRun": 0,
+    "retainedFromPreviousRuns": 40,
+    "review": 97,
+    "errors": 1
+  },
+  "review": [
+    {
+      "canonicalProductId": "CANON-КОРМЕД-02-11",
+      "brand": "Кормед",
+      "name": "02.11 - Гель фторирующий",
+      "sourcePageUrl": "https://cormed.ru/products/gel/02_11/",
+      "pageIdentityMatches": [
+        "02 11"
+      ],
+      "bestCandidate": {
+        "url": "https://cormed.ru/images/themes/default/r.jpg",
+        "score": 135,
+        "kind": "embedded-url",
+        "matches": [
+          "02 11"
+        ],
+        "urlMatches": [],
+        "evidence": "roducts/\">���������</a> > <a href=\"https://cormed.ru/products/gel/\">�����, ����, ��������</a> <img src=\"https://cormed.ru/images/themes/default/r.jpg\"> </div> <h1>02.11 - ���� �����������</h1>"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-BEGO-58885",
+      "brand": "BEGO",
+      "name": "BEGO Semados® RSXPro",
+      "sourcePageUrl": "https://eshop.bego.com/en/products/imp_58885",
+      "pageIdentityMatches": [
+        "semados",
+        "58885"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "> <meta property=\"og:image\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:secure_url\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:width\" content=\"1200\" /> <meta property=\"og:image:height\" content=\"628\" /> <link href=\"https://monorail-edge.shopifysvc.co"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-BEGO-60512",
+      "brand": "BEGO",
+      "name": "ABUTMENT FINISHING HANDLE",
+      "sourcePageUrl": "https://eshop.bego.com/en/products/imp_60512",
+      "pageIdentityMatches": [
+        "abutment",
+        "finishing",
+        "handle",
+        "60512"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "> <meta property=\"og:image\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:secure_url\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:width\" content=\"1200\" /> <meta property=\"og:image:height\" content=\"628\" /> <link href=\"https://monorail-edge.shopifysvc.co"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-BEGO-57720",
+      "brand": "BEGO",
+      "name": "BEGO Semados® RI",
+      "sourcePageUrl": "https://eshop.bego.com/en/products/imp_57720",
+      "pageIdentityMatches": [
+        "semados",
+        "57720"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200",
+        "score": 40,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "> <meta property=\"og:image\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:secure_url\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:width\" content=\"1200\" /> <meta property=\"og:image:height\" content=\"628\" /> <link href=\"https://monorail-edge.shopifysvc.co"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-BEGO-58624",
+      "brand": "BEGO",
+      "name": "Anchor Pins Paltop L25",
+      "sourcePageUrl": "https://eshop.bego.com/en/products/imp_58624",
+      "pageIdentityMatches": [
+        "anchor",
+        "pins",
+        "paltop",
+        "58624"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "> <meta property=\"og:image\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:secure_url\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:width\" content=\"1200\" /> <meta property=\"og:image:height\" content=\"628\" /> <link href=\"https://monorail-edge.shopifysvc.co"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-BEGO-58276",
+      "brand": "BEGO",
+      "name": "BEGO Semados® SCX",
+      "sourcePageUrl": "https://eshop.bego.com/en/products/imp_58276",
+      "pageIdentityMatches": [
+        "semados",
+        "58276"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "> <meta property=\"og:image\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:secure_url\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:width\" content=\"1200\" /> <meta property=\"og:image:height\" content=\"628\" /> <link href=\"https://monorail-edge.shopifysvc.co"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-BEGO-58623",
+      "brand": "BEGO",
+      "name": "Anchor Pins Paltop L20",
+      "sourcePageUrl": "https://eshop.bego.com/en/products/imp_58623",
+      "pageIdentityMatches": [
+        "anchor",
+        "pins",
+        "paltop",
+        "58623"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "> <meta property=\"og:image\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:secure_url\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:width\" content=\"1200\" /> <meta property=\"og:image:height\" content=\"628\" /> <link href=\"https://monorail-edge.shopifysvc.co"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-BEGO-58263",
+      "brand": "BEGO",
+      "name": "BEGO Semados® SCX",
+      "sourcePageUrl": "https://eshop.bego.com/en/products/imp_58263",
+      "pageIdentityMatches": [
+        "semados",
+        "58263"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "> <meta property=\"og:image\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:secure_url\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:width\" content=\"1200\" /> <meta property=\"og:image:height\" content=\"628\" /> <link href=\"https://monorail-edge.shopifysvc.co"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-BEGO-58503",
+      "brand": "BEGO",
+      "name": "naturesQue SemOss B",
+      "sourcePageUrl": "https://eshop.bego.com/en/products/imp_58503",
+      "pageIdentityMatches": [
+        "naturesque",
+        "semoss",
+        "58503"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "> <meta property=\"og:image\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:secure_url\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:width\" content=\"1200\" /> <meta property=\"og:image:height\" content=\"628\" /> <link href=\"https://monorail-edge.shopifysvc.co"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-BEGO-57817",
+      "brand": "BEGO",
+      "name": "PS HPW",
+      "sourcePageUrl": "https://eshop.bego.com/en/products/imp_57817",
+      "pageIdentityMatches": [
+        "57817"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200",
+        "score": 40,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "> <meta property=\"og:image\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:secure_url\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:width\" content=\"1200\" /> <meta property=\"og:image:height\" content=\"628\" /> <link href=\"https://monorail-edge.shopifysvc.co"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-BEGO-60513",
+      "brand": "BEGO",
+      "name": "IMPLANT ANALOG ABUTMENT FINISHING HANDLE",
+      "sourcePageUrl": "https://eshop.bego.com/en/products/imp_60513",
+      "pageIdentityMatches": [
+        "implant",
+        "analog",
+        "abutment",
+        "finishing",
+        "handle",
+        "60513"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "> <meta property=\"og:image\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:secure_url\" content=\"https://cdn.shopify.com/s/files/1/0549/9410/8458/files/MicrosoftTeams-image_4.png?height=628&pad_color=fff&v=1655372142&width=1200\" /> <meta property=\"og:image:width\" content=\"1200\" /> <meta property=\"og:image:height\" content=\"628\" /> <link href=\"https://monorail-edge.shopifysvc.co"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-C-28",
+      "brand": "Castellini",
+      "name": "C-28",
+      "sourcePageUrl": "https://www.castellini.com/en/sterilisation/autoclaves",
+      "pageIdentityMatches": [],
+      "bestCandidate": {
+        "url": "https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM2.jpg",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "<div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM.jpg\"> </div> <div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM2.jpg\"> </div> <div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM3.jpg\"> </div> <div class="
+      },
+      "reason": "SOURCE_PAGE_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-C-17",
+      "brand": "Castellini",
+      "name": "C-17",
+      "sourcePageUrl": "https://www.castellini.com/en/sterilisation/autoclaves",
+      "pageIdentityMatches": [],
+      "bestCandidate": {
+        "url": "https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM2.jpg",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "<div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM.jpg\"> </div> <div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM2.jpg\"> </div> <div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM3.jpg\"> </div> <div class="
+      },
+      "reason": "SOURCE_PAGE_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-C7-STOOL",
+      "brand": "Castellini",
+      "name": "C7 Stool",
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/stools",
+      "pageIdentityMatches": [
+        "stool"
+      ],
+      "bestCandidate": {
+        "url": "https://www.castellini.com/hs-fs/hubfs/Castellini%202025/images/CA_STOOLS_27.8.2024%203.jpg?width=6000&name=CA_STOOLS_27.8.2024%203.jpg",
+        "score": 55,
+        "kind": "embedded-url",
+        "matches": [
+          "stool"
+        ],
+        "urlMatches": [
+          "stool"
+        ],
+        "evidence": "27.8.2024%203.jpg?width=4000&name=CA_STOOLS_27.8.2024%203.jpg 4000w, https://www.castellini.com/hs-fs/hubfs/Castellini%202025/images/CA_STOOLS_27.8.2024%203.jpg?width=5000&name=CA_STOOLS_27.8.2024%203.jpg 5000w, https://www.castellini.com/hs-fs/hubfs/Castellini%202025/images/CA_STOOLS_27.8.2024%203.jpg?width=6000&name=CA_STOOLS_27.8.2024%203.jpg 6000w\" sizes=\"(max-width: 2000px) 100vw, 2000px\"> </div> <div class=\"accordion-products-module__items mb-sm\"> <details>"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-C9-STOOL",
+      "brand": "Castellini",
+      "name": "C9 Stool",
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/stools",
+      "pageIdentityMatches": [
+        "stool"
+      ],
+      "bestCandidate": {
+        "url": "https://www.castellini.com/hs-fs/hubfs/Castellini%202025/images/CA_STOOLS_27.8.2024%203.jpg?width=6000&name=CA_STOOLS_27.8.2024%203.jpg",
+        "score": 55,
+        "kind": "embedded-url",
+        "matches": [
+          "stool"
+        ],
+        "urlMatches": [
+          "stool"
+        ],
+        "evidence": "27.8.2024%203.jpg?width=4000&name=CA_STOOLS_27.8.2024%203.jpg 4000w, https://www.castellini.com/hs-fs/hubfs/Castellini%202025/images/CA_STOOLS_27.8.2024%203.jpg?width=5000&name=CA_STOOLS_27.8.2024%203.jpg 5000w, https://www.castellini.com/hs-fs/hubfs/Castellini%202025/images/CA_STOOLS_27.8.2024%203.jpg?width=6000&name=CA_STOOLS_27.8.2024%203.jpg 6000w\" sizes=\"(max-width: 2000px) 100vw, 2000px\"> </div> <div class=\"accordion-products-module__items mb-sm\"> <details>"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-DAILY-OIL-PLUS",
+      "brand": "Castellini",
+      "name": "DAILY OIL PLUS",
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/disinfectants-and-lubricants",
+      "pageIdentityMatches": [],
+      "bestCandidate": {
+        "url": "https://www.castellini.com/hubfs/CASTELLINI/Images/ster1plus.jpg",
+        "score": 40,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "surfaces, even delicate items, thanks to a balanced formula with low alcohol content (40%).</p> <p></p> </div> <div class=\"col-10 col-5-lg d-flex flex-row gap-0\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/ster1plus.jpg\" alt=\"ster1plus\"> </div> </div> <div class=\"d-flex flex-wrap gap-3 mt-3\"> </div> </div> </div></div> </div><!--end widget-span --> </div><!--end row--> </div><!-"
+      },
+      "reason": "SOURCE_PAGE_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-C-22",
+      "brand": "Castellini",
+      "name": "C-22",
+      "sourcePageUrl": "https://www.castellini.com/en/sterilisation/autoclaves",
+      "pageIdentityMatches": [],
+      "bestCandidate": {
+        "url": "https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM2.jpg",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "<div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM.jpg\"> </div> <div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM2.jpg\"> </div> <div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/PLATINUM3.jpg\"> </div> <div class="
+      },
+      "reason": "SOURCE_PAGE_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-M-W-B",
+      "brand": "Castellini",
+      "name": "M.W.B.",
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/autosteril-and-mwb",
+      "pageIdentityMatches": [
+        "m w b"
+      ],
+      "bestCandidate": {
+        "url": "https://www.castellini.com/hubfs/CASTELLINI/Images/AUTOSTERIL%20(1).jpg",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "</p> <p>• Liquid expelled with compressed air;</p> <p>• (Mains or distilled) water flushing.</p> <p></p> </div> <div class=\"col-10 col-5-lg d-flex flex-row gap-0\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/AUTOSTERIL%20(1).jpg\" alt=\"AUTOSTERIL\"> </div> </div> <div class=\"d-flex flex-wrap gap-3 mt-3\"> </div> </div> </div></div> </div><!--end widget-span --> </div><!--end row--> </div><!"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-PEROXY-AG",
+      "brand": "Castellini",
+      "name": "PEROXY Ag+",
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/disinfectants-and-lubricants",
+      "pageIdentityMatches": [],
+      "bestCandidate": {
+        "url": "https://www.castellini.com/hubfs/CASTELLINI/Images/ster1plus.jpg",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "surfaces, even delicate items, thanks to a balanced formula with low alcohol content (40%).</p> <p></p> </div> <div class=\"col-10 col-5-lg d-flex flex-row gap-0\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/ster1plus.jpg\" alt=\"ster1plus\"> </div> </div> <div class=\"d-flex flex-wrap gap-3 mt-3\"> </div> </div> </div></div> </div><!--end widget-span --> </div><!--end row--> </div><!-"
+      },
+      "reason": "SOURCE_PAGE_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-X-RADIUS-TRIO-PLUS-FULLVIEW",
+      "brand": "Castellini",
+      "name": "X-RADiUS TRiO PLUS FullView",
+      "sourcePageUrl": "https://www.castellini.com/en/extraoral-devices",
+      "pageIdentityMatches": [],
+      "bestCandidate": {
+        "url": "https://www.castellini.com/hubfs/CASTELLINI/Images/EOS%202.jpg",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "<div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/EOS.jpg\"> </div> <div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/EOS%202.jpg\"> </div> </div> </div> </div> </div> <div class=\"d-flex flex-wrap gap-3 mt-3\"> <div class=\"col-10 col-5-md col-3_3-lg b"
+      },
+      "reason": "SOURCE_PAGE_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-DS-PRIMETAPER",
+      "brand": "Dentsply Sirona",
+      "name": "Shop DS PrimeTaper dental products online",
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/ds-primetaper.html",
+      "pageIdentityMatches": [
+        "shop",
+        "primetaper"
+      ],
+      "bestCandidate": {
+        "url": "https://s7d1.scene7.com/is/image/dentsply/dentistry?ts=1747122259943&dpr=off",
+        "score": 40,
+        "kind": "src",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "cmp-image__image 67,&#34;client&#34;:0.915,&#34;man&#34;:1.0,&#34;clinic&#34;:0.782,&#34;injury&#34;:0.754,&#34;massage&#34;:0.759,&#34;stethoscope&#34;:0.941,&#34;vaccination&#34;:0.819,&#34;kneeling&#34;:0.759}}}}\" class=\"cmp-image\" itemscope itemtype=\"http://schema.org/ImageObject\"> <noscript data-cmp-hook-image=\"noscript\"> <img src=\"https://s7d1.scene7.com/is/image/dentsply/dentistry?ts=1747122259943&dpr=off\" class=\"cmp-image__image\" itemprop=\"contentUrl\" data-cmp-hook-image=\"image\" alt/> </"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-X-RADIUS-TRIO-PLUS",
+      "brand": "Castellini",
+      "name": "X-RADiUS TRiO PLUS",
+      "sourcePageUrl": "https://www.castellini.com/en/extraoral-devices",
+      "pageIdentityMatches": [],
+      "bestCandidate": {
+        "url": "https://www.castellini.com/hubfs/CASTELLINI/Images/EOS%202.jpg",
+        "score": 0,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "<div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/EOS.jpg\"> </div> <div class=\"swiper-slide\"> <img src=\"https://www.castellini.com/hubfs/CASTELLINI/Images/EOS%202.jpg\"> </div> </div> </div> </div> </div> <div class=\"d-flex flex-wrap gap-3 mt-3\"> <div class=\"col-10 col-5-md col-3_3-lg b"
+      },
+      "reason": "SOURCE_PAGE_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-X-VS-E",
+      "brand": "Castellini",
+      "name": "X-VS E",
+      "sourcePageUrl": "https://www.castellini.com/en/imaging/sensors",
+      "pageIdentityMatches": [],
+      "bestCandidate": null,
+      "reason": "SOURCE_PAGE_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-X-VS",
+      "brand": "Castellini",
+      "name": "X-VS",
+      "sourcePageUrl": "https://www.castellini.com/en/imaging/sensors",
+      "pageIdentityMatches": [],
+      "bestCandidate": null,
+      "reason": "SOURCE_PAGE_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-ENERGO",
+      "brand": "Dentsply Sirona",
+      "name": "Electric Handpieces | Straight & Contra-Angle",
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/instruments/brands/energo-.html",
+      "pageIdentityMatches": [],
+      "bestCandidate": {
+        "url": "https://www.dentsplysirona.com/en-us/discover/discover-by-category/instruments/electric-handpieces/_jcr_content/root/container/layoutcard_1271626930/image.coreimg.png/1782307457107/ins-image-product-t1-line-hand.png",
+        "score": 80,
+        "kind": "src",
+        "matches": [
+          "electric",
+          "handpieces"
+        ],
+        "urlMatches": [
+          "electric",
+          "handpieces"
+        ],
+        "evidence": "cmp-image__image 965,&#34;science&#34;:0.829,&#34;nerve&#34;:0.805,&#34;filler&#34;:0.899,&#34;pen&#34;:0.894,&#34;crease&#34;:0.834,&#34;tutorial&#34;:0.803,&#34;injection&#34;:0.928,&#34;vaccination&#34;:0.899}}}}\" class=\"cmp-image\" itemscope itemtype=\"http://schema.org/ImageObject\"> <noscript data-cmp-hook-image=\"noscript\"> <img src=\"/en-us/discover/discover-by-category/instruments/electric-handpieces/_jcr_content/root/container/layoutcard_1271626930/image.coreimg.png/1782307457107/ins-image-"
+      },
+      "reason": "SOURCE_PAGE_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-CASTELLINI-CASTELLINI-HMD-ACCESSORY",
+      "brand": "Castellini",
+      "name": "HMD accessory",
+      "sourcePageUrl": "https://www.castellini.com/en/sterilisation/thermodisinfectors",
+      "pageIdentityMatches": [],
+      "bestCandidate": null,
+      "reason": "SOURCE_PAGE_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-FALCON-OC-451-020",
+      "brand": "Falcon",
+      "name": "Chisel bone Móczár 2mm/150mm",
+      "sourcePageUrl": "https://falconmedical.pl/en/product/chisel-bone-moczar-2mm-150mm/",
+      "pageIdentityMatches": [
+        "chisel",
+        "bone",
+        "150mm"
+      ],
+      "bestCandidate": {
+        "url": "https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-100x100.jpg",
+        "score": 35,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "zeszczot-0.12x-5-mm-300x300.jpg 300w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-150x150.jpg 150w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-500x500.jpg 500w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-100x100.jpg 100w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm.jpg 750w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></div><div class=\"product-tease__texts\"><h2 class=\"product"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-FALCON-DH-2100-06",
+      "brand": "Falcon",
+      "name": "Szczoteczka dla dzieci świecąca Billy żółta z misiem",
+      "sourcePageUrl": "https://falconmedical.pl/en/product/szczoteczka-dla-dzieci-swiecaca-billy-zolta-z-misiem-2/",
+      "pageIdentityMatches": [
+        "szczoteczka",
+        "dzieci",
+        "wieca",
+        "billy",
+        "misiem"
+      ],
+      "bestCandidate": {
+        "url": "https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm.jpg",
+        "score": 35,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "zeszczot-0.12x-5-mm-150x150.jpg 150w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-500x500.jpg 500w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-100x100.jpg 100w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm.jpg 750w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div><div class=\"product-tease__texts\"><h2 class=\"product-tease__title\">Blade 0.12 x 5 mm</h2><div class=\"product-tease__category\"> Index: DL.655.031</div"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-FALCON-BF-090-250",
+      "brand": "Falcon",
+      "name": "Forceps dressing Ulrich straight 250mm",
+      "sourcePageUrl": "https://falconmedical.pl/en/product/forceps-dressing-ulrich-straight-250mm/",
+      "pageIdentityMatches": [
+        "forceps",
+        "dressing",
+        "ulrich",
+        "straight",
+        "250mm"
+      ],
+      "bestCandidate": {
+        "url": "https://falconmedical.pl/app/uploads/2025/10/ds901122.jpg",
+        "score": 55,
+        "kind": "embedded-url",
+        "matches": [
+          "straight"
+        ],
+        "urlMatches": [],
+        "evidence": "0w, https://falconmedical.pl/app/uploads/2025/10/ds901122-150x150.jpg 150w, https://falconmedical.pl/app/uploads/2025/10/ds901122-500x500.jpg 500w, https://falconmedical.pl/app/uploads/2025/10/ds901122-100x100.jpg 100w, https://falconmedical.pl/app/uploads/2025/10/ds901122.jpg 750w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></div><div class=\"product-tease__texts\"><h2 class=\"product-tease__title\">Ergo-Form Sinus osteotome with stop concave straight 2.2mm (Red)</h2><div class=\"product-tea"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-FALCON-BS-477-260",
+      "brand": "Falcon",
+      "name": "Scissors Metzenbaum-Nelson curved 260mm one blade serrated",
+      "sourcePageUrl": "https://falconmedical.pl/en/product/scissors-metzenbaum-nelson-curved-260mm-one-blade-serrated/",
+      "pageIdentityMatches": [
+        "scissors",
+        "metzenbaum",
+        "nelson",
+        "curved",
+        "260mm",
+        "blade",
+        "serrated"
+      ],
+      "bestCandidate": {
+        "url": "https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-100x100.jpg",
+        "score": 55,
+        "kind": "embedded-url",
+        "matches": [
+          "blade"
+        ],
+        "urlMatches": [],
+        "evidence": "zeszczot-0.12x-5-mm-300x300.jpg 300w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-150x150.jpg 150w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-500x500.jpg 500w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-100x100.jpg 100w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm.jpg 750w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></div><div class=\"product-tease__texts\"><h2 class=\"product"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-FALCON-DH-2100-05",
+      "brand": "Falcon",
+      "name": "Szczoteczka dla dzieci świecąca Pippa czerwona z psem",
+      "sourcePageUrl": "https://falconmedical.pl/en/product/szczoteczka-dla-dzieci-swiecaca-pippa-czerwona-z-psem-2/",
+      "pageIdentityMatches": [
+        "szczoteczka",
+        "dzieci",
+        "wieca",
+        "pippa",
+        "czerwona",
+        "psem"
+      ],
+      "bestCandidate": {
+        "url": "https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm.jpg",
+        "score": 35,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "zeszczot-0.12x-5-mm-150x150.jpg 150w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-500x500.jpg 500w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-100x100.jpg 100w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm.jpg 750w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div><div class=\"product-tease__texts\"><h2 class=\"product-tease__title\">Blade 0.12 x 5 mm</h2><div class=\"product-tease__category\"> Index: DL.655.031</div"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-FALCON-DR-555-001",
+      "brand": "Falcon",
+      "name": "Tip only for crown remover DR.555.000/DR.556.000",
+      "sourcePageUrl": "https://falconmedical.pl/en/product/tip-only-for-crown-remover-dr-555-000-dr-556-000/",
+      "pageIdentityMatches": [
+        "only",
+        "crown",
+        "remover",
+        "dr 555 000 dr 556 000"
+      ],
+      "bestCandidate": {
+        "url": "https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-100x100.jpg",
+        "score": 35,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "zeszczot-0.12x-5-mm-300x300.jpg 300w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-150x150.jpg 150w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-500x500.jpg 500w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-100x100.jpg 100w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm.jpg 750w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></div><div class=\"product-tease__texts\"><h2 class=\"product"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-FALCON-DR-555-002",
+      "brand": "Falcon",
+      "name": "Tip only for crown remover DR.555.000/DR.556.000",
+      "sourcePageUrl": "https://falconmedical.pl/en/product/tip-only-for-crown-remover-dr-555-000-dr-556-000-2/",
+      "pageIdentityMatches": [
+        "only",
+        "crown",
+        "remover",
+        "dr 555 000 dr 556 000"
+      ],
+      "bestCandidate": {
+        "url": "https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-100x100.jpg",
+        "score": 35,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "zeszczot-0.12x-5-mm-300x300.jpg 300w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-150x150.jpg 150w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-500x500.jpg 500w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-100x100.jpg 100w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm.jpg 750w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></div><div class=\"product-tease__texts\"><h2 class=\"product"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-GOODNDOC-DENTI-KZ-GOODNDOC-19735",
+      "brand": "GoodnDoc",
+      "name": "Тонизирующий крем для лица Matcha Milk Exosome",
+      "sourcePageUrl": "https://denti.kz/orders/blank_zakaza/individualnyy-ukhod/kosmetika/toniziruyushchiy-krem-dlya-litsa-matcha-milk-exosome/",
+      "pageIdentityMatches": [
+        "тонизирующии",
+        "крем",
+        "лица",
+        "matcha",
+        "milk",
+        "exosome"
+      ],
+      "bestCandidate": {
+        "url": "https://denti.kz/upload/dev2fun.imagecompress/webp/local/templates/b2bcabinet_v2.0/images/no_photo.webp",
+        "score": 40,
+        "kind": "src",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "pdetail_picture__slider__item__img r__item__img\" src=\"\"> </a> --> <!-- <a href=\"\" class=\"swiper-slide pdetail_picture__slider__item\" data-fancybox=\"gallery2\"> <img class=\"pdetail_picture__slider__item__img\" src=\"\"> </a> --> <!-- </div> --> <!-- </div> --> <div class=\"pdetail_picture__single\" data-fancybox=\"gallery2\"> <img class=\"pdetail_picture__slider__item__img\" src=\"/upload/dev2fun.imagecompress/webp/local/templates/b2bcabinet_v2.0/images/no_photo.webp\"> </div> </div> <!-- <section class=\"pro"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-FALCON-DH-2100-04",
+      "brand": "Falcon",
+      "name": "Szczoteczka dla dzieci świecąca Poppy purpurowa z pingwinem",
+      "sourcePageUrl": "https://falconmedical.pl/en/product/szczoteczka-dla-dzieci-swiecaca-poppy-purpurowa-z-pingwinem-2/",
+      "pageIdentityMatches": [
+        "szczoteczka",
+        "dzieci",
+        "wieca",
+        "poppy",
+        "purpurowa",
+        "pingwinem"
+      ],
+      "bestCandidate": {
+        "url": "https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm.jpg",
+        "score": 35,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "zeszczot-0.12x-5-mm-150x150.jpg 150w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-500x500.jpg 500w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm-100x100.jpg 100w, https://falconmedical.pl/app/uploads/2021/10/28382-Brzeszczot-0.12x-5-mm.jpg 750w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div><div class=\"product-tease__texts\"><h2 class=\"product-tease__title\">Blade 0.12 x 5 mm</h2><div class=\"product-tease__category\"> Index: DL.655.031</div"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-GOODNDOC-DENTI-KZ-GOODNDOC-19740",
+      "brand": "GoodnDoc",
+      "name": "Увлажняющий крем с PDRN и экстрактом алоэ вера",
+      "sourcePageUrl": "https://denti.kz/orders/blank_zakaza/individualnyy-ukhod/kosmetika/uvlazhnyayushchiy-krem-s-pdrn-i-ekstraktom-aloe-vera/",
+      "pageIdentityMatches": [
+        "увлажняющии",
+        "крем",
+        "pdrn",
+        "экстрактом",
+        "алоэ",
+        "вера"
+      ],
+      "bestCandidate": {
+        "url": "https://denti.kz/upload/dev2fun.imagecompress/webp/local/templates/b2bcabinet_v2.0/images/no_photo.webp",
+        "score": 40,
+        "kind": "src",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "pdetail_picture__slider__item__img r__item__img\" src=\"\"> </a> --> <!-- <a href=\"\" class=\"swiper-slide pdetail_picture__slider__item\" data-fancybox=\"gallery2\"> <img class=\"pdetail_picture__slider__item__img\" src=\"\"> </a> --> <!-- </div> --> <!-- </div> --> <div class=\"pdetail_picture__single\" data-fancybox=\"gallery2\"> <img class=\"pdetail_picture__slider__item__img\" src=\"/upload/dev2fun.imagecompress/webp/local/templates/b2bcabinet_v2.0/images/no_photo.webp\"> </div> </div> <!-- <section class=\"pro"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-GOODNDOC-DENTI-KZ-GOODNDOC-19736",
+      "brand": "GoodnDoc",
+      "name": "Восстанавливающий набор Blue Complex (Bluebottle)",
+      "sourcePageUrl": "https://denti.kz/orders/blank_zakaza/individualnyy-ukhod/kosmetika/vosstanavlivayushchiy-nabor-blue-complex-bluebottle/",
+      "pageIdentityMatches": [
+        "восстанавливающии",
+        "blue",
+        "complex",
+        "bluebottle"
+      ],
+      "bestCandidate": {
+        "url": "https://denti.kz/upload/dev2fun.imagecompress/webp/local/templates/b2bcabinet_v2.0/images/no_photo.webp",
+        "score": 40,
+        "kind": "src",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "pdetail_picture__slider__item__img r__item__img\" src=\"\"> </a> --> <!-- <a href=\"\" class=\"swiper-slide pdetail_picture__slider__item\" data-fancybox=\"gallery2\"> <img class=\"pdetail_picture__slider__item__img\" src=\"\"> </a> --> <!-- </div> --> <!-- </div> --> <div class=\"pdetail_picture__single\" data-fancybox=\"gallery2\"> <img class=\"pdetail_picture__slider__item__img\" src=\"/upload/dev2fun.imagecompress/webp/local/templates/b2bcabinet_v2.0/images/no_photo.webp\"> </div> </div> <!-- <section class=\"pro"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-GOODNDOC-DENTI-KZ-GOODNDOC-19738",
+      "brand": "GoodnDoc",
+      "name": "Сыворотка с комплексом PDRN Multi-Molecule",
+      "sourcePageUrl": "https://denti.kz/orders/blank_zakaza/individualnyy-ukhod/kosmetika/syvorotka-s-kompleksom-pdrn-multi-molecule/",
+      "pageIdentityMatches": [
+        "сыворотка",
+        "комплексом",
+        "pdrn",
+        "multi",
+        "molecule"
+      ],
+      "bestCandidate": {
+        "url": "https://denti.kz/upload/dev2fun.imagecompress/webp/local/templates/b2bcabinet_v2.0/images/no_photo.webp",
+        "score": 40,
+        "kind": "src",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "pdetail_picture__slider__item__img r__item__img\" src=\"\"> </a> --> <!-- <a href=\"\" class=\"swiper-slide pdetail_picture__slider__item\" data-fancybox=\"gallery2\"> <img class=\"pdetail_picture__slider__item__img\" src=\"\"> </a> --> <!-- </div> --> <!-- </div> --> <div class=\"pdetail_picture__single\" data-fancybox=\"gallery2\"> <img class=\"pdetail_picture__slider__item__img\" src=\"/upload/dev2fun.imagecompress/webp/local/templates/b2bcabinet_v2.0/images/no_photo.webp\"> </div> </div> <!-- <section class=\"pro"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-GOODNDOC-DENTI-KZ-GOODNDOC-19737",
+      "brand": "GoodnDoc",
+      "name": "Регенерирующий крем с EGF, CICA и экзосомами",
+      "sourcePageUrl": "https://denti.kz/orders/blank_zakaza/individualnyy-ukhod/kosmetika/regeneriruyushchiy-krem-s-egf-cica-i-ekzosomami/",
+      "pageIdentityMatches": [
+        "регенерирующии",
+        "крем",
+        "cica",
+        "экзосомами"
+      ],
+      "bestCandidate": {
+        "url": "https://denti.kz/upload/dev2fun.imagecompress/webp/local/templates/b2bcabinet_v2.0/images/no_photo.webp",
+        "score": 40,
+        "kind": "src",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "pdetail_picture__slider__item__img r__item__img\" src=\"\"> </a> --> <!-- <a href=\"\" class=\"swiper-slide pdetail_picture__slider__item\" data-fancybox=\"gallery2\"> <img class=\"pdetail_picture__slider__item__img\" src=\"\"> </a> --> <!-- </div> --> <!-- </div> --> <div class=\"pdetail_picture__single\" data-fancybox=\"gallery2\"> <img class=\"pdetail_picture__slider__item__img\" src=\"/upload/dev2fun.imagecompress/webp/local/templates/b2bcabinet_v2.0/images/no_photo.webp\"> </div> </div> <!-- <section class=\"pro"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-LM-DENTAL-LM-DENTAL-STRIPS-SANS-BANDES-BLANCHES",
+      "brand": "LM Dental",
+      "name": "Strips sans bandes blanches",
+      "sourcePageUrl": "https://lm-dental.com/products/uncategorized/strips-sans-bandes-blanches/",
+      "pageIdentityMatches": [
+        "strips",
+        "sans",
+        "bandes",
+        "blanches"
+      ],
+      "bestCandidate": {
+        "url": "https://lm-dental.com/wp-content/uploads/2016/12/Catalog-cover-0326-1-450x300.png",
+        "score": 35,
+        "kind": "embedded-url",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "ank list-none\"> <a href=\"http://publications.lm-dental.com/LM-Dental/Brochures/LM_Catalog_EN.pdf\" title=\"LM™ Product Catalog\" target=\"_blank\" class=\"image-link\"> <div class=\"material-image-container\"> <img src=\"https://lm-dental.com/wp-content/uploads/2016/12/Catalog-cover-0326-1-450x300.png\" class=\"mb-4 brochure\"> </div> </a> <span> <a href=\"http://publications.lm-dental.com/LM-Dental/Brochures/LM_Catalog_EN.pdf\" title=\"LM™ Product Catalog\" target=\"_blank\" class=\"\">LM™ Product Catalog</a> </sp"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-FALCON-DH-2510-07",
+      "brand": "Falcon",
+      "name": "Waterpik replacement tip JT-100E (2 pieces)",
+      "sourcePageUrl": "https://falconmedical.pl/en/product/waterpik-replacement-tip-jt-100e-2-pieces/",
+      "pageIdentityMatches": [
+        "waterpik",
+        "replacement",
+        "100e",
+        "pieces",
+        "jt 100e"
+      ],
+      "bestCandidate": {
+        "url": "https://falconmedical.pl/app/uploads/2022/06/20377-Zeby-akrylowe-przednie-gorne-nr-8-kolor-A1-6-szt.jpg",
+        "score": 55,
+        "kind": "embedded-url",
+        "matches": [
+          "pieces"
+        ],
+        "urlMatches": [],
+        "evidence": "dical.pl/app/uploads/2022/06/20377-Zeby-akrylowe-przednie-gorne-nr-8-kolor-A1-6-szt-500x500.jpg 500w, https://falconmedical.pl/app/uploads/2022/06/20377-Zeby-akrylowe-przednie-gorne-nr-8-kolor-A1-6-szt-100x100.jpg 100w, https://falconmedical.pl/app/uploads/2022/06/20377-Zeby-akrylowe-przednie-gorne-nr-8-kolor-A1-6-szt.jpg 750w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></div><div class=\"product-tease__texts\"><h2 class=\"product-tease__title\">Acrylic teeth upper anteriors no 8, color A1, 6 p"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-FALCON-DZ-390-000S",
+      "brand": "Falcon",
+      "name": "Tray rack with 6 plastic trays 280 x 170 x 290mm",
+      "sourcePageUrl": "https://falconmedical.pl/en/product/tray-rack-with-6-plastic-trays-280-x-170-x-290mm-2/",
+      "pageIdentityMatches": [
+        "tray",
+        "rack",
+        "with",
+        "plastic",
+        "trays",
+        "290mm"
+      ],
+      "bestCandidate": {
+        "url": "https://falconmedical.pl/app/uploads/2025/10/ds901122.jpg",
+        "score": 55,
+        "kind": "embedded-url",
+        "matches": [
+          "with"
+        ],
+        "urlMatches": [],
+        "evidence": "0w, https://falconmedical.pl/app/uploads/2025/10/ds901122-150x150.jpg 150w, https://falconmedical.pl/app/uploads/2025/10/ds901122-500x500.jpg 500w, https://falconmedical.pl/app/uploads/2025/10/ds901122-100x100.jpg 100w, https://falconmedical.pl/app/uploads/2025/10/ds901122.jpg 750w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></div><div class=\"product-tease__texts\"><h2 class=\"product-tease__title\">Ergo-Form Sinus osteotome with stop concave straight 2.2mm (Red)</h2><div class=\"product-tea"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-NIC-175",
+      "brand": "NIC",
+      "name": "Theta FILe",
+      "sourcePageUrl": "https://www.nicdental.com/product/endodontic/engine-used_files/175.html",
+      "pageIdentityMatches": [
+        "theta",
+        "file"
+      ],
+      "bestCandidate": {
+        "url": "https://www.nicdental.com/tpl/pc-en/img/99.png",
+        "score": 40,
+        "kind": "src",
+        "matches": [],
+        "urlMatches": [],
+        "evidence": "img2 <img src=\"/public/upload/image/20240514/f784159c051b1f33eb94a570ab5598de.png\" alt=\"\"> </a> </div> <div class=\"right\"> <div class=\"abox\"> <a href=\"/product.html\"> <img src=\"/tpl/pc-en/img/999.png\" class=\"img1\"> <img src=\"/tpl/pc-en/img/99.png\" class=\"img2\"> <div class=\"words\">product</div> </a> </div> <div class=\"abox\"> <a href=\"/about.htm"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RAYDENT-STUDIO",
+      "brand": "RAY",
+      "name": "RAYDENT Studio",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/3D%20Printer/RAYDENT%20Studio",
+      "pageIdentityMatches": [
+        "raydent",
+        "studio"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-OCS",
+      "brand": "RAY",
+      "name": "OCS",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Ceph/OCS",
+      "pageIdentityMatches": [],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-5D-SOLUTION",
+      "brand": "RAY",
+      "name": "5D Solution",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/5D%20Solution",
+      "pageIdentityMatches": [
+        "solution"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RAYMILL-4X",
+      "brand": "RAY",
+      "name": "RAYMill 4X",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Milling%20Machine/RAYMill%204X",
+      "pageIdentityMatches": [
+        "raymill"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-5D-SW",
+      "brand": "RAY",
+      "name": "5D SW",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Software/5D%20SW",
+      "pageIdentityMatches": [],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RAYDENT-SW",
+      "brand": "RAY",
+      "name": "RAYDENT SW",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Software/RAYDENT%20SW",
+      "pageIdentityMatches": [
+        "raydent"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RAYFACE200",
+      "brand": "RAY",
+      "name": "RAYFace200",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Face%20Scanner/RAYFace200",
+      "pageIdentityMatches": [
+        "rayface200"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RAYMILL-C",
+      "brand": "RAY",
+      "name": "RAYMill C",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Milling%20Machine/RAYMill%20C",
+      "pageIdentityMatches": [
+        "raymill"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RAYPREMIERE",
+      "brand": "RAY",
+      "name": "RAYPreMiere",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYPreMiere",
+      "pageIdentityMatches": [
+        "raypremiere"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RAYQUANTUM",
+      "brand": "RAY",
+      "name": "RAYQuantum",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYQuantum",
+      "pageIdentityMatches": [
+        "rayquantum"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RAYSCAN-ALPHA-P",
+      "brand": "RAY",
+      "name": "RAYSCAN α-P",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/2D%20Panorama/RAYSCAN%20%CE%B1-P",
+      "pageIdentityMatches": [
+        "rayscan"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RAYSCAN-ALPHA-PLUS",
+      "brand": "RAY",
+      "name": "RAYSCAN α+",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYSCAN%20%CE%B1%2B",
+      "pageIdentityMatches": [
+        "rayscan"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RAYTEAMS",
+      "brand": "RAY",
+      "name": "RAYTeams",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Software/RAYTeams",
+      "pageIdentityMatches": [
+        "rayteams"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100042753",
+      "brand": "Solventum",
+      "name": "3MTM Base",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10097981/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "base"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RIOSCAN",
+      "brand": "RAY",
+      "name": "RIOScan",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Image%20Plate%20System/RIOScan",
+      "pageIdentityMatches": [
+        "rioscan"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100005185",
+      "brand": "Solventum",
+      "name": "3MTM Cable Loom Starter Button",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10180083/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "cable",
+        "loom",
+        "starter",
+        "button"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100042946",
+      "brand": "Solventum",
+      "name": "3MTM Basic Parts",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10210940/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "basic",
+        "parts"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RAYZIR-FS",
+      "brand": "RAY",
+      "name": "RAYZir FS",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Consumables/RAYZir%20FS",
+      "pageIdentityMatches": [
+        "rayzir"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000054291",
+      "brand": "Solventum",
+      "name": "3MTM ConciseTM Orthodontic Bonding System, 1930",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b00045416/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "concisetm",
+        "orthodontic",
+        "bonding",
+        "1930"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-SCAN-CEPH-I",
+      "brand": "RAY",
+      "name": "Scan ceph(i)",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Ceph/Scan%20ceph(i)",
+      "pageIdentityMatches": [
+        "scan",
+        "ceph"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RIOSENSOR",
+      "brand": "RAY",
+      "name": "RIOSensor",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Intraoral%20Sensor/RIOSensor",
+      "pageIdentityMatches": [
+        "riosensor"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000132047",
+      "brand": "Solventum",
+      "name": "3MTM Cover Charger Connector",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10157531/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "cover",
+        "charger",
+        "connector"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100075828",
+      "brand": "Solventum",
+      "name": "3MTM DeepCure Case Top",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10241462/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "deepcure",
+        "case"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100004747",
+      "brand": "Solventum",
+      "name": "3MTM Case",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b00045264/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "case"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000132025",
+      "brand": "Solventum",
+      "name": "3MTM FreeLight 2 Reflector Complete",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10157511/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "freelight",
+        "reflector",
+        "complete"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7010394707",
+      "brand": "Solventum",
+      "name": "3MTM FreeLight 2 Update Kit",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b5005118021/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "freelight",
+        "update"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000132043",
+      "brand": "Solventum",
+      "name": "3MTM Case Bottom Handpiece",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10157527/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "case",
+        "bottom",
+        "handpiece"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100004745",
+      "brand": "Solventum",
+      "name": "3MTM Handwheel",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10179718/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "handwheel"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000132013",
+      "brand": "Solventum",
+      "name": "3MTM Housing Cover",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10157500/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "housing",
+        "cover"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100212858",
+      "brand": "Solventum",
+      "name": "3MTM ImprintTM 4 GarantTM VPS Impression Material Soft Tray Body",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b5005168039/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "imprinttm",
+        "garanttm",
+        "impression",
+        "material",
+        "soft",
+        "tray",
+        "body"
+      ],
+      "bestCandidate": {
+        "url": "https://www.solventum.com/content/dam/public/language-masters/en/dsb/image/2024/imprint-4-impression-material-pdp-module-3-1-ds-rps.tif",
+        "score": 80,
+        "kind": "src",
+        "matches": [
+          "impression",
+          "material"
+        ],
+        "urlMatches": [
+          "impression",
+          "material"
+        ],
+        "evidence": "Preliminary Impression. unded-corners\"> <!-- Repeat teaser cards --> <div class=\"cmp-product-detail-4blocks__teaser\"> <div class=\"cmp-product-detail-4blocks__wrapper\"> <div class=\"cmp-product-detail-4blocks__details\"> <div class=\"cmp-product-detail-4blocks__image \"> <img src=\"/content/dam/public/language-masters/en/dsb/image/2024/imprint-4-impression-material-pdp-module-3-1-ds-rps.tif\" alt=\"Preliminary Impression.\"/> </div> <div class=\"cmp-product-detail-4blocks__content\"> <p class=\"cmp-product-"
+      },
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100004244",
+      "brand": "Solventum",
+      "name": "3MTM Mixer Shaft",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10157523/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "mixer",
+        "shaft"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100005202",
+      "brand": "Solventum",
+      "name": "3MTM Metal Detector",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10180098/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "metal",
+        "detector"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100207069",
+      "brand": "Solventum",
+      "name": "3MTM ExpressTM VPS Bite Registration Material",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b00007666/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "expresstm",
+        "bite",
+        "registration",
+        "material"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000148111",
+      "brand": "Solventum",
+      "name": "3MTM FiltekTM Supreme Ultra Shade Wheel Guide",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10171267/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "filtektm",
+        "supreme",
+        "ultra",
+        "shade",
+        "wheel",
+        "guide"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100204526",
+      "brand": "Solventum",
+      "name": "3MTM FiltekTM Universal Restorative Shade Guide, 5855SG",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b5005119014/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "filtektm",
+        "universal",
+        "restorative",
+        "shade",
+        "guide",
+        "5855sg"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100042322",
+      "brand": "Solventum",
+      "name": "3MTM Motor Unit Complete",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b5005036170/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "motor",
+        "unit",
+        "complete"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000132040",
+      "brand": "Solventum",
+      "name": "3MTM PC Board",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10157524/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "board"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000132046",
+      "brand": "Solventum",
+      "name": "3MTM PCB Module Complete Adjusted",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10157530/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "module",
+        "complete",
+        "adjusted"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100196355",
+      "brand": "Solventum",
+      "name": "3MTM PentamixTM Lite Plunger Discs",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10218017/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "pentamixtm",
+        "lite",
+        "plunger",
+        "discs"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100004746",
+      "brand": "Solventum",
+      "name": "3MTM Power Switch",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10179719/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "power",
+        "switch"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000005632",
+      "brand": "Solventum",
+      "name": "3MTM Power Cord",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b40006299/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "power",
+        "cord"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000031297",
+      "brand": "Solventum",
+      "name": "3MTM Power Supply",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10076431/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "power",
+        "supply"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100005205",
+      "brand": "Solventum",
+      "name": "3MTM Revolving Platform w/Capsule Holder",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b5005257026/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "revolving",
+        "platform",
+        "capsule",
+        "holder"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100005238",
+      "brand": "Solventum",
+      "name": "3MTM Primary Circuit Board",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b5005257027/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "primary",
+        "circuit",
+        "board"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000132021",
+      "brand": "Solventum",
+      "name": "3MTM Pressure Spring",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10157507/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "pressure",
+        "spring"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100137245",
+      "brand": "Solventum",
+      "name": "3MTM RotoMixTM Capsule Mixing Unit Spare Part Kit",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b5005297012/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "rotomixtm",
+        "capsule",
+        "mixing",
+        "unit",
+        "spare",
+        "part"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000132045",
+      "brand": "Solventum",
+      "name": "3MTM S10 Keypad",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b00034491/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "keypad"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000057066",
+      "brand": "Solventum",
+      "name": "3MTM S10 Seal Battery",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10097952/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "seal",
+        "battery"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100019035",
+      "brand": "Solventum",
+      "name": "3MTM Takeup Filter",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10190701/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "takeup",
+        "filter"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000057000",
+      "brand": "Solventum",
+      "name": "3MTM Toothed Belt",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10097891/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "toothed",
+        "belt"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100004627",
+      "brand": "Solventum",
+      "name": "3MTM Starter Switch Cap",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10179624/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "starter",
+        "switch"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7100042323",
+      "brand": "Solventum",
+      "name": "3MTM Spring Steel Sheet",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b5005236035/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "spring",
+        "steel",
+        "sheet"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-SOLVENTUM-7000132011",
+      "brand": "Solventum",
+      "name": "3MTM Touch Pad",
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b10157498/",
+      "pageIdentityMatches": [
+        "3mtm",
+        "touch"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    },
+    {
+      "canonicalProductId": "CANON-RAY-RAY-RAYSCAN-S",
+      "brand": "RAY",
+      "name": "RAYSCAN S",
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYSCAN%20S",
+      "pageIdentityMatches": [
+        "rayscan"
+      ],
+      "bestCandidate": null,
+      "reason": "IMAGE_FILENAME_IDENTITY_NOT_CONFIRMED"
+    }
+  ],
+  "errors": [
+    {
+      "canonicalProductId": "CANON-LATUS-2616",
+      "brand": "LaTus",
+      "sourcePageUrl": "https://www.latus.com.ua/en/products/orthopedic-dental-materials/algilat.html",
+      "error": "fetch failed"
+    }
+  ]
+}

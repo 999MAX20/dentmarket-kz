@@ -1,0 +1,55 @@
+{
+  "brand": "UP3D",
+  "manufacturer": "Shenzhen UP3D Tech Co., Ltd.",
+  "sourceType": "OFFICIAL_MANUFACTURER_PRODUCT_VIDEO",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialProductPageReferenceRequired": true,
+    "boundedOfficialVideoDownload": true,
+    "exactProductInterfaceFrameRequired": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 1,
+    "recovered": 1,
+    "recoveredThisRun": 1,
+    "retainedFromPreviousRuns": 0,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "UP3D-SOFTWARE-AIDESIGN",
+      "brand": "UP3D",
+      "manufacturer": "Shenzhen UP3D Tech Co., Ltd.",
+      "name": "AI Design",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AI Design",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стоматологическое программное обеспечение",
+      "description": "UP3D AI CAD is a web-based dental CAD software with AI automation. Design crowns in 30 seconds with one-click margin detection—no installation required.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-up3d-ai-design-a7ae77f3f6.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-up3d-ai-design-a7ae77f3f6.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.up3dtech.com/en/software-aidesign",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_VIDEO_EXACT_UI_FRAME",
+        "sourceVideoUrl": "https://www.up3dtech.com/image/responsive/pc/login/up3d-ai-cad-dental-design-software-crown.mp4",
+        "frameTimestampSeconds": 6,
+        "sourceVideoBytes": 2670753,
+        "sha256": "a7ae77f3f67f2500ecca50fdffab41e41fe055c56483c71fca9baa3babf514dd",
+        "bytes": 451376,
+        "contentType": "image/png"
+      }
+    }
+  ]
+}

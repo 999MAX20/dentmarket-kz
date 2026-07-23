@@ -1,0 +1,1376 @@
+{
+  "brand": "CICADA",
+  "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+  "sourceType": "CURRENT_OFFICIAL_PRODUCT_LISTING_PAGES_AND_PRODUCT_CARDS",
+  "sourceUrl": "https://www.cicadadental.com/product.html",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "allFiveOfficialListingPagesCollected": true,
+    "exactOfficialImagesPreserved": true,
+    "modelNeverPromotedToOrderCodeWithoutEvidence": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "listingPages": 5,
+    "discoveredProducts": 52,
+    "variantSkus": 52,
+    "productsWithModels": 52,
+    "productsWithImages": 52,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "CICADA-125",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Air Scaler CV-S",
+      "manufacturerRef": "CV-S",
+      "manufacturerRefs": "CV-S",
+      "model": "CV-S",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-S",
+          "manufacturerRef": "CV-S",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / AirScaler",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202112/1228162901.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202112/1228162901.jpg | https://www.cicadadental.com/Uploads/202112/1228162902.jpg | https://www.cicadadental.com/Uploads/202112/1228162903.jpg | https://www.cicadadental.com/Uploads/202112/1228162904.jpg | https://www.cicadadental.com/Uploads/202112/1228162905.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/AirScaler_125.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-195",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Brushless Endo Motor T-Fine-II (Plus)",
+      "manufacturerRef": "T-Fine-II (Plus)",
+      "manufacturerRefs": "T-Fine-II (Plus)",
+      "model": "T-Fine-II (Plus)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T-Fine-II (Plus)",
+          "manufacturerRef": "T-Fine-II (Plus)",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoMotor",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/brushless_endo_motor_001.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/brushless_endo_motor_001.jpg | https://www.cicadadental.com/Uploads/202306/brushless_endo_motor_003.jpg | https://www.cicadadental.com/Uploads/202306/brushless_endo_motor_004.jpg | https://www.cicadadental.com/Uploads/202306/brushless_endo_motor_005.jpg | https://www.cicadadental.com/Uploads/202306/brushless_endo_motor_002.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoMotor_195.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-193",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Brushless Endo Motor T-Fine-II (Pro)",
+      "manufacturerRef": "T-Fine-II (Pro)",
+      "manufacturerRefs": "T-Fine-II (Pro)",
+      "model": "T-Fine-II (Pro)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T-Fine-II (Pro)",
+          "manufacturerRef": "T-Fine-II (Pro)",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoMotor",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/brushless_endo_motor.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/brushless_endo_motor.jpg | https://www.cicadadental.com/Uploads/202306/brushless_endo_motor04.jpg | https://www.cicadadental.com/Uploads/202306/brushless_endo_motor03.jpg | https://www.cicadadental.com/Uploads/202306/brushless_endo_motor02.jpg | https://www.cicadadental.com/Uploads/202306/brushless_endo_motor05.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoMotor_193.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-187",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Brushless Endo Motor T-Fine-II (Smart)",
+      "manufacturerRef": "T-Fine-II (Smart)",
+      "manufacturerRefs": "T-Fine-II (Smart)",
+      "model": "T-Fine-II (Smart)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T-Fine-II (Smart)",
+          "manufacturerRef": "T-Fine-II (Smart)",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoMotor",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/endo_motor.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/endo_motor.jpg | https://www.cicadadental.com/Uploads/202306/endo_motor_02.jpg | https://www.cicadadental.com/Uploads/202306/endo_motor_03.jpg | https://www.cicadadental.com/Uploads/202306/endo_motor_05.jpg | https://www.cicadadental.com/undefined",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoMotor_187.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-128",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Brushless Implant Motor Surgic Pro",
+      "manufacturerRef": "Surgic Pro",
+      "manufacturerRefs": "Surgic Pro",
+      "model": "Surgic Pro",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Surgic Pro",
+          "manufacturerRef": "Surgic Pro",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / ImplantMotor",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202308/01.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202308/01.jpg | https://www.cicadadental.com/Uploads/202308/02.jpg | https://www.cicadadental.com/Uploads/202308/03.jpg | https://www.cicadadental.com/Uploads/202308/05.jpg | https://www.cicadadental.com/Uploads/202308/04.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/ImplantMotor_128.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-215",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Dental 20:1 Implant Handpiece SG20",
+      "manufacturerRef": "SG20",
+      "manufacturerRefs": "SG20",
+      "model": "SG20",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SG20",
+          "manufacturerRef": "SG20",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / ImplantHandpiece",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202508/sg2001.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202508/sg2001.jpg | https://www.cicadadental.com/Uploads/202508/sg2002.jpg | https://www.cicadadental.com/Uploads/202508/sg2003.jpg | https://www.cicadadental.com/Uploads/202508/sg2004.jpg | https://www.cicadadental.com/Uploads/202508/sg2005.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/ImplantHandpiece_215.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-211",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Dental 45 degree high speed handpiece CV/GX 45-M4",
+      "manufacturerRef": "CV/GX 45-M4",
+      "manufacturerRefs": "CV/GX 45-M4",
+      "model": "CV/GX 45-M4",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV/GX 45-M4",
+          "manufacturerRef": "CV/GX 45-M4",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / DentalHighSpeedHandpiece",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202508/45m401.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202508/45m401.jpg | https://www.cicadadental.com/Uploads/202508/045m42.jpg | https://www.cicadadental.com/Uploads/202508/045m43.jpg | https://www.cicadadental.com/Uploads/202508/45m405.jpg | https://www.cicadadental.com/Uploads/202508/45m404.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/DentalHighSpeedHandpiece_211.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-198",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Dental Air Polisher DT-X4",
+      "manufacturerRef": "DT-X4",
+      "manufacturerRefs": "DT-X4",
+      "model": "DT-X4",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DT-X4",
+          "manufacturerRef": "DT-X4",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / DentalAirPolishHandpiece",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/dental_air_polish_handpiece.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/dental_air_polish_handpiece.jpg | https://www.cicadadental.com/Uploads/202306/dental_air_polish_handpiece02.jpg | https://www.cicadadental.com/Uploads/202306/dental_air_polish_handpiece03.jpg | https://www.cicadadental.com/Uploads/202306/dental_air_polish_handpiece04.jpg | https://www.cicadadental.com/Uploads/202306/dental_air_polish_handpiece05.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/DentalAirPolishHandpiece_198.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-163",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Dental Hand Files Holder CV-FH 01",
+      "manufacturerRef": "CV-FH 01",
+      "manufacturerRefs": "CV-FH 01",
+      "model": "CV-FH 01",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-FH 01",
+          "manufacturerRef": "CV-FH 01",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / DentalHandFilesHolder",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202204/dental_hand_files_holder___cv-fh_01_(1).jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202204/dental_hand_files_holder___cv-fh_01_(1).jpg | https://www.cicadadental.com/Uploads/202204/dental_hand_files_holder___cv-fh_01_(2).jpg | https://www.cicadadental.com/Uploads/202204/dental_hand_files_holder___cv-fh_01_(3).jpg | https://www.cicadadental.com/Uploads/202204/dental_hand_files_holder___cv-fh_01_(4).jpg | https://www.cicadadental.com/Uploads/202204/dental_hand_files_holder___cv-fh_01_(5).jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/DentalHandFilesHolder_163.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-160",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Dental High Speed Handpiece CV/GX SM4",
+      "manufacturerRef": "CV/GX SM4",
+      "manufacturerRefs": "CV/GX SM4",
+      "model": "CV/GX SM4",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV/GX SM4",
+          "manufacturerRef": "CV/GX SM4",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / DentalHighSpeedHandpiece",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202204/highspeed_without_light01.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202204/highspeed_without_light01.jpg | https://www.cicadadental.com/Uploads/202204/highspeed_without_light02.jpg | https://www.cicadadental.com/Uploads/202204/highspeed_without_light03.jpg | https://www.cicadadental.com/Uploads/202204/highspeed_without_light04.jpg | https://www.cicadadental.com/Uploads/202204/highspeed_without_light05.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/DentalHighSpeedHandpiece_160.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-131",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Dental Loupes with Headlight LED Light CV-288",
+      "manufacturerRef": "CV-288",
+      "manufacturerRefs": "CV-288",
+      "model": "CV-288",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-288",
+          "manufacturerRef": "CV-288",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / DENTALLOUPES",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202112/1228165001.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202112/1228165001.jpg | https://www.cicadadental.com/Uploads/202112/1228165002.jpg | https://www.cicadadental.com/Uploads/202112/1228165003.jpg | https://www.cicadadental.com/Uploads/202112/1228165004.jpg | https://www.cicadadental.com/Uploads/202112/1228165005.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/DENTALLOUPES_131.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-164",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Dental Plugger CV-DP 01",
+      "manufacturerRef": "CV-DP 01",
+      "manufacturerRefs": "CV-DP 01",
+      "model": "CV-DP 01",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-DP 01",
+          "manufacturerRef": "CV-DP 01",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / DentalPlugger",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202508/1755933808.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202508/1755933808.jpg | https://www.cicadadental.com/Uploads/202508/1755933849.jpg | https://www.cicadadental.com/Uploads/202508/1755933877.jpg | https://www.cicadadental.com/Uploads/202508/1755933900.jpg | https://www.cicadadental.com/Uploads/202508/1755933918.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/DentalPlugger_164.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-212",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Dental triple spray high speed handpiece CV/GX SM4-4",
+      "manufacturerRef": "CV/GX SM4-4",
+      "manufacturerRefs": "CV/GX SM4-4",
+      "model": "CV/GX SM4-4",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV/GX SM4-4",
+          "manufacturerRef": "CV/GX SM4-4",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / DentalHighSpeedHandpiece",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202508/sm4-401.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202508/sm4-401.jpg | https://www.cicadadental.com/Uploads/202508/sm4-402.jpg | https://www.cicadadental.com/Uploads/202508/sm4-403.jpg | https://www.cicadadental.com/Uploads/202508/sm4-404.jpg | https://www.cicadadental.com/Uploads/202508/sm4-405.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/DentalHighSpeedHandpiece_212.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-213",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Diamond Series Dental High-Speed Handpiece SM-4D",
+      "manufacturerRef": "SM-4D",
+      "manufacturerRefs": "SM-4D",
+      "model": "SM-4D",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SM-4D",
+          "manufacturerRef": "SM-4D",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / DentalHighSpeedHandpiece",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202508/1754042441.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202508/1754042441.jpg | https://www.cicadadental.com/Uploads/202508/1754042564.jpg | https://www.cicadadental.com/Uploads/202508/1754042655.jpg | https://www.cicadadental.com/Uploads/202508/1754042667.jpg | https://www.cicadadental.com/Uploads/202508/1754042674.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/DentalHighSpeedHandpiece_213.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-210",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Dual Water Supply System EC005",
+      "manufacturerRef": "EC005",
+      "manufacturerRefs": "EC005",
+      "model": "EC005",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "EC005",
+          "manufacturerRef": "EC005",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / ElectricMotor",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202508/1754041649.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202508/1754041649.jpg | https://www.cicadadental.com/Uploads/202508/1754041682.jpg | https://www.cicadadental.com/undefined | https://www.cicadadental.com/Uploads/202508/1754041683.jpg",
+      "imageCount": 4,
+      "sourcePageUrl": "https://www.cicadadental.com/ElectricMotor_210.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-110",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Electric Micro Motor Color Screen NL400-4",
+      "manufacturerRef": "NL400-4",
+      "manufacturerRefs": "NL400-4",
+      "model": "NL400-4",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "NL400-4",
+          "manufacturerRef": "NL400-4",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / ElectricMotor",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202112/01.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202112/01.jpg | https://www.cicadadental.com/Uploads/202112/02.jpg | https://www.cicadadental.com/Uploads/202112/03.jpg | https://www.cicadadental.com/Uploads/202112/04.jpg | https://www.cicadadental.com/Uploads/202112/05.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/ElectricMotor_110.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-209",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Electric Micro Motor Touch Screen NL 400-2",
+      "manufacturerRef": "NL 400-2",
+      "manufacturerRefs": "NL 400-2",
+      "model": "NL 400-2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "NL 400-2",
+          "manufacturerRef": "NL 400-2",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / ElectricMotor",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202508/-2_01.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202508/-2_01.jpg | https://www.cicadadental.com/Uploads/202508/-2_02.jpg | https://www.cicadadental.com/Uploads/202508/-2_03.jpg | https://www.cicadadental.com/Uploads/202508/-2_04.jpg | https://www.cicadadental.com/Uploads/202508/-2_05.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/ElectricMotor_209.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-184",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Electric Wireless Prophy Handpiece PMTC CP-PM-02",
+      "manufacturerRef": "CP-PM-02",
+      "manufacturerRefs": "CP-PM-02",
+      "model": "CP-PM-02",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CP-PM-02",
+          "manufacturerRef": "CP-PM-02",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / PMTCSYSTEM",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/pmtc.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/pmtc.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.cicadadental.com/PMTCSYSTEM_184.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-190",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Electric Wireless Torque Driver DT-Smart",
+      "manufacturerRef": "DT-Smart",
+      "manufacturerRefs": "DT-Smart",
+      "model": "DT-Smart",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DT-Smart",
+          "manufacturerRef": "DT-Smart",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / ElectricImplantTorqueWrench",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202508/1754124390.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202508/1754124390.jpg | https://www.cicadadental.com/Uploads/202508/1754124550.jpg | https://www.cicadadental.com/Uploads/202508/1754124551.jpg | https://www.cicadadental.com/Uploads/202508/1755942920.jpg | https://www.cicadadental.com/Uploads/202508/1754124552.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/ElectricImplantTorqueWrench_190.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-129",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Endo Activator CV-EA",
+      "manufacturerRef": "CV-EA",
+      "manufacturerRefs": "CV-EA",
+      "model": "CV-EA",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-EA",
+          "manufacturerRef": "CV-EA",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoActivator",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202112/1228164301.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202112/1228164301.jpg | https://www.cicadadental.com/Uploads/202112/1228164302.jpg | https://www.cicadadental.com/Uploads/202112/1228164303.jpg | https://www.cicadadental.com/Uploads/202112/1228164304.jpg | https://www.cicadadental.com/Uploads/202112/1228164305.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoActivator_129.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-165",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Endo File DT-EN G4",
+      "manufacturerRef": "DT-EN G4",
+      "manufacturerRefs": "DT-EN G4",
+      "model": "DT-EN G4",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DT-EN G4",
+          "manufacturerRef": "DT-EN G4",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoFiles",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_g4_(1).jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_g4_(1).jpg | https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_g4_(2).jpg | https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_g4_(3).jpg | https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_g4_(4).jpg | https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_g4_(5).jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoFiles_165.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-166",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Endo File DT-EN R6",
+      "manufacturerRef": "DT-EN R6",
+      "manufacturerRefs": "DT-EN R6",
+      "model": "DT-EN R6",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DT-EN R6",
+          "manufacturerRef": "DT-EN R6",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoFiles",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_r6_(1).jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_r6_(1).jpg | https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_r6_(2).jpg | https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_r6_(3).jpg | https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_r6_(4).jpg | https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_r6_(5).jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoFiles_166.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-167",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Endo File DT-EN S6",
+      "manufacturerRef": "DT-EN S6",
+      "manufacturerRefs": "DT-EN S6",
+      "model": "DT-EN S6",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DT-EN S6",
+          "manufacturerRef": "DT-EN S6",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoFiles",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_s6_(1).jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_s6_(1).jpg | https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_s6_(2).jpg | https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_s6_(3).jpg | https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_s6_(4).jpg | https://www.cicadadental.com/Uploads/202204/endo_file_dt-en_s6_(5).jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoFiles_167.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-113",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Endo Motor with LED T-Fine-II CC (Color Screen )",
+      "manufacturerRef": "T-Fine-II CC (Color Screen )",
+      "manufacturerRefs": "T-Fine-II CC (Color Screen )",
+      "model": "T-Fine-II CC (Color Screen )",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T-Fine-II CC (Color Screen )",
+          "manufacturerRef": "T-Fine-II CC (Color Screen )",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoMotor",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202112/162001.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202112/162001.jpg | https://www.cicadadental.com/Uploads/202112/162002.jpg | https://www.cicadadental.com/Uploads/202112/162003.jpg | https://www.cicadadental.com/Uploads/202112/162004.jpg | https://www.cicadadental.com/Uploads/202112/162005.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoMotor_113.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-214",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Fiber Optic 1:4.2 Speed Increase Handpiece CV/DX Z45L",
+      "manufacturerRef": "CV/DX Z45L",
+      "manufacturerRefs": "CV/DX Z45L",
+      "model": "CV/DX Z45L",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV/DX Z45L",
+          "manufacturerRef": "CV/DX Z45L",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / InternalWaterSprayHandpiece",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202508/14201.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202508/14201.jpg | https://www.cicadadental.com/Uploads/202508/14202.jpg | https://www.cicadadental.com/Uploads/202508/14204.jpg | https://www.cicadadental.com/Uploads/202508/14205.jpg | https://www.cicadadental.com/Uploads/202508/14203.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/InternalWaterSprayHandpiece_214.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-199",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Fiber Optic High Speed Handpiece CV/GX",
+      "manufacturerRef": "CV/GX",
+      "manufacturerRefs": "CV/GX",
+      "model": "CV/GX",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV/GX",
+          "manufacturerRef": "CV/GX",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / DentalHighSpeedHandpiece",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202308/dentalhandpiece22.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202308/dentalhandpiece22.jpg | https://www.cicadadental.com/Uploads/202308/handpiece022.jpg",
+      "imageCount": 2,
+      "sourcePageUrl": "https://www.cicadadental.com/DentalHighSpeedHandpiece_199.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-170",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Gutta Percha Obturation System DT-Fill",
+      "manufacturerRef": "DT-Fill",
+      "manufacturerRefs": "DT-Fill",
+      "model": "DT-Fill",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DT-Fill",
+          "manufacturerRef": "DT-Fill",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / GuttaPerchaObturationSystem",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202204/gutta_percha_obturation_system_cv-fill(new)_(1).jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202204/gutta_percha_obturation_system_cv-fill(new)_(1).jpg | https://www.cicadadental.com/Uploads/202204/gutta_percha_obturation_system_cv-fill(new)_(2).jpg | https://www.cicadadental.com/Uploads/202204/gutta_percha_obturation_system_cv-fill(new)_(3).jpg | https://www.cicadadental.com/Uploads/202204/gutta_percha_obturation_system_cv-fill(new)_(4).jpg | https://www.cicadadental.com/Uploads/202204/gutta_percha_obturation_system_cv-fill(new)_(5).jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/GuttaPerchaObturationSystem_170.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-217",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Implant Plasma Activatir iActive",
+      "manufacturerRef": "iActive",
+      "manufacturerRefs": "iActive",
+      "model": "iActive",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "iActive",
+          "manufacturerRef": "iActive",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / ImplantPlasmaActivator",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202508/1754129496.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202508/1754129496.jpg | https://www.cicadadental.com/Uploads/202508/1754129515.jpg | https://www.cicadadental.com/Uploads/202508/1754129516.jpg",
+      "imageCount": 3,
+      "sourcePageUrl": "https://www.cicadadental.com/ImplantPlasmaActivator_217.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-181",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Internal Water Spray Low Speed Handpiece 1:1 CV/DX IM4 KT-3",
+      "manufacturerRef": "CV/DX IM4 KT-3",
+      "manufacturerRefs": "CV/DX IM4 KT-3",
+      "model": "CV/DX IM4 KT-3",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV/DX IM4 KT-3",
+          "manufacturerRef": "CV/DX IM4 KT-3",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / InternalWaterSprayHandpiece",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/handpiece-01.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/handpiece-01.jpg | https://www.cicadadental.com/Uploads/202306/handpiece-03.jpg | https://www.cicadadental.com/Uploads/202306/handpiece-02.jpg | https://www.cicadadental.com/Uploads/202306/handpiece04.jpg | https://www.cicadadental.com/Uploads/202306/handpiece-05.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/InternalWaterSprayHandpiece_181.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-130",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "IPR System 4:1 Contra Angle Orthodontic Tool CV/DX C4:1",
+      "manufacturerRef": "CV/DX C4:1",
+      "manufacturerRefs": "CV/DX C4:1",
+      "model": "CV/DX C4:1",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV/DX C4:1",
+          "manufacturerRef": "CV/DX C4:1",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / IPRSystem",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202112/1228164701.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202112/1228164701.jpg | https://www.cicadadental.com/Uploads/202112/1228164702.jpg | https://www.cicadadental.com/Uploads/202112/1228164703.jpg | https://www.cicadadental.com/Uploads/202112/1228164704.jpg | https://www.cicadadental.com/Uploads/202112/1228164705.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/IPRSystem_130.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-186",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "LCD Touch Screen Electric Micro Motor NL 400-5",
+      "manufacturerRef": "NL 400-5",
+      "manufacturerRefs": "NL 400-5",
+      "model": "NL 400-5",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "NL 400-5",
+          "manufacturerRef": "NL 400-5",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / ElectricMotor",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202507/1752458971.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202507/1752458971.jpg | https://www.cicadadental.com/Uploads/202306/electric_micro_motor04.jpg | https://www.cicadadental.com/Uploads/202507/1752459559.jpg | https://www.cicadadental.com/Uploads/202507/1752459560.jpg | https://www.cicadadental.com/Uploads/202306/electric_micro_motor03.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/ElectricMotor_186.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-122",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "LED Curing Light CV-215(G2)",
+      "manufacturerRef": "CV-215(G2)",
+      "manufacturerRefs": "CV-215(G2)",
+      "model": "CV-215(G2)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-215(G2)",
+          "manufacturerRef": "CV-215(G2)",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / CuringLight",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202112/1218161701.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202112/1218161701.jpg | https://www.cicadadental.com/Uploads/202112/1218161702.jpg | https://www.cicadadental.com/Uploads/202112/1218161703.jpg | https://www.cicadadental.com/Uploads/202112/1218161704.jpg | https://www.cicadadental.com/Uploads/202112/1218161705.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/CuringLight_122.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-196",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "LED Curing Light CV-215(G4)",
+      "manufacturerRef": "CV-215(G4)",
+      "manufacturerRefs": "CV-215(G4)",
+      "model": "CV-215(G4)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-215(G4)",
+          "manufacturerRef": "CV-215(G4)",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / CuringLight",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202507/g401.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202507/g401.jpg | https://www.cicadadental.com/Uploads/202507/g402.jpg | https://www.cicadadental.com/Uploads/202507/g403.jpg | https://www.cicadadental.com/Uploads/202507/g404.jpg | https://www.cicadadental.com/Uploads/202507/g405.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/CuringLight_196.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-191",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "LED Curing Light CV-215(G6)A",
+      "manufacturerRef": "CV-215(G6)A",
+      "manufacturerRefs": "CV-215(G6)A",
+      "model": "CV-215(G6)A",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-215(G6)A",
+          "manufacturerRef": "CV-215(G6)A",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / CuringLight",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/led_curing_light.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/led_curing_light.jpg | https://www.cicadadental.com/Uploads/202306/led_curing_light04.jpg | https://www.cicadadental.com/Uploads/202306/led_curing_light05.jpg | https://www.cicadadental.com/Uploads/202306/led_curing_light02.jpg | https://www.cicadadental.com/Uploads/202306/led_curing_light03.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/CuringLight_191.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-203",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "LED Curing Light CV-215(G6)B",
+      "manufacturerRef": "CV-215(G6)B",
+      "manufacturerRefs": "CV-215(G6)B",
+      "model": "CV-215(G6)B",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-215(G6)B",
+          "manufacturerRef": "CV-215(G6)B",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / CuringLight",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202507/6b01.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202507/6b01.jpg | https://www.cicadadental.com/Uploads/202507/6b05.jpg | https://www.cicadadental.com/Uploads/202507/6b02.jpg | https://www.cicadadental.com/Uploads/202507/6b03.jpg | https://www.cicadadental.com/Uploads/202507/6b04.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/CuringLight_203.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-121",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "LED Curing Light CV-215(I)",
+      "manufacturerRef": "CV-215(I)",
+      "manufacturerRefs": "CV-215(I)",
+      "model": "CV-215(I)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-215(I)",
+          "manufacturerRef": "CV-215(I)",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / CuringLight",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202112/1228161101.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202112/1228161101.jpg | https://www.cicadadental.com/Uploads/202112/1228161102.jpg | https://www.cicadadental.com/Uploads/202112/1228161103.jpg | https://www.cicadadental.com/Uploads/202112/1228161104.jpg | https://www.cicadadental.com/Uploads/202112/1228161105.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/CuringLight_121.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-197",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "LED Curing Light CV-215(IV)",
+      "manufacturerRef": "CV-215(IV)",
+      "manufacturerRefs": "CV-215(IV)",
+      "model": "CV-215(IV)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-215(IV)",
+          "manufacturerRef": "CV-215(IV)",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / CuringLight",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/curing_light_a.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/curing_light_a.jpg | https://www.cicadadental.com/Uploads/202306/curing_light_b.jpg | https://www.cicadadental.com/Uploads/202306/curing_light_c.jpg | https://www.cicadadental.com/Uploads/202306/curing_light_d.jpg | https://www.cicadadental.com/Uploads/202306/curing_light_e.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/CuringLight_197.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-192",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "LED Curing Light Guangzhou Tower CV-215(G6)",
+      "manufacturerRef": "CV-215(G6)",
+      "manufacturerRefs": "CV-215(G6)",
+      "model": "CV-215(G6)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-215(G6)",
+          "manufacturerRef": "CV-215(G6)",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / CuringLight",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/led_curing_light001.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/led_curing_light001.jpg | https://www.cicadadental.com/Uploads/202306/led_curing_light002.jpg | https://www.cicadadental.com/Uploads/202306/led_curing_light003.jpg | https://www.cicadadental.com/Uploads/202306/led_curing_light005.jpg | https://www.cicadadental.com/Uploads/202306/led_curing_light004.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/CuringLight_192.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-123",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "LED Curing Light Wide-spectrum CV-215(G3)",
+      "manufacturerRef": "CV-215(G3)",
+      "manufacturerRefs": "CV-215(G3)",
+      "model": "CV-215(G3)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-215(G3)",
+          "manufacturerRef": "CV-215(G3)",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / CuringLight",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202112/1228162201.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202112/1228162201.jpg | https://www.cicadadental.com/Uploads/202112/1228162202.jpg | https://www.cicadadental.com/Uploads/202112/1228162203.jpg | https://www.cicadadental.com/Uploads/202112/1228162204.jpg | https://www.cicadadental.com/Uploads/202112/1228162205.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/CuringLight_123.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-161",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Low Speed Contra Angle Handpiece 1:1 CV/DX CL02",
+      "manufacturerRef": "CV/DX CL02",
+      "manufacturerRefs": "CV/DX CL02",
+      "model": "CV/DX CL02",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV/DX CL02",
+          "manufacturerRef": "CV/DX CL02",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / ExternalWatersprayLowSpeedHandpiece",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202204/contra_angle_handpiece.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202204/contra_angle_handpiece.jpg | https://www.cicadadental.com/Uploads/202204/contra_angle_handpiece_(2).jpg | https://www.cicadadental.com/Uploads/202204/contra_angle_handpiece(3).jpg | https://www.cicadadental.com/Uploads/202204/contra_angle_handpiece_(4).jpg | https://www.cicadadental.com/Uploads/202204/contra_angle_handpiece_(5).jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/ExternalWatersprayLowSpeedHandpiece_161.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-162",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Low Speed Contra Angle Handpiece Latch Type 1:1 CV/DX CL021",
+      "manufacturerRef": "CV/DX CL021",
+      "manufacturerRefs": "CV/DX CL021",
+      "model": "CV/DX CL021",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV/DX CL021",
+          "manufacturerRef": "CV/DX CL021",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / ExternalWatersprayLowSpeedHandpiece",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202204/contra_angle(latch_type).jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202204/contra_angle(latch_type).jpg | https://www.cicadadental.com/Uploads/202204/contra_angle(latch_type)_(2).jpg | https://www.cicadadental.com/Uploads/202204/contra_angle(latch_type)_(3).jpg | https://www.cicadadental.com/Uploads/202204/contra_angle(latch_type)_(4).jpg | https://www.cicadadental.com/Uploads/202204/contra_angle(latch_type)_(5).jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/ExternalWatersprayLowSpeedHandpiece_162.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-207",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Max-one Endo Files DT-C3 MX",
+      "manufacturerRef": "DT-C3 MX",
+      "manufacturerRefs": "DT-C3 MX",
+      "model": "DT-C3 MX",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DT-C3 MX",
+          "manufacturerRef": "DT-C3 MX",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoFiles",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202507/mx01.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202507/mx01.jpg | https://www.cicadadental.com/Uploads/202507/mx02.jpg | https://www.cicadadental.com/Uploads/202507/mx03.jpg | https://www.cicadadental.com/Uploads/202507/mx05.jpg | https://www.cicadadental.com/Uploads/202507/mx04.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoFiles_207.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-204",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Mini Endo Motor T-Fine-II(Pura)",
+      "manufacturerRef": "T-Fine-II(Pura)",
+      "manufacturerRefs": "T-Fine-II(Pura)",
+      "model": "T-Fine-II(Pura)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "T-Fine-II(Pura)",
+          "manufacturerRef": "T-Fine-II(Pura)",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoMotor",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202507/pura01.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202507/pura01.jpg | https://www.cicadadental.com/Uploads/202507/pura02.jpg | https://www.cicadadental.com/Uploads/202507/pura03.jpg | https://www.cicadadental.com/Uploads/202507/pura04.jpg | https://www.cicadadental.com/Uploads/202507/pura05.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoMotor_204.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-188",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Negative Pressure Irrigation System DT-1/DT-2",
+      "manufacturerRef": "DT-1/DT-2",
+      "manufacturerRefs": "DT-1/DT-2",
+      "model": "DT-1/DT-2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DT-1/DT-2",
+          "manufacturerRef": "DT-1/DT-2",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / NegativePressureIrrigationSystem",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/oral_irrigator.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/oral_irrigator.jpg | https://www.cicadadental.com/Uploads/202306/oral_irrigator02.jpg | https://www.cicadadental.com/Uploads/202306/oral_irrigator03.jpg | https://www.cicadadental.com/Uploads/202306/oral_irrigator04.jpg | https://www.cicadadental.com/Uploads/202306/oral_irrigator05.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/NegativePressureIrrigationSystem_188.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-208",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Niti Protaper Hand Files DT-C3 H6",
+      "manufacturerRef": "DT-C3 H6",
+      "manufacturerRefs": "DT-C3 H6",
+      "model": "DT-C3 H6",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DT-C3 H6",
+          "manufacturerRef": "DT-C3 H6",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoFiles",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202507/hf01.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202507/hf01.jpg | https://www.cicadadental.com/Uploads/202507/hf02.jpg | https://www.cicadadental.com/Uploads/202507/hf03.jpg | https://www.cicadadental.com/Uploads/202507/hf04.jpg | https://www.cicadadental.com/Uploads/202507/hf05.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoFiles_208.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-185",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Oral Anesthesia Injector CV-OA 02",
+      "manufacturerRef": "CV-OA 02",
+      "manufacturerRefs": "CV-OA 02",
+      "model": "CV-OA 02",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV-OA 02",
+          "manufacturerRef": "CV-OA 02",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / OralAnesthesiaInjector",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/oral_anesthesia_injector.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/oral_anesthesia_injector.jpg | https://www.cicadadental.com/Uploads/202306/oral_anesthesia_injector__05.jpg | https://www.cicadadental.com/Uploads/202306/oral_anesthesia_injector_02.jpg | https://www.cicadadental.com/Uploads/202306/oral_anesthesia_injector__04.jpg | https://www.cicadadental.com/Uploads/202306/oral_anesthesia_injector_03.jpg | https://www.cicadadental.com/Uploads/202311/1699319566.jpg",
+      "imageCount": 6,
+      "sourcePageUrl": "https://www.cicadadental.com/OralAnesthesiaInjector_185.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-183",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Prophy Handpiece CV/DX",
+      "manufacturerRef": "CV/DX",
+      "manufacturerRefs": "CV/DX",
+      "model": "CV/DX",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "CV/DX",
+          "manufacturerRef": "CV/DX",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / PMTCSYSTEM",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/prophy_handpiece.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/prophy_handpiece.jpg | https://www.cicadadental.com/Uploads/202306/air_motor02.jpg | https://www.cicadadental.com/Uploads/202306/prophy_handpiece04.jpg | https://www.cicadadental.com/Uploads/202306/prophy_handpiece03.jpg | https://www.cicadadental.com/Uploads/202306/prophy_handpiece05.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/PMTCSYSTEM_183.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-205",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Rainbow Endo files DT-C3 RW6",
+      "manufacturerRef": "DT-C3 RW6",
+      "manufacturerRefs": "DT-C3 RW6",
+      "model": "DT-C3 RW6",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DT-C3 RW6",
+          "manufacturerRef": "DT-C3 RW6",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoFiles",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202507/rw01.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202507/rw01.jpg | https://www.cicadadental.com/Uploads/202507/rw02.jpg | https://www.cicadadental.com/Uploads/202507/rw03.jpg | https://www.cicadadental.com/Uploads/202507/rw04.jpg | https://www.cicadadental.com/Uploads/202507/rw05.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoFiles_205.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-206",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Retreament Endo Files DT-C3 RT5",
+      "manufacturerRef": "DT-C3 RT5",
+      "manufacturerRefs": "DT-C3 RT5",
+      "model": "DT-C3 RT5",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DT-C3 RT5",
+          "manufacturerRef": "DT-C3 RT5",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoFiles",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202507/rt01.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202507/rt01.jpg | https://www.cicadadental.com/Uploads/202507/rt03.jpg | https://www.cicadadental.com/Uploads/202507/rt02.jpg | https://www.cicadadental.com/Uploads/202507/rt04.jpg | https://www.cicadadental.com/Uploads/202507/rt05.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoFiles_206.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-189",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Root Canal Irrigation Needle S-26G-26",
+      "manufacturerRef": "S-26G-26",
+      "manufacturerRefs": "S-26G-26",
+      "model": "S-26G-26",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "S-26G-26",
+          "manufacturerRef": "S-26G-26",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / EndoIrrigationNeedles",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202306/root_canal_irrigation_needle.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202306/root_canal_irrigation_needle.jpg | https://www.cicadadental.com/Uploads/202306/root_canal_irrigation_needle05.jpg | https://www.cicadadental.com/Uploads/202306/root_canal_irrigation_needle04.jpg | https://www.cicadadental.com/Uploads/202306/root_canal_irrigation_needle03.jpg | https://www.cicadadental.com/Uploads/202306/root_canal_irrigation_needle02.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/EndoIrrigationNeedles_189.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-200",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Surgical Implant Motor Surgic Plus",
+      "manufacturerRef": "Surgic Plus",
+      "manufacturerRefs": "Surgic Plus",
+      "model": "Surgic Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Surgic Plus",
+          "manufacturerRef": "Surgic Plus",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / ImplantMotor",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202507/01.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202507/01.jpg | https://www.cicadadental.com/Uploads/202507/1752142424.jpg | https://www.cicadadental.com/Uploads/202507/02.jpg | https://www.cicadadental.com/Uploads/202507/03.jpg | https://www.cicadadental.com/Uploads/202507/05.jpg | https://www.cicadadental.com/Uploads/202507/04.jpg",
+      "imageCount": 6,
+      "sourcePageUrl": "https://www.cicadadental.com/ImplantMotor_200.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "CICADA-202",
+      "brand": "CICADA",
+      "manufacturer": "Foshan Cicada Dental Instrument Co., Ltd.",
+      "name": "Touch Screen Built-in Electric Micro Motor NL 400-1（Remark：Spin）",
+      "manufacturerRef": "NL 400-1（Remark：Spin）",
+      "manufacturerRefs": "NL 400-1（Remark：Spin）",
+      "model": "NL 400-1（Remark：Spin）",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "NL 400-1（Remark：Spin）",
+          "manufacturerRef": "NL 400-1（Remark：Spin）",
+          "status": "MODEL_CONFIRMED_REFERENCE_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "CICADA / ElectricMotor",
+      "description": "Модель подтверждена текущей официальной карточкой CICADA. Отдельный заводской артикул сверяется по прайсу поставщика.",
+      "sourceImageUrl": "https://www.cicadadental.com/Uploads/202507/1752228810.jpg",
+      "imageUrls": "https://www.cicadadental.com/Uploads/202507/1752228810.jpg | https://www.cicadadental.com/Uploads/202507/1752229346.jpg | https://www.cicadadental.com/Uploads/202507/1752228780.jpg | https://www.cicadadental.com/Uploads/202507/1752229264.jpg | https://www.cicadadental.com/Uploads/202507/1752228781.jpg",
+      "imageCount": 5,
+      "sourcePageUrl": "https://www.cicadadental.com/ElectricMotor_202.html",
+      "additionalSourceUrls": "https://www.cicadadental.com/product.html | https://www.cicadadental.com/product-2.html | https://www.cicadadental.com/product-3.html | https://www.cicadadental.com/product-4.html | https://www.cicadadental.com/product-5.html",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "brand": "W&H",
+  "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+  "sourceType": "OFFICIAL_MANUFACTURER_PRODUCT_PAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "mappedAssetMustRemainOnOfficialProductPage": true,
+    "duplicateDownloadedImagesRejected": true,
+    "genericSiteAssetsExcluded": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 11,
+    "recovered": 10,
+    "recoveredThisRun": 10,
+    "retainedFromPreviousRuns": 0,
+    "reviewRequired": 1
+  },
+  "products": [
+    {
+      "officialProductId": "WH-PHOTO-CANON-W-H-WH-E-LOG",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "eLog",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "eLog",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "eLog",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-elog-244cbd2d7c.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-elog-244cbd2d7c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/routine-tests/e-log",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "EXPLICIT_OFFICIAL_PRODUCT_PAGE_ASSET_MAPPING",
+        "originalImageUrl": "https://a.storyblok.com/f/45617/940x400/43342d9dcc/elog-product-overview.jpg",
+        "sha256": "244cbd2d7ca59d2721092d7efa716f323f436a5a4d597163de3041546f95b20c",
+        "bytes": 86236,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "WH-PHOTO-CANON-W-H-19943401",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Lexa sterilizer",
+      "manufacturerRef": "19943401",
+      "manufacturerRefs": "19943401 | 19943101",
+      "model": "Lexa sterilizer",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Lexa sterilizer · REF 19943401",
+          "manufacturerRef": "19943401",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lexa sterilizer · REF 19943101",
+          "manufacturerRef": "19943101",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-lexa-sterilizer-5b5fa47986.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-lexa-sterilizer-5b5fa47986.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lexa",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "EXPLICIT_OFFICIAL_PRODUCT_PAGE_ASSET_MAPPING",
+        "originalImageUrl": "https://a.storyblok.com/f/45617/600x519/6647087655/lexa-frontview-dent.jpg",
+        "sha256": "5b5fa479866586b09117646a29a494c4f97d65e4f7e5447a2ccca49903862edc",
+        "bytes": 40307,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "WH-PHOTO-CANON-W-H-19952110",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "MS Sterilizer",
+      "manufacturerRef": "19952110",
+      "manufacturerRefs": "19952110",
+      "model": "MS Sterilizer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "MS Sterilizer · REF 19952110",
+          "manufacturerRef": "19952110",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-ms-sterilizer-fc34ca27ba.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-ms-sterilizer-fc34ca27ba.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/ms-sterilizer",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "EXPLICIT_OFFICIAL_PRODUCT_PAGE_ASSET_MAPPING",
+        "originalImageUrl": "https://a.storyblok.com/f/45617/600x600/2f07615bde/mssterilizer_product1_global.jpg",
+        "sha256": "fc34ca27ba43b9a64238860d46d011b318b1b4758d9f5b8952799ab2dc88a4dc",
+        "bytes": 99221,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "WH-PHOTO-CANON-W-H-WH-SMARTPEG",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Original SmartPegs by Osstell",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Original SmartPegs by Osstell",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Original SmartPegs by Osstell",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-original-smartpegs-by-osstell-07faa1567c.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-original-smartpegs-by-osstell-07faa1567c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/accessories/smartpeg",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "EXPLICIT_OFFICIAL_PRODUCT_PAGE_ASSET_MAPPING",
+        "originalImageUrl": "https://a.storyblok.com/f/45617/1000x600/8f944f1505/smartpegs-cover-two-versions.jpg",
+        "sha256": "07faa1567c2a78052854cda8753a9936478e16611d25098ee9b8a83f1989893c",
+        "bytes": 46667,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "WH-PHOTO-CANON-W-H-08022260",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Osstell Beacon",
+      "manufacturerRef": "08022260",
+      "manufacturerRefs": "08022260 | 07982690",
+      "model": "Osstell Beacon",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Osstell Beacon · REF 08022260",
+          "manufacturerRef": "08022260",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Osstell Beacon · REF 07982690",
+          "manufacturerRef": "07982690",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-osstell-beacon-c191ea6323.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-osstell-beacon-c191ea6323.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/stability/beacon",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "EXPLICIT_OFFICIAL_PRODUCT_PAGE_ASSET_MAPPING",
+        "originalImageUrl": "https://a.storyblok.com/f/45617/94652b8d7f/osstell-beacon.jpg",
+        "sha256": "c191ea6323931d325f8b5512ba153a75f4bfc6bb943f1f7d1ca3c40c715e5675",
+        "bytes": 36476,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "WH-PHOTO-CANON-W-H-08086148",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Osstell Classic",
+      "manufacturerRef": "08086148",
+      "manufacturerRefs": "08086148",
+      "model": "Osstell Classic",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Osstell Classic · REF 08086148",
+          "manufacturerRef": "08086148",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-osstell-classic-0fd5c040ad.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-osstell-classic-0fd5c040ad.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/stability/osstell-classic",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "EXPLICIT_OFFICIAL_PRODUCT_PAGE_ASSET_MAPPING",
+        "originalImageUrl": "https://a.storyblok.com/f/45617/600x801/fd29691e1c/osstell-classic_implantmed.jpg",
+        "sha256": "0fd5c040ad019df582c9e9b7df7c23c54016c6d47410e1a0639dc4d45b459abb",
+        "bytes": 83687,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "WH-PHOTO-CANON-W-H-WH-OSSTELLCONNECT",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "OsstellConnect",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OsstellConnect",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OsstellConnect",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-osstellconnect-78a0618cac.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-osstellconnect-78a0618cac.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/stability/osstellconnect",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "EXPLICIT_OFFICIAL_PRODUCT_PAGE_ASSET_MAPPING",
+        "originalImageUrl": "https://a.storyblok.com/f/45617/940x400/b8a58d86e7/osstellconnect_teaser.jpg",
+        "sha256": "78a0618cac4b34be063ce3f4ef0c84b439becb03216ea45f5f8c07356f4b6cc1",
+        "bytes": 29089,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "WH-PHOTO-CANON-W-H-11245800",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "RC Straight & Contra-angle Handpieces",
+      "manufacturerRef": "11245800",
+      "manufacturerRefs": "11245800 | 11144300 | 11042001",
+      "model": "RC Straight & Contra-angle Handpieces",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "RC Straight & Contra-angle Handpieces · REF 11245800",
+          "manufacturerRef": "11245800",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "RC Straight & Contra-angle Handpieces · REF 11144300",
+          "manufacturerRef": "11144300",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "RC Straight & Contra-angle Handpieces · REF 11042001",
+          "manufacturerRef": "11042001",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-rc-straight-contra-angle-handpieces-a2dd3fe566.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-rc-straight-contra-angle-handpieces-a2dd3fe566.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/handpieces/rc",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "EXPLICIT_OFFICIAL_PRODUCT_PAGE_ASSET_MAPPING",
+        "originalImageUrl": "https://a.storyblok.com/f/45617/600x600/694294dbf3/product-rc-handpieces.png",
+        "sha256": "a2dd3fe566dd88a7969d781f09bf6fa3a387f0c0f905b3e4c812e3ae74feee18",
+        "bytes": 212742,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "WH-PHOTO-CANON-W-H-WH-SEETHROUGH-PREVIEW",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Seethrough – Imaging Solutions",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Seethrough – Imaging Solutions",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Seethrough – Imaging Solutions",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-seethrough-imaging-solutions-3cf818f45b.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-seethrough-imaging-solutions-3cf818f45b.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/imaging/seethrough-preview",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "EXPLICIT_OFFICIAL_PRODUCT_PAGE_ASSET_MAPPING",
+        "originalImageUrl": "https://a.storyblok.com/f/45617/940x400/adacd25c8f/seethrough-max-flex-940x400.jpg",
+        "sha256": "3cf818f45bf41e1edb410aaba2490b094ada29495ba2f91fb02973214a8e4456",
+        "bytes": 55988,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "WH-PHOTO-CANON-W-H-WH-ELITRACE",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Traceability thanks to EliTrace",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Traceability thanks to EliTrace",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Traceability thanks to EliTrace",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-traceability-thanks-to-elitrace-b36c42b6ec.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-traceability-thanks-to-elitrace-b36c42b6ec.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/elitrace",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "EXPLICIT_OFFICIAL_PRODUCT_PAGE_ASSET_MAPPING",
+        "originalImageUrl": "https://a.storyblok.com/f/45617/600x600/c2ef6287a1/20200806_webbanner-elitrace_grafiken-600x600px_1.jpg",
+        "sha256": "b36c42b6ec10095fb82466ff62c476c7c0867755dee270e862928519f119b1c7",
+        "bytes": 50644,
+        "contentType": "image/jpeg"
+      }
+    }
+  ],
+  "review": [
+    {
+      "canonicalProductId": "CANON-W-H-WH-PIEZO-SCALER-TIPS",
+      "brand": "W&H",
+      "name": "Piezo Scaler Tips",
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/accessories/piezo-scaler-tips",
+      "reason": "NO_EXPLICIT_OFFICIAL_MODEL_ASSET_MAPPING"
+    }
+  ]
+}

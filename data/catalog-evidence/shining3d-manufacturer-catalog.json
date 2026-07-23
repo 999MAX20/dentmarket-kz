@@ -1,0 +1,408 @@
+{
+  "brand": "SHINING 3D",
+  "manufacturer": "SHINING 3D Tech Co., Ltd.",
+  "sourceType": "MANUFACTURER_CURRENT_QUOTE_PRODUCT_LINE",
+  "sourceUrl": "https://www.shining3ddental.com/ko/solutions-ko/cad-software-ko/",
+  "lastChecked": "2026-07-22",
+  "totals": {
+    "discoveredProducts": 17,
+    "crawledProducts": 17,
+    "productsWithReferences": 17,
+    "productsWithImages": 13,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "SHINING3D-ACCUFAB-CEL",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D AccuFab-CEL",
+      "manufacturerRef": "AccuFab-CEL",
+      "manufacturerRefs": "AccuFab-CEL",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AccuFab-CEL",
+          "label": "AccuFab-CEL"
+        }
+      ],
+      "categoryPath": "Dental 3D printers",
+      "description": "AccuFab-CEL dental 3D printer delivers 35μm high-precision printing with CPL technology and intelligent cabin control for reliable, efficient workflows.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/3.%203D%20print/CEL/20251211%20AccuFab-CEL-05.png",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/3.%203D%20print/CEL/20251211%20AccuFab-CEL-05.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/accufab-cel",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-ACCUFAB-D1S",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D AccuFab-D1s",
+      "manufacturerRef": "AccuFab-D1s",
+      "manufacturerRefs": "AccuFab-D1s",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AccuFab-D1s",
+          "label": "AccuFab-D1s"
+        }
+      ],
+      "categoryPath": "Dental 3D printers",
+      "description": "Request a personalized quote for SHINING 3D DENTAL scanners and digital dental solutions. Our team will contact you with tailored pricing and details.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.shining3ddental.com/ko/solutions-ko/cad-software-ko/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-ACCUFAB-F1",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D AccuFab-F1",
+      "manufacturerRef": "AccuFab-F1",
+      "manufacturerRefs": "AccuFab-F1",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AccuFab-F1",
+          "label": "AccuFab-F1"
+        }
+      ],
+      "categoryPath": "Dental 3D printers",
+      "description": "AccuFab F1: Shining 3D Dental chairside 3D printer for crowns, surgical guides and splints. Fast, accurate and compatible with a wide range of validated dental resins.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/3.%203D%20print/F1/20251211%20AccuFab-F1-04.png",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/3.%203D%20print/F1/20251211%20AccuFab-F1-04.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/accufab-f1/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-ACCUFAB-L4D",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D AccuFab-L4D",
+      "manufacturerRef": "AccuFab-L4D",
+      "manufacturerRefs": "AccuFab-L4D",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AccuFab-L4D",
+          "label": "AccuFab-L4D"
+        }
+      ],
+      "categoryPath": "Dental 3D printers",
+      "description": "AccuFab L4D/K: high-throughput dental 3D printer by Shining 3D for dental labs. Print up to 30 units per cycle with industrial accuracy and validated dental resins.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/3.%203D%20print/L4D%20K/%E7%BC%A9%E7%95%A5%E5%9B%BE%E6%A8%A1%E7%89%88L4D.jpg",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/3.%203D%20print/L4D%20K/%E7%BC%A9%E7%95%A5%E5%9B%BE%E6%A8%A1%E7%89%88L4D.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/accufab-l4d-k",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-AORALSCAN-3",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D Aoralscan 3",
+      "manufacturerRef": "Aoralscan 3",
+      "manufacturerRefs": "Aoralscan 3",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Aoralscan 3",
+          "label": "Aoralscan 3"
+        }
+      ],
+      "categoryPath": "Intraoral scanners",
+      "description": "The Aoralscan 3 SHINING 3D intraoral scanner: high-accuracy intraoral scanning for implants, crowns and full-arch restorations.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/Product%20-%20Intraoral%20Scanner/Aoralscan%203/%E9%AB%98%E6%B8%85/%E7%BD%91%E7%AB%99%E5%8F%A3%E6%89%AB3-02.jpg",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/Product%20-%20Intraoral%20Scanner/Aoralscan%203/%E9%AB%98%E6%B8%85/%E7%BD%91%E7%AB%99%E5%8F%A3%E6%89%AB3-02.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/aoralscan-3/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-AORALSCAN-3-WIRELESS",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D Aoralscan 3 Wireless",
+      "manufacturerRef": "Aoralscan 3 Wireless",
+      "manufacturerRefs": "Aoralscan 3 Wireless",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Aoralscan 3 Wireless",
+          "label": "Aoralscan 3 Wireless"
+        }
+      ],
+      "categoryPath": "Intraoral scanners",
+      "description": "The Aoralscan 3 Wireless intraoral scanner delivers full-arch scanning with no cables. Lightweight, ergonomic and built for high-volume dental practices.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/Product%20-%20Intraoral%20Scanner/Aoralscan%203%20Wireless/Veneer.jpg",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/Product%20-%20Intraoral%20Scanner/Aoralscan%203%20Wireless/Veneer.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/aoralscan-3-wireless-intraoral-scanner",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-AORALSCAN-ELF",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D Aoralscan Elf",
+      "manufacturerRef": "Aoralscan Elf",
+      "manufacturerRefs": "Aoralscan Elf",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Aoralscan Elf",
+          "label": "Aoralscan Elf"
+        }
+      ],
+      "categoryPath": "Intraoral scanners",
+      "description": "Aoralscan Elf: a compact intraoral scanner SHINING 3D Dental for efficient chairside workflows. Precision scanning at an accessible price point.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/Product%20-%20Intraoral%20Scanner/Aoralscan%20Elf/ic-a1.png",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/Product%20-%20Intraoral%20Scanner/Aoralscan%20Elf/ic-a1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/aoralscan-elf",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-AORALSCAN-ELITE",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D Aoralscan Elite",
+      "manufacturerRef": "Aoralscan Elite",
+      "manufacturerRefs": "Aoralscan Elite",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Aoralscan Elite",
+          "label": "Aoralscan Elite"
+        }
+      ],
+      "categoryPath": "Intraoral scanners",
+      "description": "Aoralscan Elite: our flagship intraoral scanner with intraoral photogrammetry, AI-powered scanning and full-arch accuracy for demanding restorative cases.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/Elite%20and%20EW%20IAMGES/Elite/20251204%20Elite-02.png",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/Elite%20and%20EW%20IAMGES/Elite/20251204%20Elite-02.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/aoralscan-elite/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-AORALSCAN-ELITE-WIRELESS",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D Aoralscan Elite Wireless",
+      "manufacturerRef": "Aoralscan Elite Wireless",
+      "manufacturerRefs": "Aoralscan Elite Wireless",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "Aoralscan Elite Wireless",
+          "label": "Aoralscan Elite Wireless"
+        }
+      ],
+      "categoryPath": "Intraoral scanners",
+      "description": "Aoralscan Elite Wireless: our flagship intraoral scanner with intraoral photogrammetry, AI-powered scanning and full-arch accuracy, without the cable.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/Elite%20and%20EW%20IAMGES/EW/man_1.jpg",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/Elite%20and%20EW%20IAMGES/EW/man_1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/en/solution/aoralscan-elite-wireless/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-AUTOSCAN-DS-EX-PRO-C-",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D AutoScan-DS-EX Pro(C)",
+      "manufacturerRef": "AutoScan-DS-EX Pro(C)",
+      "manufacturerRefs": "AutoScan-DS-EX Pro(C)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AutoScan-DS-EX Pro(C)",
+          "label": "AutoScan-DS-EX Pro(C)"
+        }
+      ],
+      "categoryPath": "Laboratory scanners",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.shining3ddental.com/brochure-download-autoscan-ds-ex-proc",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-AUTOSCAN-DS-EX-PRO-H-",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D AutoScan-DS-EX Pro(H)",
+      "manufacturerRef": "AutoScan-DS-EX Pro(H)",
+      "manufacturerRefs": "AutoScan-DS-EX Pro(H)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AutoScan-DS-EX Pro(H)",
+          "label": "AutoScan-DS-EX Pro(H)"
+        }
+      ],
+      "categoryPath": "Laboratory scanners",
+      "description": "Powered by 5.0 MP high-resolution imaging, AutoScan-DS-EX Pro (H) ensures precise and detailed dental scanning for advanced lab applications.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/autoscan-ds-ex-pro-h",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-E-MOTION",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D e-Motion",
+      "manufacturerRef": "e-Motion",
+      "manufacturerRefs": "e-Motion",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "e-Motion",
+          "label": "e-Motion"
+        }
+      ],
+      "categoryPath": "Dental workstations",
+      "description": "e-Motion is an all-in-one digital dental platform. It builds virtual patients, unifies multimodal data collection, and connects seamlessly with design software.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/2.%20Face%20Scanner/e-Motion/lQLPJx8HX-jVr1_NCpXNCpWw15fK2dyqeCkJFguctR52AA_2709_2709.png",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/2.%20Face%20Scanner/e-Motion/lQLPJx8HX-jVr1_NCpXNCpWw15fK2dyqeCkJFguctR52AA_2709_2709.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/en/solution/e-motion",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-FABCURE-2",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D FabCure 2",
+      "manufacturerRef": "FabCure 2",
+      "manufacturerRefs": "FabCure 2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "FabCure 2",
+          "label": "FabCure 2"
+        }
+      ],
+      "categoryPath": "Post-processing",
+      "description": "FabCure 2 dental curing system optimizes post-processing for 3D printed restorations with automated heat and light control for reliable material performance.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/3.%203D%20print/Fabcure2/FabCure-2_06.jpg",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/3.%203D%20print/Fabcure2/FabCure-2_06.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/fabcure-2",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-FABCURE-N2",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D FabCure N2",
+      "manufacturerRef": "FabCure N2",
+      "manufacturerRefs": "FabCure N2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "FabCure N2",
+          "label": "FabCure N2"
+        }
+      ],
+      "categoryPath": "Post-processing",
+      "description": "FabCure N2 uses specialized 365nm UV curing to deliver stronger, more durable and biocompatible dental 3D prints with consistent post-processing results.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/3.%203D%20print/FabCure%20N2/6_02.png",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/3.%203D%20print/FabCure%20N2/6_02.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/fabcure-n2",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-FABWASH",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D FabWash",
+      "manufacturerRef": "FabWash",
+      "manufacturerRefs": "FabWash",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "FabWash",
+          "label": "FabWash"
+        }
+      ],
+      "categoryPath": "Post-processing",
+      "description": "Fabwash delivers automated cleaning and safe part release for dental 3D prints, eliminating manual damage risks while optimizing workflow efficiency.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/3.%203D%20print/Fab%20Wash/FabWash%E7%BD%91%E9%A1%B5-03.jpg",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/3.%203D%20print/Fab%20Wash/FabWash%E7%BD%91%E9%A1%B5-03.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/fabwash-2/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-METISMILE",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D MetiSmile",
+      "manufacturerRef": "MetiSmile",
+      "manufacturerRefs": "MetiSmile",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "MetiSmile",
+          "label": "MetiSmile"
+        }
+      ],
+      "categoryPath": "Face scanners",
+      "description": "SHINING 3D DENTAL’s MetiSmile enables dynamic tracking and analysis of the jaw and face, supporting digital smile design and enhancing patient confidence.",
+      "sourceImageUrl": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/2.%20Face%20Scanner/MetiSmile/%E9%9D%A2%E6%89%AB%E7%BD%91%E9%A1%B5-14.png",
+      "imageUrls": "https://www.shining3ddental.com/hubfs/website-S3D-dental/images/2.%20Face%20Scanner/MetiSmile/%E9%9D%A2%E6%89%AB%E7%BD%91%E9%A1%B5-14.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/en/solution/metismile-face-scanner",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "SHINING3D-METISMILE-MR",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D MetiSmile-MR",
+      "manufacturerRef": "MetiSmile-MR",
+      "manufacturerRefs": "MetiSmile-MR",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "MetiSmile-MR",
+          "label": "MetiSmile-MR"
+        }
+      ],
+      "categoryPath": "Face scanners",
+      "description": "Request a personalized quote for SHINING 3D DENTAL scanners and digital dental solutions. Our team will contact you with tailored pricing and details.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.shining3ddental.com/ko/solutions-ko/cad-software-ko/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    }
+  ]
+}

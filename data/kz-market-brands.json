@@ -124,7 +124,6 @@
       "url": "https://amdgroup.kz/brendy/",
       "brands": [
         "BEGO",
-        "Cefla",
         "Dürr Dental",
         "EMS",
         "Humanchemie",
@@ -140,7 +139,8 @@
         "VITA",
         "VOCO",
         "W&H"
-      ]
+      ],
+      "manufacturerGroups": ["Cefla Medical Equipment"]
     },
     {
       "id": "medstom-kz",

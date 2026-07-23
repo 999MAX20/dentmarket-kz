@@ -1,0 +1,1730 @@
+{
+  "brand": "NSK",
+  "manufacturer": "Nakanishi Inc.",
+  "sourceType": "OFFICIAL_NSK_PRODUCT_PAGES",
+  "sourceUrl": "https://www.japan.nsk-dental.com/products/",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialProductAreaImagesOnly": true,
+    "singleImageOrUniqueIdentityMatchRequired": true,
+    "navigationImagesRejected": true,
+    "ambiguousPagesRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 24,
+    "sourcePages": 24,
+    "newlyRecovered": 5,
+    "recovered": 25,
+    "preservedFromPreviousRuns": 20,
+    "review": 19,
+    "errors": 0
+  },
+  "products": [
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-P1001600",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "Couplings",
+      "manufacturerRef": "P1001600",
+      "manufacturerRefs": "P1001600 | P1001601 | P1005600 | P1009600 | P434051 | P432051",
+      "model": "Couplings",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantLabel": "PTL-CL-LED",
+          "manufacturerRef": "P1001600",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "PTL-CL-LEDIII",
+          "manufacturerRef": "P1001601",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "KCL-LED",
+          "manufacturerRef": "P1005600",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SCL-LED",
+          "manufacturerRef": "P1009600",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "FM-CL-M4",
+          "manufacturerRef": "P434051",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "FM-CL-B2/B3",
+          "manufacturerRef": "P432051",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / turbines",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/PTL-CL-LED.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/PTL-CL-LED.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/turbines/turbines-couplings/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "Couplings（エアータービン）｜歯科医療機器のナカニシ",
+        "productAreaImageCount": 6,
+        "matchedIdentityTerms": [
+          "couplings",
+          "p1001600",
+          "couplings"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-C1052002",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "FX Series(コントラアングル)",
+      "manufacturerRef": "C1052002",
+      "manufacturerRefs": "C1052002 | C1056002 | C1053002 | C1054002 | C1055002 | H1014002",
+      "model": "FX Series(コントラアングル)",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantLabel": "FX25",
+          "manufacturerRef": "C1052002",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "FX23",
+          "manufacturerRef": "C1056002",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "FX15",
+          "manufacturerRef": "C1053002",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "FX57",
+          "manufacturerRef": "C1054002",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "FX75",
+          "manufacturerRef": "C1055002",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "FX65",
+          "manufacturerRef": "H1014002",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / contra-angles",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/FX25_1000x550_jp_260502.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/FX25_1000x550_jp_260502.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/contra-angles/contra-fx/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "FX Series（コントラアングル）｜歯科医療機器のナカニシ",
+        "productAreaImageCount": 3,
+        "matchedIdentityTerms": [
+          "fx",
+          "c1052002",
+          "fx"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z182100",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "PANA SPRAY Plus",
+      "manufacturerRef": "Z182100",
+      "manufacturerRefs": "Z182100 | Y900630 | P183090 | Z090051 | Z090052 | Z090054 | Z090053 | Z090055 | Z090057 | Z090062 | Z114090 | Z019090 | Z256090 | Y900084",
+      "model": "PANA SPRAY Plus",
+      "variantCount": 14,
+      "variants": [
+        {
+          "variantLabel": "パナスプレープラス",
+          "manufacturerRef": "Z182100",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "パナスプレープラス 6本セット",
+          "manufacturerRef": "Y900630",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "パテラススプレーノズル",
+          "manufacturerRef": "P183090",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "スプレーノズル (KV)",
+          "manufacturerRef": "Z090051",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "スプレーノズル (SR)",
+          "manufacturerRef": "Z090052",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "スプレーノズル (WH)",
+          "manufacturerRef": "Z090054",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "スプレーノズル (BA)",
+          "manufacturerRef": "Z090053",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "スプレーノズル (ML)",
+          "manufacturerRef": "Z090055",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "スプレーノズル (YS)",
+          "manufacturerRef": "Z090057",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "スプレーノズル (FL)",
+          "manufacturerRef": "Z090062",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "サージカルスプレーノズル",
+          "manufacturerRef": "Z114090",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "E-タイプ スプレーノズル",
+          "manufacturerRef": "Z019090",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "F-タイプ スプレーノズル",
+          "manufacturerRef": "Z256090",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "スプレーミスト吸収パック",
+          "manufacturerRef": "Y900084",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / hygiene_and_maintenance",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/PANA_Spray_900x700_j_260518.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/PANA_Spray_900x700_j_260518.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/hygiene_and_maintenance/maintenace-panaspray_plus/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "PANA SPRAY Plus（メンテナンス＆オートクレーブ）｜歯科医療機器のナカニシ",
+        "productAreaImageCount": 13,
+        "matchedIdentityTerms": [
+          "pana",
+          "spray",
+          "plus",
+          "z182100",
+          "y900630",
+          "pana",
+          "spray",
+          "plus"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Y1001817",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "pico Burs",
+      "manufacturerRef": "Y1001817",
+      "manufacturerRefs": "Y1001817 | Y1001818 | Y1001819 | Y1001820 | Y1001821 | Y1001822 | Y1002019 | Y1002020 | Y1002021 | Y1002022",
+      "model": "pico Burs",
+      "variantCount": 10,
+      "variants": [
+        {
+          "variantLabel": "PC1",
+          "manufacturerRef": "Y1001817",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "PC2",
+          "manufacturerRef": "Y1001818",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "PC3",
+          "manufacturerRef": "Y1001819",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "PC4",
+          "manufacturerRef": "Y1001820",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "PC5",
+          "manufacturerRef": "Y1001821",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "PC6",
+          "manufacturerRef": "Y1001822",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "PC3ff",
+          "manufacturerRef": "Y1002019",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "PC4ff",
+          "manufacturerRef": "Y1002020",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "PC5ff",
+          "manufacturerRef": "Y1002021",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "PC6ff",
+          "manufacturerRef": "Y1002022",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / pico-burs",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/2019/05/smax_pico_pc1_m.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/2019/05/smax_pico_pc1_m.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/pico-burs/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>pico Burs</div>",
+        "productAreaImageCount": 10,
+        "matchedIdentityTerms": [
+          "pico",
+          "burs",
+          "y1001817",
+          "pico",
+          "burs"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-C608",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "PMTC コントラアングル(超音波スケーラー)",
+      "manufacturerRef": "C608",
+      "manufacturerRefs": "C608 | C618 | C609 | C619",
+      "model": "PMTC コントラアングル(超音波スケーラー)",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "X55L",
+          "manufacturerRef": "C608",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X55",
+          "manufacturerRef": "C618",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X57L",
+          "manufacturerRef": "C609",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X57",
+          "manufacturerRef": "C619",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / oral-hygiene",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/X55L_1000x550_jp_250910.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/X55L_1000x550_jp_250910.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-prophylaxis/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "PMTC コントラアングル（超音波スケーラー）｜歯科医療機器のナカニシ",
+        "productAreaImageCount": 2,
+        "matchedIdentityTerms": [
+          "c608",
+          "c618"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-NSK-SPRAY-MIST-ABSORBER",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "Spray Mist Absorber",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Spray Mist Absorber",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Spray Mist Absorber",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "NSK / spray-mist-absorber",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Absorber_900x350_j_260518.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Absorber_900x350_j_260518.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/spray-mist-absorber/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>Spray Mist Absorber</div>",
+        "productAreaImageCount": 1,
+        "matchedIdentityTerms": [
+          "spray",
+          "mist",
+          "absorber",
+          "spray",
+          "mist",
+          "absorber"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-C600",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "Ti-Max X Series(コントラアングル)",
+      "manufacturerRef": "C600",
+      "manufacturerRefs": "C600 | C610 | C604 | C614 | C601 | C611 | C602 | C612 | H273 | H274",
+      "model": "Ti-Max X Series(コントラアングル)",
+      "variantCount": 10,
+      "variants": [
+        {
+          "variantLabel": "X95L",
+          "manufacturerRef": "C600",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X95",
+          "manufacturerRef": "C610",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X85L",
+          "manufacturerRef": "C604",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X85",
+          "manufacturerRef": "C614",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X25L",
+          "manufacturerRef": "C601",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X25",
+          "manufacturerRef": "C611",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X15L",
+          "manufacturerRef": "C602",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X15",
+          "manufacturerRef": "C612",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X65L",
+          "manufacturerRef": "H273",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X65",
+          "manufacturerRef": "H274",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / contra-angles",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/X95L_1000x550_jp_250910.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/X95L_1000x550_jp_250910.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/contra-angles/contra-ti-max_x/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "Ti-Max X Series（コントラアングル）｜歯科医療機器のナカニシ",
+        "productAreaImageCount": 7,
+        "matchedIdentityTerms": [
+          "ti",
+          "c600",
+          "c610",
+          "ti"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-U375",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "ULTIMATE XL Series(技工用製品)",
+      "manufacturerRef": "U375",
+      "manufacturerRefs": "U375",
+      "model": "ULTIMATE XL Series(技工用製品)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TA50",
+          "manufacturerRef": "U375",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / dental-laboratory",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/ta50.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/ta50.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/dental-laboratory/dental-ultimate-xl/dental-turbine-adaptor/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>ULTIMATE XL Series</div>",
+        "productAreaImageCount": 1,
+        "matchedIdentityTerms": [
+          "xl",
+          "u375",
+          "xl"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z252015",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "インプラント・補綴物用Vチップ(エアースケーラーチップ)",
+      "manufacturerRef": "Z252015",
+      "manufacturerRefs": "Z252015 | Y1002746 | Y1002749 | Y1002747 | Y1002748 | Y1002754",
+      "model": "インプラント・補綴物用Vチップ(エアースケーラーチップ)",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantLabel": "S35",
+          "manufacturerRef": "Z252015",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-P10-A",
+          "manufacturerRef": "Y1002746",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-P12-A",
+          "manufacturerRef": "Y1002749",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-P11R-A",
+          "manufacturerRef": "Y1002747",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-P11L-A",
+          "manufacturerRef": "Y1002748",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "ペリオコントロールチップ エアースケーラーキット",
+          "manufacturerRef": "Y1002754",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / oral-hygiene",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252015.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252015.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-airscaler_tips/as_tips_perio_control_maintenance/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>エアースケーラー用チップ</div>",
+        "productAreaImageCount": 6,
+        "matchedIdentityTerms": [
+          "z252015"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z217041",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "インプラント・補綴物用Vチップ(超音波スケーラー用チップ)",
+      "manufacturerRef": "Z217041",
+      "manufacturerRefs": "Z217041 | Y900184 | Y1002167 | Y1002165 | Y1002166 | Y1002168 | Y1002169 | Y1002606",
+      "model": "インプラント・補綴物用Vチップ(超音波スケーラー用チップ)",
+      "variantCount": 8,
+      "variants": [
+        {
+          "variantLabel": "V10",
+          "manufacturerRef": "Z217041",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-P10",
+          "manufacturerRef": "Y900184",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-P12",
+          "manufacturerRef": "Y1002167",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-P11R",
+          "manufacturerRef": "Y1002165",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-P11L",
+          "manufacturerRef": "Y1002166",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-P26R",
+          "manufacturerRef": "Y1002168",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-P26L",
+          "manufacturerRef": "Y1002169",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "ペリオコントロール チップスターターキット",
+          "manufacturerRef": "Y1002606",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / oral-hygiene",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217041.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217041.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios_ultrascaler_tips/us_tips_periocontrol_va/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>超音波スケーラー用チップ</div>",
+        "productAreaImageCount": 8,
+        "matchedIdentityTerms": [
+          "z217041"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z252450",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "エアースケーラー用チップ(超音波スケーラー)",
+      "manufacturerRef": "Z252450",
+      "manufacturerRefs": "Z252450 | Y900097 | Y900098 | Y900099 | Y900100 | Y900096 | Z252411 | Z252413 | Z252412 | Z252420 | Z252441 | Z252442 | Z252443 | Z252465 | Z252466 | Z252467 | Z252468 | Z252471 | Z252472 | Z252469 | Z252462 | Z252461 | Z252460 | Z252035 | Y900118 | Y900119 | Y900120 | Y900121 | Y900122 | Y900165 | Y900166 | Y900167 | Y900177 | Y900178 | Y900179 | Y900180 | Y900181",
+      "model": "エアースケーラー用チップ(超音波スケーラー)",
+      "variantCount": 37,
+      "variants": [
+        {
+          "variantLabel": "S50",
+          "manufacturerRef": "Z252450",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S50-C1",
+          "manufacturerRef": "Y900097",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S50-C2",
+          "manufacturerRef": "Y900098",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S50-F1",
+          "manufacturerRef": "Y900099",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S50-F2",
+          "manufacturerRef": "Y900100",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S50 ソニックブラシセット",
+          "manufacturerRef": "Y900096",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S1",
+          "manufacturerRef": "Z252411",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S2",
+          "manufacturerRef": "Z252413",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S3",
+          "manufacturerRef": "Z252412",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S10",
+          "manufacturerRef": "Z252420",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S20",
+          "manufacturerRef": "Z252441",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S21R",
+          "manufacturerRef": "Z252442",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S21L",
+          "manufacturerRef": "Z252443",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S65D",
+          "manufacturerRef": "Z252465",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S66D",
+          "manufacturerRef": "Z252466",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S67D",
+          "manufacturerRef": "Z252467",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S68D",
+          "manufacturerRef": "Z252468",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S71D",
+          "manufacturerRef": "Z252471",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S72D",
+          "manufacturerRef": "Z252472",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S81D",
+          "manufacturerRef": "Z252469",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S82D",
+          "manufacturerRef": "Z252462",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S83D",
+          "manufacturerRef": "Z252461",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S86D",
+          "manufacturerRef": "Z252460",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "S75",
+          "manufacturerRef": "Z252035",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-G70",
+          "manufacturerRef": "Y900118",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-G71",
+          "manufacturerRef": "Y900119",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-G72",
+          "manufacturerRef": "Y900120",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-G75",
+          "manufacturerRef": "Y900121",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-G76",
+          "manufacturerRef": "Y900122",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-G77",
+          "manufacturerRef": "Y900165",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-G78",
+          "manufacturerRef": "Y900166",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-G79",
+          "manufacturerRef": "Y900167",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-U15",
+          "manufacturerRef": "Y900177",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-U20",
+          "manufacturerRef": "Y900178",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-U25",
+          "manufacturerRef": "Y900179",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-U30",
+          "manufacturerRef": "Y900180",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-U35",
+          "manufacturerRef": "Y900181",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / oral-hygiene",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252450.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z252450.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-airscaler_tips/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>エアースケーラー用チップ</div>",
+        "productAreaImageCount": 6,
+        "matchedIdentityTerms": [
+          "z252450"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z217030",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "エンドVチップ(超音波スケーラー用チップ)",
+      "manufacturerRef": "Z217030",
+      "manufacturerRefs": "Z217030 | Y900169 | Y900170 | Y900171 | Y900172 | Y900173 | Y900174 | Y900175 | Y900176",
+      "model": "エンドVチップ(超音波スケーラー用チップ)",
+      "variantCount": 9,
+      "variants": [
+        {
+          "variantLabel": "V30",
+          "manufacturerRef": "Z217030",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-S50",
+          "manufacturerRef": "Y900169",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-S51",
+          "manufacturerRef": "Y900170",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-S52",
+          "manufacturerRef": "Y900171",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-S53",
+          "manufacturerRef": "Y900172",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-S50D",
+          "manufacturerRef": "Y900173",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-S51D",
+          "manufacturerRef": "Y900174",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-S52D",
+          "manufacturerRef": "Y900175",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "V-S53D",
+          "manufacturerRef": "Y900176",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / oral-hygiene",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217030.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217030.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios_ultrascaler_tips/us_tips_endodontics_v_tip/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>超音波スケーラー用チップ</div>",
+        "productAreaImageCount": 9,
+        "matchedIdentityTerms": [
+          "z217030"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z217428",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "エンドチップ(超音波スケーラー用チップ)",
+      "manufacturerRef": "Z217428",
+      "manufacturerRefs": "Z217428 | Z217528 | Z217305 | Z217306 | Z217307 | Z217317 | Z217308 | Z217318 | Z217319 | Z217031 | Z217032 | Y900062 | Y900063 | Y900064 | Y900065 | Y900066 | Y900146 | Y900147",
+      "model": "エンドチップ(超音波スケーラー用チップ)",
+      "variantCount": 18,
+      "variants": [
+        {
+          "variantLabel": "E4",
+          "manufacturerRef": "Z217428",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "E4D",
+          "manufacturerRef": "Z217528",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "E5",
+          "manufacturerRef": "Z217305",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "E6",
+          "manufacturerRef": "Z217306",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "E7",
+          "manufacturerRef": "Z217307",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "E7D",
+          "manufacturerRef": "Z217317",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "E8",
+          "manufacturerRef": "Z217308",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "E8D",
+          "manufacturerRef": "Z217318",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "E15D",
+          "manufacturerRef": "Z217319",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "E11",
+          "manufacturerRef": "Z217031",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "E12",
+          "manufacturerRef": "Z217032",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "U ファイル 33mm ISO 15",
+          "manufacturerRef": "Y900062",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "U ファイル 33mm ISO 20",
+          "manufacturerRef": "Y900063",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "U ファイル 33mm ISO 25",
+          "manufacturerRef": "Y900064",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "U ファイル 33mm ISO 30",
+          "manufacturerRef": "Y900065",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "U ファイル 33mm ISO 35",
+          "manufacturerRef": "Y900066",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "エンドキットE11",
+          "manufacturerRef": "Y900146",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "エンドキット E12",
+          "manufacturerRef": "Y900147",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / oral-hygiene",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217428-1.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217428-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios_ultrascaler_tips/us_tips_endodontics/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>超音波スケーラー用チップ</div>",
+        "productAreaImageCount": 18,
+        "matchedIdentityTerms": [
+          "z217428"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-C1068",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "オーラルサージェリーハンドピース",
+      "manufacturerRef": "C1068",
+      "manufacturerRefs": "C1068 | C1067 | CA13030001 | CA13020001 | Y110127 | Y110147 | C1004 | C1007 | C1107 | C1108 | C1011 | H1009 | H1038 | H264 | H266 | SH162 | SH163 | Y900072 | Y900073 | Y900074 | H174034 | H174044 | H174031 | H174041 | H174032 | H174042 | Y900075 | Y900076",
+      "model": "オーラルサージェリーハンドピース",
+      "variantCount": 28,
+      "variants": [
+        {
+          "variantLabel": "X-DSG20L",
+          "manufacturerRef": "C1068",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X-DSG20",
+          "manufacturerRef": "C1067",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X-SG20ML",
+          "manufacturerRef": "CA13030001",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SG20M",
+          "manufacturerRef": "CA13020001",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGM-ER20i",
+          "manufacturerRef": "Y110127",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGMS-ER20i",
+          "manufacturerRef": "Y110147",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X-SG93L",
+          "manufacturerRef": "C1004",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X-SG93",
+          "manufacturerRef": "C1007",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Z-SG45L",
+          "manufacturerRef": "C1107",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Z-SG45",
+          "manufacturerRef": "C1108",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X-SG25L",
+          "manufacturerRef": "C1011",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X-SG65L",
+          "manufacturerRef": "H1009",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "X-SG65",
+          "manufacturerRef": "H1038",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGS-ES",
+          "manufacturerRef": "H264",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGS-E2S",
+          "manufacturerRef": "H266",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGR2-E",
+          "manufacturerRef": "SH162",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGT2-E",
+          "manufacturerRef": "SH163",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGR-1",
+          "manufacturerRef": "Y900072",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGR-2",
+          "manufacturerRef": "Y900073",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGR-3",
+          "manufacturerRef": "Y900074",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGO-1",
+          "manufacturerRef": "H174034",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGO-2",
+          "manufacturerRef": "H174044",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGO-3",
+          "manufacturerRef": "H174031",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGO-4",
+          "manufacturerRef": "H174041",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGO-5",
+          "manufacturerRef": "H174032",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGO-6",
+          "manufacturerRef": "H174042",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGT-1",
+          "manufacturerRef": "Y900075",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "SGT-2",
+          "manufacturerRef": "Y900076",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / surgical",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/X-DSG20L_1000x550_jp_240516.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/X-DSG20L_1000x550_jp_240516.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/surgical/surgical-handpieces/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "オーラルサージェリーハンドピース｜歯科医療機器のナカニシ",
+        "productAreaImageCount": 34,
+        "matchedIdentityTerms": [
+          "c1068",
+          "c1067"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z217101",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "スケーリング(超音波スケーラー用チップ)",
+      "manufacturerRef": "Z217101",
+      "manufacturerRefs": "Z217101 | Z217102 | Z217103 | Z217104 | Z217105 | Z217106 | Z217108 | Z217109 | Z217411 | Z217412 | Z217413 | Z217120",
+      "model": "スケーリング(超音波スケーラー用チップ)",
+      "variantCount": 12,
+      "variants": [
+        {
+          "variantLabel": "G1",
+          "manufacturerRef": "Z217101",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "G2",
+          "manufacturerRef": "Z217102",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "G3",
+          "manufacturerRef": "Z217103",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "G4",
+          "manufacturerRef": "Z217104",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "G5",
+          "manufacturerRef": "Z217105",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "G6",
+          "manufacturerRef": "Z217106",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "G8",
+          "manufacturerRef": "Z217108",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "G9",
+          "manufacturerRef": "Z217109",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "G11",
+          "manufacturerRef": "Z217411",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "G12",
+          "manufacturerRef": "Z217412",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "G13",
+          "manufacturerRef": "Z217413",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "G16",
+          "manufacturerRef": "Z217120",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / oral-hygiene",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217101-1.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217101-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios_ultrascaler_tips/us_tips_scaling/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>超音波スケーラー用チップ</div>",
+        "productAreaImageCount": 12,
+        "matchedIdentityTerms": [
+          "z217101"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z217550",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "ペリオ (イリゲーション)",
+      "manufacturerRef": "Z217550",
+      "manufacturerRefs": "Z217550 | Z217555",
+      "model": "ペリオ (イリゲーション)",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "P40",
+          "manufacturerRef": "Z217550",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P41",
+          "manufacturerRef": "Z217555",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / oral-hygiene",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217550-1.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217550-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios_ultrascaler_tips/us_tips_perio_irrigation_and_cleanling/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>超音波スケーラー用チップ</div>",
+        "productAreaImageCount": 2,
+        "matchedIdentityTerms": [
+          "z217550"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z217404",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "ぺリオチップ(超音波スケーラーチップ)",
+      "manufacturerRef": "Z217404",
+      "manufacturerRefs": "Z217404 | Z217405 | Z217402 | Z217403 | Z217410 | Z217408 | Z217409 | Z217420 | Z217422 | Z217424 | Z217425 | Y900144 | Z217426 | Z217421 | Z217427 | Y900145",
+      "model": "ぺリオチップ(超音波スケーラーチップ)",
+      "variantCount": 16,
+      "variants": [
+        {
+          "variantLabel": "P1",
+          "manufacturerRef": "Z217404",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P1D",
+          "manufacturerRef": "Z217405",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P2D",
+          "manufacturerRef": "Z217402",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P3D",
+          "manufacturerRef": "Z217403",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P10",
+          "manufacturerRef": "Z217410",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P11R",
+          "manufacturerRef": "Z217408",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P11L",
+          "manufacturerRef": "Z217409",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P20",
+          "manufacturerRef": "Z217420",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P21R",
+          "manufacturerRef": "Z217422",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P25R",
+          "manufacturerRef": "Z217424",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P25L",
+          "manufacturerRef": "Z217425",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "ペリオキット A",
+          "manufacturerRef": "Y900144",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P26R",
+          "manufacturerRef": "Z217426",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P21L",
+          "manufacturerRef": "Z217421",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "P26L",
+          "manufacturerRef": "Z217427",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "ペリオキット B",
+          "manufacturerRef": "Y900145",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / oral-hygiene",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217404-1.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217404-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios_ultrascaler_tips/us_tips_perio/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>超音波スケーラー用チップ</div>",
+        "productAreaImageCount": 16,
+        "matchedIdentityTerms": [
+          "z217404"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z109400",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "マルチゲージ",
+      "manufacturerRef": "Z109400",
+      "manufacturerRefs": "Z109400",
+      "model": "マルチゲージ",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "MG-4H マルチゲージ",
+          "manufacturerRef": "Z109400",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / hygiene_and_maintenance",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Multi-Gauge_1000x450_jp_250121.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Multi-Gauge_1000x450_jp_250121.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/hygiene_and_maintenance/maintenace-multigauge/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "マルチゲージ（メンテナンス＆オートクレーブ）｜歯科医療機器のナカニシ",
+        "productAreaImageCount": 1,
+        "matchedIdentityTerms": [
+          "z109400"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z036",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "マルチスタンド",
+      "manufacturerRef": "Z036",
+      "manufacturerRefs": "Z036 | Z036002",
+      "model": "マルチスタンド",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "マルチスタンド フルセット",
+          "manufacturerRef": "Z036",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "マルチスタンド パテラス用",
+          "manufacturerRef": "Z036002",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / hygiene_and_maintenance",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/multi_stand_full_set.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/multi_stand_full_set.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/hygiene_and_maintenance/maintenace-multistand/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "マルチスタンド（メンテナンス＆オートクレーブ）｜歯科医療機器のナカニシ",
+        "productAreaImageCount": 3,
+        "matchedIdentityTerms": [
+          "z036"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z217601",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "初期う蝕除去超音波スケーラーチップ",
+      "manufacturerRef": "Z217601",
+      "manufacturerRefs": "Z217601 | Z217602",
+      "model": "初期う蝕除去超音波スケーラーチップ",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "G61D",
+          "manufacturerRef": "Z217601",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "G62D",
+          "manufacturerRef": "Z217602",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / oral-hygiene",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/G61D.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/G61D.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios_ultrascaler_tips/us_tips_restorative/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>超音波スケーラー用チップ</div>",
+        "productAreaImageCount": 2,
+        "matchedIdentityTerms": [
+          "z217601"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z1265",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "isoE-LUX",
+      "manufacturerRef": "Z1265",
+      "manufacturerRefs": "Z1265",
+      "model": "isoE-LUX",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "isoE-LUX",
+          "manufacturerRef": "Z1265",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / mobile-dentistry",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/isoe-lux-1.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/isoe-lux-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/mobile-dentistry/mobile-vivaace/mobile-isoe_lux/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "isoE-LUX（訪問診療用機器）｜歯科医療機器のナカニシ",
+        "productAreaImageCount": 1,
+        "matchedIdentityTerms": [
+          "isoe",
+          "lux",
+          "z1265",
+          "isoe",
+          "lux"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-H265",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "SGA-E2S",
+      "manufacturerRef": "H265",
+      "manufacturerRefs": "H265",
+      "model": "SGA-E2S",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SGA-E2S",
+          "manufacturerRef": "H265",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / surgical",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/SGA-E2S_1000x550_jp_240516.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/SGA-E2S_1000x550_jp_240516.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/surgical/sga-e2s/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>SGA-E2S</div>",
+        "productAreaImageCount": 1,
+        "matchedIdentityTerms": [
+          "sga",
+          "e2s",
+          "h265",
+          "sga",
+          "e2s"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-H263",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "SGA-ES",
+      "manufacturerRef": "H263",
+      "manufacturerRefs": "H263",
+      "model": "SGA-ES",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SGA-ES",
+          "manufacturerRef": "H263",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / surgical",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/SGA-ES_1000x550_jp_240516.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/SGA-ES_1000x550_jp_240516.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/surgical/sga-es/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>SGA-ES</div>",
+        "productAreaImageCount": 1,
+        "matchedIdentityTerms": [
+          "sga",
+          "es",
+          "h263",
+          "sga",
+          "es"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-SH164",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "SGO2-E",
+      "manufacturerRef": "SH164",
+      "manufacturerRefs": "SH164",
+      "model": "SGO2-E",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SGO2-E",
+          "manufacturerRef": "SH164",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / surgical",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/SGO2-E_1000x550_jp_240516.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/SGO2-E_1000x550_jp_240516.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/surgical/sgo2-e/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>SGO2-E</div>",
+        "productAreaImageCount": 1,
+        "matchedIdentityTerms": [
+          "sgo2",
+          "sh164",
+          "sgo2"
+        ]
+      }
+    },
+    {
+      "officialProductId": "NSK-OFFICIAL-CANON-NSK-Z217705",
+      "brand": "NSK",
+      "manufacturer": "Nakanishi Inc.",
+      "name": "切開・切除用歯根膜剥離チップ(超音波スケーラー)",
+      "manufacturerRef": "Z217705",
+      "manufacturerRefs": "Z217705",
+      "model": "切開・切除用歯根膜剥離チップ(超音波スケーラー)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "G95",
+          "manufacturerRef": "Z217705",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "NSK / oral-hygiene",
+      "description": "Семейство и варианты подтверждены текущей официальной страницей NSK. Выбор конкретного исполнения выполняется по названию модели и заводскому номеру.",
+      "sourceImageUrl": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217705-1.png",
+      "imageUrls": "https://www.japan.nsk-dental.com/admin/wp-content/uploads/Z217705-1.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.japan.nsk-dental.com/products/oral-hygiene/oral-varios_ultrascaler_tips/us_tips_extraction/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RECOVERED_FROM_OFFICIAL_NSK_PRODUCT_AREA",
+      "recovery": {
+        "pageTitle": "<div>超音波スケーラー用チップ</div>",
+        "productAreaImageCount": 1,
+        "matchedIdentityTerms": [
+          "z217705"
+        ]
+      }
+    }
+  ]
+}

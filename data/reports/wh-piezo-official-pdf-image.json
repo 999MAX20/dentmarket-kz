@@ -1,0 +1,68 @@
+{
+  "brand": "W&H",
+  "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+  "sourceType": "OFFICIAL_MANUFACTURER_PDF_EMBEDDED_PRODUCT_IMAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialPdfHashPinned": true,
+    "allEmbeddedTipImagesHashPinned": true,
+    "pageScreenshotsForbidden": true,
+    "noGeneratedProductGeometry": true
+  },
+  "totals": {
+    "targets": 1,
+    "recovered": 1,
+    "recoveredThisRun": 1,
+    "retainedFromPreviousRuns": 0,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "WH-PIEZO-SCALER-TIPS",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Piezo Scaler Tips",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Piezo Scaler Tips",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Piezo Scaler Tips",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-piezo-scaler-tips-13725091a7.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-wh-piezo-scaler-tips-13725091a7.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/accessories/piezo-scaler-tips",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_TIP_FAMILY_COMPOSITION",
+        "officialPdfUrl": "https://backend.wh.com/api/v1/document/download?documentId=2920456-AEN03&fileName=Prospekt_20456-AEN_03.pdf&tenant=DENT",
+        "officialPdfPages": "2–3",
+        "officialPdfSha256": "7a474b66da1eda44bc7e7b7d6c84e6a87459d87550c6db9cd35f53834944f3f5",
+        "embeddedSourceImageHashes": [
+          "f999b9a816344b4910160d05151f790ba6e437a6579ebaf9cac33f4137c70d0e",
+          "69d68d2fda9ae3d55236bb1c96e00a381a142d5690673331dfad08f7336905c2",
+          "b86bc6b081ac53fd0580a05cd65b8d5883d50ccef72886b422ec0fe74d5c5e14",
+          "404547734b758bb09c4f0ece937b862715a4af200c512d7264cc5bd9ce0690e5",
+          "2c4dde50598a3dfc2901324ae6419616e1ecdfd33e7c36f3342a41169ef0dcd8",
+          "a6458be7679883145717606fa51e35ff55f60b79960de9ad043d49d02df124e6",
+          "c73c1ad458626f01d156f2ace1e147907d5ebae1a5f6c22f666da866a7628f96",
+          "bf5e9a5614f72c8994bdab9d57e7efcd114b3bca33f1b5c08105c566d999aabb",
+          "863e79dff35651709951543c27e58b7d40bc33570b12da583c52d32f26d4fa9c"
+        ],
+        "composition": "Nine unaltered official tip photos on a white 1200x800 canvas",
+        "sha256": "13725091a75cde5e43210bb142f6c5e2b3bc3ab796b47c911b2178df17b1589d",
+        "bytes": 148696,
+        "contentType": "image/png"
+      }
+    }
+  ],
+  "review": []
+}

@@ -1,0 +1,163 @@
+{
+  "brand": "SHINING 3D",
+  "manufacturer": "SHINING 3D Tech. Co., Ltd.",
+  "sourceType": "OFFICIAL_MANUFACTURER_PRODUCT_PAGE_IMAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "pageReferenceRequired": true,
+    "allImageHashesPinned": true,
+    "exactModelVisualReviewRequired": true,
+    "noGeneratedProductGeometry": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 4,
+    "recovered": 4,
+    "recoveredThisRun": 0,
+    "retainedFromPreviousRuns": 4,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "AccuFab-D1s",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D AccuFab-D1s",
+      "manufacturerRef": "AccuFab-D1s",
+      "manufacturerRefs": "AccuFab-D1s",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AccuFab-D1s",
+          "label": "AccuFab-D1s",
+          "variantLabel": "AccuFab-D1s",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Dental 3D printers",
+      "description": "Request a personalized quote for SHINING 3D DENTAL scanners and digital dental solutions. Our team will contact you with tailored pricing and details.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-shining3d-accufab-d1s-cb5129a972.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-shining3d-accufab-d1s-cb5129a972.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://support.shining3ddental.com/en/support/solutions/articles/60000700411-accufab-d1s-installation-and-using-guide",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_EXACT_IMAGE",
+        "visualScope": "FULL_PRODUCT_OFFICIAL_SUPPORT_VIDEO_COVER",
+        "officialProductPageUrl": "https://support.shining3ddental.com/en/support/solutions/articles/60000700411-accufab-d1s-installation-and-using-guide",
+        "officialSourceImageUrl": "https://i.ytimg.com/vi/j2cZ3fr_ma4/maxresdefault.jpg",
+        "sourceImageSha256": "cb5129a972257871b4c277b489b0bb8dc8dec041ff9047b434cbd11dce5b37f6",
+        "sha256": "cb5129a972257871b4c277b489b0bb8dc8dec041ff9047b434cbd11dce5b37f6",
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "AutoScan-DS-EX Pro(C)",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D AutoScan-DS-EX Pro(C)",
+      "manufacturerRef": "AutoScan-DS-EX Pro(C)",
+      "manufacturerRefs": "AutoScan-DS-EX Pro(C)",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AutoScan-DS-EX Pro(C)",
+          "label": "AutoScan-DS-EX Pro(C)",
+          "variantLabel": "AutoScan-DS-EX Pro(C)",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Laboratory scanners",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-shining3d-autoscan-ds-ex-pro-c-8ca795265b.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-shining3d-autoscan-ds-ex-pro-c-8ca795265b.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/ds-ex-pro-lab-sacnner/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_EXACT_IMAGE",
+        "visualScope": "FULL_PRODUCT",
+        "officialProductPageUrl": "https://www.shining3ddental.com/solution/ds-ex-pro-lab-sacnner/",
+        "officialSourceImageUrl": "https://www.shining3ddental.com/hs-fs/hubfs/website-S3D-dental/images/Desk%20scanner/Desk%20scanner-C/20251218%20AutoScan-DS-EX%20Pro(C)_650.png?width=1000&name=20251218%20AutoScan-DS-EX%20Pro(C)_650.png",
+        "sourceImageSha256": "8ca795265be2626603ffc1825e429bf680aa4841a341dd20f2d0e8302999b889",
+        "sha256": "8ca795265be2626603ffc1825e429bf680aa4841a341dd20f2d0e8302999b889",
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "AutoScan-DS-EX Pro(H)",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D AutoScan-DS-EX Pro(H)",
+      "manufacturerRef": "AutoScan-DS-EX Pro(H)",
+      "manufacturerRefs": "AutoScan-DS-EX Pro(H)",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "AutoScan-DS-EX Pro(H)",
+          "label": "AutoScan-DS-EX Pro(H)",
+          "variantLabel": "AutoScan-DS-EX Pro(H)",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Laboratory scanners",
+      "description": "Powered by 5.0 MP high-resolution imaging, AutoScan-DS-EX Pro (H) ensures precise and detailed dental scanning for advanced lab applications.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-shining3d-autoscan-ds-ex-pro-h-d6c2a1de52.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-shining3d-autoscan-ds-ex-pro-h-d6c2a1de52.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/solution/autoscan-ds-ex-pro-h",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_EXACT_IMAGE",
+        "visualScope": "EXACT_PRODUCT_SCAN_CHAMBER",
+        "officialProductPageUrl": "https://www.shining3ddental.com/solution/autoscan-ds-ex-pro-h",
+        "officialSourceImageUrl": "https://www.shining3ddental.com/hs-fs/hubfs/website-S3D-dental/images/3.%203D%20print/EPH/EPH%E7%BD%91%E9%A1%B5_03-2-scaled.jpg?width=1516&height=1120&name=EPH%E7%BD%91%E9%A1%B5_03-2-scaled.jpg",
+        "sourceImageSha256": "d6c2a1de52e793439c766850acce831a236014a155d09e7fed6582fce88e0d38",
+        "sha256": "d6c2a1de52e793439c766850acce831a236014a155d09e7fed6582fce88e0d38",
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "MetiSmile-MR",
+      "brand": "SHINING 3D",
+      "manufacturer": "SHINING 3D Tech Co., Ltd.",
+      "name": "SHINING 3D MetiSmile-MR",
+      "manufacturerRef": "MetiSmile-MR",
+      "manufacturerRefs": "MetiSmile-MR",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "MetiSmile-MR",
+          "label": "MetiSmile-MR",
+          "variantLabel": "MetiSmile-MR",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "Face scanners",
+      "description": "Request a personalized quote for SHINING 3D DENTAL scanners and digital dental solutions. Our team will contact you with tailored pricing and details.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-shining3d-metismile-mr-e346819595.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-shining3d-metismile-mr-e346819595.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.shining3ddental.com/blog/shining-3d-dental-metismile-mr-face-scanner-for-tmj-disorder-treatment",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_EXACT_IMAGE",
+        "visualScope": "FULL_PRODUCT_WITH_OFFICIAL_WORKFLOW",
+        "officialProductPageUrl": "https://www.shining3ddental.com/blog/shining-3d-dental-metismile-mr-face-scanner-for-tmj-disorder-treatment",
+        "officialSourceImageUrl": "https://www.shining3ddental.com/hs-fs/hubfs/1-Feb-26-2026-09-30-09-0145-AM.png?width=1536&height=864&name=1-Feb-26-2026-09-30-09-0145-AM.png",
+        "sourceImageSha256": "e346819595e054db474e9abad75f02073a0684caa45fdadf7d4135dbb81ee1f0",
+        "sha256": "e346819595e054db474e9abad75f02073a0684caa45fdadf7d4135dbb81ee1f0",
+        "contentType": "image/png"
+      }
+    }
+  ],
+  "review": []
+}

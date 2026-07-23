@@ -1,0 +1,90 @@
+{
+  "brand": "Olident",
+  "manufacturer": "Oldent Sp. z o.o.",
+  "sourceType": "OFFICIAL_MANUFACTURER_PRODUCT_IMAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialSourceHashesPinned": true,
+    "pageScreenshotsForbidden": true,
+    "noGeneratedProductGeometry": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 2,
+    "recovered": 2,
+    "recoveredThisRun": 2,
+    "retainedFromPreviousRuns": 0,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "OLIDENT-OLIMTA-UNIVERSAL-2",
+      "brand": "Olident",
+      "manufacturer": "SanaPro Dental GmbH / Olident",
+      "name": "OliMTA Universal",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OliMTA Universal",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Восстановление культи",
+      "description": "Bioaktywny preparat endodontyczny na bazie tlenków mineralnych działający zębinotwórczo, ce- mentotwórczo i kościotwórczo. Nazywany ?preparatem ostatniej szansy?, gdyż sprawdza się w sytuacjach, które dotychczas kwalifikowały ząb do ekstrakcji. ? pierwszy cement MTA w wygodnej kapsułce do automatycznego mieszania we wstrząsarce i bezpośredniej aplkacji ? zawsze jednorodna i idealnie kremowa konsystencja ? właściwości hydrofilne doskonale tolerują [...]",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-olident-olimta-universal-759182bc23.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-olident-olimta-universal-759182bc23.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://sklep.olident.com/wp-content/uploads/2022/12/2017_Olident_ulotka_OliMTA_PL.pdf",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_EMBEDDED_EXACT_PRODUCT_IMAGE",
+        "officialPdfUrl": "https://sklep.olident.com/wp-content/uploads/2022/12/2017_Olident_ulotka_OliMTA_PL.pdf",
+        "officialPdfPage": 4,
+        "officialPdfSha256": "c36a1f050ffe10ce8a655784a38356a8feea029a38c19b4a240bf34b309db490",
+        "embeddedImageSha256": "453e7c12b232f2f320719dd8a6be13cc612c723b2636c5f5d3770d2a469c5afc",
+        "sha256": "759182bc2381f6de04f468889ed6df6f919a1e9d78f20f5c40290664eca2b166",
+        "bytes": 405299,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "OLIDENT-OLIPOWER-BLEACHING",
+      "brand": "Olident",
+      "manufacturer": "SanaPro Dental GmbH / Olident",
+      "name": "OliPower Bleaching",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OliPower Bleaching",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Отбеливание",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-olident-olipower-bleaching-e2c303cb68.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-olident-olipower-bleaching-e2c303cb68.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://sklep.olident.com/sklep/olipower-bleaching/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_MANUFACTURER_STORE_EXACT_PRODUCT_IMAGE",
+        "officialProductPageUrl": "https://sklep.olident.com/sklep/olipower-bleaching/",
+        "officialSourceImageUrl": "https://sklep.olident.com/wp-content/uploads/2023/05/OliPower_grupowe_shadow_alfa0000-768x432.png",
+        "sourceImageSha256": "e2c303cb681941cedbca0b95aa4b50396ba47d82bdf934a60124ca7b0f6a89ae",
+        "sha256": "e2c303cb681941cedbca0b95aa4b50396ba47d82bdf934a60124ca7b0f6a89ae",
+        "bytes": 147529,
+        "contentType": "image/png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1201 @@
+{
+  "brand": "IQ Dent",
+  "manufacturer": "IQdent Sp. z o.o.",
+  "sourceType": "OFFICIAL_MANUFACTURER_PDF_VISUALLY_VERIFIED_EXACT_CROPS",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialPdfOnly": true,
+    "exactReferenceOrFamilyHeadingRequired": true,
+    "visualVerificationRequired": true,
+    "adjacentProductsAndTablesExcluded": true,
+    "pdfAndOutputHashesPinned": true,
+    "noGeneratedProductGeometry": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 19,
+    "recovered": 19,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "IQDENT-BUR-108",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent dental bur, shape 108",
+      "manufacturerRef": "204.108.524.012",
+      "manufacturerRefs": "204.108.524.012 | 313.108.524.012 | 313.108.534.012 | 314.108.504.012 | 314.108.504.014 | 314.108.504.016 | 314.108.514.006 | 314.108.514.008 | 314.108.514.010 | 314.108.514.012 | 314.108.514.014 | 314.108.524.006 | 314.108.524.008 | 314.108.524.010 | 314.108.524.012 | 314.108.524.014 | 314.108.524.016 | 314.108.534.006 | 314.108.534.008 | 314.108.534.010 | 314.108.534.012 | 314.108.534.014 | 314.108.534.016 | 314.108.544.010 | 314.108.544.012 | 314.108.544.014 | 314.108.544.016",
+      "model": "dental bur, shape 108",
+      "variantCount": 27,
+      "variants": [
+        {
+          "variantLabel": "REF 204.108.524.012",
+          "manufacturerRef": "204.108.524.012",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 313.108.524.012",
+          "manufacturerRef": "313.108.524.012",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 313.108.534.012",
+          "manufacturerRef": "313.108.534.012",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.504.012",
+          "manufacturerRef": "314.108.504.012",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.504.014",
+          "manufacturerRef": "314.108.504.014",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.504.016",
+          "manufacturerRef": "314.108.504.016",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.514.006",
+          "manufacturerRef": "314.108.514.006",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.514.008",
+          "manufacturerRef": "314.108.514.008",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.514.010",
+          "manufacturerRef": "314.108.514.010",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.514.012",
+          "manufacturerRef": "314.108.514.012",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.514.014",
+          "manufacturerRef": "314.108.514.014",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.524.006",
+          "manufacturerRef": "314.108.524.006",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.524.008",
+          "manufacturerRef": "314.108.524.008",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.524.010",
+          "manufacturerRef": "314.108.524.010",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.524.012",
+          "manufacturerRef": "314.108.524.012",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.524.014",
+          "manufacturerRef": "314.108.524.014",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.524.016",
+          "manufacturerRef": "314.108.524.016",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.534.006",
+          "manufacturerRef": "314.108.534.006",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.534.008",
+          "manufacturerRef": "314.108.534.008",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.534.010",
+          "manufacturerRef": "314.108.534.010",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.534.012",
+          "manufacturerRef": "314.108.534.012",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.534.014",
+          "manufacturerRef": "314.108.534.014",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.534.016",
+          "manufacturerRef": "314.108.534.016",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.544.010",
+          "manufacturerRef": "314.108.544.010",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.544.012",
+          "manufacturerRef": "314.108.544.012",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.544.014",
+          "manufacturerRef": "314.108.544.014",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.108.544.016",
+          "manufacturerRef": "314.108.544.016",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Diamond Burs",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-204-108-524-012-2313782dde.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-204-108-524-012-2313782dde.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "14",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 14,
+        "normalizedCropBox": [
+          0.445,
+          0.285,
+          0.505,
+          0.455
+        ],
+        "visualMatchNote": "Official shape 108 bur image beside reference 204.108.524.012",
+        "outputImageSha256": "2313782ddefe2506dba5963f4ba5abe9ac07a97f063d54e269249ddde221b8ed",
+        "bytes": 61263,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-BUR-298",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent dental bur, shape 298",
+      "manufacturerRef": "314.298.514.012",
+      "manufacturerRefs": "314.298.514.012 | 314.298.514.014 | 314.298.514.016 | 314.298.514.018 | 314.298.514.021 | 314.298.524.012 | 314.298.524.014 | 314.298.524.016 | 314.298.524.018 | 314.298.524.021 | 314.298.524.023 | 314.298.534.012 | 314.298.534.014 | 314.298.534.016 | 314.298.534.018 | 314.298.534.021 | 314.298.534.023 | 314.298.544.012 | 314.298.544.014 | 314.298.544.016 | 314.298.544.018 | 314.298.544.021 | 314.298.544.023",
+      "model": "dental bur, shape 298",
+      "variantCount": 23,
+      "variants": [
+        {
+          "variantLabel": "REF 314.298.514.012",
+          "manufacturerRef": "314.298.514.012",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.514.014",
+          "manufacturerRef": "314.298.514.014",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.514.016",
+          "manufacturerRef": "314.298.514.016",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.514.018",
+          "manufacturerRef": "314.298.514.018",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.514.021",
+          "manufacturerRef": "314.298.514.021",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.524.012",
+          "manufacturerRef": "314.298.524.012",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.524.014",
+          "manufacturerRef": "314.298.524.014",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.524.016",
+          "manufacturerRef": "314.298.524.016",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.524.018",
+          "manufacturerRef": "314.298.524.018",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.524.021",
+          "manufacturerRef": "314.298.524.021",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.524.023",
+          "manufacturerRef": "314.298.524.023",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.534.012",
+          "manufacturerRef": "314.298.534.012",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.534.014",
+          "manufacturerRef": "314.298.534.014",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.534.016",
+          "manufacturerRef": "314.298.534.016",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.534.018",
+          "manufacturerRef": "314.298.534.018",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.534.021",
+          "manufacturerRef": "314.298.534.021",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.534.023",
+          "manufacturerRef": "314.298.534.023",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.544.012",
+          "manufacturerRef": "314.298.544.012",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.544.014",
+          "manufacturerRef": "314.298.544.014",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.544.016",
+          "manufacturerRef": "314.298.544.016",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.544.018",
+          "manufacturerRef": "314.298.544.018",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.544.021",
+          "manufacturerRef": "314.298.544.021",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 314.298.544.023",
+          "manufacturerRef": "314.298.544.023",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Diamond Burs",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-314-298-514-012-2d3943262b.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-314-298-514-012-2d3943262b.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "21",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 21,
+        "normalizedCropBox": [
+          0.47,
+          0.185,
+          0.525,
+          0.415
+        ],
+        "visualMatchNote": "Official shape 298 bur image beside reference 314.298.514.012",
+        "outputImageSha256": "2d3943262b7db2b15b65c4ff290231dbeaf60dbd963b6cb04c2fb902eab45bc4",
+        "bytes": 85562,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-CB7L",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent CB7L",
+      "manufacturerRef": "CB7L",
+      "manufacturerRefs": "CB7L",
+      "model": "CB7L",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "REF CB7L",
+          "manufacturerRef": "CB7L",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Carbide Burs",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cb7l-7df362686a.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cb7l-7df362686a.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "27",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 27,
+        "normalizedCropBox": [
+          0.075,
+          0.46,
+          0.145,
+          0.705
+        ],
+        "visualMatchNote": "Official CB7L carbide bur family image",
+        "outputImageSha256": "7df362686a0db5abaceded0ada47e472b0f0276a2d0af75aa87acda98cb16532",
+        "bytes": 40672,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-CB21R",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent CB21R",
+      "manufacturerRef": "CB21R",
+      "manufacturerRefs": "CB21R",
+      "model": "CB21R",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "REF CB21R",
+          "manufacturerRef": "CB21R",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Carbide Burs",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cb21r-40e4d0f613.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cb21r-40e4d0f613.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "27",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 27,
+        "normalizedCropBox": [
+          0.08,
+          0.72,
+          0.15,
+          0.94
+        ],
+        "visualMatchNote": "Official CB21R carbide bur family image",
+        "outputImageSha256": "40e4d0f613cc12f90dc2d0a89b422b1dc3dfb19677417cc6dbc6f1aeaefff243",
+        "bytes": 38655,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-CF48LF",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent CF48LF",
+      "manufacturerRef": "CF48LF",
+      "manufacturerRefs": "CF48LF",
+      "model": "CF48LF",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "REF CF48LF",
+          "manufacturerRef": "CF48LF",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Carbide Burs",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf48lf-4685d9c1af.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf48lf-4685d9c1af.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "31",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 31,
+        "normalizedCropBox": [
+          0.1,
+          0.65,
+          0.18,
+          0.925
+        ],
+        "visualMatchNote": "Official CF48L family image listing the CF48LF variant",
+        "outputImageSha256": "4685d9c1afe474867f2dfde09d8ed113bb44c29aaa1c64e50ec2b02f7cf20d55",
+        "bytes": 54635,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-CF48LUF",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent CF48LUF",
+      "manufacturerRef": "CF48LUF",
+      "manufacturerRefs": "CF48LUF",
+      "model": "CF48LUF",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "REF CF48LUF",
+          "manufacturerRef": "CF48LUF",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Carbide Burs",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf48luf-ab6439d2aa.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf48luf-ab6439d2aa.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "31",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 31,
+        "normalizedCropBox": [
+          0.099,
+          0.645,
+          0.181,
+          0.93
+        ],
+        "visualMatchNote": "Official CF48L family image listing the CF48LUF variant",
+        "outputImageSha256": "ab6439d2aaf0694a40a9939804bf129b21ef9cae53cb78513f3ab65567793d87",
+        "bytes": 52828,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-CF141UF",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent CF141UF",
+      "manufacturerRef": "CF141UF",
+      "manufacturerRefs": "CF141UF",
+      "model": "CF141UF",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "REF CF141UF",
+          "manufacturerRef": "CF141UF",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Carbide Burs",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf141uf-e0b0945c1f.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf141uf-e0b0945c1f.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "33",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 33,
+        "normalizedCropBox": [
+          0.095,
+          0.255,
+          0.16,
+          0.515
+        ],
+        "visualMatchNote": "Official CF141 family image listing the CF141UF variant",
+        "outputImageSha256": "e0b0945c1fa3f5a76f74b5214520c0e504f8cf5f026c9747732a81b87b62dc97",
+        "bytes": 63601,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-CF142UF",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent CF142UF",
+      "manufacturerRef": "CF142UF",
+      "manufacturerRefs": "CF142UF",
+      "model": "CF142UF",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "REF CF142UF",
+          "manufacturerRef": "CF142UF",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Carbide Burs",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf142uf-d801b1fa00.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf142uf-d801b1fa00.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "33",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 33,
+        "normalizedCropBox": [
+          0.56,
+          0.25,
+          0.63,
+          0.52
+        ],
+        "visualMatchNote": "Official CF142 family image listing the CF142UF variant",
+        "outputImageSha256": "d801b1fa0006629b89139c878eba9bef2ded9e4be702a60b1c030f0b15f45aa8",
+        "bytes": 58848,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-CF198UF",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent CF198UF",
+      "manufacturerRef": "CF198UF",
+      "manufacturerRefs": "CF198UF",
+      "model": "CF198UF",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "REF CF198UF",
+          "manufacturerRef": "CF198UF",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Carbide Burs",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf198uf-8c246d5d12.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf198uf-8c246d5d12.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "33",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 33,
+        "normalizedCropBox": [
+          0.1,
+          0.655,
+          0.16,
+          0.925
+        ],
+        "visualMatchNote": "Official CF198 family image listing the CF198UF variant",
+        "outputImageSha256": "8c246d5d12baadf173be7963b13f8a35c5be590ddd4f420ceef2a85114706bc9",
+        "bytes": 56800,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-CF199UF",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent CF199UF",
+      "manufacturerRef": "CF199UF",
+      "manufacturerRefs": "CF199UF",
+      "model": "CF199UF",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "REF CF199UF",
+          "manufacturerRef": "CF199UF",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Carbide Burs",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf199uf-87c633933c.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf199uf-87c633933c.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "33",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 33,
+        "normalizedCropBox": [
+          0.56,
+          0.645,
+          0.63,
+          0.925
+        ],
+        "visualMatchNote": "Official CF199 family image listing the CF199UF variant",
+        "outputImageSha256": "87c633933c21d0b47a1204f5f2f051c23f92defd9f1e0d5974e7d143c4beab40",
+        "bytes": 57654,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-CF246UF",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent CF246UF",
+      "manufacturerRef": "CF246UF",
+      "manufacturerRefs": "CF246UF",
+      "model": "CF246UF",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "REF CF246UF",
+          "manufacturerRef": "CF246UF",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Carbide Burs",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf246uf-08b593490b.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf246uf-08b593490b.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "34",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 34,
+        "normalizedCropBox": [
+          0.07,
+          0.28,
+          0.15,
+          0.52
+        ],
+        "visualMatchNote": "Official CF246 family image listing the CF246UF variant",
+        "outputImageSha256": "08b593490b9ebbaedf6c43dfd527f4f100b7e8da0f0aa79b1ac2d8f7a90bc9b8",
+        "bytes": 62258,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-CF379F",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent CF379F",
+      "manufacturerRef": "CF379F",
+      "manufacturerRefs": "CF379F",
+      "model": "CF379F",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "REF CF379F",
+          "manufacturerRef": "CF379F",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Finishing Instruments",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf379f-e4404a23dd.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf379f-e4404a23dd.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "35",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 35,
+        "normalizedCropBox": [
+          0.09,
+          0.31,
+          0.16,
+          0.55
+        ],
+        "visualMatchNote": "Official CF379 family image listing the CF379F variant",
+        "outputImageSha256": "e4404a23dda27169f4357777ea345d417e7661a7c69d1565e42b00e8d70ca762",
+        "bytes": 80097,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-CF379UF",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent CF379UF",
+      "manufacturerRef": "CF379UF",
+      "manufacturerRefs": "CF379UF",
+      "model": "CF379UF",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "REF CF379UF",
+          "manufacturerRef": "CF379UF",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Finishing Instruments",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf379uf-ec7bc701bb.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf379uf-ec7bc701bb.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "35",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 35,
+        "normalizedCropBox": [
+          0.089,
+          0.305,
+          0.161,
+          0.555
+        ],
+        "visualMatchNote": "Official CF379 family image listing the CF379UF variant",
+        "outputImageSha256": "ec7bc701bb53f33a48e9edbb2e3f623c93e7317b5fc0da402ebd7f4df6bd6c72",
+        "bytes": 75147,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-CF390F",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent CF390F",
+      "manufacturerRef": "CF390F",
+      "manufacturerRefs": "CF390F",
+      "model": "CF390F",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "REF CF390F",
+          "manufacturerRef": "CF390F",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Finishing Instruments",
+      "description": "Official IQ Dent bur family. Exact shank, grit and diameter are encoded in the manufacturer reference.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf390f-6845175d18.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-cf390f-6845175d18.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+      "sourcePdfPages": "35",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/iqdent_katalog_web.pdf",
+        "officialPdfSha256": "5cf3e100cb5dc64e22a60f8d552f13ce4aab34038c7ffc24d5c6242e10ed1765",
+        "pdfPage": 35,
+        "normalizedCropBox": [
+          0.56,
+          0.3,
+          0.64,
+          0.55
+        ],
+        "visualMatchNote": "Official CF390 family image listing the CF390F variant",
+        "outputImageSha256": "6845175d1834e1364c106ff8d94a27d63437b2a90187050a6e50c0f6353d049f",
+        "bytes": 65837,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-INSTRUMENT-05-03",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent PERIODONTAL EXCAVATORS",
+      "manufacturerRef": "05-03",
+      "manufacturerRefs": "05-03",
+      "model": "05-03",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PERIODONTAL EXCAVATORS · standard",
+          "manufacturerRef": "05-03",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Hand instruments / Excavators and carvers",
+      "description": "Official IQ Dent hand instrument, catalogue reference 05-03.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-05-03-4c625db87a.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-05-03-4c625db87a.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/AKTUALNY_KATALOG_IQ_03.01_web.pdf",
+      "sourcePdfPages": "20",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/AKTUALNY_KATALOG_IQ_03.01_web.pdf",
+        "officialPdfSha256": "c7801b9f3055d9ac6130324b531700af80cb1f156cab35bb978fb984d45917cc",
+        "pdfPage": 20,
+        "normalizedCropBox": [
+          [
+            0.55,
+            0.69,
+            0.62,
+            0.92
+          ],
+          [
+            0.63,
+            0.69,
+            0.69,
+            0.92
+          ]
+        ],
+        "visualMatchNote": "Official two working-end views for periodontal excavator 05-03",
+        "outputImageSha256": "4c625db87a5ed19f54cf31c037adbf4d5227428056d6ae9d47c33af4fabbf4a1",
+        "bytes": 139848,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-INSTRUMENT-13-10",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent LIGATURE PUSHER WITH LINGUAL LIGATURE PUSHER",
+      "manufacturerRef": "13-10",
+      "manufacturerRefs": "13-10",
+      "model": "13-10",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LIGATURE PUSHER WITH LINGUAL LIGATURE PUSHER · standard",
+          "manufacturerRef": "13-10",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Hand instruments / Orthodontic instruments",
+      "description": "Official IQ Dent hand instrument, catalogue reference 13-10.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-13-10-a7bfa4af7b.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-13-10-a7bfa4af7b.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/AKTUALNY_KATALOG_IQ_03.01_web.pdf",
+      "sourcePdfPages": "32",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/AKTUALNY_KATALOG_IQ_03.01_web.pdf",
+        "officialPdfSha256": "c7801b9f3055d9ac6130324b531700af80cb1f156cab35bb978fb984d45917cc",
+        "pdfPage": 32,
+        "normalizedCropBox": [
+          [
+            0.57,
+            0.7,
+            0.635,
+            0.92
+          ],
+          [
+            0.65,
+            0.7,
+            0.71,
+            0.92
+          ]
+        ],
+        "visualMatchNote": "Official two working-end views for ligature pusher 13-10",
+        "outputImageSha256": "a7bfa4af7bcdb95c513abac50ebbe0d5fdb29d63a843747c5a5539d830247c0e",
+        "bytes": 148102,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-STERILIZATION-CASSETTE-5",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent sterilization cassette for 5 instruments",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "5-instrument cassette",
+      "variantCount": 8,
+      "variants": [
+        {
+          "variantLabel": "5 instruments · Pink",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "5 instruments · Orange",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "5 instruments · Dark green",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "5 instruments · Blue",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "5 instruments · Navy blue",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "5 instruments · Purple",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "5 instruments · Light green",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "5 instruments · Manufacturer color option to verify",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Sterilization cassettes",
+      "description": "Stainless-steel sterilization cassette for 5 instruments with selectable silicone-band color.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-iqdent-sterilization-cassette-5-453d915093.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-iqdent-sterilization-cassette-5-453d915093.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/AKTUALNY_KATALOG_IQ_03.01_web.pdf",
+      "sourcePdfPages": "40",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/AKTUALNY_KATALOG_IQ_03.01_web.pdf",
+        "officialPdfSha256": "c7801b9f3055d9ac6130324b531700af80cb1f156cab35bb978fb984d45917cc",
+        "pdfPage": 40,
+        "normalizedCropBox": [
+          0.18,
+          0.19,
+          0.43,
+          0.55
+        ],
+        "visualMatchNote": "Official IQ Dent cassette for 5 instruments, green-band option",
+        "outputImageSha256": "453d91509352967d937e3966123000d81106002882bf5b02757cb1e51af8a47c",
+        "bytes": 356425,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-STERILIZATION-CASSETTE-10",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent sterilization cassette for 10 instruments",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "10-instrument cassette",
+      "variantCount": 8,
+      "variants": [
+        {
+          "variantLabel": "10 instruments · Pink",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "10 instruments · Orange",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "10 instruments · Dark green",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "10 instruments · Blue",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "10 instruments · Navy blue",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "10 instruments · Purple",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "10 instruments · Light green",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "10 instruments · Manufacturer color option to verify",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Sterilization cassettes",
+      "description": "Stainless-steel sterilization cassette for 10 instruments with selectable silicone-band color.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-iqdent-sterilization-cassette-10-8b35a07c54.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-iqdent-sterilization-cassette-10-8b35a07c54.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/AKTUALNY_KATALOG_IQ_03.01_web.pdf",
+      "sourcePdfPages": "40",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/AKTUALNY_KATALOG_IQ_03.01_web.pdf",
+        "officialPdfSha256": "c7801b9f3055d9ac6130324b531700af80cb1f156cab35bb978fb984d45917cc",
+        "pdfPage": 40,
+        "normalizedCropBox": [
+          0.09,
+          0.615,
+          0.5,
+          0.95
+        ],
+        "visualMatchNote": "Official IQ Dent cassette for 10 instruments, pink-band option",
+        "outputImageSha256": "8b35a07c54e774041e721cc7232fa4be4942d07fb0fb8f6f537e037e0d9157d4",
+        "bytes": 726803,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    },
+    {
+      "officialProductId": "IQDENT-STERILIZATION-CASSETTE-20",
+      "brand": "IQ Dent",
+      "manufacturer": "IQdent Sp. z o.o.",
+      "name": "IQ Dent sterilization cassette for 20 instruments",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "20-instrument cassette",
+      "variantCount": 8,
+      "variants": [
+        {
+          "variantLabel": "20 instruments · Pink",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "20 instruments · Orange",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "20 instruments · Dark green",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "20 instruments · Blue",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "20 instruments · Navy blue",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "20 instruments · Purple",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "20 instruments · Light green",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "20 instruments · Manufacturer color option to verify",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "IQ Dent / Sterilization cassettes",
+      "description": "Stainless-steel sterilization cassette for 20 instruments with selectable silicone-band color.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-iqdent-sterilization-cassette-20-027fb1b1fa.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-iqdent-manual-iqdent-sterilization-cassette-20-027fb1b1fa.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://iqdent.pl/wp-content/uploads/2025/01/AKTUALNY_KATALOG_IQ_03.01_web.pdf",
+      "sourcePdfPages": "41",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PDF_VISUALLY_VERIFIED_EXACT_CROP",
+        "officialPdfUrl": "https://iqdent.pl/wp-content/uploads/2025/01/AKTUALNY_KATALOG_IQ_03.01_web.pdf",
+        "officialPdfSha256": "c7801b9f3055d9ac6130324b531700af80cb1f156cab35bb978fb984d45917cc",
+        "pdfPage": 41,
+        "normalizedCropBox": [
+          0.17,
+          0.25,
+          0.84,
+          0.58
+        ],
+        "visualMatchNote": "Official IQ Dent cassette for 20 instruments, green-band option",
+        "outputImageSha256": "027fb1b1fa4a556168784cbad692661d0cbbd45824c37141fd6cfb164909073c",
+        "bytes": 552802,
+        "contentType": "image/png",
+        "noGeneratedGeometry": true
+      }
+    }
+  ],
+  "review": []
+}

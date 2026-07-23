@@ -1,0 +1,3795 @@
+{
+  "brand": "Woodpecker",
+  "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+  "sourceType": "CURRENT_OFFICIAL_WEBSITE_PRODUCT_API",
+  "sourceUrl": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "allCurrentEnglishApiProductsCollected": true,
+    "exactOfficialMenuImagesPreserved": true,
+    "apiIdsPreservedAsStableOfficialIdentity": true,
+    "noManufacturerReferenceInvented": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "apiTotal": 146,
+    "discoveredProducts": 145,
+    "variantSkus": 145,
+    "productsWithImages": 145,
+    "productsWithReferences": 0,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "WOODPECKER-411",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "812 MT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "812 MT",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "812 MT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Endo Motor and Apex Locator",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/7adcdd75c4eead4dcc6a3b3060e8f6a4.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/7adcdd75c4eead4dcc6a3b3060e8f6a4.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=411",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-481",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "ABC",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ABC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ABC",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 191",
+      "description": "ABC project is gaining momentum worldwide",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/b395be048f87a44354fdf0929f69f353.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/b395be048f87a44354fdf0929f69f353.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=481",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-513",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Access Cavity Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Access Cavity Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Access Cavity Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 171",
+      "description": "Dr Arnaldo Castellucci's Access Cavity Kit",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20251030/7c271bec2e769904249dcd57f040ea2c.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20251030/7c271bec2e769904249dcd57f040ea2c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=513",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-380",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Ai Ray",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ai Ray",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ai Ray",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 137",
+      "description": "Woodpecker First Dental X-Ray Device",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f4cc7b06c7eece35018d831be66f18a4.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f4cc7b06c7eece35018d831be66f18a4.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=380",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-502",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Ai Ray Pro",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ai Ray Pro",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ai Ray Pro",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 137",
+      "description": "Intelligent Positioning System Currently not available in US",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/6531b3cb063bd8777f36953e87ee3b56.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/6531b3cb063bd8777f36953e87ee3b56.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=502",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-320",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Ai-Motor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ai-Motor",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ai-Motor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "1st Brushless endo motor by woodpecker",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/e0c9a8beca6fcd9cac67c06b3df52e6a.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/e0c9a8beca6fcd9cac67c06b3df52e6a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=320",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-232",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Ai-Motor(T-mode)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ai-Motor(T-mode)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ai-Motor(T-mode)",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Designed by Dr.Yoshi Terauchi",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/6bd51688f98271c94d61cc34df0b0860.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/6bd51688f98271c94d61cc34df0b0860.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=232",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-205",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Ai-Pex",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ai-Pex",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ai-Pex",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 144",
+      "description": "Apex Locator with Pulp Tester",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/c8c9da7797516c00cdb38d849deffbda.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/c8c9da7797516c00cdb38d849deffbda.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=205",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-458",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Ai-surgery",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ai-surgery",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ai-surgery",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 139",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/56f603dbcc506bf1a1f765b5e1ba7ee9.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/56f603dbcc506bf1a1f765b5e1ba7ee9.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=458",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-489",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Altaqi Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Altaqi Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Altaqi Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 171",
+      "description": "Piezo Endo Surgery",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/c774aeb55e9cfe6cda64e0075e83fe8c.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/c774aeb55e9cfe6cda64e0075e83fe8c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=489",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-372",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "AP-A",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "AP-A",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AP-A",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 140",
+      "description": "More efficient scaling",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/0a8ebff1c48655deeaeaddd4b2a66847.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/0a8ebff1c48655deeaeaddd4b2a66847.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=372",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-371",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "AP-B",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "AP-B",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AP-B",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 140",
+      "description": "Faster scaling",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/946a01f3347e5f4ead4dc31c1f8fde5c.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/946a01f3347e5f4ead4dc31c1f8fde5c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=371",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-342",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "AP-H",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "AP-H",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AP-H",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 140",
+      "description": "Woodpecker Dental Air polisher",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/b11770f926f7dfc8b1934730de854e3d.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/b11770f926f7dfc8b1934730de854e3d.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=342",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-508",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Azim's Retro-Preparation Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Azim's Retro-Preparation Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Azim's Retro-Preparation Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 171",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/99f8a47edcc9e00d4bdbd0b393e80e37.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/99f8a47edcc9e00d4bdbd0b393e80e37.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=508",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-353",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "B-Cure",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "B-Cure",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "B-Cure",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "New generation of wide-spectrum LED Ortho mode 3 seconds for curing Continuous power supply Multiple preferred modes Meet different clinical needs",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/be0fee92c7f6b14ec08a5c093790b329.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/be0fee92c7f6b14ec08a5c093790b329.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=353",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-423",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "BFRT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "BFRT",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BFRT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 171",
+      "description": "Retrieval with Ease",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/0b345d6feffa95a869c13873b2e8798a.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/0b345d6feffa95a869c13873b2e8798a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=423",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-485",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Contra-Angle Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Contra-Angle Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Contra-Angle Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 192",
+      "description": "Compact design, effortless control",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260623/83dad1122283c03c5bb888aa96bd898e.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260623/83dad1122283c03c5bb888aa96bd898e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=485",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-257",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "D-Laser 16",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "D-Laser 16",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "D-Laser 16",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 152",
+      "description": "High Power Dental Diode Lasers",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/225a60e9c68b31b26785d67a06627704.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/225a60e9c68b31b26785d67a06627704.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=257",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-447",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "D-Laser Blue",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "D-Laser Blue",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "D-Laser Blue",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 152",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/fb33f49ef6e7855295f7d6b5fc8d9a3a.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/fb33f49ef6e7855295f7d6b5fc8d9a3a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=447",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-265",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "D1",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "D1",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "D1",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "High-quality handpiece: Technical Specications Crafted with premium U.S. aerospace-grade materials for crack-resistant durability High-peormance U.S. titanium alloy ensures superior operational eciency Tips: GD1×2, GD2, GD4, PD1",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/7ca3ac9e620268ceb3ef6684c76d89c3.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/7ca3ac9e620268ceb3ef6684c76d89c3.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=265",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-266",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "D2 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "D2 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "D2 LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "· Sealed handpiece with light, better visibility. · The handpiece sleeve can be autoclaved. · Automatic frequency tracking. · Automatically search the best working frequency. Tips: GD1×2 GD2 PD1",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/cc226790108e3d641059332cab00be1d.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/cc226790108e3d641059332cab00be1d.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=266",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-267",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "D3 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "D3 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "D3 LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/6a7fc172ae53df88eb4802ff0e37c1ff.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/6a7fc172ae53df88eb4802ff0e37c1ff.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=267",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-268",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "D5 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "D5 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "D5 LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "Detachable handpiece with light enables better visibility. Automatic degenerative feedback and constant power output brings rather comfortable scaling. Tips: ED1T GD1T×2 GD2T GD4T PD1T",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/4ef154363c0852f05b39b62637a01bf1.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/4ef154363c0852f05b39b62637a01bf1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=268",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-269",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "D6 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "D6 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "D6 LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "﹒Scaling, perio, endo. ﹒Automatic frequency tracking. ﹒Accurate feedback control and constant power output, ensure a more comfortable feeling to patients. ﹒Tips: ED1, GD1×2, GD2, GD4, PD1",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/fe1d77befdc8e10985d03ed275eed676.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/fe1d77befdc8e10985d03ed275eed676.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=269",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-234",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "D600 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "D600 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "D600 LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "Pleasant & Efficient",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/9f6654d197d301b983d3ade55654c240.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/9f6654d197d301b983d3ade55654c240.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=234",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-270",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "D7 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "D7 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "D7 LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "·Scaling, perio, endo function. ·Auto water supply, feasible for clinical solutions under this mode. ·New design detachable handpiece, comfortable to grip. ·No heat from tip during operation. Patient feels more comfortable.",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/3c331f6c0d71fc50dce1c86c3b155edc.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/3c331f6c0d71fc50dce1c86c3b155edc.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=270",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-432",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "D8 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "D8 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "D8 LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "Reliable Allstar",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/bdf96cb5161817d97b9e7cf24370ea5a.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/bdf96cb5161817d97b9e7cf24370ea5a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=432",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-498",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Dental Cart",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dental Cart",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dental Cart",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 171",
+      "description": "Dental Cart",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/b52fafbba7ce832b464343bcf8c90c8e.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/b52fafbba7ce832b464343bcf8c90c8e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=498",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-275",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "DPEX III",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "DPEX III",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DPEX III",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 144",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/cf6ef76852133970ab5deca241cbdf95.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/cf6ef76852133970ab5deca241cbdf95.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=275",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-455",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Dpex V",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dpex V",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dpex V",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 144",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/758d5f58a195339a1fc6d4baf9c57d06.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/758d5f58a195339a1fc6d4baf9c57d06.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=455",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-483",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Dpex X",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dpex X",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dpex X",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 144",
+      "description": "Precision Beyond Measure",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/31ea81c27e0bb61e1f6e9974736ced6c.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/31ea81c27e0bb61e1f6e9974736ced6c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=483",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-493",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Dpex X MHN",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dpex X MHN",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dpex X MHN",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 144",
+      "description": "Micro Hole Negotiator",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/8f1e6dbcba6d7c22c2667ed7935d2ee8.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/8f1e6dbcba6d7c22c2667ed7935d2ee8.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=493",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-536",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Dr. Talal' Endo Kit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Dr. Talal' Endo Kit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dr. Talal' Endo Kit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 171",
+      "description": "Endodontic Ultrasonic Tips",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/9272f6c2cb3b3fb9bd1024b6c86ea7e5.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/9272f6c2cb3b3fb9bd1024b6c86ea7e5.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=536",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-528",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Drive X",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Drive X",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Drive X",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 145",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260618/818ad2723bac4a3d6030a268e180f3f7.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260618/818ad2723bac4a3d6030a268e180f3f7.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=528",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-365",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "DS-II LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "DS-II LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "DS-II LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 139",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f8a13e3866d0d05b9bce537e64f10122.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f8a13e3866d0d05b9bce537e64f10122.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=365",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-336",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "E-COM",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "E-COM",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "E-COM",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Effectively prevent meedle breakage",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f97f584d31f8ae886e0cbc63653b65c9.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f97f584d31f8ae886e0cbc63653b65c9.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=336",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-334",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "E-COM+",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "E-COM+",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "E-COM+",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Combined length determination mode",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/a10c7d86409448082c1e8be57e82195d.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/a10c7d86409448082c1e8be57e82195d.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=334",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-256",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "ENDO 1",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ENDO 1",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ENDO 1",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 146",
+      "description": "Ultrasonic Endo Activator",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/968ca6dfbfe849209bdd67b4008fdd54.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/968ca6dfbfe849209bdd67b4008fdd54.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=256",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-401",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo 3",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo 3",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo 3",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 146",
+      "description": "Ultrasonic Endo Activate Device",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/1238e631eba4dbdab25901c627399e4e.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/1238e631eba4dbdab25901c627399e4e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=401",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-384",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo Free",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo Free",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo Free",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Woodpecker Brushless Endo Motor",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/74acb3892d01c3b24f63125f8a9a8bc4.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/74acb3892d01c3b24f63125f8a9a8bc4.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=384",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-506",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo Gold",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo Gold",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo Gold",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/ce41d23cf010d52463fdaa68faf2d2b2.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/ce41d23cf010d52463fdaa68faf2d2b2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=506",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-530",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo GT Series",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo GT Series",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo GT Series",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "THE FUTURE OF ENDODONTICS",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/64ade1ca1066188f33ad5ec11702eaf5.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/64ade1ca1066188f33ad5ec11702eaf5.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=530",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-390",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo Pace",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo Pace",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo Pace",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Woodpecker Brushless Endo Motor",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/15b1c715659a7988ee868e823e3152aa.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/15b1c715659a7988ee868e823e3152aa.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=390",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-313",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo Radar",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo Radar",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo Radar",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Wireless endo moto covers apex locator",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/8ad0cda6c95890baaf2527b7748b1339.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/8ad0cda6c95890baaf2527b7748b1339.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=313",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-322",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo Radar Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo Radar Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo Radar Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Full touch button desigh",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/fbedbe0bed4c4f11dad9652628bec8c8.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/fbedbe0bed4c4f11dad9652628bec8c8.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=322",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-400",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo Radar pro",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo Radar pro",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo Radar pro",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Endo Motor",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/22b126c7e18fd7300062d9af6b154fe9.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/22b126c7e18fd7300062d9af6b154fe9.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=400",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-487",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo Radar Pro ARI",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo Radar Pro ARI",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo Radar Pro ARI",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Función 2 en 1",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/96d57d68831a243147867983a86cc915.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/96d57d68831a243147867983a86cc915.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=487",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-425",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo Smart",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo Smart",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo Smart",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Effectively prevent needle breakage",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/8a992fd2cb3625e59aeccb33a3391672.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/8a992fd2cb3625e59aeccb33a3391672.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=425",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-424",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo Smart Pro",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo Smart Pro",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo Smart Pro",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Brushless ENDO MOTOR",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f75aeb9ec501aab2e406dd0d59014978.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f75aeb9ec501aab2e406dd0d59014978.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=424",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-330",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo Smart+",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo Smart+",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo Smart+",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Brushless Endo Motor",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/ea4d22bf8cdc7e4745631b8c197150d6.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/ea4d22bf8cdc7e4745631b8c197150d6.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=330",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-491",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Endo Space",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Endo Space",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo Space",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Brushless Endo Motor",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/4bfcbabcdfe70deee1fdf136fcea8620.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/4bfcbabcdfe70deee1fdf136fcea8620.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=491",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-325",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "EndoMatic",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "EndoMatic",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "EndoMatic",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "Plastic contra-angle",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/573bf4c03810629251dea2bacac67862.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/573bf4c03810629251dea2bacac67862.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=325",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-413",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "ES5",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ES5",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ES5",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 147",
+      "description": "Next Solution for Teeth Extraction",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/c83b276bdf3986d8d50f9b2d9d4f9b4b.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/c83b276bdf3986d8d50f9b2d9d4f9b4b.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=413",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-370",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Fi-E & Fi-P",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fi-E & Fi-P",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Fi-E & Fi-P",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 143",
+      "description": "Wireless and Electric",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/b80ea4b2b43b782f899e302e1c00c7f3.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/b80ea4b2b43b782f899e302e1c00c7f3.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=370",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-535",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Fi-E & Fi-P Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fi-E & Fi-P Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Fi-E & Fi-P Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 143",
+      "description": "Wireless and Electric",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/0cac0fcdf32bce4509774872e022f32e.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/0cac0fcdf32bce4509774872e022f32e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=535",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-328",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Fi-N",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fi-N",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Fi-N",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 143",
+      "description": "Plugger",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/111e8a6c12af6420ef8775242bf0f80d.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/111e8a6c12af6420ef8775242bf0f80d.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=328",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-243",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Fi-P Fi-G",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fi-P Fi-G",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Fi-P Fi-G",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 143",
+      "description": "Gutta-percha Obturation System",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/887c92ec49d72c1bed41fa5f06c1bb5a.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/887c92ec49d72c1bed41fa5f06c1bb5a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=243",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-368",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Free Scan",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Free Scan",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Free Scan",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 137",
+      "description": "Good-looking and handy Currently not available in US",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/63821f831d7faff2ce2854234ff4c891.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/63821f831d7faff2ce2854234ff4c891.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=368",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-475",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "HP Series Dental Turbine Handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "HP Series Dental Turbine Handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "HP Series Dental Turbine Handpiece",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 153",
+      "description": "🚀Unleash the power of precision with Woodpecker's HP Series Dental Turbine Handpiece! Rebirth in Dentistry, making Smiles Shine Brighter😆 🌟German ceramic bearing 🌟Well sealed clamping structure 🌟Austenitic stainless steel body 🌟Triple spray 🌟Water",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260623/2244de0f16ebfdfaec571a04f007bcc6.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260623/2244de0f16ebfdfaec571a04f007bcc6.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=475",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-311",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "i LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "i LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "i LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "1S for curing Constant-current drive Meticulous Fluid Design",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/35b5eacc37b90108692fd539d960c2be.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/35b5eacc37b90108692fd539d960c2be.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=311",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-4",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "i-Scan",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "i-Scan",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "i-Scan",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 137",
+      "description": "Powerful processing capability",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/22bba78b1bf08683a340479e9cc7277b.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/22bba78b1bf08683a340479e9cc7277b.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=4",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-547",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "i-Sensor H1 / 1.5 / 2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "i-Sensor H1 / 1.5 / 2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "i-Sensor H1 / 1.5 / 2",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 137",
+      "description": "Thinner Clearer Smarter",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/2c6e0cff711cc1fa784764f0acb1f036.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/2c6e0cff711cc1fa784764f0acb1f036.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=547",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-468",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "iLed",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "iLed",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "iLed",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/7ccdaa88318ce457bae1150dede120a6.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/7ccdaa88318ce457bae1150dede120a6.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=468",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-247",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "iLed II",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "iLed II",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "iLed II",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "Upgraded focused light output Magnetic Point Cure Lens 3 modes for option Intensity up to 3000 mw/cm² 1 Sec for curing Upgraded wide spectrum",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/45f1d377b891106274fc37a04b303b95.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/45f1d377b891106274fc37a04b303b95.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=247",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-412",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Implant Air",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Implant Air",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Implant Air",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 145",
+      "description": "Precise Reliable Simple",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260618/61aca87a806f023f17754a00649db506.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260618/61aca87a806f023f17754a00649db506.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=412",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-278",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Implant-X",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Implant-X",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Implant-X",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 145",
+      "description": "Precision Strength Safety",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260618/ef24575b65f71ee6fa643b988d081f7d.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260618/ef24575b65f71ee6fa643b988d081f7d.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=278",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-277",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Implanter",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Implanter",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Implanter",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 145",
+      "description": "Precision Strength Safety",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260618/541d5fb5a30e1f842f60a5282dea404a.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260618/541d5fb5a30e1f842f60a5282dea404a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=277",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-251",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "K-PO",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "K-PO",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "K-PO",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 151",
+      "description": "Woodpecker Cordless Prophy Motor",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f14fd4abfae65d270b7ce256440d5185.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f14fd4abfae65d270b7ce256440d5185.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=251",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-347",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LED.B",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LED.B",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED.B",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/c725f1a8acbd10657ca3e41e52889392.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/c725f1a8acbd10657ca3e41e52889392.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=347",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-349",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LED.C",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LED.C",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED.C",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/5038a0dfe6261858300b2da53ad59eb6.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/5038a0dfe6261858300b2da53ad59eb6.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=349",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-348",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LED.D",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LED.D",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED.D",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/8ce3da065508d9d0087b96f8f8df9c17.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/8ce3da065508d9d0087b96f8f8df9c17.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=348",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-346",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LED.F",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LED.F",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED.F",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/67de0a7e4a47f9e95399519f7dc88eab.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/67de0a7e4a47f9e95399519f7dc88eab.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=346",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-522",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LED.F Pro",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LED.F Pro",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED.F Pro",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/67de0a7e4a47f9e95399519f7dc88eab.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/67de0a7e4a47f9e95399519f7dc88eab.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=522",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-351",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LED.G",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LED.G",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED.G",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/f20b135bc801ba96aef60cfd0b244255.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/f20b135bc801ba96aef60cfd0b244255.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=351",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-379",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LED.H",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LED.H",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED.H",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/22f02c53638812490a3beafaeb0421be.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/22f02c53638812490a3beafaeb0421be.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=379",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-350",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LED.H ORTHO",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LED.H ORTHO",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED.H ORTHO",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/50066a4d508536526c22dbc47e3197a1.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/50066a4d508536526c22dbc47e3197a1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=350",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-352",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LED.Q",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LED.Q",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LED.Q",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/e7374a026b8b9b51074a5294631e8e11.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/e7374a026b8b9b51074a5294631e8e11.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=352",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-264",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LUX E PLus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LUX E PLus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LUX E PLus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/460486f2df7d2122696fab026169d363.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/460486f2df7d2122696fab026169d363.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=264",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-261",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LUX I",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LUX I",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LUX I",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/d071fbb1616953e8129e1a30768ad647.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/d071fbb1616953e8129e1a30768ad647.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=261",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-263",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LUX V",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LUX V",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LUX V",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/a2feb664cda4b7aad40c620dfe17cb66.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/a2feb664cda4b7aad40c620dfe17cb66.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=263",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-260",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LUX VI",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LUX VI",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LUX VI",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "Pioneering of curing light in China",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/859cfd95c98ddeabc297bb21d9b52891.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/859cfd95c98ddeabc297bb21d9b52891.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=260",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-253",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LX16",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LX16",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LX16",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 152",
+      "description": "High Power Dental Diode Lasers",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/b3ab877d860d7747e8b60f3a308d200b.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/b3ab877d860d7747e8b60f3a308d200b.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=253",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-252",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "LX16 Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "LX16 Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "LX16 Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 152",
+      "description": "Blue Semiconductor Laser Therapy Device",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/7b8b8071fd1d4a949c2b155e8972030d.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/7b8b8071fd1d4a949c2b155e8972030d.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=252",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-406",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "M2 Pro",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "M2 Pro",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "M2 Pro",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 147",
+      "description": "Dental Electric Motor",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/2bf87a5f8c2ce09090e5ba663eab1470.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/2bf87a5f8c2ce09090e5ba663eab1470.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=406",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-442",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Master Ray",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Master Ray",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Master Ray",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 137",
+      "description": "Compact Lightweight Powerful",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/90907f3d777f80791dad029ac419736a.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/90907f3d777f80791dad029ac419736a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=442",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-422",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Mini Ray",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Mini Ray",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Mini Ray",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 137",
+      "description": "Power Meets Clarity Currently not available in US",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/a5769e8d9bb7a11e6809818599238b5f.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/a5769e8d9bb7a11e6809818599238b5f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=422",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-524",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Mini Ray Pro",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Mini Ray Pro",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Mini Ray Pro",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 137",
+      "description": "Currently not available in US",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/84b30f2e712a768d3dcfaa1f0a819806.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/84b30f2e712a768d3dcfaa1f0a819806.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=524",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-345",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "MINIPEX",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "MINIPEX",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "MINIPEX",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 144",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/d1c08eba3e7d92d50e2ea7579a34877c.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/d1c08eba3e7d92d50e2ea7579a34877c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=345",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-363",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "MINIS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "MINIS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "MINIS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "Woodpecker High Quality Manufactured",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/9339a78ba9e05accb23ef897af24dbe2.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/9339a78ba9e05accb23ef897af24dbe2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=363",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-321",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "MotoPex",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "MotoPex",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "MotoPex",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 142",
+      "description": "High performance brushless motor",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/9af29f1b43ad3ed078ae11cce564a137.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/9af29f1b43ad3ed078ae11cce564a137.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=321",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-312",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "MT2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "MT2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "MT2",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 147",
+      "description": "Dental Electric Motor",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/7e08852f1b0198f8e131a6137e3584b5.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/7e08852f1b0198f8e131a6137e3584b5.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=312",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-426",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "MT3",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "MT3",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "MT3",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 147",
+      "description": "Dental Electric Motor",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/dd0b5da695e32e993845b2928c9e0b4e.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/dd0b5da695e32e993845b2928c9e0b4e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=426",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-523",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "My Star",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "My Star",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "My Star",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260710/5cb06e86bcfe1cfa0321b68932da5ceb.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260710/5cb06e86bcfe1cfa0321b68932da5ceb.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=523",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-246",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "O-Light II",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "O-Light II",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "O-Light II",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "Upgraded focused light output Magnetic Point Cure Lens 3 modes for option Intensity up to 3000 mw/cm² 1 Sec for curing Upgraded wide spectrum",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/31f1bdd4592103b1aead2d0359e7c059.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/31f1bdd4592103b1aead2d0359e7c059.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=246",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-361",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "O-Light Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "O-Light Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "O-Light Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "CONSTANT POWER OUTPUT 360°CURING FLUID DESIGN 1 SEC.FOR CURING",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/d69d7be6f14265543ddee1ea01cd34c4.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/d69d7be6f14265543ddee1ea01cd34c4.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=361",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-316",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "O-Star",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "O-Star",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "O-Star",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "Wide-spectrum curing light",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/4573ea385b2f899e440bf1d8fd0becb7.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/4573ea385b2f899e440bf1d8fd0becb7.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=316",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-492",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "O-Star Pro",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "O-Star Pro",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "O-Star Pro",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "Master of Uniform Cure",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/bd142089e27e56f74893bc3a049ffe58.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/bd142089e27e56f74893bc3a049ffe58.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=492",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-419",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Product collection",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Product collection",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Product collection",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 169",
+      "description": "Product collection",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20230531/2e5143d3b29dfcb490f4f94bd49bef76.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20230531/2e5143d3b29dfcb490f4f94bd49bef76.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=419",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-478",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Prophy Mini",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Prophy Mini",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Prophy Mini",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 151",
+      "description": "Upgraded Brushless Prophy Motor",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/98e12de3b9f9afdad359bc886bc69486.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/98e12de3b9f9afdad359bc886bc69486.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=478",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-296",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Prophylaxis Powder",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Prophylaxis Powder",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Prophylaxis Powder",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 140",
+      "description": "Super Gentle Fast",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f6af1e656411ed578c029a63965125fa.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f6af1e656411ed578c029a63965125fa.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=296",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-204",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "PT-A",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PT-A",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PT-A",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 140",
+      "description": "Dental Scaler and Air Polisher",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/7936c3d741d1968c70efe4b64369e335.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/7936c3d741d1968c70efe4b64369e335.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=204",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-534",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "PT-B",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PT-B",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PT-B",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 140",
+      "description": "Comfort Reigns Convenience Rules",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/ce1d6e14a522ba8ece8aaf88b2088ac5.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/ce1d6e14a522ba8ece8aaf88b2088ac5.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=534",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-532",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "PT-B mini",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PT-B mini",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PT-B mini",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 140",
+      "description": "Focused on Airstream",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/08a8dce399ff2658f57b419cddd75722.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/08a8dce399ff2658f57b419cddd75722.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=532",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-499",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "PT-E",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PT-E",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PT-E",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 140",
+      "description": "Dental Scaler and Air Polisher",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/58c230ad7012ba947dcaf72ac2182f3c.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/58c230ad7012ba947dcaf72ac2182f3c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=499",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-314",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "PT3",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PT3",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PT3",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 150",
+      "description": "Ahead of time redefine painless treatment",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260611/380841ff8eb980c513ccc7c29ecdbb6b.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260611/380841ff8eb980c513ccc7c29ecdbb6b.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=314",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-318",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "PT5",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PT5",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PT5",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 150",
+      "description": "Redefine painless treatment",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260611/fe76b4806ed8318e479057724f3ba251.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260611/fe76b4806ed8318e479057724f3ba251.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=318",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-531",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "PT8",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PT8",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PT8",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 150",
+      "description": "Carving a Path to Unsurpassed Dental Hygiene",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260623/c48b8589528af0b6a70ad4995733703a.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260623/c48b8589528af0b6a70ad4995733703a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=531",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-323",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "R1 Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "R1 Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "R1 Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 143",
+      "description": "Gutta-percha Cutter",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/00bb156265a1d3dc35abd41d38ac2268.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/00bb156265a1d3dc35abd41d38ac2268.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=323",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-450",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "S6 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "S6 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "S6 LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/d01229f107255b709f415bf8ce1e1625.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/d01229f107255b709f415bf8ce1e1625.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=450",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-443",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Smart Ray",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Smart Ray",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Smart Ray",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 137",
+      "description": "Compact Lightweight Powerful Currently not available in US",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/a8ec5e8bc271a75e1ed340dd5a8d88f1.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/a8ec5e8bc271a75e1ed340dd5a8d88f1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=443",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-507",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Smart Ray Pro",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Smart Ray Pro",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Smart Ray Pro",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 137",
+      "description": "Currently not available in US",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/a80d637b66bf096f090f5486ee11bc39.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/a80d637b66bf096f090f5486ee11bc39.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=507",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-397",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Star Pen",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Star Pen",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Star Pen",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 161",
+      "description": "AI algorithm control Precise drug delivery Two adjustable injection speeds Intelligent prompts Soothing music Wireless charging One-button operation, more convenient",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260204/585f7a688b74d1226fadffbf84fb2418.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260204/585f7a688b74d1226fadffbf84fb2418.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=397",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-399",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Super Pen",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Super Pen",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Super Pen",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 161",
+      "description": "Dental Anesthesia Device",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20220803/1e5f56c65b71f1434fd6f6f15c646e77.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20220803/1e5f56c65b71f1434fd6f6f15c646e77.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=399",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-242",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Surgery-X",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Surgery-X",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Surgery-X",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 139",
+      "description": "Micron cutting",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/9164bb1b266e23c0cc2d1a81113c4a6f.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/9164bb1b266e23c0cc2d1a81113c4a6f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=242",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-388",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Surgic Smart",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Surgic Smart",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Surgic Smart",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 139",
+      "description": "Woodpecker Piezo Bone Surgery",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/6716da8d769fd1a9f23c09051ec094cb.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/6716da8d769fd1a9f23c09051ec094cb.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=388",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-480",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Surgic Smart ENT",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Surgic Smart ENT",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Surgic Smart ENT",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 139",
+      "description": "Piezo Bone Surgery For Rhinoplasty",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20240708/23a528eb9ab08a133a27b0c04812fbe6.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20240708/23a528eb9ab08a133a27b0c04812fbe6.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=480",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-494",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Surgic Star",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Surgic Star",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Surgic Star",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 139",
+      "description": "The First 3 in 1 Advanced Surgery Center",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/9dd9982d2229fc64983272fe6303d791.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/9dd9982d2229fc64983272fe6303d791.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=494",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-241",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "SURGIC TOUCH",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SURGIC TOUCH",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SURGIC TOUCH",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 139",
+      "description": "Micron cutting",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f5a217d8aae5f2d5a13677a647f3f555.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f5a217d8aae5f2d5a13677a647f3f555.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=241",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-429",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "TFRK",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "TFRK",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TFRK",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 171",
+      "description": "Terauchi File Removal Kit",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/30db0433392dfe9f2658254671163103.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/30db0433392dfe9f2658254671163103.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=429",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-533",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "TIPS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "TIPS",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TIPS",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 196",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260305/169cca82eefbdb91652d6b3fe726665c.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260305/169cca82eefbdb91652d6b3fe726665c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=533",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-490",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "U-Light",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "U-Light",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "U-Light",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/d7e6600d17319b8e9479fbb2356378fa.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/d7e6600d17319b8e9479fbb2356378fa.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=490",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-258",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "U6",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "U6",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "U6",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "New Era for Scaling",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/b463044b49a2e7480eb46fa4b9d2e866.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/b463044b49a2e7480eb46fa4b9d2e866.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=258",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-451",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "U600",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "U600",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "U600",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f0e6cfeccba45a24b0d3c80809ddbd08.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f0e6cfeccba45a24b0d3c80809ddbd08.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=451",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-240",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "U600 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "U600 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "U600 LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "Scientific strength with multiple functionalities",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f0e6cfeccba45a24b0d3c80809ddbd08.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f0e6cfeccba45a24b0d3c80809ddbd08.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=240",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-284",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "UDS-A LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "UDS-A LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "UDS-A LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "A good helper for dentist",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/74dca2a053d72bbf1260877f81dd939d.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/74dca2a053d72bbf1260877f81dd939d.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=284",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-286",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "UDS-B",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "UDS-B",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "UDS-B",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "A good helper for dentist",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/6c71f47c53e3320830d76566a5b20987.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/6c71f47c53e3320830d76566a5b20987.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=286",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-288",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "UDS-E LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "UDS-E LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "UDS-E LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "A good helper for dentist",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/bba1568765ccdf1cc488b8f179bb71e0.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/bba1568765ccdf1cc488b8f179bb71e0.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=288",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-280",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "UDS-J",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "UDS-J",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "UDS-J",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "A good helper for dentist",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/41c477b66c1f2e8c7b21ce3da24f7b02.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/41c477b66c1f2e8c7b21ce3da24f7b02.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=280",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-282",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "UDS-J2 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "UDS-J2 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "UDS-J2 LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "A good helper for dentist",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/60c90b2267665cb359c7acb0d00a38c2.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/60c90b2267665cb359c7acb0d00a38c2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=282",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-290",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "UDS-K LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "UDS-K LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "UDS-K LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "A good helper for dentist",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/5cf6433aea3b47883b5de3905450a98b.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/5cf6433aea3b47883b5de3905450a98b.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=290",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-341",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "UDS-L LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "UDS-L LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "UDS-L LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "A good helper for dentist",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/3a6d0bfa985c6abcc50db374850b859f.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/3a6d0bfa985c6abcc50db374850b859f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=341",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-343",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "UDS-N6",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "UDS-N6",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "UDS-N6",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "Comfortable Teeth Scaling",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/50a5a2235b341c95dec80c38065b6146.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/50a5a2235b341c95dec80c38065b6146.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=343",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-340",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "UDS-P LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "UDS-P LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "UDS-P LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/6e74c1649ea54ccba20b6ebb21db0758.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/6e74c1649ea54ccba20b6ebb21db0758.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=340",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-431",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "UDS-T LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "UDS-T LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "UDS-T LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "Designed for Dental Care",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/a6877f8e0933494f4b96a5530a99fab4.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/a6877f8e0933494f4b96a5530a99fab4.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=431",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-366",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Ultrasurgery",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ultrasurgery",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ultrasurgery",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 139",
+      "description": "This equipment can be used in the following fields: a) Oral surgery; b) Orthopedic surge c) Maxillofacial surgery; d) Cosmetic surgery; e) Neurosurgery; f) Otolaryngology",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/3c5a8f0297a03c48b90895fcdb06f344.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/3c5a8f0297a03c48b90895fcdb06f344.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=366",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-364",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "US-II LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "US-II LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "US-II LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 139",
+      "description": "Woodpecker core technology",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/096114e402df75e43bebaeddb3365c39.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/096114e402df75e43bebaeddb3365c39.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=364",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-271",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "V1",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "V1",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "V1",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/9d81f64acd970bf78220acce0d408167.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/9d81f64acd970bf78220acce0d408167.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=271",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-272",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "V2 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "V2 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "V2 LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/bb9d7a59131a470ea36bce3f068807a3.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/bb9d7a59131a470ea36bce3f068807a3.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=272",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-273",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "V3 LED",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "V3 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "V3 LED",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 176",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/7017edbadf8dbd206da0ba3eb0b1ea77.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/7017edbadf8dbd206da0ba3eb0b1ea77.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=273",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-418",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "VV light",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VV light",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VV light",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "1 Sec Curing Light intensity up to2500 mW/cm² 360°Rotatable Metal Head Focused Light Output Lightweight and Easy Holding",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/c3ca94061998c2b368a184296463bf98.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/c3ca94061998c2b368a184296463bf98.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=418",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-276",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "WOODPEX III",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "WOODPEX III",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "WOODPEX III",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 144",
+      "description": "",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/c984a3a14a3dc7192274999deb475ead.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/c984a3a14a3dc7192274999deb475ead.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=276",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-250",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Woodpex V",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Woodpex V",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Woodpex V",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 144",
+      "description": "The Fifth Generation Apex Locator",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/a22bd4af705c7d8e0f752b619a34e0b8.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260616/a22bd4af705c7d8e0f752b619a34e0b8.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=250",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-482",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Woodpex X",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Woodpex X",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Woodpex X",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 144",
+      "description": "Precision Beyond Measure",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/e5fa32ad98efdb755fd717f5dc10c33a.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/e5fa32ad98efdb755fd717f5dc10c33a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=482",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-503",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "Woodpex X MHN",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Woodpex X MHN",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Woodpex X MHN",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 144",
+      "description": "Micro Hole Negotiator",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f2c05b552431304940309a608f18193f.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260610/f2c05b552431304940309a608f18193f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=503",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WOODPECKER-501",
+      "brand": "Woodpecker",
+      "manufacturer": "Guilin Woodpecker Medical Instrument Co., Ltd.",
+      "name": "X-Star",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "X-Star",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "X-Star",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Woodpecker / Category 141",
+      "description": "Unlimited Curing Solution",
+      "sourceImageUrl": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/f687bfb266557bb74b72cee31fe3c845.jpg",
+      "imageUrls": "https://zmngw.oss-cn-shenzhen.aliyuncs.com/uploads/20260615/f687bfb266557bb74b72cee31fe3c845.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.glwoodpecker.com/pcproduct?id=501",
+      "additionalSourceUrls": "https://api.glzmn.com/api/category/get_product_list?lang=en&channel_id=1&page=1&pageSize=500&mold=pc",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

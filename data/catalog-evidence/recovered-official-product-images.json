@@ -1,0 +1,1176 @@
+{
+  "brand": "MULTI_BRAND_OFFICIAL_IMAGE_RECOVERY",
+  "manufacturer": "Multiple verified manufacturers",
+  "sourceType": "RECOVERED_FROM_EXISTING_OFFICIAL_PRODUCT_PAGES",
+  "sourceUrl": "",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "officialExistingSourcePagesOnly": true,
+    "exactPageIdentityRequired": true,
+    "genericAssetsRejected": true,
+    "noSearchEngineOrThirdPartyImageAcceptedAutomatically": true
+  },
+  "totals": {
+    "htmlTargets": 98,
+    "recovered": 40,
+    "recoveredThisRun": 0,
+    "retainedFromPreviousRuns": 40,
+    "review": 97,
+    "errors": 1
+  },
+  "products": [
+    {
+      "officialProductId": "RECOVERED-CANON-CASTELLINI-CASTELLINI-AREA",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "AREA",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AREA",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "The Castellini AREA dental chair is a dental unit that combines comfort and effectiveness. Discover it on the site.",
+      "sourceImageUrl": "https://www.castellini.com/hs-fs/hubfs/Castellini_AREA_21.07.2025_041.jpg?width=6000&name=Castellini_AREA_21.07.2025_041.jpg",
+      "imageUrls": "https://www.castellini.com/hs-fs/hubfs/Castellini_AREA_21.07.2025_041.jpg?width=6000&name=Castellini_AREA_21.07.2025_041.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/area",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-CASTELLINI-CASTELLINI-IMPLANTOR-LED-FLUO-MICROMOTOR",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Implantor LED Fluo Micromotor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Implantor LED Fluo Micromotor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Микромоторы",
+      "description": "Castellini dental micromotors guarantee precision, power, and comfort during treatments, offering high performance and optimal control for the professional.",
+      "sourceImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/implantorLEDFLUO.jpg",
+      "imageUrls": "https://www.castellini.com/hubfs/CASTELLINI/Images/implantorLEDFLUO.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/micromotors",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-CASTELLINI-CASTELLINI-IMPLANTOR-LED-MICROMOTOR",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Implantor LED Micromotor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Implantor LED Micromotor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Микромоторы",
+      "description": "Castellini dental micromotors guarantee precision, power, and comfort during treatments, offering high performance and optimal control for the professional.",
+      "sourceImageUrl": "https://www.castellini.com/hubfs/CASTELLINI/Images/implantorLEDFLUO.jpg",
+      "imageUrls": "https://www.castellini.com/hubfs/CASTELLINI/Images/implantorLEDFLUO.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/micromotors",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-CASTELLINI-CASTELLINI-SKEMA-6",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Skema 6",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Skema 6",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "The Castellini Skema 6 dental unit is an Italian-made dental unit capable of supporting every clinical need. Discover it on the site.",
+      "sourceImageUrl": "https://www.castellini.com/hs-fs/hubfs/Castellini%202025/images/Skema-6_innovazione_interfaccia-full-touch.jpg?width=2400&height=1566&name=Skema-6_innovazione_interfaccia-full-touch.jpg",
+      "imageUrls": "https://www.castellini.com/hs-fs/hubfs/Castellini%202025/images/Skema-6_innovazione_interfaccia-full-touch.jpg?width=2400&height=1566&name=Skema-6_innovazione_interfaccia-full-touch.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/skema-6",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-CASTELLINI-CASTELLINI-SKEMA-8",
+      "brand": "Castellini",
+      "manufacturer": "Cefla S.C.",
+      "name": "Skema 8",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Skema 8",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Стоматологические установки",
+      "description": "The Skema 8 dental chair is a dental unit designed to facilitate superior performance in every procedure. Discover it on the site.",
+      "sourceImageUrl": "https://www.castellini.com/hs-fs/hubfs/CASTELLINI/Images/skema8_fulltouch.jpg?width=2388&height=1461&name=skema8_fulltouch.jpg",
+      "imageUrls": "https://www.castellini.com/hs-fs/hubfs/CASTELLINI/Images/skema8_fulltouch.jpg?width=2388&height=1461&name=skema8_fulltouch.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.castellini.com/en/dental-units/skema-8",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-AH-PLUS-RIBBON",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "AH Plus Ribbon: Endodontic sealing with proven clinical success",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "AH Plus Ribbon: Endodontic sealing with proven clinical success",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "AH Plus Ribbon: Endodontic sealing with proven clinical success",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover AH Plus Ribbon, endo sealer designed for cold & warm obturation techniques, offering excellent long-term sealing and superior radiopacity.",
+      "sourceImageUrl": "https://s7d1.scene7.com/is/image/dentsply/END-product-image-ah-plus-ribbon-starter-kit-transparent-background?ts=1758729822283&$PageBreaker-transparent$&dpr=off",
+      "imageUrls": "https://s7d1.scene7.com/is/image/dentsply/END-product-image-ah-plus-ribbon-starter-kit-transparent-background?ts=1758729822283&$PageBreaker-transparent$&dpr=off",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/ah-plus-ribbon.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-PRIMESCAN-CONNECT",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Primescan Connect",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Primescan Connect",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Primescan Connect",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "With simplified intraoral scanning and streamlined workflows, Primescan Connect is a great starting point to digital dentistry.",
+      "sourceImageUrl": "https://www.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/digital-impression/product-categories/intraoral-scanners/primescan-connect/images/DIM-Hero-Image-PrimescanConnect-Software-DSCore-Ball.png",
+      "imageUrls": "https://www.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/digital-impression/product-categories/intraoral-scanners/primescan-connect/images/DIM-Hero-Image-PrimescanConnect-Software-DSCore-Ball.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/digital-dentistry/brands/other-products/primescan-connect.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-PROROOT-BIO-SEALER",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "ProRoot Bio Sealer: Bioactive endodontic sealer",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ProRoot Bio Sealer: Bioactive endodontic sealer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ProRoot Bio Sealer: Bioactive endodontic sealer",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Discover ProRoot Bio Sealer, a bioceramic sealer with high clinical success rate, higher bioactive cement content and easy handling with minimal waste.",
+      "sourceImageUrl": "https://s7d1.scene7.com/is/image/dentsply/END-product-image-proroot-bio-sealer-transparent-background?ts=1758734841586&$transparent1000x1000$&dpr=off",
+      "imageUrls": "https://s7d1.scene7.com/is/image/dentsply/END-product-image-proroot-bio-sealer-transparent-background?ts=1758734841586&$transparent1000x1000$&dpr=off",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/other/proroot-bio-sealer.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-RECIPROC-FAMILY",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Reciproc® family: One file Endo",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Reciproc® family: One file Endo",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Reciproc® family: One file Endo",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Designed to enable shaping without the need for an additional scouting or glidepath instrument in most cases, the Reciproc® family offers you efficiency in time saving through real one file endo",
+      "sourceImageUrl": "https://s7d1.scene7.com/is/image/dentsply/END-image-product-Reciproc-Minima-R25-movement?ts=1772613721279&$Teaser-2-column$&dpr=off",
+      "imageUrls": "https://s7d1.scene7.com/is/image/dentsply/END-image-product-Reciproc-Minima-R25-movement?ts=1772613721279&$Teaser-2-column$&dpr=off",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/reciproc-family.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-ASTRA-TECH-IMPLANT-SYSTEM-EV-3",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Shop Astra Tech Implant System EV online",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Shop Astra Tech Implant System EV online",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Shop Astra Tech Implant System EV online",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Click here to buy our Astra Tech Implant System EV, designed to offer endless possibilities for superior outcomes.",
+      "sourceImageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/astra-tech-implant-system-ev/_jcr_content/root/container/layoutcard/image.coreimg.png/1739530328094/imp-product-image-transparent-collection-of-astra-tech-implant-ev-1243019.png",
+      "imageUrls": "https://www.dentsplysirona.com/en-us/shop/brands/astra-tech-implant-system-ev/_jcr_content/root/container/layoutcard/image.coreimg.png/1739530328094/imp-product-image-transparent-collection-of-astra-tech-implant-ev-1243019.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/astra-tech-implant-system-ev.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-CAVITRON",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Shop Cavitron Systems online",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Shop Cavitron Systems online",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Shop Cavitron Systems online",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Shop Cavitron and Cavitron system products, including the featured scalers, air polishing systems, prophy and prophy-jet systems.",
+      "sourceImageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/cavitron/_jcr_content/root/container/layoutcard/image.coreimg.png/1739336649847/pre-image-promo-card-cavitron-300-series-ultrasonic-scaling-system-package.png",
+      "imageUrls": "https://www.dentsplysirona.com/en-us/shop/brands/cavitron/_jcr_content/root/container/layoutcard/image.coreimg.png/1739336649847/pre-image-promo-card-cavitron-300-series-ultrasonic-scaling-system-package.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/cavitron.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-LUCITONE",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Shop Lucitone dental products online",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Shop Lucitone dental products online",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Shop Lucitone dental products online",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Click here to shop Lucitone dental products and all its accessories",
+      "sourceImageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/lucitone/_jcr_content/root/container/layoutcard/image.coreimg.png/1739336881640/lab-image-product-lucitone-hipa.png",
+      "imageUrls": "https://www.dentsplysirona.com/en-us/shop/brands/lucitone/_jcr_content/root/container/layoutcard/image.coreimg.png/1739336881640/lab-image-product-lucitone-hipa.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/lucitone.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-PALODENT",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "Shop Palodent online",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Shop Palodent online",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Shop Palodent online",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "Click here to shop Palodent products ✓ & many more!",
+      "sourceImageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/palodent/_jcr_content/root/container/layoutcard/image.coreimg.png/1739887489355/res-product-image-palodent-v3-plus-family-1772x1181.png",
+      "imageUrls": "https://www.dentsplysirona.com/en-us/shop/brands/palodent/_jcr_content/root/container/layoutcard/image.coreimg.png/1739887489355/res-product-image-palodent-v3-plus-family-1772x1181.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/shop/brands/palodent.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-THE-SURESMILE-SYSTEM",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "The SureSmile® System",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "The SureSmile® System",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "The SureSmile® System",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "The SureSmile Clear Aligner System provides comprehensive treatment, including our VPro vibration device, clear aligner therapy, a SureSmile retainer, and our whitening kit.",
+      "sourceImageUrl": "https://www.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/orthodontics/product-categories/suresmile-aligner/images/ORT-image-SureSmile-System-Hero-SureSmile-System.png",
+      "imageUrls": "https://www.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/orthodontics/product-categories/suresmile-aligner/images/ORT-image-SureSmile-System-Hero-SureSmile-System.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/orthodontics/brands/the-suresmile--system.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-TRUNATOMY-SOLUTION",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "TruNatomy Solution",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "TruNatomy Solution",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TruNatomy Solution",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "The TruNatomy endodontic solution provides efficient performance and increased respect of the tooth anatomy, combined with a smooth user-experience.",
+      "sourceImageUrl": "https://www.dentsplysirona.com/en-us/discover/discover-by-brand/trunatomy/_jcr_content/root/container/layoutcard_copy/image.coreimg.jpeg/1739292354988/end-product-image-trunatomy-family.jpeg",
+      "imageUrls": "https://www.dentsplysirona.com/en-us/discover/discover-by-brand/trunatomy/_jcr_content/root/container/layoutcard_copy/image.coreimg.jpeg/1739292354988/end-product-image-trunatomy-family.jpeg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/endodontics/brands/trunatomy-solution.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DENTSPLY-SIRONA-DENTSPLY-SIRONA-SURESMILE-VPRO",
+      "brand": "Dentsply Sirona",
+      "manufacturer": "Dentsply Sirona Inc.",
+      "name": "VPro Vibration Device for SureSmile Clear Aligners",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VPro Vibration Device for SureSmile Clear Aligners",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VPro Vibration Device for SureSmile Clear Aligners",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Dentsply Sirona / Current product brands and systems",
+      "description": "VPro is an orthodontic, high-frequency vibration device that may reduce discomfort and treatment time with SureSmile Clear Aligners.",
+      "sourceImageUrl": "https://www.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/orthodontics/product-categories/suresmile-aligner/vpro/images/ORT-images-SureSmile-VPro-Hero.png",
+      "imageUrls": "https://www.dentsplysirona.com/content/dam/master/product-procedure-brand-categories/orthodontics/product-categories/suresmile-aligner/vpro/images/ORT-images-SureSmile-VPro-Hero.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.dentsplysirona.com/en-us/explore/orthodontics/brands/the-suresmile--system/suresmile--vpro_.html",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DRA-GER-DRAEGER-ZEUS-INFINITY",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Анестезиологический комплекс Dräger Zeus Infinity Empowered",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Zeus Infinity",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Empowered",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "https://www.draeger.com/Media/Content/Products/Default/Draeger-Zeus-Infinity-Empowered-1-D-9003-2016.jpg",
+      "imageUrls": "https://www.draeger.com/Media/Content/Products/Default/Draeger-Zeus-Infinity-Empowered-1-D-9003-2016.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Zeus-Infinity-Empowered",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DRA-GER-DRAEGER-SCIO-FOUR",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Газоанализатор Dräger Scio Four",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Scio",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Four",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Газоанализаторы",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "https://www.draeger.com/Media/Content/Products/Default/scio-anesthetic-gas-monitoring-4-3-D-8414-2024.jpg",
+      "imageUrls": "https://www.draeger.com/Media/Content/Products/Default/scio-anesthetic-gas-monitoring-4-3-D-8414-2024.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Scio",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DRA-GER-DRAEGER-VAPOR-2000",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Испарители анестетиков Dräger Vapor 2000 и D-Vapor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Vapor",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Vapor 2000",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "D-Vapor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Испарители анестетиков",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "https://www.draeger.com/Media/Content/Products/Default/Draeger-D-Vapor-Vapor-2000-1-D-28736-2015-GruppeVapor2000.jpg",
+      "imageUrls": "https://www.draeger.com/Media/Content/Products/Default/Draeger-D-Vapor-Vapor-2000-1-D-28736-2015-GruppeVapor2000.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/D-Vapor-Vapor-2000",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DRA-GER-DRAEGER-VAPOR-3000",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Испарители анестетиков Dräger Vapor 3000 и D-Vapor 3000",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Vapor",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Vapor 3000",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "D-Vapor 3000",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Испарители анестетиков",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "https://www.draeger.com/Media/Content/Products/Default/Draeger-D-Vapor-3000-1-D-7420-2011.jpg",
+      "imageUrls": "https://www.draeger.com/Media/Content/Products/Default/Draeger-D-Vapor-3000-1-D-7420-2011.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/D-Vapor-3000",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DRA-GER-DRAEGER-ATLAN-A300",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Наркозный аппарат Dräger Atlan A300/A300 XL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Atlan",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "A300",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "A300 XL",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "https://www.draeger.com/Media/Content/Products/Default/Atlan-a300-a300xl-ru-ru.png",
+      "imageUrls": "https://www.draeger.com/Media/Content/Products/Default/Atlan-a300-a300xl-ru-ru.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Atlan-A300-A300-XL",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DRA-GER-DRAEGER-ATLAN-A350",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Наркозный аппарат Dräger Atlan A350/A350 XL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Atlan",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "A350",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        },
+        {
+          "variantLabel": "A350 XL",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "https://www.draeger.com/Media/Content/Products/Default/draeger-atlan-a350-a350-xl-anaesthesia-machines-4-3-D-5542-2022.jpg",
+      "imageUrls": "https://www.draeger.com/Media/Content/Products/Default/draeger-atlan-a350-a350-xl-anaesthesia-machines-4-3-D-5542-2022.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Atlan-A350-A350-XL",
+      "kzEvidence": "EXACT_KZ_MODEL_LISTING",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DRA-GER-DRAEGER-FABIUS-MRI",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Наркозный аппарат Dräger Fabius MRI",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fabius",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "MRI",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "https://www.draeger.com/Media/Content/Products/Default/draeger-fabius-mri-anaesthesia-machines-4-3-D-12287-2011.jpg",
+      "imageUrls": "https://www.draeger.com/Media/Content/Products/Default/draeger-fabius-mri-anaesthesia-machines-4-3-D-12287-2011.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Fabius-MRI",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DRA-GER-DRAEGER-FABIUS-PLUS-XL",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Наркозный аппарат Dräger Fabius Plus XL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fabius",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Plus XL",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Наркозные аппараты",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "https://www.draeger.com/Media/Content/Products/Default/draeger-fabius-plus-xl-anaesthesia-machines-4-3-D-11987-2017.jpg",
+      "imageUrls": "https://www.draeger.com/Media/Content/Products/Default/draeger-fabius-plus-xl-anaesthesia-machines-4-3-D-11987-2017.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/Fabius-plus-XL",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-DRA-GER-DRAEGER-SMARTPILOT-VIEW",
+      "brand": "Dräger",
+      "manufacturer": "Drägerwerk AG & Co. KGaA",
+      "name": "Программный продукт Dräger SmartPilot View",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SmartPilot",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "View",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Анестезиология / Программное обеспечение",
+      "description": "Текущая модель подтверждена официальным каталогом Dräger. Заводской артикул и точная фотография оставлены на проверку, чтобы не подставлять неверные данные.",
+      "sourceImageUrl": "https://www.draeger.com/Media/Content/Products/Default/draeger-smartpilot-view-decision-support-4-3-D-45302-2021.jpg",
+      "imageUrls": "https://www.draeger.com/Media/Content/Products/Default/draeger-smartpilot-view-decision-support-4-3-D-45302-2021.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.draeger.com/ru_ru/Products/SmartPilot-View",
+      "kzEvidence": "BRAND_AND_ANESTHESIA_RANGE_OBSERVED_IN_KAZAKHSTAN",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-KERR-KERR-HERCULITE-XRV",
+      "brand": "Kerr",
+      "manufacturer": "Kerr Corporation",
+      "name": "Herculite XRV",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Herculite XRV",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Herculite XRV",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Kerr / Current regional dental products",
+      "description": "Resina composta microhíbrida",
+      "sourceImageUrl": "https://kerrdental.com.br/wp-content/uploads/2022/09/KERR-Herculite-XRV-Arte-2.jpg.webp",
+      "imageUrls": "https://kerrdental.com.br/wp-content/uploads/2022/09/KERR-Herculite-XRV-Arte-2.jpg.webp",
+      "imageCount": 1,
+      "sourcePageUrl": "https://kerrdental.com.br/produtos/herculite-xrv/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-LM-DENTAL-LM-DENTAL-STRIPS-WITH-BLANKS",
+      "brand": "LM Dental",
+      "manufacturer": "LM-Instruments Oy",
+      "name": "Strips with blanks",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Strips with blanks",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Strips with blanks",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "LM Dental / uncategorized",
+      "description": "Strip Selection Package of 50 pcs, coarseness 60μm Use the LM code rings to mark pre-fitted strips for mesial (orange) or distal (blue) surfaces Stips with blanks: the smooth part of the strip is used when the contact is exceptionally tight",
+      "sourceImageUrl": "https://lm-dental.com/wp-content/uploads/2022/02/strips-with-blanks.jpg",
+      "imageUrls": "https://lm-dental.com/wp-content/uploads/2022/02/strips-with-blanks.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://lm-dental.com/products/uncategorized/strips-with-blanks/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-MELAG-ME10708",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "Carebox Blue",
+      "manufacturerRef": "ME10708",
+      "manufacturerRefs": "ME10708",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10708",
+          "label": "Carebox Blue",
+          "variantLabel": "Carebox Blue",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "carebox-blue",
+      "description": "For the safe reprocessing and reliable lubrication of up to 8 transmission instruments with Careclave. A process that could not be more intuitive: Our patented Carebox Connect Technology automatically recognizes which Carebox was inserted and adapts the program selection to your load. Align the Carebox Blue to your handpieces and turbines using up to 8 adapters.",
+      "sourceImageUrl": "https://images.ctfassets.net/u7s89gwxh9vm/30nYlgIP3PZ6lY27aXhMKR/a5907180a6be8bbdad31f11b9d908cff/Carebox_Blue-min.png",
+      "imageUrls": "https://images.ctfassets.net/u7s89gwxh9vm/30nYlgIP3PZ6lY27aXhMKR/a5907180a6be8bbdad31f11b9d908cff/Carebox_Blue-min.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/carebox-blue/me10708",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-MELAG-ME10600",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcare",
+      "manufacturerRef": "ME10600",
+      "manufacturerRefs": "ME10600",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10600",
+          "label": "MELAcare",
+          "variantLabel": "MELAcare",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "melacare",
+      "description": "Wellness for your instruments – Fully automatic, safe, and efficient MELAcare is redefining the reprocessing of transmission instruments: cleaning, disinfection, and oil maintenance are performed fully automatically, in a validatable manner, and with exceptional care for the instruments. For reliable workflows, maximum patient safety and instruments that are quickly ready for use again between treatments.Validatable reprocessing process according to EN ISO 15883-1/2 starting at approx. 14 minutes (Incl. internal drying and pre-cooling ) Gentle cleaning and disinfection without chemicals to preserve the value of your instruments Precise oil and collet maintenance for reliable function and long service life Intuitive operation and documentation via a large touchscreen display with batch approval directly on the device at no extra charge Compact design with high flexibility thanks to a small footprint and 28 specially developed adapters for hollow-body instruments MELAcare significantly reduces routine tasks and saves valuable time week after week in daily practice. With the Blue and Green lids, you can prepare different instrument groups safely, conveniently, and according to your needs. [MELAcare will be available in the EU from 15 July 2026. Availability outside the EU depends on the respective registration process.]",
+      "sourceImageUrl": "https://images.ctfassets.net/u7s89gwxh9vm/3HHJOlu6Aflw2zPgtXnZUU/a6de2fae30902e41fe3d62e14d6d531f/MELAcare_1__2_.png",
+      "imageUrls": "https://images.ctfassets.net/u7s89gwxh9vm/3HHJOlu6Aflw2zPgtXnZUU/a6de2fae30902e41fe3d62e14d6d531f/MELAcare_1__2_.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melacare/me10600",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-MELAG-ME10711",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcare Lid Blue",
+      "manufacturerRef": "ME10711",
+      "manufacturerRefs": "ME10711",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10711",
+          "label": "MELAcare Lid Blue",
+          "variantLabel": "MELAcare Lid Blue",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "melacare-lid-blue",
+      "description": "Premium Care for Rotary Instruments: The MELAcare Blue Lid is the ideal solution for cleaning, disinfecting and lubricating handpieces, contra-angles, turbines and contra-angle heads. With up to 6 individually configurable adapters, you can tailor the lid perfectly to your instruments - ensuring safe reprocessing and long-term reliable performance. Cleaning, disinfection and oiling in as little as 17 minutes for up to 6 rotating instruments (incl. internal drying and pre-cooling) ULTRAflow Technology for powerful internal and external cleaning with compressed-air-accelerated deionized water - completely chemical-free Thermal disinfection at approx. 95 °C with an A0 value of 3,000 and a broad spectrum of activity Precise oil and chuck care with fully synthetic oil for preserving value and optimal function Individually configurable with up to 6 adapters for handpieces, contra-angles, turbines, and contra-angle headsThe MELAcare Lid Blue makes the reprocessing of rotating instruments convenient, safe, and efficient. For instruments that are quickly ready for use again—and a workflow that becomes a WOWflow.",
+      "sourceImageUrl": "https://images.ctfassets.net/u7s89gwxh9vm/2IXtbaeetBszDdtw3hBjqD/bbc04c4f9001cda8167a560e59ae5e3a/MELAcare-Box-Blue.png",
+      "imageUrls": "https://images.ctfassets.net/u7s89gwxh9vm/2IXtbaeetBszDdtw3hBjqD/bbc04c4f9001cda8167a560e59ae5e3a/MELAcare-Box-Blue.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melacare-lid-blue/me10711",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-MELAG-ME10712",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcare Lid Green",
+      "manufacturerRef": "ME10712",
+      "manufacturerRefs": "ME10712",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME10712",
+          "label": "MELAcare Lid Green",
+          "variantLabel": "MELAcare Lid Green",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "melacare-lid-green",
+      "description": "More flexibility for instruments that do not require oiling:The MELAcare Green lid was specially developed for reprocessing hollow instruments that do not require oil care. With up to 6 individually configurable adapters, you can reprocess ultrasonic scaler tips, prophylaxis handpieces and other compatible instruments safely, efficiently between treatments. Reprocessing in just 14 minutes, including cleaning, thermal disinfection, internal drying and pre-coolingULTRAflow technology for powerful internal and external cleaning with deionised water - completely chemical-freeThermal disinfection at approx. 95 °C with an A0 value of 3,000 and a broad activity spectrum Configurable with up to 6 adapters for ultrasonic scaler tips and prophylaxis handpieces Quickly ready for use again thanks to efficient and intelligent additional cooling The MELAcare Lid Green brings maximum flexibility to the reprocessing of hollow instruments that do not require oil. For reliable results, efficient processes and a workflow that becomes a WOWflow.",
+      "sourceImageUrl": "https://images.ctfassets.net/u7s89gwxh9vm/3pMN2AvWvkVr8QdzMaXxj6/bf3505626e460959c63c6924a755b488/MELAcare-Box-Green.png",
+      "imageUrls": "https://images.ctfassets.net/u7s89gwxh9vm/3pMN2AvWvkVr8QdzMaXxj6/bf3505626e460959c63c6924a755b488/MELAcare-Box-Green.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melacare-lid-green/me10712",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-MELAG-ME01082",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcontrol Helix",
+      "manufacturerRef": "ME01082",
+      "manufacturerRefs": "ME01082",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01082",
+          "label": "MELAcontrol Helix",
+          "variantLabel": "MELAcontrol Helix",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "melacontrol-helix",
+      "description": "The new MELAcontrol Helix – Reliable Routine Testing for Class B Autoclaves The MELAcontrol Helix is a professional solution for reliable routine monitoring of Class B autoclaves. The Helix test was developed in accordance with the strict requirements of the European standard DIN EN ISO 11140 and offers a validated and compliant method for testing steam penetration in hollow instruments—a crucial factor for effective sterilization. By simulating the most challenging load conditions within the sterilization process, the Helix delivers highly meaningful test results and ensures maximum process reliability. A clear color change from blue to pink after successful sterilization enables fast, unambiguous evaluation and supports reliable documentation.✅ Fully compliant with ISO 11140✅ Reliable verification of steam penetration✅ Clear visual result for quick decision-making✅ High process safety with minimal time investment✅ Economical and sustainable solution for routine control To ensure consistently high test quality, every reorder of indicator strips includes a new Helix test body. This guarantees long-term reliability in batch monitoring while minimizing administrative effort.",
+      "sourceImageUrl": "https://images.ctfassets.net/u7s89gwxh9vm/2NrBAM6HZv3dZilEakYdL2/34bac32099b6c40ea6be6b5bd0f8f75a/MELAcontrol-neu.png",
+      "imageUrls": "https://images.ctfassets.net/u7s89gwxh9vm/2NrBAM6HZv3dZilEakYdL2/34bac32099b6c40ea6be6b5bd0f8f75a/MELAcontrol-neu.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melacontrol-helix/me01082",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-MELAG-ME01075",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAcontrol Pro",
+      "manufacturerRef": "ME01075",
+      "manufacturerRefs": "ME01075",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01075",
+          "label": "MELAcontrol Pro",
+          "variantLabel": "MELAcontrol Pro",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "melacontrol-pro",
+      "description": "The so-called HELIX is covered by the EN ISO 11140-6 European Standard. This is a test body for \"Class B\" steam sterilizers, which simulate the complicated requirements for sterilizing hollow instruments. This test body is required for batch monitoring of the processing of \"critical B\" instruments. MELAcontrol Pro with 40 indicator strips is a durable, usable test body for the power-user. The test strips can be re-ordered in a refill package with 250 indicator strips.",
+      "sourceImageUrl": "https://images.ctfassets.net/u7s89gwxh9vm/3LUcfttfGKseLDMa3kQel5/8da4efcae6b3362bf5850a025c562535/MELAcontrol-min_1_.png",
+      "imageUrls": "https://images.ctfassets.net/u7s89gwxh9vm/3LUcfttfGKseLDMa3kQel5/8da4efcae6b3362bf5850a025c562535/MELAcontrol-min_1_.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melacontrol-pro/me01075",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-MELAG-ME01036",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAdem 53 C",
+      "manufacturerRef": "ME01036",
+      "manufacturerRefs": "ME01036",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01036",
+          "label": "MELAdem 53 C",
+          "variantLabel": "MELAdem 53 C",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "meladem-53-c",
+      "description": "The MELAdem 53 C works in accordance with the tried and tested ion exchange procedure, generating high-quality demineralized water for the cleaning, disinfection and sterilization process. It has been conceived to satisfy a requirement for large-volumes of aqua dem e.g. for the supply of the Cliniclave, MELAtherm and one or more practice steam sterilizers. The scope of delivery consists of two high-value cartridges filled with regeneratable resin, one of which is connected to the steam sterilizer and/or the MELAtherm. Once the cartridge has been exhausted, it is dispatched for regeneration and the second cartridge is brought into operation. The low height of the water treatment unit MELAdem 53 C in comparison to the MELAdem 53 makes it especially suited to installation in tightly-fitting situations. The high capacity of up to 2,100 l enables the connection of one or more steam sterilizers in addition to the MELAtherm. Do you already own a MELAdem 53 C and need a regeneration? Then get your regeneration now for just €210 using our form.",
+      "sourceImageUrl": "https://images.ctfassets.net/u7s89gwxh9vm/2ujX59ZTtIfZHnAALNDqe6/90119a87891e2c16c5e710ad9069b88c/MELAdem53C.png",
+      "imageUrls": "https://images.ctfassets.net/u7s89gwxh9vm/2ujX59ZTtIfZHnAALNDqe6/90119a87891e2c16c5e710ad9069b88c/MELAdem53C.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/meladem-53-c/me01036",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-MELAG-ME01189",
+      "brand": "MELAG",
+      "manufacturer": "MELAG Medizintechnik GmbH & Co. KG",
+      "name": "MELAstore Tray Ophthalmology",
+      "manufacturerRef": "ME01189",
+      "manufacturerRefs": "ME01189",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ME01189",
+          "label": "MELAstore Tray Ophthalmology",
+          "variantLabel": "MELAstore Tray Ophthalmology",
+          "status": "CANONICAL_REFERENCE_READY"
+        }
+      ],
+      "categoryPath": "melastore-tray-ophthalmology",
+      "description": "Optimize the instrument reprocessing in your ophthalmological practice or clinic with the MELAstore Tray Ophthalmology. Specifically designed for the demanding requirements of ophthalmology, the MELAstore Tray ensures maximum efficiency and safety throughout the reprocessing of your cataract surgery sets.Flexible and secure: The MELAstore Tray consists of an upper and a lower basket, equipped with flexible, positionable silicone supports. These guarantee a secure hold for both rigid and articulated instruments.Effective cleaning: The lower basket features an injection rail and versatile connections to ensure reliable cleaning and disinfection of your complex hollow instruments (e.g., phaco, irrigation, and suction handpieces).Time-saving: Instruments are inserted directly into the silicone supports after the procedure, significantly speeding up preparation and reprocessing through a standardised process.Space-saving: Up to 6 or 8 MELAstore Trays Ophthalmology can be space-efficiently placed in the universal holder of the MELAtherm 10 or MELAtherm 20 and optimally adapted for cleaning and disinfection.Protection against recontamination: After cleaning and disinfection, the upper and lower baskets are combined into a set and packed in a MELAstore Box 200. The integrated filter protects the instrument set from recontamination during storage.The MELAstore Tray Ophthalmology is only compatible with the MELAtherm 10 base basket with injection rail and plastic central filter (Art.-Nr. ME80440) or the Cleanfinity Pro (Art.-Nr. ME84650) central filter of the MELAtherm 20.",
+      "sourceImageUrl": "https://images.ctfassets.net/u7s89gwxh9vm/5qECa46hAfRGoLTV54p5DL/a7329effccd15738469aadfac2008411/MELAstore-Transportbox.png",
+      "imageUrls": "https://images.ctfassets.net/u7s89gwxh9vm/5qECa46hAfRGoLTV54p5DL/a7329effccd15738469aadfac2008411/MELAstore-Transportbox.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.melag.com/en/melastore-tray-ophthalmology/me01189",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET_AND_CADEX",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-SOLVENTUM-7100196303",
+      "brand": "Solventum",
+      "manufacturer": "Solventum Corporation",
+      "name": "3MTM ESPETM Intraoral Syringe Value Pack",
+      "manufacturerRef": "7100196303",
+      "manufacturerRefs": "7100196303 | 7100196250",
+      "model": "3MTM ESPETM Intraoral Syringe Value Pack",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "REF 7100196303",
+          "manufacturerRef": "7100196303",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        },
+        {
+          "variantLabel": "REF 7100196250",
+          "manufacturerRef": "7100196250",
+          "status": "OFFICIAL_REFERENCE_COLLECTED_KZ_AVAILABILITY_REVIEW_REQUIRED"
+        }
+      ],
+      "categoryPath": "Solventum Oral Care / GPH12013",
+      "description": "Single-use, intra-oral syringe provides precise application for a more accurate final dental restoration.",
+      "sourceImageUrl": "https://assets.solventum.com/is/image/mmmspinco/Intraoral_Syringes_purple_50_71508_whi",
+      "imageUrls": "https://assets.solventum.com/is/image/mmmspinco/Intraoral_Syringes_purple_50_71508_whi",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.solventum.com/en-us/home/f/b00034883/",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-W-H-19500100",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "BePro – Professional Protection",
+      "manufacturerRef": "19500100",
+      "manufacturerRefs": "19500100 | 19500101 | 19500102 | 19500103 | 19500104 | 19500106 | 19500300 | 19500107 | 19500108 | 19500200 | 19500204 | 19500201 | 19500202 | 19500206 | 19500205 | 19500254 | 19500253 | 19500250 | 19500105 | 19500251 | 19500252",
+      "model": "BePro – Professional Protection",
+      "variantCount": 21,
+      "variants": [
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500100",
+          "manufacturerRef": "19500100",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500101",
+          "manufacturerRef": "19500101",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500102",
+          "manufacturerRef": "19500102",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500103",
+          "manufacturerRef": "19500103",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500104",
+          "manufacturerRef": "19500104",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500106",
+          "manufacturerRef": "19500106",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500300",
+          "manufacturerRef": "19500300",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500107",
+          "manufacturerRef": "19500107",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500108",
+          "manufacturerRef": "19500108",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500200",
+          "manufacturerRef": "19500200",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500204",
+          "manufacturerRef": "19500204",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500201",
+          "manufacturerRef": "19500201",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500202",
+          "manufacturerRef": "19500202",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500206",
+          "manufacturerRef": "19500206",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500205",
+          "manufacturerRef": "19500205",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500254",
+          "manufacturerRef": "19500254",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500253",
+          "manufacturerRef": "19500253",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500250",
+          "manufacturerRef": "19500250",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500105",
+          "manufacturerRef": "19500105",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500251",
+          "manufacturerRef": "19500251",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500252",
+          "manufacturerRef": "19500252",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/123x103/b609b855ec/bepro-disinfectant-spray-1-l-product-detail.jpg?t=1784775833",
+      "imageUrls": "https://a.storyblok.com/f/45617/123x103/b609b855ec/bepro-disinfectant-spray-1-l-product-detail.jpg?t=1784775833",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/cleaning-disinfection-agents/bepro",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-W-H-T800206X",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Helix test",
+      "manufacturerRef": "T800206X",
+      "manufacturerRefs": "T800206X | T800207X",
+      "model": "Helix test",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Helix test · REF T800206X",
+          "manufacturerRef": "T800206X",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Helix test · REF T800207X",
+          "manufacturerRef": "T800207X",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/940x400/883a6c5f53/helix-page-elog-full-product-teaser.jpg?t=1784775833",
+      "imageUrls": "https://a.storyblok.com/f/45617/940x400/883a6c5f53/helix-page-elog-full-product-teaser.jpg?t=1784775833",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/routine-tests/helix-test",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-W-H-WH-PIEZOMED-INSTRUMENTS",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Piezomed Instruments",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Piezomed Instruments",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Piezomed Instruments",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/647fb5456d/piezomed.png?t=1784775835",
+      "imageUrls": "https://a.storyblok.com/f/45617/647fb5456d/piezomed.png?t=1784775835",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/accessories/piezomed-instruments",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    },
+    {
+      "officialProductId": "RECOVERED-CANON-W-H-11049500",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "RC Turbines",
+      "manufacturerRef": "11049500",
+      "manufacturerRefs": "11049500 | 11049501 | 11049000 | REF 11049001",
+      "model": "RC Turbines",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "RC Turbines · REF 11049500",
+          "manufacturerRef": "11049500",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "RC Turbines · REF 11049501",
+          "manufacturerRef": "11049501",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "RC Turbines · REF 11049000",
+          "manufacturerRef": "11049000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "RC Turbines · REF REF 11049001",
+          "manufacturerRef": "REF 11049001",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/123x103/abf7f270b6/rc-95-bc.jpg?t=1784775835",
+      "imageUrls": "https://a.storyblok.com/f/45617/123x103/abf7f270b6/rc-95-bc.jpg?t=1784775835",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/turbines/rc/",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "RETAINED_PREVIOUS_OFFICIAL_IMAGE_RECOVERY"
+    }
+  ]
+}

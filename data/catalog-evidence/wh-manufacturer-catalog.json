@@ -1,0 +1,2963 @@
+{
+  "brand": "W&H",
+  "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+  "sourceType": "CURRENT_OFFICIAL_GLOBAL_DENTAL_PRODUCT_SITEMAP_AND_REF_TABLES",
+  "sourceUrl": "https://www.wh.com/en_global/sitemap.xml",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "allDentalProductPagesChecked": true,
+    "categoryAndStalePagesExcludedAndRecorded": true,
+    "exactOfficialFamilyImagesPreserved": true,
+    "manufacturerRefsPreserved": true,
+    "duplicateReferencesConsolidatedToOneCanonicalFamily": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "sitemapDentalPages": 111,
+    "discoveredProducts": 63,
+    "variantSkus": 278,
+    "productsWithReferences": 52,
+    "productsWithImages": 48,
+    "duplicateReferencesAcrossProducts": 0,
+    "consolidatedDuplicateReferences": 25,
+    "skippedPages": 48,
+    "crawlErrors": 0
+  },
+  "consolidatedDuplicateReferences": [
+    "10405300",
+    "10405400",
+    "T802100X",
+    "07982690",
+    "08003630",
+    "07597900",
+    "08003650",
+    "30189000",
+    "90000346",
+    "08020870",
+    "08020890",
+    "08020760",
+    "08020770",
+    "08020761",
+    "08020771",
+    "08020781",
+    "08020791",
+    "10216443",
+    "10216403",
+    "30190000",
+    "10114403",
+    "90000354",
+    "90000358",
+    "90000299",
+    "90000301"
+  ],
+  "skipped": [
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/turbines",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/handpieces",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/couplings",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/accessories",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/electric-motor",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/accessories/overview",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/systemoverview",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/disinfectors",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/reprocessing-devices",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/cleaning-disinfection-agents",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/water-treatment-devices",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/routine-tests",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/accessories",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/packaging",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/imaging",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/systemoverview",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/accessories/overview",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/handpieces",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/accessories",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/stability",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/test/testproduct",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/air-scaler",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/cordless-devices",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/accessories/overview",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/handpieces",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/piezo-scaler",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/accessories/air-scaler-tips",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/accessories",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/accessories/overview",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/systemoverview",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/endodontics/accessories",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/endodontics/accessories/overview",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/dental-laboratory/laboratory-devices",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/endodontics/systemoverview",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/accessories/prophy-angle-cups",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/endodontics/handpieces",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/systemoverview",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/dental-laboratory/accessories",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/dental-laboratory/accessories/overview",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/dental-laboratory",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/dental-laboratory/handpieces",
+      "reason": "STALE_OR_CATEGORY_SITEMAP_URL_404"
+    },
+    {
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/dental-laboratory/systemoverview",
+      "reason": "OFFICIAL_CATEGORY_OR_OVERVIEW_PAGE"
+    }
+  ],
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "WH-ALEGRA",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Alegra Straight and Contra-angle Handpieces",
+      "manufacturerRef": "30116000",
+      "manufacturerRefs": "30116000 | 30117000 | 30118000 | 30119000 | 10259900 | 10255600 | 10256600 | 30120000 | 30121000 | 30122000 | 30123000",
+      "model": "Alegra Straight and Contra-angle Handpieces",
+      "variantCount": 11,
+      "variants": [
+        {
+          "variantLabel": "Alegra Straight and Contra-angle Handpieces · REF 30116000",
+          "manufacturerRef": "30116000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Straight and Contra-angle Handpieces · REF 30117000",
+          "manufacturerRef": "30117000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Straight and Contra-angle Handpieces · REF 30118000",
+          "manufacturerRef": "30118000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Straight and Contra-angle Handpieces · REF 30119000",
+          "manufacturerRef": "30119000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Straight and Contra-angle Handpieces · REF 10259900",
+          "manufacturerRef": "10259900",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Straight and Contra-angle Handpieces · REF 10255600",
+          "manufacturerRef": "10255600",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Straight and Contra-angle Handpieces · REF 10256600",
+          "manufacturerRef": "10256600",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Straight and Contra-angle Handpieces · REF 30120000",
+          "manufacturerRef": "30120000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Straight and Contra-angle Handpieces · REF 30121000",
+          "manufacturerRef": "30121000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Straight and Contra-angle Handpieces · REF 30122000",
+          "manufacturerRef": "30122000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Straight and Contra-angle Handpieces · REF 30123000",
+          "manufacturerRef": "30123000",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/handpieces/alegra",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-ALEGRA",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Alegra Turbine handpieces",
+      "manufacturerRef": "30068000",
+      "manufacturerRefs": "30068000 | 30069000 | 30070000 | 30071000 | 30072000 | 30073000 | 30074000 | 30075000 | 30066000 | 30067000 | 10405300 | 10405400",
+      "model": "Alegra Turbine handpieces",
+      "variantCount": 12,
+      "variants": [
+        {
+          "variantLabel": "Alegra Turbine handpieces · REF 30068000",
+          "manufacturerRef": "30068000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Turbine handpieces · REF 30069000",
+          "manufacturerRef": "30069000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Turbine handpieces · REF 30070000",
+          "manufacturerRef": "30070000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Turbine handpieces · REF 30071000",
+          "manufacturerRef": "30071000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Turbine handpieces · REF 30072000",
+          "manufacturerRef": "30072000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Turbine handpieces · REF 30073000",
+          "manufacturerRef": "30073000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Turbine handpieces · REF 30074000",
+          "manufacturerRef": "30074000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Turbine handpieces · REF 30075000",
+          "manufacturerRef": "30075000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Turbine handpieces · REF 30066000",
+          "manufacturerRef": "30066000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Turbine handpieces · REF 30067000",
+          "manufacturerRef": "30067000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Turbine handpieces · REF 10405300",
+          "manufacturerRef": "10405300",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Alegra Turbine handpieces · REF 10405400",
+          "manufacturerRef": "10405400",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/turbines/alegra",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-ASSISTINA-ONE",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Assistina One with Quick Connect by W&H",
+      "manufacturerRef": "30398001",
+      "manufacturerRefs": "30398001 | 30398002 | 30398003 | 08064970",
+      "model": "Assistina One with Quick Connect by W&H",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "Assistina One with Quick Connect by W&H · REF 30398001",
+          "manufacturerRef": "30398001",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Assistina One with Quick Connect by W&H · REF 30398002",
+          "manufacturerRef": "30398002",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Assistina One with Quick Connect by W&H · REF 30398003",
+          "manufacturerRef": "30398003",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Assistina One with Quick Connect by W&H · REF 08064970",
+          "manufacturerRef": "08064970",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/reprocessing-devices/assistina-one",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-ASSISTINA-TWIN",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Assistina Twin with Quick Connect by W&H",
+      "manufacturerRef": "30310000",
+      "manufacturerRefs": "30310000 | 30310001 | 30310002 | 30310003",
+      "model": "Assistina Twin with Quick Connect by W&H",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "Assistina Twin with Quick Connect by W&H · REF 30310000",
+          "manufacturerRef": "30310000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Assistina Twin with Quick Connect by W&H · REF 30310001",
+          "manufacturerRef": "30310001",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Assistina Twin with Quick Connect by W&H · REF 30310002",
+          "manufacturerRef": "30310002",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Assistina Twin with Quick Connect by W&H · REF 30310003",
+          "manufacturerRef": "30310003",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/reprocessing-devices/assistina-twin",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-BEPRO",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "BePro – Professional Protection",
+      "manufacturerRef": "19500100",
+      "manufacturerRefs": "19500100 | 19500101 | 19500102 | 19500103 | 19500104 | 19500106 | 19500300 | 19500107 | 19500108 | 19500200 | 19500204 | 19500201 | 19500202 | 19500206 | 19500205 | 19500254 | 19500253 | 19500250 | 19500105 | 19500251 | 19500252",
+      "model": "BePro – Professional Protection",
+      "variantCount": 21,
+      "variants": [
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500100",
+          "manufacturerRef": "19500100",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500101",
+          "manufacturerRef": "19500101",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500102",
+          "manufacturerRef": "19500102",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500103",
+          "manufacturerRef": "19500103",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500104",
+          "manufacturerRef": "19500104",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500106",
+          "manufacturerRef": "19500106",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500300",
+          "manufacturerRef": "19500300",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500107",
+          "manufacturerRef": "19500107",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500108",
+          "manufacturerRef": "19500108",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500200",
+          "manufacturerRef": "19500200",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500204",
+          "manufacturerRef": "19500204",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500201",
+          "manufacturerRef": "19500201",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500202",
+          "manufacturerRef": "19500202",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500206",
+          "manufacturerRef": "19500206",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500205",
+          "manufacturerRef": "19500205",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500254",
+          "manufacturerRef": "19500254",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500253",
+          "manufacturerRef": "19500253",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500250",
+          "manufacturerRef": "19500250",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500105",
+          "manufacturerRef": "19500105",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500251",
+          "manufacturerRef": "19500251",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "BePro – Professional Protection · REF 19500252",
+          "manufacturerRef": "19500252",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/cleaning-disinfection-agents/bepro",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-EM-11L",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Electric motor EM-11 L",
+      "manufacturerRef": "90000392",
+      "manufacturerRefs": "90000392 | 90000393",
+      "model": "Electric motor EM-11 L",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Electric motor EM-11 L · REF 90000392",
+          "manufacturerRef": "90000392",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Electric motor EM-11 L · REF 90000393",
+          "manufacturerRef": "90000393",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/electric-motor/em-11l",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-EM-12L",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Electric motor EM-12 L",
+      "manufacturerRef": "30241000",
+      "manufacturerRefs": "30241000 | 30178000 | 90000138 | 90000245 | 90000224 | 90000139",
+      "model": "Electric motor EM-12 L",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantLabel": "Electric motor EM-12 L · REF 30241000",
+          "manufacturerRef": "30241000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Electric motor EM-12 L · REF 30178000",
+          "manufacturerRef": "30178000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Electric motor EM-12 L · REF 90000138",
+          "manufacturerRef": "90000138",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Electric motor EM-12 L · REF 90000245",
+          "manufacturerRef": "90000245",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Electric motor EM-12 L · REF 90000224",
+          "manufacturerRef": "90000224",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Electric motor EM-12 L · REF 90000139",
+          "manufacturerRef": "90000139",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/electric-motor/em-12l",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-ELIREEL",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "EliReel",
+      "manufacturerRef": "19500000",
+      "manufacturerRefs": "19500000 | 19500001 | 19500002 | 19500003 | 19500004 | 19500005 | 19500006 | T802100X",
+      "model": "EliReel",
+      "variantCount": 8,
+      "variants": [
+        {
+          "variantLabel": "EliReel · REF 19500000",
+          "manufacturerRef": "19500000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "EliReel · REF 19500001",
+          "manufacturerRef": "19500001",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "EliReel · REF 19500002",
+          "manufacturerRef": "19500002",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "EliReel · REF 19500003",
+          "manufacturerRef": "19500003",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "EliReel · REF 19500004",
+          "manufacturerRef": "19500004",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "EliReel · REF 19500005",
+          "manufacturerRef": "19500005",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "EliReel · REF 19500006",
+          "manufacturerRef": "19500006",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "EliReel · REF T802100X",
+          "manufacturerRef": "T802100X",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/accessories/elireel",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-ELISAFE",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "EliSafe label printer",
+      "manufacturerRef": "19721109",
+      "manufacturerRefs": "19721109 | 19721123 | 19721132",
+      "model": "EliSafe label printer",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "EliSafe label printer · REF 19721109",
+          "manufacturerRef": "19721109",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "EliSafe label printer · REF 19721123",
+          "manufacturerRef": "19721123",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "EliSafe label printer · REF 19721132",
+          "manufacturerRef": "19721132",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/accessories/elisafe",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-E-LOG",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "eLog",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "eLog",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "eLog",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/routine-tests/e-log",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-ENDEA",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Endea",
+      "manufacturerRef": "12227501",
+      "manufacturerRefs": "12227501 | 12227901",
+      "model": "Endea",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Endea · REF 12227501",
+          "manufacturerRef": "12227501",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Endea · REF 12227901",
+          "manufacturerRef": "12227901",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x599/9fb4884021/systemoverview-endodontics-06022024.png",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x599/9fb4884021/systemoverview-endodontics-06022024.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/endodontics/handpieces/endea",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-HELIX-TEST",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Helix test",
+      "manufacturerRef": "T800206X",
+      "manufacturerRefs": "T800206X | T800207X",
+      "model": "Helix test",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Helix test · REF T800206X",
+          "manufacturerRef": "T800206X",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Helix test · REF T800207X",
+          "manufacturerRef": "T800207X",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/routine-tests/helix-test",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-IMPLANTMED",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Implantmed Plus & Classic",
+      "manufacturerRef": "30288000",
+      "manufacturerRefs": "30288000 | 30289000 | 30290001 | 30281000 | 30185000 | 30264000 | 30285000 | Beacon | SmartPegs | 90000161 | 30287000",
+      "model": "Implantmed Plus & Classic",
+      "variantCount": 11,
+      "variants": [
+        {
+          "variantLabel": "Implantmed Plus & Classic · REF 30288000",
+          "manufacturerRef": "30288000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Implantmed Plus & Classic · REF 30289000",
+          "manufacturerRef": "30289000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Implantmed Plus & Classic · REF 30290001",
+          "manufacturerRef": "30290001",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Implantmed Plus & Classic · REF 30281000",
+          "manufacturerRef": "30281000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Implantmed Plus & Classic · REF 30185000",
+          "manufacturerRef": "30185000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Implantmed Plus & Classic · REF 30264000",
+          "manufacturerRef": "30264000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Implantmed Plus & Classic · REF 30285000",
+          "manufacturerRef": "30285000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Implantmed Plus & Classic · REF Beacon",
+          "manufacturerRef": "Beacon",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Implantmed Plus & Classic · REF SmartPegs",
+          "manufacturerRef": "SmartPegs",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Implantmed Plus & Classic · REF 90000161",
+          "manufacturerRef": "90000161",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Implantmed Plus & Classic · REF 30287000",
+          "manufacturerRef": "30287000",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/963x865/61bdd8682f/oralsurgery_systemoverview-202601.png",
+      "imageUrls": "https://a.storyblok.com/f/45617/963x865/61bdd8682f/oralsurgery_systemoverview-202601.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/implantmed",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-IMPLANTMED-2",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Implantmed Plus II",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Implantmed Plus II",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Implantmed Plus II",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/963x865/61bdd8682f/oralsurgery_systemoverview-202601.png",
+      "imageUrls": "https://a.storyblok.com/f/45617/963x865/61bdd8682f/oralsurgery_systemoverview-202601.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/implantmed-2",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-LARA-AUTOCLAVE",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Lara sterilizer",
+      "manufacturerRef": "19941120",
+      "manufacturerRefs": "19941120 | 19942120",
+      "model": "Lara sterilizer",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Lara sterilizer · REF 19941120",
+          "manufacturerRef": "19941120",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lara sterilizer · REF 19942120",
+          "manufacturerRef": "19942120",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lara-autoclave",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-LARA-XL",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Lara XL sterilizer",
+      "manufacturerRef": "19933110",
+      "manufacturerRefs": "19933110",
+      "model": "Lara XL sterilizer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Lara XL sterilizer · REF 19933110",
+          "manufacturerRef": "19933110",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lara-xl",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-LARA-XXL",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Lara XXL – maximum capacity, minimum dimensions",
+      "manufacturerRef": "19936110",
+      "manufacturerRefs": "19936110",
+      "model": "Lara XXL – maximum capacity, minimum dimensions",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Lara XXL – maximum capacity, minimum dimensions · REF 19936110",
+          "manufacturerRef": "19936110",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lara-xxl",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-LEXA",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Lexa sterilizer",
+      "manufacturerRef": "19943401",
+      "manufacturerRefs": "19943401 | 19943101",
+      "model": "Lexa sterilizer",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Lexa sterilizer · REF 19943401",
+          "manufacturerRef": "19943401",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lexa sterilizer · REF 19943101",
+          "manufacturerRef": "19943101",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lexa",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-LINA-AUTOCLAVE",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Lina sterilizer",
+      "manufacturerRef": "19951130",
+      "manufacturerRefs": "19951130 | 19951131 | 19952130 | 19952131 | 19952330 | 19952331 | 19951230 | 19951231 | 19952230 | 19952231",
+      "model": "Lina sterilizer",
+      "variantCount": 10,
+      "variants": [
+        {
+          "variantLabel": "Lina sterilizer · REF 19951130",
+          "manufacturerRef": "19951130",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lina sterilizer · REF 19951131",
+          "manufacturerRef": "19951131",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lina sterilizer · REF 19952130",
+          "manufacturerRef": "19952130",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lina sterilizer · REF 19952131",
+          "manufacturerRef": "19952131",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lina sterilizer · REF 19952330",
+          "manufacturerRef": "19952330",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lina sterilizer · REF 19952331",
+          "manufacturerRef": "19952331",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lina sterilizer · REF 19951230",
+          "manufacturerRef": "19951230",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lina sterilizer · REF 19951231",
+          "manufacturerRef": "19951231",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lina sterilizer · REF 19952230",
+          "manufacturerRef": "19952230",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lina sterilizer · REF 19952231",
+          "manufacturerRef": "19952231",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lina-autoclave",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-LISA-MINI",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Lisa Mini – the fast and small type B sterilizer",
+      "manufacturerRef": "19944100",
+      "manufacturerRefs": "19944100 | 19944200 | 19945100 | 19935100",
+      "model": "Lisa Mini – the fast and small type B sterilizer",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "Lisa Mini – the fast and small type B sterilizer · REF 19944100",
+          "manufacturerRef": "19944100",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lisa Mini – the fast and small type B sterilizer · REF 19944200",
+          "manufacturerRef": "19944200",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lisa Mini – the fast and small type B sterilizer · REF 19945100",
+          "manufacturerRef": "19945100",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lisa Mini – the fast and small type B sterilizer · REF 19935100",
+          "manufacturerRef": "19935100",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lisa-mini",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-LISA-AUTOCLAVE",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Lisa sterilizer",
+      "manufacturerRef": "19931180",
+      "manufacturerRefs": "19931180 | 19932180",
+      "model": "Lisa sterilizer",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Lisa sterilizer · REF 19931180",
+          "manufacturerRef": "19931180",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lisa sterilizer · REF 19932180",
+          "manufacturerRef": "19932180",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lisa-autoclave",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-LYLA",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Lyla sterilizer",
+      "manufacturerRef": "19951150",
+      "manufacturerRefs": "19951150 | 19952150 | 19952350 | 19951250 | 19952250",
+      "model": "Lyla sterilizer",
+      "variantCount": 5,
+      "variants": [
+        {
+          "variantLabel": "Lyla sterilizer · REF 19951150",
+          "manufacturerRef": "19951150",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lyla sterilizer · REF 19952150",
+          "manufacturerRef": "19952150",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lyla sterilizer · REF 19952350",
+          "manufacturerRef": "19952350",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lyla sterilizer · REF 19951250",
+          "manufacturerRef": "19951250",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Lyla sterilizer · REF 19952250",
+          "manufacturerRef": "19952250",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/lyla",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-MS-STERILIZER",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "MS Sterilizer",
+      "manufacturerRef": "19952110",
+      "manufacturerRefs": "19952110",
+      "model": "MS Sterilizer",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "MS Sterilizer · REF 19952110",
+          "manufacturerRef": "19952110",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/ms-sterilizer",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-MULTIDEM",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Multidem",
+      "manufacturerRef": "19723112",
+      "manufacturerRefs": "19723112",
+      "model": "Multidem",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Multidem · REF 19723112",
+          "manufacturerRef": "19723112",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/water-treatment-devices/multidem",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-SMARTPEG",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Original SmartPegs by Osstell",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Original SmartPegs by Osstell",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Original SmartPegs by Osstell",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/accessories/smartpeg",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-OSMO",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Osmo",
+      "manufacturerRef": "19721134",
+      "manufacturerRefs": "19721134",
+      "model": "Osmo",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Osmo · REF 19721134",
+          "manufacturerRef": "19721134",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/water-treatment-devices/osmo",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-BEACON",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Osstell Beacon",
+      "manufacturerRef": "08022260",
+      "manufacturerRefs": "08022260 | 07982690",
+      "model": "Osstell Beacon",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Osstell Beacon · REF 08022260",
+          "manufacturerRef": "08022260",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Osstell Beacon · REF 07982690",
+          "manufacturerRef": "07982690",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/stability/beacon",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-OSSTELL-CLASSIC",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Osstell Classic",
+      "manufacturerRef": "08086148",
+      "manufacturerRefs": "08086148",
+      "model": "Osstell Classic",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Osstell Classic · REF 08086148",
+          "manufacturerRef": "08086148",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/stability/osstell-classic",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-OSSTELLCONNECT",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "OsstellConnect",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OsstellConnect",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OsstellConnect",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/stability/osstellconnect",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PERFECTA-300-600",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Perfecta 300 and Perfecta 600",
+      "manufacturerRef": "14933000",
+      "manufacturerRefs": "14933000 | 14933100 | 14933200 | 14936000 | 14936100 | 14936200",
+      "model": "Perfecta 300 and Perfecta 600",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantLabel": "Perfecta 300 and Perfecta 600 · REF 14933000",
+          "manufacturerRef": "14933000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Perfecta 300 and Perfecta 600 · REF 14933100",
+          "manufacturerRef": "14933100",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Perfecta 300 and Perfecta 600 · REF 14933200",
+          "manufacturerRef": "14933200",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Perfecta 300 and Perfecta 600 · REF 14936000",
+          "manufacturerRef": "14936000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Perfecta 300 and Perfecta 600 · REF 14936100",
+          "manufacturerRef": "14936100",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Perfecta 300 and Perfecta 600 · REF 14936200",
+          "manufacturerRef": "14936200",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/d130589859/systemoverview_laboratory.png",
+      "imageUrls": "https://a.storyblok.com/f/45617/d130589859/systemoverview_laboratory.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/dental-laboratory/laboratory-devices/perfecta-300-600",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PERFECTA-900",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Perfecta 900",
+      "manufacturerRef": "14939300",
+      "manufacturerRefs": "14939300 | 14939400",
+      "model": "Perfecta 900",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "Perfecta 900 · REF 14939300",
+          "manufacturerRef": "14939300",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Perfecta 900 · REF 14939400",
+          "manufacturerRef": "14939400",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/d130589859/systemoverview_laboratory.png",
+      "imageUrls": "https://a.storyblok.com/f/45617/d130589859/systemoverview_laboratory.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/dental-laboratory/laboratory-devices/perfecta-900",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PIEZO-ENDO-TIPS",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Piezo Endo Tips",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Piezo Endo Tips",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Piezo Endo Tips",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x599/9fb4884021/systemoverview-endodontics-06022024.png",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x599/9fb4884021/systemoverview-endodontics-06022024.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/endodontics/accessories/piezo-endo-tips",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PIEZO-SCALER-TIPS",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Piezo Scaler Tips",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Piezo Scaler Tips",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Piezo Scaler Tips",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/accessories/piezo-scaler-tips",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PIEZOMED",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Piezomed & Piezomed module",
+      "manufacturerRef": "30078000",
+      "manufacturerRefs": "30078000 | 90000350 | 90000351 | 90000349",
+      "model": "Piezomed & Piezomed module",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "Piezomed & Piezomed module · REF 30078000",
+          "manufacturerRef": "30078000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Piezomed & Piezomed module · REF 90000350",
+          "manufacturerRef": "90000350",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Piezomed & Piezomed module · REF 90000351",
+          "manufacturerRef": "90000351",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Piezomed & Piezomed module · REF 90000349",
+          "manufacturerRef": "90000349",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/963x865/61bdd8682f/oralsurgery_systemoverview-202601.png",
+      "imageUrls": "https://a.storyblok.com/f/45617/963x865/61bdd8682f/oralsurgery_systemoverview-202601.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/piezomed",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PIEZOMED-INSTRUMENTS",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Piezomed Instruments",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Piezomed Instruments",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Piezomed Instruments",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/accessories/piezomed-instruments",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PIEZOMED-MODULE-2",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Piezomed module Plus II",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Piezomed module Plus II",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Piezomed module Plus II",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/963x865/61bdd8682f/oralsurgery_systemoverview-202601.png",
+      "imageUrls": "https://a.storyblok.com/f/45617/963x865/61bdd8682f/oralsurgery_systemoverview-202601.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/surgical-devices/piezomed-module-2",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PROPHY-CUPS-BRUSHES",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Prophy Cups and Brushes",
+      "manufacturerRef": "08003630",
+      "manufacturerRefs": "08003630 | 07597900 | 08003650 | 30189000 | 90000346",
+      "model": "Prophy Cups and Brushes",
+      "variantCount": 5,
+      "variants": [
+        {
+          "variantLabel": "Prophy Cups and Brushes · REF 08003630",
+          "manufacturerRef": "08003630",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Prophy Cups and Brushes · REF 07597900",
+          "manufacturerRef": "07597900",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Prophy Cups and Brushes · REF 08003650",
+          "manufacturerRef": "08003650",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Prophy Cups and Brushes · REF 30189000",
+          "manufacturerRef": "30189000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Prophy Cups and Brushes · REF 90000346",
+          "manufacturerRef": "90000346",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/accessories/prophy-cups-brushes",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PROPHYLAXIS-POWDER",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Prophylaxis Powder",
+      "manufacturerRef": "08020870",
+      "manufacturerRefs": "08020870 | 08020890 | 08020760 | 08020770 | 08020761 | 08020771 | 08020781 | 08020791",
+      "model": "Prophylaxis Powder",
+      "variantCount": 8,
+      "variants": [
+        {
+          "variantLabel": "Prophylaxis Powder · REF 08020870",
+          "manufacturerRef": "08020870",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Prophylaxis Powder · REF 08020890",
+          "manufacturerRef": "08020890",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Prophylaxis Powder · REF 08020760",
+          "manufacturerRef": "08020760",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Prophylaxis Powder · REF 08020770",
+          "manufacturerRef": "08020770",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Prophylaxis Powder · REF 08020761",
+          "manufacturerRef": "08020761",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Prophylaxis Powder · REF 08020771",
+          "manufacturerRef": "08020771",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Prophylaxis Powder · REF 08020781",
+          "manufacturerRef": "08020781",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Prophylaxis Powder · REF 08020791",
+          "manufacturerRef": "08020791",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1300/5b7eb3e898/prophy-paro-systemoverview-uk_2025.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1300/5b7eb3e898/prophy-paro-systemoverview-uk_2025.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/accessories/prophylaxis-powder",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PROXEO",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Proxeo",
+      "manufacturerRef": "10216443",
+      "manufacturerRefs": "10216443 | 10216403 | 30190000 | 10114403",
+      "model": "Proxeo",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "Proxeo · REF 10216443",
+          "manufacturerRef": "10216443",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo · REF 10216403",
+          "manufacturerRef": "10216403",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo · REF 30190000",
+          "manufacturerRef": "30190000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo · REF 10114403",
+          "manufacturerRef": "10114403",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/handpieces/proxeo",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PROXEO",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Proxeo Air Scaler",
+      "manufacturerRef": "10035501",
+      "manufacturerRefs": "10035501 | 10035502 | 10035503 | 30227000 | 11015500 | 11015501",
+      "model": "Proxeo Air Scaler",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantLabel": "Proxeo Air Scaler · REF 10035501",
+          "manufacturerRef": "10035501",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Air Scaler · REF 10035502",
+          "manufacturerRef": "10035502",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Air Scaler · REF 10035503",
+          "manufacturerRef": "10035503",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Air Scaler · REF 30227000",
+          "manufacturerRef": "30227000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Air Scaler · REF 11015500",
+          "manufacturerRef": "11015500",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Air Scaler · REF 11015501",
+          "manufacturerRef": "11015501",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/air-scaler/proxeo",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PROXEO-AURA",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Proxeo Aura",
+      "manufacturerRef": "08020860",
+      "manufacturerRefs": "08020860",
+      "model": "Proxeo Aura",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Proxeo Aura · REF 08020860",
+          "manufacturerRef": "08020860",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/air-polisher/proxeo-aura",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PROXEO-TWIST",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Proxeo Twist - LatchShort Polishing System",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Proxeo Twist - LatchShort Polishing System",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Proxeo Twist - LatchShort Polishing System",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/handpieces/proxeo-twist",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PROXEO-TWIST",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Proxeo Twist Cordless",
+      "manufacturerRef": "90000347",
+      "manufacturerRefs": "90000347 | 90000348 | 30317000 | 90000354 | 90000358 | 90000299 | 90000301",
+      "model": "Proxeo Twist Cordless",
+      "variantCount": 7,
+      "variants": [
+        {
+          "variantLabel": "Proxeo Twist Cordless · REF 90000347",
+          "manufacturerRef": "90000347",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Twist Cordless · REF 90000348",
+          "manufacturerRef": "90000348",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Twist Cordless · REF 30317000",
+          "manufacturerRef": "30317000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Twist Cordless · REF 90000354",
+          "manufacturerRef": "90000354",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Twist Cordless · REF 90000358",
+          "manufacturerRef": "90000358",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Twist Cordless · REF 90000299",
+          "manufacturerRef": "90000299",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Twist Cordless · REF 90000301",
+          "manufacturerRef": "90000301",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/cordless-devices/proxeo-twist",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-PROXEO-ULTRA",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Proxeo Ultra",
+      "manufacturerRef": "90000257",
+      "manufacturerRefs": "90000257 | 90000297 | 90000255 | 90000296 | 90000253 | 90000295 | 90000251 | 90000149 | 30326000 | 30328000 | 90000294",
+      "model": "Proxeo Ultra",
+      "variantCount": 11,
+      "variants": [
+        {
+          "variantLabel": "Proxeo Ultra · REF 90000257",
+          "manufacturerRef": "90000257",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Ultra · REF 90000297",
+          "manufacturerRef": "90000297",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Ultra · REF 90000255",
+          "manufacturerRef": "90000255",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Ultra · REF 90000296",
+          "manufacturerRef": "90000296",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Ultra · REF 90000253",
+          "manufacturerRef": "90000253",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Ultra · REF 90000295",
+          "manufacturerRef": "90000295",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Ultra · REF 90000251",
+          "manufacturerRef": "90000251",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Ultra · REF 90000149",
+          "manufacturerRef": "90000149",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Ultra · REF 30326000",
+          "manufacturerRef": "30326000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Ultra · REF 30328000",
+          "manufacturerRef": "30328000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Proxeo Ultra · REF 90000294",
+          "manufacturerRef": "90000294",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1580/453bb96573/prophy-paro-systemoverview-int_2025.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/prophylaxis-periodontology/piezo-scaler/proxeo-ultra",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-Q-DRY",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Q-Dry – for easy handpiece drying",
+      "manufacturerRef": "19723118",
+      "manufacturerRefs": "19723118",
+      "model": "Q-Dry – for easy handpiece drying",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Q-Dry – for easy handpiece drying · REF 19723118",
+          "manufacturerRef": "19723118",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/accessories/q-dry",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-RC",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "RC Straight & Contra-angle Handpieces",
+      "manufacturerRef": "11245800",
+      "manufacturerRefs": "11245800 | 11144300 | 11042001",
+      "model": "RC Straight & Contra-angle Handpieces",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "RC Straight & Contra-angle Handpieces · REF 11245800",
+          "manufacturerRef": "11245800",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "RC Straight & Contra-angle Handpieces · REF 11144300",
+          "manufacturerRef": "11144300",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "RC Straight & Contra-angle Handpieces · REF 11042001",
+          "manufacturerRef": "11042001",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/handpieces/rc",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-RC",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "RC Turbines",
+      "manufacturerRef": "11049500",
+      "manufacturerRefs": "11049500 | 11049501 | 11049000 | REF 11049001",
+      "model": "RC Turbines",
+      "variantCount": 4,
+      "variants": [
+        {
+          "variantLabel": "RC Turbines · REF 11049500",
+          "manufacturerRef": "11049500",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "RC Turbines · REF 11049501",
+          "manufacturerRef": "11049501",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "RC Turbines · REF 11049000",
+          "manufacturerRef": "11049000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "RC Turbines · REF REF 11049001",
+          "manufacturerRef": "REF 11049001",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/turbines/rc/",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-COUPLING-LED",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "RM-34 LED",
+      "manufacturerRef": "10403410",
+      "manufacturerRefs": "10403410",
+      "model": "RM-34 LED",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RM-34 LED · REF 10403410",
+          "manufacturerRef": "10403410",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/couplings/coupling-led",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-ROTO-QUICK",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Roto Quick couplings",
+      "manufacturerRef": "10402400",
+      "manufacturerRefs": "10402400 | 10403400 | 10400300 | 10400400 | 10401400",
+      "model": "Roto Quick couplings",
+      "variantCount": 5,
+      "variants": [
+        {
+          "variantLabel": "Roto Quick couplings · REF 10402400",
+          "manufacturerRef": "10402400",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Roto Quick couplings · REF 10403400",
+          "manufacturerRef": "10403400",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Roto Quick couplings · REF 10400300",
+          "manufacturerRef": "10400300",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Roto Quick couplings · REF 10400400",
+          "manufacturerRef": "10400400",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Roto Quick couplings · REF 10401400",
+          "manufacturerRef": "10401400",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/couplings/roto-quick",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-SEAL2",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Seal² and SealVal²",
+      "manufacturerRef": "19722101",
+      "manufacturerRefs": "19722101 | 19722102 | 19722103",
+      "model": "Seal² and SealVal²",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "Seal² and SealVal² · REF 19722101",
+          "manufacturerRef": "19722101",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Seal² and SealVal² · REF 19722102",
+          "manufacturerRef": "19722102",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Seal² and SealVal² · REF 19722103",
+          "manufacturerRef": "19722103",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/accessories/seal2",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-SEETHROUGH-PREVIEW",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Seethrough – Imaging Solutions",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Seethrough – Imaging Solutions",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Seethrough – Imaging Solutions",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/imaging/seethrough-preview",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-SERVICE-OIL",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Service Oil F1",
+      "manufacturerRef": "10940021",
+      "manufacturerRefs": "10940021 | 02675910 | 06691500",
+      "model": "Service Oil F1",
+      "variantCount": 3,
+      "variants": [
+        {
+          "variantLabel": "Service Oil F1 · REF 10940021",
+          "manufacturerRef": "10940021",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Service Oil F1 · REF 02675910",
+          "manufacturerRef": "02675910",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Service Oil F1 · REF 06691500",
+          "manufacturerRef": "06691500",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/accessories/service-oil",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-SPRINT",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Sprint",
+      "manufacturerRef": "19721141",
+      "manufacturerRefs": "19721141",
+      "model": "Sprint",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Sprint · REF 19721141",
+          "manufacturerRef": "19721141",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/accessories/sprint",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-CONTRA-ANGLES",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Surgical Contra-angles",
+      "manufacturerRef": "30040000",
+      "manufacturerRefs": "30040000 | 30033000 | 30049000 | 30043000 | 30039000 | 30032000 | 30042000 | 30048000 | 30047000 | 30038000 | 30065000 | 30041000 | 10207550",
+      "model": "Surgical Contra-angles",
+      "variantCount": 13,
+      "variants": [
+        {
+          "variantLabel": "Surgical Contra-angles · REF 30040000",
+          "manufacturerRef": "30040000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Contra-angles · REF 30033000",
+          "manufacturerRef": "30033000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Contra-angles · REF 30049000",
+          "manufacturerRef": "30049000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Contra-angles · REF 30043000",
+          "manufacturerRef": "30043000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Contra-angles · REF 30039000",
+          "manufacturerRef": "30039000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Contra-angles · REF 30032000",
+          "manufacturerRef": "30032000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Contra-angles · REF 30042000",
+          "manufacturerRef": "30042000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Contra-angles · REF 30048000",
+          "manufacturerRef": "30048000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Contra-angles · REF 30047000",
+          "manufacturerRef": "30047000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Contra-angles · REF 30038000",
+          "manufacturerRef": "30038000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Contra-angles · REF 30065000",
+          "manufacturerRef": "30065000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Contra-angles · REF 30041000",
+          "manufacturerRef": "30041000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Contra-angles · REF 10207550",
+          "manufacturerRef": "10207550",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/963x865/61bdd8682f/oralsurgery_systemoverview-202601.png",
+      "imageUrls": "https://a.storyblok.com/f/45617/963x865/61bdd8682f/oralsurgery_systemoverview-202601.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/handpieces/contra-angles",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-HANDPIECES",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Surgical Handpieces",
+      "manufacturerRef": "30054000",
+      "manufacturerRefs": "30054000 | 30057000 | 30058000 | 30056000 | 30060000 | 30053000 | 30059000 | 30061000 | 30411000",
+      "model": "Surgical Handpieces",
+      "variantCount": 9,
+      "variants": [
+        {
+          "variantLabel": "Surgical Handpieces · REF 30054000",
+          "manufacturerRef": "30054000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Handpieces · REF 30057000",
+          "manufacturerRef": "30057000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Handpieces · REF 30058000",
+          "manufacturerRef": "30058000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Handpieces · REF 30056000",
+          "manufacturerRef": "30056000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Handpieces · REF 30060000",
+          "manufacturerRef": "30060000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Handpieces · REF 30053000",
+          "manufacturerRef": "30053000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Handpieces · REF 30059000",
+          "manufacturerRef": "30059000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Handpieces · REF 30061000",
+          "manufacturerRef": "30061000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Surgical Handpieces · REF 30411000",
+          "manufacturerRef": "30411000",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/963x865/61bdd8682f/oralsurgery_systemoverview-202601.png",
+      "imageUrls": "https://a.storyblok.com/f/45617/963x865/61bdd8682f/oralsurgery_systemoverview-202601.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/handpieces/handpieces",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-SYNEA",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Synea Straight & Contra-angle Handpieces",
+      "manufacturerRef": "30418000",
+      "manufacturerRefs": "30418000 | 30459000 | 30460000 | 30023000 | 30215000 | 30024000 | 30216000 | 30025000 | 30217000 | 30026000 | 30027000 | 30028000 | 30007000 | 30008000 | 30011000 | 30012000 | 30009000 | 30010000 | 30013000 | 30084000 | 30085000",
+      "model": "Synea Straight & Contra-angle Handpieces",
+      "variantCount": 21,
+      "variants": [
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30418000",
+          "manufacturerRef": "30418000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30459000",
+          "manufacturerRef": "30459000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30460000",
+          "manufacturerRef": "30460000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30023000",
+          "manufacturerRef": "30023000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30215000",
+          "manufacturerRef": "30215000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30024000",
+          "manufacturerRef": "30024000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30216000",
+          "manufacturerRef": "30216000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30025000",
+          "manufacturerRef": "30025000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30217000",
+          "manufacturerRef": "30217000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30026000",
+          "manufacturerRef": "30026000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30027000",
+          "manufacturerRef": "30027000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30028000",
+          "manufacturerRef": "30028000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30007000",
+          "manufacturerRef": "30007000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30008000",
+          "manufacturerRef": "30008000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30011000",
+          "manufacturerRef": "30011000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30012000",
+          "manufacturerRef": "30012000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30009000",
+          "manufacturerRef": "30009000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30010000",
+          "manufacturerRef": "30010000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30013000",
+          "manufacturerRef": "30013000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30084000",
+          "manufacturerRef": "30084000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Straight & Contra-angle Handpieces · REF 30085000",
+          "manufacturerRef": "30085000",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/handpieces/synea",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-SYNEA",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Synea Turbines",
+      "manufacturerRef": "30005000",
+      "manufacturerRefs": "30005000 | 30004000 | 30006000 | 30199000 | 30197000 | 30002000 | 30001000 | 30003000 | 30200000 | 30198000 | 30016000 | 30031000 | 30021000 | 30022000 | 30019000 | 30020000 | 30017000 | 30018000",
+      "model": "Synea Turbines",
+      "variantCount": 18,
+      "variants": [
+        {
+          "variantLabel": "Synea Turbines · REF 30005000",
+          "manufacturerRef": "30005000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30004000",
+          "manufacturerRef": "30004000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30006000",
+          "manufacturerRef": "30006000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30199000",
+          "manufacturerRef": "30199000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30197000",
+          "manufacturerRef": "30197000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30002000",
+          "manufacturerRef": "30002000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30001000",
+          "manufacturerRef": "30001000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30003000",
+          "manufacturerRef": "30003000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30200000",
+          "manufacturerRef": "30200000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30198000",
+          "manufacturerRef": "30198000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30016000",
+          "manufacturerRef": "30016000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30031000",
+          "manufacturerRef": "30031000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30021000",
+          "manufacturerRef": "30021000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30022000",
+          "manufacturerRef": "30022000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30019000",
+          "manufacturerRef": "30019000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30020000",
+          "manufacturerRef": "30020000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30017000",
+          "manufacturerRef": "30017000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Synea Turbines · REF 30018000",
+          "manufacturerRef": "30018000",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x865/aec955fa87/wh-systemoverview-restauration-primea-20260722.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/restoration-prosthetics/turbines/synea/",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-TECHNICAL-HANDPIECE",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Technical Handpiece 945",
+      "manufacturerRef": "14124500",
+      "manufacturerRefs": "14124500",
+      "model": "Technical Handpiece 945",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Technical Handpiece 945 · REF 14124500",
+          "manufacturerRef": "14124500",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/d130589859/systemoverview_laboratory.png",
+      "imageUrls": "https://a.storyblok.com/f/45617/d130589859/systemoverview_laboratory.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/dental-laboratory/handpieces/technical-handpiece",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-THED",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Thermal washer disinfector devices Thed+ and Thed",
+      "manufacturerRef": "21055000",
+      "manufacturerRefs": "21055000 | 21056001 | 21050000 | 21051000 | 19721529 | 19721530 | 19721531",
+      "model": "Thermal washer disinfector devices Thed+ and Thed",
+      "variantCount": 7,
+      "variants": [
+        {
+          "variantLabel": "Thermal washer disinfector devices Thed+ and Thed · REF 21055000",
+          "manufacturerRef": "21055000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Thermal washer disinfector devices Thed+ and Thed · REF 21056001",
+          "manufacturerRef": "21056001",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Thermal washer disinfector devices Thed+ and Thed · REF 21050000",
+          "manufacturerRef": "21050000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Thermal washer disinfector devices Thed+ and Thed · REF 21051000",
+          "manufacturerRef": "21051000",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Thermal washer disinfector devices Thed+ and Thed · REF 19721529",
+          "manufacturerRef": "19721529",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Thermal washer disinfector devices Thed+ and Thed · REF 19721530",
+          "manufacturerRef": "19721530",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "Thermal washer disinfector devices Thed+ and Thed · REF 19721531",
+          "manufacturerRef": "19721531",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/thermal-washer-disinfectors/thed",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-ELITRACE",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Traceability thanks to EliTrace",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Traceability thanks to EliTrace",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Traceability thanks to EliTrace",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/sterilizers/elitrace",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-U-SON",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "U-Son – Ultrasonic cleaner",
+      "manufacturerRef": "19600004",
+      "manufacturerRefs": "19600004 | 19600005",
+      "model": "U-Son – Ultrasonic cleaner",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantLabel": "U-Son – Ultrasonic cleaner · REF 19600004",
+          "manufacturerRef": "19600004",
+          "status": "REFERENCE_CONFIRMED"
+        },
+        {
+          "variantLabel": "U-Son – Ultrasonic cleaner · REF 19600005",
+          "manufacturerRef": "19600005",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/thermal-washer-disinfectors/u-son",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-DIST",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Water Distiller",
+      "manufacturerRef": "19723101",
+      "manufacturerRefs": "19723101",
+      "model": "Water Distiller",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Water Distiller · REF 19723101",
+          "manufacturerRef": "19723101",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageUrls": "https://a.storyblok.com/f/45617/962x1285/45e5180edb/202503_wh-systemoverview-sterilization-int.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/sterilization-hygienic-maintenance/water-treatment-devices/dist",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "WH-ZYGOMA",
+      "brand": "W&H",
+      "manufacturer": "W&H Dentalwerk Bürmoos GmbH",
+      "name": "Zygoma - 20:1 handpiece",
+      "manufacturerRef": "30095000",
+      "manufacturerRefs": "30095000",
+      "model": "Zygoma - 20:1 handpiece",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Zygoma - 20:1 handpiece · REF 30095000",
+          "manufacturerRef": "30095000",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "W&H / Dental products",
+      "description": "Текущее семейство подтверждено официальным каталогом W&H. Конкретное исполнение выбирается по REF производителя.",
+      "sourceImageUrl": "https://a.storyblok.com/f/45617/852x449/80ed691d68/zygoma-0_23.png",
+      "imageUrls": "https://a.storyblok.com/f/45617/852x449/80ed691d68/zygoma-0_23.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.wh.com/en_global/dental-products/oralsurgery-implantology/handpieces/zygoma",
+      "additionalSourceUrls": "https://www.wh.com/en_global/sitemap.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_MODELS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    }
+  ]
+}

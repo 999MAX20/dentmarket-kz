@@ -67,6 +67,7 @@ import styles from "./page.module.css";
 import { BuyerServicesPanel } from "./buyer-services-panel";
 import { SmartCommercePanel } from "./smart-commerce-panel";
 import publicCatalogData from "./data/public-catalog-fallback.json";
+import approvedCatalogData from "./data/production-approved-catalog.json";
 import publicCatalogMedia from "./data/public-catalog-media.json";
 import SafeProductImage from "./components/safe-product-image";
 import { safeCatalogMediaSource } from "./lib/catalog-media";
@@ -363,8 +364,24 @@ const demoCatalogFallback: SearchProduct[] = [
     ],
   },
 ];
+const combinedCatalogProducts = [
+  ...new Map(
+    [...publicCatalogData.products, ...approvedCatalogData.products].map(
+      (product) => [
+        `${product.brand ?? ""}|${product.name}`.toLocaleLowerCase("ru"),
+        product,
+      ],
+    ),
+  ).values(),
+];
 const generatedCatalogFallback: SearchProduct[] =
-  publicCatalogData.products.map((product) => ({
+  combinedCatalogProducts
+  // A card without an approved local image stays in the moderation data, but
+  // must never leak into the public shelf as a broken/placeholder product.
+  .filter((product) =>
+    Boolean(mediaSource(publicMediaEntries[product.sourceUrl ?? ""])),
+  )
+  .map((product) => ({
     ...product,
     media: publicMediaEntries[product.sourceUrl ?? ""]
       ? [publicMediaEntries[product.sourceUrl ?? ""]]
@@ -457,14 +474,12 @@ const mergePrivateCatalog = (
   filters: { unit?: string; packaging?: string; delivery?: string; stock?: string },
 ) => {
   const fallback = fallbackSearch(query, sort, filters, 60);
-  // The authenticated endpoint may contain only currently published offers.
-  // The clinic must still browse the same canonical catalog as a guest; live
-  // offers are overlaid on matching cards when they exist.
-  if (live.total >= fallback.total || fallback.total === 0) return live;
+  // The curated fallback is the publication allow-list. The API contributes
+  // fresh offers only to cards already present in that allow-list; records
+  // awaiting a photo or moderation cannot reappear through live search.
   const liveByName = new Map(live.items.map((item) => [catalogTextKey(item.name), item]));
   return {
     ...fallback,
-    total: Math.max(fallback.total, live.total),
     items: fallback.items.map((item) => {
       const liveItem = liveByName.get(catalogTextKey(item.name));
       return liveItem

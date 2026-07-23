@@ -1,0 +1,1585 @@
+{
+  "brand": "BiLumix",
+  "manufacturer": "ChoiceTech Co., Ltd.",
+  "sourceType": "OFFICIAL_CURRENT_SHOPIFY_PRODUCT_AND_VARIANT_DATA",
+  "sourceUrl": "https://bilumix.com/sitemap-0.xml",
+  "lastChecked": "2026-07-22",
+  "totals": {
+    "physicalProductUrls": 25,
+    "discoveredProducts": 25,
+    "variantSkus": 109,
+    "productsWithReferences": 23,
+    "productsWithImages": 25,
+    "duplicateVariantReferences": 0,
+    "crawlErrors": 0
+  },
+  "duplicateRefs": [],
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "BILUMIX-9021752180979",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "1.5x Loupe",
+      "manufacturerRef": "BLXSL15",
+      "manufacturerRefs": "BLXSL15",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "46653517758707",
+          "label": "Default Title",
+          "manufacturerRef": "BLXSL15",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/1_5x_loupe_2024_6606b060-904f-4bae-b3b9-5023eb5d2fc3.jpg?v=1752208449",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "BiLumix Headlamp",
+      "description": "Achieve unparalleled precision with our 1.5x Glass Loupe, designed to work seamlessly with the BiLumix Headlamp. Ideal for intricate medical procedures, this loupe ensures crystal-clear vision and optimal comfort. ▷ Manual Video",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/1_5x_loupe_2024_6606b060-904f-4bae-b3b9-5023eb5d2fc3.jpg?v=1752208449",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/1_5x_loupe_2024_6606b060-904f-4bae-b3b9-5023eb5d2fc3.jpg?v=1752208449 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/1_5x_loupe_2024_g2_53b4325e-d8a0-4eb5-9bf2-78f5ec4a9347.jpg?v=1752208449 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/1_5x_loupe_2024_g2s_f49c1e87-c791-48a9-ae6f-1de2763e9d9d.jpg?v=1752208449",
+      "imageCount": 3,
+      "sourcePageUrl": "https://bilumix.com/shop/1-5x-loupe/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021752115443",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "2.5x Loupe",
+      "manufacturerRef": "BLXLP25A",
+      "manufacturerRefs": "BLXLP25A",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "46653517693171",
+          "label": "Default Title",
+          "manufacturerRef": "BLXLP25A",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-25x-002_b527a300-13b0-4408-8af3-11cde9e4c119.webp?v=1752208456",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "Optics",
+      "description": "Experience superior magnification with our 2.5x Surgical Loupe, perfectly compatible with the BiLumix Headlamp. Engineered for surgical excellence, this loupe provides exceptional clarity and ergonomic design. ▷ Manual Video",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-25x-002_b527a300-13b0-4408-8af3-11cde9e4c119.webp?v=1752208456",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-25x-002_b527a300-13b0-4408-8af3-11cde9e4c119.webp?v=1752208456 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-25x-003_b4c47f19-b6c1-48b6-997a-1e919f9d1ddf.webp?v=1752208456 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-25x-001_414bd87e-99e1-4634-87c1-faa943c44ce7.webp?v=1752208456 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-25x-front_690d3d98-24b2-43c4-8ef2-cbc843a18c57.webp?v=1752208456 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/5_562eda76-d50d-442a-85d7-71ad92001ae6.jpg?v=1752208456",
+      "imageCount": 5,
+      "sourcePageUrl": "https://bilumix.com/shop/2-5x-surgical-loupe/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021751787763",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "2.5x Loupe FLEX",
+      "manufacturerRef": "BLXLP25F",
+      "manufacturerRefs": "BLXLP25F",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "46653516742899",
+          "label": "Default Title",
+          "manufacturerRef": "BLXLP25F",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/2_5x_flex_loupe_001_2024_8b146034-20f9-4b6c-ac00-cde4a496aefa.jpg?v=1752208486",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "Optics",
+      "description": "Precision and Comfort for Every Procedure The 2.5x Loupe FLEX is a cutting-edge magnification tool designed to meet the exacting demands of medical and dental professionals. Featuring the innovative FLEX Joint, this loupe offers unparalleled adjustability, allowing you to customize the lens position and angle for optimal viewing and ergonomic comfort. Whether performing delicate surgeries or detailed dental procedures, the 2.5x FLEX Surgical Loupe ensures precision, clarity, and long-lasting comfort. FLEX Joint Arm: Advanced joint mechanism enables precise adjustments for the distance of the loupe lenses from your eyes and the viewing angle, ensuring a tailored fit for every user. Adjustable Lens Distance: Perfect for professionals who require fine-tuned tool settings to maintain precision. Customizable Loupe Angle: Allows you to achieve a natural and comfortable posture, reducing the strain on your neck and back while maintaining a clear view of the operation area. With its groundbreaking FLEX Joint and ergonomic design, the 2.5x Loupe FLEX empowers professionals to deliver their best work without compromising their health or comfort. Ideal for those who demand precision and flexibility in every procedure. ▷ Manual Video",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/2_5x_flex_loupe_001_2024_8b146034-20f9-4b6c-ac00-cde4a496aefa.jpg?v=1752208486",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/2_5x_flex_loupe_001_2024_8b146034-20f9-4b6c-ac00-cde4a496aefa.jpg?v=1752208486 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/2_5x_flex_loupe_002_2024_cad73e75-698a-4837-8eb0-dacfd399081c.jpg?v=1752208486 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/2_5x_flex_loupe_g2_2024_9c966dcf-dc31-4e3e-8879-f1334bf0a6f6.jpg?v=1752208486 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/2_5x_flex_loupe_g2s_2024_94c1bea2-6dd0-4fe3-840d-c68cad26327c.jpg?v=1752208486",
+      "imageCount": 4,
+      "sourcePageUrl": "https://bilumix.com/shop/2-5x-loupe-flex/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021752082675",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "4.0x Loupe",
+      "manufacturerRef": "BLXLP40A",
+      "manufacturerRefs": "BLXLP40A",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "46653517660403",
+          "label": "Default Title",
+          "manufacturerRef": "BLXLP40A",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-35x-002_eba6d101-afca-425d-9f17-2d0202148825.webp?v=1752208462",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "Optics",
+      "description": "Elevate your surgical precision with our 4x Surgical Loupe, meticulously crafted for compatibility with the BiLumix Headlamp. This advanced loupe offers unparalleled visibility and precision for intricate procedures. ▷ Manual Video",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-35x-002_eba6d101-afca-425d-9f17-2d0202148825.webp?v=1752208462",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-35x-002_eba6d101-afca-425d-9f17-2d0202148825.webp?v=1752208462 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-35x-001_38ebf56c-e9d3-4b4a-b2b2-a231dff1276e.webp?v=1752208462 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-4x-front_bf189b7b-2ea0-4e89-9724-21422fb66e0f.webp?v=1752208462 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-35x-side_f84fa4e4-1743-4ee8-af27-7d74d35b0624.webp?v=1752208462",
+      "imageCount": 4,
+      "sourcePageUrl": "https://bilumix.com/shop/4-0x-surgical-loupe/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021751722227",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "4.0x Loupe FLEX",
+      "manufacturerRef": "BLXLP40F",
+      "manufacturerRefs": "BLXLP40F",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "46653516677363",
+          "label": "Default Title",
+          "manufacturerRef": "BLXLP40F",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/4x_loupe_001_2024_07f49a18-fc11-44cb-93f9-01c61c936eee.jpg?v=1752208493",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "Optics",
+      "description": "Maximum Magnification with Superior Comfort The 4x Loupe FLEX is designed for professionals who require higher magnification without sacrificing comfort or clarity. Featuring the innovative FLEX Joint, this loupe offers precise adjustments for lens position and angle, ensuring optimal viewing and ergonomic support. Whether you're performing intricate surgical procedures or detailed dental work, the 4x FLEX Surgical Loupe delivers exceptional magnification and reliability for demanding tasks. Enhanced 4x Magnification: Provides detailed and precise visualization for complex procedures. FLEX Joint Arm: Adjusts the distance between the lenses and your eyes for a tailored fit, ensuring accuracy and comfort. Customizable Viewing Angle: Achieve an ergonomic posture to reduce strain and enhance focus during prolonged procedures. Professional-Grade Durability: Built to meet the rigorous demands of medical and dental practices. Invest in the 4x Loupe FLEX to enhance your capabilities and improve your practice with unmatched magnification and ergonomic excellence. ▷ Manual Video",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/4x_loupe_001_2024_07f49a18-fc11-44cb-93f9-01c61c936eee.jpg?v=1752208493",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/4x_loupe_001_2024_07f49a18-fc11-44cb-93f9-01c61c936eee.jpg?v=1752208493 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/4x_flex_loupe_002_2024_f148925b-8201-487a-bce5-fbb6d87a8c6b.jpg?v=1752208493 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/4x_flex_loupe_003_2024_133432a7-618e-4828-8459-c7194f10d75b.jpg?v=1752208493 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/4x_flex_loupe_004_2024_0f8b013f-9aae-4c2d-be0a-f1616be2df3d.jpg?v=1752208493 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/4x_flex_loupe_g2_2024_77d9d708-1f47-4289-ac8d-fed8f1ebf4f7.jpg?v=1752208493 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/4x_flex_loupe_g2s_2024_77bdc0bc-b926-4ba8-ad61-f4c71efcfdae.jpg?v=1752208493",
+      "imageCount": 6,
+      "sourcePageUrl": "https://bilumix.com/shop/4x-loupe-flex/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021752213747",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "BiLumix Camera",
+      "manufacturerRef": "",
+      "manufacturerRefs": "BLXCAM-BL1 | BLXCAM-BL2",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "46653517824243",
+          "label": "BL-1 (2-5x)",
+          "manufacturerRef": "BLXCAM-BL1",
+          "selectedOptions": {
+            "Camera": "BL-1 (2-5x)"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/cam-1_0ed2433b-5a18-4038-914d-517286695879.png?v=1752208445",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517857011",
+          "label": "BL-2 (4-9x)",
+          "manufacturerRef": "BLXCAM-BL2",
+          "selectedOptions": {
+            "Camera": "BL-2 (4-9x)"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/cam-1_0ed2433b-5a18-4038-914d-517286695879.png?v=1752208445",
+          "availableForSale": false
+        }
+      ],
+      "categoryPath": "",
+      "description": "High quality video camera optimized for medical operation. Enables user to perform the operation on the area without looking directly Enables to share the operation with cooperators and large audience. Enables to review the operation and make decisions and adjustment to improve your operation based on analysis. Feature Stream & record video with desired point of view Mountable to any surface (Recommend to use on OR & ceiling & chair light) View the operational area in close up view with zoom Specification Camera: 64 Mega Pixel Magnification: BL-1 (2-5x) & BL-2(4-9x) Display Resolution 1920 x 1080 (FHD) Focus type: Single triggering auto focus & fine tuning Wireless Connection: Wi-Fi 802.11n/ac, 5GHz. 2x2 MIMO Battery: 5000mAH Li-ion battery integratedUSB-C current bank(external) supported (10,000mAH x 2) Status LED indication: Power on/off, battery status Remote Controller: Bluetooth 4.0, 2.4GHz Video Encoding H.264 Camera Viewing Angle: Tilt function supported (+45°, -55°) Software Requirement:- O/S: Windows 10, 64bit- CPU: Dual Core, 2.3GHz- Memory: SSH 256GB- Graphic Card: Intel HD Graphic card integrated- WiFi: Wireless LAN IEEE 802.11 n/ac 867Mbps on 5GHz Fast wireless data transmitter included",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/cam-1_0ed2433b-5a18-4038-914d-517286695879.png?v=1752208445",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/cam-1_0ed2433b-5a18-4038-914d-517286695879.png?v=1752208445 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/cam-2_8144561e-bab4-4ead-9843-4dbd6ea4dfcf.png?v=1752208445 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/cam-4_7adcc311-d05e-49a2-bd66-86b6a1ea9e53.png?v=1752208445 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-cam-in-use_98000c8a-e747-4128-997f-d9daba663cdd.png?v=1752208445",
+      "imageCount": 4,
+      "sourcePageUrl": "https://bilumix.com/shop/bilumix-cam/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021753360627",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "BiLumix Face Shield X2 Package",
+      "manufacturerRef": "",
+      "manufacturerRefs": "BLXFSX2-PK | BLXFSX2-SD",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "46653524115699",
+          "label": "Frame with Shields (Starter Package)",
+          "manufacturerRef": "BLXFSX2-PK",
+          "selectedOptions": {
+            "Pack": "Frame with Shields (Starter Package)"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-x2-frame_75ac1bde-cad8-4215-83ab-52c2ace775a6.webp?v=1752208400",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653524148467",
+          "label": "ONLY Shields (NO Frame)",
+          "manufacturerRef": "BLXFSX2-SD",
+          "selectedOptions": {
+            "Pack": "ONLY Shields (NO Frame)"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-x2-shield_9ed75bb5-da0c-497f-9478-ac1b38047f52.webp?v=1752208400",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "BiLumix Headlamp",
+      "description": "Include 1 x Face Shield Frame 5 x Re-usable Shields Features Perfect for BiLumix Headlamp Anti Fog Shields Adjustable Angle Easy flip up and Down ✱ Please purchase 'X2 Starter Package' FIRST then buy ONLY Shield Package Later",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-x2_23616673-c6a0-47f3-aba7-9fd744ebf755.webp?v=1752208400",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-x2_23616673-c6a0-47f3-aba7-9fd744ebf755.webp?v=1752208400 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-mask-front_b6e828f6-0aab-4b72-9199-673af7a9c03b.webp?v=1752208400 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fs-top-front_20a73c15-5a71-43d6-9912-aa0a60440053.webp?v=1752208400 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fs-top-right_1b0b3e7c-921a-4036-bf20-359bf0bb2982.webp?v=1752208400 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/FS_1_0aa9b657-2ad1-4eea-8e39-0352c5405fc2.jpg?v=1752208400 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/FS_2_beb06b44-f8fa-42ab-a600-64c9ab3b7ac0.jpg?v=1752208400 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-x2-frame_75ac1bde-cad8-4215-83ab-52c2ace775a6.webp?v=1752208400 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-x2-shield_9ed75bb5-da0c-497f-9478-ac1b38047f52.webp?v=1752208400 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-fs-x2_4fd3aa22-4480-4349-9c2e-ff8fb5ff76fa.jpg?v=1752208400 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-x2-pack_fcbb3049-8416-4aac-9245-1c049dfa751b.webp?v=1752208400",
+      "imageCount": 10,
+      "sourcePageUrl": "https://bilumix.com/shop/bilumix-face-shield-x2-package/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021752639731",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "BiLumix Headlamp GEN 2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "BLXHL2A-DWL | BLXHL2A-SL15 | BLXHL2A-LP25A | BLXHL2A-LP40A | BLXHL2A-SLP25A | BLXHL2A-SLP40A | BLXHL2A-LP65A | BLXHL2A-SLP65A | BLXHL2A-LP25F | BLXHL2A-LP40F | BLXHL2A-SLP25F | BLXHL2A-SLP40F | BLXHL2A-LP65F | BLXHL2A-SLP65F | BLXHL2A-LP25S40F | BLXHL2A-LP25F40S | BLXHL2A-SLP25S40F | BLXHL2A-SLP25F40S",
+      "variantCount": 18,
+      "variants": [
+        {
+          "variantId": "46653520380147",
+          "label": "without any loupe",
+          "manufacturerRef": "BLXHL2A-DWL",
+          "selectedOptions": {
+            "Loupe option": "without any loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520412915",
+          "label": "with 1.5x loupe",
+          "manufacturerRef": "BLXHL2A-SL15",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520445683",
+          "label": "with 2.5x loupe",
+          "manufacturerRef": "BLXHL2A-LP25A",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520478451",
+          "label": "with 4x loupe",
+          "manufacturerRef": "BLXHL2A-LP40A",
+          "selectedOptions": {
+            "Loupe option": "with 4x loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520511219",
+          "label": "with 1.5x + 2.5x loupes",
+          "manufacturerRef": "BLXHL2A-SLP25A",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520543987",
+          "label": "with 1.5x + 4x loupes",
+          "manufacturerRef": "BLXHL2A-SLP40A",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520576755",
+          "label": "with 2.5x + 4x loupes",
+          "manufacturerRef": "BLXHL2A-LP65A",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520609523",
+          "label": "with 1.5x + 2.5x + 4x loupes",
+          "manufacturerRef": "BLXHL2A-SLP65A",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520642291",
+          "label": "with 2.5x FLEX loupe",
+          "manufacturerRef": "BLXHL2A-LP25F",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x FLEX loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520675059",
+          "label": "with 4x FLEX loupe",
+          "manufacturerRef": "BLXHL2A-LP40F",
+          "selectedOptions": {
+            "Loupe option": "with 4x FLEX loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520707827",
+          "label": "with 1.5x + 2.5x FLEX loupes",
+          "manufacturerRef": "BLXHL2A-SLP25F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520740595",
+          "label": "with 1.5x + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL2A-SLP40F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520773363",
+          "label": "with 2.5x FLEX + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL2A-LP65F",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x FLEX + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653520806131",
+          "label": "with 1.5x + 2.5x FLEX + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL2A-SLP65F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x FLEX + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670788817139",
+          "label": "with 2.5x + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL2A-LP25S40F",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670788849907",
+          "label": "with 2.5x FLEX + 4x loupes",
+          "manufacturerRef": "BLXHL2A-LP25F40S",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x FLEX + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670788882675",
+          "label": "with 1.5x + 2.5x + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL2A-SLP25S40F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670788915443",
+          "label": "with 1.5x + 2.5x FLEX + 4x loupes",
+          "manufacturerRef": "BLXHL2A-SLP25F40S",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x FLEX + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "BiLumix Headlamp",
+      "description": "Key Features Shadowless Effect Dual-angle lighting minimizes shadows Dual Diffused Lights Minimized shadows for clearer visibility Improved Design Ergonomically re-designed with snug and secure fit One-touch power button Easy tapping for faster and convenient Intuitive Power Indicator Simple and clear view Click here for the list of manual video instructions.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-4.jpg?v=1756533499 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-1.jpg?v=1756533499 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-2.jpg?v=1756533499 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bi-prod-headlamp-3.jpg?v=1756533499",
+      "imageCount": 4,
+      "sourcePageUrl": "https://bilumix.com/shop/bilumix-headlamp/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021751984371",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "BiLumix Headlamp GEN 2S",
+      "manufacturerRef": "",
+      "manufacturerRefs": "BLXHL2S-DWL | BLXHL2S-SL15 | BLXHL2S-LP25A | BLXHL2S-LP40A | BLXHL2S-SLP25A | BLXHL2S-SLP40A | BLXHL2S-LP65A | BLXHL2S-SLP65A | BLXHL2S-LP25F | BLXHL2S-LP40F | BLXHL2S-SLP25F | BLXHL2S-SLP40F | BLXHL2S-LP65F | BLXHL2S-SLP65F | BLXHL2S-ELP25 | BLXHL2S-ELP30 | BLXHL2S-ELP55 | BLXHL2S-SL15ELP25 | BLXHL2S-SL15ELP30 | BLXHL2S-SL15ELP55 | BLXHL2S-LP25S40F | BLXHL2S-LP25F40S | BLXHL2S-SLP25S40F | BLXHL2S-SLP25F40S",
+      "variantCount": 24,
+      "variants": [
+        {
+          "variantId": "46653517136115",
+          "label": "without any loupe",
+          "manufacturerRef": "BLXHL2S-DWL",
+          "selectedOptions": {
+            "Loupe option": "without any loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-front.webp?v=1756533511",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517168883",
+          "label": "with 1.5x loupe",
+          "manufacturerRef": "BLXHL2S-SL15",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517201651",
+          "label": "with 2.5x loupe",
+          "manufacturerRef": "BLXHL2S-LP25A",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-25x-front.webp?v=1756533511",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517234419",
+          "label": "with 4x loupe",
+          "manufacturerRef": "BLXHL2S-LP40A",
+          "selectedOptions": {
+            "Loupe option": "with 4x loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-4x-front.webp?v=1756533511",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517267187",
+          "label": "with 1.5x + 2.5x loupes",
+          "manufacturerRef": "BLXHL2S-SLP25A",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517299955",
+          "label": "with 1.5x + 4x loupes",
+          "manufacturerRef": "BLXHL2S-SLP40A",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517332723",
+          "label": "with 2.5x + 4x loupes",
+          "manufacturerRef": "BLXHL2S-LP65A",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517365491",
+          "label": "with 1.5x + 2.5x + 4x loupes",
+          "manufacturerRef": "BLXHL2S-SLP65A",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517398259",
+          "label": "with 2.5x FLEX loupe",
+          "manufacturerRef": "BLXHL2S-LP25F",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x FLEX loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517431027",
+          "label": "with 4x FLEX loupe",
+          "manufacturerRef": "BLXHL2S-LP40F",
+          "selectedOptions": {
+            "Loupe option": "with 4x FLEX loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517463795",
+          "label": "with 1.5x + 2.5x FLEX loupes",
+          "manufacturerRef": "BLXHL2S-SLP25F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517496563",
+          "label": "with 1.5x + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL2S-SLP40F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517529331",
+          "label": "with 2.5x FLEX + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL2S-LP65F",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x FLEX + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653517562099",
+          "label": "with 1.5x + 2.5x FLEX + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL2S-SLP65F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x FLEX + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670788980979",
+          "label": "with ERGO 2.5x",
+          "manufacturerRef": "BLXHL2S-ELP25",
+          "selectedOptions": {
+            "Loupe option": "with ERGO 2.5x"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_02_f9eca4d8-3fcc-466a-8156-e578bfa5dcab.jpg?v=1756533511",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789013747",
+          "label": "with ERGO 3.0x",
+          "manufacturerRef": "BLXHL2S-ELP30",
+          "selectedOptions": {
+            "Loupe option": "with ERGO 3.0x"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789046515",
+          "label": "with ERGO 2.5x + ERGO 3.0x",
+          "manufacturerRef": "BLXHL2S-ELP55",
+          "selectedOptions": {
+            "Loupe option": "with ERGO 2.5x + ERGO 3.0x"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_02_f9eca4d8-3fcc-466a-8156-e578bfa5dcab.jpg?v=1756533511",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789079283",
+          "label": "with 1.5x + ERGO 2.5x",
+          "manufacturerRef": "BLXHL2S-SL15ELP25",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + ERGO 2.5x"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_02_f9eca4d8-3fcc-466a-8156-e578bfa5dcab.jpg?v=1756533511",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789112051",
+          "label": "with 1.5x + ERGO 3.0x",
+          "manufacturerRef": "BLXHL2S-SL15ELP30",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + ERGO 3.0x"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789144819",
+          "label": "with 1.5x + ERGO 2.5x + ERGO 3.0x",
+          "manufacturerRef": "BLXHL2S-SL15ELP55",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + ERGO 2.5x + ERGO 3.0x"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_02_f9eca4d8-3fcc-466a-8156-e578bfa5dcab.jpg?v=1756533511",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789177587",
+          "label": "with 2.5x + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL2S-LP25S40F",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789210355",
+          "label": "with 2.5x FLEX + 4x loupes",
+          "manufacturerRef": "BLXHL2S-LP25F40S",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x FLEX + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789243123",
+          "label": "with 1.5x + 2.5x + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL2S-SLP25S40F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789275891",
+          "label": "with 1.5x + 2.5x FLEX + 4x loupes",
+          "manufacturerRef": "BLXHL2S-SLP25F40S",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x FLEX + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "BiLumix Headlamp",
+      "description": "Key Features Shadowless Effect Dual-angle lighting minimizes shadows Focused Lights with Adjustable Angles Bright spotlight Improved Design Ergonomically re-designed with snug and secure fit One-touch power button Easy tapping for faster and convenient Intuitive Power Indicator Simple and clear view Click here for the list of manual video instructions.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-fr.webp?v=1756533510 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-folded.webp?v=1756533510 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-side.webp?v=1756533511 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-front.webp?v=1756533511 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-25x-front.webp?v=1756533511 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-4x-front.webp?v=1756533511 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-35x-side.webp?v=1756533511 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-battery-and-cradle.webp?v=1756533511 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_02_f9eca4d8-3fcc-466a-8156-e578bfa5dcab.jpg?v=1756533511",
+      "imageCount": 9,
+      "sourcePageUrl": "https://bilumix.com/shop/bilumix-headlamp-gen-2s/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9133635633395",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "BiLumix Headlamp GEN 3",
+      "manufacturerRef": "",
+      "manufacturerRefs": "BLXHL3A-DWL | BLXHL3A-SL15 | BLXHL3A-LP25A | BLXHL3A-LP40A | BLXHL3A-SLP25A | BLXHL3A-SLP40A | BLXHL3A-LP65A | BLXHL3A-SLP65A | BLXHL3A-LP25F | BLXHL3A-LP40F | BLXHL3A-SLP25F | BLXHL3A-SLP40F | BLXHL3A-LP65F | BLXHL3A-SLP65F | BLXHL3A-LP25S40F | BLXHL3A-LP25F40S | BLXHL3A-SLP25S40F | BLXHL3A-SLP25F40S",
+      "variantCount": 18,
+      "variants": [
+        {
+          "variantId": "47062411510003",
+          "label": "without any loupe",
+          "manufacturerRef": "BLXHL3A-DWL",
+          "selectedOptions": {
+            "Loupe option": "without any loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411542771",
+          "label": "with 1.5x loupe",
+          "manufacturerRef": "BLXHL3A-SL15",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-15x_ec05f866-d296-4728-810a-610af868927e.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411575539",
+          "label": "with 2.5x loupe",
+          "manufacturerRef": "BLXHL3A-LP25A",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-25x-002_b490d093-eda1-49ac-875d-2169de411c30.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411608307",
+          "label": "with 4x loupe",
+          "manufacturerRef": "BLXHL3A-LP40A",
+          "selectedOptions": {
+            "Loupe option": "with 4x loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/25x-mounted-on-white_74c6a387-0b4d-4d26-b3c3-0752e3c5130e.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411641075",
+          "label": "with 1.5x + 2.5x loupes",
+          "manufacturerRef": "BLXHL3A-SLP25A",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411673843",
+          "label": "with 1.5x + 4x loupes",
+          "manufacturerRef": "BLXHL3A-SLP40A",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411706611",
+          "label": "with 2.5x + 4x loupes",
+          "manufacturerRef": "BLXHL3A-LP65A",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411739379",
+          "label": "with 1.5x + 2.5x + 4x loupes",
+          "manufacturerRef": "BLXHL3A-SLP65A",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411772147",
+          "label": "with 2.5x FLEX loupe",
+          "manufacturerRef": "BLXHL3A-LP25F",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x FLEX loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411804915",
+          "label": "with 4x FLEX loupe",
+          "manufacturerRef": "BLXHL3A-LP40F",
+          "selectedOptions": {
+            "Loupe option": "with 4x FLEX loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411837683",
+          "label": "with 1.5x + 2.5x FLEX loupes",
+          "manufacturerRef": "BLXHL3A-SLP25F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411870451",
+          "label": "with 1.5x + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL3A-SLP40F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411903219",
+          "label": "with 2.5x FLEX + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL3A-LP65F",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x FLEX + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062411935987",
+          "label": "with 1.5x + 2.5x FLEX + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL3A-SLP65F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x FLEX + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789308659",
+          "label": "with 2.5x + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL3A-LP25S40F",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789341427",
+          "label": "with 2.5x FLEX + 4x loupes",
+          "manufacturerRef": "BLXHL3A-LP25F40S",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x FLEX + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789374195",
+          "label": "with 1.5x + 2.5x + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL3A-SLP25S40F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789406963",
+          "label": "with 1.5x + 2.5x FLEX + 4x loupes",
+          "manufacturerRef": "BLXHL3A-SLP25F40S",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x FLEX + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "BiLumix Headlamp",
+      "description": "Key Features Shadowless Effect Dual-angle lighting minimizes shadows Dual Diffused Lights Minimized shadows for clearer visibility Open-Back Design Comfortable fit for long or tied hair External Battery Pack Extended runtime Reduced weight on the head Steady, Secure Fit Dual-point grip for stability One-Touch Power Control Large, easy-to-press button Clear Power Indicator Check status without removing the headlamp Intuitive Brightness Dial Smooth, easy-grip control Click here for the list of manual video instructions.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-no-loupe_1e25d3c7-229b-4232-85d1-9c34e3b45356.png?v=1756533529 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/lighting-diffused-light_4dbeac9b-3201-4058-8794-2d73cb262b64.jpg?v=1756533529 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-15x-002_5691dddd-3ad4-4380-b268-30a2fe50499b.png?v=1756533529 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-15x_ec05f866-d296-4728-810a-610af868927e.png?v=1756533529 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-25x-front_b298d1bc-3a11-43c5-bb15-ef883bc36a82.png?v=1756533529 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-25x_27c38e20-6e6f-4948-ba71-e7554f68b187.png?v=1756533529 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-25x-002_b490d093-eda1-49ac-875d-2169de411c30.png?v=1756533529 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/25x-mounted-on-white_74c6a387-0b4d-4d26-b3c3-0752e3c5130e.png?v=1756533529 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-battery-02_fc156d38-cd3a-4fc5-a2ad-8e3410216970.png?v=1756533529 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-battery-dock-on-dock_2d999f03-1208-4cc9-a158-06c6ff0d3d72.png?v=1756533529",
+      "imageCount": 10,
+      "sourcePageUrl": "https://bilumix.com/shop/bilumix-headlamp-gen3/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9133635666163",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "BiLumix Headlamp GEN 3S",
+      "manufacturerRef": "",
+      "manufacturerRefs": "BLXHL3S-DWL | BLXHL3S-SL15 | BLXHL3S-LP25A | BLXHL3S-LP40A | BLXHL3S-SLP25A | BLXHL3S-SLP40A | BLXHL3S-LP65A | BLXHL3S-SLP65A | BLXHL3S-LP25F | BLXHL3S-LP40F | BLXHL3S-SLP25F | BLXHL3S-SLP40F | BLXHL3S-LP65F | BLXHL3S-SLP65F | BLXHL3S-ELP25 | BLXHL3S-ELP30 | BLXHL3S-ELP55 | BLXHL3S-SL15ELP25 | BLXHL3S-SL15ELP30 | BLXHL3S-SL15ELP55 | BLXHL3S-LP25S40F | BLXHL3S-LP25F40S | BLXHL3S-SLP25S40F | BLXHL3S-SLP25F40S",
+      "variantCount": 24,
+      "variants": [
+        {
+          "variantId": "47062411968755",
+          "label": "without any loupe",
+          "manufacturerRef": "BLXHL3S-DWL",
+          "selectedOptions": {
+            "Loupe option": "without any loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412001523",
+          "label": "with 1.5x loupe",
+          "manufacturerRef": "BLXHL3S-SL15",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-15x_c66665b4-3e27-49c3-a8be-d89f038db354.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412034291",
+          "label": "with 2.5x loupe",
+          "manufacturerRef": "BLXHL3S-LP25A",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/25x-mounted_f61d042a-7172-419b-a601-716c8edf62fd.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412067059",
+          "label": "with 4x loupe",
+          "manufacturerRef": "BLXHL3S-LP40A",
+          "selectedOptions": {
+            "Loupe option": "with 4x loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-4x-front_783ead40-064f-4f91-8fa8-2aca92dae705.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412099827",
+          "label": "with 1.5x + 2.5x loupes",
+          "manufacturerRef": "BLXHL3S-SLP25A",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412132595",
+          "label": "with 1.5x + 4x loupes",
+          "manufacturerRef": "BLXHL3S-SLP40A",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412165363",
+          "label": "with 2.5x + 4x loupes",
+          "manufacturerRef": "BLXHL3S-LP65A",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412198131",
+          "label": "with 1.5x + 2.5x + 4x loupes",
+          "manufacturerRef": "BLXHL3S-SLP65A",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412230899",
+          "label": "with 2.5x FLEX loupe",
+          "manufacturerRef": "BLXHL3S-LP25F",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x FLEX loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412263667",
+          "label": "with 4x FLEX loupe",
+          "manufacturerRef": "BLXHL3S-LP40F",
+          "selectedOptions": {
+            "Loupe option": "with 4x FLEX loupe"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412296435",
+          "label": "with 1.5x + 2.5x FLEX loupes",
+          "manufacturerRef": "BLXHL3S-SLP25F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412329203",
+          "label": "with 1.5x + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL3S-SLP40F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412361971",
+          "label": "with 2.5x FLEX + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL3S-LP65F",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x FLEX + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47062412394739",
+          "label": "with 1.5x + 2.5x FLEX + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL3S-SLP65F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x FLEX + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789734643",
+          "label": "with ERGO 2.5x",
+          "manufacturerRef": "BLXHL3S-ELP25",
+          "selectedOptions": {
+            "Loupe option": "with ERGO 2.5x"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_02_b36dab0a-20dc-4a28-a44a-09f9af291ca6.jpg?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789767411",
+          "label": "with ERGO 3.0x",
+          "manufacturerRef": "BLXHL3S-ELP30",
+          "selectedOptions": {
+            "Loupe option": "with ERGO 3.0x"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789800179",
+          "label": "with ERGO 2.5x + ERGO 3.0x",
+          "manufacturerRef": "BLXHL3S-ELP55",
+          "selectedOptions": {
+            "Loupe option": "with ERGO 2.5x + ERGO 3.0x"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_02_b36dab0a-20dc-4a28-a44a-09f9af291ca6.jpg?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789832947",
+          "label": "with 1.5x + ERGO 2.5x",
+          "manufacturerRef": "BLXHL3S-SL15ELP25",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + ERGO 2.5x"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_02_b36dab0a-20dc-4a28-a44a-09f9af291ca6.jpg?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789865715",
+          "label": "with 1.5x + ERGO 3.0x",
+          "manufacturerRef": "BLXHL3S-SL15ELP30",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + ERGO 3.0x"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789898483",
+          "label": "with 1.5x + ERGO 2.5x + ERGO 3.0x",
+          "manufacturerRef": "BLXHL3S-SL15ELP55",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + ERGO 2.5x + ERGO 3.0x"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_02_b36dab0a-20dc-4a28-a44a-09f9af291ca6.jpg?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789931251",
+          "label": "with 2.5x + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL3S-LP25S40F",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789964019",
+          "label": "with 2.5x FLEX + 4x loupes",
+          "manufacturerRef": "BLXHL3S-LP25F40S",
+          "selectedOptions": {
+            "Loupe option": "with 2.5x FLEX + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670789996787",
+          "label": "with 1.5x + 2.5x + 4x FLEX loupes",
+          "manufacturerRef": "BLXHL3S-SLP25S40F",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x + 4x FLEX loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47670790029555",
+          "label": "with 1.5x + 2.5x FLEX + 4x loupes",
+          "manufacturerRef": "BLXHL3S-SLP25F40S",
+          "selectedOptions": {
+            "Loupe option": "with 1.5x + 2.5x FLEX + 4x loupes"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "BiLumix Headlamp",
+      "description": "Key Features Shadowless Effect Dual-angle lighting minimizes shadows Focused Lights with Adjustable Angles Bright spotlight Open-Back Design Comfortable fit for long or tied hair External Battery Pack Extended runtime Reduced weight on the head Steady, Secure Fit Dual-point grip for stability One-Touch Power Control Large, easy-to-press button Clear Power Indicator Check status without removing the headlamp Intuitive Brightness Dial Smooth, easy-grip control Click here for the list of manual video instructions.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-no-loupe_145b00e1-5e67-459f-bb7e-7ba21de13dcf.png?v=1756533547 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/lighting-focused-spotlight_93946a02-9086-45ad-8b15-802ca73d37fe.jpg?v=1756533547 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-15x_c66665b4-3e27-49c3-a8be-d89f038db354.png?v=1756533547 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-15x-top_f66be210-1023-44ea-b34d-d2fa94605f06.png?v=1756533547 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-15x-closeup_dbb5b2d9-d94a-41ca-83c9-4f316e3da243.png?v=1756533547 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/25x-mounted_f61d042a-7172-419b-a601-716c8edf62fd.png?v=1756533547 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3s-4x-front_783ead40-064f-4f91-8fa8-2aca92dae705.png?v=1756533547 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-battery-02_9752f5f5-a611-4e57-b385-a02a57ea897c.png?v=1756533547 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-battery-dock-on-dock_5bd3775f-096b-43a0-ab85-5102cccd7d6f.png?v=1756533547 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_02_b36dab0a-20dc-4a28-a44a-09f9af291ca6.jpg?v=1756533547",
+      "imageCount": 10,
+      "sourcePageUrl": "https://bilumix.com/shop/bilumix-headlamp-gen-3s/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9320983462131",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "BiLumix Headlamp Stand",
+      "manufacturerRef": "BLX-HLSTD",
+      "manufacturerRefs": "BLX-HLSTD",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "48262461391091",
+          "label": "Default Title",
+          "manufacturerRef": "BLX-HLSTD",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/blx-stand-1.jpg?v=1766105153",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "",
+      "description": "Stable Display & Storage Solution for Headlamps The BiLumix Headlamp Stand is the perfect accessory to keep your precision lighting gear organized and on display. Designed for professionals who value both function and aesthetics, this sleek black stand elevates your headlamp when not in use — preventing scratches, tangles, and surface wear while making your workspace cleaner and more efficient. Built with a sturdy round base and a secure cradle, it supports headlamps of various sizes with stability you can rely on. Quick Access Storage: Keeps headlamps upright and easy to grab for your next procedure or task. Premium Sturdy Design: Solid round base with a stable vertical support ensures no tipping or wobbling. Secure Headlamp Cradle: Precisely molded top bracket holds most headlamp shapes securely in place. Sleek Professional Look: Matte black finish complements modern desks or workstations. Compact & Space‑Saving: With a height of 24 cm and a base diameter of 12 cm, it fits neatly on shelves, counters, or benches. Please note: This item is not covered under warranty. The Customer shall inspect the product immediately upon delivery. If the product is found to be defective in material or workmanship (a \"Defective Product\"), please notify us in writing within fourteen (14) calendar days of receipt of the goods. This item will be shipped from December, 29th 2025.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/blx-stand-1.jpg?v=1766105153",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/blx-stand-1.jpg?v=1766105153 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/blx-stand-2.jpg?v=1766105153 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/blx-stand-3.jpg?v=1766105153 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/blx-stand-4.jpg?v=1766105153 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/blx-stand-5.jpg?v=1766105153 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/blx-stand-6.jpg?v=1766105153",
+      "imageCount": 6,
+      "sourcePageUrl": "https://bilumix.com/shop/bilumix-headlamp-stand/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021753590003",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "BiLumix Headlamp Travel Case",
+      "manufacturerRef": "BLXHL2-CASE",
+      "manufacturerRefs": "BLXHL2-CASE",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "46653524377843",
+          "label": "Default Title",
+          "manufacturerRef": "BLXHL2-CASE",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/Bag1_ac2c956b-5246-4895-bb24-d8118a63f193.jpg?v=1752208388",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "Travel Bag",
+      "description": "Travel Bag for BiLumix Headlamp Protect your BiLumix Headlamp with this durable travel case—custom-fit to hold your headlamp, battery, loupes, and accessories securely during transport or storage.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/Bag1_ac2c956b-5246-4895-bb24-d8118a63f193.jpg?v=1752208388",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/Bag1_ac2c956b-5246-4895-bb24-d8118a63f193.jpg?v=1752208388 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/TravelBag-2_a20b7894-6c9d-4a98-962d-1dd80e955c57.png?v=1752208388 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/Bag2_d58cfafc-8248-4bc2-afee-b82ffa59dcca.jpg?v=1752208388",
+      "imageCount": 3,
+      "sourcePageUrl": "https://bilumix.com/shop/bilumix-headlamp-travel-bag/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9211083292915",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "BiLumix™ ERGO 2.5x",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "47706970226931",
+          "label": "Default Title",
+          "manufacturerRef": "",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_88f527c9-f6f2-43d9-b647-1e28609a5603.jpg?v=1756533551",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "Loupe",
+      "description": "Maintain Your Posture. Enhance Your Precision. The Ergonomic Loupe is an advanced magnification solution engineered to protect your posture while delivering uncompromising visual clarity. Utilizing an innovative prismatic refractive optical system, it allows you to maintain a natural, upright head position while clearly viewing the treatment field. This ergonomic design significantly reduces neck and back strain, enabling medical and dental professionals to work comfortably for extended periods Ergonomic Viewing Angle: Keeps your head and neck in a natural, upright position, reducing musculoskeletal strain. FLEX Joint Arm: Advanced joint mechanism enables precise adjustments for the distance of the loupe lenses from your eyes and the viewing angle.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_88f527c9-f6f2-43d9-b647-1e28609a5603.jpg?v=1756533551",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_88f527c9-f6f2-43d9-b647-1e28609a5603.jpg?v=1756533551 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_02_8874ec34-b949-428b-b1bb-e24468d8f8c2.jpg?v=1756533551 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_03_e8bcc304-cf82-4075-8be4-fac1d2e49459.jpg?v=1756533551 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_04_a9b9432b-750e-4e6c-bfb3-d896765489d8.jpg?v=1756533551 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/Ergo25xFOV.jpg?v=1756533551",
+      "imageCount": 5,
+      "sourcePageUrl": "https://bilumix.com/shop/ergo25x/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9211083325683",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "BiLumix™ ERGO 3.0x",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "47706970259699",
+          "label": "Default Title",
+          "manufacturerRef": "",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_30x_63964da1-1599-482e-ac5b-4025bc23e988.jpg?v=1756533553",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "Loupe",
+      "description": "Maintain Your Posture. Enhance Your Precision. The Ergonomic Loupe is an advanced magnification solution engineered to protect your posture while delivering uncompromising visual clarity. Utilizing an innovative prismatic refractive optical system, it allows you to maintain a natural, upright head position while clearly viewing the treatment field. This ergonomic design significantly reduces neck and back strain, enabling medical and dental professionals to work comfortably for extended periods Ergonomic Viewing Angle: Keeps your head and neck in a natural, upright position, reducing musculoskeletal strain. FLEX Joint Arm: Advanced joint mechanism enables precise adjustments for the distance of the loupe lenses from your eyes and the viewing angle.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_30x_63964da1-1599-482e-ac5b-4025bc23e988.jpg?v=1756533553",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_30x_63964da1-1599-482e-ac5b-4025bc23e988.jpg?v=1756533553 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_02_c68e4537-9163-43b9-afb2-4930ce517a2c.jpg?v=1756533553 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_03_101a5cda-62e4-4615-90d7-f09fdeeb6060.jpg?v=1756533553 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/ERGO_25x_04_7ab15a78-9f94-435b-a1d6-77c20d00a57a.jpg?v=1756533553 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/Ergo30xFOV.jpg?v=1756533553",
+      "imageCount": 5,
+      "sourcePageUrl": "https://bilumix.com/shop/ergo30x/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021752770803",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "Forehead Pad/Cushion",
+      "manufacturerRef": "BLXHL2-PAD",
+      "manufacturerRefs": "BLXHL2-PAD",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "46653521035507",
+          "label": "Default Title",
+          "manufacturerRef": "BLXHL2-PAD",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/font-pad_7162dd40-3188-4df2-9372-cbf8c9add866.png?v=1752208425",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "",
+      "description": "Detachable pad for forehead plate. This pad can be attached to Velcro on the inner side of the forehead plate. This improved pad will give you maximum comfort. ▷ Manual Video",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/font-pad_7162dd40-3188-4df2-9372-cbf8c9add866.png?v=1752208425",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/font-pad_7162dd40-3188-4df2-9372-cbf8c9add866.png?v=1752208425 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/frontplate-02_d45763d9-4fd0-4286-929a-ad2f2a91f228.png?v=1752208425 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/frontplate-03_1fc83844-8777-4f6c-860e-9579c23d6009.png?v=1752208425",
+      "imageCount": 3,
+      "sourcePageUrl": "https://bilumix.com/shop/bilumix-frontpad-cushion/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021752410355",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "Forehead Plate",
+      "manufacturerRef": "",
+      "manufacturerRefs": "BLXHL2-FPT-WT | BLXHL2-FPT-BK",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "47832351211763",
+          "label": "White",
+          "manufacturerRef": "BLXHL2-FPT-WT",
+          "selectedOptions": {
+            "Color": "White"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/frontplate.png?v=1752208435",
+          "availableForSale": true
+        },
+        {
+          "variantId": "47832351244531",
+          "label": "Black",
+          "manufacturerRef": "BLXHL2-FPT-BK",
+          "selectedOptions": {
+            "Color": "Black"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/FullSizeRender.jpg?v=1759527491",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "",
+      "description": "BiLumix headlamp forehead plate has Velcro inside which allow user to easily replace forehead pad/cushion with new one. White plate is Compatible with GEN 2 & GEN 3Black plate is Compatible with GEN 2S & GEN 3S ▷ Manual Video",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/frontplate.png?v=1752208435",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/frontplate.png?v=1752208435 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/frontplate-02.png?v=1752208435 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/frontplate-03.png?v=1752208435 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/frontplate-04.png?v=1752208435 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/FullSizeRender.jpg?v=1759527491",
+      "imageCount": 5,
+      "sourcePageUrl": "https://bilumix.com/shop/forehead-plate/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021752803571",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "GEN 2 Battery Cradle",
+      "manufacturerRef": "BLXHL2-BCC",
+      "manufacturerRefs": "BLXHL2-BCC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "46653521101043",
+          "label": "Default Title",
+          "manufacturerRef": "BLXHL2-BCC",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen2-battery-craddle.png?v=1752208421",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "BiLumix Headlamp",
+      "description": "The cradle for the BiLumix Gen 2 and Gen 2S rechargeable battery uses USB type as the charge input. This greatly improves portability. Charger output: 7.4Volts / 1,200 & 1,700mAh Charger Input: USB Cable (included) ✱ Compatible ONLY with BiLumix GEN 2 Rechargeable Battery > Manual",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen2-battery-craddle.png?v=1752208421",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen2-battery-craddle.png?v=1752208421 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-battery-and-cradle_14cfc93f-4a2c-45e4-8481-1ea032616430.webp?v=1752208421 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-battery-mounted.webp?v=1752208421",
+      "imageCount": 3,
+      "sourcePageUrl": "https://bilumix.com/shop/battery-cradle/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021752836339",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "GEN 2 Rechargeable Battery L",
+      "manufacturerRef": "BLXHL2-BATLG",
+      "manufacturerRefs": "BLXHL2-BATLG",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "46653521330419",
+          "label": "Default Title",
+          "manufacturerRef": "BLXHL2-BATLG",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-battery-front.webp?v=1752208417",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "BiLumix Headlamp",
+      "description": "Products Specification Battery life: Max Intensity: About 3.5 hours (Continuously) Mid to Low Intensity: 5 to 9 hours (Continuously) Charging time: About 2 hours Battery output: 7.4Volts / 1700mAh Charger Input: Battery Cradle ✱ Compatible ONLY with BiLumix GEN 2 & GEN 2S Headlamp > Manual",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-battery-front.webp?v=1752208417",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-battery-front.webp?v=1752208417 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-battery-back.webp?v=1752208417",
+      "imageCount": 2,
+      "sourcePageUrl": "https://bilumix.com/shop/rechargeable-battery-gen-2/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021751623923",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "GEN 2 Rechargeable Battery M",
+      "manufacturerRef": "BLXHL2-BATMD",
+      "manufacturerRefs": "BLXHL2-BATMD",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "46653516546291",
+          "label": "Default Title",
+          "manufacturerRef": "BLXHL2-BATMD",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix_battery_md_001.jpg?v=1752208496",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "BiLumix Headlamp",
+      "description": "Products Specification Battery life: Max Intensity: About 2.5 hours (Continuously) Mid to Low Intensity: 4 to 8 hours (Continuously) Charging time: About 2 hours Battery output: 7.4Volts / 1200mAh Charger Input: Battery Cradle ✱ Compatible ONLY with BiLumix GEN 2 & GEN 2S Headlamp > Manual",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix_battery_md_001.jpg?v=1752208496",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix_battery_md_001.jpg?v=1752208496 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix_battery_md_002.jpg?v=1752208496",
+      "imageCount": 2,
+      "sourcePageUrl": "https://bilumix.com/shop/rechargeable-battery-medium/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9133635698931",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "GEN 3 Battery Dock",
+      "manufacturerRef": "BLXHL3-BCC",
+      "manufacturerRefs": "BLXHL3-BCC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "47062412427507",
+          "label": "Default Title",
+          "manufacturerRef": "BLXHL3-BCC",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-battery-dock_33302f62-0777-418e-8292-b33e56bd3b65.png?v=1752208536",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "BiLumix Headlamp",
+      "description": "Key Features The battery dock for the BiLumix GEN 3 and GEN 3S rechargeable battery uses USB Type-C as the charge input. Charger output: 3,500 mAh (7.4 Volts) Charger Input: USB Type-C Cable (included) ✱ Compatible ONLY with BiLumix GEN 3 series Headlamp Rechargeable Battery",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-battery-dock_33302f62-0777-418e-8292-b33e56bd3b65.png?v=1752208536",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-battery-dock_33302f62-0777-418e-8292-b33e56bd3b65.png?v=1752208536",
+      "imageCount": 1,
+      "sourcePageUrl": "https://bilumix.com/shop/gen3-battery-dock/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9133635731699",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "GEN 3 Rechargeable Battery",
+      "manufacturerRef": "BLXHL3-BAT",
+      "manufacturerRefs": "BLXHL3-BAT",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "47062412460275",
+          "label": "Default Title",
+          "manufacturerRef": "BLXHL3-BAT",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-battery-01_78d25ce4-05cb-427d-a5a0-d6b67871f7aa.png?v=1752208541",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "BiLumix Headlamp",
+      "description": "Key Features Battery Life: Max Intensity: About 7.5 hours (Continuously) Mid to Low Intensity: 12 to 15 hours (Continuously) Charging Time: About 4.5 hours Capacity: 3,500 mAh (7.4 Volts) Charger Input: Battery Dock * ONLY for BiLumix GEN 3 and GEN 3S headlamps > Manual",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-battery-01_78d25ce4-05cb-427d-a5a0-d6b67871f7aa.png?v=1752208541",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-battery-01_78d25ce4-05cb-427d-a5a0-d6b67871f7aa.png?v=1752208541 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/gen3-battery-02_af6ca94e-e002-4d82-a0c0-01d5cec00648.png?v=1752208541",
+      "imageCount": 2,
+      "sourcePageUrl": "https://bilumix.com/shop/gen3-rechargeable-battery/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021753098483",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "Light Filters/Caps (Pair)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "BLXLFC-CL | BLXLFC-AM",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "46653521756403",
+          "label": "Clear",
+          "manufacturerRef": "BLXLFC-CL",
+          "selectedOptions": {
+            "Color": "Clear"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/light-filter-clear_e35be9ef-b3bb-4af7-a230-acd5b5ced760.png?v=1752208409",
+          "availableForSale": true
+        },
+        {
+          "variantId": "46653521789171",
+          "label": "Amber(flip)",
+          "manufacturerRef": "BLXLFC-AM",
+          "selectedOptions": {
+            "Color": "Amber(flip)"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/amber0_f955394f-f868-4188-b645-ec3bc023e82a.jpg?v=1752208409",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "BiLumix Headlamp",
+      "description": "Light filters which can be placed over the headlamp LED light source Amber light caps (slow cure and no cure) can be placed over the headlamp LED light source to prevent materials such as resin from getting cured by the high intensity light. ▷ Manual Video",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/light-filter-clear_e35be9ef-b3bb-4af7-a230-acd5b5ced760.png?v=1752208409",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/light-filter-clear_e35be9ef-b3bb-4af7-a230-acd5b5ced760.png?v=1752208409 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-front_7c841c12-52b5-4f38-8f13-5860d0c31ebf.webp?v=1752208409 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-light-cap-ember_07110276-39df-478c-b165-09034cad9beb.webp?v=1752208409 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/bilumix-g2s-ember-cap_1a01c7de-f99b-454d-a6c1-4cc61b507a34.webp?v=1752208409 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/amber0_f955394f-f868-4188-b645-ec3bc023e82a.jpg?v=1752208409 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/Amber1_3519bfd1-fac8-4c99-a415-0e654cead18c.jpg?v=1752208409 | https://cdn.shopify.com/s/files/1/0740/6456/0371/files/Amber2_96cc0e1d-4aaf-49a0-8102-c1b458fdb7e8.jpg?v=1752208409",
+      "imageCount": 7,
+      "sourcePageUrl": "https://bilumix.com/shop/light-filter/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021753000179",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "Light Source Handle",
+      "manufacturerRef": "BLXHL2-RPLH",
+      "manufacturerRefs": "BLXHL2-RPLH",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "46653521592563",
+          "label": "Default Title",
+          "manufacturerRef": "BLXHL2-RPLH",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/lamp-handle_3204949a-56ff-48bf-9395-adaa9f32b120.png?v=1752208412",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "",
+      "description": "This handle provide convenient for user to lift the light source up and down. ▷ Manual Video",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/lamp-handle_3204949a-56ff-48bf-9395-adaa9f32b120.png?v=1752208412",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/lamp-handle_3204949a-56ff-48bf-9395-adaa9f32b120.png?v=1752208412",
+      "imageCount": 1,
+      "sourcePageUrl": "https://bilumix.com/shop/lamp-handle/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BILUMIX-9021752901875",
+      "brand": "BiLumix",
+      "manufacturer": "ChoiceTech Co., Ltd.",
+      "name": "Rear Head Support Leaf",
+      "manufacturerRef": "BLXHL2-RPSL",
+      "manufacturerRefs": "BLXHL2-RPSL",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "46653521363187",
+          "label": "Default Title",
+          "manufacturerRef": "BLXHL2-RPSL",
+          "selectedOptions": {
+            "Title": "Default Title"
+          },
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/head-support-leaf_12437832-803f-475b-a05c-6a0e25a0419b.png?v=1752208414",
+          "availableForSale": true
+        }
+      ],
+      "categoryPath": "",
+      "description": "This piece supports the headlamp to firmly placed over your head. ▷ Manual Video",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/head-support-leaf_12437832-803f-475b-a05c-6a0e25a0419b.png?v=1752208414",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0740/6456/0371/files/head-support-leaf_12437832-803f-475b-a05c-6a0e25a0419b.png?v=1752208414",
+      "imageCount": 1,
+      "sourcePageUrl": "https://bilumix.com/shop/head-support-leaf/",
+      "kzEvidence": "BRAND_PRESENTED_BY_KZ_SPECIALIZED_SELLER",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    }
+  ]
+}

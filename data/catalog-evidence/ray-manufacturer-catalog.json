@@ -1,0 +1,1845 @@
+{
+  "brand": "RAY",
+  "manufacturer": "RAY Co., Ltd.",
+  "sourceType": "MANUFACTURER_RESOURCE_CENTER_AND_OFFICIAL_STORE_API",
+  "sourceUrl": "https://connect.raymedical.com/en/browse",
+  "lastChecked": "2026-07-22",
+  "totals": {
+    "coreProductFamilies": 22,
+    "officialStoreSkuProducts": 61,
+    "uniqueProducts": 79,
+    "variantSkus": 69,
+    "productsWithReferences": 58,
+    "productsWithImages": 58,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "RAY-RAYSCAN-ALPHA-P",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYSCAN α-P",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "2D Panorama",
+      "description": "RAYSCAN α-P — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/2D%20Panorama/RAYSCAN%20%CE%B1-P",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYDENT-STUDIO",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYDENT Studio",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "3D Printer",
+      "description": "RAYDENT Studio — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/3D%20Printer/RAYDENT%20Studio",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-5D-SOLUTION",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "5D Solution",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "5D Solution",
+      "description": "5D Solution — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/5D%20Solution",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYPREMIERE",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYPreMiere",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "CBCT",
+      "description": "RAYPreMiere — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYPreMiere",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYQUANTUM",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYQuantum",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "CBCT",
+      "description": "RAYQuantum — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYQuantum",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYSCAN-S",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYSCAN S",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "CBCT",
+      "description": "RAYSCAN S — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYSCAN%20S",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYSCAN-ALPHA-3D",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYSCAN α 3D",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "CBCT",
+      "description": "RAYSCAN α 3D — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYSCAN%20%CE%B1%C2%A03D",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYSCAN-ALPHA-PLUS",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYSCAN α+",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "CBCT",
+      "description": "RAYSCAN α+ — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYSCAN%20%CE%B1%2B",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-OCS",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "OCS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Ceph",
+      "description": "OCS — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Ceph/OCS",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-SCAN-CEPH-I",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Scan ceph(i)",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Ceph",
+      "description": "Scan ceph(i) — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Ceph/Scan%20ceph(i)",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYETRAY",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYeTray",
+      "manufacturerRef": "RF-ACC-0003",
+      "manufacturerRefs": "RF-ACC-0003",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RF-ACC-0003",
+          "label": "RAYeTray",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Consumables",
+      "description": "1 SET (10EA) Sold only as a bundle",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/13.png?v=1783451455",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/13.png?v=1783451455 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/14.png?v=1783451463",
+      "imageCount": 2,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Consumables/RAYeTray",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED",
+      "officialStorePageUrl": "https://rayonlinestore.com/products/rayetray"
+    },
+    {
+      "officialProductId": "RAY-RAYZIR-FS",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYZir FS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Consumables",
+      "description": "RAYZir FS — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Consumables/RAYZir%20FS",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYFACE200",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYFace200",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Face Scanner",
+      "description": "RAYFace200 — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Face%20Scanner/RAYFace200",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RIOSCAN",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RIOScan",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Image Plate System",
+      "description": "RIOScan — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Image%20Plate%20System/RIOScan",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYIOS2",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYiOS2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Intraoral Scanner",
+      "description": "RAYiOS2 — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Intraoral%20Scanner/RAYiOS2",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RIOSENSOR",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RIOSensor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Intraoral Sensor",
+      "description": "RIOSensor — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Intraoral%20Sensor/RIOSensor",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RIOSENSOR-PLUS",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RIOSensor+",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Intraoral Sensor",
+      "description": "RIOSensor+ — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Intraoral%20Sensor/RIOSensor%2B",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYMILL-4X",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYMill 4X",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Milling Machine",
+      "description": "RAYMill 4X — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Milling%20Machine/RAYMill%204X",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYMILL-C",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYMill C",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Milling Machine",
+      "description": "RAYMill C — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Milling%20Machine/RAYMill%20C",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-5D-SW",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "5D SW",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Software",
+      "description": "5D SW — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Software/5D%20SW",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYDENT-SW",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYDENT SW",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Software",
+      "description": "RAYDENT SW — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Software/RAYDENT%20SW",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RAYTEAMS",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYTeams",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "variantCount": 0,
+      "variants": [],
+      "categoryPath": "Software",
+      "description": "RAYTeams — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Software/RAYTeams",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RE-CH-CA-0003",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "HEADREST KNOB CASE(QT)",
+      "manufacturerRef": "RE-CH-CA-0003",
+      "manufacturerRefs": "RE-CH-CA-0003",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RE-CH-CA-0003",
+          "label": "HEADREST KNOB CASE(QT)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "Support Model: RATQuantum Category: ACCESSORY Part Name: HEADREST KNOB CASE(QT) SKU: RE-CH-CA-0003 Q'ty: 1 SET",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/rtaImage_eda00e97-d44d-452d-8dc6-5a8a0b69fdd6.png?v=1783448357",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/rtaImage_eda00e97-d44d-452d-8dc6-5a8a0b69fdd6.png?v=1783448357 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/rtaImage_1.png?v=1783448370",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/headrest-knob-caseqt",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-PK-PC-0043",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Console PC Order",
+      "manufacturerRef": "RA-PK-PC-0043",
+      "manufacturerRefs": "RA-PK-PC-0043",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-PK-PC-0043",
+          "label": "Option #1_Console PC + Online Support ($4,100)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Accessories and spare parts",
+      "description": "RAYSCAN Software Installation Online Support Package or Console PC Order 1 Option #1. Replacing a New Workstation PC with Windows 11 & Remote Support : Fully-configured new Windows 11 console PC can be shipped to the office for $4,100. Upon receiving, the office can put it to its network and Ray America and support remotely for any necessary setups (RAYSCAN SW version update, Network Card Setup, etc)",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/pc2.png?v=1774634012",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/pc2.png?v=1774634012 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/RAYSCAN_402b6430-71f5-48cf-b786-f7363baf73ef.jpg?v=1774634012",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/console-pc-order",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-MO-0003",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "THU Module",
+      "manufacturerRef": "RA-CH-MO-0003.",
+      "manufacturerRefs": "RA-CH-MO-0003. | RA-CH-MO-0001. | RA-CH-MO-0005.",
+      "variantCount": 3,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-MO-0003.",
+          "label": "RAYSCAN ALPHA",
+          "barcode": ""
+        },
+        {
+          "manufacturerRef": "RA-CH-MO-0001.",
+          "label": "RAYSCAN ALPHA PLUS",
+          "barcode": ""
+        },
+        {
+          "manufacturerRef": "RA-CH-MO-0005.",
+          "label": "RAYSCAN S & STUDIO",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "RA-CH-MO-0005 : RAYSCAN S, Studio, VISION 18/20 1 SET RA-CH-MO-0001 : RAYSCAN ALPHA PLUS, VISION 16 1 SET RA-CH-MO-0003 : RAYSCAN ALPHA 1 SET * Prior to ordering, please contact RAY AMERICA INC Customer Support to ensure you select the appropriate model for your product. *Installation costs are not included in this product.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/THU-Module-_S.png?v=1660947079",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/THU-Module-_S.png?v=1660947079 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/THU-Module-_A.jpg?v=1651863846 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/THU-Module-_A.png?v=1660947426",
+      "imageCount": 3,
+      "sourcePageUrl": "https://rayonlinestore.com/products/thu-module-for-rayscan-s-studiorct800",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-WO-GCIS-IO2CAK-00X",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYiOS2 3D Calibration Kit",
+      "manufacturerRef": "WO-GCIS-IO2CAK-00X",
+      "manufacturerRefs": "WO-GCIS-IO2CAK-00X",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "WO-GCIS-IO2CAK-00X",
+          "label": "RAYiOS2 3D Calibration Kit",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Phantom",
+      "description": "RAYiOS2 3D Calibration Kit 1 set",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/01CAL_ef0be684-6ee0-42ee-b3b5-fd4b7811ee8c.png?v=1770325160",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/01CAL_ef0be684-6ee0-42ee-b3b5-fd4b7811ee8c.png?v=1770325160 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/02CAL_2c2907c9-6064-430f-85da-ff762989387b.png?v=1770325160",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/rayios2-3d-calibration-kit",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RD-15A-0001",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RaySCAN DVT Phantom Kit",
+      "manufacturerRef": "RD-15A-0001",
+      "manufacturerRefs": "RD-15A-0001",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RD-15A-0001",
+          "label": "RaySCAN DVT Phantom Kit",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Phantom",
+      "description": "RAYSCAN DVT PHANTOM KIT / RD-15A-0001 1 SET RAY DVT PHANTOM DISK (RA-09S-1471) PANO ARC PHANTOM (RA-09S-1478)",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayScan_DVT_Phantom_Kit-1.jpg?v=1651789437",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayScan_DVT_Phantom_Kit-1.jpg?v=1651789437 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Ray-DVT-Phantom-Disk-1_8a989794-9de3-456d-9ca0-98d85af51fb7.jpg?v=1651789648 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Pano_Arc_Phantom-1.jpg?v=1651789648",
+      "imageCount": 3,
+      "sourcePageUrl": "https://rayonlinestore.com/products/rayscan-dvt-phantom-kit-copy",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-ITEM1040756",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYZir FS / Size C14 Multi Block",
+      "manufacturerRef": "ITEM1040756",
+      "manufacturerRefs": "ITEM1040756 | ITEM1040757 | ITEM1040758 | ITEM1040759",
+      "variantCount": 4,
+      "variants": [
+        {
+          "manufacturerRef": "ITEM1040756",
+          "label": "A1 ML (1 Package)",
+          "barcode": ""
+        },
+        {
+          "manufacturerRef": "ITEM1040757",
+          "label": "A2 ML (1 Package)",
+          "barcode": ""
+        },
+        {
+          "manufacturerRef": "ITEM1040758",
+          "label": "A3 ML (1 Package)",
+          "barcode": ""
+        },
+        {
+          "manufacturerRef": "ITEM1040759",
+          "label": "B1 ML (1 Package)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAY Mill C",
+      "description": "RAYZir FS Fully Sintered Zirconia Blocks Size C14 Multi Block Package of 5 Blocks Type: Fully sintered zirconia Flexural Strength: &gt;500MPa (3-pint bending test) Shade(Multi Blocks): In VITA 16 Classical Guide Geometry Multi Blocks: C14(18x14 x12.7) (L x W x H mm)",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BLOCK01.jpg?v=1720210842",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BLOCK01.jpg?v=1720210842 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BLOCK02.jpg?v=1720210841 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BLOCK03.jpg?v=1720210841",
+      "imageCount": 3,
+      "sourcePageUrl": "https://rayonlinestore.com/products/rayzir-fs-size-c14-multi-block",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RF-00A-0005",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYFace Calibration Kit",
+      "manufacturerRef": "RF-00A-0005",
+      "manufacturerRefs": "RF-00A-0005",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RF-00A-0005",
+          "label": "RAYFace Calibration Kit",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Phantom",
+      "description": "RAYFace Calibration Kit 1 set",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/Pano-Ceph_QA_-Phantom_1400x_2c9eff8a-a40c-4443-bab1-64c2c63f2955.jpg?v=1739809814",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/Pano-Ceph_QA_-Phantom_1400x_2c9eff8a-a40c-4443-bab1-64c2c63f2955.jpg?v=1739809814",
+      "imageCount": 1,
+      "sourcePageUrl": "https://rayonlinestore.com/products/rayface-calibration-kit",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-AC-0001",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYSCAN CHINREST HANDLE (Orange Color)",
+      "manufacturerRef": "RA-CH-AC-0001",
+      "manufacturerRefs": "RA-CH-AC-0001",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-AC-0001",
+          "label": "RAYSCAN CHINREST HANDLE (Orange Color)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Accessories and spare parts",
+      "description": "",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/RAYSCAN_Alpha_Images_FS2_140317.png?v=1733840713",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/RAYSCAN_Alpha_Images_FS2_140317.png?v=1733840713 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/8250ace4adf2cf7a1a382ca602045e47.png?v=1733840713",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/rayscan-chinrest-handle-orange-color",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-MCT-PK-AC-0001",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "MCT Both Support",
+      "manufacturerRef": "MCT-PK-AC-0001",
+      "manufacturerRefs": "MCT-PK-AC-0001",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "MCT-PK-AC-0001",
+          "label": "MCT Both Support",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "MCT",
+      "description": "RAYDENT Microscan MCT Both Support 1 set",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BOTHTRAY.jpg?v=1726240310",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BOTHTRAY.jpg?v=1726240310 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BOTHTRAY2.jpg?v=1726240310 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BOTHTRAY3.jpg?v=1726240310 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BOTHTRAY4.jpg?v=1726240310 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BOTHTRAY5.jpg?v=1726240310",
+      "imageCount": 5,
+      "sourcePageUrl": "https://rayonlinestore.com/products/mct-both-support",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-09A-4820",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "MCT Model Support",
+      "manufacturerRef": "RA-09A-4820",
+      "manufacturerRefs": "RA-09A-4820",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-09A-4820",
+          "label": "MCT Model Support",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "MCT",
+      "description": "RAYDENT Microscan Model Support 1 set",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/model_support3.jpg?v=1726241622",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/model_support3.jpg?v=1726241622 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/model_support2.png?v=1726193031 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/model_support4.jpg?v=1726241622 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/model_support2.jpg?v=1726239665",
+      "imageCount": 4,
+      "sourcePageUrl": "https://rayonlinestore.com/products/mct-model-support",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-09A-4810",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "MCT Impression Holder",
+      "manufacturerRef": "RA-09A-4810",
+      "manufacturerRefs": "RA-09A-4810",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-09A-4810",
+          "label": "MCT Impression Holder",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "MCT",
+      "description": "RAYDENT Microscan Impression Holder 1 set (New) Type",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/impression_jig.jpg?v=1726239444",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/impression_jig.jpg?v=1726239444 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/impression_holder2.png?v=1726192369 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/impression_jig2.jpg?v=1726239444",
+      "imageCount": 3,
+      "sourcePageUrl": "https://rayonlinestore.com/products/mct-impression-holder",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-OT-KT-0001",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "WALL MOUNT KIT",
+      "manufacturerRef": "RA-OT-KT-0001",
+      "manufacturerRefs": "RA-OT-KT-0001",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-OT-KT-0001",
+          "label": "WALL MOUNT KIT",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Accessories and spare parts",
+      "description": "WALL MOUNT KIT / RA-OT-KT-0001 / 1SET *Installation costs are not included in this product.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/6d83cdb666537b215a9adffe55d9f2ce.jpg?v=1553459567",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/6d83cdb666537b215a9adffe55d9f2ce.jpg?v=1553459567",
+      "imageCount": 1,
+      "sourcePageUrl": "https://rayonlinestore.com/products/wall-mount-kit",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-ITEM1040755",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYZir Bur 16mm",
+      "manufacturerRef": "ITEM1040755",
+      "manufacturerRefs": "ITEM1040755",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ITEM1040755",
+          "label": "RAYZir Bur 16mm",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAY Mill C",
+      "description": "RAYMill C RAYZir Bur 14m [Z14C16E(A)] Package of 2 Burs * RAYZir Bur does not require a distinction between Inner and Outer.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BUR2.jpg?v=1720212755",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BUR2.jpg?v=1720212755 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/BUR.jpg?v=1720212755",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/rayzir-bur-14m",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-ITEM1040757",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Water Fillter",
+      "manufacturerRef": "ITEM1040757",
+      "manufacturerRefs": "ITEM1040757",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "ITEM1040757",
+          "label": "Water Fillter",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAY Mill C",
+      "description": "RAYMill C Water Filter 1 Package of 4 Filters",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/1DSC01593.jpg?v=1720204111",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/1DSC01593.jpg?v=1720204111 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/1DSC01581.jpg?v=1720206138",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/water-fillter",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-PK-AC-0008",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYSCAN Exposure Switch",
+      "manufacturerRef": "RA-PK-AC-0008",
+      "manufacturerRefs": "RA-PK-AC-0008 | RA-8-1B",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "RA-PK-AC-0008",
+          "label": "Option #1 : EXPOSURE SWITCH ONLY",
+          "barcode": ""
+        },
+        {
+          "manufacturerRef": "RA-8-1B",
+          "label": "Option #2 : EXTEND CABLE ONLY",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "RA-PK-AC-0008 : Exposure Switch 1EA RA-8-1B: Extend Cable 1EA",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/rtaImage.jpg?v=1716485221",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/rtaImage.jpg?v=1716485221 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/RA-8-1B_df8ef23b-1ddf-4e6e-8cde-0b314778487e.jpg?v=1716488465",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/exposure-switch-set",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-PK-AC-0013",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Base Leveling Hole Sticker",
+      "manufacturerRef": "RA-PK-AC-0013",
+      "manufacturerRefs": "RA-PK-AC-0013",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-PK-AC-0013",
+          "label": "Base Leveling Hole Sticker",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "BASE LEVELING HOLE STICKER / RA-PK-AC-0013 1SET (20EA)",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Base_Leveling_Hole_Sticker.jpg?v=1651791184",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Base_Leveling_Hole_Sticker.jpg?v=1651791184 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/level_sticker.jpg?v=1720718362",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/base-leveling-hole-sticker",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RF-01S-5030",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYFace200 AC Adapter & Power Cord(US)",
+      "manufacturerRef": "RF-01S-5030",
+      "manufacturerRefs": "RF-01S-5030",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RF-01S-5030",
+          "label": "RAYFace200 AC Adapter & Power Cord(US)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYFace200",
+      "description": "RAYFace200 AC Adapter & Power Cord / RF-01S-5030 (Included Power Cord US (RD-00S-5204)) 1EA",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/acadapter2_603ba84b-334a-495e-a663-db6a394b7144.png?v=1702652548",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/files/acadapter2_603ba84b-334a-495e-a663-db6a394b7144.png?v=1702652548 | https://cdn.shopify.com/s/files/1/0091/5734/5342/files/acadapter3_85f3e9bc-1a1d-428f-81c6-ea75c50aadf0.png?v=1702652547",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/rayface200-ac-adapter-power-cordus",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-08M-2190",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "CARPUS PLATE FOR CEPH",
+      "manufacturerRef": "RA-08M-2190",
+      "manufacturerRefs": "RA-08M-2190",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-08M-2190",
+          "label": "CARPUS PLATE FOR CEPH",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "CARPUS PLATE 1EA CODE: RA-08M-2190",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CARPUS_PLATE.png?v=1675292444",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CARPUS_PLATE.png?v=1675292444 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CARPUS_PLATE2.png?v=1675292444",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/carpus-plate-for-ceph",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RP-09S-0176",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "CLEANING SHEET (10PCS)",
+      "manufacturerRef": "RP-09S-0176",
+      "manufacturerRefs": "RP-09S-0176",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RP-09S-0176",
+          "label": "CLEANING SHEET (10PCS)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RIOScan",
+      "description": "RIOScan CLEANING SHEET RP-09S-0176 (10 PCS/1 Set)",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RIOScan_Imaging_Plate-1_b020c549-dc70-4764-96de-01b0e17b10b3.jpg?v=1658866865",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RIOScan_Imaging_Plate-1_b020c549-dc70-4764-96de-01b0e17b10b3.jpg?v=1658866865 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/143753913.jpg?v=1658866865",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/cleaning-sheet-10pcs-1-box",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-09M-0983",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Object Scan JIG Sponge Disk (2pcs)",
+      "manufacturerRef": "RA-09M-0983",
+      "manufacturerRefs": "RA-09M-0983",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-09M-0983",
+          "label": "Object Scan JIG Sponge Disk (2pcs)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Phantom",
+      "description": "SPONGE DISC (2pcs) / RA-09M-0983 1 SET",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Object-Scan-Jig-Sponge-Disk-2.jpg?v=1651683510",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Object-Scan-Jig-Sponge-Disk-2.jpg?v=1651683510 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Object-Scan-Jig-Sponge-Disk-1.jpg?v=1651683510 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Object_Scan_Jig_Sponge_Disk_ZOOMIN_ea611257-e8e5-4508-a88f-8a94526aef2d.jpg?v=1652898679",
+      "imageCount": 3,
+      "sourcePageUrl": "https://rayonlinestore.com/products/object-scan-jig-sponge-disk-2pcs",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-SC-AC-0002-01",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "CEPH Ear Rod (Metal Ring/Right)",
+      "manufacturerRef": "RA-SC-AC-0002-01",
+      "manufacturerRefs": "RA-SC-AC-0002-01",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-SC-AC-0002-01",
+          "label": "CEPH Ear Rod (Metal Ring/Right)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "SC/OCS CEPH EARROD (METAL RING/RIGHT) 1EA CODE: RA-SC-AC-0002 INCLUDE METAL RING Plastic Part Only",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CEPH-Ear-Rob-MetalRing-Right-1.jpg?v=1651001469",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CEPH-Ear-Rob-MetalRing-Right-1.jpg?v=1651001469 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CEPH-Ear-Rob-MetalRing-Right-3.jpg?v=1651872391 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CEPH-Ear-Rob-MetalRing-Right-2.jpg?v=1651872391 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CEPH_Ear_Rob_MetalRing_Right_ZOOMIN.jpg?v=1652828087",
+      "imageCount": 4,
+      "sourcePageUrl": "https://rayonlinestore.com/products/sc-ocs-earrod-metal-ring-right-plastic-part-only",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-SC-AC-0003-01",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "CEPH Ear Rod (Pin/Left)",
+      "manufacturerRef": "RA-SC-AC-0003-01",
+      "manufacturerRefs": "RA-SC-AC-0003-01",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-SC-AC-0003-01",
+          "label": "CEPH Ear Rod (Pin/Left)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "SC/OCS CEPH EARROD (PIN/LEFT) 1EA CODE: RA-SC-AC-0003 INCLUDE METAL BEED Plastic Part only",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CEPH-Ear-Rob-Pin-Left-1.jpg?v=1651001493",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CEPH-Ear-Rob-Pin-Left-1.jpg?v=1651001493 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CEPH-Ear-Rob-Pin-Left-2.jpg?v=1651001493 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CEPH_Ear_Rob_Pin_Left_ZOOMIN.jpg?v=1652828074",
+      "imageCount": 3,
+      "sourcePageUrl": "https://rayonlinestore.com/products/copy-of-sc-ocs-earrod-pin-left",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RP-00S-5053",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RIOScan Imaging Plate",
+      "manufacturerRef": "RP-00S-5053",
+      "manufacturerRefs": "RP-00S-5053 | RP-00S-5049 | RP-00S-5050 | RP-00S-5051 | RP-00S-5052",
+      "variantCount": 5,
+      "variants": [
+        {
+          "manufacturerRef": "RP-00S-5053",
+          "label": "Imaging Plate Size 0",
+          "barcode": ""
+        },
+        {
+          "manufacturerRef": "RP-00S-5049",
+          "label": "Imaging Plate Size 1",
+          "barcode": ""
+        },
+        {
+          "manufacturerRef": "RP-00S-5050",
+          "label": "Imaging Plate Size 2",
+          "barcode": ""
+        },
+        {
+          "manufacturerRef": "RP-00S-5051",
+          "label": "Imaging Plate Size 3",
+          "barcode": ""
+        },
+        {
+          "manufacturerRef": "RP-00S-5052",
+          "label": "Imaging Plate Size 4",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RIOScan",
+      "description": "Barrier Envelope and Protect Cover Package - RP-00S-5048 : Imaging Plate Size 0 (2pcs/1set) - RP-00S-5049 : Imaging Plate Size 1 (2pcs/1set) - RP-00S-5050 : Imaging Plate Size 2 (2pcs/1set) - RP-00S-5051 : Imaging Plate Size 3 (2pcs/1set) - RP-00S-5052 : Imaging Plate Size 4 (1pcs/1set)",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RIOScan_Imaging_Plate-1.jpg?v=1651790974",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RIOScan_Imaging_Plate-1.jpg?v=1651790974 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RIOScan_Imaging_Plate_0.jpg?v=1652794581 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RIOScan_Imaging_Plate_1.jpg?v=1652794581 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RIOScan_Imaging_Plate_2.jpg?v=1652794582 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RIOScan_Imaging_Plate_3.jpg?v=1652794581 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RIOScan_Imaging_Plate_4.jpg?v=1652794581",
+      "imageCount": 6,
+      "sourcePageUrl": "https://rayonlinestore.com/products/rioscan-imaging-plate",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-PK-PC-0005",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RaySCAN Giga LAN Card",
+      "manufacturerRef": "RA-PK-PC-0005",
+      "manufacturerRefs": "RA-PK-PC-0005",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-PK-PC-0005",
+          "label": "RaySCAN Giga LAN Card",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "RAYSCAN GIGA LAN CARD / RA-PK-PC-0005 Connect to a wired network with this single port network adapter for a hassle-free and quick response With the 10/100/1000Base-T technology get up to 1000Mbps data transfer rate over the twisted pair cable Enjoy the super fast Gigabit Ethernet connection by inserting this Gigabit Ethernet card into your computer Enjoy superfast data transfer of up to 250 MB/s with PCI Express card, between the network card and motherboards",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayScan-Giga-LAN-Card-1.jpg?v=1651001566",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayScan-Giga-LAN-Card-1.jpg?v=1651001566 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayScan-Giga-LAN-Card-2.jpg?v=1651001566",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/rayscan-giga-lan-card",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-09C-2000",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Object Scan JIG",
+      "manufacturerRef": "RA-09C-2000",
+      "manufacturerRefs": "RA-09C-2000",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-09C-2000",
+          "label": "Object Scan JIG",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Phantom",
+      "description": "OBJECT SCAN JIG / RA-09C-2000 1 SET *Include Item 1. Object Scan Tray 2. Impression Holder 3. Impression Support 4. Sponge Disc (2pcs)",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Object-Scan-Jig-1_28e53a86-95c9-4d22-b163-0016cbaa6adc.jpg?v=1651002051",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Object-Scan-Jig-1_28e53a86-95c9-4d22-b163-0016cbaa6adc.jpg?v=1651002051 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Object-Scan-Jig-3_d5a7cbe9-df1f-4ff4-99df-adb19c6fcb1f.jpg?v=1651002051 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Object-Scan-Jig-2_9dd33211-980e-44a8-93ab-9a0dcb480fa5.jpg?v=1651002051 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Object-Scan-Jig-4_d59f2ffd-e49e-4304-b7d5-b79c2d1015d1.jpg?v=1651002051",
+      "imageCount": 4,
+      "sourcePageUrl": "https://rayonlinestore.com/products/impression-scan-jig",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-09S-1471",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Ray DVT Phantom Disk",
+      "manufacturerRef": "RA-09S-1471",
+      "manufacturerRefs": "RA-09S-1471",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-09S-1471",
+          "label": "Ray DVT Phantom Disk",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Phantom",
+      "description": "RAY DVT PHANTOM DISK / RA-09S-1471 / 1 EA",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Ray-DVT-Phantom-Disk-1.jpg?v=1651684337",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Ray-DVT-Phantom-Disk-1.jpg?v=1651684337 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Ray-DVT-Phantom-Disk-2.jpg?v=1651684337 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Ray-DVT-Phantom-Disk-3.jpg?v=1651684337",
+      "imageCount": 3,
+      "sourcePageUrl": "https://rayonlinestore.com/products/ray-dvt-phantom-disk",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RPC-PR-001",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RayDENT Post-Curing Unit",
+      "manufacturerRef": "RPC-PR-001",
+      "manufacturerRefs": "RPC-PR-001",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RPC-PR-001",
+          "label": "RayDENT Post-Curing Unit",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYDENT Studio",
+      "description": "For more information, please visit rayamerica.com",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDENT-Post-Curing-Unit-1_227fb431-1095-4b47-9150-8966b7a27745.jpg?v=1651868910",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDENT-Post-Curing-Unit-1_227fb431-1095-4b47-9150-8966b7a27745.jpg?v=1651868910 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDENT-Post-Curing-Unit-2_9a742802-bc86-4085-abce-48431c2a0010.jpg?v=1651868977 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDENT-Post-Curing-Unit-3.jpg?v=1651868977",
+      "imageCount": 3,
+      "sourcePageUrl": "https://rayonlinestore.com/products/raydent-post-curing-unit",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RCB10B",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RayDENT C&B",
+      "manufacturerRef": "RCB10B",
+      "manufacturerRefs": "RCB10B",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RCB10B",
+          "label": "RayDENT C&B",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYDENT Studio",
+      "description": "*Includes one VAT",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDent_CB.jpg?v=1651792585",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDent_CB.jpg?v=1651792585 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDent-3.jpg?v=1651866132",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/raydent-c-b",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RSG10B",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RayDENT SG",
+      "manufacturerRef": "RSG10B",
+      "manufacturerRefs": "RSG10B",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RSG10B",
+          "label": "RayDENT SG",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYDENT Studio",
+      "description": "*Includes one VAT",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDent_SG.jpg?v=1651792623",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDent_SG.jpg?v=1651792623 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDent-3_b8315530-fd88-47f6-af62-b398f8e6288d.jpg?v=1651866161",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/raydent-sg",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RDM10B",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RayDENT DM",
+      "manufacturerRef": "RDM10B",
+      "manufacturerRefs": "RDM10B",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RDM10B",
+          "label": "RayDENT DM",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYDENT Studio",
+      "description": "*Includes one VAT",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDent-DM.jpg?v=1651865103",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDent-DM.jpg?v=1651865103 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RayDent-3_702d6756-858e-4b90-97bf-e4a28870bf49.jpg?v=1651866146",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/raydent-dm",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-09S-1473",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "PANO/CEPH QA Phantom",
+      "manufacturerRef": "RA-09S-1473",
+      "manufacturerRefs": "RA-09S-1473",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-09S-1473",
+          "label": "PANO/CEPH QA Phantom",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Phantom",
+      "description": "PANO/CEPH QA PHANTOM(QUART dent/digitest2.0) RA-09S-1473 / 1EA Manufacture spec. URL : https://quart.de/en/dental/quart-dentdigitest-21",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Pano-Ceph_QA_-Phantom.jpg?v=1651788988",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Pano-Ceph_QA_-Phantom.jpg?v=1651788988",
+      "imageCount": 1,
+      "sourcePageUrl": "https://rayonlinestore.com/products/pano-ceph-qa-phantom",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-PK-AC-9000",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Lead Apron",
+      "manufacturerRef": "RA-PK-AC-9000",
+      "manufacturerRefs": "RA-PK-AC-9000",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-PK-AC-9000",
+          "label": "Lead Apron",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Accessories and spare parts",
+      "description": "LEAD APRON / 1EA RAY America Lead Aprons are designed to fit most adults or children comportably and provide maximum protection while taking dental x-rays.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Lead-Apron-1.jpg?v=1651683548",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Lead-Apron-1.jpg?v=1651683548 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Lead-Apron-2.jpg?v=1651683548",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/lead-apron",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RIT-LL",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Digital Tray Full Arch Large Lower",
+      "manufacturerRef": "RIT-LL",
+      "manufacturerRefs": "RIT-LL",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RIT-LL",
+          "label": "Digital Tray Full Arch Large Lower",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Accessories and spare parts",
+      "description": "1 SET (10EA) Sold only as a bundle",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Large-Lower-1.jpg?v=1651787912",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Large-Lower-1.jpg?v=1651787912 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Large-Lower-2.jpg?v=1651874578",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/digital-tray-full-arch-large-lower",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RIT-SL",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Digital Tray Full Arch Small Lower",
+      "manufacturerRef": "RIT-SL",
+      "manufacturerRefs": "RIT-SL",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RIT-SL",
+          "label": "Digital Tray Full Arch Small Lower",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Accessories and spare parts",
+      "description": "1 SET (10EA) Sold only as a bundle",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Small-Lower-2_b943b92f-507b-448f-9390-272a3a611ae8.jpg?v=1651788018",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Small-Lower-2_b943b92f-507b-448f-9390-272a3a611ae8.jpg?v=1651788018 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Small-Lower-1_ecf86157-02a5-490a-9bdc-882ea4b59025.jpg?v=1651788018",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/digital-tray-full-arch-small-lower",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RIT-ML",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Digital Tray Full Arch Medium Lower",
+      "manufacturerRef": "RIT-ML",
+      "manufacturerRefs": "RIT-ML",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RIT-ML",
+          "label": "Digital Tray Full Arch Medium Lower",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Accessories and spare parts",
+      "description": "1 SET (10EA) Sold only as a bundle",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Medium-Lower-2.jpg?v=1651787983",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Medium-Lower-2.jpg?v=1651787983 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Medium-Lower-1.jpg?v=1651787983",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/digital-tray-full-arch-medium-lower",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RIT-PA",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Digital Tray Full Arch Upper Left (Lower Right)",
+      "manufacturerRef": "RIT-PA",
+      "manufacturerRefs": "RIT-PA",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RIT-PA",
+          "label": "Digital Tray Full Arch Upper Left (Lower Right)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Accessories and spare parts",
+      "description": "RIT-PA 1SET(10EA) Sold only as a bundle",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Partial-Arch_Upper_L_-Lower_R_-2.jpg?v=1651788059",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Partial-Arch_Upper_L_-Lower_R_-2.jpg?v=1651788059 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Partial-Arch_Upper_L_-Lower_R_-1.jpg?v=1651788059",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/digital-tray-large-lower",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RIT-LU",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Digital Tray Full Arch Large Upper",
+      "manufacturerRef": "RIT-LU",
+      "manufacturerRefs": "RIT-LU",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RIT-LU",
+          "label": "Digital Tray Full Arch Large Upper",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Accessories and spare parts",
+      "description": "1 SET (10EA) Sold only as a bundle",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Large-Upper-2.jpg?v=1651788420",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Large-Upper-2.jpg?v=1651788420 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Large-Upper-1.jpg?v=1651788420",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/copy-of-digital-tray-medium",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RIT-MU",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Digital Tray Full Arch Medium Upper",
+      "manufacturerRef": "RIT-MU",
+      "manufacturerRefs": "RIT-MU",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RIT-MU",
+          "label": "Digital Tray Full Arch Medium Upper",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Accessories and spare parts",
+      "description": "RIT-MU 1 SET (10EA) Sold only as a bundle",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Medium-Upper-2.jpg?v=1651787999",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Medium-Upper-2.jpg?v=1651787999 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Digital-Tray_Full-Arch_Medium-Upper-1.jpg?v=1651787999",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/copy-of-digital-tray-small",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-AC-0010-01",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Normal Chinrest (Flat)",
+      "manufacturerRef": "RA-CH-AC-0010-01",
+      "manufacturerRefs": "RA-CH-AC-0010-01",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-AC-0010-01",
+          "label": "Normal Chinrest (Flat)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "NORMAL CHINREST (Flat Type) RA-CH-AC-0010-01 1 SET For the RAYSCAN Alpha (2013~2016)",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Normal-Chinrest-FlatType-1.jpg?v=1651002213",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Normal-Chinrest-FlatType-1.jpg?v=1651002213 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Normal-Chinrest-FlatType-2.jpg?v=1651002213",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/old-chinrest-flat-version",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-SC-AC-0004",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Nasion Bar for RAYSCAN",
+      "manufacturerRef": "RA-SC-AC-0004",
+      "manufacturerRefs": "RA-SC-AC-0004",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-SC-AC-0004",
+          "label": "Nasion Bar for RAYSCAN",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "SC/OCS FOREHEAD BAR RA-SC-AC-0004 1EA",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Nasion-Bar-Alpha-Plus-1_38ce52e1-49f8-4342-a5f9-adfba9285f67.jpg?v=1660949554",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Nasion-Bar-Alpha-Plus-1_38ce52e1-49f8-4342-a5f9-adfba9285f67.jpg?v=1660949554 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Nasion-Bar-Alpha-Plus-2_51fd1231-514f-44d0-9c94-95f143dcb0fa.jpg?v=1660949554 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/RAYSCAN_Alpha_Plus_ZOOMIN_1400x_3cc388df-4a65-4381-bd4e-26a35dfbbc47.jpg?v=1660949554",
+      "imageCount": 3,
+      "sourcePageUrl": "https://rayonlinestore.com/products/copy-of-nasion-bar-for-alpha-plus",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-09S-1478",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "PANO Arc Phantom",
+      "manufacturerRef": "RA-09S-1478",
+      "manufacturerRefs": "RA-09S-1478",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-09S-1478",
+          "label": "PANO Arc Phantom",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Phantom",
+      "description": "RA-09S-1478 / 1EA",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Pano-Arc-Phantom-1.jpg?v=1651001997",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Pano-Arc-Phantom-1.jpg?v=1651001997 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Pano-Arc-Phantom-2.jpg?v=1651001997",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/pano-arc-phantom",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-AC-0014",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "CT Headrest Guide",
+      "manufacturerRef": "RA-CH-AC-0014",
+      "manufacturerRefs": "RA-CH-AC-0014",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-AC-0014",
+          "label": "CT Headrest Guide",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "CT HEADREST GUIDE / RA-CH-AC-0014 1SET(2EA) / Sold only as a bundle",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CT-Headrest-Guide-1.jpg?v=1651688521",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CT-Headrest-Guide-1.jpg?v=1651688521 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CT-Headrest-Guide-2.jpg?v=1651688521 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CT_Headrest_Guide_zoomin.jpg?v=1652793661",
+      "imageCount": 3,
+      "sourcePageUrl": "https://rayonlinestore.com/products/ct-headrest-guide",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-AC-0013",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "CT Headrest Kit",
+      "manufacturerRef": "RA-CH-AC-0013",
+      "manufacturerRefs": "RA-CH-AC-0013",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-AC-0013",
+          "label": "CT Headrest Kit",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "CT HEADREST KIT / RA-CH-AC-0013 1SET",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CT-Headrest-Kit.jpg?v=1651001118",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CT-Headrest-Kit.jpg?v=1651001118",
+      "imageCount": 1,
+      "sourcePageUrl": "https://rayonlinestore.com/products/ct-headrest-kit",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-AC-0010",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Normal Chinrest (New) with Edentulous Guide",
+      "manufacturerRef": "RA-CH-AC-0010",
+      "manufacturerRefs": "RA-CH-AC-0010 | RA-CH-AC-0017",
+      "variantCount": 2,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-AC-0010",
+          "label": "RAYSCAN ALPHA 2D & 3D EDGE & ALPHA PLUS (RA-CH-AC-0010)",
+          "barcode": ""
+        },
+        {
+          "manufacturerRef": "RA-CH-AC-0017",
+          "label": "RAYSCAN S & STUDIO (RA-CH-AC-0017)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "NORMAL CHINREST : 1 SET including EDENTULOUS GUIDE RA-CH-AC-0010 : For RAYSCAN ALPHA 2D & 3D EDGE & ALPHA PLUS RA-CH-AC-0017 : For RAYSCAN S & RAYSCAN STUDIO * Eduntulous guides are not sold separately. This is sold with Normal Chinrest.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Normal-Chinrest-NewType.jpg?v=1651002239",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Normal-Chinrest-NewType.jpg?v=1651002239 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Normal-Chinrest-NewType-2.jpg?v=1651873418 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Edentulous-Guide_fbbfb089-2233-4b5b-907a-1b960ad3d648.jpg?v=1651873418 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Normal-Chinrest-NewType-3.jpg?v=1651873418",
+      "imageCount": 4,
+      "sourcePageUrl": "https://rayonlinestore.com/products/normal-chinrest",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-AC-0009",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "PANO/CT Headrest Bar (Right)",
+      "manufacturerRef": "RA-CH-AC-0009",
+      "manufacturerRefs": "RA-CH-AC-0009",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-AC-0009",
+          "label": "PANO/CT Headrest Bar (Right)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "PANO/CT HEADREST BAR(R) RA-CH-AC-0009 1EA",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Pano-Ct-Headrest-Bar-Right-1.jpg?v=1651683289",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Pano-Ct-Headrest-Bar-Right-1.jpg?v=1651683289 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Pano-Ct-Headrest-Bar-Right-2.jpg?v=1651683289 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/PANO-CT_Headrest_Bar__Right__ZOOMIN.jpg?v=1652826596",
+      "imageCount": 3,
+      "sourcePageUrl": "https://rayonlinestore.com/products/pano-ct-headrest-barr",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-AC-0008",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "PANO/CT Headrest Bar (Left)",
+      "manufacturerRef": "RA-CH-AC-0008",
+      "manufacturerRefs": "RA-CH-AC-0008",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-AC-0008",
+          "label": "PANO/CT Headrest Bar (Left)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "PANO/CT HEADREST BAR(L) RA-CH-AC-0008 1EA",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Pano-Ct-Headrest-Bar-Left-1.jpg?v=1651683275",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Pano-Ct-Headrest-Bar-Left-1.jpg?v=1651683275 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Pano-Ct-Headrest-Bar-Left-2.jpg?v=1651683275 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/PANO-CT_Headrest_Bar__Left__ZOOMIN.jpg?v=1652826550",
+      "imageCount": 3,
+      "sourcePageUrl": "https://rayonlinestore.com/products/pano-ct-headrest-barl",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-AC-0007",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "TMJ Headrest Bar(R)",
+      "manufacturerRef": "RA-CH-AC-0007",
+      "manufacturerRefs": "RA-CH-AC-0007",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-AC-0007",
+          "label": "TMJ Headrest Bar(R)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "TMJ HEADREST BAR(R) / RA-CH-AC-0007 1EA",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/TMJ-Headrest-Bar-R-2.jpg?v=1651872597",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/TMJ-Headrest-Bar-R-2.jpg?v=1651872597 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/TMJ-Headrest-Bar-R-1.jpg?v=1651872597",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/tmj-headrest-barr",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-AC-0006",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "TMJ Headrest Bar(L)",
+      "manufacturerRef": "RA-CH-AC-0006",
+      "manufacturerRefs": "RA-CH-AC-0006",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-AC-0006",
+          "label": "TMJ Headrest Bar(L)",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "TMJ HEADREST BAR(L) / RA-CH-AC-0006 1EA",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/TMJ-Headrest-Bar-L-2.jpg?v=1651872590",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/TMJ-Headrest-Bar-L-2.jpg?v=1651872590 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/TMJ-Headrest-Bar-L-1.jpg?v=1651872590",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/tmj-headrest-barl",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-AC-0004",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "SINUS Chinrest",
+      "manufacturerRef": "RA-CH-AC-0004",
+      "manufacturerRefs": "RA-CH-AC-0004",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-AC-0004",
+          "label": "SINUS Chinrest",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "SINUS CHINREST / RA-CH-AC-0004 1EA",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/SINUS-Chinrest.jpg?v=1651001641",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/SINUS-Chinrest.jpg?v=1651001641 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/SINUS-Chinrest-2.jpg?v=1651872316",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/sunus-chinrest",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-AC-0003",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "CT TMJ Chinrest",
+      "manufacturerRef": "RA-CH-AC-0003",
+      "manufacturerRefs": "RA-CH-AC-0003",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-AC-0003",
+          "label": "CT TMJ Chinrest",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "CT TMJ CHINREST / RA-CH-AC-0003 1EA",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CT-TMJ-Chinrest-1.jpg?v=1651001507",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CT-TMJ-Chinrest-1.jpg?v=1651001507 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/CT-TMJ-Chinrest-2.jpg?v=1651001507",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/ct-tmj-chinrest",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-CH-AC-0002",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Bite Block 5ea",
+      "manufacturerRef": "RA-CH-AC-0002",
+      "manufacturerRefs": "RA-CH-AC-0002",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-CH-AC-0002",
+          "label": "Bite Block 5ea",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "BITE BLOCK / RA-CH-AC-0002 1 SET(5EA) Sold only as a bundle",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Bite-Block-5ea.jpg?v=1651001127",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Bite-Block-5ea.jpg?v=1651001127 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Bite-Block-5ea-2.jpg?v=1651872360",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/bite-block",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-PK-AC-0005",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Remote Controller Set for Alpha",
+      "manufacturerRef": "RA-PK-AC-0005",
+      "manufacturerRefs": "RA-PK-AC-0005",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-PK-AC-0005",
+          "label": "Remote Controller Set for Alpha",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Accessories and spare parts",
+      "description": "REMOTE CONTROLLER SET FOR ALPHA / RA-PK-AC-0005 1SET Include RECEIVER BOARD *Installation costs are not included in this product.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Remote-Controller-Set-For-Alpha-1.jpg?v=1651001799",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Remote-Controller-Set-For-Alpha-1.jpg?v=1651001799 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Remote-Controller-Set-For-Alpha-2.jpg?v=1651001799",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/remote-controller-set-for-alpha",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-PK-AC-0003",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Remote Controller Set for Alpha Plus",
+      "manufacturerRef": "RA-PK-AC-0003",
+      "manufacturerRefs": "RA-PK-AC-0003",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-PK-AC-0003",
+          "label": "Remote Controller Set for Alpha Plus",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "Accessories and spare parts",
+      "description": "REMOTE CONTROLLER SET FOR ALPHA PLUS / RA-PK-AC-0003 1SET Include RECEIVER BOARD *Installation costs are not included in this product.",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Remote-Controller-Set-For-Alpha-Plus-1.jpg?v=1651001837",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Remote-Controller-Set-For-Alpha-Plus-1.jpg?v=1651001837 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Remote-Controller-Set-For-Alpha-Plus-2.jpg?v=1651001837",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/remote-controller-set-for-alpha-plus",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-PK-AC-0012",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "HEADREST BAR FIX NOB",
+      "manufacturerRef": "RA-PK-AC-0012",
+      "manufacturerRefs": "RA-PK-AC-0012",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-PK-AC-0012",
+          "label": "HEADREST BAR FIX NOB",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "RA-PK-AC-0012 2EA",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Headrest-Bar-Fix-Nob.jpg?v=1651001063",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Headrest-Bar-Fix-Nob.jpg?v=1651001063",
+      "imageCount": 1,
+      "sourcePageUrl": "https://rayonlinestore.com/products/headrest-bar-fix-nob",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-PK-AC-0011",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Foot Sticker Set",
+      "manufacturerRef": "RA-PK-AC-0011",
+      "manufacturerRefs": "RA-PK-AC-0011",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-PK-AC-0011",
+          "label": "Foot Sticker Set",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "RA-PK-AC-0011 1SET(5EA) Sold only as a bundle",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Foot_Sticker_Set_1.jpg?v=1652817353",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Foot_Sticker_Set_1.jpg?v=1652817353 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Foot_Sticker_Set_2.jpg?v=1652817353",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/foot-sticker-set",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-PK-AC-0010",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Remote Controller Holder",
+      "manufacturerRef": "RA-PK-AC-0010",
+      "manufacturerRefs": "RA-PK-AC-0010",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-PK-AC-0010",
+          "label": "Remote Controller Holder",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "REMOTE CONTROLLER HOLDER / RA-PK-AC-0010 / 1EA / Include sticker",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Remote-Controller-Holder-1.jpg?v=1651001933",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Remote-Controller-Holder-1.jpg?v=1651001933 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Remote-Controller-Holder-2.jpg?v=1651001933",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/remote-controller-holder",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "RAY-RA-PK-AC-0009",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "Exposure Switch Holder",
+      "manufacturerRef": "RA-PK-AC-0009",
+      "manufacturerRefs": "RA-PK-AC-0009",
+      "variantCount": 1,
+      "variants": [
+        {
+          "manufacturerRef": "RA-PK-AC-0009",
+          "label": "Exposure Switch Holder",
+          "barcode": ""
+        }
+      ],
+      "categoryPath": "RAYSCAN",
+      "description": "RA-PK-AC-0009 1EA Include sticker",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Exposure-Switch-Holder-1.jpg?v=1651001149",
+      "imageUrls": "https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Exposure-Switch-Holder-1.jpg?v=1651001149 | https://cdn.shopify.com/s/files/1/0091/5734/5342/products/Exposure-Switch-Holder-2.jpg?v=1651001149",
+      "imageCount": 2,
+      "sourcePageUrl": "https://rayonlinestore.com/products/exposure-switch-holder",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    }
+  ]
+}

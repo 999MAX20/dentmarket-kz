@@ -1,0 +1,2825 @@
+{
+  "brand": "Ivoclar",
+  "manufacturer": "Ivoclar Vivadent AG",
+  "sourceType": "CURRENT_OFFICIAL_RUSSIAN_PRODUCT_SITEMAP",
+  "sourceUrl": "https://www.ivoclar.com/sitemap.ru.xml",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "allRegionalProductPagesCollected": true,
+    "exactOfficialHeroImagesPreserved": true,
+    "noManufacturerReferenceInvented": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "sitemapProductPages": 111,
+    "discoveredProducts": 107,
+    "variantSkus": 107,
+    "productsWithImages": 103,
+    "productsWithReferences": 0,
+    "skippedPages": 4,
+    "crawlErrors": 0
+  },
+  "skipped": [
+    {
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-equipment/block-module",
+      "reason": "NO_PRODUCT_HERO"
+    },
+    {
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/ivotion/ivotion-faq",
+      "reason": "NO_PRODUCT_HERO"
+    },
+    {
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/ips-e.max-zirconia",
+      "reason": "NO_PRODUCT_HERO"
+    },
+    {
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/products",
+      "reason": "NO_PRODUCT_HERO"
+    }
+  ],
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "IVOCLAR-IPS-E.MAX-GUARANTEE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "10-year IPS e.max guarantee",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "10-year IPS e.max guarantee",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "10-year IPS e.max guarantee",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / metal-free-ceramics",
+      "description": "Trust builds confidence",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-5/GLOBAL%20-%20MEDIA/Products/Metal%20free%20ceramics/IPS%20e.max%20Press%20Lab/23245/image-thumb__23245__cms_teaser_1/IPS_e.max_Garantie_1920x1440px.b6686a05.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-5/GLOBAL%20-%20MEDIA/Products/Metal%20free%20ceramics/IPS%20e.max%20Press%20Lab/23245/image-thumb__23245__cms_teaser_1/IPS_e.max_Garantie_1920x1440px.b6686a05.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/metal-free-ceramics/ips-e.max-guarantee",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-3D-PRINTING-MATERIALS",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "3D printing materials",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "3D printing materials",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "3D printing materials",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "Efficient, clean handling",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/3D%20printing%20materials/113487/image-thumb__113487__cms_teaser_1/Print-bottles_7127-1_1920x1220px.5ce1e914.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/3D%20printing%20materials/113487/image-thumb__113487__cms_teaser_1/Print-bottles_7127-1_1920x1220px.5ce1e914.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/3d-printing-materials",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-VACUUM-PUMP-VP3-EASY",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Вакуумный насос VP3 easy",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Вакуумный насос VP3 easy",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Вакуумный насос VP3 easy",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Подходит для создания вакуума в печах для обжига",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Equipment/Vacuum%20Pumps/Vacuum%20Pump%20VP3%20easy/15837/image-thumb__15837__cms_teaser_1/vacuum-Pump-VP3-easy_product.2d5dd8cd.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Equipment/Vacuum%20Pumps/Vacuum%20Pump%20VP3%20easy/15837/image-thumb__15837__cms_teaser_1/vacuum-Pump-VP3-easy_product.2d5dd8cd.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/vacuum-pump-vp3-easy",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-VACUUM-PUMP-VP5",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Вакуумный насос VP5",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Вакуумный насос VP5",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Вакуумный насос VP5",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/vacuum-pump-vp5",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROGRAMAT-PRESS-FURNACES",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Печи для прессования Programat",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Печи для прессования Programat",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Печи для прессования Programat",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Programat EP 5010 G2 and EP 3010 G2",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Equipment/Programat%20Press%20furnaces/94580/image-thumb__94580__cms_teaser_1/Programat-G2_1920x1220px.b2912725.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Equipment/Programat%20Press%20furnaces/94580/image-thumb__94580__cms_teaser_1/Programat-G2_1920x1220px.b2912725.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/programat-press-furnaces",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-BLUEPHASE-G4",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Bluephase G4",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Bluephase G4",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Bluephase G4",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Reliable curing at a high level",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Equipment/Bluephase%20G4/102248/image-thumb__102248__cms_teaser_1/Bluephase-G4_0010_1920x1220px.9f295a23.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Equipment/Bluephase%20G4/102248/image-thumb__102248__cms_teaser_1/Bluephase-G4_0010_1920x1220px.9f295a23.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/bluephase-g4",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-BLUEPHASE-METER-II",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Bluephase Meter II",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Bluephase Meter II",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Bluephase Meter II",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "The reference for determining the light intensity",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Equipment/Bluephase%20Meter%20II/91778/image-thumb__91778__cms_teaser_1/Bluephase-Meter-II_1920x1220px.5144ed5a.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Equipment/Bluephase%20Meter%20II/91778/image-thumb__91778__cms_teaser_1/Bluephase-Meter-II_1920x1220px.5144ed5a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/bluephase-meter-ii",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-BLUEPHASE-N-G4",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Bluephase N G4",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Bluephase N G4",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Bluephase N G4",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Новый уровень полимеризации",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Equipment/Bluephase%20N%20G4/146417/image-thumb__146417__cms_teaser_1/Bluephase-N-G4_0001_1920x1220px.63a8c7a3.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Equipment/Bluephase%20N%20G4/146417/image-thumb__146417__cms_teaser_1/Bluephase-N-G4_0001_1920x1220px.63a8c7a3.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/bluephase-n-g4",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-BLUEPHASE-N-MC",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Bluephase N MC",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Bluephase N MC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Bluephase N MC",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "LED for all budgets",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Equipment/Bluephase%20N%20MC/26948/image-thumb__26948__cms_teaser_1/Bluephase_N_Family_0015.2be6c94f.png",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Equipment/Bluephase%20N%20MC/26948/image-thumb__26948__cms_teaser_1/Bluephase_N_Family_0015.2be6c94f.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/bluephase-n-mc",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-BLUEPHASE-N-CURE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Bluephase N-Cure",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Bluephase N-Cure",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Bluephase N-Cure",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Качество, которое Вам необходимо, простота, которую Вы желаете.",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Equipment/Bluephase%20N%20Cure/105036/image-thumb__105036__cms_teaser_1/Bluephase-N-Cure_0044_1920x1220px.c5cb5a9c.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Equipment/Bluephase%20N%20Cure/105036/image-thumb__105036__cms_teaser_1/Bluephase-N-Cure_0044_1920x1220px.c5cb5a9c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/bluephase-n-cure",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-BLUEPHASE-POWERCURE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Bluephase PowerCure",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Bluephase PowerCure",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Bluephase PowerCure",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Интеллектуальная полимеризация у вас под рукой",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Equipment/Bluephase%20PowerCure/75042/image-thumb__75042__cms_teaser_1/Bluephase-PowerCure_1920x1220px.92b1adde.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Equipment/Bluephase%20PowerCure/75042/image-thumb__75042__cms_teaser_1/Bluephase-PowerCure_1920x1220px.92b1adde.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/bluephase-powercure",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-CENTION-N",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Cention N",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Cention N",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Cention N",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / filling-materials",
+      "description": "The bioactive * powder-liquid filling material",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Filling%20materials/Cention%20N/141715/image-thumb__141715__cms_teaser_1/Cention-N_0051_1920x1220px.32286fb6.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Filling%20materials/Cention%20N/141715/image-thumb__141715__cms_teaser_1/Cention-N_0051_1920x1220px.32286fb6.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/filling-materials/cention-n",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-CENTRIC-TRAY",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Centric Tray",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Centric Tray",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Centric Tray",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / impressions",
+      "description": "Bite registration made easy",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Impressions/Centric%20Tray/146737/image-thumb__146737__cms_teaser_1/Centric-Tray_0209_1920x1220px.cf9a9c1f.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Impressions/Centric%20Tray/146737/image-thumb__146737__cms_teaser_1/Centric-Tray_0209_1920x1220px.cf9a9c1f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/impressions/centric-tray",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-ECO-ETCH",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Eco-Etch",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Eco-Etch",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Eco-Etch",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / adhesives",
+      "description": "Протравочный гель",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Adhesives/Eco-Etch/13685/image-thumb__13685__cms_teaser_1/353.b483067b.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Adhesives/Eco-Etch/13685/image-thumb__13685__cms_teaser_1/353.b483067b.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/adhesives/eco-etch",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-EMAIL-PREPARATOR-BLUE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Email Preparator blue",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Email Preparator blue",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Email Preparator blue",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / adhesives",
+      "description": "Etching liquid",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Adhesives/Email%20Preparator%20blue/10645/image-thumb__10645__cms_teaser_1/email_preparator_product.52818c6b.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Adhesives/Email%20Preparator%20blue/10645/image-thumb__10645__cms_teaser_1/email_preparator_product.52818c6b.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/adhesives/email-preparator-blue",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-EXCITE-N-BOND",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Excite ® N-Bond",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Excite ® N-Bond",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Excite ® N-Bond",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / adhesives",
+      "description": "Light-curing total-etch adhesive",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Adhesives/Excite%20N-Bond/92358/image-thumb__92358__cms_teaser_1/Excite-N-Bond_1920x1220px.e160c71d.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Adhesives/Excite%20N-Bond/92358/image-thumb__92358__cms_teaser_1/Excite-N-Bond_1920x1220px.e160c71d.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/adhesives/excite-n-bond",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-EXCITE-F",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Excite F",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Excite F",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Excite F",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / adhesives",
+      "description": "Light-curing total-etch adhesive",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Adhesives/ExciTE%20F/155908/image-thumb__155908__cms_teaser_1/Excite-F_0056_1920x1220px.d6679d15.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Adhesives/ExciTE%20F/155908/image-thumb__155908__cms_teaser_1/Excite-F_0056_1920x1220px.d6679d15.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/adhesives/excite-f",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-EXCITE-F-DSC",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "ExciTE F DSC",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ExciTE F DSC",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ExciTE F DSC",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / adhesives",
+      "description": "Двойного твердения адгезив с предварительной протравкой",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-7/GLOBAL%20-%20MEDIA/Products/Adhesives/ExciTE%20F%20DSC/10651/image-thumb__10651__cms_teaser_1/excite_visual.417451ad.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-7/GLOBAL%20-%20MEDIA/Products/Adhesives/ExciTE%20F%20DSC/10651/image-thumb__10651__cms_teaser_1/excite_visual.417451ad.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/adhesives/excite-f-dsc",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-E.MAX-ZIRCAD-PRIME-FAMILY",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Expertise & Confidence",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Expertise & Confidence",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Expertise & Confidence",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "IPS e.max ZirCAD Prime & IPS e.max ZirCAD Prime Esthetic",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/IPS%20e.max%20ZirCAD%20Prime%20Family/99292/image-thumb__99292__cms_teaser_1/Prime-Disc_1920x1220px.69edf30f.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/IPS%20e.max%20ZirCAD%20Prime%20Family/99292/image-thumb__99292__cms_teaser_1/Prime-Disc_1920x1220px.69edf30f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/ips-e.max-zircad-prime-family",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-FLUOR-PROTECTOR-GEL",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Fluor Protector Gel",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fluor Protector Gel",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Fluor Protector Gel",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / prevention-and-care",
+      "description": "To strengthen the teeth",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/Fluor%20Protector%20Gel/75368/image-thumb__75368__cms_teaser_1/Fluor-Protector-Gel_1920x1220px.8bc80476.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/Fluor%20Protector%20Gel/75368/image-thumb__75368__cms_teaser_1/Fluor-Protector-Gel_1920x1220px.8bc80476.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/prevention-and-care/fluor-protector-gel",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-FLUOR-PROTECTOR-S",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Fluor Protector S",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Fluor Protector S",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Fluor Protector S",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / prevention-and-care",
+      "description": "Защитный лак с фтором",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/Fluor%20Protector%20S/69877/image-thumb__69877__cms_teaser_1/Fluor-Protector-S_1920x1220px.4a819151.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/Fluor%20Protector%20S/69877/image-thumb__69877__cms_teaser_1/Fluor-Protector-S_1920x1220px.4a819151.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/prevention-and-care/fluor-protector-s",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-GNATHOMETER-CAD",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Gnathometer CAD",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Gnathometer CAD",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Gnathometer CAD",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "Efficient centric relation capture",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/Gnathometer%20CAD/153204/image-thumb__153204__cms_teaser_1/Gnathometer-cad_1920x1220px.e761120f.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/Gnathometer%20CAD/153204/image-thumb__153204__cms_teaser_1/Gnathometer-cad_1920x1220px.e761120f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/gnathometer-cad",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-GNATHOMETER-M-INCL.-UTS-ADAPTER",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Gnathometer M incl. UTS adapter",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Gnathometer M incl. UTS adapter",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Gnathometer M incl. UTS adapter",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "Simple determination of the centric relation",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/Gnathometer%20%27M%27/154098/image-thumb__154098__cms_teaser_1/Gnathometer-M_0013_1920x1220px.eacc7f24.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/Gnathometer%20%27M%27/154098/image-thumb__154098__cms_teaser_1/Gnathometer-M_0013_1920x1220px.eacc7f24.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/gnathometer-m-incl.-uts-adapter",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-HELIOBOND",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Heliobond",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Heliobond",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Heliobond",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / adhesives",
+      "description": "Light-curing bonding agent",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Adhesives/Heliobond/86056/image-thumb__86056__cms_teaser_1/Heliobond_1920x1220px.07d27dd6.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Adhesives/Heliobond/86056/image-thumb__86056__cms_teaser_1/Heliobond_1920x1220px.07d27dd6.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/adhesives/heliobond",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-HELIOSEAL-CLEAR",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Helioseal Clear",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Helioseal Clear",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Helioseal Clear",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / prevention-and-care",
+      "description": "Clear fissure sealant",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/Helioseal%20Clear/75366/image-thumb__75366__cms_teaser_1/Helioseal_clear_1920x1220px.9344dae5.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/Helioseal%20Clear/75366/image-thumb__75366__cms_teaser_1/Helioseal_clear_1920x1220px.9344dae5.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/prevention-and-care/helioseal-clear",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IMPLANT-PROSTHETICS",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Implant prosthetics",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Implant prosthetics",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Implant prosthetics",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / metal-free-ceramics",
+      "description": "From temporary to permanent restoration",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Metal%20free%20ceramics/Implant%20Prosthetics/35461/image-thumb__35461__cms_teaser_1/220119_Abutment-Solution_1150.b89ad77a.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Metal%20free%20ceramics/Implant%20Prosthetics/35461/image-thumb__35461__cms_teaser_1/220119_Abutment-Solution_1150.b89ad77a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/metal-free-ceramics/implant-prosthetics",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-CLASSIC",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS Classic",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS Classic",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS Classic",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / metal-ceramics",
+      "description": "Proven. Beautiful.",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-6/GLOBAL%20-%20MEDIA/Products/Metal%20Ceramics/IPS%20Classic/88995/image-thumb__88995__cms_teaser_1/IPS-Classic_Family_1920x1220px.68c0c529.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-6/GLOBAL%20-%20MEDIA/Products/Metal%20Ceramics/IPS%20Classic/88995/image-thumb__88995__cms_teaser_1/IPS-Classic_Family_1920x1220px.68c0c529.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/metal-ceramics/ips-classic",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-ALL-CERAMICS",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS e.max",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS e.max",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS e.max",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / metal-free-ceramics",
+      "description": "All-ceramics for impressive results",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/All%20ceramics/81454/image-thumb__81454__cms_teaser_1/Scanner_HannoMackowitz_1920x1220px.c8c28495.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/All%20ceramics/81454/image-thumb__81454__cms_teaser_1/Scanner_HannoMackowitz_1920x1220px.c8c28495.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/metal-free-ceramics/all-ceramics",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-E.MAX-CAD",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS e.max ® CAD",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS e.max ® CAD",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS e.max ® CAD",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "The original lithium disilicate glass-ceramic",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/IPS%20e.max%20CAD/140057/image-thumb__140057__cms_teaser_1/IPS-e.max-CAD__0506_1920x1220px.9b5086ee.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/IPS%20e.max%20CAD/140057/image-thumb__140057__cms_teaser_1/IPS-e.max-CAD__0506_1920x1220px.9b5086ee.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/ips-e.max-cad",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-E.MAX-CAD-CRYSTALL",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS e.max CAD Crystall./",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS e.max CAD Crystall./",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS e.max CAD Crystall./",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "Универсальный ассортимент красителей и глазури",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/IPS%20e.max%20CAD%20Crystall/33000/image-thumb__33000__cms_teaser_1/IPS%20e.max%20CAD%20Crystall_Familiy_2.87643717.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/IPS%20e.max%20CAD%20Crystall/33000/image-thumb__33000__cms_teaser_1/IPS%20e.max%20CAD%20Crystall_Familiy_2.87643717.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/ips-e.max-cad-crystall",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-E.MAX-CERAM",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS e.max Ceram",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS e.max Ceram",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS e.max Ceram",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / veneering-materials",
+      "description": "Wonderful. And natural. IPS e.max veneering ceramics.",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Veneering%20materials/IPS%20e.max%20Ceram/109399/image-thumb__109399__cms_teaser_1/Labor-3_ND58283_1920x1220px.c94efb11.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Veneering%20materials/IPS%20e.max%20Ceram/109399/image-thumb__109399__cms_teaser_1/Labor-3_ND58283_1920x1220px.c94efb11.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/veneering-materials/ips-e.max-ceram",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-E.MAX-PRESS-LAB",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS e.max Press",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS e.max Press",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS e.max Press",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / metal-free-ceramics",
+      "description": "The original that inspires",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Metal%20free%20ceramics/IPS%20e.max%20Press%20Lab/155160/image-thumb__155160__cms_teaser_1/Press_1920x1220px.4ed4707e.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Metal%20free%20ceramics/IPS%20e.max%20Press%20Lab/155160/image-thumb__155160__cms_teaser_1/Press_1920x1220px.4ed4707e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/metal-free-ceramics/ips-e.max-press-lab",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-E.MAX-PRESS-PRACTICE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS e.max Press",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS e.max Press",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS e.max Press",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / metal-free-ceramics",
+      "description": "Trust the original",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Metal%20free%20ceramics/IPS%20e.max%20Press%20Practice/102462/image-thumb__102462__cms_teaser_1/e-max_1920x1220px.ba386f87.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Metal%20free%20ceramics/IPS%20e.max%20Press%20Practice/102462/image-thumb__102462__cms_teaser_1/e-max_1920x1220px.ba386f87.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/metal-free-ceramics/ips-e.max-press-practice",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-E.MAX-SHADE-NAVIGATION-APP",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS e.max Shade Navigation App",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS e.max Shade Navigation App",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS e.max Shade Navigation App",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / metal-free-ceramics",
+      "description": "5 steps to find the correct shade and translucency level",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Metal%20free%20ceramics/IPS%20e.max%20Shade%20Navigation%20App/78287/image-thumb__78287__cms_teaser_1/SNA-App_1920x1220px.debea3a3.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Metal%20free%20ceramics/IPS%20e.max%20Shade%20Navigation%20App/78287/image-thumb__78287__cms_teaser_1/SNA-App_1920x1220px.debea3a3.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/metal-free-ceramics/ips-e.max-shade-navigation-app",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-E.MAX-ZIRCAD",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS e.max ZirCAD",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS e.max ZirCAD",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS e.max ZirCAD",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "The innovative and versatile zirconium oxide",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/IPS%20e.max%20ZirCAD/144267/image-thumb__144267__cms_teaser_1/IPS-emax-ZirCAD-family_0047-4_1920x1220px.29c4e787.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/IPS%20e.max%20ZirCAD/144267/image-thumb__144267__cms_teaser_1/IPS-emax-ZirCAD-family_0047-4_1920x1220px.29c4e787.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/ips-e.max-zircad",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-E.MAX-ZIRCAD-CHAIRSIDE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS e.max ZirCAD в кабинете стоматолога",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS e.max ZirCAD в кабинете стоматолога",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS e.max ZirCAD в кабинете стоматолога",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "Высокопрочный цирконий",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/IPS%20e.max%20ZirCAD/35481/image-thumb__35481__cms_teaser_1/01_ips-e.max-zircad_1920x1220px.fa0911ef.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/IPS%20e.max%20ZirCAD/35481/image-thumb__35481__cms_teaser_1/01_ips-e.max-zircad_1920x1220px.fa0911ef.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/ips-e.max-zircad-chairside",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-EMPRESS-DIRECT",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS Empress ® Direct",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS Empress ® Direct",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS Empress ® Direct",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / composites",
+      "description": "Effortless dental masterpieces",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Composite/IPS%20Empress%20Direct/104570/image-thumb__104570__cms_teaser_1/IPS-Empress-Direct_1920x1220px.8204b3c8.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Composite/IPS%20Empress%20Direct/104570/image-thumb__104570__cms_teaser_1/IPS-Empress-Direct_1920x1220px.8204b3c8.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/composites/ips-empress-direct",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-EMPRESS-DIRECT-EFFECT-OPAQUE-COLOR",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS Empress ® Direct Effect, Opaque and Color",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS Empress ® Direct Effect, Opaque and Color",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS Empress ® Direct Effect, Opaque and Color",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / composites",
+      "description": "Flowable characterization materials",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Composite/IPS%20Empress%20Direct/105536/image-thumb__105536__cms_teaser_1/Empress-Direct-Color_4119_1920x1220px.e2427b31.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Composite/IPS%20Empress%20Direct/105536/image-thumb__105536__cms_teaser_1/Empress-Direct-Color_4119_1920x1220px.e2427b31.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/composites/ips-empress-direct-effect-opaque-color",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-INLINE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS InLine",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS InLine",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS InLine",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / metal-ceramics",
+      "description": "Impressively esthetic.",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Metal%20Ceramics/IPS%20InLine/94404/image-thumb__94404__cms_teaser_1/IPS-InLine_6997_1920x1220px.d0d739d2.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Metal%20Ceramics/IPS%20InLine/94404/image-thumb__94404__cms_teaser_1/IPS-InLine_6997_1920x1220px.d0d739d2.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/metal-ceramics/ips-inline",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-IVOCOLOR",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS Ivocolor ®",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS Ivocolor ®",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS Ivocolor ®",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / veneering-materials",
+      "description": "One for all",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Veneering%20materials/IPS%20Ivocolor/84416/image-thumb__84416__cms_teaser_1/ips-Ivocolor_1920x1220px.f527f639.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Veneering%20materials/IPS%20Ivocolor/84416/image-thumb__84416__cms_teaser_1/ips-Ivocolor_1920x1220px.f527f639.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/veneering-materials/ips-ivocolor",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IPS-STYLE-CERAM",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IPS Style ® Ceram",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IPS Style ® Ceram",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IPS Style ® Ceram",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / metal-ceramics",
+      "description": "The first metal-ceramic material containing patented oxyapatite crystals",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Metal%20Ceramics/IPS%20Style/102650/image-thumb__102650__cms_teaser_1/ips-style_system_1920x1220px.c3f32316.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Metal%20Ceramics/IPS%20Style/102650/image-thumb__102650__cms_teaser_1/ips-style_system_1920x1220px.c3f32316.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/metal-ceramics/ips-style-ceram",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IVOBASE-SYSTEM",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "IvoBase system",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "IvoBase system",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "IvoBase system",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "PMMA denture base materials including dedicated fully automated injection procedure",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-5/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/IvoBase%20System/102902/image-thumb__102902__cms_teaser_1/IvoBase-System_0077_1920x1220px.0a17c49f.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-5/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/IvoBase%20System/102902/image-thumb__102902__cms_teaser_1/IvoBase-System_0077_1920x1220px.0a17c49f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/ivobase-system",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IVOCLAR-MONITORING",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Ivoclar Monitoring",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ivoclar Monitoring",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ivoclar Monitoring",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-equipment",
+      "description": "Take control from wherever you are with remote lab monitoring",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-5/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/Ivoclar%20Monitoring/89027/image-thumb__89027__cms_teaser_1/phone_app_1920x1220px.3a07d19e.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-5/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/Ivoclar%20Monitoring/89027/image-thumb__89027__cms_teaser_1/phone_app_1920x1220px.3a07d19e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-equipment/ivoclar-monitoring",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IVOCLAR-TOOTH-ORDERING",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Ivoclar Tooth Ordering",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ivoclar Tooth Ordering",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ivoclar Tooth Ordering",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "Order smarter. The app way.",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/Ivoclar%20Tooth%20Ordering/119771/image-thumb__119771__cms_teaser_1/Ivoclar-Tooth-Ordering_5562_1920x1220px.c57e8e48.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/Ivoclar%20Tooth%20Ordering/119771/image-thumb__119771__cms_teaser_1/Ivoclar-Tooth-Ordering_5562_1920x1220px.c57e8e48.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/ivoclar-tooth-ordering",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IVOCLEAN",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Ivoclean",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ivoclean",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ivoclean",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / cementation",
+      "description": "универсальная паста для очистки соединяемых поверхностей после примерки",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-5/GLOBAL%20-%20MEDIA/Products/Cementation/Ivoclean/11933/image-thumb__11933__cms_teaser_1/ivoclean---visual.c419d556.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-5/GLOBAL%20-%20MEDIA/Products/Cementation/Ivoclean/11933/image-thumb__11933__cms_teaser_1/ivoclean---visual.c419d556.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/cementation/ivoclean",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-IVOTION",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Ivotion ®",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Ivotion ®",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Ivotion ®",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "One disc. One denture.",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-7/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/Ivotion/95158/image-thumb__95158__cms_teaser_1/Ivotion_7566_1920x1220px.8593ba60.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-7/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/Ivotion/95158/image-thumb__95158__cms_teaser_1/Ivotion_7566_1920x1220px.8593ba60.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/ivotion",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-MONOBOND-ETCH-PRIME",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Monobond ® Etch & Prime",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Monobond ® Etch & Prime",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Monobond ® Etch & Prime",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / cementation",
+      "description": "Etch and prime in one easy step",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Cementation/Monobond%20Etch%20%26%20Prime/95090/image-thumb__95090__cms_teaser_1/Monobond-Etch-Prime_0073_1920x1220px.4bba475f.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Cementation/Monobond%20Etch%20%26%20Prime/95090/image-thumb__95090__cms_teaser_1/Monobond-Etch-Prime_0073_1920x1220px.4bba475f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/cementation/monobond-etch-prime",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-MONOBOND-N",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Monobond N",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Monobond N",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Monobond N",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / cementation",
+      "description": "Simply universal",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Cementation/Monobond%20N/89227/image-thumb__89227__cms_teaser_1/Monobond-N_1920x1220px.255088d7.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Cementation/Monobond%20N/89227/image-thumb__89227__cms_teaser_1/Monobond-N_1920x1220px.255088d7.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/cementation/monobond-n",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-MONOBOND-PLUS",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Monobond Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Monobond Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Monobond Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / cementation",
+      "description": "Simply universal",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Cementation/Monobond%20Plus/89223/image-thumb__89223__cms_teaser_1/Monobond-Plus_1920x1220px.b4487ac9.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Cementation/Monobond%20Plus/89223/image-thumb__89223__cms_teaser_1/Monobond-Plus_1920x1220px.b4487ac9.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/cementation/monobond-plus",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-MULTILINK-N",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Multilink N",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Multilink N",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Multilink N",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / cementation",
+      "description": "Strong bond – long lasting adhesive cementation",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Cementation/Multilink%20N/82362/image-thumb__82362__cms_teaser_1/Multilink-N_Header_1920x1220px.3ac92261.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Cementation/Multilink%20N/82362/image-thumb__82362__cms_teaser_1/Multilink-N_Header_1920x1220px.3ac92261.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/cementation/multilink-n",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-MULTILINK-SPEED",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Multilink Speed",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Multilink Speed",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Multilink Speed",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / cementation",
+      "description": "Simple steps to success",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Cementation/Multilink%20Speed/92860/image-thumb__92860__cms_teaser_1/Multilink-Speed_0422_1920x1220px.1ae5a07a.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Cementation/Multilink%20Speed/92860/image-thumb__92860__cms_teaser_1/Multilink-Speed_0422_1920x1220px.1ae5a07a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/cementation/multilink-speed",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-N-ETCH",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "N-Etch",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "N-Etch",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "N-Etch",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / adhesives",
+      "description": "Etching gel",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Adhesives/N-Etch/13751/image-thumb__13751__cms_teaser_1/354.33f60767.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Adhesives/N-Etch/13751/image-thumb__13751__cms_teaser_1/354.33f60767.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/adhesives/n-etch",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-OPTRAGATE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "OptraGate",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OptraGate",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OptraGate",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / accessories",
+      "description": "Ретрактор для губ и щек без латекса",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Accessories/OptraGate/146429/image-thumb__146429__cms_teaser_1/OptraGate_02_1920x1220px.bd4edaa5.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Accessories/OptraGate/146429/image-thumb__146429__cms_teaser_1/OptraGate_02_1920x1220px.bd4edaa5.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/accessories/optragate",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-OPTRAGATE-2",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "OptraGate ® 2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OptraGate ® 2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OptraGate ® 2",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / accessories",
+      "description": "Эффективное лечение с комфортом",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Accessories/OptraGate%202/120176/image-thumb__120176__cms_teaser_1/OptraGate-2_0048_1920x1220px.4045770c.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Accessories/OptraGate%202/120176/image-thumb__120176__cms_teaser_1/OptraGate-2_0048_1920x1220px.4045770c.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/accessories/optragate-2",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-OPTRAGATE-DRY-CONTROL",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "OptraGate ® Dry Control",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OptraGate ® Dry Control",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OptraGate ® Dry Control",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / accessories",
+      "description": "Абсолютная сухость. Просто и эффективно.",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Accessories/OptraGate%20Dry%20Control/154102/image-thumb__154102__cms_teaser_1/OptraGate-Dry-Control_1110_1920x1220px.75630e7b.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Accessories/OptraGate%20Dry%20Control/154102/image-thumb__154102__cms_teaser_1/OptraGate-Dry-Control_1110_1920x1220px.75630e7b.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/accessories/optragate-dry-control",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-OPTRAGLOSS",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "OptraGloss",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OptraGloss",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OptraGloss",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / accessories",
+      "description": "Универсальная полировочная система",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Accessories/OptraGloss/15447/image-thumb__15447__cms_teaser_1/Optra-Gloss_933x408.367575b4.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Accessories/OptraGloss/15447/image-thumb__15447__cms_teaser_1/Optra-Gloss_933x408.367575b4.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/accessories/optragloss",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-OPTRAGLOSS-EXTRA-ORAL",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "OptraGloss ® Extra Oral",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OptraGloss ® Extra Oral",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OptraGloss ® Extra Oral",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / accessories",
+      "description": "Work faster, shine brighter",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Accessories/OptraGloss%20Extra%20Oral/97648/image-thumb__97648__cms_teaser_1/Optragloss-Extraoral_8379_1920x1220px.a2771d43.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Accessories/OptraGloss%20Extra%20Oral/97648/image-thumb__97648__cms_teaser_1/Optragloss-Extraoral_8379_1920x1220px.a2771d43.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/accessories/optragloss-extra-oral",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-OPTRASCULPT",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "OptraSculpt ®",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "OptraSculpt ®",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "OptraSculpt ®",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / accessories",
+      "description": "Effortless contouring thanks to non-stick effect",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Accessories/OptraSculpt/126660/image-thumb__126660__cms_teaser_1/OptraSculpt_0234_1920x1220px.079f4e59.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Accessories/OptraSculpt/126660/image-thumb__126660__cms_teaser_1/OptraSculpt_0234_1920x1220px.079f4e59.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/accessories/optrasculpt",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PRIME-ZIRCONIA",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Prime Zirconia",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Prime Zirconia",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Prime Zirconia",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "Just as you trust the IPS e.max ® lithium disilicate, you as a dentist can rely on Prime Zirconia, which forms a part of the e.max family.",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/Prime%20Zirconia/81932/image-thumb__81932__cms_teaser_1/prime%20copy.af0d0489.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/Prime%20Zirconia/81932/image-thumb__81932__cms_teaser_1/prime%20copy.af0d0489.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/prime-zirconia",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROART-CAD-SPLINT",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "ProArt CAD Splint",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ProArt CAD Splint",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ProArt CAD Splint",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "Clear PMMA disc for occlusal splints and drilling templates",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/ProArt%20CAD%20Splint/18396/image-thumb__18396__cms_teaser_1/splint-visuals_0269.0a4353b1.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/ProArt%20CAD%20Splint/18396/image-thumb__18396__cms_teaser_1/splint-visuals_0269.0a4353b1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/proart-cad-splint",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROART-CAD-TRY-IN",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "ProArt CAD Try-In",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ProArt CAD Try-In",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ProArt CAD Try-In",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "White PMMA disc for functional try-ins",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/ProArt%20CAD%20Try-In/143737/image-thumb__143737__cms_teaser_1/ProArt-CAD-Try-In_686180-0009_1920x1220px.6892c191.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/ProArt%20CAD%20Try-In/143737/image-thumb__143737__cms_teaser_1/ProArt-CAD-Try-In_686180-0009_1920x1220px.6892c191.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/proart-cad-try-in",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROART-CAD-WAX-YELLOW",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "ProArt CAD Wax yellow",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ProArt CAD Wax yellow",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ProArt CAD Wax yellow",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "Yellow wax disc ideally suited for IPS e.max Press",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/ProArt%20CAD%20Wax%20yellow/18404/image-thumb__18404__cms_teaser_1/wax-yellow-visuals-11-16_0019.0267cb09.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/ProArt%20CAD%20Wax%20yellow/18404/image-thumb__18404__cms_teaser_1/wax-yellow-visuals-11-16_0019.0267cb09.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/proart-cad-wax-yellow",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROBASE-HOT-COLD",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "ProBase Hot & Cold",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ProBase Hot & Cold",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ProBase Hot & Cold",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "Professional PMMA denture base materials",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/ProBase/86538/image-thumb__86538__cms_teaser_1/ProBase_VIS_1920x1220px.e0b50d4e.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/ProBase/86538/image-thumb__86538__cms_teaser_1/ProBase_VIS_1920x1220px.e0b50d4e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/probase-hot-cold",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROGRAMAT-CS6",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Programat ® CS6",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Programat ® CS6",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Programat ® CS6",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Speed up your practice",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/Programat%20CS6/123569/image-thumb__123569__cms_teaser_1/Programat-CS6_0020_1920x1220px.6e4647a9.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/Programat%20CS6/123569/image-thumb__123569__cms_teaser_1/Programat-CS6_0020_1920x1220px.6e4647a9.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/programat-cs6",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROGRAMAT-SINTER-FURNACE-S2",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Programat S2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Programat S2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Programat S2",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Современная. Эргономичная. Простая в эксплуатации.",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Equipment/Programat%20S2/88221/image-thumb__88221__cms_teaser_1/Programat-S2_1920x1220px.de051285.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Equipment/Programat%20S2/88221/image-thumb__88221__cms_teaser_1/Programat-S2_1920x1220px.de051285.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/programat-sinter-furnace-s2",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROGRAMILL-BASE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "PrograMill Base",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PrograMill Base",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PrograMill Base",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-equipment",
+      "description": "Functional and esthetic",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograMill%20Base/90683/image-thumb__90683__cms_teaser_1/PrograMill_Base_1920x1220px.43c42ca5.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograMill%20Base/90683/image-thumb__90683__cms_teaser_1/PrograMill_Base_1920x1220px.43c42ca5.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-equipment/programill-base",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROGRAMILL-CAM-SOFTWARE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "PrograMill CAM software",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PrograMill CAM software",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PrograMill CAM software",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-equipment",
+      "description": "Innovative. Automated. Reliable.",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograMill%20CAM%20Software/82458/image-thumb__82458__cms_teaser_1/PrograMill-CAM_Header_1920x1220px.135c8a53.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograMill%20CAM%20Software/82458/image-thumb__82458__cms_teaser_1/PrograMill-CAM_Header_1920x1220px.135c8a53.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-equipment/programill-cam-software",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROGRAMILL-MATERIAL-HOLDER",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "PrograMill material holder",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PrograMill material holder",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PrograMill material holder",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-equipment",
+      "description": "",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograMill%20material%20holder/18458/image-thumb__18458__cms_teaser_1/PM_Abutment_Halter_NT-Trading_930x540px.815a572f.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograMill%20material%20holder/18458/image-thumb__18458__cms_teaser_1/PM_Abutment_Halter_NT-Trading_930x540px.815a572f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-equipment/programill-material-holder",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROGRAMILL-SUCTION-UNIT",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "PrograMill Suction Unit",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PrograMill Suction Unit",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PrograMill Suction Unit",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-equipment",
+      "description": "",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograMill%20Base/PrograMill%20Suction%20Unit/90713/image-thumb__90713__cms_teaser_1/PrograMill-Suction-Unit_1920x1220px.91d02e22.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograMill%20Base/PrograMill%20Suction%20Unit/90713/image-thumb__90713__cms_teaser_1/PrograMill-Suction-Unit_1920x1220px.91d02e22.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-equipment/programill-suction-unit",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROGRAPRINT-CAM-SOFTWARE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "PrograPrint CAM software",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PrograPrint CAM software",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PrograPrint CAM software",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-equipment",
+      "description": "Import – Prepare – Support – Finalise",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograPrint%20CAM%20software/81482/image-thumb__81482__cms_teaser_1/Monitor_Screen_1920x1220px.df31cead.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograPrint%20CAM%20software/81482/image-thumb__81482__cms_teaser_1/Monitor_Screen_1920x1220px.df31cead.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-equipment/prograprint-cam-software",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROGRAPRINT-CLEAN",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "PrograPrint Clean",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PrograPrint Clean",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PrograPrint Clean",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-equipment",
+      "description": "The efficient cleaning unit for 3D printed objects",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograPrint%20Clean-Cure/115993/image-thumb__115993__cms_teaser_1/PrograPrint_7596_1920x1220px.e5a1ebd9.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograPrint%20Clean-Cure/115993/image-thumb__115993__cms_teaser_1/PrograPrint_7596_1920x1220px.e5a1ebd9.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-equipment/prograprint-clean",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROGRAPRINT-CURE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "PrograPrint Cure",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PrograPrint Cure",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PrograPrint Cure",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-equipment",
+      "description": "Universal curing unit",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograPrint%20Clean-Cure/115985/image-thumb__115985__cms_teaser_1/PrograPrint_9334_1920x1220px.1acec2b5.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograPrint%20Clean-Cure/115985/image-thumb__115985__cms_teaser_1/PrograPrint_9334_1920x1220px.1acec2b5.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-equipment/prograprint-cure",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROGRAPRINT-PR5",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "PrograPrint PR5",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "PrograPrint PR5",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "PrograPrint PR5",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-equipment",
+      "description": "Reliable precision for digital craftsmanship",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograPrint%20PR5/80336/image-thumb__80336__cms_teaser_1/PrograPrint-PR5_1920x1220px.7b542ad4.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Equipment/PrograPrint%20PR5/80336/image-thumb__80336__cms_teaser_1/PrograPrint-PR5_1920x1220px.7b542ad4.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-equipment/prograprint-pr5",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-SEPARATING-FLUID",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Separating Fluid",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Separating Fluid",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Separating Fluid",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "Optimal plaster model isolation",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/Separating%20Fluid/154412/image-thumb__154412__cms_teaser_1/Separating-Fluid_530348_1920x1220px.692ef348.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/Separating%20Fluid/154412/image-thumb__154412__cms_teaser_1/Separating-Fluid_530348_1920x1220px.692ef348.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/separating-fluid",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-SILAMAT-S6",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Silamat S6",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Silamat S6",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Silamat S6",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Form and function – perfectly mixed",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Equipment/Silamat%20S6/15693/image-thumb__15693__cms_teaser_1/Silamat-S6_Visual.d32f645d.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Equipment/Silamat%20S6/15693/image-thumb__15693__cms_teaser_1/Silamat-S6_Visual.d32f645d.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/silamat-s6",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-SKYCE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Skyce",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Skyce",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Skyce",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / prevention-and-care",
+      "description": "Хрустальные кристаллы",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/Skyce/78969/image-thumb__78969__cms_teaser_1/Skyce_1920x1220px-1.92bfa2da.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/Skyce/78969/image-thumb__78969__cms_teaser_1/Skyce_1920x1220px-1.92bfa2da.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/prevention-and-care/skyce",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-SPEEDCEM-PLUS",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Speedcem ® Plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Speedcem ® Plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Speedcem ® Plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / cementation",
+      "description": "Simple steps to success",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Cementation/Speedcem%20Plus/92852/image-thumb__92852__cms_teaser_1/Speedcem-Plus_0443_1920x1220px.4ddbcb7f.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Cementation/Speedcem%20Plus/92852/image-thumb__92852__cms_teaser_1/Speedcem-Plus_0443_1920x1220px.4ddbcb7f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/cementation/speedcem-plus",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-SR-IVOCAP",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "SR Ivocap",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SR Ivocap",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SR Ivocap",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "Heat-curing PMMA denture base materials for injection moulding",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Ivocap/109895/image-thumb__109895__cms_teaser_1/SR-Ivocap_Materials_1920x1220px.2badd9d4.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Ivocap/109895/image-thumb__109895__cms_teaser_1/SR-Ivocap_Materials_1920x1220px.2badd9d4.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/sr-ivocap",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-SR-IVOCRON",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "SR Ivocron",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SR Ivocron",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SR Ivocron",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "High-quality PMMA veneering material",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Ivocron/88765/image-thumb__88765__cms_teaser_1/SR-Ivocron_Header_1920x1220px.0b63bc67.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Ivocron/88765/image-thumb__88765__cms_teaser_1/SR-Ivocron_Header_1920x1220px.0b63bc67.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/sr-ivocron",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-SR-IVOLEN",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "SR Ivolen",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SR Ivolen",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SR Ivolen",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "Dimensionally stable tray material",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Ivolen/157527/image-thumb__157527__cms_teaser_1/SR-Ivolen_0017_1920x1220px.e2dac58d.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Ivolen/157527/image-thumb__157527__cms_teaser_1/SR-Ivolen_0017_1920x1220px.e2dac58d.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/sr-ivolen",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-SR-NEXCO",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "SR Nexco",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SR Nexco",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SR Nexco",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "Light-curing composite",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Nexco/84152/image-thumb__84152__cms_teaser_1/SR-Nexco-Paste_1920x1220px.f765a338.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Nexco/84152/image-thumb__84152__cms_teaser_1/SR-Nexco-Paste_1920x1220px.f765a338.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/sr-nexco",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-SR-PHONARES-LL",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "SR Phonares II",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SR Phonares II",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SR Phonares II",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "Captivating masterpieces",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Phonares%20II/86886/image-thumb__86886__cms_teaser_1/SR-Phonares-II_Lingual-Typ_1920x1220px.bc5915f1.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Phonares%20II/86886/image-thumb__86886__cms_teaser_1/SR-Phonares-II_Lingual-Typ_1920x1220px.bc5915f1.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/sr-phonares-ll",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-SR-VIVODENT-AND-SR-ORTHOTYP",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "SR Vivodent and SR Orthotyp",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SR Vivodent and SR Orthotyp",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SR Vivodent and SR Orthotyp",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "Proven denture teeth made of quality PMMA",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-5/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Vivodent%20und%20SR%20Orthotyp/28424/image-thumb__28424__cms_teaser_1/SR-Vivodent-Orthotyp_A-D_Header_1920x1440px.0750a558.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-5/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Vivodent%20und%20SR%20Orthotyp/28424/image-thumb__28424__cms_teaser_1/SR-Vivodent-Orthotyp_A-D_Header_1920x1440px.0750a558.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/sr-vivodent-and-sr-orthotyp",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-SR-VIVODENT-S-PE-S-DCL",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "SR Vivodent S PE / S DCL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "SR Vivodent S PE / S DCL",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "SR Vivodent S PE / S DCL",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "Exceptional prefabricated teeth in DCL quality",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-6/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Vivodent%20S%20PE%20-%20S%20DCL/102718/image-thumb__102718__cms_teaser_1/SR-Vivodent_0044_1920x1220px.ae3fec3d.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-6/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/SR%20Vivodent%20S%20PE%20-%20S%20DCL/102718/image-thumb__102718__cms_teaser_1/SR-Vivodent_0044_1920x1220px.ae3fec3d.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/sr-vivodent-s-pe-s-dcl",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-POLITIP",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Standard polishing systems for finishing, polishing and high gloss polishing composite and amalgam",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Standard polishing systems for finishing, polishing and high gloss polishing composite and amalgam",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Standard polishing systems for finishing, polishing and high gloss polishing composite and amalgam",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / prevention-and-care",
+      "description": "efficient, economical, future-oriented",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/Politip/26966/image-thumb__26966__cms_teaser_1/Politip.6f7fd06f.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/Politip/26966/image-thumb__26966__cms_teaser_1/Politip.6f7fd06f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/prevention-and-care/politip",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-STRATOS-100",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Stratos 100",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Stratos 100",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Stratos 100",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Артикулятор со средними параметрами",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/stratos-100",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-STRATOS-200",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Stratos 200",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Stratos 200",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Stratos 200",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Полурегулируемый артикулятор",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/stratos-200",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-STRATOS-300",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Stratos 300",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Stratos 300",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Stratos 300",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Полностью регулируемый артикулятор",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/stratos-300",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-SYNTAC",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Syntac ®",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Syntac ®",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Syntac ®",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / adhesives",
+      "description": "Light-curing total-etch adhesive",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Adhesives/Syntac/88753/image-thumb__88753__cms_teaser_1/Syntac_1920x1220px.ea975680.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Adhesives/Syntac/88753/image-thumb__88753__cms_teaser_1/Syntac_1920x1220px.ea975680.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/adhesives/syntac",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-TE-ECONOM-BOND-2",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Te-Econom Bond ® 2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Te-Econom Bond ® 2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Te-Econom Bond ® 2",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / adhesives",
+      "description": "Light-curing total-etch adhesive",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Adhesives/Te-Econom%20Bond%202/92364/image-thumb__92364__cms_teaser_1/TE-Econom-Bond-2_1920x1220px.f6716686.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Adhesives/Te-Econom%20Bond%202/92364/image-thumb__92364__cms_teaser_1/TE-Econom-Bond-2_1920x1220px.f6716686.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/adhesives/te-econom-bond-2",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-TELIO-INLAY-ONLAY",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Telio Inlay / Onlay",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Telio Inlay / Onlay",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Telio Inlay / Onlay",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / temporary-restorations",
+      "description": "Designed for temporaries",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Temporary%20Restorations/Telio%20Inlay%20Onlay/85806/image-thumb__85806__cms_teaser_1/Telio-InlayOnlay_1920x1220px.2948e00e.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Temporary%20Restorations/Telio%20Inlay%20Onlay/85806/image-thumb__85806__cms_teaser_1/Telio-InlayOnlay_1920x1220px.2948e00e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/temporary-restorations/telio-inlay-onlay",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-TETRIC-CAD",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Tetric ® CAD",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tetric ® CAD",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tetric ® CAD",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / digital-processes",
+      "description": "The efficient composite block for high-quality results",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/Tetric%20CAD/140409/image-thumb__140409__cms_teaser_1/Tetric-CAD_8042_1920x1220px.fa451c1a.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Digital%20Processes/Tetric%20CAD/140409/image-thumb__140409__cms_teaser_1/Tetric-CAD_8042_1920x1220px.fa451c1a.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/digital-processes/tetric-cad",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-TETRIC-N-BOND-UNIVERSAL",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Tetric ® N-Bond Universal",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tetric ® N-Bond Universal",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tetric ® N-Bond Universal",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / adhesives",
+      "description": "Универсальный адгезив",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Adhesives/Tetric%20N-Bond%20Universal/145269/image-thumb__145269__cms_teaser_1/Tetric-N-Bond_0021_1920x1220px.a0c47b9b.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Adhesives/Tetric%20N-Bond%20Universal/145269/image-thumb__145269__cms_teaser_1/Tetric-N-Bond_0021_1920x1220px.a0c47b9b.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/adhesives/tetric-n-bond-universal",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-TETRIC-N2-LINE-CHARACTERIZATION-MATERIALS",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Tetric ® N-Effect 2 Tetric ® N-Color 2 Tetric ® N-Opaque 2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tetric ® N-Effect 2 Tetric ® N-Color 2 Tetric ® N-Opaque 2",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tetric ® N-Effect 2 Tetric ® N-Color 2 Tetric ® N-Opaque 2",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / composites",
+      "description": "Пробудите в себе художника",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Composite/Tetric%20N2-Line%20Extension/130893/image-thumb__130893__cms_teaser_1/Tetric-N2-Line-Extension_4618_1920x1220px.f99b7479.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Composite/Tetric%20N2-Line%20Extension/130893/image-thumb__130893__cms_teaser_1/Tetric-N2-Line-Extension_4618_1920x1220px.f99b7479.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/composites/tetric-n2-line-characterization-materials",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-TETRIC-PLUS",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Tetric ® plus",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tetric ® plus",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tetric ® plus",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / composites",
+      "description": "Simplified universal composite",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Composite/Tetric%20Plus/122995/image-thumb__122995__cms_teaser_1/Tetric-Plus_5038_1920x1220px__.f862ecee.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Composite/Tetric%20Plus/122995/image-thumb__122995__cms_teaser_1/Tetric-Plus_5038_1920x1220px__.f862ecee.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/composites/tetric-plus",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-TETRIC-N2-LINE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Tetric N2-Line",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tetric N2-Line",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tetric N2-Line",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / composites",
+      "description": "Эффективное решение для всех видов полостей [1]",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Composite/Tetric%20N2%20Line/105494/image-thumb__105494__cms_teaser_1/Tetric-N2_0006_1920x1220px.02844e85.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Composite/Tetric%20N2%20Line/105494/image-thumb__105494__cms_teaser_1/Tetric-N2_0006_1920x1220px.02844e85.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/composites/tetric-n2-line",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-TETRIC-N-LINE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Tetric® N-Line",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Tetric® N-Line",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Tetric® N-Line",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / composites",
+      "description": "Решение для любых полостей [1]",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Composite/Tetric%20N%20Line/147510/image-thumb__147510__cms_teaser_1/Tetric-N-Ceram_1920x1220px.4132724d.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Composite/Tetric%20N%20Line/147510/image-thumb__147510__cms_teaser_1/Tetric-N-Ceram_1920x1220px.4132724d.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/composites/tetric-n-line",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-PROGRAMAT-CERAMIC-FURNACES",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "The Programat ceramic furnaces",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "The Programat ceramic furnaces",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "The Programat ceramic furnaces",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Programat P710 G2, P510 G2 and P310 G2",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Equipment/Programat%20Ceramic%20Furnaces/94720/image-thumb__94720__cms_teaser_1/Programat-G2-Group_0039_1920x1220px.21485545.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Equipment/Programat%20Ceramic%20Furnaces/94720/image-thumb__94720__cms_teaser_1/Programat-G2-Group_0039_1920x1220px.21485545.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/equipment/programat-ceramic-furnaces",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-TOTAL-ETCH",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Total Etch",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Total Etch",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Total Etch",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / adhesives",
+      "description": "The etching gel for a strong bond [1]",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Adhesives/Total%20Etch/132239/image-thumb__132239__cms_teaser_1/total-etch_1920x1220px.b676d9e9.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Adhesives/Total%20Etch/132239/image-thumb__132239__cms_teaser_1/total-etch_1920x1220px.b676d9e9.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/adhesives/total-etch",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-UTS-3D",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "UTS 3D",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "UTS 3D",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "UTS 3D",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "Easy and precise spatial transfer",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/UTS%203D/153600/image-thumb__153600__cms_teaser_1/UTS-3D_1920x1220px.94398201.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/UTS%203D/153600/image-thumb__153600__cms_teaser_1/UTS-3D_1920x1220px.94398201.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/uts-3d",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-UTS-CAD",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "UTS CAD",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "UTS CAD",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "UTS CAD",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / removable-prosthetics",
+      "description": "Register with confidence. Design with digital precision.",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/UTS%20CAD/157533/image-thumb__157533__cms_teaser_1/UTS_CAD_1920x1220px.432b5f91.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Removable%20Prosthetics/UTS%20CAD/157533/image-thumb__157533__cms_teaser_1/UTS_CAD_1920x1220px.432b5f91.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/removable-prosthetics/uts-cad",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-VARIOLINK-ESTHETIC",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Variolink Esthetic",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Variolink Esthetic",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Variolink Esthetic",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / cementation",
+      "description": "The all-rounder for adhesive cementation",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Cementation/Variolink%20Esthetic/89397/image-thumb__89397__cms_teaser_1/Variolink-Esthetic_Header_1920x1220px.b440d931.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Cementation/Variolink%20Esthetic/89397/image-thumb__89397__cms_teaser_1/Variolink-Esthetic_Header_1920x1220px.b440d931.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/cementation/variolink-esthetic",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-VARIOLINK-N",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Variolink N",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Variolink N",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Variolink N",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / cementation",
+      "description": "For ultimate esthetic results",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Cementation/Variolink%20N/74830/image-thumb__74830__cms_teaser_1/Variolink_N_Header_1920x1220px.8af64f86.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Cementation/Variolink%20N/74830/image-thumb__74830__cms_teaser_1/Variolink_N_Header_1920x1220px.8af64f86.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/cementation/variolink-n",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-VIVADENT-POLISHING-PASTE",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "VivaDent ® Polishing Paste",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VivaDent ® Polishing Paste",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VivaDent ® Polishing Paste",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / prevention-and-care",
+      "description": "Proven performance. New look. Proxyt is now VivaDent ® Polishing Paste",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/VivaDent%20Polishing%20Paste/148850/image-thumb__148850__cms_teaser_1/Polishing-paste_9999_1920x1220px.336dd27e.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-4/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/VivaDent%20Polishing%20Paste/148850/image-thumb__148850__cms_teaser_1/Polishing-paste_9999_1920x1220px.336dd27e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/prevention-and-care/vivadent-polishing-paste",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-VIVADENT-PROTECTING-FAMILY",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "VivaDent Protecting Family",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VivaDent Protecting Family",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VivaDent Protecting Family",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / prevention-and-care",
+      "description": "Tailored solutions for germ control. New design – same passion.",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/VivaDent%20Protecting/154894/image-thumb__154894__cms_teaser_1/New_Protecting_1920x1220px.4c79ad4f.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-1/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/VivaDent%20Protecting/154894/image-thumb__154894__cms_teaser_1/New_Protecting_1920x1220px.4c79ad4f.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/prevention-and-care/vivadent-protecting-family",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-VIVASTYLE-FAMILY",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "VivaStyle",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "VivaStyle",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "VivaStyle",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / prevention-and-care",
+      "description": "Professional teeth whitening",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/VivaStyle%20product%20family/83314/image-thumb__83314__cms_teaser_1/VivaStyle-1_1920x1220px.741ad1eb.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Prevention-and-care/VivaStyle%20product%20family/83314/image-thumb__83314__cms_teaser_1/VivaStyle-1_1920x1220px.741ad1eb.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/prevention-and-care/vivastyle-family",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "IVOCLAR-ZIRCAD-CEMENT",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "ZirCAD Cement",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "ZirCAD Cement",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ZirCAD Cement",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / cementation",
+      "description": "",
+      "sourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Cementation/ZirCAD%20Cement/23363/image-thumb__23363__cms_teaser_1/ZirCAD_Cement_1920x1200px.c4f83da8.jpg",
+      "imageUrls": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Cementation/ZirCAD%20Cement/23363/image-thumb__23363__cms_teaser_1/ZirCAD_Cement_1920x1200px.c4f83da8.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/ru_ru/products/cementation/zircad-cement",
+      "additionalSourceUrls": "https://www.ivoclar.com/sitemap.ru.xml",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

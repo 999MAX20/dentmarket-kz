@@ -1,0 +1,400 @@
+{
+  "brand": "RAY",
+  "manufacturer": "RAY Co., Ltd.",
+  "sourceType": "OFFICIAL_RAYCONNECT_DIRECT_IMAGE_RESOURCES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "exactOfficialProductResourcesOnly": true,
+    "boundedProductSpecificArchivesAllowed": true,
+    "defaultArchiveMaximumBytes": 30000000,
+    "approvedExactProductArchiveMaximumBytes": 350000000,
+    "largeArchivesRemainOnModeration": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 20,
+    "recovered": 10,
+    "recoveredThisRun": 0,
+    "retainedFromPreviousRuns": 12,
+    "reviewRequired": 8
+  },
+  "products": [
+    {
+      "officialProductId": "RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-RAYDENT-STUDIO",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYDENT Studio",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RAYDENT Studio",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "3D Printer",
+      "description": "RAYDENT Studio — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-raydent-studio-3644d4655a.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-raydent-studio-3644d4655a.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/3D%20Printer/RAYDENT%20Studio",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_BOUNDED_PRODUCT_IMAGE_ARCHIVE",
+        "imagesPageUrl": "https://connect.raymedical.com/en/browse/3D%20Printer/RAYDENT%20Studio/Images",
+        "resourcePageUrl": "https://connect.raymedical.com/en/resources/61fbb9ef-1bc1-4240-a45b-c671fc1b7332",
+        "resourceTitle": "RAYDENT_Images",
+        "originalImageUrl": "https://view.rayplatform.com/public/v1/r2/object/eyJrIjoiYXNzZXRzLzYxZmJiOWVmLTFiYzEtNDI0MC1hNDViLWM2NzFmYzFiNzMzMi56aXAiLCJlIjoxNzg0ODE1MTg1fQ?sig=XKv_5k6TEsw7Tf5qZw_DZ3ewxjxulXQL_xtAtKWGV7M",
+        "archiveBytes": 43918001,
+        "archiveSelection": "BEST_LARGE_PRODUCT_IMAGE_FROM_PRODUCT_SPECIFIC_OFFICIAL_ARCHIVE",
+        "archiveMember": "RAYDENT_Studio600_etc_Set20.jpg",
+        "sha256": "3644d4655a3c37bc5f340fa2124f3492a8f4557adcf925b5e255336377979970",
+        "bytes": 269892,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-RAYFACE200",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYFace200",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RAYFace200",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Face Scanner",
+      "description": "RAYFace200 — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayface200-09c1862097.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayface200-09c1862097.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Face%20Scanner/RAYFace200",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_BOUNDED_PRODUCT_IMAGE_ARCHIVE",
+        "imagesPageUrl": "https://connect.raymedical.com/en/browse/Face%20Scanner/RAYFace200/Images",
+        "resourcePageUrl": "https://connect.raymedical.com/en/resources/376e0af9-7a80-4201-a29d-caedefdcf646",
+        "resourceTitle": "RAYFace_Perspective_R",
+        "originalImageUrl": "https://view.rayplatform.com/public/v1/r2/object/eyJrIjoiYXNzZXRzLzM3NmUwYWY5LTdhODAtNDIwMS1hMjlkLWNhZWRlZmRjZjY0Ni56aXAiLCJlIjoxNzg0ODE1MTk5fQ?sig=7iSiIpsDjGv6_m91hd3nFgLTnRqcrdOWCciTmSBPN_E",
+        "archiveBytes": 246356901,
+        "archiveSelection": "BEST_LARGE_PRODUCT_IMAGE_FROM_PRODUCT_SPECIFIC_OFFICIAL_ARCHIVE",
+        "archiveMember": "RAYFace_Perspective_R.png",
+        "sha256": "09c186209796d5cb1808dbaba6decd0c7ac77e843d8b40f94462a02100839279",
+        "bytes": 338336,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-RAYIOS",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYiOS2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RAYiOS2",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Intraoral Scanner",
+      "description": "RAYiOS2 — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayios2-201880bcd9.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayios2-201880bcd9.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Intraoral%20Scanner/RAYiOS2",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_DIRECT_IMAGE_RESOURCE",
+        "imagesPageUrl": "https://connect.raymedical.com/en/browse/Intraoral%20Scanner/RAYiOS2/Images",
+        "resourcePageUrl": "https://connect.raymedical.com/en/resources/773be434-596d-430e-aec9-c235b5d55258",
+        "resourceTitle": "RAYiOS_on_perspective_0422",
+        "originalImageUrl": "https://view.rayplatform.com/public/v1/r2/object/eyJrIjoiYXNzZXRzLzc3M2JlNDM0LTU5NmQtNDMwZS1hZWM5LWMyMzViNWQ1NTI1OC5wbmciLCJlIjoxNzg0ODE1MjMxfQ?sig=PW4O9-vRUDYRrhOjKbogyv-HUfIcq6wSrt5Djf8As4s",
+        "sha256": "201880bcd969fd52e46658dc4599fba99b78f5d61687b8ec42c4435b67a8f804",
+        "bytes": 47413077,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-RAYMILL-C",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYMill C",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RAYMill C",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Milling Machine",
+      "description": "RAYMill C — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-raymill-c-87b48eeeb5.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-raymill-c-87b48eeeb5.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Milling%20Machine/RAYMill%20C",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_BOUNDED_PRODUCT_IMAGE_ARCHIVE",
+        "imagesPageUrl": "https://connect.raymedical.com/en/browse/Milling%20Machine/RAYMill%20C/Images",
+        "resourcePageUrl": "https://connect.raymedical.com/en/resources/16a1c7db-6723-4723-9ba8-c05169129de8",
+        "resourceTitle": "RAYMill_Images",
+        "originalImageUrl": "https://view.rayplatform.com/public/v1/r2/object/eyJrIjoiYXNzZXRzLzE2YTFjN2RiLTY3MjMtNDcyMy05YmE4LWMwNTE2OTEyOWRlOC56aXAiLCJlIjoxNzg0ODE1MjM4fQ?sig=wIN8MxLnhW7cefcKvaAT0MNqFe0kPCTbmBCwd7CqH7s",
+        "archiveBytes": 122456866,
+        "archiveSelection": "BEST_LARGE_PRODUCT_IMAGE_FROM_PRODUCT_SPECIFIC_OFFICIAL_ARCHIVE",
+        "archiveMember": "RAYMill_C_45Deg_R (1).png",
+        "sha256": "87b48eeeb557f18bf508cf9935ad4bce0450c5e76719fc6058b1a8189d924616",
+        "bytes": 169884,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-RAYQUANTUM",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYQuantum",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RAYQuantum",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "CBCT",
+      "description": "RAYQuantum — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayquantum-33d9b9cdf9.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayquantum-33d9b9cdf9.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYQuantum",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_BOUNDED_PRODUCT_IMAGE_ARCHIVE",
+        "imagesPageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYQuantum/Images",
+        "resourcePageUrl": "https://connect.raymedical.com/en/resources/3fc2ec3d-fb64-4d36-a472-344a9dfafe2d",
+        "resourceTitle": "RAYQuantum_Images",
+        "originalImageUrl": "https://view.rayplatform.com/public/v1/r2/object/eyJrIjoiYXNzZXRzLzNmYzJlYzNkLWZiNjQtNGQzNi1hNDcyLTM0NGE5ZGZhZmUyZC56aXAiLCJlIjoxNzg0ODE1MjU2fQ?sig=ltwU9sWZ3jK-twDdA0vDSLPMyZ3TrSbPAbtyRgHOmQ0",
+        "archiveBytes": 219637062,
+        "archiveSelection": "BEST_LARGE_PRODUCT_IMAGE_FROM_PRODUCT_SPECIFIC_OFFICIAL_ARCHIVE",
+        "archiveMember": "RAYQuantum_product_images/RQ_Black_front_ceph_02.png",
+        "sha256": "33d9b9cdf97787e2ac5683d940581a536e668779e8e324e46e11431a6f37da2e",
+        "bytes": 118058,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-RAYSCAN-S",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYSCAN S",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RAYSCAN S",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "CBCT",
+      "description": "RAYSCAN S — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayscan-s-fd6156bf41.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayscan-s-fd6156bf41.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYSCAN%20S",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_BOUNDED_PRODUCT_IMAGE_ARCHIVE",
+        "imagesPageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYSCAN%20S/Images",
+        "resourcePageUrl": "https://connect.raymedical.com/en/resources/c4f2bf56-547c-49e0-9217-040df2ac791b",
+        "resourceTitle": "RAYScan_S_Images",
+        "originalImageUrl": "https://view.rayplatform.com/public/v1/r2/object/eyJrIjoiYXNzZXRzL2M0ZjJiZjU2LTU0N2MtNDllMC05MjE3LTA0MGRmMmFjNzkxYi56aXAiLCJlIjoxNzg0ODE1Mjg0fQ?sig=dKWpO4m0tGYY-PRH1Ro7ITgl_U4FJytaYTD6c80RqZE",
+        "archiveBytes": 263498188,
+        "archiveSelection": "BEST_LARGE_PRODUCT_IMAGE_FROM_PRODUCT_SPECIFIC_OFFICIAL_ARCHIVE",
+        "archiveMember": "RAYScan_S_Front_off_Collapsed.png",
+        "sha256": "fd6156bf41944c842be3f5ddddfb1bf5571af82f6b2fc1192e1f5139fcf9d0b9",
+        "bytes": 168726,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-RAYSCAN-ALPHA-3D",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RAYSCAN α 3D",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RAYSCAN α 3D",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "CBCT",
+      "description": "RAYSCAN α 3D — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayscan-3d-089575a2c7.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rayscan-3d-089575a2c7.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYSCAN%20%CE%B1%C2%A03D",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_BOUNDED_PRODUCT_IMAGE_ARCHIVE",
+        "imagesPageUrl": "https://connect.raymedical.com/en/browse/CBCT/RAYSCAN%20%CE%B1%C2%A03D/Images",
+        "resourcePageUrl": "https://connect.raymedical.com/en/resources/fc3ef6a2-c7f6-464d-ae43-fe33aa300b43",
+        "resourceTitle": "RAYSCAN_Alpha_Images",
+        "originalImageUrl": "https://view.rayplatform.com/public/v1/r2/object/eyJrIjoiYXNzZXRzL2ZjM2VmNmEyLWM3ZjYtNDY0ZC1hZTQzLWZlMzNhYTMwMGI0My56aXAiLCJlIjoxNzg0ODE1MzE5fQ?sig=JX0Ke-907dwQLt8Mkl3woDW2zlWfCgobP9vDTlVTvgc",
+        "archiveBytes": 27447138,
+        "archiveSelection": "BEST_LARGE_PRODUCT_IMAGE_FROM_PRODUCT_SPECIFIC_OFFICIAL_ARCHIVE",
+        "archiveMember": "RAYSCAN_Alpha_Images_FS_OCS3_150327.png",
+        "sha256": "089575a2c7d3da8c3c63a737d8e97bc43547cc2aa82e46894041159f3ade0a23",
+        "bytes": 231486,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-RIOSCAN",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RIOScan",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RIOScan",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Image Plate System",
+      "description": "RIOScan — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rioscan-50ffa7ba50.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-rioscan-50ffa7ba50.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Image%20Plate%20System/RIOScan",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_BOUNDED_PRODUCT_IMAGE_ARCHIVE",
+        "imagesPageUrl": "https://connect.raymedical.com/en/browse/Image%20Plate%20System/RIOScan/Images",
+        "resourcePageUrl": "https://connect.raymedical.com/en/resources/dcad543a-b90e-4976-a505-b504dbb3ce20",
+        "resourceTitle": "Rioscan_Images",
+        "originalImageUrl": "https://view.rayplatform.com/public/v1/r2/object/eyJrIjoiYXNzZXRzL2RjYWQ1NDNhLWI5MGUtNDk3Ni1hNTA1LWI1MDRkYmIzY2UyMC56aXAiLCJlIjoxNzg0ODE1MzI2fQ?sig=jmmvkaNQbW6GzccT3hFevaRQAi3XgUt99-qVAQByp6w",
+        "archiveBytes": 230087220,
+        "archiveSelection": "BEST_LARGE_PRODUCT_IMAGE_FROM_PRODUCT_SPECIFIC_OFFICIAL_ARCHIVE",
+        "archiveMember": "Rioscan_Perspective_on_02 (1).png",
+        "sha256": "50ffa7ba50b2f4388dbb69d7717359bf99c0d67304d9437b03a4b97942acfa2c",
+        "bytes": 292449,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-RIOSENSOR",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RIOSensor",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RIOSensor",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Intraoral Sensor",
+      "description": "RIOSensor — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-riosensor-92a95ade1d.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-riosensor-92a95ade1d.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Intraoral%20Sensor/RIOSensor",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_BOUNDED_PRODUCT_IMAGE_ARCHIVE",
+        "imagesPageUrl": "https://connect.raymedical.com/en/browse/Intraoral%20Sensor/RIOSensor/Images",
+        "resourcePageUrl": "https://connect.raymedical.com/en/resources/710e86b8-53a9-446e-a234-21a4d2b467bb",
+        "resourceTitle": "RioSener_Images",
+        "originalImageUrl": "https://view.rayplatform.com/public/v1/r2/object/eyJrIjoiYXNzZXRzLzcxMGU4NmI4LTUzYTktNDQ2ZS1hMjM0LTIxYTRkMmI0NjdiYi56aXAiLCJlIjoxNzg0ODE1MzU3fQ?sig=v9TNM01b6Wal5cI-EgDl2HH1J-ybMX39zAU8dl8H8OM",
+        "archiveBytes": 323660305,
+        "archiveSelection": "BEST_LARGE_PRODUCT_IMAGE_FROM_PRODUCT_SPECIFIC_OFFICIAL_ARCHIVE",
+        "archiveMember": "RioSensor_Perspective (1).png",
+        "sha256": "92a95ade1de2f7d213e866307a8327c2886d813a3f5e99cdba3ff3aa78347f10",
+        "bytes": 111017,
+        "contentType": "image/png"
+      }
+    },
+    {
+      "officialProductId": "RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-PHOTO-CANON-RAY-RAY-RIOSENSOR-PLUS",
+      "brand": "RAY",
+      "manufacturer": "RAY Co., Ltd.",
+      "name": "RIOSensor+",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "RIOSensor+",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Intraoral Sensor",
+      "description": "RIOSensor+ — официально подтверждённая продуктовая линия RAY.",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-riosensor-adee86f078.png",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ray-riosensor-adee86f078.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://connect.raymedical.com/en/browse/Intraoral%20Sensor/RIOSensor%2B",
+      "kzEvidence": "BRAND_PRESENTED_IN_KAZAKHSTAN_DENTAL_MARKET",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_RAYCONNECT_BOUNDED_PRODUCT_IMAGE_ARCHIVE",
+        "imagesPageUrl": "https://connect.raymedical.com/en/browse/Intraoral%20Sensor/RIOSensor%2B/Images",
+        "resourcePageUrl": "https://connect.raymedical.com/en/resources/e003519b-37c7-45a9-9050-be26ac6d630a",
+        "resourceTitle": "RIOSensor+product image",
+        "originalImageUrl": "https://view.rayplatform.com/public/v1/r2/object/eyJrIjoiYXNzZXRzL2UwMDM1MTliLTM3YzctNDVhOS05MDUwLWJlMjZhYzZkNjMwYS56aXAiLCJlIjoxNzg0ODE1NDAzfQ?sig=d2ToOKA6iavndMm13sJnxkxO6XfYcUxFRdVQ3FP_1OE",
+        "archiveBytes": 10599383,
+        "archiveSelection": "BEST_LARGE_PRODUCT_IMAGE_FROM_PRODUCT_SPECIFIC_OFFICIAL_ARCHIVE",
+        "archiveMember": "1123_RIOSensor+╗τ┴°/░░└╠.jpg",
+        "sha256": "adee86f078d54f7282ca076044056a78ae7615ee038d19a20b344ca064cf94b8",
+        "bytes": 295764,
+        "contentType": "image/png"
+      }
+    }
+  ]
+}

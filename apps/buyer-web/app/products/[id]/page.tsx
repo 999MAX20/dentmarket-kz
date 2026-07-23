@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { cache } from "react";
 import catalog from "../../data/public-catalog-fallback.json";
+import approvedCatalog from "../../data/production-approved-catalog.json";
 import mediaCatalog from "../../data/public-catalog-media.json";
 import styles from "./page.module.css";
 import ProductOfferActions from "./product-offer-actions";
@@ -12,7 +14,9 @@ import {
   type CatalogMediaCandidate,
 } from "../../lib/catalog-media";
 
-type CatalogProduct = (typeof catalog.products)[number];
+type CatalogProduct =
+  | (typeof catalog.products)[number]
+  | (typeof approvedCatalog.products)[number];
 type ProductVariant = {
   id: string;
   label: string;
@@ -35,16 +39,27 @@ type ProductOffer = {
 };
 type ProductMedia = CatalogMediaCandidate & { altText?: string };
 const mediaEntries = mediaCatalog.entries as Record<string, ProductMedia>;
+type DisplayProduct = CatalogProduct & { liveMedia?: ProductMedia };
 
 type PublicCompareResponse = {
-  product: { id: string; name: string; brand: string | null; manufacturer: string | null };
+  product: {
+    id: string;
+    name: string;
+    description?: string | null;
+    brand: string | null;
+    manufacturer: string | null;
+    category?: string | null;
+    media?: ProductMedia[];
+  };
   variants: ProductVariant[];
   offers: Array<{ offerId: string; variantId: string; supplier: { name: string }; supplierSku?: string | null; price: { amountMinor: string; currency: string }; packaging?: { name: string }; availability: unknown[]; delivery: Array<{ method: string }>; markers: { verifiedDocuments: boolean; officialDistributor: boolean } }>;
-  comparisonAttributes?: Array<[string, string]>;
+  comparisonAttributes?: Array<{ scope: string; name: string; value: unknown }>;
 };
 
-async function getProduct(id: string): Promise<CatalogProduct | undefined> {
-  const catalogProduct = catalog.products.find((item) => item.id === id);
+const getProduct = cache(async (id: string): Promise<DisplayProduct | undefined> => {
+  const catalogProduct = [...catalog.products, ...approvedCatalog.products].find(
+    (item) => item.id === id,
+  );
   if (catalogProduct) return catalogProduct;
 
   // The public search intentionally includes a small demo offer set while the
@@ -67,62 +82,44 @@ async function getProduct(id: string): Promise<CatalogProduct | undefined> {
         ["Фасовка", "100 шт."],
       ],
       variants: [],
-      offers: [
-        {
-          id: "00000000-0000-4000-8000-000000000180",
-          supplier: { name: "MedConsum" },
-          supplierSku: "SAFETOUCH-ULTRA-100",
-          priceMinor: "475000",
-          currency: "KZT",
-          packaging: { name: "Упаковка 100 штук" },
-          available: true,
-          deliveryMethods: ["CARRIER"],
-          verifiedDocuments: true,
-          officialDistributor: false,
-        },
-        {
-          id: "00000000-0000-4000-8000-000000000150",
-          supplier: { name: "Demo Dental Supply" },
-          supplierSku: "SAFETOUCH-ULTRA-100",
-          priceMinor: "490000",
-          currency: "KZT",
-          packaging: { name: "Упаковка 100 штук" },
-          available: true,
-          deliveryMethods: ["SUPPLIER_CITY"],
-          verifiedDocuments: true,
-          officialDistributor: false,
-        },
-      ],
+      offers: [],
       minNormalizedPriceMinor: "4750",
       isAvailable: true,
-    } as unknown as CatalogProduct;
+    } as unknown as DisplayProduct;
   }
 
   try {
     const apiBase = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api";
-    const response = await fetch(`${apiBase}/catalog/products/${encodeURIComponent(id)}/compare?quantity=1`, { cache: "no-store" });
+    const response = await fetch(`${apiBase}/catalog/products/${encodeURIComponent(id)}/compare?quantity=1`, {
+      next: { revalidate: 30 },
+    });
     if (!response.ok) return undefined;
     const live = (await response.json()) as PublicCompareResponse;
     if (!live.product?.id) return undefined;
     return {
       id: live.product.id,
       name: live.product.name,
-      description: "Карточка товара DentMarket с актуальными предложениями поставщиков.",
+      description:
+        live.product.description ??
+        "Характеристики товара и предложения поставщиков в DentMarket.",
       brand: live.product.brand,
       manufacturer: live.product.manufacturer,
-      category: "Стоматологические товары",
+      category: live.product.category ?? "Стоматологические товары",
       sourceUrl: null,
       sourceUpdatedAt: null,
-      attributes: live.comparisonAttributes ?? [],
+      attributes: (live.comparisonAttributes ?? [])
+        .filter((attribute) => attribute.scope === "PRODUCT")
+        .map((attribute) => [attribute.name, String(attribute.value)]),
       variants: live.variants ?? [],
       offers: live.offers.map((offer) => ({ id: offer.offerId, variantId: offer.variantId, supplier: offer.supplier, supplierSku: offer.supplierSku, priceMinor: offer.price.amountMinor, currency: offer.price.currency, packaging: offer.packaging, available: offer.availability.length > 0, deliveryMethods: offer.delivery.map((item) => item.method), verifiedDocuments: offer.markers.verifiedDocuments, officialDistributor: offer.markers.officialDistributor })),
       minNormalizedPriceMinor: live.offers[0]?.price.amountMinor ?? null,
       isAvailable: live.offers.some((offer) => offer.availability.length > 0),
+      liveMedia: live.product.media?.[0],
     } as unknown as CatalogProduct;
   } catch {
     return undefined;
   }
-}
+});
 
 function formatPrice(
   minor: number | string | null | undefined,
@@ -134,6 +131,14 @@ function formatPrice(
     currency,
     maximumFractionDigits: 0,
   }).format(Number(minor) / 100);
+}
+
+function shortDescription(value: string | null | undefined) {
+  const text = String(value ?? "").replace(/<[^>]+>/gu, " ").replace(/\s+/gu, " ").trim();
+  if (!text) return "Здесь собраны характеристики товара и предложения поставщиков.";
+  if (text.length <= 360) return text;
+  const clipped = text.slice(0, 357).replace(/\s+\S*$/u, "").trim();
+  return `${clipped}…`;
 }
 
 export async function generateMetadata({
@@ -164,7 +169,9 @@ export default async function ProductPage({
   const product = await getProduct(decodeURIComponent(id));
   if (!product) notFound();
 
-  const media = product.sourceUrl ? mediaEntries[product.sourceUrl] : undefined;
+  const media =
+    product.liveMedia ??
+    (product.sourceUrl ? mediaEntries[product.sourceUrl] : undefined);
   const imageSource = safeCatalogMediaSource(media);
   const variants = ((product.variants ?? []) as ProductVariant[]).map(
     (variant) => ({
@@ -215,6 +222,8 @@ export default async function ProductPage({
             <SafeProductImage
               src={imageSource}
               alt={media?.altText ?? product.name}
+              loading="eager"
+              fetchPriority="high"
               draggable={false}
               fallback={
                 <span>
@@ -237,8 +246,7 @@ export default async function ProductPage({
               </p>
             ) : null}
             <p className={styles.description}>
-              {product.description ||
-                "Карточка товара DentMarket с описанием, характеристиками и предложениями поставщиков."}
+              {shortDescription(product.description)}
             </p>
             {selectedVariant ? (
               <VariantPicker
@@ -268,6 +276,14 @@ export default async function ProductPage({
                 Заказ доступен после входа в кабинет клиники
               </span>
             </div>
+            <aside className={styles.orderGuide} aria-label="Как выбрать товар">
+              <strong>Как заказать без ошибки</strong>
+              <ol>
+                <li>Выберите объём, фасовку, оттенок или другой вариант выше.</li>
+                <li>Сравните предложения именно для выбранного варианта.</li>
+                <li>Проверьте срок доставки и положите предложение поставщика в корзину.</li>
+              </ol>
+            </aside>
           </div>
         </section>
 
@@ -345,6 +361,17 @@ export default async function ProductPage({
             </div>
           </div>
         </section>
+        {product.description ? (
+          <section className={styles.technicalPanel}>
+            <details>
+              <summary>Полное техническое описание</summary>
+              <div>
+                <p>{String(product.description).replace(/<[^>]+>/gu, " ").replace(/\s+/gu, " ").trim()}</p>
+                <small>Описание относится к товарной семье. Точные объём, оттенок, размер и комплектацию смотрите в выбранном варианте.</small>
+              </div>
+            </details>
+          </section>
+        ) : null}
       </div>
     </main>
   );

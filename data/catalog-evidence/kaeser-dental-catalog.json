@@ -1,0 +1,315 @@
+{
+  "brand": "Kaeser",
+  "manufacturer": "KAESER KOMPRESSOREN SE",
+  "sourceType": "OFFICIAL_DENTAL_TECHNOLOGY_BROCHURE_AND_CURRENT_PRODUCT_PAGES",
+  "sourceUrl": "https://th.kaeser.com/en/download.ashx?id=tcm%3A58-85538",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "dentalRelevantPortfolioOnly": true,
+    "everyTechnicalTableModelPreservedAsVariant": true,
+    "modelNamesNotAssumedToBeOrderCodes": true,
+    "brochurePageCropsNotUsedAsCatalogPhotos": true,
+    "missingExactPhotosRemainQueued": true
+  },
+  "totals": {
+    "productFamilies": 6,
+    "variantSkus": 31,
+    "productsWithReferences": 0,
+    "productsWithImages": 4,
+    "productsWithoutImages": 2
+  },
+  "products": [
+    {
+      "officialProductId": "KAESER-KCT-BLUE",
+      "brand": "Kaeser",
+      "manufacturer": "KAESER KOMPRESSOREN SE",
+      "name": "KCT blue",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "KCT blue",
+      "variantCount": 6,
+      "variants": [
+        {
+          "name": "110-24 T",
+          "attributes": {
+            "pressureBar": "5,5–7",
+            "receiverLitres": 24,
+            "voltage": "230 В, 1 фаза, 50 Гц"
+          }
+        },
+        {
+          "name": "230-24 T",
+          "attributes": {
+            "pressureBar": "5,5–7",
+            "receiverLitres": 24,
+            "voltage": "230 В / 400 В"
+          }
+        },
+        {
+          "name": "230-65 T",
+          "attributes": {
+            "pressureBar": "7,5–9",
+            "receiverLitres": 65,
+            "voltage": "230 В / 400 В"
+          }
+        },
+        {
+          "name": "420-65 T",
+          "attributes": {
+            "pressureBar": "5,5–7",
+            "receiverLitres": 65,
+            "voltage": "230 В / 400 В"
+          }
+        },
+        {
+          "name": "401-65 T",
+          "attributes": {
+            "pressureBar": "7,5–9",
+            "receiverLitres": 65,
+            "voltage": "230 В / 400 В"
+          }
+        },
+        {
+          "name": "420-90 T",
+          "attributes": {
+            "pressureBar": "5,5–7",
+            "receiverLitres": 90,
+            "voltage": "400 В, 3 фазы, 50 Гц"
+          }
+        }
+      ],
+      "categoryPath": "Безмасляные компрессорные станции для стоматологических лабораторий",
+      "description": "Безмасляная компрессорная станция со встроенной системой подготовки воздуха SECCOMAT для стоматологических лабораторий.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://th.kaeser.com/en/download.ashx?id=tcm%3A58-85538",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "KAESER-KCT-BLUE-EXTERNAL-DRYER",
+      "brand": "Kaeser",
+      "manufacturer": "KAESER KOMPRESSOREN SE",
+      "name": "KCT blue с внешним осушителем",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "KCT blue с внешним осушителем",
+      "variantCount": 4,
+      "variants": [
+        {
+          "name": "110-24",
+          "attributes": {}
+        },
+        {
+          "name": "230-24",
+          "attributes": {}
+        },
+        {
+          "name": "420-65",
+          "attributes": {}
+        },
+        {
+          "name": "420-90",
+          "attributes": {}
+        }
+      ],
+      "categoryPath": "Безмасляные компрессорные станции для стоматологических лабораторий",
+      "description": "Исполнение KCT blue для совместной работы с отдельным холодильным осушителем.",
+      "sourceImageUrl": "",
+      "imageUrls": "",
+      "imageCount": 0,
+      "sourcePageUrl": "https://th.kaeser.com/en/download.ashx?id=tcm%3A58-85538",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "PHOTO_REQUIRED"
+    },
+    {
+      "officialProductId": "KAESER-KRYOSEC-TAH",
+      "brand": "Kaeser",
+      "manufacturer": "KAESER KOMPRESSOREN SE",
+      "name": "KRYOSEC TAH",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "KRYOSEC TAH",
+      "variantCount": 3,
+      "variants": [
+        {
+          "name": "TAH 5",
+          "attributes": {
+            "flowLitresPerMinute": 350
+          }
+        },
+        {
+          "name": "TAH 7",
+          "attributes": {
+            "flowLitresPerMinute": 600
+          }
+        },
+        {
+          "name": "TAH 10",
+          "attributes": {
+            "flowLitresPerMinute": 800
+          }
+        }
+      ],
+      "categoryPath": "Холодильные осушители для стоматологических компрессорных систем",
+      "description": "Компактный холодильный осушитель для стабильной защиты сжатого воздуха от влаги.",
+      "sourceImageUrl": "https://ca.kaeser.com/EN/Media/KRYOSEC_enclosure_45-7338-200x112.png",
+      "imageUrls": "https://ca.kaeser.com/EN/Media/KRYOSEC_enclosure_45-7338-200x112.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://ca.kaeser.com/en/products-and-solutions/compressed-air-treatment/dryers/refrigerated-dryers/kryosec-compressed-air-refrigeration-dryers/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAESER-ICOMP-TOWER-T",
+      "brand": "Kaeser",
+      "manufacturer": "KAESER KOMPRESSOREN SE",
+      "name": "i.Comp TOWER T",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "i.Comp TOWER T",
+      "variantCount": 2,
+      "variants": [
+        {
+          "name": "i.Comp 8 TOWER T",
+          "attributes": {
+            "maxPressureBar": 11,
+            "flowAt6BarLitresPerMinute": 404
+          }
+        },
+        {
+          "name": "i.Comp 9 TOWER T",
+          "attributes": {
+            "maxPressureBar": 11,
+            "flowAt6BarLitresPerMinute": 570
+          }
+        }
+      ],
+      "categoryPath": "Безмасляные компрессорные станции для стоматологических лабораторий",
+      "description": "Готовая к подключению безмасляная компрессорная станция с ресиверами, холодильным осушителем и управлением SIGMA CONTROL 2.",
+      "sourceImageUrl": "https://au.kaeser.com/Media/i_Comp_9_Tower_T_Service_166-104794.png",
+      "imageUrls": "https://au.kaeser.com/Media/i_Comp_9_Tower_T_Service_166-104794.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://au.kaeser.com/products/reciprocating-compressors/complete-packages/i-comp-tower/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAESER-AIRBOX-CENTER",
+      "brand": "Kaeser",
+      "manufacturer": "KAESER KOMPRESSOREN SE",
+      "name": "AIRBOX CENTER",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "AIRBOX CENTER",
+      "variantCount": 4,
+      "variants": [
+        {
+          "name": "AIRBOX CENTER 1000-2",
+          "attributes": {
+            "maxPressureBar": 10,
+            "flowAt6BarLitresPerMinute": 780
+          }
+        },
+        {
+          "name": "AIRBOX CENTER 1200-2",
+          "attributes": {
+            "maxPressureBar": 7,
+            "flowAt6BarLitresPerMinute": 875
+          }
+        },
+        {
+          "name": "AIRBOX CENTER 1500",
+          "attributes": {
+            "maxPressureBar": 10,
+            "flowAt6BarLitresPerMinute": 920
+          }
+        },
+        {
+          "name": "AIRBOX CENTER 1800",
+          "attributes": {
+            "maxPressureBar": 7,
+            "flowAt6BarLitresPerMinute": 875
+          }
+        }
+      ],
+      "categoryPath": "Безмасляные компрессорные станции для крупных стоматологических лабораторий",
+      "description": "Комплексная безмасляная компрессорная станция для крупных лабораторий и клиник с высокой потребностью в сжатом воздухе.",
+      "sourceImageUrl": "https://nz.kaeser.com/Media/Airbox_FR_45_O_152-6524-200x116.png",
+      "imageUrls": "https://nz.kaeser.com/Media/Airbox_FR_45_O_152-6524-200x116.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://nz.kaeser.com/products/reciprocating-compressors/complete-packages/airbox-center/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "KAESER-AIRCENTER-DENTAL",
+      "brand": "Kaeser",
+      "manufacturer": "KAESER KOMPRESSOREN SE",
+      "name": "AIRCENTER для стоматологических CAD/CAM-лабораторий",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "AIRCENTER для стоматологических CAD/CAM-лабораторий",
+      "variantCount": 12,
+      "variants": [
+        {
+          "name": "SX 3",
+          "attributes": {}
+        },
+        {
+          "name": "SX 4",
+          "attributes": {}
+        },
+        {
+          "name": "SX 6",
+          "attributes": {}
+        },
+        {
+          "name": "SX 8",
+          "attributes": {}
+        },
+        {
+          "name": "SM 10",
+          "attributes": {}
+        },
+        {
+          "name": "SM 13",
+          "attributes": {}
+        },
+        {
+          "name": "SM 13 SFC",
+          "attributes": {}
+        },
+        {
+          "name": "SK 16",
+          "attributes": {}
+        },
+        {
+          "name": "SK 22",
+          "attributes": {}
+        },
+        {
+          "name": "SK 22 SFC",
+          "attributes": {}
+        },
+        {
+          "name": "SK 25",
+          "attributes": {}
+        },
+        {
+          "name": "SK 25 SFC",
+          "attributes": {}
+        }
+      ],
+      "categoryPath": "Винтовые компрессорные станции для стоматологических CAD/CAM-лабораторий",
+      "description": "Компрессорная станция для непрерывной работы CAD/CAM-оборудования: винтовой компрессор, холодильный осушитель и ресивер в одном корпусе.",
+      "sourceImageUrl": "https://ca.kaeser.com/EN/Media/SX_Aircenter_22_Service_001_45-7047-200x112.png",
+      "imageUrls": "https://ca.kaeser.com/EN/Media/SX_Aircenter_22_Service_001_45-7047-200x112.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://ca.kaeser.com/en/products-and-solutions/rotary-screw-compressors/compressed-air-packages/aircenters/",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

@@ -1,0 +1,2158 @@
+{
+  "brand": "BISCO",
+  "manufacturer": "BISCO, Inc.",
+  "sourceType": "CURRENT_OFFICIAL_PRODUCT_SITEMAP_AND_PRODUCT_PAGES",
+  "sourceUrl": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "allCurrentSitemapProductsCollected": true,
+    "exactOfficialProductPhotoRequired": true,
+    "exactManufacturerSkuPreserved": true,
+    "brandLevelKzPresenceDoesNotAuthorizeAutomaticSkuPublication": true,
+    "missingFieldsNeverDeleteCard": true
+  },
+  "totals": {
+    "sitemapProducts": 82,
+    "discoveredProducts": 82,
+    "variantSkus": 82,
+    "productsWithReferences": 82,
+    "productsWithImages": 82,
+    "duplicateReferenceProducts": 0,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "BISCO-BC-H-67",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Aeliteflo™ Single Syringes",
+      "manufacturerRef": "BC-H-67",
+      "manufacturerRefs": "BC-H-67",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Aeliteflo™ Single Syringes",
+          "manufacturerRef": "BC-H-67",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Composites",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/456/images/390/bisco_dental_composites_0000_AeliteFlo_Translucent_Cap_Flat__26519.1730386786.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/456/images/390/bisco_dental_composites_0000_AeliteFlo_Translucent_Cap_Flat__26519.1730386786.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/aeliteflo/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80616N",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Aeliteflo™ Syringe Tips (19 Gauge, Black)",
+      "manufacturerRef": "X-80616N",
+      "manufacturerRefs": "X-80616N",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Aeliteflo™ Syringe Tips (19 Gauge, Black)",
+          "manufacturerRef": "X-80616N",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/504/images/381/bisco_dental_accessories_0003_X-80616NContactShadow__55443.1730321637.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/504/images/381/bisco_dental_accessories_0003_X-80616NContactShadow__55443.1730321637.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/black-disposable-tips-19-gauge-/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-H-852",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Aelite™ Aesthetic Enamel Single Syringes",
+      "manufacturerRef": "BC-H-852",
+      "manufacturerRefs": "BC-H-852",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Aelite™ Aesthetic Enamel Single Syringes",
+          "manufacturerRef": "BC-H-852",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Composites",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/450/images/538/bisco_dental_products_0002_Aelite_Aesthetic_Enamel_D4E_Cap_Flat__74828.1730387032.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/450/images/538/bisco_dental_products_0002_Aelite_Aesthetic_Enamel_D4E_Cap_Flat__74828.1730387032.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/aelite-aesthetic-enamel-single-syringe/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-H-854",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Aelite™ Aesthetic Enamel Unit-Dose Tips",
+      "manufacturerRef": "BC-H-854",
+      "manufacturerRefs": "BC-H-854",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Aelite™ Aesthetic Enamel Unit-Dose Tips",
+          "manufacturerRef": "BC-H-854",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Composites",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/451/images/511/bisco_dental_products_0000_Aelite_Unit-Dose_Red_Yellow__82119.1730387018.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/451/images/511/bisco_dental_products_0000_Aelite_Unit-Dose_Red_Yellow__82119.1730387018.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/aelite-aesthetic-enamel-unit-dose-tips/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-H-812",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Aelite™ All-Purpose Body Single Syringes",
+      "manufacturerRef": "BC-H-812",
+      "manufacturerRefs": "BC-H-812",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Aelite™ All-Purpose Body Single Syringes",
+          "manufacturerRef": "BC-H-812",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Intraoral Repairs / Intraoral Repair of Porcelain Fused to Metal (PFM)",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/452/images/539/bisco_dental_products_0000_Aelite_All-Purpose_Light_Cap_Flat__72984.1730386969.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/452/images/539/bisco_dental_products_0000_Aelite_All-Purpose_Light_Cap_Flat__72984.1730386969.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/aelite-all-purpose-body-single-syringe/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-H-814",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Aelite™ All-Purpose Body Unit-Dose Tips",
+      "manufacturerRef": "BC-H-814",
+      "manufacturerRefs": "BC-H-814",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Aelite™ All-Purpose Body Unit-Dose Tips",
+          "manufacturerRef": "BC-H-814",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Intraoral Repairs / Intraoral Repair of Porcelain Fused to Metal (PFM)",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/453/images/513/bisco_dental_products_0002_Aelite_Unit-Dose_Green_Group__56931.1730386956.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/453/images/513/bisco_dental_products_0002_Aelite_Unit-Dose_Green_Group__56931.1730386956.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/aelite-all-purpose-body-unit-dose-tips/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-H-721",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Aelite™ LS Posterior Single Syringes",
+      "manufacturerRef": "BC-H-721",
+      "manufacturerRefs": "BC-H-721",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Aelite™ LS Posterior Single Syringes",
+          "manufacturerRef": "BC-H-721",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Composites",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/454/images/540/bisco_dental_products_0000_AeliteLS_Posterior_C4_Cap_Flat_NEW__23912.1730386910.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/454/images/540/bisco_dental_products_0000_AeliteLS_Posterior_C4_Cap_Flat_NEW__23912.1730386910.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/aelite-ls-posterior-single-syringe/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-H-722",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Aelite™ LS Posterior Unit-Dose Tips",
+      "manufacturerRef": "BC-H-722",
+      "manufacturerRefs": "BC-H-722",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Aelite™ LS Posterior Unit-Dose Tips",
+          "manufacturerRef": "BC-H-722",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Composites",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/455/images/512/bisco_dental_products_0001_Aelite_Unit-Dose_Blue_Group__91356.1730386891.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/455/images/512/bisco_dental_products_0001_Aelite_Unit-Dose_Blue_Group__91356.1730386891.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/aelite-ls-posterior-unit-dose-tips/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-2502A",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond 2 Dentin/Enamel (D/E) Bonding Resin Bottle",
+      "manufacturerRef": "B-2502A",
+      "manufacturerRefs": "B-2502A",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond 2 Dentin/Enamel (D/E) Bonding Resin Bottle",
+          "manufacturerRef": "B-2502A",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Adhesives",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/475/images/531/bisco-dental-products-de-bonding-resin__20674.1730384840.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/475/images/531/bisco-dental-products-de-bonding-resin__20674.1730384840.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/dentin-enamel-bonding-resin/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-2506A",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond 2 Pre-Bond Resin Bottle",
+      "manufacturerRef": "B-2506A",
+      "manufacturerRefs": "B-2506A",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond 2 Pre-Bond Resin Bottle",
+          "manufacturerRef": "B-2506A",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Adhesives",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/476/images/530/bisco-dental-products-pre-bond_resin__53959.1730384812.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/476/images/530/bisco-dental-products-pre-bond_resin__53959.1730384812.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/pre-bond-resin/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-B-251",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond 2® Bottles",
+      "manufacturerRef": "BC-B-251",
+      "manufacturerRefs": "BC-B-251",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond 2® Bottles",
+          "manufacturerRef": "BC-B-251",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Adhesives",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/474/images/419/bisco_dental_adhesive__0002_all_bond_2_both_bottles__63390.1730384895.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/474/images/419/bisco_dental_adhesive__0002_all_bond_2_both_bottles__63390.1730384895.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/all-bond-2-bottles/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-42500K-EU",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond 2® Kit with Uni-Etch®",
+      "manufacturerRef": "B-42500K-EU",
+      "manufacturerRefs": "B-42500K-EU",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond 2® Kit with Uni-Etch®",
+          "manufacturerRef": "B-42500K-EU",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Adhesives",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/472/images/649/bisco-dental-products-all-bond-2-kit-with-uni-etch-no-bac-new-etchant-labels-pre-bond-3ml-__55331.1746624547.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/472/images/649/bisco-dental-products-all-bond-2-kit-with-uni-etch-no-bac-new-etchant-labels-pre-bond-3ml-__55331.1746624547.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/all-bond-2-kit-eu/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-42500A",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond 2® Kit with Uni-Etch® w/BAC",
+      "manufacturerRef": "B-42500A",
+      "manufacturerRefs": "B-42500A",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond 2® Kit with Uni-Etch® w/BAC",
+          "manufacturerRef": "B-42500A",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Adhesives",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/473/images/648/bisco-dental-products-all-bond-2-kit-with-uni-etch-bac-new-etchant-labels-Pre-Bond-3ml__21936.1746624388.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/473/images/648/bisco-dental-products-all-bond-2-kit-with-uni-etch-bac-new-etchant-labels-Pre-Bond-3ml__21936.1746624388.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/all-bond-2-kit/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-36200K-EU",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond 3® Bottle Kit with Uni-Etch®",
+      "manufacturerRef": "B-36200K-EU",
+      "manufacturerRefs": "B-36200K-EU",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond 3® Bottle Kit with Uni-Etch®",
+          "manufacturerRef": "B-36200K-EU",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Adhesives",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/467/images/641/bisco-dental-products-all-bond-3-kit-with-uni-etch-no-bac-new-etchant-labels__19963.1745420950.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/467/images/641/bisco-dental-products-all-bond-3-kit-with-uni-etch-no-bac-new-etchant-labels__19963.1745420950.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/all-bond-3-kit-eu/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-36200K",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond 3® Bottle Kit with Uni-Etch® w/BAC",
+      "manufacturerRef": "B-36200K",
+      "manufacturerRefs": "B-36200K",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond 3® Bottle Kit with Uni-Etch® w/BAC",
+          "manufacturerRef": "B-36200K",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Adhesives",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/468/images/637/bisco-dental-products-all-bond-3-with-uni-etch-w-BAC__72733.1745417360.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/468/images/637/bisco-dental-products-all-bond-3-with-uni-etch-w-BAC__72733.1745417360.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/all-bond-3-kit/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-36010P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond 3® Part A&B Set",
+      "manufacturerRef": "B-36010P",
+      "manufacturerRefs": "B-36010P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond 3® Part A&B Set",
+          "manufacturerRef": "B-36010P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Adhesives",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/469/images/398/bisco-dental-adhesive-_0000_all-bond-2-primer-a-and-b__17617.1730385454.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/469/images/398/bisco-dental-adhesive-_0000_all-bond-2-primer-a-and-b__17617.1730385454.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/all-bond-3-bottles/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-7202P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond Universal® Bottle Package",
+      "manufacturerRef": "B-7202P",
+      "manufacturerRefs": "B-7202P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond Universal® Bottle Package",
+          "manufacturerRef": "B-7202P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Indirect Restorations / Bonded cementation of glass ceramics",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/462/images/421/bisco_dental_adhesive_all_bond_universal_0003_ABU_Bottle__08945.1730386163.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/462/images/421/bisco_dental_adhesive_all_bond_universal_0003_ABU_Bottle__08945.1730386163.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/all-bond-universal-bottle/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-7202P-AS",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond Universal® Bottle Package - Asia",
+      "manufacturerRef": "B-7202P-AS",
+      "manufacturerRefs": "B-7202P-AS",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond Universal® Bottle Package - Asia",
+          "manufacturerRef": "B-7202P-AS",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Core Build Up / Core Build Up",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/463/images/561/bisco_dental_adhesive_all_bond_universal_0003_ABU_Bottle__08945__10153.1730386137.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/463/images/561/bisco_dental_adhesive_all_bond_universal_0003_ABU_Bottle__08945__10153.1730386137.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/all-bond-universal-bottle-asia/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-7204P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond Universal® Bottle Package 4ml",
+      "manufacturerRef": "B-7204P",
+      "manufacturerRefs": "B-7204P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond Universal® Bottle Package 4ml",
+          "manufacturerRef": "B-7204P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Indirect Restorations / Bonded cementation of glass ceramics",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/519/images/601/bisco_dental_adhesive_all_bond_universal_0004_ABUBottle4ml__31816.1738102023.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/519/images/601/bisco_dental_adhesive_all_bond_universal_0004_ABUBottle4ml__31816.1738102023.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/all-bond-universal-bottle-package-4ml/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-7202B0K-EU",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond Universal® Kit with Select HV® Etch",
+      "manufacturerRef": "B-7202B0K-EU",
+      "manufacturerRefs": "B-7202B0K-EU",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond Universal® Kit with Select HV® Etch",
+          "manufacturerRef": "B-7202B0K-EU",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Core Build Up / Core Build Up",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/465/images/643/All-Bond_Universal_Standard_Kitno_BAC__02638.1745422811.386.513.png?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/465/images/643/All-Bond_Universal_Standard_Kitno_BAC__02638.1745422811.386.513.png?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/all-bond-universal-kit-EU/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-72020K",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond Universal® Kit with Select HV® Etch w/BAC",
+      "manufacturerRef": "B-72020K",
+      "manufacturerRefs": "B-72020K",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond Universal® Kit with Select HV® Etch w/BAC",
+          "manufacturerRef": "B-72020K",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Core Build Up / Core Build Up",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/466/images/639/1200x1200_All-Bond_Universal_Standard_KitNon-CE__17229.1745417942.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/466/images/639/1200x1200_All-Bond_Universal_Standard_KitNon-CE__17229.1745417942.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/all-bond-universal-kit/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-73100K",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "All-Bond Universal® Unit-Dose 100ct",
+      "manufacturerRef": "B-73100K",
+      "manufacturerRefs": "B-73100K",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "All-Bond Universal® Unit-Dose 100ct",
+          "manufacturerRef": "B-73100K",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Core Build Up / Core Build Up",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/464/images/588/BISCO_Dental_Products_0000_ABU_Unit-Dose_100Ct_Box__18245.1733843598.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/464/images/588/BISCO_Dental_Products_0000_ABU_Unit-Dose_100Ct_Box__18245.1733843598.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/all-bond-universal-unit-dose/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-81270P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Auto-Mix Cannula Tips (20 GAUGE)",
+      "manufacturerRef": "X-81270P",
+      "manufacturerRefs": "X-81270P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Auto-Mix Cannula Tips (20 GAUGE)",
+          "manufacturerRef": "X-81270P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/509/images/384/bisco_dental_accessories_0007_X-81270PContactShadow__59021.1761151070.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/509/images/384/bisco_dental_accessories_0007_X-81270PContactShadow__59021.1761151070.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/auto-mix-cannula-tips/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-D-450",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "BisCem® Dual-Syringe",
+      "manufacturerRef": "BC-D-450",
+      "manufacturerRefs": "BC-D-450",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "BisCem® Dual-Syringe",
+          "manufacturerRef": "BC-D-450",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Cements",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/438/images/403/bisco_dental_products_biscem__85351.1730390302.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/438/images/403/bisco_dental_products_biscem__85351.1730390302.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/biscem/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-A-12",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Bisfil™ 2B Dual-Syringes",
+      "manufacturerRef": "BC-A-12",
+      "manufacturerRefs": "BC-A-12",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Bisfil™ 2B Dual-Syringes",
+          "manufacturerRef": "BC-A-12",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Composites",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/457/images/404/bisco_dental_composites_bisfil_2B__74654.1730386738.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/457/images/404/bisco_dental_composites_bisfil_2B__74654.1730386738.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/bisfil-2b-dual-syringes/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-A-1254P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Bisfil™ 2B Syringe Package",
+      "manufacturerRef": "A-1254P",
+      "manufacturerRefs": "A-1254P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Bisfil™ 2B Syringe Package",
+          "manufacturerRef": "A-1254P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Composites",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/458/images/594/Bisfil_2B_Package_BISCO_Dental__23195.1733257443.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/458/images/594/Bisfil_2B_Package_BISCO_Dental__23195.1733257443.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/bisfil-2b-syringe-package/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80247R",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Blue Bristle Brush Applicators",
+      "manufacturerRef": "X-80247R",
+      "manufacturerRefs": "X-80247R",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Blue Bristle Brush Applicators",
+          "manufacturerRef": "X-80247R",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/496/images/464/bisco-dental-accessories-blue-brush__69994.1730322005.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/496/images/464/bisco-dental-accessories-blue-brush__69994.1730322005.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/dark-blue-brush-applicators/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80608N",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Blue Disposable Syringe Tips (22 Gauge)",
+      "manufacturerRef": "X-80608N",
+      "manufacturerRefs": "X-80608N",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Blue Disposable Syringe Tips (22 Gauge)",
+          "manufacturerRef": "X-80608N",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/507/images/379/bisco_dental_accessories_0000_X-80608NContactShadow__55574.1730321538.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/507/images/379/bisco_dental_accessories_0000_X-80608NContactShadow__55574.1730321538.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/blue-disposable-syringe-tips-22-gauge/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-2816A",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Cavity Cleanser™ 135ml",
+      "manufacturerRef": "B-2816A",
+      "manufacturerRefs": "B-2816A",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Cavity Cleanser™ 135ml",
+          "manufacturerRef": "B-2816A",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Adhesives",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/490/images/494/bisco-dental-adhesive-cavity-cleanser-135ml__02719.1733848141.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/490/images/494/bisco-dental-adhesive-cavity-cleanser-135ml__02719.1733848141.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/cavity-cleanser/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-C-390",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Choice™ 2 Starter Kit",
+      "manufacturerRef": "BC-C-390",
+      "manufacturerRefs": "BC-C-390",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Choice™ 2 Starter Kit",
+          "manufacturerRef": "BC-C-390",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Indirect Restorations",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/435/images/613/Choice_2_Dental_Veneer_Cementation_Kit__83133.1739912700.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/435/images/613/Choice_2_Dental_Veneer_Cementation_Kit__83133.1739912700.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/choice-2-starter-kit/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-C-3900K-EU",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Choice™ 2 Starter Kit with ALL-BOND 3®",
+      "manufacturerRef": "C-3900K-EU",
+      "manufacturerRefs": "C-3900K-EU",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Choice™ 2 Starter Kit with ALL-BOND 3®",
+          "manufacturerRef": "C-3900K-EU",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Direct Restorations",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/517/images/629/choice-2-with-all-bond-3-BISCO-dental-products__17308.1741786720.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/517/images/629/choice-2-with-all-bond-3-BISCO-dental-products__17308.1741786720.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/choice-2-starter-kit-with-all-bond-3/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-C-412",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Choice™ 2 Try-In Paste",
+      "manufacturerRef": "BC-C-412",
+      "manufacturerRefs": "BC-C-412",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Choice™ 2 Try-In Paste",
+          "manufacturerRef": "BC-C-412",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Indirect Restorations",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/434/images/612/Choice_2_Try_In_Paste_Dental_Cement_A1_1200x1200__83835.1739912136.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/434/images/612/Choice_2_Try_In_Paste_Dental_Cement_A1_1200x1200__83835.1739912136.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/choice-2-try-in-paste/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-C-39011K",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Choice™ 2 Try-In Paste Kit",
+      "manufacturerRef": "C-39011K",
+      "manufacturerRefs": "C-39011K",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Choice™ 2 Try-In Paste Kit",
+          "manufacturerRef": "C-39011K",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Indirect Restorations",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/521/images/630/BISCO-Dental-Products-Choice-2-Try-in-paste__45314.1741787351.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/521/images/630/BISCO-Dental-Products-Choice-2-Try-in-paste__45314.1741787351.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/choice-2-try-in-paste-kit/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-C-411",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Choice™ 2 Veneer Cement",
+      "manufacturerRef": "BC-C-411",
+      "manufacturerRefs": "BC-C-411",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Choice™ 2 Veneer Cement",
+          "manufacturerRef": "BC-C-411",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Indirect Restorations / Veneer Cementation of glass ceramics",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/433/images/609/choice_2_dental_veneer_cement_A1_1200x1200__95845.1739911568.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/433/images/609/choice_2_dental_veneer_cement_A1_1200x1200__95845.1739911568.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/choice-2-veneer-cement/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-A-230",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Core-Flo™ DC Dual-Syringes",
+      "manufacturerRef": "BC-A-230",
+      "manufacturerRefs": "BC-A-230",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Core-Flo™ DC Dual-Syringes",
+          "manufacturerRef": "BC-A-230",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Core Build Up / Post Cementation with Core Build Up",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/484/images/413/bisco_dental_products_0000_Core-Flo-A1__31696.1730383990.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/484/images/413/bisco_dental_products_0000_Core-Flo-A1__31696.1730383990.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/core-flo-dc-dual-syringes/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-A-178",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Core-Flo™ DC Lite Dual-Syringes",
+      "manufacturerRef": "BC-A-178",
+      "manufacturerRefs": "BC-A-178",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Core-Flo™ DC Lite Dual-Syringes",
+          "manufacturerRef": "BC-A-178",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Core Build Up / Post Cementation with Core Build Up",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/485/images/411/bisco_dental_products_0000_Core-Flo-Lite-A1__59840.1730384022.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/485/images/411/bisco_dental_products_0000_Core-Flo-Lite-A1__59840.1730384022.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/core-flo-dc-lite-dual-syringes/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-AB-17410K",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Core-Flo™ DC Lite with Universal Primer™",
+      "manufacturerRef": "AB-17410K",
+      "manufacturerRefs": "AB-17410K",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Core-Flo™ DC Lite with Universal Primer™",
+          "manufacturerRef": "AB-17410K",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Core Build Up / Post Cementation with Core Build Up",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/486/images/542/bisco-dental-products-Core-Flo-Lite-kit-with-universal-primer__59467.1730322521.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/486/images/542/bisco-dental-products-Core-Flo-Lite-kit-with-universal-primer__59467.1730322521.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/core-flo-dc-lite-kit/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80496B",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Disposable Mixing Wells- Double Well",
+      "manufacturerRef": "X-80496B",
+      "manufacturerRefs": "X-80496B",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Disposable Mixing Wells- Double Well",
+          "manufacturerRef": "X-80496B",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/498/images/587/double-mixing-well-bisco-dental-products2__56668.1731620229.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/498/images/587/double-mixing-well-bisco-dental-products2__56668.1731620229.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/disposable-mixing-wells-double-well/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80497P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Disposable Mixing Wells- Single Well",
+      "manufacturerRef": "X-80497P",
+      "manufacturerRefs": "X-80497P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Disposable Mixing Wells- Single Well",
+          "manufacturerRef": "X-80497P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/497/images/463/bisco-dental-accessories-single-mixng-well__08934.1730321959.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/497/images/463/bisco-dental-accessories-single-mixng-well__08934.1730321959.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/disposable-mixing-wells-single-well/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80621N",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Disposable Tips (22 Gauge, Black)",
+      "manufacturerRef": "X-80621N",
+      "manufacturerRefs": "X-80621N",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Disposable Tips (22 Gauge, Black)",
+          "manufacturerRef": "X-80621N",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/508/images/380/bisco_dental_accessories_0002_X-80621NContactShadow__69519.1730321578.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/508/images/380/bisco_dental_accessories_0002_X-80621NContactShadow__69519.1730321578.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/black-disposable-syringe-tps-22-gauge-/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-L-22020P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Dual-Syringe Dispenser",
+      "manufacturerRef": "L-22020P",
+      "manufacturerRefs": "L-22020P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dual-Syringe Dispenser",
+          "manufacturerRef": "L-22020P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/499/images/563/Dual-Syringe_Dispenser_Front__85064.1730321882.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/499/images/563/Dual-Syringe_Dispenser_Front__85064.1730321882.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/dual-syringe-dispenser/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-81257P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Dual-Syringe Mixing & Intraoral Tips",
+      "manufacturerRef": "X-81257P",
+      "manufacturerRefs": "X-81257P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dual-Syringe Mixing & Intraoral Tips",
+          "manufacturerRef": "X-81257P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/502/images/386/bisco_dental_accessories_0009_X-81257P-TipContactShadow__33385.1730321777.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/502/images/386/bisco_dental_accessories_0009_X-81257P-TipContactShadow__33385.1730321777.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/dual-syringe-mixing-and-intraoral-tips/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-81267P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Dual-Syringe Mixing & Root Canal Tips",
+      "manufacturerRef": "X-81267P",
+      "manufacturerRefs": "X-81267P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dual-Syringe Mixing & Root Canal Tips",
+          "manufacturerRef": "X-81267P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/503/images/385/bisco_dental_accessories_0008_X-81267P-TipContactShadow__29027.1730321746.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/503/images/385/bisco_dental_accessories_0008_X-81267P-TipContactShadow__29027.1730321746.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/dual-syringe-mixing-and-root-canal-tips-30/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-81252P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Dual-Syringe Static Mixing Tips",
+      "manufacturerRef": "X-81252P",
+      "manufacturerRefs": "X-81252P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Dual-Syringe Static Mixing Tips",
+          "manufacturerRef": "X-81252P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/501/images/387/bisco_dental_accessories_0011_X-81252PContactShadow__72769.1730321802.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/501/images/387/bisco_dental_accessories_0011_X-81252PContactShadow__72769.1730321802.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/dual-syringe-static-mixing-tips/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-A-19620K",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Duo-Link Universal™ Adhesive Cementation System",
+      "manufacturerRef": "A-19620K",
+      "manufacturerRefs": "A-19620K",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Duo-Link Universal™ Adhesive Cementation System",
+          "manufacturerRef": "A-19620K",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Indirect Restorations",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/440/images/437/bisco_dental_products_0000_Duo-Link_Universal_ABU_KitLarge__22925.1730389715.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/440/images/437/bisco_dental_products_0000_Duo-Link_Universal_ABU_KitLarge__22925.1730389715.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/duolink-universal-adhesive-system-kit/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-A-19",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Duo-Link Universal™ Resin Luting Cement",
+      "manufacturerRef": "BC-A-19",
+      "manufacturerRefs": "BC-A-19",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Duo-Link Universal™ Resin Luting Cement",
+          "manufacturerRef": "BC-A-19",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Indirect Restorations / Bonded cementation of glass ceramics",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/439/images/504/bisco_dental_products_duo-link_universal_syringe__81682.1730389766.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/439/images/504/bisco_dental_products_duo-link_universal_syringe__81682.1730389766.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/duolink-universal-resin-luting-cement/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-C-52410K-EU",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "eCEMENT® Adhesive Cementation System Kit",
+      "manufacturerRef": "C-52410K-EU",
+      "manufacturerRefs": "C-52410K-EU",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "eCEMENT® Adhesive Cementation System Kit",
+          "manufacturerRef": "C-52410K-EU",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Cements",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/443/images/644/eCementKit-no-BAC__18178.1745423149.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/443/images/644/eCementKit-no-BAC__18178.1745423149.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/ecement-adhesive-cementation-system-kit-eu/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80243R",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Endo White Applicators",
+      "manufacturerRef": "X-80243R",
+      "manufacturerRefs": "X-80243R",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Endo White Applicators",
+          "manufacturerRef": "X-80243R",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/495/images/465/bisco-dental-accessories-white-brush__90270.1730322040.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/495/images/465/bisco-dental-accessories-white-brush__90270.1730322040.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/endo-white-applicators/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-E-5503EM",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Etch-37",
+      "manufacturerRef": "E-5503EM",
+      "manufacturerRefs": "E-5503EM",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Etch-37",
+          "manufacturerRef": "E-5503EM",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Etchants",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/482/images/517/bisco_dental_products_0003_etch_37_group_no_BAC__34020.1730384333.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/482/images/517/bisco_dental_products_0003_etch_37_group_no_BAC__34020.1730384333.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/etch-37/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-G-9301F",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Fortify™ Bottle",
+      "manufacturerRef": "G-9301F",
+      "manufacturerRefs": "G-9301F",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Fortify™ Bottle",
+          "manufacturerRef": "G-9301F",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Composites",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/492/images/537/bisco-dental-products-fortify__03656.1730322196.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/492/images/537/bisco-dental-products-fortify__03656.1730322196.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/fortify-bottle/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-22300K",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Intraoral Repair Kit",
+      "manufacturerRef": "B-22300K",
+      "manufacturerRefs": "B-22300K",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Intraoral Repair Kit",
+          "manufacturerRef": "B-22300K",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Cements",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/444/images/489/bisco-dental-products-intraoral-repair-kit__39393.1730388091.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/444/images/489/bisco-dental-products-intraoral-repair-kit__39393.1730388091.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/intraoral-repair-kit/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-A-172",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Light-Core™ Syringes",
+      "manufacturerRef": "BC-A-172",
+      "manufacturerRefs": "BC-A-172",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Light-Core™ Syringes",
+          "manufacturerRef": "BC-A-172",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Core Build-Ups",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/487/images/471/bisco_core_build_up_0000_LightCoreBlue__62646.1730322471.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/487/images/471/bisco_core_build_up_0000_LightCoreBlue__62646.1730322471.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/light-core-syringe/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-UD-A-172",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Light-Core™ Unit-Dose Tips",
+      "manufacturerRef": "BC-UD-A-172",
+      "manufacturerRefs": "BC-UD-A-172",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Light-Core™ Unit-Dose Tips",
+          "manufacturerRef": "BC-UD-A-172",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Core Build-Ups",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/488/images/581/bisco-dental-products-Light-Core-Unit-Dose__55312.1730820197.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/488/images/581/bisco-dental-products-Light-Core-Unit-Dose__55312.1730820197.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/light-core-unit-dose-tips/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-G-9316P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Modeling Resin Syringes",
+      "manufacturerRef": "G-9316P",
+      "manufacturerRefs": "G-9316P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Modeling Resin Syringes",
+          "manufacturerRef": "G-9316P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Composites",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/493/images/467/bisco-dental-products-modeling-resin__65499.1730322167.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/493/images/467/bisco-dental-products-modeling-resin__65499.1730322167.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/modeling-resin/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-U-1102P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "One-Step® Bottle",
+      "manufacturerRef": "U-1102P",
+      "manufacturerRefs": "U-1102P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "One-Step® Bottle",
+          "manufacturerRef": "U-1102P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Adhesives",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/461/images/658/One_Step_1200x1200__97238.1761149410.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/461/images/658/One_Step_1200x1200__97238.1761149410.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/one-step/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-U-2001P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "One-Step® Plus Bottle",
+      "manufacturerRef": "U-2001P",
+      "manufacturerRefs": "U-2001P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "One-Step® Plus Bottle",
+          "manufacturerRef": "U-2001P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Adhesives",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/513/images/527/bisco_dental_adhesives_0001_OneStepPlus_ContactShadow__74749.1725375153.1280.1280__54622.1730321301.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/513/images/527/bisco_dental_adhesives_0001_OneStepPlus_ContactShadow__74749.1725375153.1280.1280__54622.1730321301.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/one-step-plus-bottle/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80611N",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Phosphoric Etchant Syringe Tips (25 Gauge, Light Blue)",
+      "manufacturerRef": "X-80611N",
+      "manufacturerRefs": "X-80611N",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Phosphoric Etchant Syringe Tips (25 Gauge, Light Blue)",
+          "manufacturerRef": "X-80611N",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/506/images/382/bisco_dental_accessories_0004_X-80611NContactShadow__14276.1730321515.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/506/images/382/bisco_dental_accessories_0004_X-80611NContactShadow__14276.1730321515.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/phosphoric-etchant-syringe-tips-2/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-3110P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Porcelain Bonding Resin Bottle",
+      "manufacturerRef": "B-3110P",
+      "manufacturerRefs": "B-3110P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Porcelain Bonding Resin Bottle",
+          "manufacturerRef": "B-3110P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Intraoral Repairs / Intraoral Repair of Porcelain Fused to Metal (PFM)",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/491/images/614/bisco-dental-products-porcelain-bonding-resin__40868.1739991436.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/491/images/614/bisco-dental-products-porcelain-bonding-resin__40868.1739991436.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/porcelain-bonding-resin/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80602N",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Porcelain Etchant Plastic Tips (Black)",
+      "manufacturerRef": "X-80602N",
+      "manufacturerRefs": "X-80602N",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Porcelain Etchant Plastic Tips (Black)",
+          "manufacturerRef": "X-80602N",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/505/images/383/bisco_dental_accessories_0006_X-80602NContactShadow__66122.1730321614.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/505/images/383/bisco_dental_accessories_0006_X-80602NContactShadow__66122.1730321614.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/porcelain-etchant-plastic-tips/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-E-57",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Porcelain Etchant Syringe",
+      "manufacturerRef": "BC-E-57",
+      "manufacturerRefs": "BC-E-57",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Porcelain Etchant Syringe",
+          "manufacturerRef": "BC-E-57",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Intraoral Repairs / Intraoral Repair of Porcelain Fused to Metal (PFM)",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/483/images/659/BISCO-porcelain-etchant-9.5__68579.1776199075.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/483/images/659/BISCO-porcelain-etchant-9.5__68579.1776199075.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/porcelain-etchant-syringe/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-B222",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Porcelain Primer/Bis-Silane™",
+      "manufacturerRef": "BC-B222",
+      "manufacturerRefs": "BC-B222",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Porcelain Primer/Bis-Silane™",
+          "manufacturerRef": "BC-B222",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Indirect Restorations / Veneer Cementation of glass ceramics",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/489/images/618/BISCO-Dental-products-Bis-Silane-and-Porcelain-Primer-__78725.1742322671.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/489/images/618/BISCO-Dental-products-Bis-Silane-and-Porcelain-Primer-__78725.1742322671.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/porcelain-primer/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-H-10100K",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Quantium® Universal Composite Kits",
+      "manufacturerRef": "H-10100K",
+      "manufacturerRefs": "H-10100K",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Quantium® Universal Composite Kits",
+          "manufacturerRef": "H-10100K",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Composites",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/526/images/653/BISCO-Dental-Products-Quantium-Unit-dose-Kit__44232.1751986483.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/526/images/653/BISCO-Dental-Products-Quantium-Unit-dose-Kit__44232.1751986483.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/quantium-kits/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-H-100A1P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Quantium® Universal Composite Single Syringes",
+      "manufacturerRef": "H-100A1P",
+      "manufacturerRefs": "H-100A1P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Quantium® Universal Composite Single Syringes",
+          "manufacturerRef": "H-100A1P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Composites",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/523/images/650/BISCO_Dental_Products_Quantium_A1-B__12310.1751990456.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/523/images/650/BISCO_Dental_Products_Quantium_A1-B__12310.1751990456.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/quantium-universal-composite-single-syringes/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-H-101",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Quantium® Universal Composite Unit Dose Tips",
+      "manufacturerRef": "BC-H-101",
+      "manufacturerRefs": "BC-H-101",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Quantium® Universal Composite Unit Dose Tips",
+          "manufacturerRef": "BC-H-101",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Composites",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/524/images/655/BISCO_Dental_Products_Quanitum_Unit_Dose_0013_A1-B__74291.1751984420.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/524/images/655/BISCO_Dental_Products_Quanitum_Unit_Dose_0013_A1-B__74291.1751984420.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/quantium-universal-composite-unit-dose-tips/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80250P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Regular Orange Applicators",
+      "manufacturerRef": "X-80250P",
+      "manufacturerRefs": "X-80250P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Regular Orange Applicators",
+          "manufacturerRef": "X-80250P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/494/images/466/bisco-dental-accessories-orange-brush__98684.1730322100.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/494/images/466/bisco-dental-accessories-orange-brush__98684.1730322100.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/regular-orange-applicators/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-Select-HV",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Select HV® Etch",
+      "manufacturerRef": "BC-Select-HV",
+      "manufacturerRefs": "BC-Select-HV",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Select HV® Etch",
+          "manufacturerRef": "BC-Select-HV",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Direct Restorations / Posterior Composite (Sandwich Technique)",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/478/images/621/BISCO_Dental_Products_Etchant_Select_HV_Etch_Bulk_Syringe_no_BAC__00524.1741883991.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/478/images/621/BISCO_Dental_Products_Etchant_Select_HV_Etch_Bulk_Syringe_no_BAC__00524.1741883991.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/select-hv-etch/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80580P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Select HV® Etch Empty Syringe Accessory Package",
+      "manufacturerRef": "X-80580P",
+      "manufacturerRefs": "X-80580P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Select HV® Etch Empty Syringe Accessory Package",
+          "manufacturerRef": "X-80580P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/510/images/582/bisco_dental_products_Select_HV_Etch_Refill_Syringe__76679.1731687290.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/510/images/582/bisco_dental_products_Select_HV_Etch_Refill_Syringe__76679.1731687290.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/select-hv-etch-empty-syringe-accessory-pack/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-Select-HV-BAC",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Select HV® Etch w/BAC",
+      "manufacturerRef": "BC-Select-HV-BAC",
+      "manufacturerRefs": "BC-Select-HV-BAC",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Select HV® Etch w/BAC",
+          "manufacturerRef": "BC-Select-HV-BAC",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Indirect Restorations / Bonded cementation of glass ceramics",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/477/images/619/BISCO_Dental_Products_Etchant_Select_HV_Etch_BAC__33969.1740431056.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/477/images/619/BISCO_Dental_Products_Etchant_Select_HV_Etch_BAC__33969.1740431056.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/select-hv-etch-with-bac/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-D-350",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "TheraBase® Ca Dual-Syringe",
+      "manufacturerRef": "D-350",
+      "manufacturerRefs": "D-350",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TheraBase® Ca Dual-Syringe",
+          "manufacturerRef": "D-350",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Direct Restorations / Posterior Composite (Sandwich Technique)",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/446/images/488/bisco-dental-products-therabase-CA__47077.1730388040.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/446/images/488/bisco-dental-products-therabase-CA__47077.1730388040.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/therabase-ca/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-H-35001P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "TheraBase® Dual-Syringe",
+      "manufacturerRef": "H-35001P",
+      "manufacturerRefs": "H-35001P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TheraBase® Dual-Syringe",
+          "manufacturerRef": "H-35001P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Direct Restorations / Posterior Composite (Sandwich Technique)",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/445/images/547/bisco-dental-products-calcium-TheraBase-Syringe__06945.1730388029.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/445/images/547/bisco-dental-products-calcium-TheraBase-Syringe__06945.1730388029.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/therabase/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-H-33014P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "TheraCal LC®",
+      "manufacturerRef": "H-33014P",
+      "manufacturerRefs": "H-33014P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TheraCal LC®",
+          "manufacturerRef": "H-33014P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Liner and Pulp Protection / Indirect Pulp Capping",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/448/images/497/bisco_dental_products_calcium__0002_TheraCalLC_4_Pack_Syringe_with_Box__74386.1754489288.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/448/images/497/bisco_dental_products_calcium__0002_TheraCalLC_4_Pack_Syringe_with_Box__74386.1754489288.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/theracal-lc/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-H-34110P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "TheraCal PT® Dual-Syringe",
+      "manufacturerRef": "H-34110P",
+      "manufacturerRefs": "H-34110P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TheraCal PT® Dual-Syringe",
+          "manufacturerRef": "H-34110P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Pulpotomy / Pulpotomy Treatment",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/447/images/498/bisco-dental-products-calcium-TheraCal-PT-Syringe__43010.1730387314.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/447/images/498/bisco-dental-products-calcium-TheraCal-PT-Syringe__43010.1730387314.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/theracal-pt/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-H-34111P-Asia",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "TheraCal PT® Dual-Syringe 2g",
+      "manufacturerRef": "H-34111P-Asia",
+      "manufacturerRefs": "H-34111P-Asia",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TheraCal PT® Dual-Syringe 2g",
+          "manufacturerRef": "H-34111P-Asia",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Pulpotomy / Pulpotomy Treatment",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/520/images/602/bisco-dental-products-calcium-TheraCal-PT-Syringe__43010.1730387314.1280.1280__06464.1738873756.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/520/images/602/bisco-dental-products-calcium-TheraCal-PT-Syringe__43010.1730387314.1280.1280__06464.1738873756.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/theracal-pt-dual-syringe-2g/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-D-465",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "TheraCem® Ca Dual-Syringe",
+      "manufacturerRef": "BC-D-465",
+      "manufacturerRefs": "BC-D-465",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TheraCem® Ca Dual-Syringe",
+          "manufacturerRef": "BC-D-465",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / THERA Calcium Releasing",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/437/images/549/bisco-dental-products-theracem-ca-syringe__07516.1730390338.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/437/images/549/bisco-dental-products-theracem-ca-syringe__07516.1730390338.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/theracem-ca/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-D-46311P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "TheraCem® Dual-Syringe",
+      "manufacturerRef": "D-46311P",
+      "manufacturerRefs": "D-46311P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "TheraCem® Dual-Syringe",
+          "manufacturerRef": "D-46311P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Indirect Restorations / Self-Adhesive Cementation of glass ceramics",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/436/images/548/bisco-dental-products-calcium-TheraCem-Syringe__36765.1730390349.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/436/images/548/bisco-dental-products-calcium-TheraCem-Syringe__36765.1730390349.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/theracem/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-Uni",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Uni-Etch®",
+      "manufacturerRef": "BC-Uni",
+      "manufacturerRefs": "BC-Uni",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Uni-Etch®",
+          "manufacturerRef": "BC-Uni",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Etchants",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/480/images/632/BISCO_Dental_Products_Etchant_Uni-Etch__60303.1741882812.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/480/images/632/BISCO_Dental_Products_Etchant_Uni-Etch__60303.1741882812.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/uni-etch/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80582P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Uni-Etch® Empty Syringe Accessory Package",
+      "manufacturerRef": "X-80582P",
+      "manufacturerRefs": "X-80582P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Uni-Etch® Empty Syringe Accessory Package",
+          "manufacturerRef": "X-80582P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/511/images/583/bisco_dental_products_Uni-Etch_Refill_Syringe__12611.1731687264.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/511/images/583/bisco_dental_products_Uni-Etch_Refill_Syringe__12611.1731687264.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/uni-etch-empty-syringe-accessory-pack/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-Uni-BAC",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Uni-Etch® w/BAC",
+      "manufacturerRef": "BC-Uni-BAC",
+      "manufacturerRefs": "BC-Uni-BAC",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Uni-Etch® w/BAC",
+          "manufacturerRef": "BC-Uni-BAC",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Bonding Techniques / Total Etch",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/479/images/623/BISCO_Dental_Products_Etchant_Uni-Etch_BAC__13107.1740432129.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/479/images/623/BISCO_Dental_Products_Etchant_Uni-Etch_BAC__13107.1740432129.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/uni-etch-with-bac/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-X-80801P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Unit-Dose Syringe",
+      "manufacturerRef": "X-80801P",
+      "manufacturerRefs": "X-80801P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Unit-Dose Syringe",
+          "manufacturerRef": "X-80801P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Categories / Dental Accessories",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/500/images/567/Unit-Dose_Dispenser_Front__00751.1730321858.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/500/images/567/Unit-Dose_Dispenser_Front__00751.1730321858.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/unit-dose-syringe/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-4110P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Universal Primer™ Part A&B Set",
+      "manufacturerRef": "B-4110P",
+      "manufacturerRefs": "B-4110P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Universal Primer™ Part A&B Set",
+          "manufacturerRef": "B-4110P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Core Build Up / Post Cementation with Core Build Up",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/471/images/535/bisco-dental-products_0002_Universal_PrimerA-and-B__92687.1730385421.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/471/images/535/bisco-dental-products_0002_Universal_PrimerA-and-B__92687.1730385421.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/universal-primer/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-BC-B-600",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "Z-Prime™ Plus",
+      "manufacturerRef": "BC-B-600",
+      "manufacturerRefs": "BC-B-600",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Z-Prime™ Plus",
+          "manufacturerRef": "BC-B-600",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Intraoral Repairs / Intraoral Repair of Porcelain Fused to Metal (PFM)",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/459/images/430/bisco_dental_primer_0001_Z-Prime_Plus_4ml-BottleBoxLarge__60471.1754492845.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/459/images/430/bisco_dental_primer_0001_Z-Prime_Plus_4ml-BottleBoxLarge__60471.1754492845.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/z-prime-plus/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "BISCO-B-7351P",
+      "brand": "BISCO",
+      "manufacturer": "BISCO, Inc.",
+      "name": "ZirClean® Syringe",
+      "manufacturerRef": "B-7351P",
+      "manufacturerRefs": "B-7351P",
+      "model": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "ZirClean® Syringe",
+          "manufacturerRef": "B-7351P",
+          "status": "REFERENCE_CONFIRMED"
+        }
+      ],
+      "categoryPath": "Shop All Procedures / Indirect Restorations / Self-Adhesive Cementation of zirconia or metal",
+      "description": "Текущая товарная позиция подтверждена официальным каталогом BISCO. Варианты фасовки и оттенка сопоставляются по заводскому артикулу.",
+      "sourceImageUrl": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/460/images/543/bisco-dental-cleaner-ZirClean__75472.1730386234.386.513.jpg?c=1",
+      "imageUrls": "https://cdn11.bigcommerce.com/s-4xfcjqmnan/products/460/images/543/bisco-dental-cleaner-ZirClean__75472.1730386234.386.513.jpg?c=1",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.bisco.com/zirclean/",
+      "additionalSourceUrls": "https://www.bisco.com/xmlsitemap.php?type=products&page=1",
+      "kzEvidence": "BRAND_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    }
+  ]
+}

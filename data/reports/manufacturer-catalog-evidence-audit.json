@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T20:33:35.041Z",
+  "generatedAt": "2026-07-23T00:41:07.984Z",
   "policy": {
     "exactPhotoRequired": true,
     "manufacturerReferenceRequired": true,
@@ -7,16 +7,17 @@
     "missingFieldsNeverDeleteCard": true
   },
   "totals": {
-    "products": 4023,
-    "variantSkus": 4800,
-    "withPhoto": 4023,
-    "withoutPhoto": 0,
-    "withManufacturerReference": 3504,
-    "withoutManufacturerReference": 519,
+    "products": 21641,
+    "variantSkus": 33805,
+    "withPhoto": 21034,
+    "withoutPhoto": 607,
+    "withManufacturerReference": 18086,
+    "withoutManufacturerReference": 3555,
     "statusCounts": {
-      "MANUFACTURER_REFERENCE_REQUIRED": 519,
-      "CANONICAL_CONTENT_READY": 97,
-      "KZ_SKU_EVIDENCE_REQUIRED": 3407
+      "MANUFACTURER_REFERENCE_REQUIRED": 3296,
+      "CANONICAL_CONTENT_READY": 568,
+      "KZ_SKU_EVIDENCE_REQUIRED": 17170,
+      "PHOTO_REQUIRED": 607
     }
   },
   "sources": [
@@ -53,6 +54,735 @@
       "withPhoto": 107,
       "withReference": 0,
       "variantSkus": 107,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Pierrot official",
+      "products": 24,
+      "withPhoto": 24,
+      "withReference": 0,
+      "variantSkus": 24,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "LaTus official",
+      "products": 151,
+      "withPhoto": 150,
+      "withReference": 151,
+      "variantSkus": 290,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 150
+    },
+    {
+      "source": "DentKist official",
+      "products": 26,
+      "withPhoto": 26,
+      "withReference": 0,
+      "variantSkus": 26,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Кормед official",
+      "products": 37,
+      "withPhoto": 36,
+      "withReference": 35,
+      "variantSkus": 261,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 34
+    },
+    {
+      "source": "Saeshin official",
+      "products": 17,
+      "withPhoto": 17,
+      "withReference": 12,
+      "variantSkus": 17,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 12
+    },
+    {
+      "source": "NIC official",
+      "products": 68,
+      "withPhoto": 67,
+      "withReference": 0,
+      "variantSkus": 68,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "IMD official",
+      "products": 70,
+      "withPhoto": 70,
+      "withReference": 0,
+      "variantSkus": 70,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Alpha-Bio Tec. official KZ representative",
+      "products": 261,
+      "withPhoto": 261,
+      "withReference": 261,
+      "variantSkus": 553,
+      "canonicalContentReady": 261,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Osstem Kazakhstan",
+      "products": 60,
+      "withPhoto": 0,
+      "withReference": 0,
+      "variantSkus": 60,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "MEDESY official",
+      "products": 433,
+      "withPhoto": 433,
+      "withReference": 433,
+      "variantSkus": 2243,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 433
+    },
+    {
+      "source": "Septodont official",
+      "products": 55,
+      "withPhoto": 55,
+      "withReference": 0,
+      "variantSkus": 55,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Zhermack official",
+      "products": 94,
+      "withPhoto": 93,
+      "withReference": 86,
+      "variantSkus": 278,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 86
+    },
+    {
+      "source": "MELAG official",
+      "products": 83,
+      "withPhoto": 70,
+      "withReference": 83,
+      "variantSkus": 83,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 70
+    },
+    {
+      "source": "DIO official",
+      "products": 26,
+      "withPhoto": 26,
+      "withReference": 0,
+      "variantSkus": 26,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Medit official",
+      "products": 10,
+      "withPhoto": 7,
+      "withReference": 10,
+      "variantSkus": 10,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 7
+    },
+    {
+      "source": "SHINING 3D official",
+      "products": 17,
+      "withPhoto": 13,
+      "withReference": 17,
+      "variantSkus": 17,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 13
+    },
+    {
+      "source": "Genoray official",
+      "products": 9,
+      "withPhoto": 9,
+      "withReference": 9,
+      "variantSkus": 9,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 9
+    },
+    {
+      "source": "Good Doctors official",
+      "products": 41,
+      "withPhoto": 41,
+      "withReference": 41,
+      "variantSkus": 41,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 41
+    },
+    {
+      "source": "OSUNG official distributor",
+      "products": 1642,
+      "withPhoto": 1642,
+      "withReference": 1642,
+      "variantSkus": 1642,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 1642
+    },
+    {
+      "source": "BEGO official",
+      "products": 1917,
+      "withPhoto": 1907,
+      "withReference": 1917,
+      "variantSkus": 1917,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 1907
+    },
+    {
+      "source": "Dürr Dental official",
+      "products": 84,
+      "withPhoto": 84,
+      "withReference": 0,
+      "variantSkus": 155,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "RAY official",
+      "products": 79,
+      "withPhoto": 58,
+      "withReference": 58,
+      "variantSkus": 90,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 58
+    },
+    {
+      "source": "Myobrace official",
+      "products": 24,
+      "withPhoto": 0,
+      "withReference": 24,
+      "variantSkus": 59,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "KaVo official",
+      "products": 80,
+      "withPhoto": 79,
+      "withReference": 38,
+      "variantSkus": 376,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 38
+    },
+    {
+      "source": "Morita official",
+      "products": 33,
+      "withPhoto": 33,
+      "withReference": 0,
+      "variantSkus": 33,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Revyline Kazakhstan official",
+      "products": 208,
+      "withPhoto": 208,
+      "withReference": 208,
+      "variantSkus": 358,
+      "canonicalContentReady": 208,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Бинергия official",
+      "products": 25,
+      "withPhoto": 25,
+      "withReference": 0,
+      "variantSkus": 25,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Линтэкс official",
+      "products": 17,
+      "withPhoto": 17,
+      "withReference": 0,
+      "variantSkus": 17,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "МедиДез Kazakhstan official",
+      "products": 44,
+      "withPhoto": 44,
+      "withReference": 0,
+      "variantSkus": 44,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Aes observed in Kazakhstan",
+      "products": 1,
+      "withPhoto": 1,
+      "withReference": 1,
+      "variantSkus": 3,
+      "canonicalContentReady": 1,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "BIOLA observed in Kazakhstan",
+      "products": 1,
+      "withPhoto": 1,
+      "withReference": 1,
+      "variantSkus": 5,
+      "canonicalContentReady": 1,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Amazing White official importer",
+      "products": 25,
+      "withPhoto": 25,
+      "withReference": 0,
+      "variantSkus": 25,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Anthos official",
+      "products": 51,
+      "withPhoto": 51,
+      "withReference": 0,
+      "variantSkus": 62,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Denti.kz exact brand listings",
+      "products": 713,
+      "withPhoto": 706,
+      "withReference": 0,
+      "variantSkus": 2112,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Averon official",
+      "products": 811,
+      "withPhoto": 811,
+      "withReference": 811,
+      "variantSkus": 811,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 811
+    },
+    {
+      "source": "BiLumix official",
+      "products": 25,
+      "withPhoto": 25,
+      "withReference": 23,
+      "variantSkus": 109,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 23
+    },
+    {
+      "source": "Ajax official",
+      "products": 63,
+      "withPhoto": 46,
+      "withReference": 55,
+      "variantSkus": 63,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 46
+    },
+    {
+      "source": "Dental Art official",
+      "products": 19,
+      "withPhoto": 19,
+      "withReference": 0,
+      "variantSkus": 19,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Castellini official",
+      "products": 49,
+      "withPhoto": 15,
+      "withReference": 0,
+      "variantSkus": 52,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Diplomat Dental official",
+      "products": 12,
+      "withPhoto": 12,
+      "withReference": 0,
+      "variantSkus": 14,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Doctor Smile official",
+      "products": 17,
+      "withPhoto": 17,
+      "withReference": 4,
+      "variantSkus": 40,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 4
+    },
+    {
+      "source": "Dental X regional brand catalog",
+      "products": 39,
+      "withPhoto": 39,
+      "withReference": 0,
+      "variantSkus": 39,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "DENU / HDI official catalog",
+      "products": 46,
+      "withPhoto": 0,
+      "withReference": 0,
+      "variantSkus": 102,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "UP3D official",
+      "products": 19,
+      "withPhoto": 18,
+      "withReference": 0,
+      "variantSkus": 19,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "MyRay official",
+      "products": 18,
+      "withPhoto": 18,
+      "withReference": 0,
+      "variantSkus": 18,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "MGF official",
+      "products": 312,
+      "withPhoto": 312,
+      "withReference": 305,
+      "variantSkus": 312,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 305
+    },
+    {
+      "source": "Kaeser dental official",
+      "products": 6,
+      "withPhoto": 4,
+      "withReference": 0,
+      "variantSkus": 31,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Humanchemie official",
+      "products": 30,
+      "withPhoto": 30,
+      "withReference": 30,
+      "variantSkus": 30,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 30
+    },
+    {
+      "source": "Madespa official",
+      "products": 43,
+      "withPhoto": 43,
+      "withReference": 0,
+      "variantSkus": 43,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Handy official",
+      "products": 10,
+      "withPhoto": 10,
+      "withReference": 0,
+      "variantSkus": 13,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Olident official",
+      "products": 40,
+      "withPhoto": 38,
+      "withReference": 0,
+      "variantSkus": 40,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Falcon official",
+      "products": 4307,
+      "withPhoto": 4297,
+      "withReference": 4307,
+      "variantSkus": 4307,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 4297
+    },
+    {
+      "source": "SANI official",
+      "products": 28,
+      "withPhoto": 28,
+      "withReference": 0,
+      "variantSkus": 28,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "NTI official",
+      "products": 721,
+      "withPhoto": 721,
+      "withReference": 721,
+      "variantSkus": 3721,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 721
+    },
+    {
+      "source": "Strauss official",
+      "products": 1798,
+      "withPhoto": 1798,
+      "withReference": 1798,
+      "variantSkus": 1798,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 1798
+    },
+    {
+      "source": "Suntem official",
+      "products": 11,
+      "withPhoto": 11,
+      "withReference": 11,
+      "variantSkus": 11,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 11
+    },
+    {
+      "source": "Mercury official",
+      "products": 108,
+      "withPhoto": 108,
+      "withReference": 98,
+      "variantSkus": 108,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 98
+    },
+    {
+      "source": "Gapadent KZ and verified range",
+      "products": 11,
+      "withPhoto": 1,
+      "withReference": 0,
+      "variantSkus": 65,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Dräger official anesthesia range",
+      "products": 12,
+      "withPhoto": 0,
+      "withReference": 0,
+      "variantSkus": 17,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "BISCO official",
+      "products": 82,
+      "withPhoto": 82,
+      "withReference": 82,
+      "variantSkus": 82,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 82
+    },
+    {
+      "source": "GC Europe official",
+      "products": 154,
+      "withPhoto": 154,
+      "withReference": 0,
+      "variantSkus": 154,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "NSK official Japan",
+      "products": 70,
+      "withPhoto": 26,
+      "withReference": 52,
+      "variantSkus": 350,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 25
+    },
+    {
+      "source": "W&H official global",
+      "products": 63,
+      "withPhoto": 48,
+      "withReference": 52,
+      "variantSkus": 278,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 44
+    },
+    {
+      "source": "Ultradent official",
+      "products": 185,
+      "withPhoto": 185,
+      "withReference": 185,
+      "variantSkus": 899,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 185
+    },
+    {
+      "source": "Ivoclar official Russian range",
+      "products": 107,
+      "withPhoto": 103,
+      "withReference": 0,
+      "variantSkus": 107,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Tealth official",
+      "products": 98,
+      "withPhoto": 98,
+      "withReference": 33,
+      "variantSkus": 114,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 33
+    },
+    {
+      "source": "CICADA official",
+      "products": 52,
+      "withPhoto": 52,
+      "withReference": 52,
+      "variantSkus": 52,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 52
+    },
+    {
+      "source": "YouJoy official",
+      "products": 33,
+      "withPhoto": 33,
+      "withReference": 0,
+      "variantSkus": 33,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Shofu official",
+      "products": 97,
+      "withPhoto": 97,
+      "withReference": 0,
+      "variantSkus": 97,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "VOCO official",
+      "products": 166,
+      "withPhoto": 165,
+      "withReference": 139,
+      "variantSkus": 362,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 138
+    },
+    {
+      "source": "Kuraray Noritake official",
+      "products": 49,
+      "withPhoto": 49,
+      "withReference": 40,
+      "variantSkus": 152,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 40
+    },
+    {
+      "source": "Kulzer official",
+      "products": 249,
+      "withPhoto": 249,
+      "withReference": 0,
+      "variantSkus": 249,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "VITA official",
+      "products": 80,
+      "withPhoto": 77,
+      "withReference": 0,
+      "variantSkus": 80,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "LM Dental official",
+      "products": 362,
+      "withPhoto": 358,
+      "withReference": 289,
+      "variantSkus": 362,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 289
+    },
+    {
+      "source": "Woodpecker official",
+      "products": 145,
+      "withPhoto": 145,
+      "withReference": 0,
+      "variantSkus": 145,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "FOMOS official",
+      "products": 20,
+      "withPhoto": 20,
+      "withReference": 0,
+      "variantSkus": 20,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Dentsply Sirona official",
+      "products": 105,
+      "withPhoto": 91,
+      "withReference": 0,
+      "variantSkus": 105,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Kerr official regional catalog",
+      "products": 31,
+      "withPhoto": 30,
+      "withReference": 0,
+      "variantSkus": 31,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 0
+    },
+    {
+      "source": "Solventum official oral care",
+      "products": 246,
+      "withPhoto": 209,
+      "withReference": 228,
+      "variantSkus": 1369,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 191
+    },
+    {
+      "source": "VRN official",
+      "products": 40,
+      "withPhoto": 40,
+      "withReference": 40,
+      "variantSkus": 40,
+      "canonicalContentReady": 0,
+      "kzSkuEvidenceRequired": 40
+    },
+    {
+      "source": "IQ Dent official",
+      "products": 203,
+      "withPhoto": 0,
+      "withReference": 200,
+      "variantSkus": 1060,
       "canonicalContentReady": 0,
       "kzSkuEvidenceRequired": 0
     }

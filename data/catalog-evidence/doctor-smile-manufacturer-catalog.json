@@ -1,0 +1,583 @@
+{
+  "brand": "Doctor Smile",
+  "manufacturer": "Lambda S.p.A.",
+  "sourceType": "OFFICIAL_CURRENT_PRODUCT_PORTFOLIO",
+  "sourceUrl": "https://www.doctor-smile.com/en/products/",
+  "lastChecked": "2026-07-22",
+  "policy": {
+    "separateBundleWithoutDistinctOrderCodeKeepsReferenceAmbiguous": true,
+    "seriesCodeIsNotTreatedAsSku": true,
+    "overviewCategoryIsNotInventedAsProduct": true
+  },
+  "totals": {
+    "discoveredProducts": 17,
+    "variantSkus": 40,
+    "productsWithReferences": 4,
+    "productsWithImages": 17,
+    "crawlErrors": 0
+  },
+  "errors": [],
+  "products": [
+    {
+      "officialProductId": "DOCTOR-SMILE-WISER-2",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "WISER 2",
+      "manufacturerRef": "",
+      "manufacturerRefs": "LA8D0001.3 | LA8D0002.2",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "LA8D",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "LA8D0001-3",
+          "label": "LA8D0001.3",
+          "model": "LA8D0001.3",
+          "manufacturerRef": "LA8D0001.3"
+        },
+        {
+          "variantId": "LA8D0002-2",
+          "label": "LA8D0002.2",
+          "model": "LA8D0002.2",
+          "manufacturerRef": "LA8D0002.2"
+        }
+      ],
+      "categoryPath": "Стоматологические лазеры",
+      "description": "Wiser laser diode: faster treatments, faster healing time, bloodless operations, less anesthesia, less pain. Welcome to the perfect dental practice!",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2021/03/WISER-1.jpeg",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2021/03/WISER-1.jpeg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/wiser-diode-laser/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-WISER-3",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "WISER 3",
+      "manufacturerRef": "",
+      "manufacturerRefs": "LA12D001.4 | LA12D001.5",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "LA12D",
+      "variantCount": 2,
+      "variants": [
+        {
+          "variantId": "LA12D001-4",
+          "label": "LA12D001.4",
+          "model": "LA12D001.4",
+          "manufacturerRef": "LA12D001.4"
+        },
+        {
+          "variantId": "LA12D001-5",
+          "label": "LA12D001.5",
+          "model": "LA12D001.5",
+          "manufacturerRef": "LA12D001.5"
+        }
+      ],
+      "categoryPath": "Стоматологические лазеры",
+      "description": "Wiser 3 with the new and intuitive graphic interface allows three different modes of use: Assisted, Advanced and Effect, accompanying you day after day in the discovery of the infinite possibilities of laser technology.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2021/03/WISER3-1.jpeg",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2021/03/WISER3-1.jpeg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/wiser-3/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-PLUSER",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "PLUSER",
+      "manufacturerRef": "LAERT001.1",
+      "manufacturerRefs": "LAERT001.1",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantId": "LAERT001-1",
+          "label": "LAERT001.1",
+          "model": "LAERT001.1",
+          "manufacturerRef": "LAERT001.1"
+        }
+      ],
+      "categoryPath": "Стоматологические лазеры",
+      "description": "Pluser is a high-tech medical device that will launch the traditional dental practice into the future: dental laser that allows applications in the dental field with a wide range of handpieces that can be adopted for simple and effective applications.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2021/03/PLUSER-1.jpeg",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2021/03/PLUSER-1.jpeg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/laser-erbium-pluser/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-PLUSER-KOMBI",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "PLUSER KOMBI",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "LAERT001.1",
+      "modelSeries": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Стоматологические лазеры",
+      "description": "Pluser is a high-tech medical device that will launch the traditional dental practice into the future: dental laser that allows applications in the dental field with a wide range of handpieces that can be adopted for simple and effective applications.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2022/09/PLUSER-KOMBI-_sito.png",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2022/09/PLUSER-KOMBI-_sito.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/pluser-kombi/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "Official page describes LAERT001.1 combined with a diode accessory; a distinct bundle order code is not published.",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-SIMPLER",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "SIMPLER",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "LA9D",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Стоматологические лазеры",
+      "description": "",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2021/05/SIMPLER2.png",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2021/05/SIMPLER2.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/simpler-2/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-LWS-LASER-WHITENING-SYSTEM",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "LWS Laser Whitening System",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Материалы для отбеливания",
+      "description": "The LWS Laser Whitening System is a professional product for dental bleaching, for use with Doctor Smile 980nm lasers.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2024/12/LWS-NEW.png",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2024/12/LWS-NEW.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/lws-laser-whitening-system/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-SEALVER-GEL",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "Sealver GEL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Лазерные расходные материалы",
+      "description": "Sealver gel is suitable for those who are sensitive. With the Sealver gel desensitizing treatment you can bite into anything!",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2024/12/SEALVER-NEW.png",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2024/12/SEALVER-NEW.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/sealver-gel/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-SIOXYL",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "SIOXYL",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Лазерные расходные материалы",
+      "description": "Sioxyl is the ultra-concentrated solution based on hydrogen peroxide that reclaims the periodontal pockets, freeing them from the bacterial load.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2021/03/SIOXYL-3.jpeg",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2021/03/SIOXYL-3.jpeg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/sioxyl/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-DIODE-LASER-TIPS",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "Diode laser tips",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 5,
+      "variants": [
+        {
+          "variantId": "IMPLANT",
+          "label": "Implant",
+          "model": "Implant",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "THERAPY",
+          "label": "Therapy",
+          "model": "Therapy",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "PERIODONTOLOGY",
+          "label": "Periodontology",
+          "model": "Periodontology",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "SURGERY",
+          "label": "Surgery",
+          "model": "Surgery",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "ENDODONTICS",
+          "label": "Endodontics",
+          "model": "Endodontics",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Насадки для лазеров",
+      "description": "The doctor smile lasers are equipped with numerous accessories, designed for a quick and easy application to the device. Various types of tips and fibres are available for diode and erbium lasers.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2021/03/TIP-DIODO-2.jpeg",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2021/03/TIP-DIODO-2.jpeg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/fibre-and-tips/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-ERBIUM-LASER-TIPS",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "Erbium laser tips",
+      "manufacturerRef": "",
+      "manufacturerRefs": "LAEH4008.1 | LAEH4012.1 | LAEH6008.1 | LAEH6012.1 | LAEH8004.1 | LAEH8008.1 | LAEH8012.1 | LAEH8081.1",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 8,
+      "variants": [
+        {
+          "variantId": "LAEH4008-1",
+          "label": "LAEH4008.1",
+          "model": "LAEH4008.1",
+          "manufacturerRef": "LAEH4008.1"
+        },
+        {
+          "variantId": "LAEH4012-1",
+          "label": "LAEH4012.1",
+          "model": "LAEH4012.1",
+          "manufacturerRef": "LAEH4012.1"
+        },
+        {
+          "variantId": "LAEH6008-1",
+          "label": "LAEH6008.1",
+          "model": "LAEH6008.1",
+          "manufacturerRef": "LAEH6008.1"
+        },
+        {
+          "variantId": "LAEH6012-1",
+          "label": "LAEH6012.1",
+          "model": "LAEH6012.1",
+          "manufacturerRef": "LAEH6012.1"
+        },
+        {
+          "variantId": "LAEH8004-1",
+          "label": "LAEH8004.1",
+          "model": "LAEH8004.1",
+          "manufacturerRef": "LAEH8004.1"
+        },
+        {
+          "variantId": "LAEH8008-1",
+          "label": "LAEH8008.1",
+          "model": "LAEH8008.1",
+          "manufacturerRef": "LAEH8008.1"
+        },
+        {
+          "variantId": "LAEH8012-1",
+          "label": "LAEH8012.1",
+          "model": "LAEH8012.1",
+          "manufacturerRef": "LAEH8012.1"
+        },
+        {
+          "variantId": "LAEH8081-1",
+          "label": "LAEH8081.1",
+          "model": "LAEH8081.1",
+          "manufacturerRef": "LAEH8081.1"
+        }
+      ],
+      "categoryPath": "Насадки для лазеров",
+      "description": "The doctor smile lasers are equipped with numerous accessories, designed for a quick and easy application to the device. Different fibers and tips are available for each type of application.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2021/03/TIP-ERBIO-2.jpeg",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2021/03/TIP-ERBIO-2.jpeg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/tips-erbium/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "KZ_SKU_EVIDENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-DIODE-LASER-HANDPIECES",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "Diode laser handpieces",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantId": "WISER-HANDPIECE",
+          "label": "WISER handpiece",
+          "model": "WISER handpiece",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "BIOSTIMULATION-TIP",
+          "label": "Biostimulation tip",
+          "model": "Biostimulation tip",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "WHITENING-TIP-WIDE-AREA",
+          "label": "Whitening tip wide area",
+          "model": "Whitening tip wide area",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "SIMPLER-HANDPIECE",
+          "label": "SIMPLER handpiece",
+          "model": "SIMPLER handpiece",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "SIMPLER-HANDPIECE-SMALL-AREA",
+          "label": "SIMPLER handpiece small area",
+          "model": "SIMPLER handpiece small area",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "SIMPLER-HANDPIECE-WIDE-AREA",
+          "label": "SIMPLER handpiece wide area",
+          "model": "SIMPLER handpiece wide area",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Манипулы для лазеров",
+      "description": "In this page we will go to see the doctor-smile diode laser handpieces; you will find images and features of each single product.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2021/03/MANIPOLI-DIODO-1.jpeg",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2021/03/MANIPOLI-DIODO-1.jpeg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/handpieces/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-ERBIUM-LASER-HANDPIECES",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "Erbium laser handpieces",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 6,
+      "variants": [
+        {
+          "variantId": "ERBIUM-0",
+          "label": "Erbium 0°",
+          "model": "Erbium 0°",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "ERBIUM-BOOST-110",
+          "label": "Erbium BOOST 110°",
+          "model": "Erbium BOOST 110°",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "ERBIUM-90",
+          "label": "Erbium 90°",
+          "model": "Erbium 90°",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "ERBIUM-ENDO",
+          "label": "Erbium ENDO",
+          "model": "Erbium ENDO",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "ERBIUM-FRACTIONAL",
+          "label": "Erbium FRACTIONAL",
+          "model": "Erbium FRACTIONAL",
+          "manufacturerRef": ""
+        },
+        {
+          "variantId": "ERBIUM-FULL-FIELD",
+          "label": "Erbium FULL FIELD",
+          "model": "Erbium FULL FIELD",
+          "manufacturerRef": ""
+        }
+      ],
+      "categoryPath": "Манипулы для лазеров",
+      "description": "In this page we will go to see the doctor-smile erbium laser handpieces; you will find images and features of each single product.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2021/03/MANIPOLI-ERBIO-1.jpeg",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2021/03/MANIPOLI-ERBIO-1.jpeg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/erbium-handpieces/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-FLAT-TOP-HANDPIECE",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "FLAT TOP handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Манипулы для лазеров",
+      "description": "Flat Top: flat wave accessory handpiece that allows photobiomodulation of tissues to provide relief from inflammation, neurogenic pain and neurological problems.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2021/03/MOP-3.jpeg",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2021/03/MOP-3.jpeg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/flat-top-handpiece/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-REVIVE-HANDPIECE",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "REVIVE handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Манипулы для лазеров",
+      "description": "With REVIVE you expand the possibilities of treatments carried out in your clinic, and patients will benefit from specific extra services for their health and beauty.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2021/03/REVIVE-3.jpeg",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2021/03/REVIVE-3.jpeg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/revive/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-VASCULATE-HANDPIECE",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "VASCULATE handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Манипулы для лазеров",
+      "description": "",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2024/02/manipolo-Vasculate.png",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2024/02/manipolo-Vasculate.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/vasculate/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-TMI-HANDPIECE",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "TMI handpiece",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Манипулы для лазеров",
+      "description": "The exclusive laser handpiece for a complete oral health.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2025/11/TMI.png",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2025/11/TMI.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/tmi/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    },
+    {
+      "officialProductId": "DOCTOR-SMILE-GLASERS",
+      "brand": "Doctor Smile",
+      "manufacturer": "Lambda S.p.A.",
+      "name": "GLASERS",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "ambiguousManufacturerRef": "",
+      "modelSeries": "",
+      "variantCount": 1,
+      "variants": [],
+      "categoryPath": "Защитные очки для лазеров",
+      "description": "Reach a new level of precision and safety thanks to our innovative laser safety glasses.",
+      "sourceImageUrl": "https://www.doctor-smile.com/wp-content/uploads/2025/02/GLASERS-PRODOTTO.png",
+      "imageUrls": "https://www.doctor-smile.com/wp-content/uploads/2025/02/GLASERS-PRODOTTO.png",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.doctor-smile.com/en/glasers/",
+      "sourcePortfolioUrl": "https://www.doctor-smile.com/en/products/",
+      "sourceNote": "",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_MARKET",
+      "status": "MANUFACTURER_REFERENCE_REQUIRED"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "brand": "Ivoclar",
+  "manufacturer": "Ivoclar Vivadent AG",
+  "sourceType": "OFFICIAL_MANUFACTURER_PRODUCT_PAGE_IMAGES",
+  "lastChecked": "2026-07-23",
+  "policy": {
+    "pageReferenceRequired": true,
+    "allImageHashesPinned": true,
+    "noGeneratedProductGeometry": true,
+    "unmatchedProductsRemainOnModeration": true
+  },
+  "totals": {
+    "targets": 4,
+    "recovered": 4,
+    "recoveredThisRun": 4,
+    "retainedFromPreviousRuns": 0,
+    "reviewRequired": 0
+  },
+  "products": [
+    {
+      "officialProductId": "IVOCLAR-VACUUM-PUMP-VP5",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Вакуумный насос VP5",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Вакуумный насос VP5",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Вакуумный насос VP5",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ivoclar-vacuum-pump-vp5-31259cb268.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ivoclar-vacuum-pump-vp5-31259cb268.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/en_li/products/equipment/vacuum-pump-vp5",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_EXACT_RESPONSIVE_IMAGE",
+        "officialProductPageUrl": "https://www.ivoclar.com/en_li/products/equipment/vacuum-pump-vp5",
+        "officialSourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Equipment/Vacuum%20Pumps/Vacuum%20Pump%20VP5/15741/image-thumb__15741__cms_teaser_1/vp5~-~media--7e50ec73--query@2x.7d5a1a67.jpg",
+        "sourceImageSha256": "31259cb268808e5d56bbce8d9c9da8c72fa64c7838d738b6970100920666673d",
+        "sha256": "31259cb268808e5d56bbce8d9c9da8c72fa64c7838d738b6970100920666673d",
+        "bytes": 33812,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "IVOCLAR-STRATOS-100",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Stratos 100",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Stratos 100",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Stratos 100",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Артикулятор со средними параметрами",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ivoclar-stratos-100-af6a5cef3e.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ivoclar-stratos-100-af6a5cef3e.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/en_li/products/equipment/stratos-100",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_EXACT_RESPONSIVE_IMAGE",
+        "officialProductPageUrl": "https://www.ivoclar.com/en_li/products/equipment/stratos-100",
+        "officialSourceImageUrl": "https://www.ivoclar.com/cache-buster-2/GLOBAL%20-%20MEDIA/Products/Equipment/Stratos/12117/image-thumb__12117__cms_teaser_1/stratos_100_product~-~media--7e50ec73--query@2x.387a5d16.jpg",
+        "sourceImageSha256": "af6a5cef3ebf1bdfe84542f874bb60b4f3b4e2e23d0292eb5be9ac66fb2aaf18",
+        "sha256": "af6a5cef3ebf1bdfe84542f874bb60b4f3b4e2e23d0292eb5be9ac66fb2aaf18",
+        "bytes": 171715,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "IVOCLAR-STRATOS-200",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Stratos 200",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Stratos 200",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Stratos 200",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Полурегулируемый артикулятор",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ivoclar-stratos-200-b44238f804.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ivoclar-stratos-200-b44238f804.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/en_li/products/equipment/stratos-200",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_EXACT_RESPONSIVE_IMAGE",
+        "officialProductPageUrl": "https://www.ivoclar.com/en_li/products/equipment/stratos-200",
+        "officialSourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Equipment/Stratos/12109/image-thumb__12109__cms_teaser_1/stratos_200_product~-~media--7e50ec73--query@2x.af735a8b.jpg",
+        "sourceImageSha256": "b44238f804521a5b4f1f1aa2a57909eacdd18236008b07f6454030ca8f59ec24",
+        "sha256": "b44238f804521a5b4f1f1aa2a57909eacdd18236008b07f6454030ca8f59ec24",
+        "bytes": 197182,
+        "contentType": "image/jpeg"
+      }
+    },
+    {
+      "officialProductId": "IVOCLAR-STRATOS-300",
+      "brand": "Ivoclar",
+      "manufacturer": "Ivoclar Vivadent AG",
+      "name": "Stratos 300",
+      "manufacturerRef": "",
+      "manufacturerRefs": "",
+      "model": "Stratos 300",
+      "variantCount": 1,
+      "variants": [
+        {
+          "variantLabel": "Stratos 300",
+          "manufacturerRef": "",
+          "status": "MANUFACTURER_REFERENCE_REQUIRED"
+        }
+      ],
+      "categoryPath": "Ivoclar / equipment",
+      "description": "Полностью регулируемый артикулятор",
+      "sourceImageUrl": "https://dentmarket-shop.vercel.app/catalog/products/official-ivoclar-stratos-300-8106848a83.jpg",
+      "imageUrls": "https://dentmarket-shop.vercel.app/catalog/products/official-ivoclar-stratos-300-8106848a83.jpg",
+      "imageCount": 1,
+      "sourcePageUrl": "https://www.ivoclar.com/en_li/products/equipment/stratos-300",
+      "kzEvidence": "BRAND_AND_SELECTED_PRODUCTS_OBSERVED_IN_KAZAKHSTAN_EXACT_SKU_REVIEW_REQUIRED",
+      "status": "OFFICIAL_EXACT_PRODUCT_IMAGE_RECOVERED",
+      "photoEvidence": {
+        "method": "OFFICIAL_PRODUCT_PAGE_EXACT_RESPONSIVE_IMAGE",
+        "officialProductPageUrl": "https://www.ivoclar.com/en_li/products/equipment/stratos-300",
+        "officialSourceImageUrl": "https://www.ivoclar.com/cache-buster-3/GLOBAL%20-%20MEDIA/Products/Equipment/Stratos/15823/image-thumb__15823__cms_teaser_1/stratos-300_product~-~media--7e50ec73--query@2x.24c6b8da.jpg",
+        "sourceImageSha256": "8106848a8380755ef756d7b9c7b24f95c672aa3aa2ad993e402b76295fa06525",
+        "sha256": "8106848a8380755ef756d7b9c7b24f95c672aa3aa2ad993e402b76295fa06525",
+        "bytes": 189368,
+        "contentType": "image/jpeg"
+      }
+    }
+  ]
+}
