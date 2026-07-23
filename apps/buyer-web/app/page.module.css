@@ -1443,6 +1443,8 @@
   background: #f4f6f4;
 }
 .publicMain .productVisual img {
+  position: absolute;
+  inset: 0;
   display: block;
   box-sizing: border-box;
   width: 100%;
