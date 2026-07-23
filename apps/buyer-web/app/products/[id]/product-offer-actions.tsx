@@ -1,12 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   MarketplaceApiClient,
   parseSessionHandoff,
 } from "@marketplace/api-client";
 import { Cart24Regular } from "@fluentui/react-icons";
 import { loginUrl } from "../../public-links";
+import {
+  addDemoCartItem,
+  readDemoCart,
+  setDemoCartQuantity,
+  type DemoCartItem,
+} from "../../demo-cart";
 import styles from "./page.module.css";
 
 type Offer = {
@@ -33,10 +39,48 @@ function deliveryLabel(methods: string[] = []) {
   return "Условия уточняются";
 }
 
-export default function ProductOfferActions({ offers }: { offers: Offer[] }) {
+export default function ProductOfferActions({
+  offers,
+  productId,
+  productName,
+}: {
+  offers: Offer[];
+  productId: string;
+  productName: string;
+}) {
   const [compareOpen, setCompareOpen] = useState(false);
   const [busyOfferId, setBusyOfferId] = useState<string | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
+  const [demoItems, setDemoItems] = useState<DemoCartItem[]>([]);
+
+  useEffect(() => {
+    setDemoItems(readDemoCart());
+    const onCartUpdated = () => setDemoItems(readDemoCart());
+    window.addEventListener("dentmarket:demo-cart-updated", onCartUpdated);
+    return () =>
+      window.removeEventListener("dentmarket:demo-cart-updated", onCartUpdated);
+  }, []);
+
+  const demoItem = (offer: Offer) =>
+    demoItems.find((item) => item.offerId === offer.id);
+
+  const saveDemoItem = (offer: Offer, quantity = 1) => {
+    const items = addDemoCartItem(
+      {
+        id: `${productId}:${offer.id}`,
+        offerId: offer.id,
+        productId,
+        productName,
+        supplierName: offer.supplier.name,
+        priceMinor: String(offer.priceMinor ?? "0"),
+        currency: offer.currency || "KZT",
+        packaging: offer.packaging?.name ?? "Фасовка уточняется",
+      },
+      quantity,
+    );
+    setDemoItems(items);
+    setNotice("Позиция добавлена в демо-корзину");
+  };
 
   const addToCart = async (offer: Offer) => {
     const session = parseSessionHandoff(
@@ -78,10 +122,53 @@ export default function ProductOfferActions({ offers }: { offers: Offer[] }) {
       });
       setNotice("Позиция добавлена в корзину");
     } catch {
-      setNotice("Не удалось добавить позицию. Повторите попытку.");
+      saveDemoItem(offer);
     } finally {
       setBusyOfferId(null);
     }
+  };
+
+  const addOrIncrease = (offer: Offer) => {
+    if (demoItem(offer)) {
+      const items = setDemoCartQuantity(
+        demoItem(offer)!.id,
+        demoItem(offer)!.quantity + 1,
+      );
+      setDemoItems(items);
+      setNotice("Количество увеличено");
+      return;
+    }
+    void addToCart(offer);
+  };
+
+  const renderQuantity = (offer: Offer) => {
+    const item = demoItem(offer);
+    if (!item) return null;
+    return (
+      <div className={styles.quantityControl} aria-label={`Количество ${item.productName}`}>
+        <button
+          type="button"
+          aria-label="Уменьшить количество"
+          onClick={() => {
+            const items = setDemoCartQuantity(item.id, item.quantity - 1);
+            setDemoItems(items);
+          }}
+        >
+          −
+        </button>
+        <strong>{item.quantity}</strong>
+        <button
+          type="button"
+          aria-label="Увеличить количество"
+          onClick={() => {
+            const items = setDemoCartQuantity(item.id, item.quantity + 1);
+            setDemoItems(items);
+          }}
+        >
+          +
+        </button>
+      </div>
+    );
   };
 
   return (
@@ -94,12 +181,20 @@ export default function ProductOfferActions({ offers }: { offers: Offer[] }) {
             const offer = offers.find(
               (item) => item.available && item.verifiedDocuments !== false,
             );
-            if (offer) void addToCart(offer);
+            if (offer) addOrIncrease(offer);
           }}
           disabled={busyOfferId !== null}
         >
           <Cart24Regular aria-hidden="true" />
-          {busyOfferId ? "Добавляем" : "В корзину"}
+          {busyOfferId
+            ? "Добавляем"
+            : demoItem(
+                  offers.find(
+                    (item) => item.available && item.verifiedDocuments !== false,
+                  )!,
+                )
+              ? "Добавить ещё"
+              : "В корзину"}
         </button>
       ) : null}
       <button className={styles.compareButton} type="button" onClick={() => setCompareOpen(true)}>
@@ -124,6 +219,7 @@ export default function ProductOfferActions({ offers }: { offers: Offer[] }) {
                     <strong>{formatPrice(offer.priceMinor, offer.currency)}</strong>
                     <span className={offer.available ? styles.available : styles.onRequest}>{offer.available ? "В наличии" : "Под заказ"}</span>
                     {offer.verifiedDocuments ? <small>Документы проверены</small> : null}
+                    {renderQuantity(offer)}
                     <button
                       className={styles.addToCartButton}
                       type="button"
@@ -132,10 +228,10 @@ export default function ProductOfferActions({ offers }: { offers: Offer[] }) {
                         !offer.available ||
                         offer.verifiedDocuments === false
                       }
-                      onClick={() => void addToCart(offer)}
+                      onClick={() => addOrIncrease(offer)}
                     >
                       <Cart24Regular aria-hidden="true" />
-                      {busyOfferId === offer.id ? "Добавляем" : "В корзину"}
+                      {busyOfferId === offer.id ? "Добавляем" : demoItem(offer) ? "Добавить ещё" : "В корзину"}
                     </button>
                   </div>
                 </article>

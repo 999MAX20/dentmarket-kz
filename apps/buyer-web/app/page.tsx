@@ -75,6 +75,12 @@ import { PublicHeader } from "./public-header";
 import { PushNotifications } from "./push-notifications";
 import { loginUrl } from "./public-links";
 import {
+  addDemoCartItem,
+  readDemoCart,
+  setDemoCartQuantity,
+  type DemoCartItem,
+} from "./demo-cart";
+import {
   deliveryLabel,
   isCompareOfferAvailable,
   rankCompareOffers,
@@ -583,6 +589,29 @@ type Cart = {
   checkout?: { id: string } | null;
   createdAt: string;
 };
+
+function demoCartToCart(items: DemoCartItem[]): Cart | null {
+  if (!items.length) return null;
+  return {
+    id: "demo-local-cart",
+    status: "ACTIVE",
+    currency: items[0].currency || "KZT",
+    createdAt: new Date().toISOString(),
+    checkout: null,
+    items: items.map((item) => ({
+      id: item.id,
+      offerId: item.offerId,
+      quantity: String(item.quantity),
+      unitPriceMinor: item.priceMinor,
+      totalPriceMinor: String(Number(item.priceMinor) * item.quantity),
+      currency: item.currency,
+      offer: {
+        supplier: { organization: { displayName: item.supplierName } },
+        productVariant: { product: { canonicalName: item.productName } },
+      },
+    })),
+  };
+}
 type SupplierOrder = {
   id: string;
   buyerOrganizationId: string;
@@ -809,6 +838,22 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       // Search history is an optional convenience and must never block catalog use.
     }
   }, []);
+
+  useEffect(() => {
+    if (!handoff) return;
+    const syncDemoCart = () => {
+      const localCart = demoCartToCart(readDemoCart());
+      if (!localCart) return;
+      setCarts((current) => {
+        const active = current.find((cart) => cart.status === "ACTIVE");
+        return active?.items.length ? current : [localCart];
+      });
+    };
+    syncDemoCart();
+    window.addEventListener("dentmarket:demo-cart-updated", syncDemoCart);
+    return () =>
+      window.removeEventListener("dentmarket:demo-cart-updated", syncDemoCart);
+  }, [handoff]);
 
   useEffect(() => {
     if (!handoffChecked || handoff) return;
@@ -1101,7 +1146,8 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
           stock: "all",
         }),
       );
-      setCarts(cartResult);
+      const localCart = demoCartToCart(readDemoCart());
+      setCarts(cartResult.length || !localCart ? cartResult : [localCart]);
       setOrders(orderResult);
       setDocuments(documentResult);
       setNotifications(notificationResult);
@@ -1439,6 +1485,31 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     setProductReviews(null);
   };
 
+  const addToDemoCart = (offerId: string) => {
+    const product = search?.items.find((item) =>
+      item.offers.some((offer) => offer.id === offerId),
+    );
+    const offer = product?.offers.find((item) => item.id === offerId);
+    const comparedOffer = comparison?.offers.find(
+      (item) => item.offerId === offerId,
+    );
+    if (!product && !comparedOffer) return false;
+    const items = addDemoCartItem({
+      id: `${product?.id ?? comparison?.product.id}:${offerId}`,
+      offerId,
+      productId: product?.id ?? comparison!.product.id,
+      productName: product?.name ?? comparison!.product.name,
+      supplierName: offer?.supplier.name ?? comparedOffer!.supplier.name,
+      priceMinor: String(offer?.priceMinor ?? comparedOffer!.price.amountMinor ?? "0"),
+      currency: offer?.currency ?? comparedOffer!.price.currency ?? "KZT",
+      packaging: offer?.packaging.name ?? comparedOffer!.packaging.name ?? "Фасовка",
+    });
+    const localCart = demoCartToCart(items);
+    if (localCart) setCarts([localCart]);
+    setToast("Позиция добавлена в демо-корзину");
+    return true;
+  };
+
   const addToCart = async (offerId: string) => {
     if (!handoff) {
       window.location.assign(LOGIN_URL);
@@ -1456,7 +1527,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       setCarts(await api.get<Cart[]>(`/buyers/${buyerId}/carts`));
       setToast("Позиция добавлена в корзину");
     } catch (cause) {
-      setError(errorMessage(cause));
+      if (!addToDemoCart(offerId)) setError(errorMessage(cause));
     } finally {
       setBusy(null);
     }
@@ -1464,6 +1535,10 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
 
   const checkout = async () => {
     if (!activeCart) return;
+    if (activeCart.id === "demo-local-cart") {
+      setToast("Демо-корзина собрана. Реальное оформление подключится после подключения API.");
+      return;
+    }
     setBusy("checkout");
     setError(null);
     try {
@@ -1487,6 +1562,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
 
   const updateCartItemQuantity = async (itemId: string, quantity: number) => {
     if (!activeCart || quantity < 1) return;
+    if (activeCart.id === "demo-local-cart") {
+      const localCart = demoCartToCart(setDemoCartQuantity(itemId, quantity));
+      if (localCart) setCarts([localCart]);
+      return;
+    }
     setBusy(`cart-item:${itemId}`);
     setError(null);
     try {
@@ -1501,6 +1581,12 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
 
   const removeCartItem = async (itemId: string) => {
     if (!activeCart) return;
+    if (activeCart.id === "demo-local-cart") {
+      const localCart = demoCartToCart(setDemoCartQuantity(itemId, 0));
+      setCarts(localCart ? [localCart] : []);
+      setToast("Позиция удалена из демо-корзины");
+      return;
+    }
     setBusy(`cart-item:${itemId}`);
     setError(null);
     try {
@@ -2343,6 +2429,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                         (isPublic && product.offers.length === 1
                           ? product.offers[0]
                           : undefined);
+                      const cartQuantity = cartOffer
+                        ? activeCart?.items.find(
+                            (item) => item.offerId === cartOffer.id,
+                          )?.quantity
+                        : undefined;
                       return cartOffer ? (
                         <Button
                           appearance="primary"
@@ -2360,7 +2451,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                         >
                           {busy === `cart:${cartOffer.id}`
                             ? "Добавляем"
-                            : "В корзину"}
+                            : cartQuantity
+                              ? `В корзине: ${cartQuantity}`
+                              : "В корзину"}
                         </Button>
                       ) : null;
                     })()}

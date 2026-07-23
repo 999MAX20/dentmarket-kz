@@ -271,7 +271,11 @@ export default async function ProductPage({
               </span>
             </div>
             <div className={styles.heroActions}>
-              <ProductOfferActions offers={visibleOffers} />
+              <ProductOfferActions
+                offers={visibleOffers}
+                productId={product.id}
+                productName={product.name}
+              />
               <span className={styles.trustNote}>
                 Заказ доступен после входа в кабинет клиники
               </span>

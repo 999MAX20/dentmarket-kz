@@ -119,6 +119,10 @@
   font-size: 13px;
   font-weight: 650;
 }
+.quantityControl { display: inline-flex; align-items: center; gap: 8px; margin-top: 8px; }
+.quantityControl button { width: 30px; height: 30px; border: 1px solid #cbdad3; border-radius: 7px; background: #fff; color: #234d41; cursor: pointer; font: inherit; font-size: 18px; line-height: 1; }
+.quantityControl button:hover { background: #eef5f2; }
+.quantityControl strong { min-width: 20px; color: #234d41; text-align: center; }
 .technicalPanel { margin-top: 24px; border: 1px solid #dce5e0; border-radius: 14px; background: #fff; }
 .technicalPanel summary { padding: 20px 24px; cursor: pointer; color: #263830; font-size: 16px; font-weight: 800; }
 .technicalPanel details[open] summary { border-bottom: 1px solid #e5ece8; }
