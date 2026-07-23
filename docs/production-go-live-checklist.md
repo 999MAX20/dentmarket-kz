@@ -25,3 +25,17 @@
 - DNS/TLS, backup restore drill and alert routing.
 
 The connector preflight exits non-zero while required external values are missing. This is intentional: the marketplace remains fail-closed and cannot publish commercial offers with unverified contracts, prices or stock.
+
+## Временный доступ для закрытого просмотра
+
+На 23 июля 2026 года ограничение «один пользователь — одно устройство» ещё не включено: разные входы одной учётной записи создают отдельные активные `AuthSession`. Refresh-token replay и отзыв сессий защищены, но concurrent-device policy отсутствует.
+
+Для закрытого пилота допускается один общий демонстрационный buyer-доступ максимум для пяти наблюдателей. Такой доступ не должен использоваться для реальных заказов, документов, ЭЦП или платежей. Перед открытием marketplace необходимо:
+
+- отключить production demo endpoint;
+- создать отдельные подтверждённые учётные записи для каждого сотрудника;
+- включить лимит устройств и журнал новых устройств;
+- добавить UI для отзыва других сессий;
+- пройти concurrent-login negative tests.
+
+Пока эти пункты не закрыты, общий логин считается временным исключением и не является production-моделью доступа.
