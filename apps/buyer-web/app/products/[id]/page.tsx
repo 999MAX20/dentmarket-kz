@@ -8,6 +8,7 @@ import styles from "./page.module.css";
 import ProductOfferActions from "./product-offer-actions";
 import VariantPicker from "./variant-picker";
 import SafeProductImage from "../../components/safe-product-image";
+import ProductDetailHeader from "./product-detail-header";
 import {
   safeCatalogMediaSource,
   type CatalogMediaCandidate,
@@ -250,6 +251,7 @@ export default async function ProductPage({
 
   return (
     <main className={styles.page}>
+      <ProductDetailHeader />
       <div className={styles.shell}>
         <Link className={styles.back} href={returnTo}>
           ← Вернуться в каталог

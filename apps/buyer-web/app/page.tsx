@@ -826,6 +826,12 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   const [submittedReviews, setSubmittedReviews] = useState<string[]>([]);
 
   useEffect(() => {
+    if (new URLSearchParams(window.location.search).get("cart") === "1") {
+      setActive("cart");
+    }
+  }, []);
+
+  useEffect(() => {
     try {
       const stored = JSON.parse(
         window.localStorage.getItem(SEARCH_HISTORY_KEY) ?? "[]",
@@ -841,13 +847,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   }, []);
 
   useEffect(() => {
-    if (!handoff) return;
     const syncDemoCart = () => {
       const localCart = demoCartToCart(readDemoCart());
-      if (!localCart) return;
       setCarts((current) => {
         const active = current.find((cart) => cart.status === "ACTIVE");
-        return active?.items.length ? current : [localCart];
+        return active?.items.length ? current : localCart ? [localCart] : [];
       });
     };
     syncDemoCart();
@@ -1131,7 +1135,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         // responds, loadSearch replaces the fallback with live data.
         setLoading(false);
         if (!initialOffset) void loadSearch(query, sort);
-        setCarts([]);
+        setCarts(demoCartToCart(readDemoCart()) ? [demoCartToCart(readDemoCart())!] : []);
         setOrders([]);
         setDocuments([]);
         setNotifications([]);

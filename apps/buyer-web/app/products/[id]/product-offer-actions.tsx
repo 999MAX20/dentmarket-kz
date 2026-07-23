@@ -6,7 +6,6 @@ import {
   parseSessionHandoff,
 } from "@marketplace/api-client";
 import { Cart24Regular } from "@fluentui/react-icons";
-import { loginUrl } from "../../public-links";
 import {
   addDemoCartItem,
   readDemoCart,
@@ -88,9 +87,7 @@ export default function ProductOfferActions({
       "BUYER",
     );
     if (!session?.organizationId) {
-      window.location.assign(
-        `${loginUrl}?returnTo=${encodeURIComponent(window.location.href)}`,
-      );
+      saveDemoItem(offer);
       return;
     }
     setBusyOfferId(offer.id);
@@ -174,32 +171,44 @@ export default function ProductOfferActions({
   return (
     <>
       {offers.find((offer) => offer.available && offer.verifiedDocuments !== false) ? (
-        <button
-          className={styles.primaryCartButton}
-          type="button"
-          onClick={() => {
-            const offer = offers.find(
-              (item) => item.available && item.verifiedDocuments !== false,
-            );
-            if (offer) addOrIncrease(offer);
-          }}
-          disabled={busyOfferId !== null}
-        >
-          <Cart24Regular aria-hidden="true" />
-          {busyOfferId
-            ? "Добавляем"
-            : demoItem(
-                  offers.find(
-                    (item) => item.available && item.verifiedDocuments !== false,
-                  )!,
-                )
-              ? "Добавить ещё"
-              : "В корзину"}
+        (() => {
+          const primaryOffer = offers.find(
+            (item) => item.available && item.verifiedDocuments !== false,
+          )!;
+          return (
+            <div className={styles.purchasePanel}>
+              <div className={styles.purchaseMeta}>
+                <span>Лучшее доступное предложение</span>
+                <strong>{formatPrice(primaryOffer.priceMinor, primaryOffer.currency)}</strong>
+                <small>{primaryOffer.supplier.name} · {primaryOffer.packaging?.name ?? "Фасовка уточняется"}</small>
+              </div>
+              <div className={styles.purchaseActions}>
+                {renderQuantity(primaryOffer)}
+                <button
+                  className={styles.primaryCartButton}
+                  type="button"
+                  onClick={() => addOrIncrease(primaryOffer)}
+                  disabled={busyOfferId !== null}
+                >
+                  <Cart24Regular aria-hidden="true" />
+                  {busyOfferId ? "Добавляем" : demoItem(primaryOffer) ? "Добавить ещё" : "В корзину"}
+                </button>
+              </div>
+              {notice ? <p className={styles.cartNotice} role="status">{notice}</p> : null}
+            </div>
+          );
+        })()
+      ) : (
+        <div className={styles.noOffer}>
+          <strong>Пока нет предложений поставщиков</strong>
+          <span>Карточка готова, цена и наличие появятся после выгрузки поставщика.</span>
+        </div>
+      )}
+      {offers.length ? (
+        <button className={styles.compareButton} type="button" onClick={() => setCompareOpen(true)}>
+          Сравнить предложения
         </button>
       ) : null}
-      <button className={styles.compareButton} type="button" onClick={() => setCompareOpen(true)}>
-        Сравнить предложения
-      </button>
       {compareOpen ? (
         <div className={styles.compareBackdrop} role="presentation" onClick={() => setCompareOpen(false)}>
           <section className={styles.compareDrawer} role="dialog" aria-modal="true" aria-labelledby="compare-title" onClick={(event) => event.stopPropagation()}>
