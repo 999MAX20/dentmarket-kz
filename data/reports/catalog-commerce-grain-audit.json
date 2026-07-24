@@ -1,0 +1,4169 @@
+{
+  "generatedAt": "2026-07-24T15:46:41.785Z",
+  "intendedGrain": {
+    "card": "Бренд + модель/система",
+    "variant": "Покупаемая фасовка, размер, оттенок, позиция зуба или комплектация",
+    "separateCard": "Самостоятельный материал, инструмент, аксессуар или запасная часть, которые можно одновременно добавить в корзину"
+  },
+  "mode": "apply",
+  "summaries": [
+    {
+      "source": "apps/buyer-web/app/data/production-approved-catalog.json",
+      "before": 19254,
+      "after": 19254,
+      "mergedQ2Cards": 0,
+      "mergedOtherOrmcoCards": 0,
+      "addedKzFamilies": 0
+    },
+    {
+      "source": "apps/buyer-web/app/data/public-catalog-fallback.json",
+      "before": 2869,
+      "after": 2869,
+      "mergedQ2Cards": 0,
+      "mergedOtherOrmcoCards": 0,
+      "addedKzFamilies": 0
+    }
+  ],
+  "reports": [
+    {
+      "source": "apps/buyer-web/app/data/production-approved-catalog.json",
+      "cards": 19254,
+      "checks": {
+        "technicalOnlyMultiVariantCards": {
+          "severity": "HIGH",
+          "count": 2160,
+          "risk": "Покупатель видит REF вместо различий, а прайс нельзя надёжно сопоставить по выбранной комплектации.",
+          "examples": [
+            {
+              "id": "approved-136eb6d76ae5815a1edb904b",
+              "brand": "ВладМиВа",
+              "name": "АЛЮМОСИЛ",
+              "variants": 2
+            },
+            {
+              "id": "approved-c608af716cefec36fc0ddff0",
+              "brand": "ВладМиВа",
+              "name": "АНГИДРИН",
+              "variants": 3
+            },
+            {
+              "id": "approved-7540fd36b701bf63bfcdb1d6",
+              "brand": "ВладМиВа",
+              "name": "АРМОДЕНТ",
+              "variants": 3
+            },
+            {
+              "id": "approved-0046351a62700871ee2413a4",
+              "brand": "ВладМиВа",
+              "name": "Армодент/ дриль 4-х гранный расширительный",
+              "variants": 2
+            },
+            {
+              "id": "approved-249c94ccc54c3807663e62e2",
+              "brand": "ВладМиВа",
+              "name": "АРМОСПЛИНТ",
+              "variants": 5
+            },
+            {
+              "id": "approved-2826b91a7d241228cc88e327",
+              "brand": "ВладМиВа",
+              "name": "АЭР-КЛИНЗ ПРЕП/29 мкм",
+              "variants": 2
+            },
+            {
+              "id": "approved-11bfbe5b4eeaa246eaf90002",
+              "brand": "ВладМиВа",
+              "name": "АЭР-КЛИНЗ ПРЕП/45 мкм",
+              "variants": 2
+            },
+            {
+              "id": "approved-bc95222e5627685ad637c8b6",
+              "brand": "ВладМиВа",
+              "name": "АЭР-КЛИНЗ ПРОФ",
+              "variants": 14
+            },
+            {
+              "id": "approved-d4a0d2f36a6293f54bca86a6",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАГЕЛЬ О",
+              "variants": 3
+            },
+            {
+              "id": "approved-1bfadc9e8801205b99164655",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАГЕЛЬ О/набор",
+              "variants": 3
+            },
+            {
+              "id": "approved-43ece885b3a68fa224d329d8",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАГЕЛЬ Ca/P",
+              "variants": 3
+            },
+            {
+              "id": "approved-347a5a2f2520cf5bd0d6e981",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАГЕЛЬ F",
+              "variants": 2
+            },
+            {
+              "id": "approved-0bf554ebf7f8676d3771d585",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАГЕЛЬ F /рН 4/500мл",
+              "variants": 4
+            },
+            {
+              "id": "approved-f408986b37d5df1287501da2",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - М ГО /жидкость",
+              "variants": 3
+            },
+            {
+              "id": "approved-43159edfba28513f6e2e75c9",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - М ГО С",
+              "variants": 9
+            },
+            {
+              "id": "approved-743329a6f5fd93a85292b2ea",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - М ГО ТЕМПО",
+              "variants": 7
+            },
+            {
+              "id": "approved-1f552da9c0c834541cf56be4",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - М ГО/бесцветная",
+              "variants": 3
+            },
+            {
+              "id": "approved-7121450a20e463d5d1e8a935",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - М ГО/опаковая розовая с прожилками",
+              "variants": 2
+            },
+            {
+              "id": "approved-ed853fc514b355dd3d0efcf4",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - М ГО/полупрозрачная розовая с прожилками",
+              "variants": 4
+            },
+            {
+              "id": "approved-e8e1cc5cd7660be777a3dca7",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - М ГО/прозрачная розовая с прожилками",
+              "variants": 2
+            },
+            {
+              "id": "approved-9ca66ab6ac4ac2bca8396e7b",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - М ХО /полупрозрачная розовая с прожилками",
+              "variants": 2
+            },
+            {
+              "id": "approved-668725bca8cec831e739cce2",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - М ХО СП",
+              "variants": 3
+            },
+            {
+              "id": "approved-8bd6633a81571117c5ac53cf",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - М ХО/жидкость",
+              "variants": 3
+            },
+            {
+              "id": "approved-80246abd883a9a480631b87d",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - Э ГО С",
+              "variants": 6
+            },
+            {
+              "id": "approved-92c07340f56facebc836a857",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - Э ГО/бесцветная",
+              "variants": 2
+            },
+            {
+              "id": "approved-d77b2f2f31be7d3669c70ee4",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - Э ГО/жидкость",
+              "variants": 3
+            },
+            {
+              "id": "approved-f049a8de7c8ecd4edd5a6b04",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - Э ГО/опаковая розовая с прожилками",
+              "variants": 2
+            },
+            {
+              "id": "approved-0d5e385d73393484e5bb36de",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - Э ГО/полупрозрачная розовая с прожилками",
+              "variants": 3
+            },
+            {
+              "id": "approved-cc3189bd568ab5f07b8cbcea",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - Э ГО/прозрачная розовая с прожилками",
+              "variants": 3
+            },
+            {
+              "id": "approved-d95a079a1f41e323ddfa4340",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - Э ХО/жидкость",
+              "variants": 2
+            },
+            {
+              "id": "approved-73e74c9e4c7857eb59fec704",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - Э ХО/полупрозрачная розовая с прожилками",
+              "variants": 2
+            },
+            {
+              "id": "approved-bb0f508115af70fdd72ebca0",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ-Э ГО ТЕМПО",
+              "variants": 5
+            },
+            {
+              "id": "approved-594fc7148a1b6472ba98ef97",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАСТ/Высоковязкий",
+              "variants": 3
+            },
+            {
+              "id": "approved-d91d00079781d3d73e8edb27",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАСТ/Катализатор универсальный/60 мл",
+              "variants": 2
+            },
+            {
+              "id": "approved-4b8cfb68f85e47f823c38a11",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАСТ/комплект",
+              "variants": 2
+            },
+            {
+              "id": "approved-8354260605f038648df7c969",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАСТ/Низковязкий тип 3/140 мл",
+              "variants": 2
+            },
+            {
+              "id": "approved-51a7db5e3d0d8fa143c68f55",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОВАКС базисный",
+              "variants": 3
+            },
+            {
+              "id": "approved-a823bbdcf00db36859071588",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОВАКС зуботехнический для CAD/CAM фрезерования",
+              "variants": 49
+            },
+            {
+              "id": "approved-8d4bcaec97e1a858f7bee97c",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОВАКС литьевой/мягкий",
+              "variants": 9
+            },
+            {
+              "id": "approved-84c5d906dd9db238021730b8",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОВАКС литьевой/набор стержней",
+              "variants": 2
+            },
+            {
+              "id": "approved-8c181fed635191b8b3a48705",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОВАКС литьевой/сверхмягкий",
+              "variants": 8
+            },
+            {
+              "id": "approved-a7aef1930d0896272baa3da5",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОВАКС литьевой/сверхтвердый",
+              "variants": 9
+            },
+            {
+              "id": "approved-88f4222d3bd753b4d5d9233b",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОВАКС литьевой/твердый",
+              "variants": 9
+            },
+            {
+              "id": "approved-69061069d1700d25f80449c8",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОВАКС моделировочный",
+              "variants": 4
+            },
+            {
+              "id": "approved-e0eb5b9570ad23830c1981d4",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОДЕЗ-АКТИВАТОР (0,4 ПАВ)",
+              "variants": 4
+            },
+            {
+              "id": "approved-5cc9d9d644066e328d326baa",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОДЕЗ-АКТИВАТОР ПЛЮС",
+              "variants": 3
+            },
+            {
+              "id": "approved-39b23b7974a2ed4bf1346987",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОДЕЗ/3%",
+              "variants": 6
+            },
+            {
+              "id": "approved-4d538517d5b4541f318a514e",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОДЕЗ/5,2 %",
+              "variants": 3
+            },
+            {
+              "id": "approved-ca6f033aecb6f97769d75e5d",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОПРИНТ",
+              "variants": 2
+            },
+            {
+              "id": "approved-da954e4082481482d441c81c",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОФОРМ",
+              "variants": 4
+            },
+            {
+              "id": "approved-92e8be0d4ecefd762bb9bb88",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОФОРМ/комплект",
+              "variants": 2
+            },
+            {
+              "id": "approved-7abc48a0497edd704f0bfd6c",
+              "brand": "ВладМиВа",
+              "name": "БЕЛСОЛ No1-F",
+              "variants": 2
+            },
+            {
+              "id": "approved-1558801781ad52a9432a6d55",
+              "brand": "ВладМиВа",
+              "name": "БЕЛСОЛ No2 - раствор хлоргексидина /2%",
+              "variants": 2
+            },
+            {
+              "id": "approved-6eb2d175c1987786fa2c217b",
+              "brand": "ВладМиВа",
+              "name": "БЕЛСОЛ No2/0,05%",
+              "variants": 4
+            },
+            {
+              "id": "approved-20afa3654dc3e1fb22c00538",
+              "brand": "ВладМиВа",
+              "name": "БЕЛСОЛ No2/0,2%",
+              "variants": 2
+            },
+            {
+              "id": "approved-de6545ce54c069a045389b43",
+              "brand": "ВладМиВа",
+              "name": "БЕЛСОЛ No2/2%",
+              "variants": 3
+            },
+            {
+              "id": "approved-52f928a32490687860e11442",
+              "brand": "ВладМиВа",
+              "name": "БЕЛЭКТ",
+              "variants": 7
+            },
+            {
+              "id": "approved-5d7512171dd3f6aae31149b5",
+              "brand": "ВладМиВа",
+              "name": "БИНТ ИОДОФОРМНЫЙ МАРЛЕВЫЙ ДЛЯ СТОМАТОЛОГИИ",
+              "variants": 4
+            },
+            {
+              "id": "approved-00da279bf187d45d96af3cc0",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ /КОЛЛАГЕНОВЫЙ МАТРИКС/круги",
+              "variants": 2
+            },
+            {
+              "id": "approved-374515520200191bacc2df75",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ /КОЛЛАГЕНОВЫЙ МАТРИКС/мембрана",
+              "variants": 3
+            },
+            {
+              "id": "approved-e4a1dd84a6b1427bdce37969",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ деминерализованный/ пластина",
+              "variants": 2
+            },
+            {
+              "id": "approved-c2fc26a805327e99bf8920d1",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ деминерализованный/блоки",
+              "variants": 3
+            },
+            {
+              "id": "approved-a1b832a54decbc5ca27821f3",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ депротеинизированный/блоки",
+              "variants": 3
+            },
+            {
+              "id": "approved-9ff417766184bc6c769ee751",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ депротеинизированный/крошка",
+              "variants": 3
+            },
+            {
+              "id": "approved-1cddfd766855109e95ddd1db",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ МЕМБРАНА",
+              "variants": 7
+            },
+            {
+              "id": "approved-736672423de6008edc33bb10",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ рентгеноконтрастный/крошка",
+              "variants": 3
+            },
+            {
+              "id": "approved-4e529c6be86b009a8db92a85",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ рентгеноконтрастный/чипсы",
+              "variants": 3
+            },
+            {
+              "id": "approved-dcd2900a2212095848d2c29e",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ с хлоргексидином и метронидазолом/крошка",
+              "variants": 3
+            },
+            {
+              "id": "approved-7f7e93c19d861788cc7503fe",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ/блоки",
+              "variants": 5
+            },
+            {
+              "id": "approved-8752d171b8a32ff1383312dc",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ/кольцо",
+              "variants": 3
+            },
+            {
+              "id": "approved-261264359062b22d3e756d60",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ/крошка",
+              "variants": 6
+            },
+            {
+              "id": "approved-e91aef4b05396bb79d1dd79e",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ/пластина губчатая",
+              "variants": 2
+            },
+            {
+              "id": "approved-f95f161da979a475430077ce",
+              "brand": "ВладМиВа",
+              "name": "БИОПЛАСТ-ДЕНТ/чипсы",
+              "variants": 3
+            },
+            {
+              "id": "approved-c4071085dfdde0077bc929df",
+              "brand": "ВладМиВа",
+              "name": "Блокнот/для замешивания/ВладМиВа/",
+              "variants": 4
+            },
+            {
+              "id": "approved-2d7b031397f5f3103f70e0fa",
+              "brand": "ВладМиВа",
+              "name": "ГЕЛЬ для травления эмали",
+              "variants": 3
+            },
+            {
+              "id": "approved-31535331d8afbd7a2c6abc94",
+              "brand": "ВладМиВа",
+              "name": "ГЕЛЬ ДЛЯ ТРАВЛЕНИЯ ЭМАЛИ И ДЕНТИНА НА ОРГАНИЧЕСКОЙОСНОВЕ",
+              "variants": 2
+            },
+            {
+              "id": "approved-ad034c9f09a3210dfd27f9b5",
+              "brand": "ВладМиВа",
+              "name": "ГИЛЬЗЫ ДЛЯ ЗУБНЫХ КОРОНОК",
+              "variants": 12
+            },
+            {
+              "id": "approved-cb220b1e35f26e19eef020bf",
+              "brand": "ВладМиВа",
+              "name": "ГОЛОВКИ ШЛИФОВАЛЬНЫЕ/На прямой наконечник для нейлоновых протезов",
+              "variants": 32
+            },
+            {
+              "id": "approved-2af2f41421e53c8cc80e0ea5",
+              "brand": "ВладМиВа",
+              "name": "ГОЛОВКИ ШЛИФОВАЛЬНЫЕ/На прямой наконечник для пластмассовых протезов",
+              "variants": 6
+            },
+            {
+              "id": "approved-9cee9df1e5cd0e1f76bb6d12",
+              "brand": "ВладМиВа",
+              "name": "ГОЛОВКИ ШЛИФОВАЛЬНЫЕ/На прямой наконечник для протезов из КХС",
+              "variants": 9
+            },
+            {
+              "id": "approved-064310bc4e31a54bc7b15fe4",
+              "brand": "ВладМиВа",
+              "name": "ГОЛОВКИ ШЛИФОВАЛЬНЫЕ/На прямой наконечник для стальных протезов",
+              "variants": 9
+            },
+            {
+              "id": "approved-880e70e9b9dd5b6975087353",
+              "brand": "ВладМиВа",
+              "name": "ГОЛОВКИ ШЛИФОВАЛЬНЫЕ/На прямой наконечник/для КХС",
+              "variants": 2
+            },
+            {
+              "id": "approved-901b148d00f0b3a183f990d5",
+              "brand": "ВладМиВа",
+              "name": "ГОЛОВКИ ШЛИФОВАЛЬНЫЕ/На прямой наконечник/для обработки естественных зубов",
+              "variants": 3
+            },
+            {
+              "id": "approved-ac803b369906b15c3f3c0ef2",
+              "brand": "ВладМиВа",
+              "name": "ГОЛОВКИ ШЛИФОВАЛЬНЫЕ/На прямой наконечник/для обработки пластмассовых протезов",
+              "variants": 3
+            },
+            {
+              "id": "approved-104177a097ac129d19b50f9e",
+              "brand": "ВладМиВа",
+              "name": "ГОЛОВКИ ШЛИФОВАЛЬНЫЕ/На угловой наконечник для естественных зубов",
+              "variants": 5
+            },
+            {
+              "id": "approved-b5c7073d59ac8c29220fb82d",
+              "brand": "ВладМиВа",
+              "name": "ДЕВИТ - АРС",
+              "variants": 3
+            },
+            {
+              "id": "approved-2790c7521891ae4a607b4833",
+              "brand": "ВладМиВа",
+              "name": "ДЕНТАЛКАСТ 30 тип 3",
+              "variants": 2
+            },
+            {
+              "id": "approved-36fe3063ac3be6211b0f8863",
+              "brand": "ВладМиВа",
+              "name": "ДЕНТИН - ПАСТА",
+              "variants": 15
+            },
+            {
+              "id": "approved-ada8781dfae81896041e4286",
+              "brand": "ВладМиВа",
+              "name": "ДЕНТИН - ПОРОШОК",
+              "variants": 2
+            },
+            {
+              "id": "approved-9f26d315710aa903a4843f48",
+              "brand": "ВладМиВа",
+              "name": "ДЕНТЛАЙТ адгезив",
+              "variants": 3
+            },
+            {
+              "id": "approved-365401a85273ce39d4ccfeda",
+              "brand": "ВладМиВа",
+              "name": "ДЕНТЛАЙТ ФЛОУ",
+              "variants": 35
+            },
+            {
+              "id": "approved-d650d86b421dfa8daa228a29",
+              "brand": "ВладМиВа",
+              "name": "ДЕНТЛАЙТ ФЛОУ набор",
+              "variants": 2
+            },
+            {
+              "id": "approved-a269493c87d3042a87a64f3b",
+              "brand": "ВладМиВа",
+              "name": "ДЕНТЛАЙТ ЦВЕТОКОРРЕКТОР",
+              "variants": 4
+            },
+            {
+              "id": "approved-aae557675f1a1d0361f919c5",
+              "brand": "ВладМиВа",
+              "name": "ДИСКИ БУМАЖНЫЕ ВОДОСТОЙКИЕ",
+              "variants": 4
+            },
+            {
+              "id": "approved-07be7e13bc3fd8e25c581bfa",
+              "brand": "ВладМиВа",
+              "name": "ИЗОСПРЕЙ/лак разделительный гипса от гипса",
+              "variants": 2
+            },
+            {
+              "id": "approved-2d0a854b145d2d91be1e4521",
+              "brand": "ВладМиВа",
+              "name": "КАПРАМИН на основе хлорида алюминия",
+              "variants": 2
+            },
+            {
+              "id": "approved-289b7c506774481fc99d4f54",
+              "brand": "ВладМиВа",
+              "name": "КРЕЗОДЕНТ",
+              "variants": 3
+            },
+            {
+              "id": "approved-d187280b97ce6a2e4af4ca37",
+              "brand": "ВладМиВа",
+              "name": "НОЛАТЕК - БЛОК",
+              "variants": 21
+            },
+            {
+              "id": "approved-af2d77ae018fc0c9b83815db",
+              "brand": "ВладМиВа",
+              "name": "НОЛАТЕК - жидкотекучая масса",
+              "variants": 2
+            },
+            {
+              "id": "approved-fd8fc1bf7e9860ff2b2ebce0",
+              "brand": "ВладМиВа",
+              "name": "НОЛАТЕК - моделировочная масса",
+              "variants": 8
+            },
+            {
+              "id": "approved-23358c478378d2f2f01625f9",
+              "brand": "ВладМиВа",
+              "name": "НОЛАТЕК - светоотверждаемая жидкотекучая краска-цветокоректор",
+              "variants": 6
+            },
+            {
+              "id": "approved-e42bbab28dc9c67f40a08420",
+              "brand": "ВладМиВа",
+              "name": "НОЛАТЕК - светоотверждаемый покрывной лак",
+              "variants": 2
+            },
+            {
+              "id": "approved-82e112dd270e119643b0f402",
+              "brand": "ВладМиВа",
+              "name": "ОРТОСОЛ-Дент",
+              "variants": 2
+            },
+            {
+              "id": "approved-0c467e16edca79e23907d448",
+              "brand": "ВладМиВа",
+              "name": "ОРТОСОЛ-Импрес",
+              "variants": 2
+            },
+            {
+              "id": "approved-36ac40c04fa81c68fe1d05fe",
+              "brand": "ВладМиВа",
+              "name": "ОРТОСОЛ-Клинз",
+              "variants": 2
+            },
+            {
+              "id": "approved-97587af173d47fa84e2e0ff8",
+              "brand": "ВладМиВа",
+              "name": "ОТБЕЛ",
+              "variants": 3
+            },
+            {
+              "id": "approved-33cb1acbe101601a9bc0ea62",
+              "brand": "ВладМиВа",
+              "name": "ПАТТЕРНПЛАСТ",
+              "variants": 2
+            },
+            {
+              "id": "approved-6e48e335e9abb9f8f22294fc",
+              "brand": "ВладМиВа",
+              "name": "ПЕКТАФИКС",
+              "variants": 3
+            },
+            {
+              "id": "approved-fb859b56b0ae1344b674d969",
+              "brand": "ВладМиВа",
+              "name": "ПОЛИДЕНТ No1",
+              "variants": 2
+            },
+            {
+              "id": "approved-5106692ba9769b68376cfbac",
+              "brand": "ВладМиВа",
+              "name": "ПОЛИДЕНТ No2",
+              "variants": 2
+            },
+            {
+              "id": "approved-fddd1e71f56d52f1467f098d",
+              "brand": "ВладМиВа",
+              "name": "ПОЛИДЕНТ No4/белая",
+              "variants": 2
+            },
+            {
+              "id": "approved-d3ca88395bc3584234091818",
+              "brand": "ВладМиВа",
+              "name": "ПОЛИСЕТ - ПОРОШОК",
+              "variants": 2
+            },
+            {
+              "id": "approved-79eca3d1708c12b45a80fd69",
+              "brand": "ВладМиВа",
+              "name": "ПРОВОЛОКА ДЛЯ ОРТОДОНТИЧЕСКИХ АППАРАТОВ",
+              "variants": 5
+            },
+            {
+              "id": "approved-28f00aaf031c28a3b8bbeee0",
+              "brand": "ВладМиВа",
+              "name": "РЕЗОДЕНТ «ВладМиВа»",
+              "variants": 2
+            },
+            {
+              "id": "approved-b7418462f11a16ec3a82b87a",
+              "brand": "ВладМиВа",
+              "name": "СОЛЬВАДЕНТ",
+              "variants": 2
+            },
+            {
+              "id": "approved-653a81bdccdae0c05d4e2794",
+              "brand": "ВладМиВа",
+              "name": "СОЛЬВАДЕНТ No3",
+              "variants": 2
+            },
+            {
+              "id": "approved-aeced3f3e4217c583a53ee81",
+              "brand": "ВладМиВа",
+              "name": "ТЕМПОКОР",
+              "variants": 5
+            },
+            {
+              "id": "approved-7aba2541b40f1725f69729ea",
+              "brand": "ВладМиВа",
+              "name": "ТЕМПОФИКС",
+              "variants": 2
+            },
+            {
+              "id": "approved-1952ea2fbfb6c28ce6fa093d",
+              "brand": "ВладМиВа",
+              "name": "ТЕМПОФОТ высоковязкий",
+              "variants": 6
+            },
+            {
+              "id": "approved-b4bb48d91558dad4f3bda1ba",
+              "brand": "ВладМиВа",
+              "name": "ТЕМПОФОТ низковязкий",
+              "variants": 5
+            },
+            {
+              "id": "approved-cfe932bc3e4023a899b59d65",
+              "brand": "ВладМиВа",
+              "name": "ТИЭДЕНТ",
+              "variants": 2
+            },
+            {
+              "id": "approved-9375666f36c808d2bb953b2d",
+              "brand": "ВладМиВа",
+              "name": "ТРИОКСИДЕНТ",
+              "variants": 3
+            },
+            {
+              "id": "approved-5a59170db11343f2931974bb",
+              "brand": "ВладМиВа",
+              "name": "УЛЬТРОПАЛИН/Дымчатый опал (SO)",
+              "variants": 4
+            },
+            {
+              "id": "approved-4a9f6841dcd59a46478e8a21",
+              "brand": "ВладМиВа",
+              "name": "УЛЬТРОПАЛИН/Интенсив-дентин",
+              "variants": 7
+            },
+            {
+              "id": "approved-37ccc082746f0dc0ce1a0dd6",
+              "brand": "ВладМиВа",
+              "name": "УЛЬТРОПАЛИН/Краситель глазурный",
+              "variants": 13
+            },
+            {
+              "id": "approved-bb5582f71d50a7a80fc013a5",
+              "brand": "ВладМиВа",
+              "name": "УЛЬТРОПАЛИН/Опак-дентин",
+              "variants": 16
+            },
+            {
+              "id": "approved-fb6d9dc186809c58909a648d",
+              "brand": "ВладМиВа",
+              "name": "УЛЬТРОПАЛИН/Опак-паста",
+              "variants": 16
+            },
+            {
+              "id": "approved-d23cc5d42645bae73daea3bf",
+              "brand": "ВладМиВа",
+              "name": "УЛЬТРОПАЛИН/Опак-порошок",
+              "variants": 16
+            },
+            {
+              "id": "approved-78f6cee64cae095d25b35c1a",
+              "brand": "ВладМиВа",
+              "name": "УНИЦЕМ/Белый",
+              "variants": 2
+            },
+            {
+              "id": "approved-9ec083377db936de58ca943a",
+              "brand": "ВладМиВа",
+              "name": "УНИЦЕМ/Золотисто-желтый",
+              "variants": 2
+            },
+            {
+              "id": "approved-8c1ea9de2b64b05fe0b08138",
+              "brand": "ВладМиВа",
+              "name": "УНИЦЕМ/Светло-желтый",
+              "variants": 2
+            },
+            {
+              "id": "approved-f1d4270d52d303e5f7a5fc09",
+              "brand": "ВладМиВа",
+              "name": "ФИССУЛАЙТ/зелёная",
+              "variants": 2
+            },
+            {
+              "id": "approved-0562dc3690e19e863aea347f",
+              "brand": "ВладМиВа",
+              "name": "ФИССУЛАЙТ/золотая",
+              "variants": 2
+            },
+            {
+              "id": "approved-edd5e6327cc9625ce1494121",
+              "brand": "ВладМиВа",
+              "name": "ФИССУЛАЙТ/красная",
+              "variants": 2
+            },
+            {
+              "id": "approved-ddac09fac3bcaab5cd28c774",
+              "brand": "ВладМиВа",
+              "name": "ФИССУЛАЙТ/оранжевая",
+              "variants": 2
+            },
+            {
+              "id": "approved-0b70a04857fa1c6222847776",
+              "brand": "ВладМиВа",
+              "name": "ФИССУЛАЙТ/синяя",
+              "variants": 2
+            },
+            {
+              "id": "approved-8bb106fc982f401b199d5601",
+              "brand": "ВладМиВа",
+              "name": "ФОТОТРЕЙ",
+              "variants": 4
+            },
+            {
+              "id": "approved-36291ac0d65c70c609ae3015",
+              "brand": "ВладМиВа",
+              "name": "ЭНДОГЕЛЬ No2",
+              "variants": 2
+            },
+            {
+              "id": "approved-2febab2b3f65b35318a68038",
+              "brand": "ВладМиВа",
+              "name": "ЭНДОЖИ No2",
+              "variants": 4
+            },
+            {
+              "id": "approved-e4cd20b106fd068f7693dbc8",
+              "brand": "ВладМиВа",
+              "name": "ЭНДОЖИNo2 плюс",
+              "variants": 2
+            },
+            {
+              "id": "approved-ebf70c22d80d3bf9ed2c8f1f",
+              "brand": "ВладМиВа",
+              "name": "ЭНДОЖИNo2 плюс/1000мл",
+              "variants": 2
+            },
+            {
+              "id": "approved-6b133b11790daa608dbaf147",
+              "brand": "Кормед",
+              "name": "10 серия. Диски абразивные с круглой металлической втулкой",
+              "variants": 14
+            },
+            {
+              "id": "approved-a85840c60f2d8fc3c298e7a4",
+              "brand": "Кормед",
+              "name": "12 серия. Диски абразивные с пластиковой втулкой",
+              "variants": 8
+            },
+            {
+              "id": "approved-d8c58ec08e7af1cc1ca43d41",
+              "brand": "Кормед",
+              "name": "13 серия. Диски абразивные для зуботехнических работ",
+              "variants": 5
+            },
+            {
+              "id": "approved-a07641b787904b7f08eb65fa",
+              "brand": "Кормед",
+              "name": "20 серия. Полоски абразивные (штрипсы)",
+              "variants": 9
+            },
+            {
+              "id": "approved-d3c87a26b4bcb988f68a1ccd",
+              "brand": "Кормед",
+              "name": "30 серия. Матрицы контурные светопрозрачные лавсановые",
+              "variants": 13
+            },
+            {
+              "id": "approved-4a9b69e757f8bf1a61f15383",
+              "brand": "Кормед",
+              "name": "31 серия. Матрицы контурные светопрозрачные с фиксирующим устройством",
+              "variants": 11
+            },
+            {
+              "id": "approved-d4a8b0f18db7016d291ec91b",
+              "brand": "Кормед",
+              "name": "32 серия. Матрицы контурные металлические секционные",
+              "variants": 17
+            },
+            {
+              "id": "approved-e663a0af6867f429abc420ff",
+              "brand": "Кормед",
+              "name": "33 серия. Матрицы контурные металлические",
+              "variants": 8
+            },
+            {
+              "id": "approved-fe02b5364f81f2202cc38291",
+              "brand": "Кормед",
+              "name": "34 серия. Матрицы контурные светопрозрачные секционные",
+              "variants": 8
+            },
+            {
+              "id": "approved-363e0fb5dcaafa06d11fb1a5",
+              "brand": "Кормед",
+              "name": "35 серия. Матрицы контурные металлические перфорированные",
+              "variants": 5
+            },
+            {
+              "id": "approved-95a61be5aa6894e91a3780e1",
+              "brand": "Кормед",
+              "name": "36 серия. Матрицы ЛАССО контурные светопрозрачные формованные",
+              "variants": 11
+            },
+            {
+              "id": "approved-2da4c11656279601b85a654e",
+              "brand": "Кормед",
+              "name": "37 серия. Матрицы контурные металлические формованные",
+              "variants": 13
+            },
+            {
+              "id": "approved-294c95141b06b85de1c6bdbe",
+              "brand": "Кормед",
+              "name": "40 серия. Клинья деревянные фиксирующие",
+              "variants": 9
+            },
+            {
+              "id": "approved-b66ba9f238a9bdeb2e859f17",
+              "brand": "Кормед",
+              "name": "Новинка! 38 серия. Матрицы ЭКСТРА контурные с подвижным фиксатором",
+              "variants": 31
+            },
+            {
+              "id": "approved-03f883f9190095048fdac979",
+              "brand": "Кормед",
+              "name": "Пластины сепарационные",
+              "variants": 13
+            },
+            {
+              "id": "approved-e7c019d42dc7778c2f462cb5",
+              "brand": "Кормед",
+              "name": "Универсальные наборы для шлифования и пломбирования",
+              "variants": 21
+            },
+            {
+              "id": "approved-bea17f53a3d0014f6342119f",
+              "brand": "Линтэкс",
+              "name": "Кетгут простой игла колющая",
+              "variants": 2
+            },
+            {
+              "id": "approved-dfe584a357ae8ca2b0699ce0",
+              "brand": "Линтэкс",
+              "name": "Монофил мононить полипропиленовая",
+              "variants": 4
+            },
+            {
+              "id": "approved-58775790f802cc84b164ccc3",
+              "brand": "МедиДез",
+              "name": "Средство дезинфицирующее \"Жидкое мыло \"Медидез-софт\" с антисептическим эффектом\"",
+              "variants": 2
+            },
+            {
+              "id": "approved-d65103012c0d22b2f703601b",
+              "brand": "МедиДез",
+              "name": "Средство дезинфицирующее \"Фармдезин-экстра\"",
+              "variants": 2
+            },
+            {
+              "id": "approved-f95070e44756809a2d9b7552",
+              "brand": "МедиДез",
+              "name": "Средство дезинфицирующее (кожный антисептик) \"Фармдезин-септо\"",
+              "variants": 2
+            },
+            {
+              "id": "approved-9c67d12c21e543ddcd5f35b1",
+              "brand": "МедиДез",
+              "name": "Средство энзимное для очистки изделий мед.назначения \"МедиДез-Энзо\"",
+              "variants": 2
+            },
+            {
+              "id": "approved-cc3b0e65ae5eae2209baf900",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Alpha Universe 17° CHC",
+              "variants": 3
+            },
+            {
+              "id": "approved-686edb79d94cf2d1cd9b52cd",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Alpha Universe 17° IH",
+              "variants": 3
+            },
+            {
+              "id": "approved-006867a987fccff197251652",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Alpha Universe 30° CHC",
+              "variants": 3
+            },
+            {
+              "id": "approved-618c7e617199c0d0649ea50e",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Alpha Universe 30° CS",
+              "variants": 3
+            },
+            {
+              "id": "approved-2f2ea248b231ad0578148d51",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Alpha Universe 30° IH",
+              "variants": 3
+            },
+            {
+              "id": "approved-ee19e81c377fc38f020d0533",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Alpha Universe straight CS",
+              "variants": 6
+            },
+            {
+              "id": "approved-698b056bd653b694c7247a2b",
+              "brand": "Alpha-Bio Tec.",
+              "name": "AlphaLoC Kit CS",
+              "variants": 5
+            },
+            {
+              "id": "approved-d4d09f7c10c1c5b0bab53b0c",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Angled Abutment 15° CS",
+              "variants": 2
+            },
+            {
+              "id": "approved-7e4ca185e7bc4e707f9dc317",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Angled Abutment 25° CS",
+              "variants": 2
+            },
+            {
+              "id": "approved-cee399e95ea51834459eacd9",
+              "brand": "Alpha-Bio Tec.",
+              "name": "CAD/CAM Titanium Base CS AR",
+              "variants": 3
+            },
+            {
+              "id": "approved-585026799828eaae01700bed",
+              "brand": "Alpha-Bio Tec.",
+              "name": "CAD/CAM Titanium Base CS R",
+              "variants": 3
+            },
+            {
+              "id": "approved-41dd19f151a0afef5b7fc8d6",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Dual Fit Implant",
+              "variants": 16
+            },
+            {
+              "id": "approved-5b56cb23b5eb98931da27f4a",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Esthetic Anatomic Angled Ti Abutment 15° CHC",
+              "variants": 3
+            },
+            {
+              "id": "approved-de1024b61a6d84e74d23aae0",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Esthetic Simply Straight Abutment CHC",
+              "variants": 4
+            },
+            {
+              "id": "approved-16920e64697721572c6a6ca3",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Esthetic Straight Wide Abutment CHC",
+              "variants": 5
+            },
+            {
+              "id": "approved-79a20e212a9a271d7ac114ab",
+              "brand": "Alpha-Bio Tec.",
+              "name": "HBC CS",
+              "variants": 3
+            },
+            {
+              "id": "approved-ba62710a14ebc7b456daff54",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Healing Abutment CS",
+              "variants": 12
+            },
+            {
+              "id": "approved-49082615085496c79f43c3d4",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Hex Base Connection",
+              "variants": 3
+            },
+            {
+              "id": "approved-f3939ea6cf2d5265fb5320a4",
+              "brand": "Alpha-Bio Tec.",
+              "name": "MultiNeO C",
+              "variants": 10
+            },
+            {
+              "id": "approved-2f37ec2ee5fd8af403e25cd3",
+              "brand": "Alpha-Bio Tec.",
+              "name": "MultiNeO CS",
+              "variants": 14
+            },
+            {
+              "id": "approved-af50d8def7e212489eb62d82",
+              "brand": "Alpha-Bio Tec.",
+              "name": "MultiNeO H",
+              "variants": 14
+            },
+            {
+              "id": "approved-4281d67c97f234ec6f93b3c1",
+              "brand": "Alpha-Bio Tec.",
+              "name": "NICE",
+              "variants": 5
+            },
+            {
+              "id": "approved-1e67e1f040d69557fe006ed3",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Pro Tapered Connection Abutment",
+              "variants": 6
+            },
+            {
+              "id": "approved-5c3b9376faaa3af42edffde2",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Pro Tapered Connection Abutment CHC N CHC",
+              "variants": 6
+            },
+            {
+              "id": "approved-f6d76c315e42707278ffda80",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Spiral Implant",
+              "variants": 24
+            },
+            {
+              "id": "approved-81b9d877c3ea3943aa97806c",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Straight Abutment CS",
+              "variants": 4
+            },
+            {
+              "id": "approved-2b796903b37cd3a194f1c4e1",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Temporary PEEK abutment 15°",
+              "variants": 3
+            },
+            {
+              "id": "approved-d1d6cd74956c80e424b8d19c",
+              "brand": "Alpha-Bio Tec.",
+              "name": "Temporary PEEK abutment 25°",
+              "variants": 2
+            },
+            {
+              "id": "approved-d19810c740e812045b92de47",
+              "brand": "Anthos",
+              "name": "A Platinum",
+              "variants": 3
+            },
+            {
+              "id": "approved-013aa1fe52034a7b6d6ddbd1",
+              "brand": "Anthos",
+              "name": "A6 PLUS",
+              "variants": 2
+            },
+            {
+              "id": "approved-9f60eb57dfe20bd8615cb94b",
+              "brand": "Anthos",
+              "name": "A7 PLUS",
+              "variants": 2
+            },
+            {
+              "id": "approved-6f162967f68929479c5cc28a",
+              "brand": "AS-US",
+              "name": "Маска для губ",
+              "variants": 3
+            },
+            {
+              "id": "approved-be43734cbbc40bb67e85dc92",
+              "brand": "BiLumix",
+              "name": "BiLumix Camera",
+              "variants": 2
+            },
+            {
+              "id": "approved-1498b264d8777fdbdc434791",
+              "brand": "BiLumix",
+              "name": "BiLumix Face Shield X2 Package",
+              "variants": 2
+            },
+            {
+              "id": "approved-ff02f1ecfaee9d68aa3ea63b",
+              "brand": "BiLumix",
+              "name": "BiLumix Headlamp GEN 2",
+              "variants": 18
+            },
+            {
+              "id": "approved-25cdb836d1c5ca20620b1c01",
+              "brand": "BiLumix",
+              "name": "BiLumix Headlamp GEN 2S",
+              "variants": 24
+            },
+            {
+              "id": "approved-1cbf9b9a4b5f21ff4dcff319",
+              "brand": "BiLumix",
+              "name": "BiLumix Headlamp GEN 3",
+              "variants": 18
+            }
+          ]
+        },
+        "mixedIndependentProducts": {
+          "severity": "HIGH",
+          "count": 13,
+          "risk": "Самостоятельно покупаемые компоненты ошибочно представлены как взаимоисключающие варианты одной карточки.",
+          "examples": [
+            {
+              "id": "approved-7fc39b539ee143e3593be6b0",
+              "brand": "Kuraray Noritake",
+              "name": "CERABIEN ZR",
+              "kinds": [
+                "жидкость",
+                "набор"
+              ],
+              "variants": 24
+            },
+            {
+              "id": "approved-0735823f244ee2b910c1b75b",
+              "brand": "Kuraray Noritake",
+              "name": "CLEARFIL LINER BOND 2V",
+              "kinds": [
+                "жидкость",
+                "набор"
+              ],
+              "variants": 5
+            },
+            {
+              "id": "approved-d4f9838d2903e9333fa7aa22",
+              "brand": "Kuraray Noritake",
+              "name": "PANAVIA F 2.0",
+              "kinds": [
+                "жидкость",
+                "набор"
+              ],
+              "variants": 7
+            },
+            {
+              "id": "approved-9f3d24707091534e1d64e63a",
+              "brand": "Kuraray Noritake",
+              "name": "TEETHMATE DESENSITIZER",
+              "kinds": [
+                "порошок",
+                "жидкость"
+              ],
+              "variants": 6
+            },
+            {
+              "id": "approved-c156beca15330ba53052acd6",
+              "brand": "Ultradent",
+              "name": "UltraCemTM",
+              "kinds": [
+                "порошок",
+                "жидкость",
+                "набор"
+              ],
+              "variants": 1
+            },
+            {
+              "id": "approved-15a4e4f1de23d5e52e185517",
+              "brand": "Ultradent",
+              "name": "UniCoreTM",
+              "kinds": [
+                "самостоятельный аксессуар",
+                "набор"
+              ],
+              "variants": 18
+            },
+            {
+              "id": "approved-2ba7c8d0b33474e6385635f6",
+              "brand": "VOCO",
+              "name": "Ionobond",
+              "kinds": [
+                "порошок",
+                "жидкость"
+              ],
+              "variants": 1
+            },
+            {
+              "id": "approved-b8791385a11951392033994e",
+              "brand": "VOCO",
+              "name": "Ionofil Plus",
+              "kinds": [
+                "порошок",
+                "жидкость"
+              ],
+              "variants": 5
+            },
+            {
+              "id": "approved-d0addaf8875c1fb66c75bf6c",
+              "brand": "VOCO",
+              "name": "Ionolux",
+              "kinds": [
+                "порошок",
+                "жидкость"
+              ],
+              "variants": 12
+            },
+            {
+              "id": "approved-f9a8a9753767cdbb7a9b572c",
+              "brand": "VOCO",
+              "name": "Meron",
+              "kinds": [
+                "порошок",
+                "жидкость"
+              ],
+              "variants": 2
+            },
+            {
+              "id": "approved-233c538b25d6f8ad1e91bcca",
+              "brand": "VOCO",
+              "name": "Meron Plus",
+              "kinds": [
+                "порошок",
+                "жидкость"
+              ],
+              "variants": 2
+            },
+            {
+              "id": "approved-d5dfbdf3f9dd2925347cce82",
+              "brand": "VOCO",
+              "name": "MTA vpt",
+              "kinds": [
+                "порошок",
+                "жидкость"
+              ],
+              "variants": 2
+            },
+            {
+              "id": "approved-1ba997faba7640990f2260be",
+              "brand": "VOCO",
+              "name": "VOCO Ionofil Molar",
+              "kinds": [
+                "порошок",
+                "жидкость"
+              ],
+              "variants": 3
+            }
+          ]
+        },
+        "genericCategories": {
+          "severity": "MEDIUM",
+          "count": 2270,
+          "risk": "Карточка не попадает в ожидаемую медицинскую группу.",
+          "examples": [
+            {
+              "id": "approved-6bce698d47955e3c5f847595",
+              "brand": "Винар",
+              "name": "Журнал контроля работы стерилизаторов, форма No 257/у",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-66c2ea8003dffdb61c1f4430",
+              "brand": "Винар",
+              "name": "Индикаторы бумажные воздушной стерилизации химические МедИС-В-180/60",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-289751f0272ec85099d7bfd3",
+              "brand": "Винар",
+              "name": "Индикаторы бумажные паровой стерилизации химические МедИС-120/45",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-733a2f9fc8f198e1b8674fd7",
+              "brand": "Винар",
+              "name": "Индикаторы бумажные паровой стерилизации химические МедИС-132/20",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-fb01abe2f87aa0b384f51dcb",
+              "brand": "Винар",
+              "name": "Пакеты самоклеющиеся плоские 130*250мм",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-49241aa8327fcff4ba0e56c8",
+              "brand": "Винар",
+              "name": "Пакеты самоклеющиеся плоские 150*300мм",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-2dfb63e533ae0a6ea2e9ce1b",
+              "brand": "Гекса",
+              "name": "Халат хирургический стерильный спанбонд",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-78a26a035076b7541f044260",
+              "brand": "Гекса",
+              "name": "Шапочка-берет «Плиссе» голубая",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-dbfc2c0434b6723efe3a5031",
+              "brand": "Гекса",
+              "name": "Шапочка-берет «Плиссе», жёлтая",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-c529bcf7954b4c2881ca0548",
+              "brand": "Дельтика",
+              "name": "Поли-панель для смешивания стом.материалов, размер 120*100мм",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-5954f8806da803188dd0941e",
+              "brand": "Дельтика",
+              "name": "Поли-панель для смешивания стом.материалов, размер 120*200мм",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-00207176fd75d59abcc8208d",
+              "brand": "Дельтика",
+              "name": "Поли-панель для смешивания стом.материалов, размер 60*60мм",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-e4f8c3be5488a9fd69a6bc3e",
+              "brand": "Дельтика",
+              "name": "Поли-панель для смешивания стом.материалов, размер 60*90мм",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-4561c4a0043fee4989b6813f",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-012-7 для углового наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-068fcbbcdfe8a502f2c89551",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-012-9 для турбинного наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-da5fa31ce381b2503b32bc71",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-014-6 L=25 для турбинного наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-bcb1a80d3d1647617a86c043",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-014-7 для углового наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-e49f46a0333fcaf7b5292576",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-014-8 L=27 для углового наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-97a8036787add1f431edaa23",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-014-9 для турбинного наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-7b883ee43665742dc715b82a",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-016-7 для углового наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-56a5746e41dce697fa6d2d6a",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-016-9 для турбинного наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-9b3d42e0f5aa4b39a81b76a1",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-018-5 для прямого наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-2204c03db41da6acc56d907d",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-018-7 для углового наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-352a9e977c4e18a4eaa7e899",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-018-9 для турбинного наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-02ba1ba8bd60bfb651b876b5",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-021-7 для углового наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-139f35525e956ea9cc40ffd1",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-021-9 для турбинного наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-c1993e6a603dc1fc10580ec3",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 11-023-5 для прямого наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-0d61ebdc6ffb52b41afbfe50",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 12-016-5 для прямого наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-dda6f3819aaa36681779ef5f",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 12-016-7 для углового наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-da8bc1f3063ff0dea312d06e",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 12-016-9 для турбинного наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-f2f57f6fbb644c739cbaea54",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 12-018-5 для прямого наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-abeb79be44d67dedba82ca60",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 22-012-9 для турбинного наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-93c9095be16bfe31bb0d5e09",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 22-014-7 для углового наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-c57536ec8e34fc2542a3f542",
+              "brand": "Кмиз",
+              "name": "БОР ТВС 22-016-9 для турбинного наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-7423fb252d887d9cc4d381f8",
+              "brand": "Кмиз",
+              "name": "БОР ТВС КОЛЕСОВИДНЫЙ ПРЯМОЙ 13-022-5 для прямого наконечника",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-a373f1861f560e645ba4e44e",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГАП-5П-10К",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-840138684ebe42a6f2e05566",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАИ-1,2П-10С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-ca7f0d15885725bfdabe631a",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАИ-1,4П-10С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-019f094a653c0f55922a123e",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАИ-1,8П-8С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-107d184eb7df1625eafcd1f9",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАИ-2,3П-10С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-e3a45e0fb44ae81422c2f5c0",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАИ-2,5П-6М",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-16355a867b7f6242bc4d4843",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАИ-5,0П-10С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-70d01c0c32e61aa9e00e50f5",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАКМ-1,4П-10К",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-a9e8c38224c97a9fff6e5119",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАКМ-1,4Т-10К",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-e7093640848db61d271a5ff8",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАКМ-1,8П-10М",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-475fb771063edc48e2845a28",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАКМ-1,8П-10С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-6939549898df8106a302df21",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАКМ-2,5П-10С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-bee143b21619219d20776e3c",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАКС-1,2П-10С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-eb06ef9442bd212b58c4c5b8",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАКС-1,6П-10С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-029213aa17780fe1c6e5f428",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАКС-2,3П-10С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-2762dc327e1c30dda6a1916b",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАКС-3,5П-8С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-27ec238d2751bfbce2ba0f2a",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАКС-5,0П-10,5 С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-4134e969b8a62cc7241a667b",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАКУ-1,4П-10С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-610ab0ecec2e20a36f0d1e55",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАПЗ-4,0П-12 С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-8546b7ab3737cd365ff2f202",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАПЗ-5,0П-12,5 К",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-024ec46ec82cb06e1ddcdbf8",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАУ-2,1П-2С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-8f2c626fd796db23913964cd",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАУС-2,3П-6С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-10af7330b914bd880c97eb16",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАУС-3,3П-7К",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-8ea12b0a25d62f90b1540b66",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАЦ-1,4П-8С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-6b62b74dceb805efe4ffe30a",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАЦ-1,4Т-8К",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-05f18a22f38c1a83120532cb",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАЦ-1,4Т-8К",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-5688407be414f2963e4e5d50",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАЦ-1,6Т-8К",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-558ea4b5809226f5361b03e3",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАЦС-1,4П-10С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-eb973ebfa4582aa58d9dbf49",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАЦС-3,1П-8С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-ed3f1cc9ef6400e0712e75a4",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАШ-1,2Т-С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-32eb402164b2d6d926218475",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАШ-1,4Т-К",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-2f3677f9798ab97dc35604e2",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАШ-1,4Т-С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-c3ec03892de6007022ce8cd2",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАШ-2,3Т-К",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-0d6600efd522a3316f5b19e4",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАШ-2,5П-К",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-f987f78f1e37db3b632c59cc",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАШ-2,5П-С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-7431bd55eedb78f78e6e9e33",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАШ-3,5П-С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-b4bd1236206708ef39a824a7",
+              "brand": "Кмиз",
+              "name": "ГОЛОВКА АЛМАЗНАЯ ГСАШ-3,5П-С",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-7d80982cdaa3e6756d1006d1",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ТВС ФКЗУД 023Ц-С L8",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-5a3f3b5a5d54c471b00c1d2d",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКДЕ 050-С ТВС L13",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-7ceee1ebaf83d938f1e935cb",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЕТ 060 L14",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-21a653fe7a8d65de8e8800a1",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЗД 023Ц-С ТВС L5.5",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-580f119dab2ef8596b5741a6",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЗД 035-С ТВС L13",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-1e57a20f1bab86065f622948",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЗД 040-К ТВС L13",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-1a2bd045ba4870d196951084",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЗД 040-М ТВС L13",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-fa77d189c979cb79cc6e4f67",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЗД 040-С ТВС L13",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-d9ff0f1226e78f3fad1f4c55",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЗД 045-С ТВС L13",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-b51e0a88c652320e1fb9d028",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЗД 050-К ТВС L13",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-31164cbce76606cac4f383e6",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЗД 050-М ТВС L13",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-8173b6165a354b150ff3fe01",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЗД 050-С ТВС L13",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-f41a25b3d91ab5021c0e3929",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЗУД 016Ц-М 6° ТВС L9,5",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-33f1759a53fa9c39a76fdc48",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЗУД 023Ц-М ТВС L8",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-4eb2af9fb65be3e4d1f1b744",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКЗУД 023Ц-ОМ ТВС L8",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-6e861f887a004e4cc659f5ad",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКТ 023Ц-ОК ТВС L11",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-fec7a10b1442af565be10c48",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКТрП 040/045 ТВС",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-c47ea18b9bc1adc4399a8d65",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКУД 035-С ТВС L13",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-86972770ab0c0f553776aac8",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКУУД 0215Ц-С ТВС L17",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-baac0043c17e29b4c23c2ae6",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКУУД 023Ц-М 4° ТВС L15",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-ef3b73cef4b75c56dade2ecf",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФКУУД 023Ц-С 4° ТВС L15",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-d32965d4b6e5be6c9f3b20b7",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФПД 023Ц-С ТВС L8",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-2584b50727b5ff5f5beb5650",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФПД 040-М ТВС L9",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-6595595f4c28953230cd2d25",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФПД 050-К ТВС L14",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-cf3ba111225c714aa8e8f7e5",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФПД 050-М ТВС L14",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-bd7d1d76bdb80d62d65cc787",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФПД 050-С ТВС L14",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-5b7fd0cfffc02188997bc485",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФТуД 023Ц-ОМ ТВС L8",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-6efa371c6da29a54c0a074ae",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФТУД 023Ц-С ТВС L15",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-2572ec7d5335cfafc6c1081d",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФЦЗД 040-К ТВС L13",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-e26cb7bc12bada47b31ab74d",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФЦЗД 045-С ТВС",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-8194ce8e49bb2bc152f731d9",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФЦЗУД 023Ц-М ТВС L15",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-165dc038bf965ee5d9f2e6c5",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФЦЗУД 023Ц-С ТВС L15",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-cdadbfa4209e92e8e7cad4df",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФЦТУД 023Ц-С ТВС L15",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-bca20d5d3ce4064e5fec7ff1",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФШД 025-С ТВС L2.3",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-75b3d4d3afb0447c24006c21",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФШД 031-С ТВС L2.6",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-92a8d1cd0457285b6ff6babe",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФШД 040-С ТВС L3.3",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-7be260b5b2bf5cdcdf8d47d0",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФШД 045-С ТВС L4.0",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-61e8af3321170fa1634f0871",
+              "brand": "Кмиз",
+              "name": "ФРЕЗА ФЯД 023Ц-М ТВС L3.8",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-ad329a2fb69fc0ebb584f2c4",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Бахилы полиэтиленовые",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-3974c57462af3c9f5a6eff39",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Держатели для нагрудников, одноразовые",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-4cac4138fa8a6eed804cc75f",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Диспенсер для пластиковых и бумажно-пластиковых фартуков в рулонах",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-5689834105b39ccf5c239bd8",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Зажимы для фиксации стоматологических нагрудников",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-7b2a7884e84f7b2fefa811c2",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Зеркало пациента с ручкой",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-b78b52cd7e35d4d8b0dd710f",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Контейнер для стоматологических нагрудников",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-42f6171e90d7f895cddc01c9",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Нагрудники стоматологические «КРИСТИДЕНТ» 2-х слойные и 3-х слойные, Пастель",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-ed1b7f6e1349e16b597a8b9e",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Нагрудники стоматологические «КРИСТИДЕНТ» Премиум Интенсив",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-fdee6249f5bd6e5e1165b46f",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Наконечники аспирационные, многоразовые",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-e2c2d75121058a665817bb0f",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Переходники для аспирационных наконечников (многоразовые)",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-e28b798d831d706c7290b3d9",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Салфетки стоматологические «Кристидент»",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-1ad5d4390e1889939fba4032",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Слюноотсос стоматологический «КРИСТИДЕНТ» со съемным наконечником одноразовый",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-a4e9315a4ad9679cb86c4afc",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Фартуки для пациента",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-9b355106b353a8c99ae61a21",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Фартуки для пациента бумажно-полиэтиленовые, в рулоне",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-2994cca673355d27f60c9534",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Чехлы для подголовников бумажно-полиэтиленовые",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-4a3de6d65878de27bfb87337",
+              "brand": "КРИСТИДЕНТ",
+              "name": "Чехлы защитные для датчика радиовизиографа",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-74d1dffe5a016aaf4686e708",
+              "brand": "Омега Дент",
+              "name": "Альвостаз губка",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-464d756c398c7aec6e1d6738",
+              "brand": "Омега Дент",
+              "name": "Аэр Профи Комфорт",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-fc76df7f3a138d67a36fabe4",
+              "brand": "Омега Дент",
+              "name": "Гемостаб AlCl3",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-be3aa6f48af872e71ba07cba",
+              "brand": "Омега Дент",
+              "name": "Гемостаб FeSO4",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-e9f407bd2837129df302fbe6",
+              "brand": "Омега Дент",
+              "name": "Гипохлоран-3",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-79230d4b9dc8b3fdf81bdae3",
+              "brand": "Омега Дент",
+              "name": "Глассин Рест",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-74850ca639a3fb0eb44d8e4f",
+              "brand": "Омега Дент",
+              "name": "Глассин Фикс",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-f07aabb3b3cefd41d0630a6b",
+              "brand": "Омега Дент",
+              "name": "Гуттасилер",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-9398eded62073b89e66d7289",
+              "brand": "Омега Дент",
+              "name": "Гуттасилер Плюс",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-c267615857559a831739237a",
+              "brand": "Омега Дент",
+              "name": "Жидкость для сушки и обезжиривания корневых каналов",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-19aa38e0b002fa8390d196f6",
+              "brand": "Омега Дент",
+              "name": "Иглы эндодонтические Эндонидл",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-f26b4e5da09e60dba7eedd57",
+              "brand": "Омега Дент",
+              "name": "Кальсепт с йодоформом",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-f7df8c4bd44c57ff2ffe8dca",
+              "brand": "Омега Дент",
+              "name": "Кальсепт,",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-47dc723da1c9276a3f95ed80",
+              "brand": "Омега Дент",
+              "name": "Камфорфен В",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-2957236e0e225c974d364f3b",
+              "brand": "Омега Дент",
+              "name": "Кариес-индикатор жидкость",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-c5025fd9a9b2c705e05e9a06",
+              "brand": "Омега Дент",
+              "name": "Лидоксор гель",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-1350dcdc904d704a3e196829",
+              "brand": "Омега Дент",
+              "name": "Нон арсеник",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-b2d02f4c918e1ebd4afdd372",
+              "brand": "Омега Дент",
+              "name": "ПолирПаст Z",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-977c4ed4e5db46f7dbf32203",
+              "brand": "Омега Дент",
+              "name": "ПолирПаст Z+W",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-012038804407d0a28415f7a0",
+              "brand": "Омега Дент",
+              "name": "Ретрагель",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-b14d67cfd9110aff3aee4fee",
+              "brand": "Омега Дент",
+              "name": "Сенсистаб жидкость",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-376f1899882d0888c59b3929",
+              "brand": "Омега Дент",
+              "name": "Скалинг",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-4da494bee3052fd13c635325",
+              "brand": "Омега Дент",
+              "name": "Травекс-37",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-4e07a142ec33a6ff7d41910d",
+              "brand": "Омега Дент",
+              "name": "Эдеталь гель",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-bd09d089343c8a8a386e368d",
+              "brand": "СтомаДент",
+              "name": "Ионолайт (шпр В2 х 3 шт)",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-60aa5b62c1a442adca2f8764",
+              "brand": "СтомаДент",
+              "name": "Матрицы металлические контурные с замковым фиксирующим устройством малые, 1.311",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-540e1d70d31f59529daf8ef2",
+              "brand": "СтомаДент",
+              "name": "ПРИЗМАФИЛ набор",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-3b86660322071a1d949f0cd6",
+              "brand": "СтомаДент",
+              "name": "Профилак",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-a167000466e261be18be20ed",
+              "brand": "СтомаДент",
+              "name": "Флоурест набор (А1,А2,А3,А3.5)",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-5a9a9e733b5f485aa965d390",
+              "brand": "Тор ВМ",
+              "name": "Держатель полосок сепарационных 1.369",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-600a6a86bfaa365531a6ecd8",
+              "brand": "Тор ВМ",
+              "name": "Диски шлифовальные 1.069",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-496159206cd7f4d406cae130",
+              "brand": "Тор ВМ",
+              "name": "Диски шлифовальные 1.070",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-4ca8815b35e0bc7b21e04c44",
+              "brand": "Тор ВМ",
+              "name": "Диски шлифовальные 1.071",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-10ebbe3c69798f866654441c",
+              "brand": "Тор ВМ",
+              "name": "Диски шлифовальные 1.075",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-88dce1795ca9cc03eeb1f043",
+              "brand": "Тор ВМ",
+              "name": "Диски шлифовальные для окончательного шлифования, 1.733",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-62be60837a7eba37398acb64",
+              "brand": "Тор ВМ",
+              "name": "Диски шлифовальные для полирования, 1.734",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-5a2e3b56ec575fba2e67a4fc",
+              "brand": "Тор ВМ",
+              "name": "Диски шлифовальные для предварительного шлифования, 1.732",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-aa99340153ccfb0daec9e47f",
+              "brand": "Тор ВМ",
+              "name": "Диски шлифовальные для снятия излишков материала, 1.731",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-bf84f23f8e71699be583621f",
+              "brand": "Тор ВМ",
+              "name": "Диски шлифовальные для снятия излишков материала, 2.731",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-62d98adcace57293f0a8fc3c",
+              "brand": "Тор ВМ",
+              "name": "Дискодержатель угловой для дисков с металлической втулкой 1.121",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-cba213e235fe85c148638386",
+              "brand": "Тор ВМ",
+              "name": "Клампы \"Левый-Правый\" 12А/13А",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-160f4a70b1c26f35916ac96b",
+              "brand": "Тор ВМ",
+              "name": "Клампы \"Левый-Правый\", 22/23",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-5600fb6022fffbb2a6e727d5",
+              "brand": "Тор ВМ",
+              "name": "Клампы \"Правый-Левый\" 24/25",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-38a2eac4db868c4512dbc5e1",
+              "brand": "Тор ВМ",
+              "name": "Клампы Брикера (ретракторы десневого края) В1",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-c45995909837611feecbc1bc",
+              "brand": "Тор ВМ",
+              "name": "Клампы Брикера (ретракторы десневого края) В2/В3",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-a06a30c3a90da0d904de18a8",
+              "brand": "Тор ВМ",
+              "name": "Клампы Брикера (ретракторы десневого края) В4/В4-М",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-08bb2c014875915f062a9461",
+              "brand": "Тор ВМ",
+              "name": "Клампы Брикера (ретракторы десневого края) В5/В6",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-88f9487368f5282e0af452dd",
+              "brand": "Тор ВМ",
+              "name": "Клампы для передних зубов 210/212",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-7f48666d0711becb37078ce6",
+              "brand": "Тор ВМ",
+              "name": "Клампы для передних зубов 9/W9",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-55b3f6f5ad6ecf97c38dcd97",
+              "brand": "Тор ВМ",
+              "name": "Клампы Левый-Правый 138/139",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-90c236a2d98f3f751aaeee29",
+              "brand": "Тор ВМ",
+              "name": "Клинья фиксирующие деревянные 1.181",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-3628c692bac82cde3c0a1df5",
+              "brand": "Тор ВМ",
+              "name": "Клинья фиксирующие деревянные, 1.080",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-25e504cfeabf13d9a06a48f2",
+              "brand": "Тор ВМ",
+              "name": "Клинья фиксирующие деревянные, 1.083",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-680574ea8ecef5a35b0bf850",
+              "brand": "Тор ВМ",
+              "name": "Клинья фиксирующие деревянные, 1.085",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-a15e3768732b50adc34921c3",
+              "brand": "Тор ВМ",
+              "name": "Клинья фиксирующие деревянные, 1.182",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-6ba4cba040e7d4f218a3a055",
+              "brand": "Тор ВМ",
+              "name": "Клинья фиксирующие пластиковые, 1.811",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-b45769b016d255999f7483a4",
+              "brand": "Тор ВМ",
+              "name": "Клинья фиксирующие пластиковые, 1.840",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-f80d41fbc88f125cf2cc5796",
+              "brand": "Тор ВМ",
+              "name": "Кольцо \"Д\", 1.166",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-1d42c83f0fa8ff95644f5051",
+              "brand": "Тор ВМ",
+              "name": "Кольцо \"M\", 1.177",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-8c925f72e0db1d1e94340b7b",
+              "brand": "Тор ВМ",
+              "name": "Кольцо, 1.199",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-caceb8cd0d4fab836ee83f56",
+              "brand": "Тор ВМ",
+              "name": "Матрицедержатели трубчатые \"Трубки-насадки\", 1.862",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-fa1694da51f36032481c5480",
+              "brand": "Тор ВМ",
+              "name": "Матрицедержатель пружинный - кольцо фиксирующее, 1.099/5",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-190255afda053f3dff65b16d",
+              "brand": "Тор ВМ",
+              "name": "Матрицедержатель пружинный - Фиксатор замыкающий большой 1.005",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-9116a39d4aed978acfe2191f",
+              "brand": "Тор ВМ",
+              "name": "Матрицедержатель пружинный - Фиксатор замыкающий малый 1.003",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-62452421e555cb18d92d154a",
+              "brand": "Тор ВМ",
+              "name": "Матрицы \"колпачки\" для моляров и премоляров, 1.911",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-9cfa86b147bd94b2563349ad",
+              "brand": "Тор ВМ",
+              "name": "Матрицы \"колпачки\" для фронтальных зубов, 1.910",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-d63ace850cf0b40f300cb59f",
+              "brand": "Тор ВМ",
+              "name": "Матрицы двойные для передних зубов, 1.523",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-5a2568e690d73c1f21558329",
+              "brand": "Тор ВМ",
+              "name": "Матрицы для передних зубов, 1.888",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-decb20a882f9de2eb34d0b0b",
+              "brand": "Тор ВМ",
+              "name": "Матрицы кольцевые, 1.597",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-d7ef34712bc97dedeb954736",
+              "brand": "Тор ВМ",
+              "name": "Матрицы лавсановые в рулоне (квадратная упаковка с режущей пластиной), 1.245",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-de9913e5d929db4f67c0b539",
+              "brand": "Тор ВМ",
+              "name": "Матрицы лавсановые в рулоне, 1.242",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-9896f3c6590d651175257200",
+              "brand": "Тор ВМ",
+              "name": "Матрицы лавсановые в рулоне, 1.243",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-96e1dbd3ad071fa156ee0fb9",
+              "brand": "Тор ВМ",
+              "name": "Матрицы лавсановые в рулоне, 1.244",
+              "category": "Стоматологические товары"
+            },
+            {
+              "id": "approved-faf77a01beffaaf209d2aeba",
+              "brand": "Тор ВМ",
+              "name": "Матрицы лепестковые малые с выступом, 1.351(1)",
+              "category": "Стоматологические товары"
+            }
+          ]
+        },
+        "promotionLikeCatalogCards": {
+          "severity": "MEDIUM",
+          "count": 229,
+          "risk": "Акционные комплекты засоряют основную товарную выдачу.",
+          "examples": [
+            {
+              "id": "approved-49cd1d885126aac35e4f51ab",
+              "brand": "Бинергия",
+              "name": "Артикаин с адреналином — Раствор для инъекций (40 мг + 0,005 мг)/мл 10 ампул по 2 мл"
+            },
+            {
+              "id": "approved-1d3e9d514c434b25f427ea86",
+              "brand": "Бинергия",
+              "name": "Артикаин с адреналином — Раствор для инъекций (40 мг + 0,005 мг)/мл 50 картриджей по 1,7 мл"
+            },
+            {
+              "id": "approved-0f442ad2b96f659fe61f6bb3",
+              "brand": "Бинергия",
+              "name": "Артикаин с адреналином — Раствор для инъекций (40 мг + 0,005 мг)/мл 50 картриджей по 1,8 мл"
+            },
+            {
+              "id": "approved-04d405ba67dae34e5cd11a6c",
+              "brand": "Бинергия",
+              "name": "Артикаин с адреналином форте — Раствор для инъекций (40 мг + 0,01 мг)/мл 50 картриджей по 1,7 мл"
+            },
+            {
+              "id": "approved-04d74f9818dc262f4251a752",
+              "brand": "Бинергия",
+              "name": "Артикаин-Бинергия с адреналином — Раствор для инъекций (20 мг + 0,005 мг)/мл 10 ампул по 2мл"
+            },
+            {
+              "id": "approved-444648f82b4387ab8f890db3",
+              "brand": "ВладМиВа",
+              "name": "АРГЕНАТ/ДВУХКОМПОНЕНТНЫЙ/4 мл + 3 мл + 5 мл"
+            },
+            {
+              "id": "approved-d38f7236a67d22af92878945",
+              "brand": "ВладМиВа",
+              "name": "АРГЕЦЕМ/20 г + 10 мл + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-34b17554412b36c1d1796701",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАБОНД/светового отверждения (2-х компонентный)/5мл + 5мл + 5мл"
+            },
+            {
+              "id": "approved-59c6477eaa96e8cf9e0f8bb9",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАБОНД/химического отверждения/5мл + 5мл + 5мл"
+            },
+            {
+              "id": "approved-881b80e11cdccd55a48576e5",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАГЕЛЬ О АКТИВ/20%/1,5 г + 1,5 г"
+            },
+            {
+              "id": "approved-74790dddd79f2a68e4d384b6",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАГЕЛЬ О АКТИВ/30%/1,5 г + 1,5 г"
+            },
+            {
+              "id": "approved-a107ae731a3ddd16a9fcf01f",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАГЕЛЬ О ВАЙТ/6%/2,5 мл + 2,5 мл + 1 шт"
+            },
+            {
+              "id": "approved-9d91853fc82a656591c89b74",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАДОНТ/50 г + 30 г"
+            },
+            {
+              "id": "approved-13624e03e9a946fc6b12a6ac",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - М ХО ВК/набор/А1, А3, А4/3х20 г + 40 мл"
+            },
+            {
+              "id": "approved-52596d098f971b2d21799dd4",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - Э ХО ВК/набор/А1, А3, А4/3х20 г + 40 мл"
+            },
+            {
+              "id": "approved-697081ad0717b788b5e9525e",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - Э ХО СОФТ/100 г + 100 мл + 10 мл"
+            },
+            {
+              "id": "approved-b429843ef4eb03d155c6d151",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - Э ХО ТЕМПО/ivory/100 г + 100 г"
+            },
+            {
+              "id": "approved-6662cebd7225652edf93e020",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАКРИЛ - Э ХО Хард/100 г + 100 мл + 30 мл"
+            },
+            {
+              "id": "approved-8aed797a5b2f891d9a50c0e5",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАСТ /А-силикон/ прозрачный/100 г + 6 г"
+            },
+            {
+              "id": "approved-448c6495059352bf940f5fdd",
+              "brand": "ВладМиВа",
+              "name": "БЕЛАЦИН/50 г + 30 г"
+            },
+            {
+              "id": "approved-30f7277625b3a6eed85a946b",
+              "brand": "ВладМиВа",
+              "name": "БЕЛОКОР/80г + 2 х 20 г"
+            },
+            {
+              "id": "approved-7dd23bf15c7ea9379283333f",
+              "brand": "ВладМиВа",
+              "name": "ВИЭДЕНТ/20 г + 10 мл"
+            },
+            {
+              "id": "approved-6d29d6f6cfc22d04f0a530e9",
+              "brand": "ВладМиВа",
+              "name": "ВИЭДЕНТ/4 мл + 4 мл"
+            },
+            {
+              "id": "approved-e9a6d6bf921e7c71e49162dd",
+              "brand": "ВладМиВа",
+              "name": "ГЛУФТОРЭД/10 мл + 10 мл"
+            },
+            {
+              "id": "approved-6ea68ea979b4ecc71af664b3",
+              "brand": "ВладМиВа",
+              "name": "ДЕНТЛАЙТ - КОР /4,5 г + 4,5 г"
+            },
+            {
+              "id": "approved-0444bb946c87b7d88c49431b",
+              "brand": "ВладМиВа",
+              "name": "ДЕНТЛАЙТ придесневая масса /розовая/ 4,5 г + 2 г"
+            },
+            {
+              "id": "approved-bffa62e4e3f0f1aa3ffa4848",
+              "brand": "ВладМиВа",
+              "name": "КАЛЬЦЕСЕПТ/набор/2,5г + 2,5г"
+            },
+            {
+              "id": "approved-93d393416f64f9d14e3add1b",
+              "brand": "ВладМиВа",
+              "name": "КАЛЬЦЕСИЛ/13 г + 11 г"
+            },
+            {
+              "id": "approved-33f5bfb7ad0203f2fd756fda",
+              "brand": "ВладМиВа",
+              "name": "КАЛЬЦЕТАТ/5 мл + 15 мл"
+            },
+            {
+              "id": "approved-5eff59a6102926d26c045609",
+              "brand": "ВладМиВа",
+              "name": "КАРИКЛИНЗ/3 г + 3 г"
+            },
+            {
+              "id": "approved-b7190f88863afdddd42603af",
+              "brand": "ВладМиВа",
+              "name": "КЕРАМГЕЛЬ/5 мл + 5 мл"
+            },
+            {
+              "id": "approved-74f70d2404b7653f5069b266",
+              "brand": "ВладМиВа",
+              "name": "КЛИПДЕНТ - ЦЕМ СВЯЗУЮЩЕЕ/0,4 г + 0,4 мл"
+            },
+            {
+              "id": "approved-13ba4897c20a87406c726e87",
+              "brand": "ВладМиВа",
+              "name": "КЛИПДЕНТ— ЦЕМ/1 мл + 2 г"
+            },
+            {
+              "id": "approved-a7d0b687e5a75441e371e0ac",
+              "brand": "ВладМиВа",
+              "name": "КОМПОЦЕМ - ЭНДО/3,5 г + 3,5 г + 5 мл"
+            },
+            {
+              "id": "approved-46ad2ab61288744be7ff0570",
+              "brand": "ВладМиВа",
+              "name": "НАНОФЛЮОР/5 мл + 5 мл"
+            },
+            {
+              "id": "approved-bca5fc5e3df605d0848b7756",
+              "brand": "ВладМиВа",
+              "name": "ОКСИДЕНТ/12 г + 12 г"
+            },
+            {
+              "id": "approved-f4926e077aa20ea93c33dbd1",
+              "brand": "ВладМиВа",
+              "name": "ПУЛЬПОДЕНТ длительного отверждения/20 г + 15 мл"
+            },
+            {
+              "id": "approved-5f206a81400f889df7d063a9",
+              "brand": "ВладМиВа",
+              "name": "ПУЛЬПОДЕНТ/25 г + 15 мл"
+            },
+            {
+              "id": "approved-862bc0d4d5d28ea4bb5c61a8",
+              "brand": "ВладМиВа",
+              "name": "РЕ-КОРД набор нитей No1,2,3/15 мл + 2,8 м + 2,8 м + 2,8 м"
+            },
+            {
+              "id": "approved-342696bd0b1e03de632dd97a",
+              "brand": "ВладМиВа",
+              "name": "СИЛДЕНТ/5 г + 5 г"
+            },
+            {
+              "id": "approved-b02a6bff7e167d610f4f01fb",
+              "brand": "ВладМиВа",
+              "name": "СИЛИДОНТ-2/Порошок/50 г + 30 г"
+            },
+            {
+              "id": "approved-ea4056c6c63d88a53bdefc42",
+              "brand": "ВладМиВа",
+              "name": "СИЛИЦИН ПЛЮС/Порошок/50 г + 30 г"
+            },
+            {
+              "id": "approved-4f219d8dc1e4d209bcacac0d",
+              "brand": "ВладМиВа",
+              "name": "ТЕМПОФОТ/жидкий коффердам/ 1,5 г + 1,5 г"
+            },
+            {
+              "id": "approved-3956a8a2ffb4651fbc127e39",
+              "brand": "ВладМиВа",
+              "name": "ТРИКРЕДЕНТ/15 г + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-e8959d323fead0360fa07c27",
+              "brand": "ВладМиВа",
+              "name": "ТРИОКСИДЕНТ быстротвердеющий/0,5 г х 10 + 3 мл"
+            },
+            {
+              "id": "approved-5aeb36518f49c3251a7435ca",
+              "brand": "ВладМиВа",
+              "name": "УНИФАС-2/Порошок/100 г + 60 г"
+            },
+            {
+              "id": "approved-ce7ccb7521b7f3e6249b86cb",
+              "brand": "ВладМиВа",
+              "name": "УНИЦЕМ/БАКТЕРИЦИДНЫЙ/ 50 г + 30 г"
+            },
+            {
+              "id": "approved-1aa687d2c92e295a85662d94",
+              "brand": "ВладМиВа",
+              "name": "ФИССУЛАЙТ /набор бесцветный/3 мл + 3 мл + 5мл"
+            },
+            {
+              "id": "approved-8be341ff567c0ff67cf6f461",
+              "brand": "ВладМиВа",
+              "name": "ФИССУЛАЙТ/набор/1 мл +1 мл + 1 мл"
+            },
+            {
+              "id": "approved-88805b2f13e39881c05b9886",
+              "brand": "ВладМиВа",
+              "name": "ФОСФАДЕНТ БИО/15 г + 12 мл"
+            },
+            {
+              "id": "approved-5d0b921fea784564463b491f",
+              "brand": "ВладМиВа",
+              "name": "ФОСФАДЕНТ/15 г + 12 мл"
+            },
+            {
+              "id": "approved-c1a42cf600bbcd2bc64ff570",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИЛАЙН-LC / 20 г + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-fc6dbb445150d53befa06534",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИЛАЙН/ 20 г + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-6c890d644bdf117f1ebff134",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН - Ф/ 20 г + 10 мл + 15 мл"
+            },
+            {
+              "id": "approved-deccabef871c8ec98520747e",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН АКВА/порошок А2/20 г + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-3f641639f8cc0fa6aa686919",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН АКВА/порошок А3/20 г + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-2238debc3981fca202e628c5",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН-Ф/35 г + 25 г (20 мл)"
+            },
+            {
+              "id": "approved-b3ede2a2e9e5b5205908a1d0",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН/жёлтый/20 г + 10 мл + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-7b3ea926efb079772193db6f",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН/зеленый/20 г + 10 мл + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-9ed15fbab830d36841c13353",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН/малиновый/20 г + 10 мл + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-b33be42e881b9ca540f8100e",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН/оттенок А2/ 20 г + 10 мл + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-5514f8e8ce9d0471e172ba18",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН/оттенок А3/ 20 г + 10 мл + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-fc9d37cac8f41f433dbb35d3",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН/оттенок В2/ 20 г + 10 мл + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-ce13535541622ff54d749677",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН/оттенок С2/ 20 г + 10 мл + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-13aecd47053e0d5793dce355",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН/оттенок С4/ 20 г + 10 мл + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-c7613e7cf3c44adc00e49c64",
+              "brand": "ВладМиВа",
+              "name": "ЦЕМИОН/синий/20 г + 10 мл + 10 мл + 10 мл"
+            },
+            {
+              "id": "approved-94cd1d9967392493bf6ebbb8",
+              "brand": "ВладМиВа",
+              "name": "ЭОДЕНТ/быстротвердеющий/ 25 г + 8 мл"
+            },
+            {
+              "id": "approved-07f2c3280236093690dbe17c",
+              "brand": "ВладМиВа",
+              "name": "ЭОДЕНТ/длительного отверждения/25 г + 8 мл"
+            },
+            {
+              "id": "approved-6a5afc10a646b64f4b853790",
+              "brand": "Biomaterials Korea",
+              "name": "Ортодонтические мини-винты 30 шт + инструменты для ручной работы"
+            },
+            {
+              "id": "approved-82e2f5cf55bd2c124dea8d18",
+              "brand": "Biomaterials Korea",
+              "name": "Ортодонтические мини-винты 40 шт + инструменты для работы (ручные и машинные)"
+            },
+            {
+              "id": "approved-9c8b875511b9a42180ae6752",
+              "brand": "BlancOne",
+              "name": "LED лампа BlancOne + стартовые боксы BlancOne"
+            },
+            {
+              "id": "approved-105c701b5d8b0ed5d0f64cbe",
+              "brand": "Cotisen",
+              "name": "Канюли для смешивания слепочных материалов, красные (статик + динамик) HP07"
+            },
+            {
+              "id": "approved-6662935d172dbf7e249ee971",
+              "brand": "Cotisen",
+              "name": "Cotisen + Vericom \"Всё для эстетической реставрации\""
+            },
+            {
+              "id": "approved-2e32a23c51a38e6481baa2ad",
+              "brand": "COXO",
+              "name": "Эндомотор C-SMART I PILOT + бустер для анестезии GENI + Полимеризационная лампа DB686 NANOLED"
+            },
+            {
+              "id": "approved-a0674b6844ffffd9ce12fbc9",
+              "brand": "DIO",
+              "name": "10 имплантов + Апекслокатор C-ROOT I(VI)"
+            },
+            {
+              "id": "approved-caf1a9865f3106f1e70331fd",
+              "brand": "DIO",
+              "name": "10 имплантов + расходные материалы \"Готовое решение для ежедневной имплантологической практики\""
+            },
+            {
+              "id": "approved-35e4c9b95d66f0283673ffab",
+              "brand": "DIO",
+              "name": "135 имплантов + Siger V6000 + Моноблок 22” и интр.камера"
+            },
+            {
+              "id": "approved-54fcdbe492f0f09dbe6bb0a0",
+              "brand": "DIO",
+              "name": "15 имплантов + 2 Полимер. лампы COXO + аппарат для обр. гуттаперчи"
+            },
+            {
+              "id": "approved-f12a7ad7986f2d0b1bed3337",
+              "brand": "DIO",
+              "name": "15 имплантов + Апекслокатор C-ROOT I+"
+            },
+            {
+              "id": "approved-fe4fa6c8daff09c31b7aa8bb",
+              "brand": "DIO",
+              "name": "150 имплантов + AORALSCAN 3 (проводной)"
+            },
+            {
+              "id": "approved-3fdb8fbba560f811746bd253",
+              "brand": "DIO",
+              "name": "170 имплантов + Aoralscan Lync"
+            },
+            {
+              "id": "approved-049e484bda78dea7020f8ec8",
+              "brand": "DIO",
+              "name": "20 имплантов + Набор для синус-лифтинга T1012-2"
+            },
+            {
+              "id": "approved-c591fce7236f736db9ae522e",
+              "brand": "DIO",
+              "name": "20 имплантов + Хирургический набор Dr.Sos 05"
+            },
+            {
+              "id": "approved-bf2a1cfbc7af38b6e04da7ce",
+              "brand": "DIO",
+              "name": "25 имплантов + Набор хирургических инструментов для синус-лифтинг T1011-2"
+            },
+            {
+              "id": "approved-c22cfe8c46534854fc9f5f0d",
+              "brand": "DIO",
+              "name": "25 имплантов + Siger V6000 + Моноблок 22” и интр.камера"
+            },
+            {
+              "id": "approved-ddb6586eac1c1ed9a37b0c81",
+              "brand": "DIO",
+              "name": "250 имплантов + Aoralscan L"
+            },
+            {
+              "id": "approved-127a4a6671010074eb6b345b",
+              "brand": "DIO",
+              "name": "30 имплантов + Хирургический набор Dr.Sos 05 + U-Cem Premium"
+            },
+            {
+              "id": "approved-3c3ae1899e92bef71071fdf8",
+              "brand": "DIO",
+              "name": "30 имплантов + Эндомотор C-SMART MINI AP+"
+            },
+            {
+              "id": "approved-4b093ee21b442e269465cbcf",
+              "brand": "DIO",
+              "name": "30 имплантов + Эндомотор C-SMART-I PRO"
+            },
+            {
+              "id": "approved-6b56851b6be115dd428a1a74",
+              "brand": "DIO",
+              "name": "300 имплантов + Микроскоп SCM600-ST"
+            },
+            {
+              "id": "approved-870c663169c6c9809745c870",
+              "brand": "DIO",
+              "name": "300 имплантов + Siger S30 + Моноблок 22” и интр.камера"
+            },
+            {
+              "id": "approved-2b0994f41e41a10b1f5655be",
+              "brand": "DIO",
+              "name": "330 имплантов + AORALSCAN 3 (проводной)"
+            },
+            {
+              "id": "approved-cd7204a5bad0775606a59647",
+              "brand": "DIO",
+              "name": "40 имплантов + Siger S30 + Моноблок 22” и интр.камера"
+            },
+            {
+              "id": "approved-0f88a0084205dde2f1d3fb79",
+              "brand": "DIO",
+              "name": "5 имплантов + Маски одноразовые + Халаты + Нитриловые перчатки"
+            },
+            {
+              "id": "approved-4b27ce87288caa0db1f2c5e7",
+              "brand": "DIO",
+              "name": "50 имплантов + Автоклав класс B Esco Medco MONA-23 LCD c дистиллятором (4 л.)"
+            },
+            {
+              "id": "approved-f2759d30edd2cd1768d29fb3",
+              "brand": "DIO",
+              "name": "50 имплантов + Бестеневой налобный осветитель BiLumix Headlamp Gen2 (Белый)"
+            },
+            {
+              "id": "approved-13167353417537de11f25907",
+              "brand": "DIO",
+              "name": "50 имплантов + Комбо визиограф: XVbeam2000 + XVD2530"
+            },
+            {
+              "id": "approved-2898f0e7284b2d55423664a5",
+              "brand": "DIO",
+              "name": "50 имплантов + Кофемашина"
+            },
+            {
+              "id": "approved-080c5c44d837abf08cf58dbb",
+              "brand": "DIO",
+              "name": "50 имплантов + Набор хирургических инструментов T1033-2"
+            },
+            {
+              "id": "approved-ecc0ed928bf26a43386b56cc",
+              "brand": "DIO",
+              "name": "50 имплантов + пьезоаппарат SUS-20"
+            },
+            {
+              "id": "approved-e3a05b85c850b9f44bd28317",
+              "brand": "DIO",
+              "name": "50 имплантов + пьезоаппарат SUS-20 + Набор Surgical Kit (07)"
+            },
+            {
+              "id": "approved-9e2a0e9af67d1a96fcef6c70",
+              "brand": "DIO",
+              "name": "50 имплантов + пьезодиспенсер COXO C Explorer Pro (с одним наконечником)"
+            },
+            {
+              "id": "approved-8794ce16a254db5c16a14b0b",
+              "brand": "DIO",
+              "name": "50 имплантов + Физиодиспенсер C-SAILOR AIR + набор UFII Surgical UF(M) 07"
+            },
+            {
+              "id": "approved-94f4d3df2b08f9607287e709",
+              "brand": "DIO",
+              "name": "50 имплантов + Физиодиспенсер C-SAILOR S1"
+            },
+            {
+              "id": "approved-e957ef3d1f12618dc087a8e4",
+              "brand": "DIO",
+              "name": "50 имплантов + Физиодиспенсер C-SAILOR S1 + набор UFII Surgical UF(M) 07"
+            },
+            {
+              "id": "approved-a136345cd1aa44b843aed8f2",
+              "brand": "DIO",
+              "name": "50 имплантов + физиодиспенсер COXO C-SAILOR Air"
+            },
+            {
+              "id": "approved-6dd9cc3485c811af86d49f3d",
+              "brand": "DIO",
+              "name": "50 имплантов + физиодиспенсер COXO C-SAILOR PRO+"
+            },
+            {
+              "id": "approved-8bb6ec548eab786c40907f1e",
+              "brand": "DIO",
+              "name": "50 имплантов + физиодиспенсер COXO C-SAILOR PRO+ и Набор Surgical Kit (07)"
+            },
+            {
+              "id": "approved-bc7e7a8c109380485b9197fb",
+              "brand": "DIO",
+              "name": "50 имплантов + физиодиспенсер SIP-20"
+            },
+            {
+              "id": "approved-9a91347637b17766dd2203e1",
+              "brand": "DIO",
+              "name": "50 имплантов + физиодиспенсер SIP-20 + Набор Surgical Kit (07)"
+            },
+            {
+              "id": "approved-4cdc9c15009664fece27f22f",
+              "brand": "DIO",
+              "name": "50 имплантов + физиодиспенсер X-CUBE"
+            },
+            {
+              "id": "approved-7803b21774f0207d8b955c54",
+              "brand": "DIO",
+              "name": "50 имплантов + физиодиспенсер X-CUBE + Набор Surgical Kit (07)"
+            },
+            {
+              "id": "approved-438c44db2aa76a4592c33558",
+              "brand": "DIO",
+              "name": "50 имплантов + хирургический набор Surgical (07)"
+            },
+            {
+              "id": "approved-45848d6a89c5db44210c0273",
+              "brand": "DIO",
+              "name": "50 имплантов + AORALSCAN Elite (проводной)"
+            },
+            {
+              "id": "approved-7b6b2e7a39fccb1cbfa8fb50",
+              "brand": "DIO",
+              "name": "50 имплантов + AORALSCAN L(проводной)"
+            },
+            {
+              "id": "approved-1f9cf47f719bd283c9dedc8a",
+              "brand": "DIO",
+              "name": "50 имплантов + AORALSCAN Lync (проводной)"
+            },
+            {
+              "id": "approved-64a93691f596254812ab409a",
+              "brand": "DIO",
+              "name": "60 имплантов + Эндомотор C-SMART-I Pilot"
+            },
+            {
+              "id": "approved-37247ac77ae71e47842807ba",
+              "brand": "DIO",
+              "name": "65 имплантов + Бестеневой налобный осветитель BiLumix Headlamp 2S (Черный)"
+            },
+            {
+              "id": "approved-f2c3f22b2523584fb99588dc",
+              "brand": "DIO",
+              "name": "90 имплантов + хирургический набор DioNavi Master Kit (05)"
+            },
+            {
+              "id": "approved-ccac68fea08af403c33553f5",
+              "brand": "DIO",
+              "name": "Комплект имплантов + Denti Admin"
+            },
+            {
+              "id": "approved-8750e5adc9915072f4c4da03",
+              "brand": "DIO",
+              "name": "AORALSCAN 3 (беспроводной) + Ноутбук"
+            },
+            {
+              "id": "approved-460d1a5142284c2ee8edd0f2",
+              "brand": "DIO",
+              "name": "AORALSCAN 3 (проводной) + Ноутбук"
+            },
+            {
+              "id": "approved-6e7c0a3468326d416d0d0f78",
+              "brand": "DIO",
+              "name": "AORALSCAN L (проводной) + Ноутбук"
+            },
+            {
+              "id": "approved-f8ef93b94526e754aec6c564",
+              "brand": "DIO",
+              "name": "AORALSCAN Lync (проводной) + Ноутбук"
+            },
+            {
+              "id": "approved-c6fffee07e590f906cced3a4",
+              "brand": "ESCO Medical",
+              "name": "Полный стерилизационный комплект Esco Medical + рулоны для стерилизации"
+            },
+            {
+              "id": "approved-10a58de22d59de0d075269be",
+              "brand": "Falcon",
+              "name": "Blue frame + 10 face shields"
+            },
+            {
+              "id": "approved-59764a9ff125c8a866fe4a32",
+              "brand": "Falcon",
+              "name": "Compo-Art Instruments for aesthetic restorations set of 8 + Cassette tray MIDI"
+            },
+            {
+              "id": "approved-d6a24352437c6bca615c661a",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + non perforated bottom, 285x135x35mm, black"
+            },
+            {
+              "id": "approved-574d9809c8ad11c57d7fe666",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + non perforated bottom, 285x135x35mm, blue"
+            },
+            {
+              "id": "approved-fb4972c9e104fae43d184ed9",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + non perforated bottom, 285x135x35mm, golden"
+            },
+            {
+              "id": "approved-2113c11be7ac6a2605740b48",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + non perforated bottom, 285x135x35mm, green"
+            },
+            {
+              "id": "approved-905b172b02467d468485f58e",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + non perforated bottom, 285x135x35mm, red"
+            },
+            {
+              "id": "approved-29f42665add3ea03fa6e3f74",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + non perforated bottom, 285x135x35mm, silver"
+            },
+            {
+              "id": "approved-9e32f1a8725452e904ac5398",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + non perforated bottom, 285x135x60mm, black"
+            },
+            {
+              "id": "approved-cc21e7908f33b4d8372c36b5",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + non perforated bottom, 285x135x60mm, blue"
+            },
+            {
+              "id": "approved-12bf451b6968e3aacf470320",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + non perforated bottom, 285x135x60mm, golden"
+            },
+            {
+              "id": "approved-2420d782b747384320106148",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + non perforated bottom, 285x135x60mm, green"
+            },
+            {
+              "id": "approved-1a76af24fc042fa586083f21",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + non perforated bottom, 285x135x60mm, red"
+            },
+            {
+              "id": "approved-9ab2c166f5f1010d37304fb0",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + non perforated bottom, 285x135x60mm, silver"
+            },
+            {
+              "id": "approved-7b26bf79c6b7d861d5122024",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + perforated bottom, 285x135x35mm, black"
+            },
+            {
+              "id": "approved-c08a053acc9be3aaf09f1434",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + perforated bottom, 285x135x35mm, blue"
+            },
+            {
+              "id": "approved-1e920e562434acfa96664f26",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + perforated bottom, 285x135x35mm, gold"
+            },
+            {
+              "id": "approved-8ea756cf2e9597c9e513eeca",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + perforated bottom, 285x135x35mm, green"
+            },
+            {
+              "id": "approved-a3996c14744e2db8a98ad0b5",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + perforated bottom, 285x135x35mm, red"
+            },
+            {
+              "id": "approved-0c1afc29a7fc1b3b3e9f7d25",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + perforated bottom, 285x135x35mm, silver"
+            },
+            {
+              "id": "approved-13289847fd554038cbf967b5",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + perforated bottom, 285x135x60mm, black"
+            },
+            {
+              "id": "approved-1b35db50d8ac8fb6da95a3d9",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + perforated bottom, 285x135x60mm, blue"
+            },
+            {
+              "id": "approved-1ad7def721257143781ba6e2",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + perforated bottom, 285x135x60mm, gold"
+            },
+            {
+              "id": "approved-077aebc48230982e806ee7c3",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + perforated bottom, 285x135x60mm, green"
+            },
+            {
+              "id": "approved-38581cf606bbc82eb6e1c9d4",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + perforated bottom, 285x135x60mm, red"
+            },
+            {
+              "id": "approved-59cd7de739ffae686f17f7d1",
+              "brand": "Falcon",
+              "name": "Container mini complete with perforated lid + perforated bottom, 285x135x60mm, silver"
+            },
+            {
+              "id": "approved-efc215678e77d9c8d85e9a0d",
+              "brand": "Falcon",
+              "name": "DENTALINE mixing tips brown 36mm, 1:1 Ratio (Pack of 50 pieces) + Intraoral tips micro (50 pieces)"
+            },
+            {
+              "id": "approved-57b0af6b79363e10d5949327",
+              "brand": "Falcon",
+              "name": "Headband white + 12 face shields 250 x 180mm"
+            },
+            {
+              "id": "approved-ebc6f30603b21c9cea7c9656",
+              "brand": "Falcon",
+              "name": "Mouth props set silicone regular autoclavable (Pack of 6 pieces + 1 cheek support)"
+            },
+            {
+              "id": "approved-7c7b895ec004aa422ae0c7ee",
+              "brand": "Falcon",
+              "name": "Mouth props set silicone small autoclavable (Pack of 6 pieces + 1 cheek support)"
+            },
+            {
+              "id": "approved-4673a9c074f71a9068c9f389",
+              "brand": "Falcon",
+              "name": "Rubber dam instruments set in tray fig 1 + Latex rubber dam medium 150x 150mm (Pack of 36 pieces) Mint"
+            },
+            {
+              "id": "approved-78732d7e4e988515e5ce5119",
+              "brand": "Falcon",
+              "name": "Rubber dam instruments set in tray fig 2 + Latex rubber dam medium 150x 150mm (Pack of 36 pieces) Mint"
+            },
+            {
+              "id": "approved-34792a8973942dde7f170b64",
+              "brand": "Falcon",
+              "name": "Rubber dam instruments set in tray fig 3 + Latex rubber dam medium 150x 150mm (Pack of 36 pieces) Mint"
+            },
+            {
+              "id": "approved-fd8dcb5b0b9f64e2f7b8d51c",
+              "brand": "Falcon",
+              "name": "Visor-I frame black + 12 face shields"
+            },
+            {
+              "id": "approved-f01e2b1b6a84333d23203a41",
+              "brand": "Falcon",
+              "name": "Visor-I frame blue + 12 face shields"
+            },
+            {
+              "id": "approved-2f8c41a05e0a25be7e88cb71",
+              "brand": "Falcon",
+              "name": "Visor-I frame green + 12 face shields"
+            },
+            {
+              "id": "approved-d68522c7bca648897111d031",
+              "brand": "Falcon",
+              "name": "Visor-I frame purple + 12 face shields"
+            },
+            {
+              "id": "approved-67b139a22ac0554374bd2ec8",
+              "brand": "Falcon",
+              "name": "Visor-I frame white + 12 face shields"
+            },
+            {
+              "id": "approved-7b22cdfad3d1721efec00b67",
+              "brand": "Falcon",
+              "name": "Visor-I frame yellow + 12 face shields"
+            },
+            {
+              "id": "approved-ce4fee647d6bc95f726a7d81",
+              "brand": "Falcon",
+              "name": "Visor-II frame black + 12 face shields"
+            },
+            {
+              "id": "approved-ab9c5e3ab8cd0afed329a004",
+              "brand": "Falcon",
+              "name": "Visor-II frame blue + 12 face shields"
+            },
+            {
+              "id": "approved-4bcd0fb9cf4ce1d11f883ed9",
+              "brand": "Falcon",
+              "name": "Visor-II frame green + 12 face shields"
+            },
+            {
+              "id": "approved-bd103d6c1648a7f01040ef7c",
+              "brand": "Falcon",
+              "name": "Visor-II frame pink + 12 face shields"
+            },
+            {
+              "id": "approved-0ed830011055ae08390e53f1",
+              "brand": "Falcon",
+              "name": "Visor-II frame purple + 12 face shields"
+            },
+            {
+              "id": "approved-2cdd7f8e9da5e0a8b50da999",
+              "brand": "Falcon",
+              "name": "Visor-II frame white + 12 face shields"
+            },
+            {
+              "id": "approved-669e10dc204093df7051d5b8",
+              "brand": "Huons",
+              "name": "5 имплантов + 1 упаковка анестетика Артикаина"
+            },
+            {
+              "id": "approved-5bd862e85698b909cd7cb819",
+              "brand": "Mercury",
+              "name": "Турбинный наконечник Mercury 332K1 + роторная группа"
+            },
+            {
+              "id": "approved-e44800b92eaa3f7dbc6d64cb",
+              "brand": "Mercury",
+              "name": "Турбинный наконечник Mercury 332K3 с генератором света + роторная группа"
+            },
+            {
+              "id": "approved-ceef7440c099cef93b413ad4",
+              "brand": "Mercury",
+              "name": "Турбинный наконечник Mercury 351K с генератором света + роторная группа"
+            },
+            {
+              "id": "approved-6af0b88b6cfa508fb7ba4d6c",
+              "brand": "Mercury",
+              "name": "Турбинный наконечник Mercury 381K с быстросъемным коннектором и фиброоптикой + роторная группа"
+            },
+            {
+              "id": "approved-1a37d3023f5c898e1c833ed0",
+              "brand": "MGF",
+              "name": "24 V basin / cuspidor drain valve + selection valve - 230V 50Hz"
+            },
+            {
+              "id": "approved-04544a7c22749453e4362597",
+              "brand": "MGF",
+              "name": "Kit 500/150 TANDEM PRIME - 6 + 6 + 6"
+            },
+            {
+              "id": "approved-f63e441e00020993fededa8f",
+              "brand": "MGF",
+              "name": "PRIME 6 S and TANDEM 2 + 2, 3 + 3 S kit"
+            },
+            {
+              "id": "approved-31684b03ee2237d0876d5a73",
+              "brand": "MGF",
+              "name": "TANDEM PRIME 2 + 2-3 + 3 M kit"
+            },
+            {
+              "id": "approved-d7d0882e92ef0cbd85e763d5",
+              "brand": "MGF",
+              "name": "TANDEM PRIME 3 + 3 + 3 M kit"
+            },
+            {
+              "id": "approved-77f960ccdc6724a343e88f2a",
+              "brand": "MGF",
+              "name": "TANDEM PRIME 3 + 3 + 3 S kit"
+            },
+            {
+              "id": "approved-a4d6dd4a89232d165e996f8b",
+              "brand": "MGF",
+              "name": "TANDEM PRIME 3 + 3 + 3 X kit"
+            },
+            {
+              "id": "approved-2e40a7f81292cd8fef814db7",
+              "brand": "MGF",
+              "name": "TANDEM PRIME 3 + 3 X kit"
+            },
+            {
+              "id": "approved-5f3becb7c658126304bd97ac",
+              "brand": "OSUNG MND",
+              "name": "Dental Explorer 17/23 Shepherd Hook + Orban Type Premium Osung -EXD17-23"
+            },
+            {
+              "id": "approved-3453c85df84927fe9583c4ce",
+              "brand": "OSUNG MND",
+              "name": "Dental Explorer 54-17H Shepherd Hook + Orban Type Premium Osung -EXD54-17H"
+            },
+            {
+              "id": "approved-1039200ce3552e63c3396997",
+              "brand": "OSUNG MND",
+              "name": "Dental Explorer 5H Hard Tip Shepherd hook + Orban Type Premium Osung -EXD5H"
+            },
+            {
+              "id": "approved-269c837e83056c500c815de3",
+              "brand": "OSUNG MND",
+              "name": "Dental Explorer 5W Flex Tip Shepherd Hook + Orban type Premium Osung -EXD5W"
+            },
+            {
+              "id": "approved-4210d1f2913434aedbc41ee8",
+              "brand": "OSUNG MND",
+              "name": "Dental Explorer Korean Rigid + Flexible. Autoclavable Handle Osung -EXDK"
+            },
+            {
+              "id": "approved-217f6714250394ce76d769e6",
+              "brand": "OSUNG MND",
+              "name": "Dental Explorer Probe 23/CP-8 Shepherd's hook explorer + Probe Premium Osung -XP23-8"
+            },
+            {
+              "id": "approved-b3fd07390065231af66a036c",
+              "brand": "OSUNG MND",
+              "name": "Dental Explorer Probe 23/Williams Shepherd's hook Explorer + Probe Premium Osung -XP23-W"
+            },
+            {
+              "id": "approved-4d498535b5ae3143cfe0b3ba",
+              "brand": "OSUNG MND",
+              "name": "Dental Probe GF-W Goldman-Fox + Williams Premium Osung -BPGF-W"
+            },
+            {
+              "id": "approved-47795bd1e60dd096bcd7f4ea",
+              "brand": "RAY",
+              "name": "Rayscan RCT 700 (13x10) c цефало + 100 имплантов"
+            },
+            {
+              "id": "approved-57fe50a0984fe0f845936607",
+              "brand": "RAY",
+              "name": "Rayscan RCT 700 (13x10) c цефало + 100 имплантов + AORALSCAN Lync (проводной)"
+            },
+            {
+              "id": "approved-70e238a66cea1a8ab46daf52",
+              "brand": "RAY",
+              "name": "Rayscan RCT 700 (16x10) c цефало + 100 имплантов + Shining Elite + хирургический набор Surgical (07)"
+            },
+            {
+              "id": "approved-44538e92efa8fa8ff2edd6e0",
+              "brand": "RAY",
+              "name": "Rayscan RCT 700 (16x10) c цефало + 200 имплантов"
+            },
+            {
+              "id": "approved-30c1d8f8fc0b6e1f2f25f1db",
+              "brand": "RAY",
+              "name": "Rayscan RCT 700 Quantum (16x10) c цефало + 200 имплантов"
+            },
+            {
+              "id": "approved-55ccec7692324a775920bc14",
+              "brand": "Revyline",
+              "name": "Набор Зубных паст Revyline Perfect Виноград + Груша + Грейпфрут + Шоколад, 4х40 г"
+            },
+            {
+              "id": "approved-4e90ecaa94a0aad7e7bd49e7",
+              "brand": "Revyline",
+              "name": "Набор зубных щеток Revyline S6500 Smart Duo, Green + Blue"
+            },
+            {
+              "id": "approved-679b489fca111e0cc884631e",
+              "brand": "Revyline",
+              "name": "Набор зубных щеток Revyline S6500 Smart Duo, White/Pink + White/Blue"
+            },
+            {
+              "id": "approved-89bf9c9b4e3d17a565c1a545",
+              "brand": "Revyline",
+              "name": "Набор зубных щеток Revyline SM6000 Smart Duo, Raspberry + Grey"
+            }
+          ]
+        },
+        "bracketFamiliesMissingPositionSkuMatrix": {
+          "severity": "HIGH",
+          "count": 7,
+          "risk": "Наборы опубликованы, но одиночный брекет нельзя автоматически сопоставить по номеру зуба и REF.",
+          "examples": [
+            {
+              "id": "approved-f14670be5c8a3293d881b612",
+              "brand": "NIC",
+              "name": "Ceramic Brackets",
+              "variants": 1
+            },
+            {
+              "id": "approved-34b5bff1873651bdd9a32eb0",
+              "brand": "NIC",
+              "name": "Classic Metal Brackets",
+              "variants": 1
+            },
+            {
+              "id": "approved-bc59d4f7c77cb9081683c9ec",
+              "brand": "NIC",
+              "name": "Passive Self-Ligating Brackets",
+              "variants": 1
+            },
+            {
+              "id": "approved-a6ea2a9b72f23135caeed029",
+              "brand": "ORMCO",
+              "name": "Набор брекетов Damon Clear2 ВЧ 5+5",
+              "variants": 1
+            },
+            {
+              "id": "approved-7fb477079bd38c4f1a458d13",
+              "brand": "ORMCO",
+              "name": "Брекет-система ORMCO Damon Q2",
+              "variants": 4
+            },
+            {
+              "id": "approved-7c681f266e9ba6331e481d30",
+              "brand": "ORMCO",
+              "name": "Брекет-система ORMCO Damon Q",
+              "variants": 2
+            },
+            {
+              "id": "approved-982559a74985d7e8558e32f4",
+              "brand": "ORMCO",
+              "name": "Комбинированная брекет-система ORMCO Damon Clear + Damon Q",
+              "variants": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "source": "apps/buyer-web/app/data/public-catalog-fallback.json",
+      "cards": 2869,
+      "checks": {
+        "technicalOnlyMultiVariantCards": {
+          "severity": "HIGH",
+          "count": 23,
+          "risk": "Покупатель видит REF вместо различий, а прайс нельзя надёжно сопоставить по выбранной комплектации.",
+          "examples": [
+            {
+              "id": "public-055957aee51674dfc08611a5",
+              "brand": "EKOM",
+              "name": "Безмасляный стоматологический компрессор EKOM DK50 2V",
+              "variants": 8
+            },
+            {
+              "id": "public-42030cfaf26d75c8e88df3ae",
+              "brand": "EKOM",
+              "name": "Безмасляный стоматологический компрессор EKOM DK50 2V/50",
+              "variants": 6
+            },
+            {
+              "id": "public-8bb9852a8548329a6cefb03e",
+              "brand": "EKOM",
+              "name": "Безмасляный стоматологический компрессор EKOM DK50 2X2V/110",
+              "variants": 6
+            },
+            {
+              "id": "public-bfbc9959359b4522f4a5bf33",
+              "brand": "EKOM",
+              "name": "Безмасляный стоматологический компрессор EKOM DK50 2X4VR/110",
+              "variants": 6
+            },
+            {
+              "id": "public-4e09070712ea8f9132804f01",
+              "brand": "EKOM",
+              "name": "Безмасляный стоматологический компрессор EKOM DK50 3X4VR/M",
+              "variants": 2
+            },
+            {
+              "id": "public-772cbe54c9964b15ee12eee9",
+              "brand": "EKOM",
+              "name": "Безмасляный стоматологический компрессор EKOM DK50 4VR/50",
+              "variants": 6
+            },
+            {
+              "id": "public-12122d5becbc5dab0eaf1621",
+              "brand": "EKOM",
+              "name": "Безмасляный стоматологический компрессор EKOM DK50 4X4VRT/M",
+              "variants": 4
+            },
+            {
+              "id": "public-bab6ab6716e78e0ebc64a8d3",
+              "brand": "EKOM",
+              "name": "Безмасляный стоматологический компрессор EKOM DK50 6X4VRT/M",
+              "variants": 4
+            },
+            {
+              "id": "public-2f536f296efa18d6db2848ab",
+              "brand": "EKOM",
+              "name": "Безмасляный стоматологический компрессор EKOM DK50 9X4VRT/M",
+              "variants": 4
+            },
+            {
+              "id": "public-d7d799d0358685701e790d2a",
+              "brand": "EKOM",
+              "name": "Безмасляный стоматологический компрессор EKOM DK50 PLUS",
+              "variants": 6
+            },
+            {
+              "id": "public-b3b31dbcda5e5a1a0e824f00",
+              "brand": "EKOM",
+              "name": "Безмасляный стоматологический компрессор EKOM DK50-10",
+              "variants": 6
+            },
+            {
+              "id": "public-e206287209755a0ba4edcc7a",
+              "brand": "Interdent",
+              "name": "Гипс зуботехнический Interrock NEW супертвердый тип 4",
+              "variants": 9
+            },
+            {
+              "id": "public-c1dfdc85ceece12adc20a6a9",
+              "brand": "Interdent",
+              "name": "Гипс зуботехнический Interrock Premium тип 4",
+              "variants": 4
+            },
+            {
+              "id": "public-fa37830cfc1807a940083604",
+              "brand": "EKOM",
+              "name": "Компрессор с аспирацией EKOM DUO",
+              "variants": 2
+            },
+            {
+              "id": "public-78e5b270952f395024e57b09",
+              "brand": "EKOM",
+              "name": "Компрессор с аспирацией EKOM DUO 2",
+              "variants": 2
+            },
+            {
+              "id": "public-82f40cda1164c271a12fb447",
+              "brand": "EKOM",
+              "name": "Компрессор с аспирацией EKOM DUO 2V",
+              "variants": 2
+            },
+            {
+              "id": "public-ed8c4e816d51a07f9f59b355",
+              "brand": "Interdent",
+              "name": "Наждачная лента",
+              "variants": 3
+            },
+            {
+              "id": "public-c8d5ab9fc280bb742de7a066",
+              "brand": "Interdent",
+              "name": "Порошок зуботехнический корундовый Interalox",
+              "variants": 4
+            },
+            {
+              "id": "public-c151078933ddc518b95bc00c",
+              "brand": "Interdent",
+              "name": "Проволока для кламмеров",
+              "variants": 4
+            },
+            {
+              "id": "public-554983379600a2c00f554625",
+              "brand": "EKOM",
+              "name": "Система аспирации EKOM DO 2.1",
+              "variants": 3
+            },
+            {
+              "id": "public-37de25f3feee1fda026f488d",
+              "brand": "EKOM",
+              "name": "Система аспирации EKOM DO 3",
+              "variants": 2
+            },
+            {
+              "id": "public-c0f0c55daf2174cc5bc420bb",
+              "brand": "W&H",
+              "name": "W&H Assistina One",
+              "variants": 3
+            },
+            {
+              "id": "public-0824c2d8fc78d057602cb5d9",
+              "brand": "W&H",
+              "name": "W&H Implantmed Plus II",
+              "variants": 3
+            }
+          ]
+        },
+        "mixedIndependentProducts": {
+          "severity": "HIGH",
+          "count": 4,
+          "risk": "Самостоятельно покупаемые компоненты ошибочно представлены как взаимоисключающие варианты одной карточки.",
+          "examples": [
+            {
+              "id": "public-0dcff07fdc8bad9d9af192e2",
+              "brand": "GC",
+              "name": "GC GRADIA PLUS",
+              "kinds": [
+                "самостоятельный аксессуар",
+                "набор"
+              ],
+              "variants": 7
+            },
+            {
+              "id": "public-9824a9f3a4f7f53c5435349c",
+              "brand": "GC",
+              "name": "GC Initial IQ ONE SQIN",
+              "kinds": [
+                "порошок",
+                "жидкость",
+                "набор"
+              ],
+              "variants": 16
+            },
+            {
+              "id": "public-a76e7826c98e16ab2f489e9a",
+              "brand": "Interdent",
+              "name": "Interacryl Cast - пластмасса",
+              "kinds": [
+                "порошок",
+                "жидкость",
+                "набор"
+              ],
+              "variants": 16
+            },
+            {
+              "id": "public-aeb70950135221325aaed6b8",
+              "brand": "Interdent",
+              "name": "Interacryl Hot - пластмасса",
+              "kinds": [
+                "порошок",
+                "жидкость",
+                "самостоятельный аксессуар",
+                "набор"
+              ],
+              "variants": 14
+            }
+          ]
+        },
+        "genericCategories": {
+          "severity": "PASS",
+          "count": 0,
+          "risk": "Карточка не попадает в ожидаемую медицинскую группу.",
+          "examples": []
+        },
+        "promotionLikeCatalogCards": {
+          "severity": "MEDIUM",
+          "count": 8,
+          "risk": "Акционные комплекты засоряют основную товарную выдачу.",
+          "examples": [
+            {
+              "id": "public-5fc40c46006dfdea3887f053",
+              "brand": "FOMOS",
+              "name": "Автоклав FOMOS Foster Plus 22L + Aqua дистиллятор + Foseal упаковочная машина"
+            },
+            {
+              "id": "public-5f0589e4e4606ae0777948d1",
+              "brand": null,
+              "name": "Матрицы 1,320 контурные замковые + кольцо"
+            },
+            {
+              "id": "public-52043392e2d9c5f051c3d604",
+              "brand": null,
+              "name": "Рентген аппарат С28P + визиографC62"
+            },
+            {
+              "id": "public-d5de1d584378461cf492e7f0",
+              "brand": null,
+              "name": "Рентген аппарат С28P + визиографC62B"
+            },
+            {
+              "id": "public-24dc37af0274344320666705",
+              "brand": null,
+              "name": "Система обтурации EASY FILL + EASY PACK SANI"
+            },
+            {
+              "id": "public-83e431a8777edd97a45ab07f",
+              "brand": null,
+              "name": "Шлем защитный + 1 экран"
+            },
+            {
+              "id": "public-48f11e269270a0f1c508b218",
+              "brand": null,
+              "name": "Шлем защитный + 10 экранов"
+            },
+            {
+              "id": "public-65d259ad129a26f8556533ca",
+              "brand": null,
+              "name": "WJ Medical электромотор + WJ-422 повышающий наконечник"
+            }
+          ]
+        },
+        "bracketFamiliesMissingPositionSkuMatrix": {
+          "severity": "HIGH",
+          "count": 44,
+          "risk": "Наборы опубликованы, но одиночный брекет нельзя автоматически сопоставить по номеру зуба и REF.",
+          "examples": [
+            {
+              "id": "public-01e892789ef774c14fee344f",
+              "brand": null,
+              "name": "Брекеты 1st Molar /2nd Molar",
+              "variants": 1
+            },
+            {
+              "id": "public-fa1e66169a191feea271f6a5",
+              "brand": null,
+              "name": "Брекеты керамические паз 0,22 Rooth, MBT",
+              "variants": 1
+            },
+            {
+              "id": "public-6499e5b673ef54a95ca66353",
+              "brand": null,
+              "name": "Брекеты керамические самолегирующие паз 0,22",
+              "variants": 1
+            },
+            {
+              "id": "public-b26ded13794424b2ed4bfa1d",
+              "brand": null,
+              "name": "Брекеты лингвальные",
+              "variants": 1
+            },
+            {
+              "id": "public-e209f08de36c933db818cdde",
+              "brand": null,
+              "name": "Брекеты металлические 1G",
+              "variants": 1
+            },
+            {
+              "id": "public-74b2c37a6b23ea25657e84c5",
+              "brand": null,
+              "name": "Брекеты металлические в форме Gemini",
+              "variants": 1
+            },
+            {
+              "id": "public-af4741c45518875e27c6c5d1",
+              "brand": null,
+              "name": "Брекеты металлические верх или низ",
+              "variants": 1
+            },
+            {
+              "id": "public-72b3def077d192843c3c6b90",
+              "brand": null,
+              "name": "Брекеты металлические паз 0,22",
+              "variants": 1
+            },
+            {
+              "id": "public-d27a29d7aa91e5125a15de11",
+              "brand": null,
+              "name": "Брекеты металлические паз 0,22 mini Rooth",
+              "variants": 1
+            },
+            {
+              "id": "public-f34cad414755a35a4848d204",
+              "brand": null,
+              "name": "Брекеты металлические Ricketts",
+              "variants": 1
+            },
+            {
+              "id": "public-7bcd875871c760888797eb81",
+              "brand": null,
+              "name": "Брекеты самолигирующие",
+              "variants": 1
+            },
+            {
+              "id": "public-ac6b520d29babdb35b54efd9",
+              "brand": null,
+              "name": "Брекеты самолигирующие Active 1G",
+              "variants": 1
+            },
+            {
+              "id": "public-f1b66e85942de7570a214110",
+              "brand": null,
+              "name": "Брекеты самолигирующие Passive 3G",
+              "variants": 1
+            },
+            {
+              "id": "public-5928a7fd3da9dfbee501dc06",
+              "brand": null,
+              "name": "Брекеты самолигирующие Passive 5G",
+              "variants": 1
+            },
+            {
+              "id": "public-a3c3118bc584d0d07fb3711c",
+              "brand": null,
+              "name": "Брекеты самолигирующие Passive 7G (Damon Q)",
+              "variants": 1
+            },
+            {
+              "id": "public-5aa229f092d8b93a8c79c73a",
+              "brand": null,
+              "name": "Брекеты сапфировые паз 0,22 Rooth, MBT",
+              "variants": 1
+            },
+            {
+              "id": "public-353b7697fa13992f734f53bd",
+              "brand": "Ormco",
+              "name": "Набор брекетов Damon Clear2 ВЧ 5+5",
+              "variants": 1
+            },
+            {
+              "id": "public-91c1fbdd4c1097fc8799ab90",
+              "brand": null,
+              "name": "Трейнеры для брекетов T4B, T4B2 от 12 лет и старше",
+              "variants": 1
+            },
+            {
+              "id": "public-af34ac85a5f4fb7b9b498e20",
+              "brand": null,
+              "name": "HST-B1-01 Ортодонтическая модель брекеты металические",
+              "variants": 1
+            },
+            {
+              "id": "public-3b1d59afbe55e35e1f635273",
+              "brand": null,
+              "name": "HST-B1-02 Ортодонтическая модель брекеты метал./керамические",
+              "variants": 1
+            },
+            {
+              "id": "public-e4c1145d9fc1e461af64bbec",
+              "brand": null,
+              "name": "HST-B1-03 Ортодонтическая модель брекеты керамические",
+              "variants": 1
+            },
+            {
+              "id": "public-7d6e8420d05efd49f7d2c6a1",
+              "brand": null,
+              "name": "HST-B2-01 Ортодонтическая модель брекеты металические",
+              "variants": 1
+            },
+            {
+              "id": "public-0a1ed77390e91c1f439a2c73",
+              "brand": null,
+              "name": "HST-B2-02 Ортодонтическая модель брекеты метал./керамические",
+              "variants": 1
+            },
+            {
+              "id": "public-651a81d3d4c457edec21cf82",
+              "brand": null,
+              "name": "HST-B2-03 Ортодонтическая модель брекеты керамические",
+              "variants": 1
+            },
+            {
+              "id": "public-09f9e00706313b9547c81f24",
+              "brand": null,
+              "name": "HST-B3-01 Ортодонтическая модель металические брекеты",
+              "variants": 1
+            },
+            {
+              "id": "public-c3a42378900da8f299897ca4",
+              "brand": null,
+              "name": "HST-B3-02 Ортодонтическая модель брекеты метал./керамические",
+              "variants": 1
+            },
+            {
+              "id": "public-9ab09edc12676b5ec64c1c06",
+              "brand": null,
+              "name": "HST-B3-03 Ортодонтическая модель брекеты керамические",
+              "variants": 1
+            },
+            {
+              "id": "public-6775fcd776d4cfb8a0620e67",
+              "brand": null,
+              "name": "HST-B4-01 Ортодонтическая модель брекеты металические",
+              "variants": 1
+            },
+            {
+              "id": "public-0414f15e81fee16f66bede83",
+              "brand": null,
+              "name": "HST-B4-02 Ортодонтическая модель брекеты метал./керамические",
+              "variants": 1
+            },
+            {
+              "id": "public-15853bfea94d50340cc63679",
+              "brand": null,
+              "name": "HST-B4-03 Ортодонтическая модель брекеты керамические",
+              "variants": 1
+            },
+            {
+              "id": "public-0fce1c5d45bcdab4aa738076",
+              "brand": null,
+              "name": "HST-B5-01 Ортодонтическая модель металлические брекеты",
+              "variants": 1
+            },
+            {
+              "id": "public-63a6e43654ddd93c9d3427ee",
+              "brand": null,
+              "name": "HST-B5-02 Ортодонтическая модель брекеты метал./керамические",
+              "variants": 1
+            },
+            {
+              "id": "public-d86006299b74fa0d0cffe3c9",
+              "brand": null,
+              "name": "HST-B5-03 Ортодонтическая модель брекеты керамические",
+              "variants": 1
+            },
+            {
+              "id": "public-fa066e4ba806a24bc5494b7f",
+              "brand": null,
+              "name": "HST-B6-01 Ортодонтическая модель металлические брекеты",
+              "variants": 1
+            },
+            {
+              "id": "public-ddd162baa5f15dec91de6716",
+              "brand": null,
+              "name": "HST-B6-02 Ортодонтическая модель металлические брекеты/керамические",
+              "variants": 1
+            },
+            {
+              "id": "public-bb131b4e9e0c3761fc61e528",
+              "brand": null,
+              "name": "HST-B6-03 Ортодонтическая модель брекеты керамические",
+              "variants": 1
+            },
+            {
+              "id": "public-9168218e622a18c6b2185866",
+              "brand": null,
+              "name": "HST-B7-01 Ортодонтическая модель металлические брекеты",
+              "variants": 1
+            },
+            {
+              "id": "public-bdf08a1910c5f75b602cc126",
+              "brand": null,
+              "name": "HST-B7-02 Ортодонтическая модель металлические брекеты",
+              "variants": 1
+            },
+            {
+              "id": "public-574f84cfa1dacd67969fbcb0",
+              "brand": null,
+              "name": "HST-B7-03 Ортодонтическая модель керамические брекеты",
+              "variants": 1
+            },
+            {
+              "id": "public-862130d2a016b50e5a04e81a",
+              "brand": null,
+              "name": "HST-B8-02 Ортодонтическая модель металлические брекеты",
+              "variants": 1
+            },
+            {
+              "id": "public-cd4e0b223cb9840d70f3b2a6",
+              "brand": null,
+              "name": "HST-B8-03 Ортодонтическая модель металлические брекеты",
+              "variants": 1
+            },
+            {
+              "id": "public-68d285de3844055c396e1d7f",
+              "brand": null,
+              "name": "HST-B9-01 Ортодонтическая модель брекеты металические",
+              "variants": 1
+            },
+            {
+              "id": "public-081b2dfc1ab258d8c94b7138",
+              "brand": null,
+              "name": "LM трейнер для брекетов LM траинербракес",
+              "variants": 1
+            },
+            {
+              "id": "public-8bae9c3027fe504b522b3d3f",
+              "brand": "Ormco",
+              "name": "Брекет-система ORMCO Damon Q2",
+              "variants": 2
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

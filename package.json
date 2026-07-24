@@ -19,6 +19,7 @@
     "catalog:validate-variants": "node scripts/validate-public-catalog-variants.mjs",
     "catalog:report-quality": "node scripts/report-public-catalog-quality.mjs",
     "catalog:audit-normalization": "node scripts/audit-catalog-normalization.mjs",
+    "catalog:apply-commerce-model": "node scripts/apply-catalog-commerce-model.mjs --apply",
     "catalog:build-curation-queues": "node scripts/build-catalog-curation-queues.mjs",
     "catalog:validate-media": "node scripts/validate-catalog-media.mjs",
     "catalog:report-expansion": "node scripts/report-catalog-expansion.mjs",

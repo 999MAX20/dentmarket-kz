@@ -27,6 +27,8 @@ type ProductVariant = {
   sku: string | null;
   gtin: string | null;
   attributes?: Record<string, unknown>;
+  imageUrl?: string | null;
+  sourceUrl?: string | null;
 };
 type ProductOffer = {
   id: string;
@@ -213,25 +215,6 @@ export default async function ProductPage({
   const product = await getProduct(decodeURIComponent(id));
   if (!product) notFound();
 
-  const media =
-    product.liveMedia ??
-    ("imageUrl" in product && product.imageUrl
-      ? {
-          sourceUrl: `/api/catalog-images/${encodeURIComponent(product.id)}?v=5`,
-          securePath: null,
-          altText: `${product.name} — фото товара`,
-          metadata: {
-            exactProductPhoto: true,
-            sourceImageUrl: product.imageUrl,
-            visualCompliance: "auto_corrected",
-            overlayCleanup: detachedBrandOverlay(product.imageUrl)
-              ? "top_strip"
-              : "none",
-          },
-        }
-      : undefined) ??
-    (product.sourceUrl ? mediaEntries[product.sourceUrl] : undefined);
-  const imageSource = safeCatalogMediaSource(media);
   const variants = ((product.variants ?? []) as ProductVariant[]).map(
     (variant) => ({
       ...variant,
@@ -247,6 +230,36 @@ export default async function ProductPage({
   const selectedVariant =
     variants.find((variant) => variant.id === requestedVariantId) ??
     variants[0];
+  const isBracketSystem = /брекет/iu.test(product.category ?? "");
+  const requiresPositionSkuMatrix =
+    (product as PublishedCatalogProduct).commerceModel?.status ===
+    "POSITION_SKU_MATRIX_REQUIRED";
+  const selectedImageUrl =
+    selectedVariant?.imageUrl ??
+    ("imageUrl" in product ? product.imageUrl : null);
+  const media =
+    product.liveMedia ??
+    (selectedImageUrl
+      ? {
+          sourceUrl: `/api/catalog-images/${encodeURIComponent(product.id)}?v=6${
+            selectedVariant?.imageUrl
+              ? `&variant=${encodeURIComponent(selectedVariant.id)}`
+              : ""
+          }`,
+          securePath: null,
+          altText: `${product.name} — фото выбранного варианта`,
+          metadata: {
+            exactProductPhoto: true,
+            sourceImageUrl: selectedImageUrl,
+            visualCompliance: "auto_corrected" as const,
+            overlayCleanup: detachedBrandOverlay(selectedImageUrl)
+              ? ("top_strip" as const)
+              : ("none" as const),
+          },
+        }
+      : undefined) ??
+    (product.sourceUrl ? mediaEntries[product.sourceUrl] : undefined);
+  const imageSource = safeCatalogMediaSource(media);
   const attributes = Object.entries(
     Object.fromEntries([
       ...((product.attributes ?? []) as Array<[string, string]>),
@@ -317,6 +330,7 @@ export default async function ProductPage({
               <VariantPicker
                 variants={variants}
                 selectedVariantId={selectedVariant.id}
+                requiresPositionSkuMatrix={requiresPositionSkuMatrix}
               />
             ) : null}
             <div className={styles.facts}>
@@ -347,11 +361,19 @@ export default async function ProductPage({
             </div>
             <aside className={styles.orderGuide} aria-label="Как выбрать товар">
               <strong>Как заказать без ошибки</strong>
-              <ol>
-                <li>Выберите объём, фасовку, оттенок или другой вариант выше.</li>
-                <li>Сравните предложения именно для выбранного варианта.</li>
-                <li>Проверьте срок доставки и положите предложение поставщика в корзину.</li>
-              </ol>
+              {isBracketSystem ? (
+                <ol>
+                  <li>Выберите набор или отдельный брекет, затем челюсть и нужный зуб.</li>
+                  <li>Проверьте пропись, размер паза, торк и наличие крючка.</li>
+                  <li>Сравните продавцов только для выбранного варианта и положите его в корзину.</li>
+                </ol>
+              ) : (
+                <ol>
+                  <li>Выберите объём, фасовку, оттенок или другой вариант выше.</li>
+                  <li>Сравните предложения именно для выбранного варианта.</li>
+                  <li>Проверьте срок доставки и положите предложение поставщика в корзину.</li>
+                </ol>
+              )}
             </aside>
           </div>
         </section>

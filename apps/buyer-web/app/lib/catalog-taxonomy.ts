@@ -222,6 +222,10 @@ const TAXONOMY_RULES: TaxonomyRule[] = [
   node("restoration", "flow-composites", "Текучие композиты", [
     "текучий композит", "flow composite", "flowable",
   ]),
+  node("orthodontics", "orthodontic-adhesives", "Материалы для фиксации брекетов", [
+    "ортодонтический адгезив", "orthodontic adhesive", "bracket adhesive",
+    "цемент для брекетов", "клей для брекетов", "bracket bonding",
+  ]),
   node("restoration", "composites", "Композиты", [
     "композит", "composite", "restorative", "пломбировочный материал",
   ]),
@@ -249,14 +253,48 @@ const TAXONOMY_RULES: TaxonomyRule[] = [
   node("prosthetics", "temporary-materials", "Временные материалы", [
     "временная коронка", "temporary crown", "временный цемент", "temporary cement",
   ]),
-  node("orthodontics", "brackets", "Брекеты", [
-    "брекет", "bracket", "braces",
+  node("orthodontics", "bracket-instruments", "Инструменты для брекетов", [
+    "пинцет держатель брекета", "позиционер брекета", "щипцы для брекетов",
+    "щипцы для снятия брекетов", "bracket height gauge", "bracket positioner",
+    "bracket positioning gauge", "bracket tweezer", "bracket remover",
+    "bracket placing tweezer",
+  ]),
+  node("orthodontics", "buccal-tubes", "Щёчные трубки и замки", [
+    "щечная трубка", "щёчная трубка", "buccal tube", "молярный замок",
+    "ортодонтический замок",
+  ]),
+  node("orthodontics", "orthodontic-bands", "Ортодонтические кольца", [
+    "ортодонтическое кольцо", "orthodontic band", "molar band",
   ]),
   node("orthodontics", "archwires", "Дуги", [
-    "ортодонтическая дуга", "archwire", "nitinol arch",
+    "ортодонтическая дуга", "archwire", "arch wire", "nitinol arch",
+    "niti wire", "reverse curve wire",
   ]),
-  node("orthodontics", "orthodontic-accessories", "Эластики и аксессуары", [
-    "эластик", "ligature", "лигатура", "orthodontic accessories",
+  node("orthodontics", "orthodontic-ligatures", "Лигатуры", [
+    "ортодонтическая лигатура", "elastic ligature", "ligature ties",
+    "лигатура для брекетов",
+  ]),
+  node("orthodontics", "orthodontic-chains", "Эластомерные цепочки", [
+    "эластомерная цепочка", "ортодонтическая цепочка", "power chain",
+    "elastic chain",
+  ]),
+  node("orthodontics", "orthodontic-elastics", "Эластики и тяги", [
+    "ортодонтический эластик", "межчелюстная тяга", "orthodontic elastic",
+    "intraoral elastic",
+  ]),
+  node("orthodontics", "orthodontic-springs", "Пружины", [
+    "ортодонтическая пружина", "open coil spring", "closed coil spring",
+    "coil springs",
+  ]),
+  node("hygiene", "braces-care", "Уход за брекет-системами", [
+    "уход за брекет", "brace kit", "braces care", "orthodontic care kit",
+  ]),
+  node("orthodontics", "brackets", "Брекет-системы и отдельные брекеты", [
+    "брекет", "braces", "orthodontic bracket", "metal brackets",
+    "ceramic brackets", "self ligating brackets", "lingual brackets",
+  ]),
+  node("orthodontics", "orthodontic-accessories", "Другие ортодонтические аксессуары", [
+    "orthodontic accessories", "ортодонтические аксессуары",
   ]),
   node("surgery", "extraction", "Инструменты для удаления", [
     "щипцы для удаления", "extraction forceps", "элеватор", "luxator",

@@ -235,18 +235,23 @@ async function correctedProductImage(
 }
 
 export async function GET(
-  _request: NextRequest,
+  request: NextRequest,
   context: { params: Promise<{ productId: string }> },
 ) {
   const { productId } = await context.params;
   const catalog = await readPublishedCatalog();
   const product = catalog.products.find(({ id }) => id === productId);
-  if (!product?.imageUrl || !/^https?:\/\//iu.test(product.imageUrl)) {
+  const requestedVariantId = request.nextUrl.searchParams.get("variant");
+  const variantImageUrl = requestedVariantId
+    ? product?.variants.find(({ id }) => id === requestedVariantId)?.imageUrl
+    : null;
+  const imageUrl = variantImageUrl ?? product?.imageUrl;
+  if (!imageUrl || !/^https?:\/\//iu.test(imageUrl)) {
     return new NextResponse(null, { status: 404 });
   }
 
   try {
-    const image = await correctedProductImage(product.imageUrl);
+    const image = await correctedProductImage(imageUrl);
     return new NextResponse(new Uint8Array(image), {
       headers: {
         "Content-Type": "image/webp",
@@ -258,6 +263,6 @@ export async function GET(
   } catch {
     // Карточка не блокируется: если коррекция временно недоступна, отдаём
     // исходник, а следующий запрос CDN повторит обработку.
-    return NextResponse.redirect(product.imageUrl, 307);
+    return NextResponse.redirect(imageUrl, 307);
   }
 }

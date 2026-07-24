@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T14:12:58.466Z",
+  "generatedAt": "2026-07-24T15:46:41.741Z",
   "sourceFiles": [
     "allfordent-catalog.csv",
     "amdgroup-catalog.csv",
@@ -84249,14 +84249,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-1st-molar-2nd-molar",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -84264,6 +84260,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -84272,8 +84272,10 @@
           "id": "public-01e892789ef774c14fee344f-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -84306,6 +84308,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -84345,14 +84365,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-keramicheskie-paz-022-rooth-mbt",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -84360,6 +84376,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -84368,8 +84392,12 @@
           "id": "public-fa1e66169a191feea271f6a5-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка · MBT",
+          "attributes": {
+            "Материал": "Керамика",
+            "Пропись": "MBT",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -84402,6 +84430,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -84441,14 +84487,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-keramicheskie-samolegiruyushchie-paz-022",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -84456,6 +84498,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -84464,8 +84514,11 @@
           "id": "public-6499e5b673ef54a95ca66353-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -84498,6 +84551,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -84537,14 +84608,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-lingvalnye",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -84552,6 +84619,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -84560,8 +84631,10 @@
           "id": "public-b26ded13794424b2ed4bfa1d-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -84594,6 +84667,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -84633,14 +84724,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://medstom.kz/catalog",
       "sourceUpdatedAt": "2026-07-17T09:35:49.424Z",
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Артикул поставщика",
           "BR-GALAXY"
@@ -84652,6 +84739,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -84660,8 +84755,11 @@
           "id": "public-f49409de16c255aba59f5d02-variant-default",
           "sku": "BR-GALAXY",
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -84694,7 +84792,23 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
-      ]
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "SKU_READY",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": []
     },
     {
       "id": "public-6d25a5fb6bf60dd18bec89ea",
@@ -84738,14 +84852,10 @@
       },
       "brand": "IMD",
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://stomir.kz/",
       "sourceUpdatedAt": "2026-07-17",
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Бренд",
           "IMD"
@@ -84761,6 +84871,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -84769,8 +84887,11 @@
           "id": "public-6d25a5fb6bf60dd18bec89ea-variant-default",
           "sku": "CKB-101",
           "gtin": null,
-          "label": "Стандартная фасовка · набор",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -84803,7 +84924,23 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
-      ]
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "SKU_READY",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": []
     },
     {
       "id": "public-a7eb78ff0eb05a314dd45420",
@@ -84842,14 +84979,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://medstom.kz/catalog",
       "sourceUpdatedAt": "2026-07-17T09:35:49.424Z",
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Артикул поставщика",
           "BR-METAL-018"
@@ -84861,6 +84994,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -84869,8 +85010,12 @@
           "id": "public-a7eb78ff0eb05a314dd45420-variant-default",
           "sku": "BR-METAL-018",
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка · паз 0.018",
+          "attributes": {
+            "Материал": "Металл",
+            "Паз": "0.018",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -84903,7 +85048,23 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
-      ]
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "SKU_READY",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": []
     },
     {
       "id": "public-e209f08de36c933db818cdde",
@@ -84942,14 +85103,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-metallicheskie-1g",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -84957,6 +85114,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -84965,8 +85130,11 @@
           "id": "public-e209f08de36c933db818cdde-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -84999,6 +85167,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -85038,14 +85224,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-metallicheskie-v-forme-gemini",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -85053,6 +85235,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -85061,8 +85251,11 @@
           "id": "public-74b2c37a6b23ea25657e84c5-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -85095,6 +85288,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -85134,14 +85345,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-metallicheskie-verh-ili-niz",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -85149,6 +85356,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -85157,8 +85372,11 @@
           "id": "public-af4741c45518875e27c6c5d1-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -85191,6 +85409,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -85230,14 +85466,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-metallicheskie-paz-022",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -85245,6 +85477,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -85253,8 +85493,11 @@
           "id": "public-72b3def077d192843c3c6b90-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -85287,6 +85530,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -85326,14 +85587,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-metallicheskie-paz-022-mini-rooth",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -85341,6 +85598,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -85349,8 +85614,11 @@
           "id": "public-d27a29d7aa91e5125a15de11-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -85383,6 +85651,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -85422,14 +85708,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-metallicheskie-ricketts",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -85437,6 +85719,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -85445,8 +85735,11 @@
           "id": "public-f34cad414755a35a4848d204-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -85479,6 +85772,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -85530,14 +85841,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-samoligiruyushchie-1",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -85545,6 +85852,10 @@
         [
           "Источники",
           "3"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -85553,8 +85864,11 @@
           "id": "public-7bcd875871c760888797eb81-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Тип брекетов": "Самолигирующие",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -85587,6 +85901,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -85626,14 +85958,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://medstom.kz/catalog",
       "sourceUpdatedAt": "2026-07-17T09:35:49.424Z",
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Артикул поставщика",
           "BR-SAMO"
@@ -85645,6 +85973,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -85653,8 +85989,13 @@
           "id": "public-49937b54c1c47e51f5f774eb-variant-default",
           "sku": "BR-SAMO",
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка · паз 0.022",
+          "attributes": {
+            "Материал": "Металл",
+            "Тип брекетов": "Самолигирующие",
+            "Паз": "0.022",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -85687,7 +86028,23 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
-      ]
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "SKU_READY",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": []
     },
     {
       "id": "public-ac6b520d29babdb35b54efd9",
@@ -85726,14 +86083,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-samoligiruyushchie-active-1g",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -85741,6 +86094,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -85749,8 +86106,11 @@
           "id": "public-ac6b520d29babdb35b54efd9-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Тип брекетов": "Самолигирующие",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -85783,6 +86143,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -85822,14 +86200,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-samoligiruyushchie-passive-3g",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -85837,6 +86211,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -85845,8 +86223,11 @@
           "id": "public-f1b66e85942de7570a214110-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Тип брекетов": "Самолигирующие",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -85879,6 +86260,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -85918,14 +86317,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-samoligiruyushchie-passive-5g",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -85933,6 +86328,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -85941,8 +86340,11 @@
           "id": "public-5928a7fd3da9dfbee501dc06-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Тип брекетов": "Самолигирующие",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -85975,6 +86377,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -86014,14 +86434,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-samoligiruyushchie-passive-7g-damon-q",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -86029,6 +86445,18 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
+        ],
+        [
+          "Система",
+          "Damon Q"
         ]
       ],
       "aliases": [],
@@ -86037,8 +86465,13 @@
           "id": "public-a3c3118bc584d0d07fb3711c-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Система": "Damon Q",
+            "Материал": "Металл",
+            "Тип брекетов": "Самолигирующие",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -86071,6 +86504,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -86110,14 +86561,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://stomir.kz/",
       "sourceUpdatedAt": "2026-07-17",
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Артикул поставщика",
           "CKB-174"
@@ -86129,6 +86576,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -86137,8 +86592,11 @@
           "id": "public-a86d50ba7ec257f64c212c40-variant-default",
           "sku": "CKB-174",
           "gtin": null,
-          "label": "Стандартная фасовка · набор",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -86171,7 +86629,23 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
-      ]
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "SKU_READY",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": []
     },
     {
       "id": "public-5aa229f092d8b93a8c79c73a",
@@ -86216,14 +86690,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/brekety-sapfirovye-paz-022-rooth-mbt-0",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -86231,6 +86701,14 @@
         [
           "Источники",
           "2"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -86239,8 +86717,12 @@
           "id": "public-5aa229f092d8b93a8c79c73a-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка · MBT",
+          "attributes": {
+            "Материал": "Керамика",
+            "Пропись": "MBT",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -86273,6 +86755,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -116860,7 +117360,8 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
-      ]
+      ],
+      "placement": "promotion"
     },
     {
       "id": "public-7f3e18cc61e739245b02c96a",
@@ -120979,14 +121480,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://medstom.kz/catalog",
       "sourceUpdatedAt": "2026-07-17T09:35:49.424Z",
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Артикул поставщика",
           "BR-KER-A"
@@ -120998,6 +121495,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -121006,8 +121511,12 @@
           "id": "public-9cad063f41e398714eef6304-variant-default",
           "sku": "BR-KER-A",
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка · паз 0.022",
+          "attributes": {
+            "Материал": "Керамика",
+            "Паз": "0.022",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -121040,7 +121549,23 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
-      ]
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "SKU_READY",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": []
     },
     {
       "id": "public-b8028409cd875313bc313bb2",
@@ -136637,14 +137162,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://medstom.kz/catalog",
       "sourceUpdatedAt": "2026-07-17T09:35:49.424Z",
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Артикул поставщика",
           "LIGA"
@@ -136656,6 +137177,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -136664,8 +137189,11 @@
           "id": "public-24d255b865dcd8dedded5edd-variant-default",
           "sku": "LIGA",
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Тип брекетов": "Лигатурные",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -136698,7 +137226,23 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
-      ]
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "SKU_READY",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": []
     },
     {
       "id": "public-b570093203e3d176ce1428df",
@@ -145294,14 +145838,10 @@
       },
       "brand": "Ormco",
       "manufacturer": "Ormco",
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://nordstom.kz/",
       "sourceUpdatedAt": "2026-07-17",
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Бренд",
           "Ormco"
@@ -145317,6 +145857,18 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
+        ],
+        [
+          "Система",
+          "Damon Clear2"
         ]
       ],
       "aliases": [],
@@ -145325,8 +145877,17 @@
           "id": "public-353b7697fa13992f734f53bd-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · набор",
-          "attributes": {}
+          "label": "Верхняя · Набор на одну челюсть · 10 брекетов · 5+5 · Без крючка",
+          "attributes": {
+            "Система": "Damon Clear2",
+            "Материал": "Керамика",
+            "Тип брекетов": "Самолигирующие",
+            "Челюсть": "Верхняя",
+            "Формат продажи": "Набор на одну челюсть",
+            "Комплектация": "10 брекетов · 5+5",
+            "Количество": "10 шт.",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -145359,234 +145920,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
-      ]
-    },
-    {
-      "id": "public-8bae9c3027fe504b522b3d3f",
-      "name": "Набор брекетов Damon Q2 ВЧ 5+5 с крючками",
-      "description": "Набор брекетов Damon Q2 ВЧ 5+5 с крючками бренда Ormco в категории «Ортодонтия». Поставляется как набор.",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Набор брекетов Damon Q2 ВЧ 5+5 с крючками",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Ортодонтия",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "Ormco",
-            "confidence": 0.72
-          },
-          {
-            "field": "MANUFACTURER",
-            "value": "Ormco",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "набор",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "nordstom",
-            "sourceUrl": "https://nordstom.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Набор брекетов Damon Q2 ВЧ 5+5 с крючками"
-          }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
         ]
       },
-      "brand": "Ormco",
-      "manufacturer": "Ormco",
-      "category": "Ортодонтия",
-      "sourceUrl": "https://nordstom.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
-        [
-          "Бренд",
-          "Ormco"
-        ],
-        [
-          "Производитель",
-          "Ormco"
-        ],
-        [
-          "Единица",
-          "набор"
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-8bae9c3027fe504b522b3d3f-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · набор",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-8bae9c3027fe504b522b3d3f-offer-0",
-          "variantId": "public-8bae9c3027fe504b522b3d3f-variant-default",
-          "supplier": {
-            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
-            "name": "NORD STOM"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "набор",
-            "quantityInBaseUnit": "1",
-            "unit": "набор"
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
-      ]
-    },
-    {
-      "id": "public-21779a45ba28a965053decce",
-      "name": "Набор брекетов Damon Q2 НЧ 5+5 стандарт",
-      "description": "Набор брекетов Damon Q2 НЧ 5+5 стандарт бренда Ormco в категории «Ортодонтия». Поставляется как набор.",
-      "descriptionSources": {
-        "ownership": "DENTMARKET",
-        "policyVersion": 1,
-        "generatedFromStructuredData": true,
-        "confidence": 0.72,
-        "fields": [
-          {
-            "field": "CANONICAL_NAME",
-            "value": "Набор брекетов Damon Q2 НЧ 5+5 стандарт",
-            "confidence": 0.72
-          },
-          {
-            "field": "CATEGORY",
-            "value": "Ортодонтия",
-            "confidence": 0.72
-          },
-          {
-            "field": "BRAND",
-            "value": "Ormco",
-            "confidence": 0.72
-          },
-          {
-            "field": "MANUFACTURER",
-            "value": "Ormco",
-            "confidence": 0.72
-          },
-          {
-            "field": "UNIT",
-            "value": "набор",
-            "confidence": 0.72
-          }
-        ],
-        "sources": [
-          {
-            "sourceName": "nordstom",
-            "sourceUrl": "https://nordstom.kz/",
-            "sourceType": "SUPPLIER_FEED",
-            "rawName": "Набор брекетов Damon Q2 НЧ 5+5 стандарт"
-          }
-        ]
-      },
-      "brand": "Ormco",
-      "manufacturer": "Ormco",
-      "category": "Ортодонтия",
-      "sourceUrl": "https://nordstom.kz/",
-      "sourceUpdatedAt": "2026-07-17",
-      "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
-        [
-          "Бренд",
-          "Ormco"
-        ],
-        [
-          "Производитель",
-          "Ormco"
-        ],
-        [
-          "Единица",
-          "набор"
-        ],
-        [
-          "Источники",
-          "1"
-        ]
-      ],
-      "aliases": [],
-      "variants": [
-        {
-          "id": "public-21779a45ba28a965053decce-variant-default",
-          "sku": null,
-          "gtin": null,
-          "label": "Стандартная фасовка · набор",
-          "attributes": {}
-        }
-      ],
-      "photoStatus": "category_illustration",
-      "catalogSource": "supplier",
-      "minNormalizedPriceMinor": null,
-      "isAvailable": false,
-      "offers": [
-        {
-          "id": "public-21779a45ba28a965053decce-offer-0",
-          "variantId": "public-21779a45ba28a965053decce-variant-default",
-          "supplier": {
-            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
-            "name": "NORD STOM"
-          },
-          "priceMinor": null,
-          "currency": "KZT",
-          "normalizedPriceMinor": null,
-          "packaging": {
-            "name": "набор",
-            "quantityInBaseUnit": "1",
-            "unit": "набор"
-          },
-          "available": false,
-          "confirmationMode": "MANUAL",
-          "deliveryMethods": [
-            "NATIONWIDE"
-          ],
-          "supplierSku": null,
-          "verifiedDocuments": false,
-          "officialDistributor": false,
-          "supplierWarranty": false
-        }
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -168131,7 +168482,7 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Профилактика и гигиена / Уход за брекет-системами",
       "sourceUrl": "https://a4d.kz/content/ortodonticheskiy-nabor-dlya-uhoda-za-breketami",
       "sourceUpdatedAt": null,
       "attributes": [
@@ -175082,7 +175433,7 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Инструменты для брекетов",
       "sourceUrl": "https://amdgroup.kz/catalog/ortodontiya2/pintset_dlya_breketov/",
       "sourceUpdatedAt": null,
       "attributes": [
@@ -178464,7 +178815,7 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Инструменты для брекетов",
       "sourceUrl": "https://a4d.kz/content/pozicioner-dlya-ustanovki-breketov-s-reguliruemoy-rabochey-chastyu-razmery-slm",
       "sourceUpdatedAt": null,
       "attributes": [
@@ -204184,14 +204535,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/treynery-dlya-breketov-t4b-t4b2-ot-12-let-i-starshe",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -204199,6 +204546,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -204207,8 +204558,10 @@
           "id": "public-91c1fbdd4c1097fc8799ab90-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -204241,6 +204594,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -220420,7 +220791,7 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Инструменты для брекетов",
       "sourceUrl": "https://a4d.kz/content/shchipcy-dlya-snyatiya-breketov",
       "sourceUpdatedAt": null,
       "attributes": [
@@ -251658,14 +252029,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b1-01-ortodonticheskaya-model-brekety-metalicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -251673,6 +252040,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -251681,8 +252052,10 @@
           "id": "public-af34ac85a5f4fb7b9b498e20-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -251715,6 +252088,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -251754,14 +252145,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b1-02-ortodonticheskaya-model-brekety-metalkeramicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -251769,6 +252156,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -251777,8 +252172,11 @@
           "id": "public-3b1d59afbe55e35e1f635273-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -251811,6 +252209,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -251850,14 +252266,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b1-03-ortodonticheskaya-model-brekety-keramicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -251865,6 +252277,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -251873,8 +252293,11 @@
           "id": "public-e4c1145d9fc1e461af64bbec-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -251907,6 +252330,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -252042,14 +252483,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b2-01-ortodonticheskaya-model-brekety-metalicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -252057,6 +252494,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -252065,8 +252506,10 @@
           "id": "public-7d6e8420d05efd49f7d2c6a1-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -252099,6 +252542,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -252138,14 +252599,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b2-02-ortodonticheskaya-model-brekety-metalkeramicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -252153,6 +252610,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -252161,8 +252626,11 @@
           "id": "public-0a1ed77390e91c1f439a2c73-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -252195,6 +252663,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -252234,14 +252720,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b2-03-ortodonticheskaya-model-brekety-keramicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -252249,6 +252731,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -252257,8 +252747,11 @@
           "id": "public-651a81d3d4c457edec21cf82-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -252291,6 +252784,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -252426,14 +252937,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b3-01-ortodonticheskaya-model-metalicheskie-brekety",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -252441,6 +252948,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -252449,8 +252960,10 @@
           "id": "public-09f9e00706313b9547c81f24-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -252483,6 +252996,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -252522,14 +253053,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b3-02-ortodonticheskaya-model-brekety-metalkeramicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -252537,6 +253064,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -252545,8 +253080,11 @@
           "id": "public-c3a42378900da8f299897ca4-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -252579,6 +253117,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -252618,14 +253174,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b3-03-ortodonticheskaya-model-brekety-keramicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -252633,6 +253185,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -252641,8 +253201,11 @@
           "id": "public-9ab09edc12676b5ec64c1c06-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -252675,6 +253238,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -252810,14 +253391,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b4-01-ortodonticheskaya-model-brekety-metalicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -252825,6 +253402,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -252833,8 +253414,10 @@
           "id": "public-6775fcd776d4cfb8a0620e67-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -252867,6 +253450,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -252906,14 +253507,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b4-02-ortodonticheskaya-model-brekety-metalkeramicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -252921,6 +253518,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -252929,8 +253534,11 @@
           "id": "public-0414f15e81fee16f66bede83-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -252963,6 +253571,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -253002,14 +253628,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b4-03-ortodonticheskaya-model-brekety-keramicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -253017,6 +253639,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -253025,8 +253655,11 @@
           "id": "public-15853bfea94d50340cc63679-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -253059,6 +253692,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -253194,14 +253845,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b5-01-ortodonticheskaya-model-metallicheskie-brekety",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -253209,6 +253856,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -253217,8 +253872,11 @@
           "id": "public-0fce1c5d45bcdab4aa738076-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -253251,6 +253909,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -253290,14 +253966,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b5-02-ortodonticheskaya-model-brekety-metalkeramicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -253305,6 +253977,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -253313,8 +253993,11 @@
           "id": "public-63a6e43654ddd93c9d3427ee-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -253347,6 +254030,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -253386,14 +254087,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b5-03-ortodonticheskaya-model-brekety-keramicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -253401,6 +254098,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -253409,8 +254114,11 @@
           "id": "public-d86006299b74fa0d0cffe3c9-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -253443,6 +254151,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -253578,14 +254304,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b6-01-ortodonticheskaya-model-metallicheskie-brekety",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -253593,6 +254315,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -253601,8 +254331,11 @@
           "id": "public-fa066e4ba806a24bc5494b7f-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -253635,6 +254368,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -253674,14 +254425,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b6-02-ortodonticheskaya-model-metallicheskie-breketykeramicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -253689,6 +254436,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -253697,8 +254452,11 @@
           "id": "public-ddd162baa5f15dec91de6716-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -253731,6 +254489,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -253770,14 +254546,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b6-03-ortodonticheskaya-model-brekety-keramicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -253785,6 +254557,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -253793,8 +254573,11 @@
           "id": "public-bb131b4e9e0c3761fc61e528-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -253827,6 +254610,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -253962,14 +254763,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b7-01-ortodonticheskaya-model-metallicheskie-brekety",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -253977,6 +254774,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -253985,8 +254790,11 @@
           "id": "public-9168218e622a18c6b2185866-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -254019,6 +254827,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -254058,14 +254884,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b7-02-ortodonticheskaya-model-metallicheskie-brekety",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -254073,6 +254895,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -254081,8 +254911,11 @@
           "id": "public-bdf08a1910c5f75b602cc126-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -254115,6 +254948,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -254154,14 +255005,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b7-03-ortodonticheskaya-model-keramicheskie-brekety",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -254169,6 +255016,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Керамика"
         ]
       ],
       "aliases": [],
@@ -254177,8 +255032,11 @@
           "id": "public-574f84cfa1dacd67969fbcb0-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Керамика",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -254211,6 +255069,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -254442,14 +255318,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b8-02-ortodonticheskaya-model-metallicheskie-brekety",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -254457,6 +255329,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -254465,8 +255345,11 @@
           "id": "public-862130d2a016b50e5a04e81a-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -254499,6 +255382,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -254538,14 +255439,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b8-03-ortodonticheskaya-model-metallicheskie-brekety",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -254553,6 +255450,14 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
         ]
       ],
       "aliases": [],
@@ -254561,8 +255466,11 @@
           "id": "public-cd4e0b223cb9840d70f3b2a6-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Материал": "Металл",
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -254595,6 +255503,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -254634,14 +255560,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://a4d.kz/content/hst-b9-01-ortodonticheskaya-model-brekety-metalicheskie",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -254649,6 +255571,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -254657,8 +255583,10 @@
           "id": "public-68d285de3844055c396e1d7f-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -254691,6 +255619,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -267155,14 +268101,10 @@
       },
       "brand": null,
       "manufacturer": null,
-      "category": "Ортодонтия",
+      "category": "Ортодонтия / Брекет-системы",
       "sourceUrl": "https://amdgroup.kz/catalog/lm_trainer/lm_treyner_dlya_breketov_lm_trainerbraces/",
       "sourceUpdatedAt": null,
       "attributes": [
-        [
-          "Категория",
-          "Ортодонтия"
-        ],
         [
           "Единица",
           "шт."
@@ -267170,6 +268112,10 @@
         [
           "Источники",
           "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
         ]
       ],
       "aliases": [],
@@ -267178,8 +268124,10 @@
           "id": "public-081b2dfc1ab258d8c94b7138-variant-default",
           "sku": null,
           "gtin": null,
-          "label": "Стандартная фасовка · шт.",
-          "attributes": {}
+          "label": "Без крючка",
+          "attributes": {
+            "Крючок": "Без крючка"
+          }
         }
       ],
       "photoStatus": "category_illustration",
@@ -267212,6 +268160,24 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     },
     {
@@ -292056,6 +293022,216 @@
           "officialDistributor": false,
           "supplierWarranty": false
         }
+      ]
+    },
+    {
+      "id": "public-8bae9c3027fe504b522b3d3f",
+      "name": "Брекет-система ORMCO Damon Q2",
+      "description": "Самолигирующая металлическая брекет-система ORMCO Damon Q2. Выберите верхнюю или нижнюю челюсть и исполнение с крючками либо без них. Цена, наличие и продавцы показываются только для выбранной комплектации.",
+      "descriptionSources": {
+        "ownership": "DENTMARKET",
+        "policyVersion": 1,
+        "generatedFromStructuredData": true,
+        "confidence": 0.72,
+        "fields": [
+          {
+            "field": "CANONICAL_NAME",
+            "value": "Набор брекетов Damon Q2 ВЧ 5+5 с крючками",
+            "confidence": 0.72
+          },
+          {
+            "field": "CATEGORY",
+            "value": "Ортодонтия",
+            "confidence": 0.72
+          },
+          {
+            "field": "BRAND",
+            "value": "Ormco",
+            "confidence": 0.72
+          },
+          {
+            "field": "MANUFACTURER",
+            "value": "Ormco",
+            "confidence": 0.72
+          },
+          {
+            "field": "UNIT",
+            "value": "набор",
+            "confidence": 0.72
+          }
+        ],
+        "sources": [
+          {
+            "sourceName": "nordstom",
+            "sourceUrl": "https://nordstom.kz/",
+            "sourceType": "SUPPLIER_FEED",
+            "rawName": "Набор брекетов Damon Q2 ВЧ 5+5 с крючками"
+          }
+        ]
+      },
+      "brand": "Ormco",
+      "manufacturer": "Ormco",
+      "category": "Ортодонтия / Брекет-системы",
+      "sourceUrl": "https://nordstom.kz/",
+      "sourceUpdatedAt": "2026-07-17",
+      "attributes": [
+        [
+          "Бренд",
+          "Ormco"
+        ],
+        [
+          "Производитель",
+          "Ormco"
+        ],
+        [
+          "Единица",
+          "набор"
+        ],
+        [
+          "Источники",
+          "1"
+        ],
+        [
+          "Категория",
+          "Ортодонтия / Брекет-системы"
+        ],
+        [
+          "Материал",
+          "Металл"
+        ],
+        [
+          "Система",
+          "Damon Q2"
+        ]
+      ],
+      "aliases": [
+        "Набор брекетов Damon Q2 ВЧ 5+5 с крючками",
+        "Даймон Q2",
+        "Damon Q2",
+        "Набор брекетов Damon Q2 НЧ 5+5 стандарт"
+      ],
+      "variants": [
+        {
+          "id": "public-8bae9c3027fe504b522b3d3f-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Набор на одну челюсть · 10 брекетов · 5+5 · С крючком",
+          "attributes": {
+            "Система": "Damon Q2",
+            "Материал": "Металл",
+            "Тип брекетов": "Самолигирующие",
+            "Формат продажи": "Набор на одну челюсть",
+            "Комплектация": "10 брекетов · 5+5",
+            "Количество": "10 шт.",
+            "Крючок": "С крючком"
+          },
+          "imageUrl": null,
+          "sourceUrl": "https://nordstom.kz/"
+        },
+        {
+          "id": "public-21779a45ba28a965053decce-variant-default",
+          "sku": null,
+          "gtin": null,
+          "label": "Набор на одну челюсть · 10 брекетов · 5+5 · С крючком",
+          "attributes": {
+            "Система": "Damon Q2",
+            "Материал": "Металл",
+            "Тип брекетов": "Самолигирующие",
+            "Формат продажи": "Набор на одну челюсть",
+            "Комплектация": "10 брекетов · 5+5",
+            "Количество": "10 шт.",
+            "Крючок": "С крючком"
+          },
+          "imageUrl": null,
+          "sourceUrl": "https://nordstom.kz/"
+        }
+      ],
+      "photoStatus": "category_illustration",
+      "catalogSource": "supplier",
+      "minNormalizedPriceMinor": null,
+      "isAvailable": false,
+      "offers": [
+        {
+          "id": "public-8bae9c3027fe504b522b3d3f-offer-0",
+          "variantId": "public-8bae9c3027fe504b522b3d3f-variant-default",
+          "supplier": {
+            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
+            "name": "NORD STOM"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "набор",
+            "quantityInBaseUnit": "1",
+            "unit": "набор"
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": null,
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        },
+        {
+          "id": "public-21779a45ba28a965053decce-offer-0",
+          "variantId": "public-21779a45ba28a965053decce-variant-default",
+          "supplier": {
+            "id": "supplier-34f92e0fa7b9f5f1776ab9d3",
+            "name": "NORD STOM"
+          },
+          "priceMinor": null,
+          "currency": "KZT",
+          "normalizedPriceMinor": null,
+          "packaging": {
+            "name": "набор",
+            "quantityInBaseUnit": "1",
+            "unit": "набор"
+          },
+          "available": false,
+          "confirmationMode": "MANUAL",
+          "deliveryMethods": [
+            "NATIONWIDE"
+          ],
+          "supplierSku": null,
+          "verifiedDocuments": false,
+          "officialDistributor": false,
+          "supplierWarranty": false
+        }
+      ],
+      "canonicalProductId": "CANON-ORMCO-DAMON-Q2",
+      "sourceVariants": [
+        {
+          "productId": "public-8bae9c3027fe504b522b3d3f",
+          "name": "Набор брекетов Damon Q2 ВЧ 5+5 с крючками",
+          "sourceUrl": "https://nordstom.kz/"
+        },
+        {
+          "productId": "public-21779a45ba28a965053decce",
+          "name": "Набор брекетов Damon Q2 НЧ 5+5 стандарт",
+          "sourceUrl": "https://nordstom.kz/"
+        }
+      ],
+      "commerceModel": {
+        "grain": "Бренд + система; покупаемая комплектация — вариант",
+        "status": "POSITION_SKU_MATRIX_REQUIRED",
+        "variantDimensions": [
+          "Формат продажи",
+          "Материал",
+          "Тип брекетов",
+          "Пропись",
+          "Паз",
+          "Челюсть",
+          "Позиция зуба",
+          "Торк",
+          "Крючок"
+        ]
+      },
+      "moderationWarnings": [
+        "EXACT_POSITION_SKU_MATRIX_REQUIRED"
       ]
     }
   ]

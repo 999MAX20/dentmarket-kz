@@ -11,6 +11,16 @@ type Variant = {
 };
 
 const FACET_ORDER = [
+  "Формат продажи",
+  "Система",
+  "Материал",
+  "Тип брекетов",
+  "Пропись",
+  "Паз",
+  "Челюсть",
+  "Позиция зуба",
+  "Торк",
+  "Крючок",
   "Форма выпуска",
   "Количество",
   "Объём",
@@ -23,6 +33,16 @@ const FACET_ORDER = [
 ];
 
 const FACET_HELP: Record<string, string> = {
+  "Формат продажи": "Один брекет, набор на одну челюсть или полный комплект",
+  Система: "Линейка брекет-системы производителя",
+  Материал: "Металлический, керамический или другой вариант",
+  "Тип брекетов": "Лигатурная или самолигирующая система",
+  Пропись: "Система заложенных параметров: Roth, MBT и другие",
+  Паз: "Размер паза брекета, например 0.018 или 0.022",
+  Челюсть: "Верхняя или нижняя челюсть",
+  "Позиция зуба": "Номер конкретного зуба для одиночного брекета",
+  Торк: "Вариант торка для выбранной позиции",
+  Крючок: "Исполнение с крючком или без него",
   "Форма выпуска": "Что именно получите: шприц, капсулы, набор или другую форму",
   Количество: "Сколько единиц будет в упаковке",
   Объём: "Объём одной упаковки или ёмкости",
@@ -36,6 +56,15 @@ const FACET_HELP: Record<string, string> = {
 
 function variantDisplayName(variant: Variant) {
   const readableParts = [
+    variant.attributes["Формат продажи"],
+    variant.attributes["Материал"],
+    variant.attributes["Тип брекетов"],
+    variant.attributes["Челюсть"],
+    variant.attributes["Позиция зуба"],
+    variant.attributes["Паз"],
+    variant.attributes["Пропись"],
+    variant.attributes["Торк"],
+    variant.attributes["Крючок"],
     variant.attributes["Форма выпуска"],
     variant.attributes["Оттенок"],
     variant.attributes["Масса"],
@@ -52,9 +81,11 @@ function variantDisplayName(variant: Variant) {
 export default function VariantPicker({
   variants,
   selectedVariantId,
+  requiresPositionSkuMatrix = false,
 }: {
   variants: Variant[];
   selectedVariantId: string;
+  requiresPositionSkuMatrix?: boolean;
 }) {
   const pathname = usePathname();
   const router = useRouter();
@@ -71,6 +102,13 @@ export default function VariantPicker({
           <strong className={styles.variantTitle}>Выбирать ничего не нужно</strong>
           <p>Цена и наличие ниже относятся именно к этой комплектации.</p>
         </div>
+        {requiresPositionSkuMatrix ? (
+          <p className={styles.variantNotice}>
+            Нужен один брекет на замену? Он появится отдельным вариантом с
+            номером зуба и точным кодом производителя. Пока в этой карточке
+            подтверждён только набор.
+          </p>
+        ) : null}
         <div className={styles.selectedVariant}>
           <span>Товар для заказа</span>
           <strong>{variantDisplayName(selected)}</strong>
@@ -132,6 +170,13 @@ export default function VariantPicker({
         <strong className={styles.variantTitle}>Сначала выберите нужный вариант</strong>
         <p>Поставщики, цена и наличие будут показаны только для выбранного варианта.</p>
       </div>
+      {requiresPositionSkuMatrix ? (
+        <p className={styles.variantNotice}>
+          Нужен один брекет на замену? Он появится отдельным вариантом с номером
+          зуба и точным кодом производителя. Сейчас можно выбрать только
+          подтверждённые наборы.
+        </p>
+      ) : null}
       {facetGroups.map(({ key, options }, index) => (
         <fieldset className={styles.variantFacet} key={key}>
           <legend><span>{index + 1}</span>{key}</legend>

@@ -9,6 +9,8 @@ export type PublishedCatalogVariant = {
   gtin: string | null;
   label: string;
   attributes?: Record<string, unknown>;
+  imageUrl?: string | null;
+  sourceUrl?: string | null;
 };
 
 export type PublishedCatalogProduct = {
@@ -27,6 +29,12 @@ export type PublishedCatalogProduct = {
   catalogSource?: string;
   complianceClassification?: string;
   moderationWarnings?: string[];
+  aliases?: string[];
+  commerceModel?: {
+    grain: string;
+    status: string;
+    variantDimensions?: string[];
+  };
   attributes?: Array<[string, string]>;
   variants: PublishedCatalogVariant[];
   offers: [];
