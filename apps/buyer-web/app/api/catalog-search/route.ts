@@ -7,6 +7,11 @@ import {
   expandDentalSearchQuery,
   normalizeDentalSearchText,
 } from "../../lib/dental-search";
+import {
+  canonicalCategoriesForProduct,
+  catalogDepartmentForQuery,
+  classifyCatalogProduct,
+} from "../../lib/catalog-taxonomy";
 
 export const runtime = "nodejs";
 
@@ -141,12 +146,7 @@ const toSearchProduct = (product: PublishedCatalogProduct) => ({
         },
       ]
     : [],
-  categories: [
-    {
-      id: `published-category-${normalize(product.category).replaceAll(" ", "-")}`,
-      name: product.category || "Стоматологические товары",
-    },
-  ],
+  categories: canonicalCategoriesForProduct(product),
   ranking: {
     source: "DAILY_ROTATION",
     score: stableDailyRank(product),
@@ -161,22 +161,35 @@ export async function GET(request: NextRequest) {
   const catalog = await readPublishedCatalog();
   const params = request.nextUrl.searchParams;
   const intent = expandDentalSearchQuery(params.get("q") ?? "");
+  const requestedDepartment = catalogDepartmentForQuery(params.get("q") ?? "");
   const normalizedQuery = intent.normalizedQuery;
   const offset = Math.max(0, Number(params.get("offset") ?? 0) || 0);
   const limit = Math.min(120, Math.max(1, Number(params.get("limit") ?? 60) || 60));
   const sort = params.get("sort") ?? "RELEVANCE";
+  const requestedCategoryId = params.get("category")?.trim() ?? "";
   const placement =
     params.get("placement") === "promotion" ? "promotion" : "catalog";
 
-  const filtered = catalog.products
+  const departmentFiltered = catalog.products
     .filter((product) => productPlacement(product) === placement)
     .filter((product) => {
+      if (requestedDepartment) {
+        return (
+          classifyCatalogProduct(product).departmentId === requestedDepartment.id
+        );
+      }
       if (!intent.concepts.length) return true;
       const text = searchableText(product);
       return intent.concepts.every((aliases) =>
         aliases.some((alias) => containsAlias(text, alias)),
       );
     });
+  const filtered = requestedCategoryId
+    ? departmentFiltered.filter(
+        (product) =>
+          classifyCatalogProduct(product).id === requestedCategoryId,
+      )
+    : [...departmentFiltered];
 
   filtered.sort((left, right) => {
     if (sort === "NAME_DESC") return right.name.localeCompare(left.name, "ru");
@@ -198,6 +211,21 @@ export async function GET(request: NextRequest) {
     return left.name.localeCompare(right.name, "ru");
   });
 
+  const categoryCounts = new Map<
+    string,
+    { id: string; name: string; parentId: string; count: number }
+  >();
+  for (const product of departmentFiltered) {
+    const category = classifyCatalogProduct(product);
+    const current = categoryCounts.get(category.id);
+    categoryCounts.set(category.id, {
+      id: category.id,
+      name: category.name,
+      parentId: category.departmentId,
+      count: (current?.count ?? 0) + 1,
+    });
+  }
+
   return NextResponse.json(
     {
       total: filtered.length,
@@ -206,7 +234,20 @@ export async function GET(request: NextRequest) {
       items: filtered.slice(offset, offset + limit).map(toSearchProduct),
       interpretedQuery: intent.interpretedTerms,
       matchedAliases: intent.matchedAliases,
-      facets: { categories: [], suppliers: [] },
+      department: requestedDepartment
+        ? {
+            id: requestedDepartment.id,
+            name: requestedDepartment.name,
+            query: requestedDepartment.query,
+          }
+        : null,
+      facets: {
+        categories: [...categoryCounts.values()].sort(
+          (left, right) =>
+            right.count - left.count || left.name.localeCompare(right.name, "ru"),
+        ),
+        suppliers: [],
+      },
     },
     {
       headers: {
