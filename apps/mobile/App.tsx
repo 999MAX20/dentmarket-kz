@@ -12,6 +12,7 @@ import {
   TextInput,
   View,
 } from "react-native";
+import { buildCatalogUrl, CATALOG_API_URL, formatMinorCurrency } from "./lib/catalog";
 
 type Variant = { id: string; sku?: string | null; label?: string; attributes?: Record<string, string> };
 type Product = {
@@ -29,7 +30,7 @@ type Product = {
 
 type SearchResponse = { total: number; items: Product[]; interpretedQuery?: string[]; matchedAliases?: string[] };
 
-const API_URL = process.env.EXPO_PUBLIC_CATALOG_URL ?? "https://dentmarket-shop.vercel.app/api/catalog-search";
+const API_URL = process.env.EXPO_PUBLIC_CATALOG_URL ?? CATALOG_API_URL;
 const suggestedQueries = ["перчатки", "текучка", "гутта", "карпулы", "эндодонтия"];
 
 const productImage = (product: Product) => {
@@ -39,8 +40,7 @@ const productImage = (product: Product) => {
   return `https://dentmarket-shop.vercel.app${source}`;
 };
 
-const formatPrice = (minor: number | string | null | undefined, currency = "KZT") =>
-  minor == null ? "Цена по запросу" : new Intl.NumberFormat("ru-KZ", { style: "currency", currency, maximumFractionDigits: 0 }).format(Number(minor) / 100);
+const formatPrice = formatMinorCurrency;
 
 export default function App() {
   const [screen, setScreen] = useState<"catalog" | "cart" | "profile">("catalog");
@@ -60,10 +60,7 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      const url = new URL(API_URL);
-      if (nextQuery.trim()) url.searchParams.set("q", nextQuery.trim());
-      url.searchParams.set("limit", "60");
-      const response = await fetch(url);
+      const response = await fetch(buildCatalogUrl(API_URL, nextQuery));
       if (!response.ok) throw new Error(`Каталог недоступен (${response.status})`);
       const payload = (await response.json()) as SearchResponse;
       setProducts(payload.items ?? []);
