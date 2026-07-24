@@ -25,6 +25,13 @@ async function whitenConnectedBorderBackground(bytes: Buffer) {
     .toBuffer({ resolveWithObject: true });
   const { data, info } = prepared;
   const { width, height, channels } = info;
+
+  // Небольшие исходники не содержат достаточно данных для безопасного
+  // отделения светлого товара от светлого фона. На таких фото агрессивная
+  // заливка стирала белые крышки, флаконы и края упаковки. Сохраняем исходное
+  // изображение целиком и только приводим его к единому холсту ниже.
+  if (width < 500 || height < 500) return prepared;
+
   const samples: [number[], number[], number[]] = [[], [], []];
 
   const samplePixel = (pixel: number) => {
