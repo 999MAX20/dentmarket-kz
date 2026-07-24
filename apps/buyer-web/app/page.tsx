@@ -19,6 +19,8 @@ import {
   Box24Regular,
   Cart24Regular,
   CheckmarkCircle24Regular,
+  ChevronLeft24Regular,
+  ChevronRight24Regular,
   ClipboardTaskListLtr24Regular,
   Document24Regular,
   Dismiss24Regular,
@@ -876,6 +878,8 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   const [promotionProducts, setPromotionProducts] = useState<SearchProduct[]>([]);
   const [topProducts, setTopProducts] = useState<SearchProduct[]>([]);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const dealsRailRef = useRef<HTMLDivElement>(null);
+  const topProductsRailRef = useRef<HTMLDivElement>(null);
   const searchRequestIdRef = useRef(0);
   const catalogUrlAppliedRef = useRef(false);
   const returnScrollAppliedRef = useRef(false);
@@ -1078,7 +1082,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
           if (sellerDifference) return sellerDifference;
           return priceDifferencePercent(right) - priceDifferencePercent(left);
         })
-        .slice(0, 3),
+        .slice(0, 12),
     [search],
   );
   const featuredDeals = useMemo(() => {
@@ -1089,7 +1093,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         seen.add(product.id);
         return true;
       })
-      .slice(0, 3);
+      .slice(0, 120);
   }, [promotedProducts, promotionProducts]);
   const activeFilterCount = [
     packagingFilter,
@@ -1122,7 +1126,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     const params = new URLSearchParams({
       placement: "promotion",
       sort: "RELEVANCE",
-      limit: "6",
+      limit: "120",
     });
     void fetchPublicCatalogSearch("", "RELEVANCE", params)
       .then((result) => setPromotionProducts(result?.items ?? []))
@@ -1134,12 +1138,24 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     const params = new URLSearchParams({
       placement: "catalog",
       sort: "TOP",
-      limit: "6",
+      limit: "24",
     });
     void fetchPublicCatalogSearch("", "TOP", params)
       .then((result) => setTopProducts(result?.items ?? []))
       .catch(() => setTopProducts([]));
   }, [handoff, handoffChecked]);
+
+  const scrollProductRail = (
+    rail: HTMLDivElement | null,
+    direction: -1 | 1,
+  ) => {
+    if (!rail) return;
+    const card = rail.querySelector<HTMLElement>("[data-rail-card]");
+    const distance = card
+      ? card.getBoundingClientRect().width + 12
+      : rail.clientWidth * 0.85;
+    rail.scrollBy({ left: direction * distance, behavior: "smooth" });
+  };
 
   const buildSearchParams = useCallback(
     (nextQuery = query, nextSort = sort) => {
@@ -1945,9 +1961,33 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                   <h2 id="deals-title">Акции и выгодные предложения</h2>
                   <p>Комплекты брендов и скидки конкретных продавцов.</p>
                 </div>
+                <div
+                  className={styles.railControls}
+                  aria-label="Прокрутка акций"
+                >
+                  <button
+                    type="button"
+                    aria-label="Показать предыдущие акции"
+                    onClick={() => scrollProductRail(dealsRailRef.current, -1)}
+                  >
+                    <ChevronLeft24Regular />
+                  </button>
+                  <button
+                    type="button"
+                    aria-label="Показать следующие акции"
+                    onClick={() => scrollProductRail(dealsRailRef.current, 1)}
+                  >
+                    <ChevronRight24Regular />
+                  </button>
+                </div>
               </div>
-              <div className={styles.dealGrid}>
-                {featuredDeals.map((product) => {
+              <div
+                className={styles.dealRail}
+                ref={dealsRailRef}
+                role="list"
+                aria-label="Акции и выгодные предложения"
+              >
+                {featuredDeals.map((product, index) => {
                   const best = rankSearchOffers(product.offers).find(
                     (offer) => offer.priceMinor,
                   );
@@ -1959,6 +1999,8 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                     <article
                       className={styles.dealCard}
                       key={`deal:${product.id}`}
+                      data-rail-card
+                      role="listitem"
                     >
                       <a
                         href={`/products/${encodeURIComponent(product.id)}`}
@@ -1967,6 +2009,8 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                         <SafeProductImage
                           src={image}
                           alt={product.media?.[0]?.altText ?? product.name}
+                          loading={index < 3 ? "eager" : "lazy"}
+                          decoding="async"
                           fallback={
                             <span className={styles.photoPending}>
                               Фото готовится
@@ -2025,20 +2069,52 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
             >
               <div className={styles.dealsHeading}>
                 <div>
-                  <h2 id="top-products-title">Популярное сейчас</h2>
+                  <h2 id="top-products-title">
+                    Товар дня и популярное сейчас
+                  </h2>
                   <p>
                     Пока нет статистики заказов — подборка обновляется ежедневно.
                     После подключения поставщиков здесь появятся хиты и лучшая цена.
                   </p>
                 </div>
+                <div
+                  className={styles.railControls}
+                  aria-label="Прокрутка популярных товаров"
+                >
+                  <button
+                    type="button"
+                    aria-label="Показать предыдущие товары"
+                    onClick={() =>
+                      scrollProductRail(topProductsRailRef.current, -1)
+                    }
+                  >
+                    <ChevronLeft24Regular />
+                  </button>
+                  <button
+                    type="button"
+                    aria-label="Показать следующие товары"
+                    onClick={() =>
+                      scrollProductRail(topProductsRailRef.current, 1)
+                    }
+                  >
+                    <ChevronRight24Regular />
+                  </button>
+                </div>
               </div>
-              <div className={styles.dealGrid}>
-                {topProducts.slice(0, 3).map((product) => {
+              <div
+                className={styles.dealRail}
+                ref={topProductsRailRef}
+                role="list"
+                aria-label="Товар дня и популярные товары"
+              >
+                {topProducts.slice(0, 24).map((product, index) => {
                   const image = mediaSource(product.media?.[0]);
                   return (
                     <article
                       className={styles.dealCard}
                       key={`top:${product.id}`}
+                      data-rail-card
+                      role="listitem"
                     >
                       <a
                         href={`/products/${encodeURIComponent(product.id)}`}
@@ -2047,6 +2123,8 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                         <SafeProductImage
                           src={image}
                           alt={product.media?.[0]?.altText ?? product.name}
+                          loading={index < 3 ? "eager" : "lazy"}
+                          decoding="async"
                           fallback={
                             <span className={styles.photoPending}>
                               Фото готовится
@@ -2056,7 +2134,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                       </a>
                       <div>
                         <span className={styles.dealLabel}>
-                          {product.badges?.[0] ?? "В подборке"}
+                          {index === 0
+                            ? "Товар дня"
+                            : (product.badges?.[0] ?? "В подборке")}
                         </span>
                         <h3>{product.name}</h3>
                         <strong>
