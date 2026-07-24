@@ -12,6 +12,7 @@
     "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
     "expo": "^53.0.0",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
