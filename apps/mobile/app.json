@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "DentMarket",
+    "slug": "dentmarket",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "dentmarket",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "kz.dentmarket.app"
+    },
+    "android": {
+      "package": "kz.dentmarket.app"
+    }
+  }
+}
