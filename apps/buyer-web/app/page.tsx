@@ -90,6 +90,12 @@ import {
   expandDentalSearchQuery,
   normalizeDentalSearchText,
 } from "./lib/dental-search";
+import {
+  CATALOG_DEPARTMENTS,
+  canonicalCategoriesForProduct,
+  catalogDepartmentForQuery,
+  classifyCatalogProduct,
+} from "./lib/catalog-taxonomy";
 
 const BUYER_ID = "00000000-0000-4000-8000-000000000030";
 const BUYER_USER_ID = "00000000-0000-4000-8000-000000000500";
@@ -211,9 +217,15 @@ type SearchResult = {
   offset?: number;
   limit?: number;
   interpretedQuery?: string[];
+  department?: { id: string; name: string; query: string } | null;
   items: SearchProduct[];
   facets: {
-    categories: Array<{ id: string; name: string; count: number }>;
+    categories: Array<{
+      id: string;
+      name: string;
+      count: number;
+      parentId?: string;
+    }>;
     suppliers: Array<{ id: string; name: string; count: number }>;
   };
 };
@@ -415,9 +427,7 @@ const generatedCatalogFallback: SearchProduct[] =
     photoStatus: mediaSource(publicMediaEntries[product.sourceUrl ?? ""])
       ? "exact"
       : product.photoStatus,
-    categories: [
-      { id: `public-category-${product.category}`, name: product.category },
-    ],
+    categories: canonicalCategoriesForProduct(product),
   }));
 const publicCatalogFallback = [
   ...generatedCatalogFallback,
@@ -435,6 +445,7 @@ const fallbackSearch = (
   displayLimit = 60,
 ): SearchResult => {
   const searchIntent = expandDentalSearchQuery(query);
+  const requestedDepartment = catalogDepartmentForQuery(query);
   const filtered = publicCatalogFallback.filter((product) => {
     const offer = product.offers[0];
     const text = normalizeDentalSearchText([
@@ -455,10 +466,13 @@ const fallbackSearch = (
       .filter(Boolean)
       .join(" "));
     return (
-      (!searchIntent.concepts.length ||
-        searchIntent.concepts.every((concept) =>
-          concept.some((term) => text.includes(term)),
-        )) &&
+      (requestedDepartment
+        ? classifyCatalogProduct(product).departmentId ===
+          requestedDepartment.id
+        : !searchIntent.concepts.length ||
+          searchIntent.concepts.every((concept) =>
+            concept.some((term) => text.includes(term)),
+          )) &&
       (!filters.unit || text.includes(filters.unit.toLocaleLowerCase("ru"))) &&
       (!filters.packaging ||
         text.includes(filters.packaging.toLocaleLowerCase("ru"))) &&
@@ -481,10 +495,37 @@ const fallbackSearch = (
     if (sort === "NAME_ASC") return left.name.localeCompare(right.name, "ru");
     return left.name.localeCompare(right.name, "ru");
   });
+  const categoryCounts = new Map<
+    string,
+    { id: string; name: string; parentId: string; count: number }
+  >();
+  for (const product of filtered) {
+    const category = classifyCatalogProduct(product);
+    const current = categoryCounts.get(category.id);
+    categoryCounts.set(category.id, {
+      id: category.id,
+      name: category.name,
+      parentId: category.departmentId,
+      count: (current?.count ?? 0) + 1,
+    });
+  }
   return {
     total: filtered.length,
     items: filtered.slice(0, displayLimit),
-    facets: { categories: [], suppliers: [] },
+    department: requestedDepartment
+      ? {
+          id: requestedDepartment.id,
+          name: requestedDepartment.name,
+          query: requestedDepartment.query,
+        }
+      : null,
+    facets: {
+      categories: [...categoryCounts.values()].sort(
+        (left, right) =>
+          right.count - left.count || left.name.localeCompare(right.name, "ru"),
+      ),
+      suppliers: [],
+    },
   };
 };
 
@@ -527,7 +568,7 @@ async function fetchPublicCatalogSearch(
   params.set("sort", sort);
   const response = await fetch(`/api/catalog-search?${params.toString()}`, {
     cache: "no-store",
-    signal: AbortSignal.timeout(8000),
+    signal: AbortSignal.timeout(30000),
   });
   if (!response.ok) return null;
   const result = (await response.json()) as Partial<SearchResult>;
@@ -766,6 +807,14 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     void (async () => {
       const next = readSessionHandoff();
       if (!next) {
+        const urlQuery =
+          new URLSearchParams(window.location.search).get("q")?.trim() ?? "";
+        if (urlQuery) {
+          setQuery(urlQuery);
+          setSearch(
+            fallbackSearch(urlQuery, "RELEVANCE", { stock: "all" }, 60),
+          );
+        }
         setHandoffChecked(true);
         return;
       }
@@ -827,6 +876,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   const [promotionProducts, setPromotionProducts] = useState<SearchProduct[]>([]);
   const [topProducts, setTopProducts] = useState<SearchProduct[]>([]);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const searchRequestIdRef = useRef(0);
   const catalogUrlAppliedRef = useRef(false);
   const returnScrollAppliedRef = useRef(false);
   const [comparison, setComparison] = useState<Comparison | null>(null);
@@ -973,6 +1023,45 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     stockFilter,
     verifiedOnly,
   ]);
+  const activeDepartment = useMemo(
+    () => search?.department ?? catalogDepartmentForQuery(query),
+    [query, search?.department],
+  );
+  const departmentGroups = useMemo(
+    () =>
+      activeDepartment
+        ? (search?.facets.categories ?? []).filter(
+            (category) => category.parentId === activeDepartment.id,
+          )
+        : [],
+    [activeDepartment, search?.facets.categories],
+  );
+  const departmentTotal = useMemo(
+    () =>
+      departmentGroups.reduce(
+        (total, category) => total + category.count,
+        0,
+      ) || search?.total || visibleProducts.length,
+    [departmentGroups, search?.total, visibleProducts.length],
+  );
+  const groupedVisibleProducts = useMemo(() => {
+    if (!activeDepartment) return visibleProducts;
+    const order = new Map(
+      departmentGroups.map((category, index) => [category.id, index]),
+    );
+    return visibleProducts
+      .map((product, index) => ({ product, index }))
+      .sort((left, right) => {
+        const leftCategory = left.product.categories[1]?.id ?? "";
+        const rightCategory = right.product.categories[1]?.id ?? "";
+        return (
+          (order.get(leftCategory) ?? Number.MAX_SAFE_INTEGER) -
+            (order.get(rightCategory) ?? Number.MAX_SAFE_INTEGER) ||
+          left.index - right.index
+        );
+      })
+      .map(({ product }) => product);
+  }, [activeDepartment, departmentGroups, visibleProducts]);
   const promotedProducts = useMemo(
     () =>
       (search?.items ?? [])
@@ -1078,13 +1167,22 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   );
 
   const loadSearch = useCallback(
-    async (nextQuery = query, nextSort = sort) => {
+    async (
+      nextQuery = query,
+      nextSort = sort,
+      requestedCategoryId = "",
+    ) => {
+      const requestId = ++searchRequestIdRef.current;
+      const isLatestRequest = () => requestId === searchRequestIdRef.current;
       if (!handoff) {
         const publicParams = new URLSearchParams({
           q: nextQuery.trim(),
           sort: nextSort,
           limit: "60",
         });
+        if (requestedCategoryId) {
+          publicParams.set("category", requestedCategoryId);
+        }
         if (stockFilter === "true") publicParams.set("inStock", "true");
         if (unitFilter) publicParams.set("unit", unitFilter);
         if (packagingFilter) publicParams.set("packaging", packagingFilter);
@@ -1096,6 +1194,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
             publicParams,
           );
           if (live) {
+            if (!isLatestRequest()) return;
             setSearch(live);
             void recordPublicSearch(nextQuery, live.total);
             return;
@@ -1109,6 +1208,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
             delivery: deliveryFilter,
             stock: stockFilter,
           });
+        if (!isLatestRequest()) return;
         setSearch(fallback);
         void recordPublicSearch(nextQuery, fallback.total);
         return;
@@ -1118,6 +1218,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         const live = await api.get<SearchResult>(
           `${handoff ? "/marketplace" : "/catalog"}/search?${params}`,
         );
+        if (!isLatestRequest()) return;
         setSearch(
           mergePrivateCatalog(live, nextQuery, nextSort, {
             unit: unitFilter,
@@ -1127,6 +1228,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
           }),
         );
       } catch (cause) {
+        if (!isLatestRequest()) return;
         setSearch(
           fallbackSearch(nextQuery, nextSort, {
             unit: unitFilter,
@@ -1159,9 +1261,14 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     setError(null);
     try {
       if (!handoff) {
+        const publicQuery =
+          typeof window === "undefined"
+            ? query
+            : (new URLSearchParams(window.location.search).get("q")?.trim() ??
+              query);
         setSearch(
           fallbackSearch(
-            query,
+            publicQuery,
             sort,
             {
               unit: unitFilter,
@@ -1175,7 +1282,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         // Do not block the public catalog on a remote API cold start. If it
         // responds, loadSearch replaces the fallback with live data.
         setLoading(false);
-        if (!initialOffset) void loadSearch(query, sort);
+        if (!initialOffset) void loadSearch(publicQuery, sort);
         setCarts(demoCartToCart(readDemoCart()) ? [demoCartToCart(readDemoCart())!] : []);
         setOrders([]);
         setDocuments([]);
@@ -1306,6 +1413,12 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
           offset: String(currentCount),
           limit: "60",
         });
+        const selectedCategoryId = departmentGroups.find(
+          (category) => category.name === categoryFilter,
+        )?.id;
+        if (selectedCategoryId) {
+          params.set("category", selectedCategoryId);
+        }
         const next = await fetchPublicCatalogSearch(query, sort, params);
         if (!next) throw new Error("Published catalog is unavailable");
         setSearch((current) => ({
@@ -1399,7 +1512,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     return () => window.clearTimeout(timer);
   }, [toast]);
 
-  const submitSearchFor = async (nextQuery: string, nextSort = sort) => {
+  const submitSearchFor = async (
+    nextQuery: string,
+    nextSort = sort,
+    requestedCategoryId = "",
+  ) => {
     setQuery(nextQuery);
     const normalizedNextQuery = nextQuery.trim();
     if (normalizedNextQuery) {
@@ -1416,10 +1533,10 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     setProductReviews(null);
     try {
       if (!handoff) {
-        await loadSearch(nextQuery, nextSort);
+        await loadSearch(nextQuery, nextSort, requestedCategoryId);
         return;
       }
-      await loadSearch(nextQuery, nextSort);
+      await loadSearch(nextQuery, nextSort, requestedCategoryId);
     } catch (cause) {
       setError(errorMessage(cause));
     } finally {
@@ -1731,55 +1848,94 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         <>
           <nav
             className={styles.categoryRail}
-            aria-label="Популярные категории"
+            aria-label="Разделы каталога"
           >
-            {[
-              {
-                label: "Расходные материалы",
-                query: "расходные материалы",
-                icon: <ClipboardTaskListLtr24Regular />,
-              },
-              {
-                label: "Инструменты",
-                query: "инструменты",
-                icon: <List24Regular />,
-              },
-              {
-                label: "Оборудование",
-                query: "оборудование",
-                icon: <Grid24Regular />,
-              },
-              {
-                label: "Эндодонтия",
-                query: "эндодонтия",
-                icon: <Box24Regular />,
-              },
-              {
-                label: "Имплантология",
-                query: "импланты",
-                icon: <Cart24Regular />,
-              },
-              {
-                label: "Стерилизация",
-                query: "стерилизация",
-                icon: <Tag24Regular />,
-              },
-            ].map((item) => (
+            {CATALOG_DEPARTMENTS.map((item) => (
               <a
-                key={item.label}
+                key={item.id}
                 href={`/?q=${encodeURIComponent(item.query)}`}
                 onClick={(event) => {
                   event.preventDefault();
+                  setCategoryFilter("");
                   setQuery(item.query);
                   void submitSearchFor(item.query);
                 }}
               >
-                {item.icon}
-                <span>{item.label}</span>
+                {item.id === "consumables" ? (
+                  <ClipboardTaskListLtr24Regular />
+                ) : item.id === "instruments" ? (
+                  <List24Regular />
+                ) : item.id === "equipment" ? (
+                  <Grid24Regular />
+                ) : item.id === "implantology" ? (
+                  <Cart24Regular />
+                ) : item.id === "sterilization" ? (
+                  <Tag24Regular />
+                ) : (
+                  <Box24Regular />
+                )}
+                <span>{item.name}</span>
               </a>
             ))}
           </nav>
-          {featuredDeals.length ? (
+          {activeDepartment ? (
+            <section
+              className={styles.departmentOverview}
+              aria-labelledby="department-title"
+            >
+              <div className={styles.departmentHeading}>
+                <span>Раздел каталога</span>
+                <h1 id="department-title">{activeDepartment.name}</h1>
+                <p>
+                  {departmentTotal}{" "}
+                  {ruCount(
+                    departmentTotal,
+                    "товар",
+                    "товара",
+                    "товаров",
+                  )}{" "}
+                  собрано по понятным группам.
+                </p>
+              </div>
+              {departmentGroups.length ? (
+                <div
+                  className={styles.subcategoryRail}
+                  aria-label={`Подкатегории раздела ${activeDepartment.name}`}
+                >
+                  <button
+                    type="button"
+                    className={!categoryFilter ? styles.subcategoryActive : ""}
+                    onClick={() => {
+                      setCategoryFilter("");
+                      void submitSearchFor(query, sort, "");
+                    }}
+                  >
+                    <span>Все товары</span>
+                    <small>{departmentTotal}</small>
+                  </button>
+                  {departmentGroups.map((category) => (
+                    <button
+                      type="button"
+                      key={category.id}
+                      className={
+                        categoryFilter === category.name
+                          ? styles.subcategoryActive
+                          : ""
+                      }
+                      onClick={() => {
+                        setCategoryFilter(category.name);
+                        void submitSearchFor(query, sort, category.id);
+                      }}
+                    >
+                      <span>{category.name}</span>
+                      <small>{category.count}</small>
+                    </button>
+                  ))}
+                </div>
+              ) : null}
+            </section>
+          ) : null}
+          {!query.trim() && featuredDeals.length ? (
             <section
               className={styles.dealsSection}
               aria-labelledby="deals-title"
@@ -1862,7 +2018,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               </div>
             </section>
           ) : null}
-          {topProducts.length ? (
+          {!query.trim() && topProducts.length ? (
             <section
               className={styles.dealsSection}
               aria-labelledby="top-products-title"
@@ -2080,7 +2236,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
           <>
             <div className={styles.catalogToolbar}>
               <div>
-                <h1 id="catalog-title">Каталог для стоматологий</h1>
+                <h1 id="catalog-title">
+                  {activeDepartment?.name ?? "Каталог для стоматологий"}
+                </h1>
                 <p>
                   {search?.total ?? visibleProducts.length}{" "}
                   {ruCount(
@@ -2404,7 +2562,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
           />
         ) : (
           <div className={styles.productList}>
-            {visibleProducts.map((product) => {
+            {groupedVisibleProducts.map((product, productPosition) => {
               const ranked = rankSearchOffers(product.offers);
               const best = ranked.find((offer) => offer.priceMinor);
               const eligibleOffers = ranked.filter(
@@ -2420,11 +2578,42 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               const productIndex = search?.items.findIndex(
                 (item) => item.id === product.id,
               ) ?? 0;
+              const group = product.categories[1] ?? product.categories[0];
+              const previousProduct =
+                groupedVisibleProducts[productPosition - 1];
+              const previousGroup =
+                previousProduct?.categories[1] ??
+                previousProduct?.categories[0];
+              const showGroupHeading =
+                Boolean(isPublic && activeDepartment && group) &&
+                group?.id !== previousGroup?.id;
+              const groupCount =
+                departmentGroups.find((category) => category.id === group?.id)
+                  ?.count ?? 0;
               const returnTo = `/?q=${encodeURIComponent(query)}&offset=${Math.max(0, Math.floor(productIndex / 60) * 60)}#product-${encodeURIComponent(product.id)}`;
               return (
+                <Fragment key={product.id}>
+                  {showGroupHeading ? (
+                    <header className={styles.productGroupHeader}>
+                      <div>
+                        <span>Подкатегория</span>
+                        <h2>{group?.name}</h2>
+                      </div>
+                      {groupCount ? (
+                        <small>
+                          {groupCount}{" "}
+                          {ruCount(
+                            groupCount,
+                            "товар",
+                            "товара",
+                            "товаров",
+                          )}
+                        </small>
+                      ) : null}
+                    </header>
+                  ) : null}
                 <article
                   className={styles.product}
-                  key={product.id}
                   data-testid="product-card"
                   data-product-id={product.id}
                 >
@@ -2622,6 +2811,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                     </Button>
                   </div>
                 </article>
+                </Fragment>
               );
             })}
           </div>
