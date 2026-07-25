@@ -98,6 +98,10 @@ import {
   catalogDepartmentForQuery,
   classifyCatalogProduct,
 } from "./lib/catalog-taxonomy";
+import {
+  createProductPresentation,
+  type ProductPresentation,
+} from "./lib/product-presentation";
 
 const BUYER_ID = "00000000-0000-4000-8000-000000000030";
 const BUYER_USER_ID = "00000000-0000-4000-8000-000000000500";
@@ -250,20 +254,30 @@ const priceDifferencePercent = (product: SearchProduct) => {
   if (prices.length < 2 || prices[0] === prices.at(-1)) return 0;
   return Math.round((1 - prices[0] / prices.at(-1)!) * 100);
 };
-const cardSummary = (product: SearchProduct) => {
-  const description = String(product.description ?? "")
-    .replace(/\s+/gu, " ")
-    .trim();
-  if (!description) return product.categories[0]?.name ?? "";
-  const repeatedName = description
-    .toLocaleLowerCase("ru")
-    .startsWith(product.name.trim().toLocaleLowerCase("ru"));
-  const withoutRepeatedName = repeatedName
-    ? description.slice(product.name.trim().length).replace(/^[\s:—–-]+/u, "")
-    : description;
+const catalogPresentation = (product: SearchProduct) =>
+  createProductPresentation(
+    {
+      name: product.name,
+      description: product.description,
+      brand: product.brand,
+      manufacturer: product.manufacturer,
+      category: product.categories[0]?.name,
+    },
+    (product.attributes ?? [])
+      .filter((attribute) => attribute.length >= 2)
+      .map(
+        (attribute) =>
+          [String(attribute[0]), String(attribute[1])] as const,
+      ),
+    product.variants?.[0]?.sku,
+  );
+const cardSummary = (
+  product: SearchProduct,
+  presentation: ProductPresentation = catalogPresentation(product),
+) => {
+  const description = presentation.summary;
   const sentence =
-    withoutRepeatedName.match(/^.{30,150}?(?:[.!?](?=\s|$)|$)/u)?.[0] ??
-    withoutRepeatedName;
+    description.match(/^.{30,150}?(?:[.!?](?=\s|$)|$)/u)?.[0] ?? description;
   return sentence.length > 135 ? `${sentence.slice(0, 132).trimEnd()}…` : sentence;
 };
 const demoCatalogFallback: SearchProduct[] = [
@@ -2049,6 +2063,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                   const promotion = bestPromotionPercent(product);
                   const priceDifference = priceDifferencePercent(product);
                   const image = mediaSource(product.media?.[0]);
+                  const presentation = catalogPresentation(product);
                   return (
                     <article
                       className={styles.dealCard}
@@ -2058,11 +2073,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                     >
                       <a
                         href={`/products/${encodeURIComponent(product.id)}`}
-                        aria-label={`Открыть ${product.name}`}
+                        aria-label={`Открыть ${presentation.title}`}
                       >
                         <SafeProductImage
                           src={image}
-                          alt={product.media?.[0]?.altText ?? product.name}
+                          alt={presentation.title}
                           loading={index < 3 ? "eager" : "lazy"}
                           decoding="async"
                           fallback={
@@ -2080,7 +2095,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                               ? "Акция продавца"
                               : "Выгодная цена"}
                         </span>
-                        <h3>{product.name}</h3>
+                        <h3>{presentation.title}</h3>
                         <strong>
                           {isCampaign
                             ? "Специальный комплект"
@@ -2163,6 +2178,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               >
                 {topProducts.slice(0, 24).map((product, index) => {
                   const image = mediaSource(product.media?.[0]);
+                  const presentation = catalogPresentation(product);
                   return (
                     <article
                       className={styles.dealCard}
@@ -2172,11 +2188,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                     >
                       <a
                         href={`/products/${encodeURIComponent(product.id)}`}
-                        aria-label={`Открыть ${product.name}`}
+                        aria-label={`Открыть ${presentation.title}`}
                       >
                         <SafeProductImage
                           src={image}
-                          alt={product.media?.[0]?.altText ?? product.name}
+                          alt={presentation.title}
                           loading={index < 3 ? "eager" : "lazy"}
                           decoding="async"
                           fallback={
@@ -2192,7 +2208,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                             ? "Товар дня"
                             : (product.badges?.[0] ?? "В подборке")}
                         </span>
-                        <h3>{product.name}</h3>
+                        <h3>{presentation.title}</h3>
                         <strong>
                           {product.minNormalizedPriceMinor
                             ? `от ${formatMoney(
@@ -2707,6 +2723,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               );
               const normalizedPrice = best?.normalizedPriceMinor;
               const productImage = mediaSource(product.media?.[0]);
+              const presentation = catalogPresentation(product);
               const promotion = bestPromotionPercent(product);
               const commercialBadges = [
                 ...(promotion ? [`Скидка ${promotion}%`] : []),
@@ -2760,12 +2777,12 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                   <a
                     className={styles.productCardSurface}
                     href={`/products/${encodeURIComponent(product.id)}?returnTo=${encodeURIComponent(returnTo)}`}
-                    aria-label={`Открыть карточку ${product.name}`}
+                    aria-label={`Открыть карточку ${presentation.title}`}
                   >
                     <div className={styles.productVisual}>
                       <SafeProductImage
                         src={productImage}
-                        alt={product.media?.[0]?.altText ?? product.name}
+                        alt={presentation.title}
                         className={
                           product.media?.[0]?.metadata?.overlayCleanup ===
                           "top_strip"
@@ -2799,10 +2816,10 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                             "DentMarket")
                           : (product.categories[0]?.name ?? "Стоматология")}
                       </span>
-                      <h3>{product.name}</h3>
-                      {isPublic && cardSummary(product) ? (
+                      <h3>{presentation.title}</h3>
+                      {isPublic && cardSummary(product, presentation) ? (
                         <p className={styles.productSummary}>
-                          {cardSummary(product)}
+                          {cardSummary(product, presentation)}
                         </p>
                       ) : null}
                       {!isPublic ? (

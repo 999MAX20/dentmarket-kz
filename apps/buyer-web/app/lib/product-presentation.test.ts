@@ -70,4 +70,73 @@ describe("product detail presentation", () => {
     expect(result.originalName).toBeNull();
     expect(result.summary).toContain("Адгезивные системы");
   });
+
+  it.each([
+    [
+      "(Wangen-) Hakenelektrode",
+      "Щёчный электрод-крючок для аппаратов депофореза",
+    ],
+    [
+      "(Wurzelkanal-) Nadelelektrode",
+      "Игольчатый электрод для корневого канала",
+    ],
+    [
+      "0.4mm Up & Down Movement Endo Head",
+      "Эндодонтическая головка с ходом 0,4 мм",
+    ],
+  ])("turns %s into a readable catalog title", (name, expected) => {
+    const result = createProductPresentation(
+      {
+        name,
+        description: name,
+        category: "Эндодонтические принадлежности",
+      },
+      [],
+    );
+
+    expect(result.title).toBe(expected);
+    expect(result.summary).toMatch(/[А-ЯЁа-яё]/u);
+  });
+
+  it.each([
+    "Atacamit-Wurzelfüllzement",
+    "Calciumhydroxid-hochdispers 15 g Paste im Fläschen",
+    "Calciumhydroxid-hochdispers Dosierspritze mit 1,7 g Paste und 5 Kanülen",
+    "Cupral® 15 g Paste im Fläschchen",
+    "Cupral® 5 g Paste im Fläschchen",
+    "Cupral® Dosierspritze mit 1,7 g Paste und 5 Kanülen",
+    "Cupral® liquid",
+    "Dentin-Versiegelungsliquid Großsparpackung 2 x 20 ml",
+    "Dentin-Versiegelungsliquid Probierpackung 2 x 5 ml",
+    "Ersatzkanülen 100 Stück",
+    "Galvanisches Stiftelement",
+    "Hämostatikum Al-Cu",
+    "Handstück",
+    "Interims-Kronenzement",
+    "Kavitäten-Waschliquid",
+    "Kavitätenspalt-Dichtungsmixtur",
+    "MAGIS®-Apex-Kabel-Set",
+    "Nachtouchierlösung 20 ml",
+    "Nachtouchierlösung balance 20 ml",
+    "Tiefenfluorid balance Großsparpackung 2 x 20 ml",
+    "Tiefenfluorid balance Probierpackung 2 x 5 ml",
+    "Tiefenfluorid Großsparpackung 2 x 20 ml",
+    "Tiefenfluorid junior Großsparpackung 2 x 20 ml",
+    "Tiefenfluorid junior Probierpackung 2 x 5 ml",
+    "Tiefenfluorid Probierpackung 2 x 5 ml",
+  ])("has curated Russian copy for Humanchemie product %s", (name) => {
+    const result = createProductPresentation(
+      {
+        name,
+        description: name,
+        brand: "Humanchemie",
+        category: "Эндодонтические препараты",
+      },
+      [],
+    );
+
+    expect(result.title).toMatch(/[А-ЯЁа-яё]/u);
+    expect(result.title).not.toContain("Эндодонтические препараты:");
+    expect(result.summary).toMatch(/[А-ЯЁа-яё]/u);
+  });
 });

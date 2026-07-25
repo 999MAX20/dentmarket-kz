@@ -17,7 +17,7 @@ import {
   readPublishedCatalog,
   type PublishedCatalogProduct,
 } from "../../lib/published-catalog-server";
-import { createProductPresentation } from "./product-presentation";
+import { createProductPresentation } from "../../lib/product-presentation";
 
 type CatalogProduct =
   | (typeof catalog.products)[number]
