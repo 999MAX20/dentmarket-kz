@@ -783,6 +783,16 @@ export class SearchService {
       ...(offers.some(({ promotion }) => Boolean(promotion)) ? ["Акция"] : []),
       ...(ranking.unitsSold30d > 0 ? ["Хит продаж"] : []),
       ...(input.sort === "BEST_PRICE" && offers.length ? ["Лучшая цена"] : []),
+      ...(offers.some((offer) =>
+        offer.deliveryMethods.some((method) =>
+          ["CARRIER", "SUPPLIER_CITY"].includes(method),
+        ),
+      )
+        ? ["Быстрая доставка"]
+        : []),
+      ...(Date.now() - product.createdAt.getTime() <= 30 * 24 * 60 * 60 * 1000
+        ? ["Новинка"]
+        : []),
       ...(ranking.score > 0 && ranking.unitsSold30d === 0
         ? ["Популярное"]
         : []),

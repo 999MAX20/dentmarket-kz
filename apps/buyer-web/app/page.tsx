@@ -649,6 +649,15 @@ type CartItem = {
   offer?: {
     supplier?: { organization?: { displayName?: string } };
     productVariant?: { product?: { canonicalName?: string } };
+    minimumOrderQuantity?: string;
+    deliveryOptions?: Array<{
+      method: string;
+      priceType: string;
+      fixedAmountMinor: string | null;
+      freeFromAmountMinor: string | null;
+      currency: string;
+      maxLeadTimeHours: number | null;
+    }>;
   };
 };
 type Cart = {
@@ -963,6 +972,51 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   ]);
 
   const activeCart = carts.find((cart) => cart.status === "ACTIVE") ?? null;
+  const cartSupplierGroups = useMemo(() => {
+    const groups = new Map<
+      string,
+      {
+        supplierName: string;
+        items: CartItem[];
+        subtotalMinor: number;
+        minimumQuantity: number;
+        delivery: string;
+      }
+    >();
+    for (const item of activeCart?.items ?? []) {
+      const supplierName =
+        item.offer?.supplier?.organization?.displayName ?? "Поставщик";
+      const current = groups.get(supplierName) ?? {
+        supplierName,
+        items: [],
+        subtotalMinor: 0,
+        minimumQuantity: 1,
+        delivery: "Стоимость доставки уточняется",
+      };
+      current.items.push(item);
+      current.subtotalMinor += Number(item.totalPriceMinor);
+      current.minimumQuantity = Math.max(
+        current.minimumQuantity,
+        Number(item.offer?.minimumOrderQuantity ?? 1),
+      );
+      const option = item.offer?.deliveryOptions?.[0];
+      if (option) {
+        current.delivery =
+          option.priceType === "FREE"
+            ? "Бесплатная доставка"
+            : option.priceType === "FIXED" && option.fixedAmountMinor
+              ? `Доставка ${formatMoney(option.fixedAmountMinor, option.currency)}`
+              : option.priceType === "FREE_FROM_AMOUNT" &&
+                  option.freeFromAmountMinor
+                ? `Бесплатно от ${formatMoney(option.freeFromAmountMinor, option.currency)}`
+                : "Стоимость доставки уточняется";
+        if (option.maxLeadTimeHours)
+          current.delivery += `, до ${Math.ceil(option.maxLeadTimeHours / 24)} дн.`;
+      }
+      groups.set(supplierName, current);
+    }
+    return [...groups.values()];
+  }, [activeCart]);
   const buyerOrders = orders.filter(
     (order) => order.buyerOrganizationId === buyerId,
   );
@@ -2654,6 +2708,12 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               const normalizedPrice = best?.normalizedPriceMinor;
               const productImage = mediaSource(product.media?.[0]);
               const promotion = bestPromotionPercent(product);
+              const commercialBadges = [
+                ...(promotion ? [`Скидка ${promotion}%`] : []),
+                ...(product.badges ?? []),
+              ]
+                .filter((value, index, values) => values.indexOf(value) === index)
+                .slice(0, 3);
               const priceDifference = priceDifferencePercent(product);
               const productIndex = search?.items.findIndex(
                 (item) => item.id === product.id,
@@ -2725,6 +2785,13 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                       />
                     </div>
                     <div className={styles.productIdentity}>
+                      {commercialBadges.length ? (
+                        <div className={styles.commercialBadges} aria-label="Преимущества предложения">
+                          {commercialBadges.map((badge) => (
+                            <span key={badge}>{badge}</span>
+                          ))}
+                        </div>
+                      ) : null}
                       <span className={styles.category}>
                         {isPublic
                           ? (product.brand ??
@@ -3444,8 +3511,23 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       ) : (
         <Section
           title={`${activeCart.items.length} позиций`}
-          description="Активная корзина"
+          description={`${cartSupplierGroups.length} ${cartSupplierGroups.length === 1 ? "поставщик" : "поставщика"}. При оформлении будут созданы отдельные заказы.`}
         >
+          <div className={styles.supplierCartGroups}>
+            {cartSupplierGroups.map((group) => (
+              <article className={styles.supplierCartGroup} key={group.supplierName}>
+                <div>
+                  <strong>{group.supplierName}</strong>
+                  <span>{group.items.length} позиций</span>
+                </div>
+                <div>
+                  <span>{group.delivery}</span>
+                  <span>Минимальный заказ: {group.minimumQuantity} шт.</span>
+                </div>
+                <strong>{formatMoney(group.subtotalMinor, activeCart.currency)}</strong>
+              </article>
+            ))}
+          </div>
           <div className="mp-table-wrap">
             <table className="mp-table">
               <thead>

@@ -41,7 +41,20 @@ const searchSuggestions = [
   "гуттаперча",
   "карпула",
   "эндомотор",
+  "брекет-системы",
+  "ортодонтические дуги",
+  "лигатуры",
 ];
+
+const categorySuggestions = new Set([
+  "расходные материалы",
+  "инструменты",
+  "оборудование",
+  "эндодонтия",
+  "имплантология",
+  "стерилизация",
+  "брекет-системы",
+]);
 
 const searchAliases: Record<string, string[]> = {
   светник: ["светильник", "лампа"],
@@ -162,7 +175,16 @@ export function PublicHeader({ active, query = "", searching = false, onQueryCha
                   }}
                 >
                   <Search24Regular aria-hidden="true" />
-                  <span>{suggestion}</span>
+                  <span className={styles.suggestionText}>
+                    <strong>{suggestion}</strong>
+                    <small>
+                      {recentSearches.includes(suggestion)
+                        ? "Недавний запрос"
+                        : categorySuggestions.has(suggestion)
+                          ? "Категория"
+                          : "Товар или назначение"}
+                    </small>
+                  </span>
                 </button>
               ))}
             </div>

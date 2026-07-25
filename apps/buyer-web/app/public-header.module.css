@@ -194,6 +194,18 @@
   width: 16px;
   color: #84928c;
 }
+.suggestionText {
+  display: grid;
+  gap: 1px;
+}
+.suggestionText strong {
+  font-size: 12px;
+}
+.suggestionText small {
+  color: #75837d;
+  font-size: 10px;
+  font-weight: 500;
+}
 
 .brand:focus-visible,
 .nav a:focus-visible,

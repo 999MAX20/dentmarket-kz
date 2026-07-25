@@ -579,21 +579,30 @@ export default function SupplierWorkspace() {
   };
 
   const uploadPriceList = async () => {
-    if (!priceListFile) return setError("Выберите PDF-прайс или каталог");
-    if (!priceListFile.name.toLowerCase().endsWith(".pdf")) return setError("На этом экране принимаются PDF-файлы");
-    if (priceListFile.size > 20_000_000) return setError("PDF должен быть не больше 20 МБ");
+    if (!priceListFile) return setError("Выберите прайс или каталог");
+    const extension = priceListFile.name.split(".").pop()?.toLowerCase();
+    const fileType =
+      extension === "pdf"
+        ? "PDF"
+        : extension === "csv"
+          ? "CSV"
+          : extension === "xlsx"
+            ? "EXCEL"
+            : null;
+    if (!fileType) return setError("Поддерживаются PDF, CSV и XLSX");
+    if (priceListFile.size > 20_000_000) return setError("Файл должен быть не больше 20 МБ");
     setBusy("pdf-import");
     setError(null);
     try {
-      let source = dataSources.find((item) => item.type === "PDF");
-      if (!source) source = await api.post<SupplierDataSource>(`/suppliers/${supplierId}/data-sources`, { name: "PDF-прайсы поставщика", type: "PDF", configuration: { extractionMode: "text-table-with-review", createdFrom: "supplier-web" } });
-      const contentBase64 = await new Promise<string>((resolve, reject) => { const reader = new FileReader(); reader.onload = () => resolve(String(reader.result).split(",")[1] ?? ""); reader.onerror = () => reject(new Error("Не удалось прочитать PDF")); reader.readAsDataURL(priceListFile); });
+      let source = dataSources.find((item) => item.type === fileType);
+      if (!source) source = await api.post<SupplierDataSource>(`/suppliers/${supplierId}/data-sources`, { name: `${fileType}-прайсы поставщика`, type: fileType, configuration: { extractionMode: fileType === "PDF" ? "text-table-with-review" : "table", createdFrom: "supplier-web" } });
+      const contentBase64 = await new Promise<string>((resolve, reject) => { const reader = new FileReader(); reader.onload = () => resolve(String(reader.result).split(",")[1] ?? ""); reader.onerror = () => reject(new Error("Не удалось прочитать файл")); reader.readAsDataURL(priceListFile); });
       const batch = await api.post<ImportBatch>(`/suppliers/${supplierId}/import-batches`, {
         sourceId: source.id,
         fileName: priceListFile.name,
-        fileType: "PDF",
+        fileType,
         contentBase64,
-        columnMapping: { externalId: "externalId", name: "name", supplierSku: "supplierSku", unit: "unit", priceMinor: "priceMinor", currency: "currency" },
+        columnMapping: { externalId: "externalId", name: "name", supplierSku: "supplierSku", gtin: "gtin", brand: "brand", manufacturer: "manufacturer", unit: "unit", priceMinor: "priceMinor", currency: "currency", quantityOnHand: "quantityOnHand", lotNumber: "lotNumber", expirationDate: "expirationDate" },
       });
       setPriceListFile(null);
       await refresh();
@@ -1147,10 +1156,10 @@ export default function SupplierWorkspace() {
         description="Загружайте прайсы файлами или подключите 1С и другую учётную систему."
       />
       {handoff ? <ConnectorOnboarding supplierId={supplierId} apiContext={apiContext} /> : null}
-      <Section title="Загрузить прайс или каталог" description="Мы сохраним исходный файл, распознаем строки и попросим подтвердить валюту перед публикацией.">
+      <Section title="Загрузить прайс или каталог" description="Принимаем Excel, CSV и PDF. Найденные карточки публикуются автоматически, спорные строки ждут одного подтверждения или модерации.">
         <div className={styles.pdfUpload}>
-          <Field label="PDF поставщика" hint="До 20 МБ. Текстовые таблицы распознаются автоматически; сканы уходят на ручную проверку.">
-            <input className={styles.fileInput} type="file" accept="application/pdf,.pdf" onChange={(event) => setPriceListFile(event.target.files?.[0] ?? null)} />
+          <Field label="Файл поставщика" hint="До 20 МБ. Excel и CSV читаются как таблица; PDF распознаётся автоматически.">
+            <input className={styles.fileInput} type="file" accept=".xlsx,.csv,.pdf,application/pdf,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" onChange={(event) => setPriceListFile(event.target.files?.[0] ?? null)} />
           </Field>
           <Button appearance="primary" icon={<CloudArrowUp24Regular />} disabled={!priceListFile || busy === "pdf-import"} onClick={() => void uploadPriceList()}>
             {busy === "pdf-import" ? "Извлекаем…" : "Загрузить и распознать"}

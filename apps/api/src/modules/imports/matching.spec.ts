@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+  decideVariantMatch,
   isConfidentAutomaticMatch,
   normalizeCatalogText,
   rankVariants,
@@ -96,6 +97,7 @@ describe("supplier matching", () => {
       ],
     );
     expect(isConfidentAutomaticMatch(candidates)).toBe(false);
+    expect(decideVariantMatch(candidates).outcome).not.toBe("AUTO_PUBLISH");
   });
 
   it("matches a Solventum catalog number even when the supplier name is abbreviated", () => {
@@ -360,5 +362,9 @@ describe("supplier matching", () => {
 
     expect(candidates[0]?.reasons).toContain("exact_sku_alias");
     expect(isConfidentAutomaticMatch(candidates)).toBe(true);
+    expect(decideVariantMatch(candidates)).toMatchObject({
+      outcome: "AUTO_PUBLISH",
+      productVariantId: "lisi-press-ht-exw",
+    });
   });
 });

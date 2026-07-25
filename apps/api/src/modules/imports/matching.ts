@@ -310,3 +310,84 @@ export function isConfidentAutomaticMatch(
     best.score >= 0.9 && (!runnerUp || best.score - runnerUp.score >= 0.12)
   );
 }
+
+export type MatchDecision =
+  | {
+      outcome: "AUTO_PUBLISH";
+      productVariantId: string;
+      confidence: number;
+      reasons: string[];
+    }
+  | {
+      outcome: "CONFIRM_ONE_FIELD";
+      productVariantId: string;
+      confidence: number;
+      reasons: string[];
+      field:
+        | "brand"
+        | "manufacturer"
+        | "packaging"
+        | "shade"
+        | "size"
+        | "variant";
+    }
+  | {
+      outcome: "MANUAL_REVIEW";
+      productVariantId: string | null;
+      confidence: number;
+      reasons: string[];
+    };
+
+export function decideVariantMatch(
+  candidates: ReturnType<typeof rankVariants>,
+): MatchDecision {
+  const best = candidates[0];
+  if (!best)
+    return {
+      outcome: "MANUAL_REVIEW",
+      productVariantId: null,
+      confidence: 0,
+      reasons: ["no_candidate"],
+    };
+  if (isConfidentAutomaticMatch(candidates))
+    return {
+      outcome: "AUTO_PUBLISH",
+      productVariantId: best.variant.id,
+      confidence: best.score,
+      reasons: best.reasons,
+    };
+
+  const conflict = best.reasons.find((reason) =>
+    reason.startsWith("variant_"),
+  );
+  if (best.score >= 0.62 && conflict)
+    return {
+      outcome: "CONFIRM_ONE_FIELD",
+      productVariantId: best.variant.id,
+      confidence: best.score,
+      reasons: best.reasons,
+      field: conflict.includes("shade")
+        ? "shade"
+        : conflict.includes("measure") || conflict.includes("quantity")
+          ? "packaging"
+          : "variant",
+    };
+  if (
+    best.score >= 0.7 &&
+    (best.reasons.includes("exact_brand") ||
+      best.reasons.includes("exact_manufacturer"))
+  )
+    return {
+      outcome: "CONFIRM_ONE_FIELD",
+      productVariantId: best.variant.id,
+      confidence: best.score,
+      reasons: best.reasons,
+      field: best.reasons.includes("exact_brand") ? "variant" : "brand",
+    };
+  return {
+    outcome: "MANUAL_REVIEW",
+    productVariantId: best.variant.id,
+    confidence: best.score,
+    reasons: best.reasons,
+  };
+}

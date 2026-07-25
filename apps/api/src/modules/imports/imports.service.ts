@@ -19,7 +19,7 @@ import {
 } from "../suppliers/supplier-access.service";
 import { ImportFileParser } from "./import-file.parser";
 import {
-  isConfidentAutomaticMatch,
+  decideVariantMatch,
   normalizeCatalogText,
   rankVariants,
 } from "./matching";
@@ -27,23 +27,46 @@ import { BackgroundQueueService } from "../../platform/jobs/background-queue.ser
 import { FileUploadPolicyService } from "../../platform/security/file-upload-policy.service";
 import { ComplianceService } from "../compliance/compliance.service";
 import { MarketplaceAgreementsService } from "../agreements/marketplace-agreements.service";
+import {
+  inferSupplierColumnMapping,
+  normalizeImportedPriceMinor,
+} from "./column-mapping";
 
 type RawRow = Record<string, unknown>;
+
+const MATCH_FIELD_LABELS = {
+  brand: "бренд",
+  manufacturer: "производитель",
+  packaging: "фасовка",
+  shade: "оттенок",
+  size: "размер",
+  variant: "вариант товара",
+} as const;
 
 function value(row: RawRow, column?: string) {
   return column ? String(row[column] ?? "").trim() : "";
 }
 
 function normalizeRow(row: RawRow, mapping: SupplierColumnMappingInput) {
+  const name = value(row, mapping.name);
+  const supplierSku = value(row, mapping.supplierSku) || null;
+  const gtin = value(row, mapping.gtin) || null;
   return {
-    externalId: value(row, mapping.externalId),
-    name: value(row, mapping.name),
-    supplierSku: value(row, mapping.supplierSku) || null,
-    gtin: value(row, mapping.gtin) || null,
+    externalId:
+      value(row, mapping.externalId) ||
+      supplierSku ||
+      gtin ||
+      createHash("sha256").update(normalizeCatalogText(name)).digest("hex").slice(0, 24),
+    name,
+    supplierSku,
+    gtin,
     brand: value(row, mapping.brand) || null,
     manufacturer: value(row, mapping.manufacturer) || null,
     unit: value(row, mapping.unit) || null,
-    priceMinor: value(row, mapping.priceMinor) || null,
+    priceMinor: normalizeImportedPriceMinor(
+      value(row, mapping.priceMinor) || null,
+      mapping.priceMinor,
+    ),
     currency: value(row, mapping.currency).toUpperCase() || null,
     quantityOnHand: value(row, mapping.quantityOnHand) || null,
     lotNumber: value(row, mapping.lotNumber) || null,
@@ -519,6 +542,15 @@ export class ImportsService implements OnModuleInit {
     const checksum = createHash("sha256")
       .update(JSON.stringify(rows))
       .digest("hex");
+    const inferredMapping = inferSupplierColumnMapping(rows, input.columnMapping);
+    const requiresMappingReview =
+      parsedFile.requiresReview || inferredMapping.mapping === null;
+    const extractionMetadata = {
+      ...parsedFile.metadata,
+      columnMapping: inferredMapping.mapping,
+      inferredFields: inferredMapping.inferredFields,
+      missingRequiredColumns: inferredMapping.missingRequired,
+    };
     return this.prisma.$transaction(
       async (tx) => {
         const batch = await tx.importBatch.create({
@@ -528,9 +560,10 @@ export class ImportsService implements OnModuleInit {
             fileName: input.fileName,
             fileType: input.fileType,
             checksum,
-            status: parsedFile.requiresReview ? "REVIEW_REQUIRED" : "MAPPED",
-            columnMapping: input.columnMapping as Prisma.InputJsonValue,
-            extractionMetadata: parsedFile.metadata as Prisma.InputJsonValue,
+            status: requiresMappingReview ? "REVIEW_REQUIRED" : "MAPPED",
+            columnMapping: (inferredMapping.mapping ??
+              input.columnMapping) as Prisma.InputJsonValue,
+            extractionMetadata: extractionMetadata as Prisma.InputJsonValue,
             totalRows: rows.length,
             rows: {
               create: rows.map((rawData, index) => ({
@@ -744,7 +777,8 @@ export class ImportsService implements OnModuleInit {
                 complianceReasons: lineCompliance.reasons,
               },
             });
-            const exactMatch = isConfidentAutomaticMatch(candidates);
+            const decision = decideVariantMatch(candidates);
+            const exactMatch = decision.outcome === "AUTO_PUBLISH";
             if (exactMatch && best) {
               await tx.supplierItemMatchCandidate.updateMany({
                 where: { externalItemId: item.id, status: "CONFIRMED" },
@@ -952,8 +986,14 @@ export class ImportsService implements OnModuleInit {
                 data: {
                   status: "MATCH_PENDING",
                   normalizedData: normalized as Prisma.InputJsonValue,
-                  errorCode: null,
-                  errorMessage: null,
+                  errorCode:
+                    decision.outcome === "CONFIRM_ONE_FIELD"
+                      ? "CONFIRM_ONE_FIELD"
+                      : "MANUAL_REVIEW",
+                  errorMessage:
+                    decision.outcome === "CONFIRM_ONE_FIELD"
+                      ? `Нужно подтвердить один параметр: ${MATCH_FIELD_LABELS[decision.field]}`
+                      : "Модератору нужно выбрать правильную карточку каталога",
                 },
               });
             } else {
@@ -979,8 +1019,9 @@ export class ImportsService implements OnModuleInit {
                 data: {
                   status: "MATCH_PENDING",
                   normalizedData: normalized as Prisma.InputJsonValue,
-                  errorCode: null,
-                  errorMessage: null,
+                  errorCode: "NEW_CATALOG_CARD_REQUIRED",
+                  errorMessage:
+                    "Надёжное совпадение не найдено. Нужна проверка карточки каталога",
                 },
               });
             }

@@ -2,6 +2,7 @@ import { ConflictException, Injectable, NotFoundException } from "@nestjs/common
 import type { CreateAttributeDefinitionInput, CreateCategoryInput, CreateProductInput, CreateVariantInput, UpdateProductInput, UpsertCategoryAttributeRuleInput } from "@marketplace/schemas";
 import { Prisma } from "@prisma/client";
 import { PrismaService } from "../../platform/prisma/prisma.service";
+import { scoreCatalogCard } from "./catalog-quality-score";
 
 type ActorContext = { actorId: string; organizationId: string };
 
@@ -97,16 +98,67 @@ export class CatalogService {
   }
 
   async qualityReport() {
-    const [cards, missingVariants, missingCategories, missingIndustries, indexed, bySource] = await Promise.all([
+    const [cards, missingVariants, missingCategories, missingIndustries, indexed, bySource, products] = await Promise.all([
       this.prisma.$queryRaw<Array<{ count: bigint }>>`SELECT COUNT(*)::bigint AS count FROM "Product" WHERE "externalMetadata"->>'importedAsCanonicalDraft' = 'true'`,
       this.prisma.$queryRaw<Array<{ count: bigint }>>`SELECT COUNT(*)::bigint AS count FROM "Product" p WHERE p."externalMetadata"->>'importedAsCanonicalDraft' = 'true' AND NOT EXISTS (SELECT 1 FROM "ProductVariant" v WHERE v."productId" = p.id)`,
       this.prisma.$queryRaw<Array<{ count: bigint }>>`SELECT COUNT(*)::bigint AS count FROM "Product" p WHERE p."externalMetadata"->>'importedAsCanonicalDraft' = 'true' AND NOT EXISTS (SELECT 1 FROM "ProductCategory" c WHERE c."productId" = p.id)`,
       this.prisma.$queryRaw<Array<{ count: bigint }>>`SELECT COUNT(*)::bigint AS count FROM "Product" p WHERE p."externalMetadata"->>'importedAsCanonicalDraft' = 'true' AND NOT EXISTS (SELECT 1 FROM "ProductIndustry" i WHERE i."productId" = p.id)`,
       this.prisma.$queryRaw<Array<{ count: bigint }>>`SELECT COUNT(*)::bigint AS count FROM "Product" p JOIN "ProductSearchDocument" d ON d."productId" = p.id WHERE p."externalMetadata"->>'importedAsCanonicalDraft' = 'true'`,
       this.prisma.$queryRaw<Array<{ source: string | null; count: bigint }>>`SELECT "externalMetadata"->>'source' AS source, COUNT(*)::bigint AS count FROM "Product" WHERE "externalMetadata"->>'importedAsCanonicalDraft' = 'true' GROUP BY 1 ORDER BY count DESC`,
+      this.prisma.product.findMany({
+        select: {
+          id: true,
+          canonicalName: true,
+          description: true,
+          manufacturerSku: true,
+          gtin: true,
+          brandId: true,
+          manufacturerId: true,
+          regulatoryClass: true,
+          externalMetadata: true,
+          categories: { select: { productId: true } },
+          attributeValues: { select: { id: true } },
+          variants: { select: { id: true } },
+          media: {
+            where: { status: "READY" },
+            select: { id: true },
+          },
+          contentSources: {
+            where: { verified: true },
+            select: { id: true },
+          },
+        },
+      }),
     ]);
     const number = (value: bigint) => Number(value);
-    return { cards: number(cards[0]?.count ?? 0n), indexed: number(indexed[0]?.count ?? 0n), missingVariants: number(missingVariants[0]?.count ?? 0n), missingCategories: number(missingCategories[0]?.count ?? 0n), missingIndustries: number(missingIndustries[0]?.count ?? 0n), bySource: bySource.map((row) => ({ source: row.source ?? "unknown", count: number(row.count) })) };
+    const quality = products
+      .map((product) => ({
+        id: product.id,
+        name: product.canonicalName,
+        ...scoreCatalogCard({
+          ...product,
+          categories: product.categories.length,
+          attributes: product.attributeValues.length,
+          variants: product.variants.length,
+          readyMedia: product.media.length,
+          verifiedSources: product.contentSources.length,
+        }),
+      }))
+      .sort((left, right) => left.score - right.score || left.name.localeCompare(right.name, "ru"));
+    return {
+      cards: number(cards[0]?.count ?? 0n),
+      indexed: number(indexed[0]?.count ?? 0n),
+      missingVariants: number(missingVariants[0]?.count ?? 0n),
+      missingCategories: number(missingCategories[0]?.count ?? 0n),
+      missingIndustries: number(missingIndustries[0]?.count ?? 0n),
+      bySource: bySource.map((row) => ({ source: row.source ?? "unknown", count: number(row.count) })),
+      scoreDistribution: {
+        ready: quality.filter((item) => item.status === "READY").length,
+        improve: quality.filter((item) => item.status === "IMPROVE").length,
+        moderation: quality.filter((item) => item.status === "MODERATION").length,
+      },
+      correctionQueue: quality.filter((item) => item.status !== "READY").slice(0, 100),
+    };
   }
 
   createProduct(input: CreateProductInput, context: ActorContext) {
