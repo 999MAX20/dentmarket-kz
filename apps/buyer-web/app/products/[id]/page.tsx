@@ -17,6 +17,7 @@ import {
   readPublishedCatalog,
   type PublishedCatalogProduct,
 } from "../../lib/published-catalog-server";
+import { createProductPresentation } from "./product-presentation";
 
 type CatalogProduct =
   | (typeof catalog.products)[number]
@@ -194,10 +195,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { id } = await params;
   const product = await getProduct(decodeURIComponent(id));
-  return product
+  const presentation = product
+    ? createProductPresentation(
+        product,
+        (product.attributes ?? []) as Array<[string, string]>,
+      )
+    : null;
+  return product && presentation
     ? {
-        title: `${product.name} | DentMarket`,
-        description: product.description,
+        title: `${presentation.title} | DentMarket`,
+        description: presentation.summary,
       }
     : { title: "Карточка товара | DentMarket" };
 }
@@ -265,7 +272,20 @@ export default async function ProductPage({
       ...((product.attributes ?? []) as Array<[string, string]>),
       ...Object.entries(selectedVariant?.attributes ?? {}),
     ]),
-  ).map(([key, value]) => [key, String(value)] as const);
+  )
+    .filter(
+      ([key]) =>
+        !(
+          key === "Артикулы производителя" &&
+          selectedVariant?.attributes?.["Артикул производителя"]
+        ),
+    )
+    .map(([key, value]) => [key, String(value)] as const);
+  const presentation = createProductPresentation(
+    product,
+    attributes,
+    selectedVariant?.sku,
+  );
   const visibleOffers = selectedVariant
     ? offers.filter(
         (offer) =>
@@ -294,7 +314,7 @@ export default async function ProductPage({
           <div className={styles.visual}>
             <SafeProductImage
               src={imageSource}
-              alt={media?.altText ?? product.name}
+              alt={presentation.title}
               className={
                 media?.metadata?.overlayCleanup === "top_strip"
                   ? styles.productImageTopStrip
@@ -316,16 +336,34 @@ export default async function ProductPage({
             <span className={styles.eyebrow}>
               {product.category || "Стоматологические товары"}
             </span>
-            <h1>{product.name}</h1>
+            <h1>{presentation.title}</h1>
             {product.brand ? (
               <p className={styles.brand}>
-                {product.brand}
-                {product.manufacturer ? ` · ${product.manufacturer}` : ""}
+                <strong>{product.brand}</strong>
+                {product.manufacturer &&
+                product.manufacturer !== product.brand
+                  ? ` · ${product.manufacturer}`
+                  : ""}
               </p>
             ) : null}
             <p className={styles.description}>
-              {shortDescription(product.description)}
+              {shortDescription(presentation.summary)}
             </p>
+            {presentation.originalName ? (
+              <p className={styles.originalName}>
+                Название производителя: {presentation.originalName}
+              </p>
+            ) : null}
+            {presentation.facts.length ? (
+              <dl className={styles.quickFacts}>
+                {presentation.facts.map((fact) => (
+                  <div key={fact.label}>
+                    <dt>{fact.label}</dt>
+                    <dd>{fact.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            ) : null}
             {selectedVariant ? (
               <VariantPicker
                 variants={variants}
@@ -333,31 +371,17 @@ export default async function ProductPage({
                 requiresPositionSkuMatrix={requiresPositionSkuMatrix}
               />
             ) : null}
-            <div className={styles.facts}>
-              <span>
-                <strong>{visibleOffers.length}</strong>
-                <small>предложений</small>
-              </span>
-              <span>
-                <strong>
-                  {product.isAvailable ? "В наличии" : "Под заказ"}
-                </strong>
-                <small>статус товара</small>
-              </span>
-              <span>
-                <strong>{imageSource ? "Фото" : "Готовится"}</strong>
-                <small>визуал</small>
-              </span>
-            </div>
             <div className={styles.heroActions}>
               <ProductOfferActions
                 offers={visibleOffers}
                 productId={product.id}
-                productName={product.name}
+                productName={presentation.title}
               />
-              <span className={styles.trustNote}>
-                Заказ доступен после входа в кабинет клиники
-              </span>
+              {visibleOffers.length ? (
+                <span className={styles.trustNote}>
+                  Заказ доступен после входа в кабинет клиники
+                </span>
+              ) : null}
             </div>
             <aside className={styles.orderGuide} aria-label="Как выбрать товар">
               <strong>Как заказать без ошибки</strong>
@@ -367,18 +391,30 @@ export default async function ProductPage({
                   <li>Проверьте пропись, размер паза, торк и наличие крючка.</li>
                   <li>Сравните продавцов только для выбранного варианта и положите его в корзину.</li>
                 </ol>
-              ) : (
+              ) : variants.length > 1 ? (
                 <ol>
                   <li>Выберите объём, фасовку, оттенок или другой вариант выше.</li>
                   <li>Сравните предложения именно для выбранного варианта.</li>
                   <li>Проверьте срок доставки и положите предложение поставщика в корзину.</li>
+                </ol>
+              ) : (
+                <ol>
+                  <li>Сверьте назначение и совместимость с вашим оборудованием.</li>
+                  <li>Проверьте код производителя перед заказом.</li>
+                  <li>Когда появятся предложения, сравните цену и срок доставки.</li>
                 </ol>
               )}
             </aside>
           </div>
         </section>
 
-        <section className={styles.contentGrid}>
+        <section
+          className={
+            visibleOffers.length
+              ? styles.contentGrid
+              : `${styles.contentGrid} ${styles.contentGridSingle}`
+          }
+        >
           <div className={styles.panel}>
             <h2>Характеристики</h2>
             {attributes.length ? (
@@ -407,17 +443,21 @@ export default async function ProductPage({
               </a>
             ) : null}
           </div>
-          <div className={styles.panel}>
-            <div className={styles.panelHeading}>
-              <div>
-                <span className={styles.panelKicker}>Коммерческие условия</span>
-                <h2>Предложения поставщиков</h2>
+          {visibleOffers.length ? (
+            <div className={styles.panel}>
+              <div className={styles.panelHeading}>
+                <div>
+                  <span className={styles.panelKicker}>
+                    Коммерческие условия
+                  </span>
+                  <h2>Предложения поставщиков</h2>
+                </div>
+                <span className={styles.offerCount}>
+                  {visibleOffers.length}
+                </span>
               </div>
-              <span className={styles.offerCount}>{visibleOffers.length}</span>
-            </div>
-            <div className={styles.offers}>
-              {visibleOffers.length ? (
-                visibleOffers.map((offer) => (
+              <div className={styles.offers}>
+                {visibleOffers.map((offer) => (
                   <article
                     className={styles.offer}
                     key={`${offer.supplier.name}-${offer.supplierSku ?? "offer"}`}
@@ -443,22 +483,29 @@ export default async function ProductPage({
                       </span>
                     </div>
                   </article>
-                ))
-              ) : (
-                <p className={styles.muted}>
-                  Поставщики ещё не добавили предложение.
-                </p>
-              )}
+                ))}
+              </div>
             </div>
-          </div>
+          ) : null}
         </section>
         {product.description ? (
           <section className={styles.technicalPanel}>
             <details>
-              <summary>Полное техническое описание</summary>
+              <summary>Официальные данные производителя</summary>
               <div>
-                <p>{String(product.description).replace(/<[^>]+>/gu, " ").replace(/\s+/gu, " ").trim()}</p>
-                <small>Описание относится к товарной семье. Точные объём, оттенок, размер и комплектацию смотрите в выбранном варианте.</small>
+                {presentation.originalName ? (
+                  <p>
+                    <strong>Оригинальное название:</strong>{" "}
+                    {presentation.originalName}
+                  </p>
+                ) : null}
+                {presentation.originalDescription ? (
+                  <p>{presentation.originalDescription}</p>
+                ) : null}
+                <small>
+                  Это исходные данные производителя. Для заказа используйте
+                  характеристики и код выбранного варианта выше.
+                </small>
               </div>
             </details>
           </section>

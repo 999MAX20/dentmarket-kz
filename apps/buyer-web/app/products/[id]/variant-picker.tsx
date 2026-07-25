@@ -96,12 +96,7 @@ export default function VariantPicker({
 
   if (variants.length <= 1) {
     return (
-      <section className={styles.variantPicker} aria-label="Выбранный товар">
-        <div className={styles.variantIntro}>
-          <span className={styles.variantStep}>Один вариант</span>
-          <strong className={styles.variantTitle}>Выбирать ничего не нужно</strong>
-          <p>Цена и наличие ниже относятся именно к этой комплектации.</p>
-        </div>
+      <section className={styles.singleVariant} aria-label="Комплектация товара">
         {requiresPositionSkuMatrix ? (
           <p className={styles.variantNotice}>
             Нужен один брекет на замену? Он появится отдельным вариантом с
@@ -109,8 +104,8 @@ export default function VariantPicker({
             подтверждён только набор.
           </p>
         ) : null}
-        <div className={styles.selectedVariant}>
-          <span>Товар для заказа</span>
+        <div>
+          <span>Комплектация</span>
           <strong>{variantDisplayName(selected)}</strong>
           {selected.sku ? <small>Код производителя: {selected.sku}</small> : null}
         </div>

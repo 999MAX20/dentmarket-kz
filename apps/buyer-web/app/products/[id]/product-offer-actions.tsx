@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import {
   MarketplaceApiClient,
@@ -200,8 +201,15 @@ export default function ProductOfferActions({
         })()
       ) : (
         <div className={styles.noOffer}>
-          <strong>Пока нет предложений поставщиков</strong>
-          <span>Карточка готова, цена и наличие появятся после выгрузки поставщика.</span>
+          <span className={styles.noOfferLabel}>Цена и наличие</span>
+          <strong>Пока нет предложений</strong>
+          <span>Сообщим, когда этот товар появится у поставщиков.</span>
+          <Link
+            className={styles.notifyButton}
+            href={`/login?returnTo=${encodeURIComponent(`/products/${productId}`)}`}
+          >
+            Сообщить о появлении
+          </Link>
         </div>
       )}
       {offers.length ? (
