@@ -1912,8 +1912,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                           src={image}
                           alt={product.media?.[0]?.altText ?? presentation.title}
                           fallback={
-                            <span className={styles.photoPending}>
-                              Фото готовится
+                            <span
+                              className={styles.photoPending}
+                              aria-label="Изображение товара временно недоступно"
+                            >
+                              <Box24Regular aria-hidden="true" />
                             </span>
                           }
                         />
@@ -2007,8 +2010,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                           src={image}
                           alt={product.media?.[0]?.altText ?? presentation.title}
                           fallback={
-                            <span className={styles.photoPending}>
-                              Фото готовится
+                            <span
+                              className={styles.photoPending}
+                              aria-label="Изображение товара временно недоступно"
+                            >
+                              <Box24Regular aria-hidden="true" />
                             </span>
                           }
                         />
@@ -2579,10 +2585,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                         draggable={false}
                         onContextMenu={(event) => event.preventDefault()}
                         fallback={
-                          <span className={styles.photoPending}>
-                            Фото
-                            <br />
-                            добавляем
+                          <span
+                            className={styles.photoPending}
+                            aria-label="Изображение товара временно недоступно"
+                          >
+                            <Box24Regular aria-hidden="true" />
                           </span>
                         }
                       />
