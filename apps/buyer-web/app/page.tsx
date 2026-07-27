@@ -19,6 +19,8 @@ import {
   Box24Regular,
   Cart24Regular,
   CheckmarkCircle24Regular,
+  ChevronLeft24Regular,
+  ChevronRight24Regular,
   ClipboardTaskListLtr24Regular,
   Document24Regular,
   Dismiss24Regular,
@@ -62,6 +64,7 @@ import {
   useMemo,
   useRef,
   useState,
+  type MouseEvent,
 } from "react";
 import styles from "./page.module.css";
 import { BuyerServicesPanel } from "./buyer-services-panel";
@@ -822,6 +825,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   const [promotionProducts, setPromotionProducts] = useState<SearchProduct[]>([]);
   const [topProducts, setTopProducts] = useState<SearchProduct[]>([]);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const categoryRailRef = useRef<HTMLElement>(null);
+  const dealsRailRef = useRef<HTMLDivElement>(null);
+  const topRailRef = useRef<HTMLDivElement>(null);
   const catalogUrlAppliedRef = useRef(false);
   const returnScrollAppliedRef = useRef(false);
   const [comparison, setComparison] = useState<Comparison | null>(null);
@@ -995,7 +1001,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         seen.add(product.id);
         return true;
       })
-      .slice(0, 3);
+      .slice(0, 6);
   }, [promotedProducts, promotionProducts]);
   const activeFilterCount = [
     packagingFilter,
@@ -1024,7 +1030,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   }, [filtersOpen]);
 
   useEffect(() => {
-    if (!handoffChecked || handoff) return;
+    if (!handoffChecked) return;
     const params = new URLSearchParams({
       placement: "promotion",
       sort: "RELEVANCE",
@@ -1033,10 +1039,10 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     void fetchPublicCatalogSearch("", "RELEVANCE", params)
       .then((result) => setPromotionProducts(result?.items ?? []))
       .catch(() => setPromotionProducts([]));
-  }, [handoff, handoffChecked]);
+  }, [handoffChecked]);
 
   useEffect(() => {
-    if (!handoffChecked || handoff) return;
+    if (!handoffChecked) return;
     const params = new URLSearchParams({
       placement: "catalog",
       sort: "TOP",
@@ -1045,7 +1051,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     void fetchPublicCatalogSearch("", "TOP", params)
       .then((result) => setTopProducts(result?.items ?? []))
       .catch(() => setTopProducts([]));
-  }, [handoff, handoffChecked]);
+  }, [handoffChecked]);
 
   const buildSearchParams = useCallback(
     (nextQuery = query, nextSort = sort) => {
@@ -1811,57 +1817,383 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   ) =>
     `/products/${encodeURIComponent(product.id)}?returnTo=${encodeURIComponent(returnTo)}`;
 
+  const scrollRail = (
+    rail: HTMLElement | null,
+    direction: -1 | 1,
+  ) => {
+    if (!rail) return;
+    rail.scrollBy({
+      left:
+        direction *
+        Math.max(280, Math.min(Math.round(rail.clientWidth * 0.82), 760)),
+      behavior: "smooth",
+    });
+  };
+
   const renderCategoryRail = () => (
-    <nav
-      className={styles.categoryRail}
-      aria-label="Популярные категории"
-    >
-      {[
-        {
-          label: "Расходные материалы",
-          query: "расходные материалы",
-          icon: <ClipboardTaskListLtr24Regular />,
-        },
-        {
-          label: "Инструменты",
-          query: "инструменты",
-          icon: <List24Regular />,
-        },
-        {
-          label: "Оборудование",
-          query: "оборудование",
-          icon: <Grid24Regular />,
-        },
-        {
-          label: "Эндодонтия",
-          query: "эндодонтия",
-          icon: <Box24Regular />,
-        },
-        {
-          label: "Имплантология",
-          query: "импланты",
-          icon: <Cart24Regular />,
-        },
-        {
-          label: "Стерилизация",
-          query: "стерилизация",
-          icon: <Tag24Regular />,
-        },
-      ].map((item) => (
-        <a
-          key={item.label}
-          href={`/?q=${encodeURIComponent(item.query)}`}
-          onClick={(event) => {
-            event.preventDefault();
-            setQuery(item.query);
-            void submitSearchFor(item.query);
-          }}
+    <div className={styles.categoryRailShell}>
+      <button
+        className={styles.railArrow}
+        type="button"
+        aria-label="Предыдущие категории"
+        onClick={() => scrollRail(categoryRailRef.current, -1)}
+      >
+        <ChevronLeft24Regular aria-hidden="true" />
+      </button>
+      <nav
+        ref={categoryRailRef}
+        className={styles.categoryRail}
+        aria-label="Категории каталога"
+      >
+        {[
+          {
+            label: "Расходные материалы",
+            query: "расходные материалы",
+            icon: <ClipboardTaskListLtr24Regular />,
+          },
+          {
+            label: "Терапия и реставрация",
+            query: "терапия и реставрация",
+            icon: <CheckmarkCircle24Regular />,
+          },
+          {
+            label: "Эндодонтия",
+            query: "эндодонтия",
+            icon: <Box24Regular />,
+          },
+          {
+            label: "Ортопедия и протезирование",
+            query: "ортопедия и протезирование",
+            icon: <ShoppingBag24Regular />,
+          },
+          {
+            label: "Ортодонтия",
+            query: "ортодонтия",
+            icon: <Grid24Regular />,
+          },
+          {
+            label: "Хирургия",
+            query: "хирургия",
+            icon: <Alert24Regular />,
+          },
+          {
+            label: "Имплантология",
+            query: "импланты",
+            icon: <Cart24Regular />,
+          },
+          {
+            label: "Профилактика и гигиена",
+            query: "профилактика и гигиена",
+            icon: <Star16Filled />,
+          },
+          {
+            label: "Диагностика",
+            query: "диагностика",
+            icon: <Search24Regular />,
+          },
+          {
+            label: "Анестезия",
+            query: "анестезия",
+            icon: <Location24Regular />,
+          },
+          {
+            label: "Инструменты",
+            query: "инструменты",
+            icon: <List24Regular />,
+          },
+          {
+            label: "Оборудование",
+            query: "оборудование",
+            icon: <Grid24Regular />,
+          },
+          {
+            label: "Стерилизация и дезинфекция",
+            query: "стерилизация и дезинфекция",
+            icon: <Tag24Regular />,
+          },
+          {
+            label: "Зуботехническая лаборатория и CAD/CAM",
+            query: "зуботехническая лаборатория CAD CAM",
+            icon: <Bot24Regular />,
+          },
+        ].map((item) => (
+          <a
+            key={item.label}
+            href={`/?q=${encodeURIComponent(item.query)}`}
+            onClick={(event) => {
+              event.preventDefault();
+              setQuery(item.query);
+              void submitSearchFor(item.query);
+            }}
+          >
+            {item.icon}
+            <span>{item.label}</span>
+          </a>
+        ))}
+      </nav>
+      <button
+        className={styles.railArrow}
+        type="button"
+        aria-label="Следующие категории"
+        onClick={() => scrollRail(categoryRailRef.current, 1)}
+      >
+        <ChevronRight24Regular aria-hidden="true" />
+      </button>
+    </div>
+  );
+
+  const openCommercialProduct = (
+    event: MouseEvent<HTMLAnchorElement>,
+    product: SearchProduct,
+    returnTo: string,
+    isPublic: boolean,
+  ) => {
+    if (!isPublic) {
+      event.preventDefault();
+      openProduct(product);
+      return;
+    }
+    rememberCatalogPosition(returnTo);
+  };
+
+  const renderCommercialRails = (isPublic: boolean) => (
+    <>
+      {featuredDeals.length ? (
+        <section
+          className={styles.dealsSection}
+          aria-labelledby="deals-title"
         >
-          {item.icon}
-          <span>{item.label}</span>
-        </a>
-      ))}
-    </nav>
+          <div className={styles.dealsHeading}>
+            <div>
+              <h2 id="deals-title">Акции и выгодные предложения</h2>
+              <p>Комплекты брендов и скидки конкретных продавцов.</p>
+            </div>
+            <div className={styles.railControls} aria-label="Прокрутка акций">
+              <button
+                type="button"
+                aria-label="Предыдущие акции"
+                onClick={() => scrollRail(dealsRailRef.current, -1)}
+              >
+                <ChevronLeft24Regular aria-hidden="true" />
+              </button>
+              <button
+                type="button"
+                aria-label="Следующие акции"
+                onClick={() => scrollRail(dealsRailRef.current, 1)}
+              >
+                <ChevronRight24Regular aria-hidden="true" />
+              </button>
+            </div>
+          </div>
+          <div ref={dealsRailRef} className={styles.dealGrid}>
+            {featuredDeals.map((product, dealIndex) => {
+              const presentation = catalogPresentation(product);
+              const searchIndex =
+                search?.items.findIndex((item) => item.id === product.id) ?? -1;
+              const returnTo = catalogReturnTo(
+                product.id,
+                searchIndex >= 0 ? searchIndex : dealIndex,
+              );
+              const best = rankSearchOffers(product.offers).find(
+                (offer) => offer.priceMinor,
+              );
+              const isCampaign = product.placement === "promotion";
+              const promotion = bestPromotionPercent(product);
+              const priceDifference = priceDifferencePercent(product);
+              const image = mediaSource(product.media?.[0]);
+              return (
+                <article
+                  className={styles.dealCard}
+                  key={`deal:${product.id}`}
+                  data-product-id={product.id}
+                >
+                  <a
+                    href={
+                      isPublic
+                        ? productDetailHref(product, returnTo)
+                        : `#product-${encodeURIComponent(product.id)}`
+                    }
+                    onClick={(event) =>
+                      openCommercialProduct(
+                        event,
+                        product,
+                        returnTo,
+                        isPublic,
+                      )
+                    }
+                    aria-label={`Открыть ${presentation.title}`}
+                  >
+                    <SafeProductImage
+                      src={image}
+                      alt={product.media?.[0]?.altText ?? presentation.title}
+                      fallback={
+                        <span
+                          className={styles.photoPending}
+                          aria-label="Изображение товара временно недоступно"
+                        >
+                          <Box24Regular aria-hidden="true" />
+                        </span>
+                      }
+                    />
+                  </a>
+                  <div>
+                    <span className={styles.dealLabel}>
+                      {isCampaign
+                        ? "Акция бренда"
+                        : promotion
+                          ? "Акция продавца"
+                          : "Выгодная цена"}
+                    </span>
+                    <h3>{presentation.title}</h3>
+                    {presentation.originalName ? (
+                      <small className={styles.productOriginalName}>
+                        {presentation.originalName}
+                      </small>
+                    ) : null}
+                    <strong>
+                      {isCampaign
+                        ? "Специальный комплект"
+                        : best
+                          ? `от ${formatMoney(
+                              best.priceMinor,
+                              best.currency ?? "KZT",
+                            )}`
+                          : "Цена по запросу"}
+                    </strong>
+                    <small>
+                      {isCampaign
+                        ? (product.brand ?? "DentMarket")
+                        : `${product.offers.length} ${ruCount(
+                            product.offers.length,
+                            "продавец",
+                            "продавца",
+                            "продавцов",
+                          )}`}
+                    </small>
+                    {isCampaign ? (
+                      <p>Состав и условия в карточке</p>
+                    ) : promotion ? (
+                      <p>У одного продавца скидка {promotion}%</p>
+                    ) : priceDifference ? (
+                      <p>У одного продавца цена ниже на {priceDifference}%</p>
+                    ) : (
+                      <p>Сравните цены и условия доставки</p>
+                    )}
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+      ) : null}
+      {topProducts.length ? (
+        <section
+          className={styles.dealsSection}
+          aria-labelledby="top-products-title"
+        >
+          <div className={styles.dealsHeading}>
+            <div>
+              <h2 id="top-products-title">Товар дня и популярное сейчас</h2>
+              <p>
+                Подборка обновляется ежедневно. После подключения поставщиков
+                здесь появятся хиты и лучшая цена.
+              </p>
+            </div>
+            <div
+              className={styles.railControls}
+              aria-label="Прокрутка популярных товаров"
+            >
+              <button
+                type="button"
+                aria-label="Предыдущие популярные товары"
+                onClick={() => scrollRail(topRailRef.current, -1)}
+              >
+                <ChevronLeft24Regular aria-hidden="true" />
+              </button>
+              <button
+                type="button"
+                aria-label="Следующие популярные товары"
+                onClick={() => scrollRail(topRailRef.current, 1)}
+              >
+                <ChevronRight24Regular aria-hidden="true" />
+              </button>
+            </div>
+          </div>
+          <div ref={topRailRef} className={styles.dealGrid}>
+            {topProducts.slice(0, 6).map((product, topIndex) => {
+              const presentation = catalogPresentation(product);
+              const image = mediaSource(product.media?.[0]);
+              const searchIndex =
+                search?.items.findIndex((item) => item.id === product.id) ?? -1;
+              const returnTo = catalogReturnTo(
+                product.id,
+                searchIndex >= 0 ? searchIndex : topIndex,
+              );
+              return (
+                <article
+                  className={styles.dealCard}
+                  key={`top:${product.id}`}
+                  data-product-id={product.id}
+                >
+                  <a
+                    href={
+                      isPublic
+                        ? productDetailHref(product, returnTo)
+                        : `#product-${encodeURIComponent(product.id)}`
+                    }
+                    onClick={(event) =>
+                      openCommercialProduct(
+                        event,
+                        product,
+                        returnTo,
+                        isPublic,
+                      )
+                    }
+                    aria-label={`Открыть ${presentation.title}`}
+                  >
+                    <SafeProductImage
+                      src={image}
+                      alt={product.media?.[0]?.altText ?? presentation.title}
+                      fallback={
+                        <span
+                          className={styles.photoPending}
+                          aria-label="Изображение товара временно недоступно"
+                        >
+                          <Box24Regular aria-hidden="true" />
+                        </span>
+                      }
+                    />
+                  </a>
+                  <div>
+                    <span className={styles.dealLabel}>
+                      {topIndex === 0
+                        ? "Товар дня"
+                        : (product.badges?.[0] ?? "Популярное")}
+                    </span>
+                    <h3>{presentation.title}</h3>
+                    {presentation.originalName ? (
+                      <small className={styles.productOriginalName}>
+                        {presentation.originalName}
+                      </small>
+                    ) : null}
+                    <strong>
+                      {product.minNormalizedPriceMinor
+                        ? `от ${formatMoney(
+                            product.minNormalizedPriceMinor,
+                            "KZT",
+                          )}`
+                        : "Цена по запросу"}
+                    </strong>
+                    <small>{product.brand ?? product.manufacturer}</small>
+                    <p>Официальная карточка товара</p>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+      ) : null}
+    </>
   );
 
   const renderCatalog = (isPublic = false) => (
@@ -1879,8 +2211,27 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                   <h2 id="deals-title">Акции и выгодные предложения</h2>
                   <p>Комплекты брендов и скидки конкретных продавцов.</p>
                 </div>
+                <div
+                  className={styles.railControls}
+                  aria-label="Прокрутка акций"
+                >
+                  <button
+                    type="button"
+                    aria-label="Предыдущие акции"
+                    onClick={() => scrollRail(dealsRailRef.current, -1)}
+                  >
+                    <ChevronLeft24Regular aria-hidden="true" />
+                  </button>
+                  <button
+                    type="button"
+                    aria-label="Следующие акции"
+                    onClick={() => scrollRail(dealsRailRef.current, 1)}
+                  >
+                    <ChevronRight24Regular aria-hidden="true" />
+                  </button>
+                </div>
               </div>
-              <div className={styles.dealGrid}>
+              <div ref={dealsRailRef} className={styles.dealGrid}>
                 {featuredDeals.map((product, dealIndex) => {
                   const presentation = catalogPresentation(product);
                   const searchIndex =
@@ -1977,15 +2328,36 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
             >
               <div className={styles.dealsHeading}>
                 <div>
-                  <h2 id="top-products-title">Популярное сейчас</h2>
+                  <h2 id="top-products-title">
+                    Товар дня и популярное сейчас
+                  </h2>
                   <p>
-                    Пока нет статистики заказов — подборка обновляется ежедневно.
-                    После подключения поставщиков здесь появятся хиты и лучшая цена.
+                    Подборка обновляется ежедневно. После подключения поставщиков
+                    здесь появятся хиты и лучшая цена.
                   </p>
                 </div>
+                <div
+                  className={styles.railControls}
+                  aria-label="Прокрутка популярных товаров"
+                >
+                  <button
+                    type="button"
+                    aria-label="Предыдущие популярные товары"
+                    onClick={() => scrollRail(topRailRef.current, -1)}
+                  >
+                    <ChevronLeft24Regular aria-hidden="true" />
+                  </button>
+                  <button
+                    type="button"
+                    aria-label="Следующие популярные товары"
+                    onClick={() => scrollRail(topRailRef.current, 1)}
+                  >
+                    <ChevronRight24Regular aria-hidden="true" />
+                  </button>
+                </div>
               </div>
-              <div className={styles.dealGrid}>
-                {topProducts.slice(0, 3).map((product, topIndex) => {
+              <div ref={topRailRef} className={styles.dealGrid}>
+                {topProducts.slice(0, 6).map((product, topIndex) => {
                   const presentation = catalogPresentation(product);
                   const image = mediaSource(product.media?.[0]);
                   const searchIndex =
@@ -2021,7 +2393,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                       </a>
                       <div>
                         <span className={styles.dealLabel}>
-                          {product.badges?.[0] ?? "В подборке"}
+                          {topIndex === 0
+                            ? "Товар дня"
+                            : (product.badges?.[0] ?? "Популярное")}
                         </span>
                         <h3>{presentation.title}</h3>
                         {presentation.originalName ? (
@@ -2072,6 +2446,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
             </span>
           </div>
           {renderCategoryRail()}
+          {renderCommercialRails(false)}
         </>
       )}
       <Section>

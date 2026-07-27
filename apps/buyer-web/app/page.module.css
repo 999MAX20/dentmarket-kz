@@ -1258,20 +1258,32 @@
   font-size: 11px;
 }
 
-.categoryRail {
+.categoryRailShell {
   width: 100%;
+  min-width: 0;
+  max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(6, minmax(150px, 1fr));
-  overflow-x: auto;
-  padding: 0 clamp(18px, 4vw, 64px);
+  grid-template-columns: 48px minmax(0, 1fr) 48px;
+  align-items: stretch;
+  overflow: hidden;
   border-bottom: 1px solid #e1e7e3;
   background: #fff;
+}
+.categoryRail {
+  min-width: 0;
+  display: flex;
+  overflow-x: auto;
+  padding: 0;
+  background: #fff;
+  scroll-behavior: smooth;
+  scroll-snap-type: x proximity;
   scrollbar-width: none;
 }
 .categoryRail::-webkit-scrollbar { display: none; }
 .categoryRail button,
 .categoryRail a {
-  min-width: 150px;
+  flex: 0 0 auto;
+  min-width: 188px;
   min-height: 64px;
   display: inline-flex;
   align-items: center;
@@ -1286,6 +1298,7 @@
   font: inherit;
   font-size: 12px;
   font-weight: 650;
+  scroll-snap-align: start;
   white-space: nowrap;
   text-decoration: none;
 }
@@ -1296,10 +1309,36 @@
 .categoryRail button:active,
 .categoryRail a:active { transform: translateY(1px); }
 .categoryRail svg { width: 19px; color: #527568; }
+.railArrow,
+.railControls button {
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid #d7e1dc;
+  background: #fff;
+  color: #315f51;
+  cursor: pointer;
+}
+.railArrow {
+  min-width: 48px;
+  border-width: 0 1px;
+}
+.railArrow:last-child { border-right: 0; }
+.railArrow:hover,
+.railControls button:hover { background: #eef5f1; color: #183f34; }
+.railArrow:active,
+.railControls button:active { transform: translateY(1px); }
+.railArrow:focus-visible,
+.railControls button:focus-visible {
+  outline: 3px solid rgba(37, 120, 94, .25);
+  outline-offset: -3px;
+}
+.railArrow svg,
+.railControls svg { width: 20px; height: 20px; }
 
 .dealsSection {
-  width: min(1480px, calc(100% - 48px));
-  margin: 28px auto 10px;
+  width: auto;
+  min-width: 0;
+  margin: 28px 24px 10px;
 }
 .dealsHeading {
   display: flex;
@@ -1310,18 +1349,29 @@
 }
 .dealsHeading h2 { margin: 0; font-size: 22px; letter-spacing: -.035em; }
 .dealsHeading p { margin: 5px 0 0; color: #6d7773; font-size: 12px; }
-.dealsHeading > button {
-  padding: 7px 0;
-  border: 0;
-  background: transparent;
-  color: #234d41;
-  cursor: pointer;
-  font: inherit;
-  font-size: 12px;
-  font-weight: 750;
+.railControls {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 8px;
 }
-.dealGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.railControls button {
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border-radius: 999px;
+}
+.dealGrid {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 1px 1px 6px;
+  scroll-behavior: smooth;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+}
+.dealGrid::-webkit-scrollbar { display: none; }
 .dealCard {
+  flex: 0 0 clamp(330px, 32vw, 470px);
   min-width: 0;
   display: grid;
   grid-template-columns: 132px minmax(0, 1fr);
@@ -1330,6 +1380,7 @@
   border: 1px solid #dfe6e2;
   border-radius: 14px;
   background: #fff;
+  scroll-snap-align: start;
 }
 .dealCard > a {
   display: grid;
@@ -1787,12 +1838,11 @@
 
 @media (max-width: 1180px) {
   .publicMain .productList { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .dealGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .dealCard:last-child { display: none; }
+  .dealCard { flex-basis: 420px; }
 }
 
 @media (max-width: 820px) {
-  .dealsSection,
+  .dealsSection { width: auto; margin-inline: 14px; }
   .publicMain :global(.mp-section) { width: calc(100% - 28px); }
   .publicMain .productList { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .publicMain .product { min-height: 408px; }
@@ -1804,13 +1854,21 @@
 }
 
 @media (max-width: 620px) {
-  .categoryRail { padding-inline: 0; }
+  .categoryRailShell { grid-template-columns: 40px minmax(0, 1fr) 40px; }
+  .railArrow { min-width: 40px; }
+  .categoryRail a { min-width: 172px; min-height: 58px; }
   .dealsSection { margin-top: 20px; }
-  .dealsHeading { align-items: flex-start; }
+  .dealsHeading { align-items: center; }
   .dealsHeading h2 { font-size: 19px; }
   .dealsHeading p { max-width: 240px; line-height: 1.4; }
-  .dealGrid { grid-template-columns: 1fr; }
-  .dealCard:nth-child(n + 2) { display: none; }
+  .railControls { gap: 5px; }
+  .railControls button { width: 38px; height: 38px; }
+  .dealCard {
+    flex-basis: min(88vw, 360px);
+    grid-template-columns: 108px minmax(0, 1fr);
+  }
+  .dealCard > a { min-height: 116px; }
+  .dealCard img { height: 104px; }
   .catalogToolbar { align-items: stretch; flex-direction: column; padding: 16px; }
   .catalogToolbar h1 { font-size: 21px; }
   .catalogToolbarActions { display: grid; grid-template-columns: 1fr 1fr; }
