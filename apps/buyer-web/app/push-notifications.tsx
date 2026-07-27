@@ -1,4 +1,6 @@
 "use client";
+import { Button } from "@fluentui/react-components";
+import { Alert24Regular } from "@fluentui/react-icons";
 import { useState } from "react";
 
 function toBytes(value: string) { const padding = "=".repeat((4 - value.length % 4) % 4); return Uint8Array.from(atob((value + padding).replace(/-/g, "+").replace(/_/g, "/")), (c) => c.charCodeAt(0)); }
@@ -29,5 +31,21 @@ export function PushNotifications({ apiBase, organizationId, accessToken, actorI
       await subscription.unsubscribe(); setState("idle");
     } catch { setState("error"); }
   }
-  return state === "enabled" ? <button type="button" onClick={() => void disable()}>Отключить push</button> : <button type="button" onClick={() => void enable()}>{state === "error" ? "Не удалось включить push" : "Включить уведомления"}</button>;
+  return state === "enabled" ? (
+    <Button
+      appearance="subtle"
+      icon={<Alert24Regular />}
+      onClick={() => void disable()}
+    >
+      Уведомления включены
+    </Button>
+  ) : (
+    <Button
+      appearance="subtle"
+      icon={<Alert24Regular />}
+      onClick={() => void enable()}
+    >
+      {state === "error" ? "Повторить подключение" : "Уведомления"}
+    </Button>
+  );
 }

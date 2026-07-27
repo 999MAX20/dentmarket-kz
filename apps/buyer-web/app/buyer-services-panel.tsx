@@ -34,21 +34,45 @@ function ProcurementWorkspace({ api }: { api: MarketplaceApiClient }) {
   const [budget, setBudget] = useState({ name: "Расходные материалы", limit: "500000", costCenterId: "" });
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [unavailable, setUnavailable] = useState<string[]>([]);
   const load = useCallback(async () => {
     setError(null);
-    try {
-      const [nextDashboard, nextLists, nextCenters, nextBudgets] = await Promise.all([api.get<Dashboard>("/owner/buyer/dashboard"), api.get<SavedList[]>("/owner/saved-lists"), api.get<CostCenter[]>("/owner/cost-centers"), api.get<Budget[]>("/owner/budgets")]);
-      setDashboard(nextDashboard); setLists(nextLists); setCostCenters(nextCenters); setBudgets(nextBudgets);
-    } catch (cause) { setError(errorMessage(cause)); }
+    const results = await Promise.allSettled([
+      api.get<Dashboard>("/owner/buyer/dashboard"),
+      api.get<SavedList[]>("/owner/saved-lists"),
+      api.get<CostCenter[]>("/owner/cost-centers"),
+      api.get<Budget[]>("/owner/budgets"),
+    ] as const);
+    const labels = ["Сводка", "Списки", "Центры затрат", "Бюджеты"];
+    setUnavailable(
+      results.flatMap((result, index) =>
+        result.status === "rejected" ? [labels[index]!] : [],
+      ),
+    );
+    const [dashboardResult, listsResult, centersResult, budgetsResult] = results;
+    setDashboard(
+      dashboardResult.status === "fulfilled"
+        ? dashboardResult.value
+        : {
+            pendingOrders: 0,
+            savedLists: 0,
+            month: { orderCount: 0, spendMinor: "0", currency: "KZT" },
+            budgets: [],
+          },
+    );
+    if (listsResult.status === "fulfilled") setLists(listsResult.value);
+    if (centersResult.status === "fulfilled") setCostCenters(centersResult.value);
+    if (budgetsResult.status === "fulfilled") setBudgets(budgetsResult.value);
   }, [api]);
   useEffect(() => { void load(); }, [load]);
-  const createList = async () => { if (!listName.trim()) return; setBusy("list"); try { await api.post("/owner/saved-lists", { name: listName, isDefault: lists.length === 0 }); setListName(""); await load(); } catch (cause) { setError(errorMessage(cause)); } finally { setBusy(null); } };
-  const createCenter = async () => { if (!center.code.trim() || !center.name.trim()) return; setBusy("center"); try { await api.post("/owner/cost-centers", center); setCenter({ code: "", name: "" }); await load(); } catch (cause) { setError(errorMessage(cause)); } finally { setBusy(null); } };
-  const createBudget = async () => { setBusy("budget"); const start = new Date(); const end = new Date(start); end.setUTCMonth(end.getUTCMonth() + 1); try { await api.post("/owner/budgets", { name: budget.name, costCenterId: budget.costCenterId || null, periodStart: start.toISOString(), periodEnd: end.toISOString(), limitMinor: Math.round(Number(budget.limit) * 100), currency: "KZT" }); await load(); } catch (cause) { setError(errorMessage(cause)); } finally { setBusy(null); } };
+  const createList = async () => { if (!listName.trim()) return; setBusy("list"); try { await api.post("/owner/saved-lists", { name: listName, isDefault: lists.length === 0 }); setListName(""); await load(); } catch { setError("Не удалось создать список. Проверьте доступ и повторите попытку."); } finally { setBusy(null); } };
+  const createCenter = async () => { if (!center.code.trim() || !center.name.trim()) return; setBusy("center"); try { await api.post("/owner/cost-centers", center); setCenter({ code: "", name: "" }); await load(); } catch { setError("Не удалось добавить центр затрат. Повторите попытку позже."); } finally { setBusy(null); } };
+  const createBudget = async () => { setBusy("budget"); const start = new Date(); const end = new Date(start); end.setUTCMonth(end.getUTCMonth() + 1); try { await api.post("/owner/budgets", { name: budget.name, costCenterId: budget.costCenterId || null, periodStart: start.toISOString(), periodEnd: end.toISOString(), limitMinor: Math.round(Number(budget.limit) * 100), currency: "KZT" }); await load(); } catch { setError("Не удалось сохранить бюджет. Проверьте параметры и повторите попытку."); } finally { setBusy(null); } };
   if (!dashboard && !error) return <div className={styles.loading}><Spinner label="Загружаем рабочее пространство закупок" /></div>;
   if (error && !dashboard) return <ErrorState description={error} action={<Button onClick={() => void load()}>Повторить</Button>} />;
   return <div className={styles.stack}>
     <PageHeader eyebrow="Управление закупками" title="Списки и бюджеты" description="Повторяющиеся закупки, центры затрат и лимиты клиники собраны в одном рабочем пространстве." />
+    {unavailable.length ? <div className={styles.warning} role="status"><div><strong>Часть данных временно недоступна</strong><span>{unavailable.join(", ")}. Остальные инструменты продолжают работать.</span></div><Button appearance="subtle" onClick={() => void load()}>Обновить</Button></div> : null}
     {error ? <div className={styles.error}>{error}</div> : null}
     <div className={styles.metrics}><Metric label="Расходы за месяц" value={formatMoney(dashboard?.month.spendMinor ?? 0, "KZT")} detail={`${dashboard?.month.orderCount ?? 0} заказов`} /><Metric label="Активные заказы" value={String(dashboard?.pendingOrders ?? 0)} detail="В исполнении" /><Metric label="Сохранённые списки" value={String(lists.length)} detail="Для быстрого повтора" /></div>
     <div className={styles.columns}>

@@ -602,8 +602,19 @@ type CartItem = {
   totalPriceMinor: string;
   currency: string;
   offer?: {
+    minimumOrderQuantity?: string;
+    confirmationMode?: string;
     supplier?: { organization?: { displayName?: string } };
     productVariant?: { product?: { canonicalName?: string } };
+    inventoryBalances?: Array<{ quantityAvailable: string }>;
+    deliveryOptions?: Array<{
+      method: string;
+      fixedAmountMinor: string | null;
+      freeFromAmountMinor: string | null;
+      currency: string;
+      minLeadTimeHours: number;
+      maxLeadTimeHours: number | null;
+    }>;
   };
 };
 type Cart = {
@@ -633,6 +644,7 @@ function demoCartToCart(items: DemoCartItem[]): Cart | null {
       offer: {
         supplier: { organization: { displayName: item.supplierName } },
         productVariant: { product: { canonicalName: item.productName } },
+        minimumOrderQuantity: "1",
       },
     })),
   };
@@ -824,6 +836,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   );
   const [promotionProducts, setPromotionProducts] = useState<SearchProduct[]>([]);
   const [topProducts, setTopProducts] = useState<SearchProduct[]>([]);
+  const [commercialRail, setCommercialRail] = useState<"deals" | "top">(
+    "deals",
+  );
   const searchInputRef = useRef<HTMLInputElement>(null);
   const categoryRailRef = useRef<HTMLElement>(null);
   const dealsRailRef = useRef<HTMLDivElement>(null);
@@ -913,6 +928,54 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   const buyerOrders = orders.filter(
     (order) => order.buyerOrganizationId === buyerId,
   );
+  const activeOrderCount = buyerOrders.filter((order) =>
+    [
+      "AWAITING_CONFIRMATION",
+      "CONFIRMED",
+      "PARTIALLY_CONFIRMED",
+      "RESERVED",
+      "AWAITING_PAYMENT",
+      "PAID",
+      "ASSEMBLING",
+      "READY_TO_SHIP",
+      "SHIPPED",
+      "IN_TRANSIT",
+    ].includes(order.status),
+  ).length;
+  const documentsToReview = documents.filter((document) =>
+    ["PENDING", "AWAITING_SIGNATURE", "PARTIALLY_SIGNED"].includes(
+      document.status,
+    ),
+  ).length;
+  const cartSupplierGroups = useMemo(() => {
+    const groups = new Map<string, CartItem[]>();
+    for (const item of activeCart?.items ?? []) {
+      const supplier =
+        item.offer?.supplier?.organization?.displayName ?? "Поставщик";
+      groups.set(supplier, [...(groups.get(supplier) ?? []), item]);
+    }
+    return [...groups.entries()].map(([supplier, items]) => ({
+      supplier,
+      items,
+      subtotalMinor: items.reduce(
+        (sum, item) => sum + Number(item.totalPriceMinor),
+        0,
+      ),
+      currency: items[0]?.currency ?? activeCart?.currency ?? "KZT",
+      availabilityKnown: items.every(
+        (item) => item.offer?.inventoryBalances !== undefined,
+      ),
+      available: items.every((item) =>
+        item.offer?.inventoryBalances?.some(
+          (balance) =>
+            Number(balance.quantityAvailable) >= Number(item.quantity),
+        ),
+      ),
+      deliveryOptions: items.flatMap(
+        (item) => item.offer?.deliveryOptions ?? [],
+      ),
+    }));
+  }, [activeCart]);
   const unread = notifications.filter((item) => !item.readAt).length;
   const catalogBrands = useMemo(
     () =>
@@ -1958,9 +2021,40 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
 
   const renderCommercialRails = (isPublic: boolean) => (
     <>
-      {featuredDeals.length ? (
+      {!isPublic && (featuredDeals.length || topProducts.length) ? (
+        <div
+          className={styles.commercialRailTabs}
+          role="tablist"
+          aria-label="Подборки каталога"
+        >
+          {featuredDeals.length ? (
+            <button
+              type="button"
+              role="tab"
+              aria-selected={commercialRail === "deals" || !topProducts.length}
+              onClick={() => setCommercialRail("deals")}
+            >
+              Акции и лучшая цена
+            </button>
+          ) : null}
+          {topProducts.length ? (
+            <button
+              type="button"
+              role="tab"
+              aria-selected={commercialRail === "top" || !featuredDeals.length}
+              onClick={() => setCommercialRail("top")}
+            >
+              Товар дня и популярное
+            </button>
+          ) : null}
+        </div>
+      ) : null}
+      {featuredDeals.length &&
+      (isPublic || commercialRail === "deals" || !topProducts.length) ? (
         <section
-          className={styles.dealsSection}
+          className={`${styles.dealsSection} ${
+            !isPublic ? styles.dealsSectionCompact : ""
+          }`}
           aria-labelledby="deals-title"
         >
           <div className={styles.dealsHeading}>
@@ -2086,9 +2180,12 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
           </div>
         </section>
       ) : null}
-      {topProducts.length ? (
+      {topProducts.length &&
+      (isPublic || commercialRail === "top" || !featuredDeals.length) ? (
         <section
-          className={styles.dealsSection}
+          className={`${styles.dealsSection} ${
+            !isPublic ? styles.dealsSectionCompact : ""
+          }`}
           aria-labelledby="top-products-title"
         >
           <div className={styles.dealsHeading}>
@@ -2425,25 +2522,33 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       ) : (
         <>
           <PageHeader
-            eyebrow="B2B закупки"
-            title="Закупки для стоматологии без лишних звонков"
-            description="Сравнивайте цены, наличие и условия поставщиков Казахстана в одном каталоге."
+            eyebrow="Рабочий каталог"
+            title="Каталог клиники"
+            description="Найдите товар, сравните предложения и добавьте подходящий вариант в корзину."
           />
           <div
             className={styles.catalogProof}
-            aria-label="Преимущества каталога"
+            aria-label="Состояние закупок клиники"
           >
             <span>
-              <strong>3 400+</strong>
-              <small>товаров в каталоге</small>
+              <strong>
+                {new Intl.NumberFormat("ru-RU").format(
+                  search?.total ?? publicCatalogFallback.length,
+                )}
+              </strong>
+              <small>товаров доступно</small>
             </span>
             <span>
-              <strong>КЗ</strong>
-              <small>поставщики по Казахстану</small>
+              <strong>{activeCart?.items.length ?? 0}</strong>
+              <small>позиций в корзине</small>
             </span>
             <span>
-              <strong>24/7</strong>
-              <small>поиск по сленгу и брендам</small>
+              <strong>{activeOrderCount}</strong>
+              <small>активных заказов</small>
+            </span>
+            <span>
+              <strong>{documentsToReview}</strong>
+              <small>документов требуют внимания</small>
             </span>
           </div>
         </>
@@ -3730,89 +3835,179 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       ) : (
         <Section
           title={`${activeCart.items.length} позиций`}
-          description="Активная корзина"
+          description={`${cartSupplierGroups.length} ${ruCount(
+            cartSupplierGroups.length,
+            "поставщик",
+            "поставщика",
+            "поставщиков",
+          )}. При оформлении создастся отдельный заказ каждому продавцу.`}
         >
-          <div className="mp-table-wrap">
-            <table className="mp-table">
-              <thead>
-                <tr>
-                  <th>Товар</th>
-                  <th>Поставщик</th>
-                  <th>Количество</th>
-                  <th>Цена</th>
-                  <th>Сумма</th>
-                </tr>
-              </thead>
-              <tbody>
-                {activeCart.items.map((item) => (
-                  <tr key={item.id}>
-                    <td>
-                      <strong>
-                        {item.offer?.productVariant?.product?.canonicalName ??
-                          `Позиция ${item.offerId.slice(0, 8)}`}
-                      </strong>
-                      <small className="mp-mono">
-                        {item.offerId.slice(0, 12)}
-                      </small>
-                    </td>
-                    <td>
-                      {item.offer?.supplier?.organization?.displayName ??
-                        "Поставщик"}
-                    </td>
-                    <td>
-                      <div className={styles.quantityControl}>
-                        <Button
-                          appearance="subtle"
-                          size="small"
-                          onClick={() =>
-                            void updateCartItemQuantity(
-                              item.id,
-                              Math.max(1, Number(item.quantity) - 1),
-                            )
-                          }
-                          disabled={
-                            Number(item.quantity) <= 1 ||
-                            busy === `cart-item:${item.id}`
-                          }
-                          aria-label="Уменьшить количество"
-                        >
-                          −
-                        </Button>
-                        <strong>{item.quantity}</strong>
-                        <Button
-                          appearance="subtle"
-                          size="small"
-                          onClick={() =>
-                            void updateCartItemQuantity(
-                              item.id,
-                              Number(item.quantity) + 1,
-                            )
-                          }
-                          disabled={busy === `cart-item:${item.id}`}
-                          aria-label="Увеличить количество"
-                        >
-                          +
-                        </Button>
-                        <Button
-                          appearance="subtle"
-                          size="small"
-                          icon={<Dismiss24Regular />}
-                          onClick={() => void removeCartItem(item.id)}
-                          disabled={busy === `cart-item:${item.id}`}
-                          aria-label="Удалить позицию"
-                        />
-                      </div>
-                    </td>
-                    <td>{formatMoney(item.unitPriceMinor, item.currency)}</td>
-                    <td>
-                      <strong>
-                        {formatMoney(item.totalPriceMinor, item.currency)}
-                      </strong>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div className={styles.cartSupplierGroups}>
+            {cartSupplierGroups.map((group) => {
+              const delivery = [...group.deliveryOptions].sort(
+                (left, right) =>
+                  (left.maxLeadTimeHours ?? Number.MAX_SAFE_INTEGER) -
+                  (right.maxLeadTimeHours ?? Number.MAX_SAFE_INTEGER),
+              )[0];
+              const deliveryTime = delivery
+                ? delivery.maxLeadTimeHours
+                  ? `${Math.max(
+                      1,
+                      Math.ceil(delivery.minLeadTimeHours / 24),
+                    )}-${Math.max(
+                      1,
+                      Math.ceil(delivery.maxLeadTimeHours / 24),
+                    )} дн.`
+                  : "Срок уточняется"
+                : "Срок подтвердит поставщик";
+              const deliveryPrice = delivery?.fixedAmountMinor
+                ? formatMoney(
+                    delivery.fixedAmountMinor,
+                    delivery.currency,
+                  )
+                : delivery
+                  ? "Бесплатно или по условиям продавца"
+                  : "Рассчитается при подтверждении";
+              return (
+                <section
+                  className={styles.cartSupplierGroup}
+                  key={group.supplier}
+                  aria-label={`Заказ поставщику ${group.supplier}`}
+                >
+                  <header>
+                    <div>
+                      <small>Поставщик</small>
+                      <h3>{group.supplier}</h3>
+                    </div>
+                    <div className={styles.cartSupplierFacts}>
+                      <span>
+                        <small>Наличие</small>
+                        <strong>
+                          {group.availabilityKnown
+                            ? group.available
+                              ? "В наличии"
+                              : "Требует уточнения"
+                            : "Проверим при оформлении"}
+                        </strong>
+                      </span>
+                      <span>
+                        <small>Доставка</small>
+                        <strong>{deliveryTime}</strong>
+                        <em>{deliveryPrice}</em>
+                      </span>
+                      <span>
+                        <small>Минимальная сумма</small>
+                        <strong>Не установлена</strong>
+                      </span>
+                    </div>
+                  </header>
+                  <div className="mp-table-wrap">
+                    <table className="mp-table">
+                      <thead>
+                        <tr>
+                          <th>Товар</th>
+                          <th>Количество</th>
+                          <th>Цена</th>
+                          <th>Сумма</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {group.items.map((item) => (
+                          <tr key={item.id}>
+                            <td>
+                              <strong>
+                                {item.offer?.productVariant?.product
+                                  ?.canonicalName ?? "Товар из каталога"}
+                              </strong>
+                              {Number(
+                                item.offer?.minimumOrderQuantity ?? "1",
+                              ) > 1 ? (
+                                <small>
+                                  Минимум{" "}
+                                  {item.offer?.minimumOrderQuantity} ед.
+                                </small>
+                              ) : null}
+                            </td>
+                            <td>
+                              <div className={styles.quantityControl}>
+                                <Button
+                                  appearance="subtle"
+                                  size="small"
+                                  onClick={() =>
+                                    void updateCartItemQuantity(
+                                      item.id,
+                                      Math.max(
+                                        1,
+                                        Number(item.quantity) - 1,
+                                      ),
+                                    )
+                                  }
+                                  disabled={
+                                    Number(item.quantity) <= 1 ||
+                                    busy === `cart-item:${item.id}`
+                                  }
+                                  aria-label="Уменьшить количество"
+                                >
+                                  −
+                                </Button>
+                                <strong>{item.quantity}</strong>
+                                <Button
+                                  appearance="subtle"
+                                  size="small"
+                                  onClick={() =>
+                                    void updateCartItemQuantity(
+                                      item.id,
+                                      Number(item.quantity) + 1,
+                                    )
+                                  }
+                                  disabled={busy === `cart-item:${item.id}`}
+                                  aria-label="Увеличить количество"
+                                >
+                                  +
+                                </Button>
+                                <Button
+                                  appearance="subtle"
+                                  size="small"
+                                  icon={<Dismiss24Regular />}
+                                  onClick={() =>
+                                    void removeCartItem(item.id)
+                                  }
+                                  disabled={busy === `cart-item:${item.id}`}
+                                  aria-label="Удалить позицию"
+                                />
+                              </div>
+                            </td>
+                            <td>
+                              {formatMoney(
+                                item.unitPriceMinor,
+                                item.currency,
+                              )}
+                            </td>
+                            <td>
+                              <strong>
+                                {formatMoney(
+                                  item.totalPriceMinor,
+                                  item.currency,
+                                )}
+                              </strong>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                  <footer>
+                    <span>Итого у поставщика</span>
+                    <strong>
+                      {formatMoney(
+                        group.subtotalMinor,
+                        group.currency,
+                      )}
+                    </strong>
+                  </footer>
+                </section>
+              );
+            })}
           </div>
           <div className={styles.cartTotal}>
             <span>
@@ -3849,49 +4044,56 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         title="Заказы"
         description="После оформления корзина автоматически разделится на заказы поставщикам."
       />
-      <div className="mp-metrics">
-        <Metric
-          label="Всего заказов"
-          value={buyerOrders.length}
-          detail="По всем поставщикам"
-          icon={<ClipboardTaskListLtr24Regular />}
-        />
-        <Metric
-          label="Ждут подтверждения"
-          value={
-            buyerOrders.filter(
-              (order) => order.status === "AWAITING_CONFIRMATION",
-            ).length
-          }
-          detail="Резерв уже создан"
-          icon={<Box24Regular />}
-        />
-        <Metric
-          label="Подтверждены"
-          value={
-            buyerOrders.filter((order) => order.status === "CONFIRMED").length
-          }
-          detail="Готовы к отгрузке"
-          icon={<CheckmarkCircle24Regular />}
-        />
-        <Metric
-          label="Объём закупок"
-          value={formatMoney(
-            buyerOrders.reduce(
-              (sum, order) => sum + Number(order.subtotalAmountMinor),
-              0,
-            ),
-          )}
-          detail="Включая текущие заказы"
-          icon={<ShoppingBag24Regular />}
-        />
-      </div>
+      {buyerOrders.length ? (
+        <div className="mp-metrics">
+          <Metric
+            label="Всего заказов"
+            value={buyerOrders.length}
+            detail="По всем поставщикам"
+            icon={<ClipboardTaskListLtr24Regular />}
+          />
+          <Metric
+            label="Ждут подтверждения"
+            value={
+              buyerOrders.filter(
+                (order) => order.status === "AWAITING_CONFIRMATION",
+              ).length
+            }
+            detail="Резерв уже создан"
+            icon={<Box24Regular />}
+          />
+          <Metric
+            label="Подтверждены"
+            value={
+              buyerOrders.filter((order) => order.status === "CONFIRMED").length
+            }
+            detail="Готовы к отгрузке"
+            icon={<CheckmarkCircle24Regular />}
+          />
+          <Metric
+            label="Объём закупок"
+            value={formatMoney(
+              buyerOrders.reduce(
+                (sum, order) => sum + Number(order.subtotalAmountMinor),
+                0,
+              ),
+            )}
+            detail="Включая текущие заказы"
+            icon={<ShoppingBag24Regular />}
+          />
+        </div>
+      ) : null}
       <Section>
         {!buyerOrders.length ? (
           <EmptyState
             icon={<ClipboardTaskListLtr24Regular />}
             title="Заказов ещё нет"
-            description="Оформленные корзины появятся здесь."
+            description="Добавьте товары в корзину и оформите первый заказ. Мы автоматически разделим его по поставщикам."
+            action={
+              <Button appearance="primary" onClick={() => setActive("catalog")}>
+                Перейти в каталог
+              </Button>
+            }
           />
         ) : (
           <div className="mp-table-wrap">
@@ -3912,9 +4114,6 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                     <tr>
                       <td>
                         <strong>{order.orderNumber}</strong>
-                        <small className="mp-mono">
-                          {order.id.slice(0, 8)}
-                        </small>
                       </td>
                       <td>{order.supplier.displayName}</td>
                       <td>{order.items.length}</td>
@@ -4017,7 +4216,12 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
           <EmptyState
             icon={<Document24Regular />}
             title="Документов пока нет"
-            description="Документы появятся здесь после оформления заказа."
+            description="Счета, накладные и документы на подпись появятся после оформления заказа."
+            action={
+              <Button appearance="primary" onClick={() => setActive("orders")}>
+                Посмотреть заказы
+              </Button>
+            }
           />
         ) : (
           <div className={styles.documentList}>
@@ -4063,7 +4267,12 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
           <EmptyState
             icon={<Alert24Regular />}
             title="Нет новых событий"
-            description="Важные события по закупкам появятся здесь."
+            description="Здесь появятся изменения статусов заказов, доставки и документов."
+            action={
+              <Button appearance="primary" onClick={() => setActive("orders")}>
+                Перейти к заказам
+              </Button>
+            }
           />
         ) : (
           <div className={styles.notificationList}>

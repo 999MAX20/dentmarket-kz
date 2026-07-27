@@ -102,7 +102,45 @@ export class CommerceService {
 
   async carts(buyerOrganizationId: string, context: SupplierActorContext) {
     await this.assertBuyerAccess(buyerOrganizationId, context);
-    return this.prisma.cart.findMany({ where: { buyerOrganizationId }, include: { items: { include: { offer: { include: { supplier: { include: { organization: true } }, productVariant: { include: { product: true } } } } } }, checkout: true }, orderBy: { createdAt: "desc" } });
+    return this.prisma.cart.findMany({
+      where: { buyerOrganizationId },
+      include: {
+        items: {
+          include: {
+            offer: {
+              include: {
+                supplier: { include: { organization: true } },
+                productVariant: { include: { product: true } },
+                inventoryBalances: {
+                  where: {
+                    freshnessStatus: "FRESH",
+                    quantityAvailable: { gt: 0 },
+                  },
+                  select: { quantityAvailable: true },
+                },
+                deliveryOptions: {
+                  where: { status: "ACTIVE" },
+                  select: {
+                    method: true,
+                    fixedAmountMinor: true,
+                    freeFromAmountMinor: true,
+                    currency: true,
+                    minLeadTimeHours: true,
+                    maxLeadTimeHours: true,
+                  },
+                  orderBy: [
+                    { minLeadTimeHours: "asc" },
+                    { fixedAmountMinor: "asc" },
+                  ],
+                },
+              },
+            },
+          },
+        },
+        checkout: true,
+      },
+      orderBy: { createdAt: "desc" },
+    });
   }
 
   async createCart(buyerOrganizationId: string, input: CreateCartInput, context: SupplierActorContext) {
