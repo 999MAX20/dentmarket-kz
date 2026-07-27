@@ -85,6 +85,12 @@ import {
   rankCompareOffers,
   rankSearchOffers,
 } from "./catalog-ranking";
+import {
+  dentalSearchSuggestions,
+  expandDentalSearchQuery,
+  normalizeDentalSearchText,
+} from "./lib/dental-search";
+import { createProductPresentation } from "./lib/product-presentation";
 
 const BUYER_ID = "00000000-0000-4000-8000-000000000030";
 const BUYER_USER_ID = "00000000-0000-4000-8000-000000000500";
@@ -92,14 +98,6 @@ type SessionHandoff = SessionHandoffEnvelope;
 const SESSION_KEY = "dentmarket:buyer-session";
 const SEARCH_HISTORY_KEY = "dentmarket:search-history";
 const LOGIN_URL = loginUrl;
-const dentalSearchSuggestions = [
-  "светник",
-  "текучка",
-  "коффер",
-  "эндошка",
-  "гутта",
-  "карпулы",
-];
 const dentalSearchAliases: Record<string, string[]> = {
   светник: ["светильник", "лампа"],
   текучка: ["композит", "текучий"],
@@ -115,8 +113,7 @@ const dentalSearchAliases: Record<string, string[]> = {
   эндошка: ["эндодонтия", "эндодонтический", "эндомотор"],
 };
 const canonicalSearchQuery = (query: string) => {
-  const normalized = query.trim().toLocaleLowerCase("ru");
-  return dentalSearchAliases[normalized]?.[0] ?? query.trim();
+  return query.trim();
 };
 const ruCount = (count: number, one: string, few: string, many: string) => {
   const mod10 = count % 10;
@@ -178,6 +175,8 @@ type SearchMedia = {
     exactProductPhoto?: boolean;
     rightsStatus?: string;
     sourceImageUrl?: string | null;
+    visualCompliance?: "auto_corrected" | "source_verified";
+    overlayCleanup?: "top_strip" | "none";
   } | null;
 };
 type SearchProduct = {
@@ -199,6 +198,14 @@ type SearchProduct = {
   placement?: "catalog" | "promotion";
   attributes?: Array<string[]>;
   photoStatus?: string;
+  badges?: string[];
+  ranking?: {
+    source: "SUPPLIER_SIGNALS" | "DAILY_ROTATION";
+    score: number;
+    sellerCount: number;
+    orders30d: number;
+    unitsSold30d: number;
+  };
 };
 type SearchResult = {
   total: number;
@@ -230,22 +237,14 @@ const priceDifferencePercent = (product: SearchProduct) => {
   if (prices.length < 2 || prices[0] === prices.at(-1)) return 0;
   return Math.round((1 - prices[0] / prices.at(-1)!) * 100);
 };
-const cardSummary = (product: SearchProduct) => {
-  const description = String(product.description ?? "")
-    .replace(/\s+/gu, " ")
-    .trim();
-  if (!description) return product.categories[0]?.name ?? "";
-  const repeatedName = description
-    .toLocaleLowerCase("ru")
-    .startsWith(product.name.trim().toLocaleLowerCase("ru"));
-  const withoutRepeatedName = repeatedName
-    ? description.slice(product.name.trim().length).replace(/^[\s:—–-]+/u, "")
-    : description;
-  const sentence =
-    withoutRepeatedName.match(/^.{30,150}?(?:[.!?](?=\s|$)|$)/u)?.[0] ??
-    withoutRepeatedName;
-  return sentence.length > 135 ? `${sentence.slice(0, 132).trimEnd()}…` : sentence;
-};
+const catalogPresentation = (product: SearchProduct) =>
+  createProductPresentation({
+    name: product.name,
+    description: product.description,
+    category: product.categories[0]?.name,
+    brand: product.brand,
+    manufacturer: product.manufacturer,
+  });
 const demoCatalogFallback: SearchProduct[] = [
   {
     id: "00000000-0000-4000-8000-000000000100",
@@ -415,7 +414,9 @@ const generatedCatalogFallback: SearchProduct[] =
   }));
 const publicCatalogFallback = [
   ...generatedCatalogFallback,
-  ...demoCatalogFallback,
+  ...demoCatalogFallback.filter((product) =>
+    Boolean(mediaSource(product.media?.[0])),
+  ),
 ];
 const fallbackSearch = (
   query: string,
@@ -428,28 +429,31 @@ const fallbackSearch = (
   } = {},
   displayLimit = 60,
 ): SearchResult => {
-  const normalized = query.trim().toLocaleLowerCase("ru");
-  const searchTerms = [
-    normalized,
-    ...(dentalSearchAliases[normalized] ?? []),
-  ].filter(Boolean);
+  const searchIntent = expandDentalSearchQuery(query);
   const filtered = publicCatalogFallback.filter((product) => {
     const offer = product.offers[0];
-    const text = [
+    const text = normalizeDentalSearchText([
       product.name,
+      product.description,
       product.brand,
       product.manufacturer,
       product.categories[0]?.name,
+      ...(product.variants ?? []).flatMap((variant) => [
+        variant.label,
+        variant.sku,
+        ...Object.values(variant.attributes ?? {}),
+      ]),
       offer?.supplier.name,
       offer?.packaging.name,
       offer?.packaging.unit,
     ]
       .filter(Boolean)
-      .join(" ")
-      .toLocaleLowerCase("ru");
+      .join(" "));
     return (
-      (!searchTerms.length ||
-        searchTerms.some((term) => text.includes(term))) &&
+      (!searchIntent.concepts.length ||
+        searchIntent.concepts.every((concept) =>
+          concept.some((term) => text.includes(term)),
+        )) &&
       (!filters.unit || text.includes(filters.unit.toLocaleLowerCase("ru"))) &&
       (!filters.packaging ||
         text.includes(filters.packaging.toLocaleLowerCase("ru"))) &&
@@ -525,6 +529,24 @@ async function fetchPublicCatalogSearch(
   if (!Array.isArray(result.items) || typeof result.total !== "number")
     return null;
   return result as SearchResult;
+}
+
+async function recordPublicSearch(query: string, resultCount: number) {
+  if (!query.trim()) return;
+  try {
+    await fetch("/api/search-events", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        query: query.trim().slice(0, 240),
+        resultCount,
+        matchedAliases: expandDentalSearchQuery(query).matchedAliases,
+      }),
+      keepalive: true,
+    });
+  } catch {
+    // Аналитика не должна мешать врачу искать товар.
+  }
 }
 type CompareOffer = {
   offerId: string;
@@ -798,6 +820,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     ),
   );
   const [promotionProducts, setPromotionProducts] = useState<SearchProduct[]>([]);
+  const [topProducts, setTopProducts] = useState<SearchProduct[]>([]);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const catalogUrlAppliedRef = useRef(false);
   const returnScrollAppliedRef = useRef(false);
@@ -1012,6 +1035,18 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       .catch(() => setPromotionProducts([]));
   }, [handoff, handoffChecked]);
 
+  useEffect(() => {
+    if (!handoffChecked || handoff) return;
+    const params = new URLSearchParams({
+      placement: "catalog",
+      sort: "TOP",
+      limit: "6",
+    });
+    void fetchPublicCatalogSearch("", "TOP", params)
+      .then((result) => setTopProducts(result?.items ?? []))
+      .catch(() => setTopProducts([]));
+  }, [handoff, handoffChecked]);
+
   const buildSearchParams = useCallback(
     (nextQuery = query, nextSort = sort) => {
       const params = new URLSearchParams({
@@ -1041,7 +1076,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     async (nextQuery = query, nextSort = sort) => {
       if (!handoff) {
         const publicParams = new URLSearchParams({
-          q: canonicalSearchQuery(nextQuery),
+          q: nextQuery.trim(),
           sort: nextSort,
           limit: "60",
         });
@@ -1057,19 +1092,20 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
           );
           if (live) {
             setSearch(live);
+            void recordPublicSearch(nextQuery, live.total);
             return;
           }
         } catch {
           // The local catalog is the deliberate fail-safe for an unavailable API.
         }
-        setSearch(
-          fallbackSearch(nextQuery, nextSort, {
+        const fallback = fallbackSearch(nextQuery, nextSort, {
             unit: unitFilter,
             packaging: packagingFilter,
             delivery: deliveryFilter,
             stock: stockFilter,
-          }),
-        );
+          });
+        setSearch(fallback);
+        void recordPublicSearch(nextQuery, fallback.total);
         return;
       }
       const params = buildSearchParams(nextQuery, nextSort);
@@ -1219,21 +1255,75 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     catalogUrlAppliedRef.current = true;
     const params = new URLSearchParams(window.location.search);
     const urlQuery = params.get("q")?.trim() ?? "";
+    const urlSort = params.get("sort")?.trim() || "RELEVANCE";
     const parsedOffset = Number(params.get("offset") ?? "0");
     const offset =
       Number.isFinite(parsedOffset) && parsedOffset > 0 ? parsedOffset : 0;
-    if (!urlQuery && !offset) return;
+    const restoredFilters = {
+      unit: params.get("unit") ?? "",
+      packaging: params.get("packaging") ?? "",
+      delivery: params.get("delivery") ?? "",
+      stock: params.get("stock") === "true" ? "true" : "all",
+      brand: params.get("brand") ?? "",
+      category: params.get("category") ?? "",
+      minPrice: params.get("minPrice") ?? "",
+      maxPrice: params.get("maxPrice") ?? "",
+      verified: params.get("verified") === "true",
+      official: params.get("official") === "true",
+    };
+    const hasRestoredState =
+      Boolean(urlQuery || offset || params.get("sort")) ||
+      Object.values(restoredFilters).some(
+        (value) => value === true || (typeof value === "string" && value && value !== "all"),
+      );
+    if (!hasRestoredState) return;
     setQuery(urlQuery);
-    setSearch(
+    setSort(urlSort);
+    setUnitFilter(restoredFilters.unit);
+    setPackagingFilter(restoredFilters.packaging);
+    setDeliveryFilter(restoredFilters.delivery);
+    setStockFilter(restoredFilters.stock);
+    setBrandFilter(restoredFilters.brand);
+    setCategoryFilter(restoredFilters.category);
+    setMinPriceFilter(restoredFilters.minPrice);
+    setMaxPriceFilter(restoredFilters.maxPrice);
+    setVerifiedOnly(restoredFilters.verified);
+    setOfficialOnly(restoredFilters.official);
+
+    const displayLimit = Math.max(60, offset + 60);
+    const fallback = () =>
       fallbackSearch(
         urlQuery,
-        sort,
-        { stock: "all" },
-        Math.max(60, offset + 60),
-      ),
-    );
-    if (!offset) void loadSearch(urlQuery, sort);
-  }, [handoff, handoffChecked, loadSearch, sort]);
+        urlSort,
+        {
+          unit: restoredFilters.unit,
+          packaging: restoredFilters.packaging,
+          delivery: restoredFilters.delivery,
+          stock: restoredFilters.stock,
+        },
+        displayLimit,
+      );
+    setSearch(fallback());
+
+    const publicParams = new URLSearchParams({
+      q: urlQuery,
+      sort: urlSort,
+      offset: "0",
+      limit: String(displayLimit),
+    });
+    if (restoredFilters.unit) publicParams.set("unit", restoredFilters.unit);
+    if (restoredFilters.packaging)
+      publicParams.set("packaging", restoredFilters.packaging);
+    if (restoredFilters.delivery)
+      publicParams.set("deliveryMethod", restoredFilters.delivery);
+    if (restoredFilters.stock === "true")
+      publicParams.set("inStock", "true");
+    void fetchPublicCatalogSearch(urlQuery, urlSort, publicParams)
+      .then((result) => {
+        if (result) setSearch(result);
+      })
+      .catch(() => setSearch(fallback()));
+  }, [handoff, handoffChecked]);
 
   useEffect(() => {
     if (returnScrollAppliedRef.current || typeof window === "undefined" || !search)
@@ -1246,11 +1336,13 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     ).find((element) => element.dataset.productId === productId);
     if (!card) return;
     returnScrollAppliedRef.current = true;
-    requestAnimationFrame(() => card.scrollIntoView({ block: "center" }));
-    window.history.replaceState(
-      null,
-      "",
-      `${window.location.pathname}${window.location.search}`,
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() => {
+        card.scrollIntoView({ block: "center" });
+        card
+          .querySelector<HTMLElement>("a, button")
+          ?.focus({ preventScroll: true });
+      }),
     );
   }, [search]);
 
@@ -1684,60 +1776,99 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     }
   };
 
+  const catalogReturnTo = (productId: string, productIndex = 0) => {
+    const params = new URLSearchParams();
+    if (query.trim()) params.set("q", query.trim());
+    if (sort !== "RELEVANCE") params.set("sort", sort);
+    const offset = Math.max(0, Math.floor(Math.max(0, productIndex) / 60) * 60);
+    if (offset) params.set("offset", String(offset));
+    if (unitFilter) params.set("unit", unitFilter);
+    if (packagingFilter) params.set("packaging", packagingFilter);
+    if (deliveryFilter) params.set("delivery", deliveryFilter);
+    if (stockFilter === "true") params.set("stock", "true");
+    if (brandFilter) params.set("brand", brandFilter);
+    if (categoryFilter) params.set("category", categoryFilter);
+    if (minPriceFilter) params.set("minPrice", minPriceFilter);
+    if (maxPriceFilter) params.set("maxPrice", maxPriceFilter);
+    if (verifiedOnly) params.set("verified", "true");
+    if (officialOnly) params.set("official", "true");
+    const searchString = params.toString();
+    return `/${searchString ? `?${searchString}` : ""}#product-${encodeURIComponent(productId)}`;
+  };
+
+  const rememberCatalogPosition = (returnTo: string) => {
+    if (typeof window === "undefined") return;
+    window.history.replaceState(
+      { ...(window.history.state ?? {}), dentmarketCatalogReturn: true },
+      "",
+      returnTo,
+    );
+  };
+
+  const productDetailHref = (
+    product: SearchProduct,
+    returnTo: string,
+  ) =>
+    `/products/${encodeURIComponent(product.id)}?returnTo=${encodeURIComponent(returnTo)}`;
+
+  const renderCategoryRail = () => (
+    <nav
+      className={styles.categoryRail}
+      aria-label="Популярные категории"
+    >
+      {[
+        {
+          label: "Расходные материалы",
+          query: "расходные материалы",
+          icon: <ClipboardTaskListLtr24Regular />,
+        },
+        {
+          label: "Инструменты",
+          query: "инструменты",
+          icon: <List24Regular />,
+        },
+        {
+          label: "Оборудование",
+          query: "оборудование",
+          icon: <Grid24Regular />,
+        },
+        {
+          label: "Эндодонтия",
+          query: "эндодонтия",
+          icon: <Box24Regular />,
+        },
+        {
+          label: "Имплантология",
+          query: "импланты",
+          icon: <Cart24Regular />,
+        },
+        {
+          label: "Стерилизация",
+          query: "стерилизация",
+          icon: <Tag24Regular />,
+        },
+      ].map((item) => (
+        <a
+          key={item.label}
+          href={`/?q=${encodeURIComponent(item.query)}`}
+          onClick={(event) => {
+            event.preventDefault();
+            setQuery(item.query);
+            void submitSearchFor(item.query);
+          }}
+        >
+          {item.icon}
+          <span>{item.label}</span>
+        </a>
+      ))}
+    </nav>
+  );
+
   const renderCatalog = (isPublic = false) => (
     <div className="mp-stack">
       {isPublic ? (
         <>
-          <nav
-            className={styles.categoryRail}
-            aria-label="Популярные категории"
-          >
-            {[
-              {
-                label: "Расходные материалы",
-                query: "расходные материалы",
-                icon: <ClipboardTaskListLtr24Regular />,
-              },
-              {
-                label: "Инструменты",
-                query: "инструменты",
-                icon: <List24Regular />,
-              },
-              {
-                label: "Оборудование",
-                query: "оборудование",
-                icon: <Grid24Regular />,
-              },
-              {
-                label: "Эндодонтия",
-                query: "эндодонтия",
-                icon: <Box24Regular />,
-              },
-              {
-                label: "Имплантология",
-                query: "импланты",
-                icon: <Cart24Regular />,
-              },
-              {
-                label: "Стерилизация",
-                query: "стерилизация",
-                icon: <Tag24Regular />,
-              },
-            ].map((item) => (
-              <a
-                key={item.label}
-                href={`/?q=${encodeURIComponent(item.query)}`}
-                onClick={(event) => {
-                  event.preventDefault();
-                  setQuery(item.query);
-                  void submitSearchFor(item.query);
-                }}
-              >
-                {item.icon}
-                <span>{item.label}</span>
-              </a>
-            ))}
-          </nav>
+          {renderCategoryRail()}
           {featuredDeals.length ? (
             <section
               className={styles.dealsSection}
@@ -1750,7 +1881,15 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                 </div>
               </div>
               <div className={styles.dealGrid}>
-                {featuredDeals.map((product) => {
+                {featuredDeals.map((product, dealIndex) => {
+                  const presentation = catalogPresentation(product);
+                  const searchIndex =
+                    search?.items.findIndex((item) => item.id === product.id) ??
+                    -1;
+                  const returnTo = catalogReturnTo(
+                    product.id,
+                    searchIndex >= 0 ? searchIndex : dealIndex,
+                  );
                   const best = rankSearchOffers(product.offers).find(
                     (offer) => offer.priceMinor,
                   );
@@ -1762,14 +1901,16 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                     <article
                       className={styles.dealCard}
                       key={`deal:${product.id}`}
+                      data-product-id={product.id}
                     >
                       <a
-                        href={`/products/${encodeURIComponent(product.id)}`}
-                        aria-label={`Открыть ${product.name}`}
+                        href={productDetailHref(product, returnTo)}
+                        onClick={() => rememberCatalogPosition(returnTo)}
+                        aria-label={`Открыть ${presentation.title}`}
                       >
                         <SafeProductImage
                           src={image}
-                          alt={product.media?.[0]?.altText ?? product.name}
+                          alt={product.media?.[0]?.altText ?? presentation.title}
                           fallback={
                             <span className={styles.photoPending}>
                               Фото готовится
@@ -1785,7 +1926,12 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                               ? "Акция продавца"
                               : "Выгодная цена"}
                         </span>
-                        <h3>{product.name}</h3>
+                        <h3>{presentation.title}</h3>
+                        {presentation.originalName ? (
+                          <small className={styles.productOriginalName}>
+                            {presentation.originalName}
+                          </small>
+                        ) : null}
                         <strong>
                           {isCampaign
                             ? "Специальный комплект"
@@ -1821,6 +1967,79 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               </div>
             </section>
           ) : null}
+          {topProducts.length ? (
+            <section
+              className={styles.dealsSection}
+              aria-labelledby="top-products-title"
+            >
+              <div className={styles.dealsHeading}>
+                <div>
+                  <h2 id="top-products-title">Популярное сейчас</h2>
+                  <p>
+                    Пока нет статистики заказов — подборка обновляется ежедневно.
+                    После подключения поставщиков здесь появятся хиты и лучшая цена.
+                  </p>
+                </div>
+              </div>
+              <div className={styles.dealGrid}>
+                {topProducts.slice(0, 3).map((product, topIndex) => {
+                  const presentation = catalogPresentation(product);
+                  const image = mediaSource(product.media?.[0]);
+                  const searchIndex =
+                    search?.items.findIndex((item) => item.id === product.id) ??
+                    -1;
+                  const returnTo = catalogReturnTo(
+                    product.id,
+                    searchIndex >= 0 ? searchIndex : topIndex,
+                  );
+                  return (
+                    <article
+                      className={styles.dealCard}
+                      key={`top:${product.id}`}
+                      data-product-id={product.id}
+                    >
+                      <a
+                        href={productDetailHref(product, returnTo)}
+                        onClick={() => rememberCatalogPosition(returnTo)}
+                        aria-label={`Открыть ${presentation.title}`}
+                      >
+                        <SafeProductImage
+                          src={image}
+                          alt={product.media?.[0]?.altText ?? presentation.title}
+                          fallback={
+                            <span className={styles.photoPending}>
+                              Фото готовится
+                            </span>
+                          }
+                        />
+                      </a>
+                      <div>
+                        <span className={styles.dealLabel}>
+                          {product.badges?.[0] ?? "В подборке"}
+                        </span>
+                        <h3>{presentation.title}</h3>
+                        {presentation.originalName ? (
+                          <small className={styles.productOriginalName}>
+                            {presentation.originalName}
+                          </small>
+                        ) : null}
+                        <strong>
+                          {product.minNormalizedPriceMinor
+                            ? `от ${formatMoney(
+                                product.minNormalizedPriceMinor,
+                                "KZT",
+                              )}`
+                            : "Цена по запросу"}
+                        </strong>
+                        <small>{product.brand ?? product.manufacturer}</small>
+                        <p>Официальная карточка товара</p>
+                      </div>
+                    </article>
+                  );
+                })}
+              </div>
+            </section>
+          ) : null}
         </>
       ) : (
         <>
@@ -1846,6 +2065,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               <small>поиск по сленгу и брендам</small>
             </span>
           </div>
+          {renderCategoryRail()}
         </>
       )}
       <Section>
@@ -1931,6 +2151,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                   onChange={(_, data) => setSort(data.value)}
                 >
                   <option value="RELEVANCE">По релевантности</option>
+                  <option value="TOP">В топе</option>
+                  <option value="BEST_SELLER">Хиты продаж</option>
+                  <option value="BEST_PRICE">Лучшая цена</option>
                   <option value="PRICE_ASC">Сначала дешевле</option>
                   <option value="PRICE_DESC">Сначала дороже</option>
                   <option value="NAME_ASC">По названию</option>
@@ -2004,7 +2227,10 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                     void submitSearchFor(query, data.value)
                   }
                 >
-                  <option value="RELEVANCE">По популярности</option>
+                  <option value="TOP">По популярности</option>
+                  <option value="BEST_SELLER">Хиты продаж</option>
+                  <option value="BEST_PRICE">Лучшая цена</option>
+                  <option value="RELEVANCE">По совпадению</option>
                   <option value="PRICE_ASC">Сначала дешевле</option>
                   <option value="PRICE_DESC">Сначала дороже</option>
                   <option value="NAME_ASC">По названию</option>
@@ -2300,6 +2526,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         ) : (
           <div className={styles.productList}>
             {visibleProducts.map((product) => {
+              const presentation = catalogPresentation(product);
               const ranked = rankSearchOffers(product.offers);
               const best = ranked.find((offer) => offer.priceMinor);
               const eligibleOffers = ranked.filter(
@@ -2315,7 +2542,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               const productIndex = search?.items.findIndex(
                 (item) => item.id === product.id,
               ) ?? 0;
-              const returnTo = `/?q=${encodeURIComponent(query)}&offset=${Math.max(0, Math.floor(productIndex / 60) * 60)}#product-${encodeURIComponent(product.id)}`;
+              const returnTo = catalogReturnTo(product.id, productIndex);
+              const detailHref = productDetailHref(product, returnTo);
+              const productCategory = product.categories[0]?.name;
               return (
                 <article
                   className={styles.product}
@@ -2325,13 +2554,27 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                 >
                   <a
                     className={styles.productCardSurface}
-                    href={`/products/${encodeURIComponent(product.id)}?returnTo=${encodeURIComponent(returnTo)}`}
-                    aria-label={`Открыть карточку ${product.name}`}
+                    href={isPublic ? detailHref : `#product-${encodeURIComponent(product.id)}`}
+                    onClick={(event) => {
+                      if (!isPublic) {
+                        event.preventDefault();
+                        openProduct(product);
+                        return;
+                      }
+                      rememberCatalogPosition(returnTo);
+                    }}
+                    aria-label={`Открыть карточку ${presentation.title}`}
                   >
                     <div className={styles.productVisual}>
                       <SafeProductImage
                         src={productImage}
-                        alt={product.media?.[0]?.altText ?? product.name}
+                        alt={product.media?.[0]?.altText ?? presentation.title}
+                        className={
+                          product.media?.[0]?.metadata?.overlayCleanup ===
+                          "top_strip"
+                            ? styles.productImageTopStrip
+                            : undefined
+                        }
                         loading="lazy"
                         draggable={false}
                         onContextMenu={(event) => event.preventDefault()}
@@ -2345,17 +2588,51 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                       />
                     </div>
                     <div className={styles.productIdentity}>
-                      <span className={styles.category}>
-                        {isPublic
-                          ? (product.brand ??
-                            product.categories[0]?.name ??
-                            "DentMarket")
-                          : (product.categories[0]?.name ?? "Стоматология")}
+                      <span
+                        className={`${styles.category} ${productCategory ? styles.categoryLink : ""}`}
+                        role={productCategory ? "link" : undefined}
+                        tabIndex={productCategory ? 0 : undefined}
+                        onClick={
+                          productCategory
+                            ? (event) => {
+                                event.preventDefault();
+                                event.stopPropagation();
+                                setCategoryFilter(productCategory);
+                                setQuery(productCategory);
+                                void submitSearchFor(productCategory);
+                              }
+                            : undefined
+                        }
+                        onKeyDown={
+                          productCategory
+                            ? (event) => {
+                                if (event.key !== "Enter" && event.key !== " ")
+                                  return;
+                                event.preventDefault();
+                                event.stopPropagation();
+                                setCategoryFilter(productCategory);
+                                setQuery(productCategory);
+                                void submitSearchFor(productCategory);
+                              }
+                            : undefined
+                        }
+                        aria-label={
+                          productCategory
+                            ? `Показать группу «${productCategory}»`
+                            : undefined
+                        }
+                      >
+                        {productCategory ?? product.brand ?? "Стоматология"}
                       </span>
-                      <h3>{product.name}</h3>
-                      {isPublic && cardSummary(product) ? (
+                      <h3>{presentation.title}</h3>
+                      {presentation.originalName ? (
+                        <p className={styles.productOriginalName}>
+                          {presentation.originalName}
+                        </p>
+                      ) : null}
+                      {isPublic && presentation.summary ? (
                         <p className={styles.productSummary}>
-                          {cardSummary(product)}
+                          {presentation.summary}
                         </p>
                       ) : null}
                       {!isPublic ? (
@@ -2493,6 +2770,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                       appearance="secondary"
                       onClick={(event) => {
                         event.stopPropagation();
+                        if (isPublic) {
+                          rememberCatalogPosition(returnTo);
+                          window.location.assign(detailHref);
+                          return;
+                        }
                         openProduct(product);
                       }}
                       disabled={busy === `compare:${product.id}`}

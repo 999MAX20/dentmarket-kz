@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cache } from "react";
 import catalog from "../../data/public-catalog-fallback.json";
@@ -9,6 +8,7 @@ import ProductOfferActions from "./product-offer-actions";
 import VariantPicker from "./variant-picker";
 import SafeProductImage from "../../components/safe-product-image";
 import ProductDetailHeader from "./product-detail-header";
+import ProductBackLink from "./product-back-link";
 import {
   safeCatalogMediaSource,
   type CatalogMediaCandidate,
@@ -17,6 +17,7 @@ import {
   readPublishedCatalog,
   type PublishedCatalogProduct,
 } from "../../lib/published-catalog-server";
+import { createProductPresentation } from "../../lib/product-presentation";
 
 type CatalogProduct =
   | (typeof catalog.products)[number]
@@ -44,6 +45,20 @@ type ProductOffer = {
 type ProductMedia = CatalogMediaCandidate & { altText?: string };
 const mediaEntries = mediaCatalog.entries as Record<string, ProductMedia>;
 type DisplayProduct = CatalogProduct & { liveMedia?: ProductMedia };
+
+const detachedBrandOverlay = (imageUrl: string | null | undefined) => {
+  try {
+    return new Set([
+      "denti.kz",
+      "www.denti.kz",
+      "img.waimaoniu.net",
+      "dental-market.kz",
+      "www.dental-market.kz",
+    ]).has(new URL(String(imageUrl)).hostname.toLocaleLowerCase("en"));
+  } catch {
+    return false;
+  }
+};
 
 type PublicCompareResponse = {
   product: {
@@ -163,14 +178,6 @@ function formatPrice(
   }).format(Number(minor) / 100);
 }
 
-function shortDescription(value: string | null | undefined) {
-  const text = String(value ?? "").replace(/<[^>]+>/gu, " ").replace(/\s+/gu, " ").trim();
-  if (!text) return "Здесь собраны характеристики товара и предложения поставщиков.";
-  if (text.length <= 360) return text;
-  const clipped = text.slice(0, 357).replace(/\s+\S*$/u, "").trim();
-  return `${clipped}…`;
-}
-
 export async function generateMetadata({
   params,
 }: {
@@ -180,8 +187,20 @@ export async function generateMetadata({
   const product = await getProduct(decodeURIComponent(id));
   return product
     ? {
-        title: `${product.name} | DentMarket`,
-        description: product.description,
+        title: `${createProductPresentation({
+          name: product.name,
+          description: product.description,
+          category: product.category,
+          brand: product.brand,
+          manufacturer: product.manufacturer,
+        }).title} | DentMarket`,
+        description: createProductPresentation({
+          name: product.name,
+          description: product.description,
+          category: product.category,
+          brand: product.brand,
+          manufacturer: product.manufacturer,
+        }).summary,
       }
     : { title: "Карточка товара | DentMarket" };
 }
@@ -198,21 +217,32 @@ export default async function ProductPage({
     await searchParams;
   const product = await getProduct(decodeURIComponent(id));
   if (!product) notFound();
+  const presentation = createProductPresentation({
+    name: product.name,
+    description: product.description,
+    category: product.category,
+    brand: product.brand,
+    manufacturer: product.manufacturer,
+  });
 
   const media =
     product.liveMedia ??
-    (product.sourceUrl ? mediaEntries[product.sourceUrl] : undefined) ??
     ("imageUrl" in product && product.imageUrl
       ? {
-          sourceUrl: product.imageUrl,
+          sourceUrl: `/api/catalog-images/${encodeURIComponent(product.id)}?v=4`,
           securePath: null,
           altText: `${product.name} — фото товара`,
           metadata: {
             exactProductPhoto: true,
             sourceImageUrl: product.imageUrl,
+            visualCompliance: "auto_corrected",
+            overlayCleanup: detachedBrandOverlay(product.imageUrl)
+              ? "top_strip"
+              : "none",
           },
         }
-      : undefined);
+      : undefined) ??
+    (product.sourceUrl ? mediaEntries[product.sourceUrl] : undefined);
   const imageSource = safeCatalogMediaSource(media);
   const variants = ((product.variants ?? []) as ProductVariant[]).map(
     (variant) => ({
@@ -251,11 +281,9 @@ export default async function ProductPage({
 
   return (
     <main className={styles.page}>
-      <ProductDetailHeader />
+      <ProductDetailHeader catalogHref={returnTo} />
       <div className={styles.shell}>
-        <Link className={styles.back} href={returnTo}>
-          ← Вернуться в каталог
-        </Link>
+        <ProductBackLink href={returnTo} />
         <div className={styles.breadcrumbs}>
           Каталог / {product.category || "Стоматологические товары"}
         </div>
@@ -263,7 +291,12 @@ export default async function ProductPage({
           <div className={styles.visual}>
             <SafeProductImage
               src={imageSource}
-              alt={media?.altText ?? product.name}
+              alt={media?.altText ?? presentation.title}
+              className={
+                media?.metadata?.overlayCleanup === "top_strip"
+                  ? styles.productImageTopStrip
+                  : undefined
+              }
               loading="eager"
               fetchPriority="high"
               draggable={false}
@@ -278,9 +311,12 @@ export default async function ProductPage({
           </div>
           <div className={styles.summary}>
             <span className={styles.eyebrow}>
-              {product.category || "Стоматологические товары"}
+              {presentation.category}
             </span>
-            <h1>{product.name}</h1>
+            <h1>{presentation.title}</h1>
+            {presentation.originalName ? (
+              <p className={styles.originalName}>{presentation.originalName}</p>
+            ) : null}
             {product.brand ? (
               <p className={styles.brand}>
                 {product.brand}
@@ -288,7 +324,7 @@ export default async function ProductPage({
               </p>
             ) : null}
             <p className={styles.description}>
-              {shortDescription(product.description)}
+              {presentation.summary}
             </p>
             {selectedVariant ? (
               <VariantPicker

@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import { loginUrl } from "./public-links";
 import { CityLocation } from "./city-location";
 import styles from "./public-header.module.css";
+import { expandDentalSearchQuery } from "./lib/dental-search";
 
 type PublicSection = "catalog" | "suppliers" | "about";
 
@@ -56,13 +57,22 @@ export function PublicHeader({ active, query = "", searching = false, onQueryCha
   const [suggestionsOpen, setSuggestionsOpen] = useState(false);
   const searchRef = useRef<HTMLFormElement>(null);
   const normalizedQuery = query.trim().toLocaleLowerCase("ru");
+  const correctedQuery = expandDentalSearchQuery(query).normalizedQuery;
   const aliasMatches = Object.entries(searchAliases)
-    .filter(([alias]) => alias.includes(normalizedQuery) || normalizedQuery.includes(alias))
+    .filter(([alias]) => alias.includes(correctedQuery) || correctedQuery.includes(alias))
     .flatMap(([, values]) => values);
   const suggestions = normalizedQuery.length < 2
     ? recentSearches.slice(0, 4)
-    : [...new Set([...aliasMatches, ...searchSuggestions])]
-        .filter((suggestion) => suggestion.includes(normalizedQuery) && suggestion !== normalizedQuery)
+    : [...new Set([
+        ...(correctedQuery !== normalizedQuery ? [correctedQuery] : []),
+        ...aliasMatches,
+        ...searchSuggestions,
+      ])]
+        .filter(
+          (suggestion) =>
+            suggestion.includes(correctedQuery) &&
+            suggestion !== normalizedQuery,
+        )
         .slice(0, 6);
   useEffect(() => {
     if (!suggestionsOpen) return;
@@ -113,8 +123,11 @@ export function PublicHeader({ active, query = "", searching = false, onQueryCha
           <input
             type="search"
             name="q"
+            autoComplete="off"
+            autoCorrect="off"
+            autoCapitalize="none"
+            spellCheck={false}
             value={query}
-            list="dentmarket-search-suggestions"
             onFocus={() => setSuggestionsOpen(true)}
             onChange={(event) => onQueryChange?.(event.currentTarget.value)}
             onKeyDown={(event) => {
@@ -133,9 +146,6 @@ export function PublicHeader({ active, query = "", searching = false, onQueryCha
           <button type="submit" disabled={searching}>
             {searching ? "Ищем" : "Найти"}
           </button>
-          <datalist id="dentmarket-search-suggestions">
-            {[...new Set([...searchSuggestions, ...recentSearches])].map((suggestion) => <option key={suggestion} value={suggestion} />)}
-          </datalist>
           {suggestionsOpen && suggestions.length ? (
             <div className={styles.suggestions} role="listbox" aria-label="Подсказки поиска">
               {suggestions.map((suggestion) => (

@@ -6,7 +6,11 @@ import { useEffect, useState } from "react";
 import { readDemoCart, type DemoCartItem } from "../../demo-cart";
 import styles from "./page.module.css";
 
-export default function ProductDetailHeader() {
+export default function ProductDetailHeader({
+  catalogHref = "/",
+}: {
+  catalogHref?: string;
+}) {
   const [items, setItems] = useState<DemoCartItem[]>([]);
 
   useEffect(() => {
@@ -20,12 +24,12 @@ export default function ProductDetailHeader() {
 
   return (
     <header className={styles.productHeader}>
-      <Link className={styles.productBrand} href="/" aria-label="DentMarket, каталог">
+      <Link className={styles.productBrand} href={catalogHref} aria-label="DentMarket, каталог">
         <span className={styles.productMark}>DM</span>
         <span><strong>DentMarket</strong><small>Закупки для стоматологий</small></span>
       </Link>
       <nav className={styles.productNav} aria-label="Навигация товара">
-        <Link href="/">Каталог</Link>
+        <Link href={catalogHref}>Каталог</Link>
         <Link href="/suppliers">Поставщикам</Link>
       </nav>
       <Link className={styles.productCart} href="/?cart=1">

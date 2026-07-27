@@ -75,6 +75,20 @@ export class SearchProjectionService implements OnModuleInit {
       } },
     } });
     if (!product) return null;
+    const variantIds = product.variants.map(({ id }) => id);
+    const sales30d = variantIds.length
+      ? await this.prisma.supplierOrderItem.aggregate({
+          where: {
+            productVariantId: { in: variantIds },
+            status: "CONFIRMED",
+            createdAt: {
+              gte: new Date(now.getTime() - 30 * 24 * 60 * 60 * 1_000),
+            },
+          },
+          _count: { _all: true },
+          _sum: { acceptedQuantity: true },
+        })
+      : null;
     const offers = product.variants.flatMap(({ supplierOffers }) => supplierOffers);
     const prices = offers.flatMap((offer) => offer.prices.map((price) => ({ amount: new Prisma.Decimal(price.amountMinor), normalized: new Prisma.Decimal(price.amountMinor).div(offer.packaging?.quantityInBaseUnit ?? offer.baseUnitsPerSaleUnit) })));
     const balances = offers.flatMap(({ inventoryBalances }) => inventoryBalances);
@@ -84,6 +98,7 @@ export class SearchProjectionService implements OnModuleInit {
     ]);
     const texts = [
       product.canonicalName,
+      product.description,
       product.brand?.name,
       product.manufacturer?.name,
       product.manufacturerSku,
@@ -102,6 +117,32 @@ export class SearchProjectionService implements OnModuleInit {
     const cityIds = [...new Set(balances.map(({ warehouse }) => warehouse.cityId).filter((id): id is string => Boolean(id)))];
     const deliveryMethods = [...new Set(offers.flatMap(({ deliveryOptions }) => deliveryOptions.map(({ method }) => method)))];
     const isAvailable = balances.some((balance) => balance.freshnessStatus === "FRESH" && Number(balance.quantityAvailable) > 0 && (!balance.freshnessExpiresAt || balance.freshnessExpiresAt >= now));
+    const sellerCount = new Set(
+      offers.map(({ supplierOrganizationId }) => supplierOrganizationId),
+    ).size;
+    const availableOfferCount = offers.filter((offer) =>
+      offer.inventoryBalances.some(
+        (balance) =>
+          balance.freshnessStatus === "FRESH" &&
+          Number(balance.quantityAvailable) > 0,
+      ),
+    ).length;
+    const orders30d = sales30d?._count._all ?? 0;
+    const unitsSold30d = Number(sales30d?._sum.acceptedQuantity ?? 0);
+    const ranking = {
+      source: "SUPPLIER_SIGNALS",
+      sellerCount,
+      availableOfferCount,
+      orders30d,
+      unitsSold30d,
+      score: Math.round(
+        Math.log1p(unitsSold30d) * 30 +
+          orders30d * 10 +
+          availableOfferCount * 8 +
+          sellerCount * 4,
+      ),
+      calculatedAt: now.toISOString(),
+    };
     const minPrice = prices.length ? prices.reduce((min, price) => price.amount.lt(min) ? price.amount : min, prices[0]!.amount) : null;
     const maxPrice = prices.length ? prices.reduce((max, price) => price.amount.gt(max) ? price.amount : max, prices[0]!.amount) : null;
     const minNormalized = prices.length ? prices.reduce((min, price) => price.normalized.lt(min) ? price.normalized : min, prices[0]!.normalized) : null;
@@ -110,7 +151,7 @@ export class SearchProjectionService implements OnModuleInit {
     return this.prisma.productSearchDocument.upsert({ where: { productId }, update: {
       searchableText,
       normalizedText: normalizeCatalogText(searchableText),
-      facets: { attributes, categoryIds, industryIds, supplierIds, warehouseIds, cityIds, deliveryMethods, productType: product.productType, regulatoryClass: product.regulatoryClass },
+      facets: { attributes, categoryIds, industryIds, supplierIds, warehouseIds, cityIds, deliveryMethods, productType: product.productType, regulatoryClass: product.regulatoryClass, ranking },
       minPrice: minPrice?.div(100),
       maxPrice: maxPrice?.div(100),
       minPriceMinor: minPrice,
@@ -129,7 +170,7 @@ export class SearchProjectionService implements OnModuleInit {
       productId,
       searchableText,
       normalizedText: normalizeCatalogText(searchableText),
-      facets: { attributes, categoryIds, industryIds, supplierIds, warehouseIds, cityIds, deliveryMethods, productType: product.productType, regulatoryClass: product.regulatoryClass },
+      facets: { attributes, categoryIds, industryIds, supplierIds, warehouseIds, cityIds, deliveryMethods, productType: product.productType, regulatoryClass: product.regulatoryClass, ranking },
       minPrice: minPrice?.div(100),
       maxPrice: maxPrice?.div(100),
       minPriceMinor: minPrice,

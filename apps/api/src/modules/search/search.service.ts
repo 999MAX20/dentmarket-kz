@@ -183,6 +183,9 @@ export class SearchService {
     const sort = (
       {
         RELEVANCE: Prisma.sql`rank DESC, d."isAvailable" DESC, d."updatedAt" DESC`,
+        TOP: Prisma.sql`COALESCE((d.facets #>> '{ranking,score}')::numeric, 0) DESC, md5(d."productId"::text || CURRENT_DATE::text) DESC`,
+        BEST_SELLER: Prisma.sql`COALESCE((d.facets #>> '{ranking,unitsSold30d}')::numeric, 0) DESC, COALESCE((d.facets #>> '{ranking,orders30d}')::numeric, 0) DESC, d."isAvailable" DESC`,
+        BEST_PRICE: Prisma.sql`d."isAvailable" DESC, d."minNormalizedPriceMinor" ASC NULLS LAST`,
         PRICE_ASC: Prisma.sql`d."minNormalizedPriceMinor" ASC NULLS LAST, d."isAvailable" DESC`,
         PRICE_DESC: Prisma.sql`d."minNormalizedPriceMinor" DESC NULLS LAST, d."isAvailable" DESC`,
         NAME_ASC: Prisma.sql`p."canonicalName" ASC`,
@@ -757,6 +760,33 @@ export class SearchService {
           };
         }),
     );
+    const facets =
+      product.searchDocument?.facets &&
+      typeof product.searchDocument.facets === "object" &&
+      !Array.isArray(product.searchDocument.facets)
+        ? (product.searchDocument.facets as Record<string, unknown>)
+        : {};
+    const rawRanking =
+      facets.ranking &&
+      typeof facets.ranking === "object" &&
+      !Array.isArray(facets.ranking)
+        ? (facets.ranking as Record<string, unknown>)
+        : {};
+    const ranking = {
+      source: "SUPPLIER_SIGNALS",
+      score: Number(rawRanking.score ?? 0),
+      sellerCount: Number(rawRanking.sellerCount ?? offers.length),
+      orders30d: Number(rawRanking.orders30d ?? 0),
+      unitsSold30d: Number(rawRanking.unitsSold30d ?? 0),
+    };
+    const badges = [
+      ...(offers.some(({ promotion }) => Boolean(promotion)) ? ["Акция"] : []),
+      ...(ranking.unitsSold30d > 0 ? ["Хит продаж"] : []),
+      ...(input.sort === "BEST_PRICE" && offers.length ? ["Лучшая цена"] : []),
+      ...(ranking.score > 0 && ranking.unitsSold30d === 0
+        ? ["Популярное"]
+        : []),
+    ];
     return {
       id: product.id,
       slug: product.slug,
@@ -793,6 +823,8 @@ export class SearchService {
         reviewSummaries,
       ),
       rank,
+      ranking,
+      badges,
       variants: product.variants.map(publicVariant),
       offers,
     };

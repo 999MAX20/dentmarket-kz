@@ -1,5 +1,5 @@
-import { BadRequestException, Controller, Get, Headers, Param, Post, Query, UseGuards } from "@nestjs/common";
-import { compareOffersSchema, searchCatalogSchema } from "@marketplace/schemas";
+import { BadRequestException, Body, Controller, Get, Headers, Param, Post, Query, UseGuards } from "@nestjs/common";
+import { compareOffersSchema, recordSearchEventSchema, searchCatalogSchema } from "@marketplace/schemas";
 import { ApiTags } from "@nestjs/swagger";
 import { PermissionsGuard } from "../access-control/permissions.guard";
 import { RequirePermissions } from "../access-control/require-permissions.decorator";
@@ -41,7 +41,7 @@ export class SearchController {
 @ApiTags("public-catalog")
 @Controller("catalog")
 export class PublicCatalogController {
-  constructor(private readonly searchService: SearchService) {}
+  constructor(private readonly searchService: SearchService, private readonly analytics: SearchAnalyticsService) {}
   @Get("cities")
   cities() { return this.searchService.publicCities(); }
   private input(query: Record<string, unknown>) { const organizationId = environment().PUBLIC_CATALOG_ORGANIZATION_ID; return { query: { ...query, buyerOrganizationId: organizationId }, context: { actorId: "public-catalog", organizationId } }; }
@@ -50,6 +50,17 @@ export class PublicCatalogController {
   search(@Query() query: Record<string, unknown>) {
     const input = this.input(query); const parsed = searchCatalogSchema.safeParse(input.query); if (!parsed.success) throw new BadRequestException(parsed.error.flatten());
     return this.searchService.search(parsed.data, input.context);
+  }
+
+  @Post("search/events")
+  recordSearch(@Body() body: Record<string, unknown>) {
+    const parsed = recordSearchEventSchema.safeParse(body);
+    if (!parsed.success) throw new BadRequestException(parsed.error.flatten());
+    this.analytics.record(parsed.data.query, parsed.data.resultCount, {
+      actorId: "public-catalog",
+      organizationId: environment().PUBLIC_CATALOG_ORGANIZATION_ID,
+    });
+    return { accepted: true };
   }
 
   @Get("products/:productId/compare")

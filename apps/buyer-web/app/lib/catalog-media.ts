@@ -4,6 +4,8 @@ export type CatalogMediaCandidate = {
   metadata?: {
     exactProductPhoto?: boolean;
     sourceImageUrl?: string | null;
+    visualCompliance?: "auto_corrected" | "source_verified";
+    overlayCleanup?: "top_strip" | "none";
   } | null;
 };
 
@@ -23,6 +25,9 @@ export function safeCatalogMediaSource(
   if (!provenance || rejectedProductAsset(provenance)) return null;
   if (media.securePath?.startsWith("/catalog/")) return media.securePath;
   if (media.securePath) return `${apiUrl}${media.securePath}`;
+  if (media.sourceUrl?.startsWith("/api/catalog-images/")) {
+    return media.sourceUrl;
+  }
   if (/^https?:\/\//i.test(media.sourceUrl ?? "")) return media.sourceUrl!;
   return null;
 }
