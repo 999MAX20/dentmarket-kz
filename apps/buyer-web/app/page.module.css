@@ -1269,6 +1269,18 @@
   border-bottom: 1px solid #e1e7e3;
   background: #fff;
 }
+.catalogDiscovery {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  contain: inline-size;
+  border-top: 1px solid var(--colorNeutralStroke3);
+  background: var(--colorNeutralBackground1);
+}
+.catalogDiscovery .dealsSection:last-child {
+  margin-bottom: 28px;
+}
 .categoryRail {
   min-width: 0;
   display: flex;
@@ -1538,7 +1550,11 @@
   clip-path: inset(12% 0 0);
   transform: translateY(-6%) scale(1.08);
 }
-.publicMain .productIdentity { min-width: 0; gap: 6px; }
+.publicMain .productIdentity {
+  min-width: 0;
+  max-width: 100%;
+  gap: 6px;
+}
 .publicMain .productIdentity h3 {
   min-height: 44px;
   font-size: 15px;
@@ -1556,6 +1572,9 @@
   -webkit-line-clamp: 2;
 }
 .publicMain .category {
+  display: block;
+  width: 100%;
+  max-width: 100%;
   overflow: hidden;
   color: #527568;
   font-size: 9px;

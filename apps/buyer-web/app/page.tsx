@@ -2198,7 +2198,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
 
   const renderCatalog = (isPublic = false) => (
     <div className="mp-stack">
-      {isPublic ? (
+      {isPublic ? (false ? (
         <>
           {renderCategoryRail()}
           {featuredDeals.length ? (
@@ -2421,6 +2421,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
             </section>
           ) : null}
         </>
+      ) : null
       ) : (
         <>
           <PageHeader
@@ -2445,8 +2446,6 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               <small>поиск по сленгу и брендам</small>
             </span>
           </div>
-          {renderCategoryRail()}
-          {renderCommercialRails(false)}
         </>
       )}
       <Section>
@@ -2857,6 +2856,10 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
             </div>
           </details>
         ) : null}
+        <div className={styles.catalogDiscovery}>
+          {renderCategoryRail()}
+          {renderCommercialRails(isPublic)}
+        </div>
         {!isPublic ? (
           <div className={styles.resultsMeta}>
             <span>
