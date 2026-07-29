@@ -702,6 +702,26 @@ type NotificationRecord = {
   readAt: string | null;
   createdAt: string;
 };
+type PaymentIntentRecord = {
+  id: string;
+  paymentMethod: string;
+  status: string;
+  totalAmountMinor: string;
+  currency: string;
+  createdAt: string;
+  allocations: Array<{
+    id: string;
+    grossAmountMinor: string;
+    status: string;
+    supplierOrder?: { orderNumber: string } | null;
+    recipient?: { displayName: string } | null;
+  }>;
+  sessions: Array<{
+    status: string;
+    responsePayload?: unknown;
+    createdAt: string;
+  }>;
+};
 
 const navigation: NavigationItem[] = [
   { id: "catalog", label: "Каталог", icon: <Grid24Regular /> },
@@ -859,6 +879,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   const [carts, setCarts] = useState<Cart[]>([]);
   const [orders, setOrders] = useState<SupplierOrder[]>([]);
   const [documents, setDocuments] = useState<DocumentRecord[]>([]);
+  const [paymentIntents, setPaymentIntents] = useState<PaymentIntentRecord[]>([]);
   const [notifications, setNotifications] = useState<NotificationRecord[]>([]);
   const [loading, setLoading] = useState(false);
   const [busy, setBusy] = useState<string | null>(null);
@@ -1243,6 +1264,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         setCarts(demoCartToCart(readDemoCart()) ? [demoCartToCart(readDemoCart())!] : []);
         setOrders([]);
         setDocuments([]);
+        setPaymentIntents([]);
         setNotifications([]);
         return;
       }
@@ -1251,6 +1273,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         cartResult,
         orderResult,
         documentResult,
+        paymentIntentResult,
         notificationResult,
       ] = await Promise.all([
         api.get<SearchResult>(`/marketplace/search?${buildSearchParams()}`),
@@ -1258,6 +1281,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         api.get<SupplierOrder[]>(`/buyers/${buyerId}/orders`),
         api.get<DocumentRecord[]>(
           `/documents?ownerOrganizationId=${buyerId}&limit=100`,
+        ),
+        api.get<PaymentIntentRecord[]>(
+          `/buyers/${buyerId}/payment-intents`,
         ),
         api.get<NotificationRecord[]>(
           `/notifications/organizations/${buyerId}?limit=100`,
@@ -1277,6 +1303,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       );
       setOrders(orderResult);
       setDocuments(documentResult);
+      setPaymentIntents(paymentIntentResult);
       setNotifications(notificationResult);
     } catch (cause) {
       if (handoff)
@@ -4211,12 +4238,50 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         title="Документы"
         description="Счета, спецификации, накладные и подписанные версии хранятся вместе с заказом."
       />
+      {paymentIntents.length ? (
+        <Section>
+          <div className={styles.invoiceHeader}>
+            <div>
+              <strong>Счета к оплате</strong>
+              <p>Один checkout разделён на отдельные счета поставщиков.</p>
+            </div>
+            <Button appearance="secondary" onClick={() => window.print()}>
+              Печать / PDF
+            </Button>
+          </div>
+          <div className={styles.invoiceList}>
+            {paymentIntents.flatMap((intent) =>
+              intent.allocations.map((allocation) => (
+                <article className={styles.invoiceCard} key={allocation.id}>
+                  <div>
+                    <strong>
+                      Счёт поставщика · {allocation.recipient?.displayName ?? "Поставщик"}
+                    </strong>
+                    <p>
+                      {allocation.supplierOrder?.orderNumber ?? "Заказ"} · {intent.paymentMethod === "INVOICE" ? "Оплата по счёту" : intent.paymentMethod} · {formatDate(intent.createdAt, true)}
+                    </p>
+                  </div>
+                  <div className={styles.invoiceAmount}>
+                    <strong>{formatMoney(allocation.grossAmountMinor, intent.currency)}</strong>
+                    <StatusTag tone={statusTone(intent.status)}>
+                      {formatStatus(intent.status)}
+                    </StatusTag>
+                  </div>
+                </article>
+              )),
+            )}
+          </div>
+          <p className={styles.invoiceHint}>
+            Для банковского перевода реквизиты берутся из профиля поставщика. После оплаты платёж сверяется по назначению и сумме, а статус заказа обновляется отдельно по каждой поставке.
+          </p>
+        </Section>
+      ) : null}
       <Section>
         {!documents.length ? (
           <EmptyState
             icon={<Document24Regular />}
-            title="Документов пока нет"
-            description="Счета, накладные и документы на подпись появятся после оформления заказа."
+            title={paymentIntents.length ? "Подписанных документов пока нет" : "Документов пока нет"}
+            description={paymentIntents.length ? "Счета уже доступны выше. Накладные и подписанные документы появятся по мере исполнения заказа." : "Счета, накладные и документы на подпись появятся после оформления заказа."}
             action={
               <Button appearance="primary" onClick={() => setActive("orders")}>
                 Посмотреть заказы

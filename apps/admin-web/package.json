@@ -14,7 +14,7 @@
     "@fluentui/react-components": "^9.74.4",
     "@fluentui/react-icons": "^2.0.311",
     "@marketplace/api-client": "workspace:*",
-    "next": "^16.2.10",
+    "next": "16.2.11",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },

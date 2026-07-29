@@ -1,0 +1,2 @@
+ALTER TABLE "PaymentIntent"
+  ADD COLUMN "paymentMethod" VARCHAR(32) NOT NULL DEFAULT 'CARD';

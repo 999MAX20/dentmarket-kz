@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { commercePaymentMethodSchema } from "./commercial.js";
 
 export * from "./commercial.js";
 export * from "./trust-commerce.js";
@@ -539,6 +540,7 @@ export const confirmSupplierOrderSchema = z.object({
 
 export const createPaymentIntentSchema = z.object({
   providerCode: z.string().trim().regex(/^[A-Z][A-Z0-9_]{1,31}$/).default("MOCK"),
+  paymentMethod: commercePaymentMethodSchema.default("CARD"),
   idempotencyKey: z.string().trim().min(8).max(160),
 });
 

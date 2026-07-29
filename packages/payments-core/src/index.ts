@@ -11,6 +11,8 @@ export type PaymentStatus =
 
 export type PaymentProviderCode = "FREEDOM_PAY" | "KASPI" | "HALYK" | "BCC" | (string & {});
 
+export * from "./commerce-profile.js";
+
 export type Money = {
   amountMinor: string;
   currency: string;

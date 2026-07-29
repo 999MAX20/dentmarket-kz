@@ -900,6 +900,58 @@
 .documentList {
   display: grid;
 }
+.invoiceHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--colorNeutralStroke3);
+}
+.invoiceHeader strong {
+  display: block;
+  font-size: 15px;
+}
+.invoiceHeader p,
+.invoiceHint {
+  margin: 4px 0 0;
+  color: var(--colorNeutralForeground3);
+  font-size: 11px;
+}
+.invoiceList {
+  display: grid;
+}
+.invoiceCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 15px 18px;
+  border-bottom: 1px solid var(--colorNeutralStroke3);
+}
+.invoiceCard strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+.invoiceCard p {
+  margin: 0;
+  color: var(--colorNeutralForeground3);
+  font-size: 11px;
+}
+.invoiceAmount {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  white-space: nowrap;
+}
+.invoiceAmount > strong {
+  margin: 0;
+  font-size: 16px;
+}
+.invoiceHint {
+  padding: 12px 18px 16px;
+}
 .notification,
 .document {
   display: grid;
@@ -1873,6 +1925,15 @@
   .notification,
   .document {
     grid-template-columns: 1fr;
+  }
+  .invoiceHeader,
+  .invoiceCard {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .invoiceAmount {
+    width: 100%;
+    justify-content: space-between;
   }
   .reviewForm {
     grid-template-columns: 1fr;

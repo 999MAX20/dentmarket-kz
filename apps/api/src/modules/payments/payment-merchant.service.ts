@@ -4,6 +4,7 @@ import { Prisma } from "@prisma/client";
 import { PrismaService } from "../../platform/prisma/prisma.service";
 import type { SupplierActorContext } from "../suppliers/supplier-access.service";
 import { PaymentAdapterRegistry } from "./adapters/payment-adapter-registry.service";
+import { buildInvoiceDraft } from "./invoice-rules";
 
 @Injectable()
 export class PaymentMerchantService {
@@ -82,12 +83,27 @@ export class PaymentMerchantService {
   }
 
   async createSession(paymentIntentId: string, input: CreatePaymentSessionInput, context: SupplierActorContext) {
-    const intent = await this.prisma.paymentIntent.findUnique({ where: { id: paymentIntentId }, include: { provider: true, allocations: true, sessions: true } });
+    const intent = await this.prisma.paymentIntent.findUnique({ where: { id: paymentIntentId }, include: { provider: true, allocations: { include: { supplierOrder: { include: { supplier: { include: { supplierProfile: true } } } } } }, sessions: true } });
     if (!intent) throw new NotFoundException("Payment intent not found");
     await this.assertOrganizationAccess(intent.buyerOrganizationId, context);
     const existing = intent.sessions.find(({ idempotencyKey }) => idempotencyKey === input.idempotencyKey);
     if (existing) return existing;
     if (!["PENDING", "AUTHORIZED", "PARTIALLY_CAPTURED"].includes(intent.status)) throw new ConflictException("Payment intent cannot create a payment session in its current state");
+    if (["BANK_TRANSFER", "INVOICE"].includes(intent.paymentMethod)) {
+      const request = { paymentIntentId: intent.id, paymentMethod: intent.paymentMethod, amountMinor: intent.totalAmountMinor.toString(), currency: intent.currency, allocationCount: intent.allocations.length, idempotencyKey: input.idempotencyKey };
+      const invoices = intent.allocations.map((allocation) => {
+        const rawDetails = allocation.supplierOrder.supplier.supplierProfile?.regulatoryDetails;
+        const details = rawDetails && typeof rawDetails === "object" && !Array.isArray(rawDetails) ? rawDetails as Record<string, unknown> : {};
+        const bankDetails = typeof details.bankName === "string" && typeof details.iban === "string" && typeof details.bik === "string" ? { bankName: details.bankName, iban: details.iban, bik: details.bik, beneficiary: allocation.supplierOrder.supplier.legalName } : undefined;
+        return buildInvoiceDraft({ paymentIntentId: intent.id, paymentAllocationId: allocation.id, supplierOrderId: allocation.supplierOrderId, amountMinor: allocation.grossAmountMinor.toString(), currency: intent.currency, bankDetails });
+      });
+      return this.prisma.$transaction(async (tx) => {
+        const responsePayload = { type: "BANK_TRANSFER_INVOICE", paymentMethod: intent.paymentMethod, status: "AWAITING_BANK_TRANSFER", nextAction: "UPLOAD_BANK_CONFIRMATION_OR_RECONCILE", invoices };
+        const session = await tx.paymentSession.create({ data: { paymentIntentId: intent.id, externalSessionId: `invoice_${intent.id}`, status: "ACTIVE", idempotencyKey: input.idempotencyKey, requestPayload: request as Prisma.InputJsonValue, responsePayload: responsePayload as Prisma.InputJsonValue } });
+        await tx.auditLog.create({ data: { ...context, action: "payment.invoice.created", entityType: "PaymentSession", entityId: session.id, after: { paymentIntentId: intent.id, paymentMethod: intent.paymentMethod, status: session.status } } });
+        return session;
+      });
+    }
     const { adapter, context: adapterContext } = this.registry.resolve(intent.provider);
     const request = { paymentIntentId: intent.id, amountMinor: intent.totalAmountMinor.toString(), currency: intent.currency, allocationCount: intent.allocations.length, returnUrl: input.returnUrl, idempotencyKey: input.idempotencyKey };
     const result = await adapter.createSession(adapterContext, request);

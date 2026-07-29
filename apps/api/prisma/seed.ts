@@ -4,6 +4,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { PDFDocument, StandardFonts } from "pdf-lib";
 import { calculateSupplierTrust } from "../src/modules/trust-commerce/trust-score.engine";
+import { buildInvoiceDraft } from "../src/modules/payments/invoice-rules";
 
 const prisma = new PrismaClient();
 
@@ -378,7 +379,7 @@ async function seed() {
       capabilities: { create: [{ capability: "SUPPLIER" }, { capability: "IMPORTER" }] },
     },
   });
-  await prisma.supplierProfile.upsert({ where: { organizationId: demoSupplier.id }, update: { regulatoryDetails: { officialDistributor: true, supplierWarranty: true } }, create: { organizationId: demoSupplier.id, regulatoryDetails: { officialDistributor: true, supplierWarranty: true } } });
+  await prisma.supplierProfile.upsert({ where: { organizationId: demoSupplier.id }, update: { regulatoryDetails: { officialDistributor: true, supplierWarranty: true, demoOnly: true, bankName: "Демо Банк Казахстан", iban: "KZ00DEMO000000000000", bik: "DEMO0000" } }, create: { organizationId: demoSupplier.id, regulatoryDetails: { officialDistributor: true, supplierWarranty: true, demoOnly: true, bankName: "Демо Банк Казахстан", iban: "KZ00DEMO000000000000", bik: "DEMO0000" } } });
   const supplierPermissionCodes = ["organization.view", "catalog.product.view", "catalog.offer.edit", "catalog.offer.publish", "import.manage", "matching.manage", "compliance.view", "compliance.credential.manage", "inventory.view", "inventory.adjust", "inventory.freshness.manage", "order.confirm", "document.view", "document.sign", "integration.view", "integration.manage", "delivery.view", "delivery.manage", "shipment.manage", "promotion.view", "promotion.manage", "support.ticket.create", "support.ticket.view", "ai.use", "trust.incident.view", "trust.incident.appeal", "trust.comment.view", "trust.comment.manage", "trust.review.view", "trust.review.respond", "trust.rating.view", "trust.rating.appeal", "geo.view", "geo.manage"];
   const demoSupplierUser = await prisma.user.upsert({ where: { email: "supplier@marketplace.local" }, update: { displayName: "Demo Dental Supply" }, create: { id: fixedId(510), email: "supplier@marketplace.local", displayName: "Demo Dental Supply", emailVerifiedAt: new Date() } });
   const demoSupplierRole = await prisma.role.upsert({
@@ -412,6 +413,7 @@ async function seed() {
   const demoSupplierMembership = await prisma.organizationMembership.upsert({ where: { userId_organizationId: { userId: demoSupplierUser.id, organizationId: demoSupplier.id } }, update: { status: "ACTIVE", isPrimary: true, acceptedAt: new Date() }, create: { id: fixedId(512), userId: demoSupplierUser.id, organizationId: demoSupplier.id, status: "ACTIVE", isPrimary: true, acceptedAt: new Date() } });
   await prisma.membershipRole.upsert({ where: { membershipId_roleId: { membershipId: demoSupplierMembership.id, roleId: demoSupplierRole.id } }, update: {}, create: { membershipId: demoSupplierMembership.id, roleId: demoSupplierRole.id } });
   await prisma.organizationFeature.upsert({ where: { organizationId_featureKey: { organizationId: demoSupplier.id, featureKey: "ai.assistant" } }, update: { enabled: true, source: "SEED_PILOT" }, create: { organizationId: demoSupplier.id, featureKey: "ai.assistant", enabled: true, source: "SEED_PILOT" } });
+  await prisma.organizationFeature.upsert({ where: { organizationId_featureKey: { organizationId: demoSupplier.id, featureKey: "commerce.profile" } }, update: { enabled: true, source: "SEED_PILOT", limits: { tier: "BASIC", operatingMode: "SEMI_AUTOMATED", integration: "EXCEL_PDF", paymentMethods: ["CARD", "BANK_TRANSFER", "INVOICE"], bankAddOnEnabled: false } }, create: { organizationId: demoSupplier.id, featureKey: "commerce.profile", enabled: true, source: "SEED_PILOT", limits: { tier: "BASIC", operatingMode: "SEMI_AUTOMATED", integration: "EXCEL_PDF", paymentMethods: ["CARD", "BANK_TRANSFER", "INVOICE"], bankAddOnEnabled: false } } });
   const demoWarehouse = await prisma.warehouse.upsert({
     where: { supplierOrganizationId_code: { supplierOrganizationId: demoSupplier.id, code: "ALM-01" } },
     update: { cityId: cities.get("ALMATY")!.id, addressLine: "Алматы, ул. Толе би, 101" },
@@ -557,6 +559,18 @@ async function seed() {
     });
   }
 
+  const semiAutomatedSuppliers = new Set([demoSupplier.id, paymentSuppliers[2]?.id, paymentSuppliers[4]?.id].filter((value): value is string => Boolean(value)));
+  for (const organization of paymentSuppliers) {
+    const currentProfile = await prisma.supplierProfile.findUnique({ where: { organizationId: organization.id } });
+    const currentDetails = currentProfile?.regulatoryDetails && typeof currentProfile.regulatoryDetails === "object" && !Array.isArray(currentProfile.regulatoryDetails) ? currentProfile.regulatoryDetails as Record<string, unknown> : {};
+    await prisma.supplierProfile.update({ where: { organizationId: organization.id }, data: { regulatoryDetails: { ...currentDetails, demoOnly: true, bankName: "Демо Банк Казахстан", iban: `KZ00DEMO${organization.bin}`, bik: "DEMO0000" } } });
+    await prisma.organizationFeature.upsert({
+      where: { organizationId_featureKey: { organizationId: organization.id, featureKey: "commerce.profile" } },
+      update: { enabled: true, source: "SEED_PILOT", limits: { tier: semiAutomatedSuppliers.has(organization.id) ? "BASIC" : organization.id === paymentSuppliers[3]?.id ? "ENTERPRISE" : "BASIC", operatingMode: semiAutomatedSuppliers.has(organization.id) ? "SEMI_AUTOMATED" : organization.id === paymentSuppliers[3]?.id ? "AUTOMATED" : "MANUAL", integration: semiAutomatedSuppliers.has(organization.id) ? "EXCEL_PDF" : organization.id === paymentSuppliers[3]?.id ? "ERP_WMS_EDO" : "NONE", paymentMethods: ["CARD", "BANK_TRANSFER", "INVOICE"], bankAddOnEnabled: false } },
+      create: { organizationId: organization.id, featureKey: "commerce.profile", enabled: true, source: "SEED_PILOT", limits: { tier: semiAutomatedSuppliers.has(organization.id) ? "BASIC" : organization.id === paymentSuppliers[3]?.id ? "ENTERPRISE" : "BASIC", operatingMode: semiAutomatedSuppliers.has(organization.id) ? "SEMI_AUTOMATED" : organization.id === paymentSuppliers[3]?.id ? "AUTOMATED" : "MANUAL", integration: semiAutomatedSuppliers.has(organization.id) ? "EXCEL_PDF" : organization.id === paymentSuppliers[3]?.id ? "ERP_WMS_EDO" : "NONE", paymentMethods: ["CARD", "BANK_TRANSFER", "INVOICE"], bankAddOnEnabled: false } },
+    });
+  }
+
   const geoByCityCode: Record<string, { latitude: number; longitude: number }> = {
     ALMATY: { latitude: 43.238949, longitude: 76.889709 },
     ASTANA: { latitude: 51.169392, longitude: 71.449074 },
@@ -575,6 +589,44 @@ async function seed() {
     create: { id: fixedId(503), organizationId: demoBuyer.id, countryId: kazakhstan.id, regionId: pavlodar.regionId, cityId: pavlodar.id, line1: "Павлодар, ул. Академика Сатпаева, 48", district: "Центральный", latitude: geoByCityCode.PAVLODAR!.latitude, longitude: geoByCityCode.PAVLODAR!.longitude, geoStatus: "VERIFIED", geoMethod: "ORGANIZATION_DETAILS", geoEvidence: { source: "seed_pilot_details" }, geoVerifiedAt: new Date(), geoVerifiedById: operatorUser.id },
   });
   await prisma.organizationFeature.upsert({ where: { organizationId_featureKey: { organizationId: demoBuyer.id, featureKey: "trust.smart-commerce" } }, update: { enabled: true, source: "SEED_PILOT" }, create: { organizationId: demoBuyer.id, featureKey: "trust.smart-commerce", enabled: true, source: "SEED_PILOT" } });
+
+  const multiSupplierCartId = fixedId(700);
+  const multiSupplierCheckoutId = fixedId(701);
+  const multiSupplierPaymentIntentId = fixedId(702);
+  const multiSupplierItems = [
+    { offer: demoOffer, warehouse: demoWarehouse, quantity: 1 },
+    { offer: secondOffer, warehouse: secondWarehouse, quantity: 1 },
+    { offer: dentistryOffers[2]!, warehouse: supplierThree.warehouse, quantity: 2 },
+    { offer: dentistryOffers[4]!, warehouse: supplierFour.warehouse, quantity: 1 },
+    { offer: dentistryOffers[5]!, warehouse: supplierFive.warehouse, quantity: 1 },
+  ];
+  const multiSupplierCart = await prisma.cart.upsert({ where: { id: multiSupplierCartId }, update: { buyerOrganizationId: demoBuyer.id, currency: "KZT", status: "CHECKED_OUT", version: 1 }, create: { id: multiSupplierCartId, buyerOrganizationId: demoBuyer.id, currency: "KZT", status: "CHECKED_OUT", version: 1 } });
+  const seededCartItems: Array<{ id: string; offer: typeof demoOffer; warehouse: typeof demoWarehouse; quantity: number; unitPriceMinor: number; totalPriceMinor: number; inventory: { id: string; quantityAvailable: number } }> = [];
+  for (let index = 0; index < multiSupplierItems.length; index += 1) {
+    const item = multiSupplierItems[index]!;
+    const price = await prisma.offerPrice.findFirstOrThrow({ where: { offerId: item.offer.id, status: "ACTIVE" }, orderBy: { validFrom: "desc" } });
+    const balance = await prisma.inventoryBalance.findFirstOrThrow({ where: { offerId: item.offer.id, warehouseId: item.warehouse.id } });
+    const cartItem = await prisma.cartItem.upsert({ where: { cartId_offerId: { cartId: multiSupplierCart.id, offerId: item.offer.id } }, update: { quantity: item.quantity, unitPriceMinor: price.amountMinor, totalPriceMinor: Number(price.amountMinor) * item.quantity, currency: "KZT", priceSource: "SEED_PILOT", pricingSnapshot: { source: "SEED_PILOT", supplierOrganizationId: item.offer.supplierOrganizationId } }, create: { id: fixedId(710 + index), cartId: multiSupplierCart.id, offerId: item.offer.id, quantity: item.quantity, unitPriceMinor: price.amountMinor, totalPriceMinor: Number(price.amountMinor) * item.quantity, currency: "KZT", priceSource: "SEED_PILOT", pricingSnapshot: { source: "SEED_PILOT", supplierOrganizationId: item.offer.supplierOrganizationId } } });
+    seededCartItems.push({ id: cartItem.id, offer: item.offer, warehouse: item.warehouse, quantity: item.quantity, unitPriceMinor: Number(price.amountMinor), totalPriceMinor: Number(price.amountMinor) * item.quantity, inventory: { id: balance.id, quantityAvailable: Number(balance.quantityAvailable) } });
+  }
+  const multiSupplierTotal = seededCartItems.reduce((sum, item) => sum + item.totalPriceMinor, 0);
+  const multiSupplierCheckout = await prisma.checkout.upsert({ where: { id: multiSupplierCheckoutId }, update: { cartId: multiSupplierCart.id, buyerOrganizationId: demoBuyer.id, totalAmountMinor: multiSupplierTotal, currency: "KZT", status: "COMPLETED", idempotencyKey: "seed-five-supplier-checkout", pricingSnapshot: { scenario: "five_suppliers_three_semi_automated" } }, create: { id: multiSupplierCheckoutId, cartId: multiSupplierCart.id, buyerOrganizationId: demoBuyer.id, totalAmountMinor: multiSupplierTotal, currency: "KZT", status: "COMPLETED", idempotencyKey: "seed-five-supplier-checkout", pricingSnapshot: { scenario: "five_suppliers_three_semi_automated" } } });
+  const seededOrders: Array<{ id: string; supplierOrganizationId: string; subtotalAmountMinor: number }> = [];
+  for (let index = 0; index < seededCartItems.length; index += 1) {
+    const item = seededCartItems[index]!;
+    const order = await prisma.supplierOrder.upsert({ where: { checkoutId_supplierOrganizationId: { checkoutId: multiSupplierCheckout.id, supplierOrganizationId: item.offer.supplierOrganizationId } }, update: { status: "CONFIRMED", paymentStatus: "PROCESSING", subtotalAmountMinor: item.totalPriceMinor, currency: "KZT", transactionMode: index === 3 ? "FRAMEWORK_AGREEMENT" : "ONE_TIME" }, create: { id: fixedId(720 + index), checkoutId: multiSupplierCheckout.id, supplierOrganizationId: item.offer.supplierOrganizationId, buyerOrganizationId: demoBuyer.id, orderNumber: `SO-SEED-5SUP-${String(index + 1).padStart(2, "0")}`, status: "CONFIRMED", paymentStatus: "PROCESSING", subtotalAmountMinor: item.totalPriceMinor, currency: "KZT", transactionMode: index === 3 ? "FRAMEWORK_AGREEMENT" : "ONE_TIME" } });
+    await prisma.supplierOrderItem.upsert({ where: { cartItemId: item.id }, update: { supplierOrderId: order.id, offerId: item.offer.id, productVariantId: item.offer.productVariantId, warehouseId: item.warehouse.id, quantity: item.quantity, acceptedQuantity: item.quantity, unitPriceMinor: item.unitPriceMinor, totalPriceMinor: item.totalPriceMinor, currency: "KZT", status: "CONFIRMED", offerSnapshot: { seeded: true, supplierOrganizationId: item.offer.supplierOrganizationId }, inventorySnapshot: { balanceId: item.inventory.id, quantityAvailable: item.inventory.quantityAvailable } }, create: { id: fixedId(730 + index), supplierOrderId: order.id, cartItemId: item.id, offerId: item.offer.id, productVariantId: item.offer.productVariantId, warehouseId: item.warehouse.id, quantity: item.quantity, acceptedQuantity: item.quantity, unitPriceMinor: item.unitPriceMinor, totalPriceMinor: item.totalPriceMinor, currency: "KZT", status: "CONFIRMED", offerSnapshot: { seeded: true, supplierOrganizationId: item.offer.supplierOrganizationId }, inventorySnapshot: { balanceId: item.inventory.id, quantityAvailable: item.inventory.quantityAvailable } } });
+    seededOrders.push({ id: order.id, supplierOrganizationId: order.supplierOrganizationId, subtotalAmountMinor: item.totalPriceMinor });
+  }
+  const seededPaymentIntent = await prisma.paymentIntent.upsert({ where: { id: multiSupplierPaymentIntentId }, update: { checkoutId: multiSupplierCheckout.id, buyerOrganizationId: demoBuyer.id, providerId: mockProvider.id, paymentMethod: "INVOICE", totalAmountMinor: multiSupplierTotal, currency: "KZT", status: "PENDING", idempotencyKey: "seed-five-supplier-invoice" }, create: { id: multiSupplierPaymentIntentId, checkoutId: multiSupplierCheckout.id, buyerOrganizationId: demoBuyer.id, providerId: mockProvider.id, paymentMethod: "INVOICE", totalAmountMinor: multiSupplierTotal, currency: "KZT", status: "PENDING", idempotencyKey: "seed-five-supplier-invoice", expiresAt: new Date(Date.now() + 30 * 60 * 1_000) } });
+  const seededInvoices: Array<ReturnType<typeof buildInvoiceDraft>> = [];
+  for (const order of seededOrders) {
+    const allocation = await prisma.paymentAllocation.upsert({ where: { supplierOrderId: order.id }, update: { paymentIntentId: seededPaymentIntent.id, recipientOrganizationId: order.supplierOrganizationId, grossAmountMinor: order.subtotalAmountMinor, platformFeeMinor: Math.floor(order.subtotalAmountMinor * 0.02), netAmountMinor: order.subtotalAmountMinor - Math.floor(order.subtotalAmountMinor * 0.02), status: "PENDING", merchantAccountId: null }, create: { id: fixedId(740 + seededInvoices.length), paymentIntentId: seededPaymentIntent.id, supplierOrderId: order.id, recipientOrganizationId: order.supplierOrganizationId, grossAmountMinor: order.subtotalAmountMinor, platformFeeMinor: Math.floor(order.subtotalAmountMinor * 0.02), netAmountMinor: order.subtotalAmountMinor - Math.floor(order.subtotalAmountMinor * 0.02), status: "PENDING" } });
+    const supplier = await prisma.organization.findUniqueOrThrow({ where: { id: order.supplierOrganizationId }, include: { supplierProfile: true } });
+    const details = supplier.supplierProfile?.regulatoryDetails as { bankName?: string; iban?: string; bik?: string } | null;
+    seededInvoices.push(buildInvoiceDraft({ paymentIntentId: seededPaymentIntent.id, paymentAllocationId: allocation.id, supplierOrderId: order.id, amountMinor: order.subtotalAmountMinor.toString(), currency: "KZT", bankDetails: details?.bankName && details.iban && details.bik ? { bankName: details.bankName, iban: details.iban, bik: details.bik, beneficiary: supplier.legalName } : undefined }));
+  }
+  await prisma.paymentSession.upsert({ where: { paymentIntentId_idempotencyKey: { paymentIntentId: seededPaymentIntent.id, idempotencyKey: "seed-five-supplier-invoice-session" } }, update: { status: "ACTIVE", externalSessionId: `invoice_${seededPaymentIntent.id}`, responsePayload: { type: "BANK_TRANSFER_INVOICE", paymentMethod: "INVOICE", status: "AWAITING_BANK_TRANSFER", invoices: seededInvoices } }, create: { paymentIntentId: seededPaymentIntent.id, externalSessionId: `invoice_${seededPaymentIntent.id}`, status: "ACTIVE", idempotencyKey: "seed-five-supplier-invoice-session", requestPayload: { scenario: "five_suppliers_three_semi_automated" }, responsePayload: { type: "BANK_TRANSFER_INVOICE", paymentMethod: "INVOICE", status: "AWAITING_BANK_TRANSFER", invoices: seededInvoices } } });
 
   const metricCodes = ["availability_accuracy", "price_accuracy", "order_fulfillment", "confirmation_speed", "delivery_ontime", "document_quality", "communication_quality", "data_freshness", "dispute_resolution"] as const;
   for (let supplierIndex = 0; supplierIndex < paymentSuppliers.length; supplierIndex += 1) {
@@ -628,7 +680,7 @@ async function seed() {
     }
     await prisma.marketplaceAgreement.upsert({ where: { documentId: document.id }, update: {}, create: { id: fixedId(303 + index * 4), agreementNumber, supplierOrganizationId: organization.id, operatorOrganizationId: operatorOrganization.id, documentId: document.id, templateId: agreementTemplate.id, templateVersion: agreementTemplate.version, status: "ACTIVE", renewalMode: "AUTO_ANNUAL", startsAt: agreementStart, endsAt: agreementEnd, autoRenew: true, activatedAt: agreementStart, activatedBySystem: false, metadata: { seeded: true } } });
   }
-  console.info(JSON.stringify({ demoBuyerOrganizationId: demoBuyer.id, demoBuyerAddressId: buyerAddress.id, demoOfferIds: [demoOffer.id, secondOffer.id, ...dentistryOffers.map(({ id }) => id)], suppliers: paymentSuppliers.length, cities: cities.size, paymentProvider: "MOCK", trustSnapshots: paymentSuppliers.length }, null, 2));
+  console.info(JSON.stringify({ demoBuyerOrganizationId: demoBuyer.id, demoBuyerAddressId: buyerAddress.id, demoOfferIds: [demoOffer.id, secondOffer.id, ...dentistryOffers.map(({ id }) => id)], suppliers: paymentSuppliers.length, cities: cities.size, paymentProvider: "MOCK", multiSupplierDemo: { cartId: multiSupplierCart.id, checkoutId: multiSupplierCheckout.id, paymentIntentId: seededPaymentIntent.id, supplierCount: seededOrders.length, semiAutomatedSupplierCount: [...semiAutomatedSuppliers].filter((id) => seededOrders.some((order) => order.supplierOrganizationId === id)).length, invoiceCount: seededInvoices.length } , trustSnapshots: paymentSuppliers.length }, null, 2));
 }
 
 seed()

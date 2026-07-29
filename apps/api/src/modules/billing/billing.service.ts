@@ -1,5 +1,7 @@
 import { ConflictException, Injectable, NotFoundException } from "@nestjs/common";
 import type { CreateBillingPlanInput } from "@marketplace/schemas";
+import type { CommerceProfile } from "@marketplace/schemas";
+import { normalizeCommerceProfile, buildCommercePolicy } from "@marketplace/schemas";
 import { Prisma } from "@prisma/client";
 import { PrismaService } from "../../platform/prisma/prisma.service";
 import type { SupplierActorContext } from "../suppliers/supplier-access.service";
@@ -52,4 +54,21 @@ export class BillingService {
   }
 
   entitlementSummary(organizationId: string) { return this.entitlements.all(organizationId); }
+
+  async commerceProfile(organizationId: string) {
+    const stored = await this.prisma.organizationFeature.findUnique({ where: { organizationId_featureKey: { organizationId, featureKey: "commerce.profile" } } });
+    const profile = normalizeCommerceProfile(stored?.limits && typeof stored.limits === "object" && !Array.isArray(stored.limits) ? stored.limits as Partial<CommerceProfile> : {});
+    return { profile, policy: buildCommercePolicy(profile), source: stored?.source ?? "default", updatedAt: stored?.updatedAt ?? null };
+  }
+
+  async setCommerceProfile(organizationId: string, input: Partial<CommerceProfile>, context: SupplierActorContext) {
+    const profile = normalizeCommerceProfile(input);
+    const result = await this.prisma.organizationFeature.upsert({
+      where: { organizationId_featureKey: { organizationId, featureKey: "commerce.profile" } },
+      update: { enabled: true, limits: profile, source: "ORGANIZATION_PROFILE" },
+      create: { organizationId, featureKey: "commerce.profile", enabled: true, limits: profile, source: "ORGANIZATION_PROFILE" },
+    });
+    await this.prisma.auditLog.create({ data: { ...context, organizationId, action: "commerce.profile.updated", entityType: "OrganizationFeature", entityId: result.id, after: profile } });
+    return { profile, policy: buildCommercePolicy(profile), source: result.source, updatedAt: result.updatedAt };
+  }
 }

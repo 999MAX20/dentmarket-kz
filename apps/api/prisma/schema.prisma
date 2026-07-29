@@ -2319,6 +2319,7 @@ model PaymentIntent {
   checkoutId            String                       @unique @db.Uuid
   buyerOrganizationId   String                       @db.Uuid
   providerId            String                       @db.Uuid
+  paymentMethod         String                       @default("CARD") @db.VarChar(32)
   totalAmountMinor      Decimal                      @db.Decimal(20, 0)
   currency              String                       @db.Char(3)
   status                PaymentIntentStatus          @default(PENDING)

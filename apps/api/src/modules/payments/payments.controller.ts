@@ -27,6 +27,12 @@ export class PaymentsController {
     return this.payments.getIntent(paymentIntentId, this.context(actorId, organizationId));
   }
 
+  @Get("buyers/:buyerOrganizationId/payment-intents")
+  @RequirePermissions("payment.view")
+  buyerIntents(@Param("buyerOrganizationId") buyerOrganizationId: string, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {
+    return this.payments.buyerIntents(buyerOrganizationId, this.context(actorId, organizationId));
+  }
+
   @Post("payment-intents/:paymentIntentId/mock-capture")
   @RequirePermissions("payment.mock.capture")
   captureMock(@Param("paymentIntentId") paymentIntentId: string, @Body() body: unknown, @Headers("x-user-id") actorId: string, @Headers("x-organization-id") organizationId: string) {
