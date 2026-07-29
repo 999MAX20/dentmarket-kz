@@ -81,6 +81,21 @@ export default function ProductOfferActions({
     setNotice("Позиция добавлена в демо-корзину");
   };
 
+  const saveDemoRequest = () => {
+    const items = addDemoCartItem({
+      id: `${productId}:request`,
+      offerId: `${productId}:request`,
+      productId,
+      productName,
+      supplierName: "Поставщик не подключён",
+      priceMinor: "0",
+      currency: "KZT",
+      packaging: "Фасовка уточняется",
+    });
+    setDemoItems(items);
+    setNotice("Товар добавлен в демо-корзину как позиция по запросу");
+  };
+
   const addToCart = async (offer: Offer) => {
     const session = parseSessionHandoff(
       window.sessionStorage.getItem("dentmarket:buyer-session"),
@@ -202,6 +217,17 @@ export default function ProductOfferActions({
         <div className={styles.noOffer}>
           <strong>Пока нет предложений поставщиков</strong>
           <span>Карточка готова, цена и наличие появятся после выгрузки поставщика.</span>
+          <button
+            className={styles.primaryCartButton}
+            type="button"
+            onClick={saveDemoRequest}
+          >
+            <Cart24Regular aria-hidden="true" />
+            {demoItems.some((item) => item.offerId === `${productId}:request`)
+              ? "Добавить ещё"
+              : "В демо-корзину"}
+          </button>
+          {notice ? <p className={styles.cartNotice} role="status">{notice}</p> : null}
         </div>
       )}
       {offers.length ? (
