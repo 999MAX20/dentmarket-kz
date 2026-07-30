@@ -1,0 +1,3099 @@
+{
+  "generatedAt": "2026-07-30T13:45:03.712Z",
+  "suppliers": 30,
+  "provider": "ONE_C",
+  "mode": "PULL_AGENT",
+  "policy": "Манифесты не содержат секретов и не объявляют подключение LIVE. Они заранее фиксируют tenant-specific mapping и readiness gates.",
+  "manifests": [
+    {
+      "tenantKey": "medstom-kz",
+      "supplierName": "Medstom KZ",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://medstom.kz/catalog",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "kazdentservice",
+      "supplierName": "KazDentService",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://kazdentservice.kz/product_list",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "joseph-company",
+      "supplierName": "Joseph Company",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://joseph-company.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "lira-medical-group",
+      "supplierName": "LIRA Medical Group",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://dent-materials.kz/catalog",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "ims",
+      "supplierName": "IMS",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://ims.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "unident",
+      "supplierName": "Unident",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://unident.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "ordamed",
+      "supplierName": "Ordamed",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://ordamed.com/kz/catalog/stomatologiya/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "kulimsnab",
+      "supplierName": "KulimSnab",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://kulimsnab.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "dentalshop-kazakhstan",
+      "supplierName": "DentalShop Kazakhstan",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://dentalshopkazakhstan.com/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "stomtech",
+      "supplierName": "Stomtech",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://stomtech.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "allfordent",
+      "supplierName": "AllForDent",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://a4d.kz/products",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "nord-stom",
+      "supplierName": "Nord Stom",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://nordstom.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "amdgroup",
+      "supplierName": "AMDgroup",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://amdgroup.kz/catalog/materialy_/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "стомир",
+      "supplierName": "СТОМир",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://stomir.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "proteco-asia",
+      "supplierName": "Proteco Asia",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://proteco.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "luch-llp",
+      "supplierName": "LUCH LLP",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://luch.asia/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "stomed",
+      "supplierName": "Stomed",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://medsales.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "astra-medical",
+      "supplierName": "Astra Medical",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://www.adent.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "heliy-llp",
+      "supplierName": "HELIY LLP",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://heliy.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "vitime-llp",
+      "supplierName": "VITIME LLP",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": null,
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "ivo-handels-kz",
+      "supplierName": "IVO-HANDELS KZ",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://www.ivohandels.com/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "ident-llc",
+      "supplierName": "Ident LLC",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": null,
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "dento-kz",
+      "supplierName": "Dento.kz",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://dento.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "algami",
+      "supplierName": "ALGAMI",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://algami.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "stom-partner",
+      "supplierName": "Stom Partner",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://stompartner.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "все-для-стоматологии",
+      "supplierName": "Все Для Стоматологии",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://dentmart.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "nsk-dental",
+      "supplierName": "NSK-Dental",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://nsk-dental.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "tridadent",
+      "supplierName": "Tridadent",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://tridadent.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "eurasiamed",
+      "supplierName": "Eurasiamed",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": "https://eurasia-med.kz/",
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    },
+    {
+      "tenantKey": "almagest-business",
+      "supplierName": "Almagest Business",
+      "provider": "ONE_C",
+      "mode": "PULL_AGENT",
+      "readinessStatus": "TEMPLATE_READY_CONNECTOR_NEEDED",
+      "source": {
+        "type": "ERP",
+        "catalogSource": null,
+        "priceStockMode": "LIVE_FROM_1C"
+      },
+      "agent": {
+        "enrollment": "ONE_TIME_TOKEN",
+        "transport": "OUTBOUND_HTTPS",
+        "signedBinaryRequired": true,
+        "minimumVersion": "0.1.0"
+      },
+      "mappings": [
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Код",
+          "internalTarget": "supplierSku",
+          "required": true
+        },
+        {
+          "entity": "PRODUCT",
+          "externalField": "Номенклатура.Наименование",
+          "internalTarget": "supplierProductName",
+          "required": true
+        },
+        {
+          "entity": "VARIANT",
+          "externalField": "Характеристика.Код",
+          "internalTarget": "supplierVariantSku",
+          "required": false
+        },
+        {
+          "entity": "WAREHOUSE",
+          "externalField": "Склад.Код",
+          "internalTarget": "warehouseExternalId",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Цена продажи",
+          "internalTarget": "priceMinor",
+          "required": true
+        },
+        {
+          "entity": "PRICE",
+          "externalField": "Валюта",
+          "internalTarget": "currency",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Остаток",
+          "internalTarget": "quantityOnHand",
+          "required": true
+        },
+        {
+          "entity": "STOCK",
+          "externalField": "Резерв",
+          "internalTarget": "quantityReserved",
+          "required": false
+        },
+        {
+          "entity": "ORDER",
+          "externalField": "Статус заказа",
+          "internalTarget": "orderStatus",
+          "required": true
+        },
+        {
+          "entity": "COUNTERPARTY",
+          "externalField": "Контрагент.Код",
+          "internalTarget": "counterpartyExternalId",
+          "required": true
+        }
+      ],
+      "syncPlan": [
+        "catalog",
+        "price",
+        "stock",
+        "warehouse",
+        "order_export",
+        "reservation",
+        "cancel_release"
+      ],
+      "safetyGates": [
+        "active_supplier_agreement",
+        "compliance_confirmed",
+        "fresh_price",
+        "fresh_stock",
+        "tenant_mapping_complete"
+      ],
+      "missingExternalEvidence": [
+        "signed_agent_binary",
+        "real_1c_database",
+        "tenant_credentials",
+        "warehouse_and_price_type_mapping",
+        "control_order"
+      ]
+    }
+  ]
+}

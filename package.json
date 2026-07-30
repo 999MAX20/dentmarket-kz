@@ -44,6 +44,7 @@
     "catalog:audit:kz-suppliers": "node scripts/build-kz-supplier-outreach-audit.mjs",
     "catalog:build:kz-supplier-onboarding": "node scripts/build-kz-supplier-onboarding-queue.mjs",
     "catalog:build:kz-supplier-templates": "node scripts/build-kz-supplier-price-templates.mjs",
+    "integration:build:one-c-readiness": "node scripts/build-one-c-readiness-manifests.mjs",
     "catalog:prepare:image-restoration": "node scripts/prepare-product-image-restoration-queue.mjs",
     "catalog:recover:official-images": "node scripts/recover-official-product-images.mjs",
     "catalog:recover:official-pdf-images": "/Users/maksim/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/extract-official-pdf-product-images.py",
