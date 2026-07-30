@@ -57,6 +57,7 @@ export class OnboardingService {
         organizationDisplayName: input.organizationDisplayName,
         bin: input.bin,
         capability: input.capability,
+        industryCode: input.industryCode,
         tokenHash: hashToken(registrationToken),
         idempotencyKey: input.idempotencyKey,
         consentVersion: input.consentVersion,
@@ -102,6 +103,7 @@ export class OnboardingService {
         legalName: registration.legalName,
         displayName: registration.organizationDisplayName,
         bin: registration.bin,
+        primaryIndustry: registration.capability === "BUYER" ? { connect: { code: registration.industryCode } } : undefined,
         capabilities: { create: { capability: registration.capability as OrganizationCapabilityType } },
       } });
       if (registration.capability === "SUPPLIER") await tx.supplierProfile.create({ data: { organizationId: organization.id, regulatoryDetails: { onboarding: "documents_required" } } });

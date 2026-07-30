@@ -11,6 +11,7 @@ import {
 export const runtime = "nodejs";
 
 const normalize = normalizeDentalSearchText;
+const DENTISTRY_INDUSTRY_CODE = "dentistry-kz";
 
 const containsAlias = (text: string, alias: string) => {
   if (!alias) return false;
@@ -117,6 +118,8 @@ const stableDailyRank = (product: PublishedCatalogProduct) => {
 
 const toSearchProduct = (product: PublishedCatalogProduct) => ({
   ...product,
+  industryCodes: product.industryCodes ?? [DENTISTRY_INDUSTRY_CODE],
+  industryCode: DENTISTRY_INDUSTRY_CODE,
   placement: productPlacement(product),
   media: product.imageUrl
     ? [

@@ -93,17 +93,22 @@ export class SearchService {
       );
     const buyer = await this.prisma.organization.findUnique({
       where: { id: buyerOrganizationId },
-      include: { capabilities: true },
+      include: { capabilities: true, primaryIndustry: true },
     });
     if (
       !buyer ||
       !buyer.capabilities.some(({ capability }) => capability === "BUYER")
     )
       throw new NotFoundException("Buyer organization not found");
+    return buyer;
   }
 
   async search(input: SearchCatalogInput, context: SupplierActorContext) {
-    await this.assertBuyer(input.buyerOrganizationId, context);
+    const buyer = await this.assertBuyer(input.buyerOrganizationId, context);
+    const dentistry = await this.prisma.industry.findUnique({ where: { code: "dentistry-kz" }, select: { id: true } });
+    const industryId = input.industryId ?? buyer.primaryIndustryId ?? dentistry?.id;
+    if (input.industryId && buyer.primaryIndustryId && input.industryId !== buyer.primaryIndustryId)
+      throw new ForbiddenException("Catalog industry does not match buyer organization");
     const searchIntent = expandDentalSearchQuery(input.q);
     const q = searchIntent.normalizedQuery;
     const expandedQuery = searchIntent.expandedQuery;
@@ -130,9 +135,9 @@ export class SearchService {
       where.push(
         Prisma.sql`CAST(${input.categoryId} AS uuid) = ANY(d."categoryIds")`,
       );
-    if (input.industryId)
+    if (industryId)
       where.push(
-        Prisma.sql`CAST(${input.industryId} AS uuid) = ANY(d."industryIds")`,
+        Prisma.sql`CAST(${industryId} AS uuid) = ANY(d."industryIds")`,
       );
     if (input.brandId)
       where.push(Prisma.sql`p."brandId" = CAST(${input.brandId} AS uuid)`);
@@ -282,7 +287,9 @@ export class SearchService {
   }
 
   async compare(input: CompareOffersInput, context: SupplierActorContext) {
-    await this.assertBuyer(input.buyerOrganizationId, context);
+    const buyer = await this.assertBuyer(input.buyerOrganizationId, context);
+    const dentistry = await this.prisma.industry.findUnique({ where: { code: "dentistry-kz" }, select: { id: true } });
+    const industryId = buyer.primaryIndustryId ?? dentistry?.id;
     const products = await this.loadProducts(
       [input.productId],
       input.buyerOrganizationId,
@@ -290,6 +297,8 @@ export class SearchService {
     );
     const product = products[0];
     if (!product) throw new NotFoundException("Marketplace product not found");
+    if (industryId && !product.industries.some(({ industryId: productIndustryId }) => productIndustryId === industryId))
+      throw new NotFoundException("Marketplace product is outside the buyer industry");
     const now = new Date();
     const selectedVariants = input.variantId
       ? product.variants.filter(({ id }) => id === input.variantId)

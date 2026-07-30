@@ -19,6 +19,7 @@ export const createOrganizationSchema = z.object({
   displayName: z.string().trim().min(2).max(160),
   bin: z.string().regex(/^\d{12}$/, "БИН должен содержать 12 цифр"),
   capabilities: z.array(organizationCapabilitySchema).min(1),
+  industryCode: z.string().trim().regex(/^[a-z][a-z0-9-]{2,63}$/).default("dentistry-kz"),
 });
 
 export type CreateOrganizationInput = z.infer<typeof createOrganizationSchema>;

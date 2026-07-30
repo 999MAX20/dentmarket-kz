@@ -22,6 +22,7 @@ export class OrganizationsService {
           legalName: input.legalName,
           displayName: input.displayName,
           bin: input.bin,
+          primaryIndustry: input.capabilities.includes("BUYER") ? { connect: { code: input.industryCode } } : undefined,
           capabilities: {
             create: input.capabilities.map((capability) => ({ capability })),
           },

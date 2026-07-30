@@ -26,6 +26,7 @@ export type PublishedCatalogProduct = {
   placement?: "catalog" | "promotion";
   photoStatus?: string;
   catalogSource?: string;
+  industryCodes?: string[];
   complianceClassification?: string;
   moderationWarnings?: string[];
   attributes?: Array<[string, string]>;

@@ -22,6 +22,7 @@ export const createRegistrationIntentSchema = z.object({
   organizationDisplayName: z.string().trim().min(2).max(160),
   bin: z.string().regex(/^\d{12}$/, "БИН должен содержать 12 цифр"),
   capability: z.enum(["BUYER", "SUPPLIER"]),
+  industryCode: z.string().trim().regex(/^[a-z][a-z0-9-]{2,63}$/).default("dentistry-kz"),
   termsAccepted: z.literal(true),
   privacyAccepted: z.literal(true),
   marketingConsent: z.boolean().default(false),

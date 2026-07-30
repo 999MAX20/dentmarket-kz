@@ -1011,8 +1011,10 @@ model Organization {
   displayName                       String
   bin                               String                    @unique @db.VarChar(12)
   status                            RecordStatus              @default(ACTIVE)
+  primaryIndustryId                 String?                   @db.Uuid
   version                           Int                       @default(1)
   capabilities                      OrganizationCapability[]
+  primaryIndustry                   Industry?                 @relation(fields: [primaryIndustryId], references: [id], onDelete: SetNull)
   memberships                       OrganizationMembership[]
   invitations                       MembershipInvitation[]
   roles                             Role[]
@@ -1053,6 +1055,7 @@ model RegistrationIntent {
   organizationDisplayName String
   bin                     String                     @db.VarChar(12)
   capability              OrganizationCapabilityType
+  industryCode            String                     @default("dentistry-kz")
   status                  RegistrationIntentStatus   @default(PENDING)
   tokenHash               String                     @unique
   idempotencyKey          String                     @unique
@@ -1290,6 +1293,7 @@ model Industry {
   status      RecordStatus      @default(ACTIVE)
   categories  Category[]
   assignments ProductIndustry[]
+  organizations Organization[]
   createdAt   DateTime          @default(now())
 }
 
