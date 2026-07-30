@@ -17,6 +17,12 @@ export class OrganizationsController {
     return this.organizations.list();
   }
 
+  @Get(":organizationId")
+  @RequirePermissions("organization.view")
+  get(@Param("organizationId") organizationId: string) {
+    return this.organizations.get(organizationId);
+  }
+
   @Post()
   @RequirePermissions("organization.create")
   @ApiCreatedResponse({ description: "Organization and capabilities created atomically" })
