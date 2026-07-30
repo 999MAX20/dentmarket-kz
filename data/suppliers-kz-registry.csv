@@ -1,7 +1,7 @@
 supplierName,website,catalogUrl,coverage,publicCatalogStatus,ingestionStatus,sourceType,notes,lastChecked
 Medstom KZ,https://medstom.kz/,https://medstom.kz/catalog,стоматологические материалы и оборудование,READY,IMPORTED_341,HTML_TILDA_API,341 карточка сохранена как канонический DRAFT; следующий шаг — поставщикский импорт цены и остатков,2026-07-17
 KazDentService,https://kazdentservice.kz/,https://kazdentservice.kz/product_list,оборудование материалы CAD-CAM стерилизация,READY,IMPORTED_21,HTML_PUBLIC_CATALOG,21 публичная карточка сохранена как канонический DRAFT; 21 строка пройдена через боевой XLSX-сценарий,2026-07-17
-Joseph Company,https://joseph-company.kz/,https://joseph-company.kz/,оборудование и биоматериалы,REVIEW_REQUIRED,QUEUED,HTML_CONTACT_REQUIRED,Публичный сайт подтверждён; машинный каталог не найден, нужен прайс или API от поставщика,2026-07-17
+Joseph Company,https://joseph-company.kz/,https://joseph-company.kz/,оборудование и биоматериалы,REVIEW_REQUIRED,QUEUED,HTML_CONTACT_REQUIRED,"Публичный сайт подтверждён; машинный каталог не найден, нужен прайс или API от поставщика",2026-07-17
 LIRA Medical Group,https://dent-materials.kz/,https://dent-materials.kz/catalog,имплантация ортодонтия биоматериалы CAD-CAM,REVIEW_REQUIRED,QUEUED,HTML_DYNAMIC_CATALOG,На сайте заявлено 14000+ SKU; карточки подгружаются динамически, нужен экспорт поставщика,2026-07-17
 IMS,https://ims.kz/,https://ims.kz/,стоматологические материалы и оборудование,REVIEW_REQUIRED,QUEUED,HTML_CONTACT_REQUIRED,Крупный дистрибьютор; в очередь на запрос XLSX/PDF/EDI,2026-07-17
 Unident,https://unident.kz/,https://unident.kz/,стоматологические материалы и оборудование,REVIEW_REQUIRED,QUEUED,HTML_CONTACT_REQUIRED,Кандидат на подключение; в очередь на запрос каталога,2026-07-17
