@@ -1,0 +1,151 @@
+import crypto from "node:crypto";
+import fs from "node:fs/promises";
+import path from "node:path";
+
+const root = path.resolve(process.cwd());
+const baseUrl = "https://shop-ucg.kz";
+const output = path.join(root, "data/intake/beauty-kz/ucg-kz.csv");
+const maxProducts = Number(process.env.BEAUTY_CRAWL_LIMIT ?? 250);
+const delayMs = Number(process.env.BEAUTY_CRAWL_DELAY_MS ?? 250);
+const knownBrands = [
+  "Teoxane",
+  "Laennec",
+  "Regenyal",
+  "Ial-System",
+  "NEWSHA",
+  "BioRePeelCl3",
+  "Hamilton",
+  "Gehwol",
+  "Payot",
+  "Mansard",
+  "CHI",
+];
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const html = async (url) => {
+  const response = await fetch(url, {
+    headers: { "user-agent": "DentMarket catalog research bot/1.0" },
+  });
+  if (!response.ok) throw new Error(`${response.status} ${url}`);
+  return response.text();
+};
+const decode = (value) =>
+  value
+    .replaceAll("&quot;", '"')
+    .replaceAll("&#39;", "'")
+    .replaceAll("&amp;", "&")
+    .replaceAll("&nbsp;", " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+const absolute = (href) => new URL(href, baseUrl).toString();
+const csv = (value) => `"${String(value ?? "").replaceAll('"', '""')}"`;
+const slugId = (url) =>
+  `ucg-${crypto.createHash("sha1").update(url).digest("hex").slice(0, 16)}`;
+
+const categoryPages = new Set([`${baseUrl}/catalog/`]);
+const home = await html(`${baseUrl}/`);
+for (const href of home.matchAll(/href=["']([^"']*\/catalog\/[^"']*)["']/gi))
+  categoryPages.add(absolute(href[1]));
+const productUrls = new Set();
+for (const categoryUrl of [...categoryPages].slice(0, 80)) {
+  try {
+    const page = await html(categoryUrl);
+    for (const match of page.matchAll(
+      /href=["']([^"']*\/catalog\/[^"']+\/[^"']+\/)["']/gi,
+    )) {
+      const url = absolute(match[1]);
+      if (!url.includes("/catalog/search") && !url.endsWith("/catalog/"))
+        productUrls.add(url);
+      if (productUrls.size >= maxProducts) break;
+    }
+  } catch (error) {
+    console.warn(`skip category ${categoryUrl}: ${error.message}`);
+  }
+  if (productUrls.size >= maxProducts) break;
+  await sleep(delayMs);
+}
+
+const rows = [];
+for (const url of productUrls) {
+  try {
+    const page = await html(url);
+    const titleMatch =
+      page.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i) ??
+      page.match(
+        /<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']+)/i,
+      );
+    const descriptionMatch = page.match(
+      /<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)/i,
+    );
+    const imageMatch = page.match(
+      /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i,
+    );
+    const name = decode(titleMatch?.[1] ?? "");
+    if (!name) continue;
+    const brand =
+      knownBrands.find((candidate) =>
+        name
+          .toLocaleLowerCase("ru")
+          .includes(candidate.toLocaleLowerCase("ru")),
+      ) ?? "";
+    const pathParts = new URL(url).pathname.split("/").filter(Boolean);
+    rows.push({
+      externalId: slugId(url),
+      name,
+      supplierSku: "",
+      gtin: "",
+      brand,
+      manufacturer: "",
+      unit: "",
+      description: decode(descriptionMatch?.[1] ?? ""),
+      category: pathParts[1] ?? "professional-cosmetics",
+      variantLabel: "",
+      imageUrl: imageMatch?.[1] ? absolute(imageMatch[1]) : "",
+      sourceUrl: url,
+      priceMinor: "",
+      currency: "",
+      quantityOnHand: "",
+      warehouse: "",
+      leadTimeDays: "",
+      lotNumber: "",
+      expirationDate: "",
+    });
+  } catch (error) {
+    console.warn(`skip product ${url}: ${error.message}`);
+  }
+  await sleep(delayMs);
+}
+
+const headers = [
+  "externalId",
+  "name",
+  "supplierSku",
+  "gtin",
+  "brand",
+  "manufacturer",
+  "unit",
+  "description",
+  "category",
+  "variantLabel",
+  "imageUrl",
+  "sourceUrl",
+  "priceMinor",
+  "currency",
+  "quantityOnHand",
+  "warehouse",
+  "leadTimeDays",
+  "lotNumber",
+  "expirationDate",
+];
+await fs.mkdir(path.dirname(output), { recursive: true });
+await fs.writeFile(
+  output,
+  [
+    headers.join(","),
+    ...rows.map((row) => headers.map((header) => csv(row[header])).join(",")),
+  ].join("\n") + "\n",
+);
+console.log(
+  `UCG catalog intake written: ${rows.length} rows from ${productUrls.size} public product URLs.`,
+);
