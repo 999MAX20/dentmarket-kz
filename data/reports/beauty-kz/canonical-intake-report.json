@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T10:15:56.471Z",
+  "generatedAt": "2026-07-30T10:16:58.814Z",
   "policy": {
     "schemaVersion": 1,
     "vertical": "beauty-kz",
@@ -45,8 +45,8 @@
       },
       {
         "supplierKey": "ucg-kz",
-        "template": "data/templates/beauty-kz/ucg-kz.csv",
-        "status": "READY_FOR_CATALOG_FILE"
+        "template": "data/intake/beauty-kz/ucg-kz.csv",
+        "status": "PUBLIC_CATALOG_IMPORTED"
       },
       {
         "supplierKey": "vlaekan-kz",
@@ -113,13 +113,13 @@
     },
     {
       "supplierKey": "ucg-kz",
-      "template": "data/templates/beauty-kz/ucg-kz.csv",
+      "template": "data/intake/beauty-kz/ucg-kz.csv",
       "brands": 10,
-      "rows": 0,
-      "canonicalReady": 0,
-      "commercialRows": 0,
-      "status": "WAITING_FOR_CATALOG_FILE",
-      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+      "rows": 10,
+      "canonicalReady": 10,
+      "commercialRows": 5,
+      "status": "READY_FOR_CANONICAL_REVIEW",
+      "commercialDataPolicy": "COMMERCIAL_FIELDS_DETECTED_AND_KEPT_SEPARATE"
     },
     {
       "supplierKey": "vlaekan-kz",

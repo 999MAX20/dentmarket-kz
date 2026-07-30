@@ -40,8 +40,8 @@
     },
     {
       "supplierKey": "ucg-kz",
-      "template": "data/templates/beauty-kz/ucg-kz.csv",
-      "status": "READY_FOR_CATALOG_FILE"
+      "template": "data/intake/beauty-kz/ucg-kz.csv",
+      "status": "PUBLIC_CATALOG_IMPORTED"
     },
     {
       "supplierKey": "vlaekan-kz",
