@@ -420,16 +420,11 @@ const combinedCatalogProducts = [
   ).values(),
 ];
 const generatedCatalogFallback: SearchProduct[] = combinedCatalogProducts
-  // A card without an approved local image stays in the moderation data, but
-  // must never leak into the public shelf as a broken/placeholder product.
-  .filter((product) =>
-    Boolean(mediaSource(publicMediaEntries[product.sourceUrl ?? ""])),
-  )
   .map((product) => ({
     ...product,
     media: publicMediaEntries[product.sourceUrl ?? ""]
       ? [publicMediaEntries[product.sourceUrl ?? ""]]
-      : undefined,
+      : product.media,
     photoStatus: mediaSource(publicMediaEntries[product.sourceUrl ?? ""])
       ? "exact"
       : product.photoStatus,

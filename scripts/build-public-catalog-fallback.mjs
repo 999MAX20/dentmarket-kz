@@ -25,6 +25,10 @@ const output = path.join(
   root,
   "apps/buyer-web/app/data/public-catalog-fallback.json",
 );
+const approvedCatalogPath = path.join(
+  root,
+  "data/reports/production-approved-catalog.json",
+);
 const aliasesPath = path.join(root, "data/catalog-model-aliases-wave-1.csv");
 const skuLabelsPath = path.join(root, "data/catalog-product-skus-wave-1.csv");
 const primaryVariantFamiliesPath = path.join(
@@ -587,6 +591,97 @@ const products = [...grouped.values()].map((row) => {
   };
 });
 
+const approvedCatalog = await fs
+  .readFile(approvedCatalogPath, "utf8")
+  .then((content) => JSON.parse(content))
+  .catch((error) => {
+    if (error?.code === "ENOENT") return { products: [] };
+    throw error;
+  });
+const fallbackKeys = new Set(
+  products.map((product) =>
+    [product.brand ?? "", product.name]
+      .map((value) => normalizedCatalogIdentity(value))
+      .join("|"),
+  ),
+);
+const approvedOnlyProducts = (approvedCatalog.products ?? [])
+  .filter((product) => product && product.name && product.id)
+  .filter((product) => {
+    const key = [product.brand ?? "", product.name]
+      .map((value) => normalizedCatalogIdentity(value))
+      .join("|");
+    if (fallbackKeys.has(key)) return false;
+    fallbackKeys.add(key);
+    return true;
+  })
+  .map((product) => {
+    const usedLabels = new Set();
+    const variants = (product.variants ?? []).map((variant, index) => {
+      const sku = variant.sku ?? null;
+      const rawLabel = String(variant.label ?? `Вариант ${index + 1}`).trim();
+      const baseLabel =
+        /^REF(?:\s|$)/iu.test(rawLabel) ||
+        (sku && rawLabel.toLocaleLowerCase("ru") === sku.toLocaleLowerCase("ru"))
+          ? `${product.name} · REF ${sku ?? index + 1}`
+          : rawLabel;
+      let label = baseLabel;
+      if (usedLabels.has(label.toLocaleLowerCase("ru"))) {
+        label = `${baseLabel} · REF ${sku ?? index + 1}`;
+      }
+      usedLabels.add(label.toLocaleLowerCase("ru"));
+      return {
+        ...variant,
+        id: variant.id ?? `${product.id}-variant-${index + 1}`,
+        sku,
+        label,
+        attributes: {
+          ...(variant.attributes ?? {}),
+          ...(sku ? { "Артикул производителя": sku } : {}),
+        },
+      };
+    });
+    return {
+    id: product.id,
+    name: product.name,
+    description: product.description ?? "",
+    descriptionSources: undefined,
+    brand: product.brand ?? null,
+    manufacturer: product.manufacturer ?? null,
+    category: product.category ?? "Стоматологические товары",
+    sourceUrl: product.sourceUrl ?? null,
+    sourceUpdatedAt: product.sourceUpdatedAt ?? null,
+    attributes: product.attributes ?? [],
+    aliases: [],
+    variants,
+    media: product.imageUrl
+      ? [
+          {
+            id: `${product.id}-approved-media`,
+            sourceUrl: product.imageUrl,
+            securePath: null,
+            normalizedStorageKey: null,
+            altText: product.name,
+            width: null,
+            height: null,
+            metadata: {
+              exactProductPhoto: true,
+              rightsStatus:
+                "OFFICIAL_SOURCE_REQUIRES_PLATFORM_RIGHTS_CONFIRMATION",
+              sourceImageUrl: product.imageUrl,
+              visualCompliance: "source_verified",
+            },
+          },
+        ]
+      : [],
+    photoStatus: product.photoStatus ?? "exact",
+    catalogSource: product.catalogSource ?? "manufacturer",
+    minNormalizedPriceMinor: null,
+    isAvailable: false,
+    offers: [],
+  };
+  });
+products.push(...approvedOnlyProducts);
 products.sort((a, b) => a.name.localeCompare(b.name, "ru"));
 const quarantine = quarantined.map(([key, rowCount]) => {
   const separator = key.indexOf("|");
@@ -599,7 +694,7 @@ const quarantine = quarantined.map(([key, rowCount]) => {
 });
 await fs.writeFile(
   output,
-  `${JSON.stringify({ generatedAt: new Date().toISOString(), sourceFiles: files, total: products.length, quarantine, products }, null, 2)}\n`,
+  `${JSON.stringify({ generatedAt: new Date().toISOString(), sourceFiles: files, total: products.length, approvedCanonicalCards: approvedOnlyProducts.length, quarantine, products }, null, 2)}\n`,
 );
 console.log(
   JSON.stringify(
@@ -610,6 +705,7 @@ console.log(
       acceptedRows: acceptedRows.length,
       quarantinedRows: rows.length - acceptedRows.length,
       canonicalCards: products.length,
+      approvedCanonicalCards: approvedOnlyProducts.length,
     },
     null,
     2,
