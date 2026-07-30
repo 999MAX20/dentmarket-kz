@@ -47,15 +47,25 @@ const categoryPages = new Set([`${baseUrl}/catalog/`]);
 const home = await html(`${baseUrl}/`);
 for (const href of home.matchAll(/href=["']([^"']*\/catalog\/[^"']*)["']/gi))
   categoryPages.add(absolute(href[1]));
+const catalogIndex = await html(`${baseUrl}/catalog/`);
+for (const href of catalogIndex.matchAll(
+  /href=["']([^"']*\/catalog\/[^"']*)["']/gi,
+))
+  categoryPages.add(absolute(href[1]));
 const productUrls = new Set();
 for (const categoryUrl of [...categoryPages].slice(0, 80)) {
   try {
     const page = await html(categoryUrl);
     for (const match of page.matchAll(
-      /href=["']([^"']*\/catalog\/[^"']+\/[^"']+\/)["']/gi,
+      /href=["']([^"']*\/catalog\/[^"']+\/[^"']+\/[^"']+\/)["']/gi,
     )) {
       const url = absolute(match[1]);
-      if (!url.includes("/catalog/search") && !url.endsWith("/catalog/"))
+      const pathParts = new URL(url).pathname.split("/").filter(Boolean);
+      if (
+        pathParts.length >= 4 &&
+        !url.includes("/catalog/search") &&
+        !url.endsWith("/catalog/")
+      )
         productUrls.add(url);
       if (productUrls.size >= maxProducts) break;
     }
