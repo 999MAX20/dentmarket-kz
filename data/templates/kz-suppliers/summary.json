@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-30T13:34:19.104Z",
-  "suppliers": 22,
-  "templates": 22,
+  "generatedAt": "2026-07-30T13:43:44.047Z",
+  "suppliers": 30,
+  "templates": 30,
   "preparedRows": 3423,
   "suppliersWithPreparedRows": 6,
-  "suppliersWithoutPublicRows": 16,
+  "suppliersWithoutPublicRows": 24,
   "commercialFields": [
     "supplierSku",
     "price",
@@ -168,6 +168,62 @@
       "supplierName": "Ident LLC",
       "website": "",
       "template": "ident-llc-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Dento.kz",
+      "website": "https://dento.kz/",
+      "template": "dento-kz-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "ALGAMI",
+      "website": "https://algami.kz/",
+      "template": "algami-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Stom Partner",
+      "website": "https://stompartner.kz/",
+      "template": "stom-partner-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Все Для Стоматологии",
+      "website": "https://dentmart.kz/",
+      "template": "все-для-стоматологии-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "NSK-Dental",
+      "website": "https://nsk-dental.kz/",
+      "template": "nsk-dental-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Tridadent",
+      "website": "https://tridadent.kz/",
+      "template": "tridadent-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Eurasiamed",
+      "website": "https://eurasia-med.kz/",
+      "template": "eurasiamed-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Almagest Business",
+      "website": "",
+      "template": "almagest-business-price-stock-template.csv",
       "preparedRows": 0,
       "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
     }

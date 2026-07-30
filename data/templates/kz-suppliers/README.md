@@ -1,8 +1,8 @@
 # Шаблоны прайс-листа и остатков поставщиков Казахстана
 
-Сформировано: 2026-07-30T13:34:19.104Z
+Сформировано: 2026-07-30T13:43:44.047Z
 
-Создано шаблонов: 22. Предподготовлено строк: 3423.
+Создано шаблонов: 30. Предподготовлено строк: 3423.
 
 Поставщик заполняет коммерческие поля: SKU, цену, валюту, остаток, склад и срок поставки. Canonical-карточка и вариант уже указаны в строке. Публичное происхождение строки требует подтверждения поставщика и не является offer.
 
@@ -28,5 +28,13 @@
 - VITIME LLP: 0 строк — vitime-llp-price-stock-template.csv
 - IVO-HANDELS KZ: 0 строк — ivo-handels-kz-price-stock-template.csv
 - Ident LLC: 0 строк — ident-llc-price-stock-template.csv
+- Dento.kz: 0 строк — dento-kz-price-stock-template.csv
+- ALGAMI: 0 строк — algami-price-stock-template.csv
+- Stom Partner: 0 строк — stom-partner-price-stock-template.csv
+- Все Для Стоматологии: 0 строк — все-для-стоматологии-price-stock-template.csv
+- NSK-Dental: 0 строк — nsk-dental-price-stock-template.csv
+- Tridadent: 0 строк — tridadent-price-stock-template.csv
+- Eurasiamed: 0 строк — eurasiamed-price-stock-template.csv
+- Almagest Business: 0 строк — almagest-business-price-stock-template.csv
 
 Цена и остаток не публикуются до supplier confirmation, compliance и активного договора ЭЦП.
