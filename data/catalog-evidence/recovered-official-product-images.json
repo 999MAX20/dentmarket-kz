@@ -3,7 +3,7 @@
   "manufacturer": "Multiple verified manufacturers",
   "sourceType": "RECOVERED_FROM_EXISTING_OFFICIAL_PRODUCT_PAGES",
   "sourceUrl": "",
-  "lastChecked": "2026-07-23",
+  "lastChecked": "2026-07-30",
   "policy": {
     "officialExistingSourcePagesOnly": true,
     "exactPageIdentityRequired": true,
@@ -11,12 +11,12 @@
     "noSearchEngineOrThirdPartyImageAcceptedAutomatically": true
   },
   "totals": {
-    "htmlTargets": 98,
+    "htmlTargets": 66,
     "recovered": 40,
     "recoveredThisRun": 0,
     "retainedFromPreviousRuns": 40,
-    "review": 97,
-    "errors": 1
+    "review": 64,
+    "errors": 2
   },
   "products": [
     {
