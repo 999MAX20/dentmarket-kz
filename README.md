@@ -21,7 +21,7 @@ Canonical-карточка DentMarket
 
 Стоматологический каталог количественно сформирован: в последнем зафиксированном аудите — 10 363 canonical-карточки в статусе DRAFT, с вариантами, категориями, отраслью и поисковыми документами. Они не означают 10 363 коммерчески активных товара: реальные цены, остатки, договоры и подтверждённые offers поставщиков должны подключаться отдельно.
 
-Beauty подготовлен архитектурно и уже загружен в локальную БД: 12 поставщиков, 44 брендовые позиции, 12 категорий, onboarding-очередь, публичный intake UCG и 217 локальных DRAFT-карточек с вариантами. Offers, цены и остатки для них не создавались.
+Beauty подготовлен архитектурно и уже загружен в локальную БД: 12 поставщиков, 44 брендовые позиции, 12 категорий, onboarding-очередь, публичный intake UCG и 217 локальных DRAFT-карточек с вариантами. UCG intake содержит 218 исходных строк, 218 официальных изображений и 218 описаний; одна повторная canonical-карточка объединяется по идентичности. Offers, цены и остатки для них не создавались.
 
 ## 3. Репозиторий и приложения
 
@@ -305,7 +305,7 @@ organization
 - catalog-only CSV-шаблоны для всех 12 поставщиков;
 - canonical intake policy;
 - UCG public catalog crawler;
-- 80 товарных строк UCG в intake с публичными изображениями и source URL;
+- 218 товарных строк UCG в intake с публичными изображениями, описаниями и source URL;
 - 217 локальных UCG canonical-карточек после bootstrap;
 - canonical intake report.
 
@@ -379,7 +379,7 @@ PROФФ-KZ, UCG/Aesthetics Group, VLAEKAN, DD Business, LaBeauty, Futora, Jansse
 - Beauty onboarding queue generation — PASS;
 - Beauty template generation — PASS;
 - Beauty canonical intake audit — PASS;
-- UCG public crawler — PASS, 10 rows;
+- UCG public crawler — PASS, 218 rows, 218 images, 218 descriptions;
 - multi-industry canonical bootstrap typechecked by formatting/static review, но DB-run заблокирован отсутствующим `DATABASE_URL`.
 
 Команды:
@@ -431,7 +431,7 @@ pnpm load-test:handoff
 
 - репозиторий: `https://github.com/999MAX20/dentmarket-kz`;
 - рабочая ветка текущей серии: `codex/production-hardening`;
-- последний push: commit `fd363a1`.
+- последний push: commit `d479344`.
 
 Известный публичный storefront:
 
