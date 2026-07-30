@@ -42,6 +42,7 @@
     "catalog:classify-publication": "node scripts/classify-canonical-catalog.mjs",
     "catalog:audit:compliance-report": "node scripts/audit-catalog-compliance-report.mjs",
     "catalog:audit:kz-suppliers": "node scripts/build-kz-supplier-outreach-audit.mjs",
+    "catalog:build:kz-supplier-onboarding": "node scripts/build-kz-supplier-onboarding-queue.mjs",
     "catalog:prepare:image-restoration": "node scripts/prepare-product-image-restoration-queue.mjs",
     "catalog:recover:official-images": "node scripts/recover-official-product-images.mjs",
     "catalog:recover:official-pdf-images": "/Users/maksim/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/extract-official-pdf-product-images.py",
