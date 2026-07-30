@@ -5,5 +5,9 @@ import { AttributeValuesService } from "./attribute-values.service";
 import { PackagingService } from "./packaging.service";
 import { CatalogMediaController } from "./catalog-media.controller";
 
-@Module({ controllers: [CatalogController, CatalogMediaController], providers: [CatalogService, AttributeValuesService, PackagingService] })
+@Module({
+  controllers: [CatalogController, CatalogMediaController],
+  providers: [CatalogService, AttributeValuesService, PackagingService],
+  exports: [CatalogService],
+})
 export class CatalogModule {}

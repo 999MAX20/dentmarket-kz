@@ -304,6 +304,7 @@ organization
 - onboarding queue CSV/JSON;
 - catalog-only CSV-шаблоны для всех 12 поставщиков;
 - canonical intake policy;
+- Product Knowledge Graph: типизированные связи между товарами, confidence, evidence и статусы проверки;
 - UCG public catalog crawler;
 - 218 товарных строк UCG в intake с публичными изображениями, описаниями и source URL;
 - 217 локальных UCG canonical-карточек после bootstrap;
@@ -322,6 +323,7 @@ PROФФ-KZ, UCG/Aesthetics Group, VLAEKAN, DD Business, LaBeauty, Futora, Jansse
 - Beauty-категории остаются inactive до сертификации;
 - Beauty offers, цены, остатки и коммерческие договоры не подключены;
 - полноценная Beauty-публикация в production не разрешена.
+- связи Product Knowledge Graph пока не заполняются автоматически без доказуемого источника;
 
 Файлы:
 
