@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T10:37:39.188Z",
+  "generatedAt": "2026-07-30T10:40:06.462Z",
   "policy": {
     "schemaVersion": 1,
     "vertical": "beauty-kz",
@@ -115,8 +115,8 @@
       "supplierKey": "ucg-kz",
       "template": "data/intake/beauty-kz/ucg-kz.csv",
       "brands": 10,
-      "rows": 80,
-      "canonicalReady": 80,
+      "rows": 218,
+      "canonicalReady": 218,
       "commercialRows": 0,
       "status": "READY_FOR_CANONICAL_REVIEW",
       "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
