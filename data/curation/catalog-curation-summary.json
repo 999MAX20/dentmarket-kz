@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T13:17:22.767Z",
+  "generatedAt": "2026-07-30T13:22:21.618Z",
   "grain": "Одна строка на каноническую карточку, требующую подтверждения",
   "totalCards": 19172,
   "identityQueue": {
@@ -30,7 +30,33 @@
         "remoteExactPhotos": 3195,
         "missingOrUnverifiedPhotos": 0
       }
-    }
+    },
+    "p0BySource": [
+      {
+        "source": "a4d.kz",
+        "cards": 877
+      },
+      {
+        "source": "medstom.kz",
+        "cards": 332
+      },
+      {
+        "source": "amdgroup.kz",
+        "cards": 142
+      },
+      {
+        "source": "nordstom.kz",
+        "cards": 30
+      },
+      {
+        "source": "stomir.kz",
+        "cards": 29
+      },
+      {
+        "source": "kazdentservice.kz",
+        "cards": 21
+      }
+    ]
   },
   "safety": {
     "inventedBrands": 0,

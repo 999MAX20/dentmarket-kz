@@ -52,6 +52,14 @@ const directProductMedia = (product) =>
       !rejectedAsset(item.sourceUrl),
   );
 
+const sourceHost = (value) => {
+  try {
+    return new URL(value).hostname;
+  } catch {
+    return "UNKNOWN_SOURCE";
+  }
+};
+
 const products = catalog.products ?? [];
 const usablePhotoBySource = new Map(
   await Promise.all(
@@ -182,6 +190,18 @@ const summary = {
         },
       ]),
     ),
+    p0BySource: Object.entries(
+      photoQueue
+        .filter((row) => row.priority === "P0_COMMERCIAL")
+        .reduce((result, row) => {
+          const host = sourceHost(row.sourceUrl);
+          result[host] = (result[host] ?? 0) + 1;
+          return result;
+        }, {}),
+    )
+      .sort(([, left], [, right]) => right - left)
+      .slice(0, 20)
+      .map(([source, cards]) => ({ source, cards })),
   },
   safety: {
     inventedBrands: 0,
@@ -200,8 +220,11 @@ const priorityMarkdown = [
     return `- ${priority}, ${label}: ${item.cards} (удалённых официальных фото: ${item.remoteExactPhotos}, отсутствуют/не подтверждены: ${item.missingOrUnverifiedPhotos})`;
   })
   .join("\\n");
+const p0SourceMarkdown = summary.photoQueue.p0BySource
+  .map((item) => `- ${item.source}: ${item.cards}`)
+  .join("\\n");
 
-const markdown = `# Очереди подготовки каталога\n\nСформировано: ${summary.generatedAt}\n\n## Покрытие\n\n- Карточек: ${summary.totalCards}\n- Требуют подтверждения бренда или производителя: ${summary.identityQueue.cards}\n- Требуют точного фото или локальной нормализации: ${summary.photoQueue.cards}\n- Официальное фото уже найдено, но ещё не нормализовано локально: ${summary.photoQueue.remoteExactPhotos}\n- Действительно отсутствуют или не подтверждены: ${summary.photoQueue.missingOrUnverifiedPhotos}\n- Все незаполненные поля попали в очередь: 100%\n\n### Приоритет обработки фото\n\n${priorityMarkdown}\n\n## Правило публикации\n\n${summary.safety.rule}\n\nКарточка получает бренд, производителя и точное фото только после сверки с официальным каталогом или подтверждённым прайсом. Это предотвращает ложные объединения предложений разных товаров.\n`;
+const markdown = `# Очереди подготовки каталога\n\nСформировано: ${summary.generatedAt}\n\n## Покрытие\n\n- Карточек: ${summary.totalCards}\n- Требуют подтверждения бренда или производителя: ${summary.identityQueue.cards}\n- Требуют точного фото или локальной нормализации: ${summary.photoQueue.cards}\n- Официальное фото уже найдено, но ещё не нормализовано локально: ${summary.photoQueue.remoteExactPhotos}\n- Действительно отсутствуют или не подтверждены: ${summary.photoQueue.missingOrUnverifiedPhotos}\n- Все незаполненные поля попали в очередь: 100%\n\n### Приоритет обработки фото\n\n${priorityMarkdown}\n\n### P0: источники карточек без фото\n\n${p0SourceMarkdown}\n\n## Правило публикации\n\n${summary.safety.rule}\n\nКарточка получает бренд, производителя и точное фото только после сверки с официальным каталогом или подтверждённым прайсом. Это предотвращает ложные объединения предложений разных товаров.\n`;
 
 await fs.mkdir(outputDirectory, { recursive: true });
 await Promise.all([
