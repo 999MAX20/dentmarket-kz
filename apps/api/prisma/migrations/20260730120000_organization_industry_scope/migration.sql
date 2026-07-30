@@ -12,7 +12,7 @@ UPDATE "Organization" o
 SET "primaryIndustryId" = i.id
 FROM "Industry" i
 WHERE i.code = 'dentistry-kz'
-  AND "primaryIndustryId" IS NULL
+  AND o."primaryIndustryId" IS NULL
   AND EXISTS (
     SELECT 1
     FROM "OrganizationCapability" c

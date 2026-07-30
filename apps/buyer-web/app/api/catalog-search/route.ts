@@ -169,11 +169,13 @@ export async function GET(request: NextRequest) {
   const offset = Math.max(0, Number(params.get("offset") ?? 0) || 0);
   const limit = Math.min(120, Math.max(1, Number(params.get("limit") ?? 60) || 60));
   const sort = params.get("sort") ?? "RELEVANCE";
+  const category = normalize(params.get("category") ?? "");
   const placement =
     params.get("placement") === "promotion" ? "promotion" : "catalog";
 
   const filtered = catalog.products
     .filter((product) => productPlacement(product) === placement)
+    .filter((product) => !category || normalize(product.category).includes(category))
     .filter((product) => {
       if (!intent.concepts.length) return true;
       const text = searchableText(product);
@@ -212,6 +214,17 @@ export async function GET(request: NextRequest) {
     return left.name.localeCompare(right.name, "ru");
   });
 
+  const categoryFacet = Array.from(
+    filtered.reduce((counts, product) => {
+      const name = product.category || "Стоматологические товары";
+      counts.set(name, (counts.get(name) ?? 0) + 1);
+      return counts;
+    }, new Map<string, number>()),
+  )
+    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0], "ru"))
+    .slice(0, 30)
+    .map(([name, count]) => ({ id: `published-category-${normalize(name).replaceAll(" ", "-")}`, name, count }));
+
   return NextResponse.json(
     {
       total: filtered.length,
@@ -220,7 +233,7 @@ export async function GET(request: NextRequest) {
       items: filtered.slice(offset, offset + limit).map(toSearchProduct),
       interpretedQuery: intent.interpretedTerms,
       matchedAliases: intent.matchedAliases,
-      facets: { categories: [], suppliers: [] },
+      facets: { categories: categoryFacet, suppliers: [] },
     },
     {
       headers: {

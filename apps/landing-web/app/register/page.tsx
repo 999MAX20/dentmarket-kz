@@ -65,6 +65,7 @@ export default function RegisterPage() {
     legalName: "",
     organizationDisplayName: "",
     bin: "",
+    industryCode: "dentistry-kz",
     termsAccepted: false,
     privacyAccepted: false,
     marketingConsent: false,
@@ -436,6 +437,16 @@ export default function RegisterPage() {
                   placeholder="12 цифр"
                   required
                 />
+              </label>
+              <label className="wide">
+                <span>Отрасль каталога</span>
+                <select
+                  value={form.industryCode}
+                  onChange={(e) => setForm({ ...form, industryCode: e.target.value })}
+                >
+                  <option value="dentistry-kz">Стоматология</option>
+                </select>
+                <small>Сейчас доступна стоматология. Другие отрасли подключим позже.</small>
               </label>
               <label className="check wide">
                 <input

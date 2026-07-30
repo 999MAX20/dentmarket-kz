@@ -245,15 +245,23 @@ export class ModerationService {
       existingVariants,
     )[0];
     if (duplicate && duplicate.score >= 0.8) throw new ConflictException(`Possible duplicate catalog card: ${duplicate.variant.product.canonicalName}. Link the supplier offer to the existing variant instead.`);
-    const [industryCount, categoryCount] = await Promise.all([
-      this.prisma.industry.count({
-        where: { id: { in: input.industryIds }, status: "ACTIVE" },
+    const [industries, categories] = await Promise.all([
+      this.prisma.industry.findMany({
+        where: { id: { in: [...new Set(input.industryIds)] }, status: "ACTIVE" },
+        select: { id: true },
       }),
-      this.prisma.category.count({
-        where: { id: { in: input.categoryIds }, status: "ACTIVE" },
+      this.prisma.category.findMany({
+        where: { id: { in: [...new Set(input.categoryIds)] }, status: "ACTIVE" },
+        select: { id: true, industryId: true },
       }),
     ]);
-    if (industryCount !== new Set(input.industryIds).size || categoryCount !== new Set(input.categoryIds).size) throw new BadRequestException("Every industry and category must exist and be active");
+    const industryIds = new Set(industries.map((industry) => industry.id));
+    const categoriesAreClassified = categories.every((category) => industryIds.has(category.industryId));
+    if (
+      industries.length !== new Set(input.industryIds).size ||
+      categories.length !== new Set(input.categoryIds).size ||
+      !categoriesAreClassified
+    ) throw new BadRequestException("Every industry and category must exist, be active, and belong to the selected industry scope");
     try {
       return await this.prisma.$transaction(async (tx) => {
         const product = await tx.product.create({

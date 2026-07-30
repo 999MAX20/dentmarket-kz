@@ -105,7 +105,7 @@ export class ImportsService implements OnModuleInit {
       where: { id: offerId, supplierOrganizationId },
       include: {
         publication: true,
-        productVariant: { include: { product: true } },
+        productVariant: { include: { product: { include: { industries: true } } } },
         prices: {
           where: {
             status: "ACTIVE",
@@ -141,6 +141,12 @@ export class ImportsService implements OnModuleInit {
       offer.inventoryBalances.length === 0
     )
       return false;
+    const [supplier, dentistry] = await Promise.all([
+      this.prisma.organization.findUnique({ where: { id: supplierOrganizationId }, select: { primaryIndustryId: true } }),
+      this.prisma.industry.findUnique({ where: { code: "dentistry-kz" }, select: { id: true } }),
+    ]);
+    const supplierIndustryId = supplier?.primaryIndustryId ?? dentistry?.id;
+    if (!supplierIndustryId || !offer.productVariant.product.industries.some((industry) => industry.industryId === supplierIndustryId)) return false;
     try {
       await this.agreements.assertActive(supplierOrganizationId);
       await this.compliance.assertOfferPublishable(
@@ -629,7 +635,13 @@ export class ImportsService implements OnModuleInit {
     );
     if (!mappingResult.success)
       throw new BadRequestException("Import batch column mapping is invalid");
+    const [supplier, dentistry] = await Promise.all([
+      this.prisma.organization.findUnique({ where: { id: supplierOrganizationId }, select: { primaryIndustryId: true } }),
+      this.prisma.industry.findUnique({ where: { code: "dentistry-kz" }, select: { id: true } }),
+    ]);
+    const supplierIndustryId = supplier?.primaryIndustryId ?? dentistry?.id;
     const variants = await this.prisma.productVariant.findMany({
+      where: supplierIndustryId ? { product: { industries: { some: { industryId: supplierIndustryId } } } } : undefined,
       include: { product: { include: { brand: true, manufacturer: true } } },
     });
     const defaultWarehouse = await this.prisma.warehouse.findFirst({

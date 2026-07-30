@@ -38,7 +38,7 @@ describe("self-registration schemas", () => {
       privacyAccepted: true,
       idempotencyKey: "registration-2026-001",
     });
-    expect(result).toMatchObject({ email: "owner@dental.kz", marketingConsent: false, capability: "SUPPLIER" });
+    expect(result).toMatchObject({ email: "owner@dental.kz", marketingConsent: false, capability: "SUPPLIER", industryCode: "dentistry-kz" });
   });
 
   it("rejects missing consent, invalid BIN and short registration handoff tokens", () => {
