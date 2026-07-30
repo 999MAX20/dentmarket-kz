@@ -307,7 +307,7 @@ organization
 - UCG public catalog crawler;
 - 218 товарных строк UCG в intake с публичными изображениями, описаниями и source URL;
 - 217 локальных UCG canonical-карточек после bootstrap;
-- 218 локальных UCG media нормализованы в WebP 1200×1200 с белым фоном; manifest: `data/reports/beauty-kz/media-normalization-manifest.json`;
+- 219 локальных UCG media нормализованы в WebP 1200×1200 с белым фоном для 218 карточек; manifest: `data/reports/beauty-kz/media-normalization-manifest.json`;
 - canonical intake report.
 
 ### Поставщики в очереди

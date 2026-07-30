@@ -115,12 +115,17 @@ for (const url of productUrls) {
     const description = metaContent(page, "description", "name");
     const name = decode(titleMatch?.[1] ?? "");
     if (!name) continue;
+    const brandFromPage = page.match(
+      /product-item-detail-properties-name[\s\S]{0,500}?Бренд:[\s\S]{0,220}?<a[^>]*>([^<]+)<\/a>/iu,
+    )?.[1];
     const brand =
+      decode(brandFromPage ?? "").toLocaleUpperCase("ru") ||
       knownBrands.find((candidate) =>
         name
           .toLocaleLowerCase("ru")
           .includes(candidate.toLocaleLowerCase("ru")),
-      ) ?? "";
+      ) ||
+      "";
     const pathParts = new URL(url).pathname.split("/").filter(Boolean);
     rows.push({
       externalId: slugId(url),

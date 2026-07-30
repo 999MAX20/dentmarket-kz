@@ -161,11 +161,21 @@ for (const relative of inputFiles) {
       where: { slug: productSlug },
       select: { id: true, externalMetadata: true },
     });
+    const existingBySource = await prisma.product.findFirst({
+      where: {
+        AND: [
+          { externalMetadata: { path: ["source"], equals: source } },
+          { externalMetadata: { path: ["externalId"], equals: externalId } },
+        ],
+      },
+      select: { id: true, externalMetadata: true },
+    });
+    const previousProduct = existingBySource ?? existing;
     const previousMetadata =
-      existing?.externalMetadata &&
-      typeof existing.externalMetadata === "object" &&
-      !Array.isArray(existing.externalMetadata)
-        ? existing.externalMetadata
+      previousProduct?.externalMetadata &&
+      typeof previousProduct.externalMetadata === "object" &&
+      !Array.isArray(previousProduct.externalMetadata)
+        ? previousProduct.externalMetadata
         : {};
     const sourceRecord = {
       source,
@@ -202,45 +212,34 @@ for (const relative of inputFiles) {
         .filter(Boolean),
       importedAsCanonicalDraft: true,
     };
-    const product = await prisma.product.upsert({
-      where: { slug: productSlug },
-      update: {
-        canonicalName: name,
-        description: row.description || null,
-        descriptionSources: row.description
-          ? {
-              source,
-              sourceUrl: row.sourceUrl || null,
-              collectedAt: new Date().toISOString(),
-            }
-          : undefined,
-        status: "DRAFT",
-        productType: productType(name),
-        brandId: brand?.id ?? null,
-        manufacturerId: manufacturer?.id ?? null,
-        baseUnitId: saleUnit?.id ?? null,
-        externalMetadata: mergedMetadata,
-      },
-      create: {
-        canonicalName: name,
-        description: row.description || null,
-        descriptionSources: row.description
-          ? {
-              source,
-              sourceUrl: row.sourceUrl || null,
-              collectedAt: new Date().toISOString(),
-            }
-          : undefined,
-        slug: productSlug,
-        status: "DRAFT",
-        productType: productType(name),
-        brandId: brand?.id ?? null,
-        manufacturerId: manufacturer?.id ?? null,
-        baseUnitId: saleUnit?.id ?? null,
-        externalMetadata: mergedMetadata,
-      },
-    });
-    if (existing) updated += 1;
+    const productData = {
+      canonicalName: name,
+      description: row.description || null,
+      descriptionSources: row.description
+        ? {
+            source,
+            sourceUrl: row.sourceUrl || null,
+            collectedAt: new Date().toISOString(),
+          }
+        : undefined,
+      status: "DRAFT",
+      productType: productType(name),
+      brandId: brand?.id ?? null,
+      manufacturerId: manufacturer?.id ?? null,
+      baseUnitId: saleUnit?.id ?? null,
+      externalMetadata: mergedMetadata,
+    };
+    const product = existingBySource
+      ? await prisma.product.update({
+          where: { id: existingBySource.id },
+          data: productData,
+        })
+      : await prisma.product.upsert({
+          where: { slug: productSlug },
+          update: productData,
+          create: { ...productData, slug: productSlug },
+        });
+    if (existingBySource || existing) updated += 1;
     else created += 1;
     try {
       await prisma.productIndustry.upsert({
