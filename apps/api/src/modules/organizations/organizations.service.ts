@@ -1,5 +1,5 @@
 import { ConflictException, Injectable } from "@nestjs/common";
-import type { CreateOrganizationInput } from "@marketplace/schemas";
+import type { CreateOrganizationInput, SwitchOrganizationIndustryInput } from "@marketplace/schemas";
 import { Prisma } from "@prisma/client";
 import { PrismaService } from "../../platform/prisma/prisma.service";
 
@@ -55,5 +55,19 @@ export class OrganizationsService {
       }
       throw error;
     }
+  }
+
+  async switchIndustry(organizationId: string, input: SwitchOrganizationIndustryInput, context: { actorId: string; organizationId: string }) {
+    const industry = await this.prisma.industry.findFirst({ where: { code: input.industryCode, status: "ACTIVE" } });
+    if (!industry) throw new ConflictException("Industry is not active or does not exist");
+    const organization = await this.prisma.organization.findUnique({ where: { id: organizationId }, select: { id: true, primaryIndustryId: true } });
+    if (!organization) throw new ConflictException("Organization not found");
+    if (organization.primaryIndustryId === industry.id) return { organizationId, industryCode: input.industryCode, changed: false };
+    const updated = await this.prisma.$transaction(async (tx) => {
+      const result = await tx.organization.update({ where: { id: organizationId }, data: { primaryIndustryId: industry.id, version: { increment: 1 } }, include: { primaryIndustry: true } });
+      await tx.auditLog.create({ data: { ...context, organizationId, action: "organization.industry.changed", entityType: "Organization", entityId: organizationId, before: { primaryIndustryId: organization.primaryIndustryId }, after: { primaryIndustryId: industry.id, industryCode: industry.code } } });
+      return result;
+    });
+    return { organizationId: updated.id, industryCode: updated.primaryIndustry?.code ?? input.industryCode, changed: true };
   }
 }

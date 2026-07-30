@@ -22,7 +22,12 @@ export const createOrganizationSchema = z.object({
   industryCode: z.string().trim().regex(/^[a-z][a-z0-9-]{2,63}$/).default("dentistry-kz"),
 });
 
+export const switchOrganizationIndustrySchema = z.object({
+  industryCode: z.string().trim().regex(/^[a-z][a-z0-9-]{2,63}$/),
+});
+
 export type CreateOrganizationInput = z.infer<typeof createOrganizationSchema>;
+export type SwitchOrganizationIndustryInput = z.infer<typeof switchOrganizationIndustrySchema>;
 
 export const createInvitationSchema = z.object({
   email: z.email().transform((value) => value.toLowerCase()),

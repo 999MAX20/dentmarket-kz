@@ -47,6 +47,7 @@ const permissionCodes = [
   "import.manage",
   "matching.manage",
   "catalog.offer.publish",
+  "catalog.industry.switch",
   "pricing.manage",
   "inventory.reserve",
   "catalog.candidate.moderate",

@@ -23,7 +23,12 @@ export class SmartRecommendationService {
     if (existing && existing.buyerOrganizationId === input.buyerOrganizationId) return existing.result;
     const address = await this.assertBuyer(input, context);
     const now = new Date();
-    const product = await this.prisma.product.findFirst({ where: { id: input.productId, status: "ACTIVE" }, include: {
+    const [buyer, dentistry] = await Promise.all([
+      this.prisma.organization.findUnique({ where: { id: input.buyerOrganizationId }, select: { primaryIndustryId: true } }),
+      this.prisma.industry.findUnique({ where: { code: "dentistry-kz" }, select: { id: true } }),
+    ]);
+    const industryId = buyer?.primaryIndustryId ?? dentistry?.id;
+    const product = await this.prisma.product.findFirst({ where: { id: input.productId, status: "ACTIVE", ...(industryId ? { industries: { some: { industryId } } } : {}) }, include: {
       categories: true,
       variants: { where: { status: "ACTIVE" }, include: { supplierOffers: { where: { status: "ACTIVE", publication: { is: { marketplaceVisible: true, status: { in: ["PUBLISHED", "RESTRICTED"] } } } }, include: {
         supplier: { include: { organization: true } },
