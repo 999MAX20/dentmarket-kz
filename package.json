@@ -32,6 +32,7 @@
     "catalog:build:beauty-templates": "node scripts/build-beauty-catalog-only-templates.mjs",
     "catalog:audit:beauty-canonical-intake": "node scripts/build-beauty-canonical-intake-report.mjs",
     "catalog:crawl:beauty-ucg": "node scripts/crawl-ucg-beauty-catalog.mjs",
+    "catalog:normalize:beauty-local": "node scripts/normalize-beauty-local-media.mjs",
     "catalog:audit-kz-intake": "node scripts/audit-kz-catalog-intake.mjs",
     "catalog:audit:manufacturer-evidence": "node scripts/audit-manufacturer-catalog-evidence.mjs",
     "catalog:audit:kz-brand-coverage": "node scripts/audit-kz-brand-catalog-coverage.mjs",
