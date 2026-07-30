@@ -6,6 +6,7 @@ import { PDFDocument, StandardFonts } from "pdf-lib";
 import { calculateSupplierTrust } from "../src/modules/trust-commerce/trust-score.engine";
 import { buildInvoiceDraft } from "../src/modules/payments/invoice-rules";
 import { industryCatalog } from "./industry-catalog";
+import { beautyCategoryCatalog } from "./vertical-taxonomy";
 
 const prisma = new PrismaClient();
 
@@ -279,6 +280,14 @@ async function seed() {
   for (const spec of categorySpecs) {
     const category = await prisma.category.upsert({ where: { industryId_code: { industryId: dentistryIndustry.id, code: spec.code } }, update: { nameRu: spec.nameRu, nameKk: spec.nameKk }, create: { industryId: dentistryIndustry.id, code: spec.code, nameRu: spec.nameRu, nameKk: spec.nameKk, path: spec.code } });
     categories.set(spec.code, category);
+  }
+  const beautyIndustry = await prisma.industry.findUniqueOrThrow({ where: { code: "beauty-kz" } });
+  for (const spec of beautyCategoryCatalog) {
+    await prisma.category.upsert({
+      where: { industryId_code: { industryId: beautyIndustry.id, code: spec.code } },
+      update: { nameRu: spec.nameRu, nameKk: spec.nameKk ?? spec.nameRu, status: "INACTIVE" },
+      create: { industryId: beautyIndustry.id, code: spec.code, nameRu: spec.nameRu, nameKk: spec.nameKk ?? spec.nameRu, path: spec.code, status: "INACTIVE" },
+    });
   }
   const specificationGroup = await prisma.attributeGroup.upsert({ where: { code: "dentistry-specification" }, update: {}, create: { code: "dentistry-specification", nameRu: "Характеристики", nameKk: "Сипаттамалар" } });
   const attributeSpecs = [
