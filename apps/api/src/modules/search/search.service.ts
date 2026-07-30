@@ -10,7 +10,7 @@ import type {
 } from "@marketplace/schemas";
 import { Prisma } from "@prisma/client";
 import { PrismaService } from "../../platform/prisma/prisma.service";
-import { expandDentalSearchQuery } from "./dental-search-lexicon";
+import { expandIndustrySearchQuery } from "./industry-search-lexicon";
 import { SearchAnalyticsService } from "./search-analytics.service";
 import { resolvePriceRules } from "../pricing/price-resolver";
 import type { SupplierActorContext } from "../suppliers/supplier-access.service";
@@ -109,7 +109,7 @@ export class SearchService {
     const industryId = input.industryId ?? buyer.primaryIndustryId ?? dentistry?.id;
     if (input.industryId && buyer.primaryIndustryId && input.industryId !== buyer.primaryIndustryId)
       throw new ForbiddenException("Catalog industry does not match buyer organization");
-    const searchIntent = expandDentalSearchQuery(input.q);
+    const searchIntent = expandIndustrySearchQuery(buyer.primaryIndustry?.code, input.q);
     const q = searchIntent.normalizedQuery;
     const expandedQuery = searchIntent.expandedQuery;
     let attributeFilters: Record<string, unknown> = {};

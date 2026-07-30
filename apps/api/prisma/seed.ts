@@ -6,7 +6,7 @@ import { PDFDocument, StandardFonts } from "pdf-lib";
 import { calculateSupplierTrust } from "../src/modules/trust-commerce/trust-score.engine";
 import { buildInvoiceDraft } from "../src/modules/payments/invoice-rules";
 import { industryCatalog } from "./industry-catalog";
-import { beautyCategoryCatalog } from "./vertical-taxonomy";
+import { beautyAttributeCatalog, beautyCategoryAttributeRules, beautyCategoryCatalog } from "./vertical-taxonomy";
 
 const prisma = new PrismaClient();
 
@@ -287,6 +287,37 @@ async function seed() {
       where: { industryId_code: { industryId: beautyIndustry.id, code: spec.code } },
       update: { nameRu: spec.nameRu, nameKk: spec.nameKk ?? spec.nameRu, status: "INACTIVE" },
       create: { industryId: beautyIndustry.id, code: spec.code, nameRu: spec.nameRu, nameKk: spec.nameKk ?? spec.nameRu, path: spec.code, status: "INACTIVE" },
+    });
+  }
+  const beautySpecificationGroup = await prisma.attributeGroup.upsert({ where: { code: "beauty-specification" }, update: { nameRu: "Характеристики Beauty", nameKk: "Beauty сипаттамалары" }, create: { code: "beauty-specification", nameRu: "Характеристики Beauty", nameKk: "Beauty сипаттамалары" } });
+  const beautyAttributes = new Map<string, { id: string }>();
+  for (const spec of beautyAttributeCatalog) {
+    const attribute = await prisma.attributeDefinition.upsert({ where: { code: spec.code }, update: { nameRu: spec.nameRu, nameKk: spec.nameKk, valueType: spec.valueType, groupId: beautySpecificationGroup.id, isSearchable: true, isFilterable: true }, create: { ...spec, groupId: beautySpecificationGroup.id, isSearchable: true, isFilterable: true } });
+    beautyAttributes.set(spec.code, attribute);
+  }
+  for (const [categoryCode, rules] of Object.entries(beautyCategoryAttributeRules)) {
+    const category = await prisma.category.findUniqueOrThrow({ where: { industryId_code: { industryId: beautyIndustry.id, code: categoryCode } } });
+    for (const [attributeCode, isVariant] of rules) {
+      const attribute = beautyAttributes.get(attributeCode);
+      if (!attribute) continue;
+      await prisma.categoryAttributeRule.upsert({ where: { categoryId_attributeId: { categoryId: category.id, attributeId: attribute.id } }, update: { isRequired: true, isVariant }, create: { categoryId: category.id, attributeId: attribute.id, isRequired: true, isVariant } });
+    }
+  }
+  const beautyRuleDate = new Date("2026-01-01T00:00:00.000Z");
+  for (const rule of [
+    {
+      code: "BEAUTY.PROFESSIONAL_USE", version: 1, name: "Профессиональные Beauty-товары требуют проверки организации", industryCode: "beauty-kz", riskLevel: "ORANGE" as const, decision: "MANUAL_REVIEW" as const, priority: 20,
+      conditions: { requirements: { requiredCredentialAnyOf: [["BUSINESS_LICENSE", "MEDICAL_LICENSE"]] } }, requiredCredentialTypes: [], disclosureText: "Профессиональное применение доступно только после проверки организации.",
+    },
+    {
+      code: "BEAUTY.SHELF_LIFE", version: 1, name: "Минимальный остаточный срок годности Beauty-товаров", industryCode: "beauty-kz", riskLevel: "YELLOW" as const, decision: "MANUAL_REVIEW" as const, priority: 30,
+      conditions: { requirements: { lotRequired: true, minimumRemainingShelfLifeDays: 90 } }, requiredCredentialTypes: [], disclosureText: "Для Beauty-товаров требуется партия с подтверждённым сроком годности.",
+    },
+  ]) {
+    await prisma.complianceRule.upsert({
+      where: { code_version: { code: rule.code, version: rule.version } },
+      update: { ...rule, status: "DRAFT", effectiveFrom: beautyRuleDate, effectiveTo: null },
+      create: { ...rule, status: "DRAFT", effectiveFrom: beautyRuleDate, effectiveTo: null },
     });
   }
   const specificationGroup = await prisma.attributeGroup.upsert({ where: { code: "dentistry-specification" }, update: {}, create: { code: "dentistry-specification", nameRu: "Характеристики", nameKk: "Сипаттамалар" } });
