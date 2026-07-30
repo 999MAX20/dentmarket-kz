@@ -35,6 +35,14 @@ pnpm catalog:build:beauty-onboarding-queue
 
 Результат: `data/reports/beauty-kz/supplier-onboarding-queue.csv` и `.json`. В очереди нет секретов и персональных данных — только публичные ссылки, бренды, приоритет и перечень документов для запроса.
 
+Для каждого кандидата также можно сгенерировать пустой catalog-only шаблон:
+
+```bash
+pnpm catalog:build:beauty-templates
+```
+
+Шаблоны находятся в `data/templates/beauty-kz/`. В них намеренно нет цены и остатков. Поставщик может сначала выгрузить карточки, характеристики, варианты и изображения, а коммерческий прайс загрузить позже. Это соответствует модели: canonical product принадлежит DentMarket, коммерческие price/stock являются отдельными supplier offers.
+
 ## Приоритет outreach
 
 1. PROФФ-KZ, UCG/Aesthetics Group и VLAEKAN — сильные публичные брендовые портфели.
