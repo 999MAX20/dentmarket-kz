@@ -5,6 +5,7 @@ import { dirname, join } from "node:path";
 import { PDFDocument, StandardFonts } from "pdf-lib";
 import { calculateSupplierTrust } from "../src/modules/trust-commerce/trust-score.engine";
 import { buildInvoiceDraft } from "../src/modules/payments/invoice-rules";
+import { industryCatalog } from "./industry-catalog";
 
 const prisma = new PrismaClient();
 
@@ -123,11 +124,14 @@ async function seed() {
     },
   });
 
-  const dentistryIndustry = await prisma.industry.upsert({
-    where: { code: "dentistry-kz" },
-    update: {},
-    create: { code: "dentistry-kz", nameRu: "Стоматология", nameKk: "Стоматология" },
-  });
+  for (const industry of industryCatalog) {
+    await prisma.industry.upsert({
+      where: { code: industry.code },
+      update: { nameRu: industry.nameRu, nameKk: industry.nameKk ?? industry.nameRu, status: industry.code === "dentistry-kz" ? "ACTIVE" : "INACTIVE" },
+      create: { code: industry.code, nameRu: industry.nameRu, nameKk: industry.nameKk ?? industry.nameRu, status: industry.code === "dentistry-kz" ? "ACTIVE" : "INACTIVE" },
+    });
+  }
+  const dentistryIndustry = await prisma.industry.findUniqueOrThrow({ where: { code: "dentistry-kz" } });
 
   for (const code of permissionCodes) {
     await prisma.permission.upsert({
