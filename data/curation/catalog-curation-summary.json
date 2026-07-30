@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T13:08:51.924Z",
+  "generatedAt": "2026-07-30T13:17:22.767Z",
   "grain": "Одна строка на каноническую карточку, требующую подтверждения",
   "totalCards": 19172,
   "identityQueue": {
@@ -13,7 +13,24 @@
     "coveredByQueuePercent": 100,
     "normalizedExactPhotos": 1422,
     "remoteExactPhotos": 16284,
-    "missingOrUnverifiedPhotos": 1466
+    "missingOrUnverifiedPhotos": 1466,
+    "byPriority": {
+      "P0_COMMERCIAL": {
+        "cards": 1431,
+        "remoteExactPhotos": 0,
+        "missingOrUnverifiedPhotos": 1431
+      },
+      "P1_IDENTIFIED": {
+        "cards": 13124,
+        "remoteExactPhotos": 13089,
+        "missingOrUnverifiedPhotos": 35
+      },
+      "P2_CATALOG": {
+        "cards": 3195,
+        "remoteExactPhotos": 3195,
+        "missingOrUnverifiedPhotos": 0
+      }
+    }
   },
   "safety": {
     "inventedBrands": 0,
