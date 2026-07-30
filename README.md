@@ -430,7 +430,7 @@ pnpm load-test:handoff
 
 - репозиторий: `https://github.com/999MAX20/dentmarket-kz`;
 - рабочая ветка текущей серии: `codex/production-hardening`;
-- последний push: commit `1da17de`.
+- последний push: commit `e863143`.
 
 Известный публичный storefront:
 
