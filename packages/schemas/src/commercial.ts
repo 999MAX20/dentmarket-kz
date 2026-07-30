@@ -22,6 +22,7 @@ export const createRegistrationIntentSchema = z.object({
   organizationDisplayName: z.string().trim().min(2).max(160),
   bin: z.string().regex(/^\d{12}$/, "БИН должен содержать 12 цифр"),
   capability: z.enum(["BUYER", "SUPPLIER"]),
+  industryCode: z.string().trim().regex(/^[a-z][a-z0-9-]{2,63}$/).default("dentistry-kz"),
   termsAccepted: z.literal(true),
   privacyAccepted: z.literal(true),
   marketingConsent: z.boolean().default(false),
@@ -191,6 +192,72 @@ export const setOrganizationFeatureSchema = z.object({
   limits: z.record(z.string(), z.unknown()).nullable().optional(),
   expiresAt: z.iso.datetime().nullable().optional(),
 });
+
+export const commercePaymentMethodSchema = z.enum(["CARD", "CORPORATE_CARD", "QR", "BANK_TRANSFER", "INVOICE", "DEFERRED_PAYMENT", "CREDIT", "INSTALLMENT"]);
+export const commerceProfileSchema = z.object({
+  tier: z.enum(["BASIC", "SMART", "ENTERPRISE"]).optional(),
+  operatingMode: z.enum(["MANUAL", "SEMI_AUTOMATED", "AUTOMATED"]).optional(),
+  integration: z.enum(["NONE", "EXCEL_PDF", "ERP_API", "ERP_WMS_EDO"]).optional(),
+  paymentMethods: z.array(commercePaymentMethodSchema).max(20).optional(),
+  bankAddOnEnabled: z.boolean().optional(),
+  autoPriceStock: z.boolean().optional(),
+  autoOrderConfirmation: z.boolean().optional(),
+  electronicDocuments: z.boolean().optional(),
+  autoPaymentMatching: z.boolean().optional(),
+  autoRefunds: z.boolean().optional(),
+}).refine((value) => Object.keys(value).length > 0, "At least one commerce profile field is required");
+
+export type CommerceTier = "BASIC" | "SMART" | "ENTERPRISE";
+export type CommerceOperatingMode = "MANUAL" | "SEMI_AUTOMATED" | "AUTOMATED";
+export type CommerceIntegration = "NONE" | "EXCEL_PDF" | "ERP_API" | "ERP_WMS_EDO";
+export type CommercePaymentMethod = z.infer<typeof commercePaymentMethodSchema>;
+export type CommerceProfile = {
+  tier: CommerceTier;
+  operatingMode: CommerceOperatingMode;
+  integration: CommerceIntegration;
+  paymentMethods: CommercePaymentMethod[];
+  bankAddOnEnabled: boolean;
+  autoPriceStock: boolean;
+  autoOrderConfirmation: boolean;
+  electronicDocuments: boolean;
+  autoPaymentMatching: boolean;
+  autoRefunds: boolean;
+};
+
+export function deriveCommerceTier(input: Pick<CommerceProfile, "integration" | "autoPriceStock" | "autoOrderConfirmation" | "electronicDocuments" | "autoPaymentMatching">): CommerceTier {
+  if (input.integration === "ERP_WMS_EDO" && input.autoPriceStock && input.autoOrderConfirmation && input.electronicDocuments && input.autoPaymentMatching) return "ENTERPRISE";
+  if (input.integration === "ERP_API" || input.autoPriceStock || input.autoOrderConfirmation || input.electronicDocuments || input.autoPaymentMatching) return "SMART";
+  return "BASIC";
+}
+
+export function normalizeCommerceProfile(input: Partial<CommerceProfile> = {}): CommerceProfile {
+  const integration = input.integration ?? "NONE";
+  const inferredMode: CommerceOperatingMode = integration === "EXCEL_PDF" ? "SEMI_AUTOMATED" : integration === "ERP_API" || integration === "ERP_WMS_EDO" ? "AUTOMATED" : "MANUAL";
+  const profile: CommerceProfile = {
+    tier: input.tier ?? "BASIC", operatingMode: input.operatingMode ?? inferredMode, integration, paymentMethods: [...new Set<CommercePaymentMethod>(input.paymentMethods ?? ["CARD", "BANK_TRANSFER", "INVOICE"])], bankAddOnEnabled: input.bankAddOnEnabled ?? false,
+    autoPriceStock: input.autoPriceStock ?? false, autoOrderConfirmation: input.autoOrderConfirmation ?? false, electronicDocuments: input.electronicDocuments ?? false, autoPaymentMatching: input.autoPaymentMatching ?? false, autoRefunds: input.autoRefunds ?? false,
+  };
+  const rank: Record<CommerceTier, number> = { BASIC: 0, SMART: 1, ENTERPRISE: 2 };
+  const derived = deriveCommerceTier(profile);
+  if (rank[profile.tier] > rank[derived]) profile.tier = derived;
+  return profile;
+}
+
+export function buildCommercePolicy(input: Partial<CommerceProfile> = {}) {
+  const profile = normalizeCommerceProfile(input);
+  return { canTrade: true as const, manualFlowAllowed: true as const, enabledPaymentMethods: profile.paymentMethods, workflow: { mode: profile.operatingMode, import: profile.operatingMode !== "MANUAL", matching: profile.operatingMode !== "MANUAL", supplierConfirmation: profile.operatingMode !== "AUTOMATED", exceptionHandling: true }, automation: { priceStock: profile.autoPriceStock, orderConfirmation: profile.autoOrderConfirmation, documents: profile.electronicDocuments, paymentMatching: profile.autoPaymentMatching, refunds: profile.autoRefunds }, bankAddOn: { enabled: profile.bankAddOnEnabled, requiresProviderCredentials: profile.bankAddOnEnabled, protectsCardData: false as const } };
+}
+
+export function paymentMethodRequiresBankAddOn(method: CommercePaymentMethod): boolean {
+  return ["CORPORATE_CARD", "QR", "DEFERRED_PAYMENT", "CREDIT", "INSTALLMENT"].includes(method);
+}
+
+export function validateCommercePaymentMethod(input: Partial<CommerceProfile>, method: CommercePaymentMethod): { allowed: boolean; reason?: string } {
+  const profile = normalizeCommerceProfile(input);
+  if (!profile.paymentMethods.includes(method)) return { allowed: false, reason: `Payment method ${method} is not enabled for this organization` };
+  if (paymentMethodRequiresBankAddOn(method) && !profile.bankAddOnEnabled) return { allowed: false, reason: `Payment method ${method} requires the banking add-on` };
+  return { allowed: true };
+}
 
 export const createAiConversationSchema = z.object({ role: z.enum(["BUYER", "SUPPLIER", "OPERATOR", "SUPPORT"]), title: z.string().trim().max(160).nullable().optional() });
 export const sendAiMessageSchema = z.object({ content: z.string().trim().min(2).max(4_000), confirmedToolExecutionId: z.uuid().nullable().optional() });

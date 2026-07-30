@@ -1,6 +1,6 @@
 # Canonical manufacturer intake
 
-Generated: 2026-07-23T14:12:55.092Z
+Generated: 2026-07-30T14:26:00.182Z
 
 - Source product records: 22136
 - Canonical product cards: 21482

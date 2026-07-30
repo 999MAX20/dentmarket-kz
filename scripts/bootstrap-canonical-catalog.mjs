@@ -14,8 +14,9 @@ const inputFiles = files.length
       "data/imports/medstom-catalog.csv",
       "data/imports/kazdentservice-catalog.csv",
     ];
+const industryCode = process.env.CANONICAL_INDUSTRY_CODE || "dentistry-kz";
 const industry = await prisma.industry.findUniqueOrThrow({
-  where: { code: "dentistry-kz" },
+  where: { code: industryCode },
 });
 const units = new Map(
   (await prisma.unitOfMeasure.findMany()).flatMap((unit) => [
@@ -39,13 +40,23 @@ const slug = (source, externalId) =>
     .slice(0, 70)}`;
 const canonicalKey = (row) =>
   [row.gtin, row.name, row.brand, row.manufacturer, row.category]
-    .map((value) => String(value || "").replace(/\s+/g, " ").trim().toLocaleLowerCase("ru"))
+    .map((value) =>
+      String(value || "")
+        .replace(/\s+/g, " ")
+        .trim()
+        .toLocaleLowerCase("ru"),
+    )
     .filter(Boolean)
     .join("|");
 const canonicalSlug = (row) =>
   `canonical-${crypto.createHash("sha256").update(canonicalKey(row)).digest("hex").slice(0, 32)}`;
 const code = (value) =>
-  String(value || "стоматология")
+  String(
+    value ||
+      (industryCode === "beauty-kz"
+        ? "professional-cosmetics"
+        : "стоматология"),
+  )
     .toLowerCase()
     .replace(/[^a-zа-яё0-9]+/gi, "-")
     .replace(/^-|-$/g, "")
@@ -56,6 +67,15 @@ const productType = (name) =>
   )
     ? "equipment"
     : "consumable";
+const beautyCategory = (value) => {
+  const input = String(value || "").toLocaleLowerCase("ru");
+  if (industryCode !== "beauty-kz") return value;
+  if (/волос|шампун|кондиционер|укладк|лакс/i.test(input)) return "hair-care";
+  if (/тело|ног|рук|дезодорант|скраб|масл/i.test(input)) return "body-care";
+  if (/лиц|крем|сыворот|пилинг|маск|губ/i.test(input)) return "face-care";
+  if (/мужчин|брит/i.test(input)) return "professional-cosmetics";
+  return "professional-cosmetics";
+};
 async function safeBrand(name) {
   if (!name) return null;
   const existing = await prisma.brand.findUnique({ where: { name } });
@@ -127,7 +147,7 @@ for (const relative of inputFiles) {
     const externalId = String(row.externalId || "").trim();
     if (!name || !externalId) return;
     const saleUnit = unitFor(row.unit);
-    const categoryCode = code(row.category);
+    const categoryCode = code(beautyCategory(row.category));
     const category = await safeCategory(
       categoryCode,
       row.category || "Стоматология",
@@ -141,10 +161,27 @@ for (const relative of inputFiles) {
       where: { slug: productSlug },
       select: { id: true, externalMetadata: true },
     });
-    const previousMetadata = existing?.externalMetadata && typeof existing.externalMetadata === "object" && !Array.isArray(existing.externalMetadata)
-      ? existing.externalMetadata
-      : {};
-    const sourceRecord = { source, externalId, sourceUrl: row.sourceUrl || null };
+    const existingBySource = await prisma.product.findFirst({
+      where: {
+        AND: [
+          { externalMetadata: { path: ["source"], equals: source } },
+          { externalMetadata: { path: ["externalId"], equals: externalId } },
+        ],
+      },
+      select: { id: true, externalMetadata: true },
+    });
+    const previousProduct = existingBySource ?? existing;
+    const previousMetadata =
+      previousProduct?.externalMetadata &&
+      typeof previousProduct.externalMetadata === "object" &&
+      !Array.isArray(previousProduct.externalMetadata)
+        ? previousProduct.externalMetadata
+        : {};
+    const sourceRecord = {
+      source,
+      externalId,
+      sourceUrl: row.sourceUrl || null,
+    };
     const previousSourceRecords = Array.isArray(previousMetadata.sourceRecords)
       ? previousMetadata.sourceRecords
       : [];
@@ -155,39 +192,54 @@ for (const relative of inputFiles) {
       externalId,
       sourceUrl: row.sourceUrl || null,
       sourceUpdatedAt: row.sourceUpdatedAt || null,
-      sourceRecords: [...previousSourceRecords.filter((item) => JSON.stringify(item) !== JSON.stringify(sourceRecord)), sourceRecord],
+      sourceRecords: [
+        ...previousSourceRecords.filter(
+          (item) => JSON.stringify(item) !== JSON.stringify(sourceRecord),
+        ),
+        sourceRecord,
+      ],
       imageSources: [
-        ...(Array.isArray(previousMetadata.imageSources) ? previousMetadata.imageSources : []),
+        ...(Array.isArray(previousMetadata.imageSources)
+          ? previousMetadata.imageSources
+          : []),
         row.imageUrl,
         row.image_url,
         row.image,
         row.photoUrl,
-      ].filter(Boolean).map((value) => String(value).trim()).filter(Boolean),
+      ]
+        .filter(Boolean)
+        .map((value) => String(value).trim())
+        .filter(Boolean),
       importedAsCanonicalDraft: true,
     };
-    const product = await prisma.product.upsert({
-      where: { slug: productSlug },
-      update: {
-        canonicalName: name,
-        status: "DRAFT",
-        productType: productType(name),
-        brandId: brand?.id ?? null,
-        manufacturerId: manufacturer?.id ?? null,
-        baseUnitId: saleUnit?.id ?? null,
-        externalMetadata: mergedMetadata,
-      },
-      create: {
-        canonicalName: name,
-        slug: productSlug,
-        status: "DRAFT",
-        productType: productType(name),
-        brandId: brand?.id ?? null,
-        manufacturerId: manufacturer?.id ?? null,
-        baseUnitId: saleUnit?.id ?? null,
-        externalMetadata: mergedMetadata,
-      },
-    });
-    if (existing) updated += 1;
+    const productData = {
+      canonicalName: name,
+      description: row.description || null,
+      descriptionSources: row.description
+        ? {
+            source,
+            sourceUrl: row.sourceUrl || null,
+            collectedAt: new Date().toISOString(),
+          }
+        : undefined,
+      status: "DRAFT",
+      productType: productType(name),
+      brandId: brand?.id ?? null,
+      manufacturerId: manufacturer?.id ?? null,
+      baseUnitId: saleUnit?.id ?? null,
+      externalMetadata: mergedMetadata,
+    };
+    const product = existingBySource
+      ? await prisma.product.update({
+          where: { id: existingBySource.id },
+          data: productData,
+        })
+      : await prisma.product.upsert({
+          where: { slug: productSlug },
+          update: productData,
+          create: { ...productData, slug: productSlug },
+        });
+    if (existingBySource || existing) updated += 1;
     else created += 1;
     try {
       await prisma.productIndustry.upsert({
@@ -262,6 +314,33 @@ for (const relative of inputFiles) {
         },
       });
     variants += 1;
+    const imageUrl = String(row.imageUrl || "").trim();
+    if (imageUrl) {
+      const existingMedia = await prisma.productMedia.findFirst({
+        where: { productId: product.id, sourceUrl: imageUrl },
+        select: { id: true },
+      });
+      if (existingMedia) {
+        await prisma.productMedia.update({
+          where: { id: existingMedia.id },
+          data: {
+            status: "PENDING",
+            altText: name,
+            metadata: { source, sourceUrl: row.sourceUrl || null },
+          },
+        });
+      } else {
+        await prisma.productMedia.create({
+          data: {
+            productId: product.id,
+            sourceUrl: imageUrl,
+            status: "PENDING",
+            altText: name,
+            metadata: { source, sourceUrl: row.sourceUrl || null },
+          },
+        });
+      }
+    }
     await prisma.productSearchDocument.upsert({
       where: { productId: product.id },
       update: {

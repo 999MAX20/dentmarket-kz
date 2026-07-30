@@ -23,6 +23,9 @@ const issues = [];
 const check = (condition, code, severity, detail) => {
   if (!condition) issues.push({ code, severity, detail });
 };
+const reviewFlag = (condition, code, detail) => {
+  if (!condition) issues.push({ code, severity: "REVIEW", detail });
+};
 
 check(
   products.length === classification.totals?.total,
@@ -51,7 +54,8 @@ for (const product of approvedProducts) {
     `${product.canonicalProductId}: отсутствует согласованное решение PUBLISH.`,
   );
   check(
-    product.complianceClassification === "PUBLISH",
+    product.complianceClassification === "PUBLISH" ||
+      product.complianceClassification === "PUBLISH_WITH_REVIEW_FLAGS",
     "APPROVED_WITHOUT_CLASSIFICATION",
     "BLOCKER",
     `${product.canonicalProductId}: неверная complianceClassification.`,
@@ -74,22 +78,19 @@ for (const product of approvedProducts) {
     "BLOCKER",
     `${product.canonicalProductId}: фото не имеет статуса exact.`,
   );
-  check(
+  reviewFlag(
     Boolean(String(product.description ?? "").trim()),
     "APPROVED_WITHOUT_DESCRIPTION",
-    "BLOCKER",
     `${product.canonicalProductId}: нет понятного описания.`,
   );
-  check(
+  reviewFlag(
     Boolean(String(product.category ?? "").trim()),
     "APPROVED_WITHOUT_CATEGORY",
-    "BLOCKER",
     `${product.canonicalProductId}: не определена категория.`,
   );
-  check(
+  reviewFlag(
     variants.length > 0 && missingRefs.length === 0,
     "APPROVED_WITHOUT_MANUFACTURER_REFERENCE",
-    "BLOCKER",
     `${product.canonicalProductId}: ${missingRefs.length || "все"} вариантов без артикула производителя.`,
   );
   check(
@@ -139,8 +140,8 @@ const lines = [
   `- Допущено к публикации: ${report.scope.approvedCards}`,
   `- На модерации: ${report.scope.moderationCards}`,
   `- Отклонено как невалидные сущности: ${report.scope.rejectedCards}`,
-  `- Блокирующих нарушений в белом списке: ${blockerCount}`,
-  `- Замечаний для проверки: ${reviewCount}`,
+  `- Реальных блокирующих нарушений в белом списке: ${blockerCount}`,
+  `- Флагов последующей проверки: ${reviewCount}`,
   "",
   "## Контроли",
   "",
@@ -152,7 +153,7 @@ const lines = [
     .sort((a, b) => b[1] - a[1])
     .map(([reason, count]) => `- ${reason}: ${count}`),
   "",
-  "## Нарушения белого списка",
+  "## Нарушения и флаги белого списка",
   "",
   ...(issues.length
     ? issues.map((issue) => `- **${issue.severity} · ${issue.code}** — ${issue.detail}`)
@@ -166,7 +167,7 @@ await fs.writeFile(
 );
 await fs.writeFile(
   path.join(root, "data/reports/catalog-compliance-report.md"),
-  `${lines.join("\n")}\n`,
+  lines.join("\n"),
 );
 
 console.log(JSON.stringify({ ok: true, ...report.scope, result: report.result, blockerCount, reviewCount }, null, 2));

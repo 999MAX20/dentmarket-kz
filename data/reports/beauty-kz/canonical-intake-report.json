@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-07-30T11:48:00.821Z",
+  "policy": {
+    "schemaVersion": 1,
+    "vertical": "beauty-kz",
+    "catalogOwner": "DentMarket",
+    "commercialFieldsAreOptional": true,
+    "canonicalIdentity": [
+      "brand",
+      "manufacturer",
+      "normalizedName",
+      "variantLabel",
+      "gtin",
+      "supplierSku"
+    ],
+    "deduplication": {
+      "primaryKey": "brand|normalizedName|variantLabel|gtin",
+      "fallbackKey": "brand|normalizedName|variantLabel",
+      "supplierOfferKey": "supplierOrganizationId|sourceId|externalId"
+    },
+    "requiredForCanonicalCard": [
+      "externalId",
+      "name"
+    ],
+    "optionalBeforeCommercialImport": [
+      "priceMinor",
+      "currency",
+      "quantityOnHand",
+      "warehouse",
+      "leadTimeDays"
+    ],
+    "publicationGates": [
+      "industry_compatibility",
+      "category",
+      "variant",
+      "image_or_review",
+      "compliance",
+      "active_marketplace_agreement"
+    ],
+    "sources": [
+      {
+        "supplierKey": "proff-kz",
+        "template": "data/templates/beauty-kz/proff-kz.csv",
+        "status": "READY_FOR_CATALOG_FILE"
+      },
+      {
+        "supplierKey": "ucg-kz",
+        "template": "data/intake/beauty-kz/ucg-kz.csv",
+        "status": "PUBLIC_CATALOG_IMPORTED"
+      },
+      {
+        "supplierKey": "vlaekan-kz",
+        "template": "data/templates/beauty-kz/vlaekan-kz.csv",
+        "status": "READY_FOR_CATALOG_FILE"
+      },
+      {
+        "supplierKey": "dd-business-kz",
+        "template": "data/templates/beauty-kz/dd-business-kz.csv",
+        "status": "READY_FOR_CATALOG_FILE"
+      },
+      {
+        "supplierKey": "labeauty-kz",
+        "template": "data/templates/beauty-kz/labeauty-kz.csv",
+        "status": "READY_FOR_CATALOG_FILE"
+      },
+      {
+        "supplierKey": "futora-kz",
+        "template": "data/templates/beauty-kz/futora-kz.csv",
+        "status": "READY_FOR_CATALOG_FILE"
+      },
+      {
+        "supplierKey": "janssen-kz",
+        "template": "data/templates/beauty-kz/janssen-kz.csv",
+        "status": "READY_FOR_CATALOG_FILE"
+      },
+      {
+        "supplierKey": "beeyoung-kz",
+        "template": "data/templates/beauty-kz/beeyoung-kz.csv",
+        "status": "READY_FOR_CATALOG_FILE"
+      },
+      {
+        "supplierKey": "keune-kz",
+        "template": "data/templates/beauty-kz/keune-kz.csv",
+        "status": "READY_FOR_CATALOG_FILE"
+      },
+      {
+        "supplierKey": "aif-cosmetics-kz",
+        "template": "data/templates/beauty-kz/aif-cosmetics-kz.csv",
+        "status": "READY_FOR_CATALOG_FILE"
+      },
+      {
+        "supplierKey": "nickol-kz",
+        "template": "data/templates/beauty-kz/nickol-kz.csv",
+        "status": "READY_FOR_CATALOG_FILE"
+      },
+      {
+        "supplierKey": "fox-beauty-house-kz",
+        "template": "data/templates/beauty-kz/fox-beauty-house-kz.csv",
+        "status": "READY_FOR_CATALOG_FILE"
+      }
+    ]
+  },
+  "results": [
+    {
+      "supplierKey": "proff-kz",
+      "template": "data/templates/beauty-kz/proff-kz.csv",
+      "brands": 9,
+      "rows": 0,
+      "canonicalReady": 0,
+      "commercialRows": 0,
+      "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "ucg-kz",
+      "template": "data/intake/beauty-kz/ucg-kz.csv",
+      "brands": 10,
+      "rows": 218,
+      "canonicalReady": 218,
+      "commercialRows": 0,
+      "status": "READY_FOR_CANONICAL_REVIEW",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "vlaekan-kz",
+      "template": "data/templates/beauty-kz/vlaekan-kz.csv",
+      "brands": 9,
+      "rows": 0,
+      "canonicalReady": 0,
+      "commercialRows": 0,
+      "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "dd-business-kz",
+      "template": "data/templates/beauty-kz/dd-business-kz.csv",
+      "brands": 0,
+      "rows": 0,
+      "canonicalReady": 0,
+      "commercialRows": 0,
+      "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "labeauty-kz",
+      "template": "data/templates/beauty-kz/labeauty-kz.csv",
+      "brands": 2,
+      "rows": 0,
+      "canonicalReady": 0,
+      "commercialRows": 0,
+      "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "futora-kz",
+      "template": "data/templates/beauty-kz/futora-kz.csv",
+      "brands": 8,
+      "rows": 0,
+      "canonicalReady": 0,
+      "commercialRows": 0,
+      "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "janssen-kz",
+      "template": "data/templates/beauty-kz/janssen-kz.csv",
+      "brands": 1,
+      "rows": 0,
+      "canonicalReady": 0,
+      "commercialRows": 0,
+      "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "beeyoung-kz",
+      "template": "data/templates/beauty-kz/beeyoung-kz.csv",
+      "brands": 4,
+      "rows": 0,
+      "canonicalReady": 0,
+      "commercialRows": 0,
+      "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "keune-kz",
+      "template": "data/templates/beauty-kz/keune-kz.csv",
+      "brands": 1,
+      "rows": 0,
+      "canonicalReady": 0,
+      "commercialRows": 0,
+      "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "aif-cosmetics-kz",
+      "template": "data/templates/beauty-kz/aif-cosmetics-kz.csv",
+      "brands": 0,
+      "rows": 0,
+      "canonicalReady": 0,
+      "commercialRows": 0,
+      "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "nickol-kz",
+      "template": "data/templates/beauty-kz/nickol-kz.csv",
+      "brands": 0,
+      "rows": 0,
+      "canonicalReady": 0,
+      "commercialRows": 0,
+      "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "fox-beauty-house-kz",
+      "template": "data/templates/beauty-kz/fox-beauty-house-kz.csv",
+      "brands": 0,
+      "rows": 0,
+      "canonicalReady": 0,
+      "commercialRows": 0,
+      "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    }
+  ]
+}

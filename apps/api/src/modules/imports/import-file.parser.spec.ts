@@ -1,7 +1,22 @@
 import { describe, expect, it } from "vitest";
 import ExcelJS from "exceljs";
 import { PDFDocument, StandardFonts } from "pdf-lib";
-import { ImportFileParser } from "./import-file.parser";
+import { ImportFileParser, inferSupplierColumnMapping } from "./import-file.parser";
+
+describe("fast-lane column inference", () => {
+  it("maps common Russian 1C headers without manual column selection", () => {
+    const result = inferSupplierColumnMapping([
+      { "Код номенклатуры": "A-1", "Наименование": "Композит A2", "Цена продажи": 125000, "Остаток": 14, "Валюта": "KZT" },
+    ]);
+    expect(result.missingRequired).toEqual([]);
+    expect(result.mapping).toMatchObject({ externalId: "Код номенклатуры", name: "Наименование", priceMinor: "Цена продажи", quantityOnHand: "Остаток", currency: "Валюта" });
+  });
+
+  it("requires a stable product code before automatic processing", () => {
+    const result = inferSupplierColumnMapping([{ "Наименование": "Товар без кода", Цена: 1000 }]);
+    expect(result.missingRequired).toContain("externalId");
+  });
+});
 
 describe("ImportFileParser", () => {
   it("parses CSV content while preserving headers", async () => {

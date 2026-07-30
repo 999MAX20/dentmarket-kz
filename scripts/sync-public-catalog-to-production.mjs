@@ -80,64 +80,73 @@ try {
   const getCategory = async (name) => {
     const categoryCode = code(name);
     if (categoryCache.has(categoryCode)) return categoryCache.get(categoryCode);
-    const existing = await prisma.category.findUnique({
-      where: {
-        industryId_code: { industryId: industry.id, code: categoryCode },
-      },
-    });
-    const category =
-      existing ??
-      (apply
-        ? await prisma.category.create({
-            data: {
-              industryId: industry.id,
-              code: categoryCode,
-              nameRu: name,
-              nameKk: name,
-              path: categoryCode,
-            },
-          })
-        : { id: `dry-run-${categoryCode}`, code: categoryCode });
-    categoryCache.set(categoryCode, category);
-    return category;
+    const pending = (async () => {
+      const existing = await prisma.category.findUnique({
+        where: {
+          industryId_code: { industryId: industry.id, code: categoryCode },
+        },
+      });
+      return (
+        existing ??
+        (apply
+          ? await prisma.category.create({
+              data: {
+                industryId: industry.id,
+                code: categoryCode,
+                nameRu: name,
+                nameKk: name,
+                path: categoryCode,
+              },
+            })
+          : { id: `dry-run-${categoryCode}`, code: categoryCode })
+      );
+    })();
+    categoryCache.set(categoryCode, pending);
+    return pending;
   };
 
   const getBrand = async (name) => {
     const normalizedName = normalize(name);
     if (!normalizedName) return null;
     if (brandCache.has(normalizedName)) return brandCache.get(normalizedName);
-    const existing = await prisma.brand.findUnique({
-      where: { name: normalizedName },
-    });
-    const brand =
-      existing ??
-      (apply
-        ? await prisma.brand.create({ data: { name: normalizedName } })
-        : {
-            id: `dry-run-brand-${code(normalizedName)}`,
-            name: normalizedName,
-          });
-    brandCache.set(normalizedName, brand);
-    return brand;
+    const pending = (async () => {
+      const existing = await prisma.brand.findUnique({
+        where: { name: normalizedName },
+      });
+      return (
+        existing ??
+        (apply
+          ? await prisma.brand.create({ data: { name: normalizedName } })
+          : {
+              id: `dry-run-brand-${code(normalizedName)}`,
+              name: normalizedName,
+            })
+      );
+    })();
+    brandCache.set(normalizedName, pending);
+    return pending;
   };
   const getManufacturer = async (name) => {
     const normalizedName = normalize(name);
     if (!normalizedName) return null;
     if (manufacturerCache.has(normalizedName))
       return manufacturerCache.get(normalizedName);
-    const existing = await prisma.manufacturer.findUnique({
-      where: { name: normalizedName },
-    });
-    const manufacturer =
-      existing ??
-      (apply
-        ? await prisma.manufacturer.create({ data: { name: normalizedName } })
-        : {
-            id: `dry-run-manufacturer-${code(normalizedName)}`,
-            name: normalizedName,
-          });
-    manufacturerCache.set(normalizedName, manufacturer);
-    return manufacturer;
+    const pending = (async () => {
+      const existing = await prisma.manufacturer.findUnique({
+        where: { name: normalizedName },
+      });
+      return (
+        existing ??
+        (apply
+          ? await prisma.manufacturer.create({ data: { name: normalizedName } })
+          : {
+              id: `dry-run-manufacturer-${code(normalizedName)}`,
+              name: normalizedName,
+            })
+      );
+    })();
+    manufacturerCache.set(normalizedName, pending);
+    return pending;
   };
 
   const summary = {
@@ -152,7 +161,13 @@ try {
     searchDocumentsEnsured: 0,
     mode: apply ? "apply" : "dry-run",
   };
-  for (const productInput of sourceProducts) {
+  const concurrency = Math.max(
+    1,
+    Math.min(16, Number(process.env.CATALOG_SYNC_CONCURRENCY ?? 8)),
+  );
+  for (const workBatch of batch(sourceProducts, concurrency)) {
+    await Promise.all(
+      workBatch.map(async (productInput) => {
     const product = {
       ...productInput,
       name: normalize(productInput.name),
@@ -214,7 +229,7 @@ try {
       summary.mediaLinked += media ? 1 : 0;
       summary.variantsEnsured += product.variants?.length || 1;
       summary.searchDocumentsEnsured += 1;
-      continue;
+      return;
     }
     const existing = await prisma.product.findUnique({
       where: { slug: product.slug },
@@ -425,6 +440,8 @@ try {
       },
     });
     summary.searchDocumentsEnsured += 1;
+      }),
+    );
   }
   summary.brandsEnsured = brandCache.size;
   summary.manufacturersEnsured = manufacturerCache.size;

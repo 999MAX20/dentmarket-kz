@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "vertical": "beauty-kz",
+  "market": "KZ",
+  "purpose": "Research and onboarding queue. This registry is not a production approval list.",
+  "verificationPolicy": {
+    "DISCOVERED": "Publicly discovered supplier or brand reference; no commercial claim is accepted.",
+    "SELF_CLAIMED": "Supplier publicly claims distribution, exclusivity, or official status; legal evidence is still required.",
+    "DOCUMENT_REQUIRED": "Do not publish an offer until the supplier provides authorization, catalog source, BIN and compliance documents."
+  },
+  "suppliers": [
+    {
+      "key": "proff-kz",
+      "name": "PROФФ-KZ",
+      "website": "https://www.proff.kz/",
+      "sourceUrl": "https://www.proff.kz/brendi",
+      "verificationStatus": "SELF_CLAIMED",
+      "catalogSourceType": "WEB_OR_XLSX_REQUIRED",
+      "categories": [
+        "hair-care",
+        "professional-cosmetics",
+        "nail-products",
+        "disposables"
+      ],
+      "notes": "Public brand page lists ESTEL, EPICA, PRODIVA, MORGAN'S, LAVISH, GENEVIE PRO, DEPILTOUCH, ЧИСТОВЬЕ and АҚҚУ."
+    },
+    {
+      "key": "ucg-kz",
+      "name": "UCG / Aesthetics Group",
+      "website": "https://ucg.kz/",
+      "sourceUrl": "https://ucg.kz/brendy/",
+      "verificationStatus": "SELF_CLAIMED",
+      "catalogSourceType": "WEB_OR_XLSX_REQUIRED",
+      "categories": ["face-care", "professional-cosmetics", "spa-products"],
+      "notes": "Public brand page references professional aesthetic and medical-cosmetic brands."
+    },
+    {
+      "key": "vlaekan-kz",
+      "name": "VLAEKAN",
+      "website": "https://vlaekan.kz/",
+      "sourceUrl": "https://vlaekan.kz/brands/",
+      "verificationStatus": "SELF_CLAIMED",
+      "catalogSourceType": "WEB_OR_XLSX_REQUIRED",
+      "categories": ["face-care", "professional-cosmetics", "spa-products"],
+      "notes": "Public brands page lists Babor, Just, Cosmedix, Comfort Zone, Skin Regimen, Cantabria Labs, Rausch, Callegari and Little Butterfly London."
+    },
+    {
+      "key": "dd-business-kz",
+      "name": "DD Business",
+      "website": "https://ddup.kz/",
+      "sourceUrl": "https://ddup.kz/about",
+      "verificationStatus": "SELF_CLAIMED",
+      "catalogSourceType": "XLSX_PDF_REQUIRED",
+      "categories": [
+        "professional-cosmetics",
+        "face-care",
+        "body-care",
+        "salon-equipment"
+      ],
+      "notes": "Public company page states a catalogue of 70+ brands; exact brand-to-supplier mapping must be requested as a file."
+    },
+    {
+      "key": "labeauty-kz",
+      "name": "LaBeauty",
+      "website": "https://labeauty.kz/",
+      "sourceUrl": "https://labeauty.kz/ru/company",
+      "verificationStatus": "SELF_CLAIMED",
+      "catalogSourceType": "WEB_OR_XLSX_REQUIRED",
+      "categories": ["face-care", "professional-cosmetics", "spa-products"],
+      "notes": "Public company information names AnillO and Margy's Monte Carlo; product pages also require source and authorization review."
+    },
+    {
+      "key": "futora-kz",
+      "name": "Futora",
+      "website": "https://wahlpro.kz/",
+      "sourceUrl": "https://wahlpro.kz/",
+      "verificationStatus": "SELF_CLAIMED",
+      "catalogSourceType": "WEB_OR_XLSX_REQUIRED",
+      "categories": ["hair-care", "salon-equipment", "beauty-tools"],
+      "notes": "Public website presents Wahl and professional barber/beauty assortment; verify each brand and territory."
+    },
+    {
+      "key": "janssen-kz",
+      "name": "Janssen Cosmetics Kazakhstan",
+      "website": "https://janssen-cosmetics.kz/",
+      "sourceUrl": "https://janssen-cosmetics.kz/",
+      "verificationStatus": "SELF_CLAIMED",
+      "catalogSourceType": "XLSX_PDF_REQUIRED",
+      "categories": ["face-care", "professional-cosmetics"],
+      "notes": "Brand-owned Kazakhstan presence; still requires local legal entity, BIN and supply terms before onboarding."
+    },
+    {
+      "key": "beeyoung-kz",
+      "name": "Beeyoung",
+      "website": "https://beeyoung.kz/",
+      "sourceUrl": "https://beeyoung.kz/",
+      "verificationStatus": "SELF_CLAIMED",
+      "catalogSourceType": "WEB_OR_XLSX_REQUIRED",
+      "categories": ["face-care", "professional-cosmetics"],
+      "notes": "Public site states official distribution for Isov, Storyderm, Deig and Evasion."
+    },
+    {
+      "key": "keune-kz",
+      "name": "Keune Kazakhstan / Antara Global",
+      "website": "https://keune.kz/",
+      "sourceUrl": "https://keune.kz/",
+      "verificationStatus": "SELF_CLAIMED",
+      "catalogSourceType": "WEB_OR_XLSX_REQUIRED",
+      "categories": ["hair-care", "professional-cosmetics"],
+      "notes": "Public Kazakhstan presence identifies Antara Global as official distributor; validate current credentials."
+    },
+    {
+      "key": "aif-cosmetics-kz",
+      "name": "AIF Cosmetics",
+      "website": "https://aifcosmetic.kz/",
+      "sourceUrl": "https://aifcosmetic.kz/",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "WEB_OR_XLSX_REQUIRED",
+      "categories": ["professional-cosmetics", "face-care", "body-care"],
+      "notes": "Public professional cosmetics catalogue; distributor status per brand must be documented separately."
+    },
+    {
+      "key": "nickol-kz",
+      "name": "NICKOL",
+      "website": "https://nickol.kz/",
+      "sourceUrl": "https://nickol.kz/",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "WEB_OR_XLSX_REQUIRED",
+      "categories": ["professional-cosmetics", "face-care", "body-care"],
+      "notes": "Public professional beauty catalogue; request legal entity and brand authorization evidence."
+    },
+    {
+      "key": "fox-beauty-house-kz",
+      "name": "Fox Beauty House",
+      "website": "https://foxbeautyhouse.com/",
+      "sourceUrl": "https://foxbeautyhouse.com/",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "WEB_OR_XLSX_REQUIRED",
+      "categories": ["professional-cosmetics", "hair-care", "nail-products"],
+      "notes": "Public beauty supplier/store candidate; treat brand status as unverified until supplier documents arrive."
+    }
+  ],
+  "brands": [
+    {
+      "key": "estel",
+      "name": "ESTEL",
+      "supplierKeys": ["proff-kz"],
+      "categories": ["hair-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://www.proff.kz/brendi"]
+    },
+    {
+      "key": "epica",
+      "name": "EPICA",
+      "supplierKeys": ["proff-kz"],
+      "categories": ["hair-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://www.proff.kz/brendi"]
+    },
+    {
+      "key": "prodiva",
+      "name": "PRODIVA",
+      "supplierKeys": ["proff-kz"],
+      "categories": ["hair-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://www.proff.kz/brendi"]
+    },
+    {
+      "key": "morgans",
+      "name": "MORGAN'S",
+      "supplierKeys": ["proff-kz"],
+      "categories": ["hair-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://www.proff.kz/brendi"]
+    },
+    {
+      "key": "lavish",
+      "name": "LAVISH",
+      "supplierKeys": ["proff-kz"],
+      "categories": ["hair-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://www.proff.kz/brendi"]
+    },
+    {
+      "key": "genevie-pro",
+      "name": "GENEVIE PRO",
+      "supplierKeys": ["proff-kz"],
+      "categories": ["professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://www.proff.kz/brendi"]
+    },
+    {
+      "key": "depiltouch",
+      "name": "DEPILTOUCH",
+      "supplierKeys": ["proff-kz"],
+      "categories": ["body-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://www.proff.kz/brendi"]
+    },
+    {
+      "key": "chistovie",
+      "name": "ЧИСТОВЬЕ",
+      "supplierKeys": ["proff-kz"],
+      "categories": ["disposables"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://www.proff.kz/brendi"]
+    },
+    {
+      "key": "akku",
+      "name": "АҚҚУ",
+      "supplierKeys": ["proff-kz"],
+      "categories": ["hair-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://www.proff.kz/brendi"]
+    },
+    {
+      "key": "babor",
+      "name": "BABOR",
+      "supplierKeys": ["vlaekan-kz"],
+      "categories": ["face-care", "professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://vlaekan.kz/brands/"]
+    },
+    {
+      "key": "just",
+      "name": "JUST",
+      "supplierKeys": ["vlaekan-kz"],
+      "categories": ["face-care", "body-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://vlaekan.kz/brands/"]
+    },
+    {
+      "key": "cosmedix",
+      "name": "COSMEDIX",
+      "supplierKeys": ["vlaekan-kz"],
+      "categories": ["face-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://vlaekan.kz/brands/"]
+    },
+    {
+      "key": "comfort-zone",
+      "name": "Comfort Zone",
+      "supplierKeys": ["vlaekan-kz"],
+      "categories": ["face-care", "spa-products"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://vlaekan.kz/brands/"]
+    },
+    {
+      "key": "skin-regimen",
+      "name": "Skin Regimen",
+      "supplierKeys": ["vlaekan-kz"],
+      "categories": ["face-care", "spa-products"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://vlaekan.kz/brands/"]
+    },
+    {
+      "key": "cantabria-labs",
+      "name": "Cantabria Labs",
+      "supplierKeys": ["vlaekan-kz"],
+      "categories": ["face-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://vlaekan.kz/brands/"]
+    },
+    {
+      "key": "rausch",
+      "name": "Rausch",
+      "supplierKeys": ["vlaekan-kz"],
+      "categories": ["hair-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://vlaekan.kz/brands/"]
+    },
+    {
+      "key": "callegari",
+      "name": "Callegari",
+      "supplierKeys": ["vlaekan-kz"],
+      "categories": ["salon-equipment"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://vlaekan.kz/brands/"]
+    },
+    {
+      "key": "little-butterfly-london",
+      "name": "Little Butterfly London",
+      "supplierKeys": ["vlaekan-kz"],
+      "categories": ["face-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://vlaekan.kz/brands/"]
+    },
+    {
+      "key": "teoxane",
+      "name": "Teoxane",
+      "supplierKeys": ["ucg-kz"],
+      "categories": ["face-care", "professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://ucg.kz/brendy/"]
+    },
+    {
+      "key": "laennec",
+      "name": "Laennec",
+      "supplierKeys": ["ucg-kz"],
+      "categories": ["professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://ucg.kz/brendy/"]
+    },
+    {
+      "key": "regenyal",
+      "name": "Regenyal",
+      "supplierKeys": ["ucg-kz"],
+      "categories": ["professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://ucg.kz/brendy/"]
+    },
+    {
+      "key": "ial-system",
+      "name": "Ial-System",
+      "supplierKeys": ["ucg-kz"],
+      "categories": ["professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://ucg.kz/brendy/"]
+    },
+    {
+      "key": "newsha",
+      "name": "NEWSHA",
+      "supplierKeys": ["ucg-kz"],
+      "categories": ["hair-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://ucg.kz/brendy/"]
+    },
+    {
+      "key": "biorepeelcl3",
+      "name": "BioRePeelCl3",
+      "supplierKeys": ["ucg-kz"],
+      "categories": ["professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://ucg.kz/brendy/"]
+    },
+    {
+      "key": "hamilton",
+      "name": "Hamilton",
+      "supplierKeys": ["ucg-kz"],
+      "categories": ["professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://ucg.kz/brendy/"]
+    },
+    {
+      "key": "gehwol",
+      "name": "Gehwol",
+      "supplierKeys": ["ucg-kz"],
+      "categories": ["body-care", "professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://ucg.kz/brendy/"]
+    },
+    {
+      "key": "payot",
+      "name": "Payot",
+      "supplierKeys": ["ucg-kz"],
+      "categories": ["face-care", "body-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://ucg.kz/brendy/"]
+    },
+    {
+      "key": "mansard",
+      "name": "Mansard",
+      "supplierKeys": ["ucg-kz"],
+      "categories": ["salon-equipment"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://ucg.kz/brendy/"]
+    },
+    {
+      "key": "anillo",
+      "name": "AnillO",
+      "supplierKeys": ["labeauty-kz"],
+      "categories": ["face-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://labeauty.kz/ru/company"]
+    },
+    {
+      "key": "margys-monte-carlo",
+      "name": "Margy's Monte Carlo",
+      "supplierKeys": ["labeauty-kz"],
+      "categories": ["face-care", "professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://labeauty.kz/ru/company"]
+    },
+    {
+      "key": "wahl",
+      "name": "Wahl",
+      "supplierKeys": ["futora-kz"],
+      "categories": ["salon-equipment", "beauty-tools"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://wahlpro.kz/"]
+    },
+    {
+      "key": "makeup-atelier",
+      "name": "Makeup Atelier",
+      "supplierKeys": ["futora-kz"],
+      "categories": ["professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://wahlpro.kz/"]
+    },
+    {
+      "key": "nishman",
+      "name": "Nishman",
+      "supplierKeys": ["futora-kz"],
+      "categories": ["hair-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://wahlpro.kz/"]
+    },
+    {
+      "key": "nishlady",
+      "name": "Nishlady",
+      "supplierKeys": ["futora-kz"],
+      "categories": ["hair-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://wahlpro.kz/"]
+    },
+    {
+      "key": "prorapid",
+      "name": "ProRapid",
+      "supplierKeys": ["futora-kz"],
+      "categories": ["hair-care"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://wahlpro.kz/"]
+    },
+    {
+      "key": "derby",
+      "name": "Derby",
+      "supplierKeys": ["futora-kz"],
+      "categories": ["beauty-tools"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://wahlpro.kz/"]
+    },
+    {
+      "key": "starmaxx",
+      "name": "Starmaxx",
+      "supplierKeys": ["futora-kz"],
+      "categories": ["beauty-tools"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://wahlpro.kz/"]
+    },
+    {
+      "key": "technodry",
+      "name": "Technodry",
+      "supplierKeys": ["futora-kz"],
+      "categories": ["salon-equipment"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://wahlpro.kz/"]
+    },
+    {
+      "key": "janssen-cosmetics",
+      "name": "Janssen Cosmetics",
+      "supplierKeys": ["janssen-kz"],
+      "categories": ["face-care", "professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://janssen-cosmetics.kz/"]
+    },
+    {
+      "key": "isov",
+      "name": "Isov",
+      "supplierKeys": ["beeyoung-kz"],
+      "categories": ["face-care", "professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://beeyoung.kz/"]
+    },
+    {
+      "key": "storyderm",
+      "name": "Storyderm",
+      "supplierKeys": ["beeyoung-kz"],
+      "categories": ["face-care", "professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://beeyoung.kz/"]
+    },
+    {
+      "key": "deig",
+      "name": "Deig",
+      "supplierKeys": ["beeyoung-kz"],
+      "categories": ["face-care", "professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://beeyoung.kz/"]
+    },
+    {
+      "key": "evasion",
+      "name": "Evasion",
+      "supplierKeys": ["beeyoung-kz"],
+      "categories": ["face-care", "professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://beeyoung.kz/"]
+    },
+    {
+      "key": "keune",
+      "name": "Keune",
+      "supplierKeys": ["keune-kz"],
+      "categories": ["hair-care", "professional-cosmetics"],
+      "status": "SELF_CLAIMED",
+      "sourceUrls": ["https://keune.kz/"]
+    }
+  ]
+}

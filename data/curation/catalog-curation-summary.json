@@ -1,17 +1,62 @@
 {
-  "generatedAt": "2026-07-22T18:30:43.069Z",
+  "generatedAt": "2026-07-30T13:22:21.618Z",
   "grain": "Одна строка на каноническую карточку, требующую подтверждения",
-  "totalCards": 3234,
+  "totalCards": 19172,
   "identityQueue": {
-    "cards": 3055,
-    "missingBrand": 2904,
-    "missingManufacturer": 3043,
+    "cards": 3673,
+    "missingBrand": 2462,
+    "missingManufacturer": 3661,
     "coveredByQueuePercent": 100
   },
   "photoQueue": {
-    "cards": 1443,
+    "cards": 17750,
     "coveredByQueuePercent": 100,
-    "exactPhotos": 1791
+    "normalizedExactPhotos": 1422,
+    "remoteExactPhotos": 16284,
+    "missingOrUnverifiedPhotos": 1466,
+    "byPriority": {
+      "P0_COMMERCIAL": {
+        "cards": 1431,
+        "remoteExactPhotos": 0,
+        "missingOrUnverifiedPhotos": 1431
+      },
+      "P1_IDENTIFIED": {
+        "cards": 13124,
+        "remoteExactPhotos": 13089,
+        "missingOrUnverifiedPhotos": 35
+      },
+      "P2_CATALOG": {
+        "cards": 3195,
+        "remoteExactPhotos": 3195,
+        "missingOrUnverifiedPhotos": 0
+      }
+    },
+    "p0BySource": [
+      {
+        "source": "a4d.kz",
+        "cards": 877
+      },
+      {
+        "source": "medstom.kz",
+        "cards": 332
+      },
+      {
+        "source": "amdgroup.kz",
+        "cards": 142
+      },
+      {
+        "source": "nordstom.kz",
+        "cards": 30
+      },
+      {
+        "source": "stomir.kz",
+        "cards": 29
+      },
+      {
+        "source": "kazdentservice.kz",
+        "cards": 21
+      }
+    ]
   },
   "safety": {
     "inventedBrands": 0,

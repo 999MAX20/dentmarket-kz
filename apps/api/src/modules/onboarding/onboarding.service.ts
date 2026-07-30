@@ -57,6 +57,7 @@ export class OnboardingService {
         organizationDisplayName: input.organizationDisplayName,
         bin: input.bin,
         capability: input.capability,
+        industryCode: input.industryCode,
         tokenHash: hashToken(registrationToken),
         idempotencyKey: input.idempotencyKey,
         consentVersion: input.consentVersion,
@@ -102,6 +103,10 @@ export class OnboardingService {
         legalName: registration.legalName,
         displayName: registration.organizationDisplayName,
         bin: registration.bin,
+        // Both sides of the marketplace are scoped to the same vertical. This
+        // keeps supplier imports/offers from leaking into another industry
+        // when we add the next vertical.
+        primaryIndustry: { connect: { code: registration.industryCode } },
         capabilities: { create: { capability: registration.capability as OrganizationCapabilityType } },
       } });
       if (registration.capability === "SUPPLIER") await tx.supplierProfile.create({ data: { organizationId: organization.id, regulatoryDetails: { onboarding: "documents_required" } } });

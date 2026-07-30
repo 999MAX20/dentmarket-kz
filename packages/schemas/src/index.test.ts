@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { addCartItemSchema, approveProductCandidateSchema, captureMockPaymentSchema, capturePaymentSchema, checkoutCartSchema, compareOffersSchema, confirmSupplierOrderSchema, createApprovalPolicySchema, createComplianceRuleSchema, createContractPriceSchema, createDataOverrideSchema, createDeliveryRuleSchema, createDocumentTemplateSchema, createImportBatchSchema, createIntegrationBindingSchema, createIntegrationConnectionSchema, createInventoryLotSchema, createInventoryReservationSchema, createInvitationSchema, createNotificationSchema, createOfferPriceTierSchema, createOrganizationCredentialSchema, createOrganizationSchema, createPaymentIntentSchema, createProductPackagingSchema, createProductSchema, createRefundSchema, createRoleSchema, createShipmentSchema, enqueueIntegrationJobSchema, evaluateApprovalSchema, ledgerQuerySchema, resolveOfferPriceSchema, searchCatalogSchema, setAttributeValueSchema, setInventoryBalanceSchema, updateProductSchema, upsertCategoryAttributeRuleSchema, upsertIntegrationMappingSchema } from "./index.js";
+import { addCartItemSchema, approveProductCandidateSchema, captureMockPaymentSchema, capturePaymentSchema, checkoutCartSchema, compareOffersSchema, confirmSupplierOrderSchema, createApprovalPolicySchema, createComplianceRuleSchema, createContractPriceSchema, createDataOverrideSchema, createDeliveryRuleSchema, createDocumentTemplateSchema, createImportBatchSchema, createIntegrationBindingSchema, createIntegrationConnectionSchema, createInventoryLotSchema, createInventoryReservationSchema, createInvitationSchema, createNotificationSchema, createOfferPriceTierSchema, createOrganizationCredentialSchema, createOrganizationSchema, createPaymentIntentSchema, createProductPackagingSchema, createProductSchema, createRefundSchema, createRoleSchema, createShipmentSchema, enqueueIntegrationJobSchema, evaluateApprovalSchema, ledgerQuerySchema, resolveOfferPriceSchema, searchCatalogSchema, setAttributeValueSchema, setInventoryBalanceSchema, switchOrganizationIndustrySchema, updateProductSchema, upsertCategoryAttributeRuleSchema, upsertIntegrationMappingSchema } from "./index.js";
 import { createRegistrationIntentSchema, mfaCodeSchema, socialExchangeSchema, updateConnectorReadinessSchema } from "./index.js";
 import { decideProductCorrectionSchema, submitProductCorrectionSchema } from "./index.js";
 
@@ -38,12 +38,22 @@ describe("self-registration schemas", () => {
       privacyAccepted: true,
       idempotencyKey: "registration-2026-001",
     });
-    expect(result).toMatchObject({ email: "owner@dental.kz", marketingConsent: false, capability: "SUPPLIER" });
+    expect(result).toMatchObject({ email: "owner@dental.kz", marketingConsent: false, capability: "SUPPLIER", industryCode: "dentistry-kz" });
   });
 
   it("rejects missing consent, invalid BIN and short registration handoff tokens", () => {
     expect(createRegistrationIntentSchema.safeParse({ email: "owner@dental.kz", ownerDisplayName: "Owner", legalName: "ТОО Dental", organizationDisplayName: "Dental", bin: "123", capability: "BUYER", termsAccepted: false, privacyAccepted: true, idempotencyKey: "registration-2026-002" }).success).toBe(false);
     expect(socialExchangeSchema.safeParse({ provider: "GOOGLE", idToken: "x".repeat(40), registrationToken: "too-short" }).success).toBe(false);
+  });
+});
+
+describe("industry scope schemas", () => {
+  it("accepts a valid industry switch code", () => {
+    expect(switchOrganizationIndustrySchema.parse({ industryCode: "beauty-kz" }).industryCode).toBe("beauty-kz");
+  });
+
+  it("rejects unsafe industry codes", () => {
+    expect(switchOrganizationIndustrySchema.safeParse({ industryCode: "Beauty KZ" }).success).toBe(false);
   });
 });
 

@@ -1,0 +1,889 @@
+{
+  "generatedAt": "2026-07-30T13:43:42.995Z",
+  "registrySuppliers": 30,
+  "queuedSuppliers": 16,
+  "importedSuppliers": 6,
+  "policy": "Не помечать поставщика коммерчески активным до организации, источника, compliance, ЭЦП и активного договора.",
+  "suppliers": [
+    {
+      "supplierKey": "joseph-company",
+      "supplierName": "Joseph Company",
+      "website": "https://joseph-company.kz/",
+      "catalogUrl": "https://joseph-company.kz/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "lira-medical-group",
+      "supplierName": "LIRA Medical Group",
+      "website": "https://dent-materials.kz/",
+      "catalogUrl": "https://dent-materials.kz/catalog",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "ims",
+      "supplierName": "IMS",
+      "website": "https://ims.kz/",
+      "catalogUrl": "https://ims.kz/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "unident",
+      "supplierName": "Unident",
+      "website": "https://unident.kz/",
+      "catalogUrl": "https://unident.kz/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "ordamed",
+      "supplierName": "Ordamed",
+      "website": "https://ordamed.com/kz/",
+      "catalogUrl": "https://ordamed.com/kz/catalog/stomatologiya/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "kulimsnab",
+      "supplierName": "KulimSnab",
+      "website": "https://kulimsnab.kz/",
+      "catalogUrl": "https://kulimsnab.kz/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "dentalshop-kazakhstan",
+      "supplierName": "DentalShop Kazakhstan",
+      "website": "https://dentalshopkazakhstan.com/",
+      "catalogUrl": "https://dentalshopkazakhstan.com/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "stomtech",
+      "supplierName": "Stomtech",
+      "website": "https://stomtech.kz/",
+      "catalogUrl": "https://stomtech.kz/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "dento-kz",
+      "supplierName": "Dento.kz",
+      "website": "https://dento.kz/",
+      "catalogUrl": "https://dento.kz/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "algami",
+      "supplierName": "ALGAMI",
+      "website": "https://algami.kz/",
+      "catalogUrl": "https://algami.kz/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "stom-partner",
+      "supplierName": "Stom Partner",
+      "website": "https://stompartner.kz/",
+      "catalogUrl": "https://stompartner.kz/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "все-для-стоматологии",
+      "supplierName": "Все Для Стоматологии",
+      "website": "https://dentmart.kz/",
+      "catalogUrl": "https://dentmart.kz/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "nsk-dental",
+      "supplierName": "NSK-Dental",
+      "website": "https://nsk-dental.kz/",
+      "catalogUrl": "https://nsk-dental.kz/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "tridadent",
+      "supplierName": "Tridadent",
+      "website": "https://tridadent.kz/",
+      "catalogUrl": "https://tridadent.kz/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "eurasiamed",
+      "supplierName": "Eurasiamed",
+      "website": "https://eurasia-med.kz/",
+      "catalogUrl": "https://eurasia-med.kz/",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PUBLIC_SOURCE_DISCOVERED",
+        "nextAction": "Подтвердить источник и условия использования каталога"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН, договорные данные и актуальный XLSX/PDF с SKU"
+    },
+    {
+      "supplierKey": "almagest-business",
+      "supplierName": "Almagest Business",
+      "website": "",
+      "catalogUrl": "",
+      "organization": {
+        "status": "PENDING_BIN_AND_LEGAL_DOCUMENTS",
+        "nextAction": "Получить БИН, юридическое название и подтверждающие документы"
+      },
+      "credential": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Выдать приглашение и получить контакт владельца организации"
+      },
+      "warehouse": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить города, адреса складов и график отгрузки"
+      },
+      "source": {
+        "status": "PENDING_SUPPLIER",
+        "nextAction": "Получить XLSX, CSV, PDF или API-источник"
+      },
+      "import": {
+        "status": "QUEUED",
+        "nextAction": "Запустить импорт после получения источника"
+      },
+      "matching": {
+        "status": "BLOCKED_BY_SOURCE",
+        "nextAction": "Сопоставить SKU и названия с canonical-карточками без создания дублей"
+      },
+      "compliance": {
+        "status": "BLOCKED_BY_DOCUMENTS",
+        "nextAction": "Проверить лицензии, регистрационные документы и признаки медизделий"
+      },
+      "eds": {
+        "status": "BLOCKED_BY_CREDENTIALS",
+        "nextAction": "Подключить EDS gateway после подтверждения организации"
+      },
+      "offer": {
+        "status": "BLOCKED_BY_EDS_AND_AGREEMENT",
+        "nextAction": "Создавать offer только после активного договора и ЭЦП"
+      },
+      "price": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить цену поставщика после подтверждения offer"
+      },
+      "stock": {
+        "status": "BLOCKED_BY_OFFER",
+        "nextAction": "Загрузить остаток, склад и срок поставки"
+      },
+      "testOrder": {
+        "status": "BLOCKED_BY_STOCK_AND_PSP",
+        "nextAction": "Провести тестовый заказ после договора, остатка и PSP sandbox"
+      },
+      "nextAction": "Запросить у поставщика БИН и первый XLSX/PDF-прайс"
+    }
+  ]
+}

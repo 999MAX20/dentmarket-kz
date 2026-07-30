@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T00:41:08.499Z",
+  "generatedAt": "2026-07-30T14:04:08.884Z",
   "policy": {
     "marketBrandWithoutProductsRemainsInDiscoveryQueueUnlessClassified": true,
     "supplierAndAmbiguousLabelsDoNotGenerateManufacturerCards": true,
@@ -15,7 +15,7 @@
     {
       "brand": "Винар",
       "manufacturerEvidenceProducts": 6,
-      "publicProducts": 0,
+      "publicProducts": 6,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -24,7 +24,7 @@
     {
       "brand": "ВладМиВа",
       "manufacturerEvidenceProducts": 2398,
-      "publicProducts": 0,
+      "publicProducts": 1363,
       "evidenceSources": "vladmiva-dental-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -33,7 +33,7 @@
     {
       "brand": "Гекса",
       "manufacturerEvidenceProducts": 3,
-      "publicProducts": 0,
+      "publicProducts": 3,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -42,7 +42,7 @@
     {
       "brand": "Дельтика",
       "manufacturerEvidenceProducts": 4,
-      "publicProducts": 0,
+      "publicProducts": 4,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -51,7 +51,7 @@
     {
       "brand": "ЗАО Бинергия",
       "manufacturerEvidenceProducts": 25,
-      "publicProducts": 0,
+      "publicProducts": 25,
       "evidenceSources": "binergia-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -60,7 +60,7 @@
     {
       "brand": "КМИЗ",
       "manufacturerEvidenceProducts": 97,
-      "publicProducts": 0,
+      "publicProducts": 95,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -69,7 +69,7 @@
     {
       "brand": "Кормед",
       "manufacturerEvidenceProducts": 37,
-      "publicProducts": 0,
+      "publicProducts": 35,
       "evidenceSources": "cormed-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -78,7 +78,7 @@
     {
       "brand": "Линтэкс",
       "manufacturerEvidenceProducts": 20,
-      "publicProducts": 0,
+      "publicProducts": 17,
       "evidenceSources": "lintex-manufacturer-catalog.json | denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -87,7 +87,7 @@
     {
       "brand": "МедиДез",
       "manufacturerEvidenceProducts": 49,
-      "publicProducts": 0,
+      "publicProducts": 49,
       "evidenceSources": "medidez-kz-catalog.json | denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -96,7 +96,7 @@
     {
       "brand": "Целит",
       "manufacturerEvidenceProducts": 22,
-      "publicProducts": 0,
+      "publicProducts": 20,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -105,7 +105,7 @@
     {
       "brand": "Aes",
       "manufacturerEvidenceProducts": 1,
-      "publicProducts": 0,
+      "publicProducts": 1,
       "evidenceSources": "aes-kz-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -114,7 +114,7 @@
     {
       "brand": "Ajax",
       "manufacturerEvidenceProducts": 63,
-      "publicProducts": 0,
+      "publicProducts": 58,
       "evidenceSources": "ajax-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -123,7 +123,7 @@
     {
       "brand": "Alpha-Bio Tec",
       "manufacturerEvidenceProducts": 261,
-      "publicProducts": 0,
+      "publicProducts": 51,
       "evidenceSources": "alpha-bio-kz-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -132,7 +132,7 @@
     {
       "brand": "Amazing White",
       "manufacturerEvidenceProducts": 25,
-      "publicProducts": 0,
+      "publicProducts": 25,
       "evidenceSources": "amazing-white-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -141,7 +141,7 @@
     {
       "brand": "Anthos",
       "manufacturerEvidenceProducts": 51,
-      "publicProducts": 0,
+      "publicProducts": 40,
       "evidenceSources": "anthos-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -150,7 +150,7 @@
     {
       "brand": "AS-US",
       "manufacturerEvidenceProducts": 1,
-      "publicProducts": 0,
+      "publicProducts": 1,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -159,7 +159,7 @@
     {
       "brand": "Averon",
       "manufacturerEvidenceProducts": 811,
-      "publicProducts": 0,
+      "publicProducts": 811,
       "evidenceSources": "averon-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -168,7 +168,7 @@
     {
       "brand": "BEGO",
       "manufacturerEvidenceProducts": 1917,
-      "publicProducts": 0,
+      "publicProducts": 555,
       "evidenceSources": "bego-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -177,7 +177,7 @@
     {
       "brand": "BiLumix",
       "manufacturerEvidenceProducts": 25,
-      "publicProducts": 0,
+      "publicProducts": 25,
       "evidenceSources": "bilumix-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -186,7 +186,7 @@
     {
       "brand": "BIOLA",
       "manufacturerEvidenceProducts": 1,
-      "publicProducts": 0,
+      "publicProducts": 1,
       "evidenceSources": "biola-kz-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -195,7 +195,7 @@
     {
       "brand": "Biomaterials Korea",
       "manufacturerEvidenceProducts": 27,
-      "publicProducts": 0,
+      "publicProducts": 27,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -204,7 +204,7 @@
     {
       "brand": "BISCO",
       "manufacturerEvidenceProducts": 82,
-      "publicProducts": 25,
+      "publicProducts": 104,
       "evidenceSources": "bisco-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -213,7 +213,7 @@
     {
       "brand": "BlancOne",
       "manufacturerEvidenceProducts": 11,
-      "publicProducts": 0,
+      "publicProducts": 11,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -222,7 +222,7 @@
     {
       "brand": "Castellini",
       "manufacturerEvidenceProducts": 49,
-      "publicProducts": 0,
+      "publicProducts": 39,
       "evidenceSources": "castellini-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -231,7 +231,7 @@
     {
       "brand": "ChoiceTech",
       "manufacturerEvidenceProducts": 6,
-      "publicProducts": 0,
+      "publicProducts": 6,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -240,7 +240,7 @@
     {
       "brand": "CICADA",
       "manufacturerEvidenceProducts": 52,
-      "publicProducts": 7,
+      "publicProducts": 59,
       "evidenceSources": "cicada-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -249,7 +249,7 @@
     {
       "brand": "Clean+Safe",
       "manufacturerEvidenceProducts": 5,
-      "publicProducts": 0,
+      "publicProducts": 5,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -258,7 +258,7 @@
     {
       "brand": "Coral",
       "manufacturerEvidenceProducts": 7,
-      "publicProducts": 0,
+      "publicProducts": 7,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -267,7 +267,7 @@
     {
       "brand": "Cotisen",
       "manufacturerEvidenceProducts": 34,
-      "publicProducts": 0,
+      "publicProducts": 34,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -276,7 +276,7 @@
     {
       "brand": "COXO",
       "manufacturerEvidenceProducts": 50,
-      "publicProducts": 44,
+      "publicProducts": 94,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -285,7 +285,7 @@
     {
       "brand": "Dental Air",
       "manufacturerEvidenceProducts": 1,
-      "publicProducts": 0,
+      "publicProducts": 1,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -294,7 +294,7 @@
     {
       "brand": "Dental Art",
       "manufacturerEvidenceProducts": 19,
-      "publicProducts": 0,
+      "publicProducts": 18,
       "evidenceSources": "dental-art-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -303,7 +303,7 @@
     {
       "brand": "Dental X",
       "manufacturerEvidenceProducts": 39,
-      "publicProducts": 0,
+      "publicProducts": 27,
       "evidenceSources": "dental-x-regional-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -312,7 +312,7 @@
     {
       "brand": "DentKist",
       "manufacturerEvidenceProducts": 26,
-      "publicProducts": 6,
+      "publicProducts": 32,
       "evidenceSources": "dentkist-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -321,7 +321,7 @@
     {
       "brand": "Dentsply Sirona",
       "manufacturerEvidenceProducts": 105,
-      "publicProducts": 15,
+      "publicProducts": 113,
       "evidenceSources": "dentsply-sirona-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -330,7 +330,7 @@
     {
       "brand": "DENU",
       "manufacturerEvidenceProducts": 46,
-      "publicProducts": 0,
+      "publicProducts": 45,
       "evidenceSources": "denu-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -339,7 +339,7 @@
     {
       "brand": "DIO",
       "manufacturerEvidenceProducts": 211,
-      "publicProducts": 0,
+      "publicProducts": 201,
       "evidenceSources": "dio-manufacturer-catalog.json | denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -348,7 +348,7 @@
     {
       "brand": "Diplomat Dental",
       "manufacturerEvidenceProducts": 12,
-      "publicProducts": 0,
+      "publicProducts": 11,
       "evidenceSources": "diplomat-dental-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -357,7 +357,7 @@
     {
       "brand": "Doctor Smile",
       "manufacturerEvidenceProducts": 17,
-      "publicProducts": 0,
+      "publicProducts": 17,
       "evidenceSources": "doctor-smile-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -366,7 +366,7 @@
     {
       "brand": "DOF",
       "manufacturerEvidenceProducts": 2,
-      "publicProducts": 0,
+      "publicProducts": 2,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -375,7 +375,7 @@
     {
       "brand": "Dräger",
       "manufacturerEvidenceProducts": 12,
-      "publicProducts": 0,
+      "publicProducts": 12,
       "evidenceSources": "draeger-anesthesia-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -384,7 +384,7 @@
     {
       "brand": "Dürr Dental",
       "manufacturerEvidenceProducts": 84,
-      "publicProducts": 0,
+      "publicProducts": 78,
       "evidenceSources": "durr-dental-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -393,7 +393,7 @@
     {
       "brand": "EKOM",
       "manufacturerEvidenceProducts": 1,
-      "publicProducts": 30,
+      "publicProducts": 31,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -402,7 +402,7 @@
     {
       "brand": "EMS",
       "manufacturerEvidenceProducts": 3,
-      "publicProducts": 0,
+      "publicProducts": 3,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -411,7 +411,7 @@
     {
       "brand": "ESCO Medical",
       "manufacturerEvidenceProducts": 13,
-      "publicProducts": 0,
+      "publicProducts": 13,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -420,7 +420,7 @@
     {
       "brand": "Falcon",
       "manufacturerEvidenceProducts": 4307,
-      "publicProducts": 0,
+      "publicProducts": 4075,
       "evidenceSources": "falcon-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -429,7 +429,7 @@
     {
       "brand": "Ferroplast",
       "manufacturerEvidenceProducts": 2,
-      "publicProducts": 0,
+      "publicProducts": 2,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -438,7 +438,7 @@
     {
       "brand": "FOMOS",
       "manufacturerEvidenceProducts": 20,
-      "publicProducts": 11,
+      "publicProducts": 30,
       "evidenceSources": "fomos-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -447,7 +447,7 @@
     {
       "brand": "Gapadent",
       "manufacturerEvidenceProducts": 11,
-      "publicProducts": 0,
+      "publicProducts": 11,
       "evidenceSources": "gapadent-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -456,7 +456,7 @@
     {
       "brand": "GC",
       "manufacturerEvidenceProducts": 154,
-      "publicProducts": 13,
+      "publicProducts": 166,
       "evidenceSources": "gc-europe-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -465,7 +465,7 @@
     {
       "brand": "Genoray",
       "manufacturerEvidenceProducts": 9,
-      "publicProducts": 0,
+      "publicProducts": 9,
       "evidenceSources": "genoray-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -474,7 +474,7 @@
     {
       "brand": "Good Doctors",
       "manufacturerEvidenceProducts": 41,
-      "publicProducts": 0,
+      "publicProducts": 40,
       "evidenceSources": "good-doctors-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -483,7 +483,7 @@
     {
       "brand": "GoodnDoc",
       "manufacturerEvidenceProducts": 19,
-      "publicProducts": 0,
+      "publicProducts": 14,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -501,7 +501,7 @@
     {
       "brand": "Handy",
       "manufacturerEvidenceProducts": 10,
-      "publicProducts": 0,
+      "publicProducts": 8,
       "evidenceSources": "handy-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -510,7 +510,7 @@
     {
       "brand": "Humanchemie",
       "manufacturerEvidenceProducts": 30,
-      "publicProducts": 0,
+      "publicProducts": 28,
       "evidenceSources": "humanchemie-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -528,7 +528,7 @@
     {
       "brand": "Huons",
       "manufacturerEvidenceProducts": 2,
-      "publicProducts": 0,
+      "publicProducts": 2,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -537,7 +537,7 @@
     {
       "brand": "IMD",
       "manufacturerEvidenceProducts": 70,
-      "publicProducts": 9,
+      "publicProducts": 79,
       "evidenceSources": "imd-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -546,7 +546,7 @@
     {
       "brand": "Inci Dental",
       "manufacturerEvidenceProducts": 1,
-      "publicProducts": 0,
+      "publicProducts": 1,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -555,7 +555,7 @@
     {
       "brand": "Interdent",
       "manufacturerEvidenceProducts": 64,
-      "publicProducts": 64,
+      "publicProducts": 70,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -564,7 +564,7 @@
     {
       "brand": "IQ Dent",
       "manufacturerEvidenceProducts": 203,
-      "publicProducts": 17,
+      "publicProducts": 184,
       "evidenceSources": "iqdent-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -573,7 +573,7 @@
     {
       "brand": "Ivoclar",
       "manufacturerEvidenceProducts": 107,
-      "publicProducts": 8,
+      "publicProducts": 112,
       "evidenceSources": "ivoclar-russia-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -582,7 +582,7 @@
     {
       "brand": "JINY",
       "manufacturerEvidenceProducts": 4,
-      "publicProducts": 0,
+      "publicProducts": 4,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -600,7 +600,7 @@
     {
       "brand": "Kaeser",
       "manufacturerEvidenceProducts": 6,
-      "publicProducts": 0,
+      "publicProducts": 6,
       "evidenceSources": "kaeser-dental-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -609,7 +609,7 @@
     {
       "brand": "KaVo",
       "manufacturerEvidenceProducts": 80,
-      "publicProducts": 0,
+      "publicProducts": 74,
       "evidenceSources": "kavo-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -618,7 +618,7 @@
     {
       "brand": "Kerr",
       "manufacturerEvidenceProducts": 31,
-      "publicProducts": 4,
+      "publicProducts": 34,
       "evidenceSources": "kerr-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -627,7 +627,7 @@
     {
       "brand": "Kettenbach",
       "manufacturerEvidenceProducts": 10,
-      "publicProducts": 5,
+      "publicProducts": 15,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -636,7 +636,7 @@
     {
       "brand": "KINGFA Medical",
       "manufacturerEvidenceProducts": 1,
-      "publicProducts": 0,
+      "publicProducts": 1,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -645,7 +645,7 @@
     {
       "brand": "KO-MAX",
       "manufacturerEvidenceProducts": 4,
-      "publicProducts": 0,
+      "publicProducts": 4,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -654,7 +654,7 @@
     {
       "brand": "KristiDent",
       "manufacturerEvidenceProducts": 16,
-      "publicProducts": 0,
+      "publicProducts": 16,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -663,7 +663,7 @@
     {
       "brand": "Kulzer",
       "manufacturerEvidenceProducts": 249,
-      "publicProducts": 16,
+      "publicProducts": 233,
       "evidenceSources": "kulzer-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -672,7 +672,7 @@
     {
       "brand": "Kuraray Noritake",
       "manufacturerEvidenceProducts": 49,
-      "publicProducts": 5,
+      "publicProducts": 53,
       "evidenceSources": "kuraray-noritake-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -681,7 +681,7 @@
     {
       "brand": "LaTus",
       "manufacturerEvidenceProducts": 151,
-      "publicProducts": 5,
+      "publicProducts": 152,
       "evidenceSources": "latus-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -690,7 +690,7 @@
     {
       "brand": "LM Dental",
       "manufacturerEvidenceProducts": 362,
-      "publicProducts": 11,
+      "publicProducts": 358,
       "evidenceSources": "lm-dental-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -699,7 +699,7 @@
     {
       "brand": "Madespa",
       "manufacturerEvidenceProducts": 43,
-      "publicProducts": 0,
+      "publicProducts": 37,
       "evidenceSources": "madespa-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -708,7 +708,7 @@
     {
       "brand": "Majestic",
       "manufacturerEvidenceProducts": 110,
-      "publicProducts": 0,
+      "publicProducts": 108,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -717,7 +717,7 @@
     {
       "brand": "MEDESY",
       "manufacturerEvidenceProducts": 433,
-      "publicProducts": 0,
+      "publicProducts": 421,
       "evidenceSources": "medesy-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -735,7 +735,7 @@
     {
       "brand": "Medit",
       "manufacturerEvidenceProducts": 12,
-      "publicProducts": 0,
+      "publicProducts": 12,
       "evidenceSources": "medit-manufacturer-catalog.json | denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -744,7 +744,7 @@
     {
       "brand": "MedPark",
       "manufacturerEvidenceProducts": 6,
-      "publicProducts": 0,
+      "publicProducts": 4,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -753,7 +753,7 @@
     {
       "brand": "Medprotect",
       "manufacturerEvidenceProducts": 2,
-      "publicProducts": 0,
+      "publicProducts": 2,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -762,7 +762,7 @@
     {
       "brand": "MELAG",
       "manufacturerEvidenceProducts": 83,
-      "publicProducts": 0,
+      "publicProducts": 71,
       "evidenceSources": "melag-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -771,7 +771,7 @@
     {
       "brand": "Mercury",
       "manufacturerEvidenceProducts": 108,
-      "publicProducts": 0,
+      "publicProducts": 104,
       "evidenceSources": "mercury-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -780,7 +780,7 @@
     {
       "brand": "MGF",
       "manufacturerEvidenceProducts": 312,
-      "publicProducts": 0,
+      "publicProducts": 110,
       "evidenceSources": "mgf-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -789,7 +789,7 @@
     {
       "brand": "Miglionico",
       "manufacturerEvidenceProducts": 7,
-      "publicProducts": 0,
+      "publicProducts": 7,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -798,7 +798,7 @@
     {
       "brand": "Miradent",
       "manufacturerEvidenceProducts": 3,
-      "publicProducts": 0,
+      "publicProducts": 3,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -807,7 +807,7 @@
     {
       "brand": "Morita",
       "manufacturerEvidenceProducts": 33,
-      "publicProducts": 0,
+      "publicProducts": 31,
       "evidenceSources": "morita-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -825,7 +825,7 @@
     {
       "brand": "Myobrace",
       "manufacturerEvidenceProducts": 22,
-      "publicProducts": 0,
+      "publicProducts": 22,
       "evidenceSources": "myobrace-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -834,7 +834,7 @@
     {
       "brand": "MyRay",
       "manufacturerEvidenceProducts": 18,
-      "publicProducts": 0,
+      "publicProducts": 11,
       "evidenceSources": "myray-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -843,7 +843,7 @@
     {
       "brand": "NIC",
       "manufacturerEvidenceProducts": 68,
-      "publicProducts": 2,
+      "publicProducts": 66,
       "evidenceSources": "nic-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -852,7 +852,7 @@
     {
       "brand": "NSK",
       "manufacturerEvidenceProducts": 70,
-      "publicProducts": 9,
+      "publicProducts": 46,
       "evidenceSources": "nsk-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -861,7 +861,7 @@
     {
       "brand": "NTI",
       "manufacturerEvidenceProducts": 721,
-      "publicProducts": 0,
+      "publicProducts": 403,
       "evidenceSources": "nti-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -879,7 +879,7 @@
     {
       "brand": "Olident",
       "manufacturerEvidenceProducts": 40,
-      "publicProducts": 0,
+      "publicProducts": 40,
       "evidenceSources": "olident-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -888,7 +888,7 @@
     {
       "brand": "Omega Dent",
       "manufacturerEvidenceProducts": 24,
-      "publicProducts": 0,
+      "publicProducts": 24,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -897,7 +897,7 @@
     {
       "brand": "One Drop Only",
       "manufacturerEvidenceProducts": 8,
-      "publicProducts": 6,
+      "publicProducts": 8,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -915,7 +915,7 @@
     {
       "brand": "Ormco",
       "manufacturerEvidenceProducts": 15,
-      "publicProducts": 3,
+      "publicProducts": 15,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -924,7 +924,7 @@
     {
       "brand": "Osstem",
       "manufacturerEvidenceProducts": 60,
-      "publicProducts": 0,
+      "publicProducts": 35,
       "evidenceSources": "osstem-kz-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -933,7 +933,7 @@
     {
       "brand": "OSUNG MND",
       "manufacturerEvidenceProducts": 1652,
-      "publicProducts": 0,
+      "publicProducts": 1624,
       "evidenceSources": "osung-manufacturer-catalog.json | denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -942,7 +942,7 @@
     {
       "brand": "Pierrot",
       "manufacturerEvidenceProducts": 24,
-      "publicProducts": 0,
+      "publicProducts": 24,
       "evidenceSources": "pierrot-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -951,7 +951,7 @@
     {
       "brand": "Planmeca",
       "manufacturerEvidenceProducts": 3,
-      "publicProducts": 7,
+      "publicProducts": 9,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -960,7 +960,7 @@
     {
       "brand": "Plasmapp",
       "manufacturerEvidenceProducts": 6,
-      "publicProducts": 0,
+      "publicProducts": 6,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -969,7 +969,7 @@
     {
       "brand": "President",
       "manufacturerEvidenceProducts": 8,
-      "publicProducts": 0,
+      "publicProducts": 8,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -978,7 +978,7 @@
     {
       "brand": "RAY",
       "manufacturerEvidenceProducts": 88,
-      "publicProducts": 0,
+      "publicProducts": 80,
       "evidenceSources": "ray-manufacturer-catalog.json | denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -987,7 +987,7 @@
     {
       "brand": "Revyline",
       "manufacturerEvidenceProducts": 208,
-      "publicProducts": 0,
+      "publicProducts": 203,
       "evidenceSources": "revyline-kz-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -996,7 +996,7 @@
     {
       "brand": "Saeshin",
       "manufacturerEvidenceProducts": 38,
-      "publicProducts": 0,
+      "publicProducts": 38,
       "evidenceSources": "saeshin-manufacturer-catalog.json | denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1005,7 +1005,7 @@
     {
       "brand": "Sanavita",
       "manufacturerEvidenceProducts": 1,
-      "publicProducts": 0,
+      "publicProducts": 1,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1014,7 +1014,7 @@
     {
       "brand": "Sanctuary",
       "manufacturerEvidenceProducts": 1,
-      "publicProducts": 0,
+      "publicProducts": 1,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1023,7 +1023,7 @@
     {
       "brand": "Sani",
       "manufacturerEvidenceProducts": 28,
-      "publicProducts": 0,
+      "publicProducts": 27,
       "evidenceSources": "sani-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1032,7 +1032,7 @@
     {
       "brand": "Septodont",
       "manufacturerEvidenceProducts": 55,
-      "publicProducts": 0,
+      "publicProducts": 52,
       "evidenceSources": "septodont-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1041,7 +1041,7 @@
     {
       "brand": "Shenzhen Perfect",
       "manufacturerEvidenceProducts": 15,
-      "publicProducts": 0,
+      "publicProducts": 7,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1050,7 +1050,7 @@
     {
       "brand": "Shinhung",
       "manufacturerEvidenceProducts": 7,
-      "publicProducts": 0,
+      "publicProducts": 7,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1059,7 +1059,7 @@
     {
       "brand": "SHINING 3D",
       "manufacturerEvidenceProducts": 40,
-      "publicProducts": 0,
+      "publicProducts": 40,
       "evidenceSources": "shining3d-manufacturer-catalog.json | denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1068,7 +1068,7 @@
     {
       "brand": "Shofu",
       "manufacturerEvidenceProducts": 97,
-      "publicProducts": 1,
+      "publicProducts": 98,
       "evidenceSources": "shofu-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1077,7 +1077,7 @@
     {
       "brand": "SIGER",
       "manufacturerEvidenceProducts": 8,
-      "publicProducts": 0,
+      "publicProducts": 8,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1086,7 +1086,7 @@
     {
       "brand": "Sigmadent SD Ceram",
       "manufacturerEvidenceProducts": 11,
-      "publicProducts": 0,
+      "publicProducts": 11,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1095,7 +1095,7 @@
     {
       "brand": "SOCO",
       "manufacturerEvidenceProducts": 6,
-      "publicProducts": 0,
+      "publicProducts": 6,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1104,7 +1104,7 @@
     {
       "brand": "Solventum",
       "manufacturerEvidenceProducts": 246,
-      "publicProducts": 6,
+      "publicProducts": 190,
       "evidenceSources": "solventum-dental-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1113,7 +1113,7 @@
     {
       "brand": "StomaDent",
       "manufacturerEvidenceProducts": 5,
-      "publicProducts": 0,
+      "publicProducts": 5,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1122,7 +1122,7 @@
     {
       "brand": "Strauss",
       "manufacturerEvidenceProducts": 1798,
-      "publicProducts": 0,
+      "publicProducts": 480,
       "evidenceSources": "strauss-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1131,7 +1131,7 @@
     {
       "brand": "Suntem",
       "manufacturerEvidenceProducts": 11,
-      "publicProducts": 0,
+      "publicProducts": 5,
       "evidenceSources": "suntem-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1140,7 +1140,7 @@
     {
       "brand": "Tealth",
       "manufacturerEvidenceProducts": 98,
-      "publicProducts": 9,
+      "publicProducts": 107,
       "evidenceSources": "tealth-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1149,7 +1149,7 @@
     {
       "brand": "Thelavicos",
       "manufacturerEvidenceProducts": 14,
-      "publicProducts": 0,
+      "publicProducts": 14,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1158,7 +1158,7 @@
     {
       "brand": "TOBOOM",
       "manufacturerEvidenceProducts": 1058,
-      "publicProducts": 0,
+      "publicProducts": 1005,
       "evidenceSources": "toboom-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1167,7 +1167,7 @@
     {
       "brand": "Tokuyama Dental",
       "manufacturerEvidenceProducts": 21,
-      "publicProducts": 14,
+      "publicProducts": 35,
       "evidenceSources": "nordstom-full-catalog.json | denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1176,7 +1176,7 @@
     {
       "brand": "Tor VM",
       "manufacturerEvidenceProducts": 103,
-      "publicProducts": 1,
+      "publicProducts": 102,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1185,7 +1185,7 @@
     {
       "brand": "TORNADO",
       "manufacturerEvidenceProducts": 0,
-      "publicProducts": 6,
+      "publicProducts": 4,
       "evidenceSources": "",
       "classificationStatus": "DURR_DENTAL_PRODUCT_LINE_ALIAS",
       "classificationReason": "TORNADO is an official compressor product line of Dürr Dental, not a separate manufacturer brand. Existing Kazakhstan observations are preserved and reconciled against the structured Dürr Dental catalogue instead of creating duplicate brand cards.",
@@ -1194,7 +1194,7 @@
     {
       "brand": "Ultradent",
       "manufacturerEvidenceProducts": 185,
-      "publicProducts": 5,
+      "publicProducts": 186,
       "evidenceSources": "ultradent-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1203,7 +1203,7 @@
     {
       "brand": "UP3D",
       "manufacturerEvidenceProducts": 19,
-      "publicProducts": 0,
+      "publicProducts": 17,
       "evidenceSources": "up3d-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1212,7 +1212,7 @@
     {
       "brand": "VDW",
       "manufacturerEvidenceProducts": 35,
-      "publicProducts": 6,
+      "publicProducts": 41,
       "evidenceSources": "nordstom-full-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1221,7 +1221,7 @@
     {
       "brand": "Vericom",
       "manufacturerEvidenceProducts": 31,
-      "publicProducts": 0,
+      "publicProducts": 29,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1230,7 +1230,7 @@
     {
       "brand": "VITA",
       "manufacturerEvidenceProducts": 80,
-      "publicProducts": 17,
+      "publicProducts": 79,
       "evidenceSources": "vita-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1239,7 +1239,7 @@
     {
       "brand": "VOCO",
       "manufacturerEvidenceProducts": 166,
-      "publicProducts": 12,
+      "publicProducts": 164,
       "evidenceSources": "voco-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1248,7 +1248,7 @@
     {
       "brand": "VRN",
       "manufacturerEvidenceProducts": 40,
-      "publicProducts": 6,
+      "publicProducts": 46,
       "evidenceSources": "vrn-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1257,7 +1257,7 @@
     {
       "brand": "VT Cosmetics",
       "manufacturerEvidenceProducts": 1,
-      "publicProducts": 0,
+      "publicProducts": 1,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1266,7 +1266,7 @@
     {
       "brand": "W&H",
       "manufacturerEvidenceProducts": 63,
-      "publicProducts": 5,
+      "publicProducts": 21,
       "evidenceSources": "wh-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1275,7 +1275,7 @@
     {
       "brand": "Wellmed",
       "manufacturerEvidenceProducts": 7,
-      "publicProducts": 0,
+      "publicProducts": 7,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1284,7 +1284,7 @@
     {
       "brand": "Woodpecker",
       "manufacturerEvidenceProducts": 145,
-      "publicProducts": 2,
+      "publicProducts": 131,
       "evidenceSources": "woodpecker-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1293,7 +1293,7 @@
     {
       "brand": "Xpect Vision",
       "manufacturerEvidenceProducts": 1,
-      "publicProducts": 0,
+      "publicProducts": 1,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1302,7 +1302,7 @@
     {
       "brand": "XTCERA",
       "manufacturerEvidenceProducts": 4,
-      "publicProducts": 0,
+      "publicProducts": 4,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1311,7 +1311,7 @@
     {
       "brand": "YouJoy",
       "manufacturerEvidenceProducts": 33,
-      "publicProducts": 3,
+      "publicProducts": 36,
       "evidenceSources": "youjoy-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1320,7 +1320,7 @@
     {
       "brand": "Zhermack",
       "manufacturerEvidenceProducts": 94,
-      "publicProducts": 0,
+      "publicProducts": 76,
       "evidenceSources": "zhermack-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1329,7 +1329,7 @@
     {
       "brand": "ZION",
       "manufacturerEvidenceProducts": 36,
-      "publicProducts": 0,
+      "publicProducts": 30,
       "evidenceSources": "denti-kz-brand-listings.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1338,7 +1338,7 @@
     {
       "brand": "ZT Dental",
       "manufacturerEvidenceProducts": 107,
-      "publicProducts": 1,
+      "publicProducts": 105,
       "evidenceSources": "ztdental-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",

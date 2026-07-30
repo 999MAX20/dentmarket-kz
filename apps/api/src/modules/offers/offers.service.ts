@@ -72,7 +72,7 @@ export class OffersService {
   }
 
   private async requireOffer(supplierOrganizationId: string, offerId: string) {
-    const offer = await this.prisma.supplierOffer.findFirst({ where: { id: offerId, supplierOrganizationId }, include: { publication: true, productVariant: { include: { product: true } } } });
+    const offer = await this.prisma.supplierOffer.findFirst({ where: { id: offerId, supplierOrganizationId }, include: { publication: true, productVariant: { include: { product: { include: { industries: true } } } } } });
     if (!offer) throw new NotFoundException("Supplier offer not found");
     return offer;
   }
@@ -125,6 +125,14 @@ export class OffersService {
     }
     if (input.status === "PUBLISHED") {
       if (offer.productVariant.product.status !== "ACTIVE") throw new BadRequestException("Only confirmed ACTIVE product cards can be published");
+      const [supplier, dentistry] = await Promise.all([
+        this.prisma.organization.findUnique({ where: { id: supplierOrganizationId }, select: { primaryIndustryId: true } }),
+        this.prisma.industry.findUnique({ where: { code: "dentistry-kz" }, select: { id: true } }),
+      ]);
+      const supplierIndustryId = supplier?.primaryIndustryId ?? dentistry?.id;
+      if (!supplierIndustryId || !offer.productVariant.product.industries.some((industry) => industry.industryId === supplierIndustryId)) {
+        throw new BadRequestException("Offer product is outside the supplier industry scope");
+      }
       const [activePrice, availableBalance] = await Promise.all([
         this.prisma.offerPrice.count({ where: { offerId, status: "ACTIVE" } }),
         this.prisma.inventoryBalance.count({ where: { offerId, quantityAvailable: { gt: 0 }, freshnessStatus: "FRESH" } }),

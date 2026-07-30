@@ -25,13 +25,6 @@ async function whitenConnectedBorderBackground(bytes: Buffer) {
     .toBuffer({ resolveWithObject: true });
   const { data, info } = prepared;
   const { width, height, channels } = info;
-
-  // Небольшие исходники не содержат достаточно данных для безопасного
-  // отделения светлого товара от светлого фона. На таких фото агрессивная
-  // заливка стирала белые крышки, флаконы и края упаковки. Сохраняем исходное
-  // изображение целиком и только приводим его к единому холсту ниже.
-  if (width < 500 || height < 500) return prepared;
-
   const samples: [number[], number[], number[]] = [[], [], []];
 
   const samplePixel = (pixel: number) => {
@@ -235,23 +228,18 @@ async function correctedProductImage(
 }
 
 export async function GET(
-  request: NextRequest,
+  _request: NextRequest,
   context: { params: Promise<{ productId: string }> },
 ) {
   const { productId } = await context.params;
   const catalog = await readPublishedCatalog();
   const product = catalog.products.find(({ id }) => id === productId);
-  const requestedVariantId = request.nextUrl.searchParams.get("variant");
-  const variantImageUrl = requestedVariantId
-    ? product?.variants.find(({ id }) => id === requestedVariantId)?.imageUrl
-    : null;
-  const imageUrl = variantImageUrl ?? product?.imageUrl;
-  if (!imageUrl || !/^https?:\/\//iu.test(imageUrl)) {
+  if (!product?.imageUrl || !/^https?:\/\//iu.test(product.imageUrl)) {
     return new NextResponse(null, { status: 404 });
   }
 
   try {
-    const image = await correctedProductImage(imageUrl);
+    const image = await correctedProductImage(product.imageUrl);
     return new NextResponse(new Uint8Array(image), {
       headers: {
         "Content-Type": "image/webp",
@@ -263,6 +251,6 @@ export async function GET(
   } catch {
     // Карточка не блокируется: если коррекция временно недоступна, отдаём
     // исходник, а следующий запрос CDN повторит обработку.
-    return NextResponse.redirect(imageUrl, 307);
+    return NextResponse.redirect(product.imageUrl, 307);
   }
 }

@@ -2,6 +2,7 @@ import "server-only";
 
 import fs from "node:fs/promises";
 import path from "node:path";
+import { cache } from "react";
 
 export type PublishedCatalogVariant = {
   id: string;
@@ -27,14 +28,10 @@ export type PublishedCatalogProduct = {
   placement?: "catalog" | "promotion";
   photoStatus?: string;
   catalogSource?: string;
+  industryCodes?: string[];
   complianceClassification?: string;
   moderationWarnings?: string[];
-  aliases?: string[];
-  commerceModel?: {
-    grain: string;
-    status: string;
-    variantDimensions?: string[];
-  };
+  commerceModel?: { status?: string };
   attributes?: Array<[string, string]>;
   variants: PublishedCatalogVariant[];
   offers: [];
@@ -55,11 +52,8 @@ const catalogCandidates = [
   ),
 ];
 
-let publishedCatalogPromise: Promise<PublishedCatalog> | null = null;
-
-export const readPublishedCatalog = (): Promise<PublishedCatalog> => {
-  if (!publishedCatalogPromise) {
-    publishedCatalogPromise = (async () => {
+export const readPublishedCatalog = cache(
+  async (): Promise<PublishedCatalog> => {
     for (const candidate of catalogCandidates) {
       try {
         return JSON.parse(await fs.readFile(candidate, "utf8")) as PublishedCatalog;
@@ -74,10 +68,5 @@ export const readPublishedCatalog = (): Promise<PublishedCatalog> => {
       }
     }
     throw new Error("Published catalog data is unavailable");
-    })().catch((error) => {
-      publishedCatalogPromise = null;
-      throw error;
-    });
-  }
-  return publishedCatalogPromise;
-};
+  },
+);

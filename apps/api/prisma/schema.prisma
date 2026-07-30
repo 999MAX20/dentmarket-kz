@@ -73,6 +73,22 @@ enum ProductStatus {
   ARCHIVED
 }
 
+enum ProductRelationType {
+  COMPATIBLE_WITH
+  REPLACES
+  CONSUMABLE_FOR
+  USED_WITH
+  SUCCESSOR_OF
+  DISCONTINUED_REPLACED_BY
+}
+
+enum ProductRelationStatus {
+  SUGGESTED
+  VERIFIED
+  REJECTED
+  ARCHIVED
+}
+
 enum ProductContentSourceType {
   MANUFACTURER
   REGULATORY_DOCUMENT
@@ -1011,8 +1027,10 @@ model Organization {
   displayName                       String
   bin                               String                    @unique @db.VarChar(12)
   status                            RecordStatus              @default(ACTIVE)
+  primaryIndustryId                 String?                   @db.Uuid
   version                           Int                       @default(1)
   capabilities                      OrganizationCapability[]
+  primaryIndustry                   Industry?                 @relation(fields: [primaryIndustryId], references: [id], onDelete: SetNull)
   memberships                       OrganizationMembership[]
   invitations                       MembershipInvitation[]
   roles                             Role[]
@@ -1053,6 +1071,7 @@ model RegistrationIntent {
   organizationDisplayName String
   bin                     String                     @db.VarChar(12)
   capability              OrganizationCapabilityType
+  industryCode            String                     @default("dentistry-kz")
   status                  RegistrationIntentStatus   @default(PENDING)
   tokenHash               String                     @unique
   idempotencyKey          String                     @unique
@@ -1290,6 +1309,7 @@ model Industry {
   status      RecordStatus      @default(ACTIVE)
   categories  Category[]
   assignments ProductIndustry[]
+  organizations Organization[]
   createdAt   DateTime          @default(now())
 }
 
@@ -1424,11 +1444,36 @@ model Product {
   approvedCandidates ProductCandidate[]
   contentSources      ProductContentSource[]
   correctionRequests ProductCorrectionRequest[]
+  outgoingRelations ProductRelation[] @relation("ProductRelationFrom")
+  incomingRelations ProductRelation[] @relation("ProductRelationTo")
   createdAt          DateTime                @default(now())
   updatedAt          DateTime                @updatedAt
 
   @@index([canonicalName])
   @@index([gtin])
+}
+
+model ProductRelation {
+  id             String                @id @default(uuid()) @db.Uuid
+  fromProductId  String                @db.Uuid
+  toProductId    String                @db.Uuid
+  type           ProductRelationType
+  status         ProductRelationStatus  @default(SUGGESTED)
+  confidence     Decimal               @default(0.5) @db.Decimal(5, 4)
+  sourceType     ProductContentSourceType @default(DENTMARKET_EDITOR)
+  sourceUrl      String?
+  evidence       Json?
+  notes          String?
+  validFrom      DateTime?
+  validTo        DateTime?
+  fromProduct    Product               @relation("ProductRelationFrom", fields: [fromProductId], references: [id], onDelete: Cascade)
+  toProduct      Product               @relation("ProductRelationTo", fields: [toProductId], references: [id], onDelete: Cascade)
+  createdAt      DateTime              @default(now())
+  updatedAt      DateTime              @updatedAt
+
+  @@unique([fromProductId, toProductId, type])
+  @@index([fromProductId, type, status])
+  @@index([toProductId, type, status])
 }
 
 model ProductContentSource {
@@ -2319,6 +2364,7 @@ model PaymentIntent {
   checkoutId            String                       @unique @db.Uuid
   buyerOrganizationId   String                       @db.Uuid
   providerId            String                       @db.Uuid
+  paymentMethod         String                       @default("CARD") @db.VarChar(32)
   totalAmountMinor      Decimal                      @db.Decimal(20, 0)
   currency              String                       @db.Char(3)
   status                PaymentIntentStatus          @default(PENDING)

@@ -1,0 +1,231 @@
+{
+  "generatedAt": "2026-07-30T13:43:44.047Z",
+  "suppliers": 30,
+  "templates": 30,
+  "preparedRows": 3423,
+  "suppliersWithPreparedRows": 6,
+  "suppliersWithoutPublicRows": 24,
+  "commercialFields": [
+    "supplierSku",
+    "price",
+    "currency",
+    "stock",
+    "warehouse",
+    "leadTimeDays",
+    "availableFrom",
+    "licenseDocumentUrl"
+  ],
+  "policy": "Цена и остаток не публикуются до supplier confirmation, compliance и активного договора ЭЦП.",
+  "rows": [
+    {
+      "supplierName": "Medstom KZ",
+      "website": "https://medstom.kz/",
+      "template": "medstom-kz-price-stock-template.csv",
+      "preparedRows": 332,
+      "sourceEvidenceStatus": "PUBLIC_SOURCE_REQUIRES_SUPPLIER_CONFIRMATION"
+    },
+    {
+      "supplierName": "KazDentService",
+      "website": "https://kazdentservice.kz/",
+      "template": "kazdentservice-price-stock-template.csv",
+      "preparedRows": 21,
+      "sourceEvidenceStatus": "PUBLIC_SOURCE_REQUIRES_SUPPLIER_CONFIRMATION"
+    },
+    {
+      "supplierName": "Joseph Company",
+      "website": "https://joseph-company.kz/",
+      "template": "joseph-company-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "LIRA Medical Group",
+      "website": "https://dent-materials.kz/",
+      "template": "lira-medical-group-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "IMS",
+      "website": "https://ims.kz/",
+      "template": "ims-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Unident",
+      "website": "https://unident.kz/",
+      "template": "unident-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Ordamed",
+      "website": "https://ordamed.com/kz/",
+      "template": "ordamed-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "KulimSnab",
+      "website": "https://kulimsnab.kz/",
+      "template": "kulimsnab-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "DentalShop Kazakhstan",
+      "website": "https://dentalshopkazakhstan.com/",
+      "template": "dentalshop-kazakhstan-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Stomtech",
+      "website": "https://stomtech.kz/",
+      "template": "stomtech-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "AllForDent",
+      "website": "https://a4d.kz/",
+      "template": "allfordent-price-stock-template.csv",
+      "preparedRows": 878,
+      "sourceEvidenceStatus": "PUBLIC_SOURCE_REQUIRES_SUPPLIER_CONFIRMATION"
+    },
+    {
+      "supplierName": "Nord Stom",
+      "website": "https://nordstom.kz/",
+      "template": "nord-stom-price-stock-template.csv",
+      "preparedRows": 719,
+      "sourceEvidenceStatus": "PUBLIC_SOURCE_REQUIRES_SUPPLIER_CONFIRMATION"
+    },
+    {
+      "supplierName": "AMDgroup",
+      "website": "https://amdgroup.kz/",
+      "template": "amdgroup-price-stock-template.csv",
+      "preparedRows": 1432,
+      "sourceEvidenceStatus": "PUBLIC_SOURCE_REQUIRES_SUPPLIER_CONFIRMATION"
+    },
+    {
+      "supplierName": "СТОМир",
+      "website": "https://stomir.kz/",
+      "template": "стомир-price-stock-template.csv",
+      "preparedRows": 41,
+      "sourceEvidenceStatus": "PUBLIC_SOURCE_REQUIRES_SUPPLIER_CONFIRMATION"
+    },
+    {
+      "supplierName": "Proteco Asia",
+      "website": "https://proteco.kz/",
+      "template": "proteco-asia-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "LUCH LLP",
+      "website": "https://luch.asia/",
+      "template": "luch-llp-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Stomed",
+      "website": "https://medsales.kz/",
+      "template": "stomed-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Astra Medical",
+      "website": "https://www.adent.kz/",
+      "template": "astra-medical-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "HELIY LLP",
+      "website": "https://heliy.kz/",
+      "template": "heliy-llp-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "VITIME LLP",
+      "website": "",
+      "template": "vitime-llp-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "IVO-HANDELS KZ",
+      "website": "https://www.ivohandels.com/",
+      "template": "ivo-handels-kz-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Ident LLC",
+      "website": "",
+      "template": "ident-llc-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Dento.kz",
+      "website": "https://dento.kz/",
+      "template": "dento-kz-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "ALGAMI",
+      "website": "https://algami.kz/",
+      "template": "algami-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Stom Partner",
+      "website": "https://stompartner.kz/",
+      "template": "stom-partner-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Все Для Стоматологии",
+      "website": "https://dentmart.kz/",
+      "template": "все-для-стоматологии-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "NSK-Dental",
+      "website": "https://nsk-dental.kz/",
+      "template": "nsk-dental-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Tridadent",
+      "website": "https://tridadent.kz/",
+      "template": "tridadent-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Eurasiamed",
+      "website": "https://eurasia-med.kz/",
+      "template": "eurasiamed-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    },
+    {
+      "supplierName": "Almagest Business",
+      "website": "",
+      "template": "almagest-business-price-stock-template.csv",
+      "preparedRows": 0,
+      "sourceEvidenceStatus": "NO_PUBLIC_ROWS_FOUND_REQUEST_FULL_CATALOG"
+    }
+  ]
+}

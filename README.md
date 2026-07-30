@@ -1,97 +1,420 @@
-# DentMarket KZ
+# DentMarket KZ — полный статус проекта
 
-B2B-маркетплейс для закупок стоматологических клиник Казахстана. Кодовая база остаётся отраслево-независимым TypeScript-монорепозиторием, а стоматология подключена как первая конфигурация каталога, атрибутов, правил и demo data.
+## 1. Что это за продукт
 
-## Приложения
+DentMarket KZ — отраслево-независимая B2B-платформа закупок. Первая активная вертикаль — стоматология Казахстана. Архитектура поддерживает отдельные каталоги и правила для других профессиональных сфер: Beauty, косметология, парикмахерские, nail, SPA, медицина, лаборатории, HoReCa и других.
 
-- `apps/api` — NestJS modular monolith, OpenAPI и background workers.
-- `apps/buyer-web` — поиск, сравнение, корзина, заказы, документы и уведомления клиники.
-- `apps/supplier-web` — предложения, цены, остатки, заказы, интеграции и комплаенс поставщика.
-- `apps/admin-web` — операционный control plane платформы.
-- `apps/landing-web` — публичный двухаудиторный лендинг с SEO и FAQ.
-- `apps/e2e` — Playwright-проверки пяти web-приложений и сквозной регистрации.
-- `packages/schemas` — общие Zod DTO.
-- `packages/api-client` — общий browser API client.
-- `packages/ui` — общая Fluent UI дизайн-система.
-
-## Быстрый запуск через Docker
-
-```bash
-docker compose up --build
-```
-
-Первый запуск ClamAV может занять несколько минут: контейнер загружает актуальные сигнатуры. Миграции применяются API автоматически, затем `seed` создаёт демонстрационный контур.
-
-После запуска:
-
-- API: `http://127.0.0.1:4012/api`
-- OpenAPI: `http://127.0.0.1:4012/docs`
-- Admin: `http://127.0.0.1:3000`
-- Buyer: `http://127.0.0.1:3001`
-- Supplier: `http://127.0.0.1:3002`
-- Landing: `http://127.0.0.1:3003`
-- MinIO console: `http://127.0.0.1:9001`
-
-## Нативный запуск для разработки
-
-```bash
-cp .env.example .env
-pnpm install
-pnpm db:generate
-pnpm --filter @marketplace/api exec prisma migrate deploy
-pnpm db:seed
-pnpm dev
-```
-
-Нужны PostgreSQL 17, Redis 7 и, если `AV_SCAN_MODE` не `disabled`, ClamAV. Для локального файлового режима установите `OBJECT_STORAGE_DRIVER=local`.
-
-Seed создаёт development context:
+Главная бизнес-модель:
 
 ```text
-x-user-id: 00000000-0000-4000-8000-000000000002
-x-organization-id: 00000000-0000-4000-8000-000000000001
+Canonical-карточка DentMarket
+        ├── Offer поставщика A
+        ├── Offer поставщика B
+        └── Offer поставщика C
 ```
 
-Для кабинета клиники создаётся отдельная tenant-role, без операторских прав:
+Карточка принадлежит платформе и не дублируется для каждого поставщика. Поставщик добавляет к ней собственные SKU, цену, остаток, склад, срок поставки и условия.
+
+## 2. Текущее состояние в одном абзаце
+
+Технически платформа развита: есть API, кабинеты, каталог, поиск, импорт XLSX/CSV/PDF, matching, договоры ЭЦП, compliance, корзина, разбиение заказа, платежный контур, документы, уведомления, рейтинг поставщиков, география, интеграционные адаптеры, RBAC и аудит.
+
+Стоматологический каталог количественно сформирован: в последнем зафиксированном аудите — 19 172 canonical-карточки в публичном fallback-каталоге и 30 009 вариантов, включая 2 116 карточек с несколькими вариантами. Карточки не означают коммерчески активные товары: на момент аудита цена есть у 341 карточки, актуальный остаток — у 24, а карточки с несколькими поставщиками — 2. Реальные договоры, подтверждённые offers, цены и остатки подключаются отдельно. Структурный intake и compliance-аудит стоматологии теперь проходят без блокирующих ошибок; после автоматического обогащения описаний осталось 3 305 флагов manufacturer reference, а не причина пропускать карточки.
+
+Beauty подготовлен архитектурно и уже загружен в локальную БД: 12 поставщиков, 44 брендовые позиции, 12 категорий, onboarding-очередь, публичный intake UCG и 217 локальных DRAFT-карточек с вариантами. UCG intake содержит 218 исходных строк, 218 официальных изображений и 218 описаний; одна повторная canonical-карточка объединяется по идентичности. Offers, цены и остатки для них не создавались.
+
+## 3. Репозиторий и приложения
 
 ```text
-x-user-id: 00000000-0000-4000-8000-000000000500
-x-organization-id: 00000000-0000-4000-8000-000000000030
+apps/api             NestJS modular monolith, Prisma, OpenAPI, workers
+apps/buyer-web       магазин и кабинет клиники
+apps/supplier-web    кабинет поставщика
+apps/admin-web       операционный control plane
+apps/landing-web     публичная навигация, регистрация, SEO/FAQ
+apps/mobile          Expo-заготовка мобильного клиента
+apps/e2e             Playwright E2E и mobile E2E
+packages/schemas     общие Zod DTO и контракты
+packages/api-client  общий API client
+packages/ui          общий UI-слой
+data                 каталоги, источники, очереди, отчёты и intake
+scripts               импорт, crawling, аудит, backup, нагрузочные проверки
+docs                  архитектура, runbooks, ADR и матрица ТЗ
+supabase               конфигурация Supabase
+infra                  OTEL, Caddy и инфраструктурные конфиги
 ```
 
-В `NODE_ENV=production` такой режим запрещён валидатором конфигурации. Используется `AUTH_MODE=jwt` с проверкой подписи, tenant claims, issuer/audience и опциональным обязательным MFA claim.
+## 4. Реализованные бизнес-модули
 
-## Реализованные контуры
+### Организации и доступ
 
-- организации, memberships, RBAC, approval policies, audit и transactional outbox;
-- гибридный каталог, типизированные атрибуты, упаковки, PostgreSQL FTS и `pg_trgm`;
-- CSV/XLSX import, raw rows, matching, moderation и повторный запуск;
-- offers, publication, price history, quantity tiers, contract pricing и freshness policies;
-- balances, партии, FEFO, recalls, conditional reservations и manual overrides;
-- cart, repricing, split checkout, supplier order state machine;
-- payment providers, sessions, authorization, capture, cancellation, partial refunds, allocations, payouts, reconciliation и immutable ledger;
-- МойСклад, Mock и pull-only 1С Agent, encrypted credentials, signed webhook inbox, external reservations и DLQ;
-- delivery zones/rules/options, quotes, shipments и fulfillment steps;
-- PDF/DOCX, S3/MinIO, immutable versions, SHA-256 и подписи Mock/ЭЦП/eGov/external;
-- compliance credentials, versioned rules, automatic recheck и publication blocking;
-- in-app/email/SMS/webhook notifications с retry/backoff;
-- TOTP 2FA и одноразовые recovery codes;
-- Google/Apple OIDC linking, проверка email, refresh rotation, CSRF и отзыв сессий;
-- годовой договор поставщика с платформой: две ЭЦП, проверенный callback, автоматическая пролонгация и блокировка повторного окна подписи;
-- promotions/promocodes, saved lists, cost centers, budgets, SLA support, billing/entitlements и tenant-aware AI assistant;
-- закрытые отзывы только по исполненным B2B-заказам, ответ поставщика, модерация и апелляции;
-- объяснимый рейтинг поставщика с Bayesian prior, временным затуханием и статусом «недостаточно данных»;
-- верифицированная география адресов и складов, delivery zones и фактическая ETA-статистика;
-- smart-commerce рекомендации в режимах срочности, цены, баланса, доверия и персональной цены; платное размещение отделено от organic ranking;
-- Redis/BullMQ workers для imports/matching, integrations/outbox, search projection и notifications;
-- structured JSON logging, request/correlation/trace IDs, OpenTelemetry, Sentry, Helmet и rate limiting;
-- quarantine + magic-byte/OOXML validation и ClamAV INSTREAM-проверка загружаемых импортов, документов и сертификатов.
+- организации, пользователи, memberships и роли;
+- RBAC/permissions и tenant isolation;
+- роли клиники, поставщика, оператора и администратора;
+- approval policies;
+- переключение организаций и отраслей с permission gate;
+- аудит действий и transactional outbox;
+- onboarding registration intent;
+- отрасль организации хранится в `primaryIndustryId`;
+- каталог покупателя фильтруется по отрасли организации.
 
-Актуальное ТЗ Trust/Geo/AI: [`Dental_Marketplace_Technical_Plan_v2_Trust_Geo_AI.docx`](/Users/maksim/Desktop/Dental_Marketplace_Technical_Plan_v2_Trust_Geo_AI.docx). Карта реализации: [`docs/trust-geo-ai.md`](docs/trust-geo-ai.md).
+### Аутентификация
 
-Матрица покрытия ТЗ: [`docs/traceability.md`](docs/traceability.md). Эксплуатация: [`docs/operations.md`](docs/operations.md). Модель безопасности: [`docs/security.md`](docs/security.md).
+- email/password login;
+- refresh rotation и отзыв сессий;
+- проверка email;
+- Google/Apple OIDC linking;
+- CSRF protection;
+- TOTP 2FA и recovery codes;
+- rate limiting и ограничение неудачных попыток;
+- security log и блокировка сценариев при подозрительной активности;
+- одноразовый handoff между магазином и кабинетом вместо access token в URL;
+- access token в URL не используется.
 
-## Проверки
+Демо-логины разрешены только в development-режиме. В production development onboarding должен быть заблокирован.
+
+### Каталог
+
+- Product, ProductVariant, Brand, Manufacturer, UnitOfMeasure;
+- ProductCategory и ProductIndustry;
+- typed attributes и category attribute rules;
+- canonical identity и source records;
+- manufacturer/SKU/GTIN aliases;
+- варианты фасовок, оттенков, размеров и исполнений;
+- product search document;
+- public catalog fallback;
+- карточка товара с описанием, фото, характеристиками и источником;
+- отдельные предложения поставщиков;
+- отсутствие коммерческого offer не удаляет canonical-карточку.
+
+### Поиск
+
+- поиск по названию, бренду, SKU и GTIN;
+- стоматологический профессиональный сленг;
+- более 100 alias-групп и исправления типовых опечаток;
+- поиск по раскладке клавиатуры;
+- точные совпадения усиливаются в ranking;
+- фасовка, единица, доставка и наличие;
+- сортировка по релевантности, цене и популярности;
+- подсказки и история поисковых запросов;
+- SearchQueryEvent и операторская аналитика;
+- запросы без результата отслеживаются.
+
+### Импорт поставщиков
+
+Поддерживаются:
+
+- Excel/XLSX;
+- CSV;
+- PDF с извлечением таблиц и OCR-подготовкой;
+- ручной supplier API;
+- MySklad adapter;
+- pull-only 1C Agent adapter;
+- custom API adapter;
+- сохранение raw rows;
+- tenant-specific column mapping;
+- supplier external item;
+- matching по SKU, GTIN, бренду и названию;
+- mapping memory;
+- ручной override и версии mapping;
+- очередь ошибок импорта;
+- повторная загрузка без дублей;
+- идемпотентность по `sourceId + externalId`.
+
+Обязательные поля для canonical-карточки: `externalId` и `name`. Цена, валюта и остаток не обязательны для создания карточки, но обязательны для коммерческой публикации offer.
+
+### Offers и коммерция
+
+- supplier offers;
+- draft/active/publication state machine;
+- price history;
+- contract prices;
+- quantity tiers;
+- остатки и freshness policy;
+- склады;
+- партии, FEFO и recalls;
+- conditional reservations;
+- manual override;
+- автоматическая публикация только при выполнении всех gates;
+- supplier confirmation;
+- импорт price/stock отдельным этапом после создания карточки.
+
+### Договоры и ЭЦП
+
+Реализован договорный gate через `MarketplaceAgreementsService.assertActive()` для:
+
+- публикации offer;
+- marketplace visibility;
+- supplier confirmation;
+- checkout и offer resolution;
+- payment capture;
+- внешнего order export.
+
+Поддержаны:
+
+- версия договора;
+- две подписи;
+- callback ЭЦП;
+- HMAC/replay/checksum validation;
+- BIN и certificate expiry checks;
+- ежегодная пролонгация;
+- блокировка повторного окна подписи при активном договоре;
+- fail-closed при отсутствии или окончании договора.
+
+Реальный EDS gateway пока не подключён: используется mock/provider-independent adapter и подготовленный контракт внешнего gateway.
+
+### Корзина и заказы
+
+- demo-cart для карточек без реального offer;
+- quantity control;
+- repricing;
+- split checkout по поставщикам;
+- supplier order state machine;
+- одноразовый заказ без рамочного договора;
+- framework agreement mode при активном договоре buyer-supplier;
+- invoice flow;
+- отмены, возвраты и статусы заказа;
+- supplier confirmation;
+- reservation и inventory checks;
+- external order export.
+
+### Оплата и документы
+
+- payment sessions;
+- authorization/capture/cancel;
+- partial refunds;
+- allocations;
+- payouts;
+- reconciliation;
+- immutable ledger;
+- invoice rules;
+- PDF/DOCX generation;
+- immutable document versions;
+- SHA-256;
+- mock signature, eGov and external signature adapters;
+- подготовка PSP sandbox.
+
+### Compliance
+
+- compliance credentials;
+- versioned rules;
+- автоматическая повторная проверка;
+- блокировка публикации;
+- регулируемые товары;
+- lot/expiration checks;
+- manual review;
+- статусы `READY`, `REVIEW_REQUIRED`, `DOCUMENT_REQUIRED`, `BLOCKED`, `EXPIRED`.
+
+### Поставщики и onboarding
+
+Readiness-цепочка проверяет:
+
+```text
+organization
+  → credentials
+  → warehouse
+  → data source
+  → import
+  → matching memory
+  → compliance
+  → EDS agreement
+  → offer
+  → price
+  → fresh stock
+```
+
+Есть endpoint `/api/suppliers/:supplierOrganizationId/onboarding-readiness` и supplier onboarding progress.
+
+### Отзывы, доверие и рекомендации
+
+- комментарии и отзывы только после исполненного B2B-заказа;
+- ответ поставщика;
+- модерация и апелляция;
+- Bayesian supplier rating;
+- temporal decay;
+- статус «недостаточно данных»;
+- trust score;
+- smart-commerce recommendations;
+- режимы срочности, цены, доверия, персональной цены и наличия;
+- sponsored placement отделён от organic ranking.
+
+### География и доставка
+
+- город покупателя;
+- адреса и склады;
+- верифицированная география;
+- delivery zones;
+- delivery rules/options;
+- quotes;
+- shipment и fulfillment steps;
+- фактическая ETA-статистика.
+
+### Уведомления
+
+- in-app;
+- email;
+- SMS adapter;
+- webhook;
+- retry/backoff;
+- push adapter подготовлен;
+- notification preferences;
+- события заказов, импорта, договора и безопасности.
+
+### Интеграции
+
+- MySklad adapter — контракт и кодовая готовность;
+- 1C Agent — pull-only adapter и контракт;
+- custom supplier API;
+- encrypted credentials;
+- signed webhook inbox;
+- external reservations;
+- dead-letter queue;
+- outbox/integration workers;
+- provider-independent registry.
+
+Реальные tenant credentials и production-подключения не подтверждены.
+
+## 5. Стоматологический каталог
+
+По последнему статусному аудиту:
+
+- 19 172 canonical-карточки в публичном fallback-каталоге;
+- 30 009 вариантов;
+- 2 116 карточек с несколькими вариантами;
+- 0 технических названий вариантов;
+- 16 710 карточек с брендом (87,2%);
+- 341 карточка с ценой и 24 карточки с актуальным остатком;
+- 1 422 локально нормализованных точных фото;
+- 16 284 официальных удалённых изображения в очереди локальной нормализации и проверки прав;
+- 1 466 карточек без подтверждённого изображения;
+- очереди идентичности и фото покрывают 100% текущих карточек, требующих ручной проверки;
+- источники: Denti.kz, AMDgroup, Dentalmarket, DM Market, DDD, Mediclus, NORD STOM, СТОМир, Profident-S и другие;
+- импортированные карточки остаются DRAFT до supplier confirmation;
+- цены и остатки из публичных источников не превращаются автоматически в активные offers.
+
+### Подготовлено технически, но не готово коммерчески
+
+- canonical intake проверен: 21 482 продукта, 33 811 вариантов и 28 593 manufacturer references;
+- публичная витрина собрана из 19 172 карточек и валидируется на потери, битые изображения и дубли;
+- 30 009 вариантов проверены, технические названия вариантов отсутствуют;
+- 30 поставщиков заведены в реестр быстрого onboarding;
+- для всех 30 подготовлены supplier-specific CSV-шаблоны и 1С manifests;
+- fast-lane импортёр умеет сам определить типовые русские/английские колонки XLSX/CSV и провести matching по SKU/названию;
+- карточка не создаётся повторно при повторной выгрузке: supplier SKU и canonical identity используются как ключи matching;
+- коммерческие поля намеренно остаются пустыми до реальной выгрузки поставщика: цена, валюта, остаток, склад, срок поставки, лицензия и договор;
+- compliance-аудит структуры: `PASS`, 0 блокирующих нарушений в белом списке, 3 305 review-флагов по отсутствующим manufacturer reference; отчёт: `data/reports/catalog-compliance-report.md`;
+- цена, остаток, склад, supplier offer и договор **на этом этапе намеренно отсутствуют** и не являются блокерами готовности карточки;
+- definition of done для dental card: нормальное название, описание, бренд/производитель, категория, вариант, источник и фото; затем карточка публикуется без цены и остатка;
+- `approved canonical` означает карточку, разрешённую для публикации и последующего matching с прайсом поставщика;
+- после onboarding поставщика его price/stock добавляются как отдельное предложение к уже существующей карточке, без создания дубля.
+
+### Что осталось внешним для боевого запуска
+
+- реальные организации поставщиков, BIN, документы, лицензии и подтверждение прав на бренды;
+- подписанный договор ЭЦП между каждой парой поставщик–клиника/платформа;
+- первая реальная выгрузка price/stock и подтверждение offers;
+- production `DATABASE_URL`, EDS gateway, PSP и credentials 1С/MySklad;
+- коммерческий E2E с тестовым заказом. До этих действий каталог остаётся безопасной canonical-витриной, а не обещанием наличия или цены.
+
+Важно: «карточка готова» означает, что canonical-структура существует. Это не означает, что товар доступен к заказу: для этого нужны offer, цена, свежий остаток, compliance и договорный gate.
+
+## 6. Beauty-вертикаль
+
+### Готово
+
+- отрасль `beauty-kz` зарегистрирована и пока не активна для свободного production-публикации;
+- 12 Beauty-категорий;
+- 10 Beauty-атрибутов;
+- category attribute rules;
+- Beauty search lexicon и базовые синонимы;
+- draft compliance rules `BEAUTY.PROFESSIONAL_USE` и `BEAUTY.SHELF_LIFE`;
+- 12 поставщиков в реестре;
+- 44 брендовые позиции;
+- onboarding queue CSV/JSON;
+- catalog-only CSV-шаблоны для всех 12 поставщиков;
+- canonical intake policy;
+- Product Knowledge Graph: типизированные связи между товарами, confidence, evidence и статусы проверки;
+- закупочные рекомендации по истории доставленных заказов и активной корзине: повторная закупка, средний интервал, ожидаемая дата и связанные товары;
+- UCG public catalog crawler;
+- 218 товарных строк UCG в intake с публичными изображениями, описаниями и source URL;
+- 217 локальных UCG canonical-карточек после bootstrap;
+- 219 локальных UCG media нормализованы в WebP 1200×1200 с белым фоном для 218 карточек; manifest: `data/reports/beauty-kz/media-normalization-manifest.json`;
+- canonical intake report.
+
+### Поставщики в очереди
+
+PROФФ-KZ, UCG/Aesthetics Group, VLAEKAN, DD Business, LaBeauty, Futora, Janssen Cosmetics Kazakhstan, Beeyoung, Keune Kazakhstan/Antara Global, AIF Cosmetics, NICKOL, Fox Beauty House.
+
+### Пока не готово
+
+- UCG-карточки записаны в локальную БД как DRAFT; в production они ещё не синхронизированы;
+- полный товарный intake остальных поставщиков не собран;
+- документы, BIN и полномочия на бренды не подтверждены;
+- Beauty-категории остаются inactive до сертификации;
+- Beauty offers, цены, остатки и коммерческие договоры не подключены;
+- полноценная Beauty-публикация в production не разрешена.
+- связи Product Knowledge Graph пока не заполняются автоматически без доказуемого источника;
+
+Файлы:
+
+- `data/verticals/beauty-kz/supplier-brand-registry.json`;
+- `data/verticals/beauty-kz/canonical-intake-policy.json`;
+- `data/intake/beauty-kz/ucg-kz.csv`;
+- `data/reports/beauty-kz/canonical-intake-report.md`;
+- `data/reports/beauty-kz/supplier-onboarding-queue.csv`.
+
+## 7. Безопасность
+
+Реализовано на уровне кода:
+
+- tenant isolation;
+- RBAC;
+- JWT validation;
+- refresh rotation;
+- CSRF;
+- rate limits;
+- security audit log;
+- MFA/TOTP;
+- recovery codes;
+- encrypted integration credentials;
+- file quarantine;
+- magic-byte validation;
+- OOXML validation;
+- ClamAV INSTREAM;
+- Helmet;
+- CSP-конфигурация;
+- request/correlation/trace IDs;
+- JSON structured logs;
+- Sentry/OTEL hooks;
+- signed webhooks;
+- HMAC/replay protection;
+- idempotency keys;
+- immutable ledger and document hashes;
+- fail-closed gates.
+
+Не закрыто полностью:
+
+- production DAST/pentest;
+- окончательное удаление всех inline-механизмов CSP требует отдельной production-проверки;
+- production restore drill не подтверждён в этом окружении;
+- production alerts/Sentry/OTEL alert tests требуют внешних credentials;
+- ротация production secrets и проверка облачного vault требуют доступа к инфраструктуре.
+
+## 8. Тесты и проверки
+
+Фактически выполнено в текущем окружении:
+
+- API typecheck — PASS;
+- API tests: 36 test files, 115 passed, 1 skipped;
+- buyer-web typecheck — PASS;
+- buyer-web tests: 5 files, 24 passed;
+- Beauty registry validation — PASS;
+- Beauty onboarding queue generation — PASS;
+- Beauty template generation — PASS;
+- Beauty canonical intake audit — PASS;
+- UCG public crawler — PASS, 218 rows, 218 images, 218 descriptions;
+- multi-industry canonical bootstrap typechecked by formatting/static review, но DB-run заблокирован отсутствующим `DATABASE_URL`.
+
+Команды:
 
 ```bash
 pnpm typecheck
@@ -104,21 +427,212 @@ pnpm verify:onboarding-agreement
 pnpm verify:trust-geo
 pnpm verify:production-config
 pnpm verify:web
-```
-
-Опциональный PostgreSQL concurrency test через Testcontainers:
-
-```bash
+pnpm verify:web:mobile
 pnpm test:containers
 ```
 
-## Backup и restore
+Специализированные команды:
+
+```bash
+pnpm catalog:validate-variants
+pnpm catalog:report-quality
+pnpm catalog:build:beauty-brand-registry
+pnpm catalog:validate:beauty-brand-registry
+pnpm catalog:build:beauty-onboarding-queue
+pnpm catalog:build:beauty-templates
+pnpm catalog:audit:beauty-canonical-intake
+pnpm catalog:crawl:beauty-ucg
+pnpm verify:security-storage
+pnpm load-test:search
+pnpm load-test:handoff
+```
+
+Что ещё требуется проверить отдельно:
+
+- полный E2E клиника → поиск → карточка → корзина → checkout → заказ;
+- production E2E с реальными credentials;
+- frontend unit coverage всех кабинетов;
+- DAST/pentest;
+- performance/load testing production;
+- mobile E2E на iOS/Android;
+- restore drill в целевом облаке.
+
+## 9. Production и deployment
+
+Кодовая база подключена к GitHub:
+
+- репозиторий: `https://github.com/999MAX20/dentmarket-kz`;
+- рабочая ветка текущей серии: `codex/production-hardening`;
+- последний push текущей рабочей серии: commit `7d7eb38` в ветку `codex/production-hardening`.
+
+Известный публичный storefront:
+
+- `https://dentmarket-shop.vercel.app`
+
+Локальные порты:
+
+```text
+API       http://127.0.0.1:4012/api
+OpenAPI   http://127.0.0.1:4012/docs
+Admin     http://127.0.0.1:3000
+Buyer     http://127.0.0.1:3001
+Supplier  http://127.0.0.1:3002
+Landing   http://127.0.0.1:3003
+MinIO     http://127.0.0.1:9001
+```
+
+Запуск:
+
+```bash
+cp .env.example .env
+pnpm install
+pnpm db:generate
+pnpm --filter @marketplace/api exec prisma migrate deploy
+pnpm db:seed
+pnpm dev
+```
+
+Docker:
+
+```bash
+docker compose up --build
+```
+
+Production deployment не считается подтверждённым только по push в GitHub. Нужны:
+
+- правильная Vercel project/branch binding;
+- production `DATABASE_URL`;
+- Supabase migrations;
+- production secrets;
+- EDS gateway credentials;
+- PSP sandbox/production credentials;
+- OAuth Client IDs;
+- email/SMS provider;
+- object storage;
+- Sentry/OTEL;
+- DNS/TLS;
+- smoke/E2E после deployment.
+
+В текущей рабочей сессии найден и подключён локальный PostgreSQL `dental_marketplace`. Production `DATABASE_URL` по-прежнему не подтверждён и production-sync не выполнялся.
+
+## 10. Мобильное приложение
+
+`apps/mobile` создан как Expo-клиент с общими API contracts и готовой точкой подключения к тем же API.
+
+Готово:
+
+- Expo workspace;
+- команды start/ios/android/web;
+- TypeScript configuration;
+- общий API client direction;
+- возможность подключить тот же каталог, auth и checkout.
+
+Не готово:
+
+- полноценные mobile screens;
+- native auth/OIDC;
+- push permissions и device token registration;
+- mobile checkout;
+- App Store/Google Play signing;
+- mobile E2E и performance certification.
+
+Мобильный клиент не должен подключаться к отдельной бизнес-логике: он должен использовать те же API и те же отраслевые/catalog contracts.
+
+## 11. Что нужно сделать для production в правильном порядке
+
+### P0 — обязательно
+
+1. Подключить production `DATABASE_URL` и проверить Supabase migrations.
+2. Выполнить Beauty canonical import после появления реального DB connection.
+3. Проверить весь production E2E: регистрация → поиск → карточка → корзина → заказ.
+4. Подключить реальный EDS gateway sandbox.
+5. Подключить PSP sandbox.
+6. Убедиться, что договорный gate блокирует публикацию и заказ без активного договора.
+7. Настроить реальные OAuth/email credentials.
+8. Провести production smoke и rollback check.
+
+### P1 — коммерческая активация
+
+1. Получить BIN и документы первых поставщиков.
+2. Получить XLSX/CSV/PDF каталоги.
+3. Выполнить mapping и модерацию.
+4. Подтвердить лицензии и regulated goods.
+5. Создать склады и источники.
+6. Подписать договор ЭЦП.
+7. Загрузить price/stock.
+8. Провести тестовый заказ по 3–5 поставщикам.
+9. Настроить 1С Agent и реальный MySklad tenant.
+
+### P2 — эксплуатационная зрелость
+
+1. Signed 1C Agent и реальная база 1С.
+2. Полный frontend unit coverage.
+3. DAST/pentest.
+4. Load/performance testing.
+5. Backup restore drill.
+6. Sentry/OTEL alert tests.
+7. DNS/TLS и production alerts.
+8. SLA и incident response rehearsal.
+9. Mobile app E2E и публикация.
+
+## 12. Команды для поставщиков и Beauty
+
+```bash
+# Проверка реестра брендов
+pnpm catalog:validate:beauty-brand-registry
+
+# Очередь onboarding
+pnpm catalog:build:beauty-onboarding-queue
+
+# Шаблоны без цены и остатков
+pnpm catalog:build:beauty-templates
+
+# Публичный intake UCG
+pnpm catalog:crawl:beauty-ucg
+
+# Аудит canonical-ready строк
+pnpm catalog:audit:beauty-canonical-intake
+
+# Локальная нормализация изображений Beauty; production не используется
+DATABASE_URL="postgresql://..." pnpm catalog:normalize:beauty-local
+```
+
+После подключения БД импорт canonical-карточек для Beauty:
+
+```bash
+CANONICAL_INDUSTRY_CODE=beauty-kz \
+node scripts/bootstrap-canonical-catalog.mjs \
+data/intake/beauty-kz/ucg-kz.csv
+```
+
+## 13. Backup и restore
 
 ```bash
 ./scripts/backup.sh
-RESTORE_CONFIRM=20260717T000000Z ./scripts/restore.sh /absolute/path/to/backups/20260717T000000Z
+RESTORE_CONFIRM=20260717T000000Z \
+./scripts/restore.sh \
+/absolute/path/to/backups/20260717T000000Z
 ```
 
-Скрипты сохраняют PostgreSQL custom dump, объектный bucket и manifest с количеством применённых миграций.
+Backup должен включать PostgreSQL custom dump, object bucket и migration manifest. Фактический production restore drill требует доступа к целевой инфраструктуре.
 
-Production deployment, immutable image release, managed-service backup and rollback: [`docs/production-deployment.md`](docs/production-deployment.md).
+## 14. Главный вывод
+
+DentMarket уже не является только UI-прототипом: основные платформенные и коммерческие блоки реализованы в коде, стоматологический canonical-каталог сформирован, а схема «одна карточка — много поставщиков» заложена правильно.
+
+Но production-магазином с полностью боевыми продажами систему можно считать только после подключения внешних credentials, реальной БД, EDS/PSP, поставщиков, цен/остатков, production E2E и эксплуатационной сертификации.
+
+Для Beauty правильная последовательность уже подготовлена: сначала canonical-карточки и бренды, затем supplier mapping, потом price/stock offers, 1С/MySklad и автоматическое обновление.
+
+## 15. Связанные документы
+
+- [`docs/architecture.md`](docs/architecture.md)
+- [`docs/traceability.md`](docs/traceability.md)
+- [`docs/security.md`](docs/security.md)
+- [`docs/operations.md`](docs/operations.md)
+- [`docs/production-go-live-checklist.md`](docs/production-go-live-checklist.md)
+- [`docs/production-deployment.md`](docs/production-deployment.md)
+- [`docs/connector-readiness.md`](docs/connector-readiness.md)
+- [`docs/v4-implementation-status.md`](docs/v4-implementation-status.md)
+- [`docs/beauty-kz-supplier-brand-registry.md`](docs/beauty-kz-supplier-brand-registry.md)
+- [`data/reports/beauty-kz/canonical-intake-report.md`](data/reports/beauty-kz/canonical-intake-report.md)

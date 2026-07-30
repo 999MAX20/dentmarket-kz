@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { commercePaymentMethodSchema } from "./commercial.js";
 
 export * from "./commercial.js";
 export * from "./trust-commerce.js";
@@ -18,9 +19,15 @@ export const createOrganizationSchema = z.object({
   displayName: z.string().trim().min(2).max(160),
   bin: z.string().regex(/^\d{12}$/, "БИН должен содержать 12 цифр"),
   capabilities: z.array(organizationCapabilitySchema).min(1),
+  industryCode: z.string().trim().regex(/^[a-z][a-z0-9-]{2,63}$/).default("dentistry-kz"),
+});
+
+export const switchOrganizationIndustrySchema = z.object({
+  industryCode: z.string().trim().regex(/^[a-z][a-z0-9-]{2,63}$/),
 });
 
 export type CreateOrganizationInput = z.infer<typeof createOrganizationSchema>;
+export type SwitchOrganizationIndustryInput = z.infer<typeof switchOrganizationIndustrySchema>;
 
 export const createInvitationSchema = z.object({
   email: z.email().transform((value) => value.toLowerCase()),
@@ -243,7 +250,7 @@ export const createImportBatchSchema = z.object({
   sourceId: z.uuid(),
   fileName: z.string().trim().min(1).max(240),
   fileType: z.enum(["MANUAL", "CSV", "EXCEL", "PDF"]),
-  columnMapping: supplierColumnMappingSchema,
+  columnMapping: supplierColumnMappingSchema.optional(),
   rows: z.array(rawImportRowSchema).min(1).max(5_000).optional(),
   contentBase64: z.string().min(4).max(28_000_000).optional(),
 }).refine((value) => value.rows !== undefined || value.contentBase64 !== undefined, {
@@ -539,6 +546,7 @@ export const confirmSupplierOrderSchema = z.object({
 
 export const createPaymentIntentSchema = z.object({
   providerCode: z.string().trim().regex(/^[A-Z][A-Z0-9_]{1,31}$/).default("MOCK"),
+  paymentMethod: commercePaymentMethodSchema.default("CARD"),
   idempotencyKey: z.string().trim().min(8).max(160),
 });
 
