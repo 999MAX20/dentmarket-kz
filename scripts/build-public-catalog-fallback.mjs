@@ -682,6 +682,21 @@ const approvedOnlyProducts = (approvedCatalog.products ?? [])
   };
   });
 products.push(...approvedOnlyProducts);
+for (const product of products) {
+  if (clean(product.description).length >= 35) continue;
+  product.description = generateCanonicalDescription({
+    name: product.name,
+    category: product.category,
+    brand: product.brand,
+    manufacturer: product.manufacturer,
+    unit: product.attributes?.find?.(([key]) => key === "Единица")?.[1],
+    supplierCount: product.offers?.length || 1,
+  });
+  if (product.description.length < 35) {
+    product.description += " Комплектация и артикул уточняются в предложении поставщика.";
+  }
+  product.descriptionStatus = "GENERATED_FROM_CANONICAL_FIELDS";
+}
 products.sort((a, b) => a.name.localeCompare(b.name, "ru"));
 const quarantine = quarantined.map(([key, rowCount]) => {
   const separator = key.indexOf("|");

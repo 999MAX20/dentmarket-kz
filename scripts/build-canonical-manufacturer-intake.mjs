@@ -7,6 +7,23 @@ const markdownPath = path.resolve("data/reports/canonical-manufacturer-intake.md
 const queuePath = path.resolve("data/curation/canonical-manufacturer-intake-queue.csv");
 const clean = (value) => String(value ?? "").normalize("NFKC").replace(/\s+/gu, " ").trim();
 const key = (value) => clean(value).toLocaleLowerCase("ru").replace(/[®™]/gu, "");
+const buildCanonicalDescription = (product, name, category, brand, manufacturer) => {
+  const sourceDescription = clean(product.description);
+  if (sourceDescription.length >= 35) {
+    return { description: sourceDescription, descriptionStatus: "SOURCE_DESCRIPTION" };
+  }
+  const parts = [
+    `Товар: ${name}.`,
+    category ? `Категория: ${category}.` : "",
+    brand ? `Бренд: ${brand}.` : "",
+    manufacturer ? `Производитель: ${manufacturer}.` : "",
+    "Комплектация и артикул уточняются в предложении поставщика.",
+  ].filter(Boolean);
+  return {
+    description: parts.join(" "),
+    descriptionStatus: "GENERATED_FROM_CANONICAL_FIELDS",
+  };
+};
 const firstProductImage = (product) => {
   const direct = clean(product?.sourceImageUrl);
   if (direct) return direct;
@@ -116,10 +133,13 @@ for (const record of records) {
   const refs = variants.map((variant) => clean(variant.manufacturerRef)).filter(Boolean);
   const mergedSources = mergedIntoRecord.get(record.recordKey) ?? [];
   const sourceImageUrl = firstProductImage(record.product);
+  const categoryPath = clean(record.product.categoryPath);
+  const manufacturer = clean(record.product.manufacturer);
+  const description = buildCanonicalDescription(record.product, record.name, categoryPath, record.brand, manufacturer);
   canonicalProducts.push({
-    canonicalProductId: makeId(record, assignedVariants), brand: record.brand, manufacturer: clean(record.product.manufacturer), name: record.name,
+    canonicalProductId: makeId(record, assignedVariants), brand: record.brand, manufacturer, name: record.name,
     manufacturerRef: refs[0] ?? "", manufacturerRefs: refs.join(" | "), model: clean(record.product.model), variantCount: Math.max(1, variants.length), variants,
-    categoryPath: clean(record.product.categoryPath), description: clean(record.product.description), sourceImageUrl, imageUrls: clean(record.product.imageUrls || sourceImageUrl), imageCount: Number(record.product.imageCount ?? (sourceImageUrl ? 1 : 0)),
+    categoryPath, description: description.description, descriptionStatus: description.descriptionStatus, sourceImageUrl, imageUrls: clean(record.product.imageUrls || sourceImageUrl), imageCount: Number(record.product.imageCount ?? (sourceImageUrl ? 1 : 0)),
     sourcePageUrl: clean(record.product.sourcePageUrl), sourceEvidenceFiles: [...new Set([record.sourceFile, ...mergedSources.map((source) => source.sourceFile)])], sourceProductIds: [...new Set([record.sourceProductId, ...mergedSources.map((source) => source.sourceProductId)].filter(Boolean))], mergedSourceProducts: mergedSources,
     kzEvidence: clean(record.product.kzEvidence), status: !sourceImageUrl ? "PHOTO_REQUIRED" : refs.length ? "KZ_SKU_EVIDENCE_REQUIRED" : "MANUFACTURER_REFERENCE_REQUIRED",
   });
