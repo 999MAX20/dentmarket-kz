@@ -808,6 +808,8 @@ export default function BuyerWorkspace({
   const initialCatalogLimit = 60;
   const [handoff, setHandoff] = useState<SessionHandoff | null>(null);
   const [handoffChecked, setHandoffChecked] = useState(false);
+  const [industryCode, setIndustryCode] = useState("dentistry-kz");
+  const [industryBusy, setIndustryBusy] = useState(false);
   const buyerId = handoff?.organizationId ?? BUYER_ID;
   const apiContext = useMemo<ApiContext>(
     () =>
@@ -866,6 +868,14 @@ export default function BuyerWorkspace({
       setHandoffChecked(true);
     })();
   }, []);
+
+  useEffect(() => {
+    if (!handoff) return;
+    void api
+      .get<{ primaryIndustry?: { code?: string } }>(`/organizations/${handoff.organizationId}`)
+      .then((organization) => setIndustryCode(organization.primaryIndustry?.code ?? "dentistry-kz"))
+      .catch(() => setIndustryCode("dentistry-kz"));
+  }, [api, handoff]);
   const [active, setActive] = useState("catalog");
   const [query, setQuery] = useState(initialQuery);
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
@@ -991,6 +1001,21 @@ export default function BuyerWorkspace({
   ]);
 
   const activeCart = carts.find((cart) => cart.status === "ACTIVE") ?? null;
+  const switchIndustry = async (nextIndustryCode: string) => {
+    if (!handoff || nextIndustryCode === industryCode || industryBusy) return;
+    setIndustryBusy(true);
+    setError(null);
+    try {
+      await api.patch(`/organizations/${handoff.organizationId}/industry`, { industryCode: nextIndustryCode });
+      setIndustryCode(nextIndustryCode);
+      await loadSearch(query, sort);
+      setToast(nextIndustryCode === "beauty-kz" ? "Открыт каталог Beauty" : "Открыт стоматологический каталог");
+    } catch (cause) {
+      setError(errorMessage(cause));
+    } finally {
+      setIndustryBusy(false);
+    }
+  };
   const buyerOrders = orders.filter(
     (order) => order.buyerOrganizationId === buyerId,
   );
@@ -4631,6 +4656,12 @@ export default function BuyerWorkspace({
               </MenuTrigger>
               <MenuPopover>
                 <MenuList>
+                  <MenuItem onClick={() => void switchIndustry("dentistry-kz")} disabled={industryBusy || industryCode === "dentistry-kz"}>
+                    Сфера: стоматология
+                  </MenuItem>
+                  <MenuItem onClick={() => void switchIndustry("beauty-kz")} disabled={industryBusy || industryCode === "beauty-kz"}>
+                    Сфера: Beauty
+                  </MenuItem>
                   <MenuItem
                     icon={<Location24Regular />}
                     onClick={() => setActive("smart-commerce")}

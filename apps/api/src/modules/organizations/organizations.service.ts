@@ -14,6 +14,13 @@ export class OrganizationsService {
     });
   }
 
+  get(organizationId: string) {
+    return this.prisma.organization.findUniqueOrThrow({
+      where: { id: organizationId },
+      include: { capabilities: true, primaryIndustry: true },
+    });
+  }
+
   async create(input: CreateOrganizationInput, context: { actorId: string; organizationId: string }) {
     try {
       return await this.prisma.$transaction(async (tx) => {
