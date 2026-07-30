@@ -61,7 +61,7 @@ IMD,70,9,imd-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 Inci Dental,1,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
 Interdent,64,64,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 IQ Dent,203,17,iqdent-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
-Ivoclar,107,8,ivoclar-russia-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Ivoclar,107,6,ivoclar-russia-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 JINY,4,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
 Johnson & Johnson,0,0,,STALE_SOURCE_LABEL_NOT_CURRENT_DENTAL_BRAND_FILTER,The current Denti.kz brand filter has no exact Johnson & Johnson entry. A conglomerate name without a current dental SKU source cannot generate a canonical dental catalogue.,MARKET_LABEL_CLASSIFIED_NO_CANONICAL_CATALOG
 Kaeser,6,0,kaeser-dental-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
@@ -71,9 +71,9 @@ Kettenbach,10,5,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 KINGFA Medical,1,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
 KO-MAX,4,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
 KristiDent,16,0,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
-Kulzer,249,16,kulzer-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+Kulzer,249,15,kulzer-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 Kuraray Noritake,49,5,kuraray-noritake-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
-LaTus,151,5,latus-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+LaTus,151,4,latus-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 LM Dental,362,11,lm-dental-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 Madespa,43,0,madespa-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 Majestic,110,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
@@ -129,12 +129,12 @@ Thelavicos,14,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
 TOBOOM,1058,0,toboom-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 Tokuyama Dental,21,14,nordstom-full-catalog.json | denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
 Tor VM,103,1,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
-TORNADO,0,6,,DURR_DENTAL_PRODUCT_LINE_ALIAS,"TORNADO is an official compressor product line of Dürr Dental, not a separate manufacturer brand. Existing Kazakhstan observations are preserved and reconciled against the structured Dürr Dental catalogue instead of creating duplicate brand cards.",MARKET_LABEL_CLASSIFIED_NO_CANONICAL_CATALOG
+TORNADO,0,4,,DURR_DENTAL_PRODUCT_LINE_ALIAS,"TORNADO is an official compressor product line of Dürr Dental, not a separate manufacturer brand. Existing Kazakhstan observations are preserved and reconciled against the structured Dürr Dental catalogue instead of creating duplicate brand cards.",MARKET_LABEL_CLASSIFIED_NO_CANONICAL_CATALOG
 Ultradent,185,5,ultradent-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 UP3D,19,0,up3d-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 VDW,35,6,nordstom-full-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 Vericom,31,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED
-VITA,80,17,vita-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
+VITA,80,14,vita-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 VOCO,166,12,voco-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 VRN,40,6,vrn-manufacturer-catalog.json,,,STRUCTURED_EVIDENCE_COLLECTED
 VT Cosmetics,1,0,denti-kz-brand-listings.json,,,STRUCTURED_EVIDENCE_COLLECTED

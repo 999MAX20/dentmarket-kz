@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T00:41:08.499Z",
+  "generatedAt": "2026-07-30T12:43:19.214Z",
   "policy": {
     "marketBrandWithoutProductsRemainsInDiscoveryQueueUnlessClassified": true,
     "supplierAndAmbiguousLabelsDoNotGenerateManufacturerCards": true,
@@ -573,7 +573,7 @@
     {
       "brand": "Ivoclar",
       "manufacturerEvidenceProducts": 107,
-      "publicProducts": 8,
+      "publicProducts": 6,
       "evidenceSources": "ivoclar-russia-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -663,7 +663,7 @@
     {
       "brand": "Kulzer",
       "manufacturerEvidenceProducts": 249,
-      "publicProducts": 16,
+      "publicProducts": 15,
       "evidenceSources": "kulzer-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -681,7 +681,7 @@
     {
       "brand": "LaTus",
       "manufacturerEvidenceProducts": 151,
-      "publicProducts": 5,
+      "publicProducts": 4,
       "evidenceSources": "latus-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",
@@ -1185,7 +1185,7 @@
     {
       "brand": "TORNADO",
       "manufacturerEvidenceProducts": 0,
-      "publicProducts": 6,
+      "publicProducts": 4,
       "evidenceSources": "",
       "classificationStatus": "DURR_DENTAL_PRODUCT_LINE_ALIAS",
       "classificationReason": "TORNADO is an official compressor product line of Dürr Dental, not a separate manufacturer brand. Existing Kazakhstan observations are preserved and reconciled against the structured Dürr Dental catalogue instead of creating duplicate brand cards.",
@@ -1230,7 +1230,7 @@
     {
       "brand": "VITA",
       "manufacturerEvidenceProducts": 80,
-      "publicProducts": 17,
+      "publicProducts": 14,
       "evidenceSources": "vita-manufacturer-catalog.json",
       "classificationStatus": "",
       "classificationReason": "",

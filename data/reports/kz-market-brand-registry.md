@@ -2,9 +2,9 @@
 
 Updated: 2026-07-23
 
-- Brands: 149
+- Brands: 148
 - Already represented in the canonical catalog: 39
-- New catalog programs: 110
+- New catalog programs: 109
 - Marketplace-only evidence requiring stronger confirmation: 8
 
 Market presence is evidence for assortment research, not proof of an official distributorship.
@@ -36,7 +36,6 @@ Seller listings never create seller offers or canonical cards automatically.
 | BISCO | YES | 1 | AUDIT_COMPLETE_KZ_LINE_AND_REFERENCES |
 | BlancOne | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | Castellini | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
-| Cefla | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | ChoiceTech | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
 | CICADA | YES | 1 | AUDIT_COMPLETE_KZ_LINE_AND_REFERENCES |
 | Clean+Safe | NO | 1 | BUILD_CANONICAL_MANUFACTURER_CATALOG |
