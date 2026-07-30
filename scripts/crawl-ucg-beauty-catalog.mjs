@@ -31,13 +31,40 @@ const html = async (url) => {
 };
 const decode = (value) =>
   value
+    .replaceAll("&amp;lt;", "&lt;")
+    .replaceAll("&amp;gt;", "&gt;")
     .replaceAll("&quot;", '"')
     .replaceAll("&#39;", "'")
+    .replaceAll("&lt;", "<")
+    .replaceAll("&gt;", ">")
     .replaceAll("&amp;", "&")
     .replaceAll("&nbsp;", " ")
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+const attribute = (tag, name) => {
+  const match = tag.match(new RegExp(`${name}\\s*=\\s*["']([^"']+)["']`, "i"));
+  return match?.[1] ?? "";
+};
+const metaContent = (html, key, attributeName) => {
+  const tags = html.match(/<meta\b[^>]*>/gi) ?? [];
+  const tag = tags.find((item) => {
+    const value = attribute(item, attributeName);
+    return value.toLocaleLowerCase("en") === key.toLocaleLowerCase("en");
+  });
+  return tag ? attribute(tag, "content") : "";
+};
+const productImage = (html, url) => {
+  const itemprop = html.match(/<img\b[^>]*itemprop=["']image["'][^>]*>/i)?.[0];
+  const imageTag =
+    itemprop ??
+    (html.match(/<img\b[^>]*class=["'][^"']*product[^"']*["'][^>]*>/i) ?? [
+      "",
+    ])[0];
+  const source =
+    attribute(imageTag, "src") || metaContent(html, "og:image", "property");
+  return source ? new URL(source, url).toString() : "";
+};
 const absolute = (href) => new URL(href, baseUrl).toString();
 const csv = (value) => `"${String(value ?? "").replaceAll('"', '""')}"`;
 const slugId = (url) =>
@@ -85,12 +112,7 @@ for (const url of productUrls) {
       page.match(
         /<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']+)/i,
       );
-    const descriptionMatch = page.match(
-      /<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)/i,
-    );
-    const imageMatch = page.match(
-      /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i,
-    );
+    const description = metaContent(page, "description", "name");
     const name = decode(titleMatch?.[1] ?? "");
     if (!name) continue;
     const brand =
@@ -108,10 +130,10 @@ for (const url of productUrls) {
       brand,
       manufacturer: "",
       unit: "",
-      description: decode(descriptionMatch?.[1] ?? ""),
+      description: decode(description),
       category: pathParts[1] ?? "professional-cosmetics",
       variantLabel: "",
-      imageUrl: imageMatch?.[1] ? absolute(imageMatch[1]) : "",
+      imageUrl: productImage(page, url),
       sourceUrl: url,
       priceMinor: "",
       currency: "",

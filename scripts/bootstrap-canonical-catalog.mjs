@@ -206,6 +206,14 @@ for (const relative of inputFiles) {
       where: { slug: productSlug },
       update: {
         canonicalName: name,
+        description: row.description || null,
+        descriptionSources: row.description
+          ? {
+              source,
+              sourceUrl: row.sourceUrl || null,
+              collectedAt: new Date().toISOString(),
+            }
+          : undefined,
         status: "DRAFT",
         productType: productType(name),
         brandId: brand?.id ?? null,
@@ -215,6 +223,14 @@ for (const relative of inputFiles) {
       },
       create: {
         canonicalName: name,
+        description: row.description || null,
+        descriptionSources: row.description
+          ? {
+              source,
+              sourceUrl: row.sourceUrl || null,
+              collectedAt: new Date().toISOString(),
+            }
+          : undefined,
         slug: productSlug,
         status: "DRAFT",
         productType: productType(name),
@@ -299,6 +315,33 @@ for (const relative of inputFiles) {
         },
       });
     variants += 1;
+    const imageUrl = String(row.imageUrl || "").trim();
+    if (imageUrl) {
+      const existingMedia = await prisma.productMedia.findFirst({
+        where: { productId: product.id, sourceUrl: imageUrl },
+        select: { id: true },
+      });
+      if (existingMedia) {
+        await prisma.productMedia.update({
+          where: { id: existingMedia.id },
+          data: {
+            status: "PENDING",
+            altText: name,
+            metadata: { source, sourceUrl: row.sourceUrl || null },
+          },
+        });
+      } else {
+        await prisma.productMedia.create({
+          data: {
+            productId: product.id,
+            sourceUrl: imageUrl,
+            status: "PENDING",
+            altText: name,
+            metadata: { source, sourceUrl: row.sourceUrl || null },
+          },
+        });
+      }
+    }
     await prisma.productSearchDocument.upsert({
       where: { productId: product.id },
       update: {
