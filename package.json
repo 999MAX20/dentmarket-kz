@@ -28,6 +28,7 @@
     "catalog:build-kz-coverage": "node scripts/build-kz-sku-coverage.mjs",
     "catalog:build-kz-brand-registry": "node scripts/build-kz-market-brand-registry.mjs",
     "catalog:validate:beauty-brand-registry": "node scripts/validate-beauty-supplier-brand-registry.mjs",
+    "catalog:build:beauty-onboarding-queue": "node scripts/build-beauty-onboarding-queue.mjs",
     "catalog:audit-kz-intake": "node scripts/audit-kz-catalog-intake.mjs",
     "catalog:audit:manufacturer-evidence": "node scripts/audit-manufacturer-catalog-evidence.mjs",
     "catalog:audit:kz-brand-coverage": "node scripts/audit-kz-brand-catalog-coverage.mjs",

@@ -27,6 +27,14 @@
 node scripts/validate-beauty-supplier-brand-registry.mjs
 ```
 
+Рабочая очередь поставщиков генерируется командами:
+
+```bash
+pnpm catalog:build:beauty-onboarding-queue
+```
+
+Результат: `data/reports/beauty-kz/supplier-onboarding-queue.csv` и `.json`. В очереди нет секретов и персональных данных — только публичные ссылки, бренды, приоритет и перечень документов для запроса.
+
 ## Приоритет outreach
 
 1. PROФФ-KZ, UCG/Aesthetics Group и VLAEKAN — сильные публичные брендовые портфели.
