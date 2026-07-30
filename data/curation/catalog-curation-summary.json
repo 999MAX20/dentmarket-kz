@@ -1,17 +1,19 @@
 {
-  "generatedAt": "2026-07-30T12:36:36.829Z",
+  "generatedAt": "2026-07-30T13:08:51.924Z",
   "grain": "Одна строка на каноническую карточку, требующую подтверждения",
-  "totalCards": 2870,
+  "totalCards": 19172,
   "identityQueue": {
-    "cards": 2605,
+    "cards": 3673,
     "missingBrand": 2462,
-    "missingManufacturer": 2593,
+    "missingManufacturer": 3661,
     "coveredByQueuePercent": 100
   },
   "photoQueue": {
-    "cards": 1440,
+    "cards": 17750,
     "coveredByQueuePercent": 100,
-    "exactPhotos": 1430
+    "normalizedExactPhotos": 1422,
+    "remoteExactPhotos": 16284,
+    "missingOrUnverifiedPhotos": 1466
   },
   "safety": {
     "inventedBrands": 0,

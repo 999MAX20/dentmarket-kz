@@ -44,10 +44,23 @@ const priorityFor = (product) => {
   return "P2_CATALOG";
 };
 
+const directProductMedia = (product) =>
+  (product.media ?? []).find(
+    (item) =>
+      item?.metadata?.exactProductPhoto === true &&
+      Boolean(item?.sourceUrl) &&
+      !rejectedAsset(item.sourceUrl),
+  );
+
 const products = catalog.products ?? [];
 const usablePhotoBySource = new Map(
   await Promise.all(
     products.map(async (product) => {
+      // Expanded canonical cards can carry an official remote image directly.
+      // It still needs local normalization and rights review before publication.
+      if (directProductMedia(product)) {
+        return [product.sourceUrl, false];
+      }
       const item = media.entries?.[product.sourceUrl];
       const provenance =
         item?.metadata?.sourceImageUrl ?? item?.sourceUrl ?? item?.securePath;
@@ -99,6 +112,7 @@ const photoQueue = products
   .filter((product) => !usablePhotoBySource.get(product.sourceUrl))
   .map((product) => {
     const current = media.entries?.[product.sourceUrl];
+    const direct = directProductMedia(product);
     return {
       productId: product.id,
       productName: product.name,
@@ -110,11 +124,22 @@ const photoQueue = products
         .join(" | "),
       sourceUrl: product.sourceUrl ?? "",
       priority: priorityFor(product),
-      currentMediaStatus: current ? "NON_EXACT_OR_UNVERIFIED" : "MISSING",
-      rightsStatus: current?.metadata?.rightsStatus ?? "NOT_CHECKED",
-      status: "NEEDS_OFFICIAL_PRODUCT_PHOTO",
+      currentMediaStatus: direct
+        ? "EXACT_REMOTE_NOT_NORMALIZED"
+        : current
+          ? "NON_EXACT_OR_UNVERIFIED"
+          : "MISSING",
+      rightsStatus:
+        direct?.metadata?.rightsStatus ??
+        current?.metadata?.rightsStatus ??
+        "NOT_CHECKED",
+      status: direct
+        ? "NEEDS_MEDIA_NORMALIZATION_AND_RIGHTS_REVIEW"
+        : "NEEDS_OFFICIAL_PRODUCT_PHOTO",
       acceptanceRule:
-        "Точная модель/семейство, без логотипа-заглушки, источник и права зафиксированы",
+        direct
+          ? "Сохранить точную модель, скачать в единый формат только после проверки прав и зафиксировать источник"
+          : "Точная модель/семейство, без логотипа-заглушки, источник и права зафиксированы",
     };
   });
 
@@ -132,7 +157,13 @@ const summary = {
   photoQueue: {
     cards: photoQueue.length,
     coveredByQueuePercent: 100,
-    exactPhotos: products.length - photoQueue.length,
+    normalizedExactPhotos: products.length - photoQueue.length,
+    remoteExactPhotos: photoQueue.filter(
+      (row) => row.currentMediaStatus === "EXACT_REMOTE_NOT_NORMALIZED",
+    ).length,
+    missingOrUnverifiedPhotos: photoQueue.filter(
+      (row) => row.currentMediaStatus !== "EXACT_REMOTE_NOT_NORMALIZED",
+    ).length,
   },
   safety: {
     inventedBrands: 0,
@@ -141,7 +172,7 @@ const summary = {
   },
 };
 
-const markdown = `# Очереди подготовки каталога\n\nСформировано: ${summary.generatedAt}\n\n## Покрытие\n\n- Карточек: ${summary.totalCards}\n- Требуют подтверждения бренда или производителя: ${summary.identityQueue.cards}\n- Требуют точного фото: ${summary.photoQueue.cards}\n- Все незаполненные поля попали в очередь: 100%\n\n## Правило публикации\n\n${summary.safety.rule}\n\nКарточка получает бренд, производителя и точное фото только после сверки с официальным каталогом или подтверждённым прайсом. Это предотвращает ложные объединения предложений разных товаров.\n`;
+const markdown = `# Очереди подготовки каталога\n\nСформировано: ${summary.generatedAt}\n\n## Покрытие\n\n- Карточек: ${summary.totalCards}\n- Требуют подтверждения бренда или производителя: ${summary.identityQueue.cards}\n- Требуют точного фото или локальной нормализации: ${summary.photoQueue.cards}\n- Официальное фото уже найдено, но ещё не нормализовано локально: ${summary.photoQueue.remoteExactPhotos}\n- Действительно отсутствуют или не подтверждены: ${summary.photoQueue.missingOrUnverifiedPhotos}\n- Все незаполненные поля попали в очередь: 100%\n\n## Правило публикации\n\n${summary.safety.rule}\n\nКарточка получает бренд, производителя и точное фото только после сверки с официальным каталогом или подтверждённым прайсом. Это предотвращает ложные объединения предложений разных товаров.\n`;
 
 await fs.mkdir(outputDirectory, { recursive: true });
 await Promise.all([
