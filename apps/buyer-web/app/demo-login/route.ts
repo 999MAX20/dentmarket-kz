@@ -4,7 +4,10 @@ const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel
 const supplierAppUrl = process.env.NEXT_PUBLIC_SUPPLIER_APP_URL ?? "https://dentmarket-supplier.vercel.app";
 
 export async function GET(request: Request) {
-  if (process.env.NEXT_PUBLIC_DEMO_LOGIN_ENABLED !== "true") {
+  // Partner demo remains available unless explicitly disabled in production.
+  // This keeps the route consistent with the login page and avoids a silent
+  // failure when the optional Vercel variable is not configured.
+  if (process.env.NEXT_PUBLIC_DEMO_LOGIN_ENABLED === "false") {
     return NextResponse.redirect(new URL("/login?error=demo_disabled", request.url));
   }
   const capability = new URL(request.url).searchParams.get("capability") === "SUPPLIER" ? "SUPPLIER" : "BUYER";
