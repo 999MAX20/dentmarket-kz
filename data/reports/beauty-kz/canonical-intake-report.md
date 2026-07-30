@@ -3,7 +3,7 @@
 | Поставщик | Бренды | Строки | Готово к canonical | Коммерческие поля | Статус |
 |---|---:|---:|---:|---:|---|
 | proff-kz | 9 | 0 | 0 | 0 | WAITING_FOR_CATALOG_FILE |
-| ucg-kz | 10 | 10 | 10 | 5 | READY_FOR_CANONICAL_REVIEW |
+| ucg-kz | 10 | 10 | 10 | 0 | READY_FOR_CANONICAL_REVIEW |
 | vlaekan-kz | 9 | 0 | 0 | 0 | WAITING_FOR_CATALOG_FILE |
 | dd-business-kz | 0 | 0 | 0 | 0 | WAITING_FOR_CATALOG_FILE |
 | labeauty-kz | 2 | 0 | 0 | 0 | WAITING_FOR_CATALOG_FILE |

@@ -15,17 +15,36 @@ const policy = JSON.parse(
   ),
 );
 const reportsDir = path.join(root, "data/reports/beauty-kz");
+const parseCsvLine = (line) => {
+  const cells = [];
+  let value = "";
+  let quoted = false;
+  for (let index = 0; index < line.length; index += 1) {
+    const char = line[index];
+    if (char === '"' && quoted && line[index + 1] === '"') {
+      value += '"';
+      index += 1;
+    } else if (char === '"') quoted = !quoted;
+    else if (char === "," && !quoted) {
+      cells.push(value);
+      value = "";
+    } else value += char;
+  }
+  cells.push(value);
+  return cells;
+};
 const parseCsv = (input) => {
-  const [header, ...rows] = input.trim().split(/\r?\n/);
+  const [header, ...lines] = input
+    .replace(/^\uFEFF/, "")
+    .trim()
+    .split(/\r?\n/);
   if (!header) return [];
-  const headers = header.split(",");
-  return rows
+  const headers = parseCsvLine(header);
+  return lines
     .filter(Boolean)
-    .map((row) =>
+    .map((line) =>
       Object.fromEntries(
-        row
-          .split(",")
-          .map((value, index) => [headers[index], value.replace(/^"|"$/g, "")]),
+        parseCsvLine(line).map((value, index) => [headers[index], value]),
       ),
     );
 };

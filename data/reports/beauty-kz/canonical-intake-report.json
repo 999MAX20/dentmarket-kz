@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T10:16:58.814Z",
+  "generatedAt": "2026-07-30T10:18:36.437Z",
   "policy": {
     "schemaVersion": 1,
     "vertical": "beauty-kz",
@@ -117,9 +117,9 @@
       "brands": 10,
       "rows": 10,
       "canonicalReady": 10,
-      "commercialRows": 5,
+      "commercialRows": 0,
       "status": "READY_FOR_CANONICAL_REVIEW",
-      "commercialDataPolicy": "COMMERCIAL_FIELDS_DETECTED_AND_KEPT_SEPARATE"
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
     },
     {
       "supplierKey": "vlaekan-kz",
