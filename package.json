@@ -27,6 +27,7 @@
     "catalog:report-expansion": "node scripts/report-catalog-expansion.mjs",
     "catalog:build-kz-coverage": "node scripts/build-kz-sku-coverage.mjs",
     "catalog:build-kz-brand-registry": "node scripts/build-kz-market-brand-registry.mjs",
+    "catalog:validate:beauty-brand-registry": "node scripts/validate-beauty-supplier-brand-registry.mjs",
     "catalog:audit-kz-intake": "node scripts/audit-kz-catalog-intake.mjs",
     "catalog:audit:manufacturer-evidence": "node scripts/audit-manufacturer-catalog-evidence.mjs",
     "catalog:audit:kz-brand-coverage": "node scripts/audit-kz-brand-catalog-coverage.mjs",
@@ -168,7 +169,7 @@
     "load-test:search": "node scripts/load-test-search.mjs",
     "load-test:handoff": "node scripts/load-test-handoff.mjs",
     "verify:release": "pnpm typecheck && pnpm test && pnpm build && pnpm verify:production-config",
-  "verify:web": "pnpm --filter @marketplace/e2e e2e",
+    "verify:web": "pnpm --filter @marketplace/e2e e2e",
     "verify:web:mobile": "MOBILE_BUYER_ONLY=1 pnpm --filter @marketplace/e2e exec playwright test --config=playwright.mobile.config.ts",
     "verify:web:mobile:production": "MOBILE_BASE_URL=https://dentmarket-shop.vercel.app MOBILE_BUYER_ONLY=1 pnpm --filter @marketplace/e2e exec playwright test --config=playwright.mobile.config.ts",
     "test:containers": "RUN_TESTCONTAINERS=1 pnpm --filter @marketplace/api test -- postgres-concurrency.testcontainers.spec.ts"
