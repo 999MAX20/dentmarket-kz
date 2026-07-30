@@ -305,6 +305,7 @@ organization
 - catalog-only CSV-шаблоны для всех 12 поставщиков;
 - canonical intake policy;
 - Product Knowledge Graph: типизированные связи между товарами, confidence, evidence и статусы проверки;
+- закупочные рекомендации по истории доставленных заказов и активной корзине: повторная закупка, средний интервал, ожидаемая дата и связанные товары;
 - UCG public catalog crawler;
 - 218 товарных строк UCG в intake с публичными изображениями, описаниями и source URL;
 - 217 локальных UCG canonical-карточек после bootstrap;
