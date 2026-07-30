@@ -250,7 +250,7 @@ export const createImportBatchSchema = z.object({
   sourceId: z.uuid(),
   fileName: z.string().trim().min(1).max(240),
   fileType: z.enum(["MANUAL", "CSV", "EXCEL", "PDF"]),
-  columnMapping: supplierColumnMappingSchema,
+  columnMapping: supplierColumnMappingSchema.optional(),
   rows: z.array(rawImportRowSchema).min(1).max(5_000).optional(),
   contentBase64: z.string().min(4).max(28_000_000).optional(),
 }).refine((value) => value.rows !== undefined || value.contentBase64 !== undefined, {

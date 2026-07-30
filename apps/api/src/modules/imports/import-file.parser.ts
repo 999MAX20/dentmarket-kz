@@ -6,6 +6,31 @@ import ExcelJS from "exceljs";
 type RawRow = Record<string, string | number | boolean | null>;
 export type ImportParseResult = { rows: RawRow[]; metadata: Record<string, unknown>; requiresReview: boolean };
 
+const normalizedHeader = (value: string) => value.toLocaleLowerCase("ru").replace(/[^\p{L}\p{N}]+/gu, "");
+const findColumn = (headers: string[], patterns: RegExp[]) => headers.find((header) => patterns.some((pattern) => pattern.test(normalizedHeader(header))));
+
+export function inferSupplierColumnMapping(rows: RawRow[]) {
+  const headers = [...new Set(rows.flatMap((row) => Object.keys(row)))];
+  const supplierSku = findColumn(headers, [/^(?:sku|артикулпоставщика|кодтовара|кодноменклатуры)$/u, /sku/u, /артикул/u]);
+  const externalId = findColumn(headers, [/^(?:externalid|supplierid|идентификатор|код|артикул)$/u, /externalid/u, /supplierid/u, /код/u, /артикул/u, /sku/u]) ?? supplierSku;
+  const name = findColumn(headers, [/^(?:name|наименование|названиетовара|товар)$/u, /наимен/u, /назван/u, /товар/u, /name/u]);
+  const mapping = {
+    externalId,
+    name,
+    supplierSku,
+    gtin: findColumn(headers, [/gtin/u, /ean/u, /штрихкод/u]),
+    brand: findColumn(headers, [/бренд/u, /brand/u]),
+    manufacturer: findColumn(headers, [/производител/u, /manufacturer/u]),
+    unit: findColumn(headers, [/единиц/u, /едизм/u, /unit/u]),
+    priceMinor: findColumn(headers, [/цена/u, /стоимость/u, /price/u, /оптов/u]),
+    currency: findColumn(headers, [/валют/u, /currency/u]),
+    quantityOnHand: findColumn(headers, [/остат/u, /количеств/u, /налич/u, /stock/u, /quantity/u]),
+    lotNumber: findColumn(headers, [/парт/u, /lot/u]),
+    expirationDate: findColumn(headers, [/срокгодност/u, /годендо/u, /expiration/u, /expiry/u]),
+  };
+  return { mapping, headers, missingRequired: ["externalId", "name"].filter((key) => !mapping[key as keyof typeof mapping]) };
+}
+
 function primitive(value: unknown): string | number | boolean | null {
   if (value === null || typeof value === "string" || typeof value === "number" || typeof value === "boolean") return value;
   if (value instanceof Date) return value.toISOString();

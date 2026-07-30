@@ -17,7 +17,7 @@ import {
   SupplierAccessService,
   type SupplierActorContext,
 } from "../suppliers/supplier-access.service";
-import { ImportFileParser } from "./import-file.parser";
+import { ImportFileParser, inferSupplierColumnMapping } from "./import-file.parser";
 import {
   isConfidentAutomaticMatch,
   normalizeCatalogText,
@@ -522,6 +522,17 @@ export class ImportsService implements OnModuleInit {
     const rows = parsedFile.rows;
     if (rows.length === 0 && input.fileType !== "PDF")
       throw new BadRequestException("Import does not contain data rows");
+    let columnMapping = input.columnMapping;
+    if (!columnMapping) {
+      const inferred = inferSupplierColumnMapping(rows);
+      if (inferred.missingRequired.length > 0)
+        throw new BadRequestException({
+          message: "Не удалось автоматически определить обязательные колонки fast lane",
+          missingColumns: inferred.missingRequired,
+          detectedHeaders: inferred.headers,
+        });
+      columnMapping = inferred.mapping as SupplierColumnMappingInput;
+    }
     const checksum = createHash("sha256")
       .update(JSON.stringify(rows))
       .digest("hex");
@@ -535,7 +546,7 @@ export class ImportsService implements OnModuleInit {
             fileType: input.fileType,
             checksum,
             status: parsedFile.requiresReview ? "REVIEW_REQUIRED" : "MAPPED",
-            columnMapping: input.columnMapping as Prisma.InputJsonValue,
+            columnMapping: columnMapping as Prisma.InputJsonValue,
             extractionMetadata: parsedFile.metadata as Prisma.InputJsonValue,
             totalRows: rows.length,
             rows: {
