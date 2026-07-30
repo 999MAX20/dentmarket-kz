@@ -107,12 +107,12 @@ const dentalSearchAliases: Record<string, string[]> = {
   коффер: ["коффердам", "изоляция"],
   гутта: ["гуттаперча"],
   карпулы: ["карпула", "анестезия"],
-  "перчаткии": ["перчатки"],
+  перчаткии: ["перчатки"],
   "перчатки нитрил": ["перчатки нитриловые"],
-  "компазит": ["композит"],
-  "композитт": ["композит"],
-  "гуттаперчя": ["гуттаперча"],
-  "эндодонтия": ["эндо", "эндодонтический"],
+  компазит: ["композит"],
+  композитт: ["композит"],
+  гуттаперчя: ["гуттаперча"],
+  эндодонтия: ["эндо", "эндодонтический"],
   эндошка: ["эндодонтия", "эндодонтический", "эндомотор"],
 };
 const canonicalSearchQuery = (query: string) => {
@@ -220,6 +220,29 @@ type SearchResult = {
     categories: Array<{ id: string; name: string; count: number }>;
     suppliers: Array<{ id: string; name: string; count: number }>;
   };
+};
+type PurchaseInsight = {
+  product: { id: string; canonicalName: string; slug: string; status?: string };
+  totalPurchased: number;
+  purchaseCount: number;
+  averageIntervalDays: number | null;
+  lastPurchasedAt: string | null;
+  nextExpectedAt: string | null;
+  daysUntilExpected: number | null;
+  activeCartQuantity: number;
+  due: boolean;
+  recommendation: "ALREADY_IN_CART" | "CONSIDER_REORDER" | "MONITOR";
+  related: Array<{
+    type: string;
+    confidence: number;
+    product: { id: string; canonicalName: string; slug: string };
+  }>;
+};
+type PurchaseInsights = {
+  buyer: { id: string; name: string };
+  horizonDays: number;
+  items: PurchaseInsight[];
+  explanation: string;
 };
 const publicMediaEntries = publicCatalogMedia.entries as Record<
   string,
@@ -396,8 +419,7 @@ const combinedCatalogProducts = [
     ]),
   ).values(),
 ];
-const generatedCatalogFallback: SearchProduct[] =
-  combinedCatalogProducts
+const generatedCatalogFallback: SearchProduct[] = combinedCatalogProducts
   // A card without an approved local image stays in the moderation data, but
   // must never leak into the public shelf as a broken/placeholder product.
   .filter((product) =>
@@ -435,23 +457,25 @@ const fallbackSearch = (
   const searchIntent = expandDentalSearchQuery(query);
   const filtered = publicCatalogFallback.filter((product) => {
     const offer = product.offers[0];
-    const text = normalizeDentalSearchText([
-      product.name,
-      product.description,
-      product.brand,
-      product.manufacturer,
-      product.categories[0]?.name,
-      ...(product.variants ?? []).flatMap((variant) => [
-        variant.label,
-        variant.sku,
-        ...Object.values(variant.attributes ?? {}),
-      ]),
-      offer?.supplier.name,
-      offer?.packaging.name,
-      offer?.packaging.unit,
-    ]
-      .filter(Boolean)
-      .join(" "));
+    const text = normalizeDentalSearchText(
+      [
+        product.name,
+        product.description,
+        product.brand,
+        product.manufacturer,
+        product.categories[0]?.name,
+        ...(product.variants ?? []).flatMap((variant) => [
+          variant.label,
+          variant.sku,
+          ...Object.values(variant.attributes ?? {}),
+        ]),
+        offer?.supplier.name,
+        offer?.packaging.name,
+        offer?.packaging.unit,
+      ]
+        .filter(Boolean)
+        .join(" "),
+    );
     return (
       (!searchIntent.concepts.length ||
         searchIntent.concepts.every((concept) =>
@@ -498,22 +522,36 @@ const mergePrivateCatalog = (
   live: SearchResult,
   query: string,
   sort: string,
-  filters: { unit?: string; packaging?: string; delivery?: string; stock?: string },
+  filters: {
+    unit?: string;
+    packaging?: string;
+    delivery?: string;
+    stock?: string;
+  },
 ) => {
   const fallback = fallbackSearch(query, sort, filters, 60);
   // The curated fallback is the publication allow-list. The API contributes
   // fresh offers only to cards already present in that allow-list; records
   // awaiting a photo or moderation cannot reappear through live search.
-  const liveByName = new Map(live.items.map((item) => [catalogTextKey(item.name), item]));
+  const liveByName = new Map(
+    live.items.map((item) => [catalogTextKey(item.name), item]),
+  );
   return {
     ...fallback,
     items: fallback.items.map((item) => {
       const liveItem = liveByName.get(catalogTextKey(item.name));
       return liveItem
-        ? { ...item, ...liveItem, media: liveItem.media?.length ? liveItem.media : item.media }
+        ? {
+            ...item,
+            ...liveItem,
+            media: liveItem.media?.length ? liveItem.media : item.media,
+          }
         : item;
     }),
-    facets: live.facets?.categories?.length || live.facets?.suppliers?.length ? live.facets : fallback.facets,
+    facets:
+      live.facets?.categories?.length || live.facets?.suppliers?.length
+        ? live.facets
+        : fallback.facets,
   };
 };
 
@@ -764,7 +802,9 @@ type BuyerWorkspaceProps = {
   searchParams: Promise<{ q?: string; offset?: string }>;
 };
 
-export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWorkspaceProps) {
+export default function BuyerWorkspace({
+  searchParams: _searchParams,
+}: BuyerWorkspaceProps) {
   // URL state is applied in an effect after hydration. Keeping the client
   // component's first render deterministic prevents Safari from leaving the
   // server markup interactive-looking but without event handlers.
@@ -854,7 +894,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       initialCatalogLimit,
     ),
   );
-  const [promotionProducts, setPromotionProducts] = useState<SearchProduct[]>([]);
+  const [promotionProducts, setPromotionProducts] = useState<SearchProduct[]>(
+    [],
+  );
   const [topProducts, setTopProducts] = useState<SearchProduct[]>([]);
   const [commercialRail, setCommercialRail] = useState<"deals" | "top">(
     "deals",
@@ -869,7 +911,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   const [selectedProduct, setSelectedProduct] = useState<SearchProduct | null>(
     null,
   );
-  const [selectedVariantId, setSelectedVariantId] = useState<string | null>(null);
+  const [selectedVariantId, setSelectedVariantId] = useState<string | null>(
+    null,
+  );
   const [productReviews, setProductReviews] = useState<ProductReviews | null>(
     null,
   );
@@ -879,8 +923,12 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   const [carts, setCarts] = useState<Cart[]>([]);
   const [orders, setOrders] = useState<SupplierOrder[]>([]);
   const [documents, setDocuments] = useState<DocumentRecord[]>([]);
-  const [paymentIntents, setPaymentIntents] = useState<PaymentIntentRecord[]>([]);
+  const [paymentIntents, setPaymentIntents] = useState<PaymentIntentRecord[]>(
+    [],
+  );
   const [notifications, setNotifications] = useState<NotificationRecord[]>([]);
+  const [purchaseInsights, setPurchaseInsights] =
+    useState<PurchaseInsights | null>(null);
   const [loading, setLoading] = useState(false);
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -903,7 +951,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       );
       if (Array.isArray(stored)) {
         setRecentSearches(
-          stored.filter((item): item is string => typeof item === "string").slice(0, 6),
+          stored
+            .filter((item): item is string => typeof item === "string")
+            .slice(0, 6),
         );
       }
     } catch {
@@ -1189,11 +1239,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
           // The local catalog is the deliberate fail-safe for an unavailable API.
         }
         const fallback = fallbackSearch(nextQuery, nextSort, {
-            unit: unitFilter,
-            packaging: packagingFilter,
-            delivery: deliveryFilter,
-            stock: stockFilter,
-          });
+          unit: unitFilter,
+          packaging: packagingFilter,
+          delivery: deliveryFilter,
+          stock: stockFilter,
+        });
         setSearch(fallback);
         void recordPublicSearch(nextQuery, fallback.total);
         return;
@@ -1261,11 +1311,16 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         // responds, loadSearch replaces the fallback with live data.
         setLoading(false);
         if (!initialOffset) void loadSearch(query, sort);
-        setCarts(demoCartToCart(readDemoCart()) ? [demoCartToCart(readDemoCart())!] : []);
+        setCarts(
+          demoCartToCart(readDemoCart())
+            ? [demoCartToCart(readDemoCart())!]
+            : [],
+        );
         setOrders([]);
         setDocuments([]);
         setPaymentIntents([]);
         setNotifications([]);
+        setPurchaseInsights(null);
         return;
       }
       const [
@@ -1282,9 +1337,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         api.get<DocumentRecord[]>(
           `/documents?ownerOrganizationId=${buyerId}&limit=100`,
         ),
-        api.get<PaymentIntentRecord[]>(
-          `/buyers/${buyerId}/payment-intents`,
-        ),
+        api.get<PaymentIntentRecord[]>(`/buyers/${buyerId}/payment-intents`),
         api.get<NotificationRecord[]>(
           `/notifications/organizations/${buyerId}?limit=100`,
         ),
@@ -1298,13 +1351,17 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         }),
       );
       const localCart = demoCartToCart(readDemoCart());
-      setCarts(
-        cartResult.length || !localCart ? cartResult : [localCart],
-      );
+      setCarts(cartResult.length || !localCart ? cartResult : [localCart]);
       setOrders(orderResult);
       setDocuments(documentResult);
       setPaymentIntents(paymentIntentResult);
       setNotifications(notificationResult);
+      void api
+        .get<PurchaseInsights>(
+          `/recommendations/purchases?buyerOrganizationId=${encodeURIComponent(buyerId)}&horizonDays=30`,
+        )
+        .then(setPurchaseInsights)
+        .catch(() => setPurchaseInsights(null));
     } catch (cause) {
       if (handoff)
         setSearch(
@@ -1317,7 +1374,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         );
       if (handoff) {
         setError(null);
-        setToast("Некоторые личные данные пока недоступны — каталог загружен полностью");
+        setToast(
+          "Некоторые личные данные пока недоступны — каталог загружен полностью",
+        );
       } else {
         setError(errorMessage(cause));
       }
@@ -1370,7 +1429,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     const hasRestoredState =
       Boolean(urlQuery || offset || params.get("sort")) ||
       Object.values(restoredFilters).some(
-        (value) => value === true || (typeof value === "string" && value && value !== "all"),
+        (value) =>
+          value === true ||
+          (typeof value === "string" && value && value !== "all"),
       );
     if (!hasRestoredState) return;
     setQuery(urlQuery);
@@ -1412,8 +1473,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
       publicParams.set("packaging", restoredFilters.packaging);
     if (restoredFilters.delivery)
       publicParams.set("deliveryMethod", restoredFilters.delivery);
-    if (restoredFilters.stock === "true")
-      publicParams.set("inStock", "true");
+    if (restoredFilters.stock === "true") publicParams.set("inStock", "true");
     void fetchPublicCatalogSearch(urlQuery, urlSort, publicParams)
       .then((result) => {
         if (result) setSearch(result);
@@ -1422,7 +1482,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   }, [handoff, handoffChecked]);
 
   useEffect(() => {
-    if (returnScrollAppliedRef.current || typeof window === "undefined" || !search)
+    if (
+      returnScrollAppliedRef.current ||
+      typeof window === "undefined" ||
+      !search
+    )
       return;
     const hash = window.location.hash;
     if (!hash.startsWith("#product-")) return;
@@ -1551,7 +1615,10 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     const normalizedNextQuery = nextQuery.trim();
     if (normalizedNextQuery) {
       setRecentSearches((current) => {
-        const next = [normalizedNextQuery, ...current.filter((item) => item !== normalizedNextQuery)].slice(0, 6);
+        const next = [
+          normalizedNextQuery,
+          ...current.filter((item) => item !== normalizedNextQuery),
+        ].slice(0, 6);
         window.localStorage.setItem(SEARCH_HISTORY_KEY, JSON.stringify(next));
         return next;
       });
@@ -1597,7 +1664,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               .filter((offer) => offer.priceMinor && offer.normalizedPriceMinor)
               .map((offer) => ({
                 offerId: offer.id,
-                variantId: offer.variantId ?? variantId ?? product.variants?.[0]?.id ?? "",
+                variantId:
+                  offer.variantId ??
+                  variantId ??
+                  product.variants?.[0]?.id ??
+                  "",
                 supplier: {
                   organizationId: offer.supplier.id,
                   name: offer.supplier.name,
@@ -1749,7 +1820,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   const checkout = async () => {
     if (!activeCart) return;
     if (activeCart.id === "demo-local-cart") {
-      setToast("Демо-корзина собрана. Реальное оформление подключится после подключения API.");
+      setToast(
+        "Демо-корзина собрана. Реальное оформление подключится после подключения API.",
+      );
       return;
     }
     setBusy("checkout");
@@ -1776,9 +1849,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
   const updateCartItemQuantity = async (itemId: string, quantity: number) => {
     if (!activeCart || quantity < 1) return;
     if (activeCart.id === "demo-local-cart") {
-      const localCart = demoCartToCart(
-        setDemoCartQuantity(itemId, quantity),
-      );
+      const localCart = demoCartToCart(setDemoCartQuantity(itemId, quantity));
       if (localCart) setCarts([localCart]);
       return;
     }
@@ -1901,16 +1972,10 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     );
   };
 
-  const productDetailHref = (
-    product: SearchProduct,
-    returnTo: string,
-  ) =>
+  const productDetailHref = (product: SearchProduct, returnTo: string) =>
     `/products/${encodeURIComponent(product.id)}?returnTo=${encodeURIComponent(returnTo)}`;
 
-  const scrollRail = (
-    rail: HTMLElement | null,
-    direction: -1 | 1,
-  ) => {
+  const scrollRail = (rail: HTMLElement | null, direction: -1 | 1) => {
     if (!rail) return;
     rail.scrollBy({
       left:
@@ -2135,12 +2200,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                         : `#product-${encodeURIComponent(product.id)}`
                     }
                     onClick={(event) =>
-                      openCommercialProduct(
-                        event,
-                        product,
-                        returnTo,
-                        isPublic,
-                      )
+                      openCommercialProduct(event, product, returnTo, isPublic)
                     }
                     aria-label={`Открыть ${presentation.title}`}
                   >
@@ -2266,12 +2326,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                         : `#product-${encodeURIComponent(product.id)}`
                     }
                     onClick={(event) =>
-                      openCommercialProduct(
-                        event,
-                        product,
-                        returnTo,
-                        isPublic,
-                      )
+                      openCommercialProduct(event, product, returnTo, isPublic)
                     }
                     aria-label={`Открыть ${presentation.title}`}
                   >
@@ -2320,232 +2375,310 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
     </>
   );
 
+  const renderPurchaseSignals = () => {
+    const items =
+      purchaseInsights?.items.filter((item) => item.due).slice(0, 6) ?? [];
+    if (!purchaseInsights || !items.length) return null;
+    return (
+      <section
+        className={styles.purchaseSignals}
+        aria-labelledby="purchase-signals-title"
+      >
+        <div className={styles.purchaseSignalsHeader}>
+          <div>
+            <span className={styles.purchaseEyebrow}>По истории закупок</span>
+            <h2 id="purchase-signals-title">Пора закупить</h2>
+            <p>
+              Подсказки по доставленным заказам и товарам в текущей корзине.
+            </p>
+          </div>
+          <Button appearance="secondary" onClick={() => setActive("cart")}>
+            Открыть корзину
+          </Button>
+        </div>
+        <div className={styles.purchaseSignalGrid}>
+          {items.map((item) => (
+            <article
+              className={styles.purchaseSignalCard}
+              key={item.product.id}
+            >
+              <div>
+                <span className={styles.purchaseSignalTag}>
+                  {item.recommendation === "ALREADY_IN_CART"
+                    ? "Уже в корзине"
+                    : "Пора проверить"}
+                </span>
+                <h3>{item.product.canonicalName}</h3>
+                <p>
+                  {item.purchaseCount > 1 && item.averageIntervalDays
+                    ? `Покупали ${item.purchaseCount} раз · примерно раз в ${item.averageIntervalDays} дн.`
+                    : `Закупали ${item.totalPurchased} ед.`}
+                </p>
+                {item.nextExpectedAt ? (
+                  <small>
+                    Ожидаемая дата: {formatDate(item.nextExpectedAt, true)}
+                  </small>
+                ) : null}
+              </div>
+              <div className={styles.purchaseSignalFooter}>
+                {item.activeCartQuantity > 0 ? (
+                  <strong>{item.activeCartQuantity} в корзине</strong>
+                ) : (
+                  <span>Можно добавить после проверки предложения</span>
+                )}
+                {item.related.length ? (
+                  <small>
+                    Есть связанные товары:{" "}
+                    {item.related
+                      .slice(0, 2)
+                      .map((relation) => relation.product.canonicalName)
+                      .join(", ")}
+                  </small>
+                ) : null}
+              </div>
+            </article>
+          ))}
+        </div>
+        <p className={styles.purchaseSignalsNote}>
+          {purchaseInsights.explanation}
+        </p>
+      </section>
+    );
+  };
+
   const renderCatalog = (isPublic = false) => (
     <div className="mp-stack">
-      {isPublic ? (false ? (
-        <>
-          {renderCategoryRail()}
-          {featuredDeals.length ? (
-            <section
-              className={styles.dealsSection}
-              aria-labelledby="deals-title"
-            >
-              <div className={styles.dealsHeading}>
-                <div>
-                  <h2 id="deals-title">Акции и выгодные предложения</h2>
-                  <p>Комплекты брендов и скидки конкретных продавцов.</p>
-                </div>
-                <div
-                  className={styles.railControls}
-                  aria-label="Прокрутка акций"
-                >
-                  <button
-                    type="button"
-                    aria-label="Предыдущие акции"
-                    onClick={() => scrollRail(dealsRailRef.current, -1)}
+      {isPublic ? (
+        false ? (
+          <>
+            {renderCategoryRail()}
+            {featuredDeals.length ? (
+              <section
+                className={styles.dealsSection}
+                aria-labelledby="deals-title"
+              >
+                <div className={styles.dealsHeading}>
+                  <div>
+                    <h2 id="deals-title">Акции и выгодные предложения</h2>
+                    <p>Комплекты брендов и скидки конкретных продавцов.</p>
+                  </div>
+                  <div
+                    className={styles.railControls}
+                    aria-label="Прокрутка акций"
                   >
-                    <ChevronLeft24Regular aria-hidden="true" />
-                  </button>
-                  <button
-                    type="button"
-                    aria-label="Следующие акции"
-                    onClick={() => scrollRail(dealsRailRef.current, 1)}
-                  >
-                    <ChevronRight24Regular aria-hidden="true" />
-                  </button>
-                </div>
-              </div>
-              <div ref={dealsRailRef} className={styles.dealGrid}>
-                {featuredDeals.map((product, dealIndex) => {
-                  const presentation = catalogPresentation(product);
-                  const searchIndex =
-                    search?.items.findIndex((item) => item.id === product.id) ??
-                    -1;
-                  const returnTo = catalogReturnTo(
-                    product.id,
-                    searchIndex >= 0 ? searchIndex : dealIndex,
-                  );
-                  const best = rankSearchOffers(product.offers).find(
-                    (offer) => offer.priceMinor,
-                  );
-                  const isCampaign = product.placement === "promotion";
-                  const promotion = bestPromotionPercent(product);
-                  const priceDifference = priceDifferencePercent(product);
-                  const image = mediaSource(product.media?.[0]);
-                  return (
-                    <article
-                      className={styles.dealCard}
-                      key={`deal:${product.id}`}
-                      data-product-id={product.id}
+                    <button
+                      type="button"
+                      aria-label="Предыдущие акции"
+                      onClick={() => scrollRail(dealsRailRef.current, -1)}
                     >
-                      <a
-                        href={productDetailHref(product, returnTo)}
-                        onClick={() => rememberCatalogPosition(returnTo)}
-                        aria-label={`Открыть ${presentation.title}`}
-                      >
-                        <SafeProductImage
-                          src={image}
-                          alt={product.media?.[0]?.altText ?? presentation.title}
-                          fallback={
-                            <span
-                              className={styles.photoPending}
-                              aria-label="Изображение товара временно недоступно"
-                            >
-                              <Box24Regular aria-hidden="true" />
-                            </span>
-                          }
-                        />
-                      </a>
-                      <div>
-                        <span className={styles.dealLabel}>
-                          {isCampaign
-                            ? "Акция бренда"
-                            : promotion
-                              ? "Акция продавца"
-                              : "Выгодная цена"}
-                        </span>
-                        <h3>{presentation.title}</h3>
-                        {presentation.originalName ? (
-                          <small className={styles.productOriginalName}>
-                            {presentation.originalName}
-                          </small>
-                        ) : null}
-                        <strong>
-                          {isCampaign
-                            ? "Специальный комплект"
-                            : best
-                            ? `от ${formatMoney(best.priceMinor, best.currency ?? "KZT")}`
-                            : "Цена по запросу"}
-                        </strong>
-                        <small>
-                          {isCampaign
-                            ? (product.brand ?? "DentMarket")
-                            : `${product.offers.length} ${ruCount(
-                                product.offers.length,
-                                "продавец",
-                                "продавца",
-                                "продавцов",
-                              )}`}
-                        </small>
-                        {isCampaign ? (
-                          <p>Состав и условия — в карточке</p>
-                        ) : promotion ? (
-                          <p>У одного продавца скидка {promotion}%</p>
-                        ) : priceDifference ? (
-                          <p>
-                            У одного продавца цена ниже на {priceDifference}%
-                          </p>
-                        ) : (
-                          <p>Сравните цены и условия доставки</p>
-                        )}
-                      </div>
-                    </article>
-                  );
-                })}
-              </div>
-            </section>
-          ) : null}
-          {topProducts.length ? (
-            <section
-              className={styles.dealsSection}
-              aria-labelledby="top-products-title"
-            >
-              <div className={styles.dealsHeading}>
-                <div>
-                  <h2 id="top-products-title">
-                    Товар дня и популярное сейчас
-                  </h2>
-                  <p>
-                    Подборка обновляется ежедневно. После подключения поставщиков
-                    здесь появятся хиты и лучшая цена.
-                  </p>
-                </div>
-                <div
-                  className={styles.railControls}
-                  aria-label="Прокрутка популярных товаров"
-                >
-                  <button
-                    type="button"
-                    aria-label="Предыдущие популярные товары"
-                    onClick={() => scrollRail(topRailRef.current, -1)}
-                  >
-                    <ChevronLeft24Regular aria-hidden="true" />
-                  </button>
-                  <button
-                    type="button"
-                    aria-label="Следующие популярные товары"
-                    onClick={() => scrollRail(topRailRef.current, 1)}
-                  >
-                    <ChevronRight24Regular aria-hidden="true" />
-                  </button>
-                </div>
-              </div>
-              <div ref={topRailRef} className={styles.dealGrid}>
-                {topProducts.slice(0, 6).map((product, topIndex) => {
-                  const presentation = catalogPresentation(product);
-                  const image = mediaSource(product.media?.[0]);
-                  const searchIndex =
-                    search?.items.findIndex((item) => item.id === product.id) ??
-                    -1;
-                  const returnTo = catalogReturnTo(
-                    product.id,
-                    searchIndex >= 0 ? searchIndex : topIndex,
-                  );
-                  return (
-                    <article
-                      className={styles.dealCard}
-                      key={`top:${product.id}`}
-                      data-product-id={product.id}
+                      <ChevronLeft24Regular aria-hidden="true" />
+                    </button>
+                    <button
+                      type="button"
+                      aria-label="Следующие акции"
+                      onClick={() => scrollRail(dealsRailRef.current, 1)}
                     >
-                      <a
-                        href={productDetailHref(product, returnTo)}
-                        onClick={() => rememberCatalogPosition(returnTo)}
-                        aria-label={`Открыть ${presentation.title}`}
+                      <ChevronRight24Regular aria-hidden="true" />
+                    </button>
+                  </div>
+                </div>
+                <div ref={dealsRailRef} className={styles.dealGrid}>
+                  {featuredDeals.map((product, dealIndex) => {
+                    const presentation = catalogPresentation(product);
+                    const searchIndex =
+                      search?.items.findIndex(
+                        (item) => item.id === product.id,
+                      ) ?? -1;
+                    const returnTo = catalogReturnTo(
+                      product.id,
+                      searchIndex >= 0 ? searchIndex : dealIndex,
+                    );
+                    const best = rankSearchOffers(product.offers).find(
+                      (offer) => offer.priceMinor,
+                    );
+                    const isCampaign = product.placement === "promotion";
+                    const promotion = bestPromotionPercent(product);
+                    const priceDifference = priceDifferencePercent(product);
+                    const image = mediaSource(product.media?.[0]);
+                    return (
+                      <article
+                        className={styles.dealCard}
+                        key={`deal:${product.id}`}
+                        data-product-id={product.id}
                       >
-                        <SafeProductImage
-                          src={image}
-                          alt={product.media?.[0]?.altText ?? presentation.title}
-                          fallback={
-                            <span
-                              className={styles.photoPending}
-                              aria-label="Изображение товара временно недоступно"
-                            >
-                              <Box24Regular aria-hidden="true" />
-                            </span>
-                          }
-                        />
-                      </a>
-                      <div>
-                        <span className={styles.dealLabel}>
-                          {topIndex === 0
-                            ? "Товар дня"
-                            : (product.badges?.[0] ?? "Популярное")}
-                        </span>
-                        <h3>{presentation.title}</h3>
-                        {presentation.originalName ? (
-                          <small className={styles.productOriginalName}>
-                            {presentation.originalName}
+                        <a
+                          href={productDetailHref(product, returnTo)}
+                          onClick={() => rememberCatalogPosition(returnTo)}
+                          aria-label={`Открыть ${presentation.title}`}
+                        >
+                          <SafeProductImage
+                            src={image}
+                            alt={
+                              product.media?.[0]?.altText ?? presentation.title
+                            }
+                            fallback={
+                              <span
+                                className={styles.photoPending}
+                                aria-label="Изображение товара временно недоступно"
+                              >
+                                <Box24Regular aria-hidden="true" />
+                              </span>
+                            }
+                          />
+                        </a>
+                        <div>
+                          <span className={styles.dealLabel}>
+                            {isCampaign
+                              ? "Акция бренда"
+                              : promotion
+                                ? "Акция продавца"
+                                : "Выгодная цена"}
+                          </span>
+                          <h3>{presentation.title}</h3>
+                          {presentation.originalName ? (
+                            <small className={styles.productOriginalName}>
+                              {presentation.originalName}
+                            </small>
+                          ) : null}
+                          <strong>
+                            {isCampaign
+                              ? "Специальный комплект"
+                              : best
+                                ? `от ${formatMoney(best.priceMinor, best.currency ?? "KZT")}`
+                                : "Цена по запросу"}
+                          </strong>
+                          <small>
+                            {isCampaign
+                              ? (product.brand ?? "DentMarket")
+                              : `${product.offers.length} ${ruCount(
+                                  product.offers.length,
+                                  "продавец",
+                                  "продавца",
+                                  "продавцов",
+                                )}`}
                           </small>
-                        ) : null}
-                        <strong>
-                          {product.minNormalizedPriceMinor
-                            ? `от ${formatMoney(
-                                product.minNormalizedPriceMinor,
-                                "KZT",
-                              )}`
-                            : "Цена по запросу"}
-                        </strong>
-                        <small>{product.brand ?? product.manufacturer}</small>
-                        <p>Официальная карточка товара</p>
-                      </div>
-                    </article>
-                  );
-                })}
-              </div>
-            </section>
-          ) : null}
-        </>
-      ) : null
+                          {isCampaign ? (
+                            <p>Состав и условия — в карточке</p>
+                          ) : promotion ? (
+                            <p>У одного продавца скидка {promotion}%</p>
+                          ) : priceDifference ? (
+                            <p>
+                              У одного продавца цена ниже на {priceDifference}%
+                            </p>
+                          ) : (
+                            <p>Сравните цены и условия доставки</p>
+                          )}
+                        </div>
+                      </article>
+                    );
+                  })}
+                </div>
+              </section>
+            ) : null}
+            {topProducts.length ? (
+              <section
+                className={styles.dealsSection}
+                aria-labelledby="top-products-title"
+              >
+                <div className={styles.dealsHeading}>
+                  <div>
+                    <h2 id="top-products-title">
+                      Товар дня и популярное сейчас
+                    </h2>
+                    <p>
+                      Подборка обновляется ежедневно. После подключения
+                      поставщиков здесь появятся хиты и лучшая цена.
+                    </p>
+                  </div>
+                  <div
+                    className={styles.railControls}
+                    aria-label="Прокрутка популярных товаров"
+                  >
+                    <button
+                      type="button"
+                      aria-label="Предыдущие популярные товары"
+                      onClick={() => scrollRail(topRailRef.current, -1)}
+                    >
+                      <ChevronLeft24Regular aria-hidden="true" />
+                    </button>
+                    <button
+                      type="button"
+                      aria-label="Следующие популярные товары"
+                      onClick={() => scrollRail(topRailRef.current, 1)}
+                    >
+                      <ChevronRight24Regular aria-hidden="true" />
+                    </button>
+                  </div>
+                </div>
+                <div ref={topRailRef} className={styles.dealGrid}>
+                  {topProducts.slice(0, 6).map((product, topIndex) => {
+                    const presentation = catalogPresentation(product);
+                    const image = mediaSource(product.media?.[0]);
+                    const searchIndex =
+                      search?.items.findIndex(
+                        (item) => item.id === product.id,
+                      ) ?? -1;
+                    const returnTo = catalogReturnTo(
+                      product.id,
+                      searchIndex >= 0 ? searchIndex : topIndex,
+                    );
+                    return (
+                      <article
+                        className={styles.dealCard}
+                        key={`top:${product.id}`}
+                        data-product-id={product.id}
+                      >
+                        <a
+                          href={productDetailHref(product, returnTo)}
+                          onClick={() => rememberCatalogPosition(returnTo)}
+                          aria-label={`Открыть ${presentation.title}`}
+                        >
+                          <SafeProductImage
+                            src={image}
+                            alt={
+                              product.media?.[0]?.altText ?? presentation.title
+                            }
+                            fallback={
+                              <span
+                                className={styles.photoPending}
+                                aria-label="Изображение товара временно недоступно"
+                              >
+                                <Box24Regular aria-hidden="true" />
+                              </span>
+                            }
+                          />
+                        </a>
+                        <div>
+                          <span className={styles.dealLabel}>
+                            {topIndex === 0
+                              ? "Товар дня"
+                              : (product.badges?.[0] ?? "Популярное")}
+                          </span>
+                          <h3>{presentation.title}</h3>
+                          {presentation.originalName ? (
+                            <small className={styles.productOriginalName}>
+                              {presentation.originalName}
+                            </small>
+                          ) : null}
+                          <strong>
+                            {product.minNormalizedPriceMinor
+                              ? `от ${formatMoney(
+                                  product.minNormalizedPriceMinor,
+                                  "KZT",
+                                )}`
+                              : "Цена по запросу"}
+                          </strong>
+                          <small>{product.brand ?? product.manufacturer}</small>
+                          <p>Официальная карточка товара</p>
+                        </div>
+                      </article>
+                    );
+                  })}
+                </div>
+              </section>
+            ) : null}
+          </>
+        ) : null
       ) : (
         <>
           <PageHeader
@@ -2578,6 +2711,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               <small>документов требуют внимания</small>
             </span>
           </div>
+          {renderPurchaseSignals()}
         </>
       )}
       <Section>
@@ -2631,12 +2765,18 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                       .filter(
                         (suggestion) =>
                           normalized.length >= 2 &&
-                          suggestion.toLocaleLowerCase("ru").includes(normalized) &&
+                          suggestion
+                            .toLocaleLowerCase("ru")
+                            .includes(normalized) &&
                           suggestion.toLocaleLowerCase("ru") !== normalized,
                       )
                       .slice(0, 6);
                     return matches.length ? (
-                      <div className={styles.searchSuggestions} role="listbox" aria-label="Подсказки поиска">
+                      <div
+                        className={styles.searchSuggestions}
+                        role="listbox"
+                        aria-label="Подсказки поиска"
+                      >
                         {matches.map((suggestion) => (
                           <button
                             key={suggestion}
@@ -3055,9 +3195,8 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               const productImage = mediaSource(product.media?.[0]);
               const promotion = bestPromotionPercent(product);
               const priceDifference = priceDifferencePercent(product);
-              const productIndex = search?.items.findIndex(
-                (item) => item.id === product.id,
-              ) ?? 0;
+              const productIndex =
+                search?.items.findIndex((item) => item.id === product.id) ?? 0;
               const returnTo = catalogReturnTo(product.id, productIndex);
               const detailHref = productDetailHref(product, returnTo);
               const productCategory = product.categories[0]?.name;
@@ -3070,7 +3209,11 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                 >
                   <a
                     className={styles.productCardSurface}
-                    href={isPublic ? detailHref : `#product-${encodeURIComponent(product.id)}`}
+                    href={
+                      isPublic
+                        ? detailHref
+                        : `#product-${encodeURIComponent(product.id)}`
+                    }
                     onClick={(event) => {
                       if (!isPublic) {
                         event.preventDefault();
@@ -3251,7 +3394,8 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                   </a>
                   <div className={styles.productActions}>
                     {(() => {
-                      const cartOffer = eligibleOffers[0] ??
+                      const cartOffer =
+                        eligibleOffers[0] ??
                         (isPublic && product.offers.length === 1
                           ? product.offers[0]
                           : undefined);
@@ -3549,7 +3693,8 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                 </small>
               </div>
               <div className={styles.productInfo}>
-                {selectedProduct.variants && selectedProduct.variants.length > 1 ? (
+                {selectedProduct.variants &&
+                selectedProduct.variants.length > 1 ? (
                   <div className={styles.variantPicker}>
                     <div>
                       <span className={styles.category}>Вариант товара</span>
@@ -3609,10 +3754,14 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                   aria-label="Сводка по товару"
                 >
                   <span>
-                    <strong>{comparison?.offers.length ?? selectedProduct.offers.length}</strong>
+                    <strong>
+                      {comparison?.offers.length ??
+                        selectedProduct.offers.length}
+                    </strong>
                     <small>
                       {ruCount(
-                        comparison?.offers.length ?? selectedProduct.offers.length,
+                        comparison?.offers.length ??
+                          selectedProduct.offers.length,
                         "предложение",
                         "предложения",
                         "предложений",
@@ -3888,10 +4037,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                   : "Срок уточняется"
                 : "Срок подтвердит поставщик";
               const deliveryPrice = delivery?.fixedAmountMinor
-                ? formatMoney(
-                    delivery.fixedAmountMinor,
-                    delivery.currency,
-                  )
+                ? formatMoney(delivery.fixedAmountMinor, delivery.currency)
                 : delivery
                   ? "Бесплатно или по условиям продавца"
                   : "Рассчитается при подтверждении";
@@ -3946,12 +4092,10 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                                 {item.offer?.productVariant?.product
                                   ?.canonicalName ?? "Товар из каталога"}
                               </strong>
-                              {Number(
-                                item.offer?.minimumOrderQuantity ?? "1",
-                              ) > 1 ? (
+                              {Number(item.offer?.minimumOrderQuantity ?? "1") >
+                              1 ? (
                                 <small>
-                                  Минимум{" "}
-                                  {item.offer?.minimumOrderQuantity} ед.
+                                  Минимум {item.offer?.minimumOrderQuantity} ед.
                                 </small>
                               ) : null}
                             </td>
@@ -3963,10 +4107,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                                   onClick={() =>
                                     void updateCartItemQuantity(
                                       item.id,
-                                      Math.max(
-                                        1,
-                                        Number(item.quantity) - 1,
-                                      ),
+                                      Math.max(1, Number(item.quantity) - 1),
                                     )
                                   }
                                   disabled={
@@ -3996,19 +4137,14 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                                   appearance="subtle"
                                   size="small"
                                   icon={<Dismiss24Regular />}
-                                  onClick={() =>
-                                    void removeCartItem(item.id)
-                                  }
+                                  onClick={() => void removeCartItem(item.id)}
                                   disabled={busy === `cart-item:${item.id}`}
                                   aria-label="Удалить позицию"
                                 />
                               </div>
                             </td>
                             <td>
-                              {formatMoney(
-                                item.unitPriceMinor,
-                                item.currency,
-                              )}
+                              {formatMoney(item.unitPriceMinor, item.currency)}
                             </td>
                             <td>
                               <strong>
@@ -4026,10 +4162,7 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                   <footer>
                     <span>Итого у поставщика</span>
                     <strong>
-                      {formatMoney(
-                        group.subtotalMinor,
-                        group.currency,
-                      )}
+                      {formatMoney(group.subtotalMinor, group.currency)}
                     </strong>
                   </footer>
                 </section>
@@ -4255,14 +4388,24 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
                 <article className={styles.invoiceCard} key={allocation.id}>
                   <div>
                     <strong>
-                      Счёт поставщика · {allocation.recipient?.displayName ?? "Поставщик"}
+                      Счёт поставщика ·{" "}
+                      {allocation.recipient?.displayName ?? "Поставщик"}
                     </strong>
                     <p>
-                      {allocation.supplierOrder?.orderNumber ?? "Заказ"} · {intent.paymentMethod === "INVOICE" ? "Оплата по счёту" : intent.paymentMethod} · {formatDate(intent.createdAt, true)}
+                      {allocation.supplierOrder?.orderNumber ?? "Заказ"} ·{" "}
+                      {intent.paymentMethod === "INVOICE"
+                        ? "Оплата по счёту"
+                        : intent.paymentMethod}{" "}
+                      · {formatDate(intent.createdAt, true)}
                     </p>
                   </div>
                   <div className={styles.invoiceAmount}>
-                    <strong>{formatMoney(allocation.grossAmountMinor, intent.currency)}</strong>
+                    <strong>
+                      {formatMoney(
+                        allocation.grossAmountMinor,
+                        intent.currency,
+                      )}
+                    </strong>
                     <StatusTag tone={statusTone(intent.status)}>
                       {formatStatus(intent.status)}
                     </StatusTag>
@@ -4272,7 +4415,9 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
             )}
           </div>
           <p className={styles.invoiceHint}>
-            Для банковского перевода реквизиты берутся из профиля поставщика. После оплаты платёж сверяется по назначению и сумме, а статус заказа обновляется отдельно по каждой поставке.
+            Для банковского перевода реквизиты берутся из профиля поставщика.
+            После оплаты платёж сверяется по назначению и сумме, а статус заказа
+            обновляется отдельно по каждой поставке.
           </p>
         </Section>
       ) : null}
@@ -4280,8 +4425,16 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
         {!documents.length ? (
           <EmptyState
             icon={<Document24Regular />}
-            title={paymentIntents.length ? "Подписанных документов пока нет" : "Документов пока нет"}
-            description={paymentIntents.length ? "Счета уже доступны выше. Накладные и подписанные документы появятся по мере исполнения заказа." : "Счета, накладные и документы на подпись появятся после оформления заказа."}
+            title={
+              paymentIntents.length
+                ? "Подписанных документов пока нет"
+                : "Документов пока нет"
+            }
+            description={
+              paymentIntents.length
+                ? "Счета уже доступны выше. Накладные и подписанные документы появятся по мере исполнения заказа."
+                : "Счета, накладные и документы на подпись появятся после оформления заказа."
+            }
             action={
               <Button appearance="primary" onClick={() => setActive("orders")}>
                 Посмотреть заказы
@@ -4513,7 +4666,15 @@ export default function BuyerWorkspace({ searchParams: _searchParams }: BuyerWor
               onClick={() => void refresh()}
               aria-label="Обновить данные"
             />
-            <PushNotifications apiBase={process.env.NEXT_PUBLIC_API_URL ?? "https://dentmarket-api.vercel.app/api"} organizationId={buyerId} accessToken={handoff?.accessToken} actorId={handoff?.actorId} />
+            <PushNotifications
+              apiBase={
+                process.env.NEXT_PUBLIC_API_URL ??
+                "https://dentmarket-api.vercel.app/api"
+              }
+              organizationId={buyerId}
+              accessToken={handoff?.accessToken}
+              actorId={handoff?.actorId}
+            />
           </>
         ) : (
           <Button
