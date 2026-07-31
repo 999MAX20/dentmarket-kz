@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T09:08:07.258Z",
+  "generatedAt": "2026-07-31T09:11:40.982Z",
   "inputs": [
     "data/intake/beauty-kz/ucg-kz.csv",
     "data/intake/beauty-kz/public-catalog-discovery.csv",
@@ -10,6 +10,6 @@
   "canonicalCards": 3352,
   "duplicatesCollapsed": 149,
   "commercialRows": 0,
-  "cardsWithoutImage": 34,
+  "cardsWithoutImage": 0,
   "cardsWithoutDescription": 1
 }
