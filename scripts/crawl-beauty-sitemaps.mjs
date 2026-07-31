@@ -75,7 +75,7 @@ function meta(html, name) {
   return html.match(new RegExp(`<meta[^>]+(?:property|name)=["']${escaped}["'][^>]+content=["']([^"']*)["']`, "iu"))?.[1] ?? "";
 }
 
-async function worker(urls, fn) {
+async function worker(urls, fn, workerLimit = concurrency) {
   const results = [];
   let index = 0;
   async function run() {
@@ -84,7 +84,7 @@ async function worker(urls, fn) {
       try { results.push(await fn(current)); } catch (error) { results.push({ error: error.message, url: current }); }
     }
   }
-  await Promise.all(Array.from({ length: Math.min(concurrency, urls.length) }, () => run()));
+  await Promise.all(Array.from({ length: Math.min(workerLimit, urls.length) }, () => run()));
   return results;
 }
 
@@ -108,7 +108,8 @@ for (const source of sources) {
       if (source.key === "leoncosmetics-kz") return /\/urun\//iu.test(pathname);
       return /\/(?:catalog|product|shop|goods|товар)\//iu.test(pathname) || /\/(?:product|item)-/iu.test(pathname);
     };
-    urls = allUrls.filter(candidate).slice(0, maxUrlsPerSource);
+    const sourceLimit = source.key === "nickol-kz" ? Number(process.env.NICKOL_MAX || maxUrlsPerSource) : maxUrlsPerSource;
+    urls = allUrls.filter(candidate).slice(0, sourceLimit);
   } catch (error) {
     sourceResults.push({ ...source, sitemapUrls: 0, fetched: 0, products: 0, error: error.message });
     continue;
@@ -152,7 +153,7 @@ for (const source of sources) {
       supplierKey: source.key,
       supplierName: source.name,
     };
-  });
+  }, source.key === "nickol-kz" ? 2 : concurrency);
   const valid = pages.filter((item) => item && !item.error);
   rows.push(...valid);
   sourceResults.push({ key: source.key, name: source.name, sitemapUrls: urls.length, fetched: pages.length, products: valid.length, errors: pages.filter((item) => item?.error).length, errorSamples: pages.filter((item) => item?.error).slice(0, 3) });
