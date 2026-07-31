@@ -138,6 +138,16 @@
       "catalogSourceType": "WEB_OR_XLSX_REQUIRED",
       "categories": ["professional-cosmetics", "hair-care", "nail-products"],
       "notes": "Public beauty supplier/store candidate; treat brand status as unverified until supplier documents arrive."
+    },
+    {
+      "key": "procosmetics-kz",
+      "name": "PRO COSMETICS",
+      "website": "https://www.procosmetics.kz/",
+      "sourceUrl": "https://www.procosmetics.kz/shop",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_WEB_CATALOG",
+      "categories": ["professional-cosmetics", "face-care", "body-care", "hair-care"],
+      "notes": "Public Kazakhstan professional cosmetics catalog. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
     }
   ],
   "brands": [

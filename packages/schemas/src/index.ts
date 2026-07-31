@@ -240,6 +240,8 @@ export const supplierColumnMappingSchema = z.object({
   priceMinor: z.string().trim().min(1).max(120).optional(),
   currency: z.string().trim().min(1).max(120).optional(),
   quantityOnHand: z.string().trim().min(1).max(120).optional(),
+  warehouse: z.string().trim().min(1).max(160).optional(),
+  leadTimeDays: z.string().trim().min(1).max(120).optional(),
   lotNumber: z.string().trim().min(1).max(120).optional(),
   expirationDate: z.string().trim().min(1).max(120).optional(),
 });

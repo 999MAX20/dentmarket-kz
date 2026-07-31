@@ -25,6 +25,8 @@ export function inferSupplierColumnMapping(rows: RawRow[]) {
     priceMinor: findColumn(headers, [/цена/u, /стоимость/u, /price/u, /оптов/u]),
     currency: findColumn(headers, [/валют/u, /currency/u]),
     quantityOnHand: findColumn(headers, [/остат/u, /количеств/u, /налич/u, /stock/u, /quantity/u]),
+    warehouse: findColumn(headers, [/склад/u, /warehouse/u, /место хран/u]),
+    leadTimeDays: findColumn(headers, [/срокпостав/u, /срокдостав/u, /доставк/u, /lead.?time/u, /days?/u]),
     lotNumber: findColumn(headers, [/парт/u, /lot/u]),
     expirationDate: findColumn(headers, [/срокгодност/u, /годендо/u, /expiration/u, /expiry/u]),
   };

@@ -1905,6 +1905,7 @@ model SupplierOffer {
   confirmationMode       OfferConfirmationMode    @default(MANUAL)
   sourceType             OfferSourceType          @default(MANUAL)
   externalId             String?
+  leadTimeDays           Int?
   status                 SupplierOfferStatus      @default(DRAFT)
   version                Int                      @default(1)
   supplier               SupplierProfile          @relation(fields: [supplierOrganizationId], references: [organizationId], onDelete: Cascade)

@@ -46,6 +46,8 @@ function normalizeRow(row: RawRow, mapping: SupplierColumnMappingInput) {
     priceMinor: value(row, mapping.priceMinor) || null,
     currency: value(row, mapping.currency).toUpperCase() || null,
     quantityOnHand: value(row, mapping.quantityOnHand) || null,
+    warehouse: value(row, mapping.warehouse) || null,
+    leadTimeDays: value(row, mapping.leadTimeDays) || null,
     lotNumber: value(row, mapping.lotNumber) || null,
     expirationDate: value(row, mapping.expirationDate) || null,
   };
@@ -659,6 +661,10 @@ export class ImportsService implements OnModuleInit {
       where: { supplierOrganizationId, status: "ACTIVE" },
       orderBy: { createdAt: "asc" },
     });
+    const warehouses = await this.prisma.warehouse.findMany({
+      where: { supplierOrganizationId, status: "ACTIVE" },
+      select: { id: true, name: true },
+    });
     const memories = await this.prisma.supplierMappingMemory.findMany({
       where: { supplierOrganizationId, status: "ACTIVE" },
       orderBy: { version: "desc" },
@@ -851,6 +857,9 @@ export class ImportsService implements OnModuleInit {
                     confirmationMode: "MANUAL",
                     sourceType: "IMPORT",
                     externalId: normalized.externalId,
+                    leadTimeDays: Number.isFinite(Number(normalized.leadTimeDays))
+                      ? Math.max(0, Math.trunc(Number(normalized.leadTimeDays)))
+                      : null,
                     status: "DRAFT",
                     publication: { create: {} },
                   },
@@ -863,6 +872,9 @@ export class ImportsService implements OnModuleInit {
                     sourceId: batch.sourceId,
                     supplierSku: normalized.supplierSku,
                     externalId: normalized.externalId,
+                    leadTimeDays: Number.isFinite(Number(normalized.leadTimeDays))
+                      ? Math.max(0, Math.trunc(Number(normalized.leadTimeDays)))
+                      : existingOffer.leadTimeDays,
                     status: existingOffer.status,
                     version: { increment: 1 },
                   },
@@ -901,8 +913,16 @@ export class ImportsService implements OnModuleInit {
                 });
               }
               const quantity = Number(normalized.quantityOnHand);
+              const importedWarehouse = normalized.warehouse
+                ? warehouses.find(
+                    (warehouse) =>
+                      normalizeCatalogText(warehouse.name) ===
+                      normalizeCatalogText(normalized.warehouse ?? ""),
+                  )
+                : undefined;
+              const targetWarehouse = importedWarehouse ?? defaultWarehouse;
               if (
-                defaultWarehouse &&
+                targetWarehouse &&
                 Number.isFinite(quantity) &&
                 quantity >= 0
               ) {
@@ -910,7 +930,7 @@ export class ImportsService implements OnModuleInit {
                   where: {
                     supplierOrganizationId_warehouseId_productVariantId: {
                       supplierOrganizationId,
-                      warehouseId: defaultWarehouse.id,
+                      warehouseId: targetWarehouse.id,
                       productVariantId: best.variant.id,
                     },
                   },
@@ -933,7 +953,7 @@ export class ImportsService implements OnModuleInit {
                   },
                   create: {
                     supplierOrganizationId,
-                    warehouseId: defaultWarehouse.id,
+                    warehouseId: targetWarehouse.id,
                     productVariantId: best.variant.id,
                     offerId: offer.id,
                     quantityOnHand: quantity,

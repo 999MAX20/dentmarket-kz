@@ -92,6 +92,11 @@
       "supplierKey": "fox-beauty-house-kz",
       "template": "data/templates/beauty-kz/fox-beauty-house-kz.csv",
       "status": "READY_FOR_CATALOG_FILE"
+    },
+    {
+      "supplierKey": "procosmetics-kz",
+      "template": "data/templates/beauty-kz/procosmetics-kz.csv",
+      "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
     }
   ]
 }

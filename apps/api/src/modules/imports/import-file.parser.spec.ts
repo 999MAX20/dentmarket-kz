@@ -16,6 +16,13 @@ describe("fast-lane column inference", () => {
     const result = inferSupplierColumnMapping([{ "Наименование": "Товар без кода", Цена: 1000 }]);
     expect(result.missingRequired).toContain("externalId");
   });
+
+  it("maps warehouse and delivery lead time without making them canonical fields", () => {
+    const result = inferSupplierColumnMapping([
+      { Артикул: "B-1", Наименование: "Крем", Склад: "Алматы", "Срок поставки, дней": 3 },
+    ]);
+    expect(result.mapping).toMatchObject({ warehouse: "Склад", leadTimeDays: "Срок поставки, дней" });
+  });
 });
 
 describe("ImportFileParser", () => {

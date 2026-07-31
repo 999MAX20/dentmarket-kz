@@ -1,0 +1,1 @@
+ALTER TABLE "SupplierOffer" ADD COLUMN IF NOT EXISTS "leadTimeDays" INTEGER;

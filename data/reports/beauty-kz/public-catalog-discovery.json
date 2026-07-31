@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-07-31T06:09:45.834Z",
+  "source": "https://www.procosmetics.kz/",
+  "sourcePolicy": "Public product metadata only; price, currency, stock, warehouse and lead time intentionally blank.",
+  "totals": {
+    "discoveredLinks": 14,
+    "extractedProducts": 11
+  },
+  "products": [
+    {
+      "externalId": "procosmetics-9ed51236e6c425ff",
+      "name": "ТКАНЕВЫЕ ПРОТИВООТЁКОВЫЕ ПЛАСТЫРИ ДЛЯ ГЛАЗ",
+      "sourceUrl": "https://www.procosmetics.kz/shop/tkanevye-protivootekovye-plastyri-dlya-glaz",
+      "imageUrl": "https://res.cloudinary.com/dpxc9qbkc/image/upload/c_limit,f_auto,q_auto:good,w_1200/v1769453608/pro-cosmetics/products/pbkbvca2bveyjx7zs9fp.jpg"
+    },
+    {
+      "externalId": "procosmetics-6e0a5a04f091c089",
+      "name": "ЭНЗИМНАЯ ОЧИЩАЮЩАЯ ПУДРА",
+      "sourceUrl": "https://www.procosmetics.kz/shop/enzimnaya-ochischayuschaya-pudra",
+      "imageUrl": "https://res.cloudinary.com/dpxc9qbkc/image/upload/c_limit,f_auto,q_auto:good,w_1200/v1769365198/pro-cosmetics/products/bbwgin8qjvrlc0ivc4c1.jpg"
+    },
+    {
+      "externalId": "procosmetics-d9129bf4dd9b82a8",
+      "name": "ОЧИЩАЮЩЕЕ МОЛОЧКО",
+      "sourceUrl": "https://www.procosmetics.kz/shop/ochischayuschee-molochko",
+      "imageUrl": "https://res.cloudinary.com/dpxc9qbkc/image/upload/c_limit,f_auto,q_auto:good,w_1200/v1769364053/pro-cosmetics/products/vgocbahjgcs16pm12yre.jpg"
+    },
+    {
+      "externalId": "procosmetics-34a49fc9f81285ad",
+      "name": "ОЧИЩАЮЩАЯ ПЕНКА С АМИНОКИСЛОТАМИ",
+      "sourceUrl": "https://www.procosmetics.kz/shop/ochischayuschaya-penka-s-aminokislotami",
+      "imageUrl": "https://res.cloudinary.com/dpxc9qbkc/image/upload/c_limit,f_auto,q_auto:good,w_1200/v1769363893/pro-cosmetics/products/fc5e7veua61efhismbpc.jpg"
+    },
+    {
+      "externalId": "procosmetics-e24ec89d4a018d09",
+      "name": "ГЕЛЬ ДЛЯ УМЫВАНИЯ С МОЛОЧНОЙ КИСЛОТОЙ",
+      "sourceUrl": "https://www.procosmetics.kz/shop/gel-dlya-umyvaniya-s-molochnoy-kislotoy",
+      "imageUrl": "https://res.cloudinary.com/dpxc9qbkc/image/upload/c_limit,f_auto,q_auto:good,w_1200/v1769362929/pro-cosmetics/products/rnkam1fvhqjqxsbnoleq.jpg"
+    },
+    {
+      "externalId": "procosmetics-e3b5ff4d55606cdc",
+      "name": "ГЕЛЬ ДЛЯ УМЫВАНИЯ С АМИНОКИСЛОТАМИ ШЕЛКА",
+      "sourceUrl": "https://www.procosmetics.kz/shop/gel-dlya-umyvaniya-s-aminokislotami-shelka",
+      "imageUrl": "https://res.cloudinary.com/dpxc9qbkc/image/upload/c_limit,f_auto,q_auto:good,w_1200/v1769362059/pro-cosmetics/products/jnjfqebugsg4wo4mndn1.jpg"
+    },
+    {
+      "externalId": "procosmetics-cb461b50dddf333d",
+      "name": "Диффузор Vanilla & Tonka AROMATHERAPY",
+      "sourceUrl": "https://www.procosmetics.kz/shop/angiopharm-diffuzor-vanilla-tonka-aromatherapy-50",
+      "imageUrl": "https://res.cloudinary.com/dpxc9qbkc/image/upload/c_limit,f_auto,q_auto:good,w_1200/v1785349978/pro-cosmetics/products/enriched/xmkovsnwoqx48tzypqfs.jpg"
+    },
+    {
+      "externalId": "procosmetics-28d6ca7fe144bfce",
+      "name": "Увлажняющий блеск для губ ПРОЗРАЧНЫЙ ГЛЯНЕЦ",
+      "sourceUrl": "https://www.procosmetics.kz/shop/angiopharm-uvlazhnyayuschiy-blesk-dlya-gub-prozrachnyy-glyanets-10",
+      "imageUrl": "https://res.cloudinary.com/dpxc9qbkc/image/upload/c_limit,f_auto,q_auto:good,w_1200/v1785089495/pro-cosmetics/products/enriched/jvxierbufoosnzstdwff.jpg"
+    },
+    {
+      "externalId": "procosmetics-48e9970ef49b8d2f",
+      "name": "крем",
+      "sourceUrl": "https://www.procosmetics.kz/shop/krem",
+      "imageUrl": "/seed/cleanser.jpg"
+    },
+    {
+      "externalId": "procosmetics-0476b36037d3d3d9",
+      "name": "СЕБОРЕГУЛИРУЮЩАЯ МАСКА ДЛЯ ЛИЦА",
+      "sourceUrl": "https://www.procosmetics.kz/shop/seboreguliruyuschaya-maska-dlya-litsa",
+      "imageUrl": "https://res.cloudinary.com/dpxc9qbkc/image/upload/c_limit,f_auto,q_auto:good,w_1200/v1769453187/pro-cosmetics/products/oritwuzjokjgtykd3mhp.jpg"
+    },
+    {
+      "externalId": "procosmetics-d70dc5d9d016ea92",
+      "name": "НАБОР САШЕ ДЛЯ КАРБОКСИТЕРАПИИ",
+      "sourceUrl": "https://www.procosmetics.kz/shop/nabor-sashe-dlya-karboksiterapii",
+      "imageUrl": "https://res.cloudinary.com/dpxc9qbkc/image/upload/c_limit,f_auto,q_auto:good,w_1200/v1769369041/pro-cosmetics/products/v6oanfjo7r6wgeg9aouh.jpg"
+    }
+  ]
+}
