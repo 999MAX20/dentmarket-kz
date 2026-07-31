@@ -188,6 +188,26 @@
       "catalogSourceType": "PUBLIC_WEB_CATALOG",
       "categories": ["professional-cosmetics", "injectables", "face-care"],
       "notes": "Public Kazakhstan aesthetics/cosmetology catalogue. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
+    },
+    {
+      "key": "mollystore-kz",
+      "name": "Molly",
+      "website": "https://mollystore.kz/",
+      "sourceUrl": "https://mollystore.kz/",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_WEB_CATALOG",
+      "categories": ["professional-cosmetics", "beauty-tools", "disposables", "salon-equipment"],
+      "notes": "Public catalogue claims more than 1,500 beauty and salon product positions. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
+    },
+    {
+      "key": "profcosmetics-kz",
+      "name": "Profcosmetics",
+      "website": "https://profcosmetics.kz/",
+      "sourceUrl": "https://profcosmetics.kz/",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_WEB_CATALOG",
+      "categories": ["professional-cosmetics", "face-care", "hair-care"],
+      "notes": "Public Kazakhstan professional cosmetics catalogue. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
     }
   ],
   "brands": [

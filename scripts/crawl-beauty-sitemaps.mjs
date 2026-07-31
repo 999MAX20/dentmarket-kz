@@ -23,6 +23,8 @@ const sources = [
   { key: "profcare-kz", name: "Profcare", sitemap: "https://profcare.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "skinosophy-kz", name: "Skinosophy", sitemap: "https://skinosophy.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "inter-beauty-kz", name: "Inter Beauty", sitemap: "https://i-b.kz/sitemap.xml", category: "professional-cosmetics" },
+  { key: "mollystore-kz", name: "Molly", sitemap: "https://mollystore.kz/sitemap.xml", category: "professional-cosmetics" },
+  { key: "profcosmetics-kz", name: "Profcosmetics", sitemap: "https://profcosmetics.kz/sitemap.xml", category: "professional-cosmetics" },
 ];
 
 const clean = (value) => String(value ?? "").replace(/<[^>]+>/gu, " ").replace(/&amp;/gu, "&").replace(/&quot;/gu, '"').replace(/&#x27;/gu, "'").replace(/\s+/gu, " ").trim();
@@ -99,6 +101,8 @@ for (const source of sources) {
       if (source.key === "nickol-kz") return /\/product\//iu.test(pathname);
       if (source.key === "procosmetics-kz") return /\/shop\/[^/]+/iu.test(pathname);
       if (source.key === "ucg-web-kz") return /\/catalog\//iu.test(pathname);
+      if (source.key === "mollystore-kz") return /\/p\d+-/iu.test(pathname);
+      if (source.key === "profcosmetics-kz") return /route=product\/product/iu.test(url);
       return /\/(?:catalog|product|shop|goods|товар)\//iu.test(pathname) || /\/(?:product|item)-/iu.test(pathname);
     };
     urls = allUrls.filter(candidate).slice(0, maxUrlsPerSource);
@@ -116,6 +120,8 @@ for (const source of sources) {
     const fallbackProductPath = source.key === "nickol-kz" ? /\/product\//iu.test(pathname)
       : source.key === "procosmetics-kz" ? /\/shop\/[^/]+/iu.test(pathname)
       : source.key === "ucg-web-kz" ? /\/catalog\//iu.test(pathname)
+      : source.key === "mollystore-kz" ? /\/p\d+-/iu.test(pathname)
+      : source.key === "profcosmetics-kz" ? /route=product\/product/iu.test(url)
       : /\/catalog\//iu.test(pathname);
     const description = clean(product?.description || meta(page.text, "description") || meta(page.text, "og:description"));
     const fallbackImage = clean(image || meta(page.text, "og:image"));
