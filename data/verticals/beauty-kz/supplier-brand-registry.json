@@ -158,6 +158,36 @@
       "catalogSourceType": "PUBLIC_WEB_CATALOG",
       "categories": ["professional-cosmetics", "face-care", "body-care", "hair-care"],
       "notes": "Public Kazakhstan professional cosmetics/wholesale catalog. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
+    },
+    {
+      "key": "profcare-kz",
+      "name": "Profcare",
+      "website": "https://profcare.kz/",
+      "sourceUrl": "https://profcare.kz/",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_WEB_CATALOG",
+      "categories": ["professional-cosmetics", "face-care", "body-care"],
+      "notes": "Public Kazakhstan professional cosmetics catalogue. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
+    },
+    {
+      "key": "skinosophy-kz",
+      "name": "Skinosophy",
+      "website": "https://skinosophy.kz/",
+      "sourceUrl": "https://skinosophy.kz/catalog",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_WEB_CATALOG",
+      "categories": ["professional-cosmetics", "face-care", "body-care"],
+      "notes": "Public professional cosmeceutical catalogue. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
+    },
+    {
+      "key": "inter-beauty-kz",
+      "name": "Inter Beauty",
+      "website": "https://i-b.kz/",
+      "sourceUrl": "https://i-b.kz/",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_WEB_CATALOG",
+      "categories": ["professional-cosmetics", "injectables", "face-care"],
+      "notes": "Public Kazakhstan aesthetics/cosmetology catalogue. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
     }
   ],
   "brands": [

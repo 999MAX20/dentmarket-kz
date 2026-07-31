@@ -12,11 +12,12 @@ const readCsv = async (relative) => parse(await fs.readFile(path.join(root, rela
 const ucg = await readCsv("data/intake/beauty-kz/ucg-kz.csv");
 const publicDiscovery = await readCsv("data/intake/beauty-kz/public-catalog-discovery.csv");
 const expandedDiscovery = await readCsv("data/intake/beauty-kz/public-catalog-discovery-expanded.csv").catch(() => []);
+const sitemapDiscovery = await readCsv("data/intake/beauty-kz/public-catalog-sitemap.csv").catch(() => []);
 const sourceRows = {
   "ucg-kz": ucg.map((row) => ({ ...row, matchStatus: "CANONICAL_READY", matchConfidence: "1.00", reviewReason: "Canonical card prepared; commercial columns intentionally blank." })),
   "procosmetics-kz": publicDiscovery.map((row) => ({ ...row, matchStatus: "DISCOVERY_REVIEW", matchConfidence: "", reviewReason: "Public card extracted; brand/SKU/authorization must be verified before publication." })),
 };
-for (const row of expandedDiscovery) {
+for (const row of [...expandedDiscovery, ...sitemapDiscovery]) {
   if (!row.supplierKey) continue;
   sourceRows[row.supplierKey] ??= [];
   sourceRows[row.supplierKey].push({ ...row, matchStatus: "DISCOVERY_REVIEW", matchConfidence: "", reviewReason: "Public card extracted; brand/SKU/authorization must be verified before publication." });
@@ -88,5 +89,5 @@ const workbookPath = path.join(outputDir, "beauty-supplier-onboarding-templates.
 await xlsx.save(workbookPath);
 const inspect = await workbook.inspect({ kind: "table", range: "ucg-kz!A1:V6", include: "values,formulas", tableMaxRows: 6, tableMaxCols: 22 });
 await fs.writeFile(path.join(outputDir, "inspect.ndjson"), inspect.ndjson);
-await fs.writeFile(path.join(outputDir, "manifest.json"), `${JSON.stringify({ generatedAt: new Date().toISOString(), workbookPath, supplierSheets: registry.suppliers.length, rows: { ucg: ucg.length, publicDiscovery: publicDiscovery.length + expandedDiscovery.length }, rendered }, null, 2)}\n`);
-console.log(JSON.stringify({ workbookPath, supplierSheets: registry.suppliers.length, ucgRows: ucg.length, publicDiscoveryRows: publicDiscovery.length + expandedDiscovery.length }, null, 2));
+await fs.writeFile(path.join(outputDir, "manifest.json"), `${JSON.stringify({ generatedAt: new Date().toISOString(), workbookPath, supplierSheets: registry.suppliers.length, rows: { ucg: ucg.length, publicDiscovery: publicDiscovery.length + expandedDiscovery.length + sitemapDiscovery.length }, rendered }, null, 2)}\n`);
+console.log(JSON.stringify({ workbookPath, supplierSheets: registry.suppliers.length, ucgRows: ucg.length, publicDiscoveryRows: publicDiscovery.length + expandedDiscovery.length + sitemapDiscovery.length }, null, 2));

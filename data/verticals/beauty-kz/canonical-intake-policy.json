@@ -102,6 +102,21 @@
       "supplierKey": "cosmex-kz",
       "template": "data/intake/beauty-kz/public-catalog-discovery-expanded.csv",
       "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
+    },
+    {
+      "supplierKey": "profcare-kz",
+      "template": "data/intake/beauty-kz/public-catalog-sitemap.csv",
+      "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
+    },
+    {
+      "supplierKey": "skinosophy-kz",
+      "template": "data/intake/beauty-kz/public-catalog-sitemap.csv",
+      "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
+    },
+    {
+      "supplierKey": "inter-beauty-kz",
+      "template": "data/intake/beauty-kz/public-catalog-sitemap.csv",
+      "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
     }
   ]
 }

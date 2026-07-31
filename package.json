@@ -34,6 +34,8 @@
     "catalog:crawl:beauty-ucg": "node scripts/crawl-ucg-beauty-catalog.mjs",
     "catalog:crawl:beauty-public": "node scripts/crawl-beauty-public-catalog.mjs",
     "catalog:crawl:beauty-public-sources": "node scripts/crawl-beauty-public-sources.mjs",
+    "catalog:crawl:beauty-sitemaps": "node scripts/crawl-beauty-sitemaps.mjs",
+    "catalog:dedup:beauty-canonical": "node scripts/build-beauty-canonical-dedup.mjs",
     "catalog:build:beauty-workbook": "node scripts/build-beauty-supplier-workbook.mjs",
     "catalog:normalize:beauty-local": "node scripts/normalize-beauty-local-media.mjs",
     "catalog:validate:knowledge-graph": "node scripts/validate-product-knowledge-graph.mjs",
