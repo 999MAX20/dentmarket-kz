@@ -1,0 +1,4 @@
+externalId,name,supplierSku,brand,priceMinor,currency,quantityOnHand,warehouse,leadTimeDays,expectedDisposition
+ucg-repeat-existing-001,SOURCE Набор для увлажнения и насыщения,,PAYOT,189000,KZT,7,Алматы,2,UPDATE_COMMERCIAL_ONLY
+ucg-repeat-existing-002,Сыворотка с витамином C+RHA для лица TEOXANE RHA Vit C Serum,,TEOXANE,245000,KZT,3,Астана,5,UPDATE_COMMERCIAL_ONLY
+beauty-new-candidate-001,Маска профессиональная для восстановления волос Beauty Test,BEAUTY-NEW-001,Beauty Test,99000,KZT,12,Алматы,4,CREATE_PRODUCT_CANDIDATE
