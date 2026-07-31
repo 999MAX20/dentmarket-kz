@@ -11,6 +11,9 @@ scripts/__pycache__
 .git
 .vercel
 tmp
+outputs
+backups
+data
 apps/e2e
 apps/admin-web
 apps/landing-web
