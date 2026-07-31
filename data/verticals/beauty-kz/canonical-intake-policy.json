@@ -127,6 +127,11 @@
       "supplierKey": "profcosmetics-kz",
       "template": "data/intake/beauty-kz/public-catalog-sitemap.csv",
       "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
+    },
+    {
+      "supplierKey": "leoncosmetics-kz",
+      "template": "data/intake/beauty-kz/public-catalog-sitemap.csv",
+      "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
     }
   ]
 }

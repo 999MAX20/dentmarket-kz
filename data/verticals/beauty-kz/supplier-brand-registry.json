@@ -208,6 +208,16 @@
       "catalogSourceType": "PUBLIC_WEB_CATALOG",
       "categories": ["professional-cosmetics", "face-care", "hair-care"],
       "notes": "Public Kazakhstan professional cosmetics catalogue. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
+    },
+    {
+      "key": "leoncosmetics-kz",
+      "name": "Leon Cosmetics",
+      "website": "https://leoncosmetics.kz/",
+      "sourceUrl": "https://leoncosmetics.kz/",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_WEB_CATALOG",
+      "categories": ["professional-cosmetics", "hair-care", "beauty-tools"],
+      "notes": "Public professional hair and salon-care catalogue. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
     }
   ],
   "brands": [

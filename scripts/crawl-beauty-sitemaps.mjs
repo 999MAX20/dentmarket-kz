@@ -2,6 +2,7 @@
 import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
+import { parse } from "../apps/api/node_modules/csv-parse/lib/sync.js";
 
 const root = process.cwd();
 const output = path.join(root, "data/intake/beauty-kz/public-catalog-sitemap.csv");
@@ -25,6 +26,7 @@ const sources = [
   { key: "inter-beauty-kz", name: "Inter Beauty", sitemap: "https://i-b.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "mollystore-kz", name: "Molly", sitemap: "https://mollystore.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "profcosmetics-kz", name: "Profcosmetics", sitemap: "https://profcosmetics.kz/sitemap.xml", category: "professional-cosmetics" },
+  { key: "leoncosmetics-kz", name: "Leon Cosmetics", sitemap: "https://leoncosmetics.kz/sitemap.xml", category: "professional-cosmetics" },
 ];
 
 const clean = (value) => String(value ?? "").replace(/<[^>]+>/gu, " ").replace(/&amp;/gu, "&").replace(/&quot;/gu, '"').replace(/&#x27;/gu, "'").replace(/\s+/gu, " ").trim();
@@ -103,6 +105,7 @@ for (const source of sources) {
       if (source.key === "ucg-web-kz") return /\/catalog\//iu.test(pathname);
       if (source.key === "mollystore-kz") return /\/p\d+-/iu.test(pathname);
       if (source.key === "profcosmetics-kz") return /route=product\/product/iu.test(url);
+      if (source.key === "leoncosmetics-kz") return /\/urun\//iu.test(pathname);
       return /\/(?:catalog|product|shop|goods|товар)\//iu.test(pathname) || /\/(?:product|item)-/iu.test(pathname);
     };
     urls = allUrls.filter(candidate).slice(0, maxUrlsPerSource);
@@ -122,6 +125,7 @@ for (const source of sources) {
       : source.key === "ucg-web-kz" ? /\/catalog\//iu.test(pathname)
       : source.key === "mollystore-kz" ? /\/p\d+-/iu.test(pathname)
       : source.key === "profcosmetics-kz" ? /route=product\/product/iu.test(url)
+      : source.key === "leoncosmetics-kz" ? /\/urun\//iu.test(pathname)
       : /\/catalog\//iu.test(pathname);
     const description = clean(product?.description || meta(page.text, "description") || meta(page.text, "og:description"));
     const fallbackImage = clean(image || meta(page.text, "og:image"));
@@ -156,9 +160,17 @@ for (const source of sources) {
 }
 
 const unique = [...new Map(rows.map((row) => [`${row.supplierKey}:${row.sourceUrl}:${row.name}`, row])).values()];
+let preservedExistingRows = 0;
+try {
+  const previous = parse(await fs.readFile(output), { columns: true, skip_empty_lines: true, bom: true });
+  const merged = new Map(previous.map((row) => [`${row.supplierKey}:${row.sourceUrl}:${row.name}`, row]));
+  for (const row of unique) merged.set(`${row.supplierKey}:${row.sourceUrl}:${row.name}`, row);
+  preservedExistingRows = Math.max(0, merged.size - unique.length);
+  unique.splice(0, unique.length, ...merged.values());
+} catch { /* first run has no previous discovery file */ }
 const headers = Object.keys(unique[0] ?? { externalId: "", name: "", supplierSku: "", gtin: "", brand: "", manufacturer: "", unit: "", description: "", category: "", variantLabel: "", imageUrl: "", sourceUrl: "", priceMinor: "", currency: "", quantityOnHand: "", warehouse: "", leadTimeDays: "", dataPolicy: "", supplierKey: "", supplierName: "" });
 await fs.mkdir(path.dirname(output), { recursive: true });
 await fs.mkdir(path.dirname(manifestOutput), { recursive: true });
 await fs.writeFile(output, `${headers.join(",")}\n${unique.map((row) => headers.map((header) => csv(row[header])).join(",")).join("\n")}\n`);
-await fs.writeFile(manifestOutput, `${JSON.stringify({ generatedAt: new Date().toISOString(), sourcePolicy: "Public product metadata only; price, currency, stock, warehouse and lead time intentionally blank.", totals: { products: unique.length }, sources: sourceResults, products: unique.map(({ externalId, name, sourceUrl, imageUrl, supplierKey }) => ({ externalId, name, sourceUrl, imageUrl, supplierKey })) }, null, 2)}\n`);
-console.log(JSON.stringify({ products: unique.length, output }, null, 2));
+await fs.writeFile(manifestOutput, `${JSON.stringify({ generatedAt: new Date().toISOString(), sourcePolicy: "Public product metadata only; price, currency, stock, warehouse and lead time intentionally blank.", totals: { products: unique.length, preservedExistingRows }, sources: sourceResults, products: unique.map(({ externalId, name, sourceUrl, imageUrl, supplierKey }) => ({ externalId, name, sourceUrl, imageUrl, supplierKey })) }, null, 2)}\n`);
+console.log(JSON.stringify({ products: unique.length, preservedExistingRows, output }, null, 2));
