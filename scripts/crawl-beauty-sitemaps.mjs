@@ -28,6 +28,7 @@ const sources = [
   { key: "profcosmetics-kz", name: "Profcosmetics", sitemap: "https://profcosmetics.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "leoncosmetics-kz", name: "Leon Cosmetics", sitemap: "https://leoncosmetics.kz/sitemap.xml", category: "professional-cosmetics" },
 ];
+const onlySources = new Set(String(process.env.BEAUTY_SITEMAP_ONLY || "").split(",").map((value) => value.trim()).filter(Boolean));
 
 const clean = (value) => String(value ?? "").replace(/<[^>]+>/gu, " ").replace(/&amp;/gu, "&").replace(/&quot;/gu, '"').replace(/&#x27;/gu, "'").replace(/\s+/gu, " ").trim();
 const csv = (value) => `"${String(value ?? "").replaceAll('"', '""')}"`;
@@ -90,7 +91,7 @@ async function worker(urls, fn, workerLimit = concurrency) {
 
 const rows = [];
 const sourceResults = [];
-for (const source of sources) {
+for (const source of sources.filter((item) => !onlySources.size || onlySources.has(item.key))) {
   if (source.key === "nickol-kz" && process.env.SKIP_NICKOL === "1") {
     sourceResults.push({ ...source, sitemapUrls: 0, fetched: 0, products: 0, errors: 0, skipped: "SKIP_NICKOL=1; source previously returned 503 for product pages" });
     continue;

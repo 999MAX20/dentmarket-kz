@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-31T10:18:58.303Z",
+  "generatedAt": "2026-07-31T10:34:35.324Z",
   "inputs": [
     "data/intake/beauty-kz/ucg-kz.csv",
     "data/intake/beauty-kz/public-catalog-discovery.csv",
     "data/intake/beauty-kz/public-catalog-discovery-expanded.csv",
     "data/intake/beauty-kz/public-catalog-sitemap.csv"
   ],
-  "sourceRows": 3936,
-  "canonicalCards": 3784,
-  "duplicatesCollapsed": 152,
+  "sourceRows": 5884,
+  "canonicalCards": 5628,
+  "duplicatesCollapsed": 256,
   "commercialRows": 0,
   "cardsWithoutImage": 67,
   "cardsWithoutDescription": 1
