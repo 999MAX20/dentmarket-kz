@@ -14,5 +14,7 @@
 | aif-cosmetics-kz | 0 | 0 | 0 | 0 | WAITING_FOR_CATALOG_FILE |
 | nickol-kz | 0 | 0 | 0 | 0 | WAITING_FOR_CATALOG_FILE |
 | fox-beauty-house-kz | 0 | 0 | 0 | 0 | WAITING_FOR_CATALOG_FILE |
+| procosmetics-kz | 0 | 0 | 0 | 0 | WAITING_FOR_CATALOG_FILE |
+| cosmex-kz | 0 | 38 | 38 | 0 | READY_FOR_CANONICAL_REVIEW |
 
 Цена и остаток не являются обязательными для создания canonical-карточки.

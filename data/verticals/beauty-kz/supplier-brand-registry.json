@@ -148,6 +148,16 @@
       "catalogSourceType": "PUBLIC_WEB_CATALOG",
       "categories": ["professional-cosmetics", "face-care", "body-care", "hair-care"],
       "notes": "Public Kazakhstan professional cosmetics catalog. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
+    },
+    {
+      "key": "cosmex-kz",
+      "name": "COSMEX",
+      "website": "https://cosmex.kz/",
+      "sourceUrl": "https://cosmex.kz/opt",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_WEB_CATALOG",
+      "categories": ["professional-cosmetics", "face-care", "body-care", "hair-care"],
+      "notes": "Public Kazakhstan professional cosmetics/wholesale catalog. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
     }
   ],
   "brands": [

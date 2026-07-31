@@ -1,0 +1,313 @@
+{
+  "generatedAt": "2026-07-31T07:53:33.457Z",
+  "sourcePolicy": "Public product metadata only; price, currency, stock, warehouse and lead time intentionally blank.",
+  "totals": {
+    "sources": 5,
+    "products": 38
+  },
+  "sources": [
+    {
+      "key": "proff-kz",
+      "name": "PROФФ-KZ",
+      "pagesVisited": 1,
+      "discoveredLinks": 0,
+      "products": 0
+    },
+    {
+      "key": "vlaekan-kz",
+      "name": "VLAEKAN",
+      "pagesVisited": 1,
+      "discoveredLinks": 0,
+      "products": 0
+    },
+    {
+      "key": "nickol-kz",
+      "name": "NICKOL",
+      "pagesVisited": 40,
+      "discoveredLinks": 24571,
+      "products": 0
+    },
+    {
+      "key": "cosmex-kz",
+      "name": "COSMEX",
+      "pagesVisited": 40,
+      "discoveredLinks": 1541,
+      "products": 38
+    },
+    {
+      "key": "konturbeauty-kz",
+      "name": "KONTUR Beauty",
+      "pagesVisited": 6,
+      "discoveredLinks": 11,
+      "products": 0
+    }
+  ],
+  "products": [
+    {
+      "externalId": "cosmex-kz-7adccc80f6258a3e",
+      "name": "Cosmex Heat Defense REPAIR Спрей-термозащита для поврежденных волос 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-heat-defense-repair-sprey-termozashchita-dlya-povrezhdennyh-volos-250-ml-42991cb5-635b-11f1-0a80-08090091d093",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-1441fd906a7fbfaf",
+      "name": "Cosmex Heat Defense COLOR Спрей-термозащита для окрашенных волос 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-heat-defense-color-sprey-termozashchita-dlya-okrashennyh-volos-250-ml-4352306e-635b-11f1-0a80-007b008f6054",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-470554903e6fe43d",
+      "name": "Cosmex Heat Defense SMOOTH Спрей-термозащита анти-фриз 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-heat-defense-smooth-sprey-termozashchita-anti-friz-250-ml-440a4fc8-635b-11f1-0a80-01a50090c863",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-7d8a49997119cff4",
+      "name": "Cosmex OverDose Anti-Hair-Loss Шампунь против выпадения 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-anti-hair-loss-shampun-protiv-vypadeniya-250-ml-5824dc1c-62b2-11f1-0a80-0ba6006f009d",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-63b4809cb071be28",
+      "name": "Cosmex Hair Serum SHINE & SMOOTH Сыворотка для волос блеск и гладкость 50 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-hair-serum-shine-smooth-syvorotka-dlya-volos-blesk-i-gladkost-50-ml-60b94c5e-6442-11f1-0a80-15f300048c67",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-1f6ab4b242a73232",
+      "name": "Cosmex Hair Serum REPAIR ENDS Сыворотка для волос для секущихся кончиков 50 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-hair-serum-repair-ends-syvorotka-dlya-volos-dlya-sekushchihsya-konchikov-50-ml-615621d1-6442-11f1-0a80-0bc500040b03",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-3dbbf12677bee829",
+      "name": "Cosmex Hair Serum LIGHT Сыворотка для волос для тонких волос 50 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-hair-serum-light-syvorotka-dlya-volos-dlya-tonkih-volos-50-ml-61e8a51b-6442-11f1-0a80-1a4f00048da5",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-925639d1f7323089",
+      "name": "Cosmex OverDose Anti-Hair-Loss Бальзам против выпадения 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-anti-hair-loss-bal-zam-protiv-vypadeniya-250-ml-d1852394-62b3-11f1-0a80-007b006d5f31",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-091d5dfa49c0b0d0",
+      "name": "Cosmex OverDose OverRoot Маска для волос против выпадения, для плотности и силы RootCharge™ 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-overroot-maska-dlya-volos-protiv-vypadeniya-dlya-plotnosti-i-sily-rootcharge-250-ml-d1d97fd4-62b3-11f1-0a80-0fc7006ecf43",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-44eb30d493b7a459",
+      "name": "Cosmex OverDose Anti-Dandruff Шампунь против перхоти 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-anti-dandruff-shampun-protiv-perhoti-250-ml-d23d4c2c-62b3-11f1-0a80-1a46006e55d4",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-206c74360c853ee3",
+      "name": "Cosmex OverDose Anti-Dandruff Бальзам против перхоти 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-anti-dandruff-bal-zam-protiv-perhoti-250-ml-d2945bc2-62b3-11f1-0a80-0cc5006c6132",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-be769099ea28fa64",
+      "name": "Cosmex OverDose OverScalp Маска для волос против перхоти, баланс кожи головы SebaBalance™ 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-overscalp-maska-dlya-volos-protiv-perhoti-balans-kozhi-golovy-sebabalance-250-ml-d2eee33e-62b3-11f1-0a80-1a46006e55e5",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-9e14b4a5b1fec82d",
+      "name": "Cosmex OverDose Repair Восстанавливающий шампунь 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-repair-vosstanavlivayushchiy-shampun-250-ml-d341a777-62b3-11f1-0a80-17b9006e2b69",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-7459735b6d7f2ec5",
+      "name": "Cosmex OverDose Repair Восстанавливающий бальзам 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-repair-vosstanavlivayushchiy-bal-zam-250-ml-d394dbae-62b3-11f1-0a80-01a5006e353d",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-39412db5f688d2c2",
+      "name": "Cosmex OverDose OverBond Маска для волос восстановление связей повреждённых волос Re:Link™ 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-overbond-maska-dlya-volos-vosstanovlenie-svyazey-povrezhdyonnyh-volos-re-link-250-ml-d3f9fed0-62b3-11f1-0a80-0d63006f98bc",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-e2b4313e2e30c713",
+      "name": "Cosmex OverDose OverTone Шампунь защита цвета окрашенных волос ChromaLock™ 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-overtone-shampun-zashchita-tsveta-okrashennyh-volos-chromalock-250-ml-d446ead9-62b3-11f1-0a80-0d63006f98d1",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-e55b6cffc958f45c",
+      "name": "Cosmex OverDose OverTone Бальзам защита цвета окрашенных волос ChromaLock™ 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-overtone-bal-zam-zashchita-tsveta-okrashennyh-volos-chromalock-250-ml-d4949db4-62b3-11f1-0a80-17b9006e2b93",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-96d5b9a15d72d6e1",
+      "name": "Cosmex OverDose OverTone Маска для волос защита цвета окрашенных волос ChromaLock™ 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-overtone-maska-dlya-volos-zashchita-tsveta-okrashennyh-volos-chromalock-250-ml-d4ed44dc-62b3-11f1-0a80-1ba1006d9607",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-7ca5238e92281ddc",
+      "name": "Cosmex OverDose OverDerm Шампунь здоровье и микробиом кожи головы ScalpBiome™ 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-overderm-shampun-zdorov-e-i-mikrobiom-kozhi-golovy-scalpbiome-250-ml-d543c829-62b3-11f1-0a80-0d63006f98e6",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-39aaa03f097422c2",
+      "name": "Cosmex OverDose OverDerm Бальзам здоровье и микробиом кожи головы ScalpBiome™ 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-overderm-bal-zam-zdorov-e-i-mikrobiom-kozhi-golovy-scalpbiome-250-ml-d59a65e7-62b3-11f1-0a80-1a46006e55f8",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-947e24c140e65c6f",
+      "name": "Cosmex OverDose OverDerm Маска для волос здоровье и микробиом кожи головы ScalpBiome™ 250 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-overdose-overderm-maska-dlya-volos-zdorov-e-i-mikrobiom-kozhi-golovy-scalpbiome-250-ml-d5f00c42-62b3-11f1-0a80-01a5006e3589",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-35b9178c4109890b",
+      "name": "Cosmex Hydration шампунь бессульфатный увлажняющий для сухих и ломких волос 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-hydration-shampun-bessul-fatnyy-uvlazhnyayushchiy-dlya-suhih-i-lomkih-volos-1000-ml-286eb211-28f3-11f1-0a80-03d600135170",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2Fabe931ae-730e-4f19-b950-ac1e0ed6fc6f&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-d4289124232ddbb6",
+      "name": "Cosmex Balance Shampoo для жирной кожи головы и быстро загрязняющихся волос без сульфатов 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-balance-shampoo-dlya-zhirnoy-kozhi-golovy-i-bystro-zagryaznyayushchihsya-volos-bez-sul-fatov--5553660e-1625-11f1-0a80-1ca600360857",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2Fff529ae4-f8b5-4f16-b53b-e45896222085&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-4f0878200aa69d26",
+      "name": "Cosmex Curly Expert Shampoo Бессульфатный шампунь для кудрявых и волнистых волос, 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-curly-expert-shampoo-bessul-fatnyy-shampun-dlya-kudryavyh-i-volnistyh-volos-1000-ml-61c7f37f-4c34-11f0-0a80-0259000cb645",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2F85c307a0-bf5b-445a-b68f-54c5d7bddaee&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-7427646e5624883e",
+      "name": "Cosmex Anti-Yellow Effect Shampoo Оттеночный шампунь для волос для нейтрализации желтизны, 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-anti-yellow-effect-shampoo-ottenochnyy-shampun-dlya-volos-dlya-neytralizatsii-zheltizny-1000--709d7512-3614-11f0-0a80-01c20006b84a",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2F7ab501d0-f0f5-440e-8c7b-21c3ae9191cc&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-2a619bd0f73ceba7",
+      "name": "Cosmex Color Expert Бессульфатный шампунь для окрашенных волос, 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-color-expert-bessul-fatnyy-shampun-dlya-okrashennyh-volos-1000-ml-79cc78dc-4c00-11f0-0a80-19100002d6bd",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2F0c8bbff3-17e0-417c-976f-807790099633&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-34580c4f3ee73a86",
+      "name": "Cosmex Collagen Shampoo Бессульфатный шампунь с коллагеном 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-collagen-shampoo-bessul-fatnyy-shampun-s-kollagenom-1000-ml-a508503e-fe29-11ef-0a80-05f80003000c",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2F6573651d-c079-4374-b66b-a9142653eb81&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-2a384cf50669426c",
+      "name": "Cosmex Detox Shampoo Бессульфатный хелатный шампунь для глубокого очищения волос 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-detox-shampoo-bessul-fatnyy-helatnyy-shampun-dlya-glubokogo-ochishcheniya-volos-1000-ml-a99be174-0b60-11f1-0a80-011c0000b5c4",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2F0606c42f-2764-425f-9088-a4aa1b4e95a7&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-8d5ae78dcf63d4ef",
+      "name": "Cosmex Шампунь против перхоти безсульфатный ANTI-DANDRUFF SHAMPOO 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-shampun-protiv-perhoti-bezsul-fatnyy-anti-dandruff-shampoo-1000-ml-aee59069-a7b6-11ef-0a80-042500196ce4",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2F019250e4-b9a6-4de4-b92b-c91db13c0776&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-62b0590dceb75e6c",
+      "name": "Cosmex Volume шампунь бессульфатный для объема волос 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-volume-shampun-bessul-fatnyy-dlya-ob-ema-volos-1000-ml-b072aa86-2904-11f1-0a80-0b5a001798c5",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2Fa8f12b39-1cdd-4902-976a-64bbcb7debcd&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-c25362a9255362fe",
+      "name": "Cosmex Daily Shampoo Шампунь для частого применения - уход, питание, увлажнение, объем 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-daily-shampoo-shampun-dlya-chastogo-primeneniya-uhod-pitanie-uvlazhnenie-ob-em-1000-ml-b24c6cd9-7fd5-11ef-0a80-014d000986e1",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2F9d08aeae-473f-401b-b71e-acd6a3a8730a&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-19bb48800c6ec31c",
+      "name": "Cosmex Shampoo Trichology Шампунь против выпадения волос, стимулирует рост волос 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-shampoo-trichology-shampun-protiv-vypadeniya-volos-stimuliruet-rost-volos-1000-ml-b269b656-7fd5-11ef-0a80-014d000986f3",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2F0551641b-6dce-4fd3-8173-92833c57579f&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-fdb32c15c8ead056",
+      "name": "Cosmex Repair Shampoo Шампунь-реконструктор: регенерация, витализация, восстановление волос 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-repair-shampoo-shampun-rekonstruktor-regeneratsiya-vitalizatsiya-vosstanovlenie-volos-1000-ml-b2816dbd-7fd5-11ef-0a80-014d00098705",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2Fc718d257-2512-43d8-a8af-b4690657660f&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-02666e6bff8504a5",
+      "name": "Cosmex Protein шампунь бессульфатный для 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-protein-shampun-bessul-fatnyy-dlya-1000-ml-c2d10ddf-2d92-11f1-0a80-0555000e4af0",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2F97a74a92-faaa-40bb-a23a-40291362ea12&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-d42f5d3b7d14a9b4",
+      "name": "Cosmex Peptide Growth шампунь бессульфатный активация роста и укрепление волос 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-peptide-growth-shampun-bessul-fatnyy-aktivatsiya-rosta-i-ukreplenie-volos-1000-ml-d004a294-2902-11f1-0a80-10790016c3fb",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2F5cb8ee84-0274-43a1-a642-af34d54a6df4&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-a75b2f2adf21c0b9",
+      "name": "Cosmex Keratin Shampoo Шампунь бессульфатный с кератином 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-keratin-shampoo-shampun-bessul-fatnyy-s-keratinom-1000-ml-e1666843-fe26-11ef-0a80-1ab700027e7d",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2Fc90a23ed-70a2-479d-9368-a92855639ba7&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-de6f3a92c5fbd6af",
+      "name": "Cosmex 2 in 1 Parfumed Shampoo Savage + Shower Gel 2 в 1 Парфюмированный Шампунь + Гель для душа Саваж 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-2-in-1-parfumed-shampoo-savage-shower-gel-2-v-1-parfyumirovannyy-shampun-gel-dlya-dusha-savaz-ed18438d-4d01-11f0-0a80-0ca4000dde8b",
+      "imageUrl": "https://cosmex.kz/api/image/proxy?url=https%3A%2F%2Fapi.moysklad.ru%2Fapi%2Fremap%2F1.2%2Fdownload%2Fb890a994-c12c-408f-96fe-c7766734779b&s=600",
+      "supplierKey": "cosmex-kz"
+    },
+    {
+      "externalId": "cosmex-kz-f93a0276244ace58",
+      "name": "Cosmex Black Edition шампунь бессульфатный для темных волос 1000 мл",
+      "sourceUrl": "https://cosmex.kz/product/cosmex-black-edition-shampun-bessul-fatnyy-dlya-temnyh-volos-1000-ml-3a8e552b-2900-11f1-0a80-023b0017012a",
+      "imageUrl": "",
+      "supplierKey": "cosmex-kz"
+    }
+  ]
+}

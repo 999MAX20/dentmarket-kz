@@ -97,6 +97,11 @@
       "supplierKey": "procosmetics-kz",
       "template": "data/templates/beauty-kz/procosmetics-kz.csv",
       "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
+    },
+    {
+      "supplierKey": "cosmex-kz",
+      "template": "data/intake/beauty-kz/public-catalog-discovery-expanded.csv",
+      "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
     }
   ]
 }

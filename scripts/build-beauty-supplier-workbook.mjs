@@ -11,10 +11,16 @@ const headers = ["externalId", "name", "supplierSku", "gtin", "brand", "manufact
 const readCsv = async (relative) => parse(await fs.readFile(path.join(root, relative)), { columns: true, skip_empty_lines: true, bom: true, trim: true, relax_column_count: true });
 const ucg = await readCsv("data/intake/beauty-kz/ucg-kz.csv");
 const publicDiscovery = await readCsv("data/intake/beauty-kz/public-catalog-discovery.csv");
+const expandedDiscovery = await readCsv("data/intake/beauty-kz/public-catalog-discovery-expanded.csv").catch(() => []);
 const sourceRows = {
   "ucg-kz": ucg.map((row) => ({ ...row, matchStatus: "CANONICAL_READY", matchConfidence: "1.00", reviewReason: "Canonical card prepared; commercial columns intentionally blank." })),
   "procosmetics-kz": publicDiscovery.map((row) => ({ ...row, matchStatus: "DISCOVERY_REVIEW", matchConfidence: "", reviewReason: "Public card extracted; brand/SKU/authorization must be verified before publication." })),
 };
+for (const row of expandedDiscovery) {
+  if (!row.supplierKey) continue;
+  sourceRows[row.supplierKey] ??= [];
+  sourceRows[row.supplierKey].push({ ...row, matchStatus: "DISCOVERY_REVIEW", matchConfidence: "", reviewReason: "Public card extracted; brand/SKU/authorization must be verified before publication." });
+}
 const normalizeSheet = (name) => name.replace(/[^A-Za-z0-9_-]/gu, "_").slice(0, 28) || "Supplier";
 const workbook = Workbook.create();
 const readme = workbook.worksheets.add("README");
@@ -25,7 +31,7 @@ readme.getRange("A3:B11").values = [
   ["Назначение", "Единый шаблон для выгрузки из 1С/учётной системы. Canonical-карточка принадлежит DentMarket; поставщик присылает только коммерческие данные."],
   ["Поставщики в реестре", registry.suppliers.length],
   ["Карточки UCG", ucg.length],
-  ["Публичные карточки pro.cosmetics", publicDiscovery.length],
+  ["Публичные discovery-карточки", publicDiscovery.length + expandedDiscovery.length],
   ["Цена/остаток в шаблоне", "Пусто до фактической выгрузки поставщика"],
   ["Повторная загрузка", "Обновляет offer price/inventory по sourceId + externalId, не создавая дубликаты"],
   ["Новые совпадения", "DISCOVERY_REVIEW / MATCH_PENDING → очередь модерации; автоматическая публикация запрещена без gates"],
@@ -82,5 +88,5 @@ const workbookPath = path.join(outputDir, "beauty-supplier-onboarding-templates.
 await xlsx.save(workbookPath);
 const inspect = await workbook.inspect({ kind: "table", range: "ucg-kz!A1:V6", include: "values,formulas", tableMaxRows: 6, tableMaxCols: 22 });
 await fs.writeFile(path.join(outputDir, "inspect.ndjson"), inspect.ndjson);
-await fs.writeFile(path.join(outputDir, "manifest.json"), `${JSON.stringify({ generatedAt: new Date().toISOString(), workbookPath, supplierSheets: registry.suppliers.length, rows: { ucg: ucg.length, procosmetics: publicDiscovery.length }, rendered }, null, 2)}\n`);
-console.log(JSON.stringify({ workbookPath, supplierSheets: registry.suppliers.length, ucgRows: ucg.length, procosmeticsRows: publicDiscovery.length }, null, 2));
+await fs.writeFile(path.join(outputDir, "manifest.json"), `${JSON.stringify({ generatedAt: new Date().toISOString(), workbookPath, supplierSheets: registry.suppliers.length, rows: { ucg: ucg.length, publicDiscovery: publicDiscovery.length + expandedDiscovery.length }, rendered }, null, 2)}\n`);
+console.log(JSON.stringify({ workbookPath, supplierSheets: registry.suppliers.length, ucgRows: ucg.length, publicDiscoveryRows: publicDiscovery.length + expandedDiscovery.length }, null, 2));

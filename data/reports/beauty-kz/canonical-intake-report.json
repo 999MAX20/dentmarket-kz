@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T11:48:00.821Z",
+  "generatedAt": "2026-07-31T07:58:01.557Z",
   "policy": {
     "schemaVersion": 1,
     "vertical": "beauty-kz",
@@ -97,6 +97,16 @@
         "supplierKey": "fox-beauty-house-kz",
         "template": "data/templates/beauty-kz/fox-beauty-house-kz.csv",
         "status": "READY_FOR_CATALOG_FILE"
+      },
+      {
+        "supplierKey": "procosmetics-kz",
+        "template": "data/templates/beauty-kz/procosmetics-kz.csv",
+        "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
+      },
+      {
+        "supplierKey": "cosmex-kz",
+        "template": "data/intake/beauty-kz/public-catalog-discovery-expanded.csv",
+        "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
       }
     ]
   },
@@ -219,6 +229,26 @@
       "canonicalReady": 0,
       "commercialRows": 0,
       "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "procosmetics-kz",
+      "template": "data/templates/beauty-kz/procosmetics-kz.csv",
+      "brands": 0,
+      "rows": 0,
+      "canonicalReady": 0,
+      "commercialRows": 0,
+      "status": "WAITING_FOR_CATALOG_FILE",
+      "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
+    },
+    {
+      "supplierKey": "cosmex-kz",
+      "template": "data/intake/beauty-kz/public-catalog-discovery-expanded.csv",
+      "brands": 0,
+      "rows": 38,
+      "canonicalReady": 38,
+      "commercialRows": 0,
+      "status": "READY_FOR_CANONICAL_REVIEW",
       "commercialDataPolicy": "NO_PRICE_OR_STOCK_EXPECTED"
     }
   ]
