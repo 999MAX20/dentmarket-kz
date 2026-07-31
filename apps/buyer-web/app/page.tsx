@@ -2469,7 +2469,7 @@ export default function BuyerWorkspace({
   const renderCatalog = (isPublic = false) => (
     <div className="mp-stack">
       {isPublic ? (
-        false ? (
+        true ? (
           <>
             {renderCategoryRail()}
             {featuredDeals.length ? (
