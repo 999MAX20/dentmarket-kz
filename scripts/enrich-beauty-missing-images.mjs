@@ -15,7 +15,8 @@ for (const row of candidates) {
   try {
     const html = await (await fetch(row.sourceUrl, { headers: { "user-agent": "DentMarket public catalog research/1.0" } })).text();
     const imageTag = html.match(/<img[^>]+id=["']image["'][^>]*>/iu)?.[0] ?? "";
-    const image = imageTag.match(/\bsrc=["']([^"']+)/iu)?.[1];
+    const image = imageTag.match(/\bsrc\s*=\s*["']?([^"'\s>]+)/iu)?.[1]
+      ?? html.match(/<img[^>]+src\s*=\s*["']?([^"'\s>]*(?:\/thumb\/[^"'\s>]*276r276|\/wp-content\/uploads\/[^"'\s>]+))["']?/iu)?.[1];
     if (!image) continue;
     row.imageUrl = new URL(clean(image), row.sourceUrl).href;
     enriched += 1;

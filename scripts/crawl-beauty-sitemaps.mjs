@@ -107,6 +107,8 @@ for (const source of sources.filter((item) => !onlySources.size || onlySources.h
       if (source.key === "mollystore-kz") return /\/p\d+-/iu.test(pathname);
       if (source.key === "profcosmetics-kz") return /route=product\/product/iu.test(url);
       if (source.key === "leoncosmetics-kz") return /\/urun\//iu.test(pathname);
+      if (source.key === "fox-beauty-house-kz") return /\/product\//iu.test(pathname);
+      if (source.key === "janssen-kz") return /\/shop\/product\//iu.test(pathname);
       return /\/(?:catalog|product|shop|goods|товар)\//iu.test(pathname) || /\/(?:product|item)-/iu.test(pathname);
     };
     const sourceLimit = source.key === "nickol-kz" ? Number(process.env.NICKOL_MAX || maxUrlsPerSource) : maxUrlsPerSource;
@@ -128,9 +130,11 @@ for (const source of sources.filter((item) => !onlySources.size || onlySources.h
       : source.key === "mollystore-kz" ? /\/p\d+-/iu.test(pathname)
       : source.key === "profcosmetics-kz" ? /route=product\/product/iu.test(url)
       : source.key === "leoncosmetics-kz" ? /\/urun\//iu.test(pathname)
+      : source.key === "fox-beauty-house-kz" ? /\/product\//iu.test(pathname)
+      : source.key === "janssen-kz" ? /\/shop\/product\//iu.test(pathname)
       : /\/catalog\//iu.test(pathname);
     const description = clean(product?.description || meta(page.text, "description") || meta(page.text, "og:description"));
-    const fallbackImage = clean(image || meta(page.text, "og:image"));
+    const fallbackImage = clean(image || meta(page.text, "og:image") || page.text.match(/<img[^>]+src\s*=\s*["']?([^"'\s>]*(?:\/thumb\/[^"'\s>]*276r276|\/wp-content\/uploads\/[^"'\s>]+))["']?/iu)?.[1]);
     if (!product && (!fallbackProductPath || (!fallbackImage && description.length < 80))) return null;
     return {
       externalId: `${source.key}-${key(url + name)}`,
