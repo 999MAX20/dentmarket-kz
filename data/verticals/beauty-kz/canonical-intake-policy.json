@@ -34,6 +34,13 @@
   ],
   "sources": [
     {
+      "supplierKey": "kazkotrade-kz",
+      "sourceUrl": "https://kazkotrade.kz/product-sitemap.xml",
+      "allowedFields": ["name", "brand", "description", "category", "imageUrl", "sourceUrl"],
+      "blockedFields": ["priceMinor", "currency", "quantityOnHand", "warehouse", "leadTimeDays"],
+      "status": "prepared"
+    },
+    {
       "supplierKey": "topskin-kz",
       "sourceUrl": "https://topskin.kz/sitemap.xml",
       "allowedFields": ["name", "brand", "description", "category", "imageUrl", "sourceUrl"],

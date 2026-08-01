@@ -32,6 +32,7 @@ const sources = [
   { key: "leoncosmetics-kz", name: "Leon Cosmetics", sitemap: "https://leoncosmetics.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "proface-kz", name: "ProFace", sitemap: "https://shop.proface.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "topskin-kz", name: "Topskin", sitemap: "https://topskin.kz/sitemap.xml", category: "professional-cosmetics" },
+  { key: "kazkotrade-kz", name: "Kazko Trade", sitemap: "https://kazkotrade.kz/product-sitemap.xml", category: "professional-cosmetics" },
 ];
 const onlySources = new Set(String(process.env.BEAUTY_SITEMAP_ONLY || "").split(",").map((value) => value.trim()).filter(Boolean));
 
@@ -121,6 +122,7 @@ for (const source of sources.filter((item) => !onlySources.size || onlySources.h
       if (source.key === "beauty2be-kz") return /\/item\//iu.test(pathname);
       if (source.key === "proface-kz") return /\/product\//iu.test(pathname);
       if (source.key === "topskin-kz") return /\/catalog\/details\//iu.test(pathname);
+      if (source.key === "kazkotrade-kz") return /\/product\//iu.test(pathname);
       return /\/(?:catalog|product|shop|goods|товар)\//iu.test(pathname) || /\/(?:product|item)-/iu.test(pathname);
     };
     const sourceLimit = source.key === "nickol-kz" ? Number(process.env.NICKOL_MAX || maxUrlsPerSource)
@@ -152,6 +154,7 @@ for (const source of sources.filter((item) => !onlySources.size || onlySources.h
       : source.key === "beauty2be-kz" ? /\/item\//iu.test(pathname)
       : source.key === "proface-kz" ? /\/product\//iu.test(pathname)
       : source.key === "topskin-kz" ? /\/catalog\/details\//iu.test(pathname)
+      : source.key === "kazkotrade-kz" ? /\/product\//iu.test(pathname)
       : /\/catalog\//iu.test(pathname);
     const description = clean(product?.description || meta(page.text, "description") || meta(page.text, "og:description"));
     const fallbackImage = clean(image || meta(page.text, "og:image") || page.text.match(/<img[^>]+src\s*=\s*["']?([^"'\s>]*(?:\/thumb\/[^"'\s>]*276r276|\/wp-content\/uploads\/[^"'\s>]+))["']?/iu)?.[1]);

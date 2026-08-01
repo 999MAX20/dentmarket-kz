@@ -10,6 +10,16 @@
   },
   "suppliers": [
     {
+      "key": "kazkotrade-kz",
+      "name": "Kazko Trade",
+      "website": "https://kazkotrade.kz/",
+      "sourceUrl": "https://kazkotrade.kz/product-sitemap.xml",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_CATALOG_IMPORTED",
+      "categories": ["face-care", "hair-care", "professional-cosmetics"],
+      "notes": "Public Korean cosmetics product sitemap prepared for canonical discovery; commercial fields remain supplier-owned."
+    },
+    {
       "key": "topskin-kz",
       "name": "Topskin",
       "website": "https://topskin.kz/",
@@ -206,7 +216,7 @@
       "sourceUrl": "https://i-b.kz/",
       "verificationStatus": "DISCOVERED",
       "catalogSourceType": "PUBLIC_WEB_CATALOG",
-      "categories": ["professional-cosmetics", "injectables", "face-care"],
+      "categories": ["professional-cosmetics", "face-care"],
       "notes": "Public Kazakhstan aesthetics/cosmetology catalogue. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
     },
     {

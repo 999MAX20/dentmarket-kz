@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-01T06:51:01.815Z",
+  "generatedAt": "2026-08-01T08:07:16.498Z",
   "sourcePolicy": "Public product metadata only; price, currency, stock, warehouse and lead time intentionally blank.",
   "totals": {
-    "products": 8251,
+    "products": 8470,
     "preservedExistingRows": 8251
   },
   "sources": [
     {
-      "key": "topskin-kz",
-      "name": "Topskin",
-      "sitemapUrls": 0,
-      "fetched": 0,
-      "products": 0,
+      "key": "kazkotrade-kz",
+      "name": "Kazko Trade",
+      "sitemapUrls": 227,
+      "fetched": 227,
+      "products": 219,
       "errors": 0,
       "errorSamples": []
     }
@@ -57773,6 +57773,1539 @@
       "sourceUrl": "https://topskin.kz/catalog/details/15522-arocell-vosstanavlivayushchaya-syvorotka-s-ekzosomami",
       "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/69c95b512054c-weee.webp",
       "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-4a4295e3b1e9c20c",
+      "name": "LADOR PERFUMED HAIR TREATMENT OSMANTHUS Увлажняющая парфюмированная маска для волос с фруктово-цветочным ароматом",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-treatment-osmanthus-uvlazhnjajushhaja-parfjumirovannaja/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/03/IMG-20250314-WA0028.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-6f75fec1ddf6ae86",
+      "name": "LADOR NEWPLEX BALANCING SHAMPOO Мягкий бессиликоновый шампунь для волос с успокаивающим эффектом",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-newplex-balancing-shampoo-mjagkij-bessilikonovyj-shampun-dlja-volos-s-uspokaivajushhim-jeffektom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2024/06/photo_5411250131573004228_y.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-29f3e6885fc051e8",
+      "name": "LADOR WONDER FULL HAIR SERUM Водная эссенция-гель для волос с нелипкой увлажняющей основой",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-wonder-full-hair-serum-syvorotka-dlja-volos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/02/lador-wonder-full-hair-serum-100ml.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-b06f483fb21bbb93",
+      "name": "LADOR PRO CMC TREATMENT Профессиональная маска с протеинами для сильно поврежденных волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-pro-cmc-treatment-professionalnaja-maska-s-protei/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/03/IMG-20250314-WA0030.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-f693650085a44612",
+      "name": "JMELLA IN FRANCE SPARKLING ROSE BODY WASH Парфюмированный гель для душа «Сверкающая роза»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-sparkling-rose-body-wash-parfjumirovannyj-gel-dlja-dusha-sverkajushhaja-roza/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-sparkling-rose-body-wash-parfjumirovannyj-gel-dlja-dusha-sverkajushhaja-roza.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-07f747ad8d343994",
+      "name": "LADOR ANTI YELLOW TREATMENT Маска для светлых волос для нейтрализации желтого пигмента",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-anti-yellow-treatment-maska-dlja-svetlyh-volos-dlja-nejtralizacii-zheltogo-pigmenta/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/02/whatsapp-image-2023-02-08-at-3.39.50-pm.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-af9a86a6a2a2a78e",
+      "name": "LADOR POLISH OIL WHITE YUJA Масло для волос для создания \"мокрого эффекта\" Белый юдзу",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-polish-oil-white-yuja-maslo-dlja-volos-dlja-sozdanija-mok/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/Изображение-WhatsApp-2025-06-10-в-13.39.13_9b5f95f7.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-b13f896e70935aa7",
+      "name": "LADOR ROOT RE-BOOT VITALIZING SHAMPOO PROPOLIS &amp; CITRON Шампунь для волос с прополисом и цитроном",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-root-re-boot-vitalizing-shampoo-propolis-citron-shampun-dlja-volos-s-propoli/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/LADOR-ROOT-RE-BOOT-VITALIZING-SHAMPOO-PROPOLIS-CITRON-Шампунь-для-волос-с-прополисом-и-цитроном.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-2fd4a1d99e834246",
+      "name": "LADOR PRO CMC SHAMPOO Профессиональный шампунь с протеинами для сильно поврежденных волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-pro-cmc-shampoo-professionalnyj-shampun-s-prot/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/03/IMG-20250314-WA0029.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-1f1690e6505db6b6",
+      "name": "LADOR ROOT RE-BOOT AWAKENING SHAMPOO RED GINSENG &amp; BEER YEAST Шампунь для волос с женьшенем и пивными дрожжами",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-root-re-boot-awakening-shampoo-red-ginseng-beer-yeast-shampun-dlja-volos-s-zhenshe/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/LADOR-ROOT-RE-BOOT-AWAKENING-SHAMPOO-RED-GINSENG-BEER-YEAST-Шампунь-для-волос-с-женьшенем-и-пивными-дрожжами.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-546f9e22bbc11ccd",
+      "name": "LADOR PERFUMED HAIR TREATMENT HINOKI Увлажняющая парфюмированная маска для волос с ароматом Хиноки и цитрусовых трав",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-treatment-hinoki-uvlazhnjajushhaja-parfjumirovannaja-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/LADOR-PERFUMED-HAIR-TREATMENT-HINOKI-Увлажняющая-парфюмированная-маска-для-волос-с-ароматом-Хиноки-и-цитрусовых-трав.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-32316f860456de82",
+      "name": "LADOR ROOT RE-BOOT ACTIVATING SHAMPOO CICA &amp; TEA TREE Шампунь для волос с центеллой и чайным деревом",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-root-re-boot-activating-shampoo-cica-tea-tree-shampun-dlja-volos-s-centell/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/LADOR-ROOT-RE-BOOT-ACTIVATING-SHAMPOO-CICA-TEA-TREE-Шампунь-для-волос-с-центеллой-и-чайным-деревом.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-29aa8eb693d18588",
+      "name": "LADOR POLISH OIL APRICOT Масло для волос для создания «мокрого эффекта» Абрикос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-polish-oil-apricot-maslo-dlja-volos-dlja-sozdanija-mokrogo-jeffekta-abrikos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/06/whatsapp-image-2023-06-27-at-11.21.13-am.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-91322aa663a6a99c",
+      "name": "LADOR POLISH OIL AMBER MOSSY Мужское многофункциональное масло для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-polish-oil-amber-mossy-muzhskoe-mnogofunkczionalnoe-maslo-dlya-volos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/04/whatsapp-image-2026-04-03-at-12.00.35-pm-2.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-8c492798cc9e769c",
+      "name": "LADOR DAMAGE PROTECTOR ACID SHAMPOO Слабокислотный шампунь для поврежденных волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-damage-protector-acid-shampoo-slabokislotnyj-shampun-dlja-povrezhdennyh-volos-v-1-kor-h-40sht/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/d0wadtumjgkb-m2tf2rmrxjtblfuw1nfh-z1e9rhyd7gwbpkmuo6tgwv6y3trmlmp-62gkhbb1_dgtxte3nupw4b3a-fammcqeugv5wsmwavzz0s7pr0zmgoubiggkro_mgyunnrsupv6mdhnw.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-5dff37a763e6ad5d",
+      "name": "LADOR PREMIUM MOROCCO ARGAN HAIR OIL Марокканское аргановое масло для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-premium-argan-hair-oil-marokkanskoe-arganovoe-maslo-dlja-volos-v-1-kor-h-10-sht/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-premium-argan-oil.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-2039f53c17cc3c25",
+      "name": "LADOR REAL INTENSIVE ACID SHAMPOO Интенсивный слабокислотный шампунь для поврежденных волос",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-real-intensive-acid-shampoo-intensivnyj-slabokislotnyj-shampun-dlja-povrezhdennyh-volos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2024/06/photo_5411561194579417123_y.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-34e800b5a050ad1c",
+      "name": "LADOR PERFUMED HAIR SHAMPOO LA PITTA Увлажняющий парфюмированный шампунь для волос с ароматом Апельсина",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-perfumed-hair-shampoo-la-pitta-uvlazhnjajushhij-parfjumirovannyj-shampun-dlja-volos-s-aromatom-apelsina/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/lador-perfumed-hair-shampoo-la-pitta-uvlazhnjajushhij-parfjumirovannyj-shampun-dlja-volos-s-aromatom-apelsina.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-548abe61fa2efd9a",
+      "name": "LADOR KERATIN LPP SHAMPOO 150 ml Протеиновый кератиновый шампунь для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-keratin-lpp-shampoo-150-ml-proteinovyj-keratinovyj-shampun-dlja-volos-v-1-kor-h-40sht/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-keratin-lpp-shampoo1.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-37d44208002fbcf0",
+      "name": "BOUQUET GARNI FRAGRANCED BODY SHOWER BABY POWDER Парфюмированный гель для душа \"Нежная пудра\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-shower-baby-powder-parfjumirovannyj-gel-dlja-dusha-nezhnaja-pudra/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-shower-baby-powder-520-1.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-6bd3ee089e189ed0",
+      "name": "LADOR POLISH OIL APRICOT Масло для волос для создания \"мокрого эффекта\" абрикос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-polish-oil-apricot-maslo-dlja-volos-dlja-sozdanija-mok/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/LADOR-POLISH-OIL-APRICOT.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-cce8fc6a87465d08",
+      "name": "LADOR PRO CMC BUBBLE HAIR ESSENCE Профессиональная пузырьковая эссенция с протеинами для сильно поврежденных волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-pro-cmc-bubble-hair-essence/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/03/IMG-20250314-WA0033.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-c20f2ce89e1ca712",
+      "name": "LADOR PERFUMED HAIR TREATMENT LA PITTA Увлажняющая парфюмированная маска для волос с ароматом апельсина",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-treatment-la-pitta-uvlazhnjajushhaja-parfjumirovannaja/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/03/IMG-20250314-WA0027.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-36a2c115f54297b5",
+      "name": "LADOR PRO CMC BALM Профессиональный бальзам с протеинами для сильно поврежденных волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-pro-cmc-balm-professionalnyj-balzam-s-prote/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/03/IMG-20250314-WA0031.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-86667df3ce58ae36",
+      "name": "BOUQUET GARNI FRAGRANCED BODY LOTION BABY POWDER Парфюмированный лосьон для тела \"Нежная пудра\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-lotion-baby-powder-parfjumirovannyj-loson-dlja-tela-nezhnaja-pudra/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-lotion-baby-powder.webp",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-2848cc58af9196f0",
+      "name": "BOUQUET GARNI DEEP PERFUME SHAMPOO CLEAN SOAP Парфюмированный шампунь для волос \"Нежное мыло\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-shampoo-clean-soap-parfjumirovannyj-shampun-dlja-volos-nezhnoe-mylo/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-deep-perfume-shampoo-clean-soap-parfjumirovannyj-shampun-dlja-volos-nezhnoe-mylo-500ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-fef23097d5897e25",
+      "name": "BOUQUET GARNI DEEP PERFUME TREATMENT CLEAN SOAP Парфюмированная маска-бальзам для волос \"Нежное мыло\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-treatment-clean-soap-parfjumirovannaja-maska-balzam-dlja-volos-nezhnoe-mylo/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-deep-perfume-treatment-clean-soap-parfjumirovannaja-maska-balzam-dlja-volos-nezhnoe-mylo-500ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-09b8c50b4906cbd9",
+      "name": "BOUQUET GARNI DEEP PERFUME TREATMENT VANILLA MUSK Парфюмированная маска-бальзам для волос \"Ваниль и мускус\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-treatment-vanilla-musk-parfjumirovannaja-maska-balzam-dlja-volos-vanil-i-muskus/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-deep-perfume-treatment-vanilla-musk-parfjumirovannaja-maska-balzam-dlja-volos-vanil-i-muskus-500ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-902f3226a86385f9",
+      "name": "LADOR PERFUMED HAIR OIL (LA PITTA) Парфюмированное масло для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-oil-la-pitta-parfjumirovannoe-maslo-dlja-vol/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/Изображение-WhatsApp-2025-06-10-в-13.39.13_9d5a17ee.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-8299e1b5aa416fd3",
+      "name": "BOUQUET GARNI DEEP PERFUME SHAMPOO BABY POWDER Парфюмированный шампунь для волос \"Нежная пудра\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-shampoo-baby-powder-parfjumirovannyj-shampun-dlja-volos-nezhnaja-pudra/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-deep-perfume-shampoo-baby-powder.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-4d40fa29bdb0b5f9",
+      "name": "BOUQUET GARNI FRAGRANCED BODY SHOWER WHITE MUSK Парфюмированный гель для душа \"Белый мускус\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-shower-white-musk-parfjumirovannyj-gel-dlja-dusha-belyj-muskus/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-shower-white-musk-parfjumirovannyj-gel-dlja-dusha-belyj-muskus-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-1952e81198349db5",
+      "name": "BOUQUET GARNI DEEP PERFUME TREATMENT YLANG YLANG Парфюмированная маска-бальзам для волос \"Иланг-иланг\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-treatment-ylang-ylang-parfjumirovannaja-maska-balzam-dlja-volos-ilang-ilang/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-deep-perfume-treatment-ylang-ylang-parfjumirovannaja-maska-balzam-dlja-volos-ilang-ilang-500ml-1.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-fcdd90e5b3560003",
+      "name": "JMELLA IN FRANCE SPARKLING ROSE HAIR SHAMPOO Парфюмированный шампунь для волос \"Сверкающая роза\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-sparkling-rose-hair-shampoo-parfjumirovannyj-shampun-dlja-volos-sverkajushhaja-roza-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/jmella-in-france-sparkling-rose-hair-shampoo-1000ml.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-34d72d42eb3382af",
+      "name": "BOUQUET GARNI FRAGRANCED BODY LOTION PINK GRAPEFRUIT Парфюмированный лосьон для тела \"Розовый грейпфрут\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-lotion-pink-grapefruit-parfjumirovannyj-loson-dlja-tela-rozovyj-grejpfrut/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-lotion-pink-grapefruit.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-9e41f68a63a81307",
+      "name": "BOUQUET GARNI DEEP PERFUME SHAMPOO ROSE GARDEN Парфюмированный шампунь для волос \"Розовый сад\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-shampoo-rose-garden-parfjumirovannyj-shampun-dlja-volos-rozovyj-sad/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-deep-perfume-shampoo-rose-garden-parfjumirovannyj-shampun-dlja-volos-rozovyj-sad-500ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-22443e76bc5a8ca3",
+      "name": "BOUQUET GARNI DEEP PERFUME TREATMENT ROSE GARDEN Парфюмированная маска-бальзам для волос \"Розовый сад\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-treatment-rose-garden-parfjumirovannaja-maska-balzam-dlja-volos-rozovyj-sad/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-deep-perfume-treatment-rose-garden-parfjumirovannaja-maska-balzam-dlja-volos-rozovyj-sad-500ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-c81381f5a51614d0",
+      "name": "LADOR BODY WASH FIG CHOCOLATE Гель для душа \"Инжир-шоколад\"",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-body-wash-fig-chocolate-gel-dlya-dusha-inzhir-shokolad/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/izobrazhenie-whatsapp-2025-10-24-v-14.04.04_fa66bd6b.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-9a37bfd63ba56d5a",
+      "name": "TENZERO 24K GOLD RADIANCE CREAM Антивозрастной крем для лица с золотом",
+      "sourceUrl": "https://kazkotrade.kz/product/tenzero-24k-gold-radiance-cream-antivozrastnoj-krem-dlya-licza-s-zolotom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/izobrazhenie-whatsapp-2025-10-24-v-15.40.05_79a6601f.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-af81cfcfe41eb1ce",
+      "name": "TENZERO NICOTINAMIDE VITAMIN B3 AMPOULE Ампульная сыворотка для лица с витамином B3",
+      "sourceUrl": "https://kazkotrade.kz/product/tenzero-nicotinamide-vitamin-b3-ampoule-ampulnaya-syvorotka-dlya-licza-s-vitaminom-b3/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/tenzero-nicotinamide-vitamin-b3-ampoule-ampulnaya-syvorotka-dlya-licza-s-vitaminom-b3.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-d3d3cddc49802908",
+      "name": "LADOR KERATIN LAYERED OIL MIST FIG TEA Парфюмированный мист для укрепления и защиты волос с кератином \"Инжир\"",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-keratin-layered-oil-mist-fig-tea-parfjumirovannyj-mist-dlja-ukreplenija-i-zashhity-volos-s-keratinom-inzhir/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/lador-keratin-layered-oil-mist-fig-tea.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-e77bdee12000ec62",
+      "name": "LADOR PERFUMED HAIR SHAMPOO HINOKI Увлажняющий парфюмированный шампунь для волос с ароматом Хиноки и цитрусовых трав",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-perfumed-hair-shampoo-hinoki-uvlazhnjajushhij-parfjumirovannyj-shampun-dlja-volos-s-aromatom-hinoki-i-citrusovyh-trav/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/lador-perfumed-hair-shampoo-hinoki-530ml-1-min.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-32376682e63683ed",
+      "name": "BOUQUET GARNI FRAGRANCED BODY LOTION CLEAN SOAP Парфюмированный лосьон для тела \"Нежное мыло\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-lotion-clean-soap-parfjumirovannyj-loson-dlja-tela-nezhnoe-mylo/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-lotion-clean-soap-parfjumirovannyj-loson-dlja-tela-nezhnoe-mylo-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-64b2d10e6aee3d25",
+      "name": "BOUQUET GARNI FRAGRANCED BODY LOTION WHITE MUSK Парфюмированный лосьон для тела \"Белый мускус\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-lotion-white-musk-parfjumirovannyj-loson-dlja-tela-belyj-muskus/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-lotion-white-musk-parfjumirovannyj-loson-dlja-tela-belyj-muskus-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-aa105253c6f78546",
+      "name": "JMELLA IN FRANCE LIME &amp; BASIL HAIR SHAMPOO Парфюмированный шампунь для волос \"Лайм и Базилик\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-lime-basil-hair-shampoo-parfyumirovannyj-shampun-dlya-volos-lajm-i-bazilik/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/da40kpdttmflc13qv54l884xg7yfqvtk.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-93898334861b3bdd",
+      "name": "LADOR BODY LOTION FIG CHOCOLATE Лосьон для тела \"Инжир-шоколад\"",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-body-lotion-fig-chocolate-loson-dlya-tela-inzhir-shokolad/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/izobrazhenie-whatsapp-2025-10-24-v-14.04.04_b79fc69e.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-037a8003c7a66847",
+      "name": "JMELLA IN FRANCE LIME &amp; BASIL HAIR TREATMENT Парфюмированная маска-бальзам для волос \"Лайм и Базилик\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-lime-basil-hair-treatment-parfjumirovannaja-maska-balz/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/02/JMELLA-IN-FRANCE-LIME-BASIL-HAIR-TREATMENT.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-0f6e07fc2f93a638",
+      "name": "JMELLA IN FRANCE QUEEN 5 HAIR TREATMENT Парфюмированная маска-бальзам для волос \"Королева 5\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-queen-5-hair-treatment-parfyumirovannaya-maska-balzam-dlya-volos-koroleva-5/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/jmella-in-france-queen-5-hair-treatment.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-8327760cdadfa5f3",
+      "name": "TENZERO RETINOL VITAMIN A AMPOULE Омолаживающая ампульная сыворотка с ретинолом",
+      "sourceUrl": "https://kazkotrade.kz/product/tenzero-retinol-vitamin-a-ampoule-omolazhivayushhaya-ampulnaya-syvorotka-s-retinolom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/tenzero-retinol-vitamin-a-ampoule-omolazhivayushhaya-ampulnaya-syvorotka-s-retinolom.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-19c35d7f3bf48f88",
+      "name": "JMELLA IN FRANCE LIME &amp; BASIL BODY WASH Парфюмированный гель для душа \"Лайм и базилик\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-lime-basil-body-wash-parfimirovannyj-gel-dlja-dusha/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/02/JMELLA-IN-FRANCE-LIME-BASIL-BODY-WASH.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-4c81406f309a51cc",
+      "name": "JMELLA IN FRANCE LIME &amp; BASIL BODY WASH Парфимированный гель для душа \"Лайм и базилик\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-lime-basil-body-wash-parfimirovannyj-gel-dlya-dusha-lajm-i-bazilik/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/photo_2026-06-19_15-40-09.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-de0e01a566c9a7ff",
+      "name": "LADOR MANS GROOMING FIXING SPRAY Мужской спрей для создания объема волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-mans-grooming-fixing-spray-muzhskoj-sprej-dlya-sozdaniya-obema-volos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/04/whatsapp-image-2026-04-03-at-12.00.35-pm.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-835b19bb4cc16ced",
+      "name": "JMELLA IN FRANCE SPRING APPLE BODY LOTION Парфюмированный лосьон для тела \"Весеннее яблоко\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-spring-apple-body-lotion-parfyumirovannyj-loson-dlya-tela-vesennee-yabloko/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-33.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-1af382fba16566ee",
+      "name": "JMELLA IN FRANCE SPARKLING ROSE HAIR SHAMPOO Парфюмированный шампунь для волос «Сверкающая роза»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-sparkling-rose-hair-shampoo-parfjumirovannyj-shampun-dlja-volos-sverkajushhaja-roza/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-sparkling-rose-hair-shampoo.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-0814aa90649b965e",
+      "name": "JMELLA IN FRANCE ELEGANCE DO TYQUE BODY WASH Парфюмированный гель для душа \"Пышная тубероза\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-do-tyque-body-wash-parfyumirovannyj-gel-dlya-dusha-pyshnaya-tuberoza/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.27-pm-5.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-f02ab48715fe09d8",
+      "name": "JMELLA IN FRANCE SPARKLING ROSE BODY WASH Парфюмированный гель для душа \"Сверкающая роза\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-sparkling-rose-body-wash-parfyumirovannyj-gel-dlya-dusha-sverkayushhaya-roza/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/photo_2026-06-22_15-26-55-2.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-6e08c5d864b92619",
+      "name": "JMELLA IN FRANCE DARK ORCHID HAIR SHAMPOO Парфюмированный шампунь для волос \"Темная орхидея\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-dark-orchid-hair-shampoo-parfyumirovannyj-shampun-dlya-volos-temnaya-orhideya/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.27-pm-1.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-ef49ba6297e82fc0",
+      "name": "JMELLA IN FRANCE FOREST DEW HAIR SHAMPOO Парфюмированный шампунь для волос \"Лесная роса\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-forest-dew-hair-shampoo-parfyumirovannyj-shampun-dlya-volos-lesnaya-rosa/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-5.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-f5e0cd05466717c7",
+      "name": "JMELLA IN FRANCE FOREST DEW HAIR SHAMPOO Парфюмированный шампунь для волос \"Лесная роса\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-forest-dew-hair-shampoo-parfyumirovannyj-shampun-dlya-volos-lesnaya-rosa-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-6.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-ecbb8a9802ec8444",
+      "name": "JMELLA IN FRANCE LAZY VIBES BODY WASH Парфюмированный гель для душа \"Белый мускус и ирис\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-lazy-vibes-body-wash-parfyumirovannyj-gel-dlya-dusha-belyj-muskus-i-iris/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-16.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-96e563a57205c75e",
+      "name": "JMELLA IN FRANCE FOREST DEW BODY LOTION Парфюмированный лосьон для тела \"Лесная роса\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-forest-dew-body-lotion-parfyumirovannyj-loson-dlya-tela-lesnaya-rosa/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-2.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-5ada7e781432b6ec",
+      "name": "JMELLA IN FRANCE SPRING APPLE BODY WASH Парфюмированный гель для душа \"Весеннее яблоко\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-spring-apple-body-wash-parfyumirovannyj-gel-dlya-dusha-vesennee-yabloko-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-34.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-63c445a5f0e75690",
+      "name": "LADOR PERFUMED HAIR TREATMENT OSMANTHUS Увлажняющая парфюмированная маска для волос с фруктово-цветочным ароматом",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-treatment-osmanthus-uvlazhnjajushhaja-parfjumirovannaja-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/LADOR-PERFUMED-HAIR-TREATMENT-OSMANTHUS-Увлажняющая-парфюмированная-маска-для-волос-с-фруктово-цветочным-ароматом.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-62bcfa92ac8d25b9",
+      "name": "JMELLA IN FRANCE ELEGANCE PURE HUG HAIR SHAMPOO Парфюмированный шампунь \"Белый цветок\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-pure-hug-hair-shampoo-parfyumirovannyj-shampun-belyj-czvetok/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-29.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-7473b26379e15579",
+      "name": "JMELLA IN FRANCE ELEGANCE MAISON SOIR BODY LOTION Парфюмированный лосьон для тела Амбра Ваниль\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-maison-soir-body-lotion-parfyumirovannyj-loson-dlya-tela-ambra-vanil/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-20.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-a92120690e97e48e",
+      "name": "JMELLA IN FRANCE ELEGANCE MAISON SOIR SHAMPOO Парфюмированный шампунь \"Амбра Ваниль\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-maison-soir-shampoo-parfyumirovannyj-shampun-ambra-vanil/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-24.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-38486f76da4cae3b",
+      "name": "LADOR ROOT RE-BOOT PURIFYING SHAMPOO GINGER &amp; APPLE Шампунь для волос с имбирем и яблоком",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-root-re-boot-purifying-shampoo-ginger-apple-shampun-dlja-volos-s-imbirem/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/LADOR-ROOT-RE-BOOT-PURIFYING-SHAMPOO-GINGER-APPLE-Шампунь-для-волос-с-имбирем-и-яблоком.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-122c9dc167957db0",
+      "name": "JMELLA IN FRANCE ELEGANCE PURE HUG BODY WASH Парфюмированный гель для душа \"Белый цветок\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-pure-hug-body-wash-parfyumirovannyj-gel-dlya-dusha-belyj-czvetok/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/photo_2026-06-22_15-27-04.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-4b97d85a25a7d94b",
+      "name": "LADOR BODY LOTION FIG CHOCOLATE Лосьон для тела \"Инжир-шоколад\"",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-body-lotion-fig-chocolate-loson-dlya-tela-inzhir-shokolad-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/lador-body-lotion-fig-chocolate.webp",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-ecaf6a7e281e45a7",
+      "name": "TENZERO CERAMIDE VITAMIN D AMPOULE Восстанавливающая ампула с церамидами и витамином D",
+      "sourceUrl": "https://kazkotrade.kz/product/tenzero-ceramide-vitamin-d-ampoule-vosstanavlivayushhaya-ampula-s-czeramidami-i-vitaminom-d/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/tenzero-ceramide-vitamin-d-ampoule-vosstanavlivayushhaya-ampula-s-czeramidami-i-vitaminom-d.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-20e531c848f6086b",
+      "name": "LADOR NO SILICONE MOISTURE BALANCING CONDITIONER 530 ml Увлажняющий бессиликоновый кондиционер для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-no-silicorn-moisture-balancing-conditioner-530ml-uvlazhnjajushhij-bezsilikonovyj-kondicioner-dlja-volos-v-1-kor-h-10sht/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-moisture-balancing-conditioner.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-34617f1368d99581",
+      "name": "JMELLA IN FRANCE ELEGANCE PURE HUG BODY WASH Парфюмированный гель для душа \"Белый цветок\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-pure-hug-body-wash-parfyumirovannyj-gel-dlya-dusha-belyj-czvetok-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/photo_2026-06-22_15-27-04-2.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-c38779ab896202b9",
+      "name": "JMELLA IN FRANCE ELEGANCE MAISON SOIR BODY WASH Парфюмированный гель для душа \"Амбра Ваниль\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-maison-soir-body-wash-parfyumirovannyj-gel-dlya-dusha-ambra-vanil/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-22.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-b8b5a40a14d35fa3",
+      "name": "JIGOTT POMEGRANATE SHINING CREAM Крем для лица с экстрактом граната",
+      "sourceUrl": "https://kazkotrade.kz/product/jigott-pomegranate-shining-cream-krem-dlja-lica-s-jekstraktom-granata/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2021/09/jigott-pomegranate-shining-cream.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-50938528397318b1",
+      "name": "BOUQUET GARNI FRAGRANCED BODY SHOWER VANILLA MUSK Парфюмированный гель для душа \"Ваниль и мускус\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-shower-vanilla-musk-parfjumirovannyj-gel-dlja-dusha-vanil-i-muskus/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-shower-vanilla-musk-parfjumirovannyj-gel-dlja-dusha-vanil-i-muskus-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-53856dbcd8f37a7f",
+      "name": "LADOR MANS GROOMING CURL CREAM Увлажняющая мужская крем-эссенция для создания объема",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-mans-grooming-curl-cream-uvlazhnyayushhaya-muzhskaya-krem-essencziya-dlya-sozdaniya-obema/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/04/whatsapp-image-2026-04-03-at-12.00.36-pm.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-96adf00dbf514ffa",
+      "name": "LADOR PERFUMED HAIR OIL (OUR LEAF) Парфюмированное масло для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-oil-our-leaf-parfyumirovannoe-maslo-dlya-volos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-29-at-5.26.50-pm.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-ace88a79e24deb53",
+      "name": "TENZERO PANTHENOL VITAMIN B5 AMPOULE Успокаивающая ампула с провитамином B5",
+      "sourceUrl": "https://kazkotrade.kz/product/tenzero-panthenol-vitamin-b5-ampoule-uspokaivayushhaya-ampula-s-provitaminom-b5/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/tenzero-panthenol-vitamin-b5-ampoule-uspokaivayushhaya-ampula-s-provitaminom-b5.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-61e2d8d58c03ad28",
+      "name": "TENZERO TOCOPHEROL VITAMIN E AMPOULE Антиоксидантная ампула с витамином E для восстановления и защиты кожи",
+      "sourceUrl": "https://kazkotrade.kz/product/tenzero-tocopherol-vitamin-e-ampoule-antioksidantnaya-ampula-s-vitaminom-e-dlya-vosstanovleniya-i-zashhity-kozhi/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/tenzero-tocopherol-vitamin-e-ampoule-antioksidantnaya-ampula-s-vitaminom-e-dlya-vosstanovleniya-i-zashhity-kozhi.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-bccbae55c68a0596",
+      "name": "LADOR PERFUMED HAIR OIL (OUR LEAF) Парфюмированное масло для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-oil-our-leaf-parfyumirovannoe-maslo-dlya-volos-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-29-at-5.27.03-pm.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-05a4834af5e3357c",
+      "name": "TENZERO RELIEF CICA HYDROGEL EYE PATCH Гидрогелевые патчи под глаза с экстрактом центеллы",
+      "sourceUrl": "https://kazkotrade.kz/product/tenzero-relief-cica-hydrogel-eye-patch-gidrogelevye-patchi-pod-glaza-s-ekstraktom-czentelly/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/tenzero-relief-cica-hydrogel-eye-patch-gidrogelevye-patchi-pod-glaza-s-ekstraktom-czentelly.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-1f35f1579a77350d",
+      "name": "LADOR PERFUMED HAIR OIL (HINOKI) Парфюмированное масло для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-oil-hinoki-parfjumirovannoe-maslo-dlja-volo/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/LADOR-PERFUMED-HAIR-OIL-HINOKI-Парфюмированное-масло-для-волос.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-1a97aba3f4d44bca",
+      "name": "LADOR PERFUMED HAIR OIL pouch Парфюмированное масло для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-oil-pouch-parfjumirovannoe-maslo-dlja-volo/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/LADOR-PERFUMED-HAIR-OIL-pouch-Парфюмированное-масло-для-волос.webp",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-3948bfec6295131c",
+      "name": "LADOR PERFUMED HAIR OIL (OUR LEAF) Парфюмированное масло для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-oil-our-leaf-parfjumirovannoe-maslo-dlja-vol/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/LADOR-PERFUMED-HAIR-OIL-OUR-LEAF-Парфюмированное-масло-для-волос.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-5c2468fb9867ca8d",
+      "name": "TENZERO SIGNATURE NOURISHING CREAM GLUTATHIONE Крем для лица, шеи и зоны декольте с глутатионом",
+      "sourceUrl": "https://kazkotrade.kz/product/tenzero-signature-nourishing-cream-glutathione-krem-dlya-licza-shei-i-zony-dekolte-s-glutationom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/tenzero-signature-nourishing-cream-glutathione-krem-dlya-licza-shei-i-zony-dekolte-s-glutationom.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-3ac2ad1d8b4e8ac0",
+      "name": "TENZERO SIGNATURE NOURISHING CREAM MICROBIOME Крем для лица, шеи и зоны декольте с пробиотиками",
+      "sourceUrl": "https://kazkotrade.kz/product/tenzero-signature-nourishing-cream-microbiome-krem-dlya-licza-shei-i-zony-dekolte-s-probiotikami/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/tenzero-signature-nourishing-cream-microbiome-krem-dlya-licza-shei-i-zony-dekolte-s-probiotikami.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-e480ae2e2765e6a2",
+      "name": "JMELLA IN FRANCE QUEEN 5 BODY WASH Парфюмированный гель для душа \"Королева 5\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-queen-5-body-wash-parfyumirovannyj-gel-dlya-dusha-koroleva-5/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/photo_2026-06-22_15-26-55.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-00b08322f8fc560a",
+      "name": "BOUQUET GARNI FRAGRANCED BODY LOTION YLANG YLANG Парфюмированный лосьон для тела \"Иланг-иланг\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-lotion-ylang-ylang-parfjumirovannyj-loson-dlja-tela-ilang-ilang/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-lotion-ylang-ylang-parfjumirovannyj-loson-dlja-tela-ilang-ilang-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-0ac068c3dcffcbb9",
+      "name": "LADOR PERFUMED HAIR OIL (ANGEL MUGUET) Парфюмированное масло для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-oil-angel-muguet-parfyumirovannoe-maslo-dlya-volos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-29-at-5.26.56-pm.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-c8fb687f1bda3db3",
+      "name": "LADOR PERFUMED HAIR TREATMENT POUCH Увлажняющая парфюмированная маска для волос (пробник)",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-treatment-pouch-uvlazhnjajushhaja-parfjumirovannaja/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/06/Изображение-WhatsApp-2025-06-10-в-13.50.54_eb41da8e.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-130b0971ede7997a",
+      "name": "BOUQUET GARNI FRAGRANCED BODY LOTION CHERRY BLOSSOM Парфюмированный лосьон для тела \"Цветущая вишня\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-lotion-cherry-blossom-parfjumirovannyj-loson-dlja-tela-cvetushhaja-vishnja/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-lotion-cherry-blossom-parfjumirovannyj-loson-dlja-tela-cvetushhaja-vishnja-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-fe17e3885af5aa0d",
+      "name": "BOUQUET GARNI FRAGRANCED BODY SHOWER YLANG YLANG Парфюмированный гель для душа \"Иланг-иланг\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-shower-ylang-ylang-parfjumirovannyj-gel-dlja-dusha-ilang-ilang/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-shower-ylang-ylang-parfjumirovannyj-gel-dlja-dusha-ilang-ilang-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-f34b83a8a8e960bc",
+      "name": "BOUQUET GARNI FRAGRANCED BODY LOTION ROSE GARDEN Парфюмированный лосьон для тела \"Розовый сад\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-lotion-rose-garden-parfjumirovannyj-loson-dlja-tela-rozovyj-sad/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-lotion-rose-garden-parfjumirovannyj-loson-dlja-tela-rozovyj-sad-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-00e818e8a8d870ce",
+      "name": "BOUQUET GARNI FRAGRANCED BODY LOTION VANILLA MUSK Парфюмированный лосьон для тела \"Ваниль и мускус\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-lotion-vanilla-musk-parfjumirovannyj-loson-dlja-tela-vanil-i-muskus/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-lotion-vanilla-musk-parfjumirovannyj-loson-dlja-tela-vanil-i-muskus-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-12ff273572172406",
+      "name": "BOUQUET GARNI FRAGRANCED BODY SHOWER CHERRY BLOSSOM Парфюмированный гель для душа \"Цветущая вишня\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-shower-cherry-blossom-parfjumirovannyj-gel-dlja-dusha-cvetushhaja-vishnja/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-shower-cherry-blossom-parfjumirovannyj-gel-dlja-dusha-cvetushhaja-vishnja-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-95c2e242da9c356c",
+      "name": "BOUQUET GARNI DEEP PERFUME SHAMPOO VANILLA MUSK Парфюмированный шампунь для волос \"Ваниль и мускус\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-shampoo-vanilla-musk-parfjumirovannyj-shampun-dlja-volos-vanil-i-muskus/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-deep-perfume-shampoo-vanilla-musk-parfjumirovannyj-shampun-dlja-volos-vanil-i-muskus-500ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-9eb2a092c6209456",
+      "name": "BOUQUET GARNI DEEP PERFUME SHAMPOO WHITE MUSK Парфюмированный шампунь для волос \"Белый мускус\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-shampoo-white-musk-parfjumirovannyj-shampun-dlja-volos-belyj-muskus/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-deep-perfume-shampoo-white-musk-parfjumirovannyj-shampun-dlja-volos-belyj-muskus-500ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-499e26674501de08",
+      "name": "BOUQUET GARNI FRAGRANCED BODY SHOWER ROSE GARDEN Парфюмированный гель для душа \"Розовый сад\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-shower-rose-garden-parfjumirovannyj-gel-dlja-dusha-rozovyj-sad/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-shower-rose-garden-parfjumirovannyj-gel-dlja-dusha-rozovyj-sad-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-59f789dfb849bea9",
+      "name": "BOUQUET GARNI FRAGRANCED BODY SHOWER PINK GRAPEFRUIT Парфюмированный гель для душа \"Розовый грейпфрут\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-shower-pink-grapefruit-parfjumirovannyj-gel-dlja-dusha-rozovyj-grejpfrut/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-shower-pink-grapefruit-parfjumirovannyj-gel-dlja-dusha-rozovyj-grejpfrut-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-b4779e928d5d7ff7",
+      "name": "BOUQUET GARNI DEEP PERFUME TREATMENT BABY POWDER Парфюмированная маска-бальзам для волос \"Нежная пудра\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-treatment-baby-powder-parfjumirovannaja-maska-balzam-dlja-volos-nezhnaja-pudra/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/2bouquet-garni-deep-perfume-treatment-baby-powder.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-a809b58375799318",
+      "name": "BOUQUET GARNI DEEP PERFUME TREATMENT CHERRY BLOSSOM Парфюмированная маска-бальзам для волос \"Цветущая вишня\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-treatment-cherry-blossom-parfjumirovannaja-maska-balzam-dlja-volos-cvetushhaja-vishnja/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-deep-perfume-treatment-cherry-blossom-parfjumirovannaja-maska-balzam-dlja-volos-cvetushhaja-vishnja-500ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-b31695c14fc9d96a",
+      "name": "BOUQUET GARNI SILK KERATIN TREATMENT WHITE MUSK Кератиновая маска-бальзам для волос \"Белый мускус\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-silk-keratin-treatment-white-musk-keratinovaja-maska-balzam-dlja-volos-belyj-muskus/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-silk-keratin-treatment-white-musk-keratinovaja-maska-balzam-dlja-volos-belyj-muskus-1500ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-28e4882f6e0ca3a8",
+      "name": "LADOR PERFUMED HAIR OIL (LA PITTA) Парфюмированное масло для волос (легкость+воздух)",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-oil-la-pitta-parfjumirovannoe-maslo-dlja-volos-legkost-vozduh/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/02/lador-perfumed-hair-oil-la-pitta-parfjumirovannoe-maslo-dlja-volos.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-9889fe525f2ba546",
+      "name": "LADOR KERATIN LPP SHAMPOO Протеиновый кератиновый шампунь для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-keratin-lpp-shampoo-proteinovyj-keratinovyj-shampun-dlja-volos-v-1-kor-h-10sht/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-keratin-lpp-shampoo2.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-2f9cc1511c28ea1d",
+      "name": "BOUQUET GARNI DEEP PERFUME SHAMPOO CHERRY BLOSSOM Парфюмированный шампунь для волос \"Цветущая вишня\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-shampoo-cherry-blossom-parfjumirovannyj-shampun-dlja-volos-cvetushhaja-vishnja/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-deep-perfume-shampoo-cherry-blossom-parfjumirovannyj-shampun-dlja-volos-cvetushhaja-vishnja-500ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-1d94f17a52a0ab48",
+      "name": "DEOPROCE GREENTEA HENNA PURE REFRESH RINSE Бальзам-ополаскиватель для волос с зеленым чаем и хной",
+      "sourceUrl": "https://kazkotrade.kz/product/deoproce-greentea-henna-pure-refresh-rinse-balzam-opolaskivatel-dlja-volos-s-zelenym-chaem-i-hnoj/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/deoproce-greentea-henna-pure-refresh-rinse.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-98017425f14b2229",
+      "name": "JMELLA IN FRANCE DARK ORCHID BODY LOTION Парфюмированный лосьон для тела \"Темная орхидея\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-dark-orchid-body-lotion-parfyumirovannyj-loson-dlya-tela-temnaya-orhideya/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/photo_2026-06-22_15-26-55-4.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-faec585bcafa64eb",
+      "name": "LADOR PERFUMED HAIR SHAMPOO LA PITTA Увлажняющий парфюмированный шампунь для волос с ароматом Апельсина",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-shampoo-la-pitta-uvlazhnyayushhij-parfyumirovannyj-shampun-dlya-volos-s-aromatom-apelsina/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-29-at-5.27.08-pm.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-24324a40b2603e42",
+      "name": "TENZERO ALOE UV TONE UP BODY SUN CREAM Солнцезащитный крем для тела с тонирующим эффектом c алоэ",
+      "sourceUrl": "https://kazkotrade.kz/product/tenzero-aloe-uv-tone-up-body-sun-cream-solnczezashhitnyj-krem-dlya-tela-s-toniruyushhim-effektom-c-aloe/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/tenzero-aloe-uv-tone-up-body-sun-cream-solnczezashhitnyj-krem-dlya-tela-s-toniruyushhim-effektom-c-aloe.webp",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-ef7786a91ef43782",
+      "name": "BOUQUET GARNI DEEP PERFUME TREATMENT WHITE MUSK Парфюмированная маска-бальзам для волос \"Белый мускус\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-deep-perfume-treatment-white-musk-parfjumirovannaja-maska-balzam-dlja-volos-belyj-muskus/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-deep-perfume-treatment-white-musk-parfjumirovannaja-maska-balzam-dlja-volos-belyj-muskus-500ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-73115dd3bd9cafb7",
+      "name": "LADOR ANTI YELLOW SHAMPOO Шампунь для светлых волос для нейтрализации желтого пигмента",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-anti-yellow-shampoo-shampun-dlja-svetlyh-volos-dlja-nejtralizacii-zheltogo-pigmenta/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/02/whatsapp-image-2023-02-08-at-3.40.01-pm.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-700c917d74d67a33",
+      "name": "TENZERO SIGNATURE NOURISHING CREAM ANTI-WRINKLE Омолаживающий крем для лица, шеи и зоны декольте",
+      "sourceUrl": "https://kazkotrade.kz/product/tenzero-signature-nourishing-cream-anti-wrinkle-omolazhivayushhij-krem-dlya-liczashei-i-zony-dekolte/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/tenzero-signature-nourishing-cream-anti-wrinkle-omolazhivayushhij-krem-dlya-liczashei-i-zony-dekolte.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-49a265d44fa890be",
+      "name": "JMELLA IN FRANCE ELEGANCE DO TYQUE BODY WASH Парфюмированный гель для душа \"Пышная тубероза\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-do-tyque-body-wash-parfyumirovannyj-gel-dlya-dusha-pyshnaya-tuberoza-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.27-pm-4.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-5f61e74bc0464758",
+      "name": "JMELLA IN FRANCE ELEGANCE LA TULIPE BODY LOTION Парфюмированный лосьон для тела \"Свежий цветок\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-la-tulipe-body-lotion-parfyumirovannyj-loson-dlya-tela-svezhij-czvetok/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-8.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-aa6206b7684bdc76",
+      "name": "BOUQUET GARNI FRAGRANCED BODY SHOWER CLEAN SOAP Парфюмированный гель для душа \"Нежное мыло\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-fragranced-body-shower-clean-soap-parfjumirovannyj-gel-dlja-dusha-nezhnoe-mylo/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-fragranced-body-shower-clean-soap-parfjumirovannyj-gel-dlja-dusha-nezhnoe-mylo-520ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-4faea93c70cb9b66",
+      "name": "JMELLA IN FRANCE ELEGANCE MAISON SOIR HAIR TREATMENT Парфюмированная маска-бальзам \"Амбра Ваниль\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-maison-soir-hair-treatment-parfyumirovannaya-maska-balzam-ambra-vanil/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-25.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-97d7c48ae822f0cc",
+      "name": "JMELLA IN FRANCE ELEGANCE LA TULIPE BODY WASH Парфюмированный гель для душа \"Свежий цветок\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-la-tulipe-body-wash-parfyumirovannyj-gel-dlya-dusha-svezhij-czvetok-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-9.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-f3ac3eb0b62fc101",
+      "name": "BOUQUET GARNI SILK KERATIN SHAMPOO BABY POWDER Кератиновый шампунь для волос \"Нежная пудра\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-silk-keratin-shampoo-baby-powder-keratinovj-shampun-dlja-volos-nezhnaja-pudra/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-silk-keratin-shampoo-baby-powder-keratinovyj-shampun-dlja-volos-nezhnaja-pudra-1500ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-fba2a53a56101340",
+      "name": "JMELLA IN FRANCE SPARKLING ROSE BODY LOTION Парфюмированный лосьон для тела «Сверкающая роза»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-sparkling-rose-body-lotion-parfjumirovannyj-loson-dlja-tela-sverkajushhaja-roza/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-sparkling-rose-body-lotion-parfjumirovannyj-loson-dlja-tela-sverkajushhaja-roza.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-10407453c5e46b61",
+      "name": "JMELLA IN FRANCE ELEGANCE DO TYQUE BODY LOTION Парфюмированный лосьон для тела \"Пышная тубероза\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-do-tyque-body-lotion-parfyumirovannyj-loson-dlya-tela-pyshnaya-tuberoza/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.27-pm-3.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-536a7f6776bc2985",
+      "name": "JMELLA IN FRANCE ELEGANCE LA TULIPE BODY WASH Парфюмированный гель для душа \"Свежий цветок\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-la-tulipe-body-wash-parfyumirovannyj-gel-dlya-dusha-svezhij-czvetok/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-10.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-8aabf01ecc4a9fed",
+      "name": "JMELLA IN FRANCE ELEGANCE DO TYQUE HAIR TREATMENT Парфюмированная маска-бальзам \"Пышная тубероза\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-do-tyque-hair-treatment-parfyumirovannaya-maska-balzam-pyshnaya-tuberoza/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.27-pm-8.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-52d5bfa77a468257",
+      "name": "JMELLA IN FRANCE ELEGANCE MAISON SOIR BODY WASH Парфюмированный гель для душа \"Амбра Ваниль\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-maison-soir-body-wash-parfyumirovannyj-gel-dlya-dusha-ambra-vanil-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-21.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-bd7fa501324c453a",
+      "name": "JMELLA IN FRANCE ELEGANCE DO TYQUE HAIR SHAMPOO Парфюмированный шампунь \"Пышная тубероза\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-do-tyque-hair-shampoo-parfyumirovannyj-shampun-pyshnaya-tuberoza-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.27-pm-6.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-fe09acc510420a6b",
+      "name": "JMELLA IN FRANCE ELEGANCE DO TYQUE HAIR SHAMPOO Парфюмированный шампунь \"Пышная тубероза\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-do-tyque-hair-shampoo-parfyumirovannyj-shampun-pyshnaya-tuberoza/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.27-pm-7.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-444b70048e418a3d",
+      "name": "JMELLA IN FRANCE ELEGANCE LA TULIPE HAIR SHAMPOO Парфюмированный шампунь \"Свежий цветок\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-la-tulipe-hair-shampoo-parfyumirovannyj-shampun-svezhij-czvetok-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-11.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-289ff92005893d4b",
+      "name": "JMELLA IN FRANCE BLOOMING PEONY BODY LOTION Парфюмированный лосьон для тела «Цветущий пион»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-blooming-peony-body-lotion-parfjumirovannyj-loson-dlja-tela-cvetushhij-pion/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-blooming-peony-body-lotion-parfjumirovannyj-loson-dlja-tela-cvetushhij-pion.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-296ff03d3309717c",
+      "name": "JMELLA IN FRANCE ELEGANCE LA TULIPE HAIR SHAMPOO Парфюмированный шампунь \"Свежий цветок\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-la-tulipe-hair-shampoo-parfyumirovannyj-shampun-svezhij-czvetok/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-12.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-f6874411cf591819",
+      "name": "JMELLA IN FRANCE FOREST DEW HAIR TREATMENT Парфюмированная маска-бальзам для волос \"Лесная роса\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-forest-dew-hair-treatment-parfyumirovannaya-maska-balzam-dlya-volos-lesnaya-rosa/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-7.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-11db37a03abbb261",
+      "name": "JMELLA IN FRANCE ELEGANCE PURE HUG HAIR SHAMPOO Парфюмированный шампунь \"Белый цветок\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-pure-hug-hair-shampoo-parfyumirovannyj-shampun-belyj-czvetok-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-28.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-1cc7dbc439d383c4",
+      "name": "JMELLA IN FRANCE DARK ORCHID BODY WASH Парфюмированный гель для душа \"Темная орхидея\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-dark-orchid-body-wash-parfyumirovannyj-gel-dlya-dusha-temnaya-orhideya-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/photo_2026-06-22_15-26-55-3.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-3ef46b345743218e",
+      "name": "JMELLA IN FRANCE BLOOMING PEONY HAIR TREATMENT Парфюмированная маска-бальзам для волос «Цветущий пион»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-blooming-peony-hair-treatment-parfjumirovannaja-maska-balzam-dlja-volos-cvetushhij-pion/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-blooming-peony-hair-treatment-parfjumirovannaja-maska-balzam-dlja-volos-cvetushhij-pion.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-c1b699ee4413b2d1",
+      "name": "JMELLA IN FRANCE ELEGANCE LA TULIPE HAIR TREATMENT Парфюмированная маска-бальзам для волос \"Свежий цветок\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-la-tulipe-hair-treatment-parfyumirovannaya-maska-balzam-dlya-volos-svezhij-czvetok/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-13.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-abaa986ae1eae274",
+      "name": "JMELLA IN FRANCE ELEGANCE MAISON SOIR SHAMPOO Парфюмированный шампунь \"Амбра Ваниль\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-maison-soir-shampoo-parfyumirovannyj-shampun-ambra-vanil-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-23.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-d6c3be70a2f8fc99",
+      "name": "JMELLA IN FRANCE FEMME FATALE HAIR TREATMENT Парфюмированная маска-бальзам для волос «Роковая женщина»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-femme-fatale-hair-treatment-parfjumirovannaja-maska-balzam-dlja-volos-rokovaja-zhenshhina/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-femme-fatale-hair-treatment-parfjumirovannaja-maska-balzam-dlja-volos-rokovaja-zhenshhina.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-39e896e1fbf33ae1",
+      "name": "JMELLA IN FRANCE FOREST DEW BODY WASH Парфюмированный гель для душа \"Лесная роса\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-forest-dew-body-wash-parfyumirovannyj-gel-dlya-dusha-lesnaya-rosa/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-4.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-b8f1107b962f8ab8",
+      "name": "JMELLA IN FRANCE ELEGANCE PURE HUG HAIR TREATMENT Парфюмированная маска-бальзам \"Белый цветок\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-pure-hug-hair-treatment-parfyumirovannaya-maska-balzam-belyj-czvetok/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-30.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-b93a2e7e73cabae3",
+      "name": "JMELLA IN FRANCE ELEGANCE PURE HUG BODY LOTION Парфюмированный лосьон для тела \"Белый цветок\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-elegance-pure-hug-body-lotion-parfyumirovannyj-loson-dlya-tela-belyj-czvetok/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-26.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-4c2627dc6048dd9a",
+      "name": "JMELLA IN FRANCE LAZY VIBES BODY LOTION Парфюмированный лосьон для тела \"Белый мускус и ирис\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-lazy-vibes-body-lotion-parfyumirovannyj-loson-dlya-tela-belyj-muskus-i-iris/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-14.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-ef49727bdc6e32af",
+      "name": "JMELLA IN FRANCE LAZY VIBES BODY WASH Парфюмированный гель для душа \"Белый мускус и ирис\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-lazy-vibes-body-wash-parfyumirovannyj-gel-dlya-dusha-belyj-muskus-i-iris-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-15.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-269ee369342d0d8a",
+      "name": "JMELLA IN FRANCE LAZY VIBES HAIR SHAMPOO Парфюмированный шампунь для волос \"Белый мускус и ирис\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-lazy-vibes-hair-shampoo-parfyumirovannyj-shampun-dlya-volos-belyj-muskus-i-iris/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-17.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-80d3524c01286589",
+      "name": "JMELLA IN FRANCE SPARKLING ROSE HAIR TREATMENT Парфюмированная маска-бальзам для волос \"Сверкающая роза\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-sparkling-rose-hair-treatment-parfyumirovannaya-maska-balzam-dlya-volos-sverkayushhaya-roza/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/jmella-in-france-sparkling-rose-hair-treatment.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-6c860f82ccecbc28",
+      "name": "LADOR TEA TREE CALMING SCALP SHAMPOO Успокивающий шампунь для волос и кожи головы с чайным деревом",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-tea-tree-calming-scalp-shampoo-uspokivajushhij-shampun-dlja-volos-i-kozhi-golovy-s-chajnym-derevom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/izobrazhenie-whatsapp-2025-07-22-v-13.06.46_0e0a1d11.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-26db371277f37e0e",
+      "name": "JMELLA IN FRANCE BLOOMING PEONY BODY WASH Парфюмированный гель для душа \"Цветущий пион\" 500мл",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-blooming-peony-body-wash-parfjumirovannyj-gel-dlja-dush/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2024/11/MELLA-IN-FRANCE-BLOOMING-PEONY-BODY-WASH.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-00f408c1e3d462a8",
+      "name": "JMELLA IN FRANCE SPRING APPLE BODY WASH Парфюмированный гель для душа \"Весеннее яблоко\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-spring-apple-body-wash-parfyumirovannyj-gel-dlya-dusha-vesennee-yabloko/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-35.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-5614032dc0ae8143",
+      "name": "JMELLA IN FRANCE LAZY VIBES HAIR TREATMENT Парфюмированная маска-бальзам для волос \"Белый мускус и ирис\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-lazy-vibes-hair-treatment-parfyumirovannaya-maska-balzam-dlya-volos-belyj-muskus-i-iris/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-19.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-b5cb4715e5f43fb5",
+      "name": "JMELLA IN FRANCE LAZY VIBES HAIR SHAMPOO Парфюмированный шампунь для волос \"Белый мускус и ирис\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-lazy-vibes-hair-shampoo-parfyumirovannyj-shampun-dlya-volos-belyj-muskus-i-iris-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-18.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-9c1153ed9570e941",
+      "name": "JMELLA IN FRANCE SPRING APPLE HAIR SHAMPOO Парфюмированный шампунь для волос \"Весеннее яблоко\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-spring-apple-hair-shampoo-parfyumirovannyj-shampun-dlya-volos-vesennee-yabloko/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-36.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-272f4f1e5c7ebdc3",
+      "name": "JMELLA IN FRANCE SPRING APPLE HAIR TREATMENT Парфюмированная маска-бальзам для волос \"Весеннее яблоко\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-spring-apple-hair-treatment-parfyumirovannaya-maska-balzam-dlya-volos-vesennee-yabloko/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-38.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-506148e2d6fc3aef",
+      "name": "LADOR HERBALISM TREATMENT Маска для волос Гербализм",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-herbalism-treatment-maska-dlja-volos-gerbalizm-v-1-kor-h-80sht/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2020/11/lador-herbalism-treatment.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-e91155a4a4e9f4cf",
+      "name": "JMELLA IN FRANCE SPRING APPLE HAIR SHAMPOO Парфюмированный шампунь для волос \"Весеннее яблоко\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-spring-apple-hair-shampoo-parfyumirovannyj-shampun-dlya-volos-vesennee-yabloko-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-22-at-3.45.28-pm-37.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-48b7fab21398aea7",
+      "name": "JMELLA IN FRANCE QUEEN 5 HAIR SHAMPOO Парфюмированный шампунь для волос «Королева 5»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-queen-5-hair-shampoo-parfjumirovannyj-shampun-dlja-volos-koroleva-5/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-queen-5-hair-shampoo-parfjumirovannyj-shampun-dlja-volos-koroleva-5.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-8474d13e3886fdfc",
+      "name": "BOUQUET GARNI VITA COLLAGEN PERFUME BODY WASH WEDDING BOUQUET Увлажняющий парфюмированный гель для душа с коллагеном \"Свадебный букет\"",
+      "sourceUrl": "https://kazkotrade.kz/product/bouquet-garni-vita-collagen-perfume-body-wash-wedding-bouquet-uvlazhnjajushhij-parfjumirovannyj-gel-dlja-dusha-s-kollagenom-svadebnyj-buket/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/bouquet-garni-vita-collagen-perfume-body-wash-wedding-bouquet.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-55a241b7f07da122",
+      "name": "TENZERO CLEAR FIT HEARTLEAF EYE SERUM Сыворотка для кожи вокруг глаз с экстрактом хауттюйнии",
+      "sourceUrl": "https://kazkotrade.kz/product/tenzero-clear-fit-heartleaf-eye-serum-syvorotka-dlya-kozhi-vokrug-glaz-s-ekstraktom-hauttyujnii/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/tenzero-clear-fit-heartleaf-eye-serum-syvorotka-dlya-kozhi-vokrug-glaz-s-ekstraktom-hauttyujnii.webp",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-bf186d8ad20e20f2",
+      "name": "LADOR KERATIN LPP SHAMPOO FEIGE Протеиновый кератиновый шампунь Инжир",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-keratin-lpp-shampoo-feige-proteinovyj-keratinovyj-shampun-inzhir/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/07/whatsapp-image-2023-07-19-at-10.59.53-am-1.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-e2f03ea203a7ca7e",
+      "name": "LADOR VOLUMISING CURL SHAMPOO Шампунь для объема и ухода против выпадения для вьющихся волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-volumising-curl-shampoo-shampun-dlja-obema-i-uhoda-proti/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2024/11/LADOR-VOLUMISING-CURL-SHAMPOO-Шампунь-для-объема-и-ухода-против-выпадения-для-вьющихся-волос.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-fa6dce576ba9d12c",
+      "name": "JMELLA IN FRANCE QUEEN 5 BODY WASH Парфюмированный гель для душа «Королева 5»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-queen-5-body-wash-parfjumirovannyj-gel-dlja-dusha-koroleva-5/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-queen-5-body-wash.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-4b43d3afb6e6b872",
+      "name": "LADOR PERFECT HAIR FILLER (SMALL BOX) Филлер для волос (маленькая коробка)",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfect-hair-filler-small-box-filler-dlja-volos-malenkaja-korobka/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-perfect-hair-filler-3.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-9bdbf1da900a3ff4",
+      "name": "JMELLA IN FRANCE FEMME FATALE BODY WASH Парфюмированный гель для душа «Роковая женщина»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-femme-fatale-body-wash-parfjumirovannyj-gel-dlja-dusha-rokovaja-zhenshhina/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-femme-fatale-body-wash.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-29e3c7a76aaa7a1b",
+      "name": "JMELLA IN FRANCE DARK ORCHID BODY WASH Парфюмированный гель для душа \"Темная орхидея\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-dark-orchid-body-wash-parfyumirovannyj-gel-dlya-dusha-temnaya-orhideya/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/photo_2026-06-22_15-26-54.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-18318c3e4111175c",
+      "name": "LADOR BODY WASH FIG CHOCOLATE Гель для душа \"Инжир-шоколад\"",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-body-wash-fig-chocolate-gel-dlya-dusha-inzhir-shokolad-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/10/lador-body-wash-fig-chocolate.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-84830bf8df6a1b4e",
+      "name": "JMELLA IN FRANCE QUEEN 5 HAIR SHAMPOO Парфюмированный шампунь для волос \"Королева 5\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-queen-5-hair-shampoo-parfjumirovannyj-shampun-dlja-volos-koroleva-5-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/jmella-in-france-queen-5-hair-shampoo-1000ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-81c26be7e6259111",
+      "name": "LADOR ACV VINEGAR SHAMPOO Шампунь с яблочным уксусом",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-acv-vinegar-shampoo-shampun-s-jablochnym-uksusom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2021/10/lador-acv-vinegar-shampoo.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-e9204c1413a44989",
+      "name": "LADOR ACV VINEGAR TREATMENT Маска для волос с яблочным уксусом",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-acv-vinegar-treatment-maska-dlja-volos-s-jablochnym-uksusom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2021/10/whatsapp-image-2021-10-25-at-12.04.07-pm-2.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-c540c47d86b1154f",
+      "name": "LADOR ECO HYDRO LPP TREATMENT Восстанавливающая маска для сухих и поврежденных волос (рефил)",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-eco-hydro-lpp-treatment-vosstanavlivajushhaja-maska-dlja-suhih-i-povrezhdennyh-volos-refil/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/lador-eco-hydro-lpp-treatment-500ml.webp",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-bf1b8db70722d28d",
+      "name": "HAE CAPSULE DETERGENT «Blue Ocean Scent» Высококонцентрированное средство для стирки в капсулах «Голубой океан»",
+      "sourceUrl": "https://kazkotrade.kz/product/hae-capsule-detergent-blue-ocean-scent-vysokokoncentrirovannoe-sre/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2024/11/HAE-CAPSULE-DETERGENT.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-39adeb67a1b94a91",
+      "name": "LADOR TRIPLEX NATURAL SHAMPOO 150ml Беcсульфатный органический шампунь с эфирными маслами",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-triplex-natural-shampoo-150ml-bezsulfatnyj-organicheskij-shampun-s-jefirnymi-maslami-v-1-kor-h-40-sht/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-triplex-natural-shampoo-2.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-d7e01562253a2621",
+      "name": "LADOR HERBALISM TREATMENT Маска для волос Гербализм",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-herbalism-treatment-maska-dlja-volos-gerbalizm/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/ladorherbalismtreatment360.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-4d23af0f16f8ad4a",
+      "name": "JMELLA IN FRANCE BLOOMING PEONY BODY WASH Парфюмированный гель для душа \"Цветущий пион\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-blooming-peony-body-wash-parfjumirovannyj-gel-dlja-dusha-cvetushhij-pion/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/0_02596400_1687946292.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-9bf7d41cbca01501",
+      "name": "LADOR ASH SILVER SHAMPOO Шампунь для обесцвеченных волос для холодного оттенка",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-ash-silver-shampoo-shampun-dlya-obesczvechennyh-volos-dlya-holodnogo-ottenka/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/05/lador-ash-silver-shampoo.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-a1f81d33dc0fdfe0",
+      "name": "LADOR KERATIN LPP SHAMPOO MOVET Протеиновый кератиновый шампунь Бергамот",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-keratin-lpp-shampoo-movet-proteinovyj-keratinovyj-shampun-bergamot/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/07/whatsapp-image-2023-07-19-at-10.59.53-am-2.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-47e4e6a4ea3163ba",
+      "name": "LADOR PERFUMED HAIR OIL (HINOKI) Парфюмированное масло для волос (шелк+увлажнение)",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-oil-hinoki-parfjumirovannoe-maslo-dlja-volos-shelk-uvlazhnenie/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/lador-perfumed-hair-oil-hinoki-parfjumirovannoe-maslo-dlja-volosshelkuvlazhnenie.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-9086278e689ea936",
+      "name": "LADOR PERFUMED HAIR SHAMPOO HINOKI Увлажняющий парфюмированный шампунь для волос с ароматом Хиноки и цитрусовых трав",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-shampoo-hinoki-uvlazhnyayushhij-parfyumirovannyj-shampun-dlya-volos-s-aromatom-hinoki-i-czitrusovyh-trav/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/06/whatsapp-image-2026-06-29-at-5.26.43-pm.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-5a2ccc94d4eae221",
+      "name": "LADOR KERATIN LAYERED OIL MIST Парфюмированный мист для укрепления и защиты волос с кератином",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-keratin-layered-oil-mist-parfjumirovannyj-mist-dlja-ukreplenija-i-zashhity-volos-s-keratinom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/07/whatsapp-image-2023-07-19-at-11.01.54-am.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-c56601f27f9159c7",
+      "name": "LADOR PERFECT HAIR FILL-UP Филлер для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfect-hair-fill-up-filler-dlja-volos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/08/lador-perfect-hair-filler-5.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-3104bd1c2a75a123",
+      "name": "LADOR WONDER BUBBLE SHAMPOO Шампунь для глубокого увлажнения и придания объема волосам",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-wonder-bubble-shampoo-shampun-dlja-glubokogo-uvlazhnenija-i-pridanija-objoma-volosam-v-1-kor-h-60sht/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/whatsapp-image-2026-06-15-at-12.42.32-pm-1.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-0bd19646d1fb0e3a",
+      "name": "LADOR PERFUMED HAIR SHAMPOO OSMANTHUS Увлажняющий парфюмированный шампунь для волос с фруктово-цветочным ароматом",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-perfumed-hair-shampoo-osmanthus-uvlazhnjajushhij-parfjumirovannyj-shampun-dlja-volos-s-fruktovo-cvetochnym-aromatom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/2655239.avif",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-723fcb7622245024",
+      "name": "LADOR PRO CMC MILK HAIR CREAM Профессиональная молочная-эссенция с протеинами для сильно поврежденных волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-pro-cmc-milk-hair-cream-professionalnaja-molochnaja-jess/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/03/IMG-20250314-WA0032.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-a7a85f2a9cb144bd",
+      "name": "LADOR PERFUMED HAIR TREATMENT HINOKI Увлажняющая парфюмированная маска для волос с ароматом Хиноки и цитрусовых трав",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-treatment-hinoki-uvlazhnjajushhaja-parfjumirovannaja/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/03/IMG-20250314-WA0026.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-9f1af3d74e2774cf",
+      "name": "LADOR ROOT RE-BOOT ACTIVATING SHAMPOO CICA &amp; TEA TREE Шампунь для волос с центеллой и чайным деревом",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-root-re-boot-activating-shampoo-cica-tea-tree-shampun-dlja-volos-s-centelloj-i-chajnym-derevom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/root-re-boot-activating-shampoo-cica-tea-tree_350ml.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-130325310c019e2c",
+      "name": "LADOR HYDRA LPP TREATMENT MOVET Маска для сухих и поврежденных волос Бергамот",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-hydra-lpp-treatment-movet-maska-dlja-suhih-i-povrezhdennyh-volos-bergamot/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/07/whatsapp-image-2023-07-19-at-10.59.52-am-1.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-fd7f4f53c1e1fd92",
+      "name": "LADOR HERBALISM SHAMPOO Шампунь Гербализм",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-herbalism-shampoo-shampun-gerbalizm/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2020/12/lador-herbalism-shampoo-150ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-dd528542a96cc3b3",
+      "name": "LADOR HYDRA LPP TREATMENT PITTA Маска для сухих и поврежденных волос Апельсин",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-hydra-lpp-treatment-pitta-maska-dlja-suhih-i-povrezhdennyh-volos-apelsin/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/07/whatsapp-image-2023-07-19-at-10.59.53-am-3.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-dc5da07f676fdbc1",
+      "name": "LADOR ROOT RE-BOOT PURIFYING SHAMPOO GINGER &amp; APPLE Шампунь для волос с имбирем и яблоком",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-root-re-boot-purifying-shampoo-ginger-apple-shampun-dlja-volos-s-imbirem-i-jablokom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/root-re-boot-purifying-shampoo-ginger-apple_350ml.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-945f4d2a08611518",
+      "name": "LADOR WONDER TEAR Бальзам-маска для увлажнения,укрепления и придания волосам объема",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-wonder-tear-balzam-maska-dlja-uvlazhnenija-ukreplenija-i-pridanija-volosam-objoma/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-wonder-tear.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-efc44d4696eee8af",
+      "name": "LADOR HYDRA LPP TREATMENT FEIGE Маска для сухих и поврежденных волос Инжир",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-hydra-lpp-treatment-feige-maska-dlja-suhih-i-povrezhdennyh-volos-inzhir/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/07/whatsapp-image-2023-07-19-at-10.59.53-am.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-ed4f2e216f8ea3f4",
+      "name": "DEOPROCE BLACK GARLIC INTENSIVE ENERGY RINSE Бальзам-ополаскиватель для волос с экстрактом черного чеснока",
+      "sourceUrl": "https://kazkotrade.kz/product/deoproce-black-garlic-intensive-energy-rince-balzam-opolaskivatel-dlja-volos-s-jekstraktom-chernogo-chesnoka/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/deoproce-black-garlic-intensive-energy-rinse.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-21006dc365f8ed7c",
+      "name": "LADOR PERFUMED HAIR OIL (ANGEL MUGUET) Парфюмированное масло для волос с ароматом ландыша",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-oil-angel-muguet-parfyumirovannoe-maslo-dlya-volos-s-aromatom-landysha/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/04/whatsapp-image-2026-04-02-at-1.46.54-pm.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-93c0822a21f5a4fa",
+      "name": "LADOR PERFUMED HAIR OIL (HINOKI) Парфюмированное масло для волос (шелк+увлажение)",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-oil-hinoki-parfjumirovannoe-maslo-dlja-volos-shelk-uvlazhenie/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/02/lador-perfumed-hair-oil-la-pitta-parfjumirovannoe-maslo-dlja-volos.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-889160d81f6b03bd",
+      "name": "LADOR ROOT RE-BOOT VITALIZING SHAMPOO PROPOLIS &amp; CITRON Шампунь для волос с прополисом и цитроном",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-root-re-boot-vitalizing-shampoo-propolis-citron-shampun-dlja-volos-s-propolisom-i-citronom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/02/whatsapp-image-2023-02-24-at-10.40.05-am-1.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-a100f093702ebcc4",
+      "name": "LADOR KERATIN LPP SHAMPOO PITTA Протеиновый кератиновый шампунь Апельсин",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-keratin-lpp-shampoo-pitta-proteinovyj-keratinovyj-shampun-apelsin/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/07/whatsapp-image-2023-07-19-at-10.59.52-am.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-a0c47e7a56b792b8",
+      "name": "JMELLA IN FRANCE FEMME FATALE BODY WASH Парфюмированный гель для душа \"Роковая женщина\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-femme-fatale-body-wash-parfjumirovannyj-gel-dlja-dusha-rokovaja-zhenshhina-2/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/jmella-in-france-femme-fatale-body-wash-1000ml.webp",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-05a27efb08fd004e",
+      "name": "LADOR KERATIN POWER GLUE Сыворотка клей для посеченных кончиков волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-keratin-power-glue-syvorotka-klej-dlja-posechennyh-konchikov-volos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-keratin-power-glue-2.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-0f69db6dac0ef266",
+      "name": "JMELLA IN FRANCE BLOOMING PEONY HAIR SHAMPOO Парфюмированный шампунь для волос «Цветущий пион»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-blooming-peony-hair-shampoo-parfjumirovannyj-shampun-dlja-volos-cvetushhij-pion/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-blooming-peony-hair-shampoo-parfjumirovannyj-shampun-dlja-volos-cvetushhij-pion-.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-7659ad9818e4cf25",
+      "name": "JMELLA IN FRANCE FEMME FATALE BODY LOTION Парфюмированный лосьон для тела «Роковая женщина»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-femme-fatale-body-lotion-parfjumirovannyj-loson-dlja-tela-rokovaja-zhenshhina/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-femme-fatale-body-lotion-parfjumirovannyj-loson-dlja-tela-rokovaja-zhenshhina.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-2b7d740e9700d37b",
+      "name": "JMELLA IN FRANCE LIME &amp; BASIL HAIR SHAMPOO Парфюмированный шампунь для волос \"Лайм и Базилик\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-lime-basil-hair-shampoo-parfjumirovannyj-shampun-dlja/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/02/JMELLA-IN-FRANCE-LIME-BASIL-HAIR-SHAMPOO.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-305c2dd1bd082112",
+      "name": "JMELLA IN FRANCE FEMME FATALE HAIR SHAMPOO Парфюмированный шампунь для волос «Роковая женщина»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-femme-fatale-hair-shampoo-parfjumirovannyj-shampun-dlja-volos-rokovaja-zhenshhina/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-femme-fatale-hair-shampoo-parfjumirovannyj-shampun-dlja-volos-rokovaja-zhenshhina-.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-0ed58a55cc0dace4",
+      "name": "LADOR REAL INTENSIVE ACID CONDITIONER Интенсивный слабокислотный кондиционер для поврежденных волос",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-real-intensive-acid-conditioner-intensivnyj-slabokislotnyj-kondicioner-dlja-povrezhdennyh-volos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2024/06/photo_5411561194579417124_y.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-5481a5a441cbe787",
+      "name": "LADOR PERFUMED HAIR OIL (OSMANTHUS) Парфюмированное масло для волос (богатство+прилегание)",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfumed-hair-oil-osmanthus-parfjumirovannoe-maslo-dlja-volos-bogatstvo-prileganie/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/02/lador-perfumed-hair-oil-la-pitta-parfjumirovannoe-maslo-dlja-volos.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-c28beaf347a47fb6",
+      "name": "Чесночный шампунь DEOPROCE BLACK GARLIC SHAMPOO от выпадения волос с экстрактом черного чеснока",
+      "sourceUrl": "https://kazkotrade.kz/product/deoproce-black-garlic-shampoo-shampun-ot-vypadeniya-volos-s-ehkstraktom-chernogo-chesnoka/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2024/11/6916950692.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-7682d916e532db86",
+      "name": "JMELLA IN FRANCE LIME &amp; BASIL BODY LOTION Парфюмированный лосьон для тела \"Лайм и базилик\"",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-lime-basil-body-lotion-parfjumirovannyj-loson-dlja-t/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/02/JMELLA-IN-FRANCE-LIME-BASIL-BODY-LOTION.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-963a402f11d69ab3",
+      "name": "JMELLA IN FRANCE QUEEN 5 BODY LOTION Парфюмированный лосьон для тела «Королева 5»",
+      "sourceUrl": "https://kazkotrade.kz/product/jmella-in-france-queen-5-body-lotion-pafjumirovannyj-loson-dlja-tela-koroleva-5/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/jmella-in-france-queen-5-body-lotion-pafjumirovannyj-loson-dlja-tela-koroleva-5.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-7b658fb38e7351f1",
+      "name": "LADOR MOISTURE BALANCING CONDITIONER Увлажняющий бессиликоновый кондиционер для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-moisture-balancing-conditioner-uvlazhnjajushhij-bessilikonovyj-kondicioner-dlja-volos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2020/01/lador-moisture-balan_cond_100ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-f234fe64a1e6bf51",
+      "name": "LADOR ROOT RE-BOOT AWAKENING SHAMPOO RED GINSENG &amp; BEER YEAST Шампунь для волос с женьшенем и пивными дрожжами",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-root-re-boot-awakening-shampoo-red-ginseng-beer-yeast-shampun-dlja-volos-s-zhenshenem-i-pivnymi-drozhzhami/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/02/whatsapp-image-2023-02-24-at-10.40.05-am.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-5dee0de08743c3bc",
+      "name": "LADOR DAMAGE PROTECTOR ACID CONDITIONER Слабокислотный кондиционер для поврежденных волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-damage-protector-acid-conditioner-slabokislotnyj-kondicioner-dlja-povrezhdennyh-volos-v-1-kor-h-10sht/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-damage-protector-acid-conditioner.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-22e26f30b35f0e96",
+      "name": "LADOR MOISTURE BALANCING SHAMPOO Увлажняющий бессиликоновый шампунь",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-moisture-balancing-shampoo-uvlazhnjajushhij-bessilikonovyj-shampun/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2020/01/lador-moisture-balan_shamp_100ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-59438ae4a1a523f1",
+      "name": "LADOR DANDRUFF DEFENSE SHAMPOO Шампунь против перхоти",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-dandruff-defense-shampoo-shampun-protiv-perhoti/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/lador-dandruff-defense-shampoo.png",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-23952e3ef81131fc",
+      "name": "LADOR ROOT RE-BOOT ACTIVATING SHAMPOO CICA &amp; TEA TREE Шампунь для волос с центеллой и чайным деревом",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-root-re-boot-activating-shampoo-cica-tea-tree-shampun-dlja-volos-s-centelloj-i-chajnym-derevom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/lador-root-re-boot-activating-shampoo-cica-tea-tree.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-0158f9dc3ca7f359",
+      "name": "LADOR ROOT RE-BOOT AWAKENING SHAMPOO RED GINSENG &amp; BEER YEAST Шампунь для волос с женьшенем и пивными дрожжами",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-root-re-boot-awakening-shampoo-red-ginseng-beer-yeast-shampun-dlja-volos-s-zhenshenem-i-pivnymi-drozhzhami/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/lador-root-re-boot-awakening-shampoo-red-ginseng-beer-yeast-shampun-dlja-volos-s-zhenshenem-i-pivnymi-drozhzhami-800ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-644990cfadb2dcb0",
+      "name": "LADOR DERMATICAL HAIR LOSS SHAMPOO FOR THIN HAIR Шампунь против выпадения для тонких волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-dermatical-hair-loss-shampoo-for-thin-hair-shampun-protiv-vypadenija-dlja-tonkih-volos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2020/12/lador-dermatical-hair-loss-shampoo-for-thin-hair-530ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-564585094f7a34b0",
+      "name": "LADOR ECO HYDRO LPP TREATMENT Восстанавливающая маска для сухих и поврежденных волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-eco-hydro-lpp-treatment-vosstanavlivajushhaja-maska-dlja-suhih-i-povrezhdennyh-volos-v-1-kor-h-10sht/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-eco-hydro-lpp-treatment2-1.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-185f80363be0c68c",
+      "name": "LADOR ROOT RE-BOOT VITALIZING SHAMPOO PROPOLIS &amp; CITRON Шампунь для волос с прополисом и цитроном",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-root-re-boot-vitalizing-shampoo-propolis-citron-shampun-dlja-volos-s-propolisom-i-citronom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/lador-root-re-boot-vitalizing-shampoo-propolis-citron-shampun-dlja-volos-s-propolisom-i-citronom-800ml-2.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-6f84ad753a5ecb1f",
+      "name": "LADOR TEA TREE CALMING SCALP TREATMENT Успокаивающая маска-бальзам для волос и кожи головы с чайным деревом",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-tea-tree-calming-scalp-treatment-uspokaivajushhaja-maska-balzam-dlja-volos-i-kozhi-golovy-s-chajnym-derevom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/izobrazhenie-whatsapp-2025-07-22-v-13.06.46_c2a3124d.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-ebb5884f8387930d",
+      "name": "LADOR NEWPLEX BALANCING CONDITIONER Мягкий бессиликоновый кондиционер для волос с успокаивающим эффектом",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-newplex-balancing-conditioner-mjagkij-bessilikonovyj-kondicioner-dlja-volos-s-uspokaivajushhim-jeffektom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2024/06/photo_5411561194579417000_y.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-8f6eb722a7f0f204",
+      "name": "LADOR WONDER BUBBLE SHAMPOO Шампунь для глубокого увлажнения и придания объема волосам",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-wonder-bubble-shampoo-shampun-dlja-glubokogo-uvlazhnenija-i-pridanija-objoma-volosam-v-1-kor-h-40sht/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2023/11/whatsapp-image-2026-06-15-at-12.42.33-pm.jpeg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-c2ae9c5b170f1c4b",
+      "name": "LADOR NO SILICONE MOISTURE BALANCING SHAMPOO Увлажняющий бессиликоновый шампунь",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-no-silicorn-moisture-balancing-shampoo-uvlazhnjajushhij-bezsilikonovyj-shampun-v-1-kor-h-10sht/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-moisture-balancing-shampoo.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-fb0e05629f9dd735",
+      "name": "LADOR PERFECT HAIR FILLER (LARGE BOX) Филлер для волос (большая коробка)",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-perfect-hair-filler-large-box-filler-dlja-volos-bolshaja-korobka/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-perfect-hair-filler-4.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-7f39b4d92758594b",
+      "name": "LADOR WONDER BALM Бальзам для волос увлажняющий",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-wonder-balm-balzam-dlja-volos-uvlazhnjajushhij/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2019/01/lador-wonder-balm.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-c39914e2cd905d5a",
+      "name": "LADOR ROOT RE-BOOT PURIFYING SHAMPOO GINGER &amp; APPLE Шампунь для волос с имбирем и яблоком",
+      "sourceUrl": "https://kazkotrade.kz/product/la-dor-root-re-boot-purifying-shampoo-ginger-apple-shampun-dlja-volos-s-imbirem-i-jablokom/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2025/07/lador-root-re-boot-purifying-shampoo-ginger-apple-shampun-dlja-volos-s-imbirem-i-jablokom-800ml.jpg",
+      "supplierKey": "kazkotrade-kz"
+    },
+    {
+      "externalId": "kazkotrade-kz-89bf23370d95779c",
+      "name": "LADOR WONDER HAIR OIL Увлажняющее масло для волос",
+      "sourceUrl": "https://kazkotrade.kz/product/lador-wonder-hair-oil-uvlazhnjajushhee-maslo-dlja-volos/",
+      "imageUrl": "https://kazkotrade.kz/wp-content/uploads/2026/04/whatsapp-image-2026-04-03-at-12.00.35-pm-1.jpeg",
+      "supplierKey": "kazkotrade-kz"
     }
   ]
 }
