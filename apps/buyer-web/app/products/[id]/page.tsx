@@ -227,6 +227,9 @@ export default async function ProductPage({
 
   const media =
     product.liveMedia ??
+    ("media" in product && Array.isArray(product.media)
+      ? (product.media[0] as ProductMedia | undefined)
+      : undefined) ??
     ("imageUrl" in product && product.imageUrl
       ? {
           sourceUrl: `/api/catalog-images/${encodeURIComponent(product.id)}?v=4`,
