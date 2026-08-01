@@ -39,6 +39,7 @@
     "catalog:enrich:beauty-descriptions": "node scripts/enrich-beauty-missing-descriptions.mjs",
     "catalog:dedup:beauty-canonical": "node scripts/build-beauty-canonical-dedup.mjs",
     "catalog:build:beauty-workbook": "node scripts/build-beauty-supplier-workbook.mjs",
+    "catalog:normalize:two-supplier-price-list": "node scripts/normalize-two-supplier-price-list.mjs",
     "catalog:normalize:beauty-local": "node scripts/normalize-beauty-local-media.mjs",
     "catalog:validate:knowledge-graph": "node scripts/validate-product-knowledge-graph.mjs",
     "catalog:audit-kz-intake": "node scripts/audit-kz-catalog-intake.mjs",
