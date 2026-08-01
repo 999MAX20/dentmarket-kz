@@ -10,6 +10,16 @@
   },
   "suppliers": [
     {
+      "key": "topskin-kz",
+      "name": "Topskin",
+      "website": "https://topskin.kz/",
+      "sourceUrl": "https://topskin.kz/sitemap.xml",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_CATALOG_IMPORTED",
+      "categories": ["face-care", "body-care", "professional-cosmetics"],
+      "notes": "Public product pages prepared for canonical discovery; commercial fields remain supplier-owned."
+    },
+    {
       "key": "proface-kz",
       "name": "ProFace",
       "website": "https://shop.proface.kz/",

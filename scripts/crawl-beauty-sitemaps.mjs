@@ -31,6 +31,7 @@ const sources = [
   { key: "profcosmetics-kz", name: "Profcosmetics", sitemap: "https://profcosmetics.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "leoncosmetics-kz", name: "Leon Cosmetics", sitemap: "https://leoncosmetics.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "proface-kz", name: "ProFace", sitemap: "https://shop.proface.kz/sitemap.xml", category: "professional-cosmetics" },
+  { key: "topskin-kz", name: "Topskin", sitemap: "https://topskin.kz/sitemap.xml", category: "professional-cosmetics" },
 ];
 const onlySources = new Set(String(process.env.BEAUTY_SITEMAP_ONLY || "").split(",").map((value) => value.trim()).filter(Boolean));
 
@@ -40,7 +41,7 @@ const key = (value) => crypto.createHash("sha1").update(value).digest("hex").sli
 const isBeauty = (value) => !/(?:полост[ьи] рта|зуб|десн|стомат|ортодонт|имплант|эндодонт|бор|файл эндо)/iu.test(value);
 
 async function fetchText(url) {
-  const response = await fetch(url, { headers: { "user-agent": "DentMarket public catalog research/1.0" } });
+  const response = await fetch(url, { headers: { "user-agent": "DentMarket public catalog research/1.0" }, signal: AbortSignal.timeout(15000) });
   if (!response.ok) throw new Error(`${response.status} ${url}`);
   return { url: response.url, text: await response.text() };
 }
@@ -119,10 +120,14 @@ for (const source of sources.filter((item) => !onlySources.size || onlySources.h
       if (source.key === "indigoshop-kz") return pathname !== "/" && !pathname.endsWith("/");
       if (source.key === "beauty2be-kz") return /\/item\//iu.test(pathname);
       if (source.key === "proface-kz") return /\/product\//iu.test(pathname);
+      if (source.key === "topskin-kz") return /\/catalog\/details\//iu.test(pathname);
       return /\/(?:catalog|product|shop|goods|товар)\//iu.test(pathname) || /\/(?:product|item)-/iu.test(pathname);
     };
-    const sourceLimit = source.key === "nickol-kz" ? Number(process.env.NICKOL_MAX || maxUrlsPerSource) : maxUrlsPerSource;
-    urls = allUrls.filter(candidate).slice(0, sourceLimit);
+    const sourceLimit = source.key === "nickol-kz" ? Number(process.env.NICKOL_MAX || maxUrlsPerSource)
+      : source.key === "topskin-kz" ? Number(process.env.TOPSKIN_MAX || maxUrlsPerSource)
+      : maxUrlsPerSource;
+    const sourceOffset = source.key === "topskin-kz" ? Number(process.env.TOPSKIN_OFFSET || 0) : 0;
+    urls = allUrls.filter(candidate).slice(sourceOffset, sourceOffset + sourceLimit);
   } catch (error) {
     sourceResults.push({ ...source, sitemapUrls: 0, fetched: 0, products: 0, error: error.message });
     continue;
@@ -146,6 +151,7 @@ for (const source of sources.filter((item) => !onlySources.size || onlySources.h
       : source.key === "indigoshop-kz" ? pathname !== "/" && !pathname.endsWith("/")
       : source.key === "beauty2be-kz" ? /\/item\//iu.test(pathname)
       : source.key === "proface-kz" ? /\/product\//iu.test(pathname)
+      : source.key === "topskin-kz" ? /\/catalog\/details\//iu.test(pathname)
       : /\/catalog\//iu.test(pathname);
     const description = clean(product?.description || meta(page.text, "description") || meta(page.text, "og:description"));
     const fallbackImage = clean(image || meta(page.text, "og:image") || page.text.match(/<img[^>]+src\s*=\s*["']?([^"'\s>]*(?:\/thumb\/[^"'\s>]*276r276|\/wp-content\/uploads\/[^"'\s>]+))["']?/iu)?.[1]);

@@ -1,32 +1,19 @@
 {
-  "generatedAt": "2026-08-01T06:09:04.081Z",
+  "generatedAt": "2026-08-01T06:28:04.544Z",
   "sourcePolicy": "Public product metadata only; price, currency, stock, warehouse and lead time intentionally blank.",
   "totals": {
-    "products": 6369,
-    "preservedExistingRows": 6207
+    "products": 6469,
+    "preservedExistingRows": 6369
   },
   "sources": [
     {
-      "key": "proface-kz",
-      "name": "ProFace",
-      "sitemapUrls": 172,
-      "fetched": 172,
-      "products": 162,
-      "errors": 10,
-      "errorSamples": [
-        {
-          "error": "fetch failed",
-          "url": "https://shop.proface.kz/product/celimax-noni-ultimate-eye-cream-almaty"
-        },
-        {
-          "error": "fetch failed",
-          "url": "https://shop.proface.kz/product/manyo-bifida-biome-concentrate-cream-almaty"
-        },
-        {
-          "error": "fetch failed",
-          "url": "https://shop.proface.kz/product/celimax-cica-niacinamide-serum-almaty"
-        }
-      ]
+      "key": "topskin-kz",
+      "name": "Topskin",
+      "sitemapUrls": 100,
+      "fetched": 100,
+      "products": 100,
+      "errors": 0,
+      "errorSamples": []
     }
   ],
   "products": [
@@ -44612,6 +44599,706 @@
       "sourceUrl": "https://shop.proface.kz/product/theramid-derma-peptides-35-complex-serum-almaty",
       "imageUrl": "https://static.tildacdn.pro/stor3065-6632-4466-b164-646635383263/-/resize/504x/ce4e0e027290df2815efb45ca85caf2a.webp",
       "supplierKey": "proface-kz"
+    },
+    {
+      "externalId": "topskin-kz-2db50b84167b9d91",
+      "name": "Celimax Dual Barrier Creamy Toner 150 ml",
+      "sourceUrl": "https://topskin.kz/catalog/details/15029-celimax-dual-barrier-creamy-toner-150-ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/67ab1e14bc66d-izobrazenie_2025-02-11_145323227.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-5a84feff24f176a4",
+      "name": "Dr.Althea Vitamin C boosting serum [Dr.Althea]",
+      "sourceUrl": "https://topskin.kz/catalog/details/9745-vitamin-c-boosting-serum-dr-althea",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/642bddcd55076-izobrazenie_2023-04-04_142028137.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-d5246fd1545ad9a5",
+      "name": "Энзимная пудра для глубокого очищения Real Barrier Porebium Powder Wash",
+      "sourceUrl": "https://topskin.kz/catalog/details/11506-enzimnaya-pudra-dlya-glubokogo-ochishcheniya-real",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/659c182ad98bd-hollyshop-_-2023_11_26t162437.181-_1_.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-cd3ee057f129fe79",
+      "name": "Cменный блокCU SKIN CLEAN-UP SKINFIT CUSHION PACT (SPF50+/PA+++) 21 тон",
+      "sourceUrl": "https://topskin.kz/catalog/details/14355-cmennyi-blokcu-skin-clean-up-skinfit-cushion-pact",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/6926ae2f79231-i.webp",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-adff39c50a6c8641",
+      "name": "Biore UV Aqua Rich Солнцезащитный флюид SPF 50+ 70 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/10013-biore-uv-aqua-rich-solntsezashchitnyi-flyuid-spf-50-70",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-be11f302bffa48fa",
+      "name": "CLEAN-UP MELA W CORRECTOR ИНТЕНСИВНЫЙ ОСВЕТЛЯЮЩИЙ КРЕМ ПРОТИВ ПИГМЕНТАЦИИ",
+      "sourceUrl": "https://topskin.kz/catalog/details/4486-clean-up-mela-w-corrector-intensivnyi-osvetlyayushchii",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/63c8efeec5747-cu-skin-clean-up-mela-w-corrector-intensivny-osvetlyayushchy-krem-protiv-pigmentatsii-1000x1000.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-e7e9e3cc58ed4d4a",
+      "name": "TARTE Консиллер Shape Tape Contour 128",
+      "sourceUrl": "https://topskin.kz/catalog/details/9993-tarte-konsiller-shape-tape-contour-128",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-94bddc3ca0d92338",
+      "name": "Успокаивающий Крем С Экстрактом Ромашки Hyggee Relief Chamomile Cream",
+      "sourceUrl": "https://topskin.kz/catalog/details/9955-uspokaivayushchii-krem-s-ekstraktom-romashki-hyggee",
+      "imageUrl": "https://www.vipstore.kz/image/catalog/0000/4545/fivapro/vapmotl/0103/4444444/000000001/8809561820322_1_ckfbj7iz7pfigwbk.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-f3366c45c4e3d485",
+      "name": "Shiseido FINO Premium Touch Маска для волос с маточным молочком с цветочным ароматом 230 гр",
+      "sourceUrl": "https://topskin.kz/catalog/details/15076-shiseido-fino-premium-touch-maska-dlya-volos-s",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/67fd2aa86cdb0-1rweby84g7fild1bitu1vvvs4e7j6drh.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-c8aa1b9e4abcd817",
+      "name": "Fino Premium Touch Shampoo 550мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/15077-fino-premium-touch-shampoo-550ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/67fd2b41b1ed4-premium_touch_shampoo.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-d51b016cdd8be9b4",
+      "name": "Pre more AQUA GLOW SUN BASE SPF 50+ PA++++",
+      "sourceUrl": "https://topskin.kz/catalog/details/15079-pre-more-aqua-glow-sun-base-spf-50-pa",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/68179a168704c-izobrazenie_2025-05-04_214717793.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-f04fb37e46793734",
+      "name": "TARTE Консиллер Shape Tape Contour 205",
+      "sourceUrl": "https://topskin.kz/catalog/details/9996-tarte-konsiller-shape-tape-contour-205",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-71533f7a4ca79b09",
+      "name": "СЫВОРОТКА ДЛЯ ГЛАЗ С ЖИДКИМИ КРИСТАЛЛАМИ / OPTI CRYSTAL LIQUID",
+      "sourceUrl": "https://topskin.kz/catalog/details/2587-syvorotka-dlya-glaz-s-zhidkimi-kristallami-opti-crystal",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b1e3584fc3c-opti-crystal-7g-cosmedix-nr-scaled.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-e3eb6aa767d03d00",
+      "name": "Безмасляный тонер с центеллой Purito Centella Unscented Toner",
+      "sourceUrl": "https://topskin.kz/catalog/details/9932-bezmaslyanyi-toner-s-tsentelloi-purito-centella",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/644bf99260d78-54654565460.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-fa7ba95f9fe0edae",
+      "name": "1025 DOKDO AMPULE 45G - ЭССЕНЦИЯ ДЛЯ ЧУВСТВИТЕЛЬНОЙ КОЖИ 45Г",
+      "sourceUrl": "https://topskin.kz/catalog/details/9787-round-lab-1025-dokdo-ampule-45g-essentsiya-dlya",
+      "imageUrl": "https://www.vipstore.kz/image/catalog/0000/4545/fivapro/vapmotl/0103/roundlab1025dokdoampule45g-400x350.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-900d3a5f57a9009d",
+      "name": "Безмасляная сыворотка для чувствительной кожи Purito Centella Unscented Serum",
+      "sourceUrl": "https://topskin.kz/catalog/details/9933-bezmaslyanaya-syvorotka-dlya-chuvstvitel-noi-kozhi",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/644bf9b48fcea-izobrazenie_2023-04-28_225202406.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-43b14c9ce86b0443",
+      "name": "Ламеллярный солнцезащитный лосьон для лица Real Barrier Moisture Sun Lotion SPF50+ PA++++",
+      "sourceUrl": "https://topskin.kz/catalog/details/11507-lamellyarnyi-solntsezashchitnyi-los-on-dlya-litsa-real",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/659c187641ace-rb-_1_.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-5b822eb8ba3eb87a",
+      "name": "AESTURA ATOBARRIER365 Cream",
+      "sourceUrl": "https://topskin.kz/catalog/details/15219-aestura-atobarrier365-cream",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/68e37d1e91316-696d674d61696e5064708ddc588b856f162.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-36b9db828f85fb10",
+      "name": "Pom7 Smart Hybrid BB Cream BB крем 21 30 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/15539-pom7-smart-hybrid-bb-cream-bb-krem-21-30-ml",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-0e58454ace176bbe",
+      "name": "МУЛЬТИПЕПТИДНЫЙ ОМОЛАЖИВАЮЩИЙ КРЕМ 50 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/15031-mul-tipeptidnyi-omolazhivayushchii-krem-50-ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/67bfe175306ca-izobrazenie_2025-02-27_085216655.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-286c3aac962db2b9",
+      "name": "HISEIDO FINO Premium Touch Hair Oil 70 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/15078-hiseido-fino-premium-touch-hair-oil-70-ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/67fd2bc4c1ba0-hair_oil2.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-c130c9127623459a",
+      "name": "Cменный блокCU SKIN CLEAN-UP SKINFIT CUSHION PACT (SPF50+/PA+++) 23 тон",
+      "sourceUrl": "https://topskin.kz/catalog/details/14356-cmennyi-blokcu-skin-clean-up-skinfit-cushion-pact",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/6926ae474efef-i.webp",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-4a8405daeda81b6b",
+      "name": "Beauty Of Joseon Revive Eye Serum Ginseng + Retinal 30 ml.",
+      "sourceUrl": "https://topskin.kz/catalog/details/11339-beauty-of-joseon-revive-eye-serum-ginseng-retinal-30",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/656f24bde71c4-41q2ip2rkwl.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-4b6a1df5d0a4e676",
+      "name": "МУЛЬТИПЕПТИДНЫЙ ОМОЛАЖИВАЮЩИЙ КРЕМ ДЛЯ КОЖИ ВОКРУГ ГЛАЗ, 30 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/15015-mul-tipeptidnyi-omolazhivayushchii-krem-dlya-kozhi",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/67696604224d2-izobrazenie_2024-12-23_183045612.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-5d321754bfab6a17",
+      "name": "Dr. Althea сыворотка Retinol Flat Iron Eye Roller Сыворотка-Роллер с Ретинолом Вокруг Глаз 25ml для области вокруг глаз 25 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/15531-dr-althea-syvorotka-retinol-flat-iron-eye-roller",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/69d383c5af506-izobrazenie_2026-04-06_145828993.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-5c8d2b38941e9c7b",
+      "name": "ОЧИЩАЮЩИЙ ГЕЛЬ-ТОНИК 2 В 1 / CLEANSING GEL TONIC 2 IN 1",
+      "sourceUrl": "https://topskin.kz/catalog/details/2423-ochishchayushchii-gel-tonik-2-v-1-cleansing-gel-tonic-2",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b091a245d36-gel-tonic2_1_149.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-2cc03b581f3b15cc",
+      "name": "TARTE Консиллер Shape Tape Contour 22N",
+      "sourceUrl": "https://topskin.kz/catalog/details/9994-tarte-konsiller-shape-tape-contour-22n",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-15cd3909d35acc03",
+      "name": "VT Cosmetics эссенция Cica Reti-A Essence 0.7 для лица 30 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/15450-vt-cosmetics-essentsiya-cica-reti-a-essence-0-7-dlya",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/6969d8648d806-images.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-5d1bb6ea52dd3a23",
+      "name": "ЭССЕНЦИЯ-ТОНИК С РОЗОВОЙ ВОДОЙ/ ROSE TONING ESSENCE",
+      "sourceUrl": "https://topskin.kz/catalog/details/2424-essentsiya-tonik-s-rozovoi-vodoi-rose-toning-essence",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b092057bcef-rose_toning_essence_151.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-301a02c4646914f9",
+      "name": "УСПОКАИВАЮЩАЯ СЫВОРОТКА / SKINOVAGE CALMING SERUM",
+      "sourceUrl": "https://topskin.kz/catalog/details/2435-uspokaivayushchaya-syvorotka-skinovage-calming-serum",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b0966058f30-calming-serum_44.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-7ad24a1ba48ab2ce",
+      "name": "КРЕМ ДЛЯ ПРОБЛЕМНОЙ КОЖИ / SKINOVAGE PURIFYING CREAM",
+      "sourceUrl": "https://topskin.kz/catalog/details/2433-krem-dlya-problemnoi-kozhi-skinovage-purifying-cream",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b095b01759f-purifying-cream_38.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-3709390a0eafff3b",
+      "name": "МАСКА-ПИЛИНГ ДЛЯ ГЛУБОКОГО ОЧИЩЕНИЯ ПОР / CLEANSE & PEEL MASK",
+      "sourceUrl": "https://topskin.kz/catalog/details/2426-maska-piling-dlya-glubokogo-ochishcheniya-por-cleanse",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b092daebf70-cleanse_peel_mask_50ml_155.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-38219eb14315db38",
+      "name": "CU SKIN Atomide Dermatologist Tested",
+      "sourceUrl": "https://topskin.kz/catalog/details/14345-cu-skin-atomide-dermatologist-tested",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/661f827c3c460-izobrazenie_2024-04-17_130411102.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-367df109f74c12d1",
+      "name": "ТЕРМО-ОЧИЩЕНИЕ С ДЕТОКС-ЭФФЕКТОМ / REFINE CELLULAR DETOX LIPO CLEANSER",
+      "sourceUrl": "https://topskin.kz/catalog/details/2440-termo-ochishcheniye-s-detoks-effektom-refine-cellular",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b09bdaac27f-detox-lipo-cleanser_98.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-5c6f8a05fdc61805",
+      "name": "СЫВОРОТКА ДЛЯ КОМБИНИРОВАННОЙ КОЖИ / SKINOVAGE BALANCING SERUM",
+      "sourceUrl": "https://topskin.kz/catalog/details/2436-syvorotka-dlya-kombinirovannoi-kozhi-skinovage",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b0971474bac-balancingserum.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-f62a481fcedb558e",
+      "name": "А16 БУСТЕР КОНЦЕНТРАТ / REFINE CELLULAR A16 BOOSTER CONCENTRATE",
+      "sourceUrl": "https://topskin.kz/catalog/details/2441-a16-buster-kontsentrat-refine-cellular-a16-booster",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b09c47bb947-a16-booster-concentrate_102.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-19faa4597522dfce",
+      "name": "КОНЦЕНТРАТ КОЛЛАГЕН БУСТ ИНФЬЮЖН / LIFTING CELLULAR COLLAGEN BOOST INFUSION",
+      "sourceUrl": "https://topskin.kz/catalog/details/2444-kontsentrat-kollagen-bust-inf-yuzhn-lifting-cellular",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b09dae5bb10-collagen-boost-infusion_115.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-2923197f62e3ddf6",
+      "name": "КРЕМ ДЛЯ КОМБИНИРОВАННОЙ КОЖИ / SKINOVAGE BALANCING CREAM",
+      "sourceUrl": "https://topskin.kz/catalog/details/2437-krem-dlya-kombinirovannoi-kozhi-skinovage-balancing",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b09a98b8817-balancing-cream_60.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-5d9fc8d9118d953d",
+      "name": "КРЕМ-МАСКА ДЛЯ УМЫВАНИЯ С ГЛИНОЙ / CLEANFORMANCE CLAY MULTI-CLEANSER",
+      "sourceUrl": "https://topskin.kz/catalog/details/2472-krem-maska-dlya-umyvaniya-s-glinoi-cleanformance-clay",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b0acbf72402-cleanformance_clay_multi_cleanser_57.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-f1857eeebeef6b55",
+      "name": "КОНЦЕНТРАТ ДЛЯ СУЖЕНИЯ ПОР / REFINE CELLULAR PORE REFINER",
+      "sourceUrl": "https://topskin.kz/catalog/details/2442-kontsentrat-dlya-suzheniya-por-refine-cellular-pore",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b09ca9545da-pore-refiner_106.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-0a9087469dc0db31",
+      "name": "ГИАЛУРОН КРЕМ / HYDRA CELLULAR HYALURON CREAM",
+      "sourceUrl": "https://topskin.kz/catalog/details/2449-gialuron-krem-hydra-cellular-hyaluron-cream",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b0a4029aa1e-_f_i_file_10_147.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-f02a01c1b43d74f1",
+      "name": "Очищающий гидрофильный бальзам с камелией CU SKIN Dr. Solution Camellia Grinding Cleansing Balm 50 г",
+      "sourceUrl": "https://topskin.kz/catalog/details/15554-ochishchayushchii-gidrofil-nyi-bal-zam-s-kameliyei-cu",
+      "imageUrl": "https://s3.rcrm-tech.ru/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/6a26dfff07201-novij-proekt-10.jpg.webp",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-84e96fcb395fee4a",
+      "name": "УСПОКАИВАЮЩЕЕ МОЛОЧКО ДЛЯ УМЫВАНИЯ / NEURO SENSITIVE CELLULAR CALMING CLEANSER",
+      "sourceUrl": "https://topskin.kz/catalog/details/2463-uspokaivayushcheye-molochko-dlya-umyvaniya-neuro",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b0a92e43062-neuro-sensitive_intensive-calming-cleanser_144.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-40c93a09082525ae",
+      "name": "ГЕЛЬ ДЛЯ МЫТЬЯ РУК И ТЕЛА / SPA ENERGIZING HAND & BODY WASH",
+      "sourceUrl": "https://topskin.kz/catalog/details/2500-gel-dlya-myt-ya-ruk-i-tela-spa-energizing-hand-body",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b0b902c73ac-spa-energizing-hand--body-wash-200ml_new_43.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-fbf068fae473e5af",
+      "name": "АМПУЛЫ С РЕТИНОЛОМ / POWER SERUM AMPOULES RETINOL DOCTOR BABOR",
+      "sourceUrl": "https://topskin.kz/catalog/details/2505-ampuly-s-retinolom-power-serum-ampoules-retinol-doctor",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b0bad83ad47-retinol2_3.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-8a1a05adb84e3899",
+      "name": "TARTE Консиллер Shape Tape Contour 125 Ultra Creamy",
+      "sourceUrl": "https://topskin.kz/catalog/details/9995-tarte-konsiller-shape-tape-contour-125",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-a4a6475e1f1bb2bc",
+      "name": "СЫВОРОТКА ДЛЯ ЛИЦА ПРОТИВ МОРЩИН / HSR LIFTING SERUM",
+      "sourceUrl": "https://topskin.kz/catalog/details/2516-syvorotka-dlya-litsa-protiv-morshchin-hsr-lifting-serum",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b0bee3a6174-previ_41.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-6779e5c6fd4b5e9c",
+      "name": "ГЕЛЬ СОЛНЦЕЗАЩИТНЫЙ DR.CEURACLE CICA REGEN VEGAN SUN SPF50 50 МЛ",
+      "sourceUrl": "https://topskin.kz/catalog/details/9923-gel-solntsezashchitnyi-dr-ceuracle-cica-regen-vegan-sun",
+      "imageUrl": "https://www.vipstore.kz/image/catalog/product/vehan_san-_1_.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-2736ac1961540803",
+      "name": "TARTE Консиллер Shape Tape Contour 12N Ultra Creamy",
+      "sourceUrl": "https://topskin.kz/catalog/details/9997-tarte-konsiller-shape-tape-contour-12n",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-ab8367a44c0bd236",
+      "name": "АМПУЛЫ С ГИАЛУРОНОВОЙ КИСЛОТОЙ / POWER SERUM AMPOULES HYALURONIC ACID DOCTOR BABOR",
+      "sourceUrl": "https://topskin.kz/catalog/details/2507-ampuly-s-gialuronovoi-kislotoi-power-serum-ampoules",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b0bbb0029b6-hyaluron_11.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-b47a27bd3809fa70",
+      "name": "PRESS & GLOW Ежедневный отшелушивающий тоник с РНА и активатором ферментов",
+      "sourceUrl": "https://topskin.kz/catalog/details/6972-press-glow-yezhednevnyi-otshelushivayushchii-tonik-s",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/64183c82978ad-611f84b56c12f663b78381462e3e3149.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-e27fa4fd271a15e6",
+      "name": "МАСКА-ПЕНА ДЛЯ ЛИЦА ПРОТИВ МОРЩИН / HSR LIFTING FOAM MASK",
+      "sourceUrl": "https://topskin.kz/catalog/details/2523-maska-pena-dlya-litsa-protiv-morshchin-hsr-lifting-foam",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b0c17fa4b20-hsr_neck_decollete_43.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-02d9dc567d49eea1",
+      "name": "ОЧИЩАЮЩАЯ ФЕРМЕНТНАЯ ПУДРА / ENZYME CLEANSER",
+      "sourceUrl": "https://topskin.kz/catalog/details/2422-ochishchayushchaya-fermentnaya-pudra-enzyme-cleanser",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/6395f4b9e21c5-dizajn-bez-nazvania-(4).jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-4072bd3f52be2d22",
+      "name": "Маска для лица Biodance тканевая Bio Collagen Real Deep Mask 34 мл шт",
+      "sourceUrl": "https://topskin.kz/catalog/details/13806-maska-dlya-litsa-biodance-tkanevaya-bio-collagen-real",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/6602d13cc31d6-85392099803166.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-bd63fc6cd8552874",
+      "name": "HYDRATE+ BROAD SPECTRUM SPF 17 MOSITURIZING SUNSCREEN / УВЛАЖНЯЮЩИЙ КРЕМ С SPF17",
+      "sourceUrl": "https://topskin.kz/catalog/details/2565-hydrate-broad-spectrum-spf-17-mositurizing-sunscreen",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b1d4f1de842-uvlaznaij_dnevnoj_zaitnyj_krem_spf_17_daily_moisturizer_spf_17_hydrate_60_ml_69.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-d3fc025530253020",
+      "name": "Molecular Silk Amino Hydrating Cleanser 250 ml",
+      "sourceUrl": "https://topskin.kz/catalog/details/15150-molecular-silk-amino-hydrating-cleanser-250-ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/689c7bfd54332-izobrazenie_2025-08-13_165021704.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-5e5af7666c0c318d",
+      "name": "TARTE Консиллер Shape Tape Contour 16N Ultra Creamy",
+      "sourceUrl": "https://topskin.kz/catalog/details/9998-tarte-konsiller-shape-tape-contour-16n-ultra-creamy",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-fa9ea1faf7aa6c60",
+      "name": "ВОССТАНАВЛИВАЮЩАЯ ОБОГАЩЕННАЯ МАСКА / RESTORE MOISTURE RICH MASK 37 ГР",
+      "sourceUrl": "https://topskin.kz/catalog/details/2570-vosstanavlivayushchaya-obogashchennaya-maska-restore",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b1d7ec5e1fb-restore_1_3g_84.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-6ff7d0fa3c1eb89f",
+      "name": "Fino Premium Touch Hair Conditioner 550мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/15152-fino-premium-touch-hair-conditioner-550ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/68a98c44ebe88-izobrazenie_2025-08-23_143916470.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-a286527c210a4ad3",
+      "name": "Отшелушивающий тоник с морской водой Round Lab 1025 Dokdo Toner 200 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/2724-otshelushivayushchii-tonik-s-morskoi-vodoi-round-lab",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/635e68497919c-round-lab-1025-dokdo-toner-200.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-46dac319d4ad20c6",
+      "name": "SKIN SMOOTHING SET/ ОЧИЩАЮЩИЙ СЕТ ДЛЯ НАЧАЛЬНОГО УХОДА",
+      "sourceUrl": "https://topskin.kz/catalog/details/2527-skin-smoothing-set-ochishchayushchii-set-dlya",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b0c2de48bae-skinsmooth_20.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-14746be7d21e7432",
+      "name": "Крем для лица Medicube Deep vita C capsule cream 50ml",
+      "sourceUrl": "https://topskin.kz/catalog/details/15538-krem-dlya-litsa-medicube-deep-vita-c-capsule-cream",
+      "imageUrl": "https://s3.rcrm-tech.ru/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/6a02b43398b97-izobrazenie_2026-05-12_100140471.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-ddc787cdb9f45485",
+      "name": "Antioxidant Trio,Тонер Extract it 120ml, Эссенция Oil Essence Essence-Like, Крем для лица Cream Anti-Gravity",
+      "sourceUrl": "https://topskin.kz/catalog/details/3828-huxley-antioxidant-trio-toner-extract-it-120ml",
+      "imageUrl": "https://www.vipstore.kz/image/catalog/4545.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-c16b45239c1e9096",
+      "name": "Отшелушивающий тоник с морской водой Round Lab 1025 Dokdo Toner 100 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/2723-otshelushivayushchii-tonik-s-morskoi-vodoi-round-lab",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/635e680be3b16-round-lab-1025-dokdo-toner-100.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-36d29ced54a1659b",
+      "name": "Успокаивающая пенка для умывания с полынью Round Lab Mugwort Calming Cleanser",
+      "sourceUrl": "https://topskin.kz/catalog/details/2717-uspokaivayushchaya-penka-dlya-umyvaniya-s-polyn-yu",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/635e661d24ae9-round-lab-mugwort-calming-cleanser.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-c1b54335066269aa",
+      "name": "Тоник с комплексом пробиотиков для чувствительной кожи Dr.Ceuracle Pro Balance Biotics Toner",
+      "sourceUrl": "https://topskin.kz/catalog/details/2736-tonik-s-kompleksom-probiotikov-dlya-chuvstvitel-noi",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/635e6d6d6bd23-biotics_toner_na_sajt.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-fcde08f6a6d7fafd",
+      "name": "УВЛАЖНЯЮЩАЯ СЫВОРОТКА / SKINOVAGE MOISTURIZING SERUM",
+      "sourceUrl": "https://topskin.kz/catalog/details/2429-uvlazhnyayushchaya-syvorotka-skinovage-moisturizing",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b094003a3b5-moisurizing-serum_19.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-ec0a9d288d26c38c",
+      "name": "Очищающая пенка с пробиотиками для чувствительной кожи Dr.Ceuracle Pro Balance Creamy Cleasing Foam",
+      "sourceUrl": "https://topskin.kz/catalog/details/2735-ochishchayushchaya-penka-s-probiotikami-dlya",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/635e6d31631d3-pro_balance_creamy_cleansing_foam.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-0836f310f84e1aa6",
+      "name": "TARTE Консиллер Shape Tape Contour 8B",
+      "sourceUrl": "https://topskin.kz/catalog/details/10003-tarte-konsiller-shape-tape-contour-8b",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-790638ea5e51dda9",
+      "name": "TARTE Консиллер Shape Tape Contour 12N",
+      "sourceUrl": "https://topskin.kz/catalog/details/10000-tarte-konsiller-shape-tape-contour-12n",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-ab36ecd7a041897b",
+      "name": "BIDALLI Vegan Green Mild Cleansing Balm бальзам 100 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/14821-bidalli-vegan-green-mild-cleansing-balm-bal-zam-100-ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/66603074d876d-izobrazenie_2024-06-05_143154199.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-5ea4adc839248434",
+      "name": "Успокаивающий тонер для чувствительной кожи с 92% центеллы Dr.Ceuracle Cica Regen 92 Toner",
+      "sourceUrl": "https://topskin.kz/catalog/details/2739-uspokaivayushchii-toner-dlya-chuvstvitel-noi-kozhi-s-92",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/635e6e66cecd0-cica-regen-92-toner-dr.ceuracle.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-923ba3631c9240c2",
+      "name": "TARTE Консиллер Shape Tape Contour 20B Ultra Creamy",
+      "sourceUrl": "https://topskin.kz/catalog/details/9999-tarte-konsiller-shape-tape-contour-20b-ultra-creamy",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-64cc0b4fb38ed98a",
+      "name": "Cu Skin Clean-Up Collagen sleeping mask",
+      "sourceUrl": "https://topskin.kz/catalog/details/11338-cu-skin-clean-up-collagen-sleeping-mask",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-02e14015dd1c9b63",
+      "name": "BIDALLI сыворотка Hyaluronic Pure Cica для лица 50 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/14820-bidalli-syvorotka-hyaluronic-pure-cica-dlya-litsa-50",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/66603031e94bc-84560828366878.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-a7ec95ac139ebc2d",
+      "name": "Крем для проблемной кожи с 80% чайного дерева Dr.Ceuracle Tea Tree Purifine 80 Cream",
+      "sourceUrl": "https://topskin.kz/catalog/details/2743-krem-dlya-problemnoi-kozhi-s-80-chainogo-dereva",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/635e6fb6d2379-tea_tree_purifine.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-ad917d8fc7532fb4",
+      "name": "АМПУЛЫ BABOR FLUID AMPOULE BEAUTY EFFECT 6ML",
+      "sourceUrl": "https://topskin.kz/catalog/details/2512-ampuly-babor-fluid-ampoule-beauty-effect-6ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/62b0bd6e7f36b-minimal_effort_10.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-6073e9298277c9c0",
+      "name": "PURCELL Pixcell Biom Booster Shot Powder 10ea",
+      "sourceUrl": "https://topskin.kz/catalog/details/15562-purcell-pixcell-biom-booster-shot-powder-10ea",
+      "imageUrl": "https://s3.rcrm-tech.ru/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/6a688300866ea-b6c440a6-3f6e-42a4-bcb0-450144cff655.webp",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-6d20edc76b9be066",
+      "name": "Celimax Бустер-крем с ретиналем «Celimax The Vita-A Retinal Shot Tightening Booster»",
+      "sourceUrl": "https://topskin.kz/catalog/details/15021-celimax-buster-krem-s-retinalem-celimax-the-vita-a",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/677d2febc8e7a-4082744_1000.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-ad7f7033e694c88c",
+      "name": "Омолаживающий питательный крем с соей Round Lab Soybean Nourishing Cream",
+      "sourceUrl": "https://topskin.kz/catalog/details/2901-omolazhivayushchii-pitatel-nyi-krem-s-soyei-round-lab",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/639801515c341-round-lab-soybean-nourishing-cream.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-a82266f5fa649a5b",
+      "name": "CU SKIN Vitamin U SERUM mist ADVANSED WITH SKIN SOLUTION",
+      "sourceUrl": "https://topskin.kz/catalog/details/15555-cu-skin-vitamin-u-serum-mist-advansed-with-skin",
+      "imageUrl": "https://s3.rcrm-tech.ru/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/6a26e134042de-images.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-2dafe1bcb4a6deb1",
+      "name": "BIDALLI крем Calming pure для лица 80 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/14822-bidalli-krem-calming-pure-dlya-litsa-80-ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/666030cdf0c89-izobrazenie_2024-06-05_143322669.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-58342cb1a3aedb3b",
+      "name": "BIDALLI сыворотка Tone-up Pure Vita для лица 50 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/14817-bidalli-syvorotka-tone-up-pure-vita-dlya-litsa-50-ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/66602f787e568-izobrazenie_2024-06-05_142741766.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-51305fc5099e99e8",
+      "name": "Pine Calming Cica Cream Успокаивающий крем для чувствительной, жирной и проблемной кожи",
+      "sourceUrl": "https://topskin.kz/catalog/details/2903-round-lab-pine-calming-cica-cream-uspokaivayushchii",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/63980277d372f-round-lab-pine-calming-cica-cream.800x400.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-3128645c82487686",
+      "name": "Питательная пенка-скраб для умывания с соей Round Lab Soybean Cleanser",
+      "sourceUrl": "https://topskin.kz/catalog/details/2902-pitatel-naya-penka-skrab-dlya-umyvaniya-s-soyei-round",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/639801af8924d-round-lab-soybean-cleanser.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-e34f67b67b49a4df",
+      "name": "BIDALLI мист All in one Mist 100 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/14825-bidalli-mist-all-in-one-mist-100-ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/66603162652ca-izobrazenie_2024-06-05_143551778.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-050e272992d20485",
+      "name": "НОЧНОЙ КРЕМ ДЛЯ ЛИЦА ALLIES OF SKIN RETINAL 0.05% + PEPTIDES ADVANCED REPAIR NIGHT CREAM 50 ML",
+      "sourceUrl": "https://topskin.kz/catalog/details/15005-nochnoi-krem-dlya-litsa-allies-of-skin-retinal-0-05",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/67346c3e64166-izobrazenie_2024-11-13_140706358.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-b973a002d6047f5b",
+      "name": "BIDALLI крем Panthenol Daily Repair для лица 80 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/14823-bidalli-krem-panthenol-daily-repair-dlya-litsa-80-ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/666031073d87f-izobrazenie_2024-06-05_143420424.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-e3b438133f1e85b2",
+      "name": "Успокаивающий крем с витамином К CU:Skin Clean-Up Intensive Cream",
+      "sourceUrl": "https://topskin.kz/catalog/details/2694-uspokaivayushchii-krem-s-vitaminom-k-cu-skin-clean-up",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/635a7f6239537-clean_up-calming-intensive-cream.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-7ed6d77a96a14ad3",
+      "name": "TARTE Консиллер Shape Tape Contour 16N",
+      "sourceUrl": "https://topskin.kz/catalog/details/10001-tarte-konsiller-shape-tape-contour-16n",
+      "imageUrl": "null",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-33b785d21035e59f",
+      "name": "Тон Pre More Natural Cover BB Cream Vanilla Nude SPF20 PA++ 50 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/14962-ton-pre-more-natural-cover-bb-cream-vanilla-nude-spf20",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/669e7a766ceaa-izobrazenie_2024-07-22_202749024.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-355fdc265019b1c4",
+      "name": "Сыворотка SKIN1004 Madagascar Centella Ampoule 30 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/2705-syvorotka-skin1004-madagascar-centella-ampoule-30-ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/635e60930b581-937a55f2-64c8-2bf0-ab35-5fbb35f611ee.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-1a3b52fdc1c4aa2c",
+      "name": "СПРЕЙ АНТИ-АКНЕ, 100 мл",
+      "sourceUrl": "https://topskin.kz/catalog/details/15016-sprei-anti-akne-100-ml",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/676966f9e9d8c-izobrazenie_2024-12-23_183451369.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-013c7e60b9a5785e",
+      "name": "Ceramidin Body Butter",
+      "sourceUrl": "https://topskin.kz/catalog/details/3721-dr-jart-ceramidin-body-butter",
+      "imageUrl": "https://www.vipstore.kz/image/catalog/1140558688.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-70c573a6db04dd9d",
+      "name": "Anua, сыворотка с витамином С и зеленым лимоном, 20% для устранения несовершенств кожи, 20 г (0,70 жидк. унции)",
+      "sourceUrl": "https://topskin.kz/catalog/details/14364-anua-syvorotka-s-vitaminom-s-i-zelenym-limonom-20-dlya",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/663df07e88f03-izobrazenie_2024-05-10_150138255.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-befcf1623737c8c4",
+      "name": "VT REEDLE SHOT 700",
+      "sourceUrl": "https://topskin.kz/catalog/details/15570-vt-reedle-shot-700",
+      "imageUrl": "https://s3.rcrm-tech.ru/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/6a699b00348eb-hollyshop-_-2025_05_16t091409.152-_1_.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-20dc1c982420eca4",
+      "name": "Cicapair Toner Tonique 150 мл. (Тонер с экстрактом центеллы)",
+      "sourceUrl": "https://topskin.kz/catalog/details/3732-dr-jart-cicapair-toner-tonique-150-ml-toner-s",
+      "imageUrl": "https://www.vipstore.kz/image/catalog/88888.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-82544bfdf94d7f7c",
+      "name": "Dermask Intra Jet Wrinkless Solution 5 шт.",
+      "sourceUrl": "https://topskin.kz/catalog/details/3739-dr-jart-dermask-intra-jet-wrinkless-solution-5-sht",
+      "imageUrl": "https://www.vipstore.kz/image/catalog/1106540538.jpg",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-c227b8461c90fa58",
+      "name": "Гидрогелевые патчи с волюфилином, пептидами и витамином U CU SKIN VITAMIN U Hydro Gel Eye Patch",
+      "sourceUrl": "https://topskin.kz/catalog/details/2688-gidrogelevyye-patchi-s-volyufilinom-peptidami-i",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/635a7cb5c8659-cu_skin_vitamin_u_hydro_gel_eye_patch_happymix_3-600x600.png",
+      "supplierKey": "topskin-kz"
+    },
+    {
+      "externalId": "topskin-kz-3c6fcfdc0ec0bbf5",
+      "name": "One Thing Houttuynia Cordata Extract",
+      "sourceUrl": "https://topskin.kz/catalog/details/15226-one-thing-houttuynia-cordata-extract",
+      "imageUrl": "https://s3-s1.retailcrm.tech/ru-central1/retailcrm/vipstore-3af40ce27a6651182ab2888583ab121e/product/68e52c92e684d-images.jpg",
+      "supplierKey": "topskin-kz"
     }
   ]
 }

@@ -34,6 +34,13 @@
   ],
   "sources": [
     {
+      "supplierKey": "topskin-kz",
+      "sourceUrl": "https://topskin.kz/sitemap.xml",
+      "allowedFields": ["name", "brand", "description", "category", "imageUrl", "sourceUrl"],
+      "blockedFields": ["priceMinor", "currency", "quantityOnHand", "warehouse", "leadTimeDays"],
+      "status": "prepared"
+    },
+    {
       "supplierKey": "proface-kz",
       "sourceUrl": "https://shop.proface.kz/sitemap.xml",
       "allowedFields": ["name", "brand", "description", "category", "imageUrl", "sourceUrl"],
