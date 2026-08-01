@@ -10,6 +10,16 @@
   },
   "suppliers": [
     {
+      "key": "vlaekan-store-kz",
+      "name": "VLAEKAN Store",
+      "website": "https://vlaekan.store/",
+      "sourceUrl": "https://vlaekan.store/sitemap.xml",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_CATALOG_IMPORTED",
+      "categories": ["face-care", "hair-care", "professional-cosmetics"],
+      "notes": "Public VLAEKAN product sitemap prepared for canonical discovery; commercial fields remain supplier-owned."
+    },
+    {
       "key": "kazkotrade-kz",
       "name": "Kazko Trade",
       "website": "https://kazkotrade.kz/",

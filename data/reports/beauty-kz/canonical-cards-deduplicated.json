@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-01T08:17:38.642Z",
+  "generatedAt": "2026-08-01T08:27:13.550Z",
   "inputs": [
     "data/intake/beauty-kz/ucg-kz.csv",
     "data/intake/beauty-kz/public-catalog-discovery.csv",
     "data/intake/beauty-kz/public-catalog-discovery-expanded.csv",
     "data/intake/beauty-kz/public-catalog-sitemap.csv"
   ],
-  "sourceRows": 8726,
-  "canonicalCards": 8171,
-  "duplicatesCollapsed": 555,
+  "sourceRows": 9497,
+  "canonicalCards": 8881,
+  "duplicatesCollapsed": 616,
   "commercialRows": 0,
-  "cardsWithoutImage": 82,
-  "cardsWithoutDescription": 646
+  "cardsWithoutImage": 158,
+  "cardsWithoutDescription": 643
 }
