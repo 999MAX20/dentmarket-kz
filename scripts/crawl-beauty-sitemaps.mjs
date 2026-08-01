@@ -178,7 +178,7 @@ for (const source of sources.filter((item) => !onlySources.size || onlySources.h
       supplierKey: source.key,
       supplierName: source.name,
     };
-  }, source.key === "nickol-kz" ? 2 : concurrency);
+  }, source.key === "nickol-kz" ? 2 : source.key === "topskin-kz" ? 20 : concurrency);
   const valid = pages.filter((item) => item && !item.error);
   rows.push(...valid);
   sourceResults.push({ key: source.key, name: source.name, sitemapUrls: urls.length, fetched: pages.length, products: valid.length, errors: pages.filter((item) => item?.error).length, errorSamples: pages.filter((item) => item?.error).slice(0, 3) });
