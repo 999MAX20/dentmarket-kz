@@ -1,4 +1,4 @@
-{
+  {
   "schemaVersion": 1,
   "vertical": "beauty-kz",
   "market": "KZ",
@@ -9,6 +9,16 @@
     "DOCUMENT_REQUIRED": "Do not publish an offer until the supplier provides authorization, catalog source, BIN and compliance documents."
   },
   "suppliers": [
+    {
+      "key": "proface-kz",
+      "name": "ProFace",
+      "website": "https://shop.proface.kz/",
+      "sourceUrl": "https://shop.proface.kz/sitemap.xml",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_CATALOG_IMPORTED",
+      "categories": ["face-care", "professional-cosmetics"],
+      "notes": "Public product pages prepared for canonical discovery; commercial fields remain supplier-owned."
+    },
     {
       "key": "proff-kz",
       "name": "PROФФ-KZ",
@@ -218,6 +228,36 @@
       "catalogSourceType": "PUBLIC_WEB_CATALOG",
       "categories": ["professional-cosmetics", "hair-care", "beauty-tools"],
       "notes": "Public professional hair and salon-care catalogue. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
+    },
+    {
+      "key": "beautyguide-kz",
+      "name": "Beauty Guide",
+      "website": "https://beautyguide.kz/",
+      "sourceUrl": "https://beautyguide.kz/catalog",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_WEB_CATALOG",
+      "categories": ["professional-cosmetics", "hair-care", "beauty-tools", "salon-equipment"],
+      "notes": "Public Kazakhstan professional beauty catalogue. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
+    },
+    {
+      "key": "indigoshop-kz",
+      "name": "Indigo Shop",
+      "website": "https://indigoshop.kz/",
+      "sourceUrl": "https://indigoshop.kz/",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_WEB_CATALOG",
+      "categories": ["professional-cosmetics", "hair-care", "nail-products", "beauty-tools"],
+      "notes": "Public Kazakhstan professional hair, nail and salon-tools catalogue. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
+    },
+    {
+      "key": "beauty2be-kz",
+      "name": "Beauty2be",
+      "website": "https://beauty2be.kz/",
+      "sourceUrl": "https://beauty2be.kz/catalog/",
+      "verificationStatus": "DISCOVERED",
+      "catalogSourceType": "PUBLIC_WEB_CATALOG",
+      "categories": ["professional-cosmetics", "face-care", "body-care", "hair-care"],
+      "notes": "Public Kazakhstan Korean cosmetics catalogue. Product metadata is discovery evidence only; supplier identity, brand authorization and commercial feed require onboarding documents."
     }
   ],
   "brands": [

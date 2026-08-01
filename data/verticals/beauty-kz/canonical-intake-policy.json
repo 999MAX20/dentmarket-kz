@@ -34,6 +34,13 @@
   ],
   "sources": [
     {
+      "supplierKey": "proface-kz",
+      "sourceUrl": "https://shop.proface.kz/sitemap.xml",
+      "allowedFields": ["name", "brand", "description", "category", "imageUrl", "sourceUrl"],
+      "blockedFields": ["priceMinor", "currency", "quantityOnHand", "warehouse", "leadTimeDays"],
+      "status": "prepared"
+    },
+    {
       "supplierKey": "proff-kz",
       "template": "data/templates/beauty-kz/proff-kz.csv",
       "status": "READY_FOR_CATALOG_FILE"
@@ -130,6 +137,21 @@
     },
     {
       "supplierKey": "leoncosmetics-kz",
+      "template": "data/intake/beauty-kz/public-catalog-sitemap.csv",
+      "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
+    },
+    {
+      "supplierKey": "beautyguide-kz",
+      "template": "data/intake/beauty-kz/public-catalog-sitemap.csv",
+      "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
+    },
+    {
+      "supplierKey": "indigoshop-kz",
+      "template": "data/intake/beauty-kz/public-catalog-sitemap.csv",
+      "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
+    },
+    {
+      "supplierKey": "beauty2be-kz",
       "template": "data/intake/beauty-kz/public-catalog-sitemap.csv",
       "status": "PUBLIC_CATALOG_DISCOVERY_REVIEW"
     }

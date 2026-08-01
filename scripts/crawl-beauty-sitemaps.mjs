@@ -17,6 +17,9 @@ const sources = [
   { key: "procosmetics-kz", name: "PRO COSMETICS", sitemap: "https://procosmetics.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "dd-business-kz", name: "DD Business", sitemap: "https://ddup.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "janssen-kz", name: "Janssen Cosmetics Kazakhstan", sitemap: "https://janssen-cosmetics.kz/sitemap.xml", category: "professional-cosmetics" },
+  { key: "beautyguide-kz", name: "Beauty Guide", sitemap: "https://beautyguide.kz/sitemap.xml", category: "professional-cosmetics" },
+  { key: "indigoshop-kz", name: "Indigo Shop", sitemap: "https://indigoshop.kz/sitemap.xml", category: "professional-cosmetics" },
+  { key: "beauty2be-kz", name: "Beauty2be", sitemap: "https://beauty2be.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "beeyoung-kz", name: "Beeyoung", sitemap: "https://beeyoung.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "aif-cosmetics-kz", name: "AIF Cosmetics", sitemap: "https://aifcosmetic.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "fox-beauty-house-kz", name: "Fox Beauty House", sitemap: "https://foxbeautyhouse.com/sitemap.xml", category: "professional-cosmetics" },
@@ -27,6 +30,7 @@ const sources = [
   { key: "mollystore-kz", name: "Molly", sitemap: "https://mollystore.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "profcosmetics-kz", name: "Profcosmetics", sitemap: "https://profcosmetics.kz/sitemap.xml", category: "professional-cosmetics" },
   { key: "leoncosmetics-kz", name: "Leon Cosmetics", sitemap: "https://leoncosmetics.kz/sitemap.xml", category: "professional-cosmetics" },
+  { key: "proface-kz", name: "ProFace", sitemap: "https://shop.proface.kz/sitemap.xml", category: "professional-cosmetics" },
 ];
 const onlySources = new Set(String(process.env.BEAUTY_SITEMAP_ONLY || "").split(",").map((value) => value.trim()).filter(Boolean));
 
@@ -73,7 +77,9 @@ function jsonLd(html) {
 
 function meta(html, name) {
   const escaped = name.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&");
-  return html.match(new RegExp(`<meta[^>]+(?:property|name)=["']${escaped}["'][^>]+content=["']([^"']*)["']`, "iu"))?.[1] ?? "";
+  const forward = html.match(new RegExp(`<meta[^>]+(?:property|name)=["']${escaped}["'][^>]+content=["']([^"']*)["']`, "iu"));
+  const reverse = html.match(new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]+(?:property|name)=["']${escaped}["']`, "iu"));
+  return forward?.[1] ?? reverse?.[1] ?? "";
 }
 
 async function worker(urls, fn, workerLimit = concurrency) {
@@ -109,6 +115,10 @@ for (const source of sources.filter((item) => !onlySources.size || onlySources.h
       if (source.key === "leoncosmetics-kz") return /\/urun\//iu.test(pathname);
       if (source.key === "fox-beauty-house-kz") return /\/product\//iu.test(pathname);
       if (source.key === "janssen-kz") return /\/shop\/product\//iu.test(pathname);
+      if (source.key === "beautyguide-kz") return /\/products\//iu.test(pathname);
+      if (source.key === "indigoshop-kz") return pathname !== "/" && !pathname.endsWith("/");
+      if (source.key === "beauty2be-kz") return /\/item\//iu.test(pathname);
+      if (source.key === "proface-kz") return /\/product\//iu.test(pathname);
       return /\/(?:catalog|product|shop|goods|товар)\//iu.test(pathname) || /\/(?:product|item)-/iu.test(pathname);
     };
     const sourceLimit = source.key === "nickol-kz" ? Number(process.env.NICKOL_MAX || maxUrlsPerSource) : maxUrlsPerSource;
@@ -132,6 +142,10 @@ for (const source of sources.filter((item) => !onlySources.size || onlySources.h
       : source.key === "leoncosmetics-kz" ? /\/urun\//iu.test(pathname)
       : source.key === "fox-beauty-house-kz" ? /\/product\//iu.test(pathname)
       : source.key === "janssen-kz" ? /\/shop\/product\//iu.test(pathname)
+      : source.key === "beautyguide-kz" ? /\/products\//iu.test(pathname)
+      : source.key === "indigoshop-kz" ? pathname !== "/" && !pathname.endsWith("/")
+      : source.key === "beauty2be-kz" ? /\/item\//iu.test(pathname)
+      : source.key === "proface-kz" ? /\/product\//iu.test(pathname)
       : /\/catalog\//iu.test(pathname);
     const description = clean(product?.description || meta(page.text, "description") || meta(page.text, "og:description"));
     const fallbackImage = clean(image || meta(page.text, "og:image") || page.text.match(/<img[^>]+src\s*=\s*["']?([^"'\s>]*(?:\/thumb\/[^"'\s>]*276r276|\/wp-content\/uploads\/[^"'\s>]+))["']?/iu)?.[1]);

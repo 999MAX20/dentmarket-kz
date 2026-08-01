@@ -36,6 +36,7 @@
     "catalog:crawl:beauty-public-sources": "node scripts/crawl-beauty-public-sources.mjs",
     "catalog:crawl:beauty-sitemaps": "node scripts/crawl-beauty-sitemaps.mjs",
     "catalog:enrich:beauty-images": "node scripts/enrich-beauty-missing-images.mjs",
+    "catalog:enrich:beauty-descriptions": "node scripts/enrich-beauty-missing-descriptions.mjs",
     "catalog:dedup:beauty-canonical": "node scripts/build-beauty-canonical-dedup.mjs",
     "catalog:build:beauty-workbook": "node scripts/build-beauty-supplier-workbook.mjs",
     "catalog:normalize:beauty-local": "node scripts/normalize-beauty-local-media.mjs",
