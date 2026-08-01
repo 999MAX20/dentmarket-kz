@@ -44,21 +44,27 @@ const headers = Object.keys(rows[0] ?? {});
 const candidates = rows.filter((row) => !row.description && row.sourceUrl);
 let enriched = 0;
 let removedNonProducts = 0;
-for (const row of candidates) {
+const results = await Promise.all(candidates.map(async (row) => {
   try {
-    const response = await fetch(row.sourceUrl, { headers: { "user-agent": "DentMarket public catalog research/1.0" } });
-    if (!response.ok) continue;
+    const response = await fetch(row.sourceUrl, { headers: { "user-agent": "DentMarket public catalog research/1.0" }, signal: AbortSignal.timeout(15000) });
+    if (!response.ok) return row;
     const html = await response.text();
     const description = jsonLdDescription(html) || meta(html, "description") || meta(html, "og:description") || tabDescription(html);
     if (description.length >= 40) {
       row.description = description;
-      enriched += 1;
+      return { ...row, __enriched: true };
     } else if (/\/catalog\//iu.test(new URL(row.sourceUrl).pathname) && !/<(?:h1|h2)[^>]*>[^<]{3,}<\/(?:h1|h2)>/iu.test(html)) {
       row.__remove = true;
-      removedNonProducts += 1;
+      return { ...row, __removedNonProduct: true };
     }
   } catch { /* public source may be unavailable; retain the review queue */ }
-}
-const kept = rows.filter((row) => !row.__remove).map(({ __remove, ...row }) => row);
+  return row;
+}));
+enriched = results.filter((row) => row.__enriched).length;
+removedNonProducts = results.filter((row) => row.__removedNonProduct).length;
+const updates = new Map(results.map((row) => [row.sourceUrl, row]));
+const kept = rows.map((row) => updates.get(row.sourceUrl) ?? row)
+  .filter((row) => !row.__remove)
+  .map(({ __remove, __enriched, __removedNonProduct, ...row }) => row);
 await fs.writeFile(file, `${headers.join(",")}\n${kept.map((row) => headers.map((header) => csv(row[header])).join(",")).join("\n")}\n`);
 console.log(JSON.stringify({ candidates: candidates.length, enriched, removedNonProducts, remaining: kept.filter((row) => !row.description).length, file }, null, 2));
