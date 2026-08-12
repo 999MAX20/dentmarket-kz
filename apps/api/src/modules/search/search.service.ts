@@ -392,7 +392,10 @@ export class SearchService {
                   level: offer.packaging.level,
                   quantityInBaseUnit:
                     offer.packaging.quantityInBaseUnit.toString(),
-                  unit: offer.packaging.unit.symbol,
+                  unit:
+                    offer.saleUnit?.symbol ??
+                    product.baseUnit?.symbol ??
+                    null,
                 }
               : {
                   name: offer.saleUnit?.nameRu ?? "Единица продажи",
@@ -553,10 +556,6 @@ export class SearchService {
           include: {
             saleUnit: true,
             attributeValues: { include: { attribute: true } },
-            packagings: {
-              where: { status: "ACTIVE" },
-              include: { unit: true },
-            },
             supplierOffers: {
               where: {
                 status: "ACTIVE",
@@ -571,7 +570,7 @@ export class SearchService {
                 supplier: { include: { organization: true } },
                 publication: true,
                 saleUnit: true,
-                packaging: { include: { unit: true } },
+                packaging: true,
                 prices: {
                   where: {
                     status: "ACTIVE",
@@ -738,7 +737,10 @@ export class SearchService {
                   name: offer.packaging.name,
                   quantityInBaseUnit:
                     offer.packaging.quantityInBaseUnit.toString(),
-                  unit: offer.packaging.unit.symbol,
+                  unit:
+                    offer.saleUnit?.symbol ??
+                    product.baseUnit?.symbol ??
+                    null,
                 }
               : {
                   name: offer.saleUnit?.nameRu ?? null,
