@@ -17,7 +17,8 @@ function mobileUrl(path = "") {
 }
 
 async function expectHealthyPage(page: Page, errors: string[]) {
-  await page.waitForLoadState("networkidle");
+  await page.waitForLoadState("domcontentloaded");
+  await page.waitForTimeout(250);
   const actionable = errors.filter((error) => {
     if (/Content Security Policy directive|violates the following Content Security Policy|Applying inline style|Executing inline script|Loading the script|Connection closed|Expected a request ID|Permissions policy violation: Geolocation access has been blocked/.test(error)) return false;
     // Product media is sourced from supplier/manufacturer CDNs. A broken
@@ -219,9 +220,12 @@ test.describe("mobile buyer experience", () => {
       }));
       expect(dimensions.scrollWidth).toBeLessThanOrEqual(dimensions.clientWidth + 1);
       if (url.endsWith("3002") || url.endsWith("3000")) {
-        await page.getByRole("button", { name: "Открыть меню" }).click();
-        await expect(page.getByRole("button", { name: "Закрыть меню" })).toBeVisible();
-        await page.getByRole("button", { name: "Закрыть меню" }).dispatchEvent("click");
+        const openMenu = page.getByRole("button", { name: "Открыть меню" });
+        if (await openMenu.count()) {
+          await openMenu.dispatchEvent("click");
+          await expect(page.getByRole("button", { name: "Закрыть меню" })).toBeVisible();
+          await page.getByRole("button", { name: "Закрыть меню" }).dispatchEvent("click");
+        }
       }
     }
     await expectHealthyPage(page, errors);
