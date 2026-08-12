@@ -77,7 +77,7 @@ jobs:
           pnpm verify:security
           pnpm verify:onboarding-agreement
           pnpm verify:trust-geo
-          pnpm verify:web
+          E2E_PRODUCTION=1 pnpm verify:web
       - name: Upload failure diagnostics
         if: failure()
         uses: actions/upload-artifact@v4
