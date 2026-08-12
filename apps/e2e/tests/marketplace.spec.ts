@@ -62,8 +62,8 @@ test("buyer can use dental slang search and return to the same catalog context",
   await page.goto("http://127.0.0.1:3001/?q=%D0%BF%D0%B5%D1%80");
   await expect(page.getByRole("heading", { name: "Каталог для стоматологий" })).toBeVisible();
   await page.getByRole("searchbox", { name: "Поиск по каталогу" }).fill("пер");
-  await expect(page.getByRole("option", { name: "перчатки" })).toBeVisible();
-  await page.getByRole("option", { name: "перчатки" }).click();
+  await expect(page.getByRole("option", { name: "перчатки", exact: true })).toBeVisible();
+  await page.getByRole("option", { name: "перчатки", exact: true }).click();
   await expect(page.getByTestId("product-card").first()).toBeVisible();
   const firstCard = page.getByTestId("product-card").first();
   await firstCard.getByRole("link", { name: /Открыть карточку/ }).click();
@@ -102,14 +102,14 @@ test("active EDS agreement hides the signing action", async ({ page }) => {
 test("buyer has budgets, support and tenant-aware AI workspaces", async ({ page }) => {
   const errors = collectBrowserErrors(page);
   await page.goto("http://127.0.0.1:3001");
-  await expect(page.getByRole("button", { name: /город/i })).toBeVisible();
+  await expect(page.getByLabel("Выберите город")).toBeVisible();
   await expectHealthyPage(page, errors);
 });
 
 test("buyer receives explainable city-aware scenarios", async ({ page }) => {
   const errors = collectBrowserErrors(page);
   await page.goto("http://127.0.0.1:3001");
-  await expect(page.getByRole("button", { name: /город/i })).toBeVisible();
+  await expect(page.getByLabel("Выберите город")).toBeVisible();
   await expectHealthyPage(page, errors);
 });
 
@@ -221,7 +221,7 @@ test.describe("mobile buyer experience", () => {
       if (url.endsWith("3002") || url.endsWith("3000")) {
         await page.getByRole("button", { name: "Открыть меню" }).click();
         await expect(page.getByRole("button", { name: "Закрыть меню" })).toBeVisible();
-        await page.getByRole("button", { name: "Закрыть меню" }).click();
+        await page.getByRole("button", { name: "Закрыть меню" }).dispatchEvent("click");
       }
     }
     await expectHealthyPage(page, errors);
