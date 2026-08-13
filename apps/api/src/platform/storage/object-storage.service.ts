@@ -9,7 +9,10 @@ export type StoredObject = { key: string; size: number; contentType: string };
 @Injectable()
 export class ObjectStorageService {
   private readonly driver = process.env.OBJECT_STORAGE_DRIVER ?? "local";
-  private readonly root = resolve(process.env.LOCAL_STORAGE_PATH ?? ".local-storage");
+  private readonly root = resolve(
+    process.env.LOCAL_STORAGE_PATH ??
+      (process.env.VERCEL ? "/tmp/dentmarket-local-storage" : ".local-storage"),
+  );
   private readonly bucket = process.env.S3_BUCKET ?? "marketplace";
   private readonly s3 = this.driver === "s3" ? new S3Client({
     region: process.env.S3_REGION ?? "us-east-1",
