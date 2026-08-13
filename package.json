@@ -169,7 +169,7 @@
     "load-test:search": "node scripts/load-test-search.mjs",
     "load-test:handoff": "node scripts/load-test-handoff.mjs",
     "verify:release": "pnpm typecheck && pnpm test && pnpm build && pnpm verify:production-config",
-  "verify:web": "pnpm --filter @marketplace/e2e e2e",
+    "verify:web": "pnpm --filter @marketplace/e2e e2e",
     "verify:web:mobile": "MOBILE_BUYER_ONLY=1 pnpm --filter @marketplace/e2e exec playwright test --config=playwright.mobile.config.ts",
     "verify:web:mobile:production": "MOBILE_BASE_URL=https://dentmarket-shop.vercel.app MOBILE_BUYER_ONLY=1 pnpm --filter @marketplace/e2e exec playwright test --config=playwright.mobile.config.ts",
     "test:containers": "RUN_TESTCONTAINERS=1 pnpm --filter @marketplace/api test -- postgres-concurrency.testcontainers.spec.ts"
@@ -178,7 +178,7 @@
     "@playwright/test": "^1.61.1",
     "@prisma/client": "^6.19.0",
     "@types/node": "^24.0.0",
-    "next": "16.2.10",
+    "next": "16.2.11",
     "prettier": "^3.6.2",
     "turbo": "^2.5.8",
     "typescript": "^5.9.3"
