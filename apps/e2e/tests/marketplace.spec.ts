@@ -17,14 +17,9 @@ function mobileUrl(path = "") {
 }
 
 async function expectHealthyPage(page: Page, errors: string[]) {
-  await page.waitForLoadState("domcontentloaded");
-  await page.waitForTimeout(250);
+  await page.waitForLoadState("networkidle");
   const actionable = errors.filter((error) => {
     if (/Content Security Policy directive|violates the following Content Security Policy|Applying inline style|Executing inline script|Loading the script|Connection closed|Expected a request ID|Permissions policy violation: Geolocation access has been blocked/.test(error)) return false;
-    // Product media is sourced from supplier/manufacturer CDNs. A broken
-    // third-party certificate must exercise the image fallback, not fail the
-    // marketplace flow; API and application responses are checked separately.
-    if (/console: Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID/.test(error)) return false;
     // The public buyer deliberately falls back to its canonical catalog while the external API is unavailable.
     if (process.env.MOBILE_BASE_URL && /500 https:\/\/dentmarket-api\.vercel\.app\/api\/catalog\/(cities|search)/.test(error)) return false;
     if (process.env.MOBILE_BASE_URL && /console: Failed to load resource: the server responded with a status of 500/.test(error)) return false;
@@ -37,11 +32,8 @@ test("buyer can search and compare marketplace offers", async ({ page }) => {
   const errors = collectBrowserErrors(page);
   await page.goto("http://127.0.0.1:3001");
   await expect(page.getByRole("heading", { name: "Каталог для стоматологий" })).toBeVisible();
-  const firstCard = page.getByTestId("product-card").first();
-  await expect(firstCard).toBeVisible();
-  await expect(
-    firstCard.getByRole("button", { name: /Сравнить цены|В корзину|Смотреть предложение|Открыть карточку/ }).first(),
-  ).toBeVisible();
+  await expect(page.getByRole("button", { name: "Сравнить цены" }).first()).toBeVisible();
+  await expect(page.getByTestId("product-card").first()).toBeVisible();
   await expectHealthyPage(page, errors);
 });
 
@@ -63,8 +55,8 @@ test("buyer can use dental slang search and return to the same catalog context",
   await page.goto("http://127.0.0.1:3001/?q=%D0%BF%D0%B5%D1%80");
   await expect(page.getByRole("heading", { name: "Каталог для стоматологий" })).toBeVisible();
   await page.getByRole("searchbox", { name: "Поиск по каталогу" }).fill("пер");
-  await expect(page.getByRole("option", { name: "перчатки", exact: true })).toBeVisible();
-  await page.getByRole("option", { name: "перчатки", exact: true }).click();
+  await expect(page.getByRole("option", { name: "перчатки" })).toBeVisible();
+  await page.getByRole("option", { name: "перчатки" }).click();
   await expect(page.getByTestId("product-card").first()).toBeVisible();
   const firstCard = page.getByTestId("product-card").first();
   await firstCard.getByRole("link", { name: /Открыть карточку/ }).click();
@@ -103,14 +95,14 @@ test("active EDS agreement hides the signing action", async ({ page }) => {
 test("buyer has budgets, support and tenant-aware AI workspaces", async ({ page }) => {
   const errors = collectBrowserErrors(page);
   await page.goto("http://127.0.0.1:3001");
-  await expect(page.getByLabel("Выберите город")).toBeVisible();
+  await expect(page.getByRole("button", { name: /город/i })).toBeVisible();
   await expectHealthyPage(page, errors);
 });
 
 test("buyer receives explainable city-aware scenarios", async ({ page }) => {
   const errors = collectBrowserErrors(page);
   await page.goto("http://127.0.0.1:3001");
-  await expect(page.getByLabel("Выберите город")).toBeVisible();
+  await expect(page.getByRole("button", { name: /город/i })).toBeVisible();
   await expectHealthyPage(page, errors);
 });
 
@@ -220,12 +212,9 @@ test.describe("mobile buyer experience", () => {
       }));
       expect(dimensions.scrollWidth).toBeLessThanOrEqual(dimensions.clientWidth + 1);
       if (url.endsWith("3002") || url.endsWith("3000")) {
-        const openMenu = page.getByRole("button", { name: "Открыть меню" });
-        if (await openMenu.count()) {
-          await openMenu.dispatchEvent("click");
-          await expect(page.getByRole("button", { name: "Закрыть меню" })).toBeVisible();
-          await page.getByRole("button", { name: "Закрыть меню" }).dispatchEvent("click");
-        }
+        await page.getByRole("button", { name: "Открыть меню" }).click();
+        await expect(page.getByRole("button", { name: "Закрыть меню" })).toBeVisible();
+        await page.getByRole("button", { name: "Закрыть меню" }).click();
       }
     }
     await expectHealthyPage(page, errors);
